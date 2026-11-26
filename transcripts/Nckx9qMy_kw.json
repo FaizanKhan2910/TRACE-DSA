@@ -1,0 +1,972 @@
+[
+  {
+    "start": 4.11,
+    "duration": 7.0,
+    "text": "Hey everyone, welcome back to the channel and today we're talking about Java versus C++ for data structures and algorithms"
+  },
+  {
+    "start": 11.11,
+    "duration": 6.32,
+    "text": "Now this is a question we are getting quite a lot even in our Discord server now that we are starting our 0 to fang m"
+  },
+  {
+    "start": 18.55,
+    "duration": 5.84,
+    "text": "Complete data structures and algorithms free bootcamp. Now the short answer is it does not matter"
+  },
+  {
+    "start": 24.79,
+    "duration": 2.92,
+    "text": "There are two parts when you're first stepping into college"
+  },
+  {
+    "start": 27.71,
+    "duration": 3.18,
+    "text": "So there are two parts that people follow in order to get a nice job"
+  },
+  {
+    "start": 30.89,
+    "duration": 4.08,
+    "text": "one is the only competitive programming part. These are the people who do"
+  },
+  {
+    "start": 34.97,
+    "duration": 3.4,
+    "text": "competitive programming right from their first day of college or you know a few"
+  },
+  {
+    "start": 38.37,
+    "duration": 3.12,
+    "text": "weeks after that or whatever. They heavily focus on it, get some really"
+  },
+  {
+    "start": 41.49,
+    "duration": 4.64,
+    "text": "high rankings and then they get some really nice rankings in some of the"
+  },
+  {
+    "start": 46.13,
+    "duration": 5.6,
+    "text": "biggest competitive programming contests like ACM, ICPC, Google Code Jam,"
+  },
+  {
+    "start": 51.73,
+    "duration": 6.68,
+    "text": "Facebook Hacker Cup, Google Kickstart for example, really high you know on"
+  },
+  {
+    "start": 58.41,
+    "duration": 4.16,
+    "text": "on code forces, code chef, and ad coder or whatever."
+  },
+  {
+    "start": 62.57,
+    "duration": 2.68,
+    "text": "So this is one path and this is a path"
+  },
+  {
+    "start": 65.25,
+    "duration": 1.44,
+    "text": "that many people follow."
+  },
+  {
+    "start": 66.69,
+    "duration": 2.88,
+    "text": "And most definitely, success is success chances"
+  },
+  {
+    "start": 69.57,
+    "duration": 2.42,
+    "text": "for such people who have such higher rankings"
+  },
+  {
+    "start": 71.99,
+    "duration": 2.74,
+    "text": "in these online platforms is very high."
+  },
+  {
+    "start": 74.73,
+    "duration": 3.2,
+    "text": "Many companies directly hire them based on their profile"
+  },
+  {
+    "start": 77.93,
+    "duration": 2.72,
+    "text": "and so on and so forth."
+  },
+  {
+    "start": 80.65,
+    "duration": 1.8,
+    "text": "The second path that people follow,"
+  },
+  {
+    "start": 82.45,
+    "duration": 3.06,
+    "text": "including me that I followed was development,"
+  },
+  {
+    "start": 85.51,
+    "duration": 2.62,
+    "text": "open source work and like focusing on projects"
+  },
+  {
+    "start": 88.13,
+    "duration": 3.32,
+    "text": "and all the development work, plus data structures"
+  },
+  {
+    "start": 91.45,
+    "duration": 2.96,
+    "text": "and algorithms, plus problem solving."
+  },
+  {
+    "start": 94.41,
+    "duration": 2.72,
+    "text": "So in both of these paths, you can see"
+  },
+  {
+    "start": 97.13,
+    "duration": 2.64,
+    "text": "that data structures, algorithms, and problem solving"
+  },
+  {
+    "start": 99.77,
+    "duration": 1.04,
+    "text": "is a must."
+  },
+  {
+    "start": 100.81,
+    "duration": 2.2,
+    "text": "If I'm saying that in path number two,"
+  },
+  {
+    "start": 103.01,
+    "duration": 2.48,
+    "text": "which is the development and open source path,"
+  },
+  {
+    "start": 105.49,
+    "duration": 1.52,
+    "text": "you are not doing competitive programming."
+  },
+  {
+    "start": 107.01,
+    "duration": 2.4,
+    "text": "You're not doing the online competitions"
+  },
+  {
+    "start": 109.41,
+    "duration": 2.2,
+    "text": "or taking part in these competitive programming"
+  },
+  {
+    "start": 111.61,
+    "duration": 2.24,
+    "text": "contests, that does not mean that you will skip"
+  },
+  {
+    "start": 113.85,
+    "duration": 2.2,
+    "text": "data structures, algorithms, and problem solving."
+  },
+  {
+    "start": 116.05,
+    "duration": 1.84,
+    "text": "No, these are crucial."
+  },
+  {
+    "start": 117.89,
+    "duration": 2.64,
+    "text": "Now both of these parts are fine."
+  },
+  {
+    "start": 120.53,
+    "duration": 3.52,
+    "text": "To answer the question of Java versus C++, we'll be answering that."
+  },
+  {
+    "start": 124.05,
+    "duration": 3.12,
+    "text": "It depends on person to person and what you want to achieve."
+  },
+  {
+    "start": 127.17,
+    "duration": 2.88,
+    "text": "Some people say that CP is the only way to make it big."
+  },
+  {
+    "start": 130.05,
+    "duration": 1.0,
+    "text": "That is a lie."
+  },
+  {
+    "start": 131.05,
+    "duration": 2.62,
+    "text": "CP competitive programming is not mandatory."
+  },
+  {
+    "start": 133.67,
+    "duration": 4.1,
+    "text": "It is not like if you don't do competitive programming, you cannot make it or big fan"
+  },
+  {
+    "start": 137.77,
+    "duration": 2.96,
+    "text": "companies won't hire you, okay?"
+  },
+  {
+    "start": 140.73,
+    "duration": 5.12,
+    "text": "Many people make it via CP, like hardcore CP, some really high rankings and stars"
+  },
+  {
+    "start": 145.85,
+    "duration": 1.2,
+    "text": "and whatever."
+  },
+  {
+    "start": 147.05,
+    "duration": 6.06,
+    "text": "But the thing that is also true is most people are doing it just to get a good job."
+  },
+  {
+    "start": 153.11,
+    "duration": 3.72,
+    "text": "Most people are just doing it because it is going to be asked in the interviews."
+  },
+  {
+    "start": 156.83,
+    "duration": 5.36,
+    "text": "And that is the myth, CP will not be asked as such, DSA and problem solving is asked."
+  },
+  {
+    "start": 162.19,
+    "duration": 5.08,
+    "text": "So the core CP concepts that are like, you know, they sort of overlap with like your"
+  },
+  {
+    "start": 167.27,
+    "duration": 1.32,
+    "text": "DSA problem solving."
+  },
+  {
+    "start": 168.59,
+    "duration": 3.96,
+    "text": "So DSA problem solving, you can see comes inside of compared programming."
+  },
+  {
+    "start": 172.55,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 173.55,
+    "duration": 2.76,
+    "text": "And that is the part, like if you're only doing lead code and understanding every"
+  },
+  {
+    "start": 176.31,
+    "duration": 4.48,
+    "text": "problem clearly. And like if you, you know, watch the bootcamp that we are starting from"
+  },
+  {
+    "start": 180.79,
+    "duration": 3.88,
+    "text": "1st August, you will be clear, you will be able to clear all the interviews and you would"
+  },
+  {
+    "start": 184.67,
+    "duration": 4.96,
+    "text": "not have to be doing the company programming part during this bootcamp. Also, you will"
+  },
+  {
+    "start": 189.63,
+    "duration": 3.68,
+    "text": "be able to do company programming as well. You will get started with company programming"
+  },
+  {
+    "start": 193.31,
+    "duration": 4.44,
+    "text": "with platforms like lead code, even hard questions, hard level questions, code chef"
+  },
+  {
+    "start": 197.75,
+    "duration": 5.08,
+    "text": "and all these other platforms. Cool. The truth is not everyone can do this. Not"
+  },
+  {
+    "start": 202.83,
+    "duration": 2.04,
+    "text": "Everyone can do hardcore computer programming."
+  },
+  {
+    "start": 205.07,
+    "duration": 3.08,
+    "text": "Many people get bored, many people don't have that much motivation,"
+  },
+  {
+    "start": 208.39,
+    "duration": 2.76,
+    "text": "and many people might not have the time. For example,"
+  },
+  {
+    "start": 211.15,
+    "duration": 3.6,
+    "text": "if your third year just starting to get over, I would not recommend the,"
+  },
+  {
+    "start": 214.75,
+    "duration": 4.24,
+    "text": "you know, completely starting from scratch, computer programming path."
+  },
+  {
+    "start": 219.43,
+    "duration": 3.5,
+    "text": "I would recommend you to build projects, work with like various startups,"
+  },
+  {
+    "start": 223.47,
+    "duration": 3.0,
+    "text": "focus on your problem solving, and it has its algorithms. Okay."
+  },
+  {
+    "start": 226.71,
+    "duration": 3.08,
+    "text": "So computer programming is not everyone. And if it is not for you,"
+  },
+  {
+    "start": 229.99,
+    "duration": 2.56,
+    "text": "it does not mean you're missing out. You can totally skip it."
+  },
+  {
+    "start": 232.83,
+    "duration": 4.24,
+    "text": "Okay. But then you have to focus on your personal profile, your public profile, your"
+  },
+  {
+    "start": 237.07,
+    "duration": 5.52,
+    "text": "development profile, your GitHub, your projects, open source, and ASIP data structure algorithm"
+  },
+  {
+    "start": 242.59,
+    "duration": 6.08,
+    "text": "problem solving is a must in any of these parts. Now, I personally believe that development and"
+  },
+  {
+    "start": 248.67,
+    "duration": 4.88,
+    "text": "open source is a safer option like with more opportunities as compared to compare programming"
+  },
+  {
+    "start": 253.55,
+    "duration": 4.16,
+    "text": "that is just my personal view. And you know, you get to via this approach, you also get"
+  },
+  {
+    "start": 257.71,
+    "duration": 4.72,
+    "text": "to start earning in college, you have like so many, you know, opportunities that will come"
+  },
+  {
+    "start": 262.43,
+    "duration": 4.96,
+    "text": "your way, less risk as compared to doing just competitive programming. You might not make it"
+  },
+  {
+    "start": 267.39,
+    "duration": 3.52,
+    "text": "with competitive programming. You might make it with competitive programming, right? But with"
+  },
+  {
+    "start": 270.91,
+    "duration": 5.12,
+    "text": "data structures, algorithms and projects, and you know, the open source work, the number of"
+  },
+  {
+    "start": 276.03,
+    "duration": 3.52,
+    "text": "opportunities that will open to you, especially remote international opportunities that will"
+  },
+  {
+    "start": 279.55,
+    "duration": 5.36,
+    "text": "open for you based on your profile, that is quite quite a lot as compared to just competitive"
+  },
+  {
+    "start": 284.91,
+    "duration": 6.08,
+    "text": "programming. Cool. Now the next step is regarding like Java. So who would want to"
+  },
+  {
+    "start": 290.99,
+    "duration": 1.6,
+    "text": "to be doing Java, right?"
+  },
+  {
+    "start": 292.59,
+    "duration": 2.6,
+    "text": "So this is the topic, Java versus C++."
+  },
+  {
+    "start": 295.19,
+    "duration": 2.6,
+    "text": "So Java is great for computer programming,"
+  },
+  {
+    "start": 297.79,
+    "duration": 2.2,
+    "text": "it's great for that, it's great for problem solving,"
+  },
+  {
+    "start": 299.99,
+    "duration": 1.92,
+    "text": "it's great for your interviews,"
+  },
+  {
+    "start": 301.91,
+    "duration": 2.0,
+    "text": "and it's great for like development as well."
+  },
+  {
+    "start": 303.91,
+    "duration": 2.72,
+    "text": "So if you wanna do like, if you wanna do open source"
+  },
+  {
+    "start": 306.63,
+    "duration": 1.84,
+    "text": "and then you wanna apply to open source programs"
+  },
+  {
+    "start": 308.47,
+    "duration": 2.24,
+    "text": "like Google Summer of Code, et cetera,"
+  },
+  {
+    "start": 310.71,
+    "duration": 1.8,
+    "text": "Java is great for that."
+  },
+  {
+    "start": 312.51,
+    "duration": 2.76,
+    "text": "C++ is amazing for computer programming,"
+  },
+  {
+    "start": 315.27,
+    "duration": 2.7,
+    "text": "problem solving, and dataset algorithms as well."
+  },
+  {
+    "start": 317.97,
+    "duration": 2.94,
+    "text": "But doing development and contributing to open source"
+  },
+  {
+    "start": 320.91,
+    "duration": 2.64,
+    "text": "in C++ is a little bit difficult"
+  },
+  {
+    "start": 323.55,
+    "duration": 3.16,
+    "text": "that people like students usually face."
+  },
+  {
+    "start": 326.71,
+    "duration": 3.32,
+    "text": "Students feel like contributing to C++ open source projects."
+  },
+  {
+    "start": 330.03,
+    "duration": 3.6,
+    "text": "It is a bit difficult because the projects are very complex."
+  },
+  {
+    "start": 333.63,
+    "duration": 0.84,
+    "text": "This is true."
+  },
+  {
+    "start": 334.47,
+    "duration": 2.12,
+    "text": "I have personally seen many students reach out to me"
+  },
+  {
+    "start": 336.59,
+    "duration": 2.0,
+    "text": "like C++ projects are very hard"
+  },
+  {
+    "start": 338.59,
+    "duration": 2.2,
+    "text": "as compared to Java other projects."
+  },
+  {
+    "start": 340.79,
+    "duration": 1.76,
+    "text": "Okay, these are like mostly like system project"
+  },
+  {
+    "start": 342.55,
+    "duration": 0.84,
+    "text": "or whatever."
+  },
+  {
+    "start": 343.39,
+    "duration": 2.08,
+    "text": "I personally haven't contributed to C++ projects."
+  },
+  {
+    "start": 345.47,
+    "duration": 2.2,
+    "text": "I don't like programming in C++."
+  },
+  {
+    "start": 347.67,
+    "duration": 1.72,
+    "text": "I'm mostly like Java."
+  },
+  {
+    "start": 349.39,
+    "duration": 1.64,
+    "text": "So yeah, that's the main reason"
+  },
+  {
+    "start": 351.03,
+    "duration": 3.04,
+    "text": "like what Java you can use for and what C++"
+  },
+  {
+    "start": 354.07,
+    "duration": 2.24,
+    "text": "in terms of like data structures algorithms you can use for."
+  },
+  {
+    "start": 356.31,
+    "duration": 1.2,
+    "text": "Both of these languages are great"
+  },
+  {
+    "start": 357.51,
+    "duration": 1.72,
+    "text": "for even also computer programming"
+  },
+  {
+    "start": 359.23,
+    "duration": 2.8,
+    "text": "and like, you know, the development part."
+  },
+  {
+    "start": 362.03,
+    "duration": 1.38,
+    "text": "And in the online competitions"
+  },
+  {
+    "start": 363.41,
+    "duration": 2.18,
+    "text": "like Google Code Jam and other competitions,"
+  },
+  {
+    "start": 365.59,
+    "duration": 3.12,
+    "text": "I have seen people who use Java quite a lot."
+  },
+  {
+    "start": 368.71,
+    "duration": 2.0,
+    "text": "So if your aim is just to, you know, be a decent"
+  },
+  {
+    "start": 370.71,
+    "duration": 1.56,
+    "text": "like good computer programmer"
+  },
+  {
+    "start": 372.27,
+    "duration": 2.52,
+    "text": "and, you know, take part in all these competitions"
+  },
+  {
+    "start": 374.79,
+    "duration": 2.36,
+    "text": "and stuff, Java can definitely, you know,"
+  },
+  {
+    "start": 377.15,
+    "duration": 1.44,
+    "text": "help you with that, it's a great choice."
+  },
+  {
+    "start": 378.59,
+    "duration": 2.04,
+    "text": "Java is also being used in a lot of companies."
+  },
+  {
+    "start": 380.87,
+    "duration": 3.98,
+    "text": "So I know many people who do C++ and then, then when they do get a job in the"
+  },
+  {
+    "start": 384.85,
+    "duration": 1.96,
+    "text": "end, in the, in their role, they are doing Java."
+  },
+  {
+    "start": 387.61,
+    "duration": 2.62,
+    "text": "So it's not like C++ is not, not being used."
+  },
+  {
+    "start": 390.23,
+    "duration": 0.94,
+    "text": "It is also being used,"
+  },
+  {
+    "start": 391.45,
+    "duration": 3.02,
+    "text": "but I have seen mostly like Java is being used at a lot of places as well."
+  },
+  {
+    "start": 395.63,
+    "duration": 0.84,
+    "text": "Now,"
+  },
+  {
+    "start": 397.93,
+    "duration": 3.94,
+    "text": "I hope that gave you a bit of an understanding regarding CP versus the,"
+  },
+  {
+    "start": 402.11,
+    "duration": 3.72,
+    "text": "just the CP path and the development plus DSA plus problem solving path,"
+  },
+  {
+    "start": 405.87,
+    "duration": 0.82,
+    "text": "which is I followed."
+  },
+  {
+    "start": 406.69,
+    "duration": 8.28,
+    "text": "Fang is great. Fang M. Fang M is great, but a little bit overrated. Okay. Why do I say overrated because most of the off-campus and remote"
+  },
+  {
+    "start": 415.09,
+    "duration": 4.72,
+    "text": "Opportunities they have like great opportunities. They pay you even more than Fang M in India"
+  },
+  {
+    "start": 420.01,
+    "duration": 4.48,
+    "text": "So it's great totally agree and but it's a little bit overrated"
+  },
+  {
+    "start": 424.49,
+    "duration": 4.16,
+    "text": "It's not like it's a you know end of the world that I will only be in Fang"
+  },
+  {
+    "start": 428.65,
+    "duration": 3.36,
+    "text": "I only want to do Fang know there are better opportunities out there as well"
+  },
+  {
+    "start": 432.01,
+    "duration": 3.78,
+    "text": "There are less better opportunities out there as well, but Fang M is not the end of the world"
+  },
+  {
+    "start": 435.79,
+    "duration": 5.68,
+    "text": "Okay, it's not like a really big thing or like this is the only thing I want to do as a computer science students"
+  },
+  {
+    "start": 441.47,
+    "duration": 2.28,
+    "text": "No, there are multiple opportunities available for you"
+  },
+  {
+    "start": 444.75,
+    "duration": 5.28,
+    "text": "Most of the time in your software development or whatever in the end you would have to be do you would be doing development"
+  },
+  {
+    "start": 450.03,
+    "duration": 3.6,
+    "text": "So having a bit of experience with development in your college is great"
+  },
+  {
+    "start": 453.63,
+    "duration": 5.36,
+    "text": "And you can get a lot of opportunities via that again and again like I'm saying less risk is involved in doing"
+  },
+  {
+    "start": 459.35,
+    "duration": 5.36,
+    "text": "Development and open source as compared to just computer programming because computer programming is not for everyone"
+  },
+  {
+    "start": 464.71,
+    "duration": 3.96,
+    "text": "there's something I can say very very clearly and there are more options in"
+  },
+  {
+    "start": 468.67,
+    "duration": 3.72,
+    "text": "development so many you know parts that you can follow internships you can do"
+  },
+  {
+    "start": 472.39,
+    "duration": 3.16,
+    "text": "remote work you can do that you might not be able to with just computer"
+  },
+  {
+    "start": 475.55,
+    "duration": 3.0,
+    "text": "programming many of the biggest companies that you know amazing companies"
+  },
+  {
+    "start": 478.55,
+    "duration": 4.56,
+    "text": "remote startups in like you know US Singapore London and stuff they don't"
+  },
+  {
+    "start": 483.11,
+    "duration": 3.24,
+    "text": "even then I gave my interviews they did not even ask me computer programming"
+  },
+  {
+    "start": 486.35,
+    "duration": 4.88,
+    "text": "or DSA everything will be was focused on my open source profile cool"
+  },
+  {
+    "start": 491.23,
+    "duration": 5.8,
+    "text": "off-campus is very easy like in terms of if you're doing development and the"
+  },
+  {
+    "start": 497.03,
+    "duration": 3.6,
+    "text": "next question is should you do competitive programming only that is up to"
+  },
+  {
+    "start": 500.63,
+    "duration": 3.44,
+    "text": "you if you feel like you can be one of the biggest you know like the like the"
+  },
+  {
+    "start": 504.07,
+    "duration": 3.36,
+    "text": "many people who make it via competitive programming like under you know under two"
+  },
+  {
+    "start": 507.43,
+    "duration": 4.88,
+    "text": "digit rank like two digit rank in like big competitions and stuff only know"
+  },
+  {
+    "start": 512.31,
+    "duration": 3.16,
+    "text": "only you know about your interests so that is up to you so if you're going"
+  },
+  {
+    "start": 515.47,
+    "duration": 4.16,
+    "text": "for that hardcore stuff you can go with C++ or Java totally up to you"
+  },
+  {
+    "start": 519.63,
+    "duration": 5.92,
+    "text": "But to answer the question Java versus C++, I said it does not matter. That's true"
+  },
+  {
+    "start": 525.87,
+    "duration": 4.88,
+    "text": "Don't be limited to just one language. I can code proficiently in seven to eight languages and"
+  },
+  {
+    "start": 532.07,
+    "duration": 2.0,
+    "text": "If you do one language"
+  },
+  {
+    "start": 534.59,
+    "duration": 5.08,
+    "text": "Learning the other language is going to be very easy. For example in this bootcamp you can do Java"
+  },
+  {
+    "start": 540.63,
+    "duration": 2.64,
+    "text": "Regarding because because of all the points that I have mentioned"
+  },
+  {
+    "start": 543.27,
+    "duration": 4.36,
+    "text": "And then if you feel like you want to do C++ and go to the competitive programming route"
+  },
+  {
+    "start": 547.63,
+    "duration": 4.76,
+    "text": "That is also something this particular boot camp is going to help you with because we"
+  },
+  {
+    "start": 552.39,
+    "duration": 3.72,
+    "text": "will be heavily focusing on problem solving, solving a lot of questions."
+  },
+  {
+    "start": 556.11,
+    "duration": 4.84,
+    "text": "So in the end, if you feel like, hey, I want to do C++, I want to go down the competitive"
+  },
+  {
+    "start": 560.95,
+    "duration": 3.2,
+    "text": "programming route, then you can do C++."
+  },
+  {
+    "start": 564.15,
+    "duration": 2.92,
+    "text": "That will not take you much time because you will only also be having already be"
+  },
+  {
+    "start": 567.07,
+    "duration": 4.84,
+    "text": "having experience in working with some other programming language such as Java."
+  },
+  {
+    "start": 571.91,
+    "duration": 3.12,
+    "text": "So to answer your question, Java or C++, totally up to you."
+  },
+  {
+    "start": 575.03,
+    "duration": 7.48,
+    "text": "I mentioned all the, you know, points in this, you know, video and yeah, don't be limited"
+  },
+  {
+    "start": 582.51,
+    "duration": 4.2,
+    "text": "to one language. You can do both. I know both the languages and I like Java more. So I code"
+  },
+  {
+    "start": 586.71,
+    "duration": 5.08,
+    "text": "in Java. So don't be limited to one language. Okay. Try out different things. See what you"
+  },
+  {
+    "start": 591.79,
+    "duration": 4.84,
+    "text": "like. Every language has its own use cases. So it's not a this or that question. Totally"
+  },
+  {
+    "start": 596.63,
+    "duration": 4.76,
+    "text": "your preference. All right. Last but not least, I am not the one who can guide"
+  },
+  {
+    "start": 601.39,
+    "duration": 4.48,
+    "text": "you related to only competitive programming path. I have never followed that path and"
+  },
+  {
+    "start": 605.87,
+    "duration": 3.4,
+    "text": "I don't recommend that to people as well. But if you feel like competitive programming is"
+  },
+  {
+    "start": 609.27,
+    "duration": 4.0,
+    "text": "your thing, you want to do just competitive programming. As always, please reach out to"
+  },
+  {
+    "start": 613.27,
+    "duration": 4.86,
+    "text": "someone on LinkedIn who has made it into the into their career just via competitive"
+  },
+  {
+    "start": 618.13,
+    "duration": 3.66,
+    "text": "programming being from a tier two, tier three college, they will be able to guide"
+  },
+  {
+    "start": 621.79,
+    "duration": 3.44,
+    "text": "you much more than that. If you need guidance related to how to get all these amazing"
+  },
+  {
+    "start": 625.23,
+    "duration": 4.44,
+    "text": "opportunities, even at FANG international opportunities, remote work that some companies"
+  },
+  {
+    "start": 629.67,
+    "duration": 4.72,
+    "text": "that even pay more than fan, I can definitely help you with that by sharing my experiences."
+  },
+  {
+    "start": 634.39,
+    "duration": 1.96,
+    "text": "Make sure you subscribe and share with your friends."
+  },
+  {
+    "start": 636.35,
+    "duration": 2.84,
+    "text": "This bootcamp is starting on 1st August, we'll be doing some amazing work."
+  },
+  {
+    "start": 639.19,
+    "duration": 4.74,
+    "text": "We'll be doing guidance playlist, open source guidance and sharing more opportunities, interview"
+  },
+  {
+    "start": 643.93,
+    "duration": 3.86,
+    "text": "preparation and obviously the entire data algorithms and it will also help you in getting"
+  },
+  {
+    "start": 647.79,
+    "duration": 4.44,
+    "text": "started with compare programming platforms like code chef, code forces, lead code,"
+  },
+  {
+    "start": 652.23,
+    "duration": 1.0,
+    "text": "etc."
+  },
+  {
+    "start": 653.23,
+    "duration": 1.0,
+    "text": "Thanks a lot for watching."
+  },
+  {
+    "start": 654.23,
+    "duration": 1.0,
+    "text": "Make sure you like, share and subscribe."
+  },
+  {
+    "start": 655.23,
+    "duration": 3.0,
+    "text": "Share with your friends and check out all the links in the description so that"
+  },
+  {
+    "start": 658.23,
+    "duration": 2.8,
+    "text": "you don't miss any updates you can connect with me all the links are in the"
+  },
+  {
+    "start": 661.03,
+    "duration": 3.16,
+    "text": "description as well and make sure you join the telegram and discord channel of"
+  },
+  {
+    "start": 664.19,
+    "duration": 5.04,
+    "text": "community classroom and we'll see you in the next one"
+  }
+]

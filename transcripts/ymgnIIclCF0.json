@@ -1,0 +1,1972 @@
+[
+  {
+    "start": 3.79,
+    "duration": 5.36,
+    "text": "Hey everyone, welcome back to another video and in this video we are continuing the recursion series"
+  },
+  {
+    "start": 9.15,
+    "duration": 6.0,
+    "text": "so we've been doing like the basics and stuff and ArrayQuestions and things like that"
+  },
+  {
+    "start": 15.15,
+    "duration": 5.44,
+    "text": "so make sure you check out the links in the description, the entire playlist for the TATUSHR algorithms is given over there"
+  },
+  {
+    "start": 20.59,
+    "duration": 4.32,
+    "text": "but in this video we are actually doing patterns"
+  },
+  {
+    "start": 24.91,
+    "duration": 5.04,
+    "text": "so you know we did a video on patterns but that was without recursion"
+  },
+  {
+    "start": 29.95,
+    "duration": 3.36,
+    "text": "just using some loops and stuff which a lot of people loved"
+  },
+  {
+    "start": 33.31,
+    "duration": 6.24,
+    "text": "So in this video, I'm going to teach you how you can solve patterns via recursion and then we'll be"
+  },
+  {
+    "start": 39.55,
+    "duration": 4.72,
+    "text": "seeing like what is the use case for that because this is a question you get in interviews quite a"
+  },
+  {
+    "start": 44.27,
+    "duration": 10.24,
+    "text": "lot of times which is how can you do bubble sort and things like in selection sort via recursion,"
+  },
+  {
+    "start": 54.51,
+    "duration": 6.08,
+    "text": "you know, might be asked to sort a link list in the future using recursion and things like"
+  },
+  {
+    "start": 60.59,
+    "duration": 7.92,
+    "text": "that. So, we will see how that sort of like relates to pattern problems. So, first let"
+  },
+  {
+    "start": 68.51,
+    "duration": 4.88,
+    "text": "us try out the pattern problems then we will do bubble sort and selection sort using recursion."
+  },
+  {
+    "start": 73.39,
+    "duration": 6.28,
+    "text": "So, make sure like and subscribe and comment and we will yeah let us get started. So,"
+  },
+  {
+    "start": 79.67,
+    "duration": 6.59,
+    "text": "a question can be print this pattern. Let us say for n is equal to 4 you are printing"
+  },
+  {
+    "start": 86.26,
+    "duration": 11.16,
+    "text": "4 like the triangle for this thing, something like this, for n is equal to 4, 4 rows and"
+  },
+  {
+    "start": 97.42,
+    "duration": 4.64,
+    "text": "each row has like 1 column then 2 column then 3 columns then 4 columns."
+  },
+  {
+    "start": 102.06,
+    "duration": 4.94,
+    "text": "How can we solve this particular problem with recursion?"
+  },
+  {
+    "start": 107.0,
+    "duration": 2.16,
+    "text": "What are the 2 variables we are taking over here?"
+  },
+  {
+    "start": 109.16,
+    "duration": 2.2,
+    "text": "It is very simple."
+  },
+  {
+    "start": 111.36,
+    "duration": 2.32,
+    "text": "What are the 2 variables we are taking over here?"
+  },
+  {
+    "start": 113.68,
+    "duration": 7.04,
+    "text": "What are the two loops you were taking in the, you know, in the iterative method?"
+  },
+  {
+    "start": 120.72,
+    "duration": 2.48,
+    "text": "So in the iterative method, we were taking two loops, right?"
+  },
+  {
+    "start": 123.2,
+    "duration": 4.44,
+    "text": "There's something I'll teach you later on, like, how many loops do you need for how"
+  },
+  {
+    "start": 127.64,
+    "duration": 1.96,
+    "text": "many types of variables and stuff?"
+  },
+  {
+    "start": 129.6,
+    "duration": 4.96,
+    "text": "So this is like a little trick, so you're using two nested loop, we were using in"
+  },
+  {
+    "start": 134.56,
+    "duration": 1.0,
+    "text": "the previous exam."
+  },
+  {
+    "start": 135.56,
+    "duration": 2.84,
+    "text": "By the way, if you haven't seen the pattern video, you will not understand this."
+  },
+  {
+    "start": 138.4,
+    "duration": 1.8,
+    "text": "What is the pattern video first?"
+  },
+  {
+    "start": 140.2,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 141.2,
+    "duration": 28.92,
+    "text": "in the pattern video for this problem, we were using two for loops, right? One and then one inside it, two nested, like one nested for loop. So it's sort of like a trick. And the reason behind this, I will teach you in dynamic programming to find this is a trick. This is why this course is special. So I'll teach you this trick, like what number of variables and stuff do you need? Or what type of dimension of the array you need? Why are looking at the iterative solution or recursive solution?"
+  },
+  {
+    "start": 170.12,
+    "duration": 5.9,
+    "text": "With this trick, you will be able to convert recursion problems to iteration and iteration"
+  },
+  {
+    "start": 176.02,
+    "duration": 4.62,
+    "text": "problems to recursion like this."
+  },
+  {
+    "start": 180.64,
+    "duration": 3.68,
+    "text": "So in that particular case, you are taking like nested for loop, one for row, one for"
+  },
+  {
+    "start": 184.32,
+    "duration": 1.0,
+    "text": "column."
+  },
+  {
+    "start": 185.32,
+    "duration": 2.64,
+    "text": "Hence, here also you want to take at least, at least two."
+  },
+  {
+    "start": 187.96,
+    "duration": 3.68,
+    "text": "If we want more, we will, we will ad hoc it."
+  },
+  {
+    "start": 191.64,
+    "duration": 1.96,
+    "text": "Don't worry about it when solving problems."
+  },
+  {
+    "start": 193.6,
+    "duration": 2.6,
+    "text": "Try to see what is mandatory requirement."
+  },
+  {
+    "start": 196.2,
+    "duration": 3.24,
+    "text": "So I'll be having a function."
+  },
+  {
+    "start": 199.44,
+    "duration": 1.0,
+    "text": "Is it going to return anything?"
+  },
+  {
+    "start": 200.44,
+    "duration": 1.0,
+    "text": "No."
+  },
+  {
+    "start": 201.44,
+    "duration": 9.33,
+    "text": "printing stars. That's it. World return type. So I'm going to have row and column. Okay."
+  },
+  {
+    "start": 210.77,
+    "duration": 6.28,
+    "text": "Cool. Now what do we need to do? We need to basically print row wise. That is what you"
+  },
+  {
+    "start": 217.05,
+    "duration": 7.44,
+    "text": "want to do. Print a row new line, print a row new line, print a row new line. That's it."
+  },
+  {
+    "start": 224.49,
+    "duration": 5.64,
+    "text": "The only problem now over here is that from where do you want to start? You can either"
+  },
+  {
+    "start": 230.13,
+    "duration": 5.36,
+    "text": "start from, see the thing is there are many ways to solve one recursion problems. You can"
+  },
+  {
+    "start": 235.49,
+    "duration": 4.92,
+    "text": "start row from 0 and you can take a separate n over here, then in the base condition you"
+  },
+  {
+    "start": 240.41,
+    "duration": 5.04,
+    "text": "can say when row is equal to n, return something like that like hey, now I am at the end of"
+  },
+  {
+    "start": 245.45,
+    "duration": 3.96,
+    "text": "the line, I don't need to print anything else. So basically what I want to do is"
+  },
+  {
+    "start": 249.41,
+    "duration": 5.76,
+    "text": "this function call is going to be like hey, let me print this particular one and"
+  },
+  {
+    "start": 255.17,
+    "duration": 4.48,
+    "text": "And you can print the rest of the rest of the elements, it's going to be like, okay,"
+  },
+  {
+    "start": 259.65,
+    "duration": 2.04,
+    "text": "I'm going to print a star."
+  },
+  {
+    "start": 261.69,
+    "duration": 5.64,
+    "text": "And then it's just going to call function of row is four, let's say I'm going to start"
+  },
+  {
+    "start": 267.33,
+    "duration": 1.0,
+    "text": "with four."
+  },
+  {
+    "start": 268.33,
+    "duration": 2.92,
+    "text": "So four, three, two, one, something like that."
+  },
+  {
+    "start": 271.25,
+    "duration": 1.88,
+    "text": "And column is now equal to one."
+  },
+  {
+    "start": 273.13,
+    "duration": 4.84,
+    "text": "It's going to be like, now I'm at column number one, I can definitely so basically"
+  },
+  {
+    "start": 277.97,
+    "duration": 5.2,
+    "text": "the idea why am I doing this, I am starting, I'm trying to make things simple for you."
+  },
+  {
+    "start": 283.17,
+    "duration": 1.56,
+    "text": "That is why I start from zero."
+  },
+  {
+    "start": 284.73,
+    "duration": 4.56,
+    "text": "So initially I am going to start from 0, 4, 0."
+  },
+  {
+    "start": 289.29,
+    "duration": 4.88,
+    "text": "This row number is 4, this is 3, this is 2 and this is 1."
+  },
+  {
+    "start": 294.17,
+    "duration": 4.08,
+    "text": "You can do it otherwise as well, but just to make things simpler, I am taking this"
+  },
+  {
+    "start": 298.25,
+    "duration": 3.84,
+    "text": "as 4, this as 3, this as 2 and this as 1."
+  },
+  {
+    "start": 302.09,
+    "duration": 6.0,
+    "text": "And at every function call, I am going to keep printing the column till the column"
+  },
+  {
+    "start": 308.09,
+    "duration": 7.21,
+    "text": "is not equal to, obviously, row, makes sense, till the column is less than row."
+  },
+  {
+    "start": 315.3,
+    "duration": 2.4,
+    "text": "It's going to be like you're at 0th column right now."
+  },
+  {
+    "start": 317.7,
+    "duration": 5.86,
+    "text": "Let's see what will happen."
+  },
+  {
+    "start": 323.56,
+    "duration": 0.96,
+    "text": "0th column right now."
+  },
+  {
+    "start": 324.52,
+    "duration": 2.6,
+    "text": "It's like, hey, you're at 0th column right now."
+  },
+  {
+    "start": 327.12,
+    "duration": 1.36,
+    "text": "It's 0 less than 4."
+  },
+  {
+    "start": 328.48,
+    "duration": 1.64,
+    "text": "The current row you are at."
+  },
+  {
+    "start": 330.12,
+    "duration": 2.96,
+    "text": "This 4 basically means four column needs to be printed."
+  },
+  {
+    "start": 333.08,
+    "duration": 2.56,
+    "text": "Four stars need to be printed in that level."
+  },
+  {
+    "start": 335.64,
+    "duration": 1.6,
+    "text": "It's going to be like, yes, it is OK."
+  },
+  {
+    "start": 337.24,
+    "duration": 2.32,
+    "text": "Print a star."
+  },
+  {
+    "start": 339.56,
+    "duration": 1.84,
+    "text": "Then it's going to call the same row."
+  },
+  {
+    "start": 341.4,
+    "duration": 1.88,
+    "text": "It's going to be like, OK."
+  },
+  {
+    "start": 343.28,
+    "duration": 1.72,
+    "text": "Column is currently less than row."
+  },
+  {
+    "start": 345.0,
+    "duration": 3.12,
+    "text": "It means that more stars need"
+  },
+  {
+    "start": 348.12,
+    "duration": 7.74,
+    "text": "to be printed in the same row one is one less than four yes it is ok print is two less than"
+  },
+  {
+    "start": 355.86,
+    "duration": 9.91,
+    "text": "four yes it is print is three less than four yes it is print is four less than four no"
+  },
+  {
+    "start": 365.77,
+    "duration": 6.48,
+    "text": "it's not it's not in that case what will you do you will not call four less than four"
+  },
+  {
+    "start": 372.25,
+    "duration": 4.36,
+    "text": "what you are going to do basically is what are we going to do now we want to put a"
+  },
+  {
+    "start": 376.61,
+    "duration": 7.16,
+    "text": "new line so after this you say new line and you will call what column will again"
+  },
+  {
+    "start": 383.77,
+    "duration": 6.44,
+    "text": "start from zero column will again start from zero row will now be three that is it this"
+  },
+  {
+    "start": 390.21,
+    "duration": 5.2,
+    "text": "way it will keep on going it will be in three comma zero three comma one three comma two"
+  },
+  {
+    "start": 395.41,
+    "duration": 8.83,
+    "text": "then two comma zero two comma one then one comma zero that's it triangle done so you"
+  },
+  {
+    "start": 404.24,
+    "duration": 6.88,
+    "text": "are using two nested loops over there hence over here we are using two variables more"
+  },
+  {
+    "start": 411.12,
+    "duration": 4.36,
+    "text": "details will follow when we actually do dynamic programming because in dynamic programming we"
+  },
+  {
+    "start": 415.48,
+    "duration": 7.68,
+    "text": "will be heavily working on 2D arrays and stuff. Memoization, 2D arrays. So in that I will"
+  },
+  {
+    "start": 423.16,
+    "duration": 3.8,
+    "text": "first teach you recursion, then I'll teach you recursion plus dynamic programming, then"
+  },
+  {
+    "start": 426.96,
+    "duration": 4.64,
+    "text": "I'll teach you converting recursion to iteration and then I will teach you iteration space"
+  },
+  {
+    "start": 431.6,
+    "duration": 5.84,
+    "text": "optimized for every problem. No one else is doing this on YouTube. So that's what"
+  },
+  {
+    "start": 437.44,
+    "duration": 6.48,
+    "text": "I want to do like want to make the best running programming course at least. So let's wait"
+  },
+  {
+    "start": 443.92,
+    "duration": 4.88,
+    "text": "for that a little bit more. So more information on that will be later on, but like, I hope"
+  },
+  {
+    "start": 448.8,
+    "duration": 3.36,
+    "text": "this was able to understand that you were able to understand this like first I'm going"
+  },
+  {
+    "start": 452.16,
+    "duration": 3.48,
+    "text": "to print this line, then I'm going to print this line, then I'm going to print this line,"
+  },
+  {
+    "start": 455.64,
+    "duration": 3.8,
+    "text": "then I'm going to print this line. What is the recursive sub problem? The sub problem"
+  },
+  {
+    "start": 459.44,
+    "duration": 7.14,
+    "text": "is basically, what is the sub problem? Just printing one star, then printing the"
+  },
+  {
+    "start": 466.58,
+    "duration": 5.48,
+    "text": "remaining stars. Okay, that is the sub problem sort of a thing. I hope you're able to understand"
+  },
+  {
+    "start": 472.06,
+    "duration": 6.88,
+    "text": "how I took R and C or whatever. And yeah, now we can, now we can code this. So you can"
+  },
+  {
+    "start": 478.94,
+    "duration": 14.15,
+    "text": "create another package, I can say patterns, and I can make a file called triangle or something."
+  },
+  {
+    "start": 493.09,
+    "duration": 6.88,
+    "text": "I'm not returning anything so wide. I can say something like triangle, and I'm going"
+  },
+  {
+    "start": 499.97,
+    "duration": 5.68,
+    "text": "take row and column. Initially, it is just going to be equal to 0. Now, I am just going"
+  },
+  {
+    "start": 505.65,
+    "duration": 7.56,
+    "text": "to say that if my row is equal to equal to 0, do not do anything, just return. You do"
+  },
+  {
+    "start": 513.21,
+    "duration": 5.0,
+    "text": "not need to call any other row or column or whatever. Now, only two checks. If the"
+  },
+  {
+    "start": 518.21,
+    "duration": 10.84,
+    "text": "column is less than row, in that case just print star and call triangle, row will remain"
+  },
+  {
+    "start": 529.05,
+    "duration": 8.84,
+    "text": "the same column will be column plus 1. Otherwise entire line is finished number of columns that"
+  },
+  {
+    "start": 537.89,
+    "duration": 5.06,
+    "text": "have been printed is now equal to number of rows means you want to get a new line and"
+  },
+  {
+    "start": 542.95,
+    "duration": 4.02,
+    "text": "you want to reduce the row and reset column with 0. So now in the next line the row is"
+  },
+  {
+    "start": 546.97,
+    "duration": 7.2,
+    "text": "going to be row minus 1, row minus 1 column starts from 0. That is it. Triangle initially"
+  },
+  {
+    "start": 554.17,
+    "duration": 13.28,
+    "text": "let's say row 4 column starts from 0. Very cool. Another similar thing you can do is"
+  },
+  {
+    "start": 567.45,
+    "duration": 13.3,
+    "text": "normal triangle if you want to print a normal triangle. So instead of doing it like this,"
+  },
+  {
+    "start": 580.75,
+    "duration": 5.42,
+    "text": "if you just print it later on like when the function call is coming back, in that case"
+  },
+  {
+    "start": 586.17,
+    "duration": 12.12,
+    "text": "what will happen? For what to call triangle to call triangle to start sprinting the"
+  },
+  {
+    "start": 598.29,
+    "duration": 6.12,
+    "text": "normal triangle. Make sense. So how is this happening? It's very simple. Initially I was"
+  },
+  {
+    "start": 604.41,
+    "duration": 3.9,
+    "text": "doing like first I was printing the star, then I was moving the columns ahead and ahead"
+  },
+  {
+    "start": 608.31,
+    "duration": 8.1,
+    "text": "and ahead. Here that is not happening. It's just like, okay, let me just bring on the"
+  },
+  {
+    "start": 616.41,
+    "duration": 12.21,
+    "text": "whiteboard and explain to you. So in this case, what is happening is, similarly, the"
+  },
+  {
+    "start": 628.62,
+    "duration": 4.52,
+    "text": "same thing is happening. So you're saying that I'm going to start from let's say four"
+  },
+  {
+    "start": 633.14,
+    "duration": 4.56,
+    "text": "4 comma 0, 4 comma 1, 4 comma 2, 4 comma 3, let's start with 3 comma 0 in this particular"
+  },
+  {
+    "start": 637.7,
+    "duration": 5.52,
+    "text": "case let's say triangle 2, so let's say I start with 3 comma 0, okay, so 3 comma 0 it"
+  },
+  {
+    "start": 643.22,
+    "duration": 6.64,
+    "text": "basically says it's calling 3 comma 1 first before printing anything, then it will call"
+  },
+  {
+    "start": 649.86,
+    "duration": 11.28,
+    "text": "3 comma 2, and then it will basically say, then it will basically call, so basically"
+  },
+  {
+    "start": 661.14,
+    "duration": 4.28,
+    "text": "here you can see what is happening, it's calling all the things first and it's"
+  },
+  {
+    "start": 665.42,
+    "duration": 6.36,
+    "text": "only executing the print state. It's very simple. This is people who understand from"
+  },
+  {
+    "start": 671.78,
+    "duration": 5.04,
+    "text": "where the function calls exist exit can understand this. So as you can see triangle this this"
+  },
+  {
+    "start": 676.82,
+    "duration": 5.64,
+    "text": "particular line this particular line it will only execute when the function is removing"
+  },
+  {
+    "start": 682.46,
+    "duration": 6.88,
+    "text": "from the stack. Why? Because either this will execute or this will execute. Hence"
+  },
+  {
+    "start": 689.34,
+    "duration": 4.48,
+    "text": "the next line will only execute when the previous function has finished executing"
+  },
+  {
+    "start": 693.82,
+    "duration": 5.4,
+    "text": "And you know that these functions are staying in the stack, they will never finish executing."
+  },
+  {
+    "start": 699.22,
+    "duration": 3.68,
+    "text": "They will not finish executing till the below function calls that till the base condition"
+  },
+  {
+    "start": 702.9,
+    "duration": 1.8,
+    "text": "is finished executing."
+  },
+  {
+    "start": 704.7,
+    "duration": 4.28,
+    "text": "Only when the function call is popped off, these lines will be executed."
+  },
+  {
+    "start": 708.98,
+    "duration": 3.08,
+    "text": "So here you can see three comma zero will be called and then then this will be called."
+  },
+  {
+    "start": 712.06,
+    "duration": 2.44,
+    "text": "This will be like this base condition just return it."
+  },
+  {
+    "start": 714.5,
+    "duration": 1.0,
+    "text": "Nothing will happen."
+  },
+  {
+    "start": 715.5,
+    "duration": 1.16,
+    "text": "Now this is one comma zero."
+  },
+  {
+    "start": 716.66,
+    "duration": 3.28,
+    "text": "So one comma zero is what one comma zero is this thing."
+  },
+  {
+    "start": 719.94,
+    "duration": 2.4,
+    "text": "So it will print this thing."
+  },
+  {
+    "start": 722.34,
+    "duration": 1.16,
+    "text": "It will print it."
+  },
+  {
+    "start": 723.5,
+    "duration": 4.48,
+    "text": "So the star will be printed like this, first of all, a new line will be printed."
+  },
+  {
+    "start": 727.98,
+    "duration": 2.04,
+    "text": "That's why we were seeing like an extra new line."
+  },
+  {
+    "start": 730.02,
+    "duration": 1.36,
+    "text": "Single star is printed like this."
+  },
+  {
+    "start": 731.38,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 732.38,
+    "duration": 1.0,
+    "text": "Now we'll go back."
+  },
+  {
+    "start": 733.38,
+    "duration": 1.0,
+    "text": "You like, okay."
+  },
+  {
+    "start": 734.38,
+    "duration": 1.0,
+    "text": "Let me go back."
+  },
+  {
+    "start": 735.38,
+    "duration": 5.36,
+    "text": "Now once it goes back, you can see it actually will remove from where it will remove from"
+  },
+  {
+    "start": 740.74,
+    "duration": 2.5,
+    "text": "here because the zero is here."
+  },
+  {
+    "start": 743.24,
+    "duration": 4.1,
+    "text": "So we have the zero here as well, the zero thing."
+  },
+  {
+    "start": 747.34,
+    "duration": 2.88,
+    "text": "That's why it will remove from where the zero was called."
+  },
+  {
+    "start": 750.22,
+    "duration": 1.0,
+    "text": "It was this."
+  },
+  {
+    "start": 751.22,
+    "duration": 8.16,
+    "text": "line will be available okay let me just bring up my whiteboard okay so now a new line will"
+  },
+  {
+    "start": 759.38,
+    "duration": 5.04,
+    "text": "be available now we are in the 2 comma 1 so in 2 comma 1 it will be like again line number"
+  },
+  {
+    "start": 764.42,
+    "duration": 6.4,
+    "text": "line number 14 it will print it okay then it will be back to 2 comma 0 2 comma 0 is"
+  },
+  {
+    "start": 770.82,
+    "duration": 7.84,
+    "text": "what 2 comma 0 is again the line number 14 it's getting back from here so it will"
+  },
+  {
+    "start": 778.66,
+    "duration": 6.6,
+    "text": "spend in the same line and after that it will be like 3,2 so you can see in 3,2 it is actually"
+  },
+  {
+    "start": 785.26,
+    "duration": 6.44,
+    "text": "like this when it goes out and this comes out it is going to come out from 3,2 and"
+  },
+  {
+    "start": 791.7,
+    "duration": 7.08,
+    "text": "in where 3,2 the 0 condition was hit in 3,2 let us say this is 3 and this is 2 then we"
+  },
+  {
+    "start": 798.78,
+    "duration": 8.04,
+    "text": "know that this is 2,0 it will come out of here hence new line, new line similarly"
+  },
+  {
+    "start": 806.82,
+    "duration": 7.68,
+    "text": "for three like this. That's why it's printing a normal triangle. So we'll try to run it"
+  },
+  {
+    "start": 814.5,
+    "duration": 4.04,
+    "text": "on pen and paper. We'll be able to understand but it's pretty easy. But in order to make"
+  },
+  {
+    "start": 818.54,
+    "duration": 7.24,
+    "text": "you understand one more thing, let me show you something cool. Now remember how we"
+  },
+  {
+    "start": 825.78,
+    "duration": 6.64,
+    "text": "did bubble sort? Isn't this question number one exactly the same as bubble sort? Isn't"
+  },
+  {
+    "start": 832.42,
+    "duration": 4.6,
+    "text": "this bubble sort? What was happening in bubble sort? We're comparing like the adjacent"
+  },
+  {
+    "start": 837.02,
+    "duration": 6.28,
+    "text": "elements, stuff like that. And after every pass, the largest element was going at the"
+  },
+  {
+    "start": 843.3,
+    "duration": 4.12,
+    "text": "end. Why am I explaining this? I have already made a video on bubble sort. Check it out."
+  },
+  {
+    "start": 847.42,
+    "duration": 5.88,
+    "text": "Okay. Watch that video. You will understand. So this is exactly like bubble sort. This"
+  },
+  {
+    "start": 853.3,
+    "duration": 5.28,
+    "text": "entire, this entire loop, it's like four basically means check the entire array. And"
+  },
+  {
+    "start": 858.58,
+    "duration": 5.04,
+    "text": "if this is greater than this, you can swap. This is greater than this swap. This is"
+  },
+  {
+    "start": 863.62,
+    "duration": 4.28,
+    "text": "greater than this or whatever swap largest element will be at the end then when the next"
+  },
+  {
+    "start": 867.9,
+    "duration": 3.68,
+    "text": "recursion call runs when you're running for this particular row do the same thing then"
+  },
+  {
+    "start": 871.58,
+    "duration": 4.88,
+    "text": "the second largest element will come over here then in the next this this particular row"
+  },
+  {
+    "start": 876.46,
+    "duration": 3.32,
+    "text": "third largest element will come over here largest element will remain over here isn't"
+  },
+  {
+    "start": 879.78,
+    "duration": 4.28,
+    "text": "this bubble sort what do you want me to explain in this is exactly the same thing"
+  },
+  {
+    "start": 884.06,
+    "duration": 6.8,
+    "text": "we did previously this is bubble sort right this is bubble sort entire working is explained"
+  },
+  {
+    "start": 890.86,
+    "duration": 4.96,
+    "text": "already? Do you want me to explain like make another video on bubble sort when one video"
+  },
+  {
+    "start": 895.82,
+    "duration": 6.24,
+    "text": "is already being made? This is bubble sort. So whenever an entire row is running, instead"
+  },
+  {
+    "start": 902.06,
+    "duration": 10.64,
+    "text": "of just printing check whether column is greater than column plus one. If it is swap copy pasting"
+  },
+  {
+    "start": 912.7,
+    "duration": 4.28,
+    "text": "make sense? What else do you want me to explain like what else can I explain over"
+  },
+  {
+    "start": 916.98,
+    "duration": 6.42,
+    "text": "here that I haven't I haven't already explained, when you do a dry run we can do a dry run"
+  },
+  {
+    "start": 923.4,
+    "duration": 7.16,
+    "text": "if you want, so we can do a dry run something like this, let's say I have, let's say we"
+  },
+  {
+    "start": 930.56,
+    "duration": 6.0,
+    "text": "have 4, 3, 2, 1 okay, so our elements is going to start from like 4 comma 0, some at"
+  },
+  {
+    "start": 936.56,
+    "duration": 4.64,
+    "text": "the 0th index is 0 less than 4, yes it is, then check is 4 greater than 3, yes"
+  },
+  {
+    "start": 941.2,
+    "duration": 7.24,
+    "text": "it is, swap it and then it's going to be like I'm now at index number 1, now"
+  },
+  {
+    "start": 948.44,
+    "duration": 5.8,
+    "text": "is 1 less than 4, yes it is, which is similarly the same thing we did for pattern, check whether"
+  },
+  {
+    "start": 954.24,
+    "duration": 7.2,
+    "text": "now this will be actually 3, 4, 2, 1, check whether 4 is greater than 2, yes it is, swap"
+  },
+  {
+    "start": 961.44,
+    "duration": 7.48,
+    "text": "3, 2, 4, 1, this will now be recursion call 4 comma 2, you are at index number 2 now,"
+  },
+  {
+    "start": 968.92,
+    "duration": 7.92,
+    "text": "is 4 greater than the next one, yes it is, swap 3, 2, 1, 4, you are now at for"
+  },
+  {
+    "start": 976.84,
+    "duration": 10.13,
+    "text": "4 comma 3. And after that, you're just going to say that this was 0, and this is for 1,"
+  },
+  {
+    "start": 986.97,
+    "duration": 21.33,
+    "text": "this is for 2, this is for 3. So if column is less than 1 second, no, this works fine."
+  },
+  {
+    "start": 1008.3,
+    "duration": 5.0,
+    "text": "In this case, we would have to take let's say, then we would have to take, because"
+  },
+  {
+    "start": 1013.3,
+    "duration": 7.58,
+    "text": "otherwise it will give out of bound exception. So what we can do is, we can take this"
+  },
+  {
+    "start": 1020.88,
+    "duration": 7.48,
+    "text": "this as the last index, this as the last index. So you can take this as a last index, you can"
+  },
+  {
+    "start": 1028.36,
+    "duration": 9.2,
+    "text": "say 3 comma 0, 3 comma 1, 3 comma 2, can take this as a last index. Okay, cool, because"
+  },
+  {
+    "start": 1037.56,
+    "duration": 2.76,
+    "text": "we want to skip this thing, right? Whenever our pointer reaches this, we don't want"
+  },
+  {
+    "start": 1040.32,
+    "duration": 8.84,
+    "text": "to do it. That's why I just reduce the row value by 1. And that's it. After that,"
+  },
+  {
+    "start": 1049.16,
+    "duration": 3.98,
+    "text": "going to be like, okay, one time is done. As you can see, after one pass, largest element"
+  },
+  {
+    "start": 1053.14,
+    "duration": 6.28,
+    "text": "is at the end, not to be like the new line one. So new line is basically two comma zero."
+  },
+  {
+    "start": 1059.42,
+    "duration": 9.8,
+    "text": "Right. Then it will sort this one. That's it. How simple was this? Very simple. That"
+  },
+  {
+    "start": 1069.22,
+    "duration": 6.26,
+    "text": "is exactly what we're doing. And one, one more thing I want to share with you is"
+  },
+  {
+    "start": 1075.48,
+    "duration": 5.56,
+    "text": "You will be asking Kunal how is this sorting the original array objects and references."
+  },
+  {
+    "start": 1081.04,
+    "duration": 1.72,
+    "text": "We did this entire thing."
+  },
+  {
+    "start": 1082.76,
+    "duration": 5.32,
+    "text": "I have a dedicated video on how arrays work in recursion in the previous section."
+  },
+  {
+    "start": 1088.08,
+    "duration": 4.0,
+    "text": "Just a video before this I made was dedicated to arrays working in recursion."
+  },
+  {
+    "start": 1092.08,
+    "duration": 4.76,
+    "text": "In detail I explained how the memory management works, how arrays are passed, how arrays"
+  },
+  {
+    "start": 1096.84,
+    "duration": 4.12,
+    "text": "are returned, how arrays are created inside the body."
+  },
+  {
+    "start": 1100.96,
+    "duration": 3.8,
+    "text": "That is exactly the same thing happening over here with every recursion call."
+  },
+  {
+    "start": 1104.76,
+    "duration": 4.02,
+    "text": "same thing in the previous video we did many reference variables pointing to the same object."
+  },
+  {
+    "start": 1108.78,
+    "duration": 4.88,
+    "text": "So if you do the swap thing via any reference variable any other reference variable different"
+  },
+  {
+    "start": 1113.66,
+    "duration": 4.4,
+    "text": "reference variables it's going to swap the original object because object is not changing"
+  },
+  {
+    "start": 1118.06,
+    "duration": 3.96,
+    "text": "because we are passing the array in the parameter if you pass the array in the creator and"
+  },
+  {
+    "start": 1122.02,
+    "duration": 3.48,
+    "text": "array in the body it will create a new why am I explaining this again and again"
+  },
+  {
+    "start": 1125.5,
+    "duration": 4.72,
+    "text": "we created a new new array in the body right the new object of array an example"
+  },
+  {
+    "start": 1130.22,
+    "duration": 3.16,
+    "text": "entire example for this is given in the previous video check it out."
+  },
+  {
+    "start": 1133.38,
+    "duration": 5.96,
+    "text": "So I believe I've done like 10, 20, so many questions already on passing array in arguments"
+  },
+  {
+    "start": 1139.34,
+    "duration": 5.02,
+    "text": "and how leading with that many reference variables point to the original object."
+  },
+  {
+    "start": 1144.36,
+    "duration": 4.65,
+    "text": "Hence the original array will be modified."
+  },
+  {
+    "start": 1149.01,
+    "duration": 1.0,
+    "text": "Let's code this thing."
+  },
+  {
+    "start": 1150.01,
+    "duration": 4.04,
+    "text": "So I'm going to do a nice little copy paste."
+  },
+  {
+    "start": 1154.05,
+    "duration": 1.0,
+    "text": "That's it."
+  },
+  {
+    "start": 1155.05,
+    "duration": 6.67,
+    "text": "Copy paste bubble sort."
+  },
+  {
+    "start": 1161.72,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 1162.72,
+    "duration": 1.0,
+    "text": "That looks good."
+  },
+  {
+    "start": 1163.72,
+    "duration": 4.36,
+    "text": "I don't need to print a new line or whatever and I don't need to print this either."
+  },
+  {
+    "start": 1168.08,
+    "duration": 7.4,
+    "text": "of printing, what do I need to do? I just need to swap. So basically if one more thing"
+  },
+  {
+    "start": 1175.48,
+    "duration": 12.88,
+    "text": "I need to have a array, I have an array like this array array. So if the array of column"
+  },
+  {
+    "start": 1188.36,
+    "duration": 14.04,
+    "text": "is actually oops less than, no, this is greater than the next element column plus, right?"
+  },
+  {
+    "start": 1202.4,
+    "duration": 5.4,
+    "text": "that case, just do a little swap. As you can see, objects and reference variables and whatever"
+  },
+  {
+    "start": 1207.8,
+    "duration": 4.72,
+    "text": "that way, that's why it will definitely swap it because many reference variables, many"
+  },
+  {
+    "start": 1212.52,
+    "duration": 3.4,
+    "text": "reference variables, any function calls or whatever explained it in detail in previous"
+  },
+  {
+    "start": 1215.92,
+    "duration": 13.66,
+    "text": "lecture. So check it out. This is swapped. That's it. Nothing else needs to be changed."
+  },
+  {
+    "start": 1229.58,
+    "duration": 10.83,
+    "text": "That is it. Okay. So let's say if I want to sort this thing for three, two, one,"
+  },
+  {
+    "start": 1240.41,
+    "duration": 7.24,
+    "text": "and I can just say bubble sort array and the last index is got last index is array dot length"
+  },
+  {
+    "start": 1247.65,
+    "duration": 6.8,
+    "text": "minus 1 column starts from 0 after that print the array arrays dot true string also mentioned"
+  },
+  {
+    "start": 1254.45,
+    "duration": 7.12,
+    "text": "in the arrays lecture what is true string and stuff let me just hide this thing you"
+  },
+  {
+    "start": 1261.57,
+    "duration": 4.24,
+    "text": "can also debug it if you want debug every question I am not debugging every question"
+  },
+  {
+    "start": 1265.81,
+    "duration": 5.64,
+    "text": "because it's simple and it's similar same thing okay that's why I'm not"
+  },
+  {
+    "start": 1271.45,
+    "duration": 5.36,
+    "text": "debugging every question but you have to otherwise you will not know get the"
+  },
+  {
+    "start": 1276.81,
+    "duration": 16.11,
+    "text": "confidence in recursion 1 2 3 4 sorted cool easy peasy all right now maybe we"
+  },
+  {
+    "start": 1292.92,
+    "duration": 3.56,
+    "text": "can do we can try selection sort as well now I want you to try selection sort"
+  },
+  {
+    "start": 1296.48,
+    "duration": 3.28,
+    "text": "yourself if you ask me what is selection sort you can't do anything"
+  },
+  {
+    "start": 1299.76,
+    "duration": 5.52,
+    "text": "then okay because I have already made a video on that so check it out I know it gets repetitive"
+  },
+  {
+    "start": 1305.28,
+    "duration": 3.88,
+    "text": "but I have to be repetitive because people ask these questions in the chat someone was"
+  },
+  {
+    "start": 1309.16,
+    "duration": 6.0,
+    "text": "asking the other day Kunal can you please explain what are arrays really made an entire"
+  },
+  {
+    "start": 1315.16,
+    "duration": 6.89,
+    "text": "video on arrays so I have to I have to repeat it because people who I don't know what's"
+  },
+  {
+    "start": 1322.05,
+    "duration": 5.96,
+    "text": "wrong you know like I've made everything but still they anyway so using the same approach"
+  },
+  {
+    "start": 1328.01,
+    "duration": 3.76,
+    "text": "selection sort how can you do it what is selection sort first of all take the"
+  },
+  {
+    "start": 1331.77,
+    "duration": 3.28,
+    "text": "largest element in the entire array put it at the last element then take the"
+  },
+  {
+    "start": 1335.05,
+    "duration": 3.84,
+    "text": "second last element in the remaining array put it at the second last index"
+  },
+  {
+    "start": 1338.89,
+    "duration": 6.06,
+    "text": "okay for example if i take an array like this"
+  },
+  {
+    "start": 1344.95,
+    "duration": 7.2,
+    "text": "four three two eight one something like that what is selection sort"
+  },
+  {
+    "start": 1352.15,
+    "duration": 3.04,
+    "text": "take the largest element from this array which is eight put it at the"
+  },
+  {
+    "start": 1355.19,
+    "duration": 4.72,
+    "text": "last element swap it with the last element"
+  },
+  {
+    "start": 1359.91,
+    "duration": 4.8,
+    "text": "remaining array is this, take the largest element and swap it with the last element,"
+  },
+  {
+    "start": 1364.71,
+    "duration": 8.0,
+    "text": "largest is this swap, 1, 3, 2, 4, 8, remaining is this, take the largest from this, this"
+  },
+  {
+    "start": 1372.71,
+    "duration": 5.8,
+    "text": "is the largest, swap with the largest, footstops swap with the last element in this part,"
+  },
+  {
+    "start": 1378.51,
+    "duration": 7.04,
+    "text": "1, 2, 3, 4, 8, remaining is this, largest is this, swap it with the last, it will"
+  },
+  {
+    "start": 1385.55,
+    "duration": 8.6,
+    "text": "remain as it is. Then remaining is this. That's it. One, two, three, four, eight, answer. As"
+  },
+  {
+    "start": 1394.15,
+    "duration": 4.68,
+    "text": "simple as that. We did this previously as well. We're just running a simple linear search"
+  },
+  {
+    "start": 1398.83,
+    "duration": 3.72,
+    "text": "and finding the largest element and that's it. How can we do this in recursion? It's"
+  },
+  {
+    "start": 1402.55,
+    "duration": 4.16,
+    "text": "exactly the same thing. Okay. So basically what we want to do is in the bubble sort"
+  },
+  {
+    "start": 1406.71,
+    "duration": 4.48,
+    "text": "problem, as you can see, when we were coming out of this part, when we were adding a"
+  },
+  {
+    "start": 1411.19,
+    "duration": 5.28,
+    "text": "a new line, that means that we have searched the entire array. And we just need to then"
+  },
+  {
+    "start": 1416.47,
+    "duration": 7.52,
+    "text": "swap it with the last element. Okay, so this is, if this row is equal to four, and I found"
+  },
+  {
+    "start": 1423.99,
+    "duration": 4.32,
+    "text": "the largest element, let's say in this part of the function calls or whatever, whenever"
+  },
+  {
+    "start": 1428.31,
+    "duration": 3.76,
+    "text": "you're, you know, like traversing the entire row, and in bubble sort also we traverse"
+  },
+  {
+    "start": 1432.07,
+    "duration": 3.92,
+    "text": "the entire row. So instead of traversing the instead of swapping while traversing"
+  },
+  {
+    "start": 1435.99,
+    "duration": 4.72,
+    "text": "the entire row, we can just maintain, what is the maximum element in that row?"
+  },
+  {
+    "start": 1440.71,
+    "duration": 5.6,
+    "text": "And when that happens, I can just swap that maximum index with which index, row minus one,"
+  },
+  {
+    "start": 1446.31,
+    "duration": 5.36,
+    "text": "because which is the last index in this row, three, which is four minus one, which is the"
+  },
+  {
+    "start": 1451.67,
+    "duration": 4.96,
+    "text": "last index in the second row, two, because three minus one, which is the last index"
+  },
+  {
+    "start": 1456.63,
+    "duration": 4.96,
+    "text": "in this row, one, because two minus one, which is the last index in this row, zero,"
+  },
+  {
+    "start": 1461.59,
+    "duration": 6.48,
+    "text": "because one minus one, that's what we want to do that is it, but the real question"
+  },
+  {
+    "start": 1468.07,
+    "duration": 7.68,
+    "text": "how are you going to maintain which item is maximum? How can we do it? So basically this"
+  },
+  {
+    "start": 1475.75,
+    "duration": 6.4,
+    "text": "is where you have to think about all the things I have taught you. We need to maintain a maximum"
+  },
+  {
+    "start": 1482.15,
+    "duration": 4.28,
+    "text": "index. We need to check, hey, whether let me change my color to blue. We need to check"
+  },
+  {
+    "start": 1486.43,
+    "duration": 3.96,
+    "text": "whether, hey, is this element the maximum so far? Is this element the maximum so"
+  },
+  {
+    "start": 1490.39,
+    "duration": 3.68,
+    "text": "far? It's going to be like, hey, future recursion calls. Let's say this is the"
+  },
+  {
+    "start": 1494.07,
+    "duration": 4.08,
+    "text": "maximum so far please check if you have another maximum or not future recursion"
+  },
+  {
+    "start": 1498.15,
+    "duration": 2.46,
+    "text": "calls are going to be like okay let me check they're going to be like okay"
+  },
+  {
+    "start": 1500.61,
+    "duration": 4.34,
+    "text": "yours is the maximum this one is going to be like oh no my is the maximum so you"
+  },
+  {
+    "start": 1504.95,
+    "duration": 5.04,
+    "text": "can see this maximum index is being passed on to recursion calls the maximum"
+  },
+  {
+    "start": 1509.99,
+    "duration": 5.32,
+    "text": "index is being passed to future calls and we already have been doing this I"
+  },
+  {
+    "start": 1515.31,
+    "duration": 4.6,
+    "text": "made a dedicated view on this I've made a first video on this which variables"
+  },
+  {
+    "start": 1519.91,
+    "duration": 4.14,
+    "text": "are passed to below function calls are they the local variables created in the"
+  },
+  {
+    "start": 1524.05,
+    "duration": 5.8,
+    "text": "function or are they the argument variables you tell me I did a entire question set on"
+  },
+  {
+    "start": 1529.85,
+    "duration": 4.56,
+    "text": "this as well in the previous video I did an entire list example on this creating objects"
+  },
+  {
+    "start": 1534.41,
+    "duration": 4.4,
+    "text": "and stuff and passing those objects as well I did that using the add all function simple"
+  },
+  {
+    "start": 1538.81,
+    "duration": 4.68,
+    "text": "question which variables are the ones that I can use to pass in the future recursion"
+  },
+  {
+    "start": 1543.49,
+    "duration": 5.48,
+    "text": "calls arguments once if I put something in the argument of the function and I call"
+  },
+  {
+    "start": 1548.97,
+    "duration": 3.28,
+    "text": "that in the recursion call it will be passed on that the recursion call very simple"
+  },
+  {
+    "start": 1552.25,
+    "duration": 5.68,
+    "text": "Since we have done already so many complex questions, are lists and stuff, this should"
+  },
+  {
+    "start": 1557.93,
+    "duration": 2.24,
+    "text": "be very easy for you, right?"
+  },
+  {
+    "start": 1560.17,
+    "duration": 3.32,
+    "text": "So it was the main trick where people may have doubt, where are you maintaining this"
+  },
+  {
+    "start": 1563.49,
+    "duration": 1.0,
+    "text": "max element?"
+  },
+  {
+    "start": 1564.49,
+    "duration": 3.68,
+    "text": "I'm like, hey, whatever the max element is so far, I want it to be shared to other"
+  },
+  {
+    "start": 1568.17,
+    "duration": 2.88,
+    "text": "people as well in this in this row."
+  },
+  {
+    "start": 1571.05,
+    "duration": 8.64,
+    "text": "Hence, I'm saying that, you know, I'm going to pass it in the argument because I want"
+  },
+  {
+    "start": 1579.69,
+    "duration": 1.2,
+    "text": "to give it to other people."
+  },
+  {
+    "start": 1580.89,
+    "duration": 4.88,
+    "text": "So, basically when I made this function call, it's going to be like something like this."
+  },
+  {
+    "start": 1585.77,
+    "duration": 5.56,
+    "text": "It's going to be something like this, 4 and I'm at column number 0, maximum let's say"
+  },
+  {
+    "start": 1591.33,
+    "duration": 1.6,
+    "text": "currently is 0."
+  },
+  {
+    "start": 1592.93,
+    "duration": 6.16,
+    "text": "This is row, column, maximum, then it's going to be like hey, if you're at like 4, 3,"
+  },
+  {
+    "start": 1599.09,
+    "duration": 3.84,
+    "text": "2, 1, it's going to be like you're over here, is 4 greater than the maximum you"
+  },
+  {
+    "start": 1602.93,
+    "duration": 1.0,
+    "text": "have so far?"
+  },
+  {
+    "start": 1603.93,
+    "duration": 2.6,
+    "text": "It's going to be like yes it is, then it's going to make a function call for"
+  },
+  {
+    "start": 1606.53,
+    "duration": 6.15,
+    "text": "column number one, but maximum so far now it's going to be equal to four. And three is"
+  },
+  {
+    "start": 1612.68,
+    "duration": 5.48,
+    "text": "going to be like, hey, is this like less than the maximum maximum you have so far. So this"
+  },
+  {
+    "start": 1618.16,
+    "duration": 4.44,
+    "text": "checking that is being done maximum so far that you got from previous from where are"
+  },
+  {
+    "start": 1622.6,
+    "duration": 4.28,
+    "text": "we getting this previous stuff here, because since I passed it into the argument, it"
+  },
+  {
+    "start": 1626.88,
+    "duration": 3.92,
+    "text": "is now being passed to future function calls. If I update it somewhere, if this"
+  },
+  {
+    "start": 1630.8,
+    "duration": 3.6,
+    "text": "has like eight, then I'm over here, it's going to be like, hey, is eight greater"
+  },
+  {
+    "start": 1634.4,
+    "duration": 5.4,
+    "text": "than the maximum so far is going to be like yes it is then I am going to just call 428."
+  },
+  {
+    "start": 1639.8,
+    "duration": 9.4,
+    "text": "Now this 8 will be passed over here when I call for 1, okay sorry 438, 1 was missing"
+  },
+  {
+    "start": 1649.2,
+    "duration": 6.26,
+    "text": "for this one, okay sound good?"
+  },
+  {
+    "start": 1655.46,
+    "duration": 4.12,
+    "text": "So basically that is what we are doing, 0, 1, 2, 3."
+  },
+  {
+    "start": 1659.58,
+    "duration": 4.28,
+    "text": "Now you are at index number, index number 1, so you are like hey, sorry index number"
+  },
+  {
+    "start": 1663.86,
+    "duration": 4.88,
+    "text": "number three and you like is one greater than eight, like the maximum so far, it's gonna"
+  },
+  {
+    "start": 1668.74,
+    "duration": 5.28,
+    "text": "be like, no, it's not. If I just put max so far inside the function body, how can I pass"
+  },
+  {
+    "start": 1674.02,
+    "duration": 5.24,
+    "text": "that? How can I pass that into the future function calls? Can't do it. Whenever it's"
+  },
+  {
+    "start": 1679.26,
+    "duration": 4.88,
+    "text": "basic simple algorithm, whenever you need to pass any variable in future function"
+  },
+  {
+    "start": 1684.14,
+    "duration": 6.04,
+    "text": "calls, put it in the argument. That's it. It's very simple trick. Okay, if you're"
+  },
+  {
+    "start": 1690.18,
+    "duration": 3.16,
+    "text": "still having doubts watch the previous array video it will clear watch the"
+  },
+  {
+    "start": 1693.34,
+    "duration": 3.2,
+    "text": "entire recursion video do do watch the first video it will actually teach you"
+  },
+  {
+    "start": 1696.54,
+    "duration": 6.16,
+    "text": "how to think let's do this thing then let's code it selection sort okay so I"
+  },
+  {
+    "start": 1702.7,
+    "duration": 3.2,
+    "text": "can make selection sort I am again going to be copy pasting"
+  },
+  {
+    "start": 1705.9,
+    "duration": 9.86,
+    "text": "copy paste it's all copy pasting because algorithm is same selection sort"
+  },
+  {
+    "start": 1715.76,
+    "duration": 8.08,
+    "text": "selection sort, I'm going to add an array over here. Okay, and I'm going to add a maximum"
+  },
+  {
+    "start": 1723.84,
+    "duration": 5.04,
+    "text": "value over here. And this row is what this particular loop is what for the current row,"
+  },
+  {
+    "start": 1728.88,
+    "duration": 5.48,
+    "text": "for the current row, I need to maintain a maximum, I'm going to say that if the array"
+  },
+  {
+    "start": 1734.36,
+    "duration": 6.24,
+    "text": "of column, the column that I'm currently at greater than the maximum that I already"
+  },
+  {
+    "start": 1740.6,
+    "duration": 8.85,
+    "text": "by the way this maximum I was taking as index okay so over here I'm taking it as index here"
+  },
+  {
+    "start": 1749.45,
+    "duration": 4.8,
+    "text": "that you can see one second let me show you my whiteboard this for simplicity I'm taking"
+  },
+  {
+    "start": 1754.25,
+    "duration": 4.4,
+    "text": "as index so whenever I start a new line I'm going to assume that the zeroth index is"
+  },
+  {
+    "start": 1758.65,
+    "duration": 10.99,
+    "text": "maximum okay cool so yeah so if this is maximum then I'm just gonna say okay I'm"
+  },
+  {
+    "start": 1769.64,
+    "duration": 4.16,
+    "text": "gonna update the maximum array will remain as it is row will remain as it is column"
+  },
+  {
+    "start": 1773.8,
+    "duration": 8.96,
+    "text": "will be plus 1, maximum will now be equal to column, which is c. Otherwise, maximum will"
+  },
+  {
+    "start": 1782.76,
+    "duration": 11.66,
+    "text": "not change, maximum will remain what it was. That is it, that is it. Once you have evaluated"
+  },
+  {
+    "start": 1794.42,
+    "duration": 9.08,
+    "text": "the entire line, it means that now you have a maximum. So, I am just going to swap."
+  },
+  {
+    "start": 1803.5,
+    "duration": 5.0,
+    "text": "Swap with what? The last element in that particular row which is equal to what? Row"
+  },
+  {
+    "start": 1808.5,
+    "duration": 6.12,
+    "text": "row number minus 1 already discussed it for 4 and the value is 4 for the very first row,"
+  },
+  {
+    "start": 1814.62,
+    "duration": 4.24,
+    "text": "what is the last element 4 minus 1 3, I did this like an entire thing and I just showed"
+  },
+  {
+    "start": 1818.86,
+    "duration": 10.89,
+    "text": "it on whiteboard, this one, this one for this row number 4 last element is 4 minus 1 R minus"
+  },
+  {
+    "start": 1829.75,
+    "duration": 1.0,
+    "text": "1."
+  },
+  {
+    "start": 1830.75,
+    "duration": 9.93,
+    "text": "So, I am just going to say I am going to swap this with row minus 1 is equal to"
+  },
+  {
+    "start": 1840.68,
+    "duration": 6.52,
+    "text": "array of max, array of max is equal to m. So now that I have swapped, I will now be"
+  },
+  {
+    "start": 1847.2,
+    "duration": 5.6,
+    "text": "at the new line. For the new line, what will happen? Array will remain as it is, row will"
+  },
+  {
+    "start": 1852.8,
+    "duration": 4.08,
+    "text": "be row minus one column will start from zero. Similarly, the same thing we have been doing"
+  },
+  {
+    "start": 1856.88,
+    "duration": 3.44,
+    "text": "before, but maximum value now I'm going to assume is let's say the zeroth element"
+  },
+  {
+    "start": 1860.32,
+    "duration": 5.24,
+    "text": "is the maximum element, then it will again do the same thing. Did a little thing mistake"
+  },
+  {
+    "start": 1865.56,
+    "duration": 12.63,
+    "text": "over here for swapping, no problem, a temp is your AR1 and R1 is equal to, alright, that"
+  },
+  {
+    "start": 1878.19,
+    "duration": 1.0,
+    "text": "looks good."
+  },
+  {
+    "start": 1879.19,
+    "duration": 6.4,
+    "text": "I can just run this, selection sort, starting from like ARR lens will be over here, because"
+  },
+  {
+    "start": 1885.59,
+    "duration": 9.55,
+    "text": "I am not skipping anything, let's say initially it's 0, that's it, let's run it, pretty"
+  },
+  {
+    "start": 1895.14,
+    "duration": 8.13,
+    "text": "cool, it's now sorted, nice."
+  },
+  {
+    "start": 1903.27,
+    "duration": 7.27,
+    "text": "that was selection sort, you want to debug it, put a debug pointer over here, it's very"
+  },
+  {
+    "start": 1910.54,
+    "duration": 6.76,
+    "text": "simple debug and you can see internally how it's working for three to one is the array"
+  },
+  {
+    "start": 1917.3,
+    "duration": 4.24,
+    "text": "is going to be like zero less than four. Yes, it is currently I'm in the row number one"
+  },
+  {
+    "start": 1921.54,
+    "duration": 3.64,
+    "text": "with the fourth row number four, which is the first row. It's going to be like, Hey,"
+  },
+  {
+    "start": 1925.18,
+    "duration": 3.36,
+    "text": "it's four greater than maximum value. Yes, it is. So now maximum value is going"
+  },
+  {
+    "start": 1928.54,
+    "duration": 3.6,
+    "text": "to be four. Now you can see in the future recursion calls, the maximum value is"
+  },
+  {
+    "start": 1932.14,
+    "duration": 7.57,
+    "text": "is equal to what? It is going to be equal to 0, which is the 0th element. That is correct."
+  },
+  {
+    "start": 1939.71,
+    "duration": 9.36,
+    "text": "Or I can take some other one as well. I can say something like 1, 4, 3, 5, something like"
+  },
+  {
+    "start": 1949.07,
+    "duration": 10.94,
+    "text": "that. So, it is going to be like, now you are at index number 1 for the same row, if"
+  },
+  {
+    "start": 1960.01,
+    "duration": 5.36,
+    "text": "the row number 1, first row which is the row number 4 and now it is going to be like"
+  },
+  {
+    "start": 1965.37,
+    "duration": 3.84,
+    "text": "column number one is four greater than the maximum you have so far. It's going to be"
+  },
+  {
+    "start": 1969.21,
+    "duration": 7.15,
+    "text": "like, yes it is. So as you can see, max will now be updated to one. Cool. Max is updated"
+  },
+  {
+    "start": 1976.36,
+    "duration": 4.36,
+    "text": "to one. Now max will not change because four is the maximum element. Oh no, five is the"
+  },
+  {
+    "start": 1980.72,
+    "duration": 4.68,
+    "text": "maximum element. So you're at column number three, it's going to be like, yeah, column"
+  },
+  {
+    "start": 1985.4,
+    "duration": 3.04,
+    "text": "number three is maximum. So maximum will not be equal to one. It will be equal"
+  },
+  {
+    "start": 1988.44,
+    "duration": 5.28,
+    "text": "to five. It's equal to five. Now it's going to be like this condition is false"
+  },
+  {
+    "start": 1993.72,
+    "duration": 7.76,
+    "text": "means you have traversed the entire one now just swap the maximum so far with the last"
+  },
+  {
+    "start": 2001.48,
+    "duration": 5.46,
+    "text": "index which is both R3 so I can just swap it like this that's it now you are at the"
+  },
+  {
+    "start": 2006.94,
+    "duration": 3.86,
+    "text": "second second line which is R is equal to 3 it's going to only check the first three"
+  },
+  {
+    "start": 2010.8,
+    "duration": 8.19,
+    "text": "elements that way it will keep on going pretty cool stuff well that was it for this video"
+  },
+  {
+    "start": 2018.99,
+    "duration": 3.64,
+    "text": "thanks a lot for watching and make sure you like and subscribe and so I wanted to"
+  },
+  {
+    "start": 2022.63,
+    "duration": 4.56,
+    "text": "give like a basic understanding of building on top of what we did previously. And it's"
+  },
+  {
+    "start": 2027.19,
+    "duration": 5.04,
+    "text": "very easy just practice and follow the things I mentioned in recursion video one. Recursion"
+  },
+  {
+    "start": 2032.23,
+    "duration": 3.88,
+    "text": "video one is very important because in that I mentioned how to actually follow this course"
+  },
+  {
+    "start": 2036.11,
+    "duration": 4.0,
+    "text": "and all the other courses in the world to understand recursion and data structures."
+  },
+  {
+    "start": 2040.11,
+    "duration": 4.04,
+    "text": "Even if you're not following my course, that's fine, you can definitely learn how"
+  },
+  {
+    "start": 2044.15,
+    "duration": 5.32,
+    "text": "to learn by watching that video. Okay, so it will teach you in a very nice way"
+  },
+  {
+    "start": 2049.47,
+    "duration": 2.8,
+    "text": "how to actually approach problem, how to learn recursion,"
+  },
+  {
+    "start": 2052.27,
+    "duration": 1.72,
+    "text": "what are the steps to learn recursion?"
+  },
+  {
+    "start": 2053.99,
+    "duration": 1.96,
+    "text": "Watch that video and you will be able to solve"
+  },
+  {
+    "start": 2055.95,
+    "duration": 1.6,
+    "text": "all the questions."
+  },
+  {
+    "start": 2057.55,
+    "duration": 0.84,
+    "text": "Thanks a lot for watching."
+  },
+  {
+    "start": 2058.39,
+    "duration": 1.56,
+    "text": "Make sure you comment if you like this video"
+  },
+  {
+    "start": 2059.95,
+    "duration": 1.32,
+    "text": "and subscribe, share with your friends,"
+  },
+  {
+    "start": 2061.27,
+    "duration": 2.52,
+    "text": "join the learning in public initiative."
+  },
+  {
+    "start": 2063.79,
+    "duration": 1.92,
+    "text": "You can share about it on Twitter and stuff"
+  },
+  {
+    "start": 2065.71,
+    "duration": 1.96,
+    "text": "and I'll see you in the next video."
+  }
+]

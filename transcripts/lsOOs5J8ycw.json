@@ -1,0 +1,7797 @@
+[
+  {
+    "start": 3.76,
+    "duration": 3.44,
+    "text": "hey everyone welcome back to another"
+  },
+  {
+    "start": 5.2,
+    "duration": 3.84,
+    "text": "video and this is an important one so"
+  },
+  {
+    "start": 7.2,
+    "duration": 3.359,
+    "text": "before we get started i just want to"
+  },
+  {
+    "start": 9.04,
+    "duration": 3.519,
+    "text": "give a huge shout out to"
+  },
+  {
+    "start": 10.559,
+    "duration": 3.681,
+    "text": "my course which is helping thousands of"
+  },
+  {
+    "start": 12.559,
+    "duration": 3.521,
+    "text": "people so please make sure you check out"
+  },
+  {
+    "start": 14.24,
+    "duration": 3.52,
+    "text": "the links in the description this is"
+  },
+  {
+    "start": 16.08,
+    "duration": 3.52,
+    "text": "this video is a part of the complete"
+  },
+  {
+    "start": 17.76,
+    "duration": 4.32,
+    "text": "data structures algorithms interview"
+  },
+  {
+    "start": 19.6,
+    "duration": 4.4,
+    "text": "preparation java boot camp pause this"
+  },
+  {
+    "start": 22.08,
+    "duration": 4.0,
+    "text": "video right now and subscribe why why"
+  },
+  {
+    "start": 24.0,
+    "duration": 3.599,
+    "text": "should you subscribe because i'm"
+  },
+  {
+    "start": 26.08,
+    "duration": 3.279,
+    "text": "providing this course for free it is one"
+  },
+  {
+    "start": 27.599,
+    "duration": 4.241,
+    "text": "of the best courses you can do right now"
+  },
+  {
+    "start": 29.359,
+    "duration": 3.761,
+    "text": "for free and covers everything i have"
+  },
+  {
+    "start": 31.84,
+    "duration": 3.04,
+    "text": "the entire detailed agenda in the"
+  },
+  {
+    "start": 33.12,
+    "duration": 3.92,
+    "text": "description on which date i will be"
+  },
+  {
+    "start": 34.88,
+    "duration": 4.32,
+    "text": "uploading which video and so far people"
+  },
+  {
+    "start": 37.04,
+    "duration": 4.72,
+    "text": "have loved it our discord community has"
+  },
+  {
+    "start": 39.2,
+    "duration": 3.28,
+    "text": "also gone like really why you know like"
+  },
+  {
+    "start": 41.76,
+    "duration": 2.479,
+    "text": "it's"
+  },
+  {
+    "start": 42.48,
+    "duration": 2.96,
+    "text": "twenty thousand twenty five thousand uh"
+  },
+  {
+    "start": 44.239,
+    "duration": 3.041,
+    "text": "people are in the discord channel we"
+  },
+  {
+    "start": 45.44,
+    "duration": 3.36,
+    "text": "only started it a month ago"
+  },
+  {
+    "start": 47.28,
+    "duration": 3.2,
+    "text": "please subscribe please share with your"
+  },
+  {
+    "start": 48.8,
+    "duration": 3.84,
+    "text": "friends join the learning in public"
+  },
+  {
+    "start": 50.48,
+    "duration": 4.079,
+    "text": "initiative so when you do something like"
+  },
+  {
+    "start": 52.64,
+    "duration": 3.599,
+    "text": "when you learn something share about it"
+  },
+  {
+    "start": 54.559,
+    "duration": 4.48,
+    "text": "on public like on twitter and linkedin"
+  },
+  {
+    "start": 56.239,
+    "duration": 4.48,
+    "text": "use hashtag bsa with kunal hashtag 60"
+  },
+  {
+    "start": 59.039,
+    "duration": 3.761,
+    "text": "days of dsa the twitter bot is going to"
+  },
+  {
+    "start": 60.719,
+    "duration": 4.001,
+    "text": "retweet it so you can check out the"
+  },
+  {
+    "start": 62.8,
+    "duration": 3.6,
+    "text": "twitter bot as well the 60 days of dsa"
+  },
+  {
+    "start": 64.72,
+    "duration": 3.04,
+    "text": "one over there you can see so many"
+  },
+  {
+    "start": 66.4,
+    "duration": 3.92,
+    "text": "people are benefiting from this course"
+  },
+  {
+    "start": 67.76,
+    "duration": 4.399,
+    "text": "so don't miss out do it pause the video"
+  },
+  {
+    "start": 70.32,
+    "duration": 4.08,
+    "text": "subscribe share with your friends like"
+  },
+  {
+    "start": 72.159,
+    "duration": 3.921,
+    "text": "right now right now you have to like"
+  },
+  {
+    "start": 74.4,
+    "duration": 3.44,
+    "text": "okay otherwise it will not work because"
+  },
+  {
+    "start": 76.08,
+    "duration": 3.6,
+    "text": "you have to support me in providing such"
+  },
+  {
+    "start": 77.84,
+    "duration": 4.24,
+    "text": "amazing courses and you don't even have"
+  },
+  {
+    "start": 79.68,
+    "duration": 3.759,
+    "text": "to trust me just watch the you know"
+  },
+  {
+    "start": 82.08,
+    "duration": 2.88,
+    "text": "entire comment section thousands and"
+  },
+  {
+    "start": 83.439,
+    "duration": 4.161,
+    "text": "thousands of people are commenting check"
+  },
+  {
+    "start": 84.96,
+    "duration": 4.479,
+    "text": "out the shout outs bought on twitter"
+  },
+  {
+    "start": 87.6,
+    "duration": 3.519,
+    "text": "check out our shout outs on the discord"
+  },
+  {
+    "start": 89.439,
+    "duration": 2.881,
+    "text": "channel or if you want to ignore all of"
+  },
+  {
+    "start": 91.119,
+    "duration": 2.64,
+    "text": "these things just watch the videos"
+  },
+  {
+    "start": 92.32,
+    "duration": 3.28,
+    "text": "yourself and you will fall in love but"
+  },
+  {
+    "start": 93.759,
+    "duration": 3.281,
+    "text": "let's move forward with it uh in today's"
+  },
+  {
+    "start": 95.6,
+    "duration": 3.04,
+    "text": "video we're learning about patterns so"
+  },
+  {
+    "start": 97.04,
+    "duration": 3.439,
+    "text": "you can see some patterns over here like"
+  },
+  {
+    "start": 98.64,
+    "duration": 4.88,
+    "text": "this is a star pattern this is some"
+  },
+  {
+    "start": 100.479,
+    "duration": 5.28,
+    "text": "triangle some other triangle okay some"
+  },
+  {
+    "start": 103.52,
+    "duration": 4.0,
+    "text": "number triangle or whatever some half"
+  },
+  {
+    "start": 105.759,
+    "duration": 4.241,
+    "text": "rhombus or whatever right another"
+  },
+  {
+    "start": 107.52,
+    "duration": 4.879,
+    "text": "triangle with some spaces over here and"
+  },
+  {
+    "start": 110.0,
+    "duration": 3.2,
+    "text": "some r glass or whatever"
+  },
+  {
+    "start": 112.399,
+    "duration": 2.241,
+    "text": "so"
+  },
+  {
+    "start": 113.2,
+    "duration": 3.199,
+    "text": "by the way yeah we have assignments as"
+  },
+  {
+    "start": 114.64,
+    "duration": 3.68,
+    "text": "well so assignments notes and discord"
+  },
+  {
+    "start": 116.399,
+    "duration": 2.881,
+    "text": "support and everything is here so these"
+  },
+  {
+    "start": 118.32,
+    "duration": 2.24,
+    "text": "links and everything are in the"
+  },
+  {
+    "start": 119.28,
+    "duration": 2.96,
+    "text": "description below make sure you check it"
+  },
+  {
+    "start": 120.56,
+    "duration": 3.28,
+    "text": "out i trust you that you might have"
+  },
+  {
+    "start": 122.24,
+    "duration": 3.839,
+    "text": "subscribed till now if you are new to"
+  },
+  {
+    "start": 123.84,
+    "duration": 3.84,
+    "text": "the channel it will really help me in me"
+  },
+  {
+    "start": 126.079,
+    "duration": 4.16,
+    "text": "in reaching every single student in the"
+  },
+  {
+    "start": 127.68,
+    "duration": 4.8,
+    "text": "world okay it when you subscribe and"
+  },
+  {
+    "start": 130.239,
+    "duration": 4.401,
+    "text": "when you like it will help me in"
+  },
+  {
+    "start": 132.48,
+    "duration": 4.08,
+    "text": "reaching so many people around the world"
+  },
+  {
+    "start": 134.64,
+    "duration": 3.12,
+    "text": "who will benefit from this course"
+  },
+  {
+    "start": 136.56,
+    "duration": 3.36,
+    "text": "because you will not find this on"
+  },
+  {
+    "start": 137.76,
+    "duration": 4.0,
+    "text": "anywhere on youtube a course like this"
+  },
+  {
+    "start": 139.92,
+    "duration": 3.039,
+    "text": "or such a complete course like this"
+  },
+  {
+    "start": 141.76,
+    "duration": 3.839,
+    "text": "these are not my words these are the"
+  },
+  {
+    "start": 142.959,
+    "duration": 5.841,
+    "text": "words of students let's get started so"
+  },
+  {
+    "start": 145.599,
+    "duration": 5.121,
+    "text": "why are patterns important um"
+  },
+  {
+    "start": 148.8,
+    "duration": 3.6,
+    "text": "patterns in like programming languages"
+  },
+  {
+    "start": 150.72,
+    "duration": 4.0,
+    "text": "like using loops we have already learnt"
+  },
+  {
+    "start": 152.4,
+    "duration": 4.24,
+    "text": "about loops so link in the description"
+  },
+  {
+    "start": 154.72,
+    "duration": 4.879,
+    "text": "so patterns are important because it"
+  },
+  {
+    "start": 156.64,
+    "duration": 5.2,
+    "text": "enhances your thought process"
+  },
+  {
+    "start": 159.599,
+    "duration": 4.0,
+    "text": "in some companies"
+  },
+  {
+    "start": 161.84,
+    "duration": 5.36,
+    "text": "like no one really asks patterns like"
+  },
+  {
+    "start": 163.599,
+    "duration": 5.121,
+    "text": "this but you can use the"
+  },
+  {
+    "start": 167.2,
+    "duration": 5.119,
+    "text": "problem solving skills that you have"
+  },
+  {
+    "start": 168.72,
+    "duration": 6.48,
+    "text": "practiced via patents in your interviews"
+  },
+  {
+    "start": 172.319,
+    "duration": 4.401,
+    "text": "rarely sometimes i have heard about"
+  },
+  {
+    "start": 175.2,
+    "duration": 3.679,
+    "text": "experiences"
+  },
+  {
+    "start": 176.72,
+    "duration": 3.84,
+    "text": "of where patterns are asked in coding"
+  },
+  {
+    "start": 178.879,
+    "duration": 4.241,
+    "text": "interviews i have heard about"
+  },
+  {
+    "start": 180.56,
+    "duration": 3.92,
+    "text": "experiences like my friend he was in a"
+  },
+  {
+    "start": 183.12,
+    "duration": 2.96,
+    "text": "company he went to give a role of a"
+  },
+  {
+    "start": 184.48,
+    "duration": 3.6,
+    "text": "company there they asked some patent"
+  },
+  {
+    "start": 186.08,
+    "duration": 3.68,
+    "text": "questions but to be quite frank no one"
+  },
+  {
+    "start": 188.08,
+    "duration": 4.159,
+    "text": "really asked this okay an interview"
+  },
+  {
+    "start": 189.76,
+    "duration": 4.64,
+    "text": "directly no one will ask this but"
+  },
+  {
+    "start": 192.239,
+    "duration": 4.241,
+    "text": "why is it important because if you are"
+  },
+  {
+    "start": 194.4,
+    "duration": 3.28,
+    "text": "learning programming for the first time"
+  },
+  {
+    "start": 196.48,
+    "duration": 3.2,
+    "text": "if you're learning a language or the"
+  },
+  {
+    "start": 197.68,
+    "duration": 4.0,
+    "text": "programming you did not know about loops"
+  },
+  {
+    "start": 199.68,
+    "duration": 4.08,
+    "text": "you don't know about variables you don't"
+  },
+  {
+    "start": 201.68,
+    "duration": 4.08,
+    "text": "know about input output or whatever"
+  },
+  {
+    "start": 203.76,
+    "duration": 4.96,
+    "text": "these patterns are very important to"
+  },
+  {
+    "start": 205.76,
+    "duration": 4.399,
+    "text": "bring to build your foundation"
+  },
+  {
+    "start": 208.72,
+    "duration": 2.879,
+    "text": "so if you are new in programming if you"
+  },
+  {
+    "start": 210.159,
+    "duration": 2.8,
+    "text": "know in data structures algorithms if"
+  },
+  {
+    "start": 211.599,
+    "duration": 2.321,
+    "text": "you know in algorithms and you know all"
+  },
+  {
+    "start": 212.959,
+    "duration": 2.56,
+    "text": "these things"
+  },
+  {
+    "start": 213.92,
+    "duration": 3.12,
+    "text": "please make sure you focus a little bit"
+  },
+  {
+    "start": 215.519,
+    "duration": 4.161,
+    "text": "on patterns because it is only going to"
+  },
+  {
+    "start": 217.04,
+    "duration": 4.0,
+    "text": "help you improve your thought process"
+  },
+  {
+    "start": 219.68,
+    "duration": 3.119,
+    "text": "so now that we know why we are doing"
+  },
+  {
+    "start": 221.04,
+    "duration": 3.6,
+    "text": "patterns let's look into how we can"
+  },
+  {
+    "start": 222.799,
+    "duration": 3.601,
+    "text": "solve these so"
+  },
+  {
+    "start": 224.64,
+    "duration": 5.12,
+    "text": "this video is special as by the title"
+  },
+  {
+    "start": 226.4,
+    "duration": 4.88,
+    "text": "you can see it says solve any pattern"
+  },
+  {
+    "start": 229.76,
+    "duration": 2.8,
+    "text": "easily with this trick"
+  },
+  {
+    "start": 231.28,
+    "duration": 2.0,
+    "text": "you might be asking kunal what is the"
+  },
+  {
+    "start": 232.56,
+    "duration": 2.16,
+    "text": "trick"
+  },
+  {
+    "start": 233.28,
+    "duration": 5.2,
+    "text": "what is this trick that you are talking"
+  },
+  {
+    "start": 234.72,
+    "duration": 5.2,
+    "text": "about kunal what is it tell us okay"
+  },
+  {
+    "start": 238.48,
+    "duration": 4.0,
+    "text": "uh please make sure you like share and"
+  },
+  {
+    "start": 239.92,
+    "duration": 3.44,
+    "text": "subscribe and now let's look into it"
+  },
+  {
+    "start": 242.48,
+    "duration": 3.52,
+    "text": "so"
+  },
+  {
+    "start": 243.36,
+    "duration": 4.32,
+    "text": "the trick on this is that uh i will"
+  },
+  {
+    "start": 246.0,
+    "duration": 3.599,
+    "text": "write this down okay so all these"
+  },
+  {
+    "start": 247.68,
+    "duration": 3.44,
+    "text": "patterns that you may see things may"
+  },
+  {
+    "start": 249.599,
+    "duration": 2.881,
+    "text": "look different"
+  },
+  {
+    "start": 251.12,
+    "duration": 3.44,
+    "text": "things may look different but all of"
+  },
+  {
+    "start": 252.48,
+    "duration": 3.44,
+    "text": "these things have some things in common"
+  },
+  {
+    "start": 254.56,
+    "duration": 3.84,
+    "text": "i will randomly choose all these"
+  },
+  {
+    "start": 255.92,
+    "duration": 3.92,
+    "text": "patterns and create these and it will be"
+  },
+  {
+    "start": 258.4,
+    "duration": 3.119,
+    "text": "easily solved"
+  },
+  {
+    "start": 259.84,
+    "duration": 4.24,
+    "text": "there's a few steps you need to take"
+  },
+  {
+    "start": 261.519,
+    "duration": 5.12,
+    "text": "when starting to solve these problems"
+  },
+  {
+    "start": 264.08,
+    "duration": 4.16,
+    "text": "i will tell you these step by step"
+  },
+  {
+    "start": 266.639,
+    "duration": 3.761,
+    "text": "so in this video obviously i'm not going"
+  },
+  {
+    "start": 268.24,
+    "duration": 4.32,
+    "text": "to solve all the 31 questions"
+  },
+  {
+    "start": 270.4,
+    "duration": 3.68,
+    "text": "but i will tell you the steps with you"
+  },
+  {
+    "start": 272.56,
+    "duration": 4.56,
+    "text": "with which you can solve let's say a"
+  },
+  {
+    "start": 274.08,
+    "duration": 4.72,
+    "text": "thousand patent questions"
+  },
+  {
+    "start": 277.12,
+    "duration": 4.639,
+    "text": "i will tell you that step i will tell"
+  },
+  {
+    "start": 278.8,
+    "duration": 4.72,
+    "text": "you that trick by which you can do this"
+  },
+  {
+    "start": 281.759,
+    "duration": 3.681,
+    "text": "definitely has worked for me"
+  },
+  {
+    "start": 283.52,
+    "duration": 3.52,
+    "text": "let's look into it so the prerequisites"
+  },
+  {
+    "start": 285.44,
+    "duration": 4.24,
+    "text": "are very simple you know we have already"
+  },
+  {
+    "start": 287.04,
+    "duration": 4.32,
+    "text": "covered uh loops so the prerequisites"
+  },
+  {
+    "start": 289.68,
+    "duration": 4.4,
+    "text": "are loops so you should know about like"
+  },
+  {
+    "start": 291.36,
+    "duration": 4.399,
+    "text": "loops and stuff i think if you are so"
+  },
+  {
+    "start": 294.08,
+    "duration": 2.88,
+    "text": "far in the playlist you might already be"
+  },
+  {
+    "start": 295.759,
+    "duration": 2.961,
+    "text": "knowing about it"
+  },
+  {
+    "start": 296.96,
+    "duration": 4.239,
+    "text": "patterns"
+  },
+  {
+    "start": 298.72,
+    "duration": 2.479,
+    "text": "questions"
+  },
+  {
+    "start": 301.759,
+    "duration": 3.121,
+    "text": "tricks"
+  },
+  {
+    "start": 302.88,
+    "duration": 4.319,
+    "text": "how to approach a problem"
+  },
+  {
+    "start": 304.88,
+    "duration": 6.84,
+    "text": "why this trick you can solve any problem"
+  },
+  {
+    "start": 307.199,
+    "duration": 4.521,
+    "text": "of patterns how to approach"
+  },
+  {
+    "start": 312.96,
+    "duration": 4.16,
+    "text": "okay"
+  },
+  {
+    "start": 314.32,
+    "duration": 2.8,
+    "text": "point number one"
+  },
+  {
+    "start": 317.759,
+    "duration": 4.801,
+    "text": "run the outer for loop"
+  },
+  {
+    "start": 320.08,
+    "duration": 3.52,
+    "text": "run the outer for loop the number of"
+  },
+  {
+    "start": 322.56,
+    "duration": 3.52,
+    "text": "times"
+  },
+  {
+    "start": 323.6,
+    "duration": 5.84,
+    "text": "you are having the lines okay for"
+  },
+  {
+    "start": 326.08,
+    "duration": 3.36,
+    "text": "example if the pattern is this"
+  },
+  {
+    "start": 337.6,
+    "duration": 4.72,
+    "text": "so in every pattern like this you will"
+  },
+  {
+    "start": 339.919,
+    "duration": 5.12,
+    "text": "see rows and columns"
+  },
+  {
+    "start": 342.32,
+    "duration": 4.879,
+    "text": "you will see rows and columns so outer"
+  },
+  {
+    "start": 345.039,
+    "duration": 3.681,
+    "text": "loop because you know if i talk about"
+  },
+  {
+    "start": 347.199,
+    "duration": 4.081,
+    "text": "matrices we already learnt about"
+  },
+  {
+    "start": 348.72,
+    "duration": 4.96,
+    "text": "matrices so matrices also you have like"
+  },
+  {
+    "start": 351.28,
+    "duration": 5.039,
+    "text": "rows and columns outer for loop is for"
+  },
+  {
+    "start": 353.68,
+    "duration": 4.4,
+    "text": "rows inner for loop is for columns"
+  },
+  {
+    "start": 356.319,
+    "duration": 3.44,
+    "text": "very simple stuff"
+  },
+  {
+    "start": 358.08,
+    "duration": 4.16,
+    "text": "right if you're not aware of it make"
+  },
+  {
+    "start": 359.759,
+    "duration": 4.641,
+    "text": "sure you check out the arrays video the"
+  },
+  {
+    "start": 362.24,
+    "duration": 4.399,
+    "text": "link is in the description don't comment"
+  },
+  {
+    "start": 364.4,
+    "duration": 4.079,
+    "text": "things like hey kunal we don't know"
+  },
+  {
+    "start": 366.639,
+    "duration": 3.921,
+    "text": "about double for loop"
+  },
+  {
+    "start": 368.479,
+    "duration": 3.44,
+    "text": "kunal we don't know about it"
+  },
+  {
+    "start": 370.56,
+    "duration": 3.359,
+    "text": "why are you asking such questions when i"
+  },
+  {
+    "start": 371.919,
+    "duration": 4.081,
+    "text": "have already covered it in the playlist"
+  },
+  {
+    "start": 373.919,
+    "duration": 2.961,
+    "text": "so go to the playlist check it out 2d"
+  },
+  {
+    "start": 376.0,
+    "duration": 3.039,
+    "text": "arrays"
+  },
+  {
+    "start": 376.88,
+    "duration": 3.92,
+    "text": "i've also added timestamps then come"
+  },
+  {
+    "start": 379.039,
+    "duration": 3.841,
+    "text": "back to this video we have covered it in"
+  },
+  {
+    "start": 380.8,
+    "duration": 3.839,
+    "text": "detail how to traverse 2d array nested"
+  },
+  {
+    "start": 382.88,
+    "duration": 3.84,
+    "text": "for loop still i'll give an introduction"
+  },
+  {
+    "start": 384.639,
+    "duration": 5.68,
+    "text": "over here a little bit of hint"
+  },
+  {
+    "start": 386.72,
+    "duration": 3.599,
+    "text": "so as we know these are the rows"
+  },
+  {
+    "start": 391.52,
+    "duration": 5.44,
+    "text": "these are the columns"
+  },
+  {
+    "start": 394.639,
+    "duration": 4.721,
+    "text": "here in this entire pattern we have four"
+  },
+  {
+    "start": 396.96,
+    "duration": 2.4,
+    "text": "rows"
+  },
+  {
+    "start": 399.84,
+    "duration": 4.0,
+    "text": "and"
+  },
+  {
+    "start": 400.88,
+    "duration": 2.96,
+    "text": "in first row"
+  },
+  {
+    "start": 403.919,
+    "duration": 5.361,
+    "text": "i have one column"
+  },
+  {
+    "start": 406.08,
+    "duration": 4.559,
+    "text": "in second row i have two columns in"
+  },
+  {
+    "start": 409.28,
+    "duration": 2.479,
+    "text": "third row"
+  },
+  {
+    "start": 410.639,
+    "duration": 2.56,
+    "text": "i have"
+  },
+  {
+    "start": 411.759,
+    "duration": 3.84,
+    "text": "three columns"
+  },
+  {
+    "start": 413.199,
+    "duration": 4.641,
+    "text": "and in fourth row"
+  },
+  {
+    "start": 415.599,
+    "duration": 4.961,
+    "text": "i have four columns as you can see over"
+  },
+  {
+    "start": 417.84,
+    "duration": 5.28,
+    "text": "here very simple stuff in the first row"
+  },
+  {
+    "start": 420.56,
+    "duration": 6.56,
+    "text": "i have one column two columns"
+  },
+  {
+    "start": 423.12,
+    "duration": 4.0,
+    "text": "three columns and four columns"
+  },
+  {
+    "start": 427.36,
+    "duration": 4.959,
+    "text": "okay so this outer for loop the number"
+  },
+  {
+    "start": 430.0,
+    "duration": 3.759,
+    "text": "of lines is actually equal to number of"
+  },
+  {
+    "start": 432.319,
+    "duration": 5.361,
+    "text": "rows"
+  },
+  {
+    "start": 433.759,
+    "duration": 6.0,
+    "text": "so i know that number of lines"
+  },
+  {
+    "start": 437.68,
+    "duration": 3.2,
+    "text": "is equal to number of"
+  },
+  {
+    "start": 439.759,
+    "duration": 4.72,
+    "text": "rows"
+  },
+  {
+    "start": 440.88,
+    "duration": 7.56,
+    "text": "is equal to number of times"
+  },
+  {
+    "start": 444.479,
+    "duration": 3.961,
+    "text": "outer loop will run"
+  },
+  {
+    "start": 450.96,
+    "duration": 3.76,
+    "text": "does that make sense"
+  },
+  {
+    "start": 452.72,
+    "duration": 3.52,
+    "text": "number of times the outer loop will run"
+  },
+  {
+    "start": 454.72,
+    "duration": 3.599,
+    "text": "let's try to see"
+  },
+  {
+    "start": 456.24,
+    "duration": 3.359,
+    "text": "let's try to do it till now"
+  },
+  {
+    "start": 458.319,
+    "duration": 3.521,
+    "text": "so if i"
+  },
+  {
+    "start": 459.599,
+    "duration": 4.0,
+    "text": "go back"
+  },
+  {
+    "start": 461.84,
+    "duration": 3.199,
+    "text": "if i go back over here"
+  },
+  {
+    "start": 463.599,
+    "duration": 4.801,
+    "text": "and i say"
+  },
+  {
+    "start": 465.039,
+    "duration": 4.56,
+    "text": "let's say pattern number one okay i say"
+  },
+  {
+    "start": 468.4,
+    "duration": 2.56,
+    "text": "static"
+  },
+  {
+    "start": 469.599,
+    "duration": 3.28,
+    "text": "void"
+  },
+  {
+    "start": 470.96,
+    "duration": 4.079,
+    "text": "pattern one"
+  },
+  {
+    "start": 472.879,
+    "duration": 3.281,
+    "text": "and let's say i just pass an integer n"
+  },
+  {
+    "start": 475.039,
+    "duration": 3.201,
+    "text": "over here"
+  },
+  {
+    "start": 476.16,
+    "duration": 3.52,
+    "text": "so let's say for n is equal to four"
+  },
+  {
+    "start": 478.24,
+    "duration": 2.88,
+    "text": "let's say i wanted to do the same"
+  },
+  {
+    "start": 479.68,
+    "duration": 3.76,
+    "text": "pattern that i just wrote on a white"
+  },
+  {
+    "start": 481.12,
+    "duration": 4.079,
+    "text": "board so let's say n is equal to four"
+  },
+  {
+    "start": 483.44,
+    "duration": 3.36,
+    "text": "what is the step number one to approach"
+  },
+  {
+    "start": 485.199,
+    "duration": 4.161,
+    "text": "a problem what is the step number one to"
+  },
+  {
+    "start": 486.8,
+    "duration": 4.079,
+    "text": "approach a problem look at the pattern"
+  },
+  {
+    "start": 489.36,
+    "duration": 3.92,
+    "text": "see how many lines you have in the"
+  },
+  {
+    "start": 490.879,
+    "duration": 5.6,
+    "text": "pattern that many times the outer for"
+  },
+  {
+    "start": 493.28,
+    "duration": 3.199,
+    "text": "loop will run no problem"
+  },
+  {
+    "start": 498.0,
+    "duration": 4.0,
+    "text": "that's it"
+  },
+  {
+    "start": 500.16,
+    "duration": 3.36,
+    "text": "this is the number of times my lines"
+  },
+  {
+    "start": 502.0,
+    "duration": 3.52,
+    "text": "will run"
+  },
+  {
+    "start": 503.52,
+    "duration": 3.6,
+    "text": "that's step number one okay no problem"
+  },
+  {
+    "start": 505.52,
+    "duration": 3.359,
+    "text": "let's see step number two"
+  },
+  {
+    "start": 507.12,
+    "duration": 3.28,
+    "text": "what is step number two for every"
+  },
+  {
+    "start": 508.879,
+    "duration": 3.441,
+    "text": "pattern this is not just for this one"
+  },
+  {
+    "start": 510.4,
+    "duration": 5.119,
+    "text": "this is for every single pattern"
+  },
+  {
+    "start": 512.32,
+    "duration": 3.199,
+    "text": "step number two is"
+  },
+  {
+    "start": 517.12,
+    "duration": 3.88,
+    "text": "what is step number two"
+  },
+  {
+    "start": 522.399,
+    "duration": 4.961,
+    "text": "step number 2 basically means"
+  },
+  {
+    "start": 524.88,
+    "duration": 5.12,
+    "text": "how many columns are there"
+  },
+  {
+    "start": 527.36,
+    "duration": 6.36,
+    "text": "with each row"
+  },
+  {
+    "start": 530.0,
+    "duration": 3.72,
+    "text": "so basically identify"
+  },
+  {
+    "start": 535.12,
+    "duration": 3.2,
+    "text": "for"
+  },
+  {
+    "start": 536.56,
+    "duration": 4.56,
+    "text": "every"
+  },
+  {
+    "start": 538.32,
+    "duration": 2.8,
+    "text": "row number"
+  },
+  {
+    "start": 541.6,
+    "duration": 2.64,
+    "text": "how many"
+  },
+  {
+    "start": 544.48,
+    "duration": 4.2,
+    "text": "columns are there"
+  },
+  {
+    "start": 549.2,
+    "duration": 2.24,
+    "text": "or"
+  },
+  {
+    "start": 552.48,
+    "duration": 3.76,
+    "text": "types of elements in the column"
+  },
+  {
+    "start": 558.0,
+    "duration": 2.32,
+    "text": "for example here we have star but it"
+  },
+  {
+    "start": 559.44,
+    "duration": 4.56,
+    "text": "might be possible that you have"
+  },
+  {
+    "start": 560.32,
+    "duration": 5.6,
+    "text": "something like 1 2 3 4 5 6 7 8 9 10"
+  },
+  {
+    "start": 564.0,
+    "duration": 2.88,
+    "text": "so you have to identify how many columns"
+  },
+  {
+    "start": 565.92,
+    "duration": 3.12,
+    "text": "are there"
+  },
+  {
+    "start": 566.88,
+    "duration": 3.76,
+    "text": "so i can say that if this is row number"
+  },
+  {
+    "start": 569.04,
+    "duration": 2.96,
+    "text": "if i'm writing the no row number over"
+  },
+  {
+    "start": 570.64,
+    "duration": 2.639,
+    "text": "here"
+  },
+  {
+    "start": 572.0,
+    "duration": 3.6,
+    "text": "row"
+  },
+  {
+    "start": 573.279,
+    "duration": 4.481,
+    "text": "number this is let's say row number one"
+  },
+  {
+    "start": 575.6,
+    "duration": 4.72,
+    "text": "row number two row number three and row"
+  },
+  {
+    "start": 577.76,
+    "duration": 2.56,
+    "text": "number four"
+  },
+  {
+    "start": 580.72,
+    "duration": 4.72,
+    "text": "in row number one how many columns are"
+  },
+  {
+    "start": 582.72,
+    "duration": 4.88,
+    "text": "there one in row number two how many"
+  },
+  {
+    "start": 585.44,
+    "duration": 4.0,
+    "text": "columns are there two in row number"
+  },
+  {
+    "start": 587.6,
+    "duration": 3.359,
+    "text": "three how many columns are there three"
+  },
+  {
+    "start": 589.44,
+    "duration": 2.959,
+    "text": "and in row number four how many columns"
+  },
+  {
+    "start": 590.959,
+    "duration": 4.081,
+    "text": "are there four"
+  },
+  {
+    "start": 592.399,
+    "duration": 4.961,
+    "text": "so in this particular example"
+  },
+  {
+    "start": 595.04,
+    "duration": 5.04,
+    "text": "number of columns for every row is equal"
+  },
+  {
+    "start": 597.36,
+    "duration": 5.76,
+    "text": "to that row number or not"
+  },
+  {
+    "start": 600.08,
+    "duration": 5.84,
+    "text": "i figured it out point number two"
+  },
+  {
+    "start": 603.12,
+    "duration": 5.839,
+    "text": "point number two is for every row number"
+  },
+  {
+    "start": 605.92,
+    "duration": 5.2,
+    "text": "identify how many columns are there and"
+  },
+  {
+    "start": 608.959,
+    "duration": 3.281,
+    "text": "what type of columns are there so in"
+  },
+  {
+    "start": 611.12,
+    "duration": 3.68,
+    "text": "this case"
+  },
+  {
+    "start": 612.24,
+    "duration": 4.32,
+    "text": "uh star type of columns are there no"
+  },
+  {
+    "start": 614.8,
+    "duration": 3.76,
+    "text": "problem we can do it"
+  },
+  {
+    "start": 616.56,
+    "duration": 4.16,
+    "text": "we can do it we can apply row number two"
+  },
+  {
+    "start": 618.56,
+    "duration": 3.68,
+    "text": "so we can apply this rule number two so"
+  },
+  {
+    "start": 620.72,
+    "duration": 3.6,
+    "text": "rule number if i'm just writing it from"
+  },
+  {
+    "start": 622.24,
+    "duration": 4.4,
+    "text": "let's say 1 and less than equal to n no"
+  },
+  {
+    "start": 624.32,
+    "duration": 4.4,
+    "text": "problem that is also fine"
+  },
+  {
+    "start": 626.64,
+    "duration": 5.639,
+    "text": "so for i is equal to 1 or if i just"
+  },
+  {
+    "start": 628.72,
+    "duration": 3.559,
+    "text": "write it as row"
+  },
+  {
+    "start": 632.48,
+    "duration": 4.799,
+    "text": "for row is equal to one now for every"
+  },
+  {
+    "start": 635.04,
+    "duration": 2.239,
+    "text": "row"
+  },
+  {
+    "start": 637.44,
+    "duration": 2.32,
+    "text": "run the"
+  },
+  {
+    "start": 638.72,
+    "duration": 2.799,
+    "text": "column"
+  },
+  {
+    "start": 639.76,
+    "duration": 3.759,
+    "text": "for row is equal to one how many columns"
+  },
+  {
+    "start": 641.519,
+    "duration": 4.961,
+    "text": "will be there one"
+  },
+  {
+    "start": 643.519,
+    "duration": 6.0,
+    "text": "for every row row how many columns will"
+  },
+  {
+    "start": 646.48,
+    "duration": 4.08,
+    "text": "be there r o w so for"
+  },
+  {
+    "start": 649.519,
+    "duration": 2.641,
+    "text": "column"
+  },
+  {
+    "start": 650.56,
+    "duration": 4.959,
+    "text": "starts from 1"
+  },
+  {
+    "start": 652.16,
+    "duration": 5.28,
+    "text": "column is less than equal to row"
+  },
+  {
+    "start": 655.519,
+    "duration": 3.76,
+    "text": "that's it"
+  },
+  {
+    "start": 657.44,
+    "duration": 4.56,
+    "text": "what do i need to print step number"
+  },
+  {
+    "start": 659.279,
+    "duration": 4.641,
+    "text": "three this is like it's included in step"
+  },
+  {
+    "start": 662.0,
+    "duration": 3.2,
+    "text": "number two only like what do you need to"
+  },
+  {
+    "start": 663.92,
+    "duration": 2.96,
+    "text": "print"
+  },
+  {
+    "start": 665.2,
+    "duration": 4.319,
+    "text": "okay all right i'll just mention it as a"
+  },
+  {
+    "start": 666.88,
+    "duration": 4.24,
+    "text": "separate step okay never mind"
+  },
+  {
+    "start": 669.519,
+    "duration": 3.201,
+    "text": "because in more complex patterns it will"
+  },
+  {
+    "start": 671.12,
+    "duration": 3.36,
+    "text": "make much more sense"
+  },
+  {
+    "start": 672.72,
+    "duration": 4.239,
+    "text": "so step number three is what do you need"
+  },
+  {
+    "start": 674.48,
+    "duration": 2.479,
+    "text": "to print"
+  },
+  {
+    "start": 678.64,
+    "duration": 3.04,
+    "text": "what"
+  },
+  {
+    "start": 679.519,
+    "duration": 4.32,
+    "text": "do you"
+  },
+  {
+    "start": 681.68,
+    "duration": 4.0,
+    "text": "need to print"
+  },
+  {
+    "start": 683.839,
+    "duration": 3.68,
+    "text": "this is step number three that is it"
+  },
+  {
+    "start": 685.68,
+    "duration": 3.2,
+    "text": "this is all you need to solve all the"
+  },
+  {
+    "start": 687.519,
+    "duration": 2.961,
+    "text": "pattern questions"
+  },
+  {
+    "start": 688.88,
+    "duration": 4.0,
+    "text": "that's it"
+  },
+  {
+    "start": 690.48,
+    "duration": 3.359,
+    "text": "here i just need to print star for every"
+  },
+  {
+    "start": 692.88,
+    "duration": 2.399,
+    "text": "element"
+  },
+  {
+    "start": 693.839,
+    "duration": 5.521,
+    "text": "so what do we need to print for every"
+  },
+  {
+    "start": 695.279,
+    "duration": 7.281,
+    "text": "element star no problem we'll print star"
+  },
+  {
+    "start": 699.36,
+    "duration": 6.32,
+    "text": "nothing major in that"
+  },
+  {
+    "start": 702.56,
+    "duration": 3.12,
+    "text": "i can say star"
+  },
+  {
+    "start": 707.68,
+    "duration": 2.56,
+    "text": "like this"
+  },
+  {
+    "start": 708.72,
+    "duration": 4.0,
+    "text": "i can add a space over here if you want"
+  },
+  {
+    "start": 710.24,
+    "duration": 2.48,
+    "text": "no problem"
+  },
+  {
+    "start": 712.88,
+    "duration": 4.639,
+    "text": "so what will happen is it will save"
+  },
+  {
+    "start": 715.519,
+    "duration": 3.521,
+    "text": "row is equal to 1"
+  },
+  {
+    "start": 717.519,
+    "duration": 3.841,
+    "text": "okay then it will run okay for row is"
+  },
+  {
+    "start": 719.04,
+    "duration": 4.0,
+    "text": "equal to 1 column is equal to 1 column"
+  },
+  {
+    "start": 721.36,
+    "duration": 3.12,
+    "text": "should be less than equal to row means"
+  },
+  {
+    "start": 723.04,
+    "duration": 3.2,
+    "text": "row is equal to 1 so column should be"
+  },
+  {
+    "start": 724.48,
+    "duration": 4.96,
+    "text": "less than equal to 1 is 1 less than"
+  },
+  {
+    "start": 726.24,
+    "duration": 3.2,
+    "text": "equal to 1 yes it is"
+  },
+  {
+    "start": 729.6,
+    "duration": 3.679,
+    "text": "print star"
+  },
+  {
+    "start": 731.36,
+    "duration": 3.84,
+    "text": "then column will be equal to 2 is 2 less"
+  },
+  {
+    "start": 733.279,
+    "duration": 5.68,
+    "text": "than equal to 1 no it's not come out of"
+  },
+  {
+    "start": 735.2,
+    "duration": 4.56,
+    "text": "this loop so when one line is printed"
+  },
+  {
+    "start": 738.959,
+    "duration": 4.241,
+    "text": "when"
+  },
+  {
+    "start": 739.76,
+    "duration": 7.759,
+    "text": "one row is printed"
+  },
+  {
+    "start": 743.2,
+    "duration": 4.319,
+    "text": "we need to add a new line"
+  },
+  {
+    "start": 748.16,
+    "duration": 3.84,
+    "text": "one row is printed new line second row"
+  },
+  {
+    "start": 750.079,
+    "duration": 4.081,
+    "text": "printed new line third row printed new"
+  },
+  {
+    "start": 752.0,
+    "duration": 6.0,
+    "text": "line same thing we were doing in 2d"
+  },
+  {
+    "start": 754.16,
+    "duration": 5.2,
+    "text": "arrays questions that we did previously"
+  },
+  {
+    "start": 758.0,
+    "duration": 2.88,
+    "text": "when you are printing a 2d array that is"
+  },
+  {
+    "start": 759.36,
+    "duration": 3.12,
+    "text": "what we were doing"
+  },
+  {
+    "start": 760.88,
+    "duration": 4.48,
+    "text": "print a new line"
+  },
+  {
+    "start": 762.48,
+    "duration": 7.799,
+    "text": "let's try to run this"
+  },
+  {
+    "start": 765.36,
+    "duration": 4.919,
+    "text": "pattern 1 let's say for n is equal to 4"
+  },
+  {
+    "start": 772.8,
+    "duration": 4.479,
+    "text": "three step process"
+  },
+  {
+    "start": 774.48,
+    "duration": 2.799,
+    "text": "very easy stuff"
+  },
+  {
+    "start": 777.68,
+    "duration": 5.68,
+    "text": "so simple"
+  },
+  {
+    "start": 779.92,
+    "duration": 3.44,
+    "text": "if you want to debug it you can"
+  },
+  {
+    "start": 784.88,
+    "duration": 5.199,
+    "text": "currently row is equal to one column is"
+  },
+  {
+    "start": 788.0,
+    "duration": 4.32,
+    "text": "equal to row okay one so for"
+  },
+  {
+    "start": 790.079,
+    "duration": 5.921,
+    "text": "for row number one it's going to run"
+  },
+  {
+    "start": 792.32,
+    "duration": 5.44,
+    "text": "this interloop interloop of column"
+  },
+  {
+    "start": 796.0,
+    "duration": 3.92,
+    "text": "one time only because it's running the"
+  },
+  {
+    "start": 797.76,
+    "duration": 4.16,
+    "text": "loop row times rho is equal to 1"
+  },
+  {
+    "start": 799.92,
+    "duration": 3.44,
+    "text": "initially so it will run it 1 times"
+  },
+  {
+    "start": 801.92,
+    "duration": 3.44,
+    "text": "column is equal to 1 is 1 less than"
+  },
+  {
+    "start": 803.36,
+    "duration": 4.08,
+    "text": "equal to 1 yes it is print star and"
+  },
+  {
+    "start": 805.36,
+    "duration": 3.44,
+    "text": "column plus 1 column is now equal to 2"
+  },
+  {
+    "start": 807.44,
+    "duration": 3.199,
+    "text": "is 2 less than equal to 1 no it's not"
+  },
+  {
+    "start": 808.8,
+    "duration": 5.12,
+    "text": "that's why it came outside when it came"
+  },
+  {
+    "start": 810.639,
+    "duration": 4.961,
+    "text": "outside this for loop it print new line"
+  },
+  {
+    "start": 813.92,
+    "duration": 3.599,
+    "text": "now row will be equal to 2 column again"
+  },
+  {
+    "start": 815.6,
+    "duration": 3.599,
+    "text": "starts from 1 is 1 less than equal to 2"
+  },
+  {
+    "start": 817.519,
+    "duration": 3.76,
+    "text": "yes it is ok pin star"
+  },
+  {
+    "start": 819.199,
+    "duration": 4.241,
+    "text": "now column is equal to 2 is 2 less than"
+  },
+  {
+    "start": 821.279,
+    "duration": 3.761,
+    "text": "equal to 2 yes it is print star 2 stars"
+  },
+  {
+    "start": 823.44,
+    "duration": 3.519,
+    "text": "have been printed"
+  },
+  {
+    "start": 825.04,
+    "duration": 3.84,
+    "text": "2 stars have been printed now it will be"
+  },
+  {
+    "start": 826.959,
+    "duration": 4.161,
+    "text": "like row is column is equal to 3 is 3"
+  },
+  {
+    "start": 828.88,
+    "duration": 3.92,
+    "text": "less than equal to 2 no it's not it will"
+  },
+  {
+    "start": 831.12,
+    "duration": 3.279,
+    "text": "come outside of this loop and print a"
+  },
+  {
+    "start": 832.8,
+    "duration": 3.44,
+    "text": "new line check it this out here it will"
+  },
+  {
+    "start": 834.399,
+    "duration": 2.8,
+    "text": "print a new line"
+  },
+  {
+    "start": 836.24,
+    "duration": 2.88,
+    "text": "new line"
+  },
+  {
+    "start": 837.199,
+    "duration": 4.401,
+    "text": "now row will be equal to 3 it will be"
+  },
+  {
+    "start": 839.12,
+    "duration": 4.399,
+    "text": "like hey is a column 1 less than equal"
+  },
+  {
+    "start": 841.6,
+    "duration": 4.0,
+    "text": "to three yes it is"
+  },
+  {
+    "start": 843.519,
+    "duration": 4.56,
+    "text": "print star you can see over here it's"
+  },
+  {
+    "start": 845.6,
+    "duration": 4.56,
+    "text": "printing star print another star print"
+  },
+  {
+    "start": 848.079,
+    "duration": 3.841,
+    "text": "another star new line"
+  },
+  {
+    "start": 850.16,
+    "duration": 4.08,
+    "text": "print another star pinata star another"
+  },
+  {
+    "start": 851.92,
+    "duration": 5.039,
+    "text": "star another star new line"
+  },
+  {
+    "start": 854.24,
+    "duration": 4.719,
+    "text": "now row will be equal to 5 is 5 less"
+  },
+  {
+    "start": 856.959,
+    "duration": 4.161,
+    "text": "than equal to n no it's not outer for"
+  },
+  {
+    "start": 858.959,
+    "duration": 5.041,
+    "text": "loop will also end program will end"
+  },
+  {
+    "start": 861.12,
+    "duration": 4.88,
+    "text": "that's it very simple stuff that's it"
+  },
+  {
+    "start": 864.0,
+    "duration": 3.44,
+    "text": "with these three approaches you can"
+  },
+  {
+    "start": 866.0,
+    "duration": 3.44,
+    "text": "solve any problem"
+  },
+  {
+    "start": 867.44,
+    "duration": 3.6,
+    "text": "let's try to solve more actually this is"
+  },
+  {
+    "start": 869.44,
+    "duration": 3.36,
+    "text": "pattern number two of the assignment so"
+  },
+  {
+    "start": 871.04,
+    "duration": 4.0,
+    "text": "i'm going to name this as pattern number"
+  },
+  {
+    "start": 872.8,
+    "duration": 2.24,
+    "text": "two"
+  },
+  {
+    "start": 875.36,
+    "duration": 4.88,
+    "text": "name this as pattern number"
+  },
+  {
+    "start": 878.32,
+    "duration": 3.6,
+    "text": "two no problem let's try to solve"
+  },
+  {
+    "start": 880.24,
+    "duration": 3.44,
+    "text": "another problem let's say pattern number"
+  },
+  {
+    "start": 881.92,
+    "duration": 2.88,
+    "text": "one this is very simple step number one"
+  },
+  {
+    "start": 883.68,
+    "duration": 3.04,
+    "text": "is what"
+  },
+  {
+    "start": 884.8,
+    "duration": 4.159,
+    "text": "identify the number of rows so number of"
+  },
+  {
+    "start": 886.72,
+    "duration": 4.479,
+    "text": "rows is equal to n itself identify the"
+  },
+  {
+    "start": 888.959,
+    "duration": 4.56,
+    "text": "number of columns in every row the"
+  },
+  {
+    "start": 891.199,
+    "duration": 3.76,
+    "text": "number of columns are also n itself and"
+  },
+  {
+    "start": 893.519,
+    "duration": 4.161,
+    "text": "step number three what are we trying to"
+  },
+  {
+    "start": 894.959,
+    "duration": 4.641,
+    "text": "print we are printing star no problem"
+  },
+  {
+    "start": 897.68,
+    "duration": 4.48,
+    "text": "no problem"
+  },
+  {
+    "start": 899.6,
+    "duration": 2.56,
+    "text": "copy this"
+  },
+  {
+    "start": 902.8,
+    "duration": 5.599,
+    "text": "paste this pattern number one"
+  },
+  {
+    "start": 905.6,
+    "duration": 6.0,
+    "text": "for every row is running n times"
+  },
+  {
+    "start": 908.399,
+    "duration": 4.56,
+    "text": "every column is also running n times"
+  },
+  {
+    "start": 911.6,
+    "duration": 3.919,
+    "text": "that's it"
+  },
+  {
+    "start": 912.959,
+    "duration": 2.56,
+    "text": "that is it"
+  },
+  {
+    "start": 915.68,
+    "duration": 2.399,
+    "text": "that's it"
+  },
+  {
+    "start": 920.079,
+    "duration": 4.32,
+    "text": "done"
+  },
+  {
+    "start": 922.24,
+    "duration": 3.76,
+    "text": "let's try to solve some other question"
+  },
+  {
+    "start": 924.399,
+    "duration": 2.8,
+    "text": "let's try to solve this question pattern"
+  },
+  {
+    "start": 926.0,
+    "duration": 2.72,
+    "text": "number three"
+  },
+  {
+    "start": 927.199,
+    "duration": 3.44,
+    "text": "pattern number three very very easy"
+  },
+  {
+    "start": 928.72,
+    "duration": 3.679,
+    "text": "question why is it easy because we are"
+  },
+  {
+    "start": 930.639,
+    "duration": 3.601,
+    "text": "following these three steps"
+  },
+  {
+    "start": 932.399,
+    "duration": 3.841,
+    "text": "that's why it's easy"
+  },
+  {
+    "start": 934.24,
+    "duration": 4.56,
+    "text": "pause this video try it yourself like"
+  },
+  {
+    "start": 936.24,
+    "duration": 4.399,
+    "text": "share comment right now then try it it's"
+  },
+  {
+    "start": 938.8,
+    "duration": 3.839,
+    "text": "very important because otherwise this"
+  },
+  {
+    "start": 940.639,
+    "duration": 3.921,
+    "text": "course will not reach around the world i"
+  },
+  {
+    "start": 942.639,
+    "duration": 3.44,
+    "text": "want people to know about it"
+  },
+  {
+    "start": 944.56,
+    "duration": 3.36,
+    "text": "and not just this video is a very simple"
+  },
+  {
+    "start": 946.079,
+    "duration": 3.521,
+    "text": "video when we do dynamic programming"
+  },
+  {
+    "start": 947.92,
+    "duration": 3.68,
+    "text": "graphs you know"
+  },
+  {
+    "start": 949.6,
+    "duration": 3.679,
+    "text": "recursion and space and time complexity"
+  },
+  {
+    "start": 951.6,
+    "duration": 3.599,
+    "text": "object-oriented programming development"
+  },
+  {
+    "start": 953.279,
+    "duration": 2.961,
+    "text": "machine learning devops all these things"
+  },
+  {
+    "start": 955.199,
+    "duration": 2.0,
+    "text": "for free"
+  },
+  {
+    "start": 956.24,
+    "duration": 4.08,
+    "text": "please"
+  },
+  {
+    "start": 957.199,
+    "duration": 4.88,
+    "text": "comment like subscribe and share"
+  },
+  {
+    "start": 960.32,
+    "duration": 3.92,
+    "text": "right now okay"
+  },
+  {
+    "start": 962.079,
+    "duration": 3.361,
+    "text": "pause this video try it out okay hope"
+  },
+  {
+    "start": 964.24,
+    "duration": 2.399,
+    "text": "you"
+  },
+  {
+    "start": 965.44,
+    "duration": 2.959,
+    "text": "okay let's see"
+  },
+  {
+    "start": 966.639,
+    "duration": 3.841,
+    "text": "you can come after the clap okay"
+  },
+  {
+    "start": 968.399,
+    "duration": 4.56,
+    "text": "hopefully you"
+  },
+  {
+    "start": 970.48,
+    "duration": 4.0,
+    "text": "tried it out let's try to solve it with"
+  },
+  {
+    "start": 972.959,
+    "duration": 3.921,
+    "text": "this approach only"
+  },
+  {
+    "start": 974.48,
+    "duration": 4.479,
+    "text": "with this approach only"
+  },
+  {
+    "start": 976.88,
+    "duration": 4.0,
+    "text": "pattern number three"
+  },
+  {
+    "start": 978.959,
+    "duration": 4.32,
+    "text": "so approach number one how many times"
+  },
+  {
+    "start": 980.88,
+    "duration": 5.6,
+    "text": "the rows are there how many rows are"
+  },
+  {
+    "start": 983.279,
+    "duration": 5.36,
+    "text": "there if this is n is equal to 5 then 5"
+  },
+  {
+    "start": 986.48,
+    "duration": 4.0,
+    "text": "rows are there so outer loop will not"
+  },
+  {
+    "start": 988.639,
+    "duration": 4.401,
+    "text": "change okay"
+  },
+  {
+    "start": 990.48,
+    "duration": 4.56,
+    "text": "how many columns are there for every row"
+  },
+  {
+    "start": 993.04,
+    "duration": 5.12,
+    "text": "for row is equal to 1"
+  },
+  {
+    "start": 995.04,
+    "duration": 5.76,
+    "text": "columns are 5. for row is equal to 2"
+  },
+  {
+    "start": 998.16,
+    "duration": 4.799,
+    "text": "columns are 4 for row is equal to 3"
+  },
+  {
+    "start": 1000.8,
+    "duration": 4.64,
+    "text": "columns are 3 for row is equal to 4"
+  },
+  {
+    "start": 1002.959,
+    "duration": 5.201,
+    "text": "columns are 2. for row is equal to 5"
+  },
+  {
+    "start": 1005.44,
+    "duration": 2.72,
+    "text": "column is 1."
+  },
+  {
+    "start": 1008.88,
+    "duration": 6.399,
+    "text": "so can i not do something like this"
+  },
+  {
+    "start": 1012.48,
+    "duration": 6.24,
+    "text": "or every column how many columns column"
+  },
+  {
+    "start": 1015.279,
+    "duration": 3.441,
+    "text": "is actually going to start from"
+  },
+  {
+    "start": 1020.88,
+    "duration": 3.439,
+    "text": "one till number of times so for example"
+  },
+  {
+    "start": 1022.72,
+    "duration": 4.0,
+    "text": "yeah that's going to the same thing it's"
+  },
+  {
+    "start": 1024.319,
+    "duration": 3.841,
+    "text": "going to start from like 1 like but how"
+  },
+  {
+    "start": 1026.72,
+    "duration": 2.959,
+    "text": "many less than equal to is it going to"
+  },
+  {
+    "start": 1028.16,
+    "duration": 4.159,
+    "text": "be"
+  },
+  {
+    "start": 1029.679,
+    "duration": 6.4,
+    "text": "it's not going to be equal to i"
+  },
+  {
+    "start": 1032.319,
+    "duration": 3.76,
+    "text": "it's basically going to be let's say"
+  },
+  {
+    "start": 1036.959,
+    "duration": 3.84,
+    "text": "if here i is equal to 1 and i need 5"
+  },
+  {
+    "start": 1039.839,
+    "duration": 2.96,
+    "text": "okay"
+  },
+  {
+    "start": 1040.799,
+    "duration": 6.0,
+    "text": "so basically this is"
+  },
+  {
+    "start": 1042.799,
+    "duration": 4.0,
+    "text": "5 minus i plus 1"
+  },
+  {
+    "start": 1046.959,
+    "duration": 3.681,
+    "text": "that's the thing n minus i plus 1"
+  },
+  {
+    "start": 1049.6,
+    "duration": 3.76,
+    "text": "n"
+  },
+  {
+    "start": 1050.64,
+    "duration": 4.32,
+    "text": "minus i plus 1 let's try to run this i"
+  },
+  {
+    "start": 1053.36,
+    "duration": 5.679,
+    "text": "will explain to you how this happened no"
+  },
+  {
+    "start": 1054.96,
+    "duration": 6.32,
+    "text": "problem n minus row plus 1 sorry"
+  },
+  {
+    "start": 1059.039,
+    "duration": 2.241,
+    "text": "run"
+  },
+  {
+    "start": 1063.2,
+    "duration": 3.68,
+    "text": "simple stuff"
+  },
+  {
+    "start": 1064.64,
+    "duration": 4.88,
+    "text": "why think about it so"
+  },
+  {
+    "start": 1066.88,
+    "duration": 4.0,
+    "text": "let's try to you know discuss it let me"
+  },
+  {
+    "start": 1069.52,
+    "duration": 3.519,
+    "text": "bring up my"
+  },
+  {
+    "start": 1070.88,
+    "duration": 4.08,
+    "text": "whiteboard okay so try to just write it"
+  },
+  {
+    "start": 1073.039,
+    "duration": 3.201,
+    "text": "down and basically one more hint i can"
+  },
+  {
+    "start": 1074.96,
+    "duration": 2.56,
+    "text": "give you is in order to solve the"
+  },
+  {
+    "start": 1076.24,
+    "duration": 4.0,
+    "text": "problem is"
+  },
+  {
+    "start": 1077.52,
+    "duration": 5.92,
+    "text": "try to write down the row numbers so for"
+  },
+  {
+    "start": 1080.24,
+    "duration": 5.04,
+    "text": "example if i am writing"
+  },
+  {
+    "start": 1083.44,
+    "duration": 4.88,
+    "text": "one two"
+  },
+  {
+    "start": 1085.28,
+    "duration": 3.04,
+    "text": "three four"
+  },
+  {
+    "start": 1091.2,
+    "duration": 4.64,
+    "text": "row number one two three four"
+  },
+  {
+    "start": 1097.039,
+    "duration": 4.321,
+    "text": "in row number one"
+  },
+  {
+    "start": 1098.72,
+    "duration": 4.959,
+    "text": "i have let's say"
+  },
+  {
+    "start": 1101.36,
+    "duration": 4.24,
+    "text": "for n is equal to four"
+  },
+  {
+    "start": 1103.679,
+    "duration": 5.681,
+    "text": "this is the output"
+  },
+  {
+    "start": 1105.6,
+    "duration": 5.52,
+    "text": "in row number one i have four columns"
+  },
+  {
+    "start": 1109.36,
+    "duration": 5.12,
+    "text": "three columns"
+  },
+  {
+    "start": 1111.12,
+    "duration": 3.36,
+    "text": "two column and one column"
+  },
+  {
+    "start": 1114.559,
+    "duration": 3.281,
+    "text": "so initial"
+  },
+  {
+    "start": 1115.84,
+    "duration": 4.32,
+    "text": "first of all i need to find you need to"
+  },
+  {
+    "start": 1117.84,
+    "duration": 4.32,
+    "text": "find like a formula so this is another"
+  },
+  {
+    "start": 1120.16,
+    "duration": 3.28,
+    "text": "you know important point try to find the"
+  },
+  {
+    "start": 1122.16,
+    "duration": 4.639,
+    "text": "formula"
+  },
+  {
+    "start": 1123.44,
+    "duration": 3.359,
+    "text": "i will try to write it over here"
+  },
+  {
+    "start": 1130.0,
+    "duration": 2.96,
+    "text": "try to find"
+  },
+  {
+    "start": 1131.84,
+    "duration": 3.36,
+    "text": "the"
+  },
+  {
+    "start": 1132.96,
+    "duration": 4.079,
+    "text": "formula"
+  },
+  {
+    "start": 1135.2,
+    "duration": 3.839,
+    "text": "relating"
+  },
+  {
+    "start": 1137.039,
+    "duration": 5.201,
+    "text": "rows and columns"
+  },
+  {
+    "start": 1139.039,
+    "duration": 5.281,
+    "text": "so here for example if row number r"
+  },
+  {
+    "start": 1142.24,
+    "duration": 5.2,
+    "text": "for row number r"
+  },
+  {
+    "start": 1144.32,
+    "duration": 5.44,
+    "text": "is going to be like column is equal to"
+  },
+  {
+    "start": 1147.44,
+    "duration": 4.16,
+    "text": "equal to what"
+  },
+  {
+    "start": 1149.76,
+    "duration": 4.72,
+    "text": "here n is equal to 4"
+  },
+  {
+    "start": 1151.6,
+    "duration": 4.319,
+    "text": "so this is actually equal to n plus 1"
+  },
+  {
+    "start": 1154.48,
+    "duration": 2.559,
+    "text": "minus"
+  },
+  {
+    "start": 1155.919,
+    "duration": 2.961,
+    "text": "r"
+  },
+  {
+    "start": 1157.039,
+    "duration": 4.321,
+    "text": "so basically n"
+  },
+  {
+    "start": 1158.88,
+    "duration": 4.88,
+    "text": "plus 1"
+  },
+  {
+    "start": 1161.36,
+    "duration": 4.96,
+    "text": "minus r"
+  },
+  {
+    "start": 1163.76,
+    "duration": 5.12,
+    "text": "this is just from common sense"
+  },
+  {
+    "start": 1166.32,
+    "duration": 4.8,
+    "text": "n plus one minus r"
+  },
+  {
+    "start": 1168.88,
+    "duration": 3.679,
+    "text": "because one more thing by which you can"
+  },
+  {
+    "start": 1171.12,
+    "duration": 3.28,
+    "text": "initialize you can see how can how did"
+  },
+  {
+    "start": 1172.559,
+    "duration": 3.681,
+    "text": "you know it was n plus one minus r"
+  },
+  {
+    "start": 1174.4,
+    "duration": 5.04,
+    "text": "was first this was n"
+  },
+  {
+    "start": 1176.24,
+    "duration": 7.04,
+    "text": "n minus one n minus 2 n minus 3."
+  },
+  {
+    "start": 1179.44,
+    "duration": 8.08,
+    "text": "so this minus 1 minus 2 minus 3 is what"
+  },
+  {
+    "start": 1183.28,
+    "duration": 4.24,
+    "text": "minus 1 minus 2 minus 3 is what r"
+  },
+  {
+    "start": 1187.84,
+    "duration": 3.76,
+    "text": "okay for example if you had loop running"
+  },
+  {
+    "start": 1190.559,
+    "duration": 3.281,
+    "text": "from"
+  },
+  {
+    "start": 1191.6,
+    "duration": 3.76,
+    "text": "let's say"
+  },
+  {
+    "start": 1193.84,
+    "duration": 3.52,
+    "text": "because for example example in this case"
+  },
+  {
+    "start": 1195.36,
+    "duration": 4.64,
+    "text": "we are writing loop running from rho is"
+  },
+  {
+    "start": 1197.36,
+    "duration": 4.4,
+    "text": "equal to 1 rho is less than equal to n"
+  },
+  {
+    "start": 1200.0,
+    "duration": 3.28,
+    "text": "you can also do rho is equal to 0 rho is"
+  },
+  {
+    "start": 1201.76,
+    "duration": 3.279,
+    "text": "less than n there's also something you"
+  },
+  {
+    "start": 1203.28,
+    "duration": 4.24,
+    "text": "can do for example we can do something"
+  },
+  {
+    "start": 1205.039,
+    "duration": 5.52,
+    "text": "like this"
+  },
+  {
+    "start": 1207.52,
+    "duration": 4.8,
+    "text": "row number 0 1 2 3 now the formula will"
+  },
+  {
+    "start": 1210.559,
+    "duration": 4.48,
+    "text": "change to"
+  },
+  {
+    "start": 1212.32,
+    "duration": 2.719,
+    "text": "n minus r"
+  },
+  {
+    "start": 1218.96,
+    "duration": 6.079,
+    "text": "here it was n knows 3 2 1"
+  },
+  {
+    "start": 1222.48,
+    "duration": 3.6,
+    "text": "so n minus 0 n minus 1 n minus 2 n minus"
+  },
+  {
+    "start": 1225.039,
+    "duration": 3.76,
+    "text": "3"
+  },
+  {
+    "start": 1226.08,
+    "duration": 4.8,
+    "text": "what is this minus 1 minus 2 minus 3"
+  },
+  {
+    "start": 1228.799,
+    "duration": 2.88,
+    "text": "minus 1 is equal to what"
+  },
+  {
+    "start": 1230.88,
+    "duration": 6.0,
+    "text": "r"
+  },
+  {
+    "start": 1231.679,
+    "duration": 6.321,
+    "text": "minus 0 r minus 2 r minus 3 3 is also r"
+  },
+  {
+    "start": 1236.88,
+    "duration": 3.36,
+    "text": "all right"
+  },
+  {
+    "start": 1238.0,
+    "duration": 3.84,
+    "text": "that makes sense cool let's move on to"
+  },
+  {
+    "start": 1240.24,
+    "duration": 3.679,
+    "text": "the next question now let's look into"
+  },
+  {
+    "start": 1241.84,
+    "duration": 4.719,
+    "text": "the next question which is this one so"
+  },
+  {
+    "start": 1243.919,
+    "duration": 4.961,
+    "text": "here it says that okay um"
+  },
+  {
+    "start": 1246.559,
+    "duration": 4.24,
+    "text": "what is our first step first step says"
+  },
+  {
+    "start": 1248.88,
+    "duration": 5.12,
+    "text": "how many number of rows you have no"
+  },
+  {
+    "start": 1250.799,
+    "duration": 3.201,
+    "text": "problem coil paste"
+  },
+  {
+    "start": 1257.039,
+    "duration": 3.681,
+    "text": "pattern i think this is fourth"
+  },
+  {
+    "start": 1259.52,
+    "duration": 2.88,
+    "text": "yeah"
+  },
+  {
+    "start": 1260.72,
+    "duration": 3.839,
+    "text": "so it has let's say if this is for n is"
+  },
+  {
+    "start": 1262.4,
+    "duration": 4.24,
+    "text": "equal to five then five rows so outer"
+  },
+  {
+    "start": 1264.559,
+    "duration": 4.721,
+    "text": "loop will run n times outer root is"
+  },
+  {
+    "start": 1266.64,
+    "duration": 4.8,
+    "text": "running n times okay column is actually"
+  },
+  {
+    "start": 1269.28,
+    "duration": 3.519,
+    "text": "running uh for every row how many"
+  },
+  {
+    "start": 1271.44,
+    "duration": 2.16,
+    "text": "columns do we have"
+  },
+  {
+    "start": 1272.799,
+    "duration": 2.88,
+    "text": "eq"
+  },
+  {
+    "start": 1273.6,
+    "duration": 4.079,
+    "text": "the the number of columns for this is"
+  },
+  {
+    "start": 1275.679,
+    "duration": 3.601,
+    "text": "roll number one that we have one column"
+  },
+  {
+    "start": 1277.679,
+    "duration": 3.36,
+    "text": "row number two we have two column row"
+  },
+  {
+    "start": 1279.28,
+    "duration": 3.36,
+    "text": "number three we have three column so"
+  },
+  {
+    "start": 1281.039,
+    "duration": 4.801,
+    "text": "relationship between row and column is"
+  },
+  {
+    "start": 1282.64,
+    "duration": 5.039,
+    "text": "equal to what r is equal to c"
+  },
+  {
+    "start": 1285.84,
+    "duration": 3.6,
+    "text": "so this should actually be equal to less"
+  },
+  {
+    "start": 1287.679,
+    "duration": 3.761,
+    "text": "than equal to rho how many number of"
+  },
+  {
+    "start": 1289.44,
+    "duration": 3.52,
+    "text": "rows you have that many number of how"
+  },
+  {
+    "start": 1291.44,
+    "duration": 3.04,
+    "text": "what is the row number that should be"
+  },
+  {
+    "start": 1292.96,
+    "duration": 2.8,
+    "text": "equal to the number of columns in that"
+  },
+  {
+    "start": 1294.48,
+    "duration": 4.16,
+    "text": "row"
+  },
+  {
+    "start": 1295.76,
+    "duration": 4.24,
+    "text": "this row number four it has four columns"
+  },
+  {
+    "start": 1298.64,
+    "duration": 2.88,
+    "text": "but one more difference is that we are"
+  },
+  {
+    "start": 1300.0,
+    "duration": 3.679,
+    "text": "not printing star right now what are we"
+  },
+  {
+    "start": 1301.52,
+    "duration": 5.44,
+    "text": "printing you tell me"
+  },
+  {
+    "start": 1303.679,
+    "duration": 3.281,
+    "text": "we are actually printing the"
+  },
+  {
+    "start": 1307.2,
+    "duration": 3.839,
+    "text": "the column number column number one"
+  },
+  {
+    "start": 1309.52,
+    "duration": 2.72,
+    "text": "column number one column number two"
+  },
+  {
+    "start": 1311.039,
+    "duration": 2.88,
+    "text": "column number one column number two"
+  },
+  {
+    "start": 1312.24,
+    "duration": 2.88,
+    "text": "column number three column number one"
+  },
+  {
+    "start": 1313.919,
+    "duration": 2.88,
+    "text": "column number two column number three"
+  },
+  {
+    "start": 1315.12,
+    "duration": 3.12,
+    "text": "column number four"
+  },
+  {
+    "start": 1316.799,
+    "duration": 3.76,
+    "text": "so we are actually printing the column"
+  },
+  {
+    "start": 1318.24,
+    "duration": 5.04,
+    "text": "number itself let's try to run this"
+  },
+  {
+    "start": 1320.559,
+    "duration": 2.721,
+    "text": "pattern four"
+  },
+  {
+    "start": 1328.48,
+    "duration": 3.439,
+    "text": "very simple stuff"
+  },
+  {
+    "start": 1330.0,
+    "duration": 4.24,
+    "text": "same thing you can add a space if you"
+  },
+  {
+    "start": 1331.919,
+    "duration": 3.201,
+    "text": "want to make it move look to make it"
+  },
+  {
+    "start": 1334.24,
+    "duration": 3.36,
+    "text": "look"
+  },
+  {
+    "start": 1335.12,
+    "duration": 2.48,
+    "text": "more neat"
+  },
+  {
+    "start": 1342.96,
+    "duration": 4.16,
+    "text": "okay"
+  },
+  {
+    "start": 1344.48,
+    "duration": 4.88,
+    "text": "very simple pattern number five this is"
+  },
+  {
+    "start": 1347.12,
+    "duration": 5.039,
+    "text": "a little bit different but it's uh very"
+  },
+  {
+    "start": 1349.36,
+    "duration": 3.76,
+    "text": "simple again step number one don't be no"
+  },
+  {
+    "start": 1352.159,
+    "duration": 3.921,
+    "text": "don't be"
+  },
+  {
+    "start": 1353.12,
+    "duration": 2.96,
+    "text": "don't be like uh"
+  },
+  {
+    "start": 1356.64,
+    "duration": 3.84,
+    "text": "what do you call it"
+  },
+  {
+    "start": 1358.0,
+    "duration": 4.72,
+    "text": "don't be afraid of this thing"
+  },
+  {
+    "start": 1360.48,
+    "duration": 5.52,
+    "text": "follow the steps what is the steps step"
+  },
+  {
+    "start": 1362.72,
+    "duration": 5.199,
+    "text": "number one how many um"
+  },
+  {
+    "start": 1366.0,
+    "duration": 3.84,
+    "text": "how many number of rows do we have how"
+  },
+  {
+    "start": 1367.919,
+    "duration": 3.521,
+    "text": "many times the rows in the outer for"
+  },
+  {
+    "start": 1369.84,
+    "duration": 3.6,
+    "text": "loop will run outer for loop will run"
+  },
+  {
+    "start": 1371.44,
+    "duration": 4.8,
+    "text": "the number of rows time for example this"
+  },
+  {
+    "start": 1373.44,
+    "duration": 3.599,
+    "text": "was 4n is equal to 5"
+  },
+  {
+    "start": 1376.24,
+    "duration": 4.4,
+    "text": "then"
+  },
+  {
+    "start": 1377.039,
+    "duration": 5.921,
+    "text": "how many total number of rows do we have"
+  },
+  {
+    "start": 1380.64,
+    "duration": 3.76,
+    "text": "2 n minus 1"
+  },
+  {
+    "start": 1382.96,
+    "duration": 4.16,
+    "text": "2 n minus 1"
+  },
+  {
+    "start": 1384.4,
+    "duration": 4.96,
+    "text": "because here we have 9 rows that's fine"
+  },
+  {
+    "start": 1387.12,
+    "duration": 3.6,
+    "text": "pattern number five no problem"
+  },
+  {
+    "start": 1389.36,
+    "duration": 3.199,
+    "text": "static"
+  },
+  {
+    "start": 1390.72,
+    "duration": 3.439,
+    "text": "void"
+  },
+  {
+    "start": 1392.559,
+    "duration": 2.961,
+    "text": "pattern five"
+  },
+  {
+    "start": 1394.159,
+    "duration": 3.201,
+    "text": "in ten"
+  },
+  {
+    "start": 1395.52,
+    "duration": 3.6,
+    "text": "outer loop will run how many times step"
+  },
+  {
+    "start": 1397.36,
+    "duration": 3.12,
+    "text": "number one figure out how many times the"
+  },
+  {
+    "start": 1399.12,
+    "duration": 4.0,
+    "text": "outer loop will run"
+  },
+  {
+    "start": 1400.48,
+    "duration": 4.079,
+    "text": "so it will run n minus 1 times"
+  },
+  {
+    "start": 1403.12,
+    "duration": 4.96,
+    "text": "2 sorry"
+  },
+  {
+    "start": 1404.559,
+    "duration": 5.12,
+    "text": "2 n minus 1 times less than 2 into n"
+  },
+  {
+    "start": 1408.08,
+    "duration": 4.079,
+    "text": "that's it"
+  },
+  {
+    "start": 1409.679,
+    "duration": 2.48,
+    "text": "that is it"
+  },
+  {
+    "start": 1412.559,
+    "duration": 2.721,
+    "text": "that's it"
+  },
+  {
+    "start": 1413.52,
+    "duration": 3.279,
+    "text": "now you need to figure out how many"
+  },
+  {
+    "start": 1415.28,
+    "duration": 4.0,
+    "text": "columns do we have"
+  },
+  {
+    "start": 1416.799,
+    "duration": 4.48,
+    "text": "let's say we have c number of columns at"
+  },
+  {
+    "start": 1419.28,
+    "duration": 3.519,
+    "text": "every row this is the next step right"
+  },
+  {
+    "start": 1421.279,
+    "duration": 3.52,
+    "text": "figure out how many columns you have at"
+  },
+  {
+    "start": 1422.799,
+    "duration": 3.76,
+    "text": "each row"
+  },
+  {
+    "start": 1424.799,
+    "duration": 3.521,
+    "text": "initially let's say it's whatever okay"
+  },
+  {
+    "start": 1426.559,
+    "duration": 5.281,
+    "text": "it does not matter i'm just putting some"
+  },
+  {
+    "start": 1428.32,
+    "duration": 3.52,
+    "text": "dummy value over here okay"
+  },
+  {
+    "start": 1432.32,
+    "duration": 3.04,
+    "text": "so here i'm just going to say okay let's"
+  },
+  {
+    "start": 1434.0,
+    "duration": 5.2,
+    "text": "say this is the number of columns we"
+  },
+  {
+    "start": 1435.36,
+    "duration": 6.0,
+    "text": "have then for i is equal to"
+  },
+  {
+    "start": 1439.2,
+    "duration": 5.64,
+    "text": "then print that many amount of stars"
+  },
+  {
+    "start": 1441.36,
+    "duration": 3.48,
+    "text": "okay no problem"
+  },
+  {
+    "start": 1447.6,
+    "duration": 3.36,
+    "text": "print that many amount of stars no"
+  },
+  {
+    "start": 1449.52,
+    "duration": 4.0,
+    "text": "problem"
+  },
+  {
+    "start": 1450.96,
+    "duration": 4.719,
+    "text": "no problem"
+  },
+  {
+    "start": 1453.52,
+    "duration": 5.399,
+    "text": "then print a new line over here"
+  },
+  {
+    "start": 1455.679,
+    "duration": 3.24,
+    "text": "no problem"
+  },
+  {
+    "start": 1459.2,
+    "duration": 3.599,
+    "text": "i'm gonna rename this to row that's it"
+  },
+  {
+    "start": 1461.2,
+    "duration": 3.599,
+    "text": "only thing remaining now is actually"
+  },
+  {
+    "start": 1462.799,
+    "duration": 4.641,
+    "text": "figuring out how many columns do we have"
+  },
+  {
+    "start": 1464.799,
+    "duration": 2.641,
+    "text": "at every step"
+  },
+  {
+    "start": 1468.64,
+    "duration": 2.96,
+    "text": "how many columns we have at every set"
+  },
+  {
+    "start": 1470.4,
+    "duration": 2.56,
+    "text": "you can see we have already done a"
+  },
+  {
+    "start": 1471.6,
+    "duration": 3.28,
+    "text": "problem like this"
+  },
+  {
+    "start": 1472.96,
+    "duration": 4.079,
+    "text": "question number two"
+  },
+  {
+    "start": 1474.88,
+    "duration": 3.36,
+    "text": "the problem is that this is a different"
+  },
+  {
+    "start": 1477.039,
+    "duration": 3.361,
+    "text": "part"
+  },
+  {
+    "start": 1478.24,
+    "duration": 3.439,
+    "text": "and the number of columns is changing"
+  },
+  {
+    "start": 1480.4,
+    "duration": 2.879,
+    "text": "accordingly"
+  },
+  {
+    "start": 1481.679,
+    "duration": 4.401,
+    "text": "so you can see that first the number of"
+  },
+  {
+    "start": 1483.279,
+    "duration": 3.921,
+    "text": "columns are increasing till n is equal"
+  },
+  {
+    "start": 1486.08,
+    "duration": 2.16,
+    "text": "to"
+  },
+  {
+    "start": 1487.2,
+    "duration": 2.4,
+    "text": "5"
+  },
+  {
+    "start": 1488.24,
+    "duration": 3.2,
+    "text": "then after"
+  },
+  {
+    "start": 1489.6,
+    "duration": 5.199,
+    "text": "so for example"
+  },
+  {
+    "start": 1491.44,
+    "duration": 7.2,
+    "text": "till i till row is equal to n"
+  },
+  {
+    "start": 1494.799,
+    "duration": 5.441,
+    "text": "you have to add normal columns"
+  },
+  {
+    "start": 1498.64,
+    "duration": 2.96,
+    "text": "row is equal to one one column row is"
+  },
+  {
+    "start": 1500.24,
+    "duration": 3.919,
+    "text": "equal to two two column row is equal to"
+  },
+  {
+    "start": 1501.6,
+    "duration": 5.52,
+    "text": "three three column no problem so i can"
+  },
+  {
+    "start": 1504.159,
+    "duration": 2.961,
+    "text": "say that um"
+  },
+  {
+    "start": 1507.84,
+    "duration": 4.24,
+    "text": "i can say"
+  },
+  {
+    "start": 1509.12,
+    "duration": 5.84,
+    "text": "if i is actually less than equal to n"
+  },
+  {
+    "start": 1512.08,
+    "duration": 4.64,
+    "text": "sorry uh row is actually less than um"
+  },
+  {
+    "start": 1514.96,
+    "duration": 3.76,
+    "text": "or one second let me just try to you"
+  },
+  {
+    "start": 1516.72,
+    "duration": 4.079,
+    "text": "know think about it"
+  },
+  {
+    "start": 1518.72,
+    "duration": 4.559,
+    "text": "so here i'm actually saying that"
+  },
+  {
+    "start": 1520.799,
+    "duration": 4.961,
+    "text": "it starts decreasing"
+  },
+  {
+    "start": 1523.279,
+    "duration": 4.081,
+    "text": "it starts decreasing after the value of"
+  },
+  {
+    "start": 1525.76,
+    "duration": 3.6,
+    "text": "n"
+  },
+  {
+    "start": 1527.36,
+    "duration": 3.36,
+    "text": "so the value of rho starts decreasing"
+  },
+  {
+    "start": 1529.36,
+    "duration": 3.36,
+    "text": "after the value of 10"
+  },
+  {
+    "start": 1530.72,
+    "duration": 4.079,
+    "text": "let's try to"
+  },
+  {
+    "start": 1532.72,
+    "duration": 3.68,
+    "text": "let's try to write it on a white board"
+  },
+  {
+    "start": 1534.799,
+    "duration": 3.601,
+    "text": "and bring the formula"
+  },
+  {
+    "start": 1536.4,
+    "duration": 4.0,
+    "text": "everything we have done is same only"
+  },
+  {
+    "start": 1538.4,
+    "duration": 3.68,
+    "text": "thing remaining now is the formula that"
+  },
+  {
+    "start": 1540.4,
+    "duration": 4.08,
+    "text": "we talked about relationship between c"
+  },
+  {
+    "start": 1542.08,
+    "duration": 3.839,
+    "text": "and r that is something we need here"
+  },
+  {
+    "start": 1544.48,
+    "duration": 3.28,
+    "text": "right now it contains dummy value we"
+  },
+  {
+    "start": 1545.919,
+    "duration": 5.12,
+    "text": "actually need a formula"
+  },
+  {
+    "start": 1547.76,
+    "duration": 3.279,
+    "text": "let's see how we can get the formula"
+  },
+  {
+    "start": 1551.12,
+    "duration": 3.039,
+    "text": "i can also"
+  },
+  {
+    "start": 1552.559,
+    "duration": 3.761,
+    "text": "rename this if you want"
+  },
+  {
+    "start": 1554.159,
+    "duration": 3.921,
+    "text": "total i can rename this to something"
+  },
+  {
+    "start": 1556.32,
+    "duration": 2.8,
+    "text": "simpler"
+  },
+  {
+    "start": 1558.08,
+    "duration": 1.94,
+    "text": "total"
+  },
+  {
+    "start": 1559.12,
+    "duration": 2.159,
+    "text": "columns in"
+  },
+  {
+    "start": 1560.02,
+    "duration": 3.42,
+    "text": "[Music]"
+  },
+  {
+    "start": 1561.279,
+    "duration": 4.481,
+    "text": "row"
+  },
+  {
+    "start": 1563.44,
+    "duration": 3.68,
+    "text": "okay we need a formula for that okay"
+  },
+  {
+    "start": 1565.76,
+    "duration": 3.84,
+    "text": "let's see how we can get it so the"
+  },
+  {
+    "start": 1567.12,
+    "duration": 4.88,
+    "text": "question was something like this it says"
+  },
+  {
+    "start": 1569.6,
+    "duration": 3.52,
+    "text": "the pattern is like um what is the"
+  },
+  {
+    "start": 1572.0,
+    "duration": 3.6,
+    "text": "pattern"
+  },
+  {
+    "start": 1573.12,
+    "duration": 5.679,
+    "text": "let's say for n is equal to five"
+  },
+  {
+    "start": 1575.6,
+    "duration": 4.64,
+    "text": "pattern is something like this one"
+  },
+  {
+    "start": 1578.799,
+    "duration": 3.681,
+    "text": "two"
+  },
+  {
+    "start": 1580.24,
+    "duration": 2.24,
+    "text": "three"
+  },
+  {
+    "start": 1582.559,
+    "duration": 5.841,
+    "text": "four"
+  },
+  {
+    "start": 1585.2,
+    "duration": 5.839,
+    "text": "five and after this it will start"
+  },
+  {
+    "start": 1588.4,
+    "duration": 2.639,
+    "text": "decreasing"
+  },
+  {
+    "start": 1592.159,
+    "duration": 4.481,
+    "text": "okay let's write the row numbers over"
+  },
+  {
+    "start": 1594.0,
+    "duration": 4.96,
+    "text": "here so let's say this is row number"
+  },
+  {
+    "start": 1596.64,
+    "duration": 6.08,
+    "text": "zero one two three"
+  },
+  {
+    "start": 1598.96,
+    "duration": 7.28,
+    "text": "four five six seven and eight"
+  },
+  {
+    "start": 1602.72,
+    "duration": 5.6,
+    "text": "outer loop is running n minus one times"
+  },
+  {
+    "start": 1606.24,
+    "duration": 4.96,
+    "text": "nine times that is correct that's why"
+  },
+  {
+    "start": 1608.32,
+    "duration": 4.88,
+    "text": "we're doing uh zero till uh no less than"
+  },
+  {
+    "start": 1611.2,
+    "duration": 3.68,
+    "text": "2n that's fine"
+  },
+  {
+    "start": 1613.2,
+    "duration": 4.4,
+    "text": "so here number of columns are equal to"
+  },
+  {
+    "start": 1614.88,
+    "duration": 5.12,
+    "text": "what columns here is equal to what"
+  },
+  {
+    "start": 1617.6,
+    "duration": 3.36,
+    "text": "column here is equal to 1"
+  },
+  {
+    "start": 1620.0,
+    "duration": 2.0,
+    "text": "2"
+  },
+  {
+    "start": 1620.96,
+    "duration": 2.0,
+    "text": "3"
+  },
+  {
+    "start": 1622.0,
+    "duration": 1.919,
+    "text": "4"
+  },
+  {
+    "start": 1622.96,
+    "duration": 2.8,
+    "text": "5"
+  },
+  {
+    "start": 1623.919,
+    "duration": 2.64,
+    "text": "4"
+  },
+  {
+    "start": 1625.76,
+    "duration": 2.32,
+    "text": "3"
+  },
+  {
+    "start": 1626.559,
+    "duration": 3.36,
+    "text": "2 1"
+  },
+  {
+    "start": 1628.08,
+    "duration": 3.599,
+    "text": "these are the columns"
+  },
+  {
+    "start": 1629.919,
+    "duration": 5.041,
+    "text": "these are the row number"
+  },
+  {
+    "start": 1631.679,
+    "duration": 5.441,
+    "text": "we need a relationship between this"
+  },
+  {
+    "start": 1634.96,
+    "duration": 6.16,
+    "text": "we need a relationship between this no"
+  },
+  {
+    "start": 1637.12,
+    "duration": 6.88,
+    "text": "problem so i can say column at every row"
+  },
+  {
+    "start": 1641.12,
+    "duration": 5.279,
+    "text": "is going to be equal to what"
+  },
+  {
+    "start": 1644.0,
+    "duration": 5.76,
+    "text": "we need a relationship between this"
+  },
+  {
+    "start": 1646.399,
+    "duration": 3.361,
+    "text": "so we know that"
+  },
+  {
+    "start": 1649.84,
+    "duration": 3.0,
+    "text": "if"
+  },
+  {
+    "start": 1654.32,
+    "duration": 6.239,
+    "text": "the row number"
+  },
+  {
+    "start": 1656.72,
+    "duration": 6.0,
+    "text": "is actually greater than"
+  },
+  {
+    "start": 1660.559,
+    "duration": 2.161,
+    "text": "n"
+  },
+  {
+    "start": 1665.12,
+    "duration": 5.52,
+    "text": "in that case it will be something"
+  },
+  {
+    "start": 1666.84,
+    "duration": 3.8,
+    "text": "different otherwise"
+  },
+  {
+    "start": 1672.32,
+    "duration": 5.2,
+    "text": "the column number"
+  },
+  {
+    "start": 1674.0,
+    "duration": 3.52,
+    "text": "is just going to be equal to row only"
+  },
+  {
+    "start": 1678.559,
+    "duration": 2.281,
+    "text": "but"
+  },
+  {
+    "start": 1679.44,
+    "duration": 5.599,
+    "text": "when it"
+  },
+  {
+    "start": 1680.84,
+    "duration": 4.199,
+    "text": "exceeds when it exceeds this"
+  },
+  {
+    "start": 1686.0,
+    "duration": 3.039,
+    "text": "in that case what will happen"
+  },
+  {
+    "start": 1690.08,
+    "duration": 4.4,
+    "text": "so for example if i take this one"
+  },
+  {
+    "start": 1692.08,
+    "duration": 4.4,
+    "text": "here the row number is"
+  },
+  {
+    "start": 1694.48,
+    "duration": 3.919,
+    "text": "5 for example"
+  },
+  {
+    "start": 1696.48,
+    "duration": 4.0,
+    "text": "and uh or let's say i take this one here"
+  },
+  {
+    "start": 1698.399,
+    "duration": 3.441,
+    "text": "the row number is six for example"
+  },
+  {
+    "start": 1700.48,
+    "duration": 3.679,
+    "text": "um"
+  },
+  {
+    "start": 1701.84,
+    "duration": 5.04,
+    "text": "so i need column number three here row"
+  },
+  {
+    "start": 1704.159,
+    "duration": 6.4,
+    "text": "number is seven i need column number two"
+  },
+  {
+    "start": 1706.88,
+    "duration": 7.2,
+    "text": "so i need column total columns here 2."
+  },
+  {
+    "start": 1710.559,
+    "duration": 5.441,
+    "text": "so it's actually subtracting"
+  },
+  {
+    "start": 1714.08,
+    "duration": 3.12,
+    "text": "from my total row number it's going to"
+  },
+  {
+    "start": 1716.0,
+    "duration": 3.36,
+    "text": "be equal to"
+  },
+  {
+    "start": 1717.2,
+    "duration": 3.839,
+    "text": "columns are equal to what how many"
+  },
+  {
+    "start": 1719.36,
+    "duration": 3.52,
+    "text": "columns do we have over here try to"
+  },
+  {
+    "start": 1721.039,
+    "duration": 4.24,
+    "text": "figure out brainstorm think about it"
+  },
+  {
+    "start": 1722.88,
+    "duration": 5.919,
+    "text": "pause the video column is equal to okay"
+  },
+  {
+    "start": 1725.279,
+    "duration": 3.52,
+    "text": "total row number that you have"
+  },
+  {
+    "start": 1733.6,
+    "duration": 3.799,
+    "text": "or in one second"
+  },
+  {
+    "start": 1738.799,
+    "duration": 5.441,
+    "text": "total row number that we have"
+  },
+  {
+    "start": 1742.48,
+    "duration": 3.76,
+    "text": "no no no"
+  },
+  {
+    "start": 1744.24,
+    "duration": 3.84,
+    "text": "how many how many do we need to delete"
+  },
+  {
+    "start": 1746.24,
+    "duration": 3.36,
+    "text": "we can see that first"
+  },
+  {
+    "start": 1748.08,
+    "duration": 3.52,
+    "text": "so how many do we need to delete from"
+  },
+  {
+    "start": 1749.6,
+    "duration": 4.48,
+    "text": "here"
+  },
+  {
+    "start": 1751.6,
+    "duration": 3.76,
+    "text": "if let's say n was equal to"
+  },
+  {
+    "start": 1754.08,
+    "duration": 3.52,
+    "text": "5"
+  },
+  {
+    "start": 1755.36,
+    "duration": 4.0,
+    "text": "and i'm talking about this thing"
+  },
+  {
+    "start": 1757.6,
+    "duration": 5.199,
+    "text": "so it should be containing like let's"
+  },
+  {
+    "start": 1759.36,
+    "duration": 5.039,
+    "text": "say some 7 or something"
+  },
+  {
+    "start": 1762.799,
+    "duration": 3.281,
+    "text": "so"
+  },
+  {
+    "start": 1764.399,
+    "duration": 3.681,
+    "text": "sorry a total it should be containing at"
+  },
+  {
+    "start": 1766.08,
+    "duration": 3.92,
+    "text": "maximum n only it can only contain like"
+  },
+  {
+    "start": 1768.08,
+    "duration": 4.4,
+    "text": "at maximum five only"
+  },
+  {
+    "start": 1770.0,
+    "duration": 6.24,
+    "text": "we have to remove these three"
+  },
+  {
+    "start": 1772.48,
+    "duration": 6.0,
+    "text": "so this three how do we get this three"
+  },
+  {
+    "start": 1776.24,
+    "duration": 4.88,
+    "text": "how do we get this three this three can"
+  },
+  {
+    "start": 1778.48,
+    "duration": 5.28,
+    "text": "actually be equal to"
+  },
+  {
+    "start": 1781.12,
+    "duration": 2.64,
+    "text": "equal to what"
+  },
+  {
+    "start": 1790.399,
+    "duration": 3.64,
+    "text": "row minus n"
+  },
+  {
+    "start": 1794.64,
+    "duration": 3.279,
+    "text": "this can be equal to rho minus n"
+  },
+  {
+    "start": 1798.72,
+    "duration": 4.72,
+    "text": "okay"
+  },
+  {
+    "start": 1800.559,
+    "duration": 5.6,
+    "text": "row minus n minus 1"
+  },
+  {
+    "start": 1803.44,
+    "duration": 2.719,
+    "text": "something like that"
+  },
+  {
+    "start": 1806.88,
+    "duration": 5.12,
+    "text": "all right so in this case let's say we"
+  },
+  {
+    "start": 1810.0,
+    "duration": 3.679,
+    "text": "are ignoring"
+  },
+  {
+    "start": 1812.0,
+    "duration": 6.159,
+    "text": "um"
+  },
+  {
+    "start": 1813.679,
+    "duration": 4.48,
+    "text": "three so i can say this is like uh"
+  },
+  {
+    "start": 1819.12,
+    "duration": 4.96,
+    "text": "these are the ones that i need to ignore"
+  },
+  {
+    "start": 1821.44,
+    "duration": 2.64,
+    "text": "this is going to be"
+  },
+  {
+    "start": 1828.159,
+    "duration": 2.721,
+    "text": "row minus n"
+  },
+  {
+    "start": 1831.6,
+    "duration": 4.36,
+    "text": "row minus"
+  },
+  {
+    "start": 1832.96,
+    "duration": 3.0,
+    "text": "n"
+  },
+  {
+    "start": 1836.399,
+    "duration": 2.64,
+    "text": "minus 1"
+  },
+  {
+    "start": 1837.679,
+    "duration": 2.961,
+    "text": "no problem"
+  },
+  {
+    "start": 1839.039,
+    "duration": 4.24,
+    "text": "row minus n minus 1"
+  },
+  {
+    "start": 1840.64,
+    "duration": 2.639,
+    "text": "so 5"
+  },
+  {
+    "start": 1843.6,
+    "duration": 2.88,
+    "text": "minus"
+  },
+  {
+    "start": 1844.72,
+    "duration": 4.48,
+    "text": "sorry row minus n plus 1"
+  },
+  {
+    "start": 1846.48,
+    "duration": 5.12,
+    "text": "minus n plus 1 so 5"
+  },
+  {
+    "start": 1849.2,
+    "duration": 4.079,
+    "text": "sorry 7 minus 5 which is 2"
+  },
+  {
+    "start": 1851.6,
+    "duration": 4.88,
+    "text": "plus 1 3"
+  },
+  {
+    "start": 1853.279,
+    "duration": 3.201,
+    "text": "this is what i need to remove"
+  },
+  {
+    "start": 1857.679,
+    "duration": 6.801,
+    "text": "this is what i need to remove"
+  },
+  {
+    "start": 1860.48,
+    "duration": 7.52,
+    "text": "from what do i need to remove this"
+  },
+  {
+    "start": 1864.48,
+    "duration": 3.52,
+    "text": "from what do i need to remove this"
+  },
+  {
+    "start": 1869.679,
+    "duration": 2.72,
+    "text": "my entire n"
+  },
+  {
+    "start": 1873.44,
+    "duration": 5.119,
+    "text": "my entire n so this becomes what"
+  },
+  {
+    "start": 1876.88,
+    "duration": 3.2,
+    "text": "2n minus"
+  },
+  {
+    "start": 1878.559,
+    "duration": 4.72,
+    "text": "row minus 1"
+  },
+  {
+    "start": 1880.08,
+    "duration": 3.199,
+    "text": "let's try to write this down"
+  },
+  {
+    "start": 1884.159,
+    "duration": 5.161,
+    "text": "just try to code this thing just try to"
+  },
+  {
+    "start": 1885.919,
+    "duration": 3.401,
+    "text": "put it in code"
+  },
+  {
+    "start": 1893.519,
+    "duration": 5.361,
+    "text": "so here actually this is equal to"
+  },
+  {
+    "start": 1896.799,
+    "duration": 4.801,
+    "text": "columns is equal to what"
+  },
+  {
+    "start": 1898.88,
+    "duration": 3.6,
+    "text": "if i can say if my"
+  },
+  {
+    "start": 1901.6,
+    "duration": 5.0,
+    "text": "row"
+  },
+  {
+    "start": 1902.48,
+    "duration": 4.12,
+    "text": "is actually greater than n"
+  },
+  {
+    "start": 1907.44,
+    "duration": 2.8,
+    "text": "n"
+  },
+  {
+    "start": 1908.399,
+    "duration": 5.601,
+    "text": "in that case it's taking what column is"
+  },
+  {
+    "start": 1910.24,
+    "duration": 5.84,
+    "text": "equal to n minus sorry 2n"
+  },
+  {
+    "start": 1914.0,
+    "duration": 5.96,
+    "text": "2 into n minus"
+  },
+  {
+    "start": 1916.08,
+    "duration": 3.88,
+    "text": "rho minus 1."
+  },
+  {
+    "start": 1920.0,
+    "duration": 4.799,
+    "text": "otherwise"
+  },
+  {
+    "start": 1922.08,
+    "duration": 5.28,
+    "text": "it's equal to row only let's try to"
+  },
+  {
+    "start": 1924.799,
+    "duration": 2.561,
+    "text": "print this"
+  },
+  {
+    "start": 1932.799,
+    "duration": 4.401,
+    "text": "very simple stuff but uh okay here we"
+  },
+  {
+    "start": 1935.44,
+    "duration": 3.92,
+    "text": "are actually"
+  },
+  {
+    "start": 1937.2,
+    "duration": 3.839,
+    "text": "one second it should not be minus one i"
+  },
+  {
+    "start": 1939.36,
+    "duration": 3.36,
+    "text": "think"
+  },
+  {
+    "start": 1941.039,
+    "duration": 2.961,
+    "text": "because total"
+  },
+  {
+    "start": 1942.72,
+    "duration": 4.0,
+    "text": "ah"
+  },
+  {
+    "start": 1944.0,
+    "duration": 4.48,
+    "text": "okay okay okay so this was the total"
+  },
+  {
+    "start": 1946.72,
+    "duration": 3.28,
+    "text": "number of columns but we were doing less"
+  },
+  {
+    "start": 1948.48,
+    "duration": 4.0,
+    "text": "than over here"
+  },
+  {
+    "start": 1950.0,
+    "duration": 4.0,
+    "text": "so either you can do less than equal to"
+  },
+  {
+    "start": 1952.48,
+    "duration": 3.439,
+    "text": "or i can do"
+  },
+  {
+    "start": 1954.0,
+    "duration": 3.76,
+    "text": "i can remove minus 1 from here because"
+  },
+  {
+    "start": 1955.919,
+    "duration": 5.12,
+    "text": "the columns one is also running from 0"
+  },
+  {
+    "start": 1957.76,
+    "duration": 6.08,
+    "text": "right so i can remove minus 1 from here"
+  },
+  {
+    "start": 1961.039,
+    "duration": 2.801,
+    "text": "this should work"
+  },
+  {
+    "start": 1964.399,
+    "duration": 2.4,
+    "text": "tada"
+  },
+  {
+    "start": 1967.2,
+    "duration": 3.199,
+    "text": "very simple"
+  },
+  {
+    "start": 1968.559,
+    "duration": 4.24,
+    "text": "you can try it for n is equal to 5 if"
+  },
+  {
+    "start": 1970.399,
+    "duration": 2.4,
+    "text": "you want"
+  },
+  {
+    "start": 1975.679,
+    "duration": 3.681,
+    "text": "works well"
+  },
+  {
+    "start": 1977.519,
+    "duration": 2.88,
+    "text": "pretty cool stuff"
+  },
+  {
+    "start": 1979.36,
+    "duration": 3.28,
+    "text": "right"
+  },
+  {
+    "start": 1980.399,
+    "duration": 3.201,
+    "text": "so yeah as you can see very simple only"
+  },
+  {
+    "start": 1982.64,
+    "duration": 2.72,
+    "text": "thing is"
+  },
+  {
+    "start": 1983.6,
+    "duration": 3.36,
+    "text": "the only formula we are following the"
+  },
+  {
+    "start": 1985.36,
+    "duration": 3.919,
+    "text": "steps we are following"
+  },
+  {
+    "start": 1986.96,
+    "duration": 3.76,
+    "text": "okay find the number of rows"
+  },
+  {
+    "start": 1989.279,
+    "duration": 3.52,
+    "text": "find the relationship between row and"
+  },
+  {
+    "start": 1990.72,
+    "duration": 3.679,
+    "text": "column in each column print that many"
+  },
+  {
+    "start": 1992.799,
+    "duration": 3.6,
+    "text": "amount of time and print what you want"
+  },
+  {
+    "start": 1994.399,
+    "duration": 3.681,
+    "text": "to print"
+  },
+  {
+    "start": 1996.399,
+    "duration": 3.681,
+    "text": "let's look into another question let's"
+  },
+  {
+    "start": 1998.08,
+    "duration": 3.52,
+    "text": "say one more thing that can happen in"
+  },
+  {
+    "start": 2000.08,
+    "duration": 2.719,
+    "text": "questions is they will ask for some"
+  },
+  {
+    "start": 2001.6,
+    "duration": 3.04,
+    "text": "spaces"
+  },
+  {
+    "start": 2002.799,
+    "duration": 3.12,
+    "text": "so we'll look into these spaces thing as"
+  },
+  {
+    "start": 2004.64,
+    "duration": 3.12,
+    "text": "well but let's try to pick up a"
+  },
+  {
+    "start": 2005.919,
+    "duration": 4.161,
+    "text": "difficult question not difficult but"
+  },
+  {
+    "start": 2007.76,
+    "duration": 4.48,
+    "text": "like more advanced so this is something"
+  },
+  {
+    "start": 2010.08,
+    "duration": 3.92,
+    "text": "you can do triangle something you can do"
+  },
+  {
+    "start": 2012.24,
+    "duration": 4.0,
+    "text": "something you can do already"
+  },
+  {
+    "start": 2014.0,
+    "duration": 3.679,
+    "text": "this is something you can do already"
+  },
+  {
+    "start": 2016.24,
+    "duration": 3.12,
+    "text": "is also fine"
+  },
+  {
+    "start": 2017.679,
+    "duration": 3.6,
+    "text": "let's try to solve a question that"
+  },
+  {
+    "start": 2019.36,
+    "duration": 2.799,
+    "text": "covers all of these things"
+  },
+  {
+    "start": 2021.279,
+    "duration": 2.64,
+    "text": "okay"
+  },
+  {
+    "start": 2022.159,
+    "duration": 5.041,
+    "text": "let's try to solve a question that"
+  },
+  {
+    "start": 2023.919,
+    "duration": 3.281,
+    "text": "covers all of these things"
+  },
+  {
+    "start": 2027.519,
+    "duration": 4.16,
+    "text": "which one we can do"
+  },
+  {
+    "start": 2029.279,
+    "duration": 3.201,
+    "text": "let's try to do this one because here"
+  },
+  {
+    "start": 2031.679,
+    "duration": 2.321,
+    "text": "our"
+  },
+  {
+    "start": 2032.48,
+    "duration": 3.199,
+    "text": "spaces are also covered and everything"
+  },
+  {
+    "start": 2034.0,
+    "duration": 4.159,
+    "text": "is covered"
+  },
+  {
+    "start": 2035.679,
+    "duration": 3.921,
+    "text": "okay let's try to do this one so how"
+  },
+  {
+    "start": 2038.159,
+    "duration": 4.161,
+    "text": "many times will the outer loop will be"
+  },
+  {
+    "start": 2039.6,
+    "duration": 5.28,
+    "text": "running if n is equal to five outer loop"
+  },
+  {
+    "start": 2042.32,
+    "duration": 5.52,
+    "text": "is running two n times"
+  },
+  {
+    "start": 2044.88,
+    "duration": 2.96,
+    "text": "i'm just going to copy this"
+  },
+  {
+    "start": 2051.119,
+    "duration": 4.96,
+    "text": "this is pattern number 28"
+  },
+  {
+    "start": 2053.76,
+    "duration": 4.0,
+    "text": "two end times the loop is running"
+  },
+  {
+    "start": 2056.079,
+    "duration": 5.76,
+    "text": "what is the number of columns or number"
+  },
+  {
+    "start": 2057.76,
+    "duration": 4.079,
+    "text": "of stars in every particular one"
+  },
+  {
+    "start": 2065.04,
+    "duration": 3.359,
+    "text": "same"
+  },
+  {
+    "start": 2065.839,
+    "duration": 4.401,
+    "text": "same as previous because yeah exactly"
+  },
+  {
+    "start": 2068.399,
+    "duration": 4.0,
+    "text": "the same as previous"
+  },
+  {
+    "start": 2070.24,
+    "duration": 3.599,
+    "text": "that's correct pattern number five one"
+  },
+  {
+    "start": 2072.399,
+    "duration": 4.0,
+    "text": "two three four and four three two one"
+  },
+  {
+    "start": 2073.839,
+    "duration": 4.161,
+    "text": "that's also correct this is also fine"
+  },
+  {
+    "start": 2076.399,
+    "duration": 3.28,
+    "text": "are we printing star yes we are printing"
+  },
+  {
+    "start": 2078.0,
+    "duration": 3.599,
+    "text": "star only"
+  },
+  {
+    "start": 2079.679,
+    "duration": 4.081,
+    "text": "but only thing remaining is"
+  },
+  {
+    "start": 2081.599,
+    "duration": 3.52,
+    "text": "before every"
+  },
+  {
+    "start": 2083.76,
+    "duration": 4.0,
+    "text": "row"
+  },
+  {
+    "start": 2085.119,
+    "duration": 4.321,
+    "text": "you have to print some spaces also"
+  },
+  {
+    "start": 2087.76,
+    "duration": 3.919,
+    "text": "so let's say you have to print some"
+  },
+  {
+    "start": 2089.44,
+    "duration": 3.52,
+    "text": "spaces"
+  },
+  {
+    "start": 2091.679,
+    "duration": 2.081,
+    "text": "let's say"
+  },
+  {
+    "start": 2092.96,
+    "duration": 2.24,
+    "text": "in"
+  },
+  {
+    "start": 2093.76,
+    "duration": 3.52,
+    "text": "spaces"
+  },
+  {
+    "start": 2095.2,
+    "duration": 3.52,
+    "text": "number of spaces okay"
+  },
+  {
+    "start": 2097.28,
+    "duration": 4.319,
+    "text": "number"
+  },
+  {
+    "start": 2098.72,
+    "duration": 6.48,
+    "text": "of spaces is equal to something"
+  },
+  {
+    "start": 2101.599,
+    "duration": 3.601,
+    "text": "print that many amount of spaces"
+  },
+  {
+    "start": 2107.72,
+    "duration": 4.92,
+    "text": "spaces will print that many amount of"
+  },
+  {
+    "start": 2110.16,
+    "duration": 3.76,
+    "text": "spaces"
+  },
+  {
+    "start": 2112.64,
+    "duration": 2.64,
+    "text": "that's it"
+  },
+  {
+    "start": 2113.92,
+    "duration": 2.64,
+    "text": "but how do we figure out the number of"
+  },
+  {
+    "start": 2115.28,
+    "duration": 3.28,
+    "text": "spaces"
+  },
+  {
+    "start": 2116.56,
+    "duration": 4.24,
+    "text": "what are the number of spaces over here"
+  },
+  {
+    "start": 2118.56,
+    "duration": 4.799,
+    "text": "so here if n is equal to let's say you"
+  },
+  {
+    "start": 2120.8,
+    "duration": 5.12,
+    "text": "know um"
+  },
+  {
+    "start": 2123.359,
+    "duration": 4.881,
+    "text": "what are the number of spaces here one"
+  },
+  {
+    "start": 2125.92,
+    "duration": 4.48,
+    "text": "two three and four"
+  },
+  {
+    "start": 2128.24,
+    "duration": 3.92,
+    "text": "so four spaces three spaces two spaces"
+  },
+  {
+    "start": 2130.4,
+    "duration": 4.719,
+    "text": "one space zero space"
+  },
+  {
+    "start": 2132.16,
+    "duration": 5.199,
+    "text": "four three two one"
+  },
+  {
+    "start": 2135.119,
+    "duration": 5.041,
+    "text": "so here column is one"
+  },
+  {
+    "start": 2137.359,
+    "duration": 6.0,
+    "text": "spaces is four column is two spaces is"
+  },
+  {
+    "start": 2140.16,
+    "duration": 6.88,
+    "text": "three column is three spaces is two"
+  },
+  {
+    "start": 2143.359,
+    "duration": 3.681,
+    "text": "so spaces is actually equal to"
+  },
+  {
+    "start": 2147.359,
+    "duration": 4.0,
+    "text": "total number of n"
+  },
+  {
+    "start": 2149.44,
+    "duration": 3.28,
+    "text": "minus columns"
+  },
+  {
+    "start": 2151.359,
+    "duration": 3.281,
+    "text": "because here"
+  },
+  {
+    "start": 2152.72,
+    "duration": 5.119,
+    "text": "total number of columns are 4"
+  },
+  {
+    "start": 2154.64,
+    "duration": 6.24,
+    "text": "and number of spaces are 0. so spaces"
+  },
+  {
+    "start": 2157.839,
+    "duration": 5.441,
+    "text": "can be equal to n minus c"
+  },
+  {
+    "start": 2160.88,
+    "duration": 4.64,
+    "text": "right total number of minus column so"
+  },
+  {
+    "start": 2163.28,
+    "duration": 4.559,
+    "text": "here example columns are 5"
+  },
+  {
+    "start": 2165.52,
+    "duration": 4.72,
+    "text": "n is 5 number of spaces is equal to what"
+  },
+  {
+    "start": 2167.839,
+    "duration": 4.721,
+    "text": "5 minus 5 0 that is correct here columns"
+  },
+  {
+    "start": 2170.24,
+    "duration": 4.32,
+    "text": "are 4 number of spaces equal to what n"
+  },
+  {
+    "start": 2172.56,
+    "duration": 5.2,
+    "text": "minus 4 which is 5 minus 4 1 that is"
+  },
+  {
+    "start": 2174.56,
+    "duration": 4.24,
+    "text": "correct 5 minus 3 2 2 space is correct 5"
+  },
+  {
+    "start": 2177.76,
+    "duration": 1.76,
+    "text": "minus 2"
+  },
+  {
+    "start": 2178.8,
+    "duration": 3.279,
+    "text": "3"
+  },
+  {
+    "start": 2179.52,
+    "duration": 3.68,
+    "text": "3 space is correct 5 minus 1 4 spaces"
+  },
+  {
+    "start": 2182.079,
+    "duration": 3.28,
+    "text": "correct"
+  },
+  {
+    "start": 2183.2,
+    "duration": 4.0,
+    "text": "that is also correct over here because"
+  },
+  {
+    "start": 2185.359,
+    "duration": 4.081,
+    "text": "we have already figured out the number"
+  },
+  {
+    "start": 2187.2,
+    "duration": 4.159,
+    "text": "of columns in every row we don't have to"
+  },
+  {
+    "start": 2189.44,
+    "duration": 4.32,
+    "text": "worry about this case"
+  },
+  {
+    "start": 2191.359,
+    "duration": 5.201,
+    "text": "here it will be the similar n minus four"
+  },
+  {
+    "start": 2193.76,
+    "duration": 5.52,
+    "text": "one one space n minus three"
+  },
+  {
+    "start": 2196.56,
+    "duration": 4.64,
+    "text": "uh two two spaces okay no problem spaces"
+  },
+  {
+    "start": 2199.28,
+    "duration": 3.12,
+    "text": "is actually equal to what"
+  },
+  {
+    "start": 2201.2,
+    "duration": 3.2,
+    "text": "n minus"
+  },
+  {
+    "start": 2202.4,
+    "duration": 3.92,
+    "text": "total columns in that row"
+  },
+  {
+    "start": 2204.4,
+    "duration": 3.92,
+    "text": "run this"
+  },
+  {
+    "start": 2206.32,
+    "duration": 4.08,
+    "text": "i actually did not run it"
+  },
+  {
+    "start": 2208.32,
+    "duration": 4.88,
+    "text": "no i did not call the function"
+  },
+  {
+    "start": 2210.4,
+    "duration": 5.439,
+    "text": "pattern number 28"
+  },
+  {
+    "start": 2213.2,
+    "duration": 2.639,
+    "text": "run it"
+  },
+  {
+    "start": 2218.64,
+    "duration": 3.199,
+    "text": "looks good"
+  },
+  {
+    "start": 2219.68,
+    "duration": 3.52,
+    "text": "diamond now you can make you know above"
+  },
+  {
+    "start": 2221.839,
+    "duration": 4.481,
+    "text": "once as well you can make this one you"
+  },
+  {
+    "start": 2223.2,
+    "duration": 5.2,
+    "text": "can make this one this one this one you"
+  },
+  {
+    "start": 2226.32,
+    "duration": 4.24,
+    "text": "make this rhombus space one whatever"
+  },
+  {
+    "start": 2228.4,
+    "duration": 3.52,
+    "text": "you can make this one this one this one"
+  },
+  {
+    "start": 2230.56,
+    "duration": 3.2,
+    "text": "if you want this one if you want i can"
+  },
+  {
+    "start": 2231.92,
+    "duration": 3.52,
+    "text": "try you know help you out in this one no"
+  },
+  {
+    "start": 2233.76,
+    "duration": 3.359,
+    "text": "problem this is you can make you can"
+  },
+  {
+    "start": 2235.44,
+    "duration": 3.52,
+    "text": "make this you can make this you can make"
+  },
+  {
+    "start": 2237.119,
+    "duration": 3.361,
+    "text": "this this is you can make you can make"
+  },
+  {
+    "start": 2238.96,
+    "duration": 3.84,
+    "text": "this one you can make this one this one"
+  },
+  {
+    "start": 2240.48,
+    "duration": 4.0,
+    "text": "also you can make so many patterns you"
+  },
+  {
+    "start": 2242.8,
+    "duration": 3.039,
+    "text": "can make on your own does not really"
+  },
+  {
+    "start": 2244.48,
+    "duration": 3.04,
+    "text": "make sense for me to you know do it"
+  },
+  {
+    "start": 2245.839,
+    "duration": 3.441,
+    "text": "again and again"
+  },
+  {
+    "start": 2247.52,
+    "duration": 4.92,
+    "text": "okay let's try to see some other pattern"
+  },
+  {
+    "start": 2249.28,
+    "duration": 3.16,
+    "text": "if you want"
+  },
+  {
+    "start": 2256.16,
+    "duration": 3.76,
+    "text": "some different pattern let's see this"
+  },
+  {
+    "start": 2257.76,
+    "duration": 3.76,
+    "text": "one this is a different pattern"
+  },
+  {
+    "start": 2259.92,
+    "duration": 3.6,
+    "text": "so let's say we do this one"
+  },
+  {
+    "start": 2261.52,
+    "duration": 4.4,
+    "text": "the outer loop is whenever it's given"
+  },
+  {
+    "start": 2263.52,
+    "duration": 3.599,
+    "text": "numbers try not to use zero index"
+  },
+  {
+    "start": 2265.92,
+    "duration": 3.52,
+    "text": "because then you can directly use the"
+  },
+  {
+    "start": 2267.119,
+    "duration": 4.321,
+    "text": "numbers okay so i'll try to solve this"
+  },
+  {
+    "start": 2269.44,
+    "duration": 6.8,
+    "text": "one also static"
+  },
+  {
+    "start": 2271.44,
+    "duration": 6.399,
+    "text": "wide this is pattern number 30 okay"
+  },
+  {
+    "start": 2276.24,
+    "duration": 2.64,
+    "text": "pattern 30"
+  },
+  {
+    "start": 2277.839,
+    "duration": 2.641,
+    "text": "in 10"
+  },
+  {
+    "start": 2278.88,
+    "duration": 2.88,
+    "text": "no problem"
+  },
+  {
+    "start": 2280.48,
+    "duration": 2.879,
+    "text": "step number one how many times the"
+  },
+  {
+    "start": 2281.76,
+    "duration": 3.52,
+    "text": "entire loop is running if n is equal to"
+  },
+  {
+    "start": 2283.359,
+    "duration": 3.921,
+    "text": "5 it's running 5 times"
+  },
+  {
+    "start": 2285.28,
+    "duration": 4.319,
+    "text": "so"
+  },
+  {
+    "start": 2287.28,
+    "duration": 3.36,
+    "text": "row starts from"
+  },
+  {
+    "start": 2289.599,
+    "duration": 3.681,
+    "text": "1"
+  },
+  {
+    "start": 2290.64,
+    "duration": 4.719,
+    "text": "less than equal to n no problem"
+  },
+  {
+    "start": 2293.28,
+    "duration": 5.76,
+    "text": "what is the next step"
+  },
+  {
+    "start": 2295.359,
+    "duration": 5.921,
+    "text": "next step is equal to how many times the"
+  },
+  {
+    "start": 2299.04,
+    "duration": 3.92,
+    "text": "the loop is running columns"
+  },
+  {
+    "start": 2301.28,
+    "duration": 3.36,
+    "text": "so here you can see column is first"
+  },
+  {
+    "start": 2302.96,
+    "duration": 4.48,
+    "text": "running from"
+  },
+  {
+    "start": 2304.64,
+    "duration": 4.24,
+    "text": "i till 1 and then it's running from 2"
+  },
+  {
+    "start": 2307.44,
+    "duration": 3.52,
+    "text": "till i"
+  },
+  {
+    "start": 2308.88,
+    "duration": 4.88,
+    "text": "so basically if i am saying row this is"
+  },
+  {
+    "start": 2310.96,
+    "duration": 3.84,
+    "text": "row is equal to 4 so it's running from 4"
+  },
+  {
+    "start": 2313.76,
+    "duration": 3.12,
+    "text": "till 1"
+  },
+  {
+    "start": 2314.8,
+    "duration": 4.16,
+    "text": "then 2 till row"
+  },
+  {
+    "start": 2316.88,
+    "duration": 4.0,
+    "text": "from row number till 1"
+  },
+  {
+    "start": 2318.96,
+    "duration": 4.8,
+    "text": "then from"
+  },
+  {
+    "start": 2320.88,
+    "duration": 6.44,
+    "text": "2 till row number no problem from row"
+  },
+  {
+    "start": 2323.76,
+    "duration": 3.56,
+    "text": "number till 1"
+  },
+  {
+    "start": 2328.32,
+    "duration": 6.0,
+    "text": "column is equal to from row number"
+  },
+  {
+    "start": 2331.76,
+    "duration": 2.56,
+    "text": "till 1"
+  },
+  {
+    "start": 2334.96,
+    "duration": 6.72,
+    "text": "column minus minus so like 4 3 2 1 3 2 1"
+  },
+  {
+    "start": 2338.72,
+    "duration": 4.48,
+    "text": "or whatever it's going to print the"
+  },
+  {
+    "start": 2341.68,
+    "duration": 4.159,
+    "text": "column number"
+  },
+  {
+    "start": 2343.2,
+    "duration": 5.76,
+    "text": "and after that it's running"
+  },
+  {
+    "start": 2345.839,
+    "duration": 3.121,
+    "text": "from two till"
+  },
+  {
+    "start": 2350.079,
+    "duration": 4.0,
+    "text": "less than equal to"
+  },
+  {
+    "start": 2352.32,
+    "duration": 4.32,
+    "text": "row number"
+  },
+  {
+    "start": 2354.079,
+    "duration": 5.201,
+    "text": "2 till less than equal to 4"
+  },
+  {
+    "start": 2356.64,
+    "duration": 6.24,
+    "text": "less than equal to 5 okay"
+  },
+  {
+    "start": 2359.28,
+    "duration": 3.6,
+    "text": "and here column plus 1"
+  },
+  {
+    "start": 2363.2,
+    "duration": 3.12,
+    "text": "that's it only spaces are remaining how"
+  },
+  {
+    "start": 2364.96,
+    "duration": 2.24,
+    "text": "many number of spaces will be have over"
+  },
+  {
+    "start": 2366.32,
+    "duration": 2.96,
+    "text": "here"
+  },
+  {
+    "start": 2367.2,
+    "duration": 3.04,
+    "text": "this is as similar as the previous one"
+  },
+  {
+    "start": 2369.28,
+    "duration": 3.12,
+    "text": "that we did"
+  },
+  {
+    "start": 2370.24,
+    "duration": 3.44,
+    "text": "this one spaces in this case were equal"
+  },
+  {
+    "start": 2372.4,
+    "duration": 3.28,
+    "text": "to"
+  },
+  {
+    "start": 2373.68,
+    "duration": 4.159,
+    "text": "total n minus through"
+  },
+  {
+    "start": 2375.68,
+    "duration": 4.64,
+    "text": "same logic that we used over here"
+  },
+  {
+    "start": 2377.839,
+    "duration": 5.841,
+    "text": "okay so here we have column is equal to"
+  },
+  {
+    "start": 2380.32,
+    "duration": 7.2,
+    "text": "one so the spaces are n minus 1 which is"
+  },
+  {
+    "start": 2383.68,
+    "duration": 5.679,
+    "text": "4 spaces column is equal to you know uh"
+  },
+  {
+    "start": 2387.52,
+    "duration": 3.68,
+    "text": "sorry row number is equal to 2 so your"
+  },
+  {
+    "start": 2389.359,
+    "duration": 2.641,
+    "text": "row number is equal to 1 total spaces"
+  },
+  {
+    "start": 2391.2,
+    "duration": 2.8,
+    "text": "are"
+  },
+  {
+    "start": 2392.0,
+    "duration": 3.839,
+    "text": "n minus 1 row number is equal to 2 total"
+  },
+  {
+    "start": 2394.0,
+    "duration": 3.68,
+    "text": "spaces are n minus 2"
+  },
+  {
+    "start": 2395.839,
+    "duration": 3.681,
+    "text": "so i can say int"
+  },
+  {
+    "start": 2397.68,
+    "duration": 2.88,
+    "text": "or i can just run spaces loop directly"
+  },
+  {
+    "start": 2399.52,
+    "duration": 2.0,
+    "text": "also"
+  },
+  {
+    "start": 2400.56,
+    "duration": 4.0,
+    "text": "or"
+  },
+  {
+    "start": 2401.52,
+    "duration": 5.04,
+    "text": "space is equal to 0 space is less than"
+  },
+  {
+    "start": 2404.56,
+    "duration": 3.92,
+    "text": "you know n minus"
+  },
+  {
+    "start": 2406.56,
+    "duration": 2.88,
+    "text": "row so i'll just print a space for this"
+  },
+  {
+    "start": 2408.48,
+    "duration": 6.24,
+    "text": "i can say"
+  },
+  {
+    "start": 2409.44,
+    "duration": 5.28,
+    "text": "print a space for this and run it"
+  },
+  {
+    "start": 2414.88,
+    "duration": 3.439,
+    "text": "how difficult was it very simple"
+  },
+  {
+    "start": 2418.48,
+    "duration": 4.32,
+    "text": "i did not add a new line no problem"
+  },
+  {
+    "start": 2421.119,
+    "duration": 4.081,
+    "text": "need to add a new line"
+  },
+  {
+    "start": 2422.8,
+    "duration": 4.4,
+    "text": "whenever all the loops are run add a new"
+  },
+  {
+    "start": 2425.2,
+    "duration": 3.68,
+    "text": "line"
+  },
+  {
+    "start": 2427.2,
+    "duration": 2.639,
+    "text": "let's try to see if we are able to make"
+  },
+  {
+    "start": 2428.88,
+    "duration": 2.56,
+    "text": "it like"
+  },
+  {
+    "start": 2429.839,
+    "duration": 2.721,
+    "text": "this"
+  },
+  {
+    "start": 2431.44,
+    "duration": 3.44,
+    "text": "very nice"
+  },
+  {
+    "start": 2432.56,
+    "duration": 3.12,
+    "text": "let's add a let's add a space also so it"
+  },
+  {
+    "start": 2434.88,
+    "duration": 3.8,
+    "text": "looks"
+  },
+  {
+    "start": 2435.68,
+    "duration": 3.0,
+    "text": "prettier"
+  },
+  {
+    "start": 2444.72,
+    "duration": 4.32,
+    "text": "and i can add an extra space over here"
+  },
+  {
+    "start": 2446.319,
+    "duration": 5.201,
+    "text": "because i'm adding spaces over here so i"
+  },
+  {
+    "start": 2449.04,
+    "duration": 4.799,
+    "text": "need to add one space over above as well"
+  },
+  {
+    "start": 2451.52,
+    "duration": 4.799,
+    "text": "very nice looks much prettier"
+  },
+  {
+    "start": 2453.839,
+    "duration": 4.081,
+    "text": "very cool"
+  },
+  {
+    "start": 2456.319,
+    "duration": 3.121,
+    "text": "similar question you'll find over here"
+  },
+  {
+    "start": 2457.92,
+    "duration": 4.72,
+    "text": "in 17"
+  },
+  {
+    "start": 2459.44,
+    "duration": 6.24,
+    "text": "i think you can do this like on your own"
+  },
+  {
+    "start": 2462.64,
+    "duration": 4.959,
+    "text": "yeah so i'm just going to say copy paste"
+  },
+  {
+    "start": 2465.68,
+    "duration": 5.12,
+    "text": "because everything is same"
+  },
+  {
+    "start": 2467.599,
+    "duration": 3.201,
+    "text": "question number 17"
+  },
+  {
+    "start": 2472.319,
+    "duration": 4.641,
+    "text": "so basically the idea is now it's"
+  },
+  {
+    "start": 2473.92,
+    "duration": 3.04,
+    "text": "actually running uh"
+  },
+  {
+    "start": 2477.119,
+    "duration": 4.641,
+    "text": "over here it's basically going to run"
+  },
+  {
+    "start": 2479.359,
+    "duration": 4.96,
+    "text": "till"
+  },
+  {
+    "start": 2481.76,
+    "duration": 4.16,
+    "text": "so in 17 it's running from the number of"
+  },
+  {
+    "start": 2484.319,
+    "duration": 3.681,
+    "text": "columns"
+  },
+  {
+    "start": 2485.92,
+    "duration": 3.76,
+    "text": "the number of column c"
+  },
+  {
+    "start": 2488.0,
+    "duration": 3.44,
+    "text": "the number for that column"
+  },
+  {
+    "start": 2489.68,
+    "duration": 2.96,
+    "text": "for that column for example one two"
+  },
+  {
+    "start": 2491.44,
+    "duration": 2.48,
+    "text": "three four"
+  },
+  {
+    "start": 2492.64,
+    "duration": 2.719,
+    "text": "three two 1"
+  },
+  {
+    "start": 2493.92,
+    "duration": 3.679,
+    "text": "that is what you want to do"
+  },
+  {
+    "start": 2495.359,
+    "duration": 4.561,
+    "text": "if i say"
+  },
+  {
+    "start": 2497.599,
+    "duration": 4.081,
+    "text": "in c is equal to something"
+  },
+  {
+    "start": 2499.92,
+    "duration": 2.88,
+    "text": "so it's going to start from that column"
+  },
+  {
+    "start": 2501.68,
+    "duration": 2.32,
+    "text": "number"
+  },
+  {
+    "start": 2502.8,
+    "duration": 3.039,
+    "text": "and it's going to go till that column"
+  },
+  {
+    "start": 2504.0,
+    "duration": 3.28,
+    "text": "number only that's the only change now"
+  },
+  {
+    "start": 2505.839,
+    "duration": 3.441,
+    "text": "we have to figure out how do we figure"
+  },
+  {
+    "start": 2507.28,
+    "duration": 3.68,
+    "text": "out this c number okay and since we are"
+  },
+  {
+    "start": 2509.28,
+    "duration": 3.68,
+    "text": "following our rules then this entire"
+  },
+  {
+    "start": 2510.96,
+    "duration": 3.68,
+    "text": "like outer loop will run how many times"
+  },
+  {
+    "start": 2512.96,
+    "duration": 3.92,
+    "text": "because we did copy paste but we have to"
+  },
+  {
+    "start": 2514.64,
+    "duration": 5.439,
+    "text": "fix a few things over here outlook will"
+  },
+  {
+    "start": 2516.88,
+    "duration": 5.84,
+    "text": "run two end times so 2n minus 1 times"
+  },
+  {
+    "start": 2520.079,
+    "duration": 4.641,
+    "text": "that's why we have it over here like uh"
+  },
+  {
+    "start": 2522.72,
+    "duration": 4.48,
+    "text": "you know we have uh"
+  },
+  {
+    "start": 2524.72,
+    "duration": 3.599,
+    "text": "2n over here so it's going to run 2 n"
+  },
+  {
+    "start": 2527.2,
+    "duration": 2.48,
+    "text": "minus"
+  },
+  {
+    "start": 2528.319,
+    "duration": 4.561,
+    "text": "1 times"
+  },
+  {
+    "start": 2529.68,
+    "duration": 5.679,
+    "text": "that's why we have it from 1."
+  },
+  {
+    "start": 2532.88,
+    "duration": 3.92,
+    "text": "so it's going to be like 1 2 3 4 five"
+  },
+  {
+    "start": 2535.359,
+    "duration": 3.281,
+    "text": "six seven"
+  },
+  {
+    "start": 2536.8,
+    "duration": 2.64,
+    "text": "which is equal to yeah that's correct"
+  },
+  {
+    "start": 2538.64,
+    "duration": 2.88,
+    "text": "cool"
+  },
+  {
+    "start": 2539.44,
+    "duration": 3.76,
+    "text": "and uh it might have like you know one"
+  },
+  {
+    "start": 2541.52,
+    "duration": 3.52,
+    "text": "space two space above it or whatever you"
+  },
+  {
+    "start": 2543.2,
+    "duration": 3.76,
+    "text": "can if you can fix that if if such"
+  },
+  {
+    "start": 2545.04,
+    "duration": 3.36,
+    "text": "things come into any any pattern"
+  },
+  {
+    "start": 2546.96,
+    "duration": 2.48,
+    "text": "question or whatever"
+  },
+  {
+    "start": 2548.4,
+    "duration": 3.04,
+    "text": "um"
+  },
+  {
+    "start": 2549.44,
+    "duration": 3.919,
+    "text": "c is actually equal to what number of"
+  },
+  {
+    "start": 2551.44,
+    "duration": 3.36,
+    "text": "like number the column not actually the"
+  },
+  {
+    "start": 2553.359,
+    "duration": 4.0,
+    "text": "number of columns but this particular"
+  },
+  {
+    "start": 2554.8,
+    "duration": 4.48,
+    "text": "one it's one two three four"
+  },
+  {
+    "start": 2557.359,
+    "duration": 2.641,
+    "text": "three two one"
+  },
+  {
+    "start": 2559.28,
+    "duration": 2.079,
+    "text": "so"
+  },
+  {
+    "start": 2560.0,
+    "duration": 2.96,
+    "text": "this is similar to what we did"
+  },
+  {
+    "start": 2561.359,
+    "duration": 4.48,
+    "text": "previously"
+  },
+  {
+    "start": 2562.96,
+    "duration": 2.879,
+    "text": "this one"
+  },
+  {
+    "start": 2566.56,
+    "duration": 6.799,
+    "text": "this one i explained this already"
+  },
+  {
+    "start": 2569.28,
+    "duration": 4.079,
+    "text": "so this is actually in c is equal to"
+  },
+  {
+    "start": 2574.0,
+    "duration": 4.72,
+    "text": "like this"
+  },
+  {
+    "start": 2576.48,
+    "duration": 3.52,
+    "text": "and this is also going to be equal to"
+  },
+  {
+    "start": 2578.72,
+    "duration": 3.2,
+    "text": "um"
+  },
+  {
+    "start": 2580.0,
+    "duration": 3.68,
+    "text": "space is equal to n minus c n minus"
+  },
+  {
+    "start": 2581.92,
+    "duration": 2.88,
+    "text": "column right"
+  },
+  {
+    "start": 2583.68,
+    "duration": 3.52,
+    "text": "so"
+  },
+  {
+    "start": 2584.8,
+    "duration": 3.76,
+    "text": "very simple stuff"
+  },
+  {
+    "start": 2587.2,
+    "duration": 2.8,
+    "text": "right"
+  },
+  {
+    "start": 2588.56,
+    "duration": 2.96,
+    "text": "i think that looks good let's try to run"
+  },
+  {
+    "start": 2590.0,
+    "duration": 4.0,
+    "text": "this pattern number"
+  },
+  {
+    "start": 2591.52,
+    "duration": 2.48,
+    "text": "17"
+  },
+  {
+    "start": 2597.839,
+    "duration": 2.48,
+    "text": "that uh"
+  },
+  {
+    "start": 2600.88,
+    "duration": 3.28,
+    "text": "very simple"
+  },
+  {
+    "start": 2602.24,
+    "duration": 4.4,
+    "text": "like share subscribe comment right now"
+  },
+  {
+    "start": 2604.16,
+    "duration": 4.159,
+    "text": "pause the video and do it"
+  },
+  {
+    "start": 2606.64,
+    "duration": 2.64,
+    "text": "all right please"
+  },
+  {
+    "start": 2608.319,
+    "duration": 2.081,
+    "text": "cool"
+  },
+  {
+    "start": 2609.28,
+    "duration": 2.24,
+    "text": "let's look at one more question"
+  },
+  {
+    "start": 2610.4,
+    "duration": 2.719,
+    "text": "interesting now you can solve every"
+  },
+  {
+    "start": 2611.52,
+    "duration": 3.76,
+    "text": "question okay don't worry"
+  },
+  {
+    "start": 2613.119,
+    "duration": 4.401,
+    "text": "ah it's very simple this is also very"
+  },
+  {
+    "start": 2615.28,
+    "duration": 4.319,
+    "text": "simple we did it this is an interesting"
+  },
+  {
+    "start": 2617.52,
+    "duration": 3.36,
+    "text": "question so let's do it pause this video"
+  },
+  {
+    "start": 2619.599,
+    "duration": 3.041,
+    "text": "try to do it because this is sort of"
+  },
+  {
+    "start": 2620.88,
+    "duration": 4.0,
+    "text": "like a different question it's very fun"
+  },
+  {
+    "start": 2622.64,
+    "duration": 3.76,
+    "text": "also so try to solve it and then come"
+  },
+  {
+    "start": 2624.88,
+    "duration": 2.959,
+    "text": "back to this question and then i will"
+  },
+  {
+    "start": 2626.4,
+    "duration": 4.08,
+    "text": "show you the actual answer which was"
+  },
+  {
+    "start": 2627.839,
+    "duration": 4.721,
+    "text": "very very easy you will be like oh we"
+  },
+  {
+    "start": 2630.48,
+    "duration": 3.68,
+    "text": "never thought about this this way"
+  },
+  {
+    "start": 2632.56,
+    "duration": 3.36,
+    "text": "sometimes you have to actually look for"
+  },
+  {
+    "start": 2634.16,
+    "duration": 2.72,
+    "text": "patterns in patterns"
+  },
+  {
+    "start": 2635.92,
+    "duration": 2.96,
+    "text": "okay"
+  },
+  {
+    "start": 2636.88,
+    "duration": 3.52,
+    "text": "let's do it now before moving forward i"
+  },
+  {
+    "start": 2638.88,
+    "duration": 2.959,
+    "text": "also want to share like sometimes you"
+  },
+  {
+    "start": 2640.4,
+    "duration": 4.16,
+    "text": "know"
+  },
+  {
+    "start": 2641.839,
+    "duration": 5.441,
+    "text": "one or two extra lines or spaces"
+  },
+  {
+    "start": 2644.56,
+    "duration": 4.799,
+    "text": "if that is coming in between your"
+  },
+  {
+    "start": 2647.28,
+    "duration": 3.2,
+    "text": "more readable code"
+  },
+  {
+    "start": 2649.359,
+    "duration": 2.561,
+    "text": "and let's say"
+  },
+  {
+    "start": 2650.48,
+    "duration": 3.359,
+    "text": "you know obviously they're not going to"
+  },
+  {
+    "start": 2651.92,
+    "duration": 3.84,
+    "text": "ask this in the interview so in that"
+  },
+  {
+    "start": 2653.839,
+    "duration": 3.841,
+    "text": "case that is why i'm making exceptions"
+  },
+  {
+    "start": 2655.76,
+    "duration": 3.92,
+    "text": "over here for example in pattern number"
+  },
+  {
+    "start": 2657.68,
+    "duration": 5.2,
+    "text": "five right i take pattern number five"
+  },
+  {
+    "start": 2659.68,
+    "duration": 5.6,
+    "text": "here the number of uh lines are"
+  },
+  {
+    "start": 2662.88,
+    "duration": 3.28,
+    "text": "let's say 2 n minus 1 but that's as you"
+  },
+  {
+    "start": 2665.28,
+    "duration": 2.64,
+    "text": "can see"
+  },
+  {
+    "start": 2666.16,
+    "duration": 3.28,
+    "text": "the loop is actually running two end"
+  },
+  {
+    "start": 2667.92,
+    "duration": 3.52,
+    "text": "times"
+  },
+  {
+    "start": 2669.44,
+    "duration": 4.24,
+    "text": "okay so even though i can do it"
+  },
+  {
+    "start": 2671.44,
+    "duration": 3.84,
+    "text": "something like this"
+  },
+  {
+    "start": 2673.68,
+    "duration": 2.8,
+    "text": "okay and then i can start by you know"
+  },
+  {
+    "start": 2675.28,
+    "duration": 4.24,
+    "text": "changing something in this but that"
+  },
+  {
+    "start": 2676.48,
+    "duration": 3.04,
+    "text": "would look very messy"
+  },
+  {
+    "start": 2679.76,
+    "duration": 3.12,
+    "text": "so if there's like one two extra line"
+  },
+  {
+    "start": 2681.44,
+    "duration": 3.44,
+    "text": "over above and that's totally fine"
+  },
+  {
+    "start": 2682.88,
+    "duration": 3.28,
+    "text": "because that's totally cool no problem"
+  },
+  {
+    "start": 2684.88,
+    "duration": 2.64,
+    "text": "in that"
+  },
+  {
+    "start": 2686.16,
+    "duration": 2.64,
+    "text": "as long as you are having a good"
+  },
+  {
+    "start": 2687.52,
+    "duration": 2.96,
+    "text": "readable code"
+  },
+  {
+    "start": 2688.8,
+    "duration": 2.88,
+    "text": "in these pattern questions"
+  },
+  {
+    "start": 2690.48,
+    "duration": 3.359,
+    "text": "specifically"
+  },
+  {
+    "start": 2691.68,
+    "duration": 3.439,
+    "text": "specifically you say that hey no extra"
+  },
+  {
+    "start": 2693.839,
+    "duration": 3.76,
+    "text": "lines are allowed or whatever then you"
+  },
+  {
+    "start": 2695.119,
+    "duration": 3.521,
+    "text": "can do it via your own"
+  },
+  {
+    "start": 2697.599,
+    "duration": 2.801,
+    "text": "okay"
+  },
+  {
+    "start": 2698.64,
+    "duration": 5.36,
+    "text": "cool"
+  },
+  {
+    "start": 2700.4,
+    "duration": 4.959,
+    "text": "so let's do this question um for example"
+  },
+  {
+    "start": 2704.0,
+    "duration": 3.599,
+    "text": "we have"
+  },
+  {
+    "start": 2705.359,
+    "duration": 3.76,
+    "text": "in this question we have if we follow"
+  },
+  {
+    "start": 2707.599,
+    "duration": 4.72,
+    "text": "our approach only"
+  },
+  {
+    "start": 2709.119,
+    "duration": 5.841,
+    "text": "so we can say something like"
+  },
+  {
+    "start": 2712.319,
+    "duration": 4.161,
+    "text": "you know total number of lines are uh if"
+  },
+  {
+    "start": 2714.96,
+    "duration": 4.32,
+    "text": "here n is four then total number of"
+  },
+  {
+    "start": 2716.48,
+    "duration": 4.879,
+    "text": "lines are 2 and minus 1."
+  },
+  {
+    "start": 2719.28,
+    "duration": 3.36,
+    "text": "so i can say"
+  },
+  {
+    "start": 2721.359,
+    "duration": 2.401,
+    "text": "static"
+  },
+  {
+    "start": 2722.64,
+    "duration": 2.8,
+    "text": "void"
+  },
+  {
+    "start": 2723.76,
+    "duration": 4.16,
+    "text": "pattern 31"
+  },
+  {
+    "start": 2725.44,
+    "duration": 2.48,
+    "text": "in 10"
+  },
+  {
+    "start": 2731.76,
+    "duration": 3.839,
+    "text": "2n"
+  },
+  {
+    "start": 2732.88,
+    "duration": 3.52,
+    "text": "minus 1 so we are going to do this like"
+  },
+  {
+    "start": 2735.599,
+    "duration": 3.041,
+    "text": "uh"
+  },
+  {
+    "start": 2736.4,
+    "duration": 4.32,
+    "text": "the proper way no x lines or whatever"
+  },
+  {
+    "start": 2738.64,
+    "duration": 3.92,
+    "text": "how many columns do we have call number"
+  },
+  {
+    "start": 2740.72,
+    "duration": 4.08,
+    "text": "of columns is also 2 n minus 1 ok no"
+  },
+  {
+    "start": 2742.56,
+    "duration": 5.84,
+    "text": "problem"
+  },
+  {
+    "start": 2744.8,
+    "duration": 3.6,
+    "text": "or number of columns"
+  },
+  {
+    "start": 2748.8,
+    "duration": 2.799,
+    "text": "okay"
+  },
+  {
+    "start": 2749.92,
+    "duration": 3.28,
+    "text": "that's how many times we need our loop"
+  },
+  {
+    "start": 2751.599,
+    "duration": 4.401,
+    "text": "to run"
+  },
+  {
+    "start": 2753.2,
+    "duration": 7.119,
+    "text": "now at every particular index what value"
+  },
+  {
+    "start": 2756.0,
+    "duration": 5.44,
+    "text": "do we need that you need to figure out"
+  },
+  {
+    "start": 2760.319,
+    "duration": 4.0,
+    "text": "int"
+  },
+  {
+    "start": 2761.44,
+    "duration": 5.36,
+    "text": "at every index is equal to let's say"
+  },
+  {
+    "start": 2764.319,
+    "duration": 4.241,
+    "text": "something"
+  },
+  {
+    "start": 2766.8,
+    "duration": 3.92,
+    "text": "and you just need to print that what"
+  },
+  {
+    "start": 2768.56,
+    "duration": 4.16,
+    "text": "value do we need at every index"
+  },
+  {
+    "start": 2770.72,
+    "duration": 4.16,
+    "text": "then you just need to put there"
+  },
+  {
+    "start": 2772.72,
+    "duration": 3.599,
+    "text": "so what is the formula going to be"
+  },
+  {
+    "start": 2774.88,
+    "duration": 2.719,
+    "text": "for row and column that is what you need"
+  },
+  {
+    "start": 2776.319,
+    "duration": 2.401,
+    "text": "to figure out can you see the pattern"
+  },
+  {
+    "start": 2777.599,
+    "duration": 3.121,
+    "text": "over here"
+  },
+  {
+    "start": 2778.72,
+    "duration": 3.52,
+    "text": "everything follows the same approach"
+  },
+  {
+    "start": 2780.72,
+    "duration": 3.84,
+    "text": "only thing you need to put your brain"
+  },
+  {
+    "start": 2782.24,
+    "duration": 3.839,
+    "text": "into is this line"
+  },
+  {
+    "start": 2784.56,
+    "duration": 2.88,
+    "text": "what is the relationship between row"
+  },
+  {
+    "start": 2786.079,
+    "duration": 2.641,
+    "text": "column and n"
+  },
+  {
+    "start": 2787.44,
+    "duration": 3.12,
+    "text": "that's what you need to put over here"
+  },
+  {
+    "start": 2788.72,
+    "duration": 3.76,
+    "text": "rest everything is what we have"
+  },
+  {
+    "start": 2790.56,
+    "duration": 3.36,
+    "text": "discussed pause this video think about"
+  },
+  {
+    "start": 2792.48,
+    "duration": 3.28,
+    "text": "it then we'll come back so in this"
+  },
+  {
+    "start": 2793.92,
+    "duration": 3.439,
+    "text": "example let's try to think it on a"
+  },
+  {
+    "start": 2795.76,
+    "duration": 4.48,
+    "text": "different way so for example okay this"
+  },
+  {
+    "start": 2797.359,
+    "duration": 4.401,
+    "text": "is so fine so far so good okay true"
+  },
+  {
+    "start": 2800.24,
+    "duration": 3.04,
+    "text": "let's say here we are having this many"
+  },
+  {
+    "start": 2801.76,
+    "duration": 3.68,
+    "text": "amount of rows this many amount of rows"
+  },
+  {
+    "start": 2803.28,
+    "duration": 4.079,
+    "text": "that's okay at every index is what we"
+  },
+  {
+    "start": 2805.44,
+    "duration": 2.8,
+    "text": "need to figure out"
+  },
+  {
+    "start": 2807.359,
+    "duration": 2.321,
+    "text": "so"
+  },
+  {
+    "start": 2808.24,
+    "duration": 4.56,
+    "text": "let's look it into a different"
+  },
+  {
+    "start": 2809.68,
+    "duration": 5.2,
+    "text": "perspective okay let's try this out"
+  },
+  {
+    "start": 2812.8,
+    "duration": 4.96,
+    "text": "look at it at this perspective"
+  },
+  {
+    "start": 2814.88,
+    "duration": 5.28,
+    "text": "okay imagine like uh in order to make"
+  },
+  {
+    "start": 2817.76,
+    "duration": 5.04,
+    "text": "some things simpler here we said that"
+  },
+  {
+    "start": 2820.16,
+    "duration": 5.36,
+    "text": "for this is for n is equal to 4 right"
+  },
+  {
+    "start": 2822.8,
+    "duration": 4.24,
+    "text": "this is for n is equal to 4."
+  },
+  {
+    "start": 2825.52,
+    "duration": 4.96,
+    "text": "for n is equal to 4 it's actually"
+  },
+  {
+    "start": 2827.04,
+    "duration": 5.36,
+    "text": "running indices of rows and columns from"
+  },
+  {
+    "start": 2830.48,
+    "duration": 4.96,
+    "text": "0 to 8"
+  },
+  {
+    "start": 2832.4,
+    "duration": 4.88,
+    "text": "till 2 of n it's running its indices"
+  },
+  {
+    "start": 2835.44,
+    "duration": 3.84,
+    "text": "so i can make let's say in order to make"
+  },
+  {
+    "start": 2837.28,
+    "duration": 4.16,
+    "text": "things simpler i can say"
+  },
+  {
+    "start": 2839.28,
+    "duration": 4.079,
+    "text": "n is equal to 2 into n just to make"
+  },
+  {
+    "start": 2841.44,
+    "duration": 4.399,
+    "text": "things simpler"
+  },
+  {
+    "start": 2843.359,
+    "duration": 5.2,
+    "text": "okay so if it's 4 then you know"
+  },
+  {
+    "start": 2845.839,
+    "duration": 4.401,
+    "text": "like this from 0 till"
+  },
+  {
+    "start": 2848.559,
+    "duration": 3.52,
+    "text": "2 n it will be running"
+  },
+  {
+    "start": 2850.24,
+    "duration": 3.599,
+    "text": "so let's try to do that"
+  },
+  {
+    "start": 2852.079,
+    "duration": 3.441,
+    "text": "just to make things simpler"
+  },
+  {
+    "start": 2853.839,
+    "duration": 3.841,
+    "text": "so here i'm just going to say"
+  },
+  {
+    "start": 2855.52,
+    "duration": 4.799,
+    "text": "n is equal to 2 into n"
+  },
+  {
+    "start": 2857.68,
+    "duration": 3.439,
+    "text": "and it's just going to run till equal to"
+  },
+  {
+    "start": 2860.319,
+    "duration": 2.561,
+    "text": "10"
+  },
+  {
+    "start": 2861.119,
+    "duration": 3.761,
+    "text": "so now it's actually going to run from 0"
+  },
+  {
+    "start": 2862.88,
+    "duration": 4.0,
+    "text": "to 8 that is exactly what we can see"
+  },
+  {
+    "start": 2864.88,
+    "duration": 4.88,
+    "text": "from the figure also"
+  },
+  {
+    "start": 2866.88,
+    "duration": 4.0,
+    "text": "okay very simple stuff"
+  },
+  {
+    "start": 2869.76,
+    "duration": 3.359,
+    "text": "now"
+  },
+  {
+    "start": 2870.88,
+    "duration": 4.479,
+    "text": "you might have done a lot of things"
+  },
+  {
+    "start": 2873.119,
+    "duration": 4.881,
+    "text": "from this pattern you can see"
+  },
+  {
+    "start": 2875.359,
+    "duration": 6.0,
+    "text": "at every index what is it saying"
+  },
+  {
+    "start": 2878.0,
+    "duration": 6.72,
+    "text": "what is going to come at this index"
+  },
+  {
+    "start": 2881.359,
+    "duration": 6.321,
+    "text": "if i talk about this index"
+  },
+  {
+    "start": 2884.72,
+    "duration": 5.599,
+    "text": "what is going to come at this index"
+  },
+  {
+    "start": 2887.68,
+    "duration": 4.879,
+    "text": "if you try to look at it carefully"
+  },
+  {
+    "start": 2890.319,
+    "duration": 3.601,
+    "text": "you can see that if i imagine a wall"
+  },
+  {
+    "start": 2892.559,
+    "duration": 6.361,
+    "text": "over here"
+  },
+  {
+    "start": 2893.92,
+    "duration": 5.0,
+    "text": "at the four corners i imagine a wall"
+  },
+  {
+    "start": 2902.079,
+    "duration": 3.28,
+    "text": "just draw a wall over here"
+  },
+  {
+    "start": 2906.319,
+    "duration": 2.641,
+    "text": "okay"
+  },
+  {
+    "start": 2907.2,
+    "duration": 3.6,
+    "text": "so if i imagine a wall at these four"
+  },
+  {
+    "start": 2908.96,
+    "duration": 3.44,
+    "text": "corners"
+  },
+  {
+    "start": 2910.8,
+    "duration": 3.519,
+    "text": "what can you see"
+  },
+  {
+    "start": 2912.4,
+    "duration": 3.84,
+    "text": "you can see that the value this is a"
+  },
+  {
+    "start": 2914.319,
+    "duration": 4.401,
+    "text": "very important point and this only comes"
+  },
+  {
+    "start": 2916.24,
+    "duration": 5.92,
+    "text": "with observation okay you can see that"
+  },
+  {
+    "start": 2918.72,
+    "duration": 5.599,
+    "text": "the value at every particular cell is"
+  },
+  {
+    "start": 2922.16,
+    "duration": 4.48,
+    "text": "actually equal to the minimum distance"
+  },
+  {
+    "start": 2924.319,
+    "duration": 5.441,
+    "text": "from all the four walls"
+  },
+  {
+    "start": 2926.64,
+    "duration": 5.76,
+    "text": "take any cell if i take this cell"
+  },
+  {
+    "start": 2929.76,
+    "duration": 4.799,
+    "text": "if i take this cell"
+  },
+  {
+    "start": 2932.4,
+    "duration": 4.8,
+    "text": "so what is the value of this what is the"
+  },
+  {
+    "start": 2934.559,
+    "duration": 6.641,
+    "text": "distance of this cell from left wall"
+  },
+  {
+    "start": 2937.2,
+    "duration": 5.359,
+    "text": "from left wall the distance is 1 2 3 4"
+  },
+  {
+    "start": 2941.2,
+    "duration": 3.84,
+    "text": "five"
+  },
+  {
+    "start": 2942.559,
+    "duration": 4.881,
+    "text": "from top wall the distance is one two"
+  },
+  {
+    "start": 2945.04,
+    "duration": 4.48,
+    "text": "three four five six"
+  },
+  {
+    "start": 2947.44,
+    "duration": 3.36,
+    "text": "from right wall the distance is one two"
+  },
+  {
+    "start": 2949.52,
+    "duration": 3.36,
+    "text": "three"
+  },
+  {
+    "start": 2950.8,
+    "duration": 3.279,
+    "text": "from bottle bottom wall the distance is"
+  },
+  {
+    "start": 2952.88,
+    "duration": 2.719,
+    "text": "one and two"
+  },
+  {
+    "start": 2954.079,
+    "duration": 2.721,
+    "text": "what is the minimum of all of these"
+  },
+  {
+    "start": 2955.599,
+    "duration": 5.041,
+    "text": "things"
+  },
+  {
+    "start": 2956.8,
+    "duration": 3.84,
+    "text": "2 that is our answer over here"
+  },
+  {
+    "start": 2962.24,
+    "duration": 4.24,
+    "text": "very cool stuff"
+  },
+  {
+    "start": 2963.76,
+    "duration": 4.72,
+    "text": "try anything else let's try for this one"
+  },
+  {
+    "start": 2966.48,
+    "duration": 4.639,
+    "text": "what will come over here"
+  },
+  {
+    "start": 2968.48,
+    "duration": 5.04,
+    "text": "so minimum of distance from the left"
+  },
+  {
+    "start": 2971.119,
+    "duration": 4.081,
+    "text": "wall is one from the above wall is one"
+  },
+  {
+    "start": 2973.52,
+    "duration": 3.68,
+    "text": "from the right wall is one two three"
+  },
+  {
+    "start": 2975.2,
+    "duration": 4.08,
+    "text": "four five six seven"
+  },
+  {
+    "start": 2977.2,
+    "duration": 5.52,
+    "text": "from the below wall is one two three"
+  },
+  {
+    "start": 2979.28,
+    "duration": 6.799,
+    "text": "four five six seven also minimum is one"
+  },
+  {
+    "start": 2982.72,
+    "duration": 3.359,
+    "text": "so answer will be 1 over here"
+  },
+  {
+    "start": 2986.319,
+    "duration": 3.601,
+    "text": "similarly for 3 and 4 whatever"
+  },
+  {
+    "start": 2990.88,
+    "duration": 4.64,
+    "text": "now is it isn't it simpler now or the"
+  },
+  {
+    "start": 2993.28,
+    "duration": 4.4,
+    "text": "previous question"
+  },
+  {
+    "start": 2995.52,
+    "duration": 4.079,
+    "text": "so what are these four formulas that we"
+  },
+  {
+    "start": 2997.68,
+    "duration": 3.84,
+    "text": "are getting over here"
+  },
+  {
+    "start": 2999.599,
+    "duration": 3.361,
+    "text": "if i'm talking about"
+  },
+  {
+    "start": 3001.52,
+    "duration": 3.039,
+    "text": "from the left"
+  },
+  {
+    "start": 3002.96,
+    "duration": 2.96,
+    "text": "from the right"
+  },
+  {
+    "start": 3004.559,
+    "duration": 3.681,
+    "text": "from up"
+  },
+  {
+    "start": 3005.92,
+    "duration": 5.199,
+    "text": "and from down"
+  },
+  {
+    "start": 3008.24,
+    "duration": 4.0,
+    "text": "so at any cell you are at"
+  },
+  {
+    "start": 3011.119,
+    "duration": 3.281,
+    "text": "what is the"
+  },
+  {
+    "start": 3012.24,
+    "duration": 3.28,
+    "text": "distance from the left of the wall for"
+  },
+  {
+    "start": 3014.4,
+    "duration": 3.12,
+    "text": "that cell"
+  },
+  {
+    "start": 3015.52,
+    "duration": 4.0,
+    "text": "for the left of the wall"
+  },
+  {
+    "start": 3017.52,
+    "duration": 3.76,
+    "text": "the distance is i will just write it"
+  },
+  {
+    "start": 3019.52,
+    "duration": 4.0,
+    "text": "down over here let's say"
+  },
+  {
+    "start": 3021.28,
+    "duration": 4.0,
+    "text": "um"
+  },
+  {
+    "start": 3023.52,
+    "duration": 3.12,
+    "text": "is actually not left right up down i'll"
+  },
+  {
+    "start": 3025.28,
+    "duration": 4.4,
+    "text": "write it clearly"
+  },
+  {
+    "start": 3026.64,
+    "duration": 3.04,
+    "text": "so distances"
+  },
+  {
+    "start": 3031.2,
+    "duration": 4.639,
+    "text": "from the left"
+  },
+  {
+    "start": 3032.96,
+    "duration": 2.879,
+    "text": "from the right"
+  },
+  {
+    "start": 3038.88,
+    "duration": 5.36,
+    "text": "from up and from down"
+  },
+  {
+    "start": 3041.68,
+    "duration": 5.84,
+    "text": "you tell me you tell me what is it"
+  },
+  {
+    "start": 3044.24,
+    "duration": 3.28,
+    "text": "so if i'm at um"
+  },
+  {
+    "start": 3047.76,
+    "duration": 4.24,
+    "text": "if i'm at row number six mean i'm"
+  },
+  {
+    "start": 3049.52,
+    "duration": 3.68,
+    "text": "already down six times"
+  },
+  {
+    "start": 3052.0,
+    "duration": 3.839,
+    "text": "so"
+  },
+  {
+    "start": 3053.2,
+    "duration": 4.399,
+    "text": "if i'm already down six times"
+  },
+  {
+    "start": 3055.839,
+    "duration": 3.28,
+    "text": "down is going to be equal to the number"
+  },
+  {
+    "start": 3057.599,
+    "duration": 3.361,
+    "text": "of row"
+  },
+  {
+    "start": 3059.119,
+    "duration": 3.681,
+    "text": "check for any case if i'm talking about"
+  },
+  {
+    "start": 3060.96,
+    "duration": 3.44,
+    "text": "this one so"
+  },
+  {
+    "start": 3062.8,
+    "duration": 3.279,
+    "text": "row number is five means there are five"
+  },
+  {
+    "start": 3064.4,
+    "duration": 4.32,
+    "text": "rows above it one two three four five"
+  },
+  {
+    "start": 3066.079,
+    "duration": 4.641,
+    "text": "that's correct so how many so what is"
+  },
+  {
+    "start": 3068.72,
+    "duration": 3.76,
+    "text": "the distance from the above wall"
+  },
+  {
+    "start": 3070.72,
+    "duration": 4.56,
+    "text": "distance from the above wall is equal to"
+  },
+  {
+    "start": 3072.48,
+    "duration": 4.96,
+    "text": "the number of row"
+  },
+  {
+    "start": 3075.28,
+    "duration": 3.12,
+    "text": "okay what is the distance from the left"
+  },
+  {
+    "start": 3077.44,
+    "duration": 2.32,
+    "text": "wall"
+  },
+  {
+    "start": 3078.4,
+    "duration": 2.8,
+    "text": "that is equal to the number of columns"
+  },
+  {
+    "start": 3079.76,
+    "duration": 3.44,
+    "text": "so if you are at column number 3 so"
+  },
+  {
+    "start": 3081.2,
+    "duration": 3.919,
+    "text": "there are three over here yeah from the"
+  },
+  {
+    "start": 3083.2,
+    "duration": 3.76,
+    "text": "left wall it's column"
+  },
+  {
+    "start": 3085.119,
+    "duration": 4.0,
+    "text": "what is the distance from the right this"
+  },
+  {
+    "start": 3086.96,
+    "duration": 3.68,
+    "text": "on the right is going to be equal to"
+  },
+  {
+    "start": 3089.119,
+    "duration": 2.401,
+    "text": "my n means"
+  },
+  {
+    "start": 3090.64,
+    "duration": 3.28,
+    "text": "eight"
+  },
+  {
+    "start": 3091.52,
+    "duration": 3.92,
+    "text": "minus"
+  },
+  {
+    "start": 3093.92,
+    "duration": 2.88,
+    "text": "total number of columns you have already"
+  },
+  {
+    "start": 3095.44,
+    "duration": 4.8,
+    "text": "had"
+  },
+  {
+    "start": 3096.8,
+    "duration": 4.799,
+    "text": "okay so if i'm talking about this thing"
+  },
+  {
+    "start": 3100.24,
+    "duration": 2.72,
+    "text": "talking about this thing so distance"
+  },
+  {
+    "start": 3101.599,
+    "duration": 3.921,
+    "text": "from right is three"
+  },
+  {
+    "start": 3102.96,
+    "duration": 6.599,
+    "text": "eight minus"
+  },
+  {
+    "start": 3105.52,
+    "duration": 4.039,
+    "text": "no one second um"
+  },
+  {
+    "start": 3111.839,
+    "duration": 4.161,
+    "text": "what is this going to be equal to"
+  },
+  {
+    "start": 3113.76,
+    "duration": 3.359,
+    "text": "i think it's going to be equal to"
+  },
+  {
+    "start": 3116.0,
+    "duration": 2.559,
+    "text": "n"
+  },
+  {
+    "start": 3117.119,
+    "duration": 4.561,
+    "text": "minus"
+  },
+  {
+    "start": 3118.559,
+    "duration": 3.121,
+    "text": "distance from the right wall"
+  },
+  {
+    "start": 3122.4,
+    "duration": 5.919,
+    "text": "which column you are at yeah which"
+  },
+  {
+    "start": 3124.96,
+    "duration": 5.84,
+    "text": "column you are at so i'm already"
+  },
+  {
+    "start": 3128.319,
+    "duration": 4.161,
+    "text": "ahead like these are like five columns"
+  },
+  {
+    "start": 3130.8,
+    "duration": 2.4,
+    "text": "ahead okay"
+  },
+  {
+    "start": 3132.48,
+    "duration": 2.639,
+    "text": "so"
+  },
+  {
+    "start": 3133.2,
+    "duration": 3.639,
+    "text": "this is going to be equal to this entire"
+  },
+  {
+    "start": 3135.119,
+    "duration": 4.161,
+    "text": "oops sorry sorry"
+  },
+  {
+    "start": 3136.839,
+    "duration": 4.681,
+    "text": "sorry into 4"
+  },
+  {
+    "start": 3139.28,
+    "duration": 4.16,
+    "text": "n is equal to 2 into n"
+  },
+  {
+    "start": 3141.52,
+    "duration": 4.64,
+    "text": "0 1 2 3"
+  },
+  {
+    "start": 3143.44,
+    "duration": 4.399,
+    "text": "4 5 6 7. so basically what i'm trying to"
+  },
+  {
+    "start": 3146.16,
+    "duration": 4.08,
+    "text": "say is"
+  },
+  {
+    "start": 3147.839,
+    "duration": 6.081,
+    "text": "i need to figure out this value 3"
+  },
+  {
+    "start": 3150.24,
+    "duration": 6.72,
+    "text": "this is actually equal to entire 8"
+  },
+  {
+    "start": 3153.92,
+    "duration": 5.919,
+    "text": "minus how many far you have already come"
+  },
+  {
+    "start": 3156.96,
+    "duration": 5.04,
+    "text": "this is nothing but columns"
+  },
+  {
+    "start": 3159.839,
+    "duration": 3.361,
+    "text": "okay this is nothing but"
+  },
+  {
+    "start": 3162.0,
+    "duration": 4.319,
+    "text": "columns"
+  },
+  {
+    "start": 3163.2,
+    "duration": 5.2,
+    "text": "so actually 8 minus 5 3 that's true 3 so"
+  },
+  {
+    "start": 3166.319,
+    "duration": 4.321,
+    "text": "n minus columns"
+  },
+  {
+    "start": 3168.4,
+    "duration": 4.48,
+    "text": "similarly this is equal to n minus"
+  },
+  {
+    "start": 3170.64,
+    "duration": 4.56,
+    "text": "rows"
+  },
+  {
+    "start": 3172.88,
+    "duration": 4.4,
+    "text": "okay so if you're at 3 over here this"
+  },
+  {
+    "start": 3175.2,
+    "duration": 3.919,
+    "text": "should give me 3. so total number of n"
+  },
+  {
+    "start": 3177.28,
+    "duration": 4.079,
+    "text": "is 8 minus how many rows you have"
+  },
+  {
+    "start": 3179.119,
+    "duration": 3.841,
+    "text": "already come i have come five rows"
+  },
+  {
+    "start": 3181.359,
+    "duration": 2.881,
+    "text": "should you give me"
+  },
+  {
+    "start": 3182.96,
+    "duration": 3.2,
+    "text": "three"
+  },
+  {
+    "start": 3184.24,
+    "duration": 5.119,
+    "text": "one two three that's correct yeah"
+  },
+  {
+    "start": 3186.16,
+    "duration": 6.24,
+    "text": "minimum of all of these is the answer"
+  },
+  {
+    "start": 3189.359,
+    "duration": 6.48,
+    "text": "minimum of all of these is the answer"
+  },
+  {
+    "start": 3192.4,
+    "duration": 3.439,
+    "text": "let's try to code this thing"
+  },
+  {
+    "start": 3200.4,
+    "duration": 2.32,
+    "text": "okay"
+  },
+  {
+    "start": 3201.2,
+    "duration": 3.6,
+    "text": "so let's try to code this thing now i'm"
+  },
+  {
+    "start": 3202.72,
+    "duration": 4.8,
+    "text": "going to say that"
+  },
+  {
+    "start": 3204.8,
+    "duration": 5.44,
+    "text": "math dot minimum of math dot you can use"
+  },
+  {
+    "start": 3207.52,
+    "duration": 4.4,
+    "text": "this math.minimum function"
+  },
+  {
+    "start": 3210.24,
+    "duration": 3.04,
+    "text": "sort of a thing"
+  },
+  {
+    "start": 3211.92,
+    "duration": 3.84,
+    "text": "it's going to call"
+  },
+  {
+    "start": 3213.28,
+    "duration": 3.36,
+    "text": "minimum for four values"
+  },
+  {
+    "start": 3215.76,
+    "duration": 3.12,
+    "text": "okay"
+  },
+  {
+    "start": 3216.64,
+    "duration": 3.679,
+    "text": "so two values i can just write over here"
+  },
+  {
+    "start": 3218.88,
+    "duration": 2.8,
+    "text": "row and column"
+  },
+  {
+    "start": 3220.319,
+    "duration": 3.52,
+    "text": "then i can write"
+  },
+  {
+    "start": 3221.68,
+    "duration": 4.399,
+    "text": "n minus row"
+  },
+  {
+    "start": 3223.839,
+    "duration": 4.561,
+    "text": "and n minus column"
+  },
+  {
+    "start": 3226.079,
+    "duration": 4.321,
+    "text": "that is it let's try to print this"
+  },
+  {
+    "start": 3228.4,
+    "duration": 4.32,
+    "text": "how simple was that"
+  },
+  {
+    "start": 3230.4,
+    "duration": 4.0,
+    "text": "print for n is equal to 4 let me add a"
+  },
+  {
+    "start": 3232.72,
+    "duration": 5.119,
+    "text": "space as well okay let's add a nice"
+  },
+  {
+    "start": 3234.4,
+    "duration": 3.439,
+    "text": "space so it looks pretty"
+  },
+  {
+    "start": 3240.72,
+    "duration": 3.28,
+    "text": "looks pretty good"
+  },
+  {
+    "start": 3242.24,
+    "duration": 4.0,
+    "text": "the question is how can we make this"
+  },
+  {
+    "start": 3244.0,
+    "duration": 4.319,
+    "text": "pattern from this"
+  },
+  {
+    "start": 3246.24,
+    "duration": 4.56,
+    "text": "just do the opposite of it"
+  },
+  {
+    "start": 3248.319,
+    "duration": 4.561,
+    "text": "here if you are printing math dot"
+  },
+  {
+    "start": 3250.8,
+    "duration": 3.759,
+    "text": "minimum value from the wall"
+  },
+  {
+    "start": 3252.88,
+    "duration": 3.28,
+    "text": "so if it's saying me you know if it's"
+  },
+  {
+    "start": 3254.559,
+    "duration": 4.641,
+    "text": "showing me"
+  },
+  {
+    "start": 3256.16,
+    "duration": 4.88,
+    "text": "0 and 1 and whatever this is"
+  },
+  {
+    "start": 3259.2,
+    "duration": 5.68,
+    "text": "i can just say"
+  },
+  {
+    "start": 3261.04,
+    "duration": 5.92,
+    "text": "that this is equal to"
+  },
+  {
+    "start": 3264.88,
+    "duration": 4.08,
+    "text": "original n minus 1"
+  },
+  {
+    "start": 3266.96,
+    "duration": 4.639,
+    "text": "okay so i can say in"
+  },
+  {
+    "start": 3268.96,
+    "duration": 3.92,
+    "text": "original n is equal to n"
+  },
+  {
+    "start": 3271.599,
+    "duration": 3.681,
+    "text": "so i can say"
+  },
+  {
+    "start": 3272.88,
+    "duration": 3.76,
+    "text": "original n minus the minimum one"
+  },
+  {
+    "start": 3275.28,
+    "duration": 3.039,
+    "text": "that's it"
+  },
+  {
+    "start": 3276.64,
+    "duration": 3.6,
+    "text": "so instead of zero it will be four minus"
+  },
+  {
+    "start": 3278.319,
+    "duration": 3.681,
+    "text": "zero which is four instead of one it"
+  },
+  {
+    "start": 3280.24,
+    "duration": 4.559,
+    "text": "will be four minus one which is three"
+  },
+  {
+    "start": 3282.0,
+    "duration": 4.0,
+    "text": "instead of you know uh what what did we"
+  },
+  {
+    "start": 3284.799,
+    "duration": 2.641,
+    "text": "have over here"
+  },
+  {
+    "start": 3286.0,
+    "duration": 2.88,
+    "text": "over here we had"
+  },
+  {
+    "start": 3287.44,
+    "duration": 3.119,
+    "text": "three so instead of three it will be"
+  },
+  {
+    "start": 3288.88,
+    "duration": 4.959,
+    "text": "original"
+  },
+  {
+    "start": 3290.559,
+    "duration": 5.201,
+    "text": "uh sorry here we had uh what did we have"
+  },
+  {
+    "start": 3293.839,
+    "duration": 2.801,
+    "text": "here we had two i think"
+  },
+  {
+    "start": 3295.76,
+    "duration": 1.839,
+    "text": "four"
+  },
+  {
+    "start": 3296.64,
+    "duration": 2.959,
+    "text": "three"
+  },
+  {
+    "start": 3297.599,
+    "duration": 4.321,
+    "text": "yep so let's try it out"
+  },
+  {
+    "start": 3299.599,
+    "duration": 2.321,
+    "text": "um"
+  },
+  {
+    "start": 3302.079,
+    "duration": 3.76,
+    "text": "if i run this"
+  },
+  {
+    "start": 3304.559,
+    "duration": 3.76,
+    "text": "okay so here you're getting like an"
+  },
+  {
+    "start": 3305.839,
+    "duration": 4.641,
+    "text": "extra zero but i i need to do it i i had"
+  },
+  {
+    "start": 3308.319,
+    "duration": 3.52,
+    "text": "to do it like that way only because that"
+  },
+  {
+    "start": 3310.48,
+    "duration": 3.76,
+    "text": "is the only way i could explain you know"
+  },
+  {
+    "start": 3311.839,
+    "duration": 4.0,
+    "text": "the distance from the wall but now you"
+  },
+  {
+    "start": 3314.24,
+    "duration": 3.599,
+    "text": "can definitely modify it to you know"
+  },
+  {
+    "start": 3315.839,
+    "duration": 4.161,
+    "text": "sort of like ignore the zero and have"
+  },
+  {
+    "start": 3317.839,
+    "duration": 3.041,
+    "text": "the number of rows as it has in this no"
+  },
+  {
+    "start": 3320.0,
+    "duration": 2.4,
+    "text": "problem"
+  },
+  {
+    "start": 3320.88,
+    "duration": 3.36,
+    "text": "so that's like a homework for you now"
+  },
+  {
+    "start": 3322.4,
+    "duration": 3.84,
+    "text": "that you know the you know main concept"
+  },
+  {
+    "start": 3324.24,
+    "duration": 3.28,
+    "text": "and theorem try to debug it try to you"
+  },
+  {
+    "start": 3326.24,
+    "duration": 2.48,
+    "text": "know see how it's working internally and"
+  },
+  {
+    "start": 3327.52,
+    "duration": 2.88,
+    "text": "everything but that's pretty much about"
+  },
+  {
+    "start": 3328.72,
+    "duration": 3.2,
+    "text": "it"
+  },
+  {
+    "start": 3330.4,
+    "duration": 3.439,
+    "text": "all right so you just need to change the"
+  },
+  {
+    "start": 3331.92,
+    "duration": 4.56,
+    "text": "number of rows and columns for it and"
+  },
+  {
+    "start": 3333.839,
+    "duration": 3.921,
+    "text": "change the formula a little bit maybe"
+  },
+  {
+    "start": 3336.48,
+    "duration": 2.72,
+    "text": "all right that's it"
+  },
+  {
+    "start": 3337.76,
+    "duration": 3.76,
+    "text": "so isn't it cool like we're able to"
+  },
+  {
+    "start": 3339.2,
+    "duration": 4.399,
+    "text": "solve these questions like this"
+  },
+  {
+    "start": 3341.52,
+    "duration": 3.599,
+    "text": "so please make sure you follow these"
+  },
+  {
+    "start": 3343.599,
+    "duration": 3.041,
+    "text": "concepts you know the ones that i"
+  },
+  {
+    "start": 3345.119,
+    "duration": 3.361,
+    "text": "mentioned number of rows number of"
+  },
+  {
+    "start": 3346.64,
+    "duration": 3.919,
+    "text": "columns and"
+  },
+  {
+    "start": 3348.48,
+    "duration": 3.68,
+    "text": "what goes in every column the formula"
+  },
+  {
+    "start": 3350.559,
+    "duration": 3.201,
+    "text": "that's it"
+  },
+  {
+    "start": 3352.16,
+    "duration": 2.72,
+    "text": "that's it"
+  },
+  {
+    "start": 3353.76,
+    "duration": 2.64,
+    "text": "all right well thanks a lot for watching"
+  },
+  {
+    "start": 3354.88,
+    "duration": 2.88,
+    "text": "if you like this video i want you to do"
+  },
+  {
+    "start": 3356.4,
+    "duration": 2.64,
+    "text": "a few things okay like i mentioned"
+  },
+  {
+    "start": 3357.76,
+    "duration": 3.359,
+    "text": "throughout this entire video i know it"
+  },
+  {
+    "start": 3359.04,
+    "duration": 4.0,
+    "text": "might get a little a little annoying but"
+  },
+  {
+    "start": 3361.119,
+    "duration": 4.401,
+    "text": "it's important so that many people can"
+  },
+  {
+    "start": 3363.04,
+    "duration": 3.519,
+    "text": "learn the truth about the courses right"
+  },
+  {
+    "start": 3365.52,
+    "duration": 3.599,
+    "text": "so"
+  },
+  {
+    "start": 3366.559,
+    "duration": 4.641,
+    "text": "like right now comment right now like"
+  },
+  {
+    "start": 3369.119,
+    "duration": 3.521,
+    "text": "pause and comment then after you have"
+  },
+  {
+    "start": 3371.2,
+    "duration": 3.2,
+    "text": "commented you know if you haven't"
+  },
+  {
+    "start": 3372.64,
+    "duration": 2.719,
+    "text": "subscribed already subscribe that's very"
+  },
+  {
+    "start": 3374.4,
+    "duration": 2.48,
+    "text": "important"
+  },
+  {
+    "start": 3375.359,
+    "duration": 3.2,
+    "text": "and"
+  },
+  {
+    "start": 3376.88,
+    "duration": 4.479,
+    "text": "next thing is in the description you can"
+  },
+  {
+    "start": 3378.559,
+    "duration": 5.28,
+    "text": "find dsa with kunal hashtag and whatever"
+  },
+  {
+    "start": 3381.359,
+    "duration": 4.48,
+    "text": "so 60 days of dsa or dsa with kunal if"
+  },
+  {
+    "start": 3383.839,
+    "duration": 3.361,
+    "text": "you write a tweet about it the bot is"
+  },
+  {
+    "start": 3385.839,
+    "duration": 3.121,
+    "text": "automatically going to retweet it's"
+  },
+  {
+    "start": 3387.2,
+    "duration": 3.04,
+    "text": "called learning in public so make sure"
+  },
+  {
+    "start": 3388.96,
+    "duration": 3.04,
+    "text": "you check out the assignments as well"
+  },
+  {
+    "start": 3390.24,
+    "duration": 3.52,
+    "text": "assignment link in the description below"
+  },
+  {
+    "start": 3392.0,
+    "duration": 3.76,
+    "text": "so you can do the assignments please do"
+  },
+  {
+    "start": 3393.76,
+    "duration": 3.68,
+    "text": "these things please share please share"
+  },
+  {
+    "start": 3395.76,
+    "duration": 2.96,
+    "text": "the good work that you're doing and"
+  },
+  {
+    "start": 3397.44,
+    "duration": 2.96,
+    "text": "please share if you're learning"
+  },
+  {
+    "start": 3398.72,
+    "duration": 4.16,
+    "text": "something new because that will create"
+  },
+  {
+    "start": 3400.4,
+    "duration": 4.399,
+    "text": "awareness okay so this great free course"
+  },
+  {
+    "start": 3402.88,
+    "duration": 3.84,
+    "text": "will reach as many people as it can and"
+  },
+  {
+    "start": 3404.799,
+    "duration": 3.681,
+    "text": "all your honest reviews will go over"
+  },
+  {
+    "start": 3406.72,
+    "duration": 3.68,
+    "text": "there as well please share your honest"
+  },
+  {
+    "start": 3408.48,
+    "duration": 3.52,
+    "text": "views and uh please do all these things"
+  },
+  {
+    "start": 3410.4,
+    "duration": 3.6,
+    "text": "that i've just mentioned it will really"
+  },
+  {
+    "start": 3412.0,
+    "duration": 3.839,
+    "text": "support the work that i do i don't need"
+  },
+  {
+    "start": 3414.0,
+    "duration": 3.68,
+    "text": "any money from the students or whatever"
+  },
+  {
+    "start": 3415.839,
+    "duration": 3.681,
+    "text": "all the courses will be free this is the"
+  },
+  {
+    "start": 3417.68,
+    "duration": 3.119,
+    "text": "way i want you to support me okay so"
+  },
+  {
+    "start": 3419.52,
+    "duration": 3.68,
+    "text": "please make sure you do it right now"
+  },
+  {
+    "start": 3420.799,
+    "duration": 4.401,
+    "text": "once you have watched the video"
+  },
+  {
+    "start": 3423.2,
+    "duration": 3.68,
+    "text": "and uh yeah share about it with your"
+  },
+  {
+    "start": 3425.2,
+    "duration": 3.599,
+    "text": "friends and we will see you in the next"
+  },
+  {
+    "start": 3426.88,
+    "duration": 3.6,
+    "text": "one bye also check out the links in the"
+  },
+  {
+    "start": 3428.799,
+    "duration": 3.991,
+    "text": "description you can follow us on socials"
+  },
+  {
+    "start": 3430.48,
+    "duration": 9.179,
+    "text": "that is also going to be a big support"
+  },
+  {
+    "start": 3432.79,
+    "duration": 6.869,
+    "text": "[Music]"
+  }
+]

@@ -1,0 +1,3467 @@
+[
+  {
+    "start": 0.0,
+    "duration": 2.48,
+    "text": "Hey everyone, welcome back to my"
+  },
+  {
+    "start": 0.96,
+    "duration": 2.959,
+    "text": "channel. Another new video. In this"
+  },
+  {
+    "start": 2.48,
+    "duration": 3.44,
+    "text": "video, we're continuing the data"
+  },
+  {
+    "start": 3.919,
+    "duration": 3.601,
+    "text": "algorithms boot camp. And in the"
+  },
+  {
+    "start": 5.92,
+    "duration": 4.96,
+    "text": "previous video, I told you how to work"
+  },
+  {
+    "start": 7.52,
+    "duration": 5.28,
+    "text": "with large strings and mutable strings."
+  },
+  {
+    "start": 10.88,
+    "duration": 4.16,
+    "text": "We learned about string buffer, how to"
+  },
+  {
+    "start": 12.8,
+    "duration": 3.68,
+    "text": "format your output, so on and so forth."
+  },
+  {
+    "start": 15.04,
+    "duration": 3.2,
+    "text": "These things are very important when you"
+  },
+  {
+    "start": 16.48,
+    "duration": 4.639,
+    "text": "work with large number of inputs in your"
+  },
+  {
+    "start": 18.24,
+    "duration": 4.48,
+    "text": "QA rounds and various test cases. So,"
+  },
+  {
+    "start": 21.119,
+    "duration": 2.881,
+    "text": "we're just going to continue that before"
+  },
+  {
+    "start": 22.72,
+    "duration": 3.92,
+    "text": "we move on to some more advanced"
+  },
+  {
+    "start": 24.0,
+    "duration": 4.88,
+    "text": "structures and do some more like uh"
+  },
+  {
+    "start": 26.64,
+    "duration": 4.24,
+    "text": "finish the trees playlist. But uh before"
+  },
+  {
+    "start": 28.88,
+    "duration": 5.199,
+    "text": "that it's important that we now work"
+  },
+  {
+    "start": 30.88,
+    "duration": 5.04,
+    "text": "with large numbers. So if you're given a"
+  },
+  {
+    "start": 34.079,
+    "duration": 4.241,
+    "text": "large number uh how can you do that?"
+  },
+  {
+    "start": 35.92,
+    "duration": 6.0,
+    "text": "Let's say it will not fit in the size of"
+  },
+  {
+    "start": 38.32,
+    "duration": 4.72,
+    "text": "int or integer. So"
+  },
+  {
+    "start": 41.92,
+    "duration": 2.639,
+    "text": "yeah we're going to learn about that."
+  },
+  {
+    "start": 43.04,
+    "duration": 3.44,
+    "text": "And similarly with decimals as well"
+  },
+  {
+    "start": 44.559,
+    "duration": 3.441,
+    "text": "let's say something doesn't fit in float"
+  },
+  {
+    "start": 46.48,
+    "duration": 3.84,
+    "text": "or double then how do you work with"
+  },
+  {
+    "start": 48.0,
+    "duration": 5.28,
+    "text": "that? So Java provides us pretty amazing"
+  },
+  {
+    "start": 50.32,
+    "duration": 4.559,
+    "text": "classes big integer and big decimals"
+  },
+  {
+    "start": 53.28,
+    "duration": 3.36,
+    "text": "which are very very important when"
+  },
+  {
+    "start": 54.879,
+    "duration": 4.401,
+    "text": "you're working with large number of"
+  },
+  {
+    "start": 56.64,
+    "duration": 4.64,
+    "text": "inputs be that in your QA rounds or"
+  },
+  {
+    "start": 59.28,
+    "duration": 4.16,
+    "text": "computer programming or whatever. So in"
+  },
+  {
+    "start": 61.28,
+    "duration": 3.839,
+    "text": "this video we're going to learn about"
+  },
+  {
+    "start": 63.44,
+    "duration": 3.92,
+    "text": "how to work with large inteious large"
+  },
+  {
+    "start": 65.119,
+    "duration": 5.761,
+    "text": "numbers large decimals like really big"
+  },
+  {
+    "start": 67.36,
+    "duration": 6.52,
+    "text": "numbers uh in Java. Um let's get"
+  },
+  {
+    "start": 70.88,
+    "duration": 3.0,
+    "text": "started."
+  },
+  {
+    "start": 75.2,
+    "duration": 8.36,
+    "text": "Okay. So let's first look into how to"
+  },
+  {
+    "start": 77.28,
+    "duration": 6.28,
+    "text": "store large number of integers. Okay. So"
+  },
+  {
+    "start": 84.799,
+    "duration": 5.0,
+    "text": "storing"
+  },
+  {
+    "start": 86.799,
+    "duration": 3.0,
+    "text": "large"
+  },
+  {
+    "start": 90.159,
+    "duration": 5.92,
+    "text": "integers for that there's a class in"
+  },
+  {
+    "start": 93.6,
+    "duration": 6.04,
+    "text": "Java called big"
+  },
+  {
+    "start": 96.079,
+    "duration": 3.561,
+    "text": "integer class."
+  },
+  {
+    "start": 99.84,
+    "duration": 4.72,
+    "text": "Okay, you already know about uh"
+  },
+  {
+    "start": 102.72,
+    "duration": 5.039,
+    "text": "inheritance and subasses or whatever. We"
+  },
+  {
+    "start": 104.56,
+    "duration": 5.04,
+    "text": "know most classes in Java are the uh the"
+  },
+  {
+    "start": 107.759,
+    "duration": 5.921,
+    "text": "parent class is object class. So here we"
+  },
+  {
+    "start": 109.6,
+    "duration": 5.6,
+    "text": "have the object class."
+  },
+  {
+    "start": 113.68,
+    "duration": 4.88,
+    "text": "We all know this object class we have"
+  },
+  {
+    "start": 115.2,
+    "duration": 6.32,
+    "text": "done in object programming. Inside this"
+  },
+  {
+    "start": 118.56,
+    "duration": 6.72,
+    "text": "we have number"
+  },
+  {
+    "start": 121.52,
+    "duration": 8.799,
+    "text": "java dot lang dot number in these"
+  },
+  {
+    "start": 125.28,
+    "duration": 8.72,
+    "text": "packages and inside that we have java"
+  },
+  {
+    "start": 130.319,
+    "duration": 6.92,
+    "text": "domath dot"
+  },
+  {
+    "start": 134.0,
+    "duration": 3.239,
+    "text": "big integer."
+  },
+  {
+    "start": 137.599,
+    "duration": 4.241,
+    "text": "Okay,"
+  },
+  {
+    "start": 139.52,
+    "duration": 4.56,
+    "text": "write it down clearly so you can"
+  },
+  {
+    "start": 141.84,
+    "duration": 5.36,
+    "text": "understand."
+  },
+  {
+    "start": 144.08,
+    "duration": 8.239,
+    "text": "Inside this we have"
+  },
+  {
+    "start": 147.2,
+    "duration": 8.119,
+    "text": "java dot math dot big"
+  },
+  {
+    "start": 152.319,
+    "duration": 3.0,
+    "text": "integer"
+  },
+  {
+    "start": 155.76,
+    "duration": 6.559,
+    "text": "okay if you look at the"
+  },
+  {
+    "start": 159.76,
+    "duration": 4.32,
+    "text": "definition of this class uh if you see"
+  },
+  {
+    "start": 162.319,
+    "duration": 3.761,
+    "text": "how it's defined you know just control"
+  },
+  {
+    "start": 164.08,
+    "duration": 3.12,
+    "text": "command commandclick whatever uh we have"
+  },
+  {
+    "start": 166.08,
+    "duration": 2.48,
+    "text": "done it in the past if you've been"
+  },
+  {
+    "start": 167.2,
+    "duration": 3.36,
+    "text": "following the playlist you know what I'm"
+  },
+  {
+    "start": 168.56,
+    "duration": 3.92,
+    "text": "talking about just click on it you will"
+  },
+  {
+    "start": 170.56,
+    "duration": 4.08,
+    "text": "see the internal implementation you know"
+  },
+  {
+    "start": 172.48,
+    "duration": 8.2,
+    "text": "commandclick or control-click"
+  },
+  {
+    "start": 174.64,
+    "duration": 6.04,
+    "text": "So this basically extends number"
+  },
+  {
+    "start": 180.72,
+    "duration": 5.84,
+    "text": "as you can see extends the number."
+  },
+  {
+    "start": 184.0,
+    "duration": 4.72,
+    "text": "So"
+  },
+  {
+    "start": 186.56,
+    "duration": 4.08,
+    "text": "it extends"
+  },
+  {
+    "start": 188.72,
+    "duration": 6.32,
+    "text": "number class"
+  },
+  {
+    "start": 190.64,
+    "duration": 6.64,
+    "text": "and it implements the comparable"
+  },
+  {
+    "start": 195.04,
+    "duration": 5.24,
+    "text": "interface."
+  },
+  {
+    "start": 197.28,
+    "duration": 3.0,
+    "text": "Okay."
+  },
+  {
+    "start": 207.36,
+    "duration": 3.879,
+    "text": "Why am I telling you this"
+  },
+  {
+    "start": 211.28,
+    "duration": 3.0,
+    "text": "comparable?"
+  },
+  {
+    "start": 215.28,
+    "duration": 4.959,
+    "text": "Because we already covered in the object"
+  },
+  {
+    "start": 217.76,
+    "duration": 5.759,
+    "text": "oriented programming playlist extends"
+  },
+  {
+    "start": 220.239,
+    "duration": 4.801,
+    "text": "implements or whatever, right?"
+  },
+  {
+    "start": 223.519,
+    "duration": 4.241,
+    "text": "So"
+  },
+  {
+    "start": 225.04,
+    "duration": 5.199,
+    "text": "when we covered this we knew that uh"
+  },
+  {
+    "start": 227.76,
+    "duration": 5.44,
+    "text": "what all what does it mean by when you"
+  },
+  {
+    "start": 230.239,
+    "duration": 4.881,
+    "text": "say in implementing or you know an"
+  },
+  {
+    "start": 233.2,
+    "duration": 3.44,
+    "text": "interface extending a parent class we"
+  },
+  {
+    "start": 235.12,
+    "duration": 3.92,
+    "text": "know you know some properties you"
+  },
+  {
+    "start": 236.64,
+    "duration": 4.319,
+    "text": "inherit and when you implement then you"
+  },
+  {
+    "start": 239.04,
+    "duration": 3.52,
+    "text": "uh you know there are some abstract"
+  },
+  {
+    "start": 240.959,
+    "duration": 3.92,
+    "text": "functions or methods then you define"
+  },
+  {
+    "start": 242.56,
+    "duration": 4.8,
+    "text": "their own bodies so on and so forth. So"
+  },
+  {
+    "start": 244.879,
+    "duration": 3.761,
+    "text": "I'm telling you this because you can now"
+  },
+  {
+    "start": 247.36,
+    "duration": 2.959,
+    "text": "we have already covered number and"
+  },
+  {
+    "start": 248.64,
+    "duration": 3.12,
+    "text": "comparable and all these other things."
+  },
+  {
+    "start": 250.319,
+    "duration": 4.721,
+    "text": "So you can see what all things these"
+  },
+  {
+    "start": 251.76,
+    "duration": 5.759,
+    "text": "have and what all methods it implements"
+  },
+  {
+    "start": 255.04,
+    "duration": 4.159,
+    "text": "has its own definitions and all sorts of"
+  },
+  {
+    "start": 257.519,
+    "duration": 5.601,
+    "text": "things just in the documentation like we"
+  },
+  {
+    "start": 259.199,
+    "duration": 8.0,
+    "text": "have seen before you can find it. Okay,"
+  },
+  {
+    "start": 263.12,
+    "duration": 6.72,
+    "text": "so that's pretty simple. Um"
+  },
+  {
+    "start": 267.199,
+    "duration": 4.881,
+    "text": "yeah that's basically about it. Um let's"
+  },
+  {
+    "start": 269.84,
+    "duration": 4.16,
+    "text": "just dive straight into it. Let's use it"
+  },
+  {
+    "start": 272.08,
+    "duration": 5.28,
+    "text": "and uh see how we can work with large"
+  },
+  {
+    "start": 274.0,
+    "duration": 6.24,
+    "text": "number of number of uh numbers integers"
+  },
+  {
+    "start": 277.36,
+    "duration": 4.16,
+    "text": "or whatever. And um let me give you an"
+  },
+  {
+    "start": 280.24,
+    "duration": 3.28,
+    "text": "example of this as well. Let's say we"
+  },
+  {
+    "start": 281.52,
+    "duration": 4.0,
+    "text": "will do a factorial program. So we'll"
+  },
+  {
+    "start": 283.52,
+    "duration": 3.92,
+    "text": "try to calculate a large factorial which"
+  },
+  {
+    "start": 285.52,
+    "duration": 4.88,
+    "text": "obviously cannot be stored in integer"
+  },
+  {
+    "start": 287.44,
+    "duration": 5.199,
+    "text": "but it will be able to store in big"
+  },
+  {
+    "start": 290.4,
+    "duration": 3.84,
+    "text": "integer. So let's see in practice how to"
+  },
+  {
+    "start": 292.639,
+    "duration": 3.601,
+    "text": "work with large numbers. Okay, one more"
+  },
+  {
+    "start": 294.24,
+    "duration": 4.64,
+    "text": "thing before we get started with the"
+  },
+  {
+    "start": 296.24,
+    "duration": 4.8,
+    "text": "code. What is the range of this? Okay,"
+  },
+  {
+    "start": 298.88,
+    "duration": 6.72,
+    "text": "it's supporting large numbers but what"
+  },
+  {
+    "start": 301.04,
+    "duration": 7.84,
+    "text": "is the range? So range is pretty simple."
+  },
+  {
+    "start": 305.6,
+    "duration": 6.599,
+    "text": "- 2 raised to the power the integer dot"
+  },
+  {
+    "start": 308.88,
+    "duration": 3.319,
+    "text": "max value"
+  },
+  {
+    "start": 313.199,
+    "duration": 4.961,
+    "text": "till 2"
+  },
+  {
+    "start": 316.4,
+    "duration": 4.76,
+    "text": "raised to the power integer dot max"
+  },
+  {
+    "start": 318.16,
+    "duration": 3.0,
+    "text": "value."
+  },
+  {
+    "start": 323.919,
+    "duration": 3.72,
+    "text": "These are both exclusive."
+  },
+  {
+    "start": 328.479,
+    "duration": 2.881,
+    "text": "You know how ranges can be sometimes"
+  },
+  {
+    "start": 329.919,
+    "duration": 3.361,
+    "text": "inclusive and exclusive. These are"
+  },
+  {
+    "start": 331.36,
+    "duration": 3.839,
+    "text": "exclusive."
+  },
+  {
+    "start": 333.28,
+    "duration": 3.199,
+    "text": "And also since it's a class, it will"
+  },
+  {
+    "start": 335.199,
+    "duration": 4.081,
+    "text": "throw null pointer exception. You know,"
+  },
+  {
+    "start": 336.479,
+    "duration": 4.72,
+    "text": "if you try to go outside this range or"
+  },
+  {
+    "start": 339.28,
+    "duration": 4.72,
+    "text": "do any funny things, uh it's going to do"
+  },
+  {
+    "start": 341.199,
+    "duration": 4.481,
+    "text": "that. So"
+  },
+  {
+    "start": 344.0,
+    "duration": 5.68,
+    "text": "yeah, let's get started with the code."
+  },
+  {
+    "start": 345.68,
+    "duration": 9.4,
+    "text": "Okay, I have my code here. I'll create a"
+  },
+  {
+    "start": 349.68,
+    "duration": 5.4,
+    "text": "new Java file and I'll call it"
+  },
+  {
+    "start": 355.36,
+    "duration": 3.8,
+    "text": "large numbers."
+  },
+  {
+    "start": 360.4,
+    "duration": 3.0,
+    "text": "create."
+  },
+  {
+    "start": 365.12,
+    "duration": 4.079,
+    "text": "Here we have it. And uh you can find the"
+  },
+  {
+    "start": 367.68,
+    "duration": 3.84,
+    "text": "link in the description below to all"
+  },
+  {
+    "start": 369.199,
+    "duration": 4.481,
+    "text": "these things."
+  },
+  {
+    "start": 371.52,
+    "duration": 5.28,
+    "text": "Going to close this"
+  },
+  {
+    "start": 373.68,
+    "duration": 6.639,
+    "text": "for now. And here we go. So let's say"
+  },
+  {
+    "start": 376.8,
+    "duration": 6.56,
+    "text": "you have int a is equal to 30, int b is"
+  },
+  {
+    "start": 380.319,
+    "duration": 7.041,
+    "text": "equal to let's say 67. Then you can"
+  },
+  {
+    "start": 383.36,
+    "duration": 7.52,
+    "text": "create a big integer class. You can say"
+  },
+  {
+    "start": 387.36,
+    "duration": 6.24,
+    "text": "big integer a is equal to zoom in a"
+  },
+  {
+    "start": 390.88,
+    "duration": 5.52,
+    "text": "little bit so you can see here I can say"
+  },
+  {
+    "start": 393.6,
+    "duration": 7.159,
+    "text": "big integer"
+  },
+  {
+    "start": 396.4,
+    "duration": 4.359,
+    "text": "dot value of"
+  },
+  {
+    "start": 401.68,
+    "duration": 5.76,
+    "text": "now here you can pass a value you can"
+  },
+  {
+    "start": 404.24,
+    "duration": 5.12,
+    "text": "say anything like uh you know 33 or"
+  },
+  {
+    "start": 407.44,
+    "duration": 5.68,
+    "text": "whatever"
+  },
+  {
+    "start": 409.36,
+    "duration": 7.52,
+    "text": "sounds good similarly I can have big"
+  },
+  {
+    "start": 413.12,
+    "duration": 6.76,
+    "text": "integer of B is equal to value of"
+  },
+  {
+    "start": 416.88,
+    "duration": 3.0,
+    "text": "something."
+  },
+  {
+    "start": 420.479,
+    "duration": 4.16,
+    "text": "Okay. So you can directly pass some"
+  },
+  {
+    "start": 422.72,
+    "duration": 4.24,
+    "text": "values over here. This is how you did it"
+  },
+  {
+    "start": 424.639,
+    "duration": 5.28,
+    "text": "in primitive types. This is how you can"
+  },
+  {
+    "start": 426.96,
+    "duration": 5.359,
+    "text": "do it in big integer type. Big number"
+  },
+  {
+    "start": 429.919,
+    "duration": 4.801,
+    "text": "you can put over here. 2 raised to power"
+  },
+  {
+    "start": 432.319,
+    "duration": 4.32,
+    "text": "integer from max is a really big number."
+  },
+  {
+    "start": 434.72,
+    "duration": 6.4,
+    "text": "Okay."
+  },
+  {
+    "start": 436.639,
+    "duration": 6.081,
+    "text": "Sounds good. You can also have strings."
+  },
+  {
+    "start": 441.12,
+    "duration": 5.04,
+    "text": "can also have let's say if you have a"
+  },
+  {
+    "start": 442.72,
+    "duration": 6.0,
+    "text": "string big integer C you can have a"
+  },
+  {
+    "start": 446.16,
+    "duration": 4.4,
+    "text": "string something like this that will"
+  },
+  {
+    "start": 448.72,
+    "duration": 4.4,
+    "text": "also convert it into a big integer type"
+  },
+  {
+    "start": 450.56,
+    "duration": 7.639,
+    "text": "number"
+  },
+  {
+    "start": 453.12,
+    "duration": 5.079,
+    "text": "okay you also have constants"
+  },
+  {
+    "start": 459.599,
+    "duration": 6.841,
+    "text": "as big integers so the constants you"
+  },
+  {
+    "start": 462.8,
+    "duration": 3.64,
+    "text": "have is uh"
+  },
+  {
+    "start": 466.88,
+    "duration": 4.319,
+    "text": "big integer dot constant so one for"
+  },
+  {
+    "start": 469.28,
+    "duration": 6.16,
+    "text": "example"
+  },
+  {
+    "start": 471.199,
+    "duration": 6.4,
+    "text": "There are other constants like zero also"
+  },
+  {
+    "start": 475.44,
+    "duration": 3.92,
+    "text": "and there's a 10 also. You can also find"
+  },
+  {
+    "start": 477.599,
+    "duration": 2.961,
+    "text": "it in the documentation. In the previous"
+  },
+  {
+    "start": 479.36,
+    "duration": 2.399,
+    "text": "example, in the previous video I"
+  },
+  {
+    "start": 480.56,
+    "duration": 2.8,
+    "text": "mentioned, you know, for such"
+  },
+  {
+    "start": 481.759,
+    "duration": 3.201,
+    "text": "technicalities and stuff that do not"
+  },
+  {
+    "start": 483.36,
+    "duration": 3.279,
+    "text": "require"
+  },
+  {
+    "start": 484.96,
+    "duration": 3.359,
+    "text": "intuition. You know, we're not studying"
+  },
+  {
+    "start": 486.639,
+    "duration": 3.041,
+    "text": "dynamic programming here. It's just"
+  },
+  {
+    "start": 488.319,
+    "duration": 3.041,
+    "text": "whatever the implementation they have"
+  },
+  {
+    "start": 489.68,
+    "duration": 3.44,
+    "text": "provided us. Please make use of the"
+  },
+  {
+    "start": 491.36,
+    "duration": 3.2,
+    "text": "documentation. And here you can find"
+  },
+  {
+    "start": 493.12,
+    "duration": 4.079,
+    "text": "everything about DB integer"
+  },
+  {
+    "start": 494.56,
+    "duration": 5.12,
+    "text": "constructors, all the methods,"
+  },
+  {
+    "start": 497.199,
+    "duration": 4.241,
+    "text": "everything, all the definitions and"
+  },
+  {
+    "start": 499.68,
+    "duration": 3.519,
+    "text": "everything."
+  },
+  {
+    "start": 501.44,
+    "duration": 4.479,
+    "text": "Okay,"
+  },
+  {
+    "start": 503.199,
+    "duration": 4.4,
+    "text": "cool. Right now, let's say we want to do"
+  },
+  {
+    "start": 505.919,
+    "duration": 5.28,
+    "text": "addition"
+  },
+  {
+    "start": 507.599,
+    "duration": 7.12,
+    "text": "of big numbers. How do we do that?"
+  },
+  {
+    "start": 511.199,
+    "duration": 6.64,
+    "text": "So, if I have a big integer,"
+  },
+  {
+    "start": 514.719,
+    "duration": 5.921,
+    "text": "sum is equal to let's say I can say I"
+  },
+  {
+    "start": 517.839,
+    "duration": 5.841,
+    "text": "want to add a and b. So I can say a dot"
+  },
+  {
+    "start": 520.64,
+    "duration": 8.56,
+    "text": "add b. I cannot do a plus b because"
+  },
+  {
+    "start": 523.68,
+    "duration": 7.04,
+    "text": "these are objects. So a dot add b."
+  },
+  {
+    "start": 529.2,
+    "duration": 5.12,
+    "text": "Okay."
+  },
+  {
+    "start": 530.72,
+    "duration": 6.559,
+    "text": "If you want to print it system.out"
+  },
+  {
+    "start": 534.32,
+    "duration": 6.24,
+    "text": "dot print ln"
+  },
+  {
+    "start": 537.279,
+    "duration": 6.081,
+    "text": "s. Let's try to run that. Probably"
+  },
+  {
+    "start": 540.56,
+    "duration": 6.48,
+    "text": "should have imported it."
+  },
+  {
+    "start": 543.36,
+    "duration": 5.28,
+    "text": "Integer number too large. Oh, it's"
+  },
+  {
+    "start": 547.04,
+    "duration": 3.6,
+    "text": "integer number too large. Okay, no"
+  },
+  {
+    "start": 548.64,
+    "duration": 5.199,
+    "text": "problem. This has to be in the value of"
+  },
+  {
+    "start": 550.64,
+    "duration": 7.52,
+    "text": "integer. That's fine."
+  },
+  {
+    "start": 553.839,
+    "duration": 7.321,
+    "text": "And big integer I have to import."
+  },
+  {
+    "start": 558.16,
+    "duration": 3.0,
+    "text": "import"
+  },
+  {
+    "start": 561.36,
+    "duration": 3.0,
+    "text": "java.mmath."
+  },
+  {
+    "start": 586.0,
+    "duration": 4.48,
+    "text": "Okay. Not the value of when you do"
+  },
+  {
+    "start": 588.88,
+    "duration": 3.44,
+    "text": "strings."
+  },
+  {
+    "start": 590.48,
+    "duration": 5.84,
+    "text": "If you're working with strings, you have"
+  },
+  {
+    "start": 592.32,
+    "duration": 5.68,
+    "text": "to create a new like this."
+  },
+  {
+    "start": 596.32,
+    "duration": 3.6,
+    "text": "Hopefully, that should be able to Yeah,"
+  },
+  {
+    "start": 598.0,
+    "duration": 4.959,
+    "text": "there you go."
+  },
+  {
+    "start": 599.92,
+    "duration": 5.68,
+    "text": "So, a plus b. It's giving me the answer."
+  },
+  {
+    "start": 602.959,
+    "duration": 5.601,
+    "text": "If I just put something smaller like"
+  },
+  {
+    "start": 605.6,
+    "duration": 5.2,
+    "text": "let's say five and six should give me"
+  },
+  {
+    "start": 608.56,
+    "duration": 4.08,
+    "text": "11."
+  },
+  {
+    "start": 610.8,
+    "duration": 4.32,
+    "text": "Make sense?"
+  },
+  {
+    "start": 612.64,
+    "duration": 4.24,
+    "text": "11. So this has to be in the range of an"
+  },
+  {
+    "start": 615.12,
+    "duration": 3.6,
+    "text": "integer. You know how we if you went"
+  },
+  {
+    "start": 616.88,
+    "duration": 3.84,
+    "text": "above the rate of integer it was giving"
+  },
+  {
+    "start": 618.72,
+    "duration": 4.16,
+    "text": "an error. But if you have a really large"
+  },
+  {
+    "start": 620.72,
+    "duration": 6.2,
+    "text": "number you can pass it as a string. So"
+  },
+  {
+    "start": 622.88,
+    "duration": 4.04,
+    "text": "if I have like something like"
+  },
+  {
+    "start": 629.36,
+    "duration": 7.28,
+    "text": "fine no error just print C"
+  },
+  {
+    "start": 634.24,
+    "duration": 4.4,
+    "text": "and this way so there's two ways big"
+  },
+  {
+    "start": 636.64,
+    "duration": 4.08,
+    "text": "integer dot value of you directly pass"
+  },
+  {
+    "start": 638.64,
+    "duration": 4.8,
+    "text": "the number or you create a new one so"
+  },
+  {
+    "start": 640.72,
+    "duration": 4.88,
+    "text": "new big integer dot so new big integer"
+  },
+  {
+    "start": 643.44,
+    "duration": 6.28,
+    "text": "this is a constructor you're calling"
+  },
+  {
+    "start": 645.6,
+    "duration": 4.12,
+    "text": "okay constructor that you're calling"
+  },
+  {
+    "start": 650.0,
+    "duration": 3.12,
+    "text": "here if I check the constructor"
+  },
+  {
+    "start": 656.56,
+    "duration": 4.8,
+    "text": "Types of constructors should be"
+  },
+  {
+    "start": 658.079,
+    "duration": 6.081,
+    "text": "somewhere here. Constructors"
+  },
+  {
+    "start": 661.36,
+    "duration": 4.24,
+    "text": "there you go. String value. This is a"
+  },
+  {
+    "start": 664.16,
+    "duration": 3.359,
+    "text": "type of a constructor. You have a"
+  },
+  {
+    "start": 665.6,
+    "duration": 3.52,
+    "text": "decimal string representation and it"
+  },
+  {
+    "start": 667.519,
+    "duration": 3.921,
+    "text": "will convert it into a big integer. You"
+  },
+  {
+    "start": 669.12,
+    "duration": 4.24,
+    "text": "can also have bite value, bit length,"
+  },
+  {
+    "start": 671.44,
+    "duration": 3.68,
+    "text": "certainty, all random stuff. So you can"
+  },
+  {
+    "start": 673.36,
+    "duration": 5.12,
+    "text": "create randomly generated positive big"
+  },
+  {
+    "start": 675.12,
+    "duration": 5.2,
+    "text": "integer. So play around with it. Okay."
+  },
+  {
+    "start": 678.48,
+    "duration": 6.76,
+    "text": "Uh,"
+  },
+  {
+    "start": 680.32,
+    "duration": 4.92,
+    "text": "print C. Run."
+  },
+  {
+    "start": 685.6,
+    "duration": 8.0,
+    "text": "Looks good. If I create a D. No, not a"
+  },
+  {
+    "start": 690.32,
+    "duration": 5.36,
+    "text": "D. I create an X. And that's another"
+  },
+  {
+    "start": 693.6,
+    "duration": 8.679,
+    "text": "one."
+  },
+  {
+    "start": 695.68,
+    "duration": 6.599,
+    "text": "S is equal to C + X."
+  },
+  {
+    "start": 702.399,
+    "duration": 6.321,
+    "text": "Print S. It will give an addition of"
+  },
+  {
+    "start": 704.88,
+    "duration": 7.16,
+    "text": "these two numbers. Sounds good."
+  },
+  {
+    "start": 708.72,
+    "duration": 3.32,
+    "text": "Very cool."
+  },
+  {
+    "start": 712.399,
+    "duration": 3.68,
+    "text": "Okay. Okay. Don't be confused in the"
+  },
+  {
+    "start": 714.56,
+    "duration": 2.88,
+    "text": "Okay, Kunal, why did you not put new"
+  },
+  {
+    "start": 716.079,
+    "duration": 4.561,
+    "text": "over here and why are you putting new"
+  },
+  {
+    "start": 717.44,
+    "duration": 5.839,
+    "text": "over here? See, if you talk about value"
+  },
+  {
+    "start": 720.64,
+    "duration": 6.4,
+    "text": "of"
+  },
+  {
+    "start": 723.279,
+    "duration": 7.041,
+    "text": "Here we go. It is static. I don't have"
+  },
+  {
+    "start": 727.04,
+    "duration": 5.44,
+    "text": "to create a new one. It's just saying"
+  },
+  {
+    "start": 730.32,
+    "duration": 4.0,
+    "text": "big integer dot value of and you just"
+  },
+  {
+    "start": 732.48,
+    "duration": 3.52,
+    "text": "put a long value over here. It returns a"
+  },
+  {
+    "start": 734.32,
+    "duration": 5.16,
+    "text": "bit integers whose value is equal to the"
+  },
+  {
+    "start": 736.0,
+    "duration": 3.48,
+    "text": "specified long."
+  },
+  {
+    "start": 739.68,
+    "duration": 4.399,
+    "text": "Okay. No new method has to be new new"
+  },
+  {
+    "start": 742.8,
+    "duration": 3.36,
+    "text": "object has to be created because it's"
+  },
+  {
+    "start": 744.079,
+    "duration": 4.0,
+    "text": "static. You don't know static. We have"
+  },
+  {
+    "start": 746.16,
+    "duration": 4.32,
+    "text": "done static. Please watch object problem"
+  },
+  {
+    "start": 748.079,
+    "duration": 4.88,
+    "text": "playlist. But here this is a"
+  },
+  {
+    "start": 750.48,
+    "duration": 4.0,
+    "text": "constructor."
+  },
+  {
+    "start": 752.959,
+    "duration": 5.041,
+    "text": "Similarly, if you talk about value of"
+  },
+  {
+    "start": 754.48,
+    "duration": 7.44,
+    "text": "you want to get an a sorry int c is"
+  },
+  {
+    "start": 758.0,
+    "duration": 7.12,
+    "text": "equal to you can put it something like"
+  },
+  {
+    "start": 761.92,
+    "duration": 7.84,
+    "text": "b dot"
+  },
+  {
+    "start": 765.12,
+    "duration": 8.399,
+    "text": "int value. So if you want to convert"
+  },
+  {
+    "start": 769.76,
+    "duration": 7.319,
+    "text": "big integer to int you can do that also."
+  },
+  {
+    "start": 773.519,
+    "duration": 3.56,
+    "text": "And this is converting"
+  },
+  {
+    "start": 778.48,
+    "duration": 6.96,
+    "text": "int or long to big integer. Very simple."
+  },
+  {
+    "start": 784.079,
+    "duration": 2.801,
+    "text": "Okay, but if you're working with really"
+  },
+  {
+    "start": 785.44,
+    "duration": 3.28,
+    "text": "large data, let's say in the form of"
+  },
+  {
+    "start": 786.88,
+    "duration": 5.519,
+    "text": "strings because this obviously cannot"
+  },
+  {
+    "start": 788.72,
+    "duration": 4.64,
+    "text": "for cannot exist in an int int format,"
+  },
+  {
+    "start": 792.399,
+    "duration": 4.081,
+    "text": "then you have to create a new"
+  },
+  {
+    "start": 793.36,
+    "duration": 5.52,
+    "text": "constructor and initialize it."
+  },
+  {
+    "start": 796.48,
+    "duration": 6.28,
+    "text": "Okay. Similarly, now let's say we can do"
+  },
+  {
+    "start": 798.88,
+    "duration": 3.88,
+    "text": "something like u"
+  },
+  {
+    "start": 805.68,
+    "duration": 6.08,
+    "text": "big integer"
+  },
+  {
+    "start": 808.48,
+    "duration": 5.52,
+    "text": "multiply is equal to"
+  },
+  {
+    "start": 811.76,
+    "duration": 4.56,
+    "text": "c dot multiply"
+  },
+  {
+    "start": 814.0,
+    "duration": 4.48,
+    "text": "x"
+  },
+  {
+    "start": 816.32,
+    "duration": 4.079,
+    "text": "print multiply"
+  },
+  {
+    "start": 818.48,
+    "duration": 4.4,
+    "text": "multiply these two numbers. There you"
+  },
+  {
+    "start": 820.399,
+    "duration": 4.24,
+    "text": "go."
+  },
+  {
+    "start": 822.88,
+    "duration": 4.88,
+    "text": "So when you're working with large data,"
+  },
+  {
+    "start": 824.639,
+    "duration": 5.601,
+    "text": "please use big integer. Other than that,"
+  },
+  {
+    "start": 827.76,
+    "duration": 6.04,
+    "text": "I can say"
+  },
+  {
+    "start": 830.24,
+    "duration": 3.56,
+    "text": "subtract also."
+  },
+  {
+    "start": 834.079,
+    "duration": 3.32,
+    "text": "C dot"
+  },
+  {
+    "start": 837.44,
+    "duration": 3.0,
+    "text": "subtract."
+  },
+  {
+    "start": 842.88,
+    "duration": 4.639,
+    "text": "There you go."
+  },
+  {
+    "start": 845.44,
+    "duration": 5.759,
+    "text": "Not a problem."
+  },
+  {
+    "start": 847.519,
+    "duration": 6.68,
+    "text": "Similarly, I can do something like uh"
+  },
+  {
+    "start": 851.199,
+    "duration": 3.0,
+    "text": "divide."
+  },
+  {
+    "start": 856.959,
+    "duration": 5.801,
+    "text": "Oh, did not uh put d over here"
+  },
+  {
+    "start": 863.36,
+    "duration": 5.0,
+    "text": "zero. If I do x"
+  },
+  {
+    "start": 871.12,
+    "duration": 3.0,
+    "text": "c"
+  },
+  {
+    "start": 875.199,
+    "duration": 9.601,
+    "text": "1 I reduce it maybe something like this"
+  },
+  {
+    "start": 880.72,
+    "duration": 6.559,
+    "text": "again zero. Yeah that makes sense."
+  },
+  {
+    "start": 884.8,
+    "duration": 4.56,
+    "text": "C / x."
+  },
+  {
+    "start": 887.279,
+    "duration": 4.24,
+    "text": "There you go."
+  },
+  {
+    "start": 889.36,
+    "duration": 3.44,
+    "text": "Looks good."
+  },
+  {
+    "start": 891.519,
+    "duration": 5.961,
+    "text": "Similar to divide, you also have"
+  },
+  {
+    "start": 892.8,
+    "duration": 4.68,
+    "text": "remainder. Can have remainder"
+  },
+  {
+    "start": 908.88,
+    "duration": 3.0,
+    "text": "remainder"
+  },
+  {
+    "start": 912.8,
+    "duration": 4.159,
+    "text": "as well."
+  },
+  {
+    "start": 915.12,
+    "duration": 3.68,
+    "text": "Oh, sorry."
+  },
+  {
+    "start": 916.959,
+    "duration": 4.841,
+    "text": "X"
+  },
+  {
+    "start": 918.8,
+    "duration": 3.0,
+    "text": "remainder."
+  },
+  {
+    "start": 922.16,
+    "duration": 3.28,
+    "text": "There you go. There you have the"
+  },
+  {
+    "start": 923.6,
+    "duration": 3.2,
+    "text": "remainder."
+  },
+  {
+    "start": 925.44,
+    "duration": 4.079,
+    "text": "If you try to do it with primitives, you"
+  },
+  {
+    "start": 926.8,
+    "duration": 5.839,
+    "text": "will get error."
+  },
+  {
+    "start": 929.519,
+    "duration": 5.841,
+    "text": "Okay, you can compare also"
+  },
+  {
+    "start": 932.639,
+    "duration": 4.161,
+    "text": "C and X. So you can say if"
+  },
+  {
+    "start": 935.36,
+    "duration": 4.719,
+    "text": "for example in primitives what do you"
+  },
+  {
+    "start": 936.8,
+    "duration": 6.719,
+    "text": "do? If a is less than b here what you do"
+  },
+  {
+    "start": 940.079,
+    "duration": 6.961,
+    "text": "is if c dot"
+  },
+  {
+    "start": 943.519,
+    "duration": 5.201,
+    "text": "compare to x"
+  },
+  {
+    "start": 947.04,
+    "duration": 3.2,
+    "text": "is less than zero. We have we have"
+  },
+  {
+    "start": 948.72,
+    "duration": 3.919,
+    "text": "already covered compare to check the"
+  },
+  {
+    "start": 950.24,
+    "duration": 6.08,
+    "text": "object object programming playlist how"
+  },
+  {
+    "start": 952.639,
+    "duration": 7.0,
+    "text": "compare to works internally."
+  },
+  {
+    "start": 956.32,
+    "duration": 3.319,
+    "text": "So yeah"
+  },
+  {
+    "start": 964.0,
+    "duration": 5.8,
+    "text": "system.print print ln."
+  },
+  {
+    "start": 966.8,
+    "duration": 3.0,
+    "text": "Yes,"
+  },
+  {
+    "start": 974.8,
+    "duration": 3.64,
+    "text": "C and X."
+  },
+  {
+    "start": 979.92,
+    "duration": 6.64,
+    "text": "Yeah, X is smaller than C. That's how"
+  },
+  {
+    "start": 984.24,
+    "duration": 5.959,
+    "text": "you compare."
+  },
+  {
+    "start": 986.56,
+    "duration": 3.639,
+    "text": "Pretty basic stuff,"
+  },
+  {
+    "start": 990.639,
+    "duration": 4.0,
+    "text": "right?"
+  },
+  {
+    "start": 992.399,
+    "duration": 4.0,
+    "text": "Okay, you can explore all these things"
+  },
+  {
+    "start": 994.639,
+    "duration": 4.56,
+    "text": "yourself. See, so many things are given."
+  },
+  {
+    "start": 996.399,
+    "duration": 4.961,
+    "text": "Power even power you exponent power this"
+  },
+  {
+    "start": 999.199,
+    "duration": 3.921,
+    "text": "of exponent and so many things are"
+  },
+  {
+    "start": 1001.36,
+    "duration": 4.0,
+    "text": "given. So you can calculate the power"
+  },
+  {
+    "start": 1003.12,
+    "duration": 4.719,
+    "text": "modulo inverse shift left shift right"
+  },
+  {
+    "start": 1005.36,
+    "duration": 4.64,
+    "text": "and or exor and not you already know set"
+  },
+  {
+    "start": 1007.839,
+    "duration": 4.321,
+    "text": "bit so many things you have already done"
+  },
+  {
+    "start": 1010.0,
+    "duration": 4.88,
+    "text": "in uh you know when we were doing maths"
+  },
+  {
+    "start": 1012.16,
+    "duration": 5.039,
+    "text": "for the set the the bitwise operators so"
+  },
+  {
+    "start": 1014.88,
+    "duration": 4.56,
+    "text": "many things are here hash code and max"
+  },
+  {
+    "start": 1017.199,
+    "duration": 4.401,
+    "text": "and two string two byte array long value"
+  },
+  {
+    "start": 1019.44,
+    "duration": 4.0,
+    "text": "float value everything is given explore"
+  },
+  {
+    "start": 1021.6,
+    "duration": 3.12,
+    "text": "a little bit"
+  },
+  {
+    "start": 1023.44,
+    "duration": 2.8,
+    "text": "okay by the way code and everything you"
+  },
+  {
+    "start": 1024.72,
+    "duration": 4.56,
+    "text": "can found in the description okay let's"
+  },
+  {
+    "start": 1026.24,
+    "duration": 5.76,
+    "text": "say what we do is we create a new file"
+  },
+  {
+    "start": 1029.28,
+    "duration": 5.6,
+    "text": "pictorial java"
+  },
+  {
+    "start": 1032.0,
+    "duration": 4.959,
+    "text": "import big integer"
+  },
+  {
+    "start": 1034.88,
+    "duration": 5.6,
+    "text": "plus factorial"
+  },
+  {
+    "start": 1036.959,
+    "duration": 7.0,
+    "text": "and static return type will be what big"
+  },
+  {
+    "start": 1040.48,
+    "duration": 3.479,
+    "text": "integer obviously"
+  },
+  {
+    "start": 1044.16,
+    "duration": 4.0,
+    "text": "say we call it fact it takes an integer"
+  },
+  {
+    "start": 1046.319,
+    "duration": 5.36,
+    "text": "number"
+  },
+  {
+    "start": 1048.16,
+    "duration": 5.84,
+    "text": "not a problem so"
+  },
+  {
+    "start": 1051.679,
+    "duration": 4.401,
+    "text": "my answer is also also obviously going"
+  },
+  {
+    "start": 1054.0,
+    "duration": 6.559,
+    "text": "to be type of bit big integer answer is"
+  },
+  {
+    "start": 1056.08,
+    "duration": 6.719,
+    "text": "equal to new big integer initially Let's"
+  },
+  {
+    "start": 1060.559,
+    "duration": 4.24,
+    "text": "say it's equal to one."
+  },
+  {
+    "start": 1062.799,
+    "duration": 3.681,
+    "text": "Not a problem."
+  },
+  {
+    "start": 1064.799,
+    "duration": 3.681,
+    "text": "And I will return my answer. How do you"
+  },
+  {
+    "start": 1066.48,
+    "duration": 3.199,
+    "text": "calculate factorial? How do you"
+  },
+  {
+    "start": 1068.48,
+    "duration": 4.079,
+    "text": "calculate factorial of a number?"
+  },
+  {
+    "start": 1069.679,
+    "duration": 6.161,
+    "text": "Multiply that number. Starting from two,"
+  },
+  {
+    "start": 1072.559,
+    "duration": 7.201,
+    "text": "multiply that number."
+  },
+  {
+    "start": 1075.84,
+    "duration": 8.0,
+    "text": "Point I is equal to 2. I is less than"
+  },
+  {
+    "start": 1079.76,
+    "duration": 7.68,
+    "text": "equal to my number and I ++. I will just"
+  },
+  {
+    "start": 1083.84,
+    "duration": 8.4,
+    "text": "multiply this by my answer. So my answer"
+  },
+  {
+    "start": 1087.44,
+    "duration": 7.76,
+    "text": "is going to be equal to answer dot"
+  },
+  {
+    "start": 1092.24,
+    "duration": 6.4,
+    "text": "multiply"
+  },
+  {
+    "start": 1095.2,
+    "duration": 5.76,
+    "text": "this number I but I cannot multiply I"
+  },
+  {
+    "start": 1098.64,
+    "duration": 4.56,
+    "text": "because it's primitive you know in this"
+  },
+  {
+    "start": 1100.96,
+    "duration": 4.24,
+    "text": "multiply method inside the argument it's"
+  },
+  {
+    "start": 1103.2,
+    "duration": 6.599,
+    "text": "also type big integer how do I convert"
+  },
+  {
+    "start": 1105.2,
+    "duration": 4.599,
+    "text": "integer to big integer value of"
+  },
+  {
+    "start": 1116.559,
+    "duration": 3.321,
+    "text": "That's it."
+  },
+  {
+    "start": 1122.24,
+    "duration": 4.2,
+    "text": "System.out.print ln"
+  },
+  {
+    "start": 1128.4,
+    "duration": 4.399,
+    "text": "factorial.f fact"
+  },
+  {
+    "start": 1131.12,
+    "duration": 5.08,
+    "text": "or a really big number. Let's say this"
+  },
+  {
+    "start": 1132.799,
+    "duration": 3.401,
+    "text": "this number."
+  },
+  {
+    "start": 1138.48,
+    "duration": 3.64,
+    "text": "That's a big number."
+  },
+  {
+    "start": 1145.52,
+    "duration": 3.72,
+    "text": "Is it going to work?"
+  },
+  {
+    "start": 1153.2,
+    "duration": 3.8,
+    "text": "Is my program okay?"
+  },
+  {
+    "start": 1159.76,
+    "duration": 6.48,
+    "text": "So is equal to answer dot multiply"
+  },
+  {
+    "start": 1163.12,
+    "duration": 6.52,
+    "text": "t value of i"
+  },
+  {
+    "start": 1166.24,
+    "duration": 3.4,
+    "text": "should be fine."
+  },
+  {
+    "start": 1172.48,
+    "duration": 4.439,
+    "text": "We got the answer. It's really long."
+  },
+  {
+    "start": 1177.12,
+    "duration": 4.6,
+    "text": "Integer would not have been able to do"
+  },
+  {
+    "start": 1178.72,
+    "duration": 3.0,
+    "text": "that."
+  },
+  {
+    "start": 1183.6,
+    "duration": 7.72,
+    "text": "See, still going. So, it works. Getting"
+  },
+  {
+    "start": 1186.96,
+    "duration": 4.36,
+    "text": "the answer at least. So big."
+  },
+  {
+    "start": 1195.039,
+    "duration": 4.081,
+    "text": "Okay, I'll keep on going for a while."
+  },
+  {
+    "start": 1197.44,
+    "duration": 5.16,
+    "text": "Anyway,"
+  },
+  {
+    "start": 1199.12,
+    "duration": 3.48,
+    "text": "it's too big."
+  },
+  {
+    "start": 1204.08,
+    "duration": 5.2,
+    "text": "Yeah, here we go. Looks good. Program"
+  },
+  {
+    "start": 1207.84,
+    "duration": 3.28,
+    "text": "finished executing, but it's a really"
+  },
+  {
+    "start": 1209.28,
+    "duration": 6.519,
+    "text": "long number."
+  },
+  {
+    "start": 1211.12,
+    "duration": 4.679,
+    "text": "Try something small. 100."
+  },
+  {
+    "start": 1217.12,
+    "duration": 2.96,
+    "text": "See,"
+  },
+  {
+    "start": 1218.64,
+    "duration": 3.919,
+    "text": "it was giving the answer previous one"
+  },
+  {
+    "start": 1220.08,
+    "duration": 3.92,
+    "text": "also. It's just really long. So, if"
+  },
+  {
+    "start": 1222.559,
+    "duration": 4.081,
+    "text": "you're working with large data, here we"
+  },
+  {
+    "start": 1224.0,
+    "duration": 5.52,
+    "text": "go. Begin integer."
+  },
+  {
+    "start": 1226.64,
+    "duration": 4.0,
+    "text": "Very cool. Now the next step for you"
+  },
+  {
+    "start": 1229.52,
+    "duration": 3.6,
+    "text": "would be just to explore the"
+  },
+  {
+    "start": 1230.64,
+    "duration": 4.48,
+    "text": "documentation. All right, moving on."
+  },
+  {
+    "start": 1233.12,
+    "duration": 4.24,
+    "text": "Let's talk about big decimal. So let's"
+  },
+  {
+    "start": 1235.12,
+    "duration": 4.72,
+    "text": "say that we talked about big integers."
+  },
+  {
+    "start": 1237.36,
+    "duration": 4.72,
+    "text": "Let's say talk about big numbers that"
+  },
+  {
+    "start": 1239.84,
+    "duration": 4.319,
+    "text": "also have decimals in it. If those are"
+  },
+  {
+    "start": 1242.08,
+    "duration": 3.599,
+    "text": "not being stored in float or double, how"
+  },
+  {
+    "start": 1244.159,
+    "duration": 3.121,
+    "text": "do we solve that? Okay, let me show you"
+  },
+  {
+    "start": 1245.679,
+    "duration": 3.841,
+    "text": "something. Hold on. Before we move on to"
+  },
+  {
+    "start": 1247.28,
+    "duration": 6.04,
+    "text": "big decimal, let's take a question."
+  },
+  {
+    "start": 1249.52,
+    "duration": 3.8,
+    "text": "Let's say big decimal."
+  },
+  {
+    "start": 1257.6,
+    "duration": 6.72,
+    "text": "Right here let's say I'm taking double"
+  },
+  {
+    "start": 1261.28,
+    "duration": 5.12,
+    "text": "x is equal to 0.03"
+  },
+  {
+    "start": 1264.32,
+    "duration": 4.8,
+    "text": "and I say double"
+  },
+  {
+    "start": 1266.4,
+    "duration": 5.36,
+    "text": "y is equal to 0.04"
+  },
+  {
+    "start": 1269.12,
+    "duration": 4.88,
+    "text": "not a problem then I say double answer"
+  },
+  {
+    "start": 1271.76,
+    "duration": 6.0,
+    "text": "is equal to"
+  },
+  {
+    "start": 1274.0,
+    "duration": 5.12,
+    "text": "y - x"
+  },
+  {
+    "start": 1277.76,
+    "duration": 3.919,
+    "text": "then I try to print the answer"
+  },
+  {
+    "start": 1279.12,
+    "duration": 4.88,
+    "text": "system.out out dot"
+  },
+  {
+    "start": 1281.679,
+    "duration": 8.0,
+    "text": "print ln answer. What is the answer"
+  },
+  {
+    "start": 1284.0,
+    "duration": 8.32,
+    "text": "going to be? Think about it. 04 minus 03"
+  },
+  {
+    "start": 1289.679,
+    "duration": 5.801,
+    "text": "01. Okay, let's see actually what the"
+  },
+  {
+    "start": 1292.32,
+    "duration": 3.16,
+    "text": "answer is"
+  },
+  {
+    "start": 1297.36,
+    "duration": 3.4,
+    "text": "static void"
+  },
+  {
+    "start": 1304.0,
+    "duration": 3.0,
+    "text": "0.0100002."
+  },
+  {
+    "start": 1309.12,
+    "duration": 4.4,
+    "text": "Is this the exact answer? No. Exact"
+  },
+  {
+    "start": 1311.52,
+    "duration": 5.88,
+    "text": "answer has to be 0.01. Why are you"
+  },
+  {
+    "start": 1313.52,
+    "duration": 3.88,
+    "text": "giving me in the end two?"
+  },
+  {
+    "start": 1317.52,
+    "duration": 3.76,
+    "text": "Because"
+  },
+  {
+    "start": 1319.52,
+    "duration": 4.399,
+    "text": "the"
+  },
+  {
+    "start": 1321.28,
+    "duration": 6.2,
+    "text": "let me write it down in the notes. Okay."
+  },
+  {
+    "start": 1323.919,
+    "duration": 3.561,
+    "text": "Now big decimal."
+  },
+  {
+    "start": 1332.08,
+    "duration": 5.2,
+    "text": "Why? So why are we not getting the exact"
+  },
+  {
+    "start": 1334.24,
+    "duration": 6.72,
+    "text": "answer? Because"
+  },
+  {
+    "start": 1337.28,
+    "duration": 5.68,
+    "text": "float and double"
+  },
+  {
+    "start": 1340.96,
+    "duration": 4.64,
+    "text": "primitive like data types these are"
+  },
+  {
+    "start": 1342.96,
+    "duration": 4.079,
+    "text": "floating point numbers. We have already"
+  },
+  {
+    "start": 1345.6,
+    "duration": 5.6,
+    "text": "actually covered it but this is just a"
+  },
+  {
+    "start": 1347.039,
+    "duration": 6.0,
+    "text": "revision floating point numbers. So"
+  },
+  {
+    "start": 1351.2,
+    "duration": 4.839,
+    "text": "these are stored as this is a binary"
+  },
+  {
+    "start": 1353.039,
+    "duration": 3.0,
+    "text": "representation"
+  },
+  {
+    "start": 1357.44,
+    "duration": 6.96,
+    "text": "as a binary representation"
+  },
+  {
+    "start": 1361.12,
+    "duration": 9.32,
+    "text": "of a fraction"
+  },
+  {
+    "start": 1364.4,
+    "duration": 6.04,
+    "text": "and a power. Okay. Exponent."
+  },
+  {
+    "start": 1374.159,
+    "duration": 3.0,
+    "text": "Okay."
+  },
+  {
+    "start": 1378.64,
+    "duration": 6.08,
+    "text": "And the other ones like integers, they"
+  },
+  {
+    "start": 1382.159,
+    "duration": 5.88,
+    "text": "are fixed"
+  },
+  {
+    "start": 1384.72,
+    "duration": 3.319,
+    "text": "point numbers."
+  },
+  {
+    "start": 1389.039,
+    "duration": 4.841,
+    "text": "Okay, that is why"
+  },
+  {
+    "start": 1395.36,
+    "duration": 5.92,
+    "text": "they give some error."
+  },
+  {
+    "start": 1400.08,
+    "duration": 2.959,
+    "text": "We've covered this in the previous"
+  },
+  {
+    "start": 1401.28,
+    "duration": 4.8,
+    "text": "lecture like how these data types are"
+  },
+  {
+    "start": 1403.039,
+    "duration": 4.961,
+    "text": "stored. Check out the data types video."
+  },
+  {
+    "start": 1406.08,
+    "duration": 6.88,
+    "text": "But they give a small small error of"
+  },
+  {
+    "start": 1408.0,
+    "duration": 7.919,
+    "text": "around 10 raised to power -9"
+  },
+  {
+    "start": 1412.96,
+    "duration": 5.959,
+    "text": "that is the problem."
+  },
+  {
+    "start": 1415.919,
+    "duration": 3.0,
+    "text": "But"
+  },
+  {
+    "start": 1420.4,
+    "duration": 6.44,
+    "text": "big decimal"
+  },
+  {
+    "start": 1422.96,
+    "duration": 3.88,
+    "text": "gives exact answer."
+  },
+  {
+    "start": 1430.0,
+    "duration": 6.4,
+    "text": "Okay. Because"
+  },
+  {
+    "start": 1432.96,
+    "duration": 5.76,
+    "text": "float and double these are not the um"
+  },
+  {
+    "start": 1436.4,
+    "duration": 3.84,
+    "text": "they are not"
+  },
+  {
+    "start": 1438.72,
+    "duration": 3.52,
+    "text": "you know fixed point numbers they are"
+  },
+  {
+    "start": 1440.24,
+    "duration": 4.24,
+    "text": "floating point numbers. This is an"
+  },
+  {
+    "start": 1442.24,
+    "duration": 6.0,
+    "text": "important point over here. So they're"
+  },
+  {
+    "start": 1444.48,
+    "duration": 5.52,
+    "text": "represented with an exponent like a into"
+  },
+  {
+    "start": 1448.24,
+    "duration": 4.0,
+    "text": "10 raised to power minus something or"
+  },
+  {
+    "start": 1450.0,
+    "duration": 6.24,
+    "text": "whatever if you want to represent"
+  },
+  {
+    "start": 1452.24,
+    "duration": 7.36,
+    "text": "something. Okay. And that is why it"
+  },
+  {
+    "start": 1456.24,
+    "duration": 6.0,
+    "text": "gives a little bit of an error"
+  },
+  {
+    "start": 1459.6,
+    "duration": 5.12,
+    "text": "of around 10^ -9. Very minimal but still"
+  },
+  {
+    "start": 1462.24,
+    "duration": 5.28,
+    "text": "you will get error. Big decimal on the"
+  },
+  {
+    "start": 1464.72,
+    "duration": 7.319,
+    "text": "other hand does not give an error."
+  },
+  {
+    "start": 1467.52,
+    "duration": 4.519,
+    "text": "It will give you the exact same answer."
+  },
+  {
+    "start": 1472.559,
+    "duration": 4.561,
+    "text": "Okay."
+  },
+  {
+    "start": 1474.4,
+    "duration": 9.48,
+    "text": "So same thing for big decimal"
+  },
+  {
+    "start": 1477.12,
+    "duration": 6.76,
+    "text": "uh object number java.mmath big decimal"
+  },
+  {
+    "start": 1484.48,
+    "duration": 6.04,
+    "text": "object class"
+  },
+  {
+    "start": 1487.52,
+    "duration": 3.0,
+    "text": "number"
+  },
+  {
+    "start": 1491.919,
+    "duration": 4.88,
+    "text": "big decimal same as big integer it also"
+  },
+  {
+    "start": 1494.64,
+    "duration": 4.56,
+    "text": "has serializable and compare to the big"
+  },
+  {
+    "start": 1496.799,
+    "duration": 4.801,
+    "text": "decimal comparable to the big uh decimal"
+  },
+  {
+    "start": 1499.2,
+    "duration": 6.76,
+    "text": "object."
+  },
+  {
+    "start": 1501.6,
+    "duration": 4.36,
+    "text": "Now range. What is the range?"
+  },
+  {
+    "start": 1506.24,
+    "duration": 6.48,
+    "text": "What is the range of big decimal?"
+  },
+  {
+    "start": 1509.52,
+    "duration": 6.2,
+    "text": "So it's pretty big."
+  },
+  {
+    "start": 1512.72,
+    "duration": 3.0,
+    "text": "Um"
+  },
+  {
+    "start": 1516.08,
+    "duration": 4.719,
+    "text": "the range as the documentation says if I"
+  },
+  {
+    "start": 1519.039,
+    "duration": 3.921,
+    "text": "open the documentation when in doubt"
+  },
+  {
+    "start": 1520.799,
+    "duration": 4.161,
+    "text": "check documentation. So in the first"
+  },
+  {
+    "start": 1522.96,
+    "duration": 4.4,
+    "text": "line itself it says a big decimal"
+  },
+  {
+    "start": 1524.96,
+    "duration": 5.839,
+    "text": "consists of an arbit arbitrary precision"
+  },
+  {
+    "start": 1527.36,
+    "duration": 6.319,
+    "text": "integer unscaled value uh and a 32-bit"
+  },
+  {
+    "start": 1530.799,
+    "duration": 5.841,
+    "text": "integer scale if zero or positive. So if"
+  },
+  {
+    "start": 1533.679,
+    "duration": 4.641,
+    "text": "the number is positive the scale is the"
+  },
+  {
+    "start": 1536.64,
+    "duration": 3.68,
+    "text": "number of digits to the right hand side"
+  },
+  {
+    "start": 1538.32,
+    "duration": 7.12,
+    "text": "of the decimal point not a problem."
+  },
+  {
+    "start": 1540.32,
+    "duration": 8.32,
+    "text": "Okay, that's the scale. And if negative,"
+  },
+  {
+    "start": 1545.44,
+    "duration": 5.76,
+    "text": "the unscaled value"
+  },
+  {
+    "start": 1548.64,
+    "duration": 5.36,
+    "text": "of the number is multiplied by 10 to the"
+  },
+  {
+    "start": 1551.2,
+    "duration": 4.56,
+    "text": "power of the negation of the scale."
+  },
+  {
+    "start": 1554.0,
+    "duration": 4.4,
+    "text": "So unscaled value into 10 raised to"
+  },
+  {
+    "start": 1555.76,
+    "duration": 5.64,
+    "text": "power minus of scale when the answer is"
+  },
+  {
+    "start": 1558.4,
+    "duration": 3.0,
+    "text": "negative."
+  },
+  {
+    "start": 1561.76,
+    "duration": 8.0,
+    "text": "Okay, pretty simple. Okay. So"
+  },
+  {
+    "start": 1566.72,
+    "duration": 8.36,
+    "text": "it contains"
+  },
+  {
+    "start": 1569.76,
+    "duration": 5.32,
+    "text": "it contains what? A random"
+  },
+  {
+    "start": 1576.64,
+    "duration": 3.84,
+    "text": "precision"
+  },
+  {
+    "start": 1578.559,
+    "duration": 4.921,
+    "text": "integer"
+  },
+  {
+    "start": 1580.48,
+    "duration": 3.0,
+    "text": "unscaled"
+  },
+  {
+    "start": 1583.6,
+    "duration": 4.24,
+    "text": "uh value which is not scaled yet. So it"
+  },
+  {
+    "start": 1586.24,
+    "duration": 6.28,
+    "text": "depends on the number of you know"
+  },
+  {
+    "start": 1587.84,
+    "duration": 4.68,
+    "text": "decimal points you have and a 32-bit"
+  },
+  {
+    "start": 1592.96,
+    "duration": 5.599,
+    "text": "integer scale. This thing is pretty"
+  },
+  {
+    "start": 1595.76,
+    "duration": 5.12,
+    "text": "simple. So if the number is greater than"
+  },
+  {
+    "start": 1598.559,
+    "duration": 5.281,
+    "text": "or equal to zero, if it is greater than"
+  },
+  {
+    "start": 1600.88,
+    "duration": 5.36,
+    "text": "equal to zero, in that case the scale is"
+  },
+  {
+    "start": 1603.84,
+    "duration": 5.199,
+    "text": "equal to the number of digits on the"
+  },
+  {
+    "start": 1606.24,
+    "duration": 6.0,
+    "text": "right of the decimal point."
+  },
+  {
+    "start": 1609.039,
+    "duration": 5.601,
+    "text": "Scale is equal to number of"
+  },
+  {
+    "start": 1612.24,
+    "duration": 5.36,
+    "text": "digits"
+  },
+  {
+    "start": 1614.64,
+    "duration": 4.48,
+    "text": "right of"
+  },
+  {
+    "start": 1617.6,
+    "duration": 4.8,
+    "text": "decimal"
+  },
+  {
+    "start": 1619.12,
+    "duration": 7.159,
+    "text": "point. Otherwise"
+  },
+  {
+    "start": 1622.4,
+    "duration": 3.879,
+    "text": "uh the unscale value"
+  },
+  {
+    "start": 1632.48,
+    "duration": 9.16,
+    "text": "is equal to what?"
+  },
+  {
+    "start": 1635.279,
+    "duration": 6.361,
+    "text": "10 raised to power minus of scale."
+  },
+  {
+    "start": 1643.44,
+    "duration": 3.76,
+    "text": "Okay,"
+  },
+  {
+    "start": 1645.36,
+    "duration": 4.88,
+    "text": "sounds good. We all know what the scale"
+  },
+  {
+    "start": 1647.2,
+    "duration": 4.079,
+    "text": "is. 32 bit integer. But scale is equal"
+  },
+  {
+    "start": 1650.24,
+    "duration": 3.6,
+    "text": "to the number of digits on the right"
+  },
+  {
+    "start": 1651.279,
+    "duration": 6.0,
+    "text": "hand side of the decimal point. Uh if it"
+  },
+  {
+    "start": 1653.84,
+    "duration": 5.04,
+    "text": "is positive otherwise it is 10^ minus of"
+  },
+  {
+    "start": 1657.279,
+    "duration": 4.321,
+    "text": "scale whatever the scale is the the"
+  },
+  {
+    "start": 1658.88,
+    "duration": 5.12,
+    "text": "unscaled value."
+  },
+  {
+    "start": 1661.6,
+    "duration": 4.559,
+    "text": "Okay, a little bit complicated but this"
+  },
+  {
+    "start": 1664.0,
+    "duration": 4.72,
+    "text": "is how they have decided it to be. It's"
+  },
+  {
+    "start": 1666.159,
+    "duration": 4.64,
+    "text": "not really something like um you have to"
+  },
+  {
+    "start": 1668.72,
+    "duration": 4.64,
+    "text": "worry about too much because this is not"
+  },
+  {
+    "start": 1670.799,
+    "duration": 4.641,
+    "text": "like an like a concept. It's just a"
+  },
+  {
+    "start": 1673.36,
+    "duration": 4.08,
+    "text": "rule. So just try to understand the rule"
+  },
+  {
+    "start": 1675.44,
+    "duration": 3.68,
+    "text": "as it is. How they have why they have"
+  },
+  {
+    "start": 1677.44,
+    "duration": 4.8,
+    "text": "made it this way or whatever. You can"
+  },
+  {
+    "start": 1679.12,
+    "duration": 5.2,
+    "text": "ask the Java community. Mhm. So don't"
+  },
+  {
+    "start": 1682.24,
+    "duration": 4.24,
+    "text": "think about the intuition on this. It's"
+  },
+  {
+    "start": 1684.32,
+    "duration": 4.32,
+    "text": "just a rule. That's a rule. Okay. No"
+  },
+  {
+    "start": 1686.48,
+    "duration": 3.84,
+    "text": "problem. Very complex rule. I get it."
+  },
+  {
+    "start": 1688.64,
+    "duration": 3.44,
+    "text": "Complex for some reason. No one in"
+  },
+  {
+    "start": 1690.32,
+    "duration": 4.479,
+    "text": "interview will ask you this. Okay. Now"
+  },
+  {
+    "start": 1692.08,
+    "duration": 8.36,
+    "text": "similar example. If I give u if I say"
+  },
+  {
+    "start": 1694.799,
+    "duration": 5.641,
+    "text": "instead of this I say big big decimal"
+  },
+  {
+    "start": 1703.44,
+    "duration": 3.4,
+    "text": "big decimal"
+  },
+  {
+    "start": 1710.96,
+    "duration": 7.12,
+    "text": "right I say capital X is equal to new"
+  },
+  {
+    "start": 1715.919,
+    "duration": 3.441,
+    "text": "big decimal"
+  },
+  {
+    "start": 1718.08,
+    "duration": 3.36,
+    "text": "0.03"
+  },
+  {
+    "start": 1719.36,
+    "duration": 3.919,
+    "text": "3."
+  },
+  {
+    "start": 1721.44,
+    "duration": 5.599,
+    "text": "So same rules you know just big decimal"
+  },
+  {
+    "start": 1723.279,
+    "duration": 7.321,
+    "text": "has changed now y is equal to big"
+  },
+  {
+    "start": 1727.039,
+    "duration": 3.561,
+    "text": "decimal 0.04"
+  },
+  {
+    "start": 1732.0,
+    "duration": 4.679,
+    "text": "big decimal answer is equal to"
+  },
+  {
+    "start": 1737.84,
+    "duration": 5.839,
+    "text": "subtract."
+  },
+  {
+    "start": 1739.919,
+    "duration": 6.081,
+    "text": "So subtract was just yeah dot subtract."
+  },
+  {
+    "start": 1743.679,
+    "duration": 7.12,
+    "text": "So I can say"
+  },
+  {
+    "start": 1746.0,
+    "duration": 9.24,
+    "text": "y dot subtract x"
+  },
+  {
+    "start": 1750.799,
+    "duration": 4.441,
+    "text": "system.out.print tell an answer."
+  },
+  {
+    "start": 1758.64,
+    "duration": 3.32,
+    "text": "Oh sorry"
+  },
+  {
+    "start": 1763.6,
+    "duration": 3.799,
+    "text": "can't have two answers."
+  },
+  {
+    "start": 1769.12,
+    "duration": 7.12,
+    "text": "It's giving 0.01 01 exact."
+  },
+  {
+    "start": 1773.52,
+    "duration": 5.44,
+    "text": "Okay,"
+  },
+  {
+    "start": 1776.24,
+    "duration": 7.559,
+    "text": "sounds good."
+  },
+  {
+    "start": 1778.96,
+    "duration": 4.839,
+    "text": "So if you have something like"
+  },
+  {
+    "start": 1785.84,
+    "duration": 4.199,
+    "text": "I just hide it for a second."
+  },
+  {
+    "start": 1791.44,
+    "duration": 5.959,
+    "text": "A and B. Let's perform some functions on"
+  },
+  {
+    "start": 1794.399,
+    "duration": 3.0,
+    "text": "this."
+  },
+  {
+    "start": 1797.44,
+    "duration": 6.119,
+    "text": "Let's put a really complex number like"
+  },
+  {
+    "start": 1799.84,
+    "duration": 3.719,
+    "text": "this something maybe"
+  },
+  {
+    "start": 1803.919,
+    "duration": 8.321,
+    "text": "uh point uh something something big"
+  },
+  {
+    "start": 1808.48,
+    "duration": 6.96,
+    "text": "number. This will be again"
+  },
+  {
+    "start": 1812.24,
+    "duration": 6.88,
+    "text": "point something something."
+  },
+  {
+    "start": 1815.44,
+    "duration": 6.68,
+    "text": "Make it a little bit more bigger. No"
+  },
+  {
+    "start": 1819.12,
+    "duration": 3.0,
+    "text": "problem."
+  },
+  {
+    "start": 1825.44,
+    "duration": 3.0,
+    "text": "operations."
+  },
+  {
+    "start": 1830.799,
+    "duration": 4.641,
+    "text": "What do we do?"
+  },
+  {
+    "start": 1833.279,
+    "duration": 4.321,
+    "text": "Start with simple addition. Subtraction"
+  },
+  {
+    "start": 1835.44,
+    "duration": 5.4,
+    "text": "we have done but we can write it down"
+  },
+  {
+    "start": 1837.6,
+    "duration": 3.24,
+    "text": "over here."
+  },
+  {
+    "start": 1841.84,
+    "duration": 3.0,
+    "text": "Addition"
+  },
+  {
+    "start": 1845.279,
+    "duration": 7.321,
+    "text": "B dot add a that's addition"
+  },
+  {
+    "start": 1849.6,
+    "duration": 3.0,
+    "text": "subtraction"
+  },
+  {
+    "start": 1853.6,
+    "duration": 5.64,
+    "text": "B dot subtract"
+  },
+  {
+    "start": 1856.24,
+    "duration": 3.0,
+    "text": "A."
+  },
+  {
+    "start": 1861.2,
+    "duration": 4.32,
+    "text": "Similarly you have"
+  },
+  {
+    "start": 1863.6,
+    "duration": 4.48,
+    "text": "multiply."
+  },
+  {
+    "start": 1865.52,
+    "duration": 4.879,
+    "text": "Okay, if I run this,"
+  },
+  {
+    "start": 1868.08,
+    "duration": 4.479,
+    "text": "see very simple stuff. So you can try"
+  },
+  {
+    "start": 1870.399,
+    "duration": 4.64,
+    "text": "out various others as well. If you just"
+  },
+  {
+    "start": 1872.559,
+    "duration": 4.401,
+    "text": "check the documentation, you can see all"
+  },
+  {
+    "start": 1875.039,
+    "duration": 4.961,
+    "text": "the methods and all the fields and"
+  },
+  {
+    "start": 1876.96,
+    "duration": 6.4,
+    "text": "everything. See, abstract, add, bite"
+  },
+  {
+    "start": 1880.0,
+    "duration": 6.08,
+    "text": "value, you have divide also. You have"
+  },
+  {
+    "start": 1883.36,
+    "duration": 5.36,
+    "text": "power. Anything you can try P. You want"
+  },
+  {
+    "start": 1886.08,
+    "duration": 7.719,
+    "text": "to try power? No problem."
+  },
+  {
+    "start": 1888.72,
+    "duration": 5.079,
+    "text": "Coaste B. Power."
+  },
+  {
+    "start": 1894.72,
+    "duration": 7.28,
+    "text": "Let's say we squared B."
+  },
+  {
+    "start": 1899.039,
+    "duration": 6.52,
+    "text": "B squ"
+  },
+  {
+    "start": 1902.0,
+    "duration": 3.559,
+    "text": "very simple stuff."
+  },
+  {
+    "start": 1905.6,
+    "duration": 3.0,
+    "text": "Okay."
+  },
+  {
+    "start": 1909.84,
+    "duration": 5.6,
+    "text": "So"
+  },
+  {
+    "start": 1912.159,
+    "duration": 6.24,
+    "text": "pretty cool. Negate returns big decimal"
+  },
+  {
+    "start": 1915.44,
+    "duration": 6.4,
+    "text": "whose value is minus this and whose"
+  },
+  {
+    "start": 1918.399,
+    "duration": 5.52,
+    "text": "scale is of this dots scale."
+  },
+  {
+    "start": 1921.84,
+    "duration": 5.559,
+    "text": "Okay."
+  },
+  {
+    "start": 1923.919,
+    "duration": 3.48,
+    "text": "can try negate."
+  },
+  {
+    "start": 1938.399,
+    "duration": 3.561,
+    "text": "See what it returns."
+  },
+  {
+    "start": 1942.48,
+    "duration": 4.319,
+    "text": "So it's just giving a desk negative"
+  },
+  {
+    "start": 1944.399,
+    "duration": 6.76,
+    "text": "value."
+  },
+  {
+    "start": 1946.799,
+    "duration": 4.36,
+    "text": "Okay. Minus of this."
+  },
+  {
+    "start": 1951.519,
+    "duration": 6.0,
+    "text": "So if you want negatives, there you go."
+  },
+  {
+    "start": 1954.08,
+    "duration": 6.68,
+    "text": "You can see there's no loss in pointers"
+  },
+  {
+    "start": 1957.519,
+    "duration": 3.241,
+    "text": "over here."
+  },
+  {
+    "start": 1960.96,
+    "duration": 3.4,
+    "text": "Very cool stuff."
+  },
+  {
+    "start": 1965.2,
+    "duration": 8.0,
+    "text": "It also has constants just like u"
+  },
+  {
+    "start": 1970.64,
+    "duration": 7.08,
+    "text": "big integer."
+  },
+  {
+    "start": 1973.2,
+    "duration": 4.52,
+    "text": "So you have something like let's say"
+  },
+  {
+    "start": 1980.159,
+    "duration": 3.321,
+    "text": "big decimal"
+  },
+  {
+    "start": 1983.6,
+    "duration": 3.959,
+    "text": "con is equal to"
+  },
+  {
+    "start": 1989.919,
+    "duration": 5.24,
+    "text": "big decimal.1"
+  },
+  {
+    "start": 1991.679,
+    "duration": 3.48,
+    "text": "something like that."
+  },
+  {
+    "start": 1995.679,
+    "duration": 3.0,
+    "text": "Okay"
+  },
+  {
+    "start": 1999.279,
+    "duration": 3.361,
+    "text": "sounds good. So now you can just"
+  },
+  {
+    "start": 2000.72,
+    "duration": 4.16,
+    "text": "explore, play around with it. But yeah,"
+  },
+  {
+    "start": 2002.64,
+    "duration": 4.8,
+    "text": "this was an important topic because you"
+  },
+  {
+    "start": 2004.88,
+    "duration": 4.159,
+    "text": "are going to be using these in uh large"
+  },
+  {
+    "start": 2007.44,
+    "duration": 3.76,
+    "text": "number of inputs and sometimes they ask"
+  },
+  {
+    "start": 2009.039,
+    "duration": 4.321,
+    "text": "that in computer programming and like in"
+  },
+  {
+    "start": 2011.2,
+    "duration": 4.079,
+    "text": "interviews as well. So you can use that"
+  },
+  {
+    "start": 2013.36,
+    "duration": 3.84,
+    "text": "and I we also showed you how to know how"
+  },
+  {
+    "start": 2015.279,
+    "duration": 3.28,
+    "text": "it like the range and everything how"
+  },
+  {
+    "start": 2017.2,
+    "duration": 2.959,
+    "text": "it's structured because you've already"
+  },
+  {
+    "start": 2018.559,
+    "duration": 2.96,
+    "text": "learned object programming from me. So"
+  },
+  {
+    "start": 2020.159,
+    "duration": 3.52,
+    "text": "you will be able to understand what I"
+  },
+  {
+    "start": 2021.519,
+    "duration": 3.681,
+    "text": "meant by implements and stuff. But yeah,"
+  },
+  {
+    "start": 2023.679,
+    "duration": 3.6,
+    "text": "you can check out the documentation see"
+  },
+  {
+    "start": 2025.2,
+    "duration": 5.44,
+    "text": "what sort of methods it implements all"
+  },
+  {
+    "start": 2027.279,
+    "duration": 5.76,
+    "text": "sorts of things. So we only looked at,"
+  },
+  {
+    "start": 2030.64,
+    "duration": 4.32,
+    "text": "you know, some other nice examples for"
+  },
+  {
+    "start": 2033.039,
+    "duration": 3.681,
+    "text": "you to work with, but you can obviously"
+  },
+  {
+    "start": 2034.96,
+    "duration": 3.04,
+    "text": "check out the documentation, run every"
+  },
+  {
+    "start": 2036.72,
+    "duration": 3.679,
+    "text": "example. You might not need every"
+  },
+  {
+    "start": 2038.0,
+    "duration": 4.159,
+    "text": "example, but according to your use case,"
+  },
+  {
+    "start": 2040.399,
+    "duration": 3.12,
+    "text": "explore the documentation and stuff like"
+  },
+  {
+    "start": 2042.159,
+    "duration": 2.561,
+    "text": "that. If you have any questions, leave"
+  },
+  {
+    "start": 2043.519,
+    "duration": 2.961,
+    "text": "those in the comment section below."
+  },
+  {
+    "start": 2044.72,
+    "duration": 3.6,
+    "text": "Please explore the documentation. Make"
+  },
+  {
+    "start": 2046.48,
+    "duration": 3.76,
+    "text": "sure you like, share, and uh subscribe"
+  },
+  {
+    "start": 2048.32,
+    "duration": 3.2,
+    "text": "and comment as well. Do subscribe if you"
+  },
+  {
+    "start": 2050.24,
+    "duration": 2.56,
+    "text": "haven't already and like and comment."
+  },
+  {
+    "start": 2051.52,
+    "duration": 3.119,
+    "text": "That's the best way you can support my"
+  },
+  {
+    "start": 2052.8,
+    "duration": 4.72,
+    "text": "work because I'm making these videos for"
+  },
+  {
+    "start": 2054.639,
+    "duration": 4.401,
+    "text": "you for free. And uh you can uh take a"
+  },
+  {
+    "start": 2057.52,
+    "duration": 3.2,
+    "text": "screenshot, share it on socials, join"
+  },
+  {
+    "start": 2059.04,
+    "duration": 3.839,
+    "text": "the learning in public initiative. Use"
+  },
+  {
+    "start": 2060.72,
+    "duration": 4.639,
+    "text": "#dsaith kunal where you can check out"
+  },
+  {
+    "start": 2062.879,
+    "duration": 4.161,
+    "text": "other people who are learning from these"
+  },
+  {
+    "start": 2065.359,
+    "duration": 4.881,
+    "text": "boot camps. You can join our discord"
+  },
+  {
+    "start": 2067.04,
+    "duration": 4.16,
+    "text": "server. We make del. And um the code and"
+  },
+  {
+    "start": 2070.24,
+    "duration": 2.639,
+    "text": "everything you can find in the"
+  },
+  {
+    "start": 2071.2,
+    "duration": 3.199,
+    "text": "description below. Uh and you can run it"
+  },
+  {
+    "start": 2072.879,
+    "duration": 3.52,
+    "text": "on your browser itself by clicking run."
+  },
+  {
+    "start": 2074.399,
+    "duration": 3.601,
+    "text": "Same code that I have over here. Can"
+  },
+  {
+    "start": 2076.399,
+    "duration": 3.921,
+    "text": "fork it and do all sorts of things."
+  },
+  {
+    "start": 2078.0,
+    "duration": 3.839,
+    "text": "Assignments, lecture notes, everything"
+  },
+  {
+    "start": 2080.32,
+    "duration": 4.48,
+    "text": "can be found in the description below"
+  },
+  {
+    "start": 2081.839,
+    "duration": 4.56,
+    "text": "and the pin to it as well. And uh yeah,"
+  },
+  {
+    "start": 2084.8,
+    "duration": 3.279,
+    "text": "appreciate it. Thanks for the support."
+  },
+  {
+    "start": 2086.399,
+    "duration": 4.439,
+    "text": "See you in the next one. Have a great"
+  },
+  {
+    "start": 2088.079,
+    "duration": 2.759,
+    "text": "day. [music]"
+  },
+  {
+    "start": 2094.059,
+    "duration": 2.02,
+    "text": "[music]"
+  }
+]

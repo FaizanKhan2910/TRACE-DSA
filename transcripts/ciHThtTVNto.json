@@ -1,0 +1,8147 @@
+[
+  {
+    "start": 0.48,
+    "duration": 3.0,
+    "text": "foreign"
+  },
+  {
+    "start": 3.959,
+    "duration": 4.14,
+    "text": "welcome back to my channel another new"
+  },
+  {
+    "start": 6.0,
+    "duration": 4.5,
+    "text": "video in this video we're continuing the"
+  },
+  {
+    "start": 8.099,
+    "duration": 4.381,
+    "text": "tree playlist of the data systems"
+  },
+  {
+    "start": 10.5,
+    "duration": 3.78,
+    "text": "algorithms boot camp and we're learning"
+  },
+  {
+    "start": 12.48,
+    "duration": 3.48,
+    "text": "about another type of tree so the first"
+  },
+  {
+    "start": 14.28,
+    "duration": 4.079,
+    "text": "three video was introduction to binary"
+  },
+  {
+    "start": 15.96,
+    "duration": 4.739,
+    "text": "search trees secondary was video was"
+  },
+  {
+    "start": 18.359,
+    "duration": 4.621,
+    "text": "about self-balancing binary search trees"
+  },
+  {
+    "start": 20.699,
+    "duration": 4.861,
+    "text": "we learned about AVL trees and before we"
+  },
+  {
+    "start": 22.98,
+    "duration": 4.68,
+    "text": "move forward into the questions trees"
+  },
+  {
+    "start": 25.56,
+    "duration": 3.9,
+    "text": "video like interview questions what sort"
+  },
+  {
+    "start": 27.66,
+    "duration": 3.539,
+    "text": "of questions are asked we're going to"
+  },
+  {
+    "start": 29.46,
+    "duration": 4.38,
+    "text": "learn at um you know we're going to"
+  },
+  {
+    "start": 31.199,
+    "duration": 4.261,
+    "text": "learn about some other types of trees so"
+  },
+  {
+    "start": 33.84,
+    "duration": 4.5,
+    "text": "in this video we're going to focus on"
+  },
+  {
+    "start": 35.46,
+    "duration": 5.279,
+    "text": "segmentaries very important topic for"
+  },
+  {
+    "start": 38.34,
+    "duration": 4.379,
+    "text": "let's say your interview questions uh"
+  },
+  {
+    "start": 40.739,
+    "duration": 2.941,
+    "text": "even compare programming and all sorts"
+  },
+  {
+    "start": 42.719,
+    "duration": 3.481,
+    "text": "of things"
+  },
+  {
+    "start": 43.68,
+    "duration": 4.02,
+    "text": "so to learn about segmentaries in this"
+  },
+  {
+    "start": 46.2,
+    "duration": 3.359,
+    "text": "video we'll see what segmentaries are"
+  },
+  {
+    "start": 47.7,
+    "duration": 3.839,
+    "text": "and obviously just like every other"
+  },
+  {
+    "start": 49.559,
+    "duration": 3.781,
+    "text": "tutorial and concept"
+  },
+  {
+    "start": 51.539,
+    "duration": 3.36,
+    "text": "before moving on to segmentaries we'll"
+  },
+  {
+    "start": 53.34,
+    "duration": 4.199,
+    "text": "learn about what are the challenges it"
+  },
+  {
+    "start": 54.899,
+    "duration": 4.8,
+    "text": "solves what is the use case what type of"
+  },
+  {
+    "start": 57.539,
+    "duration": 4.561,
+    "text": "questions can help you in solving"
+  },
+  {
+    "start": 59.699,
+    "duration": 5.341,
+    "text": "segmentary uh like what type of"
+  },
+  {
+    "start": 62.1,
+    "duration": 4.68,
+    "text": "questions use segmentaries so we'll do"
+  },
+  {
+    "start": 65.04,
+    "duration": 5.34,
+    "text": "some nice questions as well"
+  },
+  {
+    "start": 66.78,
+    "duration": 5.64,
+    "text": "and obviously the code and the notes and"
+  },
+  {
+    "start": 70.38,
+    "duration": 4.38,
+    "text": "everything assignments can all be found"
+  },
+  {
+    "start": 72.42,
+    "duration": 3.72,
+    "text": "in the description below so you can"
+  },
+  {
+    "start": 74.76,
+    "duration": 4.32,
+    "text": "check out the code links and everything"
+  },
+  {
+    "start": 76.14,
+    "duration": 5.76,
+    "text": "in the description below and let's get"
+  },
+  {
+    "start": 79.08,
+    "duration": 5.7,
+    "text": "started Okay so segmentaries"
+  },
+  {
+    "start": 81.9,
+    "duration": 4.38,
+    "text": "so you talk about"
+  },
+  {
+    "start": 84.78,
+    "duration": 3.12,
+    "text": "segment"
+  },
+  {
+    "start": 86.28,
+    "duration": 3.54,
+    "text": "trees"
+  },
+  {
+    "start": 87.9,
+    "duration": 4.2,
+    "text": "forget about segmentary"
+  },
+  {
+    "start": 89.82,
+    "duration": 4.68,
+    "text": "for now let's say we have a question"
+  },
+  {
+    "start": 92.1,
+    "duration": 5.159,
+    "text": "first okay so the question is given an"
+  },
+  {
+    "start": 94.5,
+    "duration": 5.46,
+    "text": "array a which is equal to"
+  },
+  {
+    "start": 97.259,
+    "duration": 6.9,
+    "text": "something like this you have 1 comma six"
+  },
+  {
+    "start": 99.96,
+    "duration": 7.56,
+    "text": "comma 8 comma two comma seven comma"
+  },
+  {
+    "start": 104.159,
+    "duration": 8.161,
+    "text": "16. now you're given a question"
+  },
+  {
+    "start": 107.52,
+    "duration": 7.32,
+    "text": "please find the sum between two indices"
+  },
+  {
+    "start": 112.32,
+    "duration": 6.6,
+    "text": "okay so what are the indices we all know"
+  },
+  {
+    "start": 114.84,
+    "duration": 6.18,
+    "text": "indices 0 1 2 3 4 5."
+  },
+  {
+    "start": 118.92,
+    "duration": 4.14,
+    "text": "let's say you're given a question find"
+  },
+  {
+    "start": 121.02,
+    "duration": 3.54,
+    "text": "the sum of all the elements between the"
+  },
+  {
+    "start": 123.06,
+    "duration": 5.36,
+    "text": "index number two and index number five"
+  },
+  {
+    "start": 124.56,
+    "duration": 3.86,
+    "text": "so means this all sum"
+  },
+  {
+    "start": 129.239,
+    "duration": 6.481,
+    "text": "this sum we need to find"
+  },
+  {
+    "start": 131.58,
+    "duration": 6.44,
+    "text": "eight plus two plus seven plus sixteen"
+  },
+  {
+    "start": 135.72,
+    "duration": 5.099,
+    "text": "very easy now I ask you this question"
+  },
+  {
+    "start": 138.02,
+    "duration": 6.04,
+    "text": "and I'm like how do you do it"
+  },
+  {
+    "start": 140.819,
+    "duration": 5.401,
+    "text": "it's very simple start the pointer from"
+  },
+  {
+    "start": 144.06,
+    "duration": 4.679,
+    "text": "index number two and take the pointer"
+  },
+  {
+    "start": 146.22,
+    "duration": 5.04,
+    "text": "till index number end and keep a sum of"
+  },
+  {
+    "start": 148.739,
+    "duration": 4.801,
+    "text": "all this so in worst case what we do"
+  },
+  {
+    "start": 151.26,
+    "duration": 4.38,
+    "text": "build the time complexity worst case"
+  },
+  {
+    "start": 153.54,
+    "duration": 4.44,
+    "text": "would be sum all the numbers"
+  },
+  {
+    "start": 155.64,
+    "duration": 5.76,
+    "text": "so our skate would be sum all the"
+  },
+  {
+    "start": 157.98,
+    "duration": 5.94,
+    "text": "numbers one by one o often"
+  },
+  {
+    "start": 161.4,
+    "duration": 5.3,
+    "text": "time complexity"
+  },
+  {
+    "start": 163.92,
+    "duration": 2.78,
+    "text": "for this one"
+  },
+  {
+    "start": 166.739,
+    "duration": 4.621,
+    "text": "right"
+  },
+  {
+    "start": 168.26,
+    "duration": 5.68,
+    "text": "Sanskrit best case time complexity you"
+  },
+  {
+    "start": 171.36,
+    "duration": 4.92,
+    "text": "are only asking for one element find the"
+  },
+  {
+    "start": 173.94,
+    "duration": 4.74,
+    "text": "sum of all the numbers in between index"
+  },
+  {
+    "start": 176.28,
+    "duration": 4.86,
+    "text": "number two and index number two which is"
+  },
+  {
+    "start": 178.68,
+    "duration": 4.38,
+    "text": "index number eight sorry uh number eight"
+  },
+  {
+    "start": 181.14,
+    "duration": 3.179,
+    "text": "or adding next number two"
+  },
+  {
+    "start": 183.06,
+    "duration": 3.8,
+    "text": "so this one"
+  },
+  {
+    "start": 184.319,
+    "duration": 2.541,
+    "text": "you know"
+  },
+  {
+    "start": 187.08,
+    "duration": 4.2,
+    "text": "for that"
+  },
+  {
+    "start": 188.459,
+    "duration": 6.181,
+    "text": "time complexity is what constant so"
+  },
+  {
+    "start": 191.28,
+    "duration": 5.459,
+    "text": "worst case best case simple way by which"
+  },
+  {
+    "start": 194.64,
+    "duration": 5.64,
+    "text": "you can take the sum"
+  },
+  {
+    "start": 196.739,
+    "duration": 6.0,
+    "text": "right that's the problem"
+  },
+  {
+    "start": 200.28,
+    "duration": 3.84,
+    "text": "the problem is that o of n is not good"
+  },
+  {
+    "start": 202.739,
+    "duration": 4.381,
+    "text": "enough for us"
+  },
+  {
+    "start": 204.12,
+    "duration": 4.38,
+    "text": "okay not good enough"
+  },
+  {
+    "start": 207.12,
+    "duration": 4.619,
+    "text": "so"
+  },
+  {
+    "start": 208.5,
+    "duration": 5.159,
+    "text": "we need to solve this question"
+  },
+  {
+    "start": 211.739,
+    "duration": 3.36,
+    "text": "um better than often something like"
+  },
+  {
+    "start": 213.659,
+    "duration": 3.061,
+    "text": "oauth login"
+  },
+  {
+    "start": 215.099,
+    "duration": 3.06,
+    "text": "okay"
+  },
+  {
+    "start": 216.72,
+    "duration": 3.72,
+    "text": "so"
+  },
+  {
+    "start": 218.159,
+    "duration": 4.681,
+    "text": "often"
+  },
+  {
+    "start": 220.44,
+    "duration": 4.879,
+    "text": "not good"
+  },
+  {
+    "start": 222.84,
+    "duration": 2.479,
+    "text": "enough"
+  },
+  {
+    "start": 225.78,
+    "duration": 3.92,
+    "text": "find off login solution"
+  },
+  {
+    "start": 229.739,
+    "duration": 2.661,
+    "text": "foreign"
+  },
+  {
+    "start": 233.819,
+    "duration": 5.48,
+    "text": "and that solution is"
+  },
+  {
+    "start": 236.459,
+    "duration": 2.84,
+    "text": "segmentary"
+  },
+  {
+    "start": 240.78,
+    "duration": 3.0,
+    "text": "so I'll also tell you when to use"
+  },
+  {
+    "start": 242.4,
+    "duration": 4.5,
+    "text": "segment trees okay"
+  },
+  {
+    "start": 243.78,
+    "duration": 5.22,
+    "text": "right okay so"
+  },
+  {
+    "start": 246.9,
+    "duration": 4.86,
+    "text": "how can we solve it with segmentaries"
+  },
+  {
+    "start": 249.0,
+    "duration": 5.239,
+    "text": "and what is segment tree let's take a"
+  },
+  {
+    "start": 251.76,
+    "duration": 2.479,
+    "text": "look at that"
+  },
+  {
+    "start": 254.519,
+    "duration": 5.701,
+    "text": "right"
+  },
+  {
+    "start": 255.959,
+    "duration": 6.661,
+    "text": "so if I talk about segment tree then let"
+  },
+  {
+    "start": 260.22,
+    "duration": 3.9,
+    "text": "me first briefly tell you what it is"
+  },
+  {
+    "start": 262.62,
+    "duration": 3.359,
+    "text": "then we'll dive into the infrastructure"
+  },
+  {
+    "start": 264.12,
+    "duration": 4.62,
+    "text": "architecture whatever you want to call"
+  },
+  {
+    "start": 265.979,
+    "duration": 5.22,
+    "text": "it like the theory implementation and"
+  },
+  {
+    "start": 268.74,
+    "duration": 3.54,
+    "text": "the intuition like Kunal when to use a"
+  },
+  {
+    "start": 271.199,
+    "duration": 4.741,
+    "text": "segmentary"
+  },
+  {
+    "start": 272.28,
+    "duration": 8.72,
+    "text": "so segmentary basically means"
+  },
+  {
+    "start": 275.94,
+    "duration": 5.06,
+    "text": "in simple terms you perform some query"
+  },
+  {
+    "start": 282.06,
+    "duration": 5.04,
+    "text": "on a range"
+  },
+  {
+    "start": 284.82,
+    "duration": 5.159,
+    "text": "so it's very important on a range so"
+  },
+  {
+    "start": 287.1,
+    "duration": 6.3,
+    "text": "when you are given questions like"
+  },
+  {
+    "start": 289.979,
+    "duration": 6.0,
+    "text": "find the maximum so you know this is an"
+  },
+  {
+    "start": 293.4,
+    "duration": 4.14,
+    "text": "intuition point of view so when are you"
+  },
+  {
+    "start": 295.979,
+    "duration": 2.521,
+    "text": "going to use segmentaries I'm answering"
+  },
+  {
+    "start": 297.54,
+    "duration": 3.54,
+    "text": "that now"
+  },
+  {
+    "start": 298.5,
+    "duration": 5.52,
+    "text": "when you are given a question that works"
+  },
+  {
+    "start": 301.08,
+    "duration": 5.52,
+    "text": "on Range like performing a function or a"
+  },
+  {
+    "start": 304.02,
+    "duration": 4.86,
+    "text": "query on a given range that can be"
+  },
+  {
+    "start": 306.6,
+    "duration": 3.24,
+    "text": "anything sum of all the numbers in the"
+  },
+  {
+    "start": 308.88,
+    "duration": 4.5,
+    "text": "range"
+  },
+  {
+    "start": 309.84,
+    "duration": 4.68,
+    "text": "maximum item in the range average of the"
+  },
+  {
+    "start": 313.38,
+    "duration": 3.06,
+    "text": "range"
+  },
+  {
+    "start": 314.52,
+    "duration": 4.8,
+    "text": "you know minimum item in the range"
+  },
+  {
+    "start": 316.44,
+    "duration": 5.759,
+    "text": "product of all the numbers in the range"
+  },
+  {
+    "start": 319.32,
+    "duration": 5.64,
+    "text": "so on and so forth"
+  },
+  {
+    "start": 322.199,
+    "duration": 4.621,
+    "text": "so types of questions if if interviewer"
+  },
+  {
+    "start": 324.96,
+    "duration": 4.5,
+    "text": "is giving the question okay you have an"
+  },
+  {
+    "start": 326.82,
+    "duration": 4.14,
+    "text": "array don't worry about how segmentaries"
+  },
+  {
+    "start": 329.46,
+    "duration": 3.959,
+    "text": "work right now let me first explain to"
+  },
+  {
+    "start": 330.96,
+    "duration": 4.14,
+    "text": "you the basic need for it then we'll see"
+  },
+  {
+    "start": 333.419,
+    "duration": 3.961,
+    "text": "how it works and everything forget about"
+  },
+  {
+    "start": 335.1,
+    "duration": 3.72,
+    "text": "the uh don't worry about how it's"
+  },
+  {
+    "start": 337.38,
+    "duration": 4.74,
+    "text": "structured and how it's happening we'll"
+  },
+  {
+    "start": 338.82,
+    "duration": 7.68,
+    "text": "do that so question is given to you"
+  },
+  {
+    "start": 342.12,
+    "duration": 7.519,
+    "text": "again given an array find the sum of uh"
+  },
+  {
+    "start": 346.5,
+    "duration": 6.6,
+    "text": "all the numbers between two indices"
+  },
+  {
+    "start": 349.639,
+    "duration": 5.5,
+    "text": "segmentary find the product of all the"
+  },
+  {
+    "start": 353.1,
+    "duration": 4.98,
+    "text": "numbers between two indices segmentary"
+  },
+  {
+    "start": 355.139,
+    "duration": 4.741,
+    "text": "find the maximum number of find the"
+  },
+  {
+    "start": 358.08,
+    "duration": 4.08,
+    "text": "maximum number"
+  },
+  {
+    "start": 359.88,
+    "duration": 3.72,
+    "text": "between a range of two indices like"
+  },
+  {
+    "start": 362.16,
+    "duration": 3.24,
+    "text": "between index number two and index"
+  },
+  {
+    "start": 363.6,
+    "duration": 4.56,
+    "text": "number five find the maximum number"
+  },
+  {
+    "start": 365.4,
+    "duration": 4.68,
+    "text": "segmentary find the average of all the"
+  },
+  {
+    "start": 368.16,
+    "duration": 4.44,
+    "text": "numbers between two indices"
+  },
+  {
+    "start": 370.08,
+    "duration": 4.619,
+    "text": "segmentary so now I hope it is clear"
+  },
+  {
+    "start": 372.6,
+    "duration": 2.819,
+    "text": "when to use segmentaries okay move"
+  },
+  {
+    "start": 374.699,
+    "duration": 2.22,
+    "text": "forward"
+  },
+  {
+    "start": 375.419,
+    "duration": 3.06,
+    "text": "that's one thing"
+  },
+  {
+    "start": 376.919,
+    "duration": 3.961,
+    "text": "and uh"
+  },
+  {
+    "start": 378.479,
+    "duration": 3.541,
+    "text": "perform on a range"
+  },
+  {
+    "start": 380.88,
+    "duration": 3.72,
+    "text": "in"
+  },
+  {
+    "start": 382.02,
+    "duration": 5.399,
+    "text": "o of log n time how we got off login"
+  },
+  {
+    "start": 384.6,
+    "duration": 4.98,
+    "text": "obviously we will take it"
+  },
+  {
+    "start": 387.419,
+    "duration": 4.321,
+    "text": "obviously we'll look at it"
+  },
+  {
+    "start": 389.58,
+    "duration": 5.7,
+    "text": "okay now"
+  },
+  {
+    "start": 391.74,
+    "duration": 7.019,
+    "text": "one more thing is that the update"
+  },
+  {
+    "start": 395.28,
+    "duration": 5.039,
+    "text": "method update function is also of login"
+  },
+  {
+    "start": 398.759,
+    "duration": 3.601,
+    "text": "time"
+  },
+  {
+    "start": 400.319,
+    "duration": 3.841,
+    "text": "because it doesn't make sense let's say"
+  },
+  {
+    "start": 402.36,
+    "duration": 4.08,
+    "text": "Kunal you are storing some data in"
+  },
+  {
+    "start": 404.16,
+    "duration": 4.2,
+    "text": "segmentary let's say range specific data"
+  },
+  {
+    "start": 406.44,
+    "duration": 3.599,
+    "text": "we don't know what that data is right"
+  },
+  {
+    "start": 408.36,
+    "duration": 3.3,
+    "text": "now we will take care of it you will"
+  },
+  {
+    "start": 410.039,
+    "duration": 3.421,
+    "text": "tell us later on that's fine but let's"
+  },
+  {
+    "start": 411.66,
+    "duration": 4.62,
+    "text": "assume it's a data structure so it will"
+  },
+  {
+    "start": 413.46,
+    "duration": 5.16,
+    "text": "have data in it so we're getting this"
+  },
+  {
+    "start": 416.28,
+    "duration": 4.68,
+    "text": "answer you know of login time but what"
+  },
+  {
+    "start": 418.62,
+    "duration": 3.84,
+    "text": "if someone changes the array obviously"
+  },
+  {
+    "start": 420.96,
+    "duration": 3.6,
+    "text": "then segmentary data will also change"
+  },
+  {
+    "start": 422.46,
+    "duration": 4.98,
+    "text": "because array has been changed"
+  },
+  {
+    "start": 424.56,
+    "duration": 5.1,
+    "text": "so what is the time complexity it is"
+  },
+  {
+    "start": 427.44,
+    "duration": 4.56,
+    "text": "going to take for changing the data if"
+  },
+  {
+    "start": 429.66,
+    "duration": 3.84,
+    "text": "that time complexity is O of n then what"
+  },
+  {
+    "start": 432.0,
+    "duration": 4.139,
+    "text": "is the point"
+  },
+  {
+    "start": 433.5,
+    "duration": 5.22,
+    "text": "of using segmentary that time complexity"
+  },
+  {
+    "start": 436.139,
+    "duration": 4.861,
+    "text": "is also by Common Sense it's going to be"
+  },
+  {
+    "start": 438.72,
+    "duration": 4.14,
+    "text": "o of login because if it was O of n then"
+  },
+  {
+    "start": 441.0,
+    "duration": 3.72,
+    "text": "there's no point no"
+  },
+  {
+    "start": 442.86,
+    "duration": 5.279,
+    "text": "there is no point"
+  },
+  {
+    "start": 444.72,
+    "duration": 5.819,
+    "text": "until unless data is not being modified"
+  },
+  {
+    "start": 448.139,
+    "duration": 5.46,
+    "text": "that much but anyway how it is off and"
+  },
+  {
+    "start": 450.539,
+    "duration": 5.1,
+    "text": "for on getting the answer how is it"
+  },
+  {
+    "start": 453.599,
+    "duration": 3.841,
+    "text": "sorry how is it log of n for getting the"
+  },
+  {
+    "start": 455.639,
+    "duration": 3.84,
+    "text": "answer how is it log off and for"
+  },
+  {
+    "start": 457.44,
+    "duration": 4.259,
+    "text": "updating it we'll take a look at it"
+  },
+  {
+    "start": 459.479,
+    "duration": 4.381,
+    "text": "right now let's see and the structure of"
+  },
+  {
+    "start": 461.699,
+    "duration": 3.961,
+    "text": "segmentary okay so let's take a look at"
+  },
+  {
+    "start": 463.86,
+    "duration": 3.959,
+    "text": "the example of segmentary let's see how"
+  },
+  {
+    "start": 465.66,
+    "duration": 4.74,
+    "text": "segmentary is made and all the"
+  },
+  {
+    "start": 467.819,
+    "duration": 4.261,
+    "text": "properties of segmentary uh we talked"
+  },
+  {
+    "start": 470.4,
+    "duration": 4.019,
+    "text": "about like we'll formalize the"
+  },
+  {
+    "start": 472.08,
+    "duration": 5.7,
+    "text": "advantages disadvantages"
+  },
+  {
+    "start": 474.419,
+    "duration": 4.741,
+    "text": "um but um let's first take an example so"
+  },
+  {
+    "start": 477.78,
+    "duration": 2.88,
+    "text": "segmentary one more thing I'll write"
+  },
+  {
+    "start": 479.16,
+    "duration": 4.64,
+    "text": "over here is"
+  },
+  {
+    "start": 480.66,
+    "duration": 3.14,
+    "text": "segment tree"
+  },
+  {
+    "start": 483.9,
+    "duration": 3.359,
+    "text": "I'll just write it on the new on this"
+  },
+  {
+    "start": 486.24,
+    "duration": 4.04,
+    "text": "page"
+  },
+  {
+    "start": 487.259,
+    "duration": 3.021,
+    "text": "segment tree"
+  },
+  {
+    "start": 492.9,
+    "duration": 5.46,
+    "text": "is a binary tree"
+  },
+  {
+    "start": 495.18,
+    "duration": 4.38,
+    "text": "binary means what every node has maximum"
+  },
+  {
+    "start": 498.36,
+    "duration": 4.14,
+    "text": "two children"
+  },
+  {
+    "start": 499.56,
+    "duration": 5.22,
+    "text": "which will have"
+  },
+  {
+    "start": 502.5,
+    "duration": 5.16,
+    "text": "which has"
+  },
+  {
+    "start": 504.78,
+    "duration": 5.819,
+    "text": "information about the intervals as well"
+  },
+  {
+    "start": 507.66,
+    "duration": 4.679,
+    "text": "as the operation we are performing"
+  },
+  {
+    "start": 510.599,
+    "duration": 5.761,
+    "text": "interval"
+  },
+  {
+    "start": 512.339,
+    "duration": 7.26,
+    "text": "info and operation performing"
+  },
+  {
+    "start": 516.36,
+    "duration": 7.08,
+    "text": "so interval info can be sum of"
+  },
+  {
+    "start": 519.599,
+    "duration": 5.521,
+    "text": "sorry index number 2 and 6 interval info"
+  },
+  {
+    "start": 523.44,
+    "duration": 3.48,
+    "text": "and the operation we are performing is"
+  },
+  {
+    "start": 525.12,
+    "duration": 3.779,
+    "text": "let's say sum so both of these"
+  },
+  {
+    "start": 526.92,
+    "duration": 4.32,
+    "text": "information combined what do we get sum"
+  },
+  {
+    "start": 528.899,
+    "duration": 3.661,
+    "text": "of interval from 2 and 7 2 or 5 or"
+  },
+  {
+    "start": 531.24,
+    "duration": 3.539,
+    "text": "whatever index was"
+  },
+  {
+    "start": 532.56,
+    "duration": 3.899,
+    "text": "okay it will be making much more sense"
+  },
+  {
+    "start": 534.779,
+    "duration": 5.221,
+    "text": "when I draw segmentary so let me draw"
+  },
+  {
+    "start": 536.459,
+    "duration": 6.06,
+    "text": "segmentary let's take an example"
+  },
+  {
+    "start": 540.0,
+    "duration": 4.98,
+    "text": "let's say question is find the sum"
+  },
+  {
+    "start": 542.519,
+    "duration": 5.521,
+    "text": "between any two integers"
+  },
+  {
+    "start": 544.98,
+    "duration": 5.64,
+    "text": "sum between"
+  },
+  {
+    "start": 548.04,
+    "duration": 7.88,
+    "text": "any two"
+  },
+  {
+    "start": 550.62,
+    "duration": 5.3,
+    "text": "integers let us say array is given to as"
+  },
+  {
+    "start": 555.959,
+    "duration": 7.621,
+    "text": "array is given to as something like this"
+  },
+  {
+    "start": 558.959,
+    "duration": 6.961,
+    "text": "3 comma 8 comma 7 comma six"
+  },
+  {
+    "start": 563.58,
+    "duration": 4.02,
+    "text": "minus 2 unsorted array random array okay"
+  },
+  {
+    "start": 565.92,
+    "duration": 4.919,
+    "text": "whatever you want to call it"
+  },
+  {
+    "start": 567.6,
+    "duration": 5.52,
+    "text": "can have duplicates also no problem"
+  },
+  {
+    "start": 570.839,
+    "duration": 3.961,
+    "text": "right total size of the array n is equal"
+  },
+  {
+    "start": 573.12,
+    "duration": 4.32,
+    "text": "to eight one two three four five six"
+  },
+  {
+    "start": 574.8,
+    "duration": 7.68,
+    "text": "seven eight indices I'll write down 0 1"
+  },
+  {
+    "start": 577.44,
+    "duration": 8.339,
+    "text": "2 3 4 5 6 7."
+  },
+  {
+    "start": 582.48,
+    "duration": 4.5,
+    "text": "no problem at all since it's a tree so"
+  },
+  {
+    "start": 585.779,
+    "duration": 3.661,
+    "text": "obviously we'll have nodes and stuff"
+  },
+  {
+    "start": 586.98,
+    "duration": 5.7,
+    "text": "okay let's see what the node contains"
+  },
+  {
+    "start": 589.44,
+    "duration": 5.16,
+    "text": "let's see what the node contains"
+  },
+  {
+    "start": 592.68,
+    "duration": 3.96,
+    "text": "according to the definition it's very"
+  },
+  {
+    "start": 594.6,
+    "duration": 3.72,
+    "text": "simple node is going to contain two"
+  },
+  {
+    "start": 596.64,
+    "duration": 4.56,
+    "text": "things"
+  },
+  {
+    "start": 598.32,
+    "duration": 5.76,
+    "text": "looks like a Pokeball anyway node is"
+  },
+  {
+    "start": 601.2,
+    "duration": 5.1,
+    "text": "going to contain two things"
+  },
+  {
+    "start": 604.08,
+    "duration": 3.48,
+    "text": "it's going to contain the interval"
+  },
+  {
+    "start": 606.3,
+    "duration": 3.719,
+    "text": "information"
+  },
+  {
+    "start": 607.56,
+    "duration": 5.459,
+    "text": "let's say interlevel number"
+  },
+  {
+    "start": 610.019,
+    "duration": 4.981,
+    "text": "1 and 5 for example"
+  },
+  {
+    "start": 613.019,
+    "duration": 4.5,
+    "text": "and it is going to contain the answer of"
+  },
+  {
+    "start": 615.0,
+    "duration": 5.279,
+    "text": "that interval the query on that interval"
+  },
+  {
+    "start": 617.519,
+    "duration": 6.181,
+    "text": "what is the query of the interval sum"
+  },
+  {
+    "start": 620.279,
+    "duration": 6.481,
+    "text": "so by default the root node is going to"
+  },
+  {
+    "start": 623.7,
+    "duration": 5.04,
+    "text": "have all the intervals so interval 0"
+  },
+  {
+    "start": 626.76,
+    "duration": 3.66,
+    "text": "till 7."
+  },
+  {
+    "start": 628.74,
+    "duration": 6.539,
+    "text": "what is the sum of all the elements from"
+  },
+  {
+    "start": 630.42,
+    "duration": 7.46,
+    "text": "0 till 7 if you calculate its 27."
+  },
+  {
+    "start": 635.279,
+    "duration": 2.601,
+    "text": "query"
+  },
+  {
+    "start": 639.36,
+    "duration": 4.32,
+    "text": "interval this is how every node will"
+  },
+  {
+    "start": 642.42,
+    "duration": 4.14,
+    "text": "look like"
+  },
+  {
+    "start": 643.68,
+    "duration": 5.3,
+    "text": "query and interval"
+  },
+  {
+    "start": 646.56,
+    "duration": 2.42,
+    "text": "okay"
+  },
+  {
+    "start": 649.56,
+    "duration": 4.76,
+    "text": "sounds good"
+  },
+  {
+    "start": 651.6,
+    "duration": 2.72,
+    "text": "make sense"
+  },
+  {
+    "start": 654.899,
+    "duration": 5.88,
+    "text": "so segmentary binary tree"
+  },
+  {
+    "start": 658.2,
+    "duration": 4.02,
+    "text": "and"
+  },
+  {
+    "start": 660.779,
+    "duration": 4.401,
+    "text": "yeah"
+  },
+  {
+    "start": 662.22,
+    "duration": 2.96,
+    "text": "pretty cool stuff"
+  },
+  {
+    "start": 665.88,
+    "duration": 3.66,
+    "text": "and every node represents the query and"
+  },
+  {
+    "start": 668.519,
+    "duration": 2.82,
+    "text": "a range"
+  },
+  {
+    "start": 669.54,
+    "duration": 4.26,
+    "text": "and how we build this binary tree we'll"
+  },
+  {
+    "start": 671.339,
+    "duration": 4.381,
+    "text": "take a look at later and the root node"
+  },
+  {
+    "start": 673.8,
+    "duration": 3.42,
+    "text": "has the entire array in it"
+  },
+  {
+    "start": 675.72,
+    "duration": 3.84,
+    "text": "okay"
+  },
+  {
+    "start": 677.22,
+    "duration": 4.5,
+    "text": "so how do we form this tree"
+  },
+  {
+    "start": 679.56,
+    "duration": 6.0,
+    "text": "root node contains all the information"
+  },
+  {
+    "start": 681.72,
+    "duration": 5.52,
+    "text": "about all the arrays elements and um"
+  },
+  {
+    "start": 685.56,
+    "duration": 3.66,
+    "text": "since the binary tree we're just going"
+  },
+  {
+    "start": 687.24,
+    "duration": 3.96,
+    "text": "to divide it every time by two and as"
+  },
+  {
+    "start": 689.22,
+    "duration": 3.96,
+    "text": "you may know if you keep dividing the"
+  },
+  {
+    "start": 691.2,
+    "duration": 4.44,
+    "text": "array by 2 1"
+  },
+  {
+    "start": 693.18,
+    "duration": 4.08,
+    "text": "point of time will come where the array"
+  },
+  {
+    "start": 695.64,
+    "duration": 3.12,
+    "text": "will only have one element you can't"
+  },
+  {
+    "start": 697.26,
+    "duration": 2.639,
+    "text": "divide it more that is the base"
+  },
+  {
+    "start": 698.76,
+    "duration": 4.46,
+    "text": "condition"
+  },
+  {
+    "start": 699.899,
+    "duration": 3.321,
+    "text": "let's divide it by 2."
+  },
+  {
+    "start": 704.04,
+    "duration": 5.12,
+    "text": "okay"
+  },
+  {
+    "start": 705.779,
+    "duration": 3.381,
+    "text": "so if I divide it by 2"
+  },
+  {
+    "start": 709.62,
+    "duration": 8.04,
+    "text": "let us say I divide it here"
+  },
+  {
+    "start": 712.38,
+    "duration": 7.5,
+    "text": "this and this so array indices 0 till 3"
+  },
+  {
+    "start": 717.66,
+    "duration": 4.5,
+    "text": "array indices"
+  },
+  {
+    "start": 719.88,
+    "duration": 5.1,
+    "text": "four to seven what is the sum of indices"
+  },
+  {
+    "start": 722.16,
+    "duration": 7.2,
+    "text": "from 0 till 3. if you calculate it it's"
+  },
+  {
+    "start": 724.98,
+    "duration": 6.9,
+    "text": "24. what is the sum from 4 till 7 if you"
+  },
+  {
+    "start": 729.36,
+    "duration": 5.599,
+    "text": "calculate it it's 3."
+  },
+  {
+    "start": 731.88,
+    "duration": 3.079,
+    "text": "again divided"
+  },
+  {
+    "start": 742.62,
+    "duration": 5.279,
+    "text": "again divided"
+  },
+  {
+    "start": 745.019,
+    "duration": 5.0,
+    "text": "so now you have 0 comma 3 if you divide"
+  },
+  {
+    "start": 747.899,
+    "duration": 2.12,
+    "text": "it"
+  },
+  {
+    "start": 750.06,
+    "duration": 2.779,
+    "text": "you'll get what"
+  },
+  {
+    "start": 753.6,
+    "duration": 6.299,
+    "text": "this and this this and this 0 comma 1 2"
+  },
+  {
+    "start": 758.64,
+    "duration": 5.999,
+    "text": "comma 3"
+  },
+  {
+    "start": 759.899,
+    "duration": 6.18,
+    "text": "and 4 comma 5 6 comma 7. divided all by"
+  },
+  {
+    "start": 764.639,
+    "duration": 3.241,
+    "text": "two"
+  },
+  {
+    "start": 766.079,
+    "duration": 4.681,
+    "text": "so this is"
+  },
+  {
+    "start": 767.88,
+    "duration": 5.34,
+    "text": "0 comma 1"
+  },
+  {
+    "start": 770.76,
+    "duration": 5.28,
+    "text": "2 comma 3"
+  },
+  {
+    "start": 773.22,
+    "duration": 6.179,
+    "text": "4 comma 5"
+  },
+  {
+    "start": 776.04,
+    "duration": 6.539,
+    "text": "six comma seven what is the sum sum of"
+  },
+  {
+    "start": 779.399,
+    "duration": 5.88,
+    "text": "elements between 6 and 7 is 13 4 and 5"
+  },
+  {
+    "start": 782.579,
+    "duration": 3.781,
+    "text": "is minus ten two and three is again"
+  },
+  {
+    "start": 785.279,
+    "duration": 4.341,
+    "text": "thirteen"
+  },
+  {
+    "start": 786.36,
+    "duration": 4.919,
+    "text": "and zero and three is sorry 0 and 1 is"
+  },
+  {
+    "start": 789.62,
+    "duration": 3.459,
+    "text": "11."
+  },
+  {
+    "start": 791.279,
+    "duration": 3.841,
+    "text": "okay"
+  },
+  {
+    "start": 793.079,
+    "duration": 4.44,
+    "text": "again divided by two"
+  },
+  {
+    "start": 795.12,
+    "duration": 3.959,
+    "text": "now when you divide it by 2"
+  },
+  {
+    "start": 797.519,
+    "duration": 2.76,
+    "text": "you can see it will only have one"
+  },
+  {
+    "start": 799.079,
+    "duration": 4.981,
+    "text": "element"
+  },
+  {
+    "start": 800.279,
+    "duration": 7.56,
+    "text": "index number 0 index number one so on in"
+  },
+  {
+    "start": 804.06,
+    "duration": 7.019,
+    "text": "so forth index 0 I what is the sum of"
+  },
+  {
+    "start": 807.839,
+    "duration": 6.361,
+    "text": "all the numbers from 0 to 0 3"
+  },
+  {
+    "start": 811.079,
+    "duration": 5.281,
+    "text": "sum of all the numbers from 1 to 1. 8"
+  },
+  {
+    "start": 814.2,
+    "duration": 4.319,
+    "text": "and so on and so forth that is what"
+  },
+  {
+    "start": 816.36,
+    "duration": 4.88,
+    "text": "segmentary is"
+  },
+  {
+    "start": 818.519,
+    "duration": 2.721,
+    "text": "very simple"
+  },
+  {
+    "start": 821.7,
+    "duration": 4.34,
+    "text": "okay so Leaf node you can say here"
+  },
+  {
+    "start": 826.2,
+    "duration": 4.079,
+    "text": "Leaf node"
+  },
+  {
+    "start": 828.36,
+    "duration": 4.02,
+    "text": "you can say only"
+  },
+  {
+    "start": 830.279,
+    "duration": 4.201,
+    "text": "one"
+  },
+  {
+    "start": 832.38,
+    "duration": 4.259,
+    "text": "element in Array because it makes sense"
+  },
+  {
+    "start": 834.48,
+    "duration": 3.479,
+    "text": "you cannot divide the array more"
+  },
+  {
+    "start": 836.639,
+    "duration": 3.901,
+    "text": "okay"
+  },
+  {
+    "start": 837.959,
+    "duration": 5.161,
+    "text": "make sense cool so you already know"
+  },
+  {
+    "start": 840.54,
+    "duration": 4.739,
+    "text": "about the advantages you can update and"
+  },
+  {
+    "start": 843.12,
+    "duration": 4.14,
+    "text": "you can find the range answer in log of"
+  },
+  {
+    "start": 845.279,
+    "duration": 2.941,
+    "text": "n how to calculate that answer we will"
+  },
+  {
+    "start": 847.26,
+    "duration": 3.0,
+    "text": "tell you I know you may be having a"
+  },
+  {
+    "start": 848.22,
+    "duration": 5.4,
+    "text": "doubt when all you are finding answers"
+  },
+  {
+    "start": 850.26,
+    "duration": 5.879,
+    "text": "of range from 0 to 3 but how about if"
+  },
+  {
+    "start": 853.62,
+    "duration": 4.44,
+    "text": "you want to find two to five where is 2"
+  },
+  {
+    "start": 856.139,
+    "duration": 3.781,
+    "text": "to 5 in these circles"
+  },
+  {
+    "start": 858.06,
+    "duration": 3.66,
+    "text": "sum is lying on the left hand side sum"
+  },
+  {
+    "start": 859.92,
+    "duration": 4.2,
+    "text": "is lying on the right hand side don't"
+  },
+  {
+    "start": 861.72,
+    "duration": 3.6,
+    "text": "worry I'll take a look at it"
+  },
+  {
+    "start": 864.12,
+    "duration": 2.459,
+    "text": "um but there's obviously one"
+  },
+  {
+    "start": 865.32,
+    "duration": 3.36,
+    "text": "disadvantage as you can see over here"
+  },
+  {
+    "start": 866.579,
+    "duration": 5.461,
+    "text": "extra space you have to create an entire"
+  },
+  {
+    "start": 868.68,
+    "duration": 5.76,
+    "text": "tree so that's one disadvantage so"
+  },
+  {
+    "start": 872.04,
+    "duration": 4.56,
+    "text": "right let's see how this uh works like"
+  },
+  {
+    "start": 874.44,
+    "duration": 4.92,
+    "text": "how can we find the items like the"
+  },
+  {
+    "start": 876.6,
+    "duration": 4.02,
+    "text": "answer in any range using this tree one"
+  },
+  {
+    "start": 879.36,
+    "duration": 2.76,
+    "text": "thing you may remember before we move"
+  },
+  {
+    "start": 880.62,
+    "duration": 3.0,
+    "text": "forward to like okay Kunal this is fine"
+  },
+  {
+    "start": 882.12,
+    "duration": 3.36,
+    "text": "we have made it"
+  },
+  {
+    "start": 883.62,
+    "duration": 3.959,
+    "text": "um but um"
+  },
+  {
+    "start": 885.48,
+    "duration": 3.419,
+    "text": "one thing you may remember is as you can"
+  },
+  {
+    "start": 887.579,
+    "duration": 2.88,
+    "text": "see"
+  },
+  {
+    "start": 888.899,
+    "duration": 4.021,
+    "text": "if you have watched the trees playlist"
+  },
+  {
+    "start": 890.459,
+    "duration": 5.341,
+    "text": "the first video of tree I told you about"
+  },
+  {
+    "start": 892.92,
+    "duration": 4.44,
+    "text": "full binary tree so segment tree"
+  },
+  {
+    "start": 895.8,
+    "duration": 3.479,
+    "text": "is"
+  },
+  {
+    "start": 897.36,
+    "duration": 3.9,
+    "text": "full binary tree what is full binary"
+  },
+  {
+    "start": 899.279,
+    "duration": 4.141,
+    "text": "tree"
+  },
+  {
+    "start": 901.26,
+    "duration": 5.04,
+    "text": "full binary means every node except the"
+  },
+  {
+    "start": 903.42,
+    "duration": 4.74,
+    "text": "leaf node has two children"
+  },
+  {
+    "start": 906.3,
+    "duration": 3.3,
+    "text": "every node except the leaf node has two"
+  },
+  {
+    "start": 908.16,
+    "duration": 5.72,
+    "text": "two children"
+  },
+  {
+    "start": 909.6,
+    "duration": 4.28,
+    "text": "so we did this in"
+  },
+  {
+    "start": 917.1,
+    "duration": 5.16,
+    "text": "lecture one"
+  },
+  {
+    "start": 918.54,
+    "duration": 6.739,
+    "text": "for a full binary tree we know that"
+  },
+  {
+    "start": 922.26,
+    "duration": 3.019,
+    "text": "Leaf nodes"
+  },
+  {
+    "start": 925.92,
+    "duration": 6.14,
+    "text": "n minus 1"
+  },
+  {
+    "start": 927.779,
+    "duration": 4.281,
+    "text": "no not n minus 1 Leaf nodes n"
+  },
+  {
+    "start": 932.339,
+    "duration": 4.401,
+    "text": "and internal nodes n minus 1."
+  },
+  {
+    "start": 940.56,
+    "duration": 3.44,
+    "text": "okay total nodes"
+  },
+  {
+    "start": 945.839,
+    "duration": 6.12,
+    "text": "to n minus 1. we did this in the"
+  },
+  {
+    "start": 948.12,
+    "duration": 5.94,
+    "text": "previous lecture so just a recap okay if"
+  },
+  {
+    "start": 951.959,
+    "duration": 4.141,
+    "text": "you want to learn how we are getting"
+  },
+  {
+    "start": 954.06,
+    "duration": 3.839,
+    "text": "this number check the previous video"
+  },
+  {
+    "start": 956.1,
+    "duration": 4.14,
+    "text": "lecture number one"
+  },
+  {
+    "start": 957.899,
+    "duration": 4.38,
+    "text": "okay form the tree learned about"
+  },
+  {
+    "start": 960.24,
+    "duration": 4.86,
+    "text": "advantages disadvantages we know when to"
+  },
+  {
+    "start": 962.279,
+    "duration": 4.92,
+    "text": "use it but now the real question is how"
+  },
+  {
+    "start": 965.1,
+    "duration": 4.679,
+    "text": "do we calculate the sum"
+  },
+  {
+    "start": 967.199,
+    "duration": 6.061,
+    "text": "how do we calculate the sum between two"
+  },
+  {
+    "start": 969.779,
+    "duration": 5.521,
+    "text": "indices okay I just created this tree in"
+  },
+  {
+    "start": 973.26,
+    "duration": 4.139,
+    "text": "a prettier way as you can see over here"
+  },
+  {
+    "start": 975.3,
+    "duration": 7.2,
+    "text": "for the same example as we had"
+  },
+  {
+    "start": 977.399,
+    "duration": 9.24,
+    "text": "previously in the above question so"
+  },
+  {
+    "start": 982.5,
+    "duration": 8.76,
+    "text": "the array is equal to 3 comma 8 comma 7"
+  },
+  {
+    "start": 986.639,
+    "duration": 6.06,
+    "text": "comma 6 comma minus 2 minus 8 4"
+  },
+  {
+    "start": 991.26,
+    "duration": 3.42,
+    "text": "and 9."
+  },
+  {
+    "start": 992.699,
+    "duration": 6.241,
+    "text": "okay"
+  },
+  {
+    "start": 994.68,
+    "duration": 7.019,
+    "text": "indices 0 1 2 3 4 5"
+  },
+  {
+    "start": 998.94,
+    "duration": 4.92,
+    "text": "6 7."
+  },
+  {
+    "start": 1001.699,
+    "duration": 4.021,
+    "text": "looks good now"
+  },
+  {
+    "start": 1003.86,
+    "duration": 4.44,
+    "text": "let's say this is the tree that we have"
+  },
+  {
+    "start": 1005.72,
+    "duration": 4.76,
+    "text": "created very simple stuff"
+  },
+  {
+    "start": 1008.3,
+    "duration": 6.06,
+    "text": "so we have to find the sum between two"
+  },
+  {
+    "start": 1010.48,
+    "duration": 7.06,
+    "text": "indices here you have three cases"
+  },
+  {
+    "start": 1014.36,
+    "duration": 7.74,
+    "text": "okay you will have three cases"
+  },
+  {
+    "start": 1017.54,
+    "duration": 6.779,
+    "text": "so for example let's say you have"
+  },
+  {
+    "start": 1022.1,
+    "duration": 5.64,
+    "text": "you want to find a query in the interval"
+  },
+  {
+    "start": 1024.319,
+    "duration": 4.561,
+    "text": "2 comma six so two comma six is this"
+  },
+  {
+    "start": 1027.74,
+    "duration": 3.42,
+    "text": "thing"
+  },
+  {
+    "start": 1028.88,
+    "duration": 4.819,
+    "text": "OK let us say that's the question"
+  },
+  {
+    "start": 1031.16,
+    "duration": 2.539,
+    "text": "some"
+  },
+  {
+    "start": 1033.74,
+    "duration": 5.3,
+    "text": "between"
+  },
+  {
+    "start": 1036.02,
+    "duration": 3.02,
+    "text": "2 comma six"
+  },
+  {
+    "start": 1045.86,
+    "duration": 6.86,
+    "text": "so how do we find that sum so we will"
+  },
+  {
+    "start": 1049.46,
+    "duration": 3.26,
+    "text": "see that"
+  },
+  {
+    "start": 1054.2,
+    "duration": 4.82,
+    "text": "for 2 comma 6"
+  },
+  {
+    "start": 1056.9,
+    "duration": 2.12,
+    "text": "um"
+  },
+  {
+    "start": 1060.86,
+    "duration": 5.04,
+    "text": "since these array indices are divided"
+  },
+  {
+    "start": 1063.08,
+    "duration": 7.14,
+    "text": "into two two then whatever index you may"
+  },
+  {
+    "start": 1065.9,
+    "duration": 6.779,
+    "text": "give index range you know that"
+  },
+  {
+    "start": 1070.22,
+    "duration": 5.18,
+    "text": "sometimes it will be like that index"
+  },
+  {
+    "start": 1072.679,
+    "duration": 5.641,
+    "text": "obviously does not lie in the"
+  },
+  {
+    "start": 1075.4,
+    "duration": 4.659,
+    "text": "diagram over here because it is divided"
+  },
+  {
+    "start": 1078.32,
+    "duration": 4.2,
+    "text": "by two so"
+  },
+  {
+    "start": 1080.059,
+    "duration": 5.841,
+    "text": "many many broken parts of that index"
+  },
+  {
+    "start": 1082.52,
+    "duration": 3.38,
+    "text": "will be in different nodes"
+  },
+  {
+    "start": 1087.98,
+    "duration": 4.02,
+    "text": "okay"
+  },
+  {
+    "start": 1090.38,
+    "duration": 3.72,
+    "text": "sounds good"
+  },
+  {
+    "start": 1092.0,
+    "duration": 3.6,
+    "text": "so let's say you're checking this"
+  },
+  {
+    "start": 1094.1,
+    "duration": 2.699,
+    "text": "you start obviously from checking from"
+  },
+  {
+    "start": 1095.6,
+    "duration": 4.5,
+    "text": "root node"
+  },
+  {
+    "start": 1096.799,
+    "duration": 7.141,
+    "text": "so my index range is 2 comma six is the"
+  },
+  {
+    "start": 1100.1,
+    "duration": 5.579,
+    "text": "index range in root node yes it is can I"
+  },
+  {
+    "start": 1103.94,
+    "duration": 3.66,
+    "text": "just return the answer no because the"
+  },
+  {
+    "start": 1105.679,
+    "duration": 7.5,
+    "text": "answer has some something extra in it"
+  },
+  {
+    "start": 1107.6,
+    "duration": 8.579,
+    "text": "answer has 0 till 7. so I can't do that"
+  },
+  {
+    "start": 1113.179,
+    "duration": 6.62,
+    "text": "okay let's say I move forward I say 0"
+  },
+  {
+    "start": 1116.179,
+    "duration": 3.62,
+    "text": "comma 3 or something like that"
+  },
+  {
+    "start": 1120.38,
+    "duration": 8.28,
+    "text": "okay 0 comma 3. is this containing"
+  },
+  {
+    "start": 1124.4,
+    "duration": 8.7,
+    "text": "numbers in my range yes I am asking for"
+  },
+  {
+    "start": 1128.66,
+    "duration": 7.62,
+    "text": "2 comma 6 I am now at 0 comma 3"
+  },
+  {
+    "start": 1133.1,
+    "duration": 5.28,
+    "text": "so these two numbers I want"
+  },
+  {
+    "start": 1136.28,
+    "duration": 6.36,
+    "text": "sorry not these two numbers"
+  },
+  {
+    "start": 1138.38,
+    "duration": 6.419,
+    "text": "yeah these two numbers seven and six"
+  },
+  {
+    "start": 1142.64,
+    "duration": 5.659,
+    "text": "so you can see many many in t intervals"
+  },
+  {
+    "start": 1144.799,
+    "duration": 3.5,
+    "text": "may have some parts of your answer"
+  },
+  {
+    "start": 1153.14,
+    "duration": 3.0,
+    "text": "okay"
+  },
+  {
+    "start": 1157.1,
+    "duration": 3.72,
+    "text": "similarly when you go down and you go"
+  },
+  {
+    "start": 1158.72,
+    "duration": 4.86,
+    "text": "down you reach let's say four comma five"
+  },
+  {
+    "start": 1160.82,
+    "duration": 4.38,
+    "text": "and you'll be like hey is 4 comma 5 and"
+  },
+  {
+    "start": 1163.58,
+    "duration": 3.66,
+    "text": "the interval that I want is that"
+  },
+  {
+    "start": 1165.2,
+    "duration": 4.38,
+    "text": "overlapping or having something in"
+  },
+  {
+    "start": 1167.24,
+    "duration": 4.08,
+    "text": "common yes four comma 5 is totally"
+  },
+  {
+    "start": 1169.58,
+    "duration": 5.28,
+    "text": "inside"
+  },
+  {
+    "start": 1171.32,
+    "duration": 6.06,
+    "text": "the answer you want so I know that minus"
+  },
+  {
+    "start": 1174.86,
+    "duration": 4.88,
+    "text": "10 is definitely going to be a part of"
+  },
+  {
+    "start": 1177.38,
+    "duration": 2.36,
+    "text": "my answer"
+  },
+  {
+    "start": 1182.24,
+    "duration": 5.819,
+    "text": "because it's very common sense interval"
+  },
+  {
+    "start": 1185.24,
+    "duration": 5.939,
+    "text": "2 comma 6 you want the sum I can say"
+  },
+  {
+    "start": 1188.059,
+    "duration": 5.101,
+    "text": "that for example this is equal to"
+  },
+  {
+    "start": 1191.179,
+    "duration": 5.061,
+    "text": "multiple intervals"
+  },
+  {
+    "start": 1193.16,
+    "duration": 3.08,
+    "text": "a interval"
+  },
+  {
+    "start": 1196.94,
+    "duration": 5.88,
+    "text": "2 comma 3 plus interval 4 comma 6 for"
+  },
+  {
+    "start": 1200.78,
+    "duration": 5.46,
+    "text": "example 4 comma 5"
+  },
+  {
+    "start": 1202.82,
+    "duration": 5.64,
+    "text": "plus interval 6 comma six"
+  },
+  {
+    "start": 1206.24,
+    "duration": 4.439,
+    "text": "etcetera many cases"
+  },
+  {
+    "start": 1208.46,
+    "duration": 3.78,
+    "text": "it can be any case I am just given"
+  },
+  {
+    "start": 1210.679,
+    "duration": 4.141,
+    "text": "example"
+  },
+  {
+    "start": 1212.24,
+    "duration": 5.64,
+    "text": "example only"
+  },
+  {
+    "start": 1214.82,
+    "duration": 4.739,
+    "text": "so three cases what did we see"
+  },
+  {
+    "start": 1217.88,
+    "duration": 4.7,
+    "text": "case number one"
+  },
+  {
+    "start": 1219.559,
+    "duration": 3.021,
+    "text": "is let's say"
+  },
+  {
+    "start": 1223.179,
+    "duration": 5.401,
+    "text": "what what is case number one I'll write"
+  },
+  {
+    "start": 1225.559,
+    "duration": 3.021,
+    "text": "all the cases down here"
+  },
+  {
+    "start": 1229.76,
+    "duration": 3.2,
+    "text": "case number one is"
+  },
+  {
+    "start": 1237.5,
+    "duration": 4.82,
+    "text": "node interval lies inside my query"
+  },
+  {
+    "start": 1239.84,
+    "duration": 2.48,
+    "text": "interval"
+  },
+  {
+    "start": 1242.419,
+    "duration": 3.721,
+    "text": "node interval"
+  },
+  {
+    "start": 1243.98,
+    "duration": 5.18,
+    "text": "which is in the tree"
+  },
+  {
+    "start": 1246.14,
+    "duration": 3.02,
+    "text": "is inside"
+  },
+  {
+    "start": 1249.98,
+    "duration": 5.22,
+    "text": "query interval"
+  },
+  {
+    "start": 1252.86,
+    "duration": 4.62,
+    "text": "example"
+  },
+  {
+    "start": 1255.2,
+    "duration": 5.06,
+    "text": "4 comma 5."
+  },
+  {
+    "start": 1257.48,
+    "duration": 2.78,
+    "text": "this one"
+  },
+  {
+    "start": 1261.5,
+    "duration": 4.74,
+    "text": "okay in that case what do you do just"
+  },
+  {
+    "start": 1263.9,
+    "duration": 4.92,
+    "text": "return the answer because we need it we"
+  },
+  {
+    "start": 1266.24,
+    "duration": 5.12,
+    "text": "have included it so we need it"
+  },
+  {
+    "start": 1268.82,
+    "duration": 2.54,
+    "text": "okay"
+  },
+  {
+    "start": 1271.82,
+    "duration": 4.099,
+    "text": "so I'll just say return the answer"
+  },
+  {
+    "start": 1278.6,
+    "duration": 3.42,
+    "text": "return the"
+  },
+  {
+    "start": 1280.1,
+    "duration": 4.88,
+    "text": "value as we need it"
+  },
+  {
+    "start": 1282.02,
+    "duration": 2.96,
+    "text": "case number two"
+  },
+  {
+    "start": 1286.52,
+    "duration": 2.94,
+    "text": "it is seeing the type of possible cases"
+  },
+  {
+    "start": 1288.32,
+    "duration": 3.3,
+    "text": "this is what we did in linked list"
+  },
+  {
+    "start": 1289.46,
+    "duration": 4.68,
+    "text": "another also"
+  },
+  {
+    "start": 1291.62,
+    "duration": 5.34,
+    "text": "uh node interval is let's say completely"
+  },
+  {
+    "start": 1294.14,
+    "duration": 4.5,
+    "text": "outside the query interval"
+  },
+  {
+    "start": 1296.96,
+    "duration": 4.4,
+    "text": "okay"
+  },
+  {
+    "start": 1298.64,
+    "duration": 2.72,
+    "text": "hmm"
+  },
+  {
+    "start": 1301.419,
+    "duration": 3.901,
+    "text": "is completely"
+  },
+  {
+    "start": 1306.08,
+    "duration": 5.24,
+    "text": "outside"
+  },
+  {
+    "start": 1308.12,
+    "duration": 3.2,
+    "text": "query interval"
+  },
+  {
+    "start": 1312.559,
+    "duration": 4.201,
+    "text": "okay so for example"
+  },
+  {
+    "start": 1314.48,
+    "duration": 5.179,
+    "text": "node"
+  },
+  {
+    "start": 1316.76,
+    "duration": 2.899,
+    "text": "start index"
+  },
+  {
+    "start": 1319.7,
+    "duration": 6.02,
+    "text": "is greater than the"
+  },
+  {
+    "start": 1322.46,
+    "duration": 3.26,
+    "text": "queries and index"
+  },
+  {
+    "start": 1330.799,
+    "duration": 6.181,
+    "text": "okay so let's say for"
+  },
+  {
+    "start": 1332.9,
+    "duration": 7.74,
+    "text": "2 comma 6 you are at an interval called"
+  },
+  {
+    "start": 1336.98,
+    "duration": 6.12,
+    "text": "seven comma 8 or something I want the"
+  },
+  {
+    "start": 1340.64,
+    "duration": 4.019,
+    "text": "answer between two comma six now I am at"
+  },
+  {
+    "start": 1343.1,
+    "duration": 5.939,
+    "text": "an interval that is giving me the sum"
+  },
+  {
+    "start": 1344.659,
+    "duration": 7.221,
+    "text": "between 7 and 8 do I need it no"
+  },
+  {
+    "start": 1349.039,
+    "duration": 2.841,
+    "text": "I don't need it"
+  },
+  {
+    "start": 1354.919,
+    "duration": 4.281,
+    "text": "okay"
+  },
+  {
+    "start": 1356.6,
+    "duration": 2.6,
+    "text": "sounds good"
+  },
+  {
+    "start": 1359.419,
+    "duration": 4.38,
+    "text": "cool"
+  },
+  {
+    "start": 1361.4,
+    "duration": 5.84,
+    "text": "so what do you do in this question"
+  },
+  {
+    "start": 1363.799,
+    "duration": 3.441,
+    "text": "in this question in this case"
+  },
+  {
+    "start": 1368.059,
+    "duration": 5.181,
+    "text": "what do you do in this case return the"
+  },
+  {
+    "start": 1370.1,
+    "duration": 3.14,
+    "text": "default value of the query"
+  },
+  {
+    "start": 1381.559,
+    "duration": 6.86,
+    "text": "are we taking this sum no we don't want"
+  },
+  {
+    "start": 1384.02,
+    "duration": 4.399,
+    "text": "this sum so in this case it is 0."
+  },
+  {
+    "start": 1393.679,
+    "duration": 3.421,
+    "text": "let's say if you are finding the maximum"
+  },
+  {
+    "start": 1395.539,
+    "duration": 3.061,
+    "text": "item between a range"
+  },
+  {
+    "start": 1397.1,
+    "duration": 2.579,
+    "text": "then the default value is going to be"
+  },
+  {
+    "start": 1398.6,
+    "duration": 3.78,
+    "text": "equal to what"
+  },
+  {
+    "start": 1399.679,
+    "duration": 4.581,
+    "text": "integer dot Min value"
+  },
+  {
+    "start": 1402.38,
+    "duration": 5.22,
+    "text": "okay also"
+  },
+  {
+    "start": 1404.26,
+    "duration": 6.52,
+    "text": "or one more case if the node end"
+  },
+  {
+    "start": 1407.6,
+    "duration": 5.699,
+    "text": "interval is less than query start"
+  },
+  {
+    "start": 1410.78,
+    "duration": 5.279,
+    "text": "node end less than"
+  },
+  {
+    "start": 1413.299,
+    "duration": 4.081,
+    "text": "query start interval"
+  },
+  {
+    "start": 1416.059,
+    "duration": 4.081,
+    "text": "that's also another case let's say it"
+  },
+  {
+    "start": 1417.38,
+    "duration": 4.5,
+    "text": "lies on the left hand side"
+  },
+  {
+    "start": 1420.14,
+    "duration": 3.24,
+    "text": "okay so for example you're trying to"
+  },
+  {
+    "start": 1421.88,
+    "duration": 3.06,
+    "text": "find the answer between"
+  },
+  {
+    "start": 1423.38,
+    "duration": 4.32,
+    "text": "um"
+  },
+  {
+    "start": 1424.94,
+    "duration": 3.96,
+    "text": "3 comma 5. and you are landing at an"
+  },
+  {
+    "start": 1427.7,
+    "duration": 4.2,
+    "text": "index of"
+  },
+  {
+    "start": 1428.9,
+    "duration": 5.46,
+    "text": "0 comma 1 I will remove that 0 comma 2 I"
+  },
+  {
+    "start": 1431.9,
+    "duration": 6.68,
+    "text": "will remove that 1 comma 2 not needed"
+  },
+  {
+    "start": 1434.36,
+    "duration": 4.22,
+    "text": "but 1 comma 2 is not here anyway"
+  },
+  {
+    "start": 1438.919,
+    "duration": 4.981,
+    "text": "okay"
+  },
+  {
+    "start": 1440.96,
+    "duration": 5.94,
+    "text": "very simple third point"
+  },
+  {
+    "start": 1443.9,
+    "duration": 3.0,
+    "text": "overlapping"
+  },
+  {
+    "start": 1448.4,
+    "duration": 2.84,
+    "text": "overlapping"
+  },
+  {
+    "start": 1452.299,
+    "duration": 4.941,
+    "text": "for example"
+  },
+  {
+    "start": 1453.62,
+    "duration": 3.62,
+    "text": "if your query is 2 comma six"
+  },
+  {
+    "start": 1457.34,
+    "duration": 3.44,
+    "text": "then overlapping can be what"
+  },
+  {
+    "start": 1461.9,
+    "duration": 3.74,
+    "text": "0 comma three this one"
+  },
+  {
+    "start": 1466.46,
+    "duration": 3.02,
+    "text": "that's overlapping"
+  },
+  {
+    "start": 1470.36,
+    "duration": 3.86,
+    "text": "right zero comma three"
+  },
+  {
+    "start": 1474.38,
+    "duration": 4.5,
+    "text": "it does not have eight indices so I'll"
+  },
+  {
+    "start": 1476.179,
+    "duration": 4.5,
+    "text": "just put seven here"
+  },
+  {
+    "start": 1478.88,
+    "duration": 4.2,
+    "text": "let us say you have zero comma three so"
+  },
+  {
+    "start": 1480.679,
+    "duration": 4.441,
+    "text": "example can be"
+  },
+  {
+    "start": 1483.08,
+    "duration": 5.04,
+    "text": "zero comma 3 because it's overlapping as"
+  },
+  {
+    "start": 1485.12,
+    "duration": 6.059,
+    "text": "you can see over here overlapping"
+  },
+  {
+    "start": 1488.12,
+    "duration": 5.4,
+    "text": "this thing is overlapping"
+  },
+  {
+    "start": 1491.179,
+    "duration": 6.081,
+    "text": "right"
+  },
+  {
+    "start": 1493.52,
+    "duration": 3.74,
+    "text": "so what do we do in case of overlapping"
+  },
+  {
+    "start": 1497.38,
+    "duration": 5.919,
+    "text": "however it's overlapping you can ask the"
+  },
+  {
+    "start": 1500.539,
+    "duration": 4.38,
+    "text": "left and the right node to give the"
+  },
+  {
+    "start": 1503.299,
+    "duration": 4.76,
+    "text": "answers and then you can just reduce the"
+  },
+  {
+    "start": 1504.919,
+    "duration": 3.14,
+    "text": "answer from these two values"
+  },
+  {
+    "start": 1510.08,
+    "duration": 4.56,
+    "text": "let's see okay so what that basically"
+  },
+  {
+    "start": 1512.539,
+    "duration": 3.181,
+    "text": "means is let's say you're at zero comma"
+  },
+  {
+    "start": 1514.64,
+    "duration": 2.94,
+    "text": "seven"
+  },
+  {
+    "start": 1515.72,
+    "duration": 4.92,
+    "text": "okay let's say you start at 0 comma"
+  },
+  {
+    "start": 1517.58,
+    "duration": 6.479,
+    "text": "seven and you're given let's say 2 comma"
+  },
+  {
+    "start": 1520.64,
+    "duration": 6.539,
+    "text": "six okay so you go on the left hand side"
+  },
+  {
+    "start": 1524.059,
+    "duration": 5.581,
+    "text": "and you're like hey or for first for 0"
+  },
+  {
+    "start": 1527.179,
+    "duration": 4.38,
+    "text": "comma seven for example Kunal what is"
+  },
+  {
+    "start": 1529.64,
+    "duration": 6.139,
+    "text": "the case one two or three four zero"
+  },
+  {
+    "start": 1531.559,
+    "duration": 4.22,
+    "text": "comma seven it is third case"
+  },
+  {
+    "start": 1536.419,
+    "duration": 4.801,
+    "text": "because it is partial overlapping so you"
+  },
+  {
+    "start": 1538.64,
+    "duration": 4.56,
+    "text": "can see I want 2 comma six"
+  },
+  {
+    "start": 1541.22,
+    "duration": 4.92,
+    "text": "and it's giving me 0 comma seven now"
+  },
+  {
+    "start": 1543.2,
+    "duration": 4.5,
+    "text": "it's completely inside it uh like if we"
+  },
+  {
+    "start": 1546.14,
+    "duration": 4.139,
+    "text": "have an overlapping not partial"
+  },
+  {
+    "start": 1547.7,
+    "duration": 4.32,
+    "text": "overlapping this is full overlapping so"
+  },
+  {
+    "start": 1550.279,
+    "duration": 4.081,
+    "text": "this is case number three we have"
+  },
+  {
+    "start": 1552.02,
+    "duration": 4.74,
+    "text": "overlapping"
+  },
+  {
+    "start": 1554.36,
+    "duration": 4.14,
+    "text": "um like the entire query that I want is"
+  },
+  {
+    "start": 1556.76,
+    "duration": 3.779,
+    "text": "inside the answer"
+  },
+  {
+    "start": 1558.5,
+    "duration": 4.74,
+    "text": "so it's going to be like okay do one"
+  },
+  {
+    "start": 1560.539,
+    "duration": 3.421,
+    "text": "thing ask your left hand and right hand"
+  },
+  {
+    "start": 1563.24,
+    "duration": 3.419,
+    "text": "side"
+  },
+  {
+    "start": 1563.96,
+    "duration": 4.38,
+    "text": "that is what you have to do"
+  },
+  {
+    "start": 1566.659,
+    "duration": 3.12,
+    "text": "ask the left hand side and right hand"
+  },
+  {
+    "start": 1568.34,
+    "duration": 3.36,
+    "text": "side to give their answers and then"
+  },
+  {
+    "start": 1569.779,
+    "duration": 4.26,
+    "text": "reduce your answer from this this is how"
+  },
+  {
+    "start": 1571.7,
+    "duration": 3.66,
+    "text": "the recursion tree will grow"
+  },
+  {
+    "start": 1574.039,
+    "duration": 4.681,
+    "text": "so it's going okay I will go on the left"
+  },
+  {
+    "start": 1575.36,
+    "duration": 4.679,
+    "text": "hand side first 0 comma 3 this is again"
+  },
+  {
+    "start": 1578.72,
+    "duration": 3.18,
+    "text": "overlapping"
+  },
+  {
+    "start": 1580.039,
+    "duration": 3.24,
+    "text": "again it will ask left hand side and"
+  },
+  {
+    "start": 1581.9,
+    "duration": 4.62,
+    "text": "right hand side"
+  },
+  {
+    "start": 1583.279,
+    "duration": 5.961,
+    "text": "0 comma 1 this is outside"
+  },
+  {
+    "start": 1586.52,
+    "duration": 2.72,
+    "text": "case number"
+  },
+  {
+    "start": 1590.419,
+    "duration": 4.561,
+    "text": "two"
+  },
+  {
+    "start": 1591.5,
+    "duration": 5.1,
+    "text": "so ignore it will stop over here"
+  },
+  {
+    "start": 1594.98,
+    "duration": 4.92,
+    "text": "2 comma 3"
+  },
+  {
+    "start": 1596.6,
+    "duration": 5.22,
+    "text": "totally overlapping return it"
+  },
+  {
+    "start": 1599.9,
+    "duration": 4.8,
+    "text": "so as you can see what happened"
+  },
+  {
+    "start": 1601.82,
+    "duration": 5.04,
+    "text": "we started from here 0 comma 3 it"
+  },
+  {
+    "start": 1604.7,
+    "duration": 4.44,
+    "text": "automatically removed 0 comma one can"
+  },
+  {
+    "start": 1606.86,
+    "duration": 4.319,
+    "text": "you see that"
+  },
+  {
+    "start": 1609.14,
+    "duration": 4.2,
+    "text": "and it only Returns the one we want 2"
+  },
+  {
+    "start": 1611.179,
+    "duration": 4.38,
+    "text": "comma three now we know that the rest"
+  },
+  {
+    "start": 1613.34,
+    "duration": 4.14,
+    "text": "hand rest of the ones lie on the right"
+  },
+  {
+    "start": 1615.559,
+    "duration": 4.921,
+    "text": "hand side of the root whatever we"
+  },
+  {
+    "start": 1617.48,
+    "duration": 4.679,
+    "text": "divided it with so 4 comma 7 4 comma"
+  },
+  {
+    "start": 1620.48,
+    "duration": 3.42,
+    "text": "seven is again overlapping it's going to"
+  },
+  {
+    "start": 1622.159,
+    "duration": 3.541,
+    "text": "be like okay no problem give me the"
+  },
+  {
+    "start": 1623.9,
+    "duration": 5.22,
+    "text": "answer of the"
+  },
+  {
+    "start": 1625.7,
+    "duration": 5.459,
+    "text": "you know give me the answer of"
+  },
+  {
+    "start": 1629.12,
+    "duration": 3.179,
+    "text": "um or your left and right and we will"
+  },
+  {
+    "start": 1631.159,
+    "duration": 2.221,
+    "text": "take it from there okay it will be like"
+  },
+  {
+    "start": 1632.299,
+    "duration": 3.781,
+    "text": "left"
+  },
+  {
+    "start": 1633.38,
+    "duration": 5.22,
+    "text": "left it's going to be like um"
+  },
+  {
+    "start": 1636.08,
+    "duration": 6.74,
+    "text": "so first again this will for example"
+  },
+  {
+    "start": 1638.6,
+    "duration": 4.22,
+    "text": "first of all this will just return 13."
+  },
+  {
+    "start": 1642.919,
+    "duration": 4.26,
+    "text": "okay it's very simple let me change the"
+  },
+  {
+    "start": 1645.08,
+    "duration": 6.12,
+    "text": "color and write it down again"
+  },
+  {
+    "start": 1647.179,
+    "duration": 7.461,
+    "text": "so 2 comma 6 I'm starting from here"
+  },
+  {
+    "start": 1651.2,
+    "duration": 3.44,
+    "text": "starting from here"
+  },
+  {
+    "start": 1660.98,
+    "duration": 4.38,
+    "text": "okay this is what this is case number"
+  },
+  {
+    "start": 1663.559,
+    "duration": 3.181,
+    "text": "three overlapping so it's going to be"
+  },
+  {
+    "start": 1665.36,
+    "duration": 3.54,
+    "text": "like okay give right hand side and left"
+  },
+  {
+    "start": 1666.74,
+    "duration": 4.14,
+    "text": "hand side give me your answer okay I am"
+  },
+  {
+    "start": 1668.9,
+    "duration": 3.24,
+    "text": "inside it overlapping some some are"
+  },
+  {
+    "start": 1670.88,
+    "duration": 3.06,
+    "text": "overlapping some I need to remove you"
+  },
+  {
+    "start": 1672.14,
+    "duration": 4.08,
+    "text": "give me the answer okay it's going to be"
+  },
+  {
+    "start": 1673.94,
+    "duration": 4.56,
+    "text": "like okay let me go let me go here first"
+  },
+  {
+    "start": 1676.22,
+    "duration": 4.68,
+    "text": "so 0 comma 3 again case number three"
+  },
+  {
+    "start": 1678.5,
+    "duration": 5.159,
+    "text": "overlapping it will be okay let me ask"
+  },
+  {
+    "start": 1680.9,
+    "duration": 5.879,
+    "text": "my children 0 comma one this is total"
+  },
+  {
+    "start": 1683.659,
+    "duration": 4.741,
+    "text": "ignore it will return 0."
+  },
+  {
+    "start": 1686.779,
+    "duration": 4.741,
+    "text": "2 comma 3"
+  },
+  {
+    "start": 1688.4,
+    "duration": 4.86,
+    "text": "it is totally inside 2 comma six return"
+  },
+  {
+    "start": 1691.52,
+    "duration": 4.74,
+    "text": "the answer"
+  },
+  {
+    "start": 1693.26,
+    "duration": 5.159,
+    "text": "this will return 13. so the answer will"
+  },
+  {
+    "start": 1696.26,
+    "duration": 4.62,
+    "text": "be what left plus right is the answer"
+  },
+  {
+    "start": 1698.419,
+    "duration": 3.901,
+    "text": "because we are taking plus so whatever"
+  },
+  {
+    "start": 1700.88,
+    "duration": 3.24,
+    "text": "left answer you get whatever light"
+  },
+  {
+    "start": 1702.32,
+    "duration": 4.38,
+    "text": "answer you get plus it I hope that plus"
+  },
+  {
+    "start": 1704.12,
+    "duration": 4.08,
+    "text": "is clear why we are adding two num all"
+  },
+  {
+    "start": 1706.7,
+    "duration": 2.94,
+    "text": "the two answers from left tree in the"
+  },
+  {
+    "start": 1708.2,
+    "duration": 4.32,
+    "text": "right tree because that's the question"
+  },
+  {
+    "start": 1709.64,
+    "duration": 3.659,
+    "text": "you know and this thing this logic in"
+  },
+  {
+    "start": 1712.52,
+    "duration": 3.3,
+    "text": "blue"
+  },
+  {
+    "start": 1713.299,
+    "duration": 5.041,
+    "text": "this logic in blue that I just wrote you"
+  },
+  {
+    "start": 1715.82,
+    "duration": 5.82,
+    "text": "can break down intervals okay so this"
+  },
+  {
+    "start": 1718.34,
+    "duration": 6.18,
+    "text": "value here is 13 it will return 13. if"
+  },
+  {
+    "start": 1721.64,
+    "duration": 5.7,
+    "text": "like hey 0 comma 7 root node when you"
+  },
+  {
+    "start": 1724.52,
+    "duration": 6.899,
+    "text": "divided Me by 2 and my left child was 0"
+  },
+  {
+    "start": 1727.34,
+    "duration": 7.1,
+    "text": "comma 3 only 13 exists that is true 7"
+  },
+  {
+    "start": 1731.419,
+    "duration": 3.021,
+    "text": "plus 6 is 13."
+  },
+  {
+    "start": 1737.74,
+    "duration": 4.78,
+    "text": "again case number three overlapping then"
+  },
+  {
+    "start": 1740.72,
+    "duration": 3.48,
+    "text": "it will go here"
+  },
+  {
+    "start": 1742.52,
+    "duration": 3.8,
+    "text": "it will go on the left hand side and"
+  },
+  {
+    "start": 1744.2,
+    "duration": 4.14,
+    "text": "right hand side so in the left hand side"
+  },
+  {
+    "start": 1746.32,
+    "duration": 4.66,
+    "text": "it's uh"
+  },
+  {
+    "start": 1748.34,
+    "duration": 4.199,
+    "text": "gonna say four comma 5 4 comma 5 is"
+  },
+  {
+    "start": 1750.98,
+    "duration": 4.4,
+    "text": "again totally inside it so just return"
+  },
+  {
+    "start": 1752.539,
+    "duration": 2.841,
+    "text": "minus 10."
+  },
+  {
+    "start": 1755.6,
+    "duration": 3.959,
+    "text": "and then"
+  },
+  {
+    "start": 1757.4,
+    "duration": 5.34,
+    "text": "it's going to be like let me try right"
+  },
+  {
+    "start": 1759.559,
+    "duration": 6.661,
+    "text": "hand side now 6 comma seven six comma 7"
+  },
+  {
+    "start": 1762.74,
+    "duration": 5.4,
+    "text": "is again overlapping"
+  },
+  {
+    "start": 1766.22,
+    "duration": 5.16,
+    "text": "it's going to be on the left hand side 6"
+  },
+  {
+    "start": 1768.14,
+    "duration": 6.419,
+    "text": "yeah just return four seven seven is"
+  },
+  {
+    "start": 1771.38,
+    "duration": 6.659,
+    "text": "again case number three so just return 0"
+  },
+  {
+    "start": 1774.559,
+    "duration": 5.641,
+    "text": "4 plus 0 4 this will value before"
+  },
+  {
+    "start": 1778.039,
+    "duration": 5.821,
+    "text": "it will return 4."
+  },
+  {
+    "start": 1780.2,
+    "duration": 8.339,
+    "text": "here very simple then 10 minus 10 plus 4"
+  },
+  {
+    "start": 1783.86,
+    "duration": 8.16,
+    "text": "minus 6 this value is minus 6."
+  },
+  {
+    "start": 1788.539,
+    "duration": 6.841,
+    "text": "then minus 6 plus 13"
+  },
+  {
+    "start": 1792.02,
+    "duration": 6.72,
+    "text": "or is minus 6 plus 13 or 13 minus 6."
+  },
+  {
+    "start": 1795.38,
+    "duration": 7.26,
+    "text": "7 answer is seven seven plus six"
+  },
+  {
+    "start": 1798.74,
+    "duration": 8.1,
+    "text": "thirteen minus 2 11"
+  },
+  {
+    "start": 1802.64,
+    "duration": 7.159,
+    "text": "plus uh 4 is minus 2 11"
+  },
+  {
+    "start": 1806.84,
+    "duration": 2.959,
+    "text": "minus 8"
+  },
+  {
+    "start": 1810.08,
+    "duration": 4.219,
+    "text": "three"
+  },
+  {
+    "start": 1811.399,
+    "duration": 2.9,
+    "text": "plus four seven"
+  },
+  {
+    "start": 1815.179,
+    "duration": 2.541,
+    "text": "simple"
+  },
+  {
+    "start": 1821.96,
+    "duration": 4.02,
+    "text": "answer"
+  },
+  {
+    "start": 1823.82,
+    "duration": 4.92,
+    "text": "so here you can see that my array 2"
+  },
+  {
+    "start": 1825.98,
+    "duration": 5.72,
+    "text": "comma 6 was divided into"
+  },
+  {
+    "start": 1828.74,
+    "duration": 2.96,
+    "text": "2 comma 3"
+  },
+  {
+    "start": 1832.399,
+    "duration": 2.541,
+    "text": "Plus"
+  },
+  {
+    "start": 1837.799,
+    "duration": 5.841,
+    "text": "4 comma 5"
+  },
+  {
+    "start": 1840.5,
+    "duration": 3.14,
+    "text": "plus 6 comma six"
+  },
+  {
+    "start": 1844.399,
+    "duration": 3.66,
+    "text": "that is why we are adding all of this"
+  },
+  {
+    "start": 1846.14,
+    "duration": 3.48,
+    "text": "that is why we are adding"
+  },
+  {
+    "start": 1848.059,
+    "duration": 3.48,
+    "text": "because these are just broken down"
+  },
+  {
+    "start": 1849.62,
+    "duration": 3.9,
+    "text": "indices so we need the sum so we just"
+  },
+  {
+    "start": 1851.539,
+    "duration": 3.721,
+    "text": "need to add if you want to multiply you"
+  },
+  {
+    "start": 1853.52,
+    "duration": 3.36,
+    "text": "will multiply if you find the maximum"
+  },
+  {
+    "start": 1855.26,
+    "duration": 3.48,
+    "text": "item you will compare the maximum item"
+  },
+  {
+    "start": 1856.88,
+    "duration": 3.659,
+    "text": "of both the two whatever is maximum"
+  },
+  {
+    "start": 1858.74,
+    "duration": 4.14,
+    "text": "return or whatever"
+  },
+  {
+    "start": 1860.539,
+    "duration": 4.62,
+    "text": "very simple question was let's say find"
+  },
+  {
+    "start": 1862.88,
+    "duration": 3.84,
+    "text": "maximum item between two and six in that"
+  },
+  {
+    "start": 1865.159,
+    "duration": 4.321,
+    "text": "case you will just return whatever the"
+  },
+  {
+    "start": 1866.72,
+    "duration": 5.42,
+    "text": "maximum is from these two"
+  },
+  {
+    "start": 1869.48,
+    "duration": 2.66,
+    "text": "very simple"
+  },
+  {
+    "start": 1872.539,
+    "duration": 4.74,
+    "text": "cool simple segmentary"
+  },
+  {
+    "start": 1875.419,
+    "duration": 4.021,
+    "text": "and how long does it take worst case"
+  },
+  {
+    "start": 1877.279,
+    "duration": 3.481,
+    "text": "worst case would be login because the"
+  },
+  {
+    "start": 1879.44,
+    "duration": 3.979,
+    "text": "height of the tree is login because it's"
+  },
+  {
+    "start": 1880.76,
+    "duration": 2.659,
+    "text": "a binary tree"
+  },
+  {
+    "start": 1884.179,
+    "duration": 4.441,
+    "text": "cuckoo"
+  },
+  {
+    "start": 1886.399,
+    "duration": 4.321,
+    "text": "okay"
+  },
+  {
+    "start": 1888.62,
+    "duration": 3.84,
+    "text": "so it's very simple nothing else ah is"
+  },
+  {
+    "start": 1890.72,
+    "duration": 3.54,
+    "text": "remaining here this one thing is"
+  },
+  {
+    "start": 1892.46,
+    "duration": 3.719,
+    "text": "remaining updating how to update in log"
+  },
+  {
+    "start": 1894.26,
+    "duration": 5.039,
+    "text": "time"
+  },
+  {
+    "start": 1896.179,
+    "duration": 6.321,
+    "text": "how to update"
+  },
+  {
+    "start": 1899.299,
+    "duration": 3.201,
+    "text": "in O of"
+  },
+  {
+    "start": 1903.14,
+    "duration": 3.419,
+    "text": "login time"
+  },
+  {
+    "start": 1904.64,
+    "duration": 4.74,
+    "text": "so let's say we need to change the index"
+  },
+  {
+    "start": 1906.559,
+    "duration": 4.5,
+    "text": "number three with 14. okay"
+  },
+  {
+    "start": 1909.38,
+    "duration": 5.24,
+    "text": "change"
+  },
+  {
+    "start": 1911.059,
+    "duration": 3.561,
+    "text": "index 3 with 14."
+  },
+  {
+    "start": 1917.299,
+    "duration": 5.041,
+    "text": "index number three"
+  },
+  {
+    "start": 1919.1,
+    "duration": 5.28,
+    "text": "with 14."
+  },
+  {
+    "start": 1922.34,
+    "duration": 4.8,
+    "text": "something like that so index number"
+  },
+  {
+    "start": 1924.38,
+    "duration": 6.899,
+    "text": "three here we have is"
+  },
+  {
+    "start": 1927.14,
+    "duration": 7.019,
+    "text": "value is 6 we have to change it to 14."
+  },
+  {
+    "start": 1931.279,
+    "duration": 5.581,
+    "text": "so first of all we will check"
+  },
+  {
+    "start": 1934.159,
+    "duration": 4.861,
+    "text": "whether the index that we are trying to"
+  },
+  {
+    "start": 1936.86,
+    "duration": 6.6,
+    "text": "change lies in the range or not in the"
+  },
+  {
+    "start": 1939.02,
+    "duration": 4.44,
+    "text": "node interval Okay so"
+  },
+  {
+    "start": 1945.98,
+    "duration": 5.52,
+    "text": "this is just precaution"
+  },
+  {
+    "start": 1949.039,
+    "duration": 5.52,
+    "text": "index"
+  },
+  {
+    "start": 1951.5,
+    "duration": 4.679,
+    "text": "lies in"
+  },
+  {
+    "start": 1954.559,
+    "duration": 3.781,
+    "text": "interval"
+  },
+  {
+    "start": 1956.179,
+    "duration": 4.401,
+    "text": "so interval is what of the array 0 comma"
+  },
+  {
+    "start": 1958.34,
+    "duration": 2.24,
+    "text": "seven"
+  },
+  {
+    "start": 1961.34,
+    "duration": 2.6,
+    "text": "if yes"
+  },
+  {
+    "start": 1965.179,
+    "duration": 3.021,
+    "text": "what do we need to do"
+  },
+  {
+    "start": 1975.08,
+    "duration": 6.0,
+    "text": "something you have to take care of it"
+  },
+  {
+    "start": 1977.779,
+    "duration": 5.52,
+    "text": "something you have to take care here um"
+  },
+  {
+    "start": 1981.08,
+    "duration": 4.44,
+    "text": "3 comma 7 right sorry three I have to"
+  },
+  {
+    "start": 1983.299,
+    "duration": 5.161,
+    "text": "update with 14."
+  },
+  {
+    "start": 1985.52,
+    "duration": 5.039,
+    "text": "so you can see 3 is here in the"
+  },
+  {
+    "start": 1988.46,
+    "duration": 3.839,
+    "text": "left hand side it is not in the right"
+  },
+  {
+    "start": 1990.559,
+    "duration": 4.5,
+    "text": "hand side"
+  },
+  {
+    "start": 1992.299,
+    "duration": 5.521,
+    "text": "and three here"
+  },
+  {
+    "start": 1995.059,
+    "duration": 4.261,
+    "text": "if I talk about three in the blue"
+  },
+  {
+    "start": 1997.82,
+    "duration": 4.14,
+    "text": "like this"
+  },
+  {
+    "start": 1999.32,
+    "duration": 4.44,
+    "text": "here"
+  },
+  {
+    "start": 2001.96,
+    "duration": 4.579,
+    "text": "here"
+  },
+  {
+    "start": 2003.76,
+    "duration": 2.779,
+    "text": "and here"
+  },
+  {
+    "start": 2007.48,
+    "duration": 7.14,
+    "text": "so you know that in no one level you"
+  },
+  {
+    "start": 2011.62,
+    "duration": 4.74,
+    "text": "will have an index in multiple nodes at"
+  },
+  {
+    "start": 2014.62,
+    "duration": 4.919,
+    "text": "one single level"
+  },
+  {
+    "start": 2016.36,
+    "duration": 5.28,
+    "text": "very clear it's not like if 3 is here 3"
+  },
+  {
+    "start": 2019.539,
+    "duration": 4.02,
+    "text": "will also be somewhere here or if 3 is"
+  },
+  {
+    "start": 2021.64,
+    "duration": 3.06,
+    "text": "here 3 will also be somewhere here or"
+  },
+  {
+    "start": 2023.559,
+    "duration": 3.181,
+    "text": "here no"
+  },
+  {
+    "start": 2024.7,
+    "duration": 4.52,
+    "text": "3 will only be in one node at a"
+  },
+  {
+    "start": 2026.74,
+    "duration": 2.48,
+    "text": "particular level"
+  },
+  {
+    "start": 2031.72,
+    "duration": 3.559,
+    "text": "one node at a particular level"
+  },
+  {
+    "start": 2036.539,
+    "duration": 5.221,
+    "text": "so let's think about it how to solve"
+  },
+  {
+    "start": 2039.7,
+    "duration": 2.06,
+    "text": "this"
+  },
+  {
+    "start": 2041.86,
+    "duration": 4.799,
+    "text": "what are we going to do"
+  },
+  {
+    "start": 2044.14,
+    "duration": 7.279,
+    "text": "we know it lies in 0 comma seven okay"
+  },
+  {
+    "start": 2046.659,
+    "duration": 4.76,
+    "text": "now we will pass it to our child nodes"
+  },
+  {
+    "start": 2052.659,
+    "duration": 4.561,
+    "text": "and just ask them to update"
+  },
+  {
+    "start": 2054.94,
+    "duration": 5.64,
+    "text": "do you have any other option no because"
+  },
+  {
+    "start": 2057.22,
+    "duration": 5.639,
+    "text": "if 3 is here 3 is here 3 is here then"
+  },
+  {
+    "start": 2060.58,
+    "duration": 6.259,
+    "text": "these answers will change"
+  },
+  {
+    "start": 2062.859,
+    "duration": 3.98,
+    "text": "you know these answers will change"
+  },
+  {
+    "start": 2068.679,
+    "duration": 4.381,
+    "text": "if 3 does not lie in the child node for"
+  },
+  {
+    "start": 2070.78,
+    "duration": 4.819,
+    "text": "example here 3 does not lie in this"
+  },
+  {
+    "start": 2073.06,
+    "duration": 5.839,
+    "text": "interval then"
+  },
+  {
+    "start": 2075.599,
+    "duration": 3.3,
+    "text": "don't do anything"
+  },
+  {
+    "start": 2079.3,
+    "duration": 4.02,
+    "text": "just return whatever value you already"
+  },
+  {
+    "start": 2081.099,
+    "duration": 5.701,
+    "text": "originally have"
+  },
+  {
+    "start": 2083.32,
+    "duration": 6.72,
+    "text": "hence it will not really update it"
+  },
+  {
+    "start": 2086.8,
+    "duration": 5.579,
+    "text": "but if the value needs to be changed"
+  },
+  {
+    "start": 2090.04,
+    "duration": 4.819,
+    "text": "then you have to update that value then"
+  },
+  {
+    "start": 2092.379,
+    "duration": 2.48,
+    "text": "return it"
+  },
+  {
+    "start": 2096.76,
+    "duration": 4.26,
+    "text": "very simple we will write the code and"
+  },
+  {
+    "start": 2098.74,
+    "duration": 3.48,
+    "text": "you will understand"
+  },
+  {
+    "start": 2101.02,
+    "duration": 3.0,
+    "text": "so let's say you start from here you're"
+  },
+  {
+    "start": 2102.22,
+    "duration": 3.48,
+    "text": "like hey update index number three okay"
+  },
+  {
+    "start": 2104.02,
+    "duration": 3.12,
+    "text": "index number three lies in zero comma"
+  },
+  {
+    "start": 2105.7,
+    "duration": 3.18,
+    "text": "seven yes check to check left hand side"
+  },
+  {
+    "start": 2107.14,
+    "duration": 3.18,
+    "text": "and right hand side left hand side will"
+  },
+  {
+    "start": 2108.88,
+    "duration": 3.719,
+    "text": "be like or right hand side you'll like"
+  },
+  {
+    "start": 2110.32,
+    "duration": 4.68,
+    "text": "just index comma 3 line right hand side"
+  },
+  {
+    "start": 2112.599,
+    "duration": 4.201,
+    "text": "no it is on check left hand side index"
+  },
+  {
+    "start": 2115.0,
+    "duration": 3.359,
+    "text": "call 0 comma three line the"
+  },
+  {
+    "start": 2116.8,
+    "duration": 3.779,
+    "text": "left hand side"
+  },
+  {
+    "start": 2118.359,
+    "duration": 5.281,
+    "text": "yes it does"
+  },
+  {
+    "start": 2120.579,
+    "duration": 4.681,
+    "text": "okay then it's gonna be like"
+  },
+  {
+    "start": 2123.64,
+    "duration": 4.4,
+    "text": "does it lie in the left hand side or"
+  },
+  {
+    "start": 2125.26,
+    "duration": 2.78,
+    "text": "right hand side of this"
+  },
+  {
+    "start": 2129.82,
+    "duration": 2.539,
+    "text": "hmm"
+  },
+  {
+    "start": 2134.26,
+    "duration": 3.3,
+    "text": "check does it lie in the left hand side"
+  },
+  {
+    "start": 2135.88,
+    "duration": 3.66,
+    "text": "or right hand side of this"
+  },
+  {
+    "start": 2137.56,
+    "duration": 3.66,
+    "text": "24 0 comma three is going to be like no"
+  },
+  {
+    "start": 2139.54,
+    "duration": 3.66,
+    "text": "not in the left hand side yes in the"
+  },
+  {
+    "start": 2141.22,
+    "duration": 4.26,
+    "text": "right hand side okay then it's going to"
+  },
+  {
+    "start": 2143.2,
+    "duration": 4.68,
+    "text": "be like does it lie in the left hand"
+  },
+  {
+    "start": 2145.48,
+    "duration": 4.02,
+    "text": "side so it will just if it says no it"
+  },
+  {
+    "start": 2147.88,
+    "duration": 4.26,
+    "text": "will just return whatever the original"
+  },
+  {
+    "start": 2149.5,
+    "duration": 4.32,
+    "text": "value is 11. it's going to be like in"
+  },
+  {
+    "start": 2152.14,
+    "duration": 3.06,
+    "text": "third in zero two comma three does it"
+  },
+  {
+    "start": 2153.82,
+    "duration": 3.18,
+    "text": "guide on the left hand side no return"
+  },
+  {
+    "start": 2155.2,
+    "duration": 3.78,
+    "text": "the original value does it lie on the"
+  },
+  {
+    "start": 2157.0,
+    "duration": 5.16,
+    "text": "right hand side at one point of time you"
+  },
+  {
+    "start": 2158.98,
+    "duration": 4.68,
+    "text": "will have that index in the leaf node so"
+  },
+  {
+    "start": 2162.16,
+    "duration": 3.36,
+    "text": "it will go through the entire tree till"
+  },
+  {
+    "start": 2163.66,
+    "duration": 5.1,
+    "text": "the leaf node so as I'm giving the"
+  },
+  {
+    "start": 2165.52,
+    "duration": 4.92,
+    "text": "example does it lie uh"
+  },
+  {
+    "start": 2168.76,
+    "duration": 5.66,
+    "text": "now now here this is the base Condition"
+  },
+  {
+    "start": 2170.44,
+    "duration": 3.98,
+    "text": "it's going to say that um"
+  },
+  {
+    "start": 2174.579,
+    "duration": 2.721,
+    "text": "over here"
+  },
+  {
+    "start": 2178.9,
+    "duration": 5.179,
+    "text": "you can say"
+  },
+  {
+    "start": 2180.88,
+    "duration": 3.199,
+    "text": "that um"
+  },
+  {
+    "start": 2186.7,
+    "duration": 5.12,
+    "text": "now the new value if this is"
+  },
+  {
+    "start": 2189.099,
+    "duration": 2.721,
+    "text": "14."
+  },
+  {
+    "start": 2192.099,
+    "duration": 4.161,
+    "text": "now the new value is let's say 14."
+  },
+  {
+    "start": 2196.9,
+    "duration": 4.439,
+    "text": "okay"
+  },
+  {
+    "start": 2198.82,
+    "duration": 6.56,
+    "text": "so when you go up okay so it will be now"
+  },
+  {
+    "start": 2201.339,
+    "duration": 6.301,
+    "text": "equal to let's say 14 and it will return"
+  },
+  {
+    "start": 2205.38,
+    "duration": 3.52,
+    "text": "14. so obviously now the new value for"
+  },
+  {
+    "start": 2207.64,
+    "duration": 4.26,
+    "text": "this will be equal to what left plus"
+  },
+  {
+    "start": 2208.9,
+    "duration": 9.439,
+    "text": "right 7 plus 14"
+  },
+  {
+    "start": 2211.9,
+    "duration": 6.439,
+    "text": "21 so you'll be 21 similarly 11 plus 21"
+  },
+  {
+    "start": 2219.4,
+    "duration": 3.12,
+    "text": "32"
+  },
+  {
+    "start": 2220.66,
+    "duration": 3.419,
+    "text": "32."
+  },
+  {
+    "start": 2222.52,
+    "duration": 5.22,
+    "text": "similarly"
+  },
+  {
+    "start": 2224.079,
+    "duration": 7.02,
+    "text": "32 plus 3 is going to be like hey"
+  },
+  {
+    "start": 2227.74,
+    "duration": 5.16,
+    "text": "um does 3 lie in 4 comma 7 no it doesn't"
+  },
+  {
+    "start": 2231.099,
+    "duration": 5.121,
+    "text": "just return three"
+  },
+  {
+    "start": 2232.9,
+    "duration": 3.32,
+    "text": "32 plus 335"
+  },
+  {
+    "start": 2237.099,
+    "duration": 5.821,
+    "text": "updation very simple"
+  },
+  {
+    "start": 2238.9,
+    "duration": 6.36,
+    "text": "start from the top check the child if it"
+  },
+  {
+    "start": 2242.92,
+    "duration": 4.62,
+    "text": "is lying totally outside if my index if"
+  },
+  {
+    "start": 2245.26,
+    "duration": 4.92,
+    "text": "my index that I want to update is not"
+  },
+  {
+    "start": 2247.54,
+    "duration": 4.44,
+    "text": "lying in the range of that node just"
+  },
+  {
+    "start": 2250.18,
+    "duration": 4.88,
+    "text": "written because nothing needs to be"
+  },
+  {
+    "start": 2251.98,
+    "duration": 3.08,
+    "text": "changed so just return the value"
+  },
+  {
+    "start": 2255.099,
+    "duration": 4.26,
+    "text": "but if it lies in it then keep going"
+  },
+  {
+    "start": 2257.02,
+    "duration": 3.78,
+    "text": "down keep going down in the end you will"
+  },
+  {
+    "start": 2259.359,
+    "duration": 3.061,
+    "text": "find that index you will update it and"
+  },
+  {
+    "start": 2260.8,
+    "duration": 3.24,
+    "text": "then automatically it will update all"
+  },
+  {
+    "start": 2262.42,
+    "duration": 5.3,
+    "text": "the ones like I did right now over here"
+  },
+  {
+    "start": 2264.04,
+    "duration": 3.68,
+    "text": "plus plus"
+  },
+  {
+    "start": 2269.8,
+    "duration": 4.2,
+    "text": "just following this Trail what is the"
+  },
+  {
+    "start": 2272.079,
+    "duration": 4.981,
+    "text": "length of this Trail log of n time"
+  },
+  {
+    "start": 2274.0,
+    "duration": 5.579,
+    "text": "complexity log of n"
+  },
+  {
+    "start": 2277.06,
+    "duration": 5.58,
+    "text": "very simple okay"
+  },
+  {
+    "start": 2279.579,
+    "duration": 5.101,
+    "text": "I did a dry run of the example twice I"
+  },
+  {
+    "start": 2282.64,
+    "duration": 3.719,
+    "text": "did I run off update also I think update"
+  },
+  {
+    "start": 2284.68,
+    "duration": 4.5,
+    "text": "is should be pretty clear I explained"
+  },
+  {
+    "start": 2286.359,
+    "duration": 4.621,
+    "text": "the steps also I will write down I will"
+  },
+  {
+    "start": 2289.18,
+    "duration": 3.96,
+    "text": "write down steps"
+  },
+  {
+    "start": 2290.98,
+    "duration": 3.3,
+    "text": "if yes"
+  },
+  {
+    "start": 2293.14,
+    "duration": 3.8,
+    "text": "okay"
+  },
+  {
+    "start": 2294.28,
+    "duration": 2.66,
+    "text": "then"
+  },
+  {
+    "start": 2298.839,
+    "duration": 2.481,
+    "text": "check"
+  },
+  {
+    "start": 2303.099,
+    "duration": 2.841,
+    "text": "child nodes"
+  },
+  {
+    "start": 2306.46,
+    "duration": 4.379,
+    "text": "if child"
+  },
+  {
+    "start": 2308.14,
+    "duration": 4.92,
+    "text": "range is out"
+  },
+  {
+    "start": 2310.839,
+    "duration": 4.941,
+    "text": "no change"
+  },
+  {
+    "start": 2313.06,
+    "duration": 2.72,
+    "text": "in value"
+  },
+  {
+    "start": 2316.06,
+    "duration": 2.9,
+    "text": "just to return"
+  },
+  {
+    "start": 2320.079,
+    "duration": 2.841,
+    "text": "in the end"
+  },
+  {
+    "start": 2323.02,
+    "duration": 5.3,
+    "text": "you will reach leaf"
+  },
+  {
+    "start": 2329.44,
+    "duration": 2.76,
+    "text": "update"
+  },
+  {
+    "start": 2330.94,
+    "duration": 2.94,
+    "text": "leave"
+  },
+  {
+    "start": 2332.2,
+    "duration": 3.72,
+    "text": "and"
+  },
+  {
+    "start": 2333.88,
+    "duration": 4.32,
+    "text": "recursion"
+  },
+  {
+    "start": 2335.92,
+    "duration": 5.159,
+    "text": "will update the tree"
+  },
+  {
+    "start": 2338.2,
+    "duration": 5.639,
+    "text": "as we saw in the example"
+  },
+  {
+    "start": 2341.079,
+    "duration": 6.901,
+    "text": "all right that's it segment 3 finished"
+  },
+  {
+    "start": 2343.839,
+    "duration": 6.78,
+    "text": "now you can try this concept with the"
+  },
+  {
+    "start": 2347.98,
+    "duration": 5.46,
+    "text": "other questions find the maximum between"
+  },
+  {
+    "start": 2350.619,
+    "duration": 3.901,
+    "text": "two ranges and this is a very popular"
+  },
+  {
+    "start": 2353.44,
+    "duration": 2.88,
+    "text": "question you know you get it in"
+  },
+  {
+    "start": 2354.52,
+    "duration": 4.2,
+    "text": "interviews it looks very simple people"
+  },
+  {
+    "start": 2356.32,
+    "duration": 3.9,
+    "text": "like oh it's very simple I will just do"
+  },
+  {
+    "start": 2358.72,
+    "duration": 3.78,
+    "text": "it in O of n then the interview is like"
+  },
+  {
+    "start": 2360.22,
+    "duration": 4.08,
+    "text": "do it in login segmentary one"
+  },
+  {
+    "start": 2362.5,
+    "duration": 2.7,
+    "text": "disadvantage you have to create extra"
+  },
+  {
+    "start": 2364.3,
+    "duration": 4.02,
+    "text": "space"
+  },
+  {
+    "start": 2365.2,
+    "duration": 4.98,
+    "text": "code time for coding let's code it okay"
+  },
+  {
+    "start": 2368.32,
+    "duration": 3.36,
+    "text": "I'm going to create a new file and you"
+  },
+  {
+    "start": 2370.18,
+    "duration": 2.46,
+    "text": "can find the link in the description"
+  },
+  {
+    "start": 2371.68,
+    "duration": 3.6,
+    "text": "below"
+  },
+  {
+    "start": 2372.64,
+    "duration": 4.26,
+    "text": "and I'm going to call it"
+  },
+  {
+    "start": 2375.28,
+    "duration": 3.42,
+    "text": "trees"
+  },
+  {
+    "start": 2376.9,
+    "duration": 3.78,
+    "text": "three"
+  },
+  {
+    "start": 2378.7,
+    "duration": 4.68,
+    "text": "segment"
+  },
+  {
+    "start": 2380.68,
+    "duration": 5.34,
+    "text": "this editors just folders I've created"
+  },
+  {
+    "start": 2383.38,
+    "duration": 5.459,
+    "text": "but yeah"
+  },
+  {
+    "start": 2386.02,
+    "duration": 5.04,
+    "text": "you can directly run the"
+  },
+  {
+    "start": 2388.839,
+    "duration": 4.201,
+    "text": "code in the"
+  },
+  {
+    "start": 2391.06,
+    "duration": 4.2,
+    "text": "browser itself so the code that I'm"
+  },
+  {
+    "start": 2393.04,
+    "duration": 5.039,
+    "text": "going to be writing you can click on run"
+  },
+  {
+    "start": 2395.26,
+    "duration": 6.24,
+    "text": "after forking it and you can make"
+  },
+  {
+    "start": 2398.079,
+    "duration": 4.801,
+    "text": "changes try it out so no need to install"
+  },
+  {
+    "start": 2401.5,
+    "duration": 3.06,
+    "text": "anything you can do it on your browser"
+  },
+  {
+    "start": 2402.88,
+    "duration": 3.479,
+    "text": "itself so yeah people often ask me"
+  },
+  {
+    "start": 2404.56,
+    "duration": 4.08,
+    "text": "where's the code links can be found in"
+  },
+  {
+    "start": 2406.359,
+    "duration": 3.72,
+    "text": "the link to this exact code can be found"
+  },
+  {
+    "start": 2408.64,
+    "duration": 2.58,
+    "text": "in the description and also in the print"
+  },
+  {
+    "start": 2410.079,
+    "duration": 2.461,
+    "text": "comment"
+  },
+  {
+    "start": 2411.22,
+    "duration": 3.119,
+    "text": "so"
+  },
+  {
+    "start": 2412.54,
+    "duration": 4.799,
+    "text": "let's see"
+  },
+  {
+    "start": 2414.339,
+    "duration": 6.861,
+    "text": "create a new file"
+  },
+  {
+    "start": 2417.339,
+    "duration": 3.861,
+    "text": "tree dot Java"
+  },
+  {
+    "start": 2421.48,
+    "duration": 6.44,
+    "text": "or segment tree"
+  },
+  {
+    "start": 2424.96,
+    "duration": 2.96,
+    "text": "dot Java"
+  },
+  {
+    "start": 2428.38,
+    "duration": 2.479,
+    "text": "okay"
+  },
+  {
+    "start": 2433.359,
+    "duration": 3.24,
+    "text": "class segmentary"
+  },
+  {
+    "start": 2434.8,
+    "duration": 4.68,
+    "text": "zooming in a little bit"
+  },
+  {
+    "start": 2436.599,
+    "duration": 5.881,
+    "text": "and making sure that looks good"
+  },
+  {
+    "start": 2439.48,
+    "duration": 8.28,
+    "text": "you need to create a node first so"
+  },
+  {
+    "start": 2442.48,
+    "duration": 7.98,
+    "text": "node contains uh data start interval and"
+  },
+  {
+    "start": 2447.76,
+    "duration": 4.38,
+    "text": "interval and it has a pointer to left"
+  },
+  {
+    "start": 2450.46,
+    "duration": 3.54,
+    "text": "pointer to right"
+  },
+  {
+    "start": 2452.14,
+    "duration": 4.64,
+    "text": "simple"
+  },
+  {
+    "start": 2454.0,
+    "duration": 2.78,
+    "text": "very simple"
+  },
+  {
+    "start": 2457.72,
+    "duration": 5.22,
+    "text": "private"
+  },
+  {
+    "start": 2460.42,
+    "duration": 7.199,
+    "text": "class node"
+  },
+  {
+    "start": 2462.94,
+    "duration": 6.179,
+    "text": "it has a data it has a start interval it"
+  },
+  {
+    "start": 2467.619,
+    "duration": 4.201,
+    "text": "has a end"
+  },
+  {
+    "start": 2469.119,
+    "duration": 5.401,
+    "text": "interval"
+  },
+  {
+    "start": 2471.82,
+    "duration": 4.32,
+    "text": "one more thing I would recommend is try"
+  },
+  {
+    "start": 2474.52,
+    "duration": 3.48,
+    "text": "to create these things because now you"
+  },
+  {
+    "start": 2476.14,
+    "duration": 4.439,
+    "text": "are pro you have done linked list we"
+  },
+  {
+    "start": 2478.0,
+    "duration": 4.92,
+    "text": "have done recursion we have done trees"
+  },
+  {
+    "start": 2480.579,
+    "duration": 4.321,
+    "text": "already we have done trees so I would"
+  },
+  {
+    "start": 2482.92,
+    "duration": 3.84,
+    "text": "recommend try creating it on your own"
+  },
+  {
+    "start": 2484.9,
+    "duration": 3.54,
+    "text": "and then watch the video and see what"
+  },
+  {
+    "start": 2486.76,
+    "duration": 4.44,
+    "text": "differently you did"
+  },
+  {
+    "start": 2488.44,
+    "duration": 4.86,
+    "text": "okay that is the nice way to learn"
+  },
+  {
+    "start": 2491.2,
+    "duration": 4.919,
+    "text": "public node"
+  },
+  {
+    "start": 2493.3,
+    "duration": 4.26,
+    "text": "in the Constructor I'll say start inter"
+  },
+  {
+    "start": 2496.119,
+    "duration": 4.041,
+    "text": "well"
+  },
+  {
+    "start": 2497.56,
+    "duration": 2.6,
+    "text": "and"
+  },
+  {
+    "start": 2502.42,
+    "duration": 5.12,
+    "text": "interval"
+  },
+  {
+    "start": 2504.7,
+    "duration": 2.84,
+    "text": "this Dot"
+  },
+  {
+    "start": 2512.26,
+    "duration": 6.06,
+    "text": "start interval is equal to"
+  },
+  {
+    "start": 2515.079,
+    "duration": 5.881,
+    "text": "start enter well"
+  },
+  {
+    "start": 2518.32,
+    "duration": 3.72,
+    "text": "and this dot end interval is equal to n"
+  },
+  {
+    "start": 2520.96,
+    "duration": 5.119,
+    "text": "interval"
+  },
+  {
+    "start": 2522.04,
+    "duration": 4.039,
+    "text": "not a problem at all"
+  },
+  {
+    "start": 2526.42,
+    "duration": 3.9,
+    "text": "okay that looks good"
+  },
+  {
+    "start": 2529.119,
+    "duration": 5.48,
+    "text": "now"
+  },
+  {
+    "start": 2530.32,
+    "duration": 4.279,
+    "text": "I have my root node node"
+  },
+  {
+    "start": 2535.5,
+    "duration": 5.4,
+    "text": "root and then I have a Constructor"
+  },
+  {
+    "start": 2542.68,
+    "duration": 5.82,
+    "text": "segment three"
+  },
+  {
+    "start": 2545.44,
+    "duration": 4.98,
+    "text": "and in my main"
+  },
+  {
+    "start": 2548.5,
+    "duration": 3.9,
+    "text": "what I'm going to have is"
+  },
+  {
+    "start": 2550.42,
+    "duration": 4.439,
+    "text": "I'm going to have a"
+  },
+  {
+    "start": 2552.4,
+    "duration": 4.88,
+    "text": "say if I create public static void Main"
+  },
+  {
+    "start": 2554.859,
+    "duration": 2.421,
+    "text": "here"
+  },
+  {
+    "start": 2557.56,
+    "duration": 8.4,
+    "text": "public static white Main"
+  },
+  {
+    "start": 2561.64,
+    "duration": 6.84,
+    "text": "love coding here with no you know like"
+  },
+  {
+    "start": 2565.96,
+    "duration": 4.379,
+    "text": "you can have ai support as I mentioned"
+  },
+  {
+    "start": 2568.48,
+    "duration": 3.359,
+    "text": "previously but"
+  },
+  {
+    "start": 2570.339,
+    "duration": 3.961,
+    "text": "yeah it's pretty cool"
+  },
+  {
+    "start": 2571.839,
+    "duration": 5.641,
+    "text": "you can have six seven and then we had"
+  },
+  {
+    "start": 2574.3,
+    "duration": 5.34,
+    "text": "minus two minus eight"
+  },
+  {
+    "start": 2577.48,
+    "duration": 6.18,
+    "text": "four and nine"
+  },
+  {
+    "start": 2579.64,
+    "duration": 6.179,
+    "text": "segment tree tree is equal to"
+  },
+  {
+    "start": 2583.66,
+    "duration": 7.04,
+    "text": "new"
+  },
+  {
+    "start": 2585.819,
+    "duration": 4.881,
+    "text": "segment tree I'll pass my array in it"
+  },
+  {
+    "start": 2590.98,
+    "duration": 3.44,
+    "text": "so here it will take an array"
+  },
+  {
+    "start": 2594.7,
+    "duration": 5.36,
+    "text": "okay"
+  },
+  {
+    "start": 2597.28,
+    "duration": 2.78,
+    "text": "sounds good"
+  },
+  {
+    "start": 2600.94,
+    "duration": 4.2,
+    "text": "cool"
+  },
+  {
+    "start": 2603.04,
+    "duration": 4.98,
+    "text": "so once we have this array we need to"
+  },
+  {
+    "start": 2605.14,
+    "duration": 6.719,
+    "text": "create a tree using this array"
+  },
+  {
+    "start": 2608.02,
+    "duration": 6.18,
+    "text": "create a tree using this array"
+  },
+  {
+    "start": 2611.859,
+    "duration": 4.081,
+    "text": "this tree you have to create using this"
+  },
+  {
+    "start": 2614.2,
+    "duration": 4.08,
+    "text": "array no problem I'll create another"
+  },
+  {
+    "start": 2615.94,
+    "duration": 5.34,
+    "text": "function this dot root is equal to"
+  },
+  {
+    "start": 2618.28,
+    "duration": 3.0,
+    "text": "construct"
+  },
+  {
+    "start": 2621.359,
+    "duration": 3.341,
+    "text": "construct"
+  },
+  {
+    "start": 2623.02,
+    "duration": 3.839,
+    "text": "tree"
+  },
+  {
+    "start": 2624.7,
+    "duration": 4.56,
+    "text": "so I will just create a tree using a"
+  },
+  {
+    "start": 2626.859,
+    "duration": 3.96,
+    "text": "constructory method and it's going to"
+  },
+  {
+    "start": 2629.26,
+    "duration": 5.16,
+    "text": "return the root and we will just set"
+  },
+  {
+    "start": 2630.819,
+    "duration": 6.481,
+    "text": "that root in our root variable"
+  },
+  {
+    "start": 2634.42,
+    "duration": 5.52,
+    "text": "what is constructively going to have"
+  },
+  {
+    "start": 2637.3,
+    "duration": 4.68,
+    "text": "it will obviously have my array"
+  },
+  {
+    "start": 2639.94,
+    "duration": 6.06,
+    "text": "it will have a start index and an index"
+  },
+  {
+    "start": 2641.98,
+    "duration": 7.22,
+    "text": "start index is originally 0 and index is"
+  },
+  {
+    "start": 2646.0,
+    "duration": 3.2,
+    "text": "length minus 1."
+  },
+  {
+    "start": 2651.22,
+    "duration": 4.44,
+    "text": "one thing I want you to understand is"
+  },
+  {
+    "start": 2653.44,
+    "duration": 4.02,
+    "text": "Theory understanding explanation"
+  },
+  {
+    "start": 2655.66,
+    "duration": 4.14,
+    "text": "multiple examples run through"
+  },
+  {
+    "start": 2657.46,
+    "duration": 4.28,
+    "text": "walkthrough we have already done"
+  },
+  {
+    "start": 2659.8,
+    "duration": 4.799,
+    "text": "that is where main focus should be"
+  },
+  {
+    "start": 2661.74,
+    "duration": 5.859,
+    "text": "coding you can just look at what we have"
+  },
+  {
+    "start": 2664.599,
+    "duration": 5.22,
+    "text": "done and just turn that into code now"
+  },
+  {
+    "start": 2667.599,
+    "duration": 4.5,
+    "text": "this is why even though we're doing this"
+  },
+  {
+    "start": 2669.819,
+    "duration": 4.26,
+    "text": "in Java the data such as bootcamp you"
+  },
+  {
+    "start": 2672.099,
+    "duration": 4.02,
+    "text": "can use any other language you want I am"
+  },
+  {
+    "start": 2674.079,
+    "duration": 3.0,
+    "text": "coding in Java you code in Python and C"
+  },
+  {
+    "start": 2676.119,
+    "duration": 3.801,
+    "text": "plus plus"
+  },
+  {
+    "start": 2677.079,
+    "duration": 2.841,
+    "text": "what's the problem"
+  },
+  {
+    "start": 2680.26,
+    "duration": 2.839,
+    "text": "there is no problem"
+  },
+  {
+    "start": 2683.98,
+    "duration": 5.72,
+    "text": "okay cool"
+  },
+  {
+    "start": 2687.28,
+    "duration": 2.42,
+    "text": "so"
+  },
+  {
+    "start": 2690.4,
+    "duration": 3.66,
+    "text": "we are going to construct this three we"
+  },
+  {
+    "start": 2692.02,
+    "duration": 3.72,
+    "text": "are going to make this three one thing I"
+  },
+  {
+    "start": 2694.06,
+    "duration": 5.48,
+    "text": "have to I want to ask you is what is the"
+  },
+  {
+    "start": 2695.74,
+    "duration": 3.8,
+    "text": "time complexity to create the tree"
+  },
+  {
+    "start": 2701.56,
+    "duration": 3.96,
+    "text": "o often"
+  },
+  {
+    "start": 2703.3,
+    "duration": 5.279,
+    "text": "because you have to calculate every"
+  },
+  {
+    "start": 2705.52,
+    "duration": 4.2,
+    "text": "single like uh half half half but for"
+  },
+  {
+    "start": 2708.579,
+    "duration": 3.121,
+    "text": "every single one"
+  },
+  {
+    "start": 2709.72,
+    "duration": 4.379,
+    "text": "so you understand right if I'm talking"
+  },
+  {
+    "start": 2711.7,
+    "duration": 5.94,
+    "text": "about these in the end you can see that"
+  },
+  {
+    "start": 2714.099,
+    "duration": 7.101,
+    "text": "there are n number of elements o of n"
+  },
+  {
+    "start": 2717.64,
+    "duration": 3.56,
+    "text": "to make tree"
+  },
+  {
+    "start": 2724.72,
+    "duration": 6.54,
+    "text": "okay no problem but that's only once so"
+  },
+  {
+    "start": 2727.48,
+    "duration": 6.3,
+    "text": "in the long term it will be o of login"
+  },
+  {
+    "start": 2731.26,
+    "duration": 4.859,
+    "text": "for operations"
+  },
+  {
+    "start": 2733.78,
+    "duration": 6.559,
+    "text": "so"
+  },
+  {
+    "start": 2736.119,
+    "duration": 4.22,
+    "text": "uh constructory is returning a node"
+  },
+  {
+    "start": 2742.96,
+    "duration": 3.2,
+    "text": "array int"
+  },
+  {
+    "start": 2748.0,
+    "duration": 4.859,
+    "text": "start and end"
+  },
+  {
+    "start": 2750.339,
+    "duration": 4.681,
+    "text": "so what do we do some base condition if"
+  },
+  {
+    "start": 2752.859,
+    "duration": 4.381,
+    "text": "start and end let's say this one the"
+  },
+  {
+    "start": 2755.02,
+    "duration": 5.78,
+    "text": "base condition if start is equal to end"
+  },
+  {
+    "start": 2757.24,
+    "duration": 3.56,
+    "text": "means we are at the leaf node"
+  },
+  {
+    "start": 2767.44,
+    "duration": 5.04,
+    "text": "Leaf node"
+  },
+  {
+    "start": 2769.24,
+    "duration": 5.76,
+    "text": "so node leaf"
+  },
+  {
+    "start": 2772.48,
+    "duration": 7.52,
+    "text": "is equal to new node"
+  },
+  {
+    "start": 2775.0,
+    "duration": 5.0,
+    "text": "and it will have start and end in it"
+  },
+  {
+    "start": 2780.46,
+    "duration": 4.52,
+    "text": "okay new node start and end in it"
+  },
+  {
+    "start": 2785.14,
+    "duration": 5.04,
+    "text": "data"
+  },
+  {
+    "start": 2786.76,
+    "duration": 6.599,
+    "text": "by default will be 0 so that is fine"
+  },
+  {
+    "start": 2790.18,
+    "duration": 5.04,
+    "text": "we will update it later on"
+  },
+  {
+    "start": 2793.359,
+    "duration": 4.441,
+    "text": "that is okay"
+  },
+  {
+    "start": 2795.22,
+    "duration": 6.139,
+    "text": "uh start and end"
+  },
+  {
+    "start": 2797.8,
+    "duration": 3.559,
+    "text": "leave dot data"
+  },
+  {
+    "start": 2801.52,
+    "duration": 3.96,
+    "text": "not zero sorry it will be the number"
+  },
+  {
+    "start": 2804.04,
+    "duration": 3.18,
+    "text": "itself now"
+  },
+  {
+    "start": 2805.48,
+    "duration": 4.5,
+    "text": "the number at index three in the number"
+  },
+  {
+    "start": 2807.22,
+    "duration": 4.32,
+    "text": "of index two the number at index one the"
+  },
+  {
+    "start": 2809.98,
+    "duration": 3.18,
+    "text": "number at index five"
+  },
+  {
+    "start": 2811.54,
+    "duration": 5.9,
+    "text": "okay"
+  },
+  {
+    "start": 2813.16,
+    "duration": 4.28,
+    "text": "so leave.data is the number"
+  },
+  {
+    "start": 2817.96,
+    "duration": 5.46,
+    "text": "at that index"
+  },
+  {
+    "start": 2820.599,
+    "duration": 5.821,
+    "text": "return leave"
+  },
+  {
+    "start": 2823.42,
+    "duration": 3.72,
+    "text": "but how the recursion will flow we are"
+  },
+  {
+    "start": 2826.42,
+    "duration": 2.1,
+    "text": "here"
+  },
+  {
+    "start": 2827.14,
+    "duration": 3.66,
+    "text": "we will"
+  },
+  {
+    "start": 2828.52,
+    "duration": 6.26,
+    "text": "create a new node"
+  },
+  {
+    "start": 2830.8,
+    "duration": 3.98,
+    "text": "with the index we are currently at"
+  },
+  {
+    "start": 2834.94,
+    "duration": 6.419,
+    "text": "create new node with index Ur at okay"
+  },
+  {
+    "start": 2838.9,
+    "duration": 4.02,
+    "text": "node node is equal to Nu"
+  },
+  {
+    "start": 2841.359,
+    "duration": 3.781,
+    "text": "node"
+  },
+  {
+    "start": 2842.92,
+    "duration": 5.399,
+    "text": "and I'm going to say that index I'm"
+  },
+  {
+    "start": 2845.14,
+    "duration": 4.86,
+    "text": "currently at is start and end"
+  },
+  {
+    "start": 2848.319,
+    "duration": 4.321,
+    "text": "no problem"
+  },
+  {
+    "start": 2850.0,
+    "duration": 4.819,
+    "text": "created an index and then find the"
+  },
+  {
+    "start": 2852.64,
+    "duration": 2.179,
+    "text": "middle"
+  },
+  {
+    "start": 2862.839,
+    "duration": 5.341,
+    "text": "find the middle not a problem now I will"
+  },
+  {
+    "start": 2865.839,
+    "duration": 4.861,
+    "text": "construct the recursion node dot left"
+  },
+  {
+    "start": 2868.18,
+    "duration": 5.34,
+    "text": "will be equal to what I can't find this"
+  },
+  {
+    "start": 2870.7,
+    "duration": 4.5,
+    "text": "27 till I go till the leaf leaf leaves"
+  },
+  {
+    "start": 2873.52,
+    "duration": 3.42,
+    "text": "so when we come in return"
+  },
+  {
+    "start": 2875.2,
+    "duration": 3.419,
+    "text": "we will get let us say think about"
+  },
+  {
+    "start": 2876.94,
+    "duration": 2.46,
+    "text": "recursion now think about it as smaller"
+  },
+  {
+    "start": 2878.619,
+    "duration": 3.781,
+    "text": "problem"
+  },
+  {
+    "start": 2879.4,
+    "duration": 4.86,
+    "text": "so 27 will be equal to whatever you are"
+  },
+  {
+    "start": 2882.4,
+    "duration": 3.3,
+    "text": "getting from left plus whatever you are"
+  },
+  {
+    "start": 2884.26,
+    "duration": 5.599,
+    "text": "getting from right"
+  },
+  {
+    "start": 2885.7,
+    "duration": 4.159,
+    "text": "so this current node.data is"
+  },
+  {
+    "start": 2891.28,
+    "duration": 4.68,
+    "text": "whatever you are getting from"
+  },
+  {
+    "start": 2893.38,
+    "duration": 5.28,
+    "text": "left"
+  },
+  {
+    "start": 2895.96,
+    "duration": 5.94,
+    "text": "plus whatever you are getting from right"
+  },
+  {
+    "start": 2898.66,
+    "duration": 5.76,
+    "text": "this is the beauty of recursion you"
+  },
+  {
+    "start": 2901.9,
+    "duration": 5.58,
+    "text": "don't have to think"
+  },
+  {
+    "start": 2904.42,
+    "duration": 5.58,
+    "text": "and just return the node"
+  },
+  {
+    "start": 2907.48,
+    "duration": 4.2,
+    "text": "because it's ask asking for node so I"
+  },
+  {
+    "start": 2910.0,
+    "duration": 3.599,
+    "text": "have to return the node type"
+  },
+  {
+    "start": 2911.68,
+    "duration": 3.72,
+    "text": "these are all basic recursion Concepts"
+  },
+  {
+    "start": 2913.599,
+    "duration": 3.421,
+    "text": "if you have done recursion on my"
+  },
+  {
+    "start": 2915.4,
+    "duration": 2.52,
+    "text": "playlist multiple times I've mentioned"
+  },
+  {
+    "start": 2917.02,
+    "duration": 2.04,
+    "text": "it"
+  },
+  {
+    "start": 2917.92,
+    "duration": 3.24,
+    "text": "but"
+  },
+  {
+    "start": 2919.06,
+    "duration": 4.08,
+    "text": "we have to update left and right"
+  },
+  {
+    "start": 2921.16,
+    "duration": 3.6,
+    "text": "so no problem"
+  },
+  {
+    "start": 2923.14,
+    "duration": 4.62,
+    "text": "node dot left is equal to what"
+  },
+  {
+    "start": 2924.76,
+    "duration": 3.0,
+    "text": "constructory"
+  },
+  {
+    "start": 2936.88,
+    "duration": 5.4,
+    "text": "no dot right again constructory"
+  },
+  {
+    "start": 2940.48,
+    "duration": 5.28,
+    "text": "or no dot left"
+  },
+  {
+    "start": 2942.28,
+    "duration": 5.96,
+    "text": "start will not change and will become"
+  },
+  {
+    "start": 2945.76,
+    "duration": 2.48,
+    "text": "mid"
+  },
+  {
+    "start": 2950.2,
+    "duration": 4.139,
+    "text": "or the right hand side start will become"
+  },
+  {
+    "start": 2952.42,
+    "duration": 4.679,
+    "text": "mid plus one sorry Start will not change"
+  },
+  {
+    "start": 2954.339,
+    "duration": 5.541,
+    "text": "for this one and will become mid for the"
+  },
+  {
+    "start": 2957.099,
+    "duration": 5.101,
+    "text": "right hand side start will be mid plus 1"
+  },
+  {
+    "start": 2959.88,
+    "duration": 6.66,
+    "text": "so 3"
+  },
+  {
+    "start": 2962.2,
+    "duration": 4.34,
+    "text": "plus 1 and will not be changed"
+  },
+  {
+    "start": 2970.54,
+    "duration": 6.0,
+    "text": "that's it reconstructed think about this"
+  },
+  {
+    "start": 2973.96,
+    "duration": 4.5,
+    "text": "constructory method"
+  },
+  {
+    "start": 2976.54,
+    "duration": 3.6,
+    "text": "very simple"
+  },
+  {
+    "start": 2978.46,
+    "duration": 2.7,
+    "text": "do you want to do a dry run let's do a"
+  },
+  {
+    "start": 2980.14,
+    "duration": 4.14,
+    "text": "dry run"
+  },
+  {
+    "start": 2981.16,
+    "duration": 5.459,
+    "text": "so if we do a dry run here"
+  },
+  {
+    "start": 2984.28,
+    "duration": 4.74,
+    "text": "let's do a dry run okay here let's say I"
+  },
+  {
+    "start": 2986.619,
+    "duration": 3.48,
+    "text": "take a simple example let's say a is"
+  },
+  {
+    "start": 2989.02,
+    "duration": 5.9,
+    "text": "equal to"
+  },
+  {
+    "start": 2990.099,
+    "duration": 8.641,
+    "text": "3 4 9 12."
+  },
+  {
+    "start": 2994.92,
+    "duration": 7.12,
+    "text": "3492 for example let's take it small"
+  },
+  {
+    "start": 2998.74,
+    "duration": 5.28,
+    "text": "so here you can see that"
+  },
+  {
+    "start": 3002.04,
+    "duration": 4.68,
+    "text": "it's first going to say"
+  },
+  {
+    "start": 3004.02,
+    "duration": 5.94,
+    "text": "for this array 0 comma"
+  },
+  {
+    "start": 3006.72,
+    "duration": 4.68,
+    "text": "0 1 2 3."
+  },
+  {
+    "start": 3009.96,
+    "duration": 4.08,
+    "text": "so 0"
+  },
+  {
+    "start": 3011.4,
+    "duration": 5.939,
+    "text": "comma or let me take one more item to"
+  },
+  {
+    "start": 3014.04,
+    "duration": 5.579,
+    "text": "make it a little bit larger"
+  },
+  {
+    "start": 3017.339,
+    "duration": 3.721,
+    "text": "seven"
+  },
+  {
+    "start": 3019.619,
+    "duration": 4.2,
+    "text": "four"
+  },
+  {
+    "start": 3021.06,
+    "duration": 4.38,
+    "text": "so initially it is going to say"
+  },
+  {
+    "start": 3023.819,
+    "duration": 2.401,
+    "text": "I'm going to take one more item as you"
+  },
+  {
+    "start": 3025.44,
+    "duration": 4.08,
+    "text": "can see"
+  },
+  {
+    "start": 3026.22,
+    "duration": 6.06,
+    "text": "over here and now it's saying is start"
+  },
+  {
+    "start": 3029.52,
+    "duration": 5.4,
+    "text": "equal to equal to end"
+  },
+  {
+    "start": 3032.28,
+    "duration": 4.98,
+    "text": "so initially start is what"
+  },
+  {
+    "start": 3034.92,
+    "duration": 4.56,
+    "text": "0 comma four"
+  },
+  {
+    "start": 3037.26,
+    "duration": 4.44,
+    "text": "so it's going to be like no it's not"
+  },
+  {
+    "start": 3039.48,
+    "duration": 4.859,
+    "text": "okay create a new node with 0 comma four"
+  },
+  {
+    "start": 3041.7,
+    "duration": 5.34,
+    "text": "create a new node with zero comma four"
+  },
+  {
+    "start": 3044.339,
+    "duration": 5.76,
+    "text": "not a problem"
+  },
+  {
+    "start": 3047.04,
+    "duration": 6.44,
+    "text": "0 comma four what do I do next"
+  },
+  {
+    "start": 3050.099,
+    "duration": 3.381,
+    "text": "next what you need to do is"
+  },
+  {
+    "start": 3053.52,
+    "duration": 4.86,
+    "text": "find the mid"
+  },
+  {
+    "start": 3055.26,
+    "duration": 5.22,
+    "text": "so mid is equal to what 2 and then node"
+  },
+  {
+    "start": 3058.38,
+    "duration": 3.84,
+    "text": "dot left is equal to constructory again"
+  },
+  {
+    "start": 3060.48,
+    "duration": 3.96,
+    "text": "with"
+  },
+  {
+    "start": 3062.22,
+    "duration": 6.08,
+    "text": "0 comma 2."
+  },
+  {
+    "start": 3064.44,
+    "duration": 3.86,
+    "text": "so mid is equal to 2"
+  },
+  {
+    "start": 3069.0,
+    "duration": 5.22,
+    "text": "here it will be again now"
+  },
+  {
+    "start": 3072.359,
+    "duration": 3.601,
+    "text": "0 comma 2."
+  },
+  {
+    "start": 3074.22,
+    "duration": 3.06,
+    "text": "then it will be like is 0 equal to equal"
+  },
+  {
+    "start": 3075.96,
+    "duration": 4.02,
+    "text": "to 2."
+  },
+  {
+    "start": 3077.28,
+    "duration": 3.9,
+    "text": "because it is calling the function again"
+  },
+  {
+    "start": 3079.98,
+    "duration": 4.2,
+    "text": "no"
+  },
+  {
+    "start": 3081.18,
+    "duration": 5.46,
+    "text": "created a new node that's fine"
+  },
+  {
+    "start": 3084.18,
+    "duration": 3.659,
+    "text": "the mid mid is equal to one call the"
+  },
+  {
+    "start": 3086.64,
+    "duration": 4.62,
+    "text": "left hand side"
+  },
+  {
+    "start": 3087.839,
+    "duration": 7.041,
+    "text": "find the mid mid is equal to one"
+  },
+  {
+    "start": 3091.26,
+    "duration": 3.62,
+    "text": "call the left hand side which is"
+  },
+  {
+    "start": 3095.88,
+    "duration": 3.14,
+    "text": "0 comma 1"
+  },
+  {
+    "start": 3099.839,
+    "duration": 5.041,
+    "text": "that's it"
+  },
+  {
+    "start": 3101.88,
+    "duration": 5.58,
+    "text": "now it's going to be like"
+  },
+  {
+    "start": 3104.88,
+    "duration": 4.979,
+    "text": "call this no problem"
+  },
+  {
+    "start": 3107.46,
+    "duration": 7.02,
+    "text": "um again call is 0 equal to one no it's"
+  },
+  {
+    "start": 3109.859,
+    "duration": 7.801,
+    "text": "not okay created a new node find"
+  },
+  {
+    "start": 3114.48,
+    "duration": 4.379,
+    "text": "the mid mid is now 0 plus 1 divided by 2"
+  },
+  {
+    "start": 3117.66,
+    "duration": 3.419,
+    "text": "0"
+  },
+  {
+    "start": 3118.859,
+    "duration": 6.621,
+    "text": "and then it's going to go in the left"
+  },
+  {
+    "start": 3121.079,
+    "duration": 4.401,
+    "text": "hand side start and end zero"
+  },
+  {
+    "start": 3128.28,
+    "duration": 5.579,
+    "text": "now it will be"
+  },
+  {
+    "start": 3131.46,
+    "duration": 4.32,
+    "text": "you know first of all going inside so"
+  },
+  {
+    "start": 3133.859,
+    "duration": 4.801,
+    "text": "it'll be like start equal to 0 yes it is"
+  },
+  {
+    "start": 3135.78,
+    "duration": 5.339,
+    "text": "then it creates Leaf node Leaf dot data"
+  },
+  {
+    "start": 3138.66,
+    "duration": 3.72,
+    "text": "will be array of start and then return"
+  },
+  {
+    "start": 3141.119,
+    "duration": 5.281,
+    "text": "leaf"
+  },
+  {
+    "start": 3142.38,
+    "duration": 6.06,
+    "text": "so Leaf dot data will be array of 0"
+  },
+  {
+    "start": 3146.4,
+    "duration": 3.9,
+    "text": "which is 3"
+  },
+  {
+    "start": 3148.44,
+    "duration": 4.379,
+    "text": "then return this node"
+  },
+  {
+    "start": 3150.3,
+    "duration": 4.08,
+    "text": "where is this road node returned I have"
+  },
+  {
+    "start": 3152.819,
+    "duration": 4.381,
+    "text": "probably mentioned it one thousand times"
+  },
+  {
+    "start": 3154.38,
+    "duration": 5.34,
+    "text": "from where this function was called so"
+  },
+  {
+    "start": 3157.2,
+    "duration": 4.26,
+    "text": "this node this will be equal to the this"
+  },
+  {
+    "start": 3159.72,
+    "duration": 5.899,
+    "text": "will be equal to node"
+  },
+  {
+    "start": 3161.46,
+    "duration": 4.159,
+    "text": "so node dot left is equal to this node"
+  },
+  {
+    "start": 3166.619,
+    "duration": 4.081,
+    "text": "make sense"
+  },
+  {
+    "start": 3167.94,
+    "duration": 5.419,
+    "text": "this this this this Arrow now it is"
+  },
+  {
+    "start": 3170.7,
+    "duration": 2.659,
+    "text": "attached to this"
+  },
+  {
+    "start": 3173.819,
+    "duration": 3.0,
+    "text": "okay"
+  },
+  {
+    "start": 3175.02,
+    "duration": 3.42,
+    "text": "node dot left is equal to whatever you"
+  },
+  {
+    "start": 3176.819,
+    "duration": 3.601,
+    "text": "return means this node that I just"
+  },
+  {
+    "start": 3178.44,
+    "duration": 5.1,
+    "text": "returned now it will call right hand"
+  },
+  {
+    "start": 3180.42,
+    "duration": 5.82,
+    "text": "side right hand side will be again"
+  },
+  {
+    "start": 3183.54,
+    "duration": 4.799,
+    "text": "1 and 1 same concept will be like okay"
+  },
+  {
+    "start": 3186.24,
+    "duration": 4.879,
+    "text": "this is equal to 4"
+  },
+  {
+    "start": 3188.339,
+    "duration": 2.78,
+    "text": "like this"
+  },
+  {
+    "start": 3191.28,
+    "duration": 3.6,
+    "text": "it will be returned"
+  },
+  {
+    "start": 3193.14,
+    "duration": 3.06,
+    "text": "so after it's returned like node dot"
+  },
+  {
+    "start": 3194.88,
+    "duration": 4.739,
+    "text": "write is equal to"
+  },
+  {
+    "start": 3196.2,
+    "duration": 5.52,
+    "text": "this node over here or after that once"
+  },
+  {
+    "start": 3199.619,
+    "duration": 4.44,
+    "text": "you for for every node once you have the"
+  },
+  {
+    "start": 3201.72,
+    "duration": 4.02,
+    "text": "answer for left and right you will like"
+  },
+  {
+    "start": 3204.059,
+    "duration": 3.78,
+    "text": "that nodes data now I have left answer"
+  },
+  {
+    "start": 3205.74,
+    "duration": 3.839,
+    "text": "and right answer so I know the data for"
+  },
+  {
+    "start": 3207.839,
+    "duration": 7.401,
+    "text": "that node is equal to left plus right"
+  },
+  {
+    "start": 3209.579,
+    "duration": 5.661,
+    "text": "data 3 plus 4 7 set that it has 7."
+  },
+  {
+    "start": 3215.52,
+    "duration": 3.42,
+    "text": "and then"
+  },
+  {
+    "start": 3216.72,
+    "duration": 4.26,
+    "text": "return that node"
+  },
+  {
+    "start": 3218.94,
+    "duration": 5.659,
+    "text": "from where it was called"
+  },
+  {
+    "start": 3220.98,
+    "duration": 3.619,
+    "text": "where was it called from here"
+  },
+  {
+    "start": 3224.94,
+    "duration": 4.379,
+    "text": "and the end root will be returned with"
+  },
+  {
+    "start": 3227.4,
+    "duration": 4.919,
+    "text": "the original answer"
+  },
+  {
+    "start": 3229.319,
+    "duration": 4.5,
+    "text": "simple very easy should be easy because"
+  },
+  {
+    "start": 3232.319,
+    "duration": 3.181,
+    "text": "you are pro at recursion now after"
+  },
+  {
+    "start": 3233.819,
+    "duration": 4.26,
+    "text": "watching the playlist"
+  },
+  {
+    "start": 3235.5,
+    "duration": 4.44,
+    "text": "that's how recursion works"
+  },
+  {
+    "start": 3238.079,
+    "duration": 4.321,
+    "text": "okay"
+  },
+  {
+    "start": 3239.94,
+    "duration": 4.619,
+    "text": "very simple you can try it more if you"
+  },
+  {
+    "start": 3242.4,
+    "duration": 3.419,
+    "text": "want to drive deep into it okay one more"
+  },
+  {
+    "start": 3244.559,
+    "duration": 3.78,
+    "text": "cool thing I want to show you before we"
+  },
+  {
+    "start": 3245.819,
+    "duration": 4.921,
+    "text": "move on to the query and update"
+  },
+  {
+    "start": 3248.339,
+    "duration": 4.5,
+    "text": "functions is let's say we create a"
+  },
+  {
+    "start": 3250.74,
+    "duration": 4.02,
+    "text": "display function that will display me"
+  },
+  {
+    "start": 3252.839,
+    "duration": 5.161,
+    "text": "very nicely"
+  },
+  {
+    "start": 3254.76,
+    "duration": 5.339,
+    "text": "public void display initially it will"
+  },
+  {
+    "start": 3258.0,
+    "duration": 4.38,
+    "text": "have nothing I will call another helper"
+  },
+  {
+    "start": 3260.099,
+    "duration": 5.301,
+    "text": "function display"
+  },
+  {
+    "start": 3262.38,
+    "duration": 3.02,
+    "text": "distort route"
+  },
+  {
+    "start": 3265.559,
+    "duration": 3.78,
+    "text": "private"
+  },
+  {
+    "start": 3266.88,
+    "duration": 4.62,
+    "text": "void display"
+  },
+  {
+    "start": 3269.339,
+    "duration": 5.041,
+    "text": "node node"
+  },
+  {
+    "start": 3271.5,
+    "duration": 5.94,
+    "text": "so if you're at a particular node"
+  },
+  {
+    "start": 3274.38,
+    "duration": 4.08,
+    "text": "let's say we have a little little string"
+  },
+  {
+    "start": 3277.44,
+    "duration": 5.639,
+    "text": "over here"
+  },
+  {
+    "start": 3278.46,
+    "duration": 7.5,
+    "text": "so I say string Str initially is empty"
+  },
+  {
+    "start": 3283.079,
+    "duration": 4.02,
+    "text": "and the base condition if you are at the"
+  },
+  {
+    "start": 3285.96,
+    "duration": 4.139,
+    "text": "leaf node"
+  },
+  {
+    "start": 3287.099,
+    "duration": 3.0,
+    "text": "then"
+  },
+  {
+    "start": 3293.099,
+    "duration": 3.72,
+    "text": "not the leaf node for any node let's say"
+  },
+  {
+    "start": 3295.2,
+    "duration": 5.76,
+    "text": "you start from root"
+  },
+  {
+    "start": 3296.819,
+    "duration": 6.181,
+    "text": "so for any node if node dot left"
+  },
+  {
+    "start": 3300.96,
+    "duration": 3.899,
+    "text": "is not equal to null because it's a"
+  },
+  {
+    "start": 3303.0,
+    "duration": 5.9,
+    "text": "complete like I said tree"
+  },
+  {
+    "start": 3304.859,
+    "duration": 4.041,
+    "text": "then I will just print for example"
+  },
+  {
+    "start": 3316.74,
+    "duration": 4.98,
+    "text": "I will say string is equal to"
+  },
+  {
+    "start": 3318.839,
+    "duration": 5.78,
+    "text": "string plus let's say interval"
+  },
+  {
+    "start": 3321.72,
+    "duration": 2.899,
+    "text": "is equal to"
+  },
+  {
+    "start": 3326.46,
+    "duration": 3.619,
+    "text": "node dot left Dot"
+  },
+  {
+    "start": 3331.26,
+    "duration": 5.54,
+    "text": "start interval"
+  },
+  {
+    "start": 3334.14,
+    "duration": 2.66,
+    "text": "Plus"
+  },
+  {
+    "start": 3337.02,
+    "duration": 5.539,
+    "text": "node dot left dot end"
+  },
+  {
+    "start": 3339.66,
+    "duration": 2.899,
+    "text": "interval"
+  },
+  {
+    "start": 3344.819,
+    "duration": 2.661,
+    "text": "plus this"
+  },
+  {
+    "start": 3347.7,
+    "duration": 4.8,
+    "text": "and I can say and"
+  },
+  {
+    "start": 3349.74,
+    "duration": 6.44,
+    "text": "data data is going to be equal to what"
+  },
+  {
+    "start": 3352.5,
+    "duration": 3.68,
+    "text": "note dot left dot data"
+  },
+  {
+    "start": 3361.559,
+    "duration": 4.28,
+    "text": "and I'll add a"
+  },
+  {
+    "start": 3363.18,
+    "duration": 2.659,
+    "text": "it's over here"
+  },
+  {
+    "start": 3372.42,
+    "duration": 3.0,
+    "text": "string"
+  },
+  {
+    "start": 3376.92,
+    "duration": 2.54,
+    "text": "make sense"
+  },
+  {
+    "start": 3379.92,
+    "duration": 2.419,
+    "text": "okay"
+  },
+  {
+    "start": 3383.4,
+    "duration": 3.02,
+    "text": "should be curly braces"
+  },
+  {
+    "start": 3387.18,
+    "duration": 6.02,
+    "text": "otherwise I can say string is equal to"
+  },
+  {
+    "start": 3389.22,
+    "duration": 3.98,
+    "text": "string plus let's say no left child"
+  },
+  {
+    "start": 3393.72,
+    "duration": 4.92,
+    "text": "okay now"
+  },
+  {
+    "start": 3396.3,
+    "duration": 4.5,
+    "text": "for current node"
+  },
+  {
+    "start": 3398.64,
+    "duration": 3.84,
+    "text": "let's say I have"
+  },
+  {
+    "start": 3400.8,
+    "duration": 3.84,
+    "text": "this is my base condition like I can"
+  },
+  {
+    "start": 3402.48,
+    "duration": 3.96,
+    "text": "just return no current child for current"
+  },
+  {
+    "start": 3404.64,
+    "duration": 4.76,
+    "text": "node I can say string is equal to again"
+  },
+  {
+    "start": 3406.44,
+    "duration": 2.96,
+    "text": "I will just copy this"
+  },
+  {
+    "start": 3413.339,
+    "duration": 3.24,
+    "text": "string is equal to interval plus start"
+  },
+  {
+    "start": 3414.9,
+    "duration": 4.439,
+    "text": "interval plus this and data is equal to"
+  },
+  {
+    "start": 3416.579,
+    "duration": 4.201,
+    "text": "new node.data"
+  },
+  {
+    "start": 3419.339,
+    "duration": 2.76,
+    "text": "and"
+  },
+  {
+    "start": 3420.78,
+    "duration": 4.16,
+    "text": "this one"
+  },
+  {
+    "start": 3422.099,
+    "duration": 2.841,
+    "text": "is going to be"
+  },
+  {
+    "start": 3431.76,
+    "duration": 5.059,
+    "text": "two additions over here"
+  },
+  {
+    "start": 3433.859,
+    "duration": 2.96,
+    "text": "not a problem"
+  },
+  {
+    "start": 3437.46,
+    "duration": 3.02,
+    "text": "some indenting"
+  },
+  {
+    "start": 3441.119,
+    "duration": 5.46,
+    "text": "so current node.data"
+  },
+  {
+    "start": 3444.059,
+    "duration": 5.941,
+    "text": "and then"
+  },
+  {
+    "start": 3446.579,
+    "duration": 5.221,
+    "text": "we're going to have the left and right"
+  },
+  {
+    "start": 3450.0,
+    "duration": 4.579,
+    "text": "so if node dot right is not equal to"
+  },
+  {
+    "start": 3451.8,
+    "duration": 2.779,
+    "text": "null same thing"
+  },
+  {
+    "start": 3457.74,
+    "duration": 4.2,
+    "text": "right is not equal to null string is"
+  },
+  {
+    "start": 3460.26,
+    "duration": 3.599,
+    "text": "equal to interval"
+  },
+  {
+    "start": 3461.94,
+    "duration": 3.72,
+    "text": "node Dot"
+  },
+  {
+    "start": 3463.859,
+    "duration": 4.141,
+    "text": "right"
+  },
+  {
+    "start": 3465.66,
+    "duration": 4.5,
+    "text": "not node dot left this will be just node"
+  },
+  {
+    "start": 3468.0,
+    "duration": 5.4,
+    "text": "dot start and node dot end"
+  },
+  {
+    "start": 3470.16,
+    "duration": 6.899,
+    "text": "no dot data node dot right"
+  },
+  {
+    "start": 3473.4,
+    "duration": 3.659,
+    "text": "ah node.write.data"
+  },
+  {
+    "start": 3478.079,
+    "duration": 5.181,
+    "text": "that looks good otherwise no right child"
+  },
+  {
+    "start": 3486.24,
+    "duration": 4.56,
+    "text": "I will just in the end print the string"
+  },
+  {
+    "start": 3488.579,
+    "duration": 5.54,
+    "text": "whatever string you have"
+  },
+  {
+    "start": 3490.8,
+    "duration": 3.319,
+    "text": "now just call recursion"
+  },
+  {
+    "start": 3495.48,
+    "duration": 4.52,
+    "text": "if no dot left is not equal to null"
+  },
+  {
+    "start": 3500.4,
+    "duration": 7.939,
+    "text": "display node dot left"
+  },
+  {
+    "start": 3504.599,
+    "duration": 3.74,
+    "text": "node.right is not equal to null"
+  },
+  {
+    "start": 3508.92,
+    "duration": 5.04,
+    "text": "display node dot right"
+  },
+  {
+    "start": 3512.28,
+    "duration": 4.559,
+    "text": "cool"
+  },
+  {
+    "start": 3513.96,
+    "duration": 5.879,
+    "text": "very simple so just a little helper"
+  },
+  {
+    "start": 3516.839,
+    "duration": 4.5,
+    "text": "function like uh per display it's not"
+  },
+  {
+    "start": 3519.839,
+    "duration": 3.96,
+    "text": "the part of the main algorithm just for"
+  },
+  {
+    "start": 3521.339,
+    "duration": 5.52,
+    "text": "fun I created we will try to run this"
+  },
+  {
+    "start": 3523.799,
+    "duration": 4.681,
+    "text": "and I will show you the workflow and how"
+  },
+  {
+    "start": 3526.859,
+    "duration": 4.98,
+    "text": "it's working"
+  },
+  {
+    "start": 3528.48,
+    "duration": 5.28,
+    "text": "but let's move to the main part so query"
+  },
+  {
+    "start": 3531.839,
+    "duration": 3.361,
+    "text": "how to find query"
+  },
+  {
+    "start": 3533.76,
+    "duration": 3.299,
+    "text": "so"
+  },
+  {
+    "start": 3535.2,
+    "duration": 3.78,
+    "text": "public int"
+  },
+  {
+    "start": 3537.059,
+    "duration": 4.381,
+    "text": "query"
+  },
+  {
+    "start": 3538.98,
+    "duration": 4.619,
+    "text": "let's say query start index"
+  },
+  {
+    "start": 3541.44,
+    "duration": 4.679,
+    "text": "query and index"
+  },
+  {
+    "start": 3543.599,
+    "duration": 3.841,
+    "text": "I'm just going to say return this Dot"
+  },
+  {
+    "start": 3546.119,
+    "duration": 3.601,
+    "text": "query"
+  },
+  {
+    "start": 3547.44,
+    "duration": 6.679,
+    "text": "we start from root"
+  },
+  {
+    "start": 3549.72,
+    "duration": 4.399,
+    "text": "query start index query and index"
+  },
+  {
+    "start": 3555.42,
+    "duration": 3.26,
+    "text": "private int"
+  },
+  {
+    "start": 3563.22,
+    "duration": 6.3,
+    "text": "node node query start index query and"
+  },
+  {
+    "start": 3567.54,
+    "duration": 4.62,
+    "text": "index"
+  },
+  {
+    "start": 3569.52,
+    "duration": 4.86,
+    "text": "right query"
+  },
+  {
+    "start": 3572.16,
+    "duration": 4.199,
+    "text": "how do you do query"
+  },
+  {
+    "start": 3574.38,
+    "duration": 4.58,
+    "text": "what are the cases for query"
+  },
+  {
+    "start": 3576.359,
+    "duration": 4.921,
+    "text": "so node let's say is completely lying"
+  },
+  {
+    "start": 3578.96,
+    "duration": 5.379,
+    "text": "inside the query"
+  },
+  {
+    "start": 3581.28,
+    "duration": 6.779,
+    "text": "so I can say if"
+  },
+  {
+    "start": 3584.339,
+    "duration": 7.201,
+    "text": "node dot start interval greater than"
+  },
+  {
+    "start": 3588.059,
+    "duration": 7.861,
+    "text": "equal to query start interval and node"
+  },
+  {
+    "start": 3591.54,
+    "duration": 5.88,
+    "text": "Dot and Inter well is less than"
+  },
+  {
+    "start": 3595.92,
+    "duration": 4.08,
+    "text": "equal to"
+  },
+  {
+    "start": 3597.42,
+    "duration": 4.439,
+    "text": "query and interval"
+  },
+  {
+    "start": 3600.0,
+    "duration": 4.4,
+    "text": "in this case I know that the node is"
+  },
+  {
+    "start": 3601.859,
+    "duration": 2.541,
+    "text": "completely"
+  },
+  {
+    "start": 3605.099,
+    "duration": 3.561,
+    "text": "lying inside"
+  },
+  {
+    "start": 3609.119,
+    "duration": 4.921,
+    "text": "query"
+  },
+  {
+    "start": 3610.619,
+    "duration": 6.061,
+    "text": "so all the items inside this so if the"
+  },
+  {
+    "start": 3614.04,
+    "duration": 4.14,
+    "text": "if this node is lying inside the query"
+  },
+  {
+    "start": 3616.68,
+    "duration": 3.919,
+    "text": "then we will take the all the items in"
+  },
+  {
+    "start": 3618.18,
+    "duration": 2.419,
+    "text": "this node"
+  },
+  {
+    "start": 3620.88,
+    "duration": 8.179,
+    "text": "node.data"
+  },
+  {
+    "start": 3623.4,
+    "duration": 5.659,
+    "text": "else if node dot let's say start in"
+  },
+  {
+    "start": 3630.059,
+    "duration": 4.74,
+    "text": "interval is greater than the query and"
+  },
+  {
+    "start": 3632.339,
+    "duration": 4.5,
+    "text": "index interval"
+  },
+  {
+    "start": 3634.799,
+    "duration": 4.621,
+    "text": "or"
+  },
+  {
+    "start": 3636.839,
+    "duration": 4.561,
+    "text": "node dot end interval is less than query"
+  },
+  {
+    "start": 3639.42,
+    "duration": 3.72,
+    "text": "start interval we've already done this C"
+  },
+  {
+    "start": 3641.4,
+    "duration": 3.959,
+    "text": "over here"
+  },
+  {
+    "start": 3643.14,
+    "duration": 4.939,
+    "text": "bottom right"
+  },
+  {
+    "start": 3645.359,
+    "duration": 2.72,
+    "text": "so nothing new"
+  },
+  {
+    "start": 3649.559,
+    "duration": 4.141,
+    "text": "query start interval"
+  },
+  {
+    "start": 3651.299,
+    "duration": 4.701,
+    "text": "return 0 in this case because completely"
+  },
+  {
+    "start": 3653.7,
+    "duration": 2.3,
+    "text": "outside"
+  },
+  {
+    "start": 3656.88,
+    "duration": 6.06,
+    "text": "no contribution"
+  },
+  {
+    "start": 3658.619,
+    "duration": 4.321,
+    "text": "I have already explained otherwise"
+  },
+  {
+    "start": 3663.18,
+    "duration": 3.84,
+    "text": "otherwise it's overlapping call the left"
+  },
+  {
+    "start": 3665.819,
+    "duration": 4.621,
+    "text": "and right"
+  },
+  {
+    "start": 3667.02,
+    "duration": 6.42,
+    "text": "otherwise return"
+  },
+  {
+    "start": 3670.44,
+    "duration": 6.919,
+    "text": "this Dot"
+  },
+  {
+    "start": 3673.44,
+    "duration": 3.919,
+    "text": "query left recursion"
+  },
+  {
+    "start": 3678.299,
+    "duration": 4.401,
+    "text": "start index query and index"
+  },
+  {
+    "start": 3683.46,
+    "duration": 4.379,
+    "text": "dot q e r y"
+  },
+  {
+    "start": 3686.22,
+    "duration": 4.44,
+    "text": "node dot right"
+  },
+  {
+    "start": 3687.839,
+    "duration": 5.161,
+    "text": "start index query and index"
+  },
+  {
+    "start": 3690.66,
+    "duration": 4.74,
+    "text": "query index will not change right why"
+  },
+  {
+    "start": 3693.0,
+    "duration": 5.64,
+    "text": "how can you change query index"
+  },
+  {
+    "start": 3695.4,
+    "duration": 5.88,
+    "text": "and the the dry run the running of this"
+  },
+  {
+    "start": 3698.64,
+    "duration": 5.34,
+    "text": "line we already did when I was"
+  },
+  {
+    "start": 3701.28,
+    "duration": 5.46,
+    "text": "explaining the overlap one see these"
+  },
+  {
+    "start": 3703.98,
+    "duration": 5.28,
+    "text": "these ones"
+  },
+  {
+    "start": 3706.74,
+    "duration": 4.44,
+    "text": "these ones the red ones I said this is"
+  },
+  {
+    "start": 3709.26,
+    "duration": 4.38,
+    "text": "case three case two so we already did"
+  },
+  {
+    "start": 3711.18,
+    "duration": 3.54,
+    "text": "this nothing new same thing like this"
+  },
+  {
+    "start": 3713.64,
+    "duration": 2.58,
+    "text": "will run"
+  },
+  {
+    "start": 3714.72,
+    "duration": 3.3,
+    "text": "that's it"
+  },
+  {
+    "start": 3716.22,
+    "duration": 4.399,
+    "text": "what is remaining now"
+  },
+  {
+    "start": 3718.02,
+    "duration": 2.599,
+    "text": "update"
+  },
+  {
+    "start": 3722.88,
+    "duration": 6.66,
+    "text": "let us say index value"
+  },
+  {
+    "start": 3726.059,
+    "duration": 7.081,
+    "text": "or this index update the value"
+  },
+  {
+    "start": 3729.54,
+    "duration": 5.7,
+    "text": "so update function also we did we know"
+  },
+  {
+    "start": 3733.14,
+    "duration": 4.26,
+    "text": "that it is returning"
+  },
+  {
+    "start": 3735.24,
+    "duration": 3.96,
+    "text": "the node value here"
+  },
+  {
+    "start": 3737.4,
+    "duration": 2.76,
+    "text": "and since we need to update the root"
+  },
+  {
+    "start": 3739.2,
+    "duration": 3.54,
+    "text": "node"
+  },
+  {
+    "start": 3740.16,
+    "duration": 4.62,
+    "text": "let's say we not updating we're not"
+  },
+  {
+    "start": 3742.74,
+    "duration": 3.96,
+    "text": "returning the node value node which is"
+  },
+  {
+    "start": 3744.78,
+    "duration": 4.14,
+    "text": "returning the value of the node update"
+  },
+  {
+    "start": 3746.7,
+    "duration": 3.659,
+    "text": "also we reduce it is in Black Ink we did"
+  },
+  {
+    "start": 3748.92,
+    "duration": 2.82,
+    "text": "a complete walkthrough of how our update"
+  },
+  {
+    "start": 3750.359,
+    "duration": 3.121,
+    "text": "function is working"
+  },
+  {
+    "start": 3751.74,
+    "duration": 3.54,
+    "text": "and I wrote it over here is how to"
+  },
+  {
+    "start": 3753.48,
+    "duration": 4.02,
+    "text": "update in three steps check whether it"
+  },
+  {
+    "start": 3755.28,
+    "duration": 4.559,
+    "text": "lies in the interval if yes then check"
+  },
+  {
+    "start": 3757.5,
+    "duration": 4.02,
+    "text": "the nodes and all sorts of things so I"
+  },
+  {
+    "start": 3759.839,
+    "duration": 3.421,
+    "text": "will just do that"
+  },
+  {
+    "start": 3761.52,
+    "duration": 4.2,
+    "text": "we are not rushing anything we have"
+  },
+  {
+    "start": 3763.26,
+    "duration": 4.559,
+    "text": "already covered in this video itself"
+  },
+  {
+    "start": 3765.72,
+    "duration": 6.66,
+    "text": "if index lies in the interval greater"
+  },
+  {
+    "start": 3767.819,
+    "duration": 8.581,
+    "text": "than equal to node dot start enter well"
+  },
+  {
+    "start": 3772.38,
+    "duration": 6.719,
+    "text": "and index is less than equal to node Dot"
+  },
+  {
+    "start": 3776.4,
+    "duration": 6.38,
+    "text": "and interval"
+  },
+  {
+    "start": 3779.099,
+    "duration": 3.681,
+    "text": "what do we do check"
+  },
+  {
+    "start": 3783.119,
+    "duration": 4.861,
+    "text": "if yes then check the child node if a"
+  },
+  {
+    "start": 3785.46,
+    "duration": 6.32,
+    "text": "child range is out then no change just"
+  },
+  {
+    "start": 3787.98,
+    "duration": 3.8,
+    "text": "return example already done"
+  },
+  {
+    "start": 3797.64,
+    "duration": 3.0,
+    "text": "index"
+  },
+  {
+    "start": 3800.819,
+    "duration": 4.221,
+    "text": "little indentation error no problem"
+  },
+  {
+    "start": 3808.68,
+    "duration": 5.879,
+    "text": "looks good right now if"
+  },
+  {
+    "start": 3811.5,
+    "duration": 5.22,
+    "text": "index is equal to node dot start inter"
+  },
+  {
+    "start": 3814.559,
+    "duration": 3.841,
+    "text": "well"
+  },
+  {
+    "start": 3816.72,
+    "duration": 5.16,
+    "text": "and and"
+  },
+  {
+    "start": 3818.4,
+    "duration": 6.24,
+    "text": "let's say index is equal to node Dot"
+  },
+  {
+    "start": 3821.88,
+    "duration": 4.62,
+    "text": "end interval"
+  },
+  {
+    "start": 3824.64,
+    "duration": 4.159,
+    "text": "in this case we are at the base"
+  },
+  {
+    "start": 3826.5,
+    "duration": 2.299,
+    "text": "condition"
+  },
+  {
+    "start": 3829.5,
+    "duration": 6.0,
+    "text": "here so I will just update"
+  },
+  {
+    "start": 3832.319,
+    "duration": 5.901,
+    "text": "no dot data is equal to"
+  },
+  {
+    "start": 3835.5,
+    "duration": 2.72,
+    "text": "the value"
+  },
+  {
+    "start": 3839.64,
+    "duration": 4.14,
+    "text": "return"
+  },
+  {
+    "start": 3840.78,
+    "duration": 3.0,
+    "text": "node.data"
+  },
+  {
+    "start": 3844.14,
+    "duration": 2.719,
+    "text": "otherwise"
+  },
+  {
+    "start": 3848.819,
+    "duration": 5.961,
+    "text": "I will just return the"
+  },
+  {
+    "start": 3852.119,
+    "duration": 2.661,
+    "text": "the answer"
+  },
+  {
+    "start": 3855.42,
+    "duration": 3.84,
+    "text": "okay otherwise"
+  },
+  {
+    "start": 3857.64,
+    "duration": 4.52,
+    "text": "call left and right"
+  },
+  {
+    "start": 3859.26,
+    "duration": 8.059,
+    "text": "and just return the sum of the answers"
+  },
+  {
+    "start": 3862.16,
+    "duration": 5.159,
+    "text": "otherwise no dot data is equal to"
+  },
+  {
+    "start": 3868.319,
+    "duration": 7.5,
+    "text": "or I can just say int left answer is"
+  },
+  {
+    "start": 3871.559,
+    "duration": 7.321,
+    "text": "equal to update node dot left comma"
+  },
+  {
+    "start": 3875.819,
+    "duration": 5.161,
+    "text": "index comma new value"
+  },
+  {
+    "start": 3878.88,
+    "duration": 4.02,
+    "text": "which is value"
+  },
+  {
+    "start": 3880.98,
+    "duration": 5.22,
+    "text": "right"
+  },
+  {
+    "start": 3882.9,
+    "duration": 8.28,
+    "text": "answer is equal to update"
+  },
+  {
+    "start": 3886.2,
+    "duration": 7.2,
+    "text": "node dot write index value"
+  },
+  {
+    "start": 3891.18,
+    "duration": 5.6,
+    "text": "then this current node dot data is equal"
+  },
+  {
+    "start": 3893.4,
+    "duration": 3.38,
+    "text": "to left answer plus right answer"
+  },
+  {
+    "start": 3901.44,
+    "duration": 7.52,
+    "text": "that is it"
+  },
+  {
+    "start": 3903.9,
+    "duration": 5.06,
+    "text": "then return node dot data"
+  },
+  {
+    "start": 3910.319,
+    "duration": 4.441,
+    "text": "okay this is for the"
+  },
+  {
+    "start": 3913.14,
+    "duration": 4.26,
+    "text": "this case"
+  },
+  {
+    "start": 3914.76,
+    "duration": 4.74,
+    "text": "for example this one but"
+  },
+  {
+    "start": 3917.4,
+    "duration": 3.84,
+    "text": "otherwise"
+  },
+  {
+    "start": 3919.5,
+    "duration": 3.48,
+    "text": "for this case"
+  },
+  {
+    "start": 3921.24,
+    "duration": 4.339,
+    "text": "otherwise"
+  },
+  {
+    "start": 3922.98,
+    "duration": 2.599,
+    "text": "if"
+  },
+  {
+    "start": 3928.26,
+    "duration": 5.299,
+    "text": "let's say"
+  },
+  {
+    "start": 3931.02,
+    "duration": 2.539,
+    "text": "it's"
+  },
+  {
+    "start": 3935.88,
+    "duration": 4.939,
+    "text": "completely outside let's say it's"
+  },
+  {
+    "start": 3938.099,
+    "duration": 2.72,
+    "text": "completely outside"
+  },
+  {
+    "start": 3941.64,
+    "duration": 3.78,
+    "text": "if it's completely outside not in this"
+  },
+  {
+    "start": 3943.92,
+    "duration": 5.04,
+    "text": "range"
+  },
+  {
+    "start": 3945.42,
+    "duration": 7.46,
+    "text": "then for example this one"
+  },
+  {
+    "start": 3948.96,
+    "duration": 3.92,
+    "text": "I will just return the value"
+  },
+  {
+    "start": 3954.78,
+    "duration": 2.72,
+    "text": "that's it"
+  },
+  {
+    "start": 3957.839,
+    "duration": 2.78,
+    "text": "that is it"
+  },
+  {
+    "start": 3961.38,
+    "duration": 3.78,
+    "text": "cool"
+  },
+  {
+    "start": 3962.94,
+    "duration": 3.72,
+    "text": "now we can run this one mistake I made"
+  },
+  {
+    "start": 3965.16,
+    "duration": 2.639,
+    "text": "was I forgot to create the helper"
+  },
+  {
+    "start": 3966.66,
+    "duration": 3.959,
+    "text": "function"
+  },
+  {
+    "start": 3967.799,
+    "duration": 4.381,
+    "text": "so this will actually be private"
+  },
+  {
+    "start": 3970.619,
+    "duration": 3.781,
+    "text": "and"
+  },
+  {
+    "start": 3972.18,
+    "duration": 4.5,
+    "text": "public void"
+  },
+  {
+    "start": 3974.4,
+    "duration": 5.28,
+    "text": "update"
+  },
+  {
+    "start": 3976.68,
+    "duration": 3.0,
+    "text": "index"
+  },
+  {
+    "start": 3979.799,
+    "duration": 5.161,
+    "text": "with the value"
+  },
+  {
+    "start": 3981.72,
+    "duration": 6.599,
+    "text": "and this dot root dot data is whatever"
+  },
+  {
+    "start": 3984.96,
+    "duration": 5.579,
+    "text": "answer I get from the helper this dot"
+  },
+  {
+    "start": 3988.319,
+    "duration": 6.78,
+    "text": "root"
+  },
+  {
+    "start": 3990.539,
+    "duration": 9.8,
+    "text": "index value this will be my helper"
+  },
+  {
+    "start": 3995.099,
+    "duration": 5.24,
+    "text": "it will have a node node"
+  },
+  {
+    "start": 4001.52,
+    "duration": 6.12,
+    "text": "cool and also now that it's returning an"
+  },
+  {
+    "start": 4003.98,
+    "duration": 5.819,
+    "text": "integer this will be int over here"
+  },
+  {
+    "start": 4007.64,
+    "duration": 3.899,
+    "text": "okay it's a little"
+  },
+  {
+    "start": 4009.799,
+    "duration": 4.141,
+    "text": "forgot to create the main function then"
+  },
+  {
+    "start": 4011.539,
+    "duration": 6.241,
+    "text": "the type then I had the typo but"
+  },
+  {
+    "start": 4013.94,
+    "duration": 6.84,
+    "text": "I think that looks good so"
+  },
+  {
+    "start": 4017.78,
+    "duration": 5.22,
+    "text": "updating the value and also"
+  },
+  {
+    "start": 4020.78,
+    "duration": 4.14,
+    "text": "yeah just returning the so make sure"
+  },
+  {
+    "start": 4023.0,
+    "duration": 4.799,
+    "text": "right when you're returning it"
+  },
+  {
+    "start": 4024.92,
+    "duration": 4.919,
+    "text": "and it's storing it in a type integer"
+  },
+  {
+    "start": 4027.799,
+    "duration": 3.06,
+    "text": "then here also you have to have the type"
+  },
+  {
+    "start": 4029.839,
+    "duration": 3.24,
+    "text": "integer"
+  },
+  {
+    "start": 4030.859,
+    "duration": 3.48,
+    "text": "because of recursion rule whatever you"
+  },
+  {
+    "start": 4033.079,
+    "duration": 3.121,
+    "text": "type you're returning should be the type"
+  },
+  {
+    "start": 4034.339,
+    "duration": 3.72,
+    "text": "of the return type okay and I also had"
+  },
+  {
+    "start": 4036.2,
+    "duration": 5.159,
+    "text": "some little typos over here and there"
+  },
+  {
+    "start": 4038.059,
+    "duration": 6.721,
+    "text": "like this Leaf was left for six for"
+  },
+  {
+    "start": 4041.359,
+    "duration": 5.821,
+    "text": "example so fix those typos but um"
+  },
+  {
+    "start": 4044.78,
+    "duration": 4.319,
+    "text": "yeah it looks good uh index equal to"
+  },
+  {
+    "start": 4047.18,
+    "duration": 4.08,
+    "text": "equal to node interval regular so on and"
+  },
+  {
+    "start": 4049.099,
+    "duration": 4.5,
+    "text": "so forth I followed these three rules"
+  },
+  {
+    "start": 4051.26,
+    "duration": 5.22,
+    "text": "over here how to update in log time so"
+  },
+  {
+    "start": 4053.599,
+    "duration": 5.281,
+    "text": "pretty standard stuff and the display"
+  },
+  {
+    "start": 4056.48,
+    "duration": 4.44,
+    "text": "function is also pretty simple I'm just"
+  },
+  {
+    "start": 4058.88,
+    "duration": 3.9,
+    "text": "uh taking the node and interval"
+  },
+  {
+    "start": 4060.92,
+    "duration": 2.879,
+    "text": "displaying it in a prettier format"
+  },
+  {
+    "start": 4062.78,
+    "duration": 2.16,
+    "text": "that's it"
+  },
+  {
+    "start": 4063.799,
+    "duration": 2.78,
+    "text": "should be pretty straightforward you"
+  },
+  {
+    "start": 4064.94,
+    "duration": 3.78,
+    "text": "have done so complex you know"
+  },
+  {
+    "start": 4066.579,
+    "duration": 3.941,
+    "text": "parentheses type questions and stuff so"
+  },
+  {
+    "start": 4068.72,
+    "duration": 4.02,
+    "text": "this should be no problem and I created"
+  },
+  {
+    "start": 4070.52,
+    "duration": 4.14,
+    "text": "a new main file over here keeping it"
+  },
+  {
+    "start": 4072.74,
+    "duration": 3.72,
+    "text": "separate from segmentary good practice"
+  },
+  {
+    "start": 4074.66,
+    "duration": 6.08,
+    "text": "just"
+  },
+  {
+    "start": 4076.46,
+    "duration": 4.28,
+    "text": "let's try to run this tree dot display"
+  },
+  {
+    "start": 4081.5,
+    "duration": 7.14,
+    "text": "there you go so root here as you can see"
+  },
+  {
+    "start": 4085.039,
+    "duration": 5.58,
+    "text": "so for for for for this node"
+  },
+  {
+    "start": 4088.64,
+    "duration": 7.199,
+    "text": "here it's saying"
+  },
+  {
+    "start": 4090.619,
+    "duration": 7.401,
+    "text": "0 comma 3 24. 0 comma 324 and 0 comma"
+  },
+  {
+    "start": 4095.839,
+    "duration": 2.181,
+    "text": "seven"
+  },
+  {
+    "start": 4098.359,
+    "duration": 3.081,
+    "text": "over here it says"
+  },
+  {
+    "start": 4101.9,
+    "duration": 4.439,
+    "text": "27"
+  },
+  {
+    "start": 4103.4,
+    "duration": 6.799,
+    "text": "as you can see and 4 comma seven"
+  },
+  {
+    "start": 4106.339,
+    "duration": 3.86,
+    "text": "is giving the data 3."
+  },
+  {
+    "start": 4110.6,
+    "duration": 4.159,
+    "text": "okay 13 oh sorry three"
+  },
+  {
+    "start": 4115.64,
+    "duration": 6.199,
+    "text": "okay so one thing I can do is in display"
+  },
+  {
+    "start": 4118.94,
+    "duration": 2.899,
+    "text": "uh"
+  },
+  {
+    "start": 4121.94,
+    "duration": 5.6,
+    "text": "this last line I don't need in display"
+  },
+  {
+    "start": 4125.48,
+    "duration": 2.06,
+    "text": "um"
+  },
+  {
+    "start": 4129.02,
+    "duration": 5.0,
+    "text": "right child"
+  },
+  {
+    "start": 4130.94,
+    "duration": 3.08,
+    "text": "don't need this"
+  },
+  {
+    "start": 4136.1,
+    "duration": 4.04,
+    "text": "yeah in the right I don't need this and"
+  },
+  {
+    "start": 4137.96,
+    "duration": 2.18,
+    "text": "then"
+  },
+  {
+    "start": 4148.52,
+    "duration": 4.339,
+    "text": "new line"
+  },
+  {
+    "start": 4150.199,
+    "duration": 2.66,
+    "text": "on this"
+  },
+  {
+    "start": 4153.259,
+    "duration": 3.661,
+    "text": "now looks good"
+  },
+  {
+    "start": 4155.179,
+    "duration": 3.18,
+    "text": "so"
+  },
+  {
+    "start": 4156.92,
+    "duration": 4.02,
+    "text": "root node"
+  },
+  {
+    "start": 4158.359,
+    "duration": 6.661,
+    "text": "left child right child"
+  },
+  {
+    "start": 4160.94,
+    "duration": 5.04,
+    "text": "zero comma 727 0 comma 324 4 comma seven"
+  },
+  {
+    "start": 4165.02,
+    "duration": 3.299,
+    "text": "three"
+  },
+  {
+    "start": 4165.98,
+    "duration": 4.08,
+    "text": "zero comma seven twenty seven zero comma"
+  },
+  {
+    "start": 4168.319,
+    "duration": 3.9,
+    "text": "three twenty four four comma seven three"
+  },
+  {
+    "start": 4170.06,
+    "duration": 4.759,
+    "text": "now"
+  },
+  {
+    "start": 4172.219,
+    "duration": 5.701,
+    "text": "for zero comma 3 as a root node it is 24"
+  },
+  {
+    "start": 4174.819,
+    "duration": 5.02,
+    "text": "24 0 comma 1 left hand side two comma"
+  },
+  {
+    "start": 4177.92,
+    "duration": 3.24,
+    "text": "three right hand side 0 comma one left"
+  },
+  {
+    "start": 4179.839,
+    "duration": 3.5,
+    "text": "hand side two comma three right hand"
+  },
+  {
+    "start": 4181.16,
+    "duration": 2.179,
+    "text": "side"
+  },
+  {
+    "start": 4184.16,
+    "duration": 4.579,
+    "text": "make sense"
+  },
+  {
+    "start": 4185.719,
+    "duration": 3.02,
+    "text": "simple display"
+  },
+  {
+    "start": 4189.02,
+    "duration": 3.679,
+    "text": "just a little fun extra thing I wanted"
+  },
+  {
+    "start": 4190.88,
+    "duration": 4.92,
+    "text": "to show you"
+  },
+  {
+    "start": 4192.699,
+    "duration": 6.661,
+    "text": "now let's say I forget the display"
+  },
+  {
+    "start": 4195.8,
+    "duration": 3.56,
+    "text": "and I get my query answer"
+  },
+  {
+    "start": 4200.96,
+    "duration": 4.4,
+    "text": "system dot out Dot println"
+  },
+  {
+    "start": 4206.36,
+    "duration": 2.819,
+    "text": "3 Dot"
+  },
+  {
+    "start": 4207.98,
+    "duration": 4.34,
+    "text": "query"
+  },
+  {
+    "start": 4209.179,
+    "duration": 3.141,
+    "text": "find the sum"
+  },
+  {
+    "start": 4215.239,
+    "duration": 4.021,
+    "text": "find the sum this is why we create"
+  },
+  {
+    "start": 4217.28,
+    "duration": 3.06,
+    "text": "helper now you can see I can't pass the"
+  },
+  {
+    "start": 4219.26,
+    "duration": 4.919,
+    "text": "root node"
+  },
+  {
+    "start": 4220.34,
+    "duration": 5.399,
+    "text": "so I just have to pass the numbers"
+  },
+  {
+    "start": 4224.179,
+    "duration": 3.48,
+    "text": "and internally it will call another"
+  },
+  {
+    "start": 4225.739,
+    "duration": 3.601,
+    "text": "function that will pass root node you"
+  },
+  {
+    "start": 4227.659,
+    "duration": 3.54,
+    "text": "have to make sure that the person who is"
+  },
+  {
+    "start": 4229.34,
+    "duration": 3.48,
+    "text": "running the program does not interact"
+  },
+  {
+    "start": 4231.199,
+    "duration": 4.921,
+    "text": "much with how the program is made they"
+  },
+  {
+    "start": 4232.82,
+    "duration": 5.1,
+    "text": "should only be able to see you know the"
+  },
+  {
+    "start": 4236.12,
+    "duration": 3.9,
+    "text": "answer"
+  },
+  {
+    "start": 4237.92,
+    "duration": 4.14,
+    "text": "so"
+  },
+  {
+    "start": 4240.02,
+    "duration": 4.86,
+    "text": "what you want to do"
+  },
+  {
+    "start": 4242.06,
+    "duration": 5.76,
+    "text": "index number let's say 1"
+  },
+  {
+    "start": 4244.88,
+    "duration": 5.76,
+    "text": "to index number"
+  },
+  {
+    "start": 4247.82,
+    "duration": 4.68,
+    "text": "six let's try that what is the answer"
+  },
+  {
+    "start": 4250.64,
+    "duration": 7.92,
+    "text": "index number one two six"
+  },
+  {
+    "start": 4252.5,
+    "duration": 10.46,
+    "text": "eight plus six plus seven minus 2 minus"
+  },
+  {
+    "start": 4258.56,
+    "duration": 4.4,
+    "text": "8 plus 4 15."
+  },
+  {
+    "start": 4264.08,
+    "duration": 7.86,
+    "text": "getting 15 here very cool log of n"
+  },
+  {
+    "start": 4267.14,
+    "duration": 6.24,
+    "text": "that's it have fun now and uh lastly I"
+  },
+  {
+    "start": 4271.94,
+    "duration": 3.54,
+    "text": "would say"
+  },
+  {
+    "start": 4273.38,
+    "duration": 4.02,
+    "text": "the code this entire thing can be found"
+  },
+  {
+    "start": 4275.48,
+    "duration": 3.239,
+    "text": "in the description notes link can be"
+  },
+  {
+    "start": 4277.4,
+    "duration": 3.06,
+    "text": "found in the description when people say"
+  },
+  {
+    "start": 4278.719,
+    "duration": 4.861,
+    "text": "notes are not opening"
+  },
+  {
+    "start": 4280.46,
+    "duration": 5.699,
+    "text": "if on the 51st lecture"
+  },
+  {
+    "start": 4283.58,
+    "duration": 5.099,
+    "text": "you are saying nodes are not opening"
+  },
+  {
+    "start": 4286.159,
+    "duration": 4.921,
+    "text": "you cannot even clone the simple GitHub"
+  },
+  {
+    "start": 4288.679,
+    "duration": 3.961,
+    "text": "repository then I can't help you"
+  },
+  {
+    "start": 4291.08,
+    "duration": 3.78,
+    "text": "there are people in the comment section"
+  },
+  {
+    "start": 4292.64,
+    "duration": 6.18,
+    "text": "Kunal object-oriented programming nodes"
+  },
+  {
+    "start": 4294.86,
+    "duration": 7.14,
+    "text": "on GitHub repository are not opening"
+  },
+  {
+    "start": 4298.82,
+    "duration": 4.2,
+    "text": "if you cannot clone a GitHub repository"
+  },
+  {
+    "start": 4302.0,
+    "duration": 4.38,
+    "text": "then"
+  },
+  {
+    "start": 4303.02,
+    "duration": 6.38,
+    "text": "not me no one in this world can help you"
+  },
+  {
+    "start": 4306.38,
+    "duration": 3.02,
+    "text": "forget about me"
+  },
+  {
+    "start": 4309.62,
+    "duration": 4.559,
+    "text": "let's say lecture"
+  },
+  {
+    "start": 4311.239,
+    "duration": 4.561,
+    "text": "object-oriented programming"
+  },
+  {
+    "start": 4314.179,
+    "duration": 4.201,
+    "text": "notes"
+  },
+  {
+    "start": 4315.8,
+    "duration": 5.22,
+    "text": "all the PDF notes are here some people"
+  },
+  {
+    "start": 4318.38,
+    "duration": 4.2,
+    "text": "are saying these are not opening"
+  },
+  {
+    "start": 4321.02,
+    "duration": 5.4,
+    "text": "that might be true in this case let's"
+  },
+  {
+    "start": 4322.58,
+    "duration": 6.84,
+    "text": "say this is opening but in some cases"
+  },
+  {
+    "start": 4326.42,
+    "duration": 4.68,
+    "text": "it's not opening for example"
+  },
+  {
+    "start": 4329.42,
+    "duration": 3.9,
+    "text": "I can't help you"
+  },
+  {
+    "start": 4331.1,
+    "duration": 3.0,
+    "text": "simply clone the repository in your"
+  },
+  {
+    "start": 4333.32,
+    "duration": 2.879,
+    "text": "system"
+  },
+  {
+    "start": 4334.1,
+    "duration": 4.8,
+    "text": "start it as well that way up that'd be"
+  },
+  {
+    "start": 4336.199,
+    "duration": 4.921,
+    "text": "nice but just clone it you will have all"
+  },
+  {
+    "start": 4338.9,
+    "duration": 3.54,
+    "text": "the PDF in your system"
+  },
+  {
+    "start": 4341.12,
+    "duration": 4.02,
+    "text": "but anyway"
+  },
+  {
+    "start": 4342.44,
+    "duration": 4.02,
+    "text": "uh the code for this directly you can"
+  },
+  {
+    "start": 4345.14,
+    "duration": 3.24,
+    "text": "find the link in the description you can"
+  },
+  {
+    "start": 4346.46,
+    "duration": 4.199,
+    "text": "click on run and you can run it on your"
+  },
+  {
+    "start": 4348.38,
+    "duration": 3.839,
+    "text": "own system after clicking Fork update it"
+  },
+  {
+    "start": 4350.659,
+    "duration": 4.5,
+    "text": "and do all sorts of things run it on"
+  },
+  {
+    "start": 4352.219,
+    "duration": 5.821,
+    "text": "your system and uh three things I would"
+  },
+  {
+    "start": 4355.159,
+    "duration": 5.04,
+    "text": "like you to do like right now comment"
+  },
+  {
+    "start": 4358.04,
+    "duration": 3.78,
+    "text": "right now share this video so you can"
+  },
+  {
+    "start": 4360.199,
+    "duration": 3.841,
+    "text": "take a screenshot you can use hashtag"
+  },
+  {
+    "start": 4361.82,
+    "duration": 4.919,
+    "text": "DSA with Kunal and join the learning"
+  },
+  {
+    "start": 4364.04,
+    "duration": 5.52,
+    "text": "public initiative so if you if you at"
+  },
+  {
+    "start": 4366.739,
+    "duration": 4.801,
+    "text": "least like and comment uh that will help"
+  },
+  {
+    "start": 4369.56,
+    "duration": 5.58,
+    "text": "boost the algorithm and more people will"
+  },
+  {
+    "start": 4371.54,
+    "duration": 5.4,
+    "text": "find these free courses and you can yeah"
+  },
+  {
+    "start": 4375.14,
+    "duration": 4.32,
+    "text": "take a screenshot share hashtag DSA with"
+  },
+  {
+    "start": 4376.94,
+    "duration": 3.9,
+    "text": "canal and if you have any comments uh"
+  },
+  {
+    "start": 4379.46,
+    "duration": 4.08,
+    "text": "like any questions leave those in the"
+  },
+  {
+    "start": 4380.84,
+    "duration": 4.08,
+    "text": "comment section below as well but uh I'm"
+  },
+  {
+    "start": 4383.54,
+    "duration": 3.6,
+    "text": "not charging you any money for this so"
+  },
+  {
+    "start": 4384.92,
+    "duration": 3.48,
+    "text": "the best way to say thank you is liking"
+  },
+  {
+    "start": 4387.14,
+    "duration": 2.94,
+    "text": "and commenting"
+  },
+  {
+    "start": 4388.4,
+    "duration": 2.94,
+    "text": "so it helps the YouTube algorithm and"
+  },
+  {
+    "start": 4390.08,
+    "duration": 3.18,
+    "text": "sharing with your friends and on social"
+  },
+  {
+    "start": 4391.34,
+    "duration": 4.42,
+    "text": "media thanks a lot for watching I'll see"
+  },
+  {
+    "start": 4393.26,
+    "duration": 11.26,
+    "text": "you in the next one have a great day"
+  },
+  {
+    "start": 4395.76,
+    "duration": 8.76,
+    "text": "[Music]"
+  }
+]

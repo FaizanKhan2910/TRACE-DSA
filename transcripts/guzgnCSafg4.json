@@ -1,0 +1,1327 @@
+[
+  {
+    "start": 4.4,
+    "duration": 2.64,
+    "text": "hey everyone welcome back to my channel"
+  },
+  {
+    "start": 5.6,
+    "duration": 4.8,
+    "text": "a new video in this video we're doing"
+  },
+  {
+    "start": 7.04,
+    "duration": 5.559,
+    "text": "another question um of K smallest"
+  },
+  {
+    "start": 10.4,
+    "duration": 5.32,
+    "text": "element in a binary search stream medium"
+  },
+  {
+    "start": 12.599,
+    "duration": 6.76,
+    "text": "there's medium question asked in lot of"
+  },
+  {
+    "start": 15.72,
+    "duration": 7.479,
+    "text": "companies um let's see where it was"
+  },
+  {
+    "start": 19.359,
+    "duration": 7.0,
+    "text": "asked K smallest"
+  },
+  {
+    "start": 23.199,
+    "duration": 6.801,
+    "text": "BST Google Facebook"
+  },
+  {
+    "start": 26.359,
+    "duration": 5.841,
+    "text": "what Facebook Google and Amazon so it"
+  },
+  {
+    "start": 30.0,
+    "duration": 3.879,
+    "text": "was asked in like three companies we're"
+  },
+  {
+    "start": 32.2,
+    "duration": 2.72,
+    "text": "doing the complete algorithms boot camp"
+  },
+  {
+    "start": 33.879,
+    "duration": 4.561,
+    "text": "so you can check out the links in the"
+  },
+  {
+    "start": 34.92,
+    "duration": 4.959,
+    "text": "description below and um three questions"
+  },
+  {
+    "start": 38.44,
+    "duration": 2.72,
+    "text": "usually they are paired up with other"
+  },
+  {
+    "start": 39.879,
+    "duration": 4.601,
+    "text": "data structures where we did some"
+  },
+  {
+    "start": 41.16,
+    "duration": 6.28,
+    "text": "questions with like hashmaps um and in"
+  },
+  {
+    "start": 44.48,
+    "duration": 7.919,
+    "text": "this one we're going to use"
+  },
+  {
+    "start": 47.44,
+    "duration": 7.32,
+    "text": "um heaps right so this one will be using"
+  },
+  {
+    "start": 52.399,
+    "duration": 4.561,
+    "text": "Heap and we have done heaps before so a"
+  },
+  {
+    "start": 54.76,
+    "duration": 4.04,
+    "text": "tree and a heap Tes will be used"
+  },
+  {
+    "start": 56.96,
+    "duration": 3.36,
+    "text": "together I think you can do it without"
+  },
+  {
+    "start": 58.8,
+    "duration": 3.719,
+    "text": "Heap as well but don't do it it in the"
+  },
+  {
+    "start": 60.32,
+    "duration": 4.199,
+    "text": "interview many people comment Kunal you"
+  },
+  {
+    "start": 62.519,
+    "duration": 3.881,
+    "text": "can do it directly like this why are you"
+  },
+  {
+    "start": 64.519,
+    "duration": 3.721,
+    "text": "solving it like you know with so many D"
+  },
+  {
+    "start": 66.4,
+    "duration": 3.32,
+    "text": "success because otherwise if you don't"
+  },
+  {
+    "start": 68.24,
+    "duration": 3.879,
+    "text": "do that you will get rejected in your"
+  },
+  {
+    "start": 69.72,
+    "duration": 4.52,
+    "text": "interview this is why I've seen many"
+  },
+  {
+    "start": 72.119,
+    "duration": 4.721,
+    "text": "compar proms get rejected in the big"
+  },
+  {
+    "start": 74.24,
+    "duration": 5.08,
+    "text": "tech company interviews um and on"
+  },
+  {
+    "start": 76.84,
+    "duration": 4.76,
+    "text": "LinkedIn there was a post by a a Fang"
+  },
+  {
+    "start": 79.32,
+    "duration": 5.96,
+    "text": "recruiter who said that they never hire"
+  },
+  {
+    "start": 81.6,
+    "duration": 5.519,
+    "text": "like Compu proms because um they don't"
+  },
+  {
+    "start": 85.28,
+    "duration": 4.72,
+    "text": "know how to communicate well or work"
+  },
+  {
+    "start": 87.119,
+    "duration": 5.561,
+    "text": "well in teams or whatever um not my"
+  },
+  {
+    "start": 90.0,
+    "duration": 4.759,
+    "text": "words so what I'm trying to say is when"
+  },
+  {
+    "start": 92.68,
+    "duration": 4.52,
+    "text": "you're given a question in an interview"
+  },
+  {
+    "start": 94.759,
+    "duration": 5.441,
+    "text": "and you you know the best answer to that"
+  },
+  {
+    "start": 97.2,
+    "duration": 5.12,
+    "text": "question don't tell the best answer"
+  },
+  {
+    "start": 100.2,
+    "duration": 3.919,
+    "text": "right away because they want to learn"
+  },
+  {
+    "start": 102.32,
+    "duration": 4.0,
+    "text": "about your thought process do the"
+  },
+  {
+    "start": 104.119,
+    "duration": 5.801,
+    "text": "opposite tell the worst answer the Brute"
+  },
+  {
+    "start": 106.32,
+    "duration": 6.32,
+    "text": "Force approach first then optimize it"
+  },
+  {
+    "start": 109.92,
+    "duration": 5.28,
+    "text": "and then try to further optimize it make"
+  },
+  {
+    "start": 112.64,
+    "duration": 5.24,
+    "text": "it more pretty and clean use less stuff"
+  },
+  {
+    "start": 115.2,
+    "duration": 4.0,
+    "text": "less lines of code and stuff and you"
+  },
+  {
+    "start": 117.88,
+    "duration": 2.8,
+    "text": "will be doing very well in your"
+  },
+  {
+    "start": 119.2,
+    "duration": 4.36,
+    "text": "interview"
+  },
+  {
+    "start": 120.68,
+    "duration": 5.52,
+    "text": "but let's do this question it says K"
+  },
+  {
+    "start": 123.56,
+    "duration": 5.08,
+    "text": "smallest element in a binary search tree"
+  },
+  {
+    "start": 126.2,
+    "duration": 5.28,
+    "text": "I've not done the Heap question videos"
+  },
+  {
+    "start": 128.64,
+    "duration": 5.599,
+    "text": "yet but if you had watched the video"
+  },
+  {
+    "start": 131.48,
+    "duration": 4.88,
+    "text": "after I have created it you would know"
+  },
+  {
+    "start": 134.239,
+    "duration": 6.601,
+    "text": "that whenever it is given to you like"
+  },
+  {
+    "start": 136.36,
+    "duration": 7.76,
+    "text": "find K smallest or k something you use"
+  },
+  {
+    "start": 140.84,
+    "duration": 6.64,
+    "text": "heaps the question is solved but since I"
+  },
+  {
+    "start": 144.12,
+    "duration": 5.36,
+    "text": "have not covered that already um this is"
+  },
+  {
+    "start": 147.48,
+    "duration": 3.32,
+    "text": "just a little hint that I'm giving you"
+  },
+  {
+    "start": 149.48,
+    "duration": 3.96,
+    "text": "that"
+  },
+  {
+    "start": 150.8,
+    "duration": 4.719,
+    "text": "um whenever K smallest something is"
+  },
+  {
+    "start": 153.44,
+    "duration": 3.84,
+    "text": "given you use heaps but because you're"
+  },
+  {
+    "start": 155.519,
+    "duration": 3.681,
+    "text": "trying to maintain it right but the"
+  },
+  {
+    "start": 157.28,
+    "duration": 5.12,
+    "text": "thing is you have to find the smallest"
+  },
+  {
+    "start": 159.2,
+    "duration": 6.72,
+    "text": "element so what do we do over here uh"
+  },
+  {
+    "start": 162.4,
+    "duration": 6.32,
+    "text": "this is a binary search tree"
+  },
+  {
+    "start": 165.92,
+    "duration": 5.319,
+    "text": "so I know that how can I get the sorted"
+  },
+  {
+    "start": 168.72,
+    "duration": 4.4,
+    "text": "order in ordered reversal we know in"
+  },
+  {
+    "start": 171.239,
+    "duration": 6.481,
+    "text": "binary search Tre if you do in ordered"
+  },
+  {
+    "start": 173.12,
+    "duration": 4.6,
+    "text": "reversal you will go sorted order so"
+  },
+  {
+    "start": 178.44,
+    "duration": 5.32,
+    "text": "three 1 1"
+  },
+  {
+    "start": 181.12,
+    "duration": 5.24,
+    "text": "4"
+  },
+  {
+    "start": 183.76,
+    "duration": 5.8,
+    "text": "2 okay if I do in ordered reversal"
+  },
+  {
+    "start": 186.36,
+    "duration": 7.0,
+    "text": "meaning I start from here then I go left"
+  },
+  {
+    "start": 189.56,
+    "duration": 8.64,
+    "text": "left nothing then current so one then"
+  },
+  {
+    "start": 193.36,
+    "duration": 6.76,
+    "text": "right then uh current so 1 2 3 4 see in"
+  },
+  {
+    "start": 198.2,
+    "duration": 3.8,
+    "text": "ordered"
+  },
+  {
+    "start": 200.12,
+    "duration": 4.039,
+    "text": "reversals I hope you all know what in"
+  },
+  {
+    "start": 202.0,
+    "duration": 3.959,
+    "text": "ordered reversal is so I don't have to"
+  },
+  {
+    "start": 204.159,
+    "duration": 4.08,
+    "text": "explain that so let's say once you have"
+  },
+  {
+    "start": 205.959,
+    "duration": 4.721,
+    "text": "this in ordered"
+  },
+  {
+    "start": 208.239,
+    "duration": 4.0,
+    "text": "reversal uh"
+  },
+  {
+    "start": 210.68,
+    "duration": 3.919,
+    "text": "let's say I talk about this one this"
+  },
+  {
+    "start": 212.239,
+    "duration": 2.36,
+    "text": "bigger"
+  },
+  {
+    "start": 217.36,
+    "duration": 4.4,
+    "text": "one okay let me just make this"
+  },
+  {
+    "start": 222.28,
+    "duration": 3.0,
+    "text": "tree"
+  },
+  {
+    "start": 225.36,
+    "duration": 5.28,
+    "text": "five 3"
+  },
+  {
+    "start": 227.64,
+    "duration": 3.0,
+    "text": "6"
+  },
+  {
+    "start": 232.12,
+    "duration": 6.56,
+    "text": "4 2 1 and K is equal to"
+  },
+  {
+    "start": 235.56,
+    "duration": 5.08,
+    "text": "3 third smallest"
+  },
+  {
+    "start": 238.68,
+    "duration": 3.8,
+    "text": "element"
+  },
+  {
+    "start": 240.64,
+    "duration": 5.239,
+    "text": "in ordered reversal will be"
+  },
+  {
+    "start": 242.48,
+    "duration": 3.399,
+    "text": "what from"
+  },
+  {
+    "start": 247.0,
+    "duration": 6.879,
+    "text": "here go here go here go here go here"
+  },
+  {
+    "start": 251.439,
+    "duration": 4.601,
+    "text": "there's nothing then go back"
+  },
+  {
+    "start": 253.879,
+    "duration": 7.721,
+    "text": "one"
+  },
+  {
+    "start": 256.04,
+    "duration": 10.32,
+    "text": "current write nothing current then"
+  },
+  {
+    "start": 261.6,
+    "duration": 6.44,
+    "text": "write then current then WR 1 2 3 4 5 6"
+  },
+  {
+    "start": 266.36,
+    "duration": 3.52,
+    "text": "what is the third smallest element third"
+  },
+  {
+    "start": 268.04,
+    "duration": 3.04,
+    "text": "smallest element is three so that should"
+  },
+  {
+    "start": 269.88,
+    "duration": 5.159,
+    "text": "be my"
+  },
+  {
+    "start": 271.08,
+    "duration": 7.48,
+    "text": "answer so what I want you to do is uh"
+  },
+  {
+    "start": 275.039,
+    "duration": 5.961,
+    "text": "since we are traversing it in uh sorted"
+  },
+  {
+    "start": 278.56,
+    "duration": 5.0,
+    "text": "order already I know I'm traversing the"
+  },
+  {
+    "start": 281.0,
+    "duration": 5.88,
+    "text": "tree in sorted order"
+  },
+  {
+    "start": 283.56,
+    "duration": 6.16,
+    "text": "already I know that I will visit the"
+  },
+  {
+    "start": 286.88,
+    "duration": 5.52,
+    "text": "tree in the sorted order so whatever the"
+  },
+  {
+    "start": 289.72,
+    "duration": 5.36,
+    "text": "third element is I can take that or the"
+  },
+  {
+    "start": 292.4,
+    "duration": 5.68,
+    "text": "kth element is so you can put this in a"
+  },
+  {
+    "start": 295.08,
+    "duration": 5.92,
+    "text": "heap of size three for example when you"
+  },
+  {
+    "start": 298.08,
+    "duration": 7.0,
+    "text": "are at one in the Heap you will"
+  },
+  {
+    "start": 301.0,
+    "duration": 6.6,
+    "text": "put one main Heap for example and then"
+  },
+  {
+    "start": 305.08,
+    "duration": 5.08,
+    "text": "you take two uh you're going to be like"
+  },
+  {
+    "start": 307.6,
+    "duration": 6.76,
+    "text": "okay I put two over here then you'll"
+  },
+  {
+    "start": 310.16,
+    "duration": 6.0,
+    "text": "like I'm at three I put three over"
+  },
+  {
+    "start": 314.36,
+    "duration": 4.48,
+    "text": "here"
+  },
+  {
+    "start": 316.16,
+    "duration": 6.56,
+    "text": "right four you can't put four over here"
+  },
+  {
+    "start": 318.84,
+    "duration": 7.16,
+    "text": "because it's uh like it doesn't"
+  },
+  {
+    "start": 322.72,
+    "duration": 3.28,
+    "text": "work make"
+  },
+  {
+    "start": 327.199,
+    "duration": 6.521,
+    "text": "sense right so so even though you"
+  },
+  {
+    "start": 331.36,
+    "duration": 4.959,
+    "text": "can cuz I don't want to restrict it to a"
+  },
+  {
+    "start": 333.72,
+    "duration": 5.919,
+    "text": "size so let's say we put in four then"
+  },
+  {
+    "start": 336.319,
+    "duration": 6.16,
+    "text": "five then six not a problem we put this"
+  },
+  {
+    "start": 339.639,
+    "duration": 2.84,
+    "text": "in a"
+  },
+  {
+    "start": 343.36,
+    "duration": 5.04,
+    "text": "heap but what we need to do is okay"
+  },
+  {
+    "start": 346.88,
+    "duration": 4.64,
+    "text": "there are multiple ways to do it yeah"
+  },
+  {
+    "start": 348.4,
+    "duration": 4.919,
+    "text": "you can add it all in if you want um so"
+  },
+  {
+    "start": 351.52,
+    "duration": 7.239,
+    "text": "you can"
+  },
+  {
+    "start": 353.319,
+    "duration": 7.72,
+    "text": "do just like this 1 2 3 4 five six so"
+  },
+  {
+    "start": 358.759,
+    "duration": 5.28,
+    "text": "this will be your Heap and then just"
+  },
+  {
+    "start": 361.039,
+    "duration": 6.201,
+    "text": "remove K elements from the Heap once it"
+  },
+  {
+    "start": 364.039,
+    "duration": 6.201,
+    "text": "is done so"
+  },
+  {
+    "start": 367.24,
+    "duration": 5.04,
+    "text": "remove K elements and you know the K"
+  },
+  {
+    "start": 370.24,
+    "duration": 4.079,
+    "text": "elements that the K element that you"
+  },
+  {
+    "start": 372.28,
+    "duration": 4.56,
+    "text": "remove it will be your answer one will"
+  },
+  {
+    "start": 374.319,
+    "duration": 4.32,
+    "text": "be removed two will be removed third"
+  },
+  {
+    "start": 376.84,
+    "duration": 6.359,
+    "text": "element will be removed this will be the"
+  },
+  {
+    "start": 378.639,
+    "duration": 6.721,
+    "text": "answer just run a loop from u 1 to K 0"
+  },
+  {
+    "start": 383.199,
+    "duration": 2.161,
+    "text": "to"
+  },
+  {
+    "start": 385.919,
+    "duration": 5.601,
+    "text": "K okay multiple ways to do it using Heap"
+  },
+  {
+    "start": 389.16,
+    "duration": 4.319,
+    "text": "what you can also do is you can only"
+  },
+  {
+    "start": 391.52,
+    "duration": 5.799,
+    "text": "maintain the"
+  },
+  {
+    "start": 393.479,
+    "duration": 3.84,
+    "text": "the K smallest"
+  },
+  {
+    "start": 398.759,
+    "duration": 4.201,
+    "text": "elements"
+  },
+  {
+    "start": 400.56,
+    "duration": 4.0,
+    "text": "right so only if something is like"
+  },
+  {
+    "start": 402.96,
+    "duration": 3.6,
+    "text": "smaller than this then only add it in"
+  },
+  {
+    "start": 404.56,
+    "duration": 5.24,
+    "text": "the"
+  },
+  {
+    "start": 406.56,
+    "duration": 5.32,
+    "text": "Heap make sense so makebe maybe you can"
+  },
+  {
+    "start": 409.8,
+    "duration": 4.08,
+    "text": "make a Max Heap in that case the size of"
+  },
+  {
+    "start": 411.88,
+    "duration": 3.48,
+    "text": "the Heap will be reduced okay so many"
+  },
+  {
+    "start": 413.88,
+    "duration": 3.039,
+    "text": "ways to do it you can also do it without"
+  },
+  {
+    "start": 415.36,
+    "duration": 5.279,
+    "text": "the Heap but I would not recommend doing"
+  },
+  {
+    "start": 416.919,
+    "duration": 6.12,
+    "text": "that as a straight up uh question um in"
+  },
+  {
+    "start": 420.639,
+    "duration": 5.481,
+    "text": "the interview"
+  },
+  {
+    "start": 423.039,
+    "duration": 5.801,
+    "text": "so what I would say is that let's say I"
+  },
+  {
+    "start": 426.12,
+    "duration": 2.72,
+    "text": "create a new"
+  },
+  {
+    "start": 446.72,
+    "duration": 9.84,
+    "text": "file okay create a new"
+  },
+  {
+    "start": 450.72,
+    "duration": 5.84,
+    "text": "file and uh what I'm going to do"
+  },
+  {
+    "start": 457.08,
+    "duration": 5.6,
+    "text": "is here we need a priority Q"
+  },
+  {
+    "start": 463.479,
+    "duration": 8.16,
+    "text": "so priority Q for"
+  },
+  {
+    "start": 468.08,
+    "duration": 7.119,
+    "text": "integer minan Heap is equal to"
+  },
+  {
+    "start": 471.639,
+    "duration": 3.56,
+    "text": "new priority"
+  },
+  {
+    "start": 475.479,
+    "duration": 4.44,
+    "text": "Q right then I can"
+  },
+  {
+    "start": 478.319,
+    "duration": 5.72,
+    "text": "say"
+  },
+  {
+    "start": 479.919,
+    "duration": 6.641,
+    "text": "helper or this will be my in ordered"
+  },
+  {
+    "start": 484.039,
+    "duration": 9.041,
+    "text": "reversal that I'll be doing and I will"
+  },
+  {
+    "start": 486.56,
+    "duration": 9.639,
+    "text": "be passing the root the minan Heap and"
+  },
+  {
+    "start": 493.08,
+    "duration": 6.959,
+    "text": "K right so it will change the mean he"
+  },
+  {
+    "start": 496.199,
+    "duration": 3.84,
+    "text": "because it'll pass it as a reference"
+  },
+  {
+    "start": 500.199,
+    "duration": 5.28,
+    "text": "um"
+  },
+  {
+    "start": 503.039,
+    "duration": 4.761,
+    "text": "private"
+  },
+  {
+    "start": 505.479,
+    "duration": 6.041,
+    "text": "void"
+  },
+  {
+    "start": 507.8,
+    "duration": 3.72,
+    "text": "helper TR node"
+  },
+  {
+    "start": 511.8,
+    "duration": 3.359,
+    "text": "node Min"
+  },
+  {
+    "start": 516.599,
+    "duration": 3.36,
+    "text": "Heap in"
+  },
+  {
+    "start": 520.039,
+    "duration": 6.561,
+    "text": "k um now"
+  },
+  {
+    "start": 523.0,
+    "duration": 8.8,
+    "text": "what if node is equal to equal to"
+  },
+  {
+    "start": 526.6,
+    "duration": 6.919,
+    "text": "null just return nothing you need to do"
+  },
+  {
+    "start": 531.8,
+    "duration": 5.479,
+    "text": "we go on the left first because that's"
+  },
+  {
+    "start": 533.519,
+    "duration": 7.681,
+    "text": "what in ordered reversal is node. left"
+  },
+  {
+    "start": 537.279,
+    "duration": 3.921,
+    "text": "Min Heap and K"
+  },
+  {
+    "start": 541.8,
+    "duration": 6.599,
+    "text": "node."
+  },
+  {
+    "start": 543.48,
+    "duration": 6.96,
+    "text": "WR mean he and K before that the current"
+  },
+  {
+    "start": 548.399,
+    "duration": 4.321,
+    "text": "node that's what in order reversal is"
+  },
+  {
+    "start": 550.44,
+    "duration": 9.2,
+    "text": "left current right for the current what"
+  },
+  {
+    "start": 552.72,
+    "duration": 6.92,
+    "text": "I will do is I will just add in my M"
+  },
+  {
+    "start": 562.6,
+    "duration": 9.08,
+    "text": "he no dot"
+  },
+  {
+    "start": 566.079,
+    "duration": 5.601,
+    "text": "value okay now just take the remove key"
+  },
+  {
+    "start": 572.12,
+    "duration": 3.76,
+    "text": "elements so how do we do"
+  },
+  {
+    "start": 585.04,
+    "duration": 4.6,
+    "text": "that something like"
+  },
+  {
+    "start": 587.2,
+    "duration": 5.48,
+    "text": "that right and I can take an"
+  },
+  {
+    "start": 589.64,
+    "duration": 7.199,
+    "text": "answer initially is equal to zero I can"
+  },
+  {
+    "start": 592.68,
+    "duration": 8.24,
+    "text": "say answer is equal to Min he."
+  },
+  {
+    "start": 596.839,
+    "duration": 7.521,
+    "text": "offer no not offer the offer is adding"
+  },
+  {
+    "start": 600.92,
+    "duration": 4.88,
+    "text": "uh min. pole which will remove it and"
+  },
+  {
+    "start": 604.36,
+    "duration": 5.28,
+    "text": "then in the end"
+  },
+  {
+    "start": 605.8,
+    "duration": 3.84,
+    "text": "just return the"
+  },
+  {
+    "start": 619.079,
+    "duration": 5.241,
+    "text": "answer accepted but you can see it's"
+  },
+  {
+    "start": 621.76,
+    "duration": 7.36,
+    "text": "like not very good in terms of"
+  },
+  {
+    "start": 624.32,
+    "duration": 7.56,
+    "text": "uh memory and stuff so what I will do is"
+  },
+  {
+    "start": 629.12,
+    "duration": 5.68,
+    "text": "do this much in the interview and then"
+  },
+  {
+    "start": 631.88,
+    "duration": 5.24,
+    "text": "uh remove the Heap so the interview like"
+  },
+  {
+    "start": 634.8,
+    "duration": 4.88,
+    "text": "Heap is taking extra space and stuff can"
+  },
+  {
+    "start": 637.12,
+    "duration": 4.839,
+    "text": "you remove it what I can do is I can"
+  },
+  {
+    "start": 639.68,
+    "duration": 2.279,
+    "text": "take"
+  },
+  {
+    "start": 647.04,
+    "duration": 9.359,
+    "text": "a I can take uh I can"
+  },
+  {
+    "start": 651.48,
+    "duration": 4.919,
+    "text": "say okay it's smallest"
+  },
+  {
+    "start": 658.04,
+    "duration": 5.16,
+    "text": "duplicate"
+  },
+  {
+    "start": 660.399,
+    "duration": 2.801,
+    "text": "okay it's smallest"
+  },
+  {
+    "start": 663.839,
+    "duration": 3.641,
+    "text": "two don't need"
+  },
+  {
+    "start": 668.399,
+    "duration": 5.841,
+    "text": "Heap I have a k over"
+  },
+  {
+    "start": 671.24,
+    "duration": 3.0,
+    "text": "here"
+  },
+  {
+    "start": 674.399,
+    "duration": 7.88,
+    "text": "so maybe I can take a value over here"
+  },
+  {
+    "start": 678.279,
+    "duration": 6.921,
+    "text": "private int K and here I can say this do"
+  },
+  {
+    "start": 682.279,
+    "duration": 6.521,
+    "text": "K is equal to whatever K we"
+  },
+  {
+    "start": 685.2,
+    "duration": 5.48,
+    "text": "have right provided to us now I will"
+  },
+  {
+    "start": 688.8,
+    "duration": 5.52,
+    "text": "call my"
+  },
+  {
+    "start": 690.68,
+    "duration": 7.36,
+    "text": "helper okay but in my helper I don't"
+  },
+  {
+    "start": 694.32,
+    "duration": 6.84,
+    "text": "need K now and I don't need root now and"
+  },
+  {
+    "start": 698.04,
+    "duration": 6.56,
+    "text": "uh I will have an answer as well right"
+  },
+  {
+    "start": 701.16,
+    "duration": 5.96,
+    "text": "so I can say private int"
+  },
+  {
+    "start": 704.6,
+    "duration": 3.96,
+    "text": "answer and here in the end I will just"
+  },
+  {
+    "start": 707.12,
+    "duration": 4.32,
+    "text": "return the answer so you can see it's"
+  },
+  {
+    "start": 708.56,
+    "duration": 5.44,
+    "text": "much more prettier now but in my helper"
+  },
+  {
+    "start": 711.44,
+    "duration": 5.32,
+    "text": "what will I do"
+  },
+  {
+    "start": 714.0,
+    "duration": 4.959,
+    "text": "now so instead of maintaining it in a"
+  },
+  {
+    "start": 716.76,
+    "duration": 6.48,
+    "text": "heap so here you can say instead of"
+  },
+  {
+    "start": 718.959,
+    "duration": 7.401,
+    "text": "maintaining in a Heap what I can do"
+  },
+  {
+    "start": 723.24,
+    "duration": 6.2,
+    "text": "is I can"
+  },
+  {
+    "start": 726.36,
+    "duration": 4.76,
+    "text": "just keep the value track of K so for"
+  },
+  {
+    "start": 729.44,
+    "duration": 5.079,
+    "text": "example K is equal to 3 when I reach"
+  },
+  {
+    "start": 731.12,
+    "duration": 5.64,
+    "text": "over here right when I reach over here I"
+  },
+  {
+    "start": 734.519,
+    "duration": 5.361,
+    "text": "will do K minus 1 so K will be now equal"
+  },
+  {
+    "start": 736.76,
+    "duration": 4.84,
+    "text": "to 2 and I will check is k equal to Z no"
+  },
+  {
+    "start": 739.88,
+    "duration": 5.48,
+    "text": "it's not then I will go over here I will"
+  },
+  {
+    "start": 741.6,
+    "duration": 9.28,
+    "text": "do again K minus 1 so 2 - 1 1 K's value"
+  },
+  {
+    "start": 745.36,
+    "duration": 5.52,
+    "text": "is one over here let me show you"
+  },
+  {
+    "start": 753.32,
+    "duration": 4.36,
+    "text": "okay so what I'll do is from when I come"
+  },
+  {
+    "start": 755.48,
+    "duration": 6.359,
+    "text": "over here I will put it in blue K's"
+  },
+  {
+    "start": 757.68,
+    "duration": 7.08,
+    "text": "value will be 3 - 1 2 2 is 2 equal to Z"
+  },
+  {
+    "start": 761.839,
+    "duration": 6.321,
+    "text": "no it's not then I'll go back check this"
+  },
+  {
+    "start": 764.76,
+    "duration": 6.36,
+    "text": "1 is 1 equal to 0 no it's not go back"
+  },
+  {
+    "start": 768.16,
+    "duration": 6.359,
+    "text": "minus one 0 is this equal to Z yes"
+  },
+  {
+    "start": 771.12,
+    "duration": 5.32,
+    "text": "because I have subtracted it K times so"
+  },
+  {
+    "start": 774.519,
+    "duration": 5.521,
+    "text": "I know that K elements I have seen in"
+  },
+  {
+    "start": 776.44,
+    "duration": 6.839,
+    "text": "the past so this is my k"
+  },
+  {
+    "start": 780.04,
+    "duration": 5.0,
+    "text": "element so I will just return from"
+  },
+  {
+    "start": 783.279,
+    "duration": 3.641,
+    "text": "here"
+  },
+  {
+    "start": 785.04,
+    "duration": 4.76,
+    "text": "right"
+  },
+  {
+    "start": 786.92,
+    "duration": 5.68,
+    "text": "so simple recursion I don't need to do"
+  },
+  {
+    "start": 789.8,
+    "duration": 6.399,
+    "text": "this I will just say k minus minus and"
+  },
+  {
+    "start": 792.6,
+    "duration": 6.919,
+    "text": "if K becomes"
+  },
+  {
+    "start": 796.199,
+    "duration": 5.2,
+    "text": "0o result is going to be equal to node"
+  },
+  {
+    "start": 799.519,
+    "duration": 5.601,
+    "text": "do"
+  },
+  {
+    "start": 801.399,
+    "duration": 6.361,
+    "text": "Val just return"
+  },
+  {
+    "start": 805.12,
+    "duration": 5.64,
+    "text": "need now this is much"
+  },
+  {
+    "start": 807.76,
+    "duration": 3.0,
+    "text": "simpler"
+  },
+  {
+    "start": 816.8,
+    "duration": 4.279,
+    "text": "right much simpler code less"
+  },
+  {
+    "start": 821.32,
+    "duration": 5.56,
+    "text": "memory oops this is why when you copy"
+  },
+  {
+    "start": 824.199,
+    "duration": 5.921,
+    "text": "paste should"
+  },
+  {
+    "start": 826.88,
+    "duration": 3.24,
+    "text": "always be"
+  },
+  {
+    "start": 836.839,
+    "duration": 4.321,
+    "text": "careful oh it's answer it's called"
+  },
+  {
+    "start": 845.199,
+    "duration": 6.88,
+    "text": "answer 100%"
+  },
+  {
+    "start": 848.04,
+    "duration": 7.359,
+    "text": "okay so much faster and"
+  },
+  {
+    "start": 852.079,
+    "duration": 3.32,
+    "text": "better go"
+  },
+  {
+    "start": 860.839,
+    "duration": 3.0,
+    "text": "cool"
+  }
+]

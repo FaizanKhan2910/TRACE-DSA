@@ -1,0 +1,4642 @@
+[
+  {
+    "start": 4.21,
+    "duration": 6.0,
+    "text": "Hey everyone, welcome back to another video and this video will look into functions in Java."
+  },
+  {
+    "start": 10.21,
+    "duration": 4.4,
+    "text": "Before we get started, I want to answer a few questions that people are asking. Some people"
+  },
+  {
+    "start": 14.61,
+    "duration": 5.04,
+    "text": "say, hey, can you share the notes? Some people say, hey, can you share the assignments? And"
+  },
+  {
+    "start": 19.65,
+    "duration": 4.68,
+    "text": "can you share the entire link to the entire playlist? Everything is listed in the description"
+  },
+  {
+    "start": 24.33,
+    "duration": 6.84,
+    "text": "below, even the discord link, telegram channel assignment, and, you know, code samples, everything"
+  },
+  {
+    "start": 31.17,
+    "duration": 4.18,
+    "text": "is listed in the description below, please just check once, you will find it everything"
+  },
+  {
+    "start": 35.35,
+    "duration": 4.68,
+    "text": "over there. So, in this video we will look into functions, we will look at a lot of things,"
+  },
+  {
+    "start": 40.03,
+    "duration": 4.52,
+    "text": "in this video we will do a lot of nice questions and important concepts as well and let us"
+  },
+  {
+    "start": 44.55,
+    "duration": 4.46,
+    "text": "get started. So, before as always before looking at functions, let us look at a problem"
+  },
+  {
+    "start": 49.01,
+    "duration": 3.78,
+    "text": "statement of why we might want to use function. So, I am just going to create a"
+  },
+  {
+    "start": 52.79,
+    "duration": 5.64,
+    "text": "new project here, new project all the list of like and everything like which video"
+  },
+  {
+    "start": 58.43,
+    "duration": 4.92,
+    "text": "with it before all the complete list of videos the playlist is given in the description below."
+  },
+  {
+    "start": 63.35,
+    "duration": 7.52,
+    "text": "So make sure you check it out and also like share and subscribe documents, community classroom,"
+  },
+  {
+    "start": 70.87,
+    "duration": 9.32,
+    "text": "lectures, I'm going to create another one over here, it says methods, okay, here I'm"
+  },
+  {
+    "start": 80.19,
+    "duration": 5.0,
+    "text": "just going to write my code functions or methods so in Java we call functions as"
+  },
+  {
+    "start": 85.19,
+    "duration": 6.0,
+    "text": "methods, because if we have basically a function that is in a class, we call it a method and"
+  },
+  {
+    "start": 91.19,
+    "duration": 4.76,
+    "text": "in Java, we put everything in classes. So in Java, we have like, we call functions method,"
+  },
+  {
+    "start": 95.95,
+    "duration": 6.12,
+    "text": "we talk more about that later, what is method, what is function, don't worry. So create it."
+  },
+  {
+    "start": 102.07,
+    "duration": 5.44,
+    "text": "Here, we have our default function, we already, you know, discussed about it previously,"
+  },
+  {
+    "start": 107.51,
+    "duration": 2.56,
+    "text": "and we write all the code over here, we have already discussed that we have put"
+  },
+  {
+    "start": 110.07,
+    "duration": 3.56,
+    "text": "everything in classes, and this is the main function that runs so function is nothing"
+  },
+  {
+    "start": 113.63,
+    "duration": 5.06,
+    "text": "but a block of code, we will look into like, let us look into the example right now."
+  },
+  {
+    "start": 118.69,
+    "duration": 5.56,
+    "text": "Imagine that the question is something like this, the question is take an input, take"
+  },
+  {
+    "start": 124.25,
+    "duration": 12.94,
+    "text": "an input of two numbers and print the sum, take input of two numbers and print the sum,"
+  },
+  {
+    "start": 137.19,
+    "duration": 1.0,
+    "text": "that is the question."
+  },
+  {
+    "start": 138.19,
+    "duration": 7.86,
+    "text": "So, we can try to solve this, you can say scanner input is equal to new scanner system.in"
+  },
+  {
+    "start": 146.05,
+    "duration": 10.84,
+    "text": "I can print a message over here like enter number one into the first number, then the"
+  },
+  {
+    "start": 156.89,
+    "duration": 8.12,
+    "text": "person will input the first number, then I can say enter second number, enter number"
+  },
+  {
+    "start": 165.01,
+    "duration": 8.52,
+    "text": "two and int number two is going to be equal to in dot next int. Then I can say int sum"
+  },
+  {
+    "start": 173.53,
+    "duration": 7.74,
+    "text": "is equal to number one plus number two. Okay, and then I can say print sum. I can say something"
+  },
+  {
+    "start": 181.27,
+    "duration": 15.36,
+    "text": "like the sum is equal to some. All right. Very simple stuff. Let's run this. Number"
+  },
+  {
+    "start": 196.63,
+    "duration": 9.08,
+    "text": "number 1 is 10, number 2 is let us say 20, sum is 30. Let me remove a new line from here."
+  },
+  {
+    "start": 205.71,
+    "duration": 6.84,
+    "text": "Now that is very simple, everyone knows how we do this. The next question is something"
+  },
+  {
+    "start": 212.55,
+    "duration": 5.08,
+    "text": "like this, the next question is, or if I just define it somewhere else, I can say,"
+  },
+  {
+    "start": 217.63,
+    "duration": 6.6,
+    "text": "you know, I can define it separately as well, num1, comma, num2, comma, sum. So"
+  },
+  {
+    "start": 224.23,
+    "duration": 5.68,
+    "text": "now the values are defined and I can just remove the definition from here. So I just"
+  },
+  {
+    "start": 229.91,
+    "duration": 2.36,
+    "text": "defined the value above and here I am just updating it."
+  },
+  {
+    "start": 232.27,
+    "duration": 3.68,
+    "text": "So now the next question is the person who gave the question, now that person says that"
+  },
+  {
+    "start": 235.95,
+    "duration": 7.96,
+    "text": "hey do this entire thing 10 times. After it displays the sum, you have to ask for"
+  },
+  {
+    "start": 243.91,
+    "duration": 5.0,
+    "text": "the two numbers again, display the sum again, do this 10 times. So you will be like okay"
+  },
+  {
+    "start": 248.91,
+    "duration": 7.16,
+    "text": "I can do it something like this one time, two time, three time, four time, five time, six"
+  },
+  {
+    "start": 256.07,
+    "duration": 4.28,
+    "text": "time, seven time, eight time, nine time and 10 time."
+  },
+  {
+    "start": 260.35,
+    "duration": 3.32,
+    "text": "Let's say the person asked you to do this 100 times."
+  },
+  {
+    "start": 263.67,
+    "duration": 3.81,
+    "text": "Would you copy paste it 100 times?"
+  },
+  {
+    "start": 267.48,
+    "duration": 2.24,
+    "text": "That would be very inefficient."
+  },
+  {
+    "start": 269.72,
+    "duration": 3.56,
+    "text": "Another problem you may face over here is let's say the person asks you to change"
+  },
+  {
+    "start": 273.28,
+    "duration": 5.0,
+    "text": "the wordings of this, then you would have to change the wording of this, this,"
+  },
+  {
+    "start": 278.28,
+    "duration": 8.76,
+    "text": "this, this, this score is dry, you know, the dry format dry means, don't repeat yourself"
+  },
+  {
+    "start": 287.04,
+    "duration": 7.0,
+    "text": "in coding word dry means, don't repeat yourself. So basically, this is not good. Imagine if"
+  },
+  {
+    "start": 294.04,
+    "duration": 5.72,
+    "text": "the person asked to take the input 1000 times would you copy paste this 1000 times. So"
+  },
+  {
+    "start": 299.76,
+    "duration": 5.8,
+    "text": "this repeated code, if there was a way to bundle this code in some sort of a format"
+  },
+  {
+    "start": 305.56,
+    "duration": 6.0,
+    "text": "And that and use that format of many places, we can use functions or methods for this."
+  },
+  {
+    "start": 311.56,
+    "duration": 5.76,
+    "text": "So methods and functions like Java, same thing, when we have any function in a class that"
+  },
+  {
+    "start": 317.32,
+    "duration": 1.36,
+    "text": "is known as a method."
+  },
+  {
+    "start": 318.68,
+    "duration": 1.8,
+    "text": "So in Java, we can call functions methods."
+  },
+  {
+    "start": 320.48,
+    "duration": 4.96,
+    "text": "So basically, if we can put this entire thing in a method, we can use that method"
+  },
+  {
+    "start": 325.44,
+    "duration": 1.0,
+    "text": "again and again."
+  },
+  {
+    "start": 326.44,
+    "duration": 5.82,
+    "text": "Let's try to do this some, I'll call it a sum."
+  },
+  {
+    "start": 332.26,
+    "duration": 2.8,
+    "text": "I can say public static void main."
+  },
+  {
+    "start": 335.06,
+    "duration": 1.56,
+    "text": "I'm going to create a method over here."
+  },
+  {
+    "start": 336.62,
+    "duration": 9.44,
+    "text": "Okay, I'm going to say method has this definition, okay, access modifier, this is something will"
+  },
+  {
+    "start": 347.58,
+    "duration": 7.36,
+    "text": "look in object 20 programming. Okay, so don't worry about it, we'll look into it in object 20"
+  },
+  {
+    "start": 354.94,
+    "duration": 7.04,
+    "text": "programming. So here the access modifier, and then we have, you know, return type,"
+  },
+  {
+    "start": 361.98,
+    "duration": 12.01,
+    "text": "type, and then we have the name, then we have brackets, and then I have the return statement,"
+  },
+  {
+    "start": 373.99,
+    "duration": 4.36,
+    "text": "and then we have the, over here we have the body of the function."
+  },
+  {
+    "start": 378.35,
+    "duration": 5.48,
+    "text": "For example, let me just remove the access modifier for now, let us say I am just taking"
+  },
+  {
+    "start": 383.83,
+    "duration": 3.92,
+    "text": "a simple function, this is something we will discuss in object-null programming."
+  },
+  {
+    "start": 387.75,
+    "duration": 7.73,
+    "text": "So here I am just going to make a simple function that will be like this thing."
+  },
+  {
+    "start": 395.48,
+    "duration": 1.68,
+    "text": "This particular thing."
+  },
+  {
+    "start": 397.16,
+    "duration": 8.0,
+    "text": "So here it needs to, I can just say void, you can call it a name as, so basically return"
+  },
+  {
+    "start": 405.16,
+    "duration": 5.04,
+    "text": "type let us say I am giving void, sum is the name of the function, I can give it anything."
+  },
+  {
+    "start": 410.2,
+    "duration": 2.68,
+    "text": "Then I am just not passing anything over here, I am just adding some braces over"
+  },
+  {
+    "start": 412.88,
+    "duration": 5.68,
+    "text": "here because of syntax and here in the body I will write this thing."
+  },
+  {
+    "start": 418.56,
+    "duration": 17.4,
+    "text": "this thing, write this thing over here. I have to initialize it entire thing I put it"
+  },
+  {
+    "start": 435.96,
+    "duration": 6.22,
+    "text": "over here. Now I can call this sum function, I can call it like this. This is showing me"
+  },
+  {
+    "start": 442.18,
+    "duration": 6.48,
+    "text": "an error because of it not being static. So here I am just going to write static over"
+  },
+  {
+    "start": 448.66,
+    "duration": 6.32,
+    "text": "here. And the reason for this I will explain in object-oriented programming. If you want"
+  },
+  {
+    "start": 454.98,
+    "duration": 3.32,
+    "text": "to see the error message that you are getting, it is saying non-static method sum"
+  },
+  {
+    "start": 458.3,
+    "duration": 6.32,
+    "text": "cannot be referenced from a static context. Okay, so this is a static, okay, this is a"
+  },
+  {
+    "start": 464.62,
+    "duration": 4.76,
+    "text": "static method, static we previously talked about already, like the human example we talked"
+  },
+  {
+    "start": 469.38,
+    "duration": 5.72,
+    "text": "about human population that is static means it does not depend on the object. So anything"
+  },
+  {
+    "start": 475.1,
+    "duration": 4.68,
+    "text": "you want to use in static that also has to be static is basically what it's saying."
+  },
+  {
+    "start": 479.78,
+    "duration": 3.96,
+    "text": "Okay, so here I'm just I'm going to add static over here. Why these things are"
+  },
+  {
+    "start": 483.74,
+    "duration": 3.96,
+    "text": "happening what is static internally and everything, how we can work with non static functions"
+  },
+  {
+    "start": 487.7,
+    "duration": 6.42,
+    "text": "and everything, we will discuss it in, you know, later on."
+  },
+  {
+    "start": 494.12,
+    "duration": 2.38,
+    "text": "So here, let me just refresh and like run this."
+  },
+  {
+    "start": 496.5,
+    "duration": 10.64,
+    "text": "So it's just going to run this function, enter number one, 20, number two is 30, some is 50."
+  },
+  {
+    "start": 507.14,
+    "duration": 1.0,
+    "text": "How is it working?"
+  },
+  {
+    "start": 508.14,
+    "duration": 3.04,
+    "text": "We all know main function is the first function that is going to run."
+  },
+  {
+    "start": 511.18,
+    "duration": 2.0,
+    "text": "So basically, it's going to run this one."
+  },
+  {
+    "start": 513.18,
+    "duration": 5.44,
+    "text": "And then it's going to start, hey, run the sum method, the sum method is over here"
+  },
+  {
+    "start": 518.62,
+    "duration": 4.32,
+    "text": "is just going to run it line by line. You can call it many times you want. You don't"
+  },
+  {
+    "start": 522.94,
+    "duration": 4.2,
+    "text": "have to copy the entire code base again and again. Any change you make in this code base"
+  },
+  {
+    "start": 527.14,
+    "duration": 5.46,
+    "text": "will be resulting in all the function calls. So this is just writing the name of the function"
+  },
+  {
+    "start": 532.6,
+    "duration": 4.7,
+    "text": "and this is calling the function. You call the function via brackets. You can also"
+  },
+  {
+    "start": 537.3,
+    "duration": 3.6,
+    "text": "pass things in this bracket that is known as parameters that will like arguments which"
+  },
+  {
+    "start": 540.9,
+    "duration": 3.6,
+    "text": "will talk more about later. For example, main function has this argument. We can also"
+  },
+  {
+    "start": 544.5,
+    "duration": 4.06,
+    "text": "add arguments over here. But let's look at the simple function for now. Let's say even"
+  },
+  {
+    "start": 548.56,
+    "duration": 5.62,
+    "text": "more simple function you want to look at display or greeting. This is just a simple function"
+  },
+  {
+    "start": 554.18,
+    "duration": 5.0,
+    "text": "that displays hello world. Okay, so I'm just going to say public static void main. I'm"
+  },
+  {
+    "start": 559.18,
+    "duration": 5.4,
+    "text": "going to create a method called static. It is just displaying to me something. We don't"
+  },
+  {
+    "start": 564.58,
+    "duration": 4.6,
+    "text": "worry about what this return type basically means return type basically means that this"
+  },
+  {
+    "start": 569.18,
+    "duration": 4.24,
+    "text": "is this is a good important point. Let's talk about return type. What is return type?"
+  },
+  {
+    "start": 573.42,
+    "duration": 6.92,
+    "text": "So let's talk about the definition return type basically means when you call the function"
+  },
+  {
+    "start": 580.34,
+    "duration": 5.04,
+    "text": "what is the value of this line this particular function call going to be when the function"
+  },
+  {
+    "start": 585.38,
+    "duration": 5.88,
+    "text": "finishes execution this particular thing this particular thing that I have highlighted"
+  },
+  {
+    "start": 591.26,
+    "duration": 5.68,
+    "text": "is going to have some value first point when you when the function call is finished"
+  },
+  {
+    "start": 596.94,
+    "duration": 3.32,
+    "text": "so you call the some function over here it will call it like this and like this"
+  },
+  {
+    "start": 600.26,
+    "duration": 4.28,
+    "text": "and like this line by line by line by line it's going to call it when the function finishes"
+  },
+  {
+    "start": 604.54,
+    "duration": 5.24,
+    "text": "its call the entire thing is run and it comes out of here again this particular thing that"
+  },
+  {
+    "start": 609.78,
+    "duration": 4.48,
+    "text": "I have highlighted the function call it is not as a function call it will have some"
+  },
+  {
+    "start": 614.26,
+    "duration": 5.56,
+    "text": "value first point second point the value is actually going to be whatever you return"
+  },
+  {
+    "start": 619.82,
+    "duration": 8.72,
+    "text": "in this function okay so that is the return type let's see so basically here I'm"
+  },
+  {
+    "start": 628.54,
+    "duration": 5.04,
+    "text": "saying that I just want to display something I don't want to return anything if you don't"
+  },
+  {
+    "start": 633.58,
+    "duration": 4.48,
+    "text": "want to return anything you write void then I'm just going to give the function name as"
+  },
+  {
+    "start": 638.06,
+    "duration": 6.96,
+    "text": "greeting or whatever I'm just going to say print hello world now I'm going to call this"
+  },
+  {
+    "start": 645.02,
+    "duration": 13.22,
+    "text": "function over here greeting it's just going to print hello world ok so I call this method"
+  },
+  {
+    "start": 658.24,
+    "duration": 4.4,
+    "text": "it's just saying hello world and that's it let's look at a few example in which"
+  },
+  {
+    "start": 662.64,
+    "duration": 4.6,
+    "text": "we might want to return a value. So let's say you want to actually get the value of"
+  },
+  {
+    "start": 667.24,
+    "duration": 11.26,
+    "text": "the sum and not just print it. So here you can do something like this, I can say static,"
+  },
+  {
+    "start": 678.5,
+    "duration": 7.8,
+    "text": "now the return type will change. So the question is return the value, return the value and"
+  },
+  {
+    "start": 686.3,
+    "duration": 4.56,
+    "text": "integer plus integer gives me what? Integer, hence now the return value is not going to"
+  },
+  {
+    "start": 690.86,
+    "duration": 6.12,
+    "text": "be void, it's going to be integer because I'm going to return an integer sum to I'm"
+  },
+  {
+    "start": 696.98,
+    "duration": 7.32,
+    "text": "just giving a random name, okay, I can say copy this entire thing."
+  },
+  {
+    "start": 704.3,
+    "duration": 8.74,
+    "text": "Here instead of displaying this, I'm going to return the sum."
+  },
+  {
+    "start": 713.04,
+    "duration": 1.64,
+    "text": "I hope that makes sense."
+  },
+  {
+    "start": 714.68,
+    "duration": 5.0,
+    "text": "So basically I'm returning some some if some is of type integer, hence I have the return"
+  },
+  {
+    "start": 719.68,
+    "duration": 5.52,
+    "text": "type as type integer, what is return again, return basically means that the value of"
+  },
+  {
+    "start": 725.2,
+    "duration": 5.36,
+    "text": "the function call this call it is going to give me a value of whatever I return inside"
+  },
+  {
+    "start": 730.56,
+    "duration": 3.8,
+    "text": "this function inside this function I'm returning the sum hence it will be give me the value"
+  },
+  {
+    "start": 734.36,
+    "duration": 5.0,
+    "text": "of sum sum is of type integer hence I can save it over here in answer is equal to equal"
+  },
+  {
+    "start": 739.36,
+    "duration": 10.5,
+    "text": "to this sum 2 sorry this sum 2 right sum 2 sum 2 is returning an integer value hence"
+  },
+  {
+    "start": 749.86,
+    "duration": 8.83,
+    "text": "I can store it in an integer value and if I just print answer let's try to run this"
+  },
+  {
+    "start": 758.69,
+    "duration": 7.44,
+    "text": "it's saying enter number 1, enter number 2 and let's say I do 10 sorry 20 and 40."
+  },
+  {
+    "start": 766.13,
+    "duration": 6.56,
+    "text": "So the sum value will be 20 plus 40, 60 it's going to return 60 means this thing will return"
+  },
+  {
+    "start": 772.69,
+    "duration": 4.32,
+    "text": "a value of 60 which is going to be stored in this reference variable, hence the value"
+  },
+  {
+    "start": 777.01,
+    "duration": 8.51,
+    "text": "of answer is going to be 60 and when I print answer it will show me 60, simple stuff"
+  },
+  {
+    "start": 785.52,
+    "duration": 7.02,
+    "text": "There is one more thing, return basically means this function will end."
+  },
+  {
+    "start": 792.54,
+    "duration": 4.14,
+    "text": "If I am putting a return value over here, it means function over, you know, that Rahul"
+  },
+  {
+    "start": 796.68,
+    "duration": 4.52,
+    "text": "Gandhi meme, katham, you know, tata, why, why."
+  },
+  {
+    "start": 801.2,
+    "duration": 2.4,
+    "text": "So that is what is happening over here."
+  },
+  {
+    "start": 803.6,
+    "duration": 3.96,
+    "text": "In any function or method, whenever the return statement is hit, it is basically"
+  },
+  {
+    "start": 807.56,
+    "duration": 3.9,
+    "text": "mean, your work here is done, just come out of here."
+  },
+  {
+    "start": 811.46,
+    "duration": 3.26,
+    "text": "Function call is over, whatever return value was there, just save it in whatever"
+  },
+  {
+    "start": 814.72,
+    "duration": 8.48,
+    "text": "you're saving it meaning if I put every anything outside this let's say I say this will never"
+  },
+  {
+    "start": 823.2,
+    "duration": 6.12,
+    "text": "execute it's also giving me an error it's saying this this statement will never be reachable"
+  },
+  {
+    "start": 829.32,
+    "duration": 5.2,
+    "text": "unreachable statement because I'm returning the function value over here whenever return"
+  },
+  {
+    "start": 834.52,
+    "duration": 5.32,
+    "text": "hits it means Khatam that means it Khatam basically means like in Hindi it means done"
+  },
+  {
+    "start": 839.84,
+    "duration": 4.56,
+    "text": "over no more thing is happening right now it will come out of here nothing will"
+  },
+  {
+    "start": 844.4,
+    "duration": 5.2,
+    "text": "execute. That is what is meant by like the return statement as well. I'm just going to"
+  },
+  {
+    "start": 849.6,
+    "duration": 5.7,
+    "text": "comment this out. Okay, return means function over. All right, that's why return statements"
+  },
+  {
+    "start": 855.3,
+    "duration": 6.66,
+    "text": "are at the end. Okay, so there was like the basics of it. And I hope the definition"
+  },
+  {
+    "start": 861.96,
+    "duration": 5.08,
+    "text": "is clear. Let's try to give some other example. Let's say I take some other example"
+  },
+  {
+    "start": 867.04,
+    "duration": 9.68,
+    "text": "like, you know, plot example, or string example, let's return a string, string example, here"
+  },
+  {
+    "start": 876.72,
+    "duration": 6.02,
+    "text": "we will return a string, public static void main, I'm going to say something like let's"
+  },
+  {
+    "start": 882.74,
+    "duration": 5.94,
+    "text": "create a function, static, I'm going to return a string, so I'm going to have a string data"
+  },
+  {
+    "start": 888.68,
+    "duration": 5.96,
+    "text": "type as a return type, I'm going to say greet, okay, not passing anything over here, this"
+  },
+  {
+    "start": 894.64,
+    "duration": 3.84,
+    "text": "the syntax I think by now you might be aware of the syntax and it's also giving me an error"
+  },
+  {
+    "start": 898.48,
+    "duration": 4.16,
+    "text": "over here. It's saying you are asking it to return a string but you are not returning"
+  },
+  {
+    "start": 902.64,
+    "duration": 4.56,
+    "text": "anything so error that will also give an error by the way if for the return types you"
+  },
+  {
+    "start": 907.2,
+    "duration": 4.0,
+    "text": "have specified something as a return type you have to return it otherwise it will give"
+  },
+  {
+    "start": 911.2,
+    "duration": 6.12,
+    "text": "error here if I return something like an integer if I return let's say 23 it will"
+  },
+  {
+    "start": 917.32,
+    "duration": 4.72,
+    "text": "give an error it's like hey you are asking as a return type of a string but you are"
+  },
+  {
+    "start": 922.04,
+    "duration": 5.76,
+    "text": "returning an integer require type of string and you are returning integer that is not going"
+  },
+  {
+    "start": 927.8,
+    "duration": 7.32,
+    "text": "to work either make it string or either make this integer okay this will work we want to"
+  },
+  {
+    "start": 935.12,
+    "duration": 5.56,
+    "text": "return a string let's say I just return a greeting I can make some greeting over here"
+  },
+  {
+    "start": 940.68,
+    "duration": 10.5,
+    "text": "I can say string greeting is equal to something like how are you okay and I'm just returning"
+  },
+  {
+    "start": 951.18,
+    "duration": 7.8,
+    "text": "that greeting when I run greet over here this will actually have a value of string type when"
+  },
+  {
+    "start": 958.98,
+    "duration": 5.16,
+    "text": "I run this function so I can store it in a string type string message is equal to something"
+  },
+  {
+    "start": 964.14,
+    "duration": 4.72,
+    "text": "like this print message message is going to be what again I know I told you previously"
+  },
+  {
+    "start": 968.86,
+    "duration": 7.48,
+    "text": "as well main is the first method that is run so main will run then it will say okay"
+  },
+  {
+    "start": 976.34,
+    "duration": 3.36,
+    "text": "the message value is actually whatever we are returning from greet hence it will"
+  },
+  {
+    "start": 979.7,
+    "duration": 4.08,
+    "text": "jump inside greet and return this value. This value will then be stored in message and then"
+  },
+  {
+    "start": 983.78,
+    "duration": 4.88,
+    "text": "it will print the message. Let's try to debug it and see line by line how these things are"
+  },
+  {
+    "start": 988.66,
+    "duration": 9.44,
+    "text": "working. Okay. Ah, I accidentally debug something else, the previous example. Okay. So here you're"
+  },
+  {
+    "start": 998.1,
+    "duration": 4.08,
+    "text": "saying it's over here and over here. Now it's saying the message value is actually"
+  },
+  {
+    "start": 1002.18,
+    "duration": 4.64,
+    "text": "whatever value I'm getting from greet. Hence it would have to go inside greet. Now it's"
+  },
+  {
+    "start": 1006.82,
+    "duration": 5.84,
+    "text": "inside greet inside greet it's saying okay return the greeting value return the greeting"
+  },
+  {
+    "start": 1012.66,
+    "duration": 4.84,
+    "text": "value how are you hence this will be equal to how are you and this value is actually being"
+  },
+  {
+    "start": 1017.5,
+    "duration": 4.24,
+    "text": "stored in message so the value of message will be whatever value we are returning here"
+  },
+  {
+    "start": 1021.74,
+    "duration": 5.88,
+    "text": "in the function call so value of message is going to be how are you message is equal"
+  },
+  {
+    "start": 1027.62,
+    "duration": 5.6,
+    "text": "to how are you print how are you and the program that's it run this it will print"
+  },
+  {
+    "start": 1033.22,
+    "duration": 9.09,
+    "text": "how are you? How are you? Okay, let's look at the main part. So we already talked about,"
+  },
+  {
+    "start": 1042.31,
+    "duration": 4.12,
+    "text": "you know, we already talked about the, what is the written type meaning, we already talked"
+  },
+  {
+    "start": 1046.43,
+    "duration": 4.72,
+    "text": "about what is name. Here we put arguments, we'll talk more about arguments in a will"
+  },
+  {
+    "start": 1051.15,
+    "duration": 3.76,
+    "text": "in a while. We also talked about written statement, you know, this statement type"
+  },
+  {
+    "start": 1054.91,
+    "duration": 4.04,
+    "text": "and this written type has to be same. We also talked about the body body in body"
+  },
+  {
+    "start": 1058.95,
+    "duration": 5.12,
+    "text": "you can put everything. Now let's just talk about arguments. So let's say you don't"
+  },
+  {
+    "start": 1064.07,
+    "duration": 5.6,
+    "text": "want to add scanner here again and again. Let us say you want to pass the value of the"
+  },
+  {
+    "start": 1069.67,
+    "duration": 12.52,
+    "text": "numbers when you are calling the function. Pass the value of numbers when you are calling"
+  },
+  {
+    "start": 1082.19,
+    "duration": 7.88,
+    "text": "the method in main. How do we do that? We do that by a parameters, we can add some"
+  },
+  {
+    "start": 1090.07,
+    "duration": 6.16,
+    "text": "parameters over here. So, here we have two parameters number one and number two. So,"
+  },
+  {
+    "start": 1096.23,
+    "duration": 5.8,
+    "text": "we can just say something like, you know, we can say something like static return type"
+  },
+  {
+    "start": 1102.03,
+    "duration": 7.17,
+    "text": "will be int sum three, it is taking two values int a and int b the name does not matter"
+  },
+  {
+    "start": 1109.2,
+    "duration": 5.16,
+    "text": "you can put any name. And here I am just going to say int sum is equal to a plus"
+  },
+  {
+    "start": 1114.36,
+    "duration": 10.61,
+    "text": "B and return sum. Now when I call sum three, I can say int answer is equal to sum three,"
+  },
+  {
+    "start": 1124.97,
+    "duration": 4.42,
+    "text": "I'm calling it, it's giving me an error. It's like, Hey, in sum three, it's actually asking"
+  },
+  {
+    "start": 1129.39,
+    "duration": 5.8,
+    "text": "for two values. You are not providing me anything, provide something. So I'm saying, okay,"
+  },
+  {
+    "start": 1135.19,
+    "duration": 6.82,
+    "text": "from a, I can provide, let's say 20 for B, I can provide 30. So it's saying value"
+  },
+  {
+    "start": 1142.01,
+    "duration": 5.92,
+    "text": "of A is provided as 20, B is 30. In IntelliJ idea, if you're seeing this gray color thing,"
+  },
+  {
+    "start": 1147.93,
+    "duration": 5.0,
+    "text": "this gray color thing A colon B colon, this is just for highlighting purpose. It is not"
+  },
+  {
+    "start": 1152.93,
+    "duration": 4.8,
+    "text": "a part of the code base. It's a feature of IntelliJ idea. So please, please, please do"
+  },
+  {
+    "start": 1157.73,
+    "duration": 4.72,
+    "text": "not write it like this. You might be like, Hey, IntelliJ idea was writing it. It's"
+  },
+  {
+    "start": 1162.45,
+    "duration": 4.84,
+    "text": "just for your reference only internally, how it's working is you have to pass it"
+  },
+  {
+    "start": 1167.29,
+    "duration": 5.88,
+    "text": "in the order of declaration, if A is passed first, B is fast second, then whatever value"
+  },
+  {
+    "start": 1173.17,
+    "duration": 6.44,
+    "text": "you pass as first, that will be replaced with A, whatever value you pass as second, that"
+  },
+  {
+    "start": 1179.61,
+    "duration": 5.88,
+    "text": "will be replaced with B. So, when this function is actually called, all the values in this"
+  },
+  {
+    "start": 1185.49,
+    "duration": 6.04,
+    "text": "method body, A will be replaced with whatever is passed at this position, B will be replaced"
+  },
+  {
+    "start": 1191.53,
+    "duration": 4.8,
+    "text": "with whatever has been passed at this position. So, A will be replaced with 20, B will"
+  },
+  {
+    "start": 1196.33,
+    "duration": 9.75,
+    "text": "be replaced with 30. Okay. And then we'll do 20 plus 30 return 50. Let's try to print"
+  },
+  {
+    "start": 1206.08,
+    "duration": 9.95,
+    "text": "the answer. It will print me 50. Cool. We will see how these things are passing internally"
+  },
+  {
+    "start": 1216.03,
+    "duration": 4.12,
+    "text": "and what like, you know, memory management and all these things are happening. We'll"
+  },
+  {
+    "start": 1220.15,
+    "duration": 4.56,
+    "text": "look more into like, in just a little bit. Okay. In greeting also you can do something"
+  },
+  {
+    "start": 1224.71,
+    "duration": 4.0,
+    "text": "like this. Let's say you want to pass the greeting. Okay. So you can say something"
+  },
+  {
+    "start": 1228.71,
+    "duration": 10.84,
+    "text": "like a string, string example, I can take it in a string example. I can say something"
+  },
+  {
+    "start": 1239.55,
+    "duration": 16.91,
+    "text": "like you know string message is equal to or personalized message is equal to greeting or"
+  },
+  {
+    "start": 1256.46,
+    "duration": 5.68,
+    "text": "migrate or something like that and I am going to have to create migrate. So, basically"
+  },
+  {
+    "start": 1262.14,
+    "duration": 5.08,
+    "text": "I can say by the in IntelliJ IDEA, you know, we already talked about alt enter and command"
+  },
+  {
+    "start": 1267.22,
+    "duration": 2.12,
+    "text": "enter, like option enter."
+  },
+  {
+    "start": 1269.34,
+    "duration": 6.04,
+    "text": "So here, IntelliJ IDEA is so smart, it knows that this function will return a string type"
+  },
+  {
+    "start": 1275.38,
+    "duration": 1.68,
+    "text": "because I have assigned it to a string type."
+  },
+  {
+    "start": 1277.06,
+    "duration": 5.36,
+    "text": "So I can do alt enter create, so it will automatically create it automatically created"
+  },
+  {
+    "start": 1282.42,
+    "duration": 2.41,
+    "text": "for me."
+  },
+  {
+    "start": 1284.83,
+    "duration": 3.44,
+    "text": "You don't need this right now, we'll discuss that in oops, automatically created the"
+  },
+  {
+    "start": 1288.27,
+    "duration": 10.9,
+    "text": "body string type, I can say return or I can say something like string message is equal"
+  },
+  {
+    "start": 1299.17,
+    "duration": 7.12,
+    "text": "to I can pass a greeting over here, I can say string greet and then I can say message is"
+  },
+  {
+    "start": 1306.29,
+    "duration": 10.08,
+    "text": "equal to something like this, hello greet or I can just say name, name over here"
+  },
+  {
+    "start": 1316.37,
+    "duration": 6.88,
+    "text": "and then I am just going to say return the message. So here it is saying hey you are"
+  },
+  {
+    "start": 1323.25,
+    "duration": 3.96,
+    "text": "asking for a name or something in string format and you are not providing me anything. I am"
+  },
+  {
+    "start": 1327.21,
+    "duration": 6.2,
+    "text": "like okay Kunal Kushwaha, let us try to run this. Let us try to print this. It is going"
+  },
+  {
+    "start": 1333.41,
+    "duration": 4.72,
+    "text": "to say it is going to replace the name with Kunal Kushwaha. Message will be equal"
+  },
+  {
+    "start": 1338.13,
+    "duration": 4.84,
+    "text": "to hello Kunal Kushwaha. Hello Kunal Kushwaha will return and this personalized will"
+  },
+  {
+    "start": 1342.97,
+    "duration": 13.01,
+    "text": "actually contain the value hello Kunal Gukshwaha, hello Kunal Gukshwaha, you can also pass it"
+  },
+  {
+    "start": 1355.98,
+    "duration": 6.2,
+    "text": "something like this, you can say scanner, let's say you want to take the input is equal"
+  },
+  {
+    "start": 1362.18,
+    "duration": 11.08,
+    "text": "to new scanner system dot in, you can say s out, enter your name, you can say string"
+  },
+  {
+    "start": 1373.26,
+    "duration": 16.33,
+    "text": "name is equal to in dot next and here now you can just pass the name, my name is Kunal,"
+  },
+  {
+    "start": 1389.59,
+    "duration": 8.8,
+    "text": "hello Kunal, simple. This name value that NAME and NAME this does not have to be same,"
+  },
+  {
+    "start": 1398.39,
+    "duration": 4.84,
+    "text": "this can be something else, Naam, Naam, how these things are working entirely we will"
+  },
+  {
+    "start": 1403.23,
+    "duration": 5.56,
+    "text": "see next. We will see why this does not have to be same as this, it does not really"
+  },
+  {
+    "start": 1408.79,
+    "duration": 4.48,
+    "text": "have to be same like this. In order to understand this thing, let's let's dive into it. So now"
+  },
+  {
+    "start": 1413.27,
+    "duration": 6.04,
+    "text": "let's look at our look at our thing and see if we did not miss anything. So return type"
+  },
+  {
+    "start": 1419.31,
+    "duration": 4.44,
+    "text": "covered function name can be anything covered arguments covered and we'll talk more about"
+  },
+  {
+    "start": 1423.75,
+    "duration": 4.68,
+    "text": "like variable length arguments later on body covered and return type also covered. Now"
+  },
+  {
+    "start": 1428.43,
+    "duration": 5.8,
+    "text": "let's look how this thing is working internally. And yeah, let's look into that. Let me"
+  },
+  {
+    "start": 1434.23,
+    "duration": 13.2,
+    "text": "create a function called or method called like something like swap. Okay, so basically"
+  },
+  {
+    "start": 1447.43,
+    "duration": 4.6,
+    "text": "the idea is I'm going to say int a is equal to 10 and B is equal to 20. And I'm going to"
+  },
+  {
+    "start": 1452.03,
+    "duration": 4.4,
+    "text": "swap these in a I'm going to swap these. So basically, in order to swap two numbers,"
+  },
+  {
+    "start": 1456.43,
+    "duration": 5.16,
+    "text": "you can just do in Java something like this, temp is equal to a is equal to B, B is equal"
+  },
+  {
+    "start": 1461.59,
+    "duration": 7.0,
+    "text": "to temp this is the way this is the way to swap a number a very simple swap numbers code"
+  },
+  {
+    "start": 1468.59,
+    "duration": 10.92,
+    "text": "okay basically if I say print a comma a sorry a plus b so it's basically now going to say"
+  },
+  {
+    "start": 1479.51,
+    "duration": 5.2,
+    "text": "a is going to be 20 b is going to be 10 so it's going to print 2010 because the values"
+  },
+  {
+    "start": 1484.71,
+    "duration": 7.2,
+    "text": "are swapped over here. This is very simple stuff. 2010. Okay, value of A is 20, B is 10."
+  },
+  {
+    "start": 1491.91,
+    "duration": 4.28,
+    "text": "Why? Temp value is going to be equal to what? Temp value is going to be equal to 10. Then"
+  },
+  {
+    "start": 1496.19,
+    "duration": 3.6,
+    "text": "the value of A is going to be equal to 20. And the value of B is going to be equal to"
+  },
+  {
+    "start": 1499.79,
+    "duration": 7.32,
+    "text": "10, which is 10. So A is 20, B is 10. A is 20, B is 10. Okay, this is a simple"
+  },
+  {
+    "start": 1507.11,
+    "duration": 6.76,
+    "text": "code to swap two numbers. Okay, I hope you are able to understand that. Now, let's"
+  },
+  {
+    "start": 1513.87,
+    "duration": 7.08,
+    "text": "Let's try to do the same thing in functions, okay, very important concept, please pay attention."
+  },
+  {
+    "start": 1520.95,
+    "duration": 4.4,
+    "text": "Static, we are not returning anything, we are just, we are just swapping two numbers,"
+  },
+  {
+    "start": 1525.35,
+    "duration": 1.0,
+    "text": "okay."
+  },
+  {
+    "start": 1526.35,
+    "duration": 6.85,
+    "text": "So I'm just going to say static void, I'll give it a name called swap."
+  },
+  {
+    "start": 1533.2,
+    "duration": 5.12,
+    "text": "And it's basically going to have two numbers intake comma in B. And I'm just going to"
+  },
+  {
+    "start": 1538.32,
+    "duration": 3.27,
+    "text": "write this over here."
+  },
+  {
+    "start": 1541.59,
+    "duration": 4.2,
+    "text": "And I'm just going to call the swap function over here, a comma B."
+  },
+  {
+    "start": 1545.79,
+    "duration": 4.44,
+    "text": "The question for you all is, is this actually going to swap the value? Or is it not going"
+  },
+  {
+    "start": 1550.23,
+    "duration": 5.68,
+    "text": "to swap the value? I made a function called method called swap. It takes A and B does"
+  },
+  {
+    "start": 1555.91,
+    "duration": 6.28,
+    "text": "the same thing. A is passed over here. B is passed over here. And then I'm going to"
+  },
+  {
+    "start": 1562.19,
+    "duration": 4.96,
+    "text": "check whether the actually value swapped or not. Did A become 20 and B become 10 or"
+  },
+  {
+    "start": 1567.15,
+    "duration": 8.63,
+    "text": "not? Pause this video, think about it. Now let's look at the answer. It did not"
+  },
+  {
+    "start": 1575.78,
+    "duration": 7.64,
+    "text": "swap it. It did not swap it. How is it happening? What is happening? How is it working? Let's"
+  },
+  {
+    "start": 1583.42,
+    "duration": 4.72,
+    "text": "see. Okay, let me try one more thing. Let me show you some more some other thing. So"
+  },
+  {
+    "start": 1588.14,
+    "duration": 5.28,
+    "text": "let's say I create another file, let's say something like I say something like string"
+  },
+  {
+    "start": 1593.42,
+    "duration": 10.04,
+    "text": "name is equal to Kunal Kush Vaha. Okay, let's try something else. Then I'm going to say"
+  },
+  {
+    "start": 1603.46,
+    "duration": 8.96,
+    "text": "change name, I'm going to pass name over here. Then I'm going to print name and change name"
+  },
+  {
+    "start": 1612.42,
+    "duration": 6.0,
+    "text": "basically just changes the name. So basically static void change name string name. I'm going to say"
+  },
+  {
+    "start": 1618.42,
+    "duration": 8.52,
+    "text": "name is equal to now Rahul Rana. So is it going to change this name to Rahul Rana? It says string"
+  },
+  {
+    "start": 1626.94,
+    "duration": 4.72,
+    "text": "name is equal to Kunal change name this name will be passed over here. And here I'm saying in"
+  },
+  {
+    "start": 1631.66,
+    "duration": 3.56,
+    "text": "in the function, okay, then the function will run. Kunal Kishohi's past is saying"
+  },
+  {
+    "start": 1635.22,
+    "duration": 4.8,
+    "text": "now name is equal to Rahul Rana. Now I print it out. Is it going to change the name value"
+  },
+  {
+    "start": 1640.02,
+    "duration": 8.53,
+    "text": "to Rahul Rana? It won't. For this, we have to understand how these values are actually"
+  },
+  {
+    "start": 1648.55,
+    "duration": 5.52,
+    "text": "being passed. That is an important concept. Let's look into that. Now before we move"
+  },
+  {
+    "start": 1654.07,
+    "duration": 4.6,
+    "text": "on to explaining how this thing is working is one thing I want to share with you."
+  },
+  {
+    "start": 1658.67,
+    "duration": 5.04,
+    "text": "So in the string example, over here, let's say I create another new example, let's say"
+  },
+  {
+    "start": 1663.71,
+    "duration": 12.87,
+    "text": "some passing example, okay, all right."
+  },
+  {
+    "start": 1676.58,
+    "duration": 8.74,
+    "text": "So I can say string name is equal to something, Naal kushwa and then I'm just going to say"
+  },
+  {
+    "start": 1685.32,
+    "duration": 4.2,
+    "text": "call the greet method that takes a name, okay, and I'm just going to create this"
+  },
+  {
+    "start": 1689.52,
+    "duration": 5.32,
+    "text": "greet method, void greet name and whatever."
+  },
+  {
+    "start": 1694.84,
+    "duration": 5.2,
+    "text": "So I believe I shared about this like briefly previously as well, but the important point"
+  },
+  {
+    "start": 1700.04,
+    "duration": 8.62,
+    "text": "note over here is that this name NAME and this name does not have to be like the same format."
+  },
+  {
+    "start": 1708.66,
+    "duration": 8.78,
+    "text": "This can be anything like NAM okay, name and NAM and here I am just going to say print"
+  },
+  {
+    "start": 1717.44,
+    "duration": 1.0,
+    "text": "NAM."
+  },
+  {
+    "start": 1718.44,
+    "duration": 4.36,
+    "text": "Still it is going to do the same thing which it was doing when I passed name over"
+  },
+  {
+    "start": 1722.8,
+    "duration": 9.98,
+    "text": "here when the name of this actually was name only. Let's run this Kunal Kushwa. So this"
+  },
+  {
+    "start": 1732.78,
+    "duration": 7.54,
+    "text": "value is particular like the value name is NAME and here I am passing NAME. So Kunal"
+  },
+  {
+    "start": 1740.32,
+    "duration": 5.44,
+    "text": "Kushwa is being passed over here in this method. Now internally what is happening"
+  },
+  {
+    "start": 1745.76,
+    "duration": 6.5,
+    "text": "is that when we call this method is called Kunal Kushwa that is passed over here that"
+  },
+  {
+    "start": 1752.26,
+    "duration": 5.28,
+    "text": "will be replaced by Naam. This Naam does not care what this particular name is. It can be"
+  },
+  {
+    "start": 1757.54,
+    "duration": 10.56,
+    "text": "either Chacha. Pass Chacha over here. Why did I write my name here then? Iron Man. Okay,"
+  },
+  {
+    "start": 1768.1,
+    "duration": 5.08,
+    "text": "so this can be anything. So when I pass Chacha over here Iron Man will be passed. Internally"
+  },
+  {
+    "start": 1773.18,
+    "duration": 5.56,
+    "text": "this name Naam value, this Naam value will contain the value Iron Man. Let's see how"
+  },
+  {
+    "start": 1778.74,
+    "duration": 4.38,
+    "text": "this is working internally with a diagram. So, how this is working internally is something"
+  },
+  {
+    "start": 1783.12,
+    "duration": 5.78,
+    "text": "like this. So, we have in our main function, in the main function we have something like"
+  },
+  {
+    "start": 1788.9,
+    "duration": 6.0,
+    "text": "this, the public static void main and in this we have something like name is equal"
+  },
+  {
+    "start": 1794.9,
+    "duration": 11.89,
+    "text": "to Kunal and then I am saying greeting, pass name over here and that is it. Now in"
+  },
+  {
+    "start": 1806.79,
+    "duration": 10.0,
+    "text": "the greet method, it is taking a name and it is printing that name, obviously, sorry,"
+  },
+  {
+    "start": 1816.79,
+    "duration": 5.44,
+    "text": "it's not taking name, then the value I took over here, the format I used over here was"
+  },
+  {
+    "start": 1822.23,
+    "duration": 7.36,
+    "text": "naam, it's printing the naam. So, this is how it's working internally. In the main"
+  },
+  {
+    "start": 1829.59,
+    "duration": 4.44,
+    "text": "function, this is an object, okay, object, we know this is an object internally, it's"
+  },
+  {
+    "start": 1834.03,
+    "duration": 9.75,
+    "text": "something like this, this is in the heap memory, Kunal and name is pointing to this, very important"
+  },
+  {
+    "start": 1843.78,
+    "duration": 1.0,
+    "text": "point."
+  },
+  {
+    "start": 1844.78,
+    "duration": 12.26,
+    "text": "When name is passed in this method, the value is passed, actually the value of the reference"
+  },
+  {
+    "start": 1857.04,
+    "duration": 1.0,
+    "text": "variable is passed."
+  },
+  {
+    "start": 1858.04,
+    "duration": 5.2,
+    "text": "In Java, there is no particular thing known as pass by reference."
+  },
+  {
+    "start": 1863.24,
+    "duration": 3.08,
+    "text": "In Java, there is only pass by value."
+  },
+  {
+    "start": 1866.32,
+    "duration": 6.08,
+    "text": "So here, actually what is happening is that this is a reference variable, a copy of the"
+  },
+  {
+    "start": 1872.4,
+    "duration": 5.4,
+    "text": "value of this reference variable, copy of a value of this reference variable is passed"
+  },
+  {
+    "start": 1877.8,
+    "duration": 1.5,
+    "text": "over here."
+  },
+  {
+    "start": 1879.3,
+    "duration": 2.02,
+    "text": "So this is a copy, Naam."
+  },
+  {
+    "start": 1881.32,
+    "duration": 5.64,
+    "text": "So Naam is basically going to have is another reference variable, which is a copy of this"
+  },
+  {
+    "start": 1886.96,
+    "duration": 9.79,
+    "text": "and since this is a copy of this, it's going to point towards the same object."
+  },
+  {
+    "start": 1896.75,
+    "duration": 2.96,
+    "text": "So that is how it's working internally."
+  },
+  {
+    "start": 1899.71,
+    "duration": 5.2,
+    "text": "When we pass something in the function in Java there is no pass by reference it is only"
+  },
+  {
+    "start": 1904.91,
+    "duration": 6.24,
+    "text": "pass by value and in this case it is only passing the value of that reference a copy"
+  },
+  {
+    "start": 1911.15,
+    "duration": 3.16,
+    "text": "of that reference."
+  },
+  {
+    "start": 1914.31,
+    "duration": 4.96,
+    "text": "So here in the main we were accessing this object by name here we are accessing this"
+  },
+  {
+    "start": 1919.27,
+    "duration": 4.4,
+    "text": "object by another variable name nam both of these reference variables are pointing"
+  },
+  {
+    "start": 1923.67,
+    "duration": 3.4,
+    "text": "towards the same object."
+  },
+  {
+    "start": 1927.07,
+    "duration": 5.56,
+    "text": "Now the previous example that we took that had something like something like this, this"
+  },
+  {
+    "start": 1932.63,
+    "duration": 6.0,
+    "text": "example that was here, swap one, so here you were like change name, so like name passed"
+  },
+  {
+    "start": 1938.63,
+    "duration": 5.14,
+    "text": "over here, if I put Naam over here, does not really matter, you can put Naam over here."
+  },
+  {
+    "start": 1943.77,
+    "duration": 1.0,
+    "text": "So here what is happening?"
+  },
+  {
+    "start": 1944.77,
+    "duration": 2.16,
+    "text": "Why did this not get changed?"
+  },
+  {
+    "start": 1946.93,
+    "duration": 4.08,
+    "text": "So we have something like name is equal to Kunal Kushwaa, change name name, so"
+  },
+  {
+    "start": 1951.01,
+    "duration": 3.36,
+    "text": "name will be passed over here, Naam's value is going to be Kunal Kushwaa, it's"
+  },
+  {
+    "start": 1954.37,
+    "duration": 3.92,
+    "text": "saying Naam is equal to Rahul Rana, but Naam is actually not being changed. Why is it not"
+  },
+  {
+    "start": 1958.29,
+    "duration": 10.41,
+    "text": "being changed? Let's see. So basically in my public static void main, I have a name"
+  },
+  {
+    "start": 1968.7,
+    "duration": 6.6,
+    "text": "which is equal to let's say Kunal. Then I'm saying change name, passing name over here."
+  },
+  {
+    "start": 1975.3,
+    "duration": 6.04,
+    "text": "And when I'm printing name, it's actually showing me Kunal only. Okay, showing me Kunal"
+  },
+  {
+    "start": 1981.34,
+    "duration": 6.12,
+    "text": "only in change, what are we doing in change? Basically, we are taking a Naam and we are"
+  },
+  {
+    "start": 1987.46,
+    "duration": 7.69,
+    "text": "saying Naam is equal to Rahul Rana. So, how is it working internally? We already saw we"
+  },
+  {
+    "start": 1995.15,
+    "duration": 7.72,
+    "text": "already saw nothing new name is going to be pointing to this object of Kunal. Naam is"
+  },
+  {
+    "start": 2002.87,
+    "duration": 3.04,
+    "text": "also going to be pointing to the same object because this is a copy of this reference"
+  },
+  {
+    "start": 2005.91,
+    "duration": 5.16,
+    "text": "variable. What is happening in this line Naam is equal to Rahul, a new object is"
+  },
+  {
+    "start": 2011.07,
+    "duration": 7.08,
+    "text": "being created. Name is now pointing to Rahul. Did this change the original name? Did this"
+  },
+  {
+    "start": 2018.15,
+    "duration": 6.8,
+    "text": "change to what the original name was pointing to? No. Hence when I print name again, when"
+  },
+  {
+    "start": 2024.95,
+    "duration": 14.16,
+    "text": "I print name again over here, it's going to print Kunal. Very simple stuff. Okay. I'm"
+  },
+  {
+    "start": 2039.11,
+    "duration": 4.76,
+    "text": "telling it again and again, no pass by reference in Java, only pass by value. And in terms"
+  },
+  {
+    "start": 2043.87,
+    "duration": 6.2,
+    "text": "of like objects and stuff, so that are like, let's say non primitives, you know, the reference,"
+  },
+  {
+    "start": 2050.07,
+    "duration": 8.52,
+    "text": "the references copy is passed. So this, basically this, and this thing, the parameters, both"
+  },
+  {
+    "start": 2058.59,
+    "duration": 7.76,
+    "text": "are going to be pointing to the same object. This is also true that any change made via"
+  },
+  {
+    "start": 2066.35,
+    "duration": 4.68,
+    "text": "this reference variable to the, to the, you know, will also be reflected in the"
+  },
+  {
+    "start": 2071.03,
+    "duration": 3.84,
+    "text": "main object. Now in this case, when we're saying, hey, Kunal, why did it not reflect"
+  },
+  {
+    "start": 2074.87,
+    "duration": 7.52,
+    "text": "in this then because here you are not changing the object you are creating a new object not"
+  },
+  {
+    "start": 2082.39,
+    "duration": 10.13,
+    "text": "changing creating a new object and this we will go more in detail regarding strings strings"
+  },
+  {
+    "start": 2092.52,
+    "duration": 7.2,
+    "text": "are immutable means you cannot change those for like you know for like software sorry"
+  },
+  {
+    "start": 2099.72,
+    "duration": 5.24,
+    "text": "security reasons. So here you might be saying hey Kunal you are saying that these two"
+  },
+  {
+    "start": 2104.96,
+    "duration": 4.8,
+    "text": "are pointing to the same object hence if I want to make a change via NAM it should also"
+  },
+  {
+    "start": 2109.76,
+    "duration": 4.52,
+    "text": "change the original object that is true but here we are not changing the original object"
+  },
+  {
+    "start": 2114.28,
+    "duration": 6.36,
+    "text": "we are creating a new object and assigning that to NAM I will show you an example in"
+  },
+  {
+    "start": 2120.64,
+    "duration": 5.8,
+    "text": "this video only of changing that object and how it will result in the original change"
+  },
+  {
+    "start": 2126.44,
+    "duration": 4.6,
+    "text": "but for now I believe you are able to understand this particular thing also one more thing"
+  },
+  {
+    "start": 2131.04,
+    "duration": 7.76,
+    "text": "I am going to show you is basically this thing. So here NAM is in this scope only. NAM you"
+  },
+  {
+    "start": 2138.8,
+    "duration": 6.6,
+    "text": "cannot use it outside. I cannot do something like this printNAM giving me error. It is saying"
+  },
+  {
+    "start": 2145.4,
+    "duration": 6.72,
+    "text": "NAM is not defined because NAM is only available in this function, which is the scope of"
+  },
+  {
+    "start": 2152.12,
+    "duration": 4.32,
+    "text": "that function. So this is known as scoping. We will go more in detail in spoking but"
+  },
+  {
+    "start": 2156.44,
+    "duration": 3.56,
+    "text": "this is very simple stuff that if you want to access any variables or anything"
+  },
+  {
+    "start": 2160.0,
+    "duration": 4.8,
+    "text": "that are, you know, available in this function, you can only access those in this function"
+  },
+  {
+    "start": 2164.8,
+    "duration": 1.0,
+    "text": "only."
+  },
+  {
+    "start": 2165.8,
+    "duration": 4.52,
+    "text": "You can't do it outside this function like print, you know, something like in some other"
+  },
+  {
+    "start": 2170.32,
+    "duration": 5.0,
+    "text": "function in swap maybe, maybe for example, you can't do something like print NaM. NaM"
+  },
+  {
+    "start": 2175.32,
+    "duration": 5.44,
+    "text": "is only available over here, hence you can only access it over here. This particular"
+  },
+  {
+    "start": 2180.76,
+    "duration": 5.48,
+    "text": "thing NaM or if I say a int a is equal to 10, everything is like available in this"
+  },
+  {
+    "start": 2186.24,
+    "duration": 7.08,
+    "text": "section only in B is equal to 30 or 20. And here if you write int A is equal to 50 or"
+  },
+  {
+    "start": 2193.32,
+    "duration": 6.82,
+    "text": "40. A is already defined. That's why it's giving error, but let's say num. Okay, so"
+  },
+  {
+    "start": 2200.14,
+    "duration": 3.24,
+    "text": "adding num over here, you can add the same name over here as well. It will not give"
+  },
+  {
+    "start": 2203.38,
+    "duration": 5.04,
+    "text": "you an error like num is defined twice. No, because for this num is defined in this"
+  },
+  {
+    "start": 2208.42,
+    "duration": 4.28,
+    "text": "function scope, the main scope. And for this num, it's only defined in the change"
+  },
+  {
+    "start": 2212.7,
+    "duration": 4.88,
+    "text": "names scope. Okay, no one outside change name can access"
+  },
+  {
+    "start": 2217.58,
+    "duration": 4.64,
+    "text": "NAM or all the other variables in it. Same thing goes for this, all the variables that"
+  },
+  {
+    "start": 2222.22,
+    "duration": 5.72,
+    "text": "are in the parameter. This is known as scoping. You cannot access scoping. In short, you cannot"
+  },
+  {
+    "start": 2227.94,
+    "duration": 6.52,
+    "text": "access this outside this function. Okay, we'll look more into scoping later on."
+  },
+  {
+    "start": 2234.46,
+    "duration": 5.04,
+    "text": "But there's one more example we were having is why did it not swap this thing? Let's"
+  },
+  {
+    "start": 2239.5,
+    "duration": 6.6,
+    "text": "let's look into it, let's look into it. Why did it not swap? So primitives, it's actually"
+  },
+  {
+    "start": 2246.1,
+    "duration": 8.8,
+    "text": "just passing the value. Okay, there's two things you have to remember. Primitives like"
+  },
+  {
+    "start": 2254.9,
+    "duration": 9.92,
+    "text": "you know, int, short, care, byte or whatever, for it sits just pass by value for objects"
+  },
+  {
+    "start": 2264.82,
+    "duration": 4.32,
+    "text": "and references also it's pass by value only. But for this, it's actually like just passing"
+  },
+  {
+    "start": 2269.14,
+    "duration": 13.38,
+    "text": "value and for your objects and references, so objects and stuff it's actually passing"
+  },
+  {
+    "start": 2282.52,
+    "duration": 6.94,
+    "text": "value only but passing value of the reference variable."
+  },
+  {
+    "start": 2289.46,
+    "duration": 4.52,
+    "text": "So both of those reference variable like name and name pointing to the same object very"
+  },
+  {
+    "start": 2293.98,
+    "duration": 2.36,
+    "text": "important and I have multiple time mentioned it."
+  },
+  {
+    "start": 2296.34,
+    "duration": 3.0,
+    "text": "So let's look into this example what is happening."
+  },
+  {
+    "start": 2299.34,
+    "duration": 7.6,
+    "text": "So here basically I am saying in public static void mean I have A and B, A is equal to 10,"
+  },
+  {
+    "start": 2306.94,
+    "duration": 7.36,
+    "text": "B is equal to 20, I am saying swap A and B, it will not swap."
+  },
+  {
+    "start": 2314.3,
+    "duration": 5.48,
+    "text": "So basically in the swap method we will put something like let us say number 1 comma"
+  },
+  {
+    "start": 2319.78,
+    "duration": 7.36,
+    "text": "number 2 and here I have saying let us say A is pointing to 10, B is pointing to 20."
+  },
+  {
+    "start": 2327.14,
+    "duration": 8.03,
+    "text": "num1 will be pointing to, since it is a primitive, so only value will be passed. So, num1 will"
+  },
+  {
+    "start": 2335.17,
+    "duration": 11.49,
+    "text": "be pointing to say 10, num2 will be also have something like 20. Value is passed, here the"
+  },
+  {
+    "start": 2346.66,
+    "duration": 5.76,
+    "text": "value is passed. So, that is pretty much about it and over here also if it is something"
+  },
+  {
+    "start": 2352.42,
+    "duration": 5.2,
+    "text": "like this as well, if it is something like this as well, that totally depends on like"
+  },
+  {
+    "start": 2357.62,
+    "duration": 4.56,
+    "text": "like, you know, the Java input. So if you're saying like something like, you know, a is"
+  },
+  {
+    "start": 2362.18,
+    "duration": 4.72,
+    "text": "equal to 10 and B is equal to 10. This is up to Java, you know, like if it wants to"
+  },
+  {
+    "start": 2366.9,
+    "duration": 4.08,
+    "text": "create new object, which is like heap memory and stuff, some optimization might be there."
+  },
+  {
+    "start": 2370.98,
+    "duration": 6.96,
+    "text": "But here the value is being passed. And when we do something like, you know, temp"
+  },
+  {
+    "start": 2377.94,
+    "duration": 6.2,
+    "text": "is equal to num one. So in this functions scope, I'm just going to remove this thing."
+  },
+  {
+    "start": 2384.14,
+    "duration": 9.44,
+    "text": "So in this functions scope what is happening is temp is now having a value of 10 and num2"
+  },
+  {
+    "start": 2393.58,
+    "duration": 5.12,
+    "text": "sorry num2 is going to have a value of what?"
+  },
+  {
+    "start": 2398.7,
+    "duration": 1.0,
+    "text": "Num1."
+  },
+  {
+    "start": 2399.7,
+    "duration": 13.86,
+    "text": "So num2 is basically going to be equal to what 10 sorry not 10 sorry it is actually"
+  },
+  {
+    "start": 2413.56,
+    "duration": 6.4,
+    "text": "num1 is equal to num2."
+  },
+  {
+    "start": 2419.96,
+    "duration": 7.92,
+    "text": "So num1 is equal to num2, so num1 is actually going to have a value of 20."
+  },
+  {
+    "start": 2427.88,
+    "duration": 7.4,
+    "text": "So here num1 is having a value of 20, let me see if this is visible."
+  },
+  {
+    "start": 2435.28,
+    "duration": 8.52,
+    "text": "And here then num2 has a value of temp, so num2 has a value of temp which is 10."
+  },
+  {
+    "start": 2443.8,
+    "duration": 3.64,
+    "text": "So even though in this function scope these are swapped, but are the original"
+  },
+  {
+    "start": 2447.44,
+    "duration": 9.84,
+    "text": "A and B swapped? No. Very simple. In both the cases like same thing, pass by value, pass"
+  },
+  {
+    "start": 2457.28,
+    "duration": 4.4,
+    "text": "by value. One example I want to give you now is that of objects and references. So these"
+  },
+  {
+    "start": 2461.68,
+    "duration": 3.76,
+    "text": "are our primitive data types. For primitive data types, it's only going to do pass by"
+  },
+  {
+    "start": 2465.44,
+    "duration": 5.16,
+    "text": "value for objects and references for complex data types, pass by value of that reference"
+  },
+  {
+    "start": 2470.6,
+    "duration": 4.16,
+    "text": "variable. So both the reference variable pointing to the same object. If you make"
+  },
+  {
+    "start": 2474.76,
+    "duration": 5.18,
+    "text": "an change, if you make a change via one reference variable, original one will be changed. Let's"
+  },
+  {
+    "start": 2479.94,
+    "duration": 4.84,
+    "text": "look into an example in which the original value is changed. That will make things much"
+  },
+  {
+    "start": 2484.78,
+    "duration": 9.21,
+    "text": "more clearer. Okay, so let's look at an example in which, let's say we take an example, change"
+  },
+  {
+    "start": 2493.99,
+    "duration": 12.97,
+    "text": "value, change value example. Okay, public static void main. So I can say something"
+  },
+  {
+    "start": 2506.96,
+    "duration": 4.96,
+    "text": "like, I'll create an array over here, because just because I want to show you if the"
+  },
+  {
+    "start": 2511.92,
+    "duration": 4.88,
+    "text": "original value of the object is being changed, create an array, we will look arrays in the"
+  },
+  {
+    "start": 2516.8,
+    "duration": 1.0,
+    "text": "next lectures."
+  },
+  {
+    "start": 2517.8,
+    "duration": 3.68,
+    "text": "So, for now, array is just a collection of, you know, let's say, if I'm making an integer"
+  },
+  {
+    "start": 2521.48,
+    "duration": 4.12,
+    "text": "array, so it's a collection of numbers only, nothing else, just a data structure, collection"
+  },
+  {
+    "start": 2525.6,
+    "duration": 1.0,
+    "text": "of numbers."
+  },
+  {
+    "start": 2526.6,
+    "duration": 3.04,
+    "text": "String is a data structure, which is a collector of letters and characters."
+  },
+  {
+    "start": 2529.64,
+    "duration": 4.28,
+    "text": "Array is a data structure, let's say, collection of integers or numbers or whatever."
+  },
+  {
+    "start": 2533.92,
+    "duration": 9.26,
+    "text": "So, I can create an array like this, 1, 3, 4, 2, 45, 6, random numbers."
+  },
+  {
+    "start": 2543.18,
+    "duration": 4.52,
+    "text": "Okay, we will go into details of this later on. But what I want to show you is if I create"
+  },
+  {
+    "start": 2547.7,
+    "duration": 12.91,
+    "text": "a method over here that says, you know, static change, no return type change, and I pass"
+  },
+  {
+    "start": 2560.61,
+    "duration": 6.92,
+    "text": "an array over here something like I say nums. Okay, passing an array over here, I'm saying"
+  },
+  {
+    "start": 2567.53,
+    "duration": 6.0,
+    "text": "the zeroth value of nums should be 99. And here I'm going to call this function"
+  },
+  {
+    "start": 2573.53,
+    "duration": 9.62,
+    "text": "change ARR, then I'm going to say print arrays dot two string, ARR, basically two string is"
+  },
+  {
+    "start": 2583.15,
+    "duration": 3.96,
+    "text": "just printing this, don't worry, this will, we will go in detail of this. Okay, two string"
+  },
+  {
+    "start": 2587.11,
+    "duration": 7.2,
+    "text": "is another method, can see public static string two string, it just takes an integer array"
+  },
+  {
+    "start": 2594.31,
+    "duration": 3.96,
+    "text": "and returns the string value of it. So now you might be able to understand the string"
+  },
+  {
+    "start": 2598.27,
+    "duration": 4.44,
+    "text": "build and everything will look into it later on. It's nothing much, but I believe"
+  },
+  {
+    "start": 2602.71,
+    "duration": 4.12,
+    "text": "you know that much Java now that you are able to understand this code. Just simple for loop"
+  },
+  {
+    "start": 2606.83,
+    "duration": 5.72,
+    "text": "and stuff only. The question to you all is, is this going to change the original array"
+  },
+  {
+    "start": 2612.55,
+    "duration": 8.52,
+    "text": "or not? Let's see. Let me get my iPad here. Let me show you how this is working internally"
+  },
+  {
+    "start": 2621.07,
+    "duration": 7.36,
+    "text": "then we'll run it. So basically, original array is pointing to some, let's something"
+  },
+  {
+    "start": 2628.43,
+    "duration": 9.24,
+    "text": "happening like this. So, original array ARR has an object pointing to 1, 3, 2, 45 and"
+  },
+  {
+    "start": 2637.67,
+    "duration": 4.56,
+    "text": "6. When I pass this in a function, I know this is in a reference an object. So, reference"
+  },
+  {
+    "start": 2642.23,
+    "duration": 4.24,
+    "text": "copy will be passed. Another reference will contain the same object. So, in this case"
+  },
+  {
+    "start": 2646.47,
+    "duration": 5.88,
+    "text": "nums pointing to the same object. This is not passed by reference, it is passed"
+  },
+  {
+    "start": 2652.35,
+    "duration": 5.56,
+    "text": "by the copy of the value of the reference. Big difference is making a copy of this."
+  },
+  {
+    "start": 2657.91,
+    "duration": 9.12,
+    "text": "So here, it's saying in the function in function, it says nums of zero is equal to 99 by the"
+  },
+  {
+    "start": 2667.03,
+    "duration": 5.28,
+    "text": "way arrays are displayed by indices, 0th index, first index, second index, third index, fourth"
+  },
+  {
+    "start": 2672.31,
+    "duration": 1.0,
+    "text": "index."
+  },
+  {
+    "start": 2673.31,
+    "duration": 5.36,
+    "text": "So it's saying the 0th index should be changed to 99, okay, via nums."
+  },
+  {
+    "start": 2678.67,
+    "duration": 2.84,
+    "text": "Is it still is it going to be changed for array as well?"
+  },
+  {
+    "start": 2681.51,
+    "duration": 4.96,
+    "text": "Yes, pointing towards the same object, some objects was modified by a nums original"
+  },
+  {
+    "start": 2686.47,
+    "duration": 4.88,
+    "text": "object is also modified. You know, if Kunal is spending money, baby is spending money,"
+  },
+  {
+    "start": 2691.35,
+    "duration": 4.36,
+    "text": "son or brother is spending money or original object is spending money. First lecture, we"
+  },
+  {
+    "start": 2695.71,
+    "duration": 4.0,
+    "text": "did this memory management. Okay, first or second lecture. I don't remember. Check out"
+  },
+  {
+    "start": 2699.71,
+    "duration": 8.44,
+    "text": "the links in the description of the playlist. Let's try to run this. Will the original"
+  },
+  {
+    "start": 2708.15,
+    "duration": 9.4,
+    "text": "ARR be changed? Yes, changed. Don't have this doubt that hey Kunal, why is string"
+  },
+  {
+    "start": 2717.55,
+    "duration": 4.64,
+    "text": "not being changed over here because we are not modifying the string here we are modifying"
+  },
+  {
+    "start": 2722.19,
+    "duration": 8.61,
+    "text": "the array here we are not modifying the string we are creating a new object also you cannot"
+  },
+  {
+    "start": 2730.8,
+    "duration": 5.24,
+    "text": "modify strings strings are like final classes so it's like final you cannot modify it because"
+  },
+  {
+    "start": 2736.04,
+    "duration": 4.16,
+    "text": "for security reasons they are immutable we will talk more about this later on."
+  },
+  {
+    "start": 2740.2,
+    "duration": 8.44,
+    "text": "So here you can see basically in short if you make a change to the object via this"
+  },
+  {
+    "start": 2748.64,
+    "duration": 8.71,
+    "text": "reference variable, same object will be changed."
+  },
+  {
+    "start": 2757.35,
+    "duration": 2.0,
+    "text": "I hope that makes things clear."
+  },
+  {
+    "start": 2759.35,
+    "duration": 4.52,
+    "text": "Now let's look into the next thing which is known as scoping."
+  },
+  {
+    "start": 2763.87,
+    "duration": 5.68,
+    "text": "So in short, when an object's reference, when the object's reference, this reference,"
+  },
+  {
+    "start": 2769.55,
+    "duration": 6.6,
+    "text": "when this reference is passed to this parameter, actually the reference itself is passed"
+  },
+  {
+    "start": 2776.15,
+    "duration": 8.28,
+    "text": "by call by value, because the value that is being passed refers to the object."
+  },
+  {
+    "start": 2784.43,
+    "duration": 5.08,
+    "text": "So this nums will be another like value of this reference variable pointing to the object."
+  },
+  {
+    "start": 2789.51,
+    "duration": 4.08,
+    "text": "So it's actually call by value, it's not call by reference."
+  },
+  {
+    "start": 2793.59,
+    "duration": 5.76,
+    "text": "In Java, we do not have pointers, we do not get the address or anything in Java."
+  },
+  {
+    "start": 2799.35,
+    "duration": 1.0,
+    "text": "Cool."
+  },
+  {
+    "start": 2800.35,
+    "duration": 10.87,
+    "text": "Let's look into scoping now."
+  },
+  {
+    "start": 2811.22,
+    "duration": 3.84,
+    "text": "So now we are starting with another important concept known as scoping."
+  },
+  {
+    "start": 2815.06,
+    "duration": 1.0,
+    "text": "What is scoping?"
+  },
+  {
+    "start": 2816.06,
+    "duration": 1.4,
+    "text": "What do we mean by scope?"
+  },
+  {
+    "start": 2817.46,
+    "duration": 2.68,
+    "text": "Scope basically means where we can access our variables."
+  },
+  {
+    "start": 2820.14,
+    "duration": 7.16,
+    "text": "Okay, for example, if I have something like int is equal to 10, int is equal to 20."
+  },
+  {
+    "start": 2827.3,
+    "duration": 6.52,
+    "text": "And here I create another function like static void random function or whatever."
+  },
+  {
+    "start": 2833.82,
+    "duration": 2.52,
+    "text": "Here if I try to print a, it will not allow me."
+  },
+  {
+    "start": 2836.34,
+    "duration": 3.92,
+    "text": "It's saying, hey, you cannot, this, this function does not know that a exists in"
+  },
+  {
+    "start": 2840.26,
+    "duration": 5.84,
+    "text": "some other function. Only you can access A in this function only, the main function only."
+  },
+  {
+    "start": 2846.1,
+    "duration": 7.88,
+    "text": "Okay, similarly if I create num equal to 67. Okay, you can access num over here, you can"
+  },
+  {
+    "start": 2853.98,
+    "duration": 6.88,
+    "text": "say print num or whatever. You can't access num over here. Okay, this is the first scope"
+  },
+  {
+    "start": 2860.86,
+    "duration": 4.48,
+    "text": "known as the function scope. So if you define any variables or anything in a function,"
+  },
+  {
+    "start": 2865.34,
+    "duration": 2.36,
+    "text": "You can only access those inside the function."
+  },
+  {
+    "start": 2867.7,
+    "duration": 6.28,
+    "text": "This also holds true for all the arguments in marks or something."
+  },
+  {
+    "start": 2873.98,
+    "duration": 3.28,
+    "text": "If you try to print marks over here, you will not be able to."
+  },
+  {
+    "start": 2877.26,
+    "duration": 1.0,
+    "text": "You can print it over here."
+  },
+  {
+    "start": 2878.26,
+    "duration": 4.04,
+    "text": "You can do anything you want in this function with marks because marks has a scope in"
+  },
+  {
+    "start": 2882.3,
+    "duration": 1.0,
+    "text": "this."
+  },
+  {
+    "start": 2883.3,
+    "duration": 3.56,
+    "text": "But scope basically means you can only access these variables inside this function"
+  },
+  {
+    "start": 2886.86,
+    "duration": 1.76,
+    "text": "in very simple language."
+  },
+  {
+    "start": 2888.62,
+    "duration": 3.04,
+    "text": "You cannot access it outside."
+  },
+  {
+    "start": 2891.66,
+    "duration": 7.22,
+    "text": "So in the previous example, in the swap example, here you can see that, you know, nothing changed"
+  },
+  {
+    "start": 2898.88,
+    "duration": 4.16,
+    "text": "because the real values didn't change because this is not passing the reference of A and"
+  },
+  {
+    "start": 2903.04,
+    "duration": 4.56,
+    "text": "V, it's actually passing the values of A and V and because the scope of the function"
+  },
+  {
+    "start": 2907.6,
+    "duration": 3.76,
+    "text": "swap will be defined in the swap function only."
+  },
+  {
+    "start": 2911.36,
+    "duration": 10.73,
+    "text": "So these values, if you can say, you know, num1 and num2, basically num1."
+  },
+  {
+    "start": 2922.09,
+    "duration": 5.8,
+    "text": "the same thing we did previously. Okay, it does not really matter if we change the names"
+  },
+  {
+    "start": 2927.89,
+    "duration": 8.88,
+    "text": "to whatever. So this num1 and num2 whatever change you make will only be this change."
+  },
+  {
+    "start": 2936.77,
+    "duration": 17.14,
+    "text": "This change will only be be valid in this function scope only. Okay, so for primitive"
+  },
+  {
+    "start": 2953.91,
+    "duration": 8.23,
+    "text": "data like in SCARs and et cetera. And yeah, so in primitive data types, the value will"
+  },
+  {
+    "start": 2962.14,
+    "duration": 5.76,
+    "text": "be passed. Hence the original value is not changed in other data types like non-primitive"
+  },
+  {
+    "start": 2967.9,
+    "duration": 4.76,
+    "text": "data types like arrays and stuff. It's also passed by value, but it's actually like I"
+  },
+  {
+    "start": 2972.66,
+    "duration": 5.2,
+    "text": "know summarized it very well previously, passing the value of the reference variable."
+  },
+  {
+    "start": 2977.86,
+    "duration": 3.8,
+    "text": "In that case, if you make change via that, then the original object will be changed"
+  },
+  {
+    "start": 2981.66,
+    "duration": 3.48,
+    "text": "two very important points and very simple as well."
+  },
+  {
+    "start": 2985.14,
+    "duration": 3.24,
+    "text": "Okay, let's look at a block scope now."
+  },
+  {
+    "start": 2988.38,
+    "duration": 3.26,
+    "text": "Let's look at some block scoping."
+  },
+  {
+    "start": 2991.64,
+    "duration": 2.12,
+    "text": "So if I have a block scope over here like this,"
+  },
+  {
+    "start": 2993.76,
+    "duration": 1.68,
+    "text": "just a simple block that I have created."
+  },
+  {
+    "start": 2995.44,
+    "duration": 2.4,
+    "text": "Function scope, I think it's very, very clear"
+  },
+  {
+    "start": 2997.84,
+    "duration": 2.44,
+    "text": "and very, very, very, very simple as well."
+  },
+  {
+    "start": 3000.28,
+    "duration": 2.4,
+    "text": "Okay, so here if I write a block code,"
+  },
+  {
+    "start": 3002.68,
+    "duration": 2.88,
+    "text": "so I can say something like, let's say,"
+  },
+  {
+    "start": 3005.56,
+    "duration": 2.84,
+    "text": "int A is equal to 78."
+  },
+  {
+    "start": 3008.4,
+    "duration": 3.56,
+    "text": "This is giving me an error."
+  },
+  {
+    "start": 3011.96,
+    "duration": 1.8,
+    "text": "This is giving me an error."
+  },
+  {
+    "start": 3013.76,
+    "duration": 2.84,
+    "text": "It's saying A is already initialized."
+  },
+  {
+    "start": 3016.6,
+    "duration": 3.04,
+    "text": "Okay, so basically if you initialize something in A,"
+  },
+  {
+    "start": 3019.64,
+    "duration": 0.84,
+    "text": "you cannot do this again."
+  },
+  {
+    "start": 3020.48,
+    "duration": 4.36,
+    "text": "If you write A is equal to 90, error."
+  },
+  {
+    "start": 3026.16,
+    "duration": 2.52,
+    "text": "You can change the value like this,"
+  },
+  {
+    "start": 3030.08,
+    "duration": 3.24,
+    "text": "but you cannot initialize the same reference variable again."
+  },
+  {
+    "start": 3034.8,
+    "duration": 2.32,
+    "text": "Okay, very important point."
+  },
+  {
+    "start": 3037.12,
+    "duration": 4.08,
+    "text": "So here it's saying that A is initialized in its block"
+  },
+  {
+    "start": 3041.2,
+    "duration": 3.2,
+    "text": "and this block is actually inside, you know, this function."
+  },
+  {
+    "start": 3044.4,
+    "duration": 1.68,
+    "text": "So this is the reason it's saying"
+  },
+  {
+    "start": 3046.08,
+    "duration": 1.68,
+    "text": "that it's giving you an error,"
+  },
+  {
+    "start": 3047.76,
+    "duration": 4.32,
+    "text": "but you can definitely modify it, okay?"
+  },
+  {
+    "start": 3052.08,
+    "duration": 2.24,
+    "text": "If I do something like, let's say,"
+  },
+  {
+    "start": 3054.32,
+    "duration": 3.04,
+    "text": "int C is equal to 99."
+  },
+  {
+    "start": 3057.36,
+    "duration": 5.14,
+    "text": "And I try to print C over here, giving me an error."
+  },
+  {
+    "start": 3062.5,
+    "duration": 3.16,
+    "text": "Cannot resolve variable C."
+  },
+  {
+    "start": 3065.66,
+    "duration": 3.3,
+    "text": "In short, for block scopes,"
+  },
+  {
+    "start": 3068.96,
+    "duration": 4.02,
+    "text": "what is happening over here is that, you know,"
+  },
+  {
+    "start": 3072.98,
+    "duration": 7.68,
+    "text": "over here that if you have in the block, if outside the block in that same function, the"
+  },
+  {
+    "start": 3080.66,
+    "duration": 5.66,
+    "text": "value is it is already initialized, you cannot initialize it again, okay, you cannot initialize"
+  },
+  {
+    "start": 3086.32,
+    "duration": 7.14,
+    "text": "it again. But if you initialize a value, if you create the value specifically for"
+  },
+  {
+    "start": 3093.46,
+    "duration": 5.28,
+    "text": "this block, it is only going to be used in this block in even more simpler terms,"
+  },
+  {
+    "start": 3098.74,
+    "duration": 5.92,
+    "text": "that are initialized in this block will remain in the block."
+  },
+  {
+    "start": 3104.66,
+    "duration": 11.66,
+    "text": "Values initialized in this block will remain in block, so C is initialized over here, it"
+  },
+  {
+    "start": 3116.32,
+    "duration": 8.76,
+    "text": "is not being used outside the block, cannot use outside the block, but if some value is"
+  },
+  {
+    "start": 3125.08,
+    "duration": 14.18,
+    "text": "already initialized outside the block, initialized, I will just write it over here, already initialized"
+  },
+  {
+    "start": 3139.26,
+    "duration": 15.86,
+    "text": "outside the block in the same method, hence you cannot initialize again, but you can change"
+  },
+  {
+    "start": 3155.12,
+    "duration": 3.44,
+    "text": "the value as well, but you can change, you cannot initialize again, but you can change"
+  },
+  {
+    "start": 3158.56,
+    "duration": 1.0,
+    "text": "the value definitely."
+  },
+  {
+    "start": 3159.56,
+    "duration": 14.47,
+    "text": "So, if I say A is equal to let's say 100 and then I try to print over here, print A,"
+  },
+  {
+    "start": 3174.03,
+    "duration": 2.2,
+    "text": "printing 100."
+  },
+  {
+    "start": 3176.23,
+    "duration": 9.36,
+    "text": "Question is if I print it outside, is it still showing you, is it going to show 100 or 10?"
+  },
+  {
+    "start": 3185.59,
+    "duration": 1.64,
+    "text": "It's showing 100 only."
+  },
+  {
+    "start": 3187.23,
+    "duration": 3.88,
+    "text": "So here changing the original value."
+  },
+  {
+    "start": 3191.11,
+    "duration": 11.45,
+    "text": "So here basically reassign the original reference variable to some other value, because it is"
+  },
+  {
+    "start": 3202.56,
+    "duration": 5.34,
+    "text": "not creating a new one, in order to create a new one I have to write int over here."
+  },
+  {
+    "start": 3207.9,
+    "duration": 4.38,
+    "text": "So this is a proof, very simple stuff, right?"
+  },
+  {
+    "start": 3212.28,
+    "duration": 5.04,
+    "text": "You do not confuse yourself that why it is changing the original one, it is changing"
+  },
+  {
+    "start": 3217.32,
+    "duration": 3.96,
+    "text": "the original one because this reference variable is the original one, I have not created"
+  },
+  {
+    "start": 3221.28,
+    "duration": 4.5,
+    "text": "a new one, in order to create new one, you have to initialize it again. So whatever things"
+  },
+  {
+    "start": 3225.78,
+    "duration": 5.1,
+    "text": "you are doing, you're doing it with the original value. Okay, so that's pretty much about it."
+  },
+  {
+    "start": 3230.88,
+    "duration": 3.44,
+    "text": "Just two rules, don't confuse yourself. If you initialize something in this block,"
+  },
+  {
+    "start": 3234.32,
+    "duration": 8.04,
+    "text": "it will be used in this block only. And basically, if something is already initialized outside,"
+  },
+  {
+    "start": 3242.36,
+    "duration": 4.32,
+    "text": "you can definitely update it, modify it, use it as well. And original one will be"
+  },
+  {
+    "start": 3246.68,
+    "duration": 4.56,
+    "text": "changed obviously, because original reference variable is being used."
+  },
+  {
+    "start": 3251.24,
+    "duration": 6.6,
+    "text": "Same goes for strings as well, you can say string name is equal to Kunal and here you"
+  },
+  {
+    "start": 3257.84,
+    "duration": 8.76,
+    "text": "say name is equal to Rahul, name is equal to Rahul and then when you print Rahul over"
+  },
+  {
+    "start": 3266.6,
+    "duration": 5.84,
+    "text": "here you can say print name over here, print name over here as well, both of these will"
+  },
+  {
+    "start": 3272.44,
+    "duration": 5.08,
+    "text": "be Rahul, very simple stuff, now we don't have any other variable, original value is"
+  },
+  {
+    "start": 3277.52,
+    "duration": 9.56,
+    "text": "only being used. Okay, so basically here it's just saying name is equal to Kunal and in the"
+  },
+  {
+    "start": 3287.08,
+    "duration": 6.88,
+    "text": "block. So basically it's just like, you know, name is equal to Kunal. And in the block, in"
+  },
+  {
+    "start": 3293.96,
+    "duration": 4.84,
+    "text": "the block, I'm using the same name reference variable. Did I create a new one? Did I say"
+  },
+  {
+    "start": 3298.8,
+    "duration": 5.04,
+    "text": "string name is equal to Kunal again or Rahul again? No, I use the original name. So I"
+  },
+  {
+    "start": 3303.84,
+    "duration": 11.45,
+    "text": "I just did name is equal to Rahul, name is equal to Rahul means Rahul original one is"
+  },
+  {
+    "start": 3315.29,
+    "duration": 1.0,
+    "text": "being changed."
+  },
+  {
+    "start": 3316.29,
+    "duration": 4.12,
+    "text": "This was original string initialized over here."
+  },
+  {
+    "start": 3320.41,
+    "duration": 7.48,
+    "text": "Okay, so hence when I even outside the loop, if I access it, if I say print name, it's"
+  },
+  {
+    "start": 3327.89,
+    "duration": 4.24,
+    "text": "going to say, okay, pointing to Rahul print Rahul."
+  },
+  {
+    "start": 3332.13,
+    "duration": 3.88,
+    "text": "Let's look into something else as well for loop also has its own scope."
+  },
+  {
+    "start": 3336.01,
+    "duration": 7.96,
+    "text": "So, let us say we take scoping in for loops, if I write a for loop like this, i is less"
+  },
+  {
+    "start": 3343.97,
+    "duration": 7.16,
+    "text": "than 4, i plus plus, print i or whatever, can I access this i outside of for loop, no"
+  },
+  {
+    "start": 3351.13,
+    "duration": 6.6,
+    "text": "I cannot, this i is only defined in the for loop, all the other numbers in num is equal"
+  },
+  {
+    "start": 3357.73,
+    "duration": 8.2,
+    "text": "to 90, int a is equal to 10, here it is saying that way is already defined in the"
+  },
+  {
+    "start": 3365.93,
+    "duration": 4.2,
+    "text": "scope, same reason that I gave for this, same reason for this."
+  },
+  {
+    "start": 3370.13,
+    "duration": 6.52,
+    "text": "Okay, so in short term, in short, whatever values are already defined in the scope of"
+  },
+  {
+    "start": 3376.65,
+    "duration": 7.27,
+    "text": "the function of the for loop or the block, you cannot initialize those again."
+  },
+  {
+    "start": 3383.92,
+    "duration": 5.4,
+    "text": "Outside this in this function scope, so basically in this function scope and outside this,"
+  },
+  {
+    "start": 3389.32,
+    "duration": 5.55,
+    "text": "anything that is initialized, you cannot initialize again over here."
+  },
+  {
+    "start": 3394.87,
+    "duration": 4.56,
+    "text": "Anything that is outside you can use inside, but anything that is initialized inside"
+  },
+  {
+    "start": 3399.43,
+    "duration": 7.04,
+    "text": "you cannot use outside. That's I believe the best example. Yeah, that's great. That is great."
+  },
+  {
+    "start": 3406.47,
+    "duration": 4.84,
+    "text": "Anything use anything initialized outside initialize means defining the new values in"
+  },
+  {
+    "start": 3411.31,
+    "duration": 4.14,
+    "text": "a into basically this adding this data type means initializing, okay, creating a new"
+  },
+  {
+    "start": 3415.45,
+    "duration": 7.62,
+    "text": "reference variable. So difference, understand the difference initializing updating initializing"
+  },
+  {
+    "start": 3423.07,
+    "duration": 5.44,
+    "text": "updating, okay, people who are forming notes write this down. So basically, anything"
+  },
+  {
+    "start": 3428.51,
+    "duration": 5.16,
+    "text": "that is initialized outside the block can be used inside the block, but anything that"
+  },
+  {
+    "start": 3433.67,
+    "duration": 5.8,
+    "text": "is initialized inside the block cannot be used outside. Similarly, anything that is"
+  },
+  {
+    "start": 3439.47,
+    "duration": 5.4,
+    "text": "initialized outside the block cannot be again initialized inside the block, but anything"
+  },
+  {
+    "start": 3444.87,
+    "duration": 4.56,
+    "text": "that is initialized inside the block can definitely be initialized again outside"
+  },
+  {
+    "start": 3449.43,
+    "duration": 8.38,
+    "text": "the box. I think that is very simple. Okay. I'll repeat it again. Anything initialized"
+  },
+  {
+    "start": 3457.81,
+    "duration": 5.36,
+    "text": "outside the box, you can definitely use it inside the box, it will be available inside"
+  },
+  {
+    "start": 3463.17,
+    "duration": 4.0,
+    "text": "the box, you can update it inside the box, original one will get updated because it will"
+  },
+  {
+    "start": 3467.17,
+    "duration": 4.56,
+    "text": "use the same reference variable, and you cannot really re-initialize in the box. Anything that"
+  },
+  {
+    "start": 3471.73,
+    "duration": 4.16,
+    "text": "is initialized inside a block of scope, you can definitely initialize it outside,"
+  },
+  {
+    "start": 3475.89,
+    "duration": 5.76,
+    "text": "but you cannot use it outside. Okay, this will only be available over here. Since outside"
+  },
+  {
+    "start": 3481.65,
+    "duration": 4.24,
+    "text": "this block it does not know that C exists over here, hence it can re-initialize it over"
+  },
+  {
+    "start": 3485.89,
+    "duration": 6.52,
+    "text": "here. Okay, same thing for for loop. In for loop, it's saying anything that is initialized"
+  },
+  {
+    "start": 3492.41,
+    "duration": 3.8,
+    "text": "outside the block can be used inside the blocks means inside this block, it can be used. It"
+  },
+  {
+    "start": 3496.21,
+    "duration": 3.84,
+    "text": "knows outside there is an a so you cannot really utilize this again, but you can definitely"
+  },
+  {
+    "start": 3500.05,
+    "duration": 7.04,
+    "text": "change it inside the for loop. Okay, if I say a is equal to 10,000. Obviously, changing"
+  },
+  {
+    "start": 3507.09,
+    "duration": 3.68,
+    "text": "the original value, changing the original value, I'm not saying int a is equal to"
+  },
+  {
+    "start": 3510.77,
+    "duration": 3.32,
+    "text": "10,000 or something like in the previous examples, I was saying, you know, in"
+  },
+  {
+    "start": 3514.09,
+    "duration": 6.48,
+    "text": "previous examples this is int this is int int being made again and again here it's not made"
+  },
+  {
+    "start": 3520.57,
+    "duration": 5.04,
+    "text": "again and again it's changing the original one try to print a it will print one thousand"
+  },
+  {
+    "start": 3525.61,
+    "duration": 10.24,
+    "text": "ten thousand or whatever ten thousand okay so I mentioned the point again and again initially"
+  },
+  {
+    "start": 3535.85,
+    "duration": 4.76,
+    "text": "initialized outside the you know outside any scope you can definitely use it inside it"
+  },
+  {
+    "start": 3540.61,
+    "duration": 5.24,
+    "text": "but you cannot re-initialize it inside anything that is re-initialized like inside it can"
+  },
+  {
+    "start": 3545.85,
+    "duration": 3.32,
+    "text": "and definitely it cannot be used outside. Hence you can do anything you want with it"
+  },
+  {
+    "start": 3549.17,
+    "duration": 5.6,
+    "text": "outside. Initialize it again or whatever because scope of this C will end after this thing"
+  },
+  {
+    "start": 3554.77,
+    "duration": 6.08,
+    "text": "after line number 16, no one will know that C exists. C will only exist in line number"
+  },
+  {
+    "start": 3560.85,
+    "duration": 5.72,
+    "text": "between line number 8 and 16. Anything initialized in this block will remain in this block."
+  },
+  {
+    "start": 3566.57,
+    "duration": 4.52,
+    "text": "Similarly, for loop in for loop, anything initialized inside the for loop will remain"
+  },
+  {
+    "start": 3571.09,
+    "duration": 4.92,
+    "text": "in the for loop only. For example, num, for example, I cannot use those outside cannot"
+  },
+  {
+    "start": 3576.01,
+    "duration": 8.44,
+    "text": "use this over here. Okay, so that makes sense. Cool. So that is pretty simple stuff. Now"
+  },
+  {
+    "start": 3584.45,
+    "duration": 13.44,
+    "text": "let's look into shadowing. What does we what do we mean by shadowing? Oops, new class public"
+  },
+  {
+    "start": 3597.89,
+    "duration": 7.76,
+    "text": "static void mean, let's say I say something like if we create a if we create a variable"
+  },
+  {
+    "start": 3605.65,
+    "duration": 8.2,
+    "text": "that is, let's say, you know, outside the, outside the, you know, in the higher level"
+  },
+  {
+    "start": 3613.85,
+    "duration": 1.0,
+    "text": "of the scope."
+  },
+  {
+    "start": 3614.85,
+    "duration": 4.48,
+    "text": "So basically function has its own scope and blocks have its own scope for loop have the"
+  },
+  {
+    "start": 3619.33,
+    "duration": 3.32,
+    "text": "own scope, you know, other functions may have the own scope."
+  },
+  {
+    "start": 3622.65,
+    "duration": 7.03,
+    "text": "But what if you define the variable over here, this will also have its own scope."
+  },
+  {
+    "start": 3629.68,
+    "duration": 5.88,
+    "text": "This scope will be available to everything inside this scope, see very simple."
+  },
+  {
+    "start": 3635.56,
+    "duration": 5.0,
+    "text": "you initialize something over here, it will be available to everything that is in this"
+  },
+  {
+    "start": 3640.56,
+    "duration": 6.96,
+    "text": "block of this. So it is initialized over here. So A is going to be available to everything"
+  },
+  {
+    "start": 3647.52,
+    "duration": 6.12,
+    "text": "that is inside the block of A. Similarly, x is going to be available to everything"
+  },
+  {
+    "start": 3653.64,
+    "duration": 5.2,
+    "text": "that is inside the block of x, this yellow thing that I have highlighted. Okay. And"
+  },
+  {
+    "start": 3658.84,
+    "duration": 3.68,
+    "text": "since I mentioned it previously, in order to use anything, you have to have it in"
+  },
+  {
+    "start": 3662.52,
+    "duration": 3.6,
+    "text": "order to use anything in static, you have to have it static. So that's why I'm putting"
+  },
+  {
+    "start": 3666.12,
+    "duration": 3.12,
+    "text": "static over here. Why we are doing this and everything we'll learn into, we'll learn in"
+  },
+  {
+    "start": 3669.24,
+    "duration": 4.04,
+    "text": "object 20 programming. Basically, the idea is that you don't want static status basically"
+  },
+  {
+    "start": 3673.28,
+    "duration": 6.2,
+    "text": "object independent. So you cannot use object dependent things in object independent things."
+  },
+  {
+    "start": 3679.48,
+    "duration": 3.2,
+    "text": "That is the reason we are adding static over here. Very simple explanation. Don't"
+  },
+  {
+    "start": 3682.68,
+    "duration": 3.6,
+    "text": "think much about it. Much more clearer. It will be and we'll actually making entire"
+  },
+  {
+    "start": 3686.28,
+    "duration": 5.0,
+    "text": "classes to explain what static is. For now, just imagine you have to put anything,"
+  },
+  {
+    "start": 3691.28,
+    "duration": 3.8,
+    "text": "that you're using inside the main function, you have to make it a static, just understand"
+  },
+  {
+    "start": 3695.08,
+    "duration": 4.0,
+    "text": "this right now. Why we are doing it, we'll do it in object-oriented programming. Okay,"
+  },
+  {
+    "start": 3699.08,
+    "duration": 4.78,
+    "text": "so similarly, A was available everything inside the block of A, X will be available everything"
+  },
+  {
+    "start": 3703.86,
+    "duration": 7.5,
+    "text": "inside the block of X. I can do print X over here. Okay, here if I create static"
+  },
+  {
+    "start": 3711.36,
+    "duration": 10.94,
+    "text": "void pun print X over here not giving me any error, not giving me any error. Okay,"
+  },
+  {
+    "start": 3722.3,
+    "duration": 5.16,
+    "text": "I can add some value to this as well, 90 for example, I can a value of 90, this is going"
+  },
+  {
+    "start": 3727.46,
+    "duration": 6.26,
+    "text": "to print 90, if I call fun, this is going to print 90, 90, 90."
+  },
+  {
+    "start": 3733.72,
+    "duration": 1.9,
+    "text": "So what is shadowing in Java?"
+  },
+  {
+    "start": 3735.62,
+    "duration": 6.76,
+    "text": "So shadowing is basically, for example, if you have int x over here, okay, int x"
+  },
+  {
+    "start": 3742.38,
+    "duration": 1.64,
+    "text": "is equal to 90."
+  },
+  {
+    "start": 3744.02,
+    "duration": 6.68,
+    "text": "So shadowing in Java is basically a practice of using two variables with the same name"
+  },
+  {
+    "start": 3750.7,
+    "duration": 6.58,
+    "text": "within the scope that overlaps. So this X variable has a scope of this entire block everywhere"
+  },
+  {
+    "start": 3757.28,
+    "duration": 7.83,
+    "text": "over here you can use X. What if I create another X over here and I give this X a value"
+  },
+  {
+    "start": 3765.11,
+    "duration": 10.58,
+    "text": "of let's say X is equal to index is equal to let's say 40 and here I print X again."
+  },
+  {
+    "start": 3775.69,
+    "duration": 3.32,
+    "text": "So this is going to basically print 90."
+  },
+  {
+    "start": 3779.01,
+    "duration": 3.68,
+    "text": "This is now going to print 40."
+  },
+  {
+    "start": 3782.69,
+    "duration": 2.0,
+    "text": "Someone just made a PR."
+  },
+  {
+    "start": 3784.69,
+    "duration": 1.0,
+    "text": "Nice."
+  },
+  {
+    "start": 3785.69,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 3786.69,
+    "duration": 1.94,
+    "text": "This is going to print 90."
+  },
+  {
+    "start": 3788.63,
+    "duration": 1.78,
+    "text": "This is going to print 40."
+  },
+  {
+    "start": 3790.41,
+    "duration": 4.8,
+    "text": "So basically when you add a another variable in the scope that overlaps because this"
+  },
+  {
+    "start": 3795.21,
+    "duration": 1.9,
+    "text": "is going to have a scope of this."
+  },
+  {
+    "start": 3797.11,
+    "duration": 1.54,
+    "text": "This is going to have a scope of this."
+  },
+  {
+    "start": 3798.65,
+    "duration": 6.08,
+    "text": "So this scope is overlapping for this and this, the higher level scope, the variable"
+  },
+  {
+    "start": 3804.73,
+    "duration": 6.74,
+    "text": "with the higher level scope is hidden. So when you access X again, it is actually going"
+  },
+  {
+    "start": 3811.47,
+    "duration": 10.58,
+    "text": "to print this X and not this X. This will be shadowed at line eight. This is known as"
+  },
+  {
+    "start": 3822.05,
+    "duration": 8.56,
+    "text": "shadowing because the lower level is overriding the upper level. So higher level is shadowed."
+  },
+  {
+    "start": 3830.61,
+    "duration": 9.72,
+    "text": "print this it should print 90 40 90 90 40 90 this is taking the original one then I introduce"
+  },
+  {
+    "start": 3840.33,
+    "duration": 5.76,
+    "text": "the local scope then it's printing the local scope then it's calling fun since this only"
+  },
+  {
+    "start": 3846.09,
+    "duration": 6.72,
+    "text": "is available in this block this x is going to be available for this x this x is basically"
+  },
+  {
+    "start": 3852.81,
+    "duration": 4.88,
+    "text": "this x obviously we know it by now this is going to be in this scope only okay so"
+  },
+  {
+    "start": 3857.69,
+    "duration": 3.64,
+    "text": "So this is known as shadowing cool."
+  },
+  {
+    "start": 3861.33,
+    "duration": 4.52,
+    "text": "So basically this is printing the value of the class variable X, which is this one."
+  },
+  {
+    "start": 3865.85,
+    "duration": 5.5,
+    "text": "And this is basically, you know, the class variable is known as the class variable."
+  },
+  {
+    "start": 3871.35,
+    "duration": 7.1,
+    "text": "The class variable at line 4 is shadowed by this."
+  },
+  {
+    "start": 3878.45,
+    "duration": 4.88,
+    "text": "Now whatever value of X you print or do over here, modify print or whatever, it is"
+  },
+  {
+    "start": 3883.33,
+    "duration": 3.63,
+    "text": "going to modify this only."
+  },
+  {
+    "start": 3886.96,
+    "duration": 1.2,
+    "text": "Okay."
+  },
+  {
+    "start": 3888.16,
+    "duration": 3.8,
+    "text": "important point I want to share is about the scope of this. So let's say I add it over"
+  },
+  {
+    "start": 3891.96,
+    "duration": 11.36,
+    "text": "here, like initialize it over here, but I actually like, you know, declare like I declare it over"
+  },
+  {
+    "start": 3903.32,
+    "duration": 5.0,
+    "text": "here, but I like actually initialize it over here, for example. Okay, so let's say I'm"
+  },
+  {
+    "start": 3908.32,
+    "duration": 4.16,
+    "text": "doing it something like this, I'm declaring the variable over here, and I initialize"
+  },
+  {
+    "start": 3912.48,
+    "duration": 5.64,
+    "text": "it over here, then this is known as declaring this is known as initializing. Okay, previously"
+  },
+  {
+    "start": 3918.12,
+    "duration": 5.24,
+    "text": "I might have said that, you know, in initializing like variables over here. So that's not true."
+  },
+  {
+    "start": 3923.36,
+    "duration": 4.4,
+    "text": "This is known as declaring and this is known as initializing. So I've declared it over"
+  },
+  {
+    "start": 3927.76,
+    "duration": 5.0,
+    "text": "here and I've initialized it over here. The scope of this local variable that shadows"
+  },
+  {
+    "start": 3932.76,
+    "duration": 6.84,
+    "text": "the class variable is not beginning at the point where this local scope begins."
+  },
+  {
+    "start": 3939.6,
+    "duration": 5.4,
+    "text": "The shadowing begins actually when the local variable is declared. So if you try to"
+  },
+  {
+    "start": 3945.0,
+    "duration": 8.2,
+    "text": "to access it over here, it will give an error, it is saying variable X might not have been"
+  },
+  {
+    "start": 3953.2,
+    "duration": 6.96,
+    "text": "initialized saying your initializing does not happen, you have to initialize it first"
+  },
+  {
+    "start": 3960.16,
+    "duration": 2.2,
+    "text": "then use it."
+  },
+  {
+    "start": 3962.36,
+    "duration": 8.64,
+    "text": "So scope actually, scope will actually begin when the value is initialized, scope will"
+  },
+  {
+    "start": 3971.0,
+    "duration": 10.48,
+    "text": "begin when value is initialized. If you attempt to access the value between the declaration"
+  },
+  {
+    "start": 3981.48,
+    "duration": 14.85,
+    "text": "and the initialization, it will give an error. Very simple stuff. That was it about shadowing."
+  },
+  {
+    "start": 3996.33,
+    "duration": 6.5,
+    "text": "Cool. Shadowing effect does not take place in methods. So, in methods, it does not"
+  },
+  {
+    "start": 4002.83,
+    "duration": 3.74,
+    "text": "work that way if you just do it in methods, but this is for like class variables, so"
+  },
+  {
+    "start": 4006.57,
+    "duration": 6.48,
+    "text": "working for that. Alright, that was it I believe about scoping we did a lot of details and everything"
+  },
+  {
+    "start": 4013.05,
+    "duration": 5.84,
+    "text": "and now let's look into something else known as variable length arguments. So what are variable"
+  },
+  {
+    "start": 4018.89,
+    "duration": 7.44,
+    "text": "length arguments? Let me create a Java class called var args or something like that. So variable"
+  },
+  {
+    "start": 4026.33,
+    "duration": 4.64,
+    "text": "length arguments is basically when you create a method that takes a variable number of arguments"
+  },
+  {
+    "start": 4030.97,
+    "duration": 6.52,
+    "text": "it is known as variable, you know, variable argument. So basically, what do we mean by"
+  },
+  {
+    "start": 4037.49,
+    "duration": 3.96,
+    "text": "it's known as basically a var args method. So basically, what do we mean by var args?"
+  },
+  {
+    "start": 4041.45,
+    "duration": 4.64,
+    "text": "What do we mean by variable length arguments? When we do not know how many inputs we are"
+  },
+  {
+    "start": 4046.09,
+    "duration": 8.0,
+    "text": "giving? Okay, for example, something like this, public, or like just, you know, static,"
+  },
+  {
+    "start": 4054.09,
+    "duration": 9.19,
+    "text": "void, pun, I'm going to pass, let's say few integers over here. So if you want to pass"
+  },
+  {
+    "start": 4063.28,
+    "duration": 4.8,
+    "text": "some integers, you do not know how many integers you are passing, you just do dot dot dot v"
+  },
+  {
+    "start": 4068.08,
+    "duration": 8.86,
+    "text": "or whatever, whatever name you want to give, I'm giving v. This internally it's taking"
+  },
+  {
+    "start": 4076.94,
+    "duration": 4.8,
+    "text": "it as an array of integers. Array is just a collection of integers. If you do it"
+  },
+  {
+    "start": 4081.74,
+    "duration": 5.84,
+    "text": "like string, it will take an array of string. If you do it like care, it will take a care"
+  },
+  {
+    "start": 4087.58,
+    "duration": 4.48,
+    "text": "of care. So basically, what I'm trying to do over here is that you can do it something"
+  },
+  {
+    "start": 4092.06,
+    "duration": 8.48,
+    "text": "like this, you can do something like, you know, if I try to print this, I can say print,"
+  },
+  {
+    "start": 4100.54,
+    "duration": 4.2,
+    "text": "you know, arrays dot two string, we did it previously, I'll explain more about"
+  },
+  {
+    "start": 4104.74,
+    "duration": 6.64,
+    "text": "it when we do arrays V. Let's try to run this function, I can say function is taking"
+  },
+  {
+    "start": 4111.38,
+    "duration": 9.24,
+    "text": "variable length argument so I can pass you know any number of arguments I want that is"
+  },
+  {
+    "start": 4120.62,
+    "duration": 5.16,
+    "text": "the beauty of variable length arguments in the some example and whatever we were taking"
+  },
+  {
+    "start": 4125.78,
+    "duration": 5.04,
+    "text": "two arguments here it's saying you can took any number of arguments run this it will print"
+  },
+  {
+    "start": 4130.82,
+    "duration": 7.36,
+    "text": "all of these and it will will internally store it in an array."
+  },
+  {
+    "start": 4138.18,
+    "duration": 5.4,
+    "text": "These are known as variable length arguments length is not constant it varies towards the"
+  },
+  {
+    "start": 4143.58,
+    "duration": 3.64,
+    "text": "of input that you will be providing. If I write string over here, it will give like,"
+  },
+  {
+    "start": 4147.22,
+    "duration": 4.48,
+    "text": "you know, error, like, hey, it is asking for strings, you are giving numbers. That's why"
+  },
+  {
+    "start": 4151.7,
+    "duration": 8.24,
+    "text": "giving giving an error. Okay, cool. So basically, the syntax is telling the compiler that this"
+  },
+  {
+    "start": 4159.94,
+    "duration": 5.32,
+    "text": "can be called this function fun can be called via more than zero arguments, zero or more"
+  },
+  {
+    "start": 4165.26,
+    "duration": 5.64,
+    "text": "than zero arguments. This will also work. This will be an empty list empty array."
+  },
+  {
+    "start": 4170.9,
+    "duration": 6.08,
+    "text": "Okay. So as a result, V is like, you know, it's implicitly declared as an array of type"
+  },
+  {
+    "start": 4176.98,
+    "duration": 5.28,
+    "text": "int. If I write string over here, it will be declared as an array of type string. So we'll"
+  },
+  {
+    "start": 4182.26,
+    "duration": 3.92,
+    "text": "look more into array is just like collection of, you know, characters and stuff will look"
+  },
+  {
+    "start": 4186.18,
+    "duration": 5.12,
+    "text": "more into it later on when we do it. But currently that's, that is pretty much about"
+  },
+  {
+    "start": 4191.3,
+    "duration": 11.29,
+    "text": "it. Cool. Alrighty. Another thing that I want to share over here is that what"
+  },
+  {
+    "start": 4202.59,
+    "duration": 5.36,
+    "text": "What if you want to have a mix, a mix of arguments, so basically you want to have normal arguments"
+  },
+  {
+    "start": 4207.95,
+    "duration": 3.04,
+    "text": "as well and keyword arguments as well."
+  },
+  {
+    "start": 4210.99,
+    "duration": 11.28,
+    "text": "So basically in that case, you can do something like static void, multiple arguments for example"
+  },
+  {
+    "start": 4222.27,
+    "duration": 5.12,
+    "text": "you can add int A, int B and then you can add something like int variable number of"
+  },
+  {
+    "start": 4227.39,
+    "duration": 8.85,
+    "text": "arguments. Okay, that is also totally possible. If you want to call this, you're basically"
+  },
+  {
+    "start": 4236.24,
+    "duration": 6.72,
+    "text": "going to do something like this, multiple, I can add, if I add some, let's say string"
+  },
+  {
+    "start": 4242.96,
+    "duration": 6.76,
+    "text": "over here. Okay, so I can say multiple 2 comma 3 comma, after that it's going to take strings."
+  },
+  {
+    "start": 4249.72,
+    "duration": 5.08,
+    "text": "So always note this order, if I'm saying a first, a should come first, b first, b should"
+  },
+  {
+    "start": 4254.8,
+    "duration": 8.64,
+    "text": "come first strings after that strings after this strings are variable length arguments"
+  },
+  {
+    "start": 4263.44,
+    "duration": 9.56,
+    "text": "here in this case I can add anything I like random if I remove this it will give error"
+  },
+  {
+    "start": 4273.0,
+    "duration": 5.12,
+    "text": "it's saying a should be integer a is integer b should be integer it's taking this as it"
+  },
+  {
+    "start": 4278.12,
+    "duration": 8.8,
+    "text": "as a b argument so you cannot skip anything like this okay this is very important the"
+  },
+  {
+    "start": 4286.92,
+    "duration": 4.56,
+    "text": "ordering, you cannot skip stuff like this. All right, you can also, you cannot also do"
+  },
+  {
+    "start": 4291.48,
+    "duration": 5.2,
+    "text": "something. Let's try something like this. Let's say in between I insert variable length"
+  },
+  {
+    "start": 4296.68,
+    "duration": 4.12,
+    "text": "arguments that is also not allowed. Error is giving this a variable argument parameter"
+  },
+  {
+    "start": 4300.8,
+    "duration": 5.92,
+    "text": "must be the last in this list. Why? Because how would I know if this was integer? Okay,"
+  },
+  {
+    "start": 4306.72,
+    "duration": 5.0,
+    "text": "how would I know that when is B coming in? Because this can contain any number"
+  },
+  {
+    "start": 4311.72,
+    "duration": 6.96,
+    "text": "of arguments, how would I know when I should start for b? How would I know that? Hence"
+  },
+  {
+    "start": 4318.68,
+    "duration": 5.08,
+    "text": "this is another rule, this should always come at the end. Variable length arguments always"
+  },
+  {
+    "start": 4323.76,
+    "duration": 6.88,
+    "text": "at the end. Let me tell you a little bit more about you know another concept that is known"
+  },
+  {
+    "start": 4330.64,
+    "duration": 9.27,
+    "text": "as function overloading. Okay, function overloading. What does it mean? Imagine you have two"
+  },
+  {
+    "start": 4339.91,
+    "duration": 9.64,
+    "text": "two functions of the same name, static void function and another function you have of"
+  },
+  {
+    "start": 4349.55,
+    "duration": 4.84,
+    "text": "the same name."
+  },
+  {
+    "start": 4354.39,
+    "duration": 3.68,
+    "text": "It does not matter if like the you know the return type is changed or whatever."
+  },
+  {
+    "start": 4358.07,
+    "duration": 5.76,
+    "text": "Function loading basically happens two or more functions of the same name, they can"
+  },
+  {
+    "start": 4363.83,
+    "duration": 6.36,
+    "text": "exist if the parameters are different. Here if I am writing int a and here I am writing"
+  },
+  {
+    "start": 4370.19,
+    "duration": 9.13,
+    "text": "let us say string name the errors are gone. And when I am actually calling the function"
+  },
+  {
+    "start": 4379.32,
+    "duration": 5.6,
+    "text": "here, I am saying call the function with a with a number then it is going to call"
+  },
+  {
+    "start": 4384.92,
+    "duration": 11.41,
+    "text": "this function. When I am saying call the function with a string then it is going"
+  },
+  {
+    "start": 4396.33,
+    "duration": 7.28,
+    "text": "to call this function, how is it determining which function to call?"
+  },
+  {
+    "start": 4403.61,
+    "duration": 6.12,
+    "text": "This is known as function overloading when two or more functions have the same name, same"
+  },
+  {
+    "start": 4409.73,
+    "duration": 5.92,
+    "text": "like return type and stuff, but different arguments, it can even be like same number"
+  },
+  {
+    "start": 4415.65,
+    "duration": 9.07,
+    "text": "of arguments, but sorry, same type of argument, but different arguments that also works."
+  },
+  {
+    "start": 4424.72,
+    "duration": 4.6,
+    "text": "But this thing inside the bracket should be different for every function name then can"
+  },
+  {
+    "start": 4429.32,
+    "duration": 5.08,
+    "text": "be same and how is the function actually determining how is my program determining which function"
+  },
+  {
+    "start": 4434.4,
+    "duration": 2.76,
+    "text": "to run let's look into that."
+  },
+  {
+    "start": 4437.16,
+    "duration": 5.04,
+    "text": "Okay, so basically to sum up that when is this happening?"
+  },
+  {
+    "start": 4442.2,
+    "duration": 3.36,
+    "text": "So this actually happens when your program gets compiled."
+  },
+  {
+    "start": 4445.56,
+    "duration": 4.4,
+    "text": "So when this will be compiled, it will be like, oh, it's actually taking an integer"
+  },
+  {
+    "start": 4449.96,
+    "duration": 4.88,
+    "text": "which function method that names, which function that is called fun takes integer, it's gonna"
+  },
+  {
+    "start": 4454.84,
+    "duration": 5.08,
+    "text": "be like this one. So at compile time, it's going to decide which function to run. This"
+  },
+  {
+    "start": 4459.92,
+    "duration": 5.24,
+    "text": "happens at compile time, function overloading at compile time, it decides which function"
+  },
+  {
+    "start": 4465.16,
+    "duration": 4.6,
+    "text": "to run function overriding is something we look into object 20 programming, which"
+  },
+  {
+    "start": 4469.76,
+    "duration": 4.88,
+    "text": "happens at runtime. Okay, but for now, this is function overloading to two things"
+  },
+  {
+    "start": 4474.64,
+    "duration": 3.84,
+    "text": "you need to consider in order to have the same name, either the number of arguments"
+  },
+  {
+    "start": 4478.48,
+    "duration": 5.08,
+    "text": "should be different, or the type of arguments should be different. If number of argument"
+  },
+  {
+    "start": 4483.56,
+    "duration": 7.16,
+    "text": "is same, there are two ways to provide function overloading. All right, in shadow in sorry,"
+  },
+  {
+    "start": 4490.72,
+    "duration": 5.32,
+    "text": "in var arcs, there might be something like this. So there might be something like if"
+  },
+  {
+    "start": 4496.04,
+    "duration": 4.8,
+    "text": "you're providing function overloading over here. So basically, let me run this program."
+  },
+  {
+    "start": 4500.84,
+    "duration": 5.44,
+    "text": "So here I'm saying let's say, first one, and here I'm saying something like let's"
+  },
+  {
+    "start": 4506.28,
+    "duration": 11.8,
+    "text": "say, second one, first one will run because I'm passing integer. Okay, first one, print"
+  },
+  {
+    "start": 4518.08,
+    "duration": 5.44,
+    "text": "the integer. If I if I run this one, then second one will run. It will say it will say second"
+  },
+  {
+    "start": 4523.52,
+    "duration": 4.2,
+    "text": "one, Kunal kushwa. This will not run. It's also not highlighted because it's not running"
+  },
+  {
+    "start": 4527.72,
+    "duration": 8.96,
+    "text": "right now. Okay, very cool stuff, function overloading, very simple. And you can do"
+  },
+  {
+    "start": 4536.68,
+    "duration": 7.88,
+    "text": "much more things with it, you can say static void sum, you can say something like let us"
+  },
+  {
+    "start": 4544.56,
+    "duration": 7.42,
+    "text": "say sum of two numbers int a and int b. So, you can say return a plus b and then you can"
+  },
+  {
+    "start": 4551.98,
+    "duration": 4.7,
+    "text": "have the same thing sorry it is going to be returning an integer, you can have the"
+  },
+  {
+    "start": 4556.68,
+    "duration": 12.36,
+    "text": "same thing like this in C, A plus B plus C. So, when I am doing function call for B and"
+  },
+  {
+    "start": 4569.04,
+    "duration": 5.88,
+    "text": "4, it is actually going to run this one, not the function called someone, it is going to"
+  },
+  {
+    "start": 4574.92,
+    "duration": 10.45,
+    "text": "run this one, it is going to print 7. Actually, I have to print this in answer is equal to"
+  },
+  {
+    "start": 4585.37,
+    "duration": 11.73,
+    "text": "this print answer, it's going to print 7. If I add one more over here, then it's printing,"
+  },
+  {
+    "start": 4597.1,
+    "duration": 7.06,
+    "text": "then it's going to run this one. If I add one more over here, it will give error. It's"
+  },
+  {
+    "start": 4604.16,
+    "duration": 4.4,
+    "text": "going to be like, which sum function, which function called sum takes four arguments?"
+  },
+  {
+    "start": 4608.56,
+    "duration": 6.76,
+    "text": "It's going to be like, there is no sum function that takes four arguments error."
+  },
+  {
+    "start": 4615.32,
+    "duration": 3.4,
+    "text": "In var arcs, imagine something like this."
+  },
+  {
+    "start": 4618.72,
+    "duration": 10.28,
+    "text": "Imagine that you have something like static fun, you have something like static void fun,"
+  },
+  {
+    "start": 4629.0,
+    "duration": 8.65,
+    "text": "you have something like int var arc, and let's say in the next one, you have, is it already"
+  },
+  {
+    "start": 4637.65,
+    "duration": 1.0,
+    "text": "being created?"
+  },
+  {
+    "start": 4638.65,
+    "duration": 1.0,
+    "text": "Yeah, it's already been created."
+  },
+  {
+    "start": 4639.65,
+    "duration": 4.91,
+    "text": "So I can say demo, okay."
+  },
+  {
+    "start": 4644.56,
+    "duration": 6.06,
+    "text": "And the demo next one can be of, let's say type string, okay, so if you pass"
+  },
+  {
+    "start": 4650.62,
+    "duration": 12.5,
+    "text": "like something like you can say s out arrays dot two string v just printing."
+  },
+  {
+    "start": 4663.12,
+    "duration": 16.33,
+    "text": "So, if you call demo with the numbers it is going to do this one basically in IntelliJ"
+  },
+  {
+    "start": 4679.45,
+    "duration": 4.4,
+    "text": "if any one of the files have errors so basically I showed you an error purposely in the previous"
+  },
+  {
+    "start": 4683.85,
+    "duration": 6.87,
+    "text": "example so the file will not run so no worries can run it again now so it is printing the"
+  },
+  {
+    "start": 4690.72,
+    "duration": 9.72,
+    "text": "numbers numbers and if I convert this into strings null comma Rahul in that case it's"
+  },
+  {
+    "start": 4700.44,
+    "duration": 4.44,
+    "text": "going to print this one you can see this is now unhighlighted means it's not being used"
+  },
+  {
+    "start": 4704.88,
+    "duration": 4.54,
+    "text": "so it will now print this one."
+  },
+  {
+    "start": 4709.42,
+    "duration": 3.44,
+    "text": "What if I don't add anything over here?"
+  },
+  {
+    "start": 4712.86,
+    "duration": 6.44,
+    "text": "If I don't add anything is it going to run this one or this one error this is known"
+  },
+  {
+    "start": 4719.3,
+    "duration": 5.74,
+    "text": "as ambiguity, okay, because the where our parameter, it cannot be empty in this case"
+  },
+  {
+    "start": 4725.04,
+    "duration": 4.7,
+    "text": "because the at compile time it won't it will not be able to decide if it's over, you know,"
+  },
+  {
+    "start": 4729.74,
+    "duration": 3.38,
+    "text": "the function is overloading it will not be able to decide here you have not provided"
+  },
+  {
+    "start": 4733.12,
+    "duration": 4.52,
+    "text": "any data do I run this one or do I run this one, when you were providing integers I knew"
+  },
+  {
+    "start": 4737.64,
+    "duration": 3.64,
+    "text": "I had to run this one, when you were providing strings I had I knew I had to run this"
+  },
+  {
+    "start": 4741.28,
+    "duration": 5.56,
+    "text": "one, if I'm not providing anything which one do I run error, so cannot be duplicate"
+  },
+  {
+    "start": 4746.84,
+    "duration": 8.08,
+    "text": "in terms of overriding var x, it cannot be sorry it cannot be empty when you are overriding"
+  },
+  {
+    "start": 4754.92,
+    "duration": 7.92,
+    "text": "var x, it will not know which one to run that is why it cannot be empty, I hope that makes"
+  },
+  {
+    "start": 4762.84,
+    "duration": 1.0,
+    "text": "sense."
+  },
+  {
+    "start": 4763.84,
+    "duration": 4.48,
+    "text": "All right, now let us do a few questions over here, so for example, let us say we can"
+  },
+  {
+    "start": 4768.32,
+    "duration": 5.32,
+    "text": "say another class called questions, public static void main, we can do the prime one,"
+  },
+  {
+    "start": 4773.64,
+    "duration": 5.48,
+    "text": "So I can take the number scanner input is equal to we have already done this one like"
+  },
+  {
+    "start": 4779.12,
+    "duration": 4.88,
+    "text": "in the previous lectures, but now we're going to do everything in methods and functions."
+  },
+  {
+    "start": 4784.0,
+    "duration": 5.12,
+    "text": "So instead of writing the code in main, we're actually going to write a code in the separate"
+  },
+  {
+    "start": 4789.12,
+    "duration": 1.0,
+    "text": "functions and methods."
+  },
+  {
+    "start": 4790.12,
+    "duration": 9.52,
+    "text": "So I can say system dot in, and then I can say int n is equal to in dot next int."
+  },
+  {
+    "start": 4799.64,
+    "duration": 2.0,
+    "text": "And then I'm going to print, I'm going to create another function."
+  },
+  {
+    "start": 4801.64,
+    "duration": 7.96,
+    "text": "can say static, I'm going to print true or false, whether it's prime or not, I can say"
+  },
+  {
+    "start": 4809.6,
+    "duration": 8.0,
+    "text": "is prime, my number n. So here, I'm just going to print is prime, the number n. So it's going"
+  },
+  {
+    "start": 4817.6,
+    "duration": 6.48,
+    "text": "to either print me true or false. So if you want to look at the algorithm we're using"
+  },
+  {
+    "start": 4824.08,
+    "duration": 4.24,
+    "text": "over here, you can check out the initial videos, the flow chart one, and the pseudo"
+  },
+  {
+    "start": 4828.32,
+    "duration": 4.16,
+    "text": "code and flow chart like the introduction to, you know, conditionals and stuff over there"
+  },
+  {
+    "start": 4832.48,
+    "duration": 4.5,
+    "text": "we discussed in detail how the square root method is like how we're only checking till"
+  },
+  {
+    "start": 4836.98,
+    "duration": 3.76,
+    "text": "the square root and stuff we did an entire explanation on that also created a flow chart"
+  },
+  {
+    "start": 4840.74,
+    "duration": 5.92,
+    "text": "and now we're going to be coding this. So basically if n is less than equal to 1,"
+  },
+  {
+    "start": 4846.66,
+    "duration": 8.4,
+    "text": "I can return false oops, it's actually n. And otherwise I'm going to start dividing"
+  },
+  {
+    "start": 4855.06,
+    "duration": 6.4,
+    "text": "from 2, while c stars c is less than equal to n, I am going to start dividing, I am going"
+  },
+  {
+    "start": 4861.46,
+    "duration": 8.32,
+    "text": "to say hey, if this number divides n, means if the remainder is equal to 0, means it is"
+  },
+  {
+    "start": 4869.78,
+    "duration": 8.2,
+    "text": "not prime. Otherwise just check and you all know I mentioned it earlier, return basically"
+  },
+  {
+    "start": 4877.98,
+    "duration": 5.24,
+    "text": "means program over. So, whenever this condition is hit, while loop will not execute after"
+  },
+  {
+    "start": 4883.22,
+    "duration": 4.88,
+    "text": "that it will just be over it will return false this value will be false it will print false"
+  },
+  {
+    "start": 4888.1,
+    "duration": 5.88,
+    "text": "okay I could have done something like this as well store this in another answer boolean"
+  },
+  {
+    "start": 4893.98,
+    "duration": 8.7,
+    "text": "answer is equal to this print answer same thing but just to make things clear just"
+  },
+  {
+    "start": 4902.68,
+    "duration": 6.04,
+    "text": "to make things like you know less code I just wrote it directly over here instead"
+  },
+  {
+    "start": 4908.72,
+    "duration": 6.52,
+    "text": "of storing in any variable. Otherwise, I can just say if C star C, like the square of C"
+  },
+  {
+    "start": 4915.24,
+    "duration": 8.8,
+    "text": "is greater than N, you can just say, you know, return true. Otherwise, you can say return"
+  },
+  {
+    "start": 4924.04,
+    "duration": 4.6,
+    "text": "false over here, notice it's giving a highlight again, I can do all 10 to it will simplify"
+  },
+  {
+    "start": 4928.64,
+    "duration": 6.64,
+    "text": "it basically. So basically saying if C stars return C stars three greater than N. So that"
+  },
+  {
+    "start": 4935.28,
+    "duration": 4.0,
+    "text": "what we were doing before. If this was greater than n, I was returning true. Otherwise I was"
+  },
+  {
+    "start": 4939.28,
+    "duration": 5.88,
+    "text": "returning false. If this is true, return true, otherwise return false. Can't we just return"
+  },
+  {
+    "start": 4945.16,
+    "duration": 5.56,
+    "text": "this then? Because this thing that I have highlighted with will either be true or false."
+  },
+  {
+    "start": 4950.72,
+    "duration": 3.96,
+    "text": "So if I directly return this, either true will be returned or false will be returned."
+  },
+  {
+    "start": 4954.68,
+    "duration": 6.21,
+    "text": "That is what we're doing this directly returning it return. Whatever the answer of this"
+  },
+  {
+    "start": 4960.89,
+    "duration": 5.36,
+    "text": "expression is if c starts t is greater than n it will return true otherwise it will turn"
+  },
+  {
+    "start": 4966.25,
+    "duration": 19.03,
+    "text": "false that's it try to run this not prime 2 is prime 3 is prime 4 is not prime 5 is"
+  },
+  {
+    "start": 4985.28,
+    "duration": 12.2,
+    "text": "is prime, 6 is not prime, 7 is prime, 9 is not prime, 11 is prime for example, let us"
+  },
+  {
+    "start": 4997.48,
+    "duration": 8.24,
+    "text": "take some squares as well 25 not prime giving correct 49 not prime giving correct 83 should"
+  },
+  {
+    "start": 5005.72,
+    "duration": 5.24,
+    "text": "be prime giving correct. So, working very nicely if you want to understand how this"
+  },
+  {
+    "start": 5010.96,
+    "duration": 3.48,
+    "text": "thing is entirely working, we have the playlist in the description make sure you"
+  },
+  {
+    "start": 5014.44,
+    "duration": 5.92,
+    "text": "check that out. We can write some other some other code as well. We also wrote one for"
+  },
+  {
+    "start": 5020.36,
+    "duration": 5.92,
+    "text": "temperature. Okay, so you can can write that down yourself. We can try some new questions"
+  },
+  {
+    "start": 5026.28,
+    "duration": 7.16,
+    "text": "maybe we can try to see whether a number is a is an Armstrong or we can print all the"
+  },
+  {
+    "start": 5033.44,
+    "duration": 5.68,
+    "text": "Armstrong numbers print all the three digit Armstrong numbers basically print all the"
+  },
+  {
+    "start": 5039.12,
+    "duration": 6.72,
+    "text": "three digit strong numbers. So Armstrong numbers are basically like, let's say if I'm talking"
+  },
+  {
+    "start": 5045.84,
+    "duration": 5.12,
+    "text": "just about three digit Armstrong numbers to make things simpler. So basically, if I'm talking about"
+  },
+  {
+    "start": 5050.96,
+    "duration": 7.28,
+    "text": "three digit Armstrong numbers, then if I'm saying let's say a number a is equal to 153."
+  },
+  {
+    "start": 5059.12,
+    "duration": 9.88,
+    "text": "So Armstrong number basically means take every digit, if it is a three digit number cube of it"
+  },
+  {
+    "start": 5069.0,
+    "duration": 12.0,
+    "text": "and add this what is this going to be 1 plus what is 5 into 5 into 5 it is actually 125 plus"
+  },
+  {
+    "start": 5081.0,
+    "duration": 9.97,
+    "text": "what is 3 into 3 into 3 it is actually 27 this is basically equal to what 153 28 plus"
+  },
+  {
+    "start": 5090.97,
+    "duration": 7.4,
+    "text": "25, 28 plus 125, 13, 153."
+  },
+  {
+    "start": 5098.37,
+    "duration": 5.72,
+    "text": "So if every 3 digit number, if cube of individual digits and sum of those is giving the same"
+  },
+  {
+    "start": 5104.09,
+    "duration": 5.36,
+    "text": "number which is 153, then it is an Armstrong number."
+  },
+  {
+    "start": 5109.45,
+    "duration": 2.0,
+    "text": "So how do we solve this problem?"
+  },
+  {
+    "start": 5111.45,
+    "duration": 5.2,
+    "text": "So basically if we have 153, we are going to take every single digit, cube it and"
+  },
+  {
+    "start": 5116.65,
+    "duration": 5.62,
+    "text": "take the sum. Very simple. Okay, and we already know how to take the individual digits by"
+  },
+  {
+    "start": 5122.27,
+    "duration": 7.4,
+    "text": "taking the remainder. So if we have a is equal to 153, I'm going to say while a is greater"
+  },
+  {
+    "start": 5129.67,
+    "duration": 6.24,
+    "text": "than zero, take the last digit. So I'm going to say remainder is equal to a modulo 10,"
+  },
+  {
+    "start": 5135.91,
+    "duration": 2.92,
+    "text": "taking the remainder if you want to understand how this is working internally, make sure"
+  },
+  {
+    "start": 5138.83,
+    "duration": 3.68,
+    "text": "you watch the previous video link is in the description of the playlist. And it's"
+  },
+  {
+    "start": 5142.51,
+    "duration": 6.6,
+    "text": "going to take three, I'm going to then cube it cube cube the remainder. Okay, so I'm going"
+  },
+  {
+    "start": 5149.11,
+    "duration": 4.52,
+    "text": "to cube the remainder, it's going to be three cube. And I'm going to say sum plus equal"
+  },
+  {
+    "start": 5153.63,
+    "duration": 6.38,
+    "text": "to whatever cube I had over here. And I'm going to say a is equal to a divided by 10."
+  },
+  {
+    "start": 5160.01,
+    "duration": 4.14,
+    "text": "So a will now be 15. Then this thing this thing will run again remainder will now"
+  },
+  {
+    "start": 5164.15,
+    "duration": 5.6,
+    "text": "be five cube of five, which is equal to five cube, which is 125, add this in"
+  },
+  {
+    "start": 5169.75,
+    "duration": 5.16,
+    "text": "the sum, sum is equal to now three cube from previous and now five cube as well, then it"
+  },
+  {
+    "start": 5174.91,
+    "duration": 2.96,
+    "text": "will be one and so on and so forth. That is how we'll be doing. Let's try to code this"
+  },
+  {
+    "start": 5177.87,
+    "duration": 4.32,
+    "text": "example. Okay, so let's try to code this example. So basically if I'm saying, I just"
+  },
+  {
+    "start": 5182.19,
+    "duration": 4.28,
+    "text": "want us, I just want a function that prints whether a number given to it is Armstrong"
+  },
+  {
+    "start": 5186.47,
+    "duration": 8.24,
+    "text": "or not the static. If it's telling me true or false, then Boolean return type is Armstrong"
+  },
+  {
+    "start": 5194.71,
+    "duration": 6.7,
+    "text": "or not this number n, I can take an original one, so I can I can take an original one like"
+  },
+  {
+    "start": 5201.41,
+    "duration": 3.88,
+    "text": "because I'm going to change n again and again. And I basically want to compare the original"
+  },
+  {
+    "start": 5205.29,
+    "duration": 7.76,
+    "text": "value of n with all the sum. So that is this original value sum initially is equal"
+  },
+  {
+    "start": 5213.05,
+    "duration": 7.16,
+    "text": "to zero. I'm going to say while n is greater than zero, what do we need to do? I can"
+  },
+  {
+    "start": 5220.21,
+    "duration": 9.0,
+    "text": "say that my remainder is equal to n modulo 10 and n is equal to n divided by 10. Now"
+  },
+  {
+    "start": 5229.21,
+    "duration": 5.28,
+    "text": "I just need to add the cube in the value in the sum. So, I can say sum is equal to sum"
+  },
+  {
+    "start": 5234.49,
+    "duration": 7.8,
+    "text": "plus cube. So, basically I can say remainder into remainder into remainder. Very simple"
+  },
+  {
+    "start": 5242.29,
+    "duration": 9.68,
+    "text": "stuff and after that we can say something like in the end that if the sum is equal to"
+  },
+  {
+    "start": 5251.97,
+    "duration": 10.39,
+    "text": "equal to the you know original value then I can say return true it's an Armstrong number"
+  },
+  {
+    "start": 5262.36,
+    "duration": 6.92,
+    "text": "otherwise return false I can simplify this if I just return this statement directly"
+  },
+  {
+    "start": 5269.28,
+    "duration": 8.01,
+    "text": "That is also makes sense. If this is true, if some is equal to original, it will return"
+  },
+  {
+    "start": 5277.29,
+    "duration": 9.23,
+    "text": "true. Otherwise, if some is not equal to original, it will return false. Let's try to run this."
+  },
+  {
+    "start": 5286.52,
+    "duration": 9.8,
+    "text": "I can say print is Armstrong, sorry, 153 or n, whatever I pass. Let's pass 153. It"
+  },
+  {
+    "start": 5296.32,
+    "duration": 11.68,
+    "text": "should give me true. True. If I say something like 456, it's giving me false. Let's try"
+  },
+  {
+    "start": 5308.0,
+    "duration": 4.68,
+    "text": "to print all the Armstrong numbers from, you know, all the three digit Armstrong numbers."
+  },
+  {
+    "start": 5312.68,
+    "duration": 5.0,
+    "text": "I can say forint i is equal to three digits. What is the first three digit number 100?"
+  },
+  {
+    "start": 5317.68,
+    "duration": 7.81,
+    "text": "What is the last three digit number? I can say all the numbers less than 1000. And then"
+  },
+  {
+    "start": 5325.49,
+    "duration": 7.8,
+    "text": "I can just say, if is Armstrong, if this number is Armstrong number, then just print"
+  },
+  {
+    "start": 5333.29,
+    "duration": 14.64,
+    "text": "it. So I don't want to print in another new line from this file. It's actually"
+  },
+  {
+    "start": 5347.93,
+    "duration": 9.73,
+    "text": "asking for an input, because I did not comment this, never mind. There are only four Armstrong"
+  },
+  {
+    "start": 5357.66,
+    "duration": 12.94,
+    "text": "numbers, there are only four three digit Armstrong numbers, 153, 370, 371 and 407. Nice. Cool."
+  },
+  {
+    "start": 5370.6,
+    "duration": 2.82,
+    "text": "Much more questions will be coming in the next section, when we will be doing arrays"
+  },
+  {
+    "start": 5373.42,
+    "duration": 6.12,
+    "text": "and actually more questions will be coming when we will be actually doing some algorithms."
+  },
+  {
+    "start": 5379.54,
+    "duration": 4.84,
+    "text": "So all the other simple questions I'll leave in the assignment, but when we'll be actually"
+  },
+  {
+    "start": 5384.38,
+    "duration": 3.44,
+    "text": "working with algorithms, we'll be doing like so many questions in one lecture, like a lot"
+  },
+  {
+    "start": 5387.82,
+    "duration": 5.04,
+    "text": "of questions when we're doing sorting, for example, searching, hash maps and graphs and"
+  },
+  {
+    "start": 5392.86,
+    "duration": 2.64,
+    "text": "traversing and linked list and whatever."
+  },
+  {
+    "start": 5395.5,
+    "duration": 2.76,
+    "text": "So we'll be doing so many questions when we actually work with algorithms is like"
+  },
+  {
+    "start": 5398.26,
+    "duration": 1.24,
+    "text": "the basic stuff."
+  },
+  {
+    "start": 5399.5,
+    "duration": 3.12,
+    "text": "So in this, there was like a lot of theory involved."
+  },
+  {
+    "start": 5402.62,
+    "duration": 3.24,
+    "text": "And I believe now it's able to know you're able to understand, you can create any"
+  },
+  {
+    "start": 5405.86,
+    "duration": 1.0,
+    "text": "function you like."
+  },
+  {
+    "start": 5406.86,
+    "duration": 5.2,
+    "text": "just for the assignments what I would want you to do is all the questions you have covered till now"
+  },
+  {
+    "start": 5412.06,
+    "duration": 6.96,
+    "text": "try to solve those questions using functions that is your assignment all right so that is pretty"
+  },
+  {
+    "start": 5419.02,
+    "duration": 2.96,
+    "text": "much about it make sure you like share and subscribe check out the links in the description"
+  },
+  {
+    "start": 5421.98,
+    "duration": 1.68,
+    "text": "and I'll see you in the next video"
+  }
+]

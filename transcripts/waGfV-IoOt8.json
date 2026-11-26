@@ -1,0 +1,1237 @@
+[
+  {
+    "start": 3.7,
+    "duration": 4.48,
+    "text": "Hey everyone, welcome back to another video and in this video we are answering one of the most"
+  },
+  {
+    "start": 8.18,
+    "duration": 6.56,
+    "text": "asked questions that how do you use lead code efficiently or how do you practice questions"
+  },
+  {
+    "start": 14.74,
+    "duration": 4.88,
+    "text": "when learning data structures and algorithms or hey I'm not able to solve questions while I'm"
+  },
+  {
+    "start": 19.62,
+    "duration": 4.08,
+    "text": "learning data structures and algorithms. So we'll answer all these questions like how to"
+  },
+  {
+    "start": 23.7,
+    "duration": 4.24,
+    "text": "actually solve questions, how to approach a problem, what to do if you get stuck,"
+  },
+  {
+    "start": 27.94,
+    "duration": 3.76,
+    "text": "what is the correct we know like one of the really efficient ways to actually"
+  },
+  {
+    "start": 31.7,
+    "duration": 5.68,
+    "text": "practice questions while you are learning data structures algorithms and we'll also cover"
+  },
+  {
+    "start": 37.38,
+    "duration": 4.68,
+    "text": "something like what to do after you have covered the you know course done the course"
+  },
+  {
+    "start": 42.06,
+    "duration": 1.0,
+    "text": "that we are doing."
+  },
+  {
+    "start": 43.06,
+    "duration": 3.68,
+    "text": "Now before we get started I want to give a huge shout out to our sponsor teleport make"
+  },
+  {
+    "start": 46.74,
+    "duration": 3.68,
+    "text": "sure you check out the links in the description and get started for free it's also an open"
+  },
+  {
+    "start": 50.42,
+    "duration": 3.4,
+    "text": "source project so if you're looking for open source projects to contribute to you"
+  },
+  {
+    "start": 53.82,
+    "duration": 3.6,
+    "text": "can definitely check it out the links are in the description and it's you know"
+  },
+  {
+    "start": 57.42,
+    "duration": 3.72,
+    "text": "free to get started no credit card is required an amazing tool let's check it out."
+  },
+  {
+    "start": 64.61,
+    "duration": 6.0,
+    "text": "Are you juggling with shared secrets, SSH keys, or hopping between VPNs and multiple access points?"
+  },
+  {
+    "start": 70.61,
+    "duration": 4.0,
+    "text": "Check out Teleport to quickly access your computing resources from anywhere."
+  },
+  {
+    "start": 74.61,
+    "duration": 5.44,
+    "text": "Teleport allows engineers and security professionals to unify access for SSH servers,"
+  },
+  {
+    "start": 80.05,
+    "duration": 4.8,
+    "text": "Kubernetes clusters, web applications, and databases across all environments."
+  },
+  {
+    "start": 84.85,
+    "duration": 3.92,
+    "text": "With a unified resource catalog, there is no need to maintain inventories."
+  },
+  {
+    "start": 88.77,
+    "duration": 4.48,
+    "text": "You can also work together to troubleshoot a problem with your colleagues on a remote server"
+  },
+  {
+    "start": 93.25,
+    "duration": 4.56,
+    "text": "or on each other's laptops and record these sessions as well using shared sessions."
+  },
+  {
+    "start": 97.81,
+    "duration": 4.24,
+    "text": "Teleport also provides ready-to-use auth for your internal web applications."
+  },
+  {
+    "start": 102.05,
+    "duration": 4.96,
+    "text": "Easily implement security and compliance with Teleport to adopt industry-best practices"
+  },
+  {
+    "start": 107.01,
+    "duration": 4.56,
+    "text": "for access across all protocols and all environments with minimal configuration."
+  },
+  {
+    "start": 111.57,
+    "duration": 1.12,
+    "text": "How does it work?"
+  },
+  {
+    "start": 112.69,
+    "duration": 5.52,
+    "text": "Teleport is a single binary which enables secure access to SSH nodes, Kubernetes clusters,"
+  },
+  {
+    "start": 118.21,
+    "duration": 6.08,
+    "text": "web apps and databases. Deployed as a single binary. It seamlessly integrates with the rest of your stack."
+  },
+  {
+    "start": 124.29,
+    "duration": 4.4,
+    "text": "Get started with teleport now and try it for free. Check out the links in the description below for"
+  },
+  {
+    "start": 128.69,
+    "duration": 4.56,
+    "text": "more information. So by the way, we are doing the complete digital algorithms, plus competitive"
+  },
+  {
+    "start": 133.25,
+    "duration": 4.88,
+    "text": "coding, plus interview preparation, plus complete Java from scratch course. So the link for that"
+  },
+  {
+    "start": 138.13,
+    "duration": 3.68,
+    "text": "is in the description. Make sure you check it out. It's free. And it covers everything you"
+  },
+  {
+    "start": 141.81,
+    "duration": 5.12,
+    "text": "need to know in order to crack, you know, fun interviews. So let's get started. So first"
+  },
+  {
+    "start": 146.93,
+    "duration": 5.6,
+    "text": "thing is learning topic-wise. So, if you want to learn topic-wise, you know, algorithms,"
+  },
+  {
+    "start": 152.53,
+    "duration": 3.6,
+    "text": "data structures and questions and everything, for that, as I already mentioned, we have"
+  },
+  {
+    "start": 156.13,
+    "duration": 5.24,
+    "text": "the data section algorithms playlist in the description below. So, you can see, we started"
+  },
+  {
+    "start": 161.37,
+    "duration": 3.96,
+    "text": "with GitHub, we started with intro to programming, then intro to Java, then functions, then"
+  },
+  {
+    "start": 165.33,
+    "duration": 3.8,
+    "text": "we started with data structures called like arrays, sorting, searching we're doing"
+  },
+  {
+    "start": 169.13,
+    "duration": 4.96,
+    "text": "right now, then we'll do some, you know, pointers like the patterns like this,"
+  },
+  {
+    "start": 174.09,
+    "duration": 5.6,
+    "text": "then string algorithms, then math, then recursion, so on and so forth."
+  },
+  {
+    "start": 179.69,
+    "duration": 3.68,
+    "text": "So one thing I want to mention over here is whenever you complete a course, so the question"
+  },
+  {
+    "start": 183.37,
+    "duration": 3.8,
+    "text": "is Kunal, how do we actually practice?"
+  },
+  {
+    "start": 187.17,
+    "duration": 4.96,
+    "text": "So the first thing you need to do is whenever you complete a video, we upload assignments"
+  },
+  {
+    "start": 192.13,
+    "duration": 1.84,
+    "text": "for those videos."
+  },
+  {
+    "start": 193.97,
+    "duration": 2.0,
+    "text": "So here you can find assignments."
+  },
+  {
+    "start": 195.97,
+    "duration": 3.72,
+    "text": "First thing you need to do is complete these assignments."
+  },
+  {
+    "start": 199.69,
+    "duration": 6.26,
+    "text": "And the second thing you need to do is go to the problem section of lead code."
+  },
+  {
+    "start": 205.95,
+    "duration": 2.62,
+    "text": "In the problem section, click on tags."
+  },
+  {
+    "start": 208.57,
+    "duration": 1.92,
+    "text": "Here you can search for array."
+  },
+  {
+    "start": 210.49,
+    "duration": 4.8,
+    "text": "So example, we'll be doing, let's say, we'll be doing a pattern called sliding window."
+  },
+  {
+    "start": 215.29,
+    "duration": 3.76,
+    "text": "Then you can search for sliding window over here or you can just type sliding window."
+  },
+  {
+    "start": 219.05,
+    "duration": 2.68,
+    "text": "But here you can see sliding window."
+  },
+  {
+    "start": 221.73,
+    "duration": 3.56,
+    "text": "These are all the problems that use sliding window."
+  },
+  {
+    "start": 225.29,
+    "duration": 3.2,
+    "text": "Start solving these problems."
+  },
+  {
+    "start": 228.49,
+    "duration": 4.22,
+    "text": "First start solving easy questions, this is another point."
+  },
+  {
+    "start": 232.71,
+    "duration": 7.0,
+    "text": "So do easy questions and medium questions, don't worry about hard questions as a beginner."
+  },
+  {
+    "start": 239.71,
+    "duration": 4.2,
+    "text": "Hard questions when do you need to do just do some popular hard questions, but don't"
+  },
+  {
+    "start": 243.91,
+    "duration": 5.0,
+    "text": "be like you need to do very high level, you know, comparative coding level questions"
+  },
+  {
+    "start": 248.91,
+    "duration": 5.04,
+    "text": "while you are learning, no, first focus on the base on easy and medium questions"
+  },
+  {
+    "start": 253.95,
+    "duration": 4.2,
+    "text": "and some popular hard questions, popular hard questions that you can find in many"
+  },
+  {
+    "start": 258.15,
+    "duration": 5.04,
+    "text": "many interviews so we'll create a you know basically all the questions that we have on"
+  },
+  {
+    "start": 263.19,
+    "duration": 4.88,
+    "text": "the assignments as a beginner that is more than enough but if you need more practice"
+  },
+  {
+    "start": 268.07,
+    "duration": 4.38,
+    "text": "I would highly recommend doing following this approach for every particular tag so let's"
+  },
+  {
+    "start": 272.45,
+    "duration": 4.3,
+    "text": "say you're doing arrays right so let's say you're doing arrays or breadth first search"
+  },
+  {
+    "start": 276.75,
+    "duration": 3.76,
+    "text": "so let's say you're doing breadth first search just click on this you will get"
+  },
+  {
+    "start": 280.51,
+    "duration": 5.68,
+    "text": "all the tree questions related to BFS that is this is exactly what we're doing in assignments"
+  },
+  {
+    "start": 286.19,
+    "duration": 3.88,
+    "text": "as well. If you notice that in assignments, we only have lead code questions only. So it's"
+  },
+  {
+    "start": 290.07,
+    "duration": 4.0,
+    "text": "exactly the same thing. Okay, even if you're not following the course, which you definitely"
+  },
+  {
+    "start": 294.07,
+    "duration": 4.96,
+    "text": "should if you're a beginner in digital algorithms, follow this course and complete the assignments"
+  },
+  {
+    "start": 299.03,
+    "duration": 4.72,
+    "text": "and this is how you approach the lead code problems. Okay, one more thing I want to share"
+  },
+  {
+    "start": 303.75,
+    "duration": 3.32,
+    "text": "is that some lead code problems are like this, you know, when you approach a lead"
+  },
+  {
+    "start": 307.07,
+    "duration": 5.08,
+    "text": "code problem, there's going to be like a thumbs up and a thumbs down. If a problem"
+  },
+  {
+    "start": 312.15,
+    "duration": 4.88,
+    "text": "has a lot of thumbs down, it means that it's not a good problem to solve. Mostly these problems"
+  },
+  {
+    "start": 317.03,
+    "duration": 5.44,
+    "text": "are not really in terms of any thinking or anything, it's just like some ad hoc problem"
+  },
+  {
+    "start": 322.47,
+    "duration": 3.92,
+    "text": "that is not going to be much benefit and it's not that worth of the time. So make sure the"
+  },
+  {
+    "start": 326.39,
+    "duration": 5.68,
+    "text": "questions you're doing are actually like nice thumbs up as well. Okay, cool. Now,"
+  },
+  {
+    "start": 332.07,
+    "duration": 4.24,
+    "text": "answering the next question, I think lead code is probably more than enough to clear your"
+  },
+  {
+    "start": 336.31,
+    "duration": 7.64,
+    "text": "interviews and it has a lot of even lead code free has a lot of you know questions that"
+  },
+  {
+    "start": 343.95,
+    "duration": 2.08,
+    "text": "will take you months and months to complete."
+  },
+  {
+    "start": 346.03,
+    "duration": 5.36,
+    "text": "So before asking question like hey Kunal lead code is lead code enough then my only answer"
+  },
+  {
+    "start": 351.39,
+    "duration": 4.84,
+    "text": "to you would be have you completed all the free questions that are good it is going"
+  },
+  {
+    "start": 356.23,
+    "duration": 2.56,
+    "text": "to take you months and months."
+  },
+  {
+    "start": 358.79,
+    "duration": 3.12,
+    "text": "Now answering another next question that people ask which is what to do if you"
+  },
+  {
+    "start": 361.91,
+    "duration": 1.0,
+    "text": "get stuck."
+  },
+  {
+    "start": 362.91,
+    "duration": 5.08,
+    "text": "One thing I would recommend is, so let's say you're approaching this problem, one thing"
+  },
+  {
+    "start": 367.99,
+    "duration": 5.92,
+    "text": "I would recommend is, if you get stuck at a particular problem, this is a very important"
+  },
+  {
+    "start": 373.91,
+    "duration": 1.0,
+    "text": "point."
+  },
+  {
+    "start": 374.91,
+    "duration": 3.24,
+    "text": "Do not spend more than 30 to 40 minutes on a single problem."
+  },
+  {
+    "start": 378.15,
+    "duration": 3.04,
+    "text": "It's not like you're spending the entire day on a single problem."
+  },
+  {
+    "start": 381.19,
+    "duration": 2.76,
+    "text": "Okay, then what do we do when we get stuck?"
+  },
+  {
+    "start": 383.95,
+    "duration": 3.2,
+    "text": "Try to solve the problem, try to see how it's working and everything."
+  },
+  {
+    "start": 387.15,
+    "duration": 4.76,
+    "text": "After 10, 15 minutes, if you're not making any progress, there might be a hint section"
+  },
+  {
+    "start": 391.91,
+    "duration": 4.96,
+    "text": "over here. If not, there might be a discuss section over here, discuss. So here, people"
+  },
+  {
+    "start": 396.87,
+    "duration": 5.52,
+    "text": "have submitted their solutions and stuff. Go through these. Okay. Take hints. Once you"
+  },
+  {
+    "start": 402.39,
+    "duration": 5.0,
+    "text": "have taken the hint, try to solve it, try to code it. Even after that, if you're not"
+  },
+  {
+    "start": 407.39,
+    "duration": 4.48,
+    "text": "able to solve, then look at the solution from here. Then look at the solution from"
+  },
+  {
+    "start": 411.87,
+    "duration": 4.92,
+    "text": "here. So don't spend more than 30 to 40 minutes. Look at hints, then come back"
+  },
+  {
+    "start": 416.79,
+    "duration": 3.8,
+    "text": "to the question again. And even if you're not able to solve, then look at the"
+  },
+  {
+    "start": 420.59,
+    "duration": 6.6,
+    "text": "answer. This should be done within 40 minutes. Okay. Another thing you can do is Google, Google"
+  },
+  {
+    "start": 427.19,
+    "duration": 3.6,
+    "text": "has all the answers. So Google, if you want to find an answer, you will find it on Google."
+  },
+  {
+    "start": 430.79,
+    "duration": 4.0,
+    "text": "You will find many people have created some answers on YouTube. You will find that and"
+  },
+  {
+    "start": 434.79,
+    "duration": 3.16,
+    "text": "also ask questions in public. So you can ask questions with your friends, you know,"
+  },
+  {
+    "start": 437.95,
+    "duration": 3.68,
+    "text": "you can have a study group or whatever. Learning in public really helps. You can"
+  },
+  {
+    "start": 441.63,
+    "duration": 3.64,
+    "text": "ask questions in our discord channel. So we have a data system algorithms entire,"
+  },
+  {
+    "start": 445.27,
+    "duration": 4.12,
+    "text": "you know, a DSA channels and voice channels and everything people ask questions over"
+  },
+  {
+    "start": 449.39,
+    "duration": 3.78,
+    "text": "there so you can ask your questions over there so you have covered everything like related"
+  },
+  {
+    "start": 453.17,
+    "duration": 3.84,
+    "text": "to what to do if you get stuck now you may be asking hey Kunal if I am looking at the"
+  },
+  {
+    "start": 457.01,
+    "duration": 4.66,
+    "text": "solution how do I know that I am understanding this thing and it will you know be beneficial"
+  },
+  {
+    "start": 461.67,
+    "duration": 6.12,
+    "text": "to me so in order to resolve this issue when you solve a question by looking at its answer"
+  },
+  {
+    "start": 467.79,
+    "duration": 5.32,
+    "text": "bookmark it and come back to that question after two weeks or a month then try to"
+  },
+  {
+    "start": 473.11,
+    "duration": 4.92,
+    "text": "solve it again even then if you need to look at the hints then look it again"
+  },
+  {
+    "start": 478.03,
+    "duration": 3.4,
+    "text": "then come after another month or two weeks, then solve it without hints."
+  },
+  {
+    "start": 481.63,
+    "duration": 2.32,
+    "text": "That way you will be able to resolve it. Okay."
+  },
+  {
+    "start": 484.59,
+    "duration": 3.68,
+    "text": "So one more thing I would like to share is actually how to find problems and how"
+  },
+  {
+    "start": 488.27,
+    "duration": 3.4,
+    "text": "to solve problems. So don't do questions blindly."
+  },
+  {
+    "start": 491.71,
+    "duration": 2.0,
+    "text": "Like don't do questions like randomly, like, okay,"
+  },
+  {
+    "start": 493.87,
+    "duration": 3.94,
+    "text": "picking up a question and don't have the end-term motivation just to solve"
+  },
+  {
+    "start": 497.81,
+    "duration": 3.86,
+    "text": "the problem. No. For every problem, do this thing. First,"
+  },
+  {
+    "start": 501.83,
+    "duration": 3.24,
+    "text": "solve it using the brute force approach means the worst complexity,"
+  },
+  {
+    "start": 505.07,
+    "duration": 2.8,
+    "text": "the very simple solution, not optimized at all."
+  },
+  {
+    "start": 508.03,
+    "duration": 5.04,
+    "text": "okay try to come up with that solution then try to optimize it and then try to make a note"
+  },
+  {
+    "start": 513.07,
+    "duration": 6.08,
+    "text": "that what type of problem used which type of optimization this is how i was able to clear"
+  },
+  {
+    "start": 519.15,
+    "duration": 5.2,
+    "text": "all my google rounds so you see a question you will be like okay i've done this question before"
+  },
+  {
+    "start": 524.35,
+    "duration": 3.84,
+    "text": "something similar we have given a data like this this algorithm will be used like this"
+  },
+  {
+    "start": 529.71,
+    "duration": 4.8,
+    "text": "okay if you approach a question like this not doing questions randomly but actually doing"
+  },
+  {
+    "start": 534.51,
+    "duration": 5.04,
+    "text": "topic-wise and making a list for every topic in the nodes section. This is something I will"
+  },
+  {
+    "start": 539.55,
+    "duration": 5.12,
+    "text": "cover in my YouTube videos as well. You can see so many patterns we are covering. We covered"
+  },
+  {
+    "start": 547.12,
+    "duration": 6.0,
+    "text": "cyclic sort, binary search, modified binary search, sliding window pattern, two-pointer pattern,"
+  },
+  {
+    "start": 553.12,
+    "duration": 7.36,
+    "text": "sub-array questions, after that bitwise operators, after that subset questions,"
+  },
+  {
+    "start": 560.48,
+    "duration": 4.56,
+    "text": "recursion on string problems, maze problems, and then you may be having something like"
+  },
+  {
+    "start": 566.08,
+    "duration": 6.36,
+    "text": "stacks and queues, circular queues, past and slow pointer, cycle detection, stingly and"
+  },
+  {
+    "start": 572.44,
+    "duration": 3.64,
+    "text": "doubly link lists, this is not a pattern but this is one, this one is reversal of a link"
+  },
+  {
+    "start": 576.08,
+    "duration": 8.0,
+    "text": "list, zero and knapsack, another nice one, subset questions, unbound knapsack, subsequence"
+  },
+  {
+    "start": 584.08,
+    "duration": 5.52,
+    "text": "questions, so these are all patterns, there can be many questions solved with these patterns."
+  },
+  {
+    "start": 589.6,
+    "duration": 3.76,
+    "text": "You know in the binary search video that we did, in the binary search video the last"
+  },
+  {
+    "start": 593.36,
+    "duration": 4.2,
+    "text": "question that was similar to, there's a Google level question and Google asks a similar question"
+  },
+  {
+    "start": 597.56,
+    "duration": 4.12,
+    "text": "called book allocation. Just the name and wordings of the question is different. The"
+  },
+  {
+    "start": 601.68,
+    "duration": 5.52,
+    "text": "algorithm is same. That is why whenever you do topic wise questions, try to see, I'm"
+  },
+  {
+    "start": 607.2,
+    "duration": 5.96,
+    "text": "repeating it one last time. So please hear carefully, try to see in which topic, what"
+  },
+  {
+    "start": 613.16,
+    "duration": 5.28,
+    "text": "type of patterns are being used to solve which type of problems. I will repeat it"
+  },
+  {
+    "start": 618.44,
+    "duration": 6.84,
+    "text": "one more time. For every topic, try to see which type of problem is solved via which type"
+  },
+  {
+    "start": 625.28,
+    "duration": 5.72,
+    "text": "of pattern and how that is optimized. Okay. So if you're doing arrays, you will find patterns"
+  },
+  {
+    "start": 631.0,
+    "duration": 4.68,
+    "text": "like, you know, if you start doing array questions over here, you will find pattern like sliding"
+  },
+  {
+    "start": 635.68,
+    "duration": 3.92,
+    "text": "point or two point sub array questions. So if you know, if you are given a sub"
+  },
+  {
+    "start": 639.6,
+    "duration": 4.12,
+    "text": "array questions, most probably you will be applying siding window. How do I know this?"
+  },
+  {
+    "start": 643.72,
+    "duration": 3.76,
+    "text": "I have followed this approach for every data structure. This is also good for"
+  },
+  {
+    "start": 647.48,
+    "duration": 2.56,
+    "text": "for your thinking process and your problem solving skills."
+  },
+  {
+    "start": 650.04,
+    "duration": 2.16,
+    "text": "Okay, it's actually letting you know how to think."
+  },
+  {
+    "start": 652.2,
+    "duration": 3.24,
+    "text": "It's actually, you're actually not like memorizing anything."
+  },
+  {
+    "start": 655.44,
+    "duration": 1.44,
+    "text": "You're trying to understand."
+  },
+  {
+    "start": 656.88,
+    "duration": 1.44,
+    "text": "So this is totally great."
+  },
+  {
+    "start": 658.32,
+    "duration": 1.24,
+    "text": "Okay, you're trying to understand"
+  },
+  {
+    "start": 659.56,
+    "duration": 2.56,
+    "text": "how various algorithms compare with each other."
+  },
+  {
+    "start": 662.12,
+    "duration": 1.52,
+    "text": "That is what the beauty of this is."
+  },
+  {
+    "start": 663.64,
+    "duration": 1.96,
+    "text": "That is what problem solving is all about."
+  },
+  {
+    "start": 665.6,
+    "duration": 1.48,
+    "text": "Understanding which type of algorithm"
+  },
+  {
+    "start": 667.08,
+    "duration": 2.0,
+    "text": "to apply for which problem."
+  },
+  {
+    "start": 669.08,
+    "duration": 1.88,
+    "text": "Okay, that is what you need to do."
+  },
+  {
+    "start": 672.68,
+    "duration": 1.72,
+    "text": "And do popular questions."
+  },
+  {
+    "start": 674.4,
+    "duration": 1.04,
+    "text": "I already covered that."
+  },
+  {
+    "start": 675.44,
+    "duration": 1.72,
+    "text": "I already covered which questions to do."
+  },
+  {
+    "start": 677.16,
+    "duration": 2.18,
+    "text": "Now, what after completing the course?"
+  },
+  {
+    "start": 679.34,
+    "duration": 2.24,
+    "text": "After completing the course, this is the beauty of it."
+  },
+  {
+    "start": 681.58,
+    "duration": 2.08,
+    "text": "Keep practicing little by little every day."
+  },
+  {
+    "start": 683.66,
+    "duration": 2.72,
+    "text": "Even if you're doing, let's say, three hours of DSA every day"
+  },
+  {
+    "start": 686.38,
+    "duration": 1.96,
+    "text": "and you're doing like for 30 minutes,"
+  },
+  {
+    "start": 688.34,
+    "duration": 1.68,
+    "text": "so you're solving six questions a day."
+  },
+  {
+    "start": 690.02,
+    "duration": 1.96,
+    "text": "Six good questions a day for a month,"
+  },
+  {
+    "start": 691.98,
+    "duration": 2.28,
+    "text": "you will be solving around 180 questions."
+  },
+  {
+    "start": 694.26,
+    "duration": 1.12,
+    "text": "And let's say in four months,"
+  },
+  {
+    "start": 695.38,
+    "duration": 2.52,
+    "text": "you will be solving around 720 questions."
+  },
+  {
+    "start": 697.9,
+    "duration": 2.04,
+    "text": "That is a lot for interview preparation."
+  },
+  {
+    "start": 699.94,
+    "duration": 1.8,
+    "text": "That is a lot of questions."
+  },
+  {
+    "start": 701.74,
+    "duration": 1.72,
+    "text": "It's more than enough for interview preparation"
+  },
+  {
+    "start": 703.46,
+    "duration": 2.52,
+    "text": "for any FANG interview, okay?"
+  },
+  {
+    "start": 705.98,
+    "duration": 3.44,
+    "text": "So after you have done your course, please try to solve little by little,"
+  },
+  {
+    "start": 709.42,
+    "duration": 1.48,
+    "text": "let's say two hours a day or something."
+  },
+  {
+    "start": 711.18,
+    "duration": 2.64,
+    "text": "And the rest of your time you can give to development, open source,"
+  },
+  {
+    "start": 713.82,
+    "duration": 2.24,
+    "text": "community work, or whatever, building a personal brand,"
+  },
+  {
+    "start": 716.06,
+    "duration": 4.0,
+    "text": "because it's very important if you want to get remote jobs, for example."
+  },
+  {
+    "start": 720.26,
+    "duration": 1.44,
+    "text": "So open source can help you in that."
+  },
+  {
+    "start": 721.7,
+    "duration": 3.96,
+    "text": "So many people ask me, hey Kunal, how do you balance DSA and development and"
+  },
+  {
+    "start": 725.66,
+    "duration": 3.6,
+    "text": "open source? This is your answer. In the morning, two hour or one hour or"
+  },
+  {
+    "start": 729.26,
+    "duration": 1.96,
+    "text": "something, do DSA rest all the time."
+  },
+  {
+    "start": 731.22,
+    "duration": 2.8,
+    "text": "You can do open source development or projects or, you know,"
+  },
+  {
+    "start": 734.02,
+    "duration": 5.44,
+    "text": "what networking or in your domain work and you know community work and build your profile"
+  },
+  {
+    "start": 739.46,
+    "duration": 4.48,
+    "text": "attend events or whatever okay that way simultaneously your DSA will be also practice you will also"
+  },
+  {
+    "start": 743.94,
+    "duration": 3.92,
+    "text": "practicing your DSA you will also practicing your you know problem solving skills and like the"
+  },
+  {
+    "start": 747.86,
+    "duration": 4.56,
+    "text": "you'll also be making some great you know progressing development area and open source"
+  },
+  {
+    "start": 752.42,
+    "duration": 4.08,
+    "text": "as a tier two tier three college student can open lots of doors of opportunities for you"
+  },
+  {
+    "start": 756.5,
+    "duration": 6.16,
+    "text": "and in my personal experience development has more and better you know even higher"
+  },
+  {
+    "start": 762.66,
+    "duration": 4.08,
+    "text": "paying opportunities than something like competitive programming. So competitive programming is not"
+  },
+  {
+    "start": 766.74,
+    "duration": 4.0,
+    "text": "mandatory. You can do it if you like, you can skip it if you don't want to. But in order"
+  },
+  {
+    "start": 770.74,
+    "duration": 4.0,
+    "text": "to get jobs in order to do, you know, clear interviews and everything, this approach that"
+  },
+  {
+    "start": 774.74,
+    "duration": 4.72,
+    "text": "I have shared is more than enough. But practice is key. Okay, keep practicing. If you have"
+  },
+  {
+    "start": 779.46,
+    "duration": 5.44,
+    "text": "finished this, then you can go to the GitHub repo that I have competitive programming like"
+  },
+  {
+    "start": 784.9,
+    "duration": 3.44,
+    "text": "in the DSE boot camp. Here you'll find all the lectures, notes and assignments"
+  },
+  {
+    "start": 788.34,
+    "duration": 5.16,
+    "text": "and everything. You can click on this link, competitive programming resources. Okay, here"
+  },
+  {
+    "start": 793.5,
+    "duration": 5.44,
+    "text": "you can find all the problem sets. CSE, CSES has some problem health, you know, some algorithms,"
+  },
+  {
+    "start": 798.94,
+    "duration": 4.56,
+    "text": "DP question, Google interview questions, lead code solutions, hacker earth, DP roadmap or"
+  },
+  {
+    "start": 803.5,
+    "duration": 4.44,
+    "text": "whatever, all these things are mentioned over here. Okay, if you need additional questions,"
+  },
+  {
+    "start": 807.94,
+    "duration": 2.96,
+    "text": "let's say you have solved all the lead code questions, which most probably is going"
+  },
+  {
+    "start": 810.9,
+    "duration": 4.04,
+    "text": "to take you a lot of time, then you can approach these things. Okay, these are"
+  },
+  {
+    "start": 814.94,
+    "duration": 5.2,
+    "text": "Google questions. These are lead code problems like solutions and stuff. You know, so if you"
+  },
+  {
+    "start": 820.14,
+    "duration": 3.6,
+    "text": "want to do, this is another thing. This is another nice resource. If you want to do air"
+  },
+  {
+    "start": 823.74,
+    "duration": 5.2,
+    "text": "elite code questions, right? These are all the airy questions, all the nice airy questions."
+  },
+  {
+    "start": 828.94,
+    "duration": 4.36,
+    "text": "This is more than enough people. This is more than enough for you to get started. Once"
+  },
+  {
+    "start": 833.3,
+    "duration": 4.24,
+    "text": "you do this, if you keep practicing, no interview will be hard for you. Let's say"
+  },
+  {
+    "start": 837.54,
+    "duration": 4.92,
+    "text": "you want to do dynamic programming. These are all the dynamic programming questions"
+  },
+  {
+    "start": 842.46,
+    "duration": 3.84,
+    "text": "quite less, but very nice for beginners, okay?"
+  },
+  {
+    "start": 846.3,
+    "duration": 2.8,
+    "text": "But here, if you go dynamic programming, you will find many."
+  },
+  {
+    "start": 849.1,
+    "duration": 2.48,
+    "text": "So there is no shortage of questions, okay?"
+  },
+  {
+    "start": 851.58,
+    "duration": 1.04,
+    "text": "First, do lead code."
+  },
+  {
+    "start": 852.62,
+    "duration": 1.76,
+    "text": "If after lead code, you need more,"
+  },
+  {
+    "start": 854.38,
+    "duration": 2.68,
+    "text": "then here are the resources for more questions."
+  },
+  {
+    "start": 857.06,
+    "duration": 1.88,
+    "text": "Then you can try code forces, you know,"
+  },
+  {
+    "start": 858.94,
+    "duration": 2.88,
+    "text": "code chef or whatever you like, like, you know,"
+  },
+  {
+    "start": 863.02,
+    "duration": 3.02,
+    "text": "something like ad coder is also a nice platform."
+  },
+  {
+    "start": 866.04,
+    "duration": 1.66,
+    "text": "So here are some platforms to practice."
+  },
+  {
+    "start": 867.7,
+    "duration": 1.76,
+    "text": "So many platforms."
+  },
+  {
+    "start": 869.46,
+    "duration": 2.28,
+    "text": "So many platforms for you to practice."
+  },
+  {
+    "start": 871.74,
+    "duration": 1.92,
+    "text": "Once you are done with lead code."
+  },
+  {
+    "start": 873.66,
+    "duration": 2.04,
+    "text": "These are like complete programming platforms,"
+  },
+  {
+    "start": 875.7,
+    "duration": 4.44,
+    "text": "but this is the main stuff for clearing interview rounds."
+  },
+  {
+    "start": 881.02,
+    "duration": 0.96,
+    "text": "I think we covered everything."
+  },
+  {
+    "start": 881.98,
+    "duration": 1.56,
+    "text": "If you like this video, please make sure you like,"
+  },
+  {
+    "start": 883.54,
+    "duration": 1.08,
+    "text": "share and subscribe."
+  },
+  {
+    "start": 884.62,
+    "duration": 1.64,
+    "text": "And I'll see you in the next one."
+  },
+  {
+    "start": 886.26,
+    "duration": 1.68,
+    "text": "Once again, we have a really amazing bootcamp"
+  },
+  {
+    "start": 887.94,
+    "duration": 1.88,
+    "text": "that is going to definitely prepare you"
+  },
+  {
+    "start": 889.82,
+    "duration": 1.64,
+    "text": "for, you know, Fang interviews"
+  },
+  {
+    "start": 891.46,
+    "duration": 1.76,
+    "text": "and help you clear all the interviews."
+  },
+  {
+    "start": 893.22,
+    "duration": 2.12,
+    "text": "It's the only complete, you know, course"
+  },
+  {
+    "start": 895.34,
+    "duration": 3.64,
+    "text": "that, you know, I have so much conferences"
+  },
+  {
+    "start": 898.98,
+    "duration": 2.32,
+    "text": "in on YouTube that you're gonna find for free."
+  },
+  {
+    "start": 901.3,
+    "duration": 3.76,
+    "text": "Make sure you show your support, share with your friends and just check out the content"
+  },
+  {
+    "start": 905.06,
+    "duration": 1.0,
+    "text": "once."
+  },
+  {
+    "start": 906.06,
+    "duration": 1.0,
+    "text": "I'm sure you will like it."
+  },
+  {
+    "start": 907.06,
+    "duration": 2.84,
+    "text": "Please make sure you subscribe and comment because that's the only way you can support"
+  },
+  {
+    "start": 909.9,
+    "duration": 1.0,
+    "text": "the channel."
+  },
+  {
+    "start": 910.9,
+    "duration": 1.32,
+    "text": "We are not asking any money or anything."
+  },
+  {
+    "start": 912.22,
+    "duration": 3.08,
+    "text": "It's going to be free for all forever."
+  },
+  {
+    "start": 915.3,
+    "duration": 2.96,
+    "text": "And last but not least, please check out the links in the description."
+  },
+  {
+    "start": 918.26,
+    "duration": 2.76,
+    "text": "If you want to show your support, make sure you follow the links in the description,"
+  },
+  {
+    "start": 921.02,
+    "duration": 2.24,
+    "text": "join the Discord and Telegram community."
+  },
+  {
+    "start": 923.26,
+    "duration": 3.84,
+    "text": "Make sure you also hit the bell icon so that you don't miss any updates on YouTube."
+  },
+  {
+    "start": 927.1,
+    "duration": 5.12,
+    "text": "Just do those things and good luck and we'll be making more such videos in the guidance playlist"
+  },
+  {
+    "start": 932.22,
+    "duration": 3.96,
+    "text": "So make sure you check out the playlist section and I will see you in the next one. Bye"
+  }
+]

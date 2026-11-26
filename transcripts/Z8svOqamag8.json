@@ -1,0 +1,6232 @@
+[
+  {
+    "start": 4.0,
+    "duration": 3.839,
+    "text": "hey everyone welcome back to another"
+  },
+  {
+    "start": 5.6,
+    "duration": 4.079,
+    "text": "video and today we're talking about"
+  },
+  {
+    "start": 7.839,
+    "duration": 3.68,
+    "text": "quick sort so we've done a lot of"
+  },
+  {
+    "start": 9.679,
+    "duration": 4.241,
+    "text": "sorting algorithms and we're doing the"
+  },
+  {
+    "start": 11.519,
+    "duration": 4.401,
+    "text": "entire dsa boot camp so it's a part of"
+  },
+  {
+    "start": 13.92,
+    "duration": 3.6,
+    "text": "the recursion series and quicksort is a"
+  },
+  {
+    "start": 15.92,
+    "duration": 3.68,
+    "text": "very important uh"
+  },
+  {
+    "start": 17.52,
+    "duration": 4.4,
+    "text": "topic because it's often asked like"
+  },
+  {
+    "start": 19.6,
+    "duration": 3.839,
+    "text": "directly in many interviews as well so"
+  },
+  {
+    "start": 21.92,
+    "duration": 3.119,
+    "text": "like they'll be like hey can you explain"
+  },
+  {
+    "start": 23.439,
+    "duration": 4.16,
+    "text": "what is quicksort or the implementation"
+  },
+  {
+    "start": 25.039,
+    "duration": 4.4,
+    "text": "of that or um you know how it compares"
+  },
+  {
+    "start": 27.599,
+    "duration": 4.401,
+    "text": "with other sorting algorithms what is"
+  },
+  {
+    "start": 29.439,
+    "duration": 5.361,
+    "text": "the complexity analysis things like that"
+  },
+  {
+    "start": 32.0,
+    "duration": 5.12,
+    "text": "so in this video we're going to cover"
+  },
+  {
+    "start": 34.8,
+    "duration": 5.759,
+    "text": "quick sort the algorithm obviously the"
+  },
+  {
+    "start": 37.12,
+    "duration": 6.48,
+    "text": "complexity time in space entire code and"
+  },
+  {
+    "start": 40.559,
+    "duration": 5.441,
+    "text": "the advantages disadvantages comparison"
+  },
+  {
+    "start": 43.6,
+    "duration": 4.16,
+    "text": "with merge sort and we'll also look into"
+  },
+  {
+    "start": 46.0,
+    "duration": 4.16,
+    "text": "some of the internal sorting algorithms"
+  },
+  {
+    "start": 47.76,
+    "duration": 4.88,
+    "text": "like some functions of sorting you know"
+  },
+  {
+    "start": 50.16,
+    "duration": 4.32,
+    "text": "sorting functions that methods that"
+  },
+  {
+    "start": 52.64,
+    "duration": 3.919,
+    "text": "java already provides to us out of the"
+  },
+  {
+    "start": 54.48,
+    "duration": 4.079,
+    "text": "box and even python has a lot you know"
+  },
+  {
+    "start": 56.559,
+    "duration": 3.84,
+    "text": "so many languages have their own"
+  },
+  {
+    "start": 58.559,
+    "duration": 3.601,
+    "text": "implementations so we'll see what these"
+  },
+  {
+    "start": 60.399,
+    "duration": 4.08,
+    "text": "things use internally sort of called as"
+  },
+  {
+    "start": 62.16,
+    "duration": 3.52,
+    "text": "like hybrid sorting and that's pretty"
+  },
+  {
+    "start": 64.479,
+    "duration": 2.081,
+    "text": "much about it"
+  },
+  {
+    "start": 65.68,
+    "duration": 3.759,
+    "text": "so"
+  },
+  {
+    "start": 66.56,
+    "duration": 6.08,
+    "text": "let's get started um what is quicksort"
+  },
+  {
+    "start": 69.439,
+    "duration": 4.961,
+    "text": "so quicksort has a very simple idea um"
+  },
+  {
+    "start": 72.64,
+    "duration": 3.6,
+    "text": "first we'll look into the working then"
+  },
+  {
+    "start": 74.4,
+    "duration": 4.079,
+    "text": "we'll look into like the code sample"
+  },
+  {
+    "start": 76.24,
+    "duration": 3.919,
+    "text": "then we'll look at the we'll we'll"
+  },
+  {
+    "start": 78.479,
+    "duration": 4.081,
+    "text": "look at why we are doing it what's so"
+  },
+  {
+    "start": 80.159,
+    "duration": 4.96,
+    "text": "special about it when to use it later on"
+  },
+  {
+    "start": 82.56,
+    "duration": 4.72,
+    "text": "like in this video only but first what"
+  },
+  {
+    "start": 85.119,
+    "duration": 4.241,
+    "text": "is it how do we do it obviously we know"
+  },
+  {
+    "start": 87.28,
+    "duration": 4.4,
+    "text": "it's a sorting algorithm so it sorts the"
+  },
+  {
+    "start": 89.36,
+    "duration": 4.24,
+    "text": "area or whatever that you provide to it"
+  },
+  {
+    "start": 91.68,
+    "duration": 4.24,
+    "text": "but the real question is how what is so"
+  },
+  {
+    "start": 93.6,
+    "duration": 4.8,
+    "text": "different about this so the idea is that"
+  },
+  {
+    "start": 95.92,
+    "duration": 3.92,
+    "text": "you're given us you're given like a"
+  },
+  {
+    "start": 98.4,
+    "duration": 7.679,
+    "text": "let's say an unsorted array let's say i"
+  },
+  {
+    "start": 99.84,
+    "duration": 8.319,
+    "text": "take something like 5 4 3 2 1."
+  },
+  {
+    "start": 106.079,
+    "duration": 4.161,
+    "text": "i want you to think about all the"
+  },
+  {
+    "start": 108.159,
+    "duration": 4.081,
+    "text": "sorting algorithms we have done so far"
+  },
+  {
+    "start": 110.24,
+    "duration": 5.04,
+    "text": "we did bubble sort in bubble sort what"
+  },
+  {
+    "start": 112.24,
+    "duration": 6.479,
+    "text": "was happening after every pass"
+  },
+  {
+    "start": 115.28,
+    "duration": 5.839,
+    "text": "after every pass what was happening"
+  },
+  {
+    "start": 118.719,
+    "duration": 4.241,
+    "text": "after every pass the largest element was"
+  },
+  {
+    "start": 121.119,
+    "duration": 3.68,
+    "text": "coming at the end and end"
+  },
+  {
+    "start": 122.96,
+    "duration": 3.28,
+    "text": "same thing for selection sort"
+  },
+  {
+    "start": 124.799,
+    "duration": 3.041,
+    "text": "right"
+  },
+  {
+    "start": 126.24,
+    "duration": 3.92,
+    "text": "with insertion sort what was happening"
+  },
+  {
+    "start": 127.84,
+    "duration": 4.24,
+    "text": "after every part the same like the small"
+  },
+  {
+    "start": 130.16,
+    "duration": 3.6,
+    "text": "small part like the initial"
+  },
+  {
+    "start": 132.08,
+    "duration": 3.12,
+    "text": "parts of the areas were getting sorted"
+  },
+  {
+    "start": 133.76,
+    "duration": 3.199,
+    "text": "the left hand side if you don't know"
+  },
+  {
+    "start": 135.2,
+    "duration": 4.0,
+    "text": "about this watch the videos"
+  },
+  {
+    "start": 136.959,
+    "duration": 5.441,
+    "text": "in this what is going to happen is"
+  },
+  {
+    "start": 139.2,
+    "duration": 5.759,
+    "text": "there's a concept known as pivot not the"
+  },
+  {
+    "start": 142.4,
+    "duration": 4.479,
+    "text": "pivot that we did previously uh in the"
+  },
+  {
+    "start": 144.959,
+    "duration": 3.36,
+    "text": "rotated area or whatever no this pivot"
+  },
+  {
+    "start": 146.879,
+    "duration": 2.961,
+    "text": "is different it's sort of like a"
+  },
+  {
+    "start": 148.319,
+    "duration": 3.441,
+    "text": "reference point"
+  },
+  {
+    "start": 149.84,
+    "duration": 4.479,
+    "text": "it can be anything in your array"
+  },
+  {
+    "start": 151.76,
+    "duration": 4.08,
+    "text": "anything let's say you want to take uh"
+  },
+  {
+    "start": 154.319,
+    "duration": 4.481,
+    "text": "i'll explain to you what is pivot don't"
+  },
+  {
+    "start": 155.84,
+    "duration": 4.08,
+    "text": "worry so basically let's let's just talk"
+  },
+  {
+    "start": 158.8,
+    "duration": 3.84,
+    "text": "about what is pivot and why we are"
+  },
+  {
+    "start": 159.92,
+    "duration": 4.0,
+    "text": "taking it so the idea is"
+  },
+  {
+    "start": 162.64,
+    "duration": 3.76,
+    "text": "that"
+  },
+  {
+    "start": 163.92,
+    "duration": 4.399,
+    "text": "whatever pivot you take"
+  },
+  {
+    "start": 166.4,
+    "duration": 3.839,
+    "text": "after every pass"
+  },
+  {
+    "start": 168.319,
+    "duration": 4.881,
+    "text": "okay what is pivot very important"
+  },
+  {
+    "start": 170.239,
+    "duration": 4.64,
+    "text": "question so here you will take a pivot"
+  },
+  {
+    "start": 173.2,
+    "duration": 3.92,
+    "text": "but what is pivot why are we taking it"
+  },
+  {
+    "start": 174.879,
+    "duration": 4.161,
+    "text": "canal and what is it what is it doing"
+  },
+  {
+    "start": 177.12,
+    "duration": 3.68,
+    "text": "how do we choose the pivot what is"
+  },
+  {
+    "start": 179.04,
+    "duration": 2.559,
+    "text": "happening with each pass everything will"
+  },
+  {
+    "start": 180.8,
+    "duration": 3.68,
+    "text": "cover"
+  },
+  {
+    "start": 181.599,
+    "duration": 4.881,
+    "text": "so pivot basically means simple stuff"
+  },
+  {
+    "start": 184.48,
+    "duration": 4.479,
+    "text": "any element you can choose i can choose"
+  },
+  {
+    "start": 186.48,
+    "duration": 4.08,
+    "text": "4 i can choose 2 any element i can"
+  },
+  {
+    "start": 188.959,
+    "duration": 2.401,
+    "text": "choose as pivot"
+  },
+  {
+    "start": 190.56,
+    "duration": 4.0,
+    "text": "ok"
+  },
+  {
+    "start": 191.36,
+    "duration": 3.2,
+    "text": "choose any element"
+  },
+  {
+    "start": 196.159,
+    "duration": 4.401,
+    "text": "ok"
+  },
+  {
+    "start": 197.76,
+    "duration": 4.0,
+    "text": "after first pass"
+  },
+  {
+    "start": 200.56,
+    "duration": 3.92,
+    "text": "you know similarly we're doing like"
+  },
+  {
+    "start": 201.76,
+    "duration": 5.52,
+    "text": "first pass in bubble sort and stuff so"
+  },
+  {
+    "start": 204.48,
+    "duration": 6.52,
+    "text": "after first pass what is different here"
+  },
+  {
+    "start": 207.28,
+    "duration": 3.72,
+    "text": "after first pass"
+  },
+  {
+    "start": 213.36,
+    "duration": 3.04,
+    "text": "all the elements"
+  },
+  {
+    "start": 218.64,
+    "duration": 4.64,
+    "text": "less than pivot"
+  },
+  {
+    "start": 221.599,
+    "duration": 3.241,
+    "text": "will be on"
+  },
+  {
+    "start": 223.28,
+    "duration": 4.08,
+    "text": "left hand side of"
+  },
+  {
+    "start": 224.84,
+    "duration": 4.2,
+    "text": "pivot and"
+  },
+  {
+    "start": 227.36,
+    "duration": 3.92,
+    "text": "elements"
+  },
+  {
+    "start": 229.04,
+    "duration": 4.16,
+    "text": "that are greater than pivot"
+  },
+  {
+    "start": 231.28,
+    "duration": 5.039,
+    "text": "will be at"
+  },
+  {
+    "start": 233.2,
+    "duration": 3.119,
+    "text": "right hand side of pivot"
+  },
+  {
+    "start": 237.519,
+    "duration": 2.241,
+    "text": "whenever i am teaching you something"
+  },
+  {
+    "start": 238.799,
+    "duration": 2.561,
+    "text": "okay"
+  },
+  {
+    "start": 239.76,
+    "duration": 3.44,
+    "text": "not just for this in the future lectures"
+  },
+  {
+    "start": 241.36,
+    "duration": 3.2,
+    "text": "as well there are two points"
+  },
+  {
+    "start": 243.2,
+    "duration": 3.2,
+    "text": "what it's doing"
+  },
+  {
+    "start": 244.56,
+    "duration": 4.319,
+    "text": "and how it's doing it"
+  },
+  {
+    "start": 246.4,
+    "duration": 4.559,
+    "text": "if you focus too much on how it's doing"
+  },
+  {
+    "start": 248.879,
+    "duration": 4.801,
+    "text": "it when i am explaining to you what it's"
+  },
+  {
+    "start": 250.959,
+    "duration": 4.321,
+    "text": "doing then you will get confused"
+  },
+  {
+    "start": 253.68,
+    "duration": 4.16,
+    "text": "i am never skipping anything in this"
+  },
+  {
+    "start": 255.28,
+    "duration": 4.639,
+    "text": "video itself we will cover in detail why"
+  },
+  {
+    "start": 257.84,
+    "duration": 3.359,
+    "text": "it's doing it but remove that from your"
+  },
+  {
+    "start": 259.919,
+    "duration": 2.72,
+    "text": "mind right now"
+  },
+  {
+    "start": 261.199,
+    "duration": 2.401,
+    "text": "until and unless you know what it's"
+  },
+  {
+    "start": 262.639,
+    "duration": 3.201,
+    "text": "doing"
+  },
+  {
+    "start": 263.6,
+    "duration": 3.92,
+    "text": "let's just focus on what it's doing then"
+  },
+  {
+    "start": 265.84,
+    "duration": 3.44,
+    "text": "after this in this video itself we will"
+  },
+  {
+    "start": 267.52,
+    "duration": 3.6,
+    "text": "cover how it's doing it what's the"
+  },
+  {
+    "start": 269.28,
+    "duration": 3.68,
+    "text": "intuition behind it"
+  },
+  {
+    "start": 271.12,
+    "duration": 3.2,
+    "text": "so what it's doing let's take this"
+  },
+  {
+    "start": 272.96,
+    "duration": 2.56,
+    "text": "example"
+  },
+  {
+    "start": 274.32,
+    "duration": 2.8,
+    "text": "five"
+  },
+  {
+    "start": 275.52,
+    "duration": 3.92,
+    "text": "four again don't ask don't have"
+  },
+  {
+    "start": 277.12,
+    "duration": 3.6,
+    "text": "questions right now like now why why is"
+  },
+  {
+    "start": 279.44,
+    "duration": 2.96,
+    "text": "it happening as it is because we'll"
+  },
+  {
+    "start": 280.72,
+    "duration": 3.68,
+    "text": "cover that after this point"
+  },
+  {
+    "start": 282.4,
+    "duration": 3.84,
+    "text": "so first we'll talk about the what it's"
+  },
+  {
+    "start": 284.4,
+    "duration": 3.44,
+    "text": "doing"
+  },
+  {
+    "start": 286.24,
+    "duration": 3.76,
+    "text": "what is happening"
+  },
+  {
+    "start": 287.84,
+    "duration": 4.24,
+    "text": "i can take any pivot element let's say i"
+  },
+  {
+    "start": 290.0,
+    "duration": 3.52,
+    "text": "take again don't ask questions like"
+  },
+  {
+    "start": 292.08,
+    "duration": 3.679,
+    "text": "why are you taking this pivot element"
+  },
+  {
+    "start": 293.52,
+    "duration": 4.399,
+    "text": "only because that will be covered"
+  },
+  {
+    "start": 295.759,
+    "duration": 3.921,
+    "text": "so let's take any pivot element how we"
+  },
+  {
+    "start": 297.919,
+    "duration": 3.201,
+    "text": "are taking it we'll cover later on let's"
+  },
+  {
+    "start": 299.68,
+    "duration": 3.28,
+    "text": "take for now randomly let's say i'm"
+  },
+  {
+    "start": 301.12,
+    "duration": 3.6,
+    "text": "taking random pivot element so let's say"
+  },
+  {
+    "start": 302.96,
+    "duration": 4.72,
+    "text": "i take um"
+  },
+  {
+    "start": 304.72,
+    "duration": 2.96,
+    "text": "i take something like"
+  },
+  {
+    "start": 308.4,
+    "duration": 3.84,
+    "text": "i take 4 i take four as my favorite"
+  },
+  {
+    "start": 311.039,
+    "duration": 4.16,
+    "text": "element"
+  },
+  {
+    "start": 312.24,
+    "duration": 5.76,
+    "text": "my my wish random totally random"
+  },
+  {
+    "start": 315.199,
+    "duration": 4.801,
+    "text": "so the idea is that after every pass"
+  },
+  {
+    "start": 318.0,
+    "duration": 3.84,
+    "text": "all the elements that are smaller than"
+  },
+  {
+    "start": 320.0,
+    "duration": 3.12,
+    "text": "four should be on the left hand side all"
+  },
+  {
+    "start": 321.84,
+    "duration": 3.919,
+    "text": "the elements that are greater than 4"
+  },
+  {
+    "start": 323.12,
+    "duration": 4.639,
+    "text": "should be on the right hand side so we"
+  },
+  {
+    "start": 325.759,
+    "duration": 4.081,
+    "text": "know that after we perform this thing"
+  },
+  {
+    "start": 327.759,
+    "duration": 4.16,
+    "text": "how we are doing it will do later on but"
+  },
+  {
+    "start": 329.84,
+    "duration": 4.16,
+    "text": "after we perform this thing that is over"
+  },
+  {
+    "start": 331.919,
+    "duration": 3.601,
+    "text": "here that all the elements smaller than"
+  },
+  {
+    "start": 334.0,
+    "duration": 2.639,
+    "text": "4 should be on the left hand side and"
+  },
+  {
+    "start": 335.52,
+    "duration": 3.76,
+    "text": "greater than 4 should be on the right"
+  },
+  {
+    "start": 336.639,
+    "duration": 4.721,
+    "text": "hand side after that we will have an"
+  },
+  {
+    "start": 339.28,
+    "duration": 3.44,
+    "text": "array somewhat like this"
+  },
+  {
+    "start": 341.36,
+    "duration": 4.88,
+    "text": "will we not"
+  },
+  {
+    "start": 342.72,
+    "duration": 5.039,
+    "text": "we can have 1 3 2 4"
+  },
+  {
+    "start": 346.24,
+    "duration": 3.36,
+    "text": "5 something like this"
+  },
+  {
+    "start": 347.759,
+    "duration": 4.081,
+    "text": "it may or may not be sorted but can you"
+  },
+  {
+    "start": 349.6,
+    "duration": 4.0,
+    "text": "see that all the elements on the left"
+  },
+  {
+    "start": 351.84,
+    "duration": 3.68,
+    "text": "hand side of the pivot are smaller than"
+  },
+  {
+    "start": 353.6,
+    "duration": 3.039,
+    "text": "pivot on the right hand side are greater"
+  },
+  {
+    "start": 355.52,
+    "duration": 2.72,
+    "text": "than pivot"
+  },
+  {
+    "start": 356.639,
+    "duration": 3.441,
+    "text": "can you all see that"
+  },
+  {
+    "start": 358.24,
+    "duration": 3.44,
+    "text": "how we are going to achieve this i'll"
+  },
+  {
+    "start": 360.08,
+    "duration": 4.32,
+    "text": "tell you later on but can you see what"
+  },
+  {
+    "start": 361.68,
+    "duration": 2.72,
+    "text": "we are trying to do"
+  },
+  {
+    "start": 364.479,
+    "duration": 4.56,
+    "text": "now recursion is going to be like hey"
+  },
+  {
+    "start": 366.56,
+    "duration": 4.0,
+    "text": "please try to sort this i know that now"
+  },
+  {
+    "start": 369.039,
+    "duration": 3.761,
+    "text": "this pivot is like at the correct"
+  },
+  {
+    "start": 370.56,
+    "duration": 4.0,
+    "text": "position that is something that i know"
+  },
+  {
+    "start": 372.8,
+    "duration": 4.16,
+    "text": "so that is what is happening"
+  },
+  {
+    "start": 374.56,
+    "duration": 4.479,
+    "text": "after every pass you are putting the"
+  },
+  {
+    "start": 376.96,
+    "duration": 3.84,
+    "text": "pivot at the correct position i repeat"
+  },
+  {
+    "start": 379.039,
+    "duration": 3.761,
+    "text": "in bubble sort after every pass you were"
+  },
+  {
+    "start": 380.8,
+    "duration": 4.16,
+    "text": "putting the largest element in the last"
+  },
+  {
+    "start": 382.8,
+    "duration": 4.0,
+    "text": "index or whatever in selection sort also"
+  },
+  {
+    "start": 384.96,
+    "duration": 3.6,
+    "text": "you were doing the same thing here what"
+  },
+  {
+    "start": 386.8,
+    "duration": 3.839,
+    "text": "is the unique thing"
+  },
+  {
+    "start": 388.56,
+    "duration": 4.4,
+    "text": "and in merge sort what were you doing"
+  },
+  {
+    "start": 390.639,
+    "duration": 4.481,
+    "text": "half half of the areas were sorted here"
+  },
+  {
+    "start": 392.96,
+    "duration": 3.44,
+    "text": "it's saying that the pivot element that"
+  },
+  {
+    "start": 395.12,
+    "duration": 2.639,
+    "text": "you're taking"
+  },
+  {
+    "start": 396.4,
+    "duration": 3.12,
+    "text": "that will be at the correct position"
+  },
+  {
+    "start": 397.759,
+    "duration": 3.44,
+    "text": "after every single pass"
+  },
+  {
+    "start": 399.52,
+    "duration": 3.44,
+    "text": "these individual arrows may not be"
+  },
+  {
+    "start": 401.199,
+    "duration": 4.081,
+    "text": "sorted"
+  },
+  {
+    "start": 402.96,
+    "duration": 4.4,
+    "text": "that is where recursion comes in pivot"
+  },
+  {
+    "start": 405.28,
+    "duration": 3.68,
+    "text": "is going to be like okay i am now at the"
+  },
+  {
+    "start": 407.36,
+    "duration": 3.6,
+    "text": "correct position"
+  },
+  {
+    "start": 408.96,
+    "duration": 3.519,
+    "text": "can you please fix the left hand side"
+  },
+  {
+    "start": 410.96,
+    "duration": 4.48,
+    "text": "and the right hand side recursion is"
+  },
+  {
+    "start": 412.479,
+    "duration": 2.961,
+    "text": "going to be calling this"
+  },
+  {
+    "start": 416.8,
+    "duration": 3.28,
+    "text": "and recursion is going to be calling"
+  },
+  {
+    "start": 418.8,
+    "duration": 3.6,
+    "text": "this"
+  },
+  {
+    "start": 420.08,
+    "duration": 3.839,
+    "text": "this is only one element so it will"
+  },
+  {
+    "start": 422.4,
+    "duration": 3.68,
+    "text": "obviously you know not sort anything"
+  },
+  {
+    "start": 423.919,
+    "duration": 3.201,
+    "text": "that is that is done so this is also now"
+  },
+  {
+    "start": 426.08,
+    "duration": 1.92,
+    "text": "correct"
+  },
+  {
+    "start": 427.12,
+    "duration": 2.639,
+    "text": "okay"
+  },
+  {
+    "start": 428.0,
+    "duration": 3.28,
+    "text": "and the problem is with this now here"
+  },
+  {
+    "start": 429.759,
+    "duration": 4.961,
+    "text": "also i need to choose another pivot"
+  },
+  {
+    "start": 431.28,
+    "duration": 5.84,
+    "text": "element let's say i take um"
+  },
+  {
+    "start": 434.72,
+    "duration": 3.44,
+    "text": "let's say i take 3 i take 3 as my pivot"
+  },
+  {
+    "start": 437.12,
+    "duration": 3.44,
+    "text": "element"
+  },
+  {
+    "start": 438.16,
+    "duration": 4.96,
+    "text": "so i take 3 as my pivot element it will"
+  },
+  {
+    "start": 440.56,
+    "duration": 4.32,
+    "text": "be something like um"
+  },
+  {
+    "start": 443.12,
+    "duration": 3.12,
+    "text": "your array should be all the elements"
+  },
+  {
+    "start": 444.88,
+    "duration": 3.039,
+    "text": "less than 3 should be on the left hand"
+  },
+  {
+    "start": 446.24,
+    "duration": 3.359,
+    "text": "side all the elements greater than 3"
+  },
+  {
+    "start": 447.919,
+    "duration": 3.84,
+    "text": "should be on the right hand side"
+  },
+  {
+    "start": 449.599,
+    "duration": 4.401,
+    "text": "so it should be one two and three"
+  },
+  {
+    "start": 451.759,
+    "duration": 4.401,
+    "text": "something like that this is my pivot"
+  },
+  {
+    "start": 454.0,
+    "duration": 3.68,
+    "text": "element now it will ask for this to be"
+  },
+  {
+    "start": 456.16,
+    "duration": 3.36,
+    "text": "sorted"
+  },
+  {
+    "start": 457.68,
+    "duration": 4.16,
+    "text": "right it will ask for this to be sorted"
+  },
+  {
+    "start": 459.52,
+    "duration": 3.679,
+    "text": "may or may not do it right so then it"
+  },
+  {
+    "start": 461.84,
+    "duration": 2.88,
+    "text": "will be sorted as well it will take"
+  },
+  {
+    "start": 463.199,
+    "duration": 4.0,
+    "text": "something it will take some under"
+  },
+  {
+    "start": 464.72,
+    "duration": 4.8,
+    "text": "another pivot let's say take takes one"
+  },
+  {
+    "start": 467.199,
+    "duration": 3.68,
+    "text": "as pivot be like okay all the elements"
+  },
+  {
+    "start": 469.52,
+    "duration": 2.959,
+    "text": "on the right hand side should be greater"
+  },
+  {
+    "start": 470.879,
+    "duration": 3.921,
+    "text": "than one it is"
+  },
+  {
+    "start": 472.479,
+    "duration": 2.321,
+    "text": "it is"
+  },
+  {
+    "start": 474.96,
+    "duration": 4.56,
+    "text": "here i want you to notice a point"
+  },
+  {
+    "start": 477.36,
+    "duration": 4.64,
+    "text": "in merge sort what was happening"
+  },
+  {
+    "start": 479.52,
+    "duration": 5.359,
+    "text": "remember very important point in merge"
+  },
+  {
+    "start": 482.0,
+    "duration": 5.44,
+    "text": "sort when the array was sorted"
+  },
+  {
+    "start": 484.879,
+    "duration": 4.641,
+    "text": "then also it will go till the very end"
+  },
+  {
+    "start": 487.44,
+    "duration": 4.08,
+    "text": "till the very base condition"
+  },
+  {
+    "start": 489.52,
+    "duration": 4.16,
+    "text": "here that will not happen if the array"
+  },
+  {
+    "start": 491.52,
+    "duration": 3.679,
+    "text": "is already sorted i will teach you how"
+  },
+  {
+    "start": 493.68,
+    "duration": 3.199,
+    "text": "the array is already sorted it will not"
+  },
+  {
+    "start": 495.199,
+    "duration": 3.84,
+    "text": "try to sort it even more it's already"
+  },
+  {
+    "start": 496.879,
+    "duration": 3.121,
+    "text": "sorted"
+  },
+  {
+    "start": 499.039,
+    "duration": 3.521,
+    "text": "okay"
+  },
+  {
+    "start": 500.0,
+    "duration": 4.879,
+    "text": "so it will change one two and three"
+  },
+  {
+    "start": 502.56,
+    "duration": 4.319,
+    "text": "this will now become to one two and"
+  },
+  {
+    "start": 504.879,
+    "duration": 3.521,
+    "text": "three so this is sorted by recursion"
+  },
+  {
+    "start": 506.879,
+    "duration": 3.921,
+    "text": "this is sorted by recursion entire thing"
+  },
+  {
+    "start": 508.4,
+    "duration": 4.72,
+    "text": "is sorted"
+  },
+  {
+    "start": 510.8,
+    "duration": 4.08,
+    "text": "in the previous example i showed you how"
+  },
+  {
+    "start": 513.12,
+    "duration": 2.56,
+    "text": "to do in place sorting"
+  },
+  {
+    "start": 514.88,
+    "duration": 3.12,
+    "text": "right"
+  },
+  {
+    "start": 515.68,
+    "duration": 3.919,
+    "text": "and even though in that merge merge sort"
+  },
+  {
+    "start": 518.0,
+    "duration": 2.64,
+    "text": "it was like taking a mix array if you"
+  },
+  {
+    "start": 519.599,
+    "duration": 3.761,
+    "text": "remember"
+  },
+  {
+    "start": 520.64,
+    "duration": 3.84,
+    "text": "and that was taking off and space"
+  },
+  {
+    "start": 523.36,
+    "duration": 3.44,
+    "text": "that is why"
+  },
+  {
+    "start": 524.48,
+    "duration": 3.6,
+    "text": "we use quick sort in like when we use"
+  },
+  {
+    "start": 526.8,
+    "duration": 3.2,
+    "text": "arrays we'll talk about that later on"
+  },
+  {
+    "start": 528.08,
+    "duration": 2.72,
+    "text": "when we do merge sort versus quicksort"
+  },
+  {
+    "start": 530.0,
+    "duration": 2.88,
+    "text": "but"
+  },
+  {
+    "start": 530.8,
+    "duration": 5.28,
+    "text": "it's it's like we can use it like we can"
+  },
+  {
+    "start": 532.88,
+    "duration": 5.28,
+    "text": "use quick sort to you know"
+  },
+  {
+    "start": 536.08,
+    "duration": 3.68,
+    "text": "provide a bit more efficiency i'll cover"
+  },
+  {
+    "start": 538.16,
+    "duration": 4.88,
+    "text": "the complexity analysis and recurrence"
+  },
+  {
+    "start": 539.76,
+    "duration": 5.199,
+    "text": "relation and everything later on so"
+  },
+  {
+    "start": 543.04,
+    "duration": 3.76,
+    "text": "here you can see that in like we were"
+  },
+  {
+    "start": 544.959,
+    "duration": 3.521,
+    "text": "doing previously we are just going to"
+  },
+  {
+    "start": 546.8,
+    "duration": 3.599,
+    "text": "have the void return type means i'm not"
+  },
+  {
+    "start": 548.48,
+    "duration": 3.359,
+    "text": "creating a new array i'm sorting the"
+  },
+  {
+    "start": 550.399,
+    "duration": 3.361,
+    "text": "original array"
+  },
+  {
+    "start": 551.839,
+    "duration": 3.601,
+    "text": "so i've covered this in detail already"
+  },
+  {
+    "start": 553.76,
+    "duration": 4.32,
+    "text": "how do we pass the array in the function"
+  },
+  {
+    "start": 555.44,
+    "duration": 4.24,
+    "text": "argument of recursion and how different"
+  },
+  {
+    "start": 558.08,
+    "duration": 4.319,
+    "text": "reference variables will be pointing to"
+  },
+  {
+    "start": 559.68,
+    "duration": 4.32,
+    "text": "the same object so in this function call"
+  },
+  {
+    "start": 562.399,
+    "duration": 3.361,
+    "text": "i'm going to make changes in this part"
+  },
+  {
+    "start": 564.0,
+    "duration": 3.68,
+    "text": "of the array it will change the original"
+  },
+  {
+    "start": 565.76,
+    "duration": 4.16,
+    "text": "array because the reference variable is"
+  },
+  {
+    "start": 567.68,
+    "duration": 2.24,
+    "text": "same"
+  },
+  {
+    "start": 570.8,
+    "duration": 3.76,
+    "text": "okay"
+  },
+  {
+    "start": 572.08,
+    "duration": 2.48,
+    "text": "sound good"
+  },
+  {
+    "start": 574.72,
+    "duration": 4.08,
+    "text": "cool so this is like the recursive tree"
+  },
+  {
+    "start": 577.279,
+    "duration": 3.361,
+    "text": "for the same"
+  },
+  {
+    "start": 578.8,
+    "duration": 3.36,
+    "text": "now some of the problems uh some of the"
+  },
+  {
+    "start": 580.64,
+    "duration": 3.759,
+    "text": "doubts you may have is"
+  },
+  {
+    "start": 582.16,
+    "duration": 4.239,
+    "text": "how are you actually doing this like how"
+  },
+  {
+    "start": 584.399,
+    "duration": 3.601,
+    "text": "how are you making sure that pivot"
+  },
+  {
+    "start": 586.399,
+    "duration": 3.761,
+    "text": "element comes at the correct position"
+  },
+  {
+    "start": 588.0,
+    "duration": 4.24,
+    "text": "after every single pass that's doubt"
+  },
+  {
+    "start": 590.16,
+    "duration": 4.16,
+    "text": "number one doubt number two how do we"
+  },
+  {
+    "start": 592.24,
+    "duration": 3.76,
+    "text": "choose pivot you are checking randomly"
+  },
+  {
+    "start": 594.32,
+    "duration": 3.04,
+    "text": "how do we choose it"
+  },
+  {
+    "start": 596.0,
+    "duration": 2.56,
+    "text": "okay"
+  },
+  {
+    "start": 597.36,
+    "duration": 3.039,
+    "text": "so let's see"
+  },
+  {
+    "start": 598.56,
+    "duration": 3.519,
+    "text": "first let's see what if we already have"
+  },
+  {
+    "start": 600.399,
+    "duration": 4.081,
+    "text": "the pivot how can we put it at the"
+  },
+  {
+    "start": 602.079,
+    "duration": 4.721,
+    "text": "correct position so it's very simple"
+  },
+  {
+    "start": 604.48,
+    "duration": 4.56,
+    "text": "actually you just start the two pointer"
+  },
+  {
+    "start": 606.8,
+    "duration": 5.599,
+    "text": "two pointers one at start and one at end"
+  },
+  {
+    "start": 609.04,
+    "duration": 3.359,
+    "text": "so five four three two one right"
+  },
+  {
+    "start": 613.6,
+    "duration": 6.239,
+    "text": "so i'm talking about"
+  },
+  {
+    "start": 616.0,
+    "duration": 3.839,
+    "text": "how to put pivot at correct position"
+  },
+  {
+    "start": 624.24,
+    "duration": 6.159,
+    "text": "so i have 5 4 3 2 1. pivot is this"
+  },
+  {
+    "start": 629.36,
+    "duration": 3.039,
+    "text": "what i'm going to do is i'm going to"
+  },
+  {
+    "start": 630.399,
+    "duration": 3.041,
+    "text": "start from here i'm gonna say my start"
+  },
+  {
+    "start": 632.399,
+    "duration": 2.56,
+    "text": "and my"
+  },
+  {
+    "start": 633.44,
+    "duration": 2.32,
+    "text": "end"
+  },
+  {
+    "start": 634.959,
+    "duration": 2.32,
+    "text": "okay"
+  },
+  {
+    "start": 635.76,
+    "duration": 3.68,
+    "text": "something like that"
+  },
+  {
+    "start": 637.279,
+    "duration": 3.68,
+    "text": "i'm gonna take then my pivot this is my"
+  },
+  {
+    "start": 639.44,
+    "duration": 4.079,
+    "text": "pivot"
+  },
+  {
+    "start": 640.959,
+    "duration": 5.281,
+    "text": "okay then i'm gonna start checking"
+  },
+  {
+    "start": 643.519,
+    "duration": 5.041,
+    "text": "i'm gonna start checking that hey while"
+  },
+  {
+    "start": 646.24,
+    "duration": 3.76,
+    "text": "this because what do we need to do"
+  },
+  {
+    "start": 648.56,
+    "duration": 2.88,
+    "text": "all the elements that are at the start"
+  },
+  {
+    "start": 650.0,
+    "duration": 3.12,
+    "text": "obviously this size like lies on the"
+  },
+  {
+    "start": 651.44,
+    "duration": 3.76,
+    "text": "left hand side of pivot and these have"
+  },
+  {
+    "start": 653.12,
+    "duration": 4.48,
+    "text": "to be smaller than pivot and we know"
+  },
+  {
+    "start": 655.2,
+    "duration": 3.68,
+    "text": "that at the end any element that i have"
+  },
+  {
+    "start": 657.6,
+    "duration": 3.52,
+    "text": "it's obviously on the right hand side of"
+  },
+  {
+    "start": 658.88,
+    "duration": 3.76,
+    "text": "the pivot and it should be"
+  },
+  {
+    "start": 661.12,
+    "duration": 3.92,
+    "text": "hence it should be what"
+  },
+  {
+    "start": 662.64,
+    "duration": 5.68,
+    "text": "it should be greater than pivot so"
+  },
+  {
+    "start": 665.04,
+    "duration": 4.88,
+    "text": "whenever we find a violation"
+  },
+  {
+    "start": 668.32,
+    "duration": 3.759,
+    "text": "whenever we find a violation what is a"
+  },
+  {
+    "start": 669.92,
+    "duration": 3.84,
+    "text": "violation violation means element lying"
+  },
+  {
+    "start": 672.079,
+    "duration": 3.681,
+    "text": "on the left hand side of the pivot is"
+  },
+  {
+    "start": 673.76,
+    "duration": 4.0,
+    "text": "greater than pivot an element lying on"
+  },
+  {
+    "start": 675.76,
+    "duration": 3.6,
+    "text": "the right hand side of the pivot is"
+  },
+  {
+    "start": 677.76,
+    "duration": 3.6,
+    "text": "what"
+  },
+  {
+    "start": 679.36,
+    "duration": 3.52,
+    "text": "smaller than pivot whenever we find"
+  },
+  {
+    "start": 681.36,
+    "duration": 3.36,
+    "text": "these two violations"
+  },
+  {
+    "start": 682.88,
+    "duration": 4.079,
+    "text": "we just swap it then both the vibrations"
+  },
+  {
+    "start": 684.72,
+    "duration": 4.799,
+    "text": "will be fixed let's see how"
+  },
+  {
+    "start": 686.959,
+    "duration": 4.081,
+    "text": "so we're talking about"
+  },
+  {
+    "start": 689.519,
+    "duration": 2.721,
+    "text": "s okay"
+  },
+  {
+    "start": 691.04,
+    "duration": 3.52,
+    "text": "so you can say"
+  },
+  {
+    "start": 692.24,
+    "duration": 4.0,
+    "text": "is five a violation yes it is because"
+  },
+  {
+    "start": 694.56,
+    "duration": 3.04,
+    "text": "five is actually greater than pivot and"
+  },
+  {
+    "start": 696.24,
+    "duration": 2.159,
+    "text": "it lies on the right hand and left hand"
+  },
+  {
+    "start": 697.6,
+    "duration": 2.88,
+    "text": "side"
+  },
+  {
+    "start": 698.399,
+    "duration": 4.321,
+    "text": "so violation okay"
+  },
+  {
+    "start": 700.48,
+    "duration": 4.0,
+    "text": "and is one also a violation the end"
+  },
+  {
+    "start": 702.72,
+    "duration": 3.04,
+    "text": "you're currently at is that also a"
+  },
+  {
+    "start": 704.48,
+    "duration": 2.479,
+    "text": "violation it's gonna be like yes it is"
+  },
+  {
+    "start": 705.76,
+    "duration": 4.0,
+    "text": "it's actually smaller than pivot it"
+  },
+  {
+    "start": 706.959,
+    "duration": 4.401,
+    "text": "should be greater swap"
+  },
+  {
+    "start": 709.76,
+    "duration": 2.72,
+    "text": "this will be now"
+  },
+  {
+    "start": 711.36,
+    "duration": 2.8,
+    "text": "equal to"
+  },
+  {
+    "start": 712.48,
+    "duration": 2.56,
+    "text": "something like this"
+  },
+  {
+    "start": 714.16,
+    "duration": 3.28,
+    "text": "1"
+  },
+  {
+    "start": 715.04,
+    "duration": 4.799,
+    "text": "four three two"
+  },
+  {
+    "start": 717.44,
+    "duration": 4.24,
+    "text": "five and minus one"
+  },
+  {
+    "start": 719.839,
+    "duration": 2.881,
+    "text": "start plus one"
+  },
+  {
+    "start": 721.68,
+    "duration": 2.719,
+    "text": "pivot"
+  },
+  {
+    "start": 722.72,
+    "duration": 3.359,
+    "text": "pivot i can take extra"
+  },
+  {
+    "start": 724.399,
+    "duration": 3.68,
+    "text": "i can just write it over here instead of"
+  },
+  {
+    "start": 726.079,
+    "duration": 5.0,
+    "text": "making it complicated pivot is equal to"
+  },
+  {
+    "start": 728.079,
+    "duration": 3.0,
+    "text": "four"
+  },
+  {
+    "start": 732.399,
+    "duration": 4.321,
+    "text": "okay"
+  },
+  {
+    "start": 734.399,
+    "duration": 4.401,
+    "text": "so here i can see again that hey this is"
+  },
+  {
+    "start": 736.72,
+    "duration": 3.84,
+    "text": "actually less than uh less"
+  },
+  {
+    "start": 738.8,
+    "duration": 3.599,
+    "text": "less than equal to it's"
+  },
+  {
+    "start": 740.56,
+    "duration": 4.16,
+    "text": "equal to pivot it should be like less"
+  },
+  {
+    "start": 742.399,
+    "duration": 3.841,
+    "text": "than and here you can say that okay end"
+  },
+  {
+    "start": 744.72,
+    "duration": 3.84,
+    "text": "is actually"
+  },
+  {
+    "start": 746.24,
+    "duration": 3.76,
+    "text": "smaller than pivot it should be you know"
+  },
+  {
+    "start": 748.56,
+    "duration": 3.279,
+    "text": "uh it should be"
+  },
+  {
+    "start": 750.0,
+    "duration": 5.279,
+    "text": "uh less than pivot so this is a"
+  },
+  {
+    "start": 751.839,
+    "duration": 3.44,
+    "text": "violation this is a violation swap"
+  },
+  {
+    "start": 757.519,
+    "duration": 3.681,
+    "text": "end over here and start over"
+  },
+  {
+    "start": 760.24,
+    "duration": 2.719,
+    "text": "here"
+  },
+  {
+    "start": 761.2,
+    "duration": 2.96,
+    "text": "now it's going to be like okay and then"
+  },
+  {
+    "start": 762.959,
+    "duration": 3.841,
+    "text": "start this is"
+  },
+  {
+    "start": 764.16,
+    "duration": 3.6,
+    "text": "obviously uh start should be less than"
+  },
+  {
+    "start": 766.8,
+    "duration": 5.44,
+    "text": "pivot"
+  },
+  {
+    "start": 767.76,
+    "duration": 6.72,
+    "text": "uh so it is and um"
+  },
+  {
+    "start": 772.24,
+    "duration": 4.159,
+    "text": "then uh it's going to be like uh end"
+  },
+  {
+    "start": 774.48,
+    "duration": 4.32,
+    "text": "should be greater than pivot and it's"
+  },
+  {
+    "start": 776.399,
+    "duration": 5.281,
+    "text": "going to be like no it's not so in that"
+  },
+  {
+    "start": 778.8,
+    "duration": 5.52,
+    "text": "case i'm just going to say that uh"
+  },
+  {
+    "start": 781.68,
+    "duration": 4.399,
+    "text": "i can swap this but instead i will be"
+  },
+  {
+    "start": 784.32,
+    "duration": 3.759,
+    "text": "you know like just you know maybe you'll"
+  },
+  {
+    "start": 786.079,
+    "duration": 3.76,
+    "text": "be swapping with the uh the same index"
+  },
+  {
+    "start": 788.079,
+    "duration": 3.921,
+    "text": "it does not make this does not matter"
+  },
+  {
+    "start": 789.839,
+    "duration": 3.601,
+    "text": "because it's at the same index can you"
+  },
+  {
+    "start": 792.0,
+    "duration": 3.44,
+    "text": "see that now pivot is at the correct"
+  },
+  {
+    "start": 793.44,
+    "duration": 3.28,
+    "text": "position"
+  },
+  {
+    "start": 795.44,
+    "duration": 4.519,
+    "text": "can you see that the pivot is at the"
+  },
+  {
+    "start": 796.72,
+    "duration": 3.239,
+    "text": "correct position"
+  },
+  {
+    "start": 800.72,
+    "duration": 3.04,
+    "text": "it might be possible that this part of"
+  },
+  {
+    "start": 802.24,
+    "duration": 3.44,
+    "text": "the array or whatever"
+  },
+  {
+    "start": 803.76,
+    "duration": 3.68,
+    "text": "you know um so when we're talking about"
+  },
+  {
+    "start": 805.68,
+    "duration": 3.68,
+    "text": "this part of the array and i take pivot"
+  },
+  {
+    "start": 807.44,
+    "duration": 3.519,
+    "text": "again let's say i take pivot as 2. now"
+  },
+  {
+    "start": 809.36,
+    "duration": 2.56,
+    "text": "in the recursion call this is already"
+  },
+  {
+    "start": 810.959,
+    "duration": 3.12,
+    "text": "sorted"
+  },
+  {
+    "start": 811.92,
+    "duration": 3.919,
+    "text": "i take pivot s2 so i'm just going to be"
+  },
+  {
+    "start": 814.079,
+    "duration": 3.2,
+    "text": "like"
+  },
+  {
+    "start": 815.839,
+    "duration": 2.881,
+    "text": "how are we actually finding the"
+  },
+  {
+    "start": 817.279,
+    "duration": 4.081,
+    "text": "violation so we are basically going to"
+  },
+  {
+    "start": 818.72,
+    "duration": 2.64,
+    "text": "say while"
+  },
+  {
+    "start": 821.76,
+    "duration": 4.48,
+    "text": "the number at my start"
+  },
+  {
+    "start": 824.32,
+    "duration": 3.199,
+    "text": "is actually less than"
+  },
+  {
+    "start": 826.24,
+    "duration": 3.279,
+    "text": "pivot"
+  },
+  {
+    "start": 827.519,
+    "duration": 4.241,
+    "text": "so while this condition is true keep"
+  },
+  {
+    "start": 829.519,
+    "duration": 4.641,
+    "text": "moving forward"
+  },
+  {
+    "start": 831.76,
+    "duration": 4.48,
+    "text": "because this is the true condition"
+  },
+  {
+    "start": 834.16,
+    "duration": 4.16,
+    "text": "number has to be less than pivot if it"
+  },
+  {
+    "start": 836.24,
+    "duration": 3.36,
+    "text": "is less than pivot don't worry let's"
+  },
+  {
+    "start": 838.32,
+    "duration": 3.28,
+    "text": "move forward"
+  },
+  {
+    "start": 839.6,
+    "duration": 4.16,
+    "text": "i can just say start plus plus"
+  },
+  {
+    "start": 841.6,
+    "duration": 4.4,
+    "text": "so when this loop ends"
+  },
+  {
+    "start": 843.76,
+    "duration": 5.84,
+    "text": "my start will be at the position"
+  },
+  {
+    "start": 846.0,
+    "duration": 3.6,
+    "text": "that is greater than pivot"
+  },
+  {
+    "start": 849.92,
+    "duration": 3.84,
+    "text": "okay so similarly start will be over"
+  },
+  {
+    "start": 851.519,
+    "duration": 2.241,
+    "text": "here"
+  },
+  {
+    "start": 853.92,
+    "duration": 3.12,
+    "text": "like this greater than equal to pivot so"
+  },
+  {
+    "start": 855.68,
+    "duration": 2.959,
+    "text": "it'll be like okay now this is the"
+  },
+  {
+    "start": 857.04,
+    "duration": 3.919,
+    "text": "violation it should be less than pivot"
+  },
+  {
+    "start": 858.639,
+    "duration": 6.32,
+    "text": "but it is actually equal to pivot same"
+  },
+  {
+    "start": 860.959,
+    "duration": 4.0,
+    "text": "thing for end while end is"
+  },
+  {
+    "start": 866.16,
+    "duration": 3.28,
+    "text": "my end"
+  },
+  {
+    "start": 867.76,
+    "duration": 3.519,
+    "text": "is greater than pivot that is something"
+  },
+  {
+    "start": 869.44,
+    "duration": 3.839,
+    "text": "we want we want the end elements to be"
+  },
+  {
+    "start": 871.279,
+    "duration": 4.24,
+    "text": "greater than pivot but in case you find"
+  },
+  {
+    "start": 873.279,
+    "duration": 3.92,
+    "text": "in the violation that end is not greater"
+  },
+  {
+    "start": 875.519,
+    "duration": 3.361,
+    "text": "than pivot"
+  },
+  {
+    "start": 877.199,
+    "duration": 3.2,
+    "text": "in that case you will find the violation"
+  },
+  {
+    "start": 878.88,
+    "duration": 3.84,
+    "text": "like we did over here"
+  },
+  {
+    "start": 880.399,
+    "duration": 4.081,
+    "text": "over here we did we found the violation"
+  },
+  {
+    "start": 882.72,
+    "duration": 5.119,
+    "text": "in that case now you have the violation"
+  },
+  {
+    "start": 884.48,
+    "duration": 5.76,
+    "text": "for s and e just swap"
+  },
+  {
+    "start": 887.839,
+    "duration": 4.0,
+    "text": "that's it"
+  },
+  {
+    "start": 890.24,
+    "duration": 3.839,
+    "text": "please don't think that four should be"
+  },
+  {
+    "start": 891.839,
+    "duration": 3.761,
+    "text": "at this position only no the whole idea"
+  },
+  {
+    "start": 894.079,
+    "duration": 5.401,
+    "text": "is to put four in the correct position"
+  },
+  {
+    "start": 895.6,
+    "duration": 3.88,
+    "text": "the pivot in the correct position"
+  },
+  {
+    "start": 899.519,
+    "duration": 5.12,
+    "text": "okay so it's gonna be like okay this is"
+  },
+  {
+    "start": 901.519,
+    "duration": 4.961,
+    "text": "actually true so i'm gonna move behind"
+  },
+  {
+    "start": 904.639,
+    "duration": 4.081,
+    "text": "so now s and d are at the same position"
+  },
+  {
+    "start": 906.48,
+    "duration": 3.919,
+    "text": "swapping will lead to like uh you know"
+  },
+  {
+    "start": 908.72,
+    "duration": 4.08,
+    "text": "swapping will lead to nothing changes"
+  },
+  {
+    "start": 910.399,
+    "duration": 4.321,
+    "text": "like so number of you swapped and then"
+  },
+  {
+    "start": 912.8,
+    "duration": 2.96,
+    "text": "after swapping s moves ahead e moves"
+  },
+  {
+    "start": 914.72,
+    "duration": 2.64,
+    "text": "behind"
+  },
+  {
+    "start": 915.76,
+    "duration": 4.879,
+    "text": "loop terminated"
+  },
+  {
+    "start": 917.36,
+    "duration": 3.279,
+    "text": "the main loop outside loop"
+  },
+  {
+    "start": 922.959,
+    "duration": 6.401,
+    "text": "that makes things clear"
+  },
+  {
+    "start": 926.399,
+    "duration": 5.201,
+    "text": "so that is how it's happening internally"
+  },
+  {
+    "start": 929.36,
+    "duration": 2.24,
+    "text": "okay"
+  },
+  {
+    "start": 932.399,
+    "duration": 3.44,
+    "text": "and that's how the recursion call is"
+  },
+  {
+    "start": 933.68,
+    "duration": 3.839,
+    "text": "working it's first you're going to put"
+  },
+  {
+    "start": 935.839,
+    "duration": 3.68,
+    "text": "using this or entire while loop"
+  },
+  {
+    "start": 937.519,
+    "duration": 3.44,
+    "text": "condition or whatever you are going to"
+  },
+  {
+    "start": 939.519,
+    "duration": 3.76,
+    "text": "put the pivot at the correct position"
+  },
+  {
+    "start": 940.959,
+    "duration": 3.68,
+    "text": "then you are making a recursion call"
+  },
+  {
+    "start": 943.279,
+    "duration": 3.36,
+    "text": "and what is the recursion call going to"
+  },
+  {
+    "start": 944.639,
+    "duration": 3.521,
+    "text": "be can we see"
+  },
+  {
+    "start": 946.639,
+    "duration": 2.401,
+    "text": "a recursion call is actually going to be"
+  },
+  {
+    "start": 948.16,
+    "duration": 2.64,
+    "text": "now"
+  },
+  {
+    "start": 949.04,
+    "duration": 4.08,
+    "text": "equal to let's say this was my low"
+  },
+  {
+    "start": 950.8,
+    "duration": 4.399,
+    "text": "initially this was my low and this was"
+  },
+  {
+    "start": 953.12,
+    "duration": 4.56,
+    "text": "my high"
+  },
+  {
+    "start": 955.199,
+    "duration": 4.241,
+    "text": "pivot is at now at the correct position"
+  },
+  {
+    "start": 957.68,
+    "duration": 3.519,
+    "text": "okay pivot pivot is at the correct"
+  },
+  {
+    "start": 959.44,
+    "duration": 3.68,
+    "text": "position what is the recursion call"
+  },
+  {
+    "start": 961.199,
+    "duration": 3.841,
+    "text": "going to be now for this thing"
+  },
+  {
+    "start": 963.12,
+    "duration": 3.279,
+    "text": "and for this thing so this is actually"
+  },
+  {
+    "start": 965.04,
+    "duration": 4.159,
+    "text": "equal to what"
+  },
+  {
+    "start": 966.399,
+    "duration": 5.041,
+    "text": "now array is divided from low till"
+  },
+  {
+    "start": 969.199,
+    "duration": 3.281,
+    "text": "what can you see"
+  },
+  {
+    "start": 971.44,
+    "duration": 2.319,
+    "text": "low till"
+  },
+  {
+    "start": 972.48,
+    "duration": 3.12,
+    "text": "end"
+  },
+  {
+    "start": 973.759,
+    "duration": 3.601,
+    "text": "end"
+  },
+  {
+    "start": 975.6,
+    "duration": 3.12,
+    "text": "and this is divided to what this is"
+  },
+  {
+    "start": 977.36,
+    "duration": 2.719,
+    "text": "divided to"
+  },
+  {
+    "start": 978.72,
+    "duration": 2.479,
+    "text": "high"
+  },
+  {
+    "start": 980.079,
+    "duration": 3.281,
+    "text": "um"
+  },
+  {
+    "start": 981.199,
+    "duration": 3.76,
+    "text": "from where"
+  },
+  {
+    "start": 983.36,
+    "duration": 3.919,
+    "text": "basically like when this moves forward"
+  },
+  {
+    "start": 984.959,
+    "duration": 5.841,
+    "text": "so uh e will come over here and s plus"
+  },
+  {
+    "start": 987.279,
+    "duration": 4.56,
+    "text": "plus it will go over here"
+  },
+  {
+    "start": 990.8,
+    "duration": 2.32,
+    "text": "start"
+  },
+  {
+    "start": 991.839,
+    "duration": 3.36,
+    "text": "right that is what is happening over"
+  },
+  {
+    "start": 993.12,
+    "duration": 3.44,
+    "text": "here as well start comes over here and"
+  },
+  {
+    "start": 995.199,
+    "duration": 3.041,
+    "text": "similarly that is what is happening over"
+  },
+  {
+    "start": 996.56,
+    "duration": 3.68,
+    "text": "here so this part of the area in this"
+  },
+  {
+    "start": 998.24,
+    "duration": 4.88,
+    "text": "part of the area this part is what"
+  },
+  {
+    "start": 1000.24,
+    "duration": 5.44,
+    "text": "starting from start till high and this"
+  },
+  {
+    "start": 1003.12,
+    "duration": 4.56,
+    "text": "is what starting from"
+  },
+  {
+    "start": 1005.68,
+    "duration": 3.519,
+    "text": "um"
+  },
+  {
+    "start": 1007.68,
+    "duration": 4.32,
+    "text": "my low"
+  },
+  {
+    "start": 1009.199,
+    "duration": 5.2,
+    "text": "till the end"
+  },
+  {
+    "start": 1012.0,
+    "duration": 4.24,
+    "text": "so that four variables right start and"
+  },
+  {
+    "start": 1014.399,
+    "duration": 3.201,
+    "text": "end"
+  },
+  {
+    "start": 1016.24,
+    "duration": 2.959,
+    "text": "low and high"
+  },
+  {
+    "start": 1017.6,
+    "duration": 4.56,
+    "text": "so this low and high is basically the"
+  },
+  {
+    "start": 1019.199,
+    "duration": 5.041,
+    "text": "main one the main thing that is"
+  },
+  {
+    "start": 1022.16,
+    "duration": 4.72,
+    "text": "the determining which part of the area"
+  },
+  {
+    "start": 1024.24,
+    "duration": 4.799,
+    "text": "you are working on so this is main tells"
+  },
+  {
+    "start": 1026.88,
+    "duration": 2.159,
+    "text": "us"
+  },
+  {
+    "start": 1029.6,
+    "duration": 3.76,
+    "text": "which part of array you are working on"
+  },
+  {
+    "start": 1036.559,
+    "duration": 4.961,
+    "text": "and this is just for swapping"
+  },
+  {
+    "start": 1040.079,
+    "duration": 3.281,
+    "text": "okay"
+  },
+  {
+    "start": 1041.52,
+    "duration": 3.039,
+    "text": "so you can see that by the time the"
+  },
+  {
+    "start": 1043.36,
+    "duration": 2.16,
+    "text": "array the pivot is at the correct"
+  },
+  {
+    "start": 1044.559,
+    "duration": 2.88,
+    "text": "position"
+  },
+  {
+    "start": 1045.52,
+    "duration": 2.799,
+    "text": "this is actually coordinate low comma"
+  },
+  {
+    "start": 1047.439,
+    "duration": 4.161,
+    "text": "end"
+  },
+  {
+    "start": 1048.319,
+    "duration": 4.161,
+    "text": "and this is actually coordinate"
+  },
+  {
+    "start": 1051.6,
+    "duration": 4.24,
+    "text": "what"
+  },
+  {
+    "start": 1052.48,
+    "duration": 3.36,
+    "text": "start comma high"
+  },
+  {
+    "start": 1058.72,
+    "duration": 2.56,
+    "text": "sound good"
+  },
+  {
+    "start": 1064.96,
+    "duration": 4.719,
+    "text": "that is it we can take even more"
+  },
+  {
+    "start": 1066.799,
+    "duration": 2.88,
+    "text": "examples if you want"
+  },
+  {
+    "start": 1071.039,
+    "duration": 4.0,
+    "text": "right so let's take one more example and"
+  },
+  {
+    "start": 1072.96,
+    "duration": 3.76,
+    "text": "then we can look at the complexity"
+  },
+  {
+    "start": 1075.039,
+    "duration": 3.52,
+    "text": "analysis and there is another example on"
+  },
+  {
+    "start": 1076.72,
+    "duration": 2.959,
+    "text": "the screen because you may ask me a"
+  },
+  {
+    "start": 1078.559,
+    "duration": 3.281,
+    "text": "question like something that is"
+  },
+  {
+    "start": 1079.679,
+    "duration": 4.401,
+    "text": "remaining right now is kunal how do you"
+  },
+  {
+    "start": 1081.84,
+    "duration": 4.32,
+    "text": "actually pick the pivot"
+  },
+  {
+    "start": 1084.08,
+    "duration": 4.8,
+    "text": "how are you picking the pivot so here"
+  },
+  {
+    "start": 1086.16,
+    "duration": 5.519,
+    "text": "you can see that um they are picking the"
+  },
+  {
+    "start": 1088.88,
+    "duration": 4.32,
+    "text": "pivot that is the last element always so"
+  },
+  {
+    "start": 1091.679,
+    "duration": 3.36,
+    "text": "it's gonna be like okay always pick the"
+  },
+  {
+    "start": 1093.2,
+    "duration": 3.52,
+    "text": "last element as pivot"
+  },
+  {
+    "start": 1095.039,
+    "duration": 3.121,
+    "text": "so here it's going to be like okay then"
+  },
+  {
+    "start": 1096.72,
+    "duration": 3.199,
+    "text": "we are going to partition it"
+  },
+  {
+    "start": 1098.16,
+    "duration": 3.92,
+    "text": "around this particular number which is"
+  },
+  {
+    "start": 1099.919,
+    "duration": 4.161,
+    "text": "70. we already know it what is meant by"
+  },
+  {
+    "start": 1102.08,
+    "duration": 3.599,
+    "text": "partition all the elements less than 70"
+  },
+  {
+    "start": 1104.08,
+    "duration": 3.52,
+    "text": "should be on the left hand side right"
+  },
+  {
+    "start": 1105.679,
+    "duration": 3.921,
+    "text": "then 70 should be on the right hand side"
+  },
+  {
+    "start": 1107.6,
+    "duration": 3.52,
+    "text": "that is what is happening over here"
+  },
+  {
+    "start": 1109.6,
+    "duration": 3.52,
+    "text": "similarly now it's taking again the end"
+  },
+  {
+    "start": 1111.12,
+    "duration": 3.6,
+    "text": "as pivot now all the elements greater"
+  },
+  {
+    "start": 1113.12,
+    "duration": 3.52,
+    "text": "than 50 will be on the left hand side"
+  },
+  {
+    "start": 1114.72,
+    "duration": 3.839,
+    "text": "all the elements sorry less than 50 will"
+  },
+  {
+    "start": 1116.64,
+    "duration": 3.36,
+    "text": "be on the left hand side greater than 50"
+  },
+  {
+    "start": 1118.559,
+    "duration": 4.0,
+    "text": "will be on the right hand side since no"
+  },
+  {
+    "start": 1120.0,
+    "duration": 3.84,
+    "text": "number is greater than 50 this is empty"
+  },
+  {
+    "start": 1122.559,
+    "duration": 2.641,
+    "text": "same thing from here same thing from"
+  },
+  {
+    "start": 1123.84,
+    "duration": 3.28,
+    "text": "here that's it"
+  },
+  {
+    "start": 1125.2,
+    "duration": 3.92,
+    "text": "all the objects these things are like"
+  },
+  {
+    "start": 1127.12,
+    "duration": 4.32,
+    "text": "just partitions are just like reference"
+  },
+  {
+    "start": 1129.12,
+    "duration": 4.0,
+    "text": "points so it's modifying the original"
+  },
+  {
+    "start": 1131.44,
+    "duration": 3.28,
+    "text": "array"
+  },
+  {
+    "start": 1133.12,
+    "duration": 4.72,
+    "text": "okay so let's write this down let's look"
+  },
+  {
+    "start": 1134.72,
+    "duration": 4.88,
+    "text": "into which particular way is best and uh"
+  },
+  {
+    "start": 1137.84,
+    "duration": 4.32,
+    "text": "you know what are the disadvantages of"
+  },
+  {
+    "start": 1139.6,
+    "duration": 4.24,
+    "text": "using this approach so the area is that"
+  },
+  {
+    "start": 1142.16,
+    "duration": 3.04,
+    "text": "uh how do we pick the pivot element"
+  },
+  {
+    "start": 1143.84,
+    "duration": 3.76,
+    "text": "right that's an important point that we"
+  },
+  {
+    "start": 1145.2,
+    "duration": 5.2,
+    "text": "did not discuss yet"
+  },
+  {
+    "start": 1147.6,
+    "duration": 5.84,
+    "text": "so you all know what pivot is now right"
+  },
+  {
+    "start": 1150.4,
+    "duration": 3.04,
+    "text": "how to pick pivot"
+  },
+  {
+    "start": 1155.44,
+    "duration": 2.72,
+    "text": "it's nothing pivot is just taking a"
+  },
+  {
+    "start": 1156.96,
+    "duration": 2.64,
+    "text": "random number"
+  },
+  {
+    "start": 1158.16,
+    "duration": 2.96,
+    "text": "i'm making sure that all the numbers"
+  },
+  {
+    "start": 1159.6,
+    "duration": 3.68,
+    "text": "left less than it lie on the left hand"
+  },
+  {
+    "start": 1161.12,
+    "duration": 3.52,
+    "text": "side of it greater than it lie on the"
+  },
+  {
+    "start": 1163.28,
+    "duration": 3.92,
+    "text": "right hand side of it the element"
+  },
+  {
+    "start": 1164.64,
+    "duration": 4.159,
+    "text": "position can also change it's not like"
+  },
+  {
+    "start": 1167.2,
+    "duration": 3.839,
+    "text": "obviously it's pretty common sense how"
+  },
+  {
+    "start": 1168.799,
+    "duration": 4.561,
+    "text": "can you have all the numbers"
+  },
+  {
+    "start": 1171.039,
+    "duration": 3.601,
+    "text": "less than four over here without moving"
+  },
+  {
+    "start": 1173.36,
+    "duration": 3.12,
+    "text": "four"
+  },
+  {
+    "start": 1174.64,
+    "duration": 4.08,
+    "text": "right so basically the idea is to put it"
+  },
+  {
+    "start": 1176.48,
+    "duration": 5.28,
+    "text": "at its correct position"
+  },
+  {
+    "start": 1178.72,
+    "duration": 4.4,
+    "text": "okay so"
+  },
+  {
+    "start": 1181.76,
+    "duration": 3.36,
+    "text": "what you can do is you can either pick a"
+  },
+  {
+    "start": 1183.12,
+    "duration": 3.52,
+    "text": "random number as pivot like we were"
+  },
+  {
+    "start": 1185.12,
+    "duration": 2.96,
+    "text": "doing"
+  },
+  {
+    "start": 1186.64,
+    "duration": 4.159,
+    "text": "random"
+  },
+  {
+    "start": 1188.08,
+    "duration": 4.8,
+    "text": "uh you know like random element"
+  },
+  {
+    "start": 1190.799,
+    "duration": 6.321,
+    "text": "you can hit the do dot"
+  },
+  {
+    "start": 1192.88,
+    "duration": 5.039,
+    "text": "you can either pick the corner elements"
+  },
+  {
+    "start": 1197.12,
+    "duration": 2.48,
+    "text": "okay"
+  },
+  {
+    "start": 1197.919,
+    "duration": 3.12,
+    "text": "corner elements like in the example that"
+  },
+  {
+    "start": 1199.6,
+    "duration": 2.959,
+    "text": "i just showed you"
+  },
+  {
+    "start": 1201.039,
+    "duration": 5.241,
+    "text": "or what you can do is you can pick"
+  },
+  {
+    "start": 1202.559,
+    "duration": 3.721,
+    "text": "always the middle element"
+  },
+  {
+    "start": 1209.12,
+    "duration": 3.12,
+    "text": "okay"
+  },
+  {
+    "start": 1209.919,
+    "duration": 3.841,
+    "text": "let's compare these ways and let's see"
+  },
+  {
+    "start": 1212.24,
+    "duration": 4.08,
+    "text": "which one works best and what are like"
+  },
+  {
+    "start": 1213.76,
+    "duration": 4.72,
+    "text": "some of the disadvantages so let's take"
+  },
+  {
+    "start": 1216.32,
+    "duration": 3.92,
+    "text": "a look at the complexity analysis for"
+  },
+  {
+    "start": 1218.48,
+    "duration": 4.4,
+    "text": "this right so what is like the"
+  },
+  {
+    "start": 1220.24,
+    "duration": 4.0,
+    "text": "recurrence relation going to be so"
+  },
+  {
+    "start": 1222.88,
+    "duration": 3.36,
+    "text": "basically what we are doing is the"
+  },
+  {
+    "start": 1224.24,
+    "duration": 3.919,
+    "text": "recurrence relation that we are dividing"
+  },
+  {
+    "start": 1226.24,
+    "duration": 3.919,
+    "text": "it into two function calls right we're"
+  },
+  {
+    "start": 1228.159,
+    "duration": 3.841,
+    "text": "dividing into two function calls"
+  },
+  {
+    "start": 1230.159,
+    "duration": 3.121,
+    "text": "and um"
+  },
+  {
+    "start": 1232.0,
+    "duration": 2.96,
+    "text": "let's say we're dividing into two coin"
+  },
+  {
+    "start": 1233.28,
+    "duration": 3.759,
+    "text": "function calls let's say this is pivot"
+  },
+  {
+    "start": 1234.96,
+    "duration": 5.28,
+    "text": "this is something this is something"
+  },
+  {
+    "start": 1237.039,
+    "duration": 5.52,
+    "text": "total elements are let's say n"
+  },
+  {
+    "start": 1240.24,
+    "duration": 4.48,
+    "text": "total elements are n"
+  },
+  {
+    "start": 1242.559,
+    "duration": 3.761,
+    "text": "so"
+  },
+  {
+    "start": 1244.72,
+    "duration": 3.76,
+    "text": "if i say this is this is equal to k"
+  },
+  {
+    "start": 1246.32,
+    "duration": 4.0,
+    "text": "elements let's say okay"
+  },
+  {
+    "start": 1248.48,
+    "duration": 3.84,
+    "text": "and this is equal to just one element"
+  },
+  {
+    "start": 1250.32,
+    "duration": 5.12,
+    "text": "how many elements are this"
+  },
+  {
+    "start": 1252.32,
+    "duration": 3.12,
+    "text": "n minus k minus 1"
+  },
+  {
+    "start": 1257.44,
+    "duration": 3.44,
+    "text": "very simple stuff"
+  },
+  {
+    "start": 1259.44,
+    "duration": 3.92,
+    "text": "so the total approach is going to be"
+  },
+  {
+    "start": 1260.88,
+    "duration": 3.84,
+    "text": "what sorting n elements is going to be"
+  },
+  {
+    "start": 1263.36,
+    "duration": 3.76,
+    "text": "equal to what"
+  },
+  {
+    "start": 1264.72,
+    "duration": 3.439,
+    "text": "sort k elements time taken to sort k"
+  },
+  {
+    "start": 1267.12,
+    "duration": 3.28,
+    "text": "elements"
+  },
+  {
+    "start": 1268.159,
+    "duration": 4.88,
+    "text": "plus time taken to sort"
+  },
+  {
+    "start": 1270.4,
+    "duration": 4.56,
+    "text": "n minus"
+  },
+  {
+    "start": 1273.039,
+    "duration": 4.081,
+    "text": "k minus 1 elements"
+  },
+  {
+    "start": 1274.96,
+    "duration": 3.92,
+    "text": "plus this thing"
+  },
+  {
+    "start": 1277.12,
+    "duration": 3.36,
+    "text": "what is the time taken to put this pivot"
+  },
+  {
+    "start": 1278.88,
+    "duration": 3.36,
+    "text": "at the correct position this while loop"
+  },
+  {
+    "start": 1280.48,
+    "duration": 3.439,
+    "text": "thing this entire thing that we are"
+  },
+  {
+    "start": 1282.24,
+    "duration": 2.88,
+    "text": "doing so first we are putting the pivot"
+  },
+  {
+    "start": 1283.919,
+    "duration": 2.801,
+    "text": "element at the correct position we are"
+  },
+  {
+    "start": 1285.12,
+    "duration": 3.36,
+    "text": "checking the start and end start and end"
+  },
+  {
+    "start": 1286.72,
+    "duration": 3.439,
+    "text": "start and end or whatever how much time"
+  },
+  {
+    "start": 1288.48,
+    "duration": 2.72,
+    "text": "is this taking what is the complexity of"
+  },
+  {
+    "start": 1290.159,
+    "duration": 2.801,
+    "text": "this thing"
+  },
+  {
+    "start": 1291.2,
+    "duration": 3.28,
+    "text": "what is the complexity of this thing we"
+  },
+  {
+    "start": 1292.96,
+    "duration": 3.28,
+    "text": "are just running the loop"
+  },
+  {
+    "start": 1294.48,
+    "duration": 4.079,
+    "text": "like towards the array starting from"
+  },
+  {
+    "start": 1296.24,
+    "duration": 4.64,
+    "text": "here end only one every element is"
+  },
+  {
+    "start": 1298.559,
+    "duration": 4.961,
+    "text": "iterated over upon once only so when"
+  },
+  {
+    "start": 1300.88,
+    "duration": 4.96,
+    "text": "every element it is only checked once"
+  },
+  {
+    "start": 1303.52,
+    "duration": 4.08,
+    "text": "and total elements are n so this putting"
+  },
+  {
+    "start": 1305.84,
+    "duration": 3.44,
+    "text": "the pivot on the correct position is"
+  },
+  {
+    "start": 1307.6,
+    "duration": 4.16,
+    "text": "taking how much time"
+  },
+  {
+    "start": 1309.28,
+    "duration": 2.48,
+    "text": "often"
+  },
+  {
+    "start": 1314.0,
+    "duration": 2.72,
+    "text": "does that make sense"
+  },
+  {
+    "start": 1317.44,
+    "duration": 4.32,
+    "text": "okay so this is the"
+  },
+  {
+    "start": 1319.6,
+    "duration": 3.28,
+    "text": "recurrence relation of"
+  },
+  {
+    "start": 1321.76,
+    "duration": 3.12,
+    "text": "what"
+  },
+  {
+    "start": 1322.88,
+    "duration": 4.24,
+    "text": "this is the recurrence relation of quick"
+  },
+  {
+    "start": 1324.88,
+    "duration": 2.24,
+    "text": "sort"
+  },
+  {
+    "start": 1328.559,
+    "duration": 3.0,
+    "text": "important"
+  },
+  {
+    "start": 1332.08,
+    "duration": 3.36,
+    "text": "now speaking of complexity let's you"
+  },
+  {
+    "start": 1333.84,
+    "duration": 3.44,
+    "text": "know take a look at the worst case what"
+  },
+  {
+    "start": 1335.44,
+    "duration": 4.08,
+    "text": "is the worst case going to be forget"
+  },
+  {
+    "start": 1337.28,
+    "duration": 3.519,
+    "text": "about this math or whatever in general"
+  },
+  {
+    "start": 1339.52,
+    "duration": 3.68,
+    "text": "common sense what is the worst case"
+  },
+  {
+    "start": 1340.799,
+    "duration": 2.401,
+    "text": "going to be"
+  },
+  {
+    "start": 1344.159,
+    "duration": 2.801,
+    "text": "the worst case isn't it going to be"
+  },
+  {
+    "start": 1345.6,
+    "duration": 3.12,
+    "text": "something like"
+  },
+  {
+    "start": 1346.96,
+    "duration": 4.16,
+    "text": "if by chance the pivot element is the"
+  },
+  {
+    "start": 1348.72,
+    "duration": 4.4,
+    "text": "smallest or the largest number"
+  },
+  {
+    "start": 1351.12,
+    "duration": 4.4,
+    "text": "because in that case what will happen"
+  },
+  {
+    "start": 1353.12,
+    "duration": 3.919,
+    "text": "in case you pick the pivot pivot element"
+  },
+  {
+    "start": 1355.52,
+    "duration": 4.56,
+    "text": "as the smallest number or the largest"
+  },
+  {
+    "start": 1357.039,
+    "duration": 4.64,
+    "text": "number what will happen in that case"
+  },
+  {
+    "start": 1360.08,
+    "duration": 3.68,
+    "text": "but it will be at the end"
+  },
+  {
+    "start": 1361.679,
+    "duration": 4.24,
+    "text": "and only all the remaining elements will"
+  },
+  {
+    "start": 1363.76,
+    "duration": 3.2,
+    "text": "be on the left hand side or the right"
+  },
+  {
+    "start": 1365.919,
+    "duration": 2.721,
+    "text": "hand side"
+  },
+  {
+    "start": 1366.96,
+    "duration": 4.4,
+    "text": "so that can you see that if i'm talking"
+  },
+  {
+    "start": 1368.64,
+    "duration": 7.12,
+    "text": "about something like this 3 5"
+  },
+  {
+    "start": 1371.36,
+    "duration": 6.16,
+    "text": "8 9 20 34"
+  },
+  {
+    "start": 1375.76,
+    "duration": 4.48,
+    "text": "18"
+  },
+  {
+    "start": 1377.52,
+    "duration": 4.639,
+    "text": "66 something like this let's say i take"
+  },
+  {
+    "start": 1380.24,
+    "duration": 3.6,
+    "text": "this as pivot element"
+  },
+  {
+    "start": 1382.159,
+    "duration": 3.681,
+    "text": "can you see that now my recursion call"
+  },
+  {
+    "start": 1383.84,
+    "duration": 3.12,
+    "text": "is going to have how many elements n"
+  },
+  {
+    "start": 1385.84,
+    "duration": 2.959,
+    "text": "minus 1"
+  },
+  {
+    "start": 1386.96,
+    "duration": 6.32,
+    "text": "so the recursion step that is being"
+  },
+  {
+    "start": 1388.799,
+    "duration": 4.481,
+    "text": "reduced it's reduced very little"
+  },
+  {
+    "start": 1393.84,
+    "duration": 4.319,
+    "text": "instead of something like n by 2 that"
+  },
+  {
+    "start": 1396.159,
+    "duration": 4.161,
+    "text": "could have happened it's now reduced to"
+  },
+  {
+    "start": 1398.159,
+    "duration": 4.4,
+    "text": "something like just n minus 1 isn't this"
+  },
+  {
+    "start": 1400.32,
+    "duration": 4.56,
+    "text": "very bad"
+  },
+  {
+    "start": 1402.559,
+    "duration": 4.48,
+    "text": "so this is the worst case so worst case"
+  },
+  {
+    "start": 1404.88,
+    "duration": 4.799,
+    "text": "is what worst case is i'm going to write"
+  },
+  {
+    "start": 1407.039,
+    "duration": 5.201,
+    "text": "this in red when k is equal to i can say"
+  },
+  {
+    "start": 1409.679,
+    "duration": 4.88,
+    "text": "something like 0."
+  },
+  {
+    "start": 1412.24,
+    "duration": 4.16,
+    "text": "so when one part of the array is empty"
+  },
+  {
+    "start": 1414.559,
+    "duration": 2.961,
+    "text": "as you can see this right hand side is"
+  },
+  {
+    "start": 1416.4,
+    "duration": 2.96,
+    "text": "empty"
+  },
+  {
+    "start": 1417.52,
+    "duration": 4.0,
+    "text": "in that case"
+  },
+  {
+    "start": 1419.36,
+    "duration": 4.88,
+    "text": "t of n is equal to what"
+  },
+  {
+    "start": 1421.52,
+    "duration": 4.88,
+    "text": "it's equal to t of 0 so basically it's"
+  },
+  {
+    "start": 1424.24,
+    "duration": 3.919,
+    "text": "going to be equal to"
+  },
+  {
+    "start": 1426.4,
+    "duration": 3.12,
+    "text": "plus t of"
+  },
+  {
+    "start": 1428.159,
+    "duration": 4.481,
+    "text": "n minus 1"
+  },
+  {
+    "start": 1429.52,
+    "duration": 5.6,
+    "text": "plus big o of n so this is basically"
+  },
+  {
+    "start": 1432.64,
+    "duration": 2.48,
+    "text": "equal to"
+  },
+  {
+    "start": 1435.36,
+    "duration": 3.28,
+    "text": "a linear recurrent solution already"
+  },
+  {
+    "start": 1436.96,
+    "duration": 4.16,
+    "text": "covered in detail by the way"
+  },
+  {
+    "start": 1438.64,
+    "duration": 4.32,
+    "text": "solving these problems is very easy i"
+  },
+  {
+    "start": 1441.12,
+    "duration": 3.76,
+    "text": "made an entire dedicated video on how to"
+  },
+  {
+    "start": 1442.96,
+    "duration": 4.24,
+    "text": "solve linear recurrence relation what is"
+  },
+  {
+    "start": 1444.88,
+    "duration": 3.52,
+    "text": "the form of this what the what is like"
+  },
+  {
+    "start": 1447.2,
+    "duration": 3.04,
+    "text": "why is it called linear recurrence"
+  },
+  {
+    "start": 1448.4,
+    "duration": 3.6,
+    "text": "relation homogeneous non-homogeneous"
+  },
+  {
+    "start": 1450.24,
+    "duration": 3.12,
+    "text": "divide and conquer everything is covered"
+  },
+  {
+    "start": 1452.0,
+    "duration": 2.799,
+    "text": "so this is basically going to be equal"
+  },
+  {
+    "start": 1453.36,
+    "duration": 3.12,
+    "text": "to t of"
+  },
+  {
+    "start": 1454.799,
+    "duration": 4.681,
+    "text": "n minus 1 plus"
+  },
+  {
+    "start": 1456.48,
+    "duration": 3.0,
+    "text": "often"
+  },
+  {
+    "start": 1460.24,
+    "duration": 3.6,
+    "text": "okay"
+  },
+  {
+    "start": 1462.159,
+    "duration": 3.681,
+    "text": "you can solve this reconciliation using"
+  },
+  {
+    "start": 1463.84,
+    "duration": 3.839,
+    "text": "the approach that we discussed in space"
+  },
+  {
+    "start": 1465.84,
+    "duration": 3.439,
+    "text": "and time complexity over there we also"
+  },
+  {
+    "start": 1467.679,
+    "duration": 3.441,
+    "text": "did something similar we solved t of n"
+  },
+  {
+    "start": 1469.279,
+    "duration": 3.201,
+    "text": "minus 1 so i'm not skipping anything"
+  },
+  {
+    "start": 1471.12,
+    "duration": 3.52,
+    "text": "it's already covered it's like the very"
+  },
+  {
+    "start": 1472.48,
+    "duration": 4.64,
+    "text": "basic we did even more complex questions"
+  },
+  {
+    "start": 1474.64,
+    "duration": 4.399,
+    "text": "than this we did like t of we did the"
+  },
+  {
+    "start": 1477.12,
+    "duration": 4.159,
+    "text": "fibonacci number we entirely delivered"
+  },
+  {
+    "start": 1479.039,
+    "duration": 3.681,
+    "text": "the formula for that okay so the"
+  },
+  {
+    "start": 1481.279,
+    "duration": 3.361,
+    "text": "complexity of this is going to be equal"
+  },
+  {
+    "start": 1482.72,
+    "duration": 3.199,
+    "text": "to what"
+  },
+  {
+    "start": 1484.64,
+    "duration": 3.519,
+    "text": "what is the complexity what is going to"
+  },
+  {
+    "start": 1485.919,
+    "duration": 4.88,
+    "text": "be equal to"
+  },
+  {
+    "start": 1488.159,
+    "duration": 4.88,
+    "text": "big o of n squared"
+  },
+  {
+    "start": 1490.799,
+    "duration": 2.24,
+    "text": "check"
+  },
+  {
+    "start": 1493.12,
+    "duration": 3.36,
+    "text": "space and time"
+  },
+  {
+    "start": 1494.72,
+    "duration": 4.0,
+    "text": "complexity"
+  },
+  {
+    "start": 1496.48,
+    "duration": 3.04,
+    "text": "lecture"
+  },
+  {
+    "start": 1498.72,
+    "duration": 1.68,
+    "text": "for"
+  },
+  {
+    "start": 1499.52,
+    "duration": 3.519,
+    "text": "complete"
+  },
+  {
+    "start": 1500.4,
+    "duration": 2.639,
+    "text": "derivation"
+  },
+  {
+    "start": 1503.44,
+    "duration": 3.92,
+    "text": "okay covered it in detail same problems"
+  },
+  {
+    "start": 1505.679,
+    "duration": 4.0,
+    "text": "i've covered it in detail"
+  },
+  {
+    "start": 1507.36,
+    "duration": 5.199,
+    "text": "okay so the problem sort now comes out"
+  },
+  {
+    "start": 1509.679,
+    "duration": 5.6,
+    "text": "to be this as comes out to be as o of n"
+  },
+  {
+    "start": 1512.559,
+    "duration": 3.841,
+    "text": "squared"
+  },
+  {
+    "start": 1515.279,
+    "duration": 2.88,
+    "text": "okay"
+  },
+  {
+    "start": 1516.4,
+    "duration": 3.6,
+    "text": "what is the best case going to be"
+  },
+  {
+    "start": 1518.159,
+    "duration": 3.441,
+    "text": "obviously best case is going to be if"
+  },
+  {
+    "start": 1520.0,
+    "duration": 3.76,
+    "text": "somehow the pivot element is like the"
+  },
+  {
+    "start": 1521.6,
+    "duration": 4.24,
+    "text": "middle element so that whenever it's at"
+  },
+  {
+    "start": 1523.76,
+    "duration": 5.2,
+    "text": "its correct position it gets divided"
+  },
+  {
+    "start": 1525.84,
+    "duration": 5.04,
+    "text": "into two half of the arrays so best case"
+  },
+  {
+    "start": 1528.96,
+    "duration": 4.319,
+    "text": "is going to be that it gets divided into"
+  },
+  {
+    "start": 1530.88,
+    "duration": 2.399,
+    "text": "two half"
+  },
+  {
+    "start": 1533.84,
+    "duration": 4.959,
+    "text": "so in that case"
+  },
+  {
+    "start": 1535.6,
+    "duration": 7.88,
+    "text": "t of n is going to be equal to t of"
+  },
+  {
+    "start": 1538.799,
+    "duration": 4.681,
+    "text": "n by two which is k is equal to n by two"
+  },
+  {
+    "start": 1543.6,
+    "duration": 3.84,
+    "text": "plus t of"
+  },
+  {
+    "start": 1545.84,
+    "duration": 3.04,
+    "text": "i can say"
+  },
+  {
+    "start": 1547.44,
+    "duration": 3.28,
+    "text": "n by 2"
+  },
+  {
+    "start": 1548.88,
+    "duration": 4.159,
+    "text": "plus o of n"
+  },
+  {
+    "start": 1550.72,
+    "duration": 4.64,
+    "text": "so this is equal to t of n"
+  },
+  {
+    "start": 1553.039,
+    "duration": 4.321,
+    "text": "is equal to 2t of"
+  },
+  {
+    "start": 1555.36,
+    "duration": 4.08,
+    "text": "n by 2 plus"
+  },
+  {
+    "start": 1557.36,
+    "duration": 2.08,
+    "text": "n"
+  },
+  {
+    "start": 1560.96,
+    "duration": 2.48,
+    "text": "sound good"
+  },
+  {
+    "start": 1562.08,
+    "duration": 3.68,
+    "text": "and by the way this is also covered in"
+  },
+  {
+    "start": 1563.44,
+    "duration": 3.44,
+    "text": "detail and this thing is covered twice"
+  },
+  {
+    "start": 1565.76,
+    "duration": 3.44,
+    "text": "in detail"
+  },
+  {
+    "start": 1566.88,
+    "duration": 4.96,
+    "text": "covered"
+  },
+  {
+    "start": 1569.2,
+    "duration": 2.64,
+    "text": "in detail"
+  },
+  {
+    "start": 1572.159,
+    "duration": 2.801,
+    "text": "the derivation"
+  },
+  {
+    "start": 1575.76,
+    "duration": 3.519,
+    "text": "of the exact same formula"
+  },
+  {
+    "start": 1577.919,
+    "duration": 2.88,
+    "text": "literally i'm not skipping anything this"
+  },
+  {
+    "start": 1579.279,
+    "duration": 3.201,
+    "text": "is actually merge sort"
+  },
+  {
+    "start": 1580.799,
+    "duration": 3.681,
+    "text": "this is a recurrence relation of merge"
+  },
+  {
+    "start": 1582.48,
+    "duration": 4.16,
+    "text": "sort and it is covered in detail using"
+  },
+  {
+    "start": 1584.48,
+    "duration": 3.36,
+    "text": "akravasi formula in the time complexity"
+  },
+  {
+    "start": 1586.64,
+    "duration": 3.279,
+    "text": "lecture i explained in detail the"
+  },
+  {
+    "start": 1587.84,
+    "duration": 4.24,
+    "text": "krabazi formula and this entire solution"
+  },
+  {
+    "start": 1589.919,
+    "duration": 3.601,
+    "text": "is also done the entire solution is done"
+  },
+  {
+    "start": 1592.08,
+    "duration": 3.52,
+    "text": "in the previous video itself just the"
+  },
+  {
+    "start": 1593.52,
+    "duration": 4.08,
+    "text": "video i uploaded before this i solved"
+  },
+  {
+    "start": 1595.6,
+    "duration": 3.439,
+    "text": "this entire thing using akrabazi i"
+  },
+  {
+    "start": 1597.6,
+    "duration": 2.64,
+    "text": "should not have done that because"
+  },
+  {
+    "start": 1599.039,
+    "duration": 3.441,
+    "text": "already covered in space and time"
+  },
+  {
+    "start": 1600.24,
+    "duration": 5.679,
+    "text": "compressed lecture but i still did it"
+  },
+  {
+    "start": 1602.48,
+    "duration": 5.04,
+    "text": "so covered in the exact"
+  },
+  {
+    "start": 1605.919,
+    "duration": 3.12,
+    "text": "exact formula"
+  },
+  {
+    "start": 1607.52,
+    "duration": 3.519,
+    "text": "check check the space and time"
+  },
+  {
+    "start": 1609.039,
+    "duration": 5.201,
+    "text": "complexity video"
+  },
+  {
+    "start": 1611.039,
+    "duration": 6.801,
+    "text": "and check the merge sort video"
+  },
+  {
+    "start": 1614.24,
+    "duration": 5.039,
+    "text": "for the exact same solution okay"
+  },
+  {
+    "start": 1617.84,
+    "duration": 3.199,
+    "text": "i've also added time stamp so you can"
+  },
+  {
+    "start": 1619.279,
+    "duration": 3.28,
+    "text": "find it does not make sense right to"
+  },
+  {
+    "start": 1621.039,
+    "duration": 3.041,
+    "text": "derive the same thing again and again"
+  },
+  {
+    "start": 1622.559,
+    "duration": 3.6,
+    "text": "that i've done in the previous videos"
+  },
+  {
+    "start": 1624.08,
+    "duration": 3.04,
+    "text": "same thing for this i explained this in"
+  },
+  {
+    "start": 1626.159,
+    "duration": 2.721,
+    "text": "detail"
+  },
+  {
+    "start": 1627.12,
+    "duration": 2.96,
+    "text": "okay so this comes out to be how much we"
+  },
+  {
+    "start": 1628.88,
+    "duration": 2.88,
+    "text": "go off"
+  },
+  {
+    "start": 1630.08,
+    "duration": 3.52,
+    "text": "and log in this is the best case"
+  },
+  {
+    "start": 1631.76,
+    "duration": 4.159,
+    "text": "complexity this is the worst case"
+  },
+  {
+    "start": 1633.6,
+    "duration": 3.92,
+    "text": "complexity that is why it'd be great if"
+  },
+  {
+    "start": 1635.919,
+    "duration": 5.12,
+    "text": "you can choose the pivot element always"
+  },
+  {
+    "start": 1637.52,
+    "duration": 6.159,
+    "text": "as the like the middle element okay"
+  },
+  {
+    "start": 1641.039,
+    "duration": 3.921,
+    "text": "and the average case is just like um you"
+  },
+  {
+    "start": 1643.679,
+    "duration": 3.761,
+    "text": "know you need to consider like all the"
+  },
+  {
+    "start": 1644.96,
+    "duration": 4.0,
+    "text": "cases and everything um so all the like"
+  },
+  {
+    "start": 1647.44,
+    "duration": 3.119,
+    "text": "you know possible permutation of the"
+  },
+  {
+    "start": 1648.96,
+    "duration": 2.719,
+    "text": "array and take the time complexity or"
+  },
+  {
+    "start": 1650.559,
+    "duration": 2.881,
+    "text": "whatever but"
+  },
+  {
+    "start": 1651.679,
+    "duration": 3.921,
+    "text": "when we when we deal with like space and"
+  },
+  {
+    "start": 1653.44,
+    "duration": 4.56,
+    "text": "time complexity we usually work with"
+  },
+  {
+    "start": 1655.6,
+    "duration": 5.04,
+    "text": "uh best case and worst case so for quick"
+  },
+  {
+    "start": 1658.0,
+    "duration": 3.76,
+    "text": "sort best cases of"
+  },
+  {
+    "start": 1660.64,
+    "duration": 4.24,
+    "text": "um"
+  },
+  {
+    "start": 1661.76,
+    "duration": 4.0,
+    "text": "n log n and worst case is what of n"
+  },
+  {
+    "start": 1664.88,
+    "duration": 2.48,
+    "text": "squared"
+  },
+  {
+    "start": 1665.76,
+    "duration": 2.72,
+    "text": "okay now here are some of the important"
+  },
+  {
+    "start": 1667.36,
+    "duration": 2.96,
+    "text": "notes so"
+  },
+  {
+    "start": 1668.48,
+    "duration": 3.28,
+    "text": "i already talked about in the initial"
+  },
+  {
+    "start": 1670.32,
+    "duration": 3.52,
+    "text": "sorting videos when we were doing bubble"
+  },
+  {
+    "start": 1671.76,
+    "duration": 3.44,
+    "text": "sort insertion sort and things like that"
+  },
+  {
+    "start": 1673.84,
+    "duration": 2.719,
+    "text": "i talked about the stability of"
+  },
+  {
+    "start": 1675.2,
+    "duration": 2.64,
+    "text": "algorithms what are stable sorting"
+  },
+  {
+    "start": 1676.559,
+    "duration": 3.041,
+    "text": "algorithms so make sure you check out"
+  },
+  {
+    "start": 1677.84,
+    "duration": 2.959,
+    "text": "that video in order to understand uh"
+  },
+  {
+    "start": 1679.6,
+    "duration": 2.88,
+    "text": "because that does not make sense to"
+  },
+  {
+    "start": 1680.799,
+    "duration": 3.681,
+    "text": "repeat the same thing again and again so"
+  },
+  {
+    "start": 1682.48,
+    "duration": 3.76,
+    "text": "quick sort is not stable right so"
+  },
+  {
+    "start": 1684.48,
+    "duration": 4.24,
+    "text": "basically if two of the things have same"
+  },
+  {
+    "start": 1686.24,
+    "duration": 3.919,
+    "text": "value it may or may not appear"
+  },
+  {
+    "start": 1688.72,
+    "duration": 4.4,
+    "text": "uh in the same order as they were"
+  },
+  {
+    "start": 1690.159,
+    "duration": 5.12,
+    "text": "previously um please check out the"
+  },
+  {
+    "start": 1693.12,
+    "duration": 4.0,
+    "text": "the previous video of sorting algorithms"
+  },
+  {
+    "start": 1695.279,
+    "duration": 4.64,
+    "text": "i've covered this in detail in page"
+  },
+  {
+    "start": 1697.12,
+    "duration": 4.559,
+    "text": "sorting algorithm um because um"
+  },
+  {
+    "start": 1699.919,
+    "duration": 3.281,
+    "text": "uh we're not making any new array or"
+  },
+  {
+    "start": 1701.679,
+    "duration": 3.441,
+    "text": "whatever like in merge sort which was"
+  },
+  {
+    "start": 1703.2,
+    "duration": 3.76,
+    "text": "the previous video we're taking a mix"
+  },
+  {
+    "start": 1705.12,
+    "duration": 3.6,
+    "text": "array right and replacing that with the"
+  },
+  {
+    "start": 1706.96,
+    "duration": 4.0,
+    "text": "original array so that mix area was"
+  },
+  {
+    "start": 1708.72,
+    "duration": 3.839,
+    "text": "taking off and space here also space is"
+  },
+  {
+    "start": 1710.96,
+    "duration": 3.68,
+    "text": "being taken like recursion is taking"
+  },
+  {
+    "start": 1712.559,
+    "duration": 4.081,
+    "text": "space but an extra space is not being"
+  },
+  {
+    "start": 1714.64,
+    "duration": 3.279,
+    "text": "taken like in order to sort the array"
+  },
+  {
+    "start": 1716.64,
+    "duration": 3.68,
+    "text": "because the recursion is taking space"
+  },
+  {
+    "start": 1717.919,
+    "duration": 3.521,
+    "text": "that's fine and that is inevitable"
+  },
+  {
+    "start": 1720.32,
+    "duration": 3.04,
+    "text": "but"
+  },
+  {
+    "start": 1721.44,
+    "duration": 4.08,
+    "text": "uh this is why it's like also preferred"
+  },
+  {
+    "start": 1723.36,
+    "duration": 3.6,
+    "text": "over merge sort because merge sort takes"
+  },
+  {
+    "start": 1725.52,
+    "duration": 3.519,
+    "text": "like the off and extra space for that"
+  },
+  {
+    "start": 1726.96,
+    "duration": 4.88,
+    "text": "mix area that we were talking about"
+  },
+  {
+    "start": 1729.039,
+    "duration": 5.12,
+    "text": "merge sort a is uh better when it comes"
+  },
+  {
+    "start": 1731.84,
+    "duration": 4.4,
+    "text": "to linked lists because in linked list"
+  },
+  {
+    "start": 1734.159,
+    "duration": 3.601,
+    "text": "it's unlike arrays link lists are not"
+  },
+  {
+    "start": 1736.24,
+    "duration": 3.36,
+    "text": "like continuous memory allocation or"
+  },
+  {
+    "start": 1737.76,
+    "duration": 4.24,
+    "text": "whatever as we like to call it a linked"
+  },
+  {
+    "start": 1739.6,
+    "duration": 3.92,
+    "text": "list are like a random memory allocation"
+  },
+  {
+    "start": 1742.0,
+    "duration": 2.88,
+    "text": "like that and they're connected via"
+  },
+  {
+    "start": 1743.52,
+    "duration": 3.519,
+    "text": "chains and stuff that will something"
+  },
+  {
+    "start": 1744.88,
+    "duration": 4.0,
+    "text": "we'll cover later on so merge sort link"
+  },
+  {
+    "start": 1747.039,
+    "duration": 3.921,
+    "text": "list we will do this question when we do"
+  },
+  {
+    "start": 1748.88,
+    "duration": 4.24,
+    "text": "linked list okay sorting off linked list"
+  },
+  {
+    "start": 1750.96,
+    "duration": 4.16,
+    "text": "we will do it in detail so just if"
+  },
+  {
+    "start": 1753.12,
+    "duration": 3.2,
+    "text": "someone asks you that hey why is merge"
+  },
+  {
+    "start": 1755.12,
+    "duration": 3.12,
+    "text": "sort preferred in linked list you can"
+  },
+  {
+    "start": 1756.32,
+    "duration": 3.92,
+    "text": "just answer that hey because link list"
+  },
+  {
+    "start": 1758.24,
+    "duration": 4.48,
+    "text": "is not unlike array link list or not"
+  },
+  {
+    "start": 1760.24,
+    "duration": 3.52,
+    "text": "continuous memory allocation that is why"
+  },
+  {
+    "start": 1762.72,
+    "duration": 2.4,
+    "text": "now"
+  },
+  {
+    "start": 1763.76,
+    "duration": 3.2,
+    "text": "uh"
+  },
+  {
+    "start": 1765.12,
+    "duration": 2.96,
+    "text": "we'll be diving into the code base right"
+  },
+  {
+    "start": 1766.96,
+    "duration": 3.439,
+    "text": "now so we'll writing that we'll be"
+  },
+  {
+    "start": 1768.08,
+    "duration": 3.68,
+    "text": "writing the code for this and uh i'll"
+  },
+  {
+    "start": 1770.399,
+    "duration": 2.88,
+    "text": "also show you some internal sorting"
+  },
+  {
+    "start": 1771.76,
+    "duration": 3.2,
+    "text": "algorithms so some of the internal"
+  },
+  {
+    "start": 1773.279,
+    "duration": 3.601,
+    "text": "sorting algorithms like sorted methods"
+  },
+  {
+    "start": 1774.96,
+    "duration": 3.12,
+    "text": "and things like that in python they use"
+  },
+  {
+    "start": 1776.88,
+    "duration": 3.2,
+    "text": "something known as i want to just"
+  },
+  {
+    "start": 1778.08,
+    "duration": 4.24,
+    "text": "highlight this you can research about it"
+  },
+  {
+    "start": 1780.08,
+    "duration": 4.319,
+    "text": "yourself so something known as hybrid"
+  },
+  {
+    "start": 1782.32,
+    "duration": 3.359,
+    "text": "sorting algorithms"
+  },
+  {
+    "start": 1784.399,
+    "duration": 2.64,
+    "text": "hybrid"
+  },
+  {
+    "start": 1785.679,
+    "duration": 3.041,
+    "text": "sorting"
+  },
+  {
+    "start": 1787.039,
+    "duration": 4.961,
+    "text": "algorithms"
+  },
+  {
+    "start": 1788.72,
+    "duration": 3.28,
+    "text": "something like tim sort"
+  },
+  {
+    "start": 1793.679,
+    "duration": 4.801,
+    "text": "cool"
+  },
+  {
+    "start": 1794.48,
+    "duration": 5.6,
+    "text": "so basically the idea is that uh"
+  },
+  {
+    "start": 1798.48,
+    "duration": 5.28,
+    "text": "these internal algorithms or whatever"
+  },
+  {
+    "start": 1800.08,
+    "duration": 3.68,
+    "text": "they use merge sort"
+  },
+  {
+    "start": 1804.399,
+    "duration": 3.441,
+    "text": "plus"
+  },
+  {
+    "start": 1805.6,
+    "duration": 3.92,
+    "text": "insertion"
+  },
+  {
+    "start": 1807.84,
+    "duration": 3.839,
+    "text": "you may be asking why insertion sort"
+  },
+  {
+    "start": 1809.52,
+    "duration": 4.159,
+    "text": "because as explained in the insertion"
+  },
+  {
+    "start": 1811.679,
+    "duration": 4.0,
+    "text": "sort video please check it out this"
+  },
+  {
+    "start": 1813.679,
+    "duration": 4.72,
+    "text": "works really well because this works"
+  },
+  {
+    "start": 1815.679,
+    "duration": 2.72,
+    "text": "really well with"
+  },
+  {
+    "start": 1818.96,
+    "duration": 5.68,
+    "text": "partially sorted data"
+  },
+  {
+    "start": 1822.08,
+    "duration": 5.12,
+    "text": "okay so some data that is half sorted or"
+  },
+  {
+    "start": 1824.64,
+    "duration": 5.279,
+    "text": "a little bit sorted uh it works really"
+  },
+  {
+    "start": 1827.2,
+    "duration": 4.4,
+    "text": "well for that so this is"
+  },
+  {
+    "start": 1829.919,
+    "duration": 3.76,
+    "text": "this is one wanted to mention like the"
+  },
+  {
+    "start": 1831.6,
+    "duration": 3.6,
+    "text": "hybrid sorting algorithms internally"
+  },
+  {
+    "start": 1833.679,
+    "duration": 2.641,
+    "text": "like i'll be showing an example of this"
+  },
+  {
+    "start": 1835.2,
+    "duration": 3.28,
+    "text": "as well we'll be using the internal"
+  },
+  {
+    "start": 1836.32,
+    "duration": 3.599,
+    "text": "sorting algorithms so"
+  },
+  {
+    "start": 1838.48,
+    "duration": 3.36,
+    "text": "uh whenever you're doing your interviews"
+  },
+  {
+    "start": 1839.919,
+    "duration": 3.521,
+    "text": "or complete programming or whatever try"
+  },
+  {
+    "start": 1841.84,
+    "duration": 2.48,
+    "text": "to use this internal sorting algorithms"
+  },
+  {
+    "start": 1843.44,
+    "duration": 2.959,
+    "text": "because"
+  },
+  {
+    "start": 1844.32,
+    "duration": 4.079,
+    "text": "they're much more efficient first of all"
+  },
+  {
+    "start": 1846.399,
+    "duration": 4.721,
+    "text": "and uh you don't have to like write the"
+  },
+  {
+    "start": 1848.399,
+    "duration": 4.321,
+    "text": "entire you know code for your sorting"
+  },
+  {
+    "start": 1851.12,
+    "duration": 4.32,
+    "text": "algorithm in order to sort it you can"
+  },
+  {
+    "start": 1852.72,
+    "duration": 4.0,
+    "text": "just use the inbuilt ones so in java"
+  },
+  {
+    "start": 1855.44,
+    "duration": 2.479,
+    "text": "something we'll be learning later on"
+  },
+  {
+    "start": 1856.72,
+    "duration": 2.88,
+    "text": "which is known as the collections"
+  },
+  {
+    "start": 1857.919,
+    "duration": 4.0,
+    "text": "framework in c plus plus you have"
+  },
+  {
+    "start": 1859.6,
+    "duration": 4.959,
+    "text": "something like stl and things like that"
+  },
+  {
+    "start": 1861.919,
+    "duration": 4.321,
+    "text": "so please make use of these libraries"
+  },
+  {
+    "start": 1864.559,
+    "duration": 4.641,
+    "text": "and like files and stuff that have been"
+  },
+  {
+    "start": 1866.24,
+    "duration": 3.76,
+    "text": "provided to you and frameworks and stuff"
+  },
+  {
+    "start": 1869.2,
+    "duration": 2.16,
+    "text": "cool"
+  },
+  {
+    "start": 1870.0,
+    "duration": 3.12,
+    "text": "um"
+  },
+  {
+    "start": 1871.36,
+    "duration": 3.28,
+    "text": "yeah let's move forward now some people"
+  },
+  {
+    "start": 1873.12,
+    "duration": 2.88,
+    "text": "you know this share that hey kunal you"
+  },
+  {
+    "start": 1874.64,
+    "duration": 3.919,
+    "text": "could have used this approach or that"
+  },
+  {
+    "start": 1876.0,
+    "duration": 4.08,
+    "text": "approach i know uh there are many ways"
+  },
+  {
+    "start": 1878.559,
+    "duration": 2.881,
+    "text": "to solve a particular problem even with"
+  },
+  {
+    "start": 1880.08,
+    "duration": 3.599,
+    "text": "quicksort many people will say hey why"
+  },
+  {
+    "start": 1881.44,
+    "duration": 4.0,
+    "text": "are you doing it like first and last why"
+  },
+  {
+    "start": 1883.679,
+    "duration": 3.36,
+    "text": "are you not taking adjacent elements and"
+  },
+  {
+    "start": 1885.44,
+    "duration": 4.56,
+    "text": "things like that like everyone else is"
+  },
+  {
+    "start": 1887.039,
+    "duration": 4.961,
+    "text": "doing well it's my wish okay you can do"
+  },
+  {
+    "start": 1890.0,
+    "duration": 4.48,
+    "text": "what you want so for everyone else as"
+  },
+  {
+    "start": 1892.0,
+    "duration": 5.44,
+    "text": "well i would highly recommend trying out"
+  },
+  {
+    "start": 1894.48,
+    "duration": 6.0,
+    "text": "new approaches as well um so as always"
+  },
+  {
+    "start": 1897.44,
+    "duration": 4.8,
+    "text": "one way to solve many problems so"
+  },
+  {
+    "start": 1900.48,
+    "duration": 2.96,
+    "text": "try out the adjacent ones and all these"
+  },
+  {
+    "start": 1902.24,
+    "duration": 2.96,
+    "text": "other things as well but we'll be doing"
+  },
+  {
+    "start": 1903.44,
+    "duration": 3.52,
+    "text": "like the uh the one that we have just"
+  },
+  {
+    "start": 1905.2,
+    "duration": 2.959,
+    "text": "discussed and this is also going to work"
+  },
+  {
+    "start": 1906.96,
+    "duration": 3.12,
+    "text": "just fine"
+  },
+  {
+    "start": 1908.159,
+    "duration": 3.601,
+    "text": "so"
+  },
+  {
+    "start": 1910.08,
+    "duration": 3.36,
+    "text": "yeah let's get started with the coding"
+  },
+  {
+    "start": 1911.76,
+    "duration": 3.6,
+    "text": "part so let's try to code this thing i'm"
+  },
+  {
+    "start": 1913.44,
+    "duration": 3.44,
+    "text": "just going to say"
+  },
+  {
+    "start": 1915.36,
+    "duration": 3.52,
+    "text": "quick sort"
+  },
+  {
+    "start": 1916.88,
+    "duration": 3.76,
+    "text": "um again you can take any pivot element"
+  },
+  {
+    "start": 1918.88,
+    "duration": 3.6,
+    "text": "you want you can do any swap comparisons"
+  },
+  {
+    "start": 1920.64,
+    "duration": 3.919,
+    "text": "or whatever many ways to solve one"
+  },
+  {
+    "start": 1922.48,
+    "duration": 3.6,
+    "text": "problem right static am i returning a"
+  },
+  {
+    "start": 1924.559,
+    "duration": 4.48,
+    "text": "new array no i'm not"
+  },
+  {
+    "start": 1926.08,
+    "duration": 5.599,
+    "text": "making changes in the original one"
+  },
+  {
+    "start": 1929.039,
+    "duration": 4.801,
+    "text": "i'm just gonna add my"
+  },
+  {
+    "start": 1931.679,
+    "duration": 3.761,
+    "text": "number and"
+  },
+  {
+    "start": 1933.84,
+    "duration": 4.0,
+    "text": "low and high low and high is basically"
+  },
+  {
+    "start": 1935.44,
+    "duration": 3.92,
+    "text": "the initial like which is basically so"
+  },
+  {
+    "start": 1937.84,
+    "duration": 3.28,
+    "text": "it's very simple this pattern you might"
+  },
+  {
+    "start": 1939.36,
+    "duration": 3.36,
+    "text": "have found till now so the pattern i'm"
+  },
+  {
+    "start": 1941.12,
+    "duration": 2.96,
+    "text": "going to repeat again i'm going to make"
+  },
+  {
+    "start": 1942.72,
+    "duration": 3.52,
+    "text": "a highlight of this"
+  },
+  {
+    "start": 1944.08,
+    "duration": 4.8,
+    "text": "if you are obviously not creating a copy"
+  },
+  {
+    "start": 1946.24,
+    "duration": 4.159,
+    "text": "of the entire array"
+  },
+  {
+    "start": 1948.88,
+    "duration": 2.799,
+    "text": "so how do you make sure you're taking"
+  },
+  {
+    "start": 1950.399,
+    "duration": 3.441,
+    "text": "parts of the array you need to take"
+  },
+  {
+    "start": 1951.679,
+    "duration": 4.401,
+    "text": "indices for that"
+  },
+  {
+    "start": 1953.84,
+    "duration": 4.8,
+    "text": "like a low index start index low index"
+  },
+  {
+    "start": 1956.08,
+    "duration": 4.719,
+    "text": "high index or start or end or whatever"
+  },
+  {
+    "start": 1958.64,
+    "duration": 3.6,
+    "text": "it is explained in detail in merge sort"
+  },
+  {
+    "start": 1960.799,
+    "duration": 2.88,
+    "text": "in merge sort i was taking like an"
+  },
+  {
+    "start": 1962.24,
+    "duration": 3.36,
+    "text": "entire copy of the array we were also"
+  },
+  {
+    "start": 1963.679,
+    "duration": 3.12,
+    "text": "doing it like this and we were also"
+  },
+  {
+    "start": 1965.6,
+    "duration": 3.04,
+    "text": "doing it like"
+  },
+  {
+    "start": 1966.799,
+    "duration": 3.441,
+    "text": "okay object will remain as it is only"
+  },
+  {
+    "start": 1968.64,
+    "duration": 4.08,
+    "text": "one object will be used but i will"
+  },
+  {
+    "start": 1970.24,
+    "duration": 4.72,
+    "text": "manipulate this object using pointers"
+  },
+  {
+    "start": 1972.72,
+    "duration": 3.36,
+    "text": "like two variables"
+  },
+  {
+    "start": 1974.96,
+    "duration": 2.719,
+    "text": "right so if you're not able to"
+  },
+  {
+    "start": 1976.08,
+    "duration": 3.839,
+    "text": "understand this thing what i'm doing why"
+  },
+  {
+    "start": 1977.679,
+    "duration": 4.401,
+    "text": "am i taking if you have this doubt well"
+  },
+  {
+    "start": 1979.919,
+    "duration": 4.161,
+    "text": "why are you taking these two pointers"
+  },
+  {
+    "start": 1982.08,
+    "duration": 3.04,
+    "text": "watch the merge sort video"
+  },
+  {
+    "start": 1984.08,
+    "duration": 3.28,
+    "text": "okay"
+  },
+  {
+    "start": 1985.12,
+    "duration": 3.679,
+    "text": "so here i can take my what are the two"
+  },
+  {
+    "start": 1987.36,
+    "duration": 3.52,
+    "text": "pointers initially so what are these"
+  },
+  {
+    "start": 1988.799,
+    "duration": 3.681,
+    "text": "pointers basically telling us which part"
+  },
+  {
+    "start": 1990.88,
+    "duration": 3.36,
+    "text": "of the array we are working on you can"
+  },
+  {
+    "start": 1992.48,
+    "duration": 3.12,
+    "text": "also take array dot copy of range like"
+  },
+  {
+    "start": 1994.24,
+    "duration": 3.36,
+    "text": "we did in the previous example that way"
+  },
+  {
+    "start": 1995.6,
+    "duration": 3.84,
+    "text": "you will not have to do this but in that"
+  },
+  {
+    "start": 1997.6,
+    "duration": 4.48,
+    "text": "case what will happen extra space will"
+  },
+  {
+    "start": 1999.44,
+    "duration": 4.16,
+    "text": "be used that's not cool so low and high"
+  },
+  {
+    "start": 2002.08,
+    "duration": 6.319,
+    "text": "we can take which is just nothing it's"
+  },
+  {
+    "start": 2003.6,
+    "duration": 6.799,
+    "text": "just explaining uh what is like the um"
+  },
+  {
+    "start": 2008.399,
+    "duration": 4.481,
+    "text": "part of the array you're working on okay"
+  },
+  {
+    "start": 2010.399,
+    "duration": 4.0,
+    "text": "so obviously if low is greater than"
+  },
+  {
+    "start": 2012.88,
+    "duration": 2.56,
+    "text": "equal to high i don't need to do"
+  },
+  {
+    "start": 2014.399,
+    "duration": 3.681,
+    "text": "anything"
+  },
+  {
+    "start": 2015.44,
+    "duration": 3.92,
+    "text": "i can just say return then what do we"
+  },
+  {
+    "start": 2018.08,
+    "duration": 3.36,
+    "text": "need to do"
+  },
+  {
+    "start": 2019.36,
+    "duration": 3.36,
+    "text": "we need to take like we need to start"
+  },
+  {
+    "start": 2021.44,
+    "duration": 3.28,
+    "text": "from"
+  },
+  {
+    "start": 2022.72,
+    "duration": 4.319,
+    "text": "here and end"
+  },
+  {
+    "start": 2024.72,
+    "duration": 3.839,
+    "text": "here so start from here for start from"
+  },
+  {
+    "start": 2027.039,
+    "duration": 4.0,
+    "text": "initially you're low"
+  },
+  {
+    "start": 2028.559,
+    "duration": 4.72,
+    "text": "and your end should be your"
+  },
+  {
+    "start": 2031.039,
+    "duration": 3.921,
+    "text": "high and this is these are the start and"
+  },
+  {
+    "start": 2033.279,
+    "duration": 4.161,
+    "text": "end are basically for what these are"
+  },
+  {
+    "start": 2034.96,
+    "duration": 4.24,
+    "text": "basically for swapping comparison so the"
+  },
+  {
+    "start": 2037.44,
+    "duration": 3.68,
+    "text": "outside one the one in the parameter is"
+  },
+  {
+    "start": 2039.2,
+    "duration": 4.4,
+    "text": "for the for figuring out which part of"
+  },
+  {
+    "start": 2041.12,
+    "duration": 3.6,
+    "text": "the area you're working on and the"
+  },
+  {
+    "start": 2043.6,
+    "duration": 3.52,
+    "text": "the this"
+  },
+  {
+    "start": 2044.72,
+    "duration": 4.879,
+    "text": "start and end is basically about"
+  },
+  {
+    "start": 2047.12,
+    "duration": 5.12,
+    "text": "for the swapping that in that part so in"
+  },
+  {
+    "start": 2049.599,
+    "duration": 6.0,
+    "text": "start i can say is equal to low"
+  },
+  {
+    "start": 2052.24,
+    "duration": 5.359,
+    "text": "in end i can say is equal to i"
+  },
+  {
+    "start": 2055.599,
+    "duration": 5.921,
+    "text": "and then i can say my pivot element is"
+  },
+  {
+    "start": 2057.599,
+    "duration": 8.56,
+    "text": "going to be what mid so i can say int"
+  },
+  {
+    "start": 2061.52,
+    "duration": 4.639,
+    "text": "mid is equal to start plus and"
+  },
+  {
+    "start": 2066.8,
+    "duration": 4.4,
+    "text": "n minus start divided by 2 and i can say"
+  },
+  {
+    "start": 2069.839,
+    "duration": 4.32,
+    "text": "my int"
+  },
+  {
+    "start": 2071.2,
+    "duration": 5.439,
+    "text": "pivot is going to be equal to"
+  },
+  {
+    "start": 2074.159,
+    "duration": 4.321,
+    "text": "uh nums of mid"
+  },
+  {
+    "start": 2076.639,
+    "duration": 3.121,
+    "text": "so here basically you can take any pivot"
+  },
+  {
+    "start": 2078.48,
+    "duration": 3.52,
+    "text": "i am taking mid"
+  },
+  {
+    "start": 2079.76,
+    "duration": 3.919,
+    "text": "now what is this condition for swapping"
+  },
+  {
+    "start": 2082.0,
+    "duration": 5.56,
+    "text": "while my start is less than equal to n"
+  },
+  {
+    "start": 2083.679,
+    "duration": 3.881,
+    "text": "that's my condition for swapping"
+  },
+  {
+    "start": 2088.079,
+    "duration": 2.961,
+    "text": "what am i going to do i'm going to say"
+  },
+  {
+    "start": 2090.0,
+    "duration": 2.639,
+    "text": "this thing"
+  },
+  {
+    "start": 2091.04,
+    "duration": 3.68,
+    "text": "i've explained this in detail where is"
+  },
+  {
+    "start": 2092.639,
+    "duration": 2.081,
+    "text": "it"
+  },
+  {
+    "start": 2094.879,
+    "duration": 2.641,
+    "text": "there we go"
+  },
+  {
+    "start": 2096.0,
+    "duration": 3.28,
+    "text": "while this condition is true keep moving"
+  },
+  {
+    "start": 2097.52,
+    "duration": 3.36,
+    "text": "start ahead while this condition is true"
+  },
+  {
+    "start": 2099.28,
+    "duration": 3.2,
+    "text": "keep moving end ahead when these"
+  },
+  {
+    "start": 2100.88,
+    "duration": 3.44,
+    "text": "conditions are false you will be at the"
+  },
+  {
+    "start": 2102.48,
+    "duration": 3.28,
+    "text": "violation then you will swap that"
+  },
+  {
+    "start": 2104.32,
+    "duration": 3.84,
+    "text": "violation"
+  },
+  {
+    "start": 2105.76,
+    "duration": 5.599,
+    "text": "okay so i can say while"
+  },
+  {
+    "start": 2108.16,
+    "duration": 5.12,
+    "text": "my nums off start is actually less than"
+  },
+  {
+    "start": 2111.359,
+    "duration": 3.201,
+    "text": "pivot it basically means okay everything"
+  },
+  {
+    "start": 2113.28,
+    "duration": 2.96,
+    "text": "is going good"
+  },
+  {
+    "start": 2114.56,
+    "duration": 3.36,
+    "text": "it's at the correct position number has"
+  },
+  {
+    "start": 2116.24,
+    "duration": 3.04,
+    "text": "to be smaller than pivot it is smaller"
+  },
+  {
+    "start": 2117.92,
+    "duration": 3.199,
+    "text": "than pivot then move ahead and try to"
+  },
+  {
+    "start": 2119.28,
+    "duration": 4.72,
+    "text": "see if you can find a violation"
+  },
+  {
+    "start": 2121.119,
+    "duration": 5.841,
+    "text": "otherwise it's going to be like"
+  },
+  {
+    "start": 2124.0,
+    "duration": 4.88,
+    "text": "if number or at end is actually greater"
+  },
+  {
+    "start": 2126.96,
+    "duration": 4.48,
+    "text": "than pivot it's going good that's going"
+  },
+  {
+    "start": 2128.88,
+    "duration": 3.84,
+    "text": "good just keep moving and minus minus"
+  },
+  {
+    "start": 2131.44,
+    "duration": 3.04,
+    "text": "whenever it comes out whenever this"
+  },
+  {
+    "start": 2132.72,
+    "duration": 3.2,
+    "text": "condition fails you will be at a"
+  },
+  {
+    "start": 2134.48,
+    "duration": 2.879,
+    "text": "particular end"
+  },
+  {
+    "start": 2135.92,
+    "duration": 3.439,
+    "text": "where the condition is not being"
+  },
+  {
+    "start": 2137.359,
+    "duration": 4.0,
+    "text": "satisfied and we need to swap it means"
+  },
+  {
+    "start": 2139.359,
+    "duration": 3.921,
+    "text": "you will be finding an end that is"
+  },
+  {
+    "start": 2141.359,
+    "duration": 3.521,
+    "text": "actually smaller than pivot we need we"
+  },
+  {
+    "start": 2143.28,
+    "duration": 3.44,
+    "text": "don't want that we will swap that with"
+  },
+  {
+    "start": 2144.88,
+    "duration": 3.28,
+    "text": "start since start will also be violating"
+  },
+  {
+    "start": 2146.72,
+    "duration": 4.0,
+    "text": "a condition and you will also evaluating"
+  },
+  {
+    "start": 2148.16,
+    "duration": 4.24,
+    "text": "condition swapping those will solve both"
+  },
+  {
+    "start": 2150.72,
+    "duration": 3.359,
+    "text": "the violations"
+  },
+  {
+    "start": 2152.4,
+    "duration": 3.679,
+    "text": "okay and after that what are we going to"
+  },
+  {
+    "start": 2154.079,
+    "duration": 3.52,
+    "text": "do we are just going to swap but we are"
+  },
+  {
+    "start": 2156.079,
+    "duration": 3.921,
+    "text": "only going to swap"
+  },
+  {
+    "start": 2157.599,
+    "duration": 5.121,
+    "text": "if start is actually"
+  },
+  {
+    "start": 2160.0,
+    "duration": 4.079,
+    "text": "less than equal to end then only we are"
+  },
+  {
+    "start": 2162.72,
+    "duration": 3.28,
+    "text": "going to swap"
+  },
+  {
+    "start": 2164.079,
+    "duration": 3.601,
+    "text": "make sense because it might be possible"
+  },
+  {
+    "start": 2166.0,
+    "duration": 2.4,
+    "text": "that start plus plus and n minus minus"
+  },
+  {
+    "start": 2167.68,
+    "duration": 1.84,
+    "text": "will"
+  },
+  {
+    "start": 2168.4,
+    "duration": 2.88,
+    "text": "you know"
+  },
+  {
+    "start": 2169.52,
+    "duration": 3.44,
+    "text": "violate this condition and this check"
+  },
+  {
+    "start": 2171.28,
+    "duration": 2.88,
+    "text": "will not happen until unless this thing"
+  },
+  {
+    "start": 2172.96,
+    "duration": 2.399,
+    "text": "happens"
+  },
+  {
+    "start": 2174.16,
+    "duration": 2.48,
+    "text": "because this check will only happens"
+  },
+  {
+    "start": 2175.359,
+    "duration": 3.521,
+    "text": "once the entire body is finished"
+  },
+  {
+    "start": 2176.64,
+    "duration": 4.8,
+    "text": "executing right so at this line number"
+  },
+  {
+    "start": 2178.88,
+    "duration": 3.84,
+    "text": "25 we will have this check violated"
+  },
+  {
+    "start": 2181.44,
+    "duration": 3.12,
+    "text": "there's a possibility of this check"
+  },
+  {
+    "start": 2182.72,
+    "duration": 3.92,
+    "text": "being violated that is the only reason"
+  },
+  {
+    "start": 2184.56,
+    "duration": 4.16,
+    "text": "i'm putting this over here this is also"
+  },
+  {
+    "start": 2186.64,
+    "duration": 3.52,
+    "text": "a reason"
+  },
+  {
+    "start": 2188.72,
+    "duration": 2.639,
+    "text": "also a reason"
+  },
+  {
+    "start": 2190.16,
+    "duration": 3.12,
+    "text": "why"
+  },
+  {
+    "start": 2191.359,
+    "duration": 4.161,
+    "text": "you know like in merge sort if the array"
+  },
+  {
+    "start": 2193.28,
+    "duration": 5.44,
+    "text": "is already sorted it will still swap"
+  },
+  {
+    "start": 2195.52,
+    "duration": 5.839,
+    "text": "why if it's already sorted"
+  },
+  {
+    "start": 2198.72,
+    "duration": 4.56,
+    "text": "it will not swap"
+  },
+  {
+    "start": 2201.359,
+    "duration": 3.841,
+    "text": "that's why we prefer this over merge"
+  },
+  {
+    "start": 2203.28,
+    "duration": 2.799,
+    "text": "sort in when we're using arrays and"
+  },
+  {
+    "start": 2205.2,
+    "duration": 3.12,
+    "text": "stuff"
+  },
+  {
+    "start": 2206.079,
+    "duration": 2.241,
+    "text": "okay"
+  },
+  {
+    "start": 2208.48,
+    "duration": 4.4,
+    "text": "okay now we just swap i can say my"
+  },
+  {
+    "start": 2210.72,
+    "duration": 4.399,
+    "text": "temp is equal to what"
+  },
+  {
+    "start": 2212.88,
+    "duration": 4.8,
+    "text": "numbs off start"
+  },
+  {
+    "start": 2215.119,
+    "duration": 5.441,
+    "text": "nums of start is equal to nums of"
+  },
+  {
+    "start": 2217.68,
+    "duration": 5.12,
+    "text": "end and nums of end is equal to what"
+  },
+  {
+    "start": 2220.56,
+    "duration": 5.92,
+    "text": "temp and after swapping we do what start"
+  },
+  {
+    "start": 2222.8,
+    "duration": 3.68,
+    "text": "plus plus and n minus minus"
+  },
+  {
+    "start": 2227.599,
+    "duration": 4.0,
+    "text": "okay that is what we do we swap and we"
+  },
+  {
+    "start": 2229.2,
+    "duration": 5.04,
+    "text": "do start plus plus and"
+  },
+  {
+    "start": 2231.599,
+    "duration": 5.441,
+    "text": "and minus minus"
+  },
+  {
+    "start": 2234.24,
+    "duration": 4.48,
+    "text": "that is it now is the time for recursion"
+  },
+  {
+    "start": 2237.04,
+    "duration": 2.88,
+    "text": "call it's going to be like okay"
+  },
+  {
+    "start": 2238.72,
+    "duration": 4.879,
+    "text": "now my"
+  },
+  {
+    "start": 2239.92,
+    "duration": 4.72,
+    "text": "pivot is at correct index"
+  },
+  {
+    "start": 2243.599,
+    "duration": 3.52,
+    "text": "please"
+  },
+  {
+    "start": 2244.64,
+    "duration": 2.479,
+    "text": "sort"
+  },
+  {
+    "start": 2247.2,
+    "duration": 2.879,
+    "text": "two halves now what are the two halves"
+  },
+  {
+    "start": 2248.88,
+    "duration": 2.8,
+    "text": "let's check"
+  },
+  {
+    "start": 2250.079,
+    "duration": 4.721,
+    "text": "low comma end"
+  },
+  {
+    "start": 2251.68,
+    "duration": 4.56,
+    "text": "and s comma high i don't have to explain"
+  },
+  {
+    "start": 2254.8,
+    "duration": 2.96,
+    "text": "this again because i already did it"
+  },
+  {
+    "start": 2256.24,
+    "duration": 3.599,
+    "text": "these are the two halves i already"
+  },
+  {
+    "start": 2257.76,
+    "duration": 4.079,
+    "text": "explained how i got these variables"
+  },
+  {
+    "start": 2259.839,
+    "duration": 3.121,
+    "text": "right so i'm just going to call"
+  },
+  {
+    "start": 2261.839,
+    "duration": 3.681,
+    "text": "sorting"
+  },
+  {
+    "start": 2262.96,
+    "duration": 5.36,
+    "text": "on my nums it's going to be like low"
+  },
+  {
+    "start": 2265.52,
+    "duration": 5.04,
+    "text": "comma end and sorting"
+  },
+  {
+    "start": 2268.32,
+    "duration": 4.48,
+    "text": "on my nums this is going to be s comma"
+  },
+  {
+    "start": 2270.56,
+    "duration": 2.24,
+    "text": "high"
+  },
+  {
+    "start": 2272.96,
+    "duration": 3.44,
+    "text": "let's try to run this i'm going to say"
+  },
+  {
+    "start": 2274.64,
+    "duration": 3.92,
+    "text": "int"
+  },
+  {
+    "start": 2276.4,
+    "duration": 5.199,
+    "text": "array is equal to please try to debug it"
+  },
+  {
+    "start": 2278.56,
+    "duration": 4.88,
+    "text": "as well 54321"
+  },
+  {
+    "start": 2281.599,
+    "duration": 3.841,
+    "text": "sort array as you can see not returning"
+  },
+  {
+    "start": 2283.44,
+    "duration": 4.399,
+    "text": "anything or whatever"
+  },
+  {
+    "start": 2285.44,
+    "duration": 4.399,
+    "text": "low will be equal to initially zero high"
+  },
+  {
+    "start": 2287.839,
+    "duration": 4.0,
+    "text": "will be equal to array dot length minus"
+  },
+  {
+    "start": 2289.839,
+    "duration": 3.201,
+    "text": "one last index i'm just going to print"
+  },
+  {
+    "start": 2291.839,
+    "duration": 4.641,
+    "text": "arrays dot"
+  },
+  {
+    "start": 2293.04,
+    "duration": 3.44,
+    "text": "to string array"
+  },
+  {
+    "start": 2297.119,
+    "duration": 4.0,
+    "text": "run this let's see if it sorts or not"
+  },
+  {
+    "start": 2303.599,
+    "duration": 2.401,
+    "text": "cool"
+  },
+  {
+    "start": 2304.56,
+    "duration": 3.12,
+    "text": "sorted"
+  },
+  {
+    "start": 2306.0,
+    "duration": 3.44,
+    "text": "very good stuff"
+  },
+  {
+    "start": 2307.68,
+    "duration": 5.36,
+    "text": "let's try to debug it and you can see"
+  },
+  {
+    "start": 2309.44,
+    "duration": 5.6,
+    "text": "this entire processing in action"
+  },
+  {
+    "start": 2313.04,
+    "duration": 3.12,
+    "text": "so this may use some different approach"
+  },
+  {
+    "start": 2315.04,
+    "duration": 2.799,
+    "text": "than the you know"
+  },
+  {
+    "start": 2316.16,
+    "duration": 4.32,
+    "text": "pivot element one that people generally"
+  },
+  {
+    "start": 2317.839,
+    "duration": 4.881,
+    "text": "use but the original idea of quick sort"
+  },
+  {
+    "start": 2320.48,
+    "duration": 3.28,
+    "text": "is this only don't tell anything anyone"
+  },
+  {
+    "start": 2322.72,
+    "duration": 3.359,
+    "text": "otherwise"
+  },
+  {
+    "start": 2323.76,
+    "duration": 3.76,
+    "text": "this is the idea of quick sort okay"
+  },
+  {
+    "start": 2326.079,
+    "duration": 2.641,
+    "text": "whatever i have mentioned implementation"
+  },
+  {
+    "start": 2327.52,
+    "duration": 2.4,
+    "text": "may differ"
+  },
+  {
+    "start": 2328.72,
+    "duration": 2.0,
+    "text": "but uh"
+  },
+  {
+    "start": 2329.92,
+    "duration": 2.159,
+    "text": "yeah"
+  },
+  {
+    "start": 2330.72,
+    "duration": 3.28,
+    "text": "you can also i would highly recommend"
+  },
+  {
+    "start": 2332.079,
+    "duration": 4.161,
+    "text": "try other methods as well before asking"
+  },
+  {
+    "start": 2334.0,
+    "duration": 3.68,
+    "text": "doubt try other method as well which is"
+  },
+  {
+    "start": 2336.24,
+    "duration": 3.599,
+    "text": "sorting like uh"
+  },
+  {
+    "start": 2337.68,
+    "duration": 4.64,
+    "text": "side by side and stuff but the the"
+  },
+  {
+    "start": 2339.839,
+    "duration": 3.921,
+    "text": "theory and everything the complexity and"
+  },
+  {
+    "start": 2342.32,
+    "duration": 3.519,
+    "text": "all of these formulas and everything"
+  },
+  {
+    "start": 2343.76,
+    "duration": 3.839,
+    "text": "everything is same this entire approach"
+  },
+  {
+    "start": 2345.839,
+    "duration": 3.28,
+    "text": "this s and end and whatever everything"
+  },
+  {
+    "start": 2347.599,
+    "duration": 3.441,
+    "text": "is same"
+  },
+  {
+    "start": 2349.119,
+    "duration": 4.0,
+    "text": "okay"
+  },
+  {
+    "start": 2351.04,
+    "duration": 3.92,
+    "text": "so that is it but uh let me just show"
+  },
+  {
+    "start": 2353.119,
+    "duration": 2.881,
+    "text": "you one more thing uh if i just comment"
+  },
+  {
+    "start": 2354.96,
+    "duration": 2.399,
+    "text": "this out"
+  },
+  {
+    "start": 2356.0,
+    "duration": 4.8,
+    "text": "it's also like the internal sorting"
+  },
+  {
+    "start": 2357.359,
+    "duration": 7.681,
+    "text": "algorithm so you can say arrays dot sort"
+  },
+  {
+    "start": 2360.8,
+    "duration": 4.24,
+    "text": "okay array start sort"
+  },
+  {
+    "start": 2365.2,
+    "duration": 4.8,
+    "text": "and you can pass array over here let's"
+  },
+  {
+    "start": 2368.079,
+    "duration": 3.76,
+    "text": "see what it does"
+  },
+  {
+    "start": 2370.0,
+    "duration": 4.0,
+    "text": "so basically it says that"
+  },
+  {
+    "start": 2371.839,
+    "duration": 3.681,
+    "text": "this is a"
+  },
+  {
+    "start": 2374.0,
+    "duration": 2.88,
+    "text": "implementation it is actually using"
+  },
+  {
+    "start": 2375.52,
+    "duration": 2.72,
+    "text": "quick sort"
+  },
+  {
+    "start": 2376.88,
+    "duration": 2.239,
+    "text": "nice"
+  },
+  {
+    "start": 2378.24,
+    "duration": 3.2,
+    "text": "so"
+  },
+  {
+    "start": 2379.119,
+    "duration": 4.401,
+    "text": "it's like a one pivot it's using a dual"
+  },
+  {
+    "start": 2381.44,
+    "duration": 3.36,
+    "text": "pivot dual port dual pivot quick sort"
+  },
+  {
+    "start": 2383.52,
+    "duration": 3.839,
+    "text": "sort of a thing"
+  },
+  {
+    "start": 2384.8,
+    "duration": 4.24,
+    "text": "by someone named vladimir i hope i"
+  },
+  {
+    "start": 2387.359,
+    "duration": 3.361,
+    "text": "believe i pronounced that correctly"
+  },
+  {
+    "start": 2389.04,
+    "duration": 3.52,
+    "text": "right so even though i mentioned about"
+  },
+  {
+    "start": 2390.72,
+    "duration": 3.52,
+    "text": "tim sort or whatever that it uses in"
+  },
+  {
+    "start": 2392.56,
+    "duration": 3.36,
+    "text": "python let's say internally merge sort"
+  },
+  {
+    "start": 2394.24,
+    "duration": 3.04,
+    "text": "plus in session sort but here you can"
+  },
+  {
+    "start": 2395.92,
+    "duration": 3.12,
+    "text": "see that"
+  },
+  {
+    "start": 2397.28,
+    "duration": 3.839,
+    "text": "depending on language to language this"
+  },
+  {
+    "start": 2399.04,
+    "duration": 3.6,
+    "text": "one is using quick sort"
+  },
+  {
+    "start": 2401.119,
+    "duration": 4.081,
+    "text": "how cool is that always look at"
+  },
+  {
+    "start": 2402.64,
+    "duration": 3.439,
+    "text": "documentation things keep changing"
+  },
+  {
+    "start": 2405.2,
+    "duration": 3.04,
+    "text": "so"
+  },
+  {
+    "start": 2406.079,
+    "duration": 4.481,
+    "text": "it's offering of n log n performance on"
+  },
+  {
+    "start": 2408.24,
+    "duration": 3.52,
+    "text": "all data sets and it's typically faster"
+  },
+  {
+    "start": 2410.56,
+    "duration": 3.2,
+    "text": "than the one pivot quick sort"
+  },
+  {
+    "start": 2411.76,
+    "duration": 3.839,
+    "text": "implementation there's some really next"
+  },
+  {
+    "start": 2413.76,
+    "duration": 3.599,
+    "text": "level implementation do a dual pivot"
+  },
+  {
+    "start": 2415.599,
+    "duration": 4.24,
+    "text": "quick sort uh"
+  },
+  {
+    "start": 2417.359,
+    "duration": 4.0,
+    "text": "something like they have done over here"
+  },
+  {
+    "start": 2419.839,
+    "duration": 3.52,
+    "text": "right"
+  },
+  {
+    "start": 2421.359,
+    "duration": 3.841,
+    "text": "taking some insertion size and they're"
+  },
+  {
+    "start": 2423.359,
+    "duration": 4.561,
+    "text": "also using the insertion they're using a"
+  },
+  {
+    "start": 2425.2,
+    "duration": 5.6,
+    "text": "heap sort and insertion oh internally"
+  },
+  {
+    "start": 2427.92,
+    "duration": 4.64,
+    "text": "it's internally it is using uh in"
+  },
+  {
+    "start": 2430.8,
+    "duration": 3.76,
+    "text": "insertion sort and stuff insertion sort"
+  },
+  {
+    "start": 2432.56,
+    "duration": 4.16,
+    "text": "is used heap sort is being used heap"
+  },
+  {
+    "start": 2434.56,
+    "duration": 4.32,
+    "text": "sort we will cover in detail"
+  },
+  {
+    "start": 2436.72,
+    "duration": 3.92,
+    "text": "so you can see it's very complex"
+  },
+  {
+    "start": 2438.88,
+    "duration": 4.0,
+    "text": "favorite element it's taking and things"
+  },
+  {
+    "start": 2440.64,
+    "duration": 3.679,
+    "text": "like that but you can see all in all it"
+  },
+  {
+    "start": 2442.88,
+    "duration": 3.439,
+    "text": "is a hybrid sorting algorithm because"
+  },
+  {
+    "start": 2444.319,
+    "duration": 4.8,
+    "text": "it's using some other like sorting"
+  },
+  {
+    "start": 2446.319,
+    "duration": 4.0,
+    "text": "algorithms as well so don't dive deep"
+  },
+  {
+    "start": 2449.119,
+    "duration": 2.96,
+    "text": "into this right now because you're just"
+  },
+  {
+    "start": 2450.319,
+    "duration": 3.841,
+    "text": "starting data structures but if you're"
+  },
+  {
+    "start": 2452.079,
+    "duration": 3.28,
+    "text": "interested you can check it out but not"
+  },
+  {
+    "start": 2454.16,
+    "duration": 2.8,
+    "text": "no one is going to ask you this in"
+  },
+  {
+    "start": 2455.359,
+    "duration": 3.201,
+    "text": "interviews okay they're only going to"
+  },
+  {
+    "start": 2456.96,
+    "duration": 3.359,
+    "text": "ask you like this because these are like"
+  },
+  {
+    "start": 2458.56,
+    "duration": 3.6,
+    "text": "scientists and researchers right no one"
+  },
+  {
+    "start": 2460.319,
+    "duration": 3.52,
+    "text": "is going to ask you tell us the entire"
+  },
+  {
+    "start": 2462.16,
+    "duration": 3.52,
+    "text": "implementing internal implementation of"
+  },
+  {
+    "start": 2463.839,
+    "duration": 4.24,
+    "text": "how java sorting algorithms works no one"
+  },
+  {
+    "start": 2465.68,
+    "duration": 4.159,
+    "text": "will ask that interviews so"
+  },
+  {
+    "start": 2468.079,
+    "duration": 3.361,
+    "text": "the basic concepts but people will ask"
+  },
+  {
+    "start": 2469.839,
+    "duration": 3.601,
+    "text": "so make sure how you know how quicksort"
+  },
+  {
+    "start": 2471.44,
+    "duration": 4.56,
+    "text": "works and how these like basically the"
+  },
+  {
+    "start": 2473.44,
+    "duration": 3.6,
+    "text": "basic idea of hybrid algorithms"
+  },
+  {
+    "start": 2476.0,
+    "duration": 2.96,
+    "text": "okay so this is like the internal"
+  },
+  {
+    "start": 2477.04,
+    "duration": 4.4,
+    "text": "algorithm command click you can check"
+  },
+  {
+    "start": 2478.96,
+    "duration": 3.84,
+    "text": "out how it works internally"
+  },
+  {
+    "start": 2481.44,
+    "duration": 3.28,
+    "text": "and that was pretty much about it we"
+  },
+  {
+    "start": 2482.8,
+    "duration": 3.519,
+    "text": "covered the internal implementation and"
+  },
+  {
+    "start": 2484.72,
+    "duration": 4.08,
+    "text": "comparison with merge sort we covered"
+  },
+  {
+    "start": 2486.319,
+    "duration": 4.081,
+    "text": "the recurrence relation it covered give"
+  },
+  {
+    "start": 2488.8,
+    "duration": 3.84,
+    "text": "you all the nice references for accra"
+  },
+  {
+    "start": 2490.4,
+    "duration": 4.24,
+    "text": "bazi formula solving linear recurrence"
+  },
+  {
+    "start": 2492.64,
+    "duration": 3.679,
+    "text": "relations you can you know divide it"
+  },
+  {
+    "start": 2494.64,
+    "duration": 3.199,
+    "text": "yourself and all the complexity and"
+  },
+  {
+    "start": 2496.319,
+    "duration": 3.361,
+    "text": "everything was answered"
+  },
+  {
+    "start": 2497.839,
+    "duration": 3.041,
+    "text": "and yeah i mean that was it thanks a lot"
+  },
+  {
+    "start": 2499.68,
+    "duration": 2.639,
+    "text": "for watching and i'll see you in the"
+  },
+  {
+    "start": 2500.88,
+    "duration": 3.439,
+    "text": "next one please make sure like and"
+  },
+  {
+    "start": 2502.319,
+    "duration": 3.841,
+    "text": "subscribe and comment down if you loved"
+  },
+  {
+    "start": 2504.319,
+    "duration": 3.841,
+    "text": "it and try out different approaches of"
+  },
+  {
+    "start": 2506.16,
+    "duration": 3.36,
+    "text": "quick sort as well uh let me just show"
+  },
+  {
+    "start": 2508.16,
+    "duration": 2.72,
+    "text": "you one thing for example here they are"
+  },
+  {
+    "start": 2509.52,
+    "duration": 3.2,
+    "text": "using some another approach right so"
+  },
+  {
+    "start": 2510.88,
+    "duration": 3.84,
+    "text": "they are saying something like uh they"
+  },
+  {
+    "start": 2512.72,
+    "duration": 3.04,
+    "text": "are taking adjacent adjacent elements"
+  },
+  {
+    "start": 2514.72,
+    "duration": 2.56,
+    "text": "like this"
+  },
+  {
+    "start": 2515.76,
+    "duration": 3.28,
+    "text": "uh over here they are taking something"
+  },
+  {
+    "start": 2517.28,
+    "duration": 3.76,
+    "text": "like adjacent elements"
+  },
+  {
+    "start": 2519.04,
+    "duration": 2.799,
+    "text": "right so you can try this approach as"
+  },
+  {
+    "start": 2521.04,
+    "duration": 3.36,
+    "text": "well"
+  },
+  {
+    "start": 2521.839,
+    "duration": 3.921,
+    "text": "but the overall idea is same thanks a"
+  },
+  {
+    "start": 2524.4,
+    "duration": 4.52,
+    "text": "lot for watching and i'll see you in the"
+  },
+  {
+    "start": 2525.76,
+    "duration": 3.16,
+    "text": "next one"
+  },
+  {
+    "start": 2532.19,
+    "duration": 2.96,
+    "text": "[Music]"
+  }
+]

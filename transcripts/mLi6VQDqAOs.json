@@ -1,0 +1,2862 @@
+[
+  {
+    "start": 4.0,
+    "duration": 2.52,
+    "text": "hey everyone welcome back to my channel"
+  },
+  {
+    "start": 5.08,
+    "duration": 2.96,
+    "text": "in a new video in this video we're"
+  },
+  {
+    "start": 6.52,
+    "duration": 4.28,
+    "text": "continuing the complete data stres"
+  },
+  {
+    "start": 8.04,
+    "duration": 4.04,
+    "text": "algorithms boot cam Series so you can"
+  },
+  {
+    "start": 10.8,
+    "duration": 2.879,
+    "text": "find all the links in the description"
+  },
+  {
+    "start": 12.08,
+    "duration": 3.2,
+    "text": "below for the code and if you're"
+  },
+  {
+    "start": 13.679,
+    "duration": 3.921,
+    "text": "preparing for your interview you want to"
+  },
+  {
+    "start": 15.28,
+    "duration": 4.12,
+    "text": "learn more about like lead code problems"
+  },
+  {
+    "start": 17.6,
+    "duration": 4.48,
+    "text": "and how to solve coding interview"
+  },
+  {
+    "start": 19.4,
+    "duration": 4.92,
+    "text": "questions of big tech companies this"
+  },
+  {
+    "start": 22.08,
+    "duration": 3.359,
+    "text": "complete free playlist is for you so"
+  },
+  {
+    "start": 24.32,
+    "duration": 2.959,
+    "text": "make sure you check out the links in the"
+  },
+  {
+    "start": 25.439,
+    "duration": 4.16,
+    "text": "description below in this video we're"
+  },
+  {
+    "start": 27.279,
+    "duration": 3.721,
+    "text": "continuing the series and in this video"
+  },
+  {
+    "start": 29.599,
+    "duration": 3.441,
+    "text": "we're going to learn about an important"
+  },
+  {
+    "start": 31.0,
+    "duration": 4.0,
+    "text": "sorting algorithm we've covered so many"
+  },
+  {
+    "start": 33.04,
+    "duration": 5.92,
+    "text": "sorting algorithms in the past and in"
+  },
+  {
+    "start": 35.0,
+    "duration": 3.96,
+    "text": "this one we're learning about radex"
+  },
+  {
+    "start": 39.559,
+    "duration": 3.721,
+    "text": "sort so we have covered count sort in"
+  },
+  {
+    "start": 41.96,
+    "duration": 3.279,
+    "text": "the previous video and now we're going"
+  },
+  {
+    "start": 43.28,
+    "duration": 3.959,
+    "text": "to learn about radic sort so in this"
+  },
+  {
+    "start": 45.239,
+    "duration": 4.84,
+    "text": "video we'll see what is Ric sort what"
+  },
+  {
+    "start": 47.239,
+    "duration": 5.081,
+    "text": "are the advantages when to use it"
+  },
+  {
+    "start": 50.079,
+    "duration": 4.64,
+    "text": "disadvantages the theory the"
+  },
+  {
+    "start": 52.32,
+    "duration": 5.44,
+    "text": "implementation the dry run the code"
+  },
+  {
+    "start": 54.719,
+    "duration": 5.201,
+    "text": "itself so let's get started so let's see"
+  },
+  {
+    "start": 57.76,
+    "duration": 4.319,
+    "text": "what radic sort is and how it works"
+  },
+  {
+    "start": 59.92,
+    "duration": 4.88,
+    "text": "let's say I'm given an array something"
+  },
+  {
+    "start": 62.079,
+    "duration": 2.721,
+    "text": "like"
+  },
+  {
+    "start": 65.119,
+    "duration": 3.721,
+    "text": "um something like"
+  },
+  {
+    "start": 70.24,
+    "duration": 6.08,
+    "text": "this given"
+  },
+  {
+    "start": 72.24,
+    "duration": 5.68,
+    "text": "29 83"
+  },
+  {
+    "start": 76.32,
+    "duration": 3.68,
+    "text": "471"
+  },
+  {
+    "start": 77.92,
+    "duration": 6.68,
+    "text": "36"
+  },
+  {
+    "start": 80.0,
+    "duration": 7.72,
+    "text": "91 and 8 I want to sort this array okay"
+  },
+  {
+    "start": 84.6,
+    "duration": 5.8,
+    "text": "so what radex sort does is it's going to"
+  },
+  {
+    "start": 87.72,
+    "duration": 4.359,
+    "text": "we're going to use count sort as well uh"
+  },
+  {
+    "start": 90.4,
+    "duration": 3.96,
+    "text": "but what radic sort does it it's very"
+  },
+  {
+    "start": 92.079,
+    "duration": 5.0,
+    "text": "simple it divides the numbers into"
+  },
+  {
+    "start": 94.36,
+    "duration": 5.36,
+    "text": "buckets and it sorts it according to"
+  },
+  {
+    "start": 97.079,
+    "duration": 4.36,
+    "text": "those buckets right based on every"
+  },
+  {
+    "start": 99.72,
+    "duration": 3.719,
+    "text": "digits"
+  },
+  {
+    "start": 101.439,
+    "duration": 4.841,
+    "text": "value"
+  },
+  {
+    "start": 103.439,
+    "duration": 4.72,
+    "text": "so it's very simple it's not confusing"
+  },
+  {
+    "start": 106.28,
+    "duration": 3.479,
+    "text": "at all this is one of the most easiest"
+  },
+  {
+    "start": 108.159,
+    "duration": 5.64,
+    "text": "algorithms let me tell you what I mean"
+  },
+  {
+    "start": 109.759,
+    "duration": 7.36,
+    "text": "by buckets"
+  },
+  {
+    "start": 113.799,
+    "duration": 5.801,
+    "text": "so initially it's going to take the"
+  },
+  {
+    "start": 117.119,
+    "duration": 5.441,
+    "text": "largest number okay the one with the"
+  },
+  {
+    "start": 119.6,
+    "duration": 4.92,
+    "text": "most most number of"
+  },
+  {
+    "start": 122.56,
+    "duration": 4.599,
+    "text": "digits"
+  },
+  {
+    "start": 124.52,
+    "duration": 5.32,
+    "text": "so the first number has two digits"
+  },
+  {
+    "start": 127.159,
+    "duration": 6.401,
+    "text": "second number has two digits 8 and three"
+  },
+  {
+    "start": 129.84,
+    "duration": 7.16,
+    "text": "third number has three digits 47 1 and"
+  },
+  {
+    "start": 133.56,
+    "duration": 7.679,
+    "text": "then 2 2 1 so largest number of digits"
+  },
+  {
+    "start": 137.0,
+    "duration": 4.239,
+    "text": "in this array for any number is"
+  },
+  {
+    "start": 141.68,
+    "duration": 7.8,
+    "text": "three hence I will run it three times I"
+  },
+  {
+    "start": 146.44,
+    "duration": 5.92,
+    "text": "will run count sort three times for"
+  },
+  {
+    "start": 149.48,
+    "duration": 2.88,
+    "text": "example I can"
+  },
+  {
+    "start": 152.4,
+    "duration": 7.16,
+    "text": "say"
+  },
+  {
+    "start": 154.92,
+    "duration": 6.319,
+    "text": "largest digit is equal to three run"
+  },
+  {
+    "start": 159.56,
+    "duration": 4.399,
+    "text": "count"
+  },
+  {
+    "start": 161.239,
+    "duration": 5.441,
+    "text": "sort three"
+  },
+  {
+    "start": 163.959,
+    "duration": 6.881,
+    "text": "times okay and it's going to run on the"
+  },
+  {
+    "start": 166.68,
+    "duration": 7.559,
+    "text": "basis of the base values so you know in"
+  },
+  {
+    "start": 170.84,
+    "duration": 6.479,
+    "text": "the childhood we have done base"
+  },
+  {
+    "start": 174.239,
+    "duration": 6.64,
+    "text": "system once T 100,00"
+  },
+  {
+    "start": 177.319,
+    "duration": 7.121,
+    "text": "10,000 so we're going to start from the"
+  },
+  {
+    "start": 180.879,
+    "duration": 7.64,
+    "text": "least base and the least base and we'll"
+  },
+  {
+    "start": 184.44,
+    "duration": 7.159,
+    "text": "work our way up so from the 0 1 2 so"
+  },
+  {
+    "start": 188.519,
+    "duration": 7.321,
+    "text": "ones place tens hundreds thousands so on"
+  },
+  {
+    "start": 191.599,
+    "duration": 4.241,
+    "text": "and so forth so we will sort this"
+  },
+  {
+    "start": 197.239,
+    "duration": 5.331,
+    "text": "array sort the"
+  },
+  {
+    "start": 201.04,
+    "duration": 2.96,
+    "text": "array"
+  },
+  {
+    "start": 202.57,
+    "duration": 4.83,
+    "text": "[Music]"
+  },
+  {
+    "start": 204.0,
+    "duration": 3.4,
+    "text": "using count"
+  },
+  {
+    "start": 208.68,
+    "duration": 6.4,
+    "text": "sort"
+  },
+  {
+    "start": 211.159,
+    "duration": 3.921,
+    "text": "digit by"
+  },
+  {
+    "start": 215.439,
+    "duration": 8.201,
+    "text": "digit starting from least so least digit"
+  },
+  {
+    "start": 220.48,
+    "duration": 7.319,
+    "text": "is what Zer zeroth place so I will sort"
+  },
+  {
+    "start": 223.64,
+    "duration": 7.159,
+    "text": "it according to the zeroth place so"
+  },
+  {
+    "start": 227.799,
+    "duration": 9.601,
+    "text": "29 83"
+  },
+  {
+    "start": 230.799,
+    "duration": 8.881,
+    "text": "471 36 91 8 what is the least digit this"
+  },
+  {
+    "start": 237.4,
+    "duration": 4.64,
+    "text": "one this one all the ones will be high"
+  },
+  {
+    "start": 239.68,
+    "duration": 4.36,
+    "text": "highlighted the one's place now I will"
+  },
+  {
+    "start": 242.04,
+    "duration": 5.8,
+    "text": "sort it according to"
+  },
+  {
+    "start": 244.04,
+    "duration": 5.839,
+    "text": "this so if I sort it"
+  },
+  {
+    "start": 247.84,
+    "duration": 5.52,
+    "text": "accordingly"
+  },
+  {
+    "start": 249.879,
+    "duration": 5.6,
+    "text": "um first I will have let's say"
+  },
+  {
+    "start": 253.36,
+    "duration": 5.36,
+    "text": "471"
+  },
+  {
+    "start": 255.479,
+    "duration": 3.241,
+    "text": "91 and"
+  },
+  {
+    "start": 259.04,
+    "duration": 12.2,
+    "text": "then"
+  },
+  {
+    "start": 261.72,
+    "duration": 11.6,
+    "text": "83 36 8 and 29 you can see 1 1 3 6 8 9"
+  },
+  {
+    "start": 271.24,
+    "duration": 3.44,
+    "text": "right now we what we're going to do is"
+  },
+  {
+    "start": 273.32,
+    "duration": 3.92,
+    "text": "we're going to sort it again now based"
+  },
+  {
+    "start": 274.68,
+    "duration": 7.16,
+    "text": "on the next digits place what comes"
+  },
+  {
+    "start": 277.24,
+    "duration": 7.6,
+    "text": "after one 10th 10th digits place"
+  },
+  {
+    "start": 281.84,
+    "duration": 6.0,
+    "text": "so 10th digit place here is"
+  },
+  {
+    "start": 284.84,
+    "duration": 7.6,
+    "text": "two here is"
+  },
+  {
+    "start": 287.84,
+    "duration": 8.72,
+    "text": "0o here is 3 8"
+  },
+  {
+    "start": 292.44,
+    "duration": 8.44,
+    "text": "9 and seven so now sort"
+  },
+  {
+    "start": 296.56,
+    "duration": 6.56,
+    "text": "it 08 8 will be coming first"
+  },
+  {
+    "start": 300.88,
+    "duration": 4.68,
+    "text": "then I will have"
+  },
+  {
+    "start": 303.12,
+    "duration": 5.44,
+    "text": "29 then I will"
+  },
+  {
+    "start": 305.56,
+    "duration": 3.0,
+    "text": "have"
+  },
+  {
+    "start": 308.88,
+    "duration": 7.68,
+    "text": "36 then I will have"
+  },
+  {
+    "start": 312.28,
+    "duration": 6.52,
+    "text": "471 then 83 and then 91 now I will sort"
+  },
+  {
+    "start": 316.56,
+    "duration": 7.8,
+    "text": "accordingly so this you can see how I'm"
+  },
+  {
+    "start": 318.8,
+    "duration": 7.76,
+    "text": "doing every since at every loop I am"
+  },
+  {
+    "start": 324.36,
+    "duration": 5.24,
+    "text": "sorting the array based on the single"
+  },
+  {
+    "start": 326.56,
+    "duration": 6.16,
+    "text": "digit it means that these red red things"
+  },
+  {
+    "start": 329.6,
+    "duration": 5.599,
+    "text": "will be from 0 to 9 only red digits only"
+  },
+  {
+    "start": 332.72,
+    "duration": 3.759,
+    "text": "one digit R we are solving right and how"
+  },
+  {
+    "start": 335.199,
+    "duration": 5.361,
+    "text": "many one digigit numbers are there in"
+  },
+  {
+    "start": 336.479,
+    "duration": 6.081,
+    "text": "the world 10 0 to 9 so we can use count"
+  },
+  {
+    "start": 340.56,
+    "duration": 4.44,
+    "text": "sort at every"
+  },
+  {
+    "start": 342.56,
+    "duration": 4.359,
+    "text": "level and this is going to run how many"
+  },
+  {
+    "start": 345.0,
+    "duration": 4.84,
+    "text": "times number of times we have the"
+  },
+  {
+    "start": 346.919,
+    "duration": 4.641,
+    "text": "largest digits obviously makes sense you"
+  },
+  {
+    "start": 349.84,
+    "duration": 4.84,
+    "text": "can't run it four times because there is"
+  },
+  {
+    "start": 351.56,
+    "duration": 4.52,
+    "text": "no fourth place no thousandth place now"
+  },
+  {
+    "start": 354.68,
+    "duration": 2.4,
+    "text": "it will be like okay now I'm at the"
+  },
+  {
+    "start": 356.08,
+    "duration": 7.0,
+    "text": "third"
+  },
+  {
+    "start": 357.08,
+    "duration": 9.52,
+    "text": "index third index is 0 0 0 4 0 0"
+  },
+  {
+    "start": 363.08,
+    "duration": 3.52,
+    "text": "0 so it will"
+  },
+  {
+    "start": 367.479,
+    "duration": 7.12,
+    "text": "become it will become 8 29 36"
+  },
+  {
+    "start": 375.8,
+    "duration": 7.56,
+    "text": "83 91 471 this is my answer array"
+  },
+  {
+    "start": 381.319,
+    "duration": 4.6,
+    "text": "sorted"
+  },
+  {
+    "start": 383.36,
+    "duration": 5.6,
+    "text": "answer how"
+  },
+  {
+    "start": 385.919,
+    "duration": 4.881,
+    "text": "sorted simple so calculate the number"
+  },
+  {
+    "start": 388.96,
+    "duration": 5.16,
+    "text": "largest number number of digits run"
+  },
+  {
+    "start": 390.8,
+    "duration": 6.0,
+    "text": "count sort that many times that's it and"
+  },
+  {
+    "start": 394.12,
+    "duration": 6.04,
+    "text": "every time you run count sort run it"
+  },
+  {
+    "start": 396.8,
+    "duration": 6.56,
+    "text": "for the index starting from the left"
+  },
+  {
+    "start": 400.16,
+    "duration": 5.4,
+    "text": "hand side so zeroth index so zero zeroth"
+  },
+  {
+    "start": 403.36,
+    "duration": 5.64,
+    "text": "place like On's Place 10's Place 100"
+  },
+  {
+    "start": 405.56,
+    "duration": 5.919,
+    "text": "plates thousand place that's"
+  },
+  {
+    "start": 409.0,
+    "duration": 4.68,
+    "text": "it okay I'll talk to about the time"
+  },
+  {
+    "start": 411.479,
+    "duration": 5.801,
+    "text": "complexity and the advantages and stuff"
+  },
+  {
+    "start": 413.68,
+    "duration": 5.4,
+    "text": "later on but let's code it it's pretty"
+  },
+  {
+    "start": 417.28,
+    "duration": 3.72,
+    "text": "simple okay so the link can be found in"
+  },
+  {
+    "start": 419.08,
+    "duration": 3.04,
+    "text": "the descript description below I will"
+  },
+  {
+    "start": 421.0,
+    "duration": 4.8,
+    "text": "call"
+  },
+  {
+    "start": 422.12,
+    "duration": 3.68,
+    "text": "it radex"
+  },
+  {
+    "start": 426.52,
+    "duration": 3.519,
+    "text": "sort I'll make it public so you can"
+  },
+  {
+    "start": 428.879,
+    "duration": 4.88,
+    "text": "check it"
+  },
+  {
+    "start": 430.039,
+    "duration": 5.081,
+    "text": "out and um what are we going to do how"
+  },
+  {
+    "start": 433.759,
+    "duration": 3.641,
+    "text": "are we going to do"
+  },
+  {
+    "start": 435.12,
+    "duration": 4.639,
+    "text": "this"
+  },
+  {
+    "start": 437.4,
+    "duration": 3.76,
+    "text": "um first I'm going to calculate the"
+  },
+  {
+    "start": 439.759,
+    "duration": 3.081,
+    "text": "maximum number"
+  },
+  {
+    "start": 441.16,
+    "duration": 5.8,
+    "text": "of"
+  },
+  {
+    "start": 442.84,
+    "duration": 8.479,
+    "text": "digits right and then I'm going to check"
+  },
+  {
+    "start": 446.96,
+    "duration": 4.359,
+    "text": "count sort for every digit SP"
+  },
+  {
+    "start": 452.8,
+    "duration": 6.32,
+    "text": "place"
+  },
+  {
+    "start": 455.199,
+    "duration": 6.921,
+    "text": "right and that's what we're going to"
+  },
+  {
+    "start": 459.12,
+    "duration": 3.0,
+    "text": "do"
+  },
+  {
+    "start": 466.52,
+    "duration": 6.079,
+    "text": "so I going to"
+  },
+  {
+    "start": 469.68,
+    "duration": 5.6,
+    "text": "say public static"
+  },
+  {
+    "start": 472.599,
+    "duration": 7.841,
+    "text": "void radx"
+  },
+  {
+    "start": 475.28,
+    "duration": 8.16,
+    "text": "sort int array I want to get the maximum"
+  },
+  {
+    "start": 480.44,
+    "duration": 4.599,
+    "text": "number first to know the number of"
+  },
+  {
+    "start": 483.44,
+    "duration": 4.439,
+    "text": "digits that's what the number of digits"
+  },
+  {
+    "start": 485.039,
+    "duration": 5.761,
+    "text": "will be maximum number so maximum number"
+  },
+  {
+    "start": 487.879,
+    "duration": 6.121,
+    "text": "I can get arrays. stream you can also do"
+  },
+  {
+    "start": 490.8,
+    "duration": 8.88,
+    "text": "a simple linear search if you"
+  },
+  {
+    "start": 494.0,
+    "duration": 5.68,
+    "text": "want Max do get as"
+  },
+  {
+    "start": 499.8,
+    "duration": 4.679,
+    "text": "int okay and I've shown you the formula"
+  },
+  {
+    "start": 502.4,
+    "duration": 5.079,
+    "text": "to calculate the number of digits"
+  },
+  {
+    "start": 504.479,
+    "duration": 6.761,
+    "text": "previously as well so nothing to worry"
+  },
+  {
+    "start": 507.479,
+    "duration": 3.761,
+    "text": "about it now I'm going to say"
+  },
+  {
+    "start": 511.759,
+    "duration": 5.121,
+    "text": "do count"
+  },
+  {
+    "start": 513.88,
+    "duration": 3.0,
+    "text": "sort"
+  },
+  {
+    "start": 518.88,
+    "duration": 7.44,
+    "text": "for every digit"
+  },
+  {
+    "start": 522.719,
+    "duration": 3.601,
+    "text": "place starting from"
+  },
+  {
+    "start": 527.519,
+    "duration": 5.041,
+    "text": "Once"
+  },
+  {
+    "start": 529.279,
+    "duration": 7.441,
+    "text": "once then tens then 100 then thousand"
+  },
+  {
+    "start": 532.56,
+    "duration": 5.08,
+    "text": "then 10,000 so exp multiplied by 10 at"
+  },
+  {
+    "start": 536.72,
+    "duration": 4.48,
+    "text": "every"
+  },
+  {
+    "start": 537.64,
+    "duration": 3.56,
+    "text": "step but what is the"
+  },
+  {
+    "start": 541.519,
+    "duration": 5.44,
+    "text": "condition how long will it go so let's"
+  },
+  {
+    "start": 544.279,
+    "duration": 5.481,
+    "text": "say we have"
+  },
+  {
+    "start": 546.959,
+    "duration": 7.841,
+    "text": "471 so that is the largest number"
+  },
+  {
+    "start": 549.76,
+    "duration": 8.56,
+    "text": "471 exper uh exp my exponent will be one"
+  },
+  {
+    "start": 554.8,
+    "duration": 6.68,
+    "text": "then my exponent will be 10 then my"
+  },
+  {
+    "start": 558.32,
+    "duration": 4.84,
+    "text": "exponent will be 100 then I don't want"
+  },
+  {
+    "start": 561.48,
+    "duration": 5.039,
+    "text": "it to be"
+  },
+  {
+    "start": 563.16,
+    "duration": 3.359,
+    "text": "th so"
+  },
+  {
+    "start": 566.72,
+    "duration": 6.88,
+    "text": "this exponent so my number modulo"
+  },
+  {
+    "start": 572.24,
+    "duration": 3.96,
+    "text": "exponent should"
+  },
+  {
+    "start": 573.6,
+    "duration": 6.0,
+    "text": "be"
+  },
+  {
+    "start": 576.2,
+    "duration": 6.04,
+    "text": "positive or greater than zero see"
+  },
+  {
+    "start": 579.6,
+    "duration": 6.359,
+    "text": "because if I am at one I know that one"
+  },
+  {
+    "start": 582.24,
+    "duration": 7.48,
+    "text": "modulo like uh the number modulo one"
+  },
+  {
+    "start": 585.959,
+    "duration": 5.521,
+    "text": "which is 471 remainder 1 like divide by"
+  },
+  {
+    "start": 589.72,
+    "duration": 5.6,
+    "text": "like modulo"
+  },
+  {
+    "start": 591.48,
+    "duration": 6.359,
+    "text": "one not not remainder divide 471 divid 1"
+  },
+  {
+    "start": 595.32,
+    "duration": 4.56,
+    "text": "is 471 so I think this will work then I"
+  },
+  {
+    "start": 597.839,
+    "duration": 5.081,
+    "text": "will go with 10 place Place does it have"
+  },
+  {
+    "start": 599.88,
+    "duration": 6.12,
+    "text": "a 10's place yes it does because 471 /"
+  },
+  {
+    "start": 602.92,
+    "duration": 6.359,
+    "text": "by 10 is giving me a positive"
+  },
+  {
+    "start": 606.0,
+    "duration": 5.519,
+    "text": "number right 47 then it will be okay now"
+  },
+  {
+    "start": 609.279,
+    "duration": 5.56,
+    "text": "I'll try 100 can I do"
+  },
+  {
+    "start": 611.519,
+    "duration": 6.921,
+    "text": "100 can I do the third digit place yes"
+  },
+  {
+    "start": 614.839,
+    "duration": 8.361,
+    "text": "because it is greater than um 100"
+  },
+  {
+    "start": 618.44,
+    "duration": 4.76,
+    "text": "because um four like I can"
+  },
+  {
+    "start": 626.32,
+    "duration": 9.199,
+    "text": "say I can say that um"
+  },
+  {
+    "start": 630.8,
+    "duration": 8.44,
+    "text": "471 divide by um 100 is giving me a"
+  },
+  {
+    "start": 635.519,
+    "duration": 8.041,
+    "text": "positive number so yeah 471 divid 1 471"
+  },
+  {
+    "start": 639.24,
+    "duration": 7.64,
+    "text": "divid 10 471 divid 100 and then 471"
+  },
+  {
+    "start": 643.56,
+    "duration": 6.56,
+    "text": "divid th000 it's giving me not equal uh"
+  },
+  {
+    "start": 646.88,
+    "duration": 6.88,
+    "text": "not greater than zero so I cannot take"
+  },
+  {
+    "start": 650.12,
+    "duration": 7.12,
+    "text": "th000 or you can also just run it number"
+  },
+  {
+    "start": 653.76,
+    "duration": 6.199,
+    "text": "of times the you know the number of"
+  },
+  {
+    "start": 657.24,
+    "duration": 7.12,
+    "text": "digits are using the log you can find"
+  },
+  {
+    "start": 659.959,
+    "duration": 6.68,
+    "text": "digits log 10 something log base uh 2 or"
+  },
+  {
+    "start": 664.36,
+    "duration": 5.599,
+    "text": "something I've covered it in the math"
+  },
+  {
+    "start": 666.639,
+    "duration": 7.481,
+    "text": "for CS classes but anyway I'll do nice"
+  },
+  {
+    "start": 669.959,
+    "duration": 8.081,
+    "text": "one nice way Max divide"
+  },
+  {
+    "start": 674.12,
+    "duration": 6.2,
+    "text": "by exponent should be greater than zero"
+  },
+  {
+    "start": 678.04,
+    "duration": 3.96,
+    "text": "so this will run three times for any"
+  },
+  {
+    "start": 680.32,
+    "duration": 4.12,
+    "text": "number with three"
+  },
+  {
+    "start": 682.0,
+    "duration": 5.16,
+    "text": "digits okay when it reaches the fourth"
+  },
+  {
+    "start": 684.44,
+    "duration": 5.079,
+    "text": "time it will be like okay th if you"
+  },
+  {
+    "start": 687.16,
+    "duration": 4.479,
+    "text": "divide this number by thousand I'm"
+  },
+  {
+    "start": 689.519,
+    "duration": 4.041,
+    "text": "getting uh you know it's getting zero"
+  },
+  {
+    "start": 691.639,
+    "duration": 4.601,
+    "text": "and stuff I want it to be greater than"
+  },
+  {
+    "start": 693.56,
+    "duration": 7.399,
+    "text": "zero do count"
+  },
+  {
+    "start": 696.24,
+    "duration": 8.159,
+    "text": "sort count sort of this array for this"
+  },
+  {
+    "start": 700.959,
+    "duration": 6.12,
+    "text": "exponent okay let's do count"
+  },
+  {
+    "start": 704.399,
+    "duration": 5.921,
+    "text": "sort so for count sort it's going to be"
+  },
+  {
+    "start": 707.079,
+    "duration": 8.2,
+    "text": "very simple I'm going to"
+  },
+  {
+    "start": 710.32,
+    "duration": 4.959,
+    "text": "say private static"
+  },
+  {
+    "start": 715.48,
+    "duration": 5.799,
+    "text": "void count"
+  },
+  {
+    "start": 717.959,
+    "duration": 5.521,
+    "text": "sort int"
+  },
+  {
+    "start": 721.279,
+    "duration": 4.441,
+    "text": "array my"
+  },
+  {
+    "start": 723.48,
+    "duration": 5.44,
+    "text": "exponent just going to make some"
+  },
+  {
+    "start": 725.72,
+    "duration": 5.04,
+    "text": "variables array. length I'll have my"
+  },
+  {
+    "start": 728.92,
+    "duration": 5.32,
+    "text": "output"
+  },
+  {
+    "start": 730.76,
+    "duration": 5.96,
+    "text": "array new int"
+  },
+  {
+    "start": 734.24,
+    "duration": 5.959,
+    "text": "n and my count array which is going to"
+  },
+  {
+    "start": 736.72,
+    "duration": 6.4,
+    "text": "be equal to of what size size 10 because"
+  },
+  {
+    "start": 740.199,
+    "duration": 2.921,
+    "text": "0 to 9 10"
+  },
+  {
+    "start": 743.92,
+    "duration": 6.32,
+    "text": "numbers okay you can initialize it all"
+  },
+  {
+    "start": 748.0,
+    "duration": 4.72,
+    "text": "with zero but I think by default it's"
+  },
+  {
+    "start": 750.24,
+    "duration": 6.159,
+    "text": "already zero so it's fine and now I'm"
+  },
+  {
+    "start": 752.72,
+    "duration": 6.88,
+    "text": "going to do for let's say if I'm at"
+  },
+  {
+    "start": 756.399,
+    "duration": 7.841,
+    "text": "exponent number one so I need to make a"
+  },
+  {
+    "start": 759.6,
+    "duration": 8.88,
+    "text": "frequency array of all the numbers at"
+  },
+  {
+    "start": 764.24,
+    "duration": 7.52,
+    "text": "index like the bit place of one so one"
+  },
+  {
+    "start": 768.48,
+    "duration": 4.76,
+    "text": "stands 100 so how can I do that I know I"
+  },
+  {
+    "start": 771.76,
+    "duration": 5.48,
+    "text": "will"
+  },
+  {
+    "start": 773.24,
+    "duration": 6.32,
+    "text": "do I is equal to z i is less than n so I"
+  },
+  {
+    "start": 777.24,
+    "duration": 3.279,
+    "text": "will Traverse through all the element"
+  },
+  {
+    "start": 779.56,
+    "duration": 4.24,
+    "text": "and"
+  },
+  {
+    "start": 780.519,
+    "duration": 5.721,
+    "text": "i++ I want to make the count"
+  },
+  {
+    "start": 783.8,
+    "duration": 5.08,
+    "text": "array okay I want to do count of"
+  },
+  {
+    "start": 786.24,
+    "duration": 4.0,
+    "text": "something Plus+ now what would that"
+  },
+  {
+    "start": 788.88,
+    "duration": 6.12,
+    "text": "something"
+  },
+  {
+    "start": 790.24,
+    "duration": 6.959,
+    "text": "be how do I get 8 1"
+  },
+  {
+    "start": 795.0,
+    "duration": 6.88,
+    "text": "6 it will"
+  },
+  {
+    "start": 797.199,
+    "duration": 4.681,
+    "text": "be whatever element I am at"
+  },
+  {
+    "start": 802.399,
+    "duration": 5.361,
+    "text": "here I need to"
+  },
+  {
+    "start": 804.839,
+    "duration": 5.881,
+    "text": "get so if I'm at let's say this second"
+  },
+  {
+    "start": 807.76,
+    "duration": 6.48,
+    "text": "one I want to get two exponent here is"
+  },
+  {
+    "start": 810.72,
+    "duration": 6.32,
+    "text": "10 how do I get two I can say"
+  },
+  {
+    "start": 814.24,
+    "duration": 6.159,
+    "text": "29 divide by oh remove all the elements"
+  },
+  {
+    "start": 817.04,
+    "duration": 9.32,
+    "text": "on the right hand side so that I can do"
+  },
+  {
+    "start": 820.399,
+    "duration": 7.8,
+    "text": "by 29 / 10 so 29 / 10 will give me two"
+  },
+  {
+    "start": 826.36,
+    "duration": 4.719,
+    "text": "and then just take the remainder"
+  },
+  {
+    "start": 828.199,
+    "duration": 4.361,
+    "text": "whatever the last element is that can be"
+  },
+  {
+    "start": 831.079,
+    "duration": 5.0,
+    "text": "modulo"
+  },
+  {
+    "start": 832.56,
+    "duration": 6.839,
+    "text": "10 okay easy I hope you're able to"
+  },
+  {
+    "start": 836.079,
+    "duration": 5.041,
+    "text": "understand um let me show you so let's"
+  },
+  {
+    "start": 839.399,
+    "duration": 6.601,
+    "text": "say there is a"
+  },
+  {
+    "start": 841.12,
+    "duration": 7.8,
+    "text": "number let's say 471 and I want to get 7"
+  },
+  {
+    "start": 846.0,
+    "duration": 5.759,
+    "text": "at exponent number 10 I'm doing the loop"
+  },
+  {
+    "start": 848.92,
+    "duration": 4.599,
+    "text": "for exponent number 10 so how would I"
+  },
+  {
+    "start": 851.759,
+    "duration": 4.921,
+    "text": "get seven remove all the ones on the"
+  },
+  {
+    "start": 853.519,
+    "duration": 6.801,
+    "text": "right hand side so divide by 10 means"
+  },
+  {
+    "start": 856.68,
+    "duration": 6.959,
+    "text": "divide by exponent it will give me 47"
+  },
+  {
+    "start": 860.32,
+    "duration": 4.439,
+    "text": "and then the last digit 47 modulo 10"
+  },
+  {
+    "start": 863.639,
+    "duration": 6.56,
+    "text": "will give me"
+  },
+  {
+    "start": 864.759,
+    "duration": 8.841,
+    "text": "7 similarly 91 divid 10 9 last digit 9"
+  },
+  {
+    "start": 870.199,
+    "duration": 3.401,
+    "text": "so I will"
+  },
+  {
+    "start": 874.12,
+    "duration": 8.519,
+    "text": "say array of I divide by exponent and"
+  },
+  {
+    "start": 879.04,
+    "duration": 3.599,
+    "text": "then take the module over"
+  },
+  {
+    "start": 883.16,
+    "duration": 5.52,
+    "text": "10"
+  },
+  {
+    "start": 885.04,
+    "duration": 6.28,
+    "text": "okay sounds good okay now one thing is"
+  },
+  {
+    "start": 888.68,
+    "duration": 5.959,
+    "text": "that some of these arrays now we'll have"
+  },
+  {
+    "start": 891.32,
+    "duration": 5.84,
+    "text": "in the count array from 0 to 9 it will"
+  },
+  {
+    "start": 894.639,
+    "duration": 4.601,
+    "text": "have some elements as zero the question"
+  },
+  {
+    "start": 897.16,
+    "duration": 5.2,
+    "text": "is since I'm working with single digit"
+  },
+  {
+    "start": 899.24,
+    "duration": 5.44,
+    "text": "numbers how do I get the original"
+  },
+  {
+    "start": 902.36,
+    "duration": 4.88,
+    "text": "numbers because in reality I'm sorting"
+  },
+  {
+    "start": 904.68,
+    "duration": 5.88,
+    "text": "the original numbers right so what I'm"
+  },
+  {
+    "start": 907.24,
+    "duration": 7.8,
+    "text": "going to do is I'm just going"
+  },
+  {
+    "start": 910.56,
+    "duration": 7.8,
+    "text": "to build like change the every element"
+  },
+  {
+    "start": 915.04,
+    "duration": 5.239,
+    "text": "of count of I so that count of I also"
+  },
+  {
+    "start": 918.36,
+    "duration": 5.64,
+    "text": "contains the actual position of the"
+  },
+  {
+    "start": 920.279,
+    "duration": 5.641,
+    "text": "digit in the in the output array that"
+  },
+  {
+    "start": 924.0,
+    "duration": 4.92,
+    "text": "we'll create let me show you I'll just"
+  },
+  {
+    "start": 925.92,
+    "duration": 7.24,
+    "text": "I'll just do one thing so in I is equal"
+  },
+  {
+    "start": 928.92,
+    "duration": 7.56,
+    "text": "to 1 I is less than well 10 this start"
+  },
+  {
+    "start": 933.16,
+    "duration": 7.28,
+    "text": "the till till 9 I will go and I will say"
+  },
+  {
+    "start": 936.48,
+    "duration": 7.479,
+    "text": "count of I is equal to count of I plus"
+  },
+  {
+    "start": 940.44,
+    "duration": 5.079,
+    "text": "the previous one count of I minus one I"
+  },
+  {
+    "start": 943.959,
+    "duration": 2.961,
+    "text": "will show you what I did so what I'm"
+  },
+  {
+    "start": 945.519,
+    "duration": 4.841,
+    "text": "going to do is I'm going to actually"
+  },
+  {
+    "start": 946.92,
+    "duration": 5.52,
+    "text": "print at every step okay so at here I"
+  },
+  {
+    "start": 950.36,
+    "duration": 7.24,
+    "text": "will"
+  },
+  {
+    "start": 952.44,
+    "duration": 8.16,
+    "text": "print system.out do print"
+  },
+  {
+    "start": 957.6,
+    "duration": 3.0,
+    "text": "Ln"
+  },
+  {
+    "start": 961.399,
+    "duration": 3.56,
+    "text": "count array"
+  },
+  {
+    "start": 982.519,
+    "duration": 4.76,
+    "text": "for I'm just printing it so you can see"
+  },
+  {
+    "start": 985.12,
+    "duration": 3.88,
+    "text": "at every level what is happening and"
+  },
+  {
+    "start": 987.279,
+    "duration": 4.401,
+    "text": "then I'll be able to show you why I'm"
+  },
+  {
+    "start": 989.0,
+    "duration": 4.0,
+    "text": "doing what I'm doing okay so this is the"
+  },
+  {
+    "start": 991.68,
+    "duration": 5.32,
+    "text": "count"
+  },
+  {
+    "start": 993.0,
+    "duration": 4.0,
+    "text": "array updated count"
+  },
+  {
+    "start": 1001.68,
+    "duration": 4.0,
+    "text": "array updated count"
+  },
+  {
+    "start": 1012.56,
+    "duration": 7.199,
+    "text": "array now I will build the output array"
+  },
+  {
+    "start": 1016.279,
+    "duration": 5.24,
+    "text": "okay so I will say for if I'm saying the"
+  },
+  {
+    "start": 1019.759,
+    "duration": 4.8,
+    "text": "output array means I have to have the"
+  },
+  {
+    "start": 1021.519,
+    "duration": 10.241,
+    "text": "original item let's say if this is index"
+  },
+  {
+    "start": 1024.559,
+    "duration": 9.041,
+    "text": "number 01 2 3 4 5 and I made it a count"
+  },
+  {
+    "start": 1031.76,
+    "duration": 5.199,
+    "text": "so I can say"
+  },
+  {
+    "start": 1033.6,
+    "duration": 5.8,
+    "text": "for in I just bear with me for a second"
+  },
+  {
+    "start": 1036.959,
+    "duration": 6.08,
+    "text": "in I is equal to n minus 1 I is greater"
+  },
+  {
+    "start": 1039.4,
+    "duration": 6.36,
+    "text": "than equal to 0 and iusus I will start"
+  },
+  {
+    "start": 1043.039,
+    "duration": 7.361,
+    "text": "from the very end and I will say that"
+  },
+  {
+    "start": 1045.76,
+    "duration": 4.64,
+    "text": "the output of the same"
+  },
+  {
+    "start": 1052.32,
+    "duration": 7.84,
+    "text": "count of AR RFI exponent percentage 10"
+  },
+  {
+    "start": 1057.08,
+    "duration": 3.08,
+    "text": "so the output of"
+  },
+  {
+    "start": 1060.24,
+    "duration": 6.36,
+    "text": "this okay at this"
+  },
+  {
+    "start": 1062.96,
+    "duration": 4.839,
+    "text": "index is going to be equal to what not a"
+  },
+  {
+    "start": 1066.6,
+    "duration": 4.199,
+    "text": "r"
+  },
+  {
+    "start": 1067.799,
+    "duration": 6.161,
+    "text": "ofi minus one"
+  },
+  {
+    "start": 1070.799,
+    "duration": 4.641,
+    "text": "because let me show you if I if I just"
+  },
+  {
+    "start": 1073.96,
+    "duration": 3.719,
+    "text": "build"
+  },
+  {
+    "start": 1075.44,
+    "duration": 5.119,
+    "text": "it uh let me show you let me just write"
+  },
+  {
+    "start": 1077.679,
+    "duration": 6.961,
+    "text": "it down and then I will show you and"
+  },
+  {
+    "start": 1080.559,
+    "duration": 7.6,
+    "text": "once this is taken like one element is"
+  },
+  {
+    "start": 1084.64,
+    "duration": 4.76,
+    "text": "taken it will be minus minus and then in"
+  },
+  {
+    "start": 1088.159,
+    "duration": 4.121,
+    "text": "the"
+  },
+  {
+    "start": 1089.4,
+    "duration": 4.8,
+    "text": "end after every single step the array is"
+  },
+  {
+    "start": 1092.28,
+    "duration": 4.519,
+    "text": "being sorted so just replace the output"
+  },
+  {
+    "start": 1094.2,
+    "duration": 6.12,
+    "text": "with the main one"
+  },
+  {
+    "start": 1096.799,
+    "duration": 6.0,
+    "text": "okay and I will play it so you can see"
+  },
+  {
+    "start": 1100.32,
+    "duration": 7.0,
+    "text": "what what I mean just give me a second"
+  },
+  {
+    "start": 1102.799,
+    "duration": 6.481,
+    "text": "system do array copy"
+  },
+  {
+    "start": 1107.32,
+    "duration": 6.64,
+    "text": "output"
+  },
+  {
+    "start": 1109.28,
+    "duration": 11.6,
+    "text": "from the zero in Array 0 till"
+  },
+  {
+    "start": 1113.96,
+    "duration": 6.92,
+    "text": "n uh let me just run this so"
+  },
+  {
+    "start": 1121.28,
+    "duration": 5.279,
+    "text": "2983 and I will show you why I did these"
+  },
+  {
+    "start": 1124.36,
+    "duration": 2.199,
+    "text": "two"
+  },
+  {
+    "start": 1127.44,
+    "duration": 5.2,
+    "text": "things 2983"
+  },
+  {
+    "start": 1130.08,
+    "duration": 5.56,
+    "text": "471"
+  },
+  {
+    "start": 1132.64,
+    "duration": 3.0,
+    "text": "2983"
+  },
+  {
+    "start": 1137.32,
+    "duration": 3.0,
+    "text": "471"
+  },
+  {
+    "start": 1154.24,
+    "duration": 5.319,
+    "text": "36918 system. out. print"
+  },
+  {
+    "start": 1157.88,
+    "duration": 4.679,
+    "text": "Len"
+  },
+  {
+    "start": 1159.559,
+    "duration": 3.0,
+    "text": "original"
+  },
+  {
+    "start": 1167.24,
+    "duration": 3.0,
+    "text": "array"
+  },
+  {
+    "start": 1174.36,
+    "duration": 7.679,
+    "text": "sorted array arrays. two string ARR and"
+  },
+  {
+    "start": 1177.679,
+    "duration": 4.36,
+    "text": "I will just say radex sort"
+  },
+  {
+    "start": 1182.96,
+    "duration": 5.199,
+    "text": "ARR let's run this and now you'll be"
+  },
+  {
+    "start": 1185.679,
+    "duration": 5.161,
+    "text": "able to understand okay so if I run this"
+  },
+  {
+    "start": 1188.159,
+    "duration": 2.681,
+    "text": "you will see what I"
+  },
+  {
+    "start": 1191.08,
+    "duration": 5.839,
+    "text": "mean here we go so here I can see that"
+  },
+  {
+    "start": 1195.64,
+    "duration": 4.64,
+    "text": "let's"
+  },
+  {
+    "start": 1196.919,
+    "duration": 8.041,
+    "text": "say or original array is this count"
+  },
+  {
+    "start": 1200.28,
+    "duration": 9.6,
+    "text": "array for one means Base number one so"
+  },
+  {
+    "start": 1204.96,
+    "duration": 7.68,
+    "text": "N9 is coming once 8 is coming once so 9"
+  },
+  {
+    "start": 1209.88,
+    "duration": 9.279,
+    "text": "8 7 is not"
+  },
+  {
+    "start": 1212.64,
+    "duration": 9.6,
+    "text": "coming six is coming once here 5 no four"
+  },
+  {
+    "start": 1219.159,
+    "duration": 4.76,
+    "text": "no three"
+  },
+  {
+    "start": 1222.24,
+    "duration": 6.84,
+    "text": "once"
+  },
+  {
+    "start": 1223.919,
+    "duration": 7.76,
+    "text": "two no times one is coming twice like"
+  },
+  {
+    "start": 1229.08,
+    "duration": 5.079,
+    "text": "this okay and then I did an updated"
+  },
+  {
+    "start": 1231.679,
+    "duration": 5.201,
+    "text": "count array so for every index I added"
+  },
+  {
+    "start": 1234.159,
+    "duration": 5.76,
+    "text": "the previous index so two became two"
+  },
+  {
+    "start": 1236.88,
+    "duration": 6.88,
+    "text": "this 0 became two because 0 + 2 2 1"
+  },
+  {
+    "start": 1239.919,
+    "duration": 8.961,
+    "text": "became three okay uh this index also"
+  },
+  {
+    "start": 1243.76,
+    "duration": 10.12,
+    "text": "became three because 0 + 3 then 0 + 3 3"
+  },
+  {
+    "start": 1248.88,
+    "duration": 5.0,
+    "text": "1 + 3 4 0 + uh 4"
+  },
+  {
+    "start": 1254.159,
+    "duration": 10.361,
+    "text": "+ uh 0 + 4 4 1 + 4 5"
+  },
+  {
+    "start": 1259.28,
+    "duration": 5.24,
+    "text": "1 + 5 6 the reason I did that"
+  },
+  {
+    "start": 1265.32,
+    "duration": 6.88,
+    "text": "is actually I updated count array uh I"
+  },
+  {
+    "start": 1271.12,
+    "duration": 3.48,
+    "text": "should show you"
+  },
+  {
+    "start": 1272.2,
+    "duration": 4.719,
+    "text": "updated uh I should show you the output"
+  },
+  {
+    "start": 1274.6,
+    "duration": 2.319,
+    "text": "array"
+  },
+  {
+    "start": 1281.279,
+    "duration": 3.441,
+    "text": "also output"
+  },
+  {
+    "start": 1287.039,
+    "duration": 3.0,
+    "text": "array"
+  },
+  {
+    "start": 1292.559,
+    "duration": 4.441,
+    "text": "see now you're seeing output array so"
+  },
+  {
+    "start": 1294.52,
+    "duration": 7.12,
+    "text": "for output array it's saying that start"
+  },
+  {
+    "start": 1297.0,
+    "duration": 6.44,
+    "text": "from the last element so output of this"
+  },
+  {
+    "start": 1301.64,
+    "duration": 5.56,
+    "text": "index"
+  },
+  {
+    "start": 1303.44,
+    "duration": 6.56,
+    "text": "um right minus one is equal to a r r of"
+  },
+  {
+    "start": 1307.2,
+    "duration": 7.88,
+    "text": "I because I know that the a r r of I is"
+  },
+  {
+    "start": 1310.0,
+    "duration": 8.48,
+    "text": "the main array so the index in that"
+  },
+  {
+    "start": 1315.08,
+    "duration": 7.719,
+    "text": "array okay uh if I'm saying saying that"
+  },
+  {
+    "start": 1318.48,
+    "duration": 6.96,
+    "text": "the let's say the element is um let's"
+  },
+  {
+    "start": 1322.799,
+    "duration": 7.281,
+    "text": "say"
+  },
+  {
+    "start": 1325.44,
+    "duration": 6.32,
+    "text": "91 okay at index number one I have 91"
+  },
+  {
+    "start": 1330.08,
+    "duration": 3.079,
+    "text": "not at index number one but you get what"
+  },
+  {
+    "start": 1331.76,
+    "duration": 4.32,
+    "text": "I mean like because I'm talking about"
+  },
+  {
+    "start": 1333.159,
+    "duration": 6.161,
+    "text": "the places so let's say first Loop is"
+  },
+  {
+    "start": 1336.08,
+    "duration": 6.76,
+    "text": "first place ones T 100 thousand so if"
+  },
+  {
+    "start": 1339.32,
+    "duration": 6.44,
+    "text": "I'm at the ones place I'm saying that"
+  },
+  {
+    "start": 1342.84,
+    "duration": 5.92,
+    "text": "um you know uh I'm starting from the"
+  },
+  {
+    "start": 1345.76,
+    "duration": 6.12,
+    "text": "very last so output array very last it's"
+  },
+  {
+    "start": 1348.76,
+    "duration": 4.96,
+    "text": "going to like output of it's going to"
+  },
+  {
+    "start": 1351.88,
+    "duration": 5.72,
+    "text": "say"
+  },
+  {
+    "start": 1353.72,
+    "duration": 3.88,
+    "text": "the you know"
+  },
+  {
+    "start": 1362.919,
+    "duration": 3.88,
+    "text": "um oh no it's printing count I have to"
+  },
+  {
+    "start": 1365.679,
+    "duration": 5.761,
+    "text": "print"
+  },
+  {
+    "start": 1366.799,
+    "duration": 7.88,
+    "text": "output that's why it was confusing hold"
+  },
+  {
+    "start": 1371.44,
+    "duration": 6.16,
+    "text": "on now you can see it is sorted based on"
+  },
+  {
+    "start": 1374.679,
+    "duration": 6.48,
+    "text": "the index number one so here I'm saying"
+  },
+  {
+    "start": 1377.6,
+    "duration": 8.199,
+    "text": "it the last element so the last element"
+  },
+  {
+    "start": 1381.159,
+    "duration": 8.161,
+    "text": "is actually equal to a RR of I so a r r"
+  },
+  {
+    "start": 1385.799,
+    "duration": 8.721,
+    "text": "of not the last element sorry the last"
+  },
+  {
+    "start": 1389.32,
+    "duration": 7.12,
+    "text": "element of the original array so the"
+  },
+  {
+    "start": 1394.52,
+    "duration": 6.08,
+    "text": "last element of the original array which"
+  },
+  {
+    "start": 1396.44,
+    "duration": 8.359,
+    "text": "is eight will go where eight will go"
+  },
+  {
+    "start": 1400.6,
+    "duration": 6.439,
+    "text": "wherever the value of8 is in my count"
+  },
+  {
+    "start": 1404.799,
+    "duration": 4.721,
+    "text": "array because I'm sorting it based on"
+  },
+  {
+    "start": 1407.039,
+    "duration": 4.721,
+    "text": "eight so I will see where the value I"
+  },
+  {
+    "start": 1409.52,
+    "duration": 3.48,
+    "text": "have eight for in my count array so"
+  },
+  {
+    "start": 1411.76,
+    "duration": 4.159,
+    "text": "count"
+  },
+  {
+    "start": 1413.0,
+    "duration": 10.36,
+    "text": "of uh ARR of"
+  },
+  {
+    "start": 1415.919,
+    "duration": 11.281,
+    "text": "I uh which is let's say 8 8 8 - one 7"
+  },
+  {
+    "start": 1423.36,
+    "duration": 8.16,
+    "text": "because the value of 8 will be at 7 so 0"
+  },
+  {
+    "start": 1427.2,
+    "duration": 7.359,
+    "text": "1 2 3 4 5 6"
+  },
+  {
+    "start": 1431.52,
+    "duration": 5.36,
+    "text": "7 so"
+  },
+  {
+    "start": 1434.559,
+    "duration": 6.6,
+    "text": "here in the output"
+  },
+  {
+    "start": 1436.88,
+    "duration": 8.44,
+    "text": "array at 0 1 2"
+  },
+  {
+    "start": 1441.159,
+    "duration": 6.4,
+    "text": "3 no not seven"
+  },
+  {
+    "start": 1445.32,
+    "duration": 8.04,
+    "text": "um count"
+  },
+  {
+    "start": 1447.559,
+    "duration": 9.321,
+    "text": "of the um ARR of I which is giving me 8"
+  },
+  {
+    "start": 1453.36,
+    "duration": 8.679,
+    "text": "- 1 7 okay so this is what I mean count"
+  },
+  {
+    "start": 1456.88,
+    "duration": 5.159,
+    "text": "of this thing is what count of"
+  },
+  {
+    "start": 1463.039,
+    "duration": 10.201,
+    "text": "8 okay so 0 1 2 3 4 5 6 7 8 which is"
+  },
+  {
+    "start": 1469.44,
+    "duration": 3.8,
+    "text": "here at index number 5 -1"
+  },
+  {
+    "start": 1475.72,
+    "duration": 6.64,
+    "text": "4 okay here is actually going to have"
+  },
+  {
+    "start": 1479.08,
+    "duration": 3.28,
+    "text": "eight over here so here we have"
+  },
+  {
+    "start": 1482.64,
+    "duration": 9.68,
+    "text": "eight okay so count of a r r of iide by"
+  },
+  {
+    "start": 1487.919,
+    "duration": 7.201,
+    "text": "1 8 so at"
+  },
+  {
+    "start": 1492.32,
+    "duration": 11.359,
+    "text": "8 what is count"
+  },
+  {
+    "start": 1495.12,
+    "duration": 12.679,
+    "text": "of 8 count of it is 0 1 2 3 4 5 6 7 8"
+  },
+  {
+    "start": 1503.679,
+    "duration": 7.48,
+    "text": "5 no because we have added it ahead so"
+  },
+  {
+    "start": 1507.799,
+    "duration": 6.0,
+    "text": "here I have six and 6 - 1 is equal to 5"
+  },
+  {
+    "start": 1511.159,
+    "duration": 6.76,
+    "text": "so at five index I will put"
+  },
+  {
+    "start": 1513.799,
+    "duration": 6.36,
+    "text": "eight okay similarly when I run for this"
+  },
+  {
+    "start": 1517.919,
+    "duration": 4.961,
+    "text": "code let's say I have the updated count"
+  },
+  {
+    "start": 1520.159,
+    "duration": 4.921,
+    "text": "array like this uh because I want to"
+  },
+  {
+    "start": 1522.88,
+    "duration": 6.36,
+    "text": "make sure that"
+  },
+  {
+    "start": 1525.08,
+    "duration": 6.319,
+    "text": "um um you know that count of I here in"
+  },
+  {
+    "start": 1529.24,
+    "duration": 3.48,
+    "text": "the updated I want to say count of I"
+  },
+  {
+    "start": 1531.399,
+    "duration": 4.441,
+    "text": "contains the"
+  },
+  {
+    "start": 1532.72,
+    "duration": 7.52,
+    "text": "actual position of this"
+  },
+  {
+    "start": 1535.84,
+    "duration": 4.4,
+    "text": "digit in my output"
+  },
+  {
+    "start": 1540.919,
+    "duration": 7.281,
+    "text": "array actual"
+  },
+  {
+    "start": 1543.919,
+    "duration": 4.281,
+    "text": "position of the digit in the output"
+  },
+  {
+    "start": 1551.12,
+    "duration": 7.439,
+    "text": "array okay I can say if I'm over here"
+  },
+  {
+    "start": 1554.88,
+    "duration": 6.679,
+    "text": "again starting from n um yeah you get"
+  },
+  {
+    "start": 1558.559,
+    "duration": 6.561,
+    "text": "the idea if I'm starting from this now"
+  },
+  {
+    "start": 1561.559,
+    "duration": 4.681,
+    "text": "the array is this so I'm starting for 29"
+  },
+  {
+    "start": 1565.12,
+    "duration": 6.96,
+    "text": "I can"
+  },
+  {
+    "start": 1566.24,
+    "duration": 11.039,
+    "text": "say that um output of count of I can say"
+  },
+  {
+    "start": 1572.08,
+    "duration": 8.56,
+    "text": "a r RF I divide by 10 2 I will get two"
+  },
+  {
+    "start": 1577.279,
+    "duration": 5.76,
+    "text": "count of two is here I am getting"
+  },
+  {
+    "start": 1580.64,
+    "duration": 6.12,
+    "text": "two Min - one"
+  },
+  {
+    "start": 1583.039,
+    "duration": 6.88,
+    "text": "1 so 29 will be at index number one yeah"
+  },
+  {
+    "start": 1586.76,
+    "duration": 5.799,
+    "text": "that is correct index number one that is"
+  },
+  {
+    "start": 1589.919,
+    "duration": 6.721,
+    "text": "how it's looping for every single so"
+  },
+  {
+    "start": 1592.559,
+    "duration": 7.521,
+    "text": "this is for one's Place 10's"
+  },
+  {
+    "start": 1596.64,
+    "duration": 5.279,
+    "text": "Place 100s"
+  },
+  {
+    "start": 1600.08,
+    "duration": 4.599,
+    "text": "place"
+  },
+  {
+    "start": 1601.919,
+    "duration": 5.561,
+    "text": "okay I'm just mapping it so you can see"
+  },
+  {
+    "start": 1604.679,
+    "duration": 5.441,
+    "text": "it's just mapping first I created the"
+  },
+  {
+    "start": 1607.48,
+    "duration": 5.52,
+    "text": "count array the frequency"
+  },
+  {
+    "start": 1610.12,
+    "duration": 4.88,
+    "text": "array okay this is the frequency array"
+  },
+  {
+    "start": 1613.0,
+    "duration": 5.12,
+    "text": "then I updated the count array so that"
+  },
+  {
+    "start": 1615.0,
+    "duration": 6.08,
+    "text": "it represents the"
+  },
+  {
+    "start": 1618.12,
+    "duration": 5.36,
+    "text": "actual position of this digit in the"
+  },
+  {
+    "start": 1621.08,
+    "duration": 2.4,
+    "text": "output"
+  },
+  {
+    "start": 1624.36,
+    "duration": 3.0,
+    "text": "array"
+  },
+  {
+    "start": 1627.84,
+    "duration": 3.0,
+    "text": "okay"
+  },
+  {
+    "start": 1639.679,
+    "duration": 7.081,
+    "text": "cool sounds good I'd recommend if you're"
+  },
+  {
+    "start": 1644.0,
+    "duration": 5.64,
+    "text": "confused then try to dry run it use the"
+  },
+  {
+    "start": 1646.76,
+    "duration": 4.039,
+    "text": "debug pointer and run it again it will"
+  },
+  {
+    "start": 1649.64,
+    "duration": 2.88,
+    "text": "be"
+  },
+  {
+    "start": 1650.799,
+    "duration": 3.721,
+    "text": "straightforward"
+  },
+  {
+    "start": 1652.52,
+    "duration": 4.12,
+    "text": "um but yeah if you have any questions"
+  },
+  {
+    "start": 1654.52,
+    "duration": 3.56,
+    "text": "let me know in the comment section below"
+  },
+  {
+    "start": 1656.64,
+    "duration": 3.44,
+    "text": "and that's pretty much about it one"
+  },
+  {
+    "start": 1658.08,
+    "duration": 3.64,
+    "text": "thing I have to tell you is the time"
+  },
+  {
+    "start": 1660.08,
+    "duration": 4.16,
+    "text": "complexity"
+  },
+  {
+    "start": 1661.72,
+    "duration": 5.88,
+    "text": "so total times the loop is running"
+  },
+  {
+    "start": 1664.24,
+    "duration": 7.08,
+    "text": "outside is the digit so digit multiplied"
+  },
+  {
+    "start": 1667.6,
+    "duration": 7.6,
+    "text": "by what is the complexity of this uh"
+  },
+  {
+    "start": 1671.32,
+    "duration": 10.0,
+    "text": "n plus 10 so base whatever the base is"
+  },
+  {
+    "start": 1675.2,
+    "duration": 6.12,
+    "text": "so time complexity is digits multiplied"
+  },
+  {
+    "start": 1684.72,
+    "duration": 6.439,
+    "text": "by or I'll just write it"
+  },
+  {
+    "start": 1688.159,
+    "duration": 3.0,
+    "text": "here"
+  },
+  {
+    "start": 1693.2,
+    "duration": 7.319,
+    "text": "digits multiplied"
+  },
+  {
+    "start": 1695.84,
+    "duration": 4.679,
+    "text": "by n +"
+  },
+  {
+    "start": 1703.08,
+    "duration": 5.479,
+    "text": "base"
+  },
+  {
+    "start": 1705.279,
+    "duration": 6.88,
+    "text": "okay sounds good so when I talk about"
+  },
+  {
+    "start": 1708.559,
+    "duration": 5.321,
+    "text": "radi sort that's the time complexity and"
+  },
+  {
+    "start": 1712.159,
+    "duration": 3.961,
+    "text": "as you can see from the time complexity"
+  },
+  {
+    "start": 1713.88,
+    "duration": 4.519,
+    "text": "well we are using an extra space as well"
+  },
+  {
+    "start": 1716.12,
+    "duration": 5.159,
+    "text": "over here for count arrays"
+  },
+  {
+    "start": 1718.399,
+    "duration": 5.561,
+    "text": "but it is like"
+  },
+  {
+    "start": 1721.279,
+    "duration": 5.52,
+    "text": "um you know"
+  },
+  {
+    "start": 1723.96,
+    "duration": 5.439,
+    "text": "um faster as compared to other"
+  },
+  {
+    "start": 1726.799,
+    "duration": 4.521,
+    "text": "comparison based sorting algorithms like"
+  },
+  {
+    "start": 1729.399,
+    "duration": 4.16,
+    "text": "quick sort merge sort when you talk"
+  },
+  {
+    "start": 1731.32,
+    "duration": 4.8,
+    "text": "about large databases but you can see"
+  },
+  {
+    "start": 1733.559,
+    "duration": 5.401,
+    "text": "since it depends on uh it's growing"
+  },
+  {
+    "start": 1736.12,
+    "duration": 4.399,
+    "text": "linearly with the number of digits so"
+  },
+  {
+    "start": 1738.96,
+    "duration": 3.8,
+    "text": "it's not very efficient when we talk"
+  },
+  {
+    "start": 1740.519,
+    "duration": 3.4,
+    "text": "about smaller numbers okay smaller data"
+  },
+  {
+    "start": 1742.76,
+    "duration": 4.6,
+    "text": "sets for"
+  },
+  {
+    "start": 1743.919,
+    "duration": 5.681,
+    "text": "example so it grows linearly for I guess"
+  },
+  {
+    "start": 1747.36,
+    "duration": 3.42,
+    "text": "a number of digits"
+  },
+  {
+    "start": 1749.6,
+    "duration": 3.319,
+    "text": "grow"
+  },
+  {
+    "start": 1750.78,
+    "duration": 5.34,
+    "text": "[Music]"
+  },
+  {
+    "start": 1752.919,
+    "duration": 8.801,
+    "text": "um right so"
+  },
+  {
+    "start": 1756.12,
+    "duration": 7.679,
+    "text": "yeah cool um try to dry run this uh see"
+  },
+  {
+    "start": 1761.72,
+    "duration": 3.92,
+    "text": "in pen and paper if you if you write it"
+  },
+  {
+    "start": 1763.799,
+    "duration": 4.48,
+    "text": "on pen and paper every single step for"
+  },
+  {
+    "start": 1765.64,
+    "duration": 4.44,
+    "text": "updated count array you will understand"
+  },
+  {
+    "start": 1768.279,
+    "duration": 5.4,
+    "text": "okay what we are doing but the whole"
+  },
+  {
+    "start": 1770.08,
+    "duration": 6.68,
+    "text": "idea was um trying to get the the where"
+  },
+  {
+    "start": 1773.679,
+    "duration": 4.801,
+    "text": "this lies in the output array the digit"
+  },
+  {
+    "start": 1776.76,
+    "duration": 3.6,
+    "text": "okay as I showed you in the examples I"
+  },
+  {
+    "start": 1778.48,
+    "duration": 3.52,
+    "text": "can take another example let's say this"
+  },
+  {
+    "start": 1780.36,
+    "duration": 5.319,
+    "text": "is the output"
+  },
+  {
+    "start": 1782.0,
+    "duration": 6.44,
+    "text": "array this one okay and I'm talking"
+  },
+  {
+    "start": 1785.679,
+    "duration": 6.521,
+    "text": "about let's say I go back over here I"
+  },
+  {
+    "start": 1788.44,
+    "duration": 6.0,
+    "text": "say for I is equal to last index or"
+  },
+  {
+    "start": 1792.2,
+    "duration": 3.719,
+    "text": "let's say I is equal to second last"
+  },
+  {
+    "start": 1794.44,
+    "duration": 4.28,
+    "text": "let's say"
+  },
+  {
+    "start": 1795.919,
+    "duration": 6.36,
+    "text": "80 uh"
+  },
+  {
+    "start": 1798.72,
+    "duration": 8.36,
+    "text": "second last index so 0 1 2 3 4th index"
+  },
+  {
+    "start": 1802.279,
+    "duration": 7.801,
+    "text": "number four so count of a r"
+  },
+  {
+    "start": 1807.08,
+    "duration": 3.0,
+    "text": "of"
+  },
+  {
+    "start": 1810.919,
+    "duration": 9.081,
+    "text": "4 so which is"
+  },
+  {
+    "start": 1814.64,
+    "duration": 11.6,
+    "text": "83 IDE by 10 which is"
+  },
+  {
+    "start": 1820.0,
+    "duration": 8.08,
+    "text": "8 modul 10 which is giving me 8 minus"
+  },
+  {
+    "start": 1826.24,
+    "duration": 3.679,
+    "text": "one"
+  },
+  {
+    "start": 1828.08,
+    "duration": 5.04,
+    "text": "which is giving"
+  },
+  {
+    "start": 1829.919,
+    "duration": 9.441,
+    "text": "me8 um so 0"
+  },
+  {
+    "start": 1833.12,
+    "duration": 8.48,
+    "text": "1 7 8 6 - 1 5 so this 83 will be at"
+  },
+  {
+    "start": 1839.36,
+    "duration": 6.12,
+    "text": "index number"
+  },
+  {
+    "start": 1841.6,
+    "duration": 6.34,
+    "text": "five No 5 - one um at position number"
+  },
+  {
+    "start": 1845.48,
+    "duration": 4.48,
+    "text": "four so 5 - one"
+  },
+  {
+    "start": 1847.94,
+    "duration": 5.06,
+    "text": "[Music]"
+  },
+  {
+    "start": 1849.96,
+    "duration": 6.719,
+    "text": "um four 0 1"
+  },
+  {
+    "start": 1853.0,
+    "duration": 6.24,
+    "text": "2 so 1 2 3 4 yeah fourth index fourth"
+  },
+  {
+    "start": 1856.679,
+    "duration": 2.561,
+    "text": "element"
+  },
+  {
+    "start": 1861.32,
+    "duration": 4.719,
+    "text": "simple okay if you have any question let"
+  },
+  {
+    "start": 1863.679,
+    "duration": 4.321,
+    "text": "me know in the comment section below and"
+  },
+  {
+    "start": 1866.039,
+    "duration": 3.52,
+    "text": "um happy to answer those but yeah make"
+  },
+  {
+    "start": 1868.0,
+    "duration": 4.44,
+    "text": "sure you like share and subscribe share"
+  },
+  {
+    "start": 1869.559,
+    "duration": 3.921,
+    "text": "it on socials using # DSA with konal and"
+  },
+  {
+    "start": 1872.44,
+    "duration": 3.32,
+    "text": "I'll see you in the next one have a"
+  },
+  {
+    "start": 1873.48,
+    "duration": 2.28,
+    "text": "great"
+  },
+  {
+    "start": 1880.84,
+    "duration": 3.0,
+    "text": "day"
+  }
+]

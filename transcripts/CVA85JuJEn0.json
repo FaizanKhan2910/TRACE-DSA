@@ -1,0 +1,7682 @@
+[
+  {
+    "start": 0.48,
+    "duration": 3.0,
+    "text": "foreign"
+  },
+  {
+    "start": 3.959,
+    "duration": 3.061,
+    "text": "welcome back to my channel another new"
+  },
+  {
+    "start": 5.88,
+    "duration": 3.12,
+    "text": "video we're continuing the data"
+  },
+  {
+    "start": 7.02,
+    "duration": 3.78,
+    "text": "structures algorithms boot camp we are"
+  },
+  {
+    "start": 9.0,
+    "duration": 4.139,
+    "text": "continuing with the trees playlist for"
+  },
+  {
+    "start": 10.8,
+    "duration": 4.08,
+    "text": "now so as you know we already did the"
+  },
+  {
+    "start": 13.139,
+    "duration": 3.541,
+    "text": "introduction of binary trees binary"
+  },
+  {
+    "start": 14.88,
+    "duration": 3.84,
+    "text": "search trees so you can check out the"
+  },
+  {
+    "start": 16.68,
+    "duration": 3.66,
+    "text": "playlist and all the other amazing stuff"
+  },
+  {
+    "start": 18.72,
+    "duration": 3.0,
+    "text": "that we've already done we're doing the"
+  },
+  {
+    "start": 20.34,
+    "duration": 2.939,
+    "text": "complete interview preparation bootcamp"
+  },
+  {
+    "start": 21.72,
+    "duration": 3.479,
+    "text": "notes assignments everything in the"
+  },
+  {
+    "start": 23.279,
+    "duration": 3.42,
+    "text": "description below but in this video"
+  },
+  {
+    "start": 25.199,
+    "duration": 4.34,
+    "text": "we're doing the second video of the"
+  },
+  {
+    "start": 26.699,
+    "duration": 6.001,
+    "text": "trees lecture we're talking about uh"
+  },
+  {
+    "start": 29.539,
+    "duration": 4.781,
+    "text": "self-balancing binary Trace so in this"
+  },
+  {
+    "start": 32.7,
+    "duration": 2.94,
+    "text": "video I'm going to talk about AVL trees"
+  },
+  {
+    "start": 34.32,
+    "duration": 3.66,
+    "text": "and then in next videos we'll talk about"
+  },
+  {
+    "start": 35.64,
+    "duration": 4.439,
+    "text": "like some other types of trees like a"
+  },
+  {
+    "start": 37.98,
+    "duration": 4.5,
+    "text": "Fenwick binary index trees uh"
+  },
+  {
+    "start": 40.079,
+    "duration": 4.381,
+    "text": "segmentaries red and black trees and"
+  },
+  {
+    "start": 42.48,
+    "duration": 3.72,
+    "text": "then we'll do some interview questions"
+  },
+  {
+    "start": 44.46,
+    "duration": 3.66,
+    "text": "as well for trees which is obviously"
+  },
+  {
+    "start": 46.2,
+    "duration": 3.179,
+    "text": "very important you know we did buying"
+  },
+  {
+    "start": 48.12,
+    "duration": 3.06,
+    "text": "research then we did bind research"
+  },
+  {
+    "start": 49.379,
+    "duration": 3.721,
+    "text": "interview with linked list linked list"
+  },
+  {
+    "start": 51.18,
+    "duration": 4.14,
+    "text": "interview with recursion then recursion"
+  },
+  {
+    "start": 53.1,
+    "duration": 3.959,
+    "text": "interview so for trees also we're doing"
+  },
+  {
+    "start": 55.32,
+    "duration": 3.66,
+    "text": "theory part and implementation part and"
+  },
+  {
+    "start": 57.059,
+    "duration": 4.201,
+    "text": "in the end we'll do some very important"
+  },
+  {
+    "start": 58.98,
+    "duration": 4.8,
+    "text": "questions part like how to identify"
+  },
+  {
+    "start": 61.26,
+    "duration": 4.2,
+    "text": "patterns how to solve any tree question"
+  },
+  {
+    "start": 63.78,
+    "duration": 4.56,
+    "text": "okay but in this video we're talking"
+  },
+  {
+    "start": 65.46,
+    "duration": 4.56,
+    "text": "about self balancing binary tree no need"
+  },
+  {
+    "start": 68.34,
+    "duration": 3.48,
+    "text": "to worry about if you don't know what a"
+  },
+  {
+    "start": 70.02,
+    "duration": 3.54,
+    "text": "self-balancing binary tree is only"
+  },
+  {
+    "start": 71.82,
+    "duration": 5.04,
+    "text": "prerequisite is all the videos we have"
+  },
+  {
+    "start": 73.56,
+    "duration": 5.879,
+    "text": "done till now and um the trees video"
+  },
+  {
+    "start": 76.86,
+    "duration": 4.619,
+    "text": "specifically that I did previously so"
+  },
+  {
+    "start": 79.439,
+    "duration": 3.72,
+    "text": "I'm going to start with a challenge like"
+  },
+  {
+    "start": 81.479,
+    "duration": 3.361,
+    "text": "what are the challenges with normal"
+  },
+  {
+    "start": 83.159,
+    "duration": 4.561,
+    "text": "binary trees and then we'll talk about"
+  },
+  {
+    "start": 84.84,
+    "duration": 5.94,
+    "text": "okay how balancing binary trees solve"
+  },
+  {
+    "start": 87.72,
+    "duration": 4.38,
+    "text": "these challenges and uh in this video"
+  },
+  {
+    "start": 90.78,
+    "duration": 3.18,
+    "text": "we're going to look at a very popular"
+  },
+  {
+    "start": 92.1,
+    "duration": 3.6,
+    "text": "self-balancing binary tree obviously we"
+  },
+  {
+    "start": 93.96,
+    "duration": 3.26,
+    "text": "look other ones in the later on but this"
+  },
+  {
+    "start": 95.7,
+    "duration": 4.2,
+    "text": "is very important hence I'm making a"
+  },
+  {
+    "start": 97.22,
+    "duration": 4.96,
+    "text": "dedicated video on this so we look at"
+  },
+  {
+    "start": 99.9,
+    "duration": 3.78,
+    "text": "AVL trees"
+  },
+  {
+    "start": 102.18,
+    "duration": 4.14,
+    "text": "full form everything I will tell you"
+  },
+  {
+    "start": 103.68,
+    "duration": 3.78,
+    "text": "later AVL trees one thing I want you to"
+  },
+  {
+    "start": 106.32,
+    "duration": 3.6,
+    "text": "notice is sometimes people get"
+  },
+  {
+    "start": 107.46,
+    "duration": 5.22,
+    "text": "intimidated by AVL results very"
+  },
+  {
+    "start": 109.92,
+    "duration": 6.379,
+    "text": "difficult you know it's a very confusing"
+  },
+  {
+    "start": 112.68,
+    "duration": 3.619,
+    "text": "it is not confusing"
+  },
+  {
+    "start": 116.52,
+    "duration": 4.8,
+    "text": "not"
+  },
+  {
+    "start": 117.96,
+    "duration": 6.119,
+    "text": "confusing then what it is Kunal it is"
+  },
+  {
+    "start": 121.32,
+    "duration": 5.159,
+    "text": "actually it has a lot of"
+  },
+  {
+    "start": 124.079,
+    "duration": 5.82,
+    "text": "moving parts"
+  },
+  {
+    "start": 126.479,
+    "duration": 5.821,
+    "text": "lot of things are happening"
+  },
+  {
+    "start": 129.899,
+    "duration": 4.681,
+    "text": "so with AVL trees lot of things will"
+  },
+  {
+    "start": 132.3,
+    "duration": 4.46,
+    "text": "happen but all of those things are very"
+  },
+  {
+    "start": 134.58,
+    "duration": 2.18,
+    "text": "simple"
+  },
+  {
+    "start": 137.459,
+    "duration": 4.681,
+    "text": "just the quantity is a little bit it's"
+  },
+  {
+    "start": 140.04,
+    "duration": 4.26,
+    "text": "not that high it's just four test cases"
+  },
+  {
+    "start": 142.14,
+    "duration": 3.66,
+    "text": "okay there are only four cases but still"
+  },
+  {
+    "start": 144.3,
+    "duration": 4.32,
+    "text": "some people feel like okay this is too"
+  },
+  {
+    "start": 145.8,
+    "duration": 4.799,
+    "text": "much but I will actually teach you so if"
+  },
+  {
+    "start": 148.62,
+    "duration": 4.02,
+    "text": "you're looking at it for any topic okay"
+  },
+  {
+    "start": 150.599,
+    "duration": 3.301,
+    "text": "not just tree even when you do dynamic"
+  },
+  {
+    "start": 152.64,
+    "duration": 3.42,
+    "text": "programming or when all the previous"
+  },
+  {
+    "start": 153.9,
+    "duration": 5.82,
+    "text": "topics I've done in the past"
+  },
+  {
+    "start": 156.06,
+    "duration": 5.819,
+    "text": "when you take a concept and you try to"
+  },
+  {
+    "start": 159.72,
+    "duration": 5.94,
+    "text": "memorize that Concept in the terms of oh"
+  },
+  {
+    "start": 161.879,
+    "duration": 7.44,
+    "text": "this concept has four cases this concept"
+  },
+  {
+    "start": 165.66,
+    "duration": 5.1,
+    "text": "has six cases this concept has 10 cases"
+  },
+  {
+    "start": 169.319,
+    "duration": 4.2,
+    "text": "you try to memorize that without"
+  },
+  {
+    "start": 170.76,
+    "duration": 5.059,
+    "text": "understanding what are these why are we"
+  },
+  {
+    "start": 173.519,
+    "duration": 4.141,
+    "text": "having these many cases then it becomes"
+  },
+  {
+    "start": 175.819,
+    "duration": 3.7,
+    "text": "overwhelming and difficult to you then"
+  },
+  {
+    "start": 177.66,
+    "duration": 4.14,
+    "text": "you feel like it's difficult"
+  },
+  {
+    "start": 179.519,
+    "duration": 3.781,
+    "text": "but I will make it clear to you why we"
+  },
+  {
+    "start": 181.8,
+    "duration": 3.42,
+    "text": "only have four cases what is the"
+  },
+  {
+    "start": 183.3,
+    "duration": 4.26,
+    "text": "significance of each case the thought"
+  },
+  {
+    "start": 185.22,
+    "duration": 3.84,
+    "text": "process behind it when they created AVL"
+  },
+  {
+    "start": 187.56,
+    "duration": 2.759,
+    "text": "why did they only make four cases or"
+  },
+  {
+    "start": 189.06,
+    "duration": 3.48,
+    "text": "whatever"
+  },
+  {
+    "start": 190.319,
+    "duration": 3.84,
+    "text": "okay let's get started forget about AVL"
+  },
+  {
+    "start": 192.54,
+    "duration": 3.54,
+    "text": "right now let's just talk about binary"
+  },
+  {
+    "start": 194.159,
+    "duration": 4.141,
+    "text": "trees normal binary trees"
+  },
+  {
+    "start": 196.08,
+    "duration": 4.2,
+    "text": "so if I talk about a normal binary"
+  },
+  {
+    "start": 198.3,
+    "duration": 4.439,
+    "text": "binary search tree in the previous video"
+  },
+  {
+    "start": 200.28,
+    "duration": 5.039,
+    "text": "we have already learned how normal"
+  },
+  {
+    "start": 202.739,
+    "duration": 4.201,
+    "text": "binary trees functions okay so let's say"
+  },
+  {
+    "start": 205.319,
+    "duration": 4.14,
+    "text": "I have"
+  },
+  {
+    "start": 206.94,
+    "duration": 5.519,
+    "text": "a 10 over here and now I'm saying hey"
+  },
+  {
+    "start": 209.459,
+    "duration": 5.821,
+    "text": "Kunal insert 5 into it okay five is"
+  },
+  {
+    "start": 212.459,
+    "duration": 4.681,
+    "text": "smaller than 10 pi will go over here"
+  },
+  {
+    "start": 215.28,
+    "duration": 3.239,
+    "text": "I've already covered this okay how"
+  },
+  {
+    "start": 217.14,
+    "duration": 3.12,
+    "text": "binary search tree function so if you"
+  },
+  {
+    "start": 218.519,
+    "duration": 4.5,
+    "text": "are not understanding this please watch"
+  },
+  {
+    "start": 220.26,
+    "duration": 4.5,
+    "text": "treat tutorial number one there's a com"
+  },
+  {
+    "start": 223.019,
+    "duration": 5.821,
+    "text": "there's a tree playlist on my channel"
+  },
+  {
+    "start": 224.76,
+    "duration": 7.08,
+    "text": "now insert 15 okay 15 will go over here"
+  },
+  {
+    "start": 228.84,
+    "duration": 5.22,
+    "text": "now insert 10 so written is already"
+  },
+  {
+    "start": 231.84,
+    "duration": 4.08,
+    "text": "there lines are 12 so 12 is greater than"
+  },
+  {
+    "start": 234.06,
+    "duration": 3.959,
+    "text": "10 so right hand side less than 15 left"
+  },
+  {
+    "start": 235.92,
+    "duration": 4.98,
+    "text": "hand side so on and so forth you get the"
+  },
+  {
+    "start": 238.019,
+    "duration": 4.921,
+    "text": "idea so the idea is that uh"
+  },
+  {
+    "start": 240.9,
+    "duration": 3.18,
+    "text": "the maximum height let's say it's going"
+  },
+  {
+    "start": 242.94,
+    "duration": 3.48,
+    "text": "to be"
+  },
+  {
+    "start": 244.08,
+    "duration": 5.04,
+    "text": "log of n which is n is the total number"
+  },
+  {
+    "start": 246.42,
+    "duration": 4.379,
+    "text": "of nodes so at any point of time we have"
+  },
+  {
+    "start": 249.12,
+    "duration": 3.96,
+    "text": "already covered in the past how the"
+  },
+  {
+    "start": 250.799,
+    "duration": 4.08,
+    "text": "insertion and your delay and your you"
+  },
+  {
+    "start": 253.08,
+    "duration": 3.96,
+    "text": "know when you delete or one when you try"
+  },
+  {
+    "start": 254.879,
+    "duration": 4.98,
+    "text": "to search an item it will take log of n"
+  },
+  {
+    "start": 257.04,
+    "duration": 4.979,
+    "text": "time very good no problem"
+  },
+  {
+    "start": 259.859,
+    "duration": 4.021,
+    "text": "okay but the problem arises let's say"
+  },
+  {
+    "start": 262.019,
+    "duration": 3.96,
+    "text": "you're saying Kunal insert 5 in a bind"
+  },
+  {
+    "start": 263.88,
+    "duration": 5.099,
+    "text": "research tree okay no problem I have"
+  },
+  {
+    "start": 265.979,
+    "duration": 5.821,
+    "text": "inserted five now Kunal insert 7 into it"
+  },
+  {
+    "start": 268.979,
+    "duration": 4.021,
+    "text": "okay so 5 is 7 is greater than 5 it will"
+  },
+  {
+    "start": 271.8,
+    "duration": 5.22,
+    "text": "go on the right hand side no problem"
+  },
+  {
+    "start": 273.0,
+    "duration": 5.28,
+    "text": "Kunal insert 9 into it okay 9 is greater"
+  },
+  {
+    "start": 277.02,
+    "duration": 4.26,
+    "text": "than 5 so it will go on the right hand"
+  },
+  {
+    "start": 278.28,
+    "duration": 5.04,
+    "text": "side 9 is also greater than 7. it will"
+  },
+  {
+    "start": 281.28,
+    "duration": 4.62,
+    "text": "again go on the right hand side Kunal"
+  },
+  {
+    "start": 283.32,
+    "duration": 4.14,
+    "text": "please insert 11 into it okay 11 I will"
+  },
+  {
+    "start": 285.9,
+    "duration": 4.92,
+    "text": "insert over here"
+  },
+  {
+    "start": 287.46,
+    "duration": 5.64,
+    "text": "please insert 13 into it okay third so"
+  },
+  {
+    "start": 290.82,
+    "duration": 4.86,
+    "text": "can you see what is happening"
+  },
+  {
+    "start": 293.1,
+    "duration": 5.039,
+    "text": "if I want to search 13 it will have to"
+  },
+  {
+    "start": 295.68,
+    "duration": 5.28,
+    "text": "Traverse it n number of times"
+  },
+  {
+    "start": 298.139,
+    "duration": 5.761,
+    "text": "so instead of log n"
+  },
+  {
+    "start": 300.96,
+    "duration": 5.84,
+    "text": "it is now taking n complexity"
+  },
+  {
+    "start": 303.9,
+    "duration": 2.9,
+    "text": "which is wrong"
+  },
+  {
+    "start": 307.68,
+    "duration": 4.98,
+    "text": "whole point of binary trees is now"
+  },
+  {
+    "start": 310.199,
+    "duration": 6.261,
+    "text": "destroyed"
+  },
+  {
+    "start": 312.66,
+    "duration": 3.8,
+    "text": "whole point is destroyed"
+  },
+  {
+    "start": 317.22,
+    "duration": 2.96,
+    "text": "this is the problem"
+  },
+  {
+    "start": 320.34,
+    "duration": 5.12,
+    "text": "with"
+  },
+  {
+    "start": 322.139,
+    "duration": 3.321,
+    "text": "binary search trees"
+  },
+  {
+    "start": 325.919,
+    "duration": 4.201,
+    "text": "because a chain can form like this"
+  },
+  {
+    "start": 328.8,
+    "duration": 3.36,
+    "text": "even if you have something like this"
+  },
+  {
+    "start": 330.12,
+    "duration": 6.44,
+    "text": "still there is a chain right"
+  },
+  {
+    "start": 332.16,
+    "duration": 6.84,
+    "text": "not perfect login is the answer"
+  },
+  {
+    "start": 336.56,
+    "duration": 4.359,
+    "text": "make sense that is the problem and that"
+  },
+  {
+    "start": 339.0,
+    "duration": 3.68,
+    "text": "is what we're trying to solve so how do"
+  },
+  {
+    "start": 340.919,
+    "duration": 4.861,
+    "text": "we"
+  },
+  {
+    "start": 342.68,
+    "duration": 5.32,
+    "text": "Define this problem okay now defining"
+  },
+  {
+    "start": 345.78,
+    "duration": 3.78,
+    "text": "the problem Kunal it looks like a"
+  },
+  {
+    "start": 348.0,
+    "duration": 3.78,
+    "text": "problem when I'm looking at it from my"
+  },
+  {
+    "start": 349.56,
+    "duration": 4.34,
+    "text": "eyes but how do you define it in a"
+  },
+  {
+    "start": 351.78,
+    "duration": 2.12,
+    "text": "definition"
+  },
+  {
+    "start": 355.56,
+    "duration": 3.02,
+    "text": "Define the problem"
+  },
+  {
+    "start": 361.5,
+    "duration": 4.5,
+    "text": "no problem we can Define it so"
+  },
+  {
+    "start": 367.8,
+    "duration": 5.239,
+    "text": "the problem is this"
+  },
+  {
+    "start": 370.32,
+    "duration": 2.719,
+    "text": "that"
+  },
+  {
+    "start": 375.84,
+    "duration": 3.72,
+    "text": "for any tree"
+  },
+  {
+    "start": 377.639,
+    "duration": 4.4,
+    "text": "for any tree that you have let's say we"
+  },
+  {
+    "start": 379.56,
+    "duration": 2.479,
+    "text": "have this tree"
+  },
+  {
+    "start": 386.94,
+    "duration": 3.979,
+    "text": "something like that"
+  },
+  {
+    "start": 388.44,
+    "duration": 2.479,
+    "text": "okay"
+  },
+  {
+    "start": 390.96,
+    "duration": 5.1,
+    "text": "let's say we have this tree"
+  },
+  {
+    "start": 393.419,
+    "duration": 4.321,
+    "text": "now here you can see that the difference"
+  },
+  {
+    "start": 396.06,
+    "duration": 4.859,
+    "text": "of height"
+  },
+  {
+    "start": 397.74,
+    "duration": 5.16,
+    "text": "of left subtree and right sub tree for"
+  },
+  {
+    "start": 400.919,
+    "duration": 5.0,
+    "text": "every single node"
+  },
+  {
+    "start": 402.9,
+    "duration": 3.019,
+    "text": "is going to be"
+  },
+  {
+    "start": 406.08,
+    "duration": 5.58,
+    "text": "either plus 1 or minus 1."
+  },
+  {
+    "start": 408.419,
+    "duration": 5.84,
+    "text": "like less than equal to one for example"
+  },
+  {
+    "start": 411.66,
+    "duration": 2.599,
+    "text": "so"
+  },
+  {
+    "start": 414.78,
+    "duration": 3.96,
+    "text": "here you can see what is the height"
+  },
+  {
+    "start": 416.639,
+    "duration": 5.641,
+    "text": "height is the number of edges from the"
+  },
+  {
+    "start": 418.74,
+    "duration": 5.7,
+    "text": "node to the bottom Leaf so"
+  },
+  {
+    "start": 422.28,
+    "duration": 4.44,
+    "text": "for every single node let's say we are"
+  },
+  {
+    "start": 424.44,
+    "duration": 3.96,
+    "text": "talking about this node first for every"
+  },
+  {
+    "start": 426.72,
+    "duration": 5.52,
+    "text": "single node think about the definition"
+  },
+  {
+    "start": 428.4,
+    "duration": 6.18,
+    "text": "for every single node the height of the"
+  },
+  {
+    "start": 432.24,
+    "duration": 5.66,
+    "text": "left and the right tree should not have"
+  },
+  {
+    "start": 434.58,
+    "duration": 3.32,
+    "text": "a difference of more than one"
+  },
+  {
+    "start": 440.94,
+    "duration": 3.96,
+    "text": "okay what is the height of this this"
+  },
+  {
+    "start": 442.8,
+    "duration": 4.14,
+    "text": "tree over here"
+  },
+  {
+    "start": 444.9,
+    "duration": 5.699,
+    "text": "what is the height of this tree"
+  },
+  {
+    "start": 446.94,
+    "duration": 5.94,
+    "text": "this tree's height is 2."
+  },
+  {
+    "start": 450.599,
+    "duration": 4.681,
+    "text": "what is the height of this one one two"
+  },
+  {
+    "start": 452.88,
+    "duration": 4.5,
+    "text": "minus 1 is equal to 1 correct"
+  },
+  {
+    "start": 455.28,
+    "duration": 5.96,
+    "text": "so this difference"
+  },
+  {
+    "start": 457.38,
+    "duration": 3.86,
+    "text": "should should can only be"
+  },
+  {
+    "start": 462.84,
+    "duration": 6.24,
+    "text": "should only be less than equal to 1."
+  },
+  {
+    "start": 465.24,
+    "duration": 6.12,
+    "text": "so 1 or 0. and"
+  },
+  {
+    "start": 469.08,
+    "duration": 4.38,
+    "text": "if you do set let's say"
+  },
+  {
+    "start": 471.36,
+    "duration": 6.02,
+    "text": "for example if I say"
+  },
+  {
+    "start": 473.46,
+    "duration": 3.92,
+    "text": "for every node"
+  },
+  {
+    "start": 477.599,
+    "duration": 9.621,
+    "text": "height of left minus height of right can"
+  },
+  {
+    "start": 481.74,
+    "duration": 5.48,
+    "text": "be equal to minus 1 plus 1 or 0 only"
+  },
+  {
+    "start": 489.599,
+    "duration": 5.66,
+    "text": "in this case it is 1 but if you have"
+  },
+  {
+    "start": 492.539,
+    "duration": 2.72,
+    "text": "something like this"
+  },
+  {
+    "start": 501.599,
+    "duration": 5.22,
+    "text": "in this case this height is 1 height is"
+  },
+  {
+    "start": 504.9,
+    "duration": 4.82,
+    "text": "2 for this tree"
+  },
+  {
+    "start": 506.819,
+    "duration": 2.901,
+    "text": "for this tree"
+  },
+  {
+    "start": 510.3,
+    "duration": 5.76,
+    "text": "one minus 2 minus 1"
+  },
+  {
+    "start": 512.94,
+    "duration": 5.659,
+    "text": "that's fine no problem"
+  },
+  {
+    "start": 516.06,
+    "duration": 2.539,
+    "text": "foreign"
+  },
+  {
+    "start": 521.7,
+    "duration": 2.82,
+    "text": "for every single node you have to do"
+  },
+  {
+    "start": 523.38,
+    "duration": 5.7,
+    "text": "this"
+  },
+  {
+    "start": 524.52,
+    "duration": 6.6,
+    "text": "so now let's see I did it for this node"
+  },
+  {
+    "start": 529.08,
+    "duration": 3.6,
+    "text": "right now I will do the same for this"
+  },
+  {
+    "start": 531.12,
+    "duration": 3.48,
+    "text": "node"
+  },
+  {
+    "start": 532.68,
+    "duration": 3.36,
+    "text": "so again take this tree"
+  },
+  {
+    "start": 534.6,
+    "duration": 4.02,
+    "text": "and this three"
+  },
+  {
+    "start": 536.04,
+    "duration": 6.6,
+    "text": "here the height is 1 here the height is"
+  },
+  {
+    "start": 538.62,
+    "duration": 6.6,
+    "text": "0 difference is 1 minus 0 1 yeah sure"
+  },
+  {
+    "start": 542.64,
+    "duration": 6.84,
+    "text": "this is also balanced now again do for"
+  },
+  {
+    "start": 545.22,
+    "duration": 6.119,
+    "text": "ah for this node for this node 0 and so"
+  },
+  {
+    "start": 549.48,
+    "duration": 5.34,
+    "text": "this is just one so I will just leave it"
+  },
+  {
+    "start": 551.339,
+    "duration": 5.461,
+    "text": "for this node this is itself it has no"
+  },
+  {
+    "start": 554.82,
+    "duration": 4.74,
+    "text": "left or right children so I'll leave it"
+  },
+  {
+    "start": 556.8,
+    "duration": 4.5,
+    "text": "and"
+  },
+  {
+    "start": 559.56,
+    "duration": 4.32,
+    "text": "for this one"
+  },
+  {
+    "start": 561.3,
+    "duration": 3.78,
+    "text": "it's again just one as you can see over"
+  },
+  {
+    "start": 563.88,
+    "duration": 4.019,
+    "text": "here"
+  },
+  {
+    "start": 565.08,
+    "duration": 5.28,
+    "text": "so pretty simple stuff"
+  },
+  {
+    "start": 567.899,
+    "duration": 3.901,
+    "text": "okay so as you can see for every single"
+  },
+  {
+    "start": 570.36,
+    "duration": 4.5,
+    "text": "node I'm repeating it again and again"
+  },
+  {
+    "start": 571.8,
+    "duration": 5.64,
+    "text": "for every single node the left and right"
+  },
+  {
+    "start": 574.86,
+    "duration": 4.979,
+    "text": "tree height can only be minus one plus"
+  },
+  {
+    "start": 577.44,
+    "duration": 4.32,
+    "text": "one or zero"
+  },
+  {
+    "start": 579.839,
+    "duration": 3.541,
+    "text": "let me take an example of a tree which"
+  },
+  {
+    "start": 581.76,
+    "duration": 4.82,
+    "text": "is not balanced this is known as"
+  },
+  {
+    "start": 583.38,
+    "duration": 3.2,
+    "text": "balanced Tree by the way"
+  },
+  {
+    "start": 587.399,
+    "duration": 4.161,
+    "text": "OK if I write the definition down"
+  },
+  {
+    "start": 591.72,
+    "duration": 3.38,
+    "text": "for every node"
+  },
+  {
+    "start": 598.32,
+    "duration": 6.18,
+    "text": "did my pen run out of ink"
+  },
+  {
+    "start": 601.68,
+    "duration": 4.38,
+    "text": "not working so"
+  },
+  {
+    "start": 604.5,
+    "duration": 3.899,
+    "text": "actually this is the definition only"
+  },
+  {
+    "start": 606.06,
+    "duration": 6.02,
+    "text": "what formula I have just written above"
+  },
+  {
+    "start": 608.399,
+    "duration": 3.681,
+    "text": "for every node"
+  },
+  {
+    "start": 613.44,
+    "duration": 2.899,
+    "text": "in the tree"
+  },
+  {
+    "start": 617.04,
+    "duration": 5.94,
+    "text": "the difference in height"
+  },
+  {
+    "start": 621.54,
+    "duration": 3.66,
+    "text": "of"
+  },
+  {
+    "start": 622.98,
+    "duration": 6.12,
+    "text": "left and"
+  },
+  {
+    "start": 625.2,
+    "duration": 6.06,
+    "text": "right sub tree"
+  },
+  {
+    "start": 629.1,
+    "duration": 3.96,
+    "text": "of that node"
+  },
+  {
+    "start": 631.26,
+    "duration": 5.34,
+    "text": "for every node"
+  },
+  {
+    "start": 633.06,
+    "duration": 6.8,
+    "text": "should be less than equal to 1. or yeah"
+  },
+  {
+    "start": 636.6,
+    "duration": 3.26,
+    "text": "should be less than equal to 1."
+  },
+  {
+    "start": 643.2,
+    "duration": 4.02,
+    "text": "cool so either one or zero"
+  },
+  {
+    "start": 645.48,
+    "duration": 3.479,
+    "text": "now let's take a look at an example and"
+  },
+  {
+    "start": 647.22,
+    "duration": 4.32,
+    "text": "that that is a balance tree"
+  },
+  {
+    "start": 648.959,
+    "duration": 4.261,
+    "text": "that is called a"
+  },
+  {
+    "start": 651.54,
+    "duration": 4.1,
+    "text": "balanced"
+  },
+  {
+    "start": 653.22,
+    "duration": 2.42,
+    "text": "tree"
+  },
+  {
+    "start": 655.8,
+    "duration": 3.12,
+    "text": "take a look at a tree which is not"
+  },
+  {
+    "start": 657.779,
+    "duration": 5.721,
+    "text": "balanced"
+  },
+  {
+    "start": 658.92,
+    "duration": 4.58,
+    "text": "so if I have this tree right here"
+  },
+  {
+    "start": 664.68,
+    "duration": 6.14,
+    "text": "okay"
+  },
+  {
+    "start": 666.839,
+    "duration": 3.981,
+    "text": "like this this is okay for now"
+  },
+  {
+    "start": 672.3,
+    "duration": 4.4,
+    "text": "something like this"
+  },
+  {
+    "start": 673.86,
+    "duration": 2.84,
+    "text": "fine for now"
+  },
+  {
+    "start": 677.94,
+    "duration": 4.32,
+    "text": "okay let's add in one more"
+  },
+  {
+    "start": 681.0,
+    "duration": 2.579,
+    "text": "okay"
+  },
+  {
+    "start": 682.26,
+    "duration": 3.18,
+    "text": "now"
+  },
+  {
+    "start": 683.579,
+    "duration": 3.781,
+    "text": "how do we determine Kunal whether this"
+  },
+  {
+    "start": 685.44,
+    "duration": 3.24,
+    "text": "is a balanced tree or not look at the"
+  },
+  {
+    "start": 687.36,
+    "duration": 3.18,
+    "text": "definition"
+  },
+  {
+    "start": 688.68,
+    "duration": 3.24,
+    "text": "the definition says for every node in"
+  },
+  {
+    "start": 690.54,
+    "duration": 3.84,
+    "text": "the tree the difference of the left and"
+  },
+  {
+    "start": 691.92,
+    "duration": 4.62,
+    "text": "right subtree height should be less than"
+  },
+  {
+    "start": 694.38,
+    "duration": 3.6,
+    "text": "equal to one okay then I will start"
+  },
+  {
+    "start": 696.54,
+    "duration": 4.739,
+    "text": "checking from here"
+  },
+  {
+    "start": 697.98,
+    "duration": 6.84,
+    "text": "what is the height of"
+  },
+  {
+    "start": 701.279,
+    "duration": 4.921,
+    "text": "left and right so height of this is one"
+  },
+  {
+    "start": 704.82,
+    "duration": 3.6,
+    "text": "two three"
+  },
+  {
+    "start": 706.2,
+    "duration": 4.98,
+    "text": "and height of this is one"
+  },
+  {
+    "start": 708.42,
+    "duration": 6.02,
+    "text": "so three minus 1 is equal to 2"
+  },
+  {
+    "start": 711.18,
+    "duration": 3.26,
+    "text": "not balanced"
+  },
+  {
+    "start": 721.079,
+    "duration": 3.021,
+    "text": "not balanced"
+  },
+  {
+    "start": 724.26,
+    "duration": 3.9,
+    "text": "simple"
+  },
+  {
+    "start": 726.42,
+    "duration": 2.94,
+    "text": "that is basically balanced tree and"
+  },
+  {
+    "start": 728.16,
+    "duration": 3.119,
+    "text": "unbalanced tree"
+  },
+  {
+    "start": 729.36,
+    "duration": 3.719,
+    "text": "I hope that is clear"
+  },
+  {
+    "start": 731.279,
+    "duration": 3.421,
+    "text": "okay"
+  },
+  {
+    "start": 733.079,
+    "duration": 4.981,
+    "text": "in the previous example also this is"
+  },
+  {
+    "start": 734.7,
+    "duration": 6.12,
+    "text": "also unbalanced tree you know this one"
+  },
+  {
+    "start": 738.06,
+    "duration": 6.0,
+    "text": "why because the height of the left tree"
+  },
+  {
+    "start": 740.82,
+    "duration": 7.38,
+    "text": "is one right tree left three is zero"
+  },
+  {
+    "start": 744.06,
+    "duration": 6.24,
+    "text": "right tree is one two three so zero"
+  },
+  {
+    "start": 748.2,
+    "duration": 4.199,
+    "text": "minus three minus three not cool not"
+  },
+  {
+    "start": 750.3,
+    "duration": 4.08,
+    "text": "good"
+  },
+  {
+    "start": 752.399,
+    "duration": 4.521,
+    "text": "difference in height is three air it's"
+  },
+  {
+    "start": 754.38,
+    "duration": 2.54,
+    "text": "minus three"
+  },
+  {
+    "start": 757.2,
+    "duration": 2.759,
+    "text": "okay"
+  },
+  {
+    "start": 758.22,
+    "duration": 5.1,
+    "text": "very simple stuff"
+  },
+  {
+    "start": 759.959,
+    "duration": 4.921,
+    "text": "cool now"
+  },
+  {
+    "start": 763.32,
+    "duration": 4.759,
+    "text": "moving forward"
+  },
+  {
+    "start": 764.88,
+    "duration": 3.199,
+    "text": "how to solve this problem"
+  },
+  {
+    "start": 774.839,
+    "duration": 2.841,
+    "text": "solution"
+  },
+  {
+    "start": 781.86,
+    "duration": 4.4,
+    "text": "solution is self balancing binary tree"
+  },
+  {
+    "start": 792.3,
+    "duration": 4.339,
+    "text": "for example one of those is"
+  },
+  {
+    "start": 796.86,
+    "duration": 4.32,
+    "text": "AVL"
+  },
+  {
+    "start": 799.019,
+    "duration": 3.841,
+    "text": "cell parenting balancing binary now now"
+  },
+  {
+    "start": 801.18,
+    "duration": 4.02,
+    "text": "you understand what was the problem and"
+  },
+  {
+    "start": 802.86,
+    "duration": 4.74,
+    "text": "what problem self-balancing binary tree"
+  },
+  {
+    "start": 805.2,
+    "duration": 4.139,
+    "text": "is trying to solve so when you have a"
+  },
+  {
+    "start": 807.6,
+    "duration": 3.6,
+    "text": "tree that is unbalanced"
+  },
+  {
+    "start": 809.339,
+    "duration": 3.12,
+    "text": "let's say you're adding something adding"
+  },
+  {
+    "start": 811.2,
+    "duration": 3.6,
+    "text": "something adding something and the tree"
+  },
+  {
+    "start": 812.459,
+    "duration": 4.68,
+    "text": "becomes unbalanced self-balancing binary"
+  },
+  {
+    "start": 814.8,
+    "duration": 5.52,
+    "text": "okay don't worry you keep adding into"
+  },
+  {
+    "start": 817.139,
+    "duration": 5.64,
+    "text": "the tree as you wish I will restructure"
+  },
+  {
+    "start": 820.32,
+    "duration": 4.68,
+    "text": "the tree in some way that it will always"
+  },
+  {
+    "start": 822.779,
+    "duration": 3.781,
+    "text": "be balanced and what is balanced you"
+  },
+  {
+    "start": 825.0,
+    "duration": 4.5,
+    "text": "already know the definition"
+  },
+  {
+    "start": 826.56,
+    "duration": 4.8,
+    "text": "that is what self-balancing minority is"
+  },
+  {
+    "start": 829.5,
+    "duration": 3.899,
+    "text": "don't worry about how it's working okay"
+  },
+  {
+    "start": 831.36,
+    "duration": 4.26,
+    "text": "just think about what it's doing for now"
+  },
+  {
+    "start": 833.399,
+    "duration": 4.38,
+    "text": "we will obviously look into the entire"
+  },
+  {
+    "start": 835.62,
+    "duration": 3.54,
+    "text": "code base entire algorithm all the"
+  },
+  {
+    "start": 837.779,
+    "duration": 3.3,
+    "text": "theory everything we'll cover in this"
+  },
+  {
+    "start": 839.16,
+    "duration": 5.04,
+    "text": "video so don't worry about that try to"
+  },
+  {
+    "start": 841.079,
+    "duration": 5.0,
+    "text": "focus on what this problem it is solving"
+  },
+  {
+    "start": 844.2,
+    "duration": 3.54,
+    "text": "what is meaning by self-balancing"
+  },
+  {
+    "start": 846.079,
+    "duration": 3.7,
+    "text": "self-balancing mean you just keep"
+  },
+  {
+    "start": 847.74,
+    "duration": 3.719,
+    "text": "inserting in it and we will apply some"
+  },
+  {
+    "start": 849.779,
+    "duration": 4.62,
+    "text": "algorithm that whenever you insert an"
+  },
+  {
+    "start": 851.459,
+    "duration": 5.281,
+    "text": "item and that insertion makes the tree"
+  },
+  {
+    "start": 854.399,
+    "duration": 4.921,
+    "text": "unbalanced it will be like okay Kunal"
+  },
+  {
+    "start": 856.74,
+    "duration": 5.94,
+    "text": "just added 20 in the tree a node with"
+  },
+  {
+    "start": 859.32,
+    "duration": 5.34,
+    "text": "value of 20 and uh it has made my tree"
+  },
+  {
+    "start": 862.68,
+    "duration": 4.68,
+    "text": "unbalanced no problem Kunal just add it"
+  },
+  {
+    "start": 864.66,
+    "duration": 5.1,
+    "text": "as you want and normally and I will"
+  },
+  {
+    "start": 867.36,
+    "duration": 5.34,
+    "text": "restructure the tree in such a way that"
+  },
+  {
+    "start": 869.76,
+    "duration": 7.04,
+    "text": "it will become balanced"
+  },
+  {
+    "start": 872.7,
+    "duration": 4.1,
+    "text": "that it will become balanced"
+  },
+  {
+    "start": 878.519,
+    "duration": 3.5,
+    "text": "okay so for example"
+  },
+  {
+    "start": 882.36,
+    "duration": 3.38,
+    "text": "this is balanced tree"
+  },
+  {
+    "start": 886.62,
+    "duration": 4.38,
+    "text": "okay it's the same tree as previously"
+  },
+  {
+    "start": 889.56,
+    "duration": 3.54,
+    "text": "so it's going to be like okay Kunal"
+  },
+  {
+    "start": 891.0,
+    "duration": 3.839,
+    "text": "right now this is balanced no problem"
+  },
+  {
+    "start": 893.1,
+    "duration": 3.84,
+    "text": "Kunal is going to be like okay I will"
+  },
+  {
+    "start": 894.839,
+    "duration": 3.541,
+    "text": "add one more node over here the tree is"
+  },
+  {
+    "start": 896.94,
+    "duration": 3.839,
+    "text": "going to like oh now you added one more"
+  },
+  {
+    "start": 898.38,
+    "duration": 4.56,
+    "text": "node now this tree is unbalanced so"
+  },
+  {
+    "start": 900.779,
+    "duration": 4.86,
+    "text": "don't worry add your node where it's"
+  },
+  {
+    "start": 902.94,
+    "duration": 5.78,
+    "text": "supposed to go I will then restructure"
+  },
+  {
+    "start": 905.639,
+    "duration": 3.081,
+    "text": "the tree and balance it"
+  },
+  {
+    "start": 909.18,
+    "duration": 4.459,
+    "text": "how we are going to balance it we will"
+  },
+  {
+    "start": 910.92,
+    "duration": 2.719,
+    "text": "figure out later"
+  },
+  {
+    "start": 914.16,
+    "duration": 6.32,
+    "text": "okay"
+  },
+  {
+    "start": 916.38,
+    "duration": 4.1,
+    "text": "sounds good let's move forward"
+  },
+  {
+    "start": 920.699,
+    "duration": 3.901,
+    "text": "so that is basically what self-balancing"
+  },
+  {
+    "start": 922.38,
+    "duration": 5.1,
+    "text": "binary tree is and one of those trees"
+  },
+  {
+    "start": 924.6,
+    "duration": 5.16,
+    "text": "called AVL tree so let's see how AVL"
+  },
+  {
+    "start": 927.48,
+    "duration": 4.5,
+    "text": "trees solves this problem and what does"
+  },
+  {
+    "start": 929.76,
+    "duration": 4.86,
+    "text": "mean by AVL tree so AVL tree self"
+  },
+  {
+    "start": 931.98,
+    "duration": 5.58,
+    "text": "balancing binary T the full form is"
+  },
+  {
+    "start": 934.62,
+    "duration": 4.019,
+    "text": "I think in based on the"
+  },
+  {
+    "start": 937.56,
+    "duration": 4.079,
+    "text": "um"
+  },
+  {
+    "start": 938.639,
+    "duration": 7.221,
+    "text": "people who founded it could be that"
+  },
+  {
+    "start": 941.639,
+    "duration": 4.221,
+    "text": "so it's called Adel Sun"
+  },
+  {
+    "start": 947.579,
+    "duration": 3.021,
+    "text": "Wells key"
+  },
+  {
+    "start": 951.48,
+    "duration": 6.06,
+    "text": "and Landis AVL trees"
+  },
+  {
+    "start": 955.98,
+    "duration": 4.32,
+    "text": "okay"
+  },
+  {
+    "start": 957.54,
+    "duration": 5.64,
+    "text": "cool how it works let's see okay so"
+  },
+  {
+    "start": 960.3,
+    "duration": 4.68,
+    "text": "let's see how Aviary functions so Kunal"
+  },
+  {
+    "start": 963.18,
+    "duration": 3.779,
+    "text": "we know that you are saying that AVL"
+  },
+  {
+    "start": 964.98,
+    "duration": 4.14,
+    "text": "tree is a self-balancing binary okay no"
+  },
+  {
+    "start": 966.959,
+    "duration": 5.161,
+    "text": "problem uh sometimes we have we may"
+  },
+  {
+    "start": 969.12,
+    "duration": 4.74,
+    "text": "insert some node in a tree and that will"
+  },
+  {
+    "start": 972.12,
+    "duration": 4.14,
+    "text": "make that tree unbalanced we know what"
+  },
+  {
+    "start": 973.86,
+    "duration": 4.56,
+    "text": "unbalanced means and when tree is like"
+  },
+  {
+    "start": 976.26,
+    "duration": 4.199,
+    "text": "oh Canal just inserted this node tree"
+  },
+  {
+    "start": 978.42,
+    "duration": 6.0,
+    "text": "has become unbalanced now don't worry"
+  },
+  {
+    "start": 980.459,
+    "duration": 6.961,
+    "text": "Kunal iavl3 I'm an AVL tree so I will"
+  },
+  {
+    "start": 984.42,
+    "duration": 4.56,
+    "text": "make the tree balanced automatically so"
+  },
+  {
+    "start": 987.42,
+    "duration": 4.44,
+    "text": "obviously if a tree has become"
+  },
+  {
+    "start": 988.98,
+    "duration": 4.919,
+    "text": "unbalanced then to make it balanced you"
+  },
+  {
+    "start": 991.86,
+    "duration": 4.14,
+    "text": "have to change the structure of the tree"
+  },
+  {
+    "start": 993.899,
+    "duration": 3.841,
+    "text": "you have to move some nodes around to"
+  },
+  {
+    "start": 996.0,
+    "duration": 5.04,
+    "text": "make the structure of the tree balanced"
+  },
+  {
+    "start": 997.74,
+    "duration": 6.06,
+    "text": "pretty common sense now the question is"
+  },
+  {
+    "start": 1001.04,
+    "duration": 4.38,
+    "text": "how do we do that so what is the basic"
+  },
+  {
+    "start": 1003.8,
+    "duration": 6.38,
+    "text": "method"
+  },
+  {
+    "start": 1005.42,
+    "duration": 4.76,
+    "text": "via which the tree will adjust itself"
+  },
+  {
+    "start": 1010.339,
+    "duration": 4.74,
+    "text": "what is the basic method"
+  },
+  {
+    "start": 1012.259,
+    "duration": 5.7,
+    "text": "let's see so let's say you have a node"
+  },
+  {
+    "start": 1015.079,
+    "duration": 6.301,
+    "text": "let's say this is a parent node"
+  },
+  {
+    "start": 1017.959,
+    "duration": 4.56,
+    "text": "this is a child node this is tree number"
+  },
+  {
+    "start": 1021.38,
+    "duration": 3.179,
+    "text": "one"
+  },
+  {
+    "start": 1022.519,
+    "duration": 3.78,
+    "text": "this is"
+  },
+  {
+    "start": 1024.559,
+    "duration": 5.701,
+    "text": "tree number two"
+  },
+  {
+    "start": 1026.299,
+    "duration": 7.38,
+    "text": "this is tree number three"
+  },
+  {
+    "start": 1030.26,
+    "duration": 5.76,
+    "text": "okay so there are two methods using"
+  },
+  {
+    "start": 1033.679,
+    "duration": 5.52,
+    "text": "which we are going to form our algorithm"
+  },
+  {
+    "start": 1036.02,
+    "duration": 7.439,
+    "text": "but two basic steps"
+  },
+  {
+    "start": 1039.199,
+    "duration": 6.301,
+    "text": "first one is if you want to"
+  },
+  {
+    "start": 1043.459,
+    "duration": 3.901,
+    "text": "there's only two things you can do okay"
+  },
+  {
+    "start": 1045.5,
+    "duration": 3.84,
+    "text": "for every node so let's say you found a"
+  },
+  {
+    "start": 1047.36,
+    "duration": 5.04,
+    "text": "node and you're like this node is making"
+  },
+  {
+    "start": 1049.34,
+    "duration": 5.64,
+    "text": "it unbalanced for example if you try to"
+  },
+  {
+    "start": 1052.4,
+    "duration": 4.62,
+    "text": "look for you started adding it from here"
+  },
+  {
+    "start": 1054.98,
+    "duration": 4.8,
+    "text": "let's say you started adding it from"
+  },
+  {
+    "start": 1057.02,
+    "duration": 5.159,
+    "text": "here let me show you how it works okay"
+  },
+  {
+    "start": 1059.78,
+    "duration": 4.68,
+    "text": "let me show you how it works so before"
+  },
+  {
+    "start": 1062.179,
+    "duration": 4.74,
+    "text": "moving forward I'll just write down the"
+  },
+  {
+    "start": 1064.46,
+    "duration": 5.339,
+    "text": "algorithm for AVL tree"
+  },
+  {
+    "start": 1066.919,
+    "duration": 4.62,
+    "text": "then it will make more sense"
+  },
+  {
+    "start": 1069.799,
+    "duration": 4.161,
+    "text": "step one you have to do is insert"
+  },
+  {
+    "start": 1071.539,
+    "duration": 2.421,
+    "text": "normally"
+  },
+  {
+    "start": 1077.299,
+    "duration": 5.781,
+    "text": "insert normally"
+  },
+  {
+    "start": 1080.36,
+    "duration": 2.72,
+    "text": "node"
+  },
+  {
+    "start": 1086.0,
+    "duration": 4.98,
+    "text": "node n"
+  },
+  {
+    "start": 1088.22,
+    "duration": 6.36,
+    "text": "for example"
+  },
+  {
+    "start": 1090.98,
+    "duration": 7.1,
+    "text": "insert normally node end now"
+  },
+  {
+    "start": 1094.58,
+    "duration": 3.5,
+    "text": "start from node n"
+  },
+  {
+    "start": 1100.36,
+    "duration": 4.0,
+    "text": "and find"
+  },
+  {
+    "start": 1102.26,
+    "duration": 4.08,
+    "text": "the node"
+  },
+  {
+    "start": 1104.36,
+    "duration": 5.3,
+    "text": "that makes"
+  },
+  {
+    "start": 1106.34,
+    "duration": 3.32,
+    "text": "the tree unbalanced"
+  },
+  {
+    "start": 1110.419,
+    "duration": 4.701,
+    "text": "so you're saying Kunal start from the"
+  },
+  {
+    "start": 1112.28,
+    "duration": 2.84,
+    "text": "bottom up yes"
+  },
+  {
+    "start": 1115.4,
+    "duration": 2.279,
+    "text": "taking an example of the previous"
+  },
+  {
+    "start": 1116.72,
+    "duration": 3.72,
+    "text": "question"
+  },
+  {
+    "start": 1117.679,
+    "duration": 5.821,
+    "text": "add the node normally okay added the"
+  },
+  {
+    "start": 1120.44,
+    "duration": 5.76,
+    "text": "node normally start from this node n"
+  },
+  {
+    "start": 1123.5,
+    "duration": 3.72,
+    "text": "work above is this node unbalanced no"
+  },
+  {
+    "start": 1126.2,
+    "duration": 4.08,
+    "text": "it's not"
+  },
+  {
+    "start": 1127.22,
+    "duration": 4.92,
+    "text": "is this node unbalanced yes it is"
+  },
+  {
+    "start": 1130.28,
+    "duration": 4.74,
+    "text": "sorry no no it's not"
+  },
+  {
+    "start": 1132.14,
+    "duration": 7.22,
+    "text": "is this node unbalanced yes it is"
+  },
+  {
+    "start": 1135.02,
+    "duration": 4.34,
+    "text": "so is this node unbalanced no"
+  },
+  {
+    "start": 1140.66,
+    "duration": 4.32,
+    "text": "no this is not unbalanced okay keep"
+  },
+  {
+    "start": 1142.82,
+    "duration": 6.06,
+    "text": "moving up no this is not unbalanced okay"
+  },
+  {
+    "start": 1144.98,
+    "duration": 6.66,
+    "text": "keep moving up yes this is unbalanced"
+  },
+  {
+    "start": 1148.88,
+    "duration": 5.64,
+    "text": "this node is unbalanced"
+  },
+  {
+    "start": 1151.64,
+    "duration": 5.46,
+    "text": "so now we will solve this particular sub"
+  },
+  {
+    "start": 1154.52,
+    "duration": 5.1,
+    "text": "tree before moving more up"
+  },
+  {
+    "start": 1157.1,
+    "duration": 4.98,
+    "text": "that is AVL tree"
+  },
+  {
+    "start": 1159.62,
+    "duration": 4.08,
+    "text": "for every subtree how you can solve it"
+  },
+  {
+    "start": 1162.08,
+    "duration": 4.38,
+    "text": "is for every subtree thing only two"
+  },
+  {
+    "start": 1163.7,
+    "duration": 5.82,
+    "text": "things you can do let's say"
+  },
+  {
+    "start": 1166.46,
+    "duration": 5.94,
+    "text": "we have this subtree so in this case in"
+  },
+  {
+    "start": 1169.52,
+    "duration": 5.7,
+    "text": "the bottom one this will be equal to p"
+  },
+  {
+    "start": 1172.4,
+    "duration": 5.399,
+    "text": "this will be equal to child this will be"
+  },
+  {
+    "start": 1175.22,
+    "duration": 3.66,
+    "text": "equal to tree one this will be equal to"
+  },
+  {
+    "start": 1177.799,
+    "duration": 3.601,
+    "text": "3 2"
+  },
+  {
+    "start": 1178.88,
+    "duration": 5.12,
+    "text": "and this will be equal to"
+  },
+  {
+    "start": 1181.4,
+    "duration": 2.6,
+    "text": "T3"
+  },
+  {
+    "start": 1185.12,
+    "duration": 4.02,
+    "text": "make sense"
+  },
+  {
+    "start": 1186.62,
+    "duration": 5.28,
+    "text": "so only two operations you can perform"
+  },
+  {
+    "start": 1189.14,
+    "duration": 4.26,
+    "text": "parent child even t233 I showed you in"
+  },
+  {
+    "start": 1191.9,
+    "duration": 3.0,
+    "text": "the real world example how this is going"
+  },
+  {
+    "start": 1193.4,
+    "duration": 5.159,
+    "text": "to be related so you can check that out"
+  },
+  {
+    "start": 1194.9,
+    "duration": 5.82,
+    "text": "you can either rotate it on the right"
+  },
+  {
+    "start": 1198.559,
+    "duration": 4.081,
+    "text": "hand side or you can rotate it on the"
+  },
+  {
+    "start": 1200.72,
+    "duration": 5.54,
+    "text": "left hand side"
+  },
+  {
+    "start": 1202.64,
+    "duration": 3.62,
+    "text": "if I rotate it on the right hand side"
+  },
+  {
+    "start": 1211.1,
+    "duration": 4.62,
+    "text": "so"
+  },
+  {
+    "start": 1212.48,
+    "duration": 6.84,
+    "text": "this will go down c will go up"
+  },
+  {
+    "start": 1215.72,
+    "duration": 5.22,
+    "text": "c will go here P will go down"
+  },
+  {
+    "start": 1219.32,
+    "duration": 3.9,
+    "text": "and P will obviously go on the right"
+  },
+  {
+    "start": 1220.94,
+    "duration": 4.5,
+    "text": "hand side of C because p is greater than"
+  },
+  {
+    "start": 1223.22,
+    "duration": 3.42,
+    "text": "C and in binary Trace anything that is"
+  },
+  {
+    "start": 1225.44,
+    "duration": 3.5,
+    "text": "greater than the node goes on the right"
+  },
+  {
+    "start": 1226.64,
+    "duration": 2.3,
+    "text": "hand side"
+  },
+  {
+    "start": 1229.46,
+    "duration": 4.88,
+    "text": "uh P has T3 on the right hand side"
+  },
+  {
+    "start": 1234.919,
+    "duration": 7.021,
+    "text": "no problem"
+  },
+  {
+    "start": 1237.02,
+    "duration": 6.48,
+    "text": "now C has T1 on the left hand side"
+  },
+  {
+    "start": 1241.94,
+    "duration": 3.66,
+    "text": "no problem"
+  },
+  {
+    "start": 1243.5,
+    "duration": 4.14,
+    "text": "T2 was replaced by P"
+  },
+  {
+    "start": 1245.6,
+    "duration": 3.42,
+    "text": "T 2 is actually I know smaller than P"
+  },
+  {
+    "start": 1247.64,
+    "duration": 2.7,
+    "text": "because it was originally on the left"
+  },
+  {
+    "start": 1249.02,
+    "duration": 4.32,
+    "text": "hand side of P"
+  },
+  {
+    "start": 1250.34,
+    "duration": 7.1,
+    "text": "so it will be on the left hand side of P"
+  },
+  {
+    "start": 1253.34,
+    "duration": 4.1,
+    "text": "similarly this is left rotate"
+  },
+  {
+    "start": 1258.26,
+    "duration": 3.56,
+    "text": "this is like the basic concept"
+  },
+  {
+    "start": 1264.679,
+    "duration": 5.221,
+    "text": "okay please note that the binary search"
+  },
+  {
+    "start": 1267.62,
+    "duration": 3.6,
+    "text": "tree property that all the elements on"
+  },
+  {
+    "start": 1269.9,
+    "duration": 2.7,
+    "text": "the left hand side has to be smaller"
+  },
+  {
+    "start": 1271.22,
+    "duration": 3.42,
+    "text": "right hand side has to be bigger for"
+  },
+  {
+    "start": 1272.6,
+    "duration": 4.319,
+    "text": "every node is still holding true for"
+  },
+  {
+    "start": 1274.64,
+    "duration": 4.26,
+    "text": "this case"
+  },
+  {
+    "start": 1276.919,
+    "duration": 3.661,
+    "text": "originally T2 was on the left hand side"
+  },
+  {
+    "start": 1278.9,
+    "duration": 3.899,
+    "text": "of P now also T2 is on the left hand"
+  },
+  {
+    "start": 1280.58,
+    "duration": 6.74,
+    "text": "side of P originally"
+  },
+  {
+    "start": 1282.799,
+    "duration": 7.86,
+    "text": "P was actually C was actually"
+  },
+  {
+    "start": 1287.32,
+    "duration": 5.38,
+    "text": "smaller than p in the rotated run also C"
+  },
+  {
+    "start": 1290.659,
+    "duration": 3.721,
+    "text": "is smaller than P similarly you can do"
+  },
+  {
+    "start": 1292.7,
+    "duration": 3.719,
+    "text": "the left rotate also if you want to do"
+  },
+  {
+    "start": 1294.38,
+    "duration": 3.96,
+    "text": "left rotate then Ok p will come up c"
+  },
+  {
+    "start": 1296.419,
+    "duration": 4.681,
+    "text": "will go down T2 will go on the right"
+  },
+  {
+    "start": 1298.34,
+    "duration": 4.74,
+    "text": "hand side so on and so forth very simple"
+  },
+  {
+    "start": 1301.1,
+    "duration": 5.48,
+    "text": "these are the two basic"
+  },
+  {
+    "start": 1303.08,
+    "duration": 3.5,
+    "text": "formulas that we will use"
+  },
+  {
+    "start": 1307.76,
+    "duration": 3.899,
+    "text": "okay"
+  },
+  {
+    "start": 1309.919,
+    "duration": 4.081,
+    "text": "very simple"
+  },
+  {
+    "start": 1311.659,
+    "duration": 4.14,
+    "text": "so AVL tree is not difficult it is a"
+  },
+  {
+    "start": 1314.0,
+    "duration": 3.72,
+    "text": "little confusing can be getting it can"
+  },
+  {
+    "start": 1315.799,
+    "duration": 3.961,
+    "text": "get a little confusing because there are"
+  },
+  {
+    "start": 1317.72,
+    "duration": 3.959,
+    "text": "so many moving components after this we"
+  },
+  {
+    "start": 1319.76,
+    "duration": 4.14,
+    "text": "will see four rules of how to apply"
+  },
+  {
+    "start": 1321.679,
+    "duration": 5.541,
+    "text": "these two methods you can apply these"
+  },
+  {
+    "start": 1323.9,
+    "duration": 3.32,
+    "text": "two method in four ways"
+  },
+  {
+    "start": 1327.86,
+    "duration": 2.48,
+    "text": "okay"
+  },
+  {
+    "start": 1330.86,
+    "duration": 3.96,
+    "text": "so it's not difficult at all it's just"
+  },
+  {
+    "start": 1332.72,
+    "duration": 3.54,
+    "text": "like there are too many components there"
+  },
+  {
+    "start": 1334.82,
+    "duration": 2.7,
+    "text": "are two things like this and then there"
+  },
+  {
+    "start": 1336.26,
+    "duration": 2.88,
+    "text": "are four rules"
+  },
+  {
+    "start": 1337.52,
+    "duration": 2.639,
+    "text": "and then there's the balanced unbalanced"
+  },
+  {
+    "start": 1339.14,
+    "duration": 3.06,
+    "text": "thing"
+  },
+  {
+    "start": 1340.159,
+    "duration": 5.88,
+    "text": "so it's not difficult at all I hope this"
+  },
+  {
+    "start": 1342.2,
+    "duration": 6.78,
+    "text": "is clear very simple stuff so"
+  },
+  {
+    "start": 1346.039,
+    "duration": 4.38,
+    "text": "let's take an example so if I take this"
+  },
+  {
+    "start": 1348.98,
+    "duration": 3.9,
+    "text": "example over here"
+  },
+  {
+    "start": 1350.419,
+    "duration": 5.281,
+    "text": "if I take this example"
+  },
+  {
+    "start": 1352.88,
+    "duration": 4.679,
+    "text": "the this one like we found the tree so"
+  },
+  {
+    "start": 1355.7,
+    "duration": 4.32,
+    "text": "you know how it how it basically works"
+  },
+  {
+    "start": 1357.559,
+    "duration": 6.98,
+    "text": "that start from the node n find the one"
+  },
+  {
+    "start": 1360.02,
+    "duration": 6.06,
+    "text": "and bottom up and after that"
+  },
+  {
+    "start": 1364.539,
+    "duration": 3.461,
+    "text": "using"
+  },
+  {
+    "start": 1366.08,
+    "duration": 4.32,
+    "text": "one of the"
+  },
+  {
+    "start": 1368.0,
+    "duration": 5.059,
+    "text": "four rules"
+  },
+  {
+    "start": 1370.4,
+    "duration": 2.659,
+    "text": "rotate"
+  },
+  {
+    "start": 1376.22,
+    "duration": 2.42,
+    "text": "okay"
+  },
+  {
+    "start": 1378.86,
+    "duration": 4.16,
+    "text": "that's it what four rules let's see"
+  },
+  {
+    "start": 1383.84,
+    "duration": 2.78,
+    "text": "four rules"
+  },
+  {
+    "start": 1387.98,
+    "duration": 4.559,
+    "text": "rule number one it's very simple"
+  },
+  {
+    "start": 1391.76,
+    "duration": 2.52,
+    "text": "um"
+  },
+  {
+    "start": 1392.539,
+    "duration": 4.02,
+    "text": "in the previous example let's say we had"
+  },
+  {
+    "start": 1394.28,
+    "duration": 3.84,
+    "text": "a parent is over here"
+  },
+  {
+    "start": 1396.559,
+    "duration": 2.761,
+    "text": "and let us say you have a child over"
+  },
+  {
+    "start": 1398.12,
+    "duration": 3.9,
+    "text": "here"
+  },
+  {
+    "start": 1399.32,
+    "duration": 3.96,
+    "text": "and that child has a grandchild over"
+  },
+  {
+    "start": 1402.02,
+    "duration": 3.8,
+    "text": "here"
+  },
+  {
+    "start": 1403.28,
+    "duration": 2.54,
+    "text": "G"
+  },
+  {
+    "start": 1406.52,
+    "duration": 5.58,
+    "text": "okay and then this has"
+  },
+  {
+    "start": 1409.64,
+    "duration": 5.779,
+    "text": "tree one"
+  },
+  {
+    "start": 1412.1,
+    "duration": 3.319,
+    "text": "and uh"
+  },
+  {
+    "start": 1416.179,
+    "duration": 3.781,
+    "text": "tree two"
+  },
+  {
+    "start": 1418.22,
+    "duration": 3.0,
+    "text": "three"
+  },
+  {
+    "start": 1419.96,
+    "duration": 3.92,
+    "text": "and"
+  },
+  {
+    "start": 1421.22,
+    "duration": 2.66,
+    "text": "three four"
+  },
+  {
+    "start": 1424.1,
+    "duration": 5.76,
+    "text": "let's say you have a situation like this"
+  },
+  {
+    "start": 1427.039,
+    "duration": 4.861,
+    "text": "there are only four rules possible"
+  },
+  {
+    "start": 1429.86,
+    "duration": 3.54,
+    "text": "okay now you're like Kunal how did you"
+  },
+  {
+    "start": 1431.9,
+    "duration": 3.0,
+    "text": "figure out this is the grandchild and"
+  },
+  {
+    "start": 1433.4,
+    "duration": 3.48,
+    "text": "the grandchild is let's say not on the"
+  },
+  {
+    "start": 1434.9,
+    "duration": 3.84,
+    "text": "right hand side that is also one of the"
+  },
+  {
+    "start": 1436.88,
+    "duration": 5.039,
+    "text": "cases that we will cover but the"
+  },
+  {
+    "start": 1438.74,
+    "duration": 5.58,
+    "text": "grandchild is actually in the line of"
+  },
+  {
+    "start": 1441.919,
+    "duration": 5.64,
+    "text": "where the element was added so if your"
+  },
+  {
+    "start": 1444.32,
+    "duration": 5.64,
+    "text": "element was added over here"
+  },
+  {
+    "start": 1447.559,
+    "duration": 4.381,
+    "text": "then this will be grandchild"
+  },
+  {
+    "start": 1449.96,
+    "duration": 5.219,
+    "text": "because it is in the line from the"
+  },
+  {
+    "start": 1451.94,
+    "duration": 5.099,
+    "text": "element added to the parent"
+  },
+  {
+    "start": 1455.179,
+    "duration": 4.801,
+    "text": "okay"
+  },
+  {
+    "start": 1457.039,
+    "duration": 5.481,
+    "text": "if the element was added"
+  },
+  {
+    "start": 1459.98,
+    "duration": 2.54,
+    "text": "you know"
+  },
+  {
+    "start": 1463.159,
+    "duration": 3.361,
+    "text": "somewhere over here then this would be"
+  },
+  {
+    "start": 1465.26,
+    "duration": 5.299,
+    "text": "grandchild"
+  },
+  {
+    "start": 1466.52,
+    "duration": 4.039,
+    "text": "because it is in the line to the parent"
+  },
+  {
+    "start": 1470.78,
+    "duration": 3.74,
+    "text": "I hope that is clear it's very simple"
+  },
+  {
+    "start": 1472.28,
+    "duration": 2.24,
+    "text": "stuff"
+  },
+  {
+    "start": 1475.22,
+    "duration": 4.5,
+    "text": "okay let's move forward so let's say we"
+  },
+  {
+    "start": 1477.2,
+    "duration": 4.2,
+    "text": "have one of these four cases so in this"
+  },
+  {
+    "start": 1479.72,
+    "duration": 4.76,
+    "text": "case"
+  },
+  {
+    "start": 1481.4,
+    "duration": 3.08,
+    "text": "imagine that"
+  },
+  {
+    "start": 1484.58,
+    "duration": 5.64,
+    "text": "the P Point let's say for example these"
+  },
+  {
+    "start": 1488.0,
+    "duration": 4.74,
+    "text": "cases are for unbalanced binary sub"
+  },
+  {
+    "start": 1490.22,
+    "duration": 4.98,
+    "text": "trees so this p is where we're going to"
+  },
+  {
+    "start": 1492.74,
+    "duration": 3.72,
+    "text": "be rotating it so in this case what"
+  },
+  {
+    "start": 1495.2,
+    "duration": 3.54,
+    "text": "we're going to do is"
+  },
+  {
+    "start": 1496.46,
+    "duration": 5.78,
+    "text": "if we found in the case like this"
+  },
+  {
+    "start": 1498.74,
+    "duration": 3.5,
+    "text": "we're just going to right root it"
+  },
+  {
+    "start": 1507.14,
+    "duration": 2.899,
+    "text": "right rotate"
+  },
+  {
+    "start": 1510.559,
+    "duration": 4.561,
+    "text": "from p"
+  },
+  {
+    "start": 1512.9,
+    "duration": 4.5,
+    "text": "so c will come above"
+  },
+  {
+    "start": 1515.12,
+    "duration": 5.6,
+    "text": "P will go over here"
+  },
+  {
+    "start": 1517.4,
+    "duration": 3.32,
+    "text": "T4 will go over here"
+  },
+  {
+    "start": 1520.94,
+    "duration": 4.92,
+    "text": "then what"
+  },
+  {
+    "start": 1523.4,
+    "duration": 4.379,
+    "text": "T3 will go over here"
+  },
+  {
+    "start": 1525.86,
+    "duration": 4.08,
+    "text": "G will stay here"
+  },
+  {
+    "start": 1527.779,
+    "duration": 4.76,
+    "text": "T1"
+  },
+  {
+    "start": 1529.94,
+    "duration": 2.599,
+    "text": "makes sense"
+  },
+  {
+    "start": 1533.24,
+    "duration": 3.419,
+    "text": "sounds good"
+  },
+  {
+    "start": 1535.279,
+    "duration": 3.721,
+    "text": "okay"
+  },
+  {
+    "start": 1536.659,
+    "duration": 4.5,
+    "text": "case number two"
+  },
+  {
+    "start": 1539.0,
+    "duration": 4.38,
+    "text": "let's say parent like this"
+  },
+  {
+    "start": 1541.159,
+    "duration": 6.541,
+    "text": "you have child like this"
+  },
+  {
+    "start": 1543.38,
+    "duration": 7.56,
+    "text": "and let's say here you have T4 and let's"
+  },
+  {
+    "start": 1547.7,
+    "duration": 6.06,
+    "text": "say now you insert it something"
+  },
+  {
+    "start": 1550.94,
+    "duration": 5.82,
+    "text": "there was a tree over here T3 and let's"
+  },
+  {
+    "start": 1553.76,
+    "duration": 6.299,
+    "text": "say you inserted an item over here"
+  },
+  {
+    "start": 1556.76,
+    "duration": 7.68,
+    "text": "then the item inserted"
+  },
+  {
+    "start": 1560.059,
+    "duration": 7.161,
+    "text": "in that lane the child of child is going"
+  },
+  {
+    "start": 1564.44,
+    "duration": 2.78,
+    "text": "to be the grandchild"
+  },
+  {
+    "start": 1568.94,
+    "duration": 2.42,
+    "text": "okay"
+  },
+  {
+    "start": 1572.779,
+    "duration": 2.661,
+    "text": "T3"
+  },
+  {
+    "start": 1575.539,
+    "duration": 5.841,
+    "text": "T2"
+  },
+  {
+    "start": 1576.86,
+    "duration": 4.52,
+    "text": "T1 these are sub trees T1 T2 T3 okay"
+  },
+  {
+    "start": 1581.84,
+    "duration": 3.719,
+    "text": "all right"
+  },
+  {
+    "start": 1582.98,
+    "duration": 4.5,
+    "text": "now what we're going to do is"
+  },
+  {
+    "start": 1585.559,
+    "duration": 4.081,
+    "text": "this is actually going to be the this"
+  },
+  {
+    "start": 1587.48,
+    "duration": 3.54,
+    "text": "one's first one is going to be the left"
+  },
+  {
+    "start": 1589.64,
+    "duration": 2.76,
+    "text": "left case"
+  },
+  {
+    "start": 1591.02,
+    "duration": 6.259,
+    "text": "so you have the child and grandchild"
+  },
+  {
+    "start": 1592.4,
+    "duration": 4.879,
+    "text": "both are on the left left side left left"
+  },
+  {
+    "start": 1598.039,
+    "duration": 2.541,
+    "text": "so"
+  },
+  {
+    "start": 1600.919,
+    "duration": 2.661,
+    "text": "left"
+  },
+  {
+    "start": 1605.659,
+    "duration": 4.441,
+    "text": "left"
+  },
+  {
+    "start": 1607.82,
+    "duration": 5.64,
+    "text": "case"
+  },
+  {
+    "start": 1610.1,
+    "duration": 6.3,
+    "text": "here you can see that"
+  },
+  {
+    "start": 1613.46,
+    "duration": 6.26,
+    "text": "it's left right"
+  },
+  {
+    "start": 1616.4,
+    "duration": 3.32,
+    "text": "so this is Left Right case"
+  },
+  {
+    "start": 1621.86,
+    "duration": 5.16,
+    "text": "your motivation is"
+  },
+  {
+    "start": 1625.1,
+    "duration": 4.14,
+    "text": "to convert the tree in a single line"
+  },
+  {
+    "start": 1627.02,
+    "duration": 4.38,
+    "text": "This parent child grandchild right"
+  },
+  {
+    "start": 1629.24,
+    "duration": 3.78,
+    "text": "convert it into a single line that"
+  },
+  {
+    "start": 1631.4,
+    "duration": 3.6,
+    "text": "should be your motivation"
+  },
+  {
+    "start": 1633.02,
+    "duration": 3.72,
+    "text": "so because then you will be able to"
+  },
+  {
+    "start": 1635.0,
+    "duration": 3.0,
+    "text": "rotate and make it balanced"
+  },
+  {
+    "start": 1636.74,
+    "duration": 4.02,
+    "text": "okay"
+  },
+  {
+    "start": 1638.0,
+    "duration": 4.86,
+    "text": "so here you can see it was for example"
+  },
+  {
+    "start": 1640.76,
+    "duration": 6.5,
+    "text": "in this case"
+  },
+  {
+    "start": 1642.86,
+    "duration": 4.4,
+    "text": "single line parent child grandchild"
+  },
+  {
+    "start": 1647.659,
+    "duration": 4.02,
+    "text": "okay similarly you can rotate"
+  },
+  {
+    "start": 1649.94,
+    "duration": 3.9,
+    "text": "but here you can see it is not in a"
+  },
+  {
+    "start": 1651.679,
+    "duration": 3.841,
+    "text": "single line it is zigzag"
+  },
+  {
+    "start": 1653.84,
+    "duration": 3.06,
+    "text": "so I'm going to first make it into a"
+  },
+  {
+    "start": 1655.52,
+    "duration": 5.34,
+    "text": "single line"
+  },
+  {
+    "start": 1656.9,
+    "duration": 6.779,
+    "text": "so to make it into a single line"
+  },
+  {
+    "start": 1660.86,
+    "duration": 5.64,
+    "text": "I start from the bottom and I will what"
+  },
+  {
+    "start": 1663.679,
+    "duration": 5.181,
+    "text": "I will do is I will put G over here I"
+  },
+  {
+    "start": 1666.5,
+    "duration": 2.36,
+    "text": "will do"
+  },
+  {
+    "start": 1670.7,
+    "duration": 4.5,
+    "text": "left rotate"
+  },
+  {
+    "start": 1673.64,
+    "duration": 4.62,
+    "text": "G"
+  },
+  {
+    "start": 1675.2,
+    "duration": 4.26,
+    "text": "sorry C left rotate C that will bring G"
+  },
+  {
+    "start": 1678.26,
+    "duration": 3.0,
+    "text": "above"
+  },
+  {
+    "start": 1679.46,
+    "duration": 3.98,
+    "text": "so it will make my tree something like"
+  },
+  {
+    "start": 1681.26,
+    "duration": 2.18,
+    "text": "this"
+  },
+  {
+    "start": 1685.76,
+    "duration": 3.72,
+    "text": "G will come over here"
+  },
+  {
+    "start": 1688.039,
+    "duration": 4.64,
+    "text": "and then"
+  },
+  {
+    "start": 1689.48,
+    "duration": 3.199,
+    "text": "child will come over here"
+  },
+  {
+    "start": 1693.14,
+    "duration": 4.279,
+    "text": "tree one"
+  },
+  {
+    "start": 1694.76,
+    "duration": 2.659,
+    "text": "tree two"
+  },
+  {
+    "start": 1699.5,
+    "duration": 5.159,
+    "text": "three"
+  },
+  {
+    "start": 1700.64,
+    "duration": 6.72,
+    "text": "now you can see it's in one single line"
+  },
+  {
+    "start": 1704.659,
+    "duration": 4.081,
+    "text": "and is this not the same as this one"
+  },
+  {
+    "start": 1707.36,
+    "duration": 2.939,
+    "text": "first one"
+  },
+  {
+    "start": 1708.74,
+    "duration": 2.76,
+    "text": "so what is the case for first one what"
+  },
+  {
+    "start": 1710.299,
+    "duration": 5.601,
+    "text": "do we do when we have a structure like"
+  },
+  {
+    "start": 1711.5,
+    "duration": 4.4,
+    "text": "the first one we write rotate on P"
+  },
+  {
+    "start": 1716.48,
+    "duration": 4.16,
+    "text": "right rotate on P after this"
+  },
+  {
+    "start": 1722.299,
+    "duration": 3.98,
+    "text": "right rotate p"
+  },
+  {
+    "start": 1727.1,
+    "duration": 3.079,
+    "text": "same as 1."
+  },
+  {
+    "start": 1730.88,
+    "duration": 3.899,
+    "text": "very simple"
+  },
+  {
+    "start": 1732.26,
+    "duration": 3.779,
+    "text": "okay don't try to think about it these"
+  },
+  {
+    "start": 1734.779,
+    "duration": 3.0,
+    "text": "are the only cases you can have then"
+  },
+  {
+    "start": 1736.039,
+    "duration": 3.961,
+    "text": "what other solution do you need what"
+  },
+  {
+    "start": 1737.779,
+    "duration": 7.201,
+    "text": "other explanation do you need"
+  },
+  {
+    "start": 1740.0,
+    "duration": 4.98,
+    "text": "let's say parent child grandchild"
+  },
+  {
+    "start": 1745.82,
+    "duration": 3.26,
+    "text": "T 4"
+  },
+  {
+    "start": 1749.24,
+    "duration": 3.02,
+    "text": "or I can say T1"
+  },
+  {
+    "start": 1752.419,
+    "duration": 5.461,
+    "text": "T2"
+  },
+  {
+    "start": 1754.52,
+    "duration": 5.879,
+    "text": "T3 T4"
+  },
+  {
+    "start": 1757.88,
+    "duration": 4.019,
+    "text": "it is one single line so I will just"
+  },
+  {
+    "start": 1760.399,
+    "duration": 4.081,
+    "text": "simply rotate"
+  },
+  {
+    "start": 1761.899,
+    "duration": 5.78,
+    "text": "um it is right right case so I will"
+  },
+  {
+    "start": 1764.48,
+    "duration": 3.199,
+    "text": "rotate it on the left hand side"
+  },
+  {
+    "start": 1768.2,
+    "duration": 5.18,
+    "text": "right right case"
+  },
+  {
+    "start": 1769.82,
+    "duration": 3.56,
+    "text": "move move it on the left hand side"
+  },
+  {
+    "start": 1775.22,
+    "duration": 3.959,
+    "text": "left rotate on P"
+  },
+  {
+    "start": 1777.44,
+    "duration": 6.08,
+    "text": "Little P will go"
+  },
+  {
+    "start": 1779.179,
+    "duration": 4.341,
+    "text": "c will come above T will go here"
+  },
+  {
+    "start": 1784.399,
+    "duration": 4.02,
+    "text": "T1 will go over here"
+  },
+  {
+    "start": 1786.919,
+    "duration": 5.421,
+    "text": "T2"
+  },
+  {
+    "start": 1788.419,
+    "duration": 3.921,
+    "text": "will go over here"
+  },
+  {
+    "start": 1792.98,
+    "duration": 3.72,
+    "text": "okay"
+  },
+  {
+    "start": 1795.38,
+    "duration": 3.12,
+    "text": "because it has to be greater than P"
+  },
+  {
+    "start": 1796.7,
+    "duration": 3.78,
+    "text": "greater than P that is fine"
+  },
+  {
+    "start": 1798.5,
+    "duration": 5.279,
+    "text": "G will be here"
+  },
+  {
+    "start": 1800.48,
+    "duration": 4.98,
+    "text": "T4 will be here T3 will be here"
+  },
+  {
+    "start": 1803.779,
+    "duration": 4.461,
+    "text": "that's it"
+  },
+  {
+    "start": 1805.46,
+    "duration": 2.78,
+    "text": "balanced"
+  },
+  {
+    "start": 1808.76,
+    "duration": 3.299,
+    "text": "now I'd like to know how do you know"
+  },
+  {
+    "start": 1810.2,
+    "duration": 3.78,
+    "text": "that the individual tree is T 1 T 2 3 3"
+  },
+  {
+    "start": 1812.059,
+    "duration": 4.201,
+    "text": "4 are balanced because we are starting"
+  },
+  {
+    "start": 1813.98,
+    "duration": 5.04,
+    "text": "from bottom up"
+  },
+  {
+    "start": 1816.26,
+    "duration": 6.98,
+    "text": "okay that's why"
+  },
+  {
+    "start": 1819.02,
+    "duration": 4.22,
+    "text": "right case done one more case left"
+  },
+  {
+    "start": 1834.32,
+    "duration": 5.099,
+    "text": "right left case"
+  },
+  {
+    "start": 1836.84,
+    "duration": 4.98,
+    "text": "this is again very simple let's say I"
+  },
+  {
+    "start": 1839.419,
+    "duration": 5.101,
+    "text": "have a"
+  },
+  {
+    "start": 1841.82,
+    "duration": 4.5,
+    "text": "my parent over here"
+  },
+  {
+    "start": 1844.52,
+    "duration": 6.18,
+    "text": "my child over here"
+  },
+  {
+    "start": 1846.32,
+    "duration": 6.239,
+    "text": "and my grandchild over here"
+  },
+  {
+    "start": 1850.7,
+    "duration": 3.0,
+    "text": "tree one"
+  },
+  {
+    "start": 1852.559,
+    "duration": 2.521,
+    "text": "tree two"
+  },
+  {
+    "start": 1853.7,
+    "duration": 3.959,
+    "text": "three"
+  },
+  {
+    "start": 1855.08,
+    "duration": 4.02,
+    "text": "T4"
+  },
+  {
+    "start": 1857.659,
+    "duration": 3.781,
+    "text": "so I have to make it in one single line"
+  },
+  {
+    "start": 1859.1,
+    "duration": 4.319,
+    "text": "I will start from the bottom up so this"
+  },
+  {
+    "start": 1861.44,
+    "duration": 4.68,
+    "text": "one I will see C"
+  },
+  {
+    "start": 1863.419,
+    "duration": 5.721,
+    "text": "and I'm going to"
+  },
+  {
+    "start": 1866.12,
+    "duration": 3.02,
+    "text": "right rotate it"
+  },
+  {
+    "start": 1871.34,
+    "duration": 4.98,
+    "text": "write rotate on C"
+  },
+  {
+    "start": 1873.559,
+    "duration": 4.141,
+    "text": "this will become G"
+  },
+  {
+    "start": 1876.32,
+    "duration": 3.599,
+    "text": "and"
+  },
+  {
+    "start": 1877.7,
+    "duration": 4.88,
+    "text": "c will come over here"
+  },
+  {
+    "start": 1879.919,
+    "duration": 2.661,
+    "text": "T4"
+  },
+  {
+    "start": 1883.34,
+    "duration": 3.3,
+    "text": "T2"
+  },
+  {
+    "start": 1884.84,
+    "duration": 3.839,
+    "text": "T1"
+  },
+  {
+    "start": 1886.64,
+    "duration": 3.72,
+    "text": "T3"
+  },
+  {
+    "start": 1888.679,
+    "duration": 4.5,
+    "text": "now this is"
+  },
+  {
+    "start": 1890.36,
+    "duration": 5.28,
+    "text": "same as Point number three"
+  },
+  {
+    "start": 1893.179,
+    "duration": 5.22,
+    "text": "right same as Point number three"
+  },
+  {
+    "start": 1895.64,
+    "duration": 4.919,
+    "text": "so I will do"
+  },
+  {
+    "start": 1898.399,
+    "duration": 4.26,
+    "text": "left rotate on P"
+  },
+  {
+    "start": 1900.559,
+    "duration": 3.961,
+    "text": "these are the only four cases"
+  },
+  {
+    "start": 1902.659,
+    "duration": 3.721,
+    "text": "why do we have these two extra cases"
+  },
+  {
+    "start": 1904.52,
+    "duration": 4.019,
+    "text": "because sometimes you get right left"
+  },
+  {
+    "start": 1906.38,
+    "duration": 4.14,
+    "text": "sometimes you get left right those are"
+  },
+  {
+    "start": 1908.539,
+    "duration": 3.661,
+    "text": "the only two possible explanations so"
+  },
+  {
+    "start": 1910.52,
+    "duration": 4.22,
+    "text": "you first make in a single line and then"
+  },
+  {
+    "start": 1912.2,
+    "duration": 2.54,
+    "text": "rotate it"
+  },
+  {
+    "start": 1914.96,
+    "duration": 2.76,
+    "text": "and how do you know that individual"
+  },
+  {
+    "start": 1916.58,
+    "duration": 2.699,
+    "text": "trees are balanced because we're"
+  },
+  {
+    "start": 1917.72,
+    "duration": 3.54,
+    "text": "starting from the bottom up"
+  },
+  {
+    "start": 1919.279,
+    "duration": 4.441,
+    "text": "that's the AVL algorithm"
+  },
+  {
+    "start": 1921.26,
+    "duration": 3.84,
+    "text": "insert it normally start from the bottom"
+  },
+  {
+    "start": 1923.72,
+    "duration": 4.62,
+    "text": "node"
+  },
+  {
+    "start": 1925.1,
+    "duration": 5.699,
+    "text": "and find a node that makes it unbalanced"
+  },
+  {
+    "start": 1928.34,
+    "duration": 3.719,
+    "text": "from bottom up then do the one of the"
+  },
+  {
+    "start": 1930.799,
+    "duration": 2.76,
+    "text": "four rotations"
+  },
+  {
+    "start": 1932.059,
+    "duration": 4.1,
+    "text": "that's it"
+  },
+  {
+    "start": 1933.559,
+    "duration": 2.6,
+    "text": "very simple"
+  },
+  {
+    "start": 1936.44,
+    "duration": 5.04,
+    "text": "because that node made it unbalanced"
+  },
+  {
+    "start": 1939.38,
+    "duration": 3.62,
+    "text": "right that is why we're going to figure"
+  },
+  {
+    "start": 1941.48,
+    "duration": 3.84,
+    "text": "out the first three that makes it"
+  },
+  {
+    "start": 1943.0,
+    "duration": 5.62,
+    "text": "unbalanced and we're going to solve that"
+  },
+  {
+    "start": 1945.32,
+    "duration": 5.88,
+    "text": "tree so when the sub tree itself is not"
+  },
+  {
+    "start": 1948.62,
+    "duration": 4.62,
+    "text": "unbalanced the other tree oh yeah that's"
+  },
+  {
+    "start": 1951.2,
+    "duration": 4.02,
+    "text": "one more other point if the sub tree"
+  },
+  {
+    "start": 1953.24,
+    "duration": 4.919,
+    "text": "itself"
+  },
+  {
+    "start": 1955.22,
+    "duration": 5.76,
+    "text": "so we added one node then we made sure"
+  },
+  {
+    "start": 1958.159,
+    "duration": 5.821,
+    "text": "that the first tree"
+  },
+  {
+    "start": 1960.98,
+    "duration": 5.34,
+    "text": "that it unbalances we solve that so this"
+  },
+  {
+    "start": 1963.98,
+    "duration": 4.679,
+    "text": "sub tree we solved so when the sub tree"
+  },
+  {
+    "start": 1966.32,
+    "duration": 4.2,
+    "text": "is balanced the above tree is also going"
+  },
+  {
+    "start": 1968.659,
+    "duration": 3.481,
+    "text": "to be fine balanced if it is already"
+  },
+  {
+    "start": 1970.52,
+    "duration": 4.019,
+    "text": "balanced"
+  },
+  {
+    "start": 1972.14,
+    "duration": 4.139,
+    "text": "try to understand while we are adding"
+  },
+  {
+    "start": 1974.539,
+    "duration": 2.76,
+    "text": "elements we are making sure trees"
+  },
+  {
+    "start": 1976.279,
+    "duration": 3.481,
+    "text": "balanced"
+  },
+  {
+    "start": 1977.299,
+    "duration": 4.62,
+    "text": "so before I add an element let's say 100"
+  },
+  {
+    "start": 1979.76,
+    "duration": 3.6,
+    "text": "elements are in the AVL tree we know"
+  },
+  {
+    "start": 1981.919,
+    "duration": 3.24,
+    "text": "that those hundred Elements by"
+  },
+  {
+    "start": 1983.36,
+    "duration": 2.819,
+    "text": "definition of AVL tree this is a very"
+  },
+  {
+    "start": 1985.159,
+    "duration": 2.88,
+    "text": "important point I forgot about"
+  },
+  {
+    "start": 1986.179,
+    "duration": 3.72,
+    "text": "mentioning this it's the intuition the"
+  },
+  {
+    "start": 1988.039,
+    "duration": 5.281,
+    "text": "thing that will click"
+  },
+  {
+    "start": 1989.899,
+    "duration": 5.64,
+    "text": "uh when you are trying to add let's say"
+  },
+  {
+    "start": 1993.32,
+    "duration": 4.199,
+    "text": "you add 100 elements okay I know that"
+  },
+  {
+    "start": 1995.539,
+    "duration": 4.14,
+    "text": "100 elements are at 100 nodes are added"
+  },
+  {
+    "start": 1997.519,
+    "duration": 4.02,
+    "text": "in the tree I know it's an AVL tree so I"
+  },
+  {
+    "start": 1999.679,
+    "duration": 3.36,
+    "text": "know it is a balanced tree because at"
+  },
+  {
+    "start": 2001.539,
+    "duration": 3.601,
+    "text": "every point of time it will make it"
+  },
+  {
+    "start": 2003.039,
+    "duration": 5.341,
+    "text": "balanced now I add one more node and I'm"
+  },
+  {
+    "start": 2005.14,
+    "duration": 5.1,
+    "text": "like okay this node made a sub tree a"
+  },
+  {
+    "start": 2008.38,
+    "duration": 4.139,
+    "text": "part of this tree for example in this"
+  },
+  {
+    "start": 2010.24,
+    "duration": 4.919,
+    "text": "case this uh this blue one"
+  },
+  {
+    "start": 2012.519,
+    "duration": 6.54,
+    "text": "this blue one"
+  },
+  {
+    "start": 2015.159,
+    "duration": 5.821,
+    "text": "this part it made it unbalanced"
+  },
+  {
+    "start": 2019.059,
+    "duration": 4.201,
+    "text": "so it will like okay I added this one"
+  },
+  {
+    "start": 2020.98,
+    "duration": 4.559,
+    "text": "node it made this tree unbalanced so I"
+  },
+  {
+    "start": 2023.26,
+    "duration": 4.2,
+    "text": "will just solve this sub tree I'll make"
+  },
+  {
+    "start": 2025.539,
+    "duration": 4.14,
+    "text": "this sub tree I will make this subtree"
+  },
+  {
+    "start": 2027.46,
+    "duration": 3.9,
+    "text": "balanced and when this sub tree is"
+  },
+  {
+    "start": 2029.679,
+    "duration": 3.961,
+    "text": "balanced it is going to be fine because"
+  },
+  {
+    "start": 2031.36,
+    "duration": 6.14,
+    "text": "it's not going to affect the entire tree"
+  },
+  {
+    "start": 2033.64,
+    "duration": 3.86,
+    "text": "because the entirety is already balanced"
+  },
+  {
+    "start": 2041.38,
+    "duration": 3.539,
+    "text": "makes sense"
+  },
+  {
+    "start": 2043.539,
+    "duration": 3.48,
+    "text": "sounds good"
+  },
+  {
+    "start": 2044.919,
+    "duration": 4.141,
+    "text": "okay"
+  },
+  {
+    "start": 2047.019,
+    "duration": 4.981,
+    "text": "so entire tree is already balanced that"
+  },
+  {
+    "start": 2049.06,
+    "duration": 5.52,
+    "text": "is established only solve the subtree"
+  },
+  {
+    "start": 2052.0,
+    "duration": 4.2,
+    "text": "that became unbalanced and if using that"
+  },
+  {
+    "start": 2054.58,
+    "duration": 3.839,
+    "text": "subtree other trees were unbalanced"
+  },
+  {
+    "start": 2056.2,
+    "duration": 3.419,
+    "text": "those would also be balanced because the"
+  },
+  {
+    "start": 2058.419,
+    "duration": 2.76,
+    "text": "subtree was unbalanced so it got"
+  },
+  {
+    "start": 2059.619,
+    "duration": 3.901,
+    "text": "balanced hence the all the other"
+  },
+  {
+    "start": 2061.179,
+    "duration": 3.66,
+    "text": "subtrees that were all the trees above"
+  },
+  {
+    "start": 2063.52,
+    "duration": 5.0,
+    "text": "it that were unbalanced because of it"
+  },
+  {
+    "start": 2064.839,
+    "duration": 3.681,
+    "text": "those are now also automatically solved"
+  },
+  {
+    "start": 2069.7,
+    "duration": 3.6,
+    "text": "okay"
+  },
+  {
+    "start": 2071.56,
+    "duration": 3.539,
+    "text": "sounds good"
+  },
+  {
+    "start": 2073.3,
+    "duration": 4.68,
+    "text": "we can take an example"
+  },
+  {
+    "start": 2075.099,
+    "duration": 4.8,
+    "text": "and see into a picture okay so I got"
+  },
+  {
+    "start": 2077.98,
+    "duration": 3.96,
+    "text": "this example online from Geeks for geeks"
+  },
+  {
+    "start": 2079.899,
+    "duration": 3.48,
+    "text": "and uh I didn't want to you know make it"
+  },
+  {
+    "start": 2081.94,
+    "duration": 3.54,
+    "text": "all dirty so this is looking much"
+  },
+  {
+    "start": 2083.379,
+    "duration": 4.561,
+    "text": "prettier so here you can see they have a"
+  },
+  {
+    "start": 2085.48,
+    "duration": 4.439,
+    "text": "tree over here and um"
+  },
+  {
+    "start": 2087.94,
+    "duration": 3.479,
+    "text": "the node values it says minus one plus"
+  },
+  {
+    "start": 2089.919,
+    "duration": 3.601,
+    "text": "one zero zero these are just differences"
+  },
+  {
+    "start": 2091.419,
+    "duration": 4.2,
+    "text": "in height so don't worry about that okay"
+  },
+  {
+    "start": 2093.52,
+    "duration": 3.599,
+    "text": "we will see it in the code when we do"
+  },
+  {
+    "start": 2095.619,
+    "duration": 3.72,
+    "text": "left heavy and right heavy like how to"
+  },
+  {
+    "start": 2097.119,
+    "duration": 4.861,
+    "text": "calculate it using a formula so when you"
+  },
+  {
+    "start": 2099.339,
+    "duration": 4.321,
+    "text": "see okay Kunal in these four cases how"
+  },
+  {
+    "start": 2101.98,
+    "duration": 3.359,
+    "text": "how we're going to write that in code"
+  },
+  {
+    "start": 2103.66,
+    "duration": 2.88,
+    "text": "we'll see that in just a minute don't"
+  },
+  {
+    "start": 2105.339,
+    "duration": 4.5,
+    "text": "worry"
+  },
+  {
+    "start": 2106.54,
+    "duration": 5.16,
+    "text": "so here you can see that this is the"
+  },
+  {
+    "start": 2109.839,
+    "duration": 3.721,
+    "text": "normal tree okay it is balanced it's"
+  },
+  {
+    "start": 2111.7,
+    "duration": 4.26,
+    "text": "saying insert the value 14 okay it"
+  },
+  {
+    "start": 2113.56,
+    "duration": 4.08,
+    "text": "inserted normally 14 in the left one"
+  },
+  {
+    "start": 2115.96,
+    "duration": 4.86,
+    "text": "fifteen as you can see over here it"
+  },
+  {
+    "start": 2117.64,
+    "duration": 6.18,
+    "text": "inserted 14 over here no problem"
+  },
+  {
+    "start": 2120.82,
+    "duration": 4.98,
+    "text": "did this make it unbalanced no it didn't"
+  },
+  {
+    "start": 2123.82,
+    "duration": 5.279,
+    "text": "okay move forward"
+  },
+  {
+    "start": 2125.8,
+    "duration": 6.18,
+    "text": "now here it says insert three so three"
+  },
+  {
+    "start": 2129.099,
+    "duration": 5.52,
+    "text": "is inserted over here no problem"
+  },
+  {
+    "start": 2131.98,
+    "duration": 5.58,
+    "text": "three is inserted over here but this 3"
+  },
+  {
+    "start": 2134.619,
+    "duration": 6.541,
+    "text": "made it unbalanced which subtree did it"
+  },
+  {
+    "start": 2137.56,
+    "duration": 5.58,
+    "text": "make unbalanced uh four four did it make"
+  },
+  {
+    "start": 2141.16,
+    "duration": 4.74,
+    "text": "four unbalanced no did it make five"
+  },
+  {
+    "start": 2143.14,
+    "duration": 5.28,
+    "text": "unbalanced no did it make ten unbalanced"
+  },
+  {
+    "start": 2145.9,
+    "duration": 4.32,
+    "text": "yes this is actually the same case that"
+  },
+  {
+    "start": 2148.42,
+    "duration": 3.78,
+    "text": "we had previously"
+  },
+  {
+    "start": 2150.22,
+    "duration": 5.1,
+    "text": "so it's going to be like okay this is"
+  },
+  {
+    "start": 2152.2,
+    "duration": 6.419,
+    "text": "parent child grandchild parent child"
+  },
+  {
+    "start": 2155.32,
+    "duration": 6.44,
+    "text": "grandchild three one three two t three"
+  },
+  {
+    "start": 2158.619,
+    "duration": 3.141,
+    "text": "what is this case"
+  },
+  {
+    "start": 2163.119,
+    "duration": 5.061,
+    "text": "parent child grandchild even t23 T4"
+  },
+  {
+    "start": 2165.339,
+    "duration": 2.841,
+    "text": "right rotate"
+  },
+  {
+    "start": 2169.0,
+    "duration": 3.18,
+    "text": "write rotate"
+  },
+  {
+    "start": 2170.5,
+    "duration": 4.2,
+    "text": "10."
+  },
+  {
+    "start": 2172.18,
+    "duration": 4.74,
+    "text": "done fixed"
+  },
+  {
+    "start": 2174.7,
+    "duration": 6.0,
+    "text": "I hope now it's clear"
+  },
+  {
+    "start": 2176.92,
+    "duration": 7.02,
+    "text": "now insert 45 in this example it will"
+  },
+  {
+    "start": 2180.7,
+    "duration": 6.96,
+    "text": "insert normally 45 over here over here"
+  },
+  {
+    "start": 2183.94,
+    "duration": 6.74,
+    "text": "no problem now this is making it what"
+  },
+  {
+    "start": 2187.66,
+    "duration": 9.06,
+    "text": "unbalanced is 40 and balanced no is 35"
+  },
+  {
+    "start": 2190.68,
+    "duration": 9.6,
+    "text": "unbalanced uh 1 minus 0 plus 1 no is 30"
+  },
+  {
+    "start": 2196.72,
+    "duration": 7.32,
+    "text": "unbalanced yes 30 is unbalanced so P"
+  },
+  {
+    "start": 2200.28,
+    "duration": 4.6,
+    "text": "child grandchild"
+  },
+  {
+    "start": 2204.04,
+    "duration": 3.66,
+    "text": "um"
+  },
+  {
+    "start": 2204.88,
+    "duration": 6.739,
+    "text": "this is right right case"
+  },
+  {
+    "start": 2207.7,
+    "duration": 3.919,
+    "text": "so right right case means left rotate"
+  },
+  {
+    "start": 2214.18,
+    "duration": 5.34,
+    "text": "right right case left rotate"
+  },
+  {
+    "start": 2217.18,
+    "duration": 4.2,
+    "text": "how simple is that"
+  },
+  {
+    "start": 2219.52,
+    "duration": 3.48,
+    "text": "how simple"
+  },
+  {
+    "start": 2221.38,
+    "duration": 3.42,
+    "text": "cool"
+  },
+  {
+    "start": 2223.0,
+    "duration": 4.56,
+    "text": "now here it's saying insert node seven"
+  },
+  {
+    "start": 2224.8,
+    "duration": 5.16,
+    "text": "seven will go over here no problem"
+  },
+  {
+    "start": 2227.56,
+    "duration": 8.94,
+    "text": "so 7 is making which balance which sub"
+  },
+  {
+    "start": 2229.96,
+    "duration": 9.3,
+    "text": "tree and balance six no five no ah"
+  },
+  {
+    "start": 2236.5,
+    "duration": 4.98,
+    "text": "10 is it making 10 unbalanced"
+  },
+  {
+    "start": 2239.26,
+    "duration": 4.68,
+    "text": "yes it is making 10 unbalanced because"
+  },
+  {
+    "start": 2241.48,
+    "duration": 4.68,
+    "text": "this height is 2"
+  },
+  {
+    "start": 2243.94,
+    "duration": 4.02,
+    "text": "the height is zero"
+  },
+  {
+    "start": 2246.16,
+    "duration": 3.959,
+    "text": "so minus two"
+  },
+  {
+    "start": 2247.96,
+    "duration": 4.02,
+    "text": "so it is making it unbalanced zero minus"
+  },
+  {
+    "start": 2250.119,
+    "duration": 6.841,
+    "text": "two is zero"
+  },
+  {
+    "start": 2251.98,
+    "duration": 7.44,
+    "text": "this is two three one two and zero"
+  },
+  {
+    "start": 2256.96,
+    "duration": 5.04,
+    "text": "hmm"
+  },
+  {
+    "start": 2259.42,
+    "duration": 4.56,
+    "text": "you know how it is 0 right height for"
+  },
+  {
+    "start": 2262.0,
+    "duration": 3.78,
+    "text": "every sub tree so height for this is"
+  },
+  {
+    "start": 2263.98,
+    "duration": 4.44,
+    "text": "because this is only one node zero how"
+  },
+  {
+    "start": 2265.78,
+    "duration": 5.64,
+    "text": "it height for this five is what one two"
+  },
+  {
+    "start": 2268.42,
+    "duration": 5.82,
+    "text": "so 2 minus ah or 0 minus 2 if you are"
+  },
+  {
+    "start": 2271.42,
+    "duration": 4.26,
+    "text": "doing right minus left minus 2."
+  },
+  {
+    "start": 2274.24,
+    "duration": 4.14,
+    "text": "so"
+  },
+  {
+    "start": 2275.68,
+    "duration": 4.74,
+    "text": "10 is unbalanced so if 10 is unbalanced"
+  },
+  {
+    "start": 2278.38,
+    "duration": 5.64,
+    "text": "then this is p"
+  },
+  {
+    "start": 2280.42,
+    "duration": 4.8,
+    "text": "this is child and is this going to be"
+  },
+  {
+    "start": 2284.02,
+    "duration": 3.059,
+    "text": "grandchild or this going to be"
+  },
+  {
+    "start": 2285.22,
+    "duration": 3.48,
+    "text": "grandchild grandchild is in the line of"
+  },
+  {
+    "start": 2287.079,
+    "duration": 6.78,
+    "text": "the number that is already added right"
+  },
+  {
+    "start": 2288.7,
+    "duration": 8.94,
+    "text": "now 7 was added so in the part of 7 to p"
+  },
+  {
+    "start": 2293.859,
+    "duration": 6.181,
+    "text": "in the path of 7 to p"
+  },
+  {
+    "start": 2297.64,
+    "duration": 5.3,
+    "text": "the one below child will be grandchild"
+  },
+  {
+    "start": 2300.04,
+    "duration": 2.9,
+    "text": "this will be grandchild"
+  },
+  {
+    "start": 2303.28,
+    "duration": 3.72,
+    "text": "so this is"
+  },
+  {
+    "start": 2305.2,
+    "duration": 4.68,
+    "text": "left right case"
+  },
+  {
+    "start": 2307.0,
+    "duration": 5.9,
+    "text": "left right case"
+  },
+  {
+    "start": 2309.88,
+    "duration": 3.02,
+    "text": "left right case"
+  },
+  {
+    "start": 2314.44,
+    "duration": 6.06,
+    "text": "left right case first left rotate child"
+  },
+  {
+    "start": 2318.22,
+    "duration": 6.32,
+    "text": "then right rotate p"
+  },
+  {
+    "start": 2320.5,
+    "duration": 4.04,
+    "text": "left rotate child right rotate p"
+  },
+  {
+    "start": 2327.52,
+    "duration": 4.8,
+    "text": "so left rotate on five"
+  },
+  {
+    "start": 2330.099,
+    "duration": 5.821,
+    "text": "left rotate on five"
+  },
+  {
+    "start": 2332.32,
+    "duration": 5.34,
+    "text": "then right rotate on 10 right routine"
+  },
+  {
+    "start": 2335.92,
+    "duration": 4.199,
+    "text": "not a problem at all"
+  },
+  {
+    "start": 2337.66,
+    "duration": 5.459,
+    "text": "very simple"
+  },
+  {
+    "start": 2340.119,
+    "duration": 6.74,
+    "text": "okay similarly now this case insert 15"
+  },
+  {
+    "start": 2343.119,
+    "duration": 3.74,
+    "text": "15 is added over here"
+  },
+  {
+    "start": 2347.38,
+    "duration": 4.92,
+    "text": "okay is it making 16 unbalanced No 9"
+  },
+  {
+    "start": 2350.56,
+    "duration": 4.4,
+    "text": "unbalanced"
+  },
+  {
+    "start": 2352.3,
+    "duration": 2.66,
+    "text": "no"
+  },
+  {
+    "start": 2355.9,
+    "duration": 3.54,
+    "text": "no actually wait is it making nine"
+  },
+  {
+    "start": 2357.88,
+    "duration": 4.92,
+    "text": "unbalanced yes it is making nine"
+  },
+  {
+    "start": 2359.44,
+    "duration": 7.82,
+    "text": "unbalanced because"
+  },
+  {
+    "start": 2362.8,
+    "duration": 4.46,
+    "text": "left height is 0 right height is"
+  },
+  {
+    "start": 2367.599,
+    "duration": 4.74,
+    "text": "no left height is no nothing and then"
+  },
+  {
+    "start": 2370.0,
+    "duration": 5.16,
+    "text": "the right height is here one so it is"
+  },
+  {
+    "start": 2372.339,
+    "duration": 4.921,
+    "text": "actually two yeah nine is unbalanced"
+  },
+  {
+    "start": 2375.16,
+    "duration": 3.72,
+    "text": "so"
+  },
+  {
+    "start": 2377.26,
+    "duration": 5.28,
+    "text": "p"
+  },
+  {
+    "start": 2378.88,
+    "duration": 3.66,
+    "text": "child grandchild"
+  },
+  {
+    "start": 2382.96,
+    "duration": 5.94,
+    "text": "so this is right left case so in right"
+  },
+  {
+    "start": 2386.8,
+    "duration": 5.779,
+    "text": "left case"
+  },
+  {
+    "start": 2388.9,
+    "duration": 3.679,
+    "text": "right rotate C left rotate p"
+  },
+  {
+    "start": 2393.94,
+    "duration": 4.98,
+    "text": "right rotate on six"
+  },
+  {
+    "start": 2395.68,
+    "duration": 6.659,
+    "text": "sixteen yup then left rotate on nine"
+  },
+  {
+    "start": 2398.92,
+    "duration": 4.74,
+    "text": "yeah three is balanced"
+  },
+  {
+    "start": 2402.339,
+    "duration": 2.881,
+    "text": "cool"
+  },
+  {
+    "start": 2403.66,
+    "duration": 3.36,
+    "text": "using these examples I hope you"
+  },
+  {
+    "start": 2405.22,
+    "duration": 6.98,
+    "text": "understand that when you find a tree"
+  },
+  {
+    "start": 2407.02,
+    "duration": 5.18,
+    "text": "that is unbalanced which is like this"
+  },
+  {
+    "start": 2416.14,
+    "duration": 4.64,
+    "text": "you know if you automatically solve this"
+  },
+  {
+    "start": 2421.66,
+    "duration": 5.16,
+    "text": "then whole tree is solved"
+  },
+  {
+    "start": 2425.14,
+    "duration": 3.66,
+    "text": "because originally whole tree was"
+  },
+  {
+    "start": 2426.82,
+    "duration": 4.799,
+    "text": "balanced"
+  },
+  {
+    "start": 2428.8,
+    "duration": 4.86,
+    "text": "as original"
+  },
+  {
+    "start": 2431.619,
+    "duration": 4.98,
+    "text": "whole tree"
+  },
+  {
+    "start": 2433.66,
+    "duration": 4.439,
+    "text": "is balanced this is the intuition behind"
+  },
+  {
+    "start": 2436.599,
+    "duration": 4.461,
+    "text": "it this is where people get doubt so I"
+  },
+  {
+    "start": 2438.099,
+    "duration": 2.961,
+    "text": "believe I cleared that out"
+  },
+  {
+    "start": 2441.339,
+    "duration": 3.981,
+    "text": "okay sounds good"
+  },
+  {
+    "start": 2453.88,
+    "duration": 4.199,
+    "text": "all right"
+  },
+  {
+    "start": 2455.44,
+    "duration": 4.98,
+    "text": "now let's code this it's very simple"
+  },
+  {
+    "start": 2458.079,
+    "duration": 4.201,
+    "text": "okay so before we move on to the code"
+  },
+  {
+    "start": 2460.42,
+    "duration": 4.76,
+    "text": "let me talk about the important part"
+  },
+  {
+    "start": 2462.28,
+    "duration": 4.799,
+    "text": "time complexity"
+  },
+  {
+    "start": 2465.18,
+    "duration": 3.939,
+    "text": "time"
+  },
+  {
+    "start": 2467.079,
+    "duration": 4.461,
+    "text": "complexity let's say we talk about for"
+  },
+  {
+    "start": 2469.119,
+    "duration": 2.421,
+    "text": "adding"
+  },
+  {
+    "start": 2472.359,
+    "duration": 3.48,
+    "text": "because that's a performance function we"
+  },
+  {
+    "start": 2474.64,
+    "duration": 3.719,
+    "text": "are performing"
+  },
+  {
+    "start": 2475.839,
+    "duration": 4.561,
+    "text": "so time complexity"
+  },
+  {
+    "start": 2478.359,
+    "duration": 6.921,
+    "text": "because at all the times 3 will be"
+  },
+  {
+    "start": 2480.4,
+    "duration": 4.88,
+    "text": "balanced so it will be log of n"
+  },
+  {
+    "start": 2486.099,
+    "duration": 2.881,
+    "text": "okay"
+  },
+  {
+    "start": 2487.42,
+    "duration": 4.14,
+    "text": "log of n"
+  },
+  {
+    "start": 2488.98,
+    "duration": 5.16,
+    "text": "can you tell me the amount of time the"
+  },
+  {
+    "start": 2491.56,
+    "duration": 3.96,
+    "text": "time complexity that the rotation is"
+  },
+  {
+    "start": 2494.14,
+    "duration": 4.26,
+    "text": "taking"
+  },
+  {
+    "start": 2495.52,
+    "duration": 4.38,
+    "text": "rotation is only at Max Two Steps either"
+  },
+  {
+    "start": 2498.4,
+    "duration": 2.459,
+    "text": "left rotate light rotate or something"
+  },
+  {
+    "start": 2499.9,
+    "duration": 4.939,
+    "text": "like that"
+  },
+  {
+    "start": 2500.859,
+    "duration": 3.98,
+    "text": "so rotation is taking constant time"
+  },
+  {
+    "start": 2507.22,
+    "duration": 3.3,
+    "text": "because I'm only rotating the subtree"
+  },
+  {
+    "start": 2508.78,
+    "duration": 3.18,
+    "text": "that was affected and since that"
+  },
+  {
+    "start": 2510.52,
+    "duration": 2.88,
+    "text": "affected will be fixed then all the"
+  },
+  {
+    "start": 2511.96,
+    "duration": 3.119,
+    "text": "trees will be fixed automatically as I"
+  },
+  {
+    "start": 2513.4,
+    "duration": 3.3,
+    "text": "already told you because the original"
+  },
+  {
+    "start": 2515.079,
+    "duration": 3.361,
+    "text": "tree was balanced"
+  },
+  {
+    "start": 2516.7,
+    "duration": 4.08,
+    "text": "and the rotation at Max we're just doing"
+  },
+  {
+    "start": 2518.44,
+    "duration": 3.78,
+    "text": "two rotations at Max"
+  },
+  {
+    "start": 2520.78,
+    "duration": 2.88,
+    "text": "that's what we're doing right in left"
+  },
+  {
+    "start": 2522.22,
+    "duration": 3.54,
+    "text": "right case or right left case we are"
+  },
+  {
+    "start": 2523.66,
+    "duration": 3.78,
+    "text": "doing two rotations in left left right"
+  },
+  {
+    "start": 2525.76,
+    "duration": 3.48,
+    "text": "right we are doing only one rotation to"
+  },
+  {
+    "start": 2527.44,
+    "duration": 2.76,
+    "text": "X maximum two rotations which is"
+  },
+  {
+    "start": 2529.24,
+    "duration": 4.14,
+    "text": "constant"
+  },
+  {
+    "start": 2530.2,
+    "duration": 6.2,
+    "text": "so total complexity comes out to be"
+  },
+  {
+    "start": 2533.38,
+    "duration": 3.02,
+    "text": "o of log n"
+  },
+  {
+    "start": 2540.82,
+    "duration": 3.779,
+    "text": "okay now we can code all right let's"
+  },
+  {
+    "start": 2542.68,
+    "duration": 5.159,
+    "text": "start with the coding part uh you can"
+  },
+  {
+    "start": 2544.599,
+    "duration": 5.461,
+    "text": "check out the link to my code sample in"
+  },
+  {
+    "start": 2547.839,
+    "duration": 3.721,
+    "text": "the description below that is going to"
+  },
+  {
+    "start": 2550.06,
+    "duration": 4.86,
+    "text": "be nice because then you can directly"
+  },
+  {
+    "start": 2551.56,
+    "duration": 5.96,
+    "text": "run the pile on your browser so I'm"
+  },
+  {
+    "start": 2554.92,
+    "duration": 4.38,
+    "text": "gonna write three two"
+  },
+  {
+    "start": 2557.52,
+    "duration": 4.92,
+    "text": "AVL"
+  },
+  {
+    "start": 2559.3,
+    "duration": 3.14,
+    "text": "create Rebel"
+  },
+  {
+    "start": 2566.619,
+    "duration": 6.081,
+    "text": "and what I'm going to do is I'm actually"
+  },
+  {
+    "start": 2569.26,
+    "duration": 3.44,
+    "text": "going to copy paste"
+  },
+  {
+    "start": 2576.579,
+    "duration": 4.52,
+    "text": "in my data history algorithms in the"
+  },
+  {
+    "start": 2578.26,
+    "duration": 2.839,
+    "text": "last one we did"
+  },
+  {
+    "start": 2582.94,
+    "duration": 2.659,
+    "text": "trees"
+  },
+  {
+    "start": 2587.98,
+    "duration": 4.26,
+    "text": "so I'm just going to copy paste the bind"
+  },
+  {
+    "start": 2590.14,
+    "duration": 4.82,
+    "text": "research tree because we can use some of"
+  },
+  {
+    "start": 2592.24,
+    "duration": 2.72,
+    "text": "the functions you know"
+  },
+  {
+    "start": 2596.8,
+    "duration": 3.019,
+    "text": "binary search tree"
+  },
+  {
+    "start": 2600.04,
+    "duration": 5.279,
+    "text": "create"
+  },
+  {
+    "start": 2602.56,
+    "duration": 5.64,
+    "text": "avl.java"
+  },
+  {
+    "start": 2605.319,
+    "duration": 5.721,
+    "text": "copy paste it"
+  },
+  {
+    "start": 2608.2,
+    "duration": 2.84,
+    "text": "AVL"
+  },
+  {
+    "start": 2611.44,
+    "duration": 3.0,
+    "text": "AVL"
+  },
+  {
+    "start": 2617.319,
+    "duration": 4.26,
+    "text": "hide it for now"
+  },
+  {
+    "start": 2619.26,
+    "duration": 4.0,
+    "text": "and let me just double check because"
+  },
+  {
+    "start": 2621.579,
+    "duration": 4.441,
+    "text": "whenever you copy paste things can go a"
+  },
+  {
+    "start": 2623.26,
+    "duration": 5.04,
+    "text": "little wrong so public class node"
+  },
+  {
+    "start": 2626.02,
+    "duration": 4.079,
+    "text": "everything looks fine no root root fine"
+  },
+  {
+    "start": 2628.3,
+    "duration": 4.98,
+    "text": "insert"
+  },
+  {
+    "start": 2630.099,
+    "duration": 5.341,
+    "text": "we will have to change a little bit"
+  },
+  {
+    "start": 2633.28,
+    "duration": 3.96,
+    "text": "so don't worry about that populate"
+  },
+  {
+    "start": 2635.44,
+    "duration": 4.74,
+    "text": "populate with sorties sort it is fine"
+  },
+  {
+    "start": 2637.24,
+    "duration": 6.42,
+    "text": "populate with sorted is okay display is"
+  },
+  {
+    "start": 2640.18,
+    "duration": 5.159,
+    "text": "okay is empty okay height okay"
+  },
+  {
+    "start": 2643.66,
+    "duration": 5.28,
+    "text": "balanced"
+  },
+  {
+    "start": 2645.339,
+    "duration": 5.161,
+    "text": "is also okay good so if you don't know"
+  },
+  {
+    "start": 2648.94,
+    "duration": 4.2,
+    "text": "what these functions are I mean you"
+  },
+  {
+    "start": 2650.5,
+    "duration": 6.54,
+    "text": "obviously will because we just did uh"
+  },
+  {
+    "start": 2653.14,
+    "duration": 5.64,
+    "text": "you know the tutorial but this entire"
+  },
+  {
+    "start": 2657.04,
+    "duration": 3.66,
+    "text": "code I have not just copy pasted we did"
+  },
+  {
+    "start": 2658.78,
+    "duration": 4.2,
+    "text": "every we wrote every single line of this"
+  },
+  {
+    "start": 2660.7,
+    "duration": 3.48,
+    "text": "code in the previous lecture so please"
+  },
+  {
+    "start": 2662.98,
+    "duration": 2.52,
+    "text": "watch the preview lecture you know it"
+  },
+  {
+    "start": 2664.18,
+    "duration": 2.399,
+    "text": "doesn't make sense I write the same"
+  },
+  {
+    "start": 2665.5,
+    "duration": 3.0,
+    "text": "thing in again and again in every"
+  },
+  {
+    "start": 2666.579,
+    "duration": 3.721,
+    "text": "lecture so every single line I have"
+  },
+  {
+    "start": 2668.5,
+    "duration": 3.06,
+    "text": "explained in the previous lecture"
+  },
+  {
+    "start": 2670.3,
+    "duration": 5.34,
+    "text": "okay"
+  },
+  {
+    "start": 2671.56,
+    "duration": 7.259,
+    "text": "now what do we need to do so we are"
+  },
+  {
+    "start": 2675.64,
+    "duration": 6.06,
+    "text": "inserting normally that is fine but one"
+  },
+  {
+    "start": 2678.819,
+    "duration": 5.161,
+    "text": "thing we are changing is that"
+  },
+  {
+    "start": 2681.7,
+    "duration": 4.44,
+    "text": "we have to"
+  },
+  {
+    "start": 2683.98,
+    "duration": 4.74,
+    "text": "rotate"
+  },
+  {
+    "start": 2686.14,
+    "duration": 4.8,
+    "text": "for this node that we have just entered"
+  },
+  {
+    "start": 2688.72,
+    "duration": 5.34,
+    "text": "so this node we have just entered let's"
+  },
+  {
+    "start": 2690.94,
+    "duration": 4.86,
+    "text": "say for root and in it it's going to in"
+  },
+  {
+    "start": 2694.06,
+    "duration": 4.5,
+    "text": "the end when it goes down down you know"
+  },
+  {
+    "start": 2695.8,
+    "duration": 6.059,
+    "text": "how the insertion works right so"
+  },
+  {
+    "start": 2698.56,
+    "duration": 5.039,
+    "text": "it's going down down down and in the"
+  },
+  {
+    "start": 2701.859,
+    "duration": 3.181,
+    "text": "previous example like it'll go down"
+  },
+  {
+    "start": 2703.599,
+    "duration": 3.661,
+    "text": "it'll go down it'll go down then it will"
+  },
+  {
+    "start": 2705.04,
+    "duration": 5.88,
+    "text": "update it over here so when it updates"
+  },
+  {
+    "start": 2707.26,
+    "duration": 6.599,
+    "text": "it over here I have to call this"
+  },
+  {
+    "start": 2710.92,
+    "duration": 4.199,
+    "text": "node in let's say I have to do what I"
+  },
+  {
+    "start": 2713.859,
+    "duration": 3.421,
+    "text": "have to do rotate"
+  },
+  {
+    "start": 2715.119,
+    "duration": 4.261,
+    "text": "so whatever you have just added I will"
+  },
+  {
+    "start": 2717.28,
+    "duration": 5.46,
+    "text": "call a"
+  },
+  {
+    "start": 2719.38,
+    "duration": 4.8,
+    "text": "rotate on this node and this rotate is"
+  },
+  {
+    "start": 2722.74,
+    "duration": 3.3,
+    "text": "actually going to return the node itself"
+  },
+  {
+    "start": 2724.18,
+    "duration": 4.38,
+    "text": "which is the root so we'll go up and up"
+  },
+  {
+    "start": 2726.04,
+    "duration": 4.02,
+    "text": "and up and up so after rotating so after"
+  },
+  {
+    "start": 2728.56,
+    "duration": 3.66,
+    "text": "it is done rotating it will open up and"
+  },
+  {
+    "start": 2730.06,
+    "duration": 4.74,
+    "text": "up and it will rotate the root sorry uh"
+  },
+  {
+    "start": 2732.22,
+    "duration": 4.8,
+    "text": "return the root okay"
+  },
+  {
+    "start": 2734.8,
+    "duration": 4.559,
+    "text": "so that's the one thing we have to"
+  },
+  {
+    "start": 2737.02,
+    "duration": 4.319,
+    "text": "change over here"
+  },
+  {
+    "start": 2739.359,
+    "duration": 3.48,
+    "text": "and uh"
+  },
+  {
+    "start": 2741.339,
+    "duration": 4.52,
+    "text": "now what I have to do is I have to"
+  },
+  {
+    "start": 2742.839,
+    "duration": 3.02,
+    "text": "create a rotate function"
+  },
+  {
+    "start": 2746.92,
+    "duration": 5.54,
+    "text": "okay"
+  },
+  {
+    "start": 2748.78,
+    "duration": 3.68,
+    "text": "so let's see how we can do that"
+  },
+  {
+    "start": 2754.119,
+    "duration": 4.381,
+    "text": "I'm going to turn off the AI feature"
+  },
+  {
+    "start": 2756.64,
+    "duration": 2.82,
+    "text": "okay I hope the screen is visible the"
+  },
+  {
+    "start": 2758.5,
+    "duration": 3.24,
+    "text": "code can be found in the description"
+  },
+  {
+    "start": 2759.46,
+    "duration": 3.96,
+    "text": "below you can directly click on run and"
+  },
+  {
+    "start": 2761.74,
+    "duration": 2.94,
+    "text": "you can run the code that I'm writing so"
+  },
+  {
+    "start": 2763.42,
+    "duration": 3.24,
+    "text": "that's pretty cool"
+  },
+  {
+    "start": 2764.68,
+    "duration": 3.419,
+    "text": "um the link for this can be found in the"
+  },
+  {
+    "start": 2766.66,
+    "duration": 5.22,
+    "text": "description just like every other link"
+  },
+  {
+    "start": 2768.099,
+    "duration": 5.461,
+    "text": "so private node"
+  },
+  {
+    "start": 2771.88,
+    "duration": 4.459,
+    "text": "rotate"
+  },
+  {
+    "start": 2773.56,
+    "duration": 2.779,
+    "text": "node node"
+  },
+  {
+    "start": 2776.44,
+    "duration": 6.2,
+    "text": "okay"
+  },
+  {
+    "start": 2778.3,
+    "duration": 4.34,
+    "text": "we have to rotate so"
+  },
+  {
+    "start": 2784.42,
+    "duration": 3.899,
+    "text": "no problem"
+  },
+  {
+    "start": 2786.16,
+    "duration": 4.98,
+    "text": "here think about what is happening Kunal"
+  },
+  {
+    "start": 2788.319,
+    "duration": 6.0,
+    "text": "why did you call rotate over here so"
+  },
+  {
+    "start": 2791.14,
+    "duration": 4.56,
+    "text": "when you're adding your node in the end"
+  },
+  {
+    "start": 2794.319,
+    "duration": 4.081,
+    "text": "it's going to be like okay node is equal"
+  },
+  {
+    "start": 2795.7,
+    "duration": 5.04,
+    "text": "to the new node added then return so"
+  },
+  {
+    "start": 2798.4,
+    "duration": 5.04,
+    "text": "it's going to rotate that node it's"
+  },
+  {
+    "start": 2800.74,
+    "duration": 4.44,
+    "text": "going to rotate this node and whenever"
+  },
+  {
+    "start": 2803.44,
+    "duration": 2.879,
+    "text": "you're trying to rotate and then it's"
+  },
+  {
+    "start": 2805.18,
+    "duration": 3.48,
+    "text": "going to"
+  },
+  {
+    "start": 2806.319,
+    "duration": 5.28,
+    "text": "it keeps on returning"
+  },
+  {
+    "start": 2808.66,
+    "duration": 6.179,
+    "text": "it like rotate on the nodes that I have"
+  },
+  {
+    "start": 2811.599,
+    "duration": 4.321,
+    "text": "called here in the previous part"
+  },
+  {
+    "start": 2814.839,
+    "duration": 3.301,
+    "text": "okay"
+  },
+  {
+    "start": 2815.92,
+    "duration": 5.34,
+    "text": "so even though it keeps on calling it it"
+  },
+  {
+    "start": 2818.14,
+    "duration": 4.979,
+    "text": "will not execute because these will all"
+  },
+  {
+    "start": 2821.26,
+    "duration": 3.66,
+    "text": "be balanced"
+  },
+  {
+    "start": 2823.119,
+    "duration": 3.781,
+    "text": "there only be will be one node that is"
+  },
+  {
+    "start": 2824.92,
+    "duration": 5.22,
+    "text": "unbalanced"
+  },
+  {
+    "start": 2826.9,
+    "duration": 4.86,
+    "text": "so how do we make that check"
+  },
+  {
+    "start": 2830.14,
+    "duration": 2.939,
+    "text": "I hope that is this is clear you can run"
+  },
+  {
+    "start": 2831.76,
+    "duration": 3.42,
+    "text": "it on pen and paper you know recursion"
+  },
+  {
+    "start": 2833.079,
+    "duration": 4.201,
+    "text": "very good now so I hope this is clear"
+  },
+  {
+    "start": 2835.18,
+    "duration": 4.32,
+    "text": "please don't be confused on Kunal why"
+  },
+  {
+    "start": 2837.28,
+    "duration": 4.02,
+    "text": "are you returning this node I am in the"
+  },
+  {
+    "start": 2839.5,
+    "duration": 3.96,
+    "text": "end returning the in the end it will"
+  },
+  {
+    "start": 2841.3,
+    "duration": 4.26,
+    "text": "return the root node only"
+  },
+  {
+    "start": 2843.46,
+    "duration": 4.32,
+    "text": "okay for every function call First"
+  },
+  {
+    "start": 2845.56,
+    "duration": 4.38,
+    "text": "function call it is going to return"
+  },
+  {
+    "start": 2847.78,
+    "duration": 4.38,
+    "text": "the node and it will particle to rotate"
+  },
+  {
+    "start": 2849.94,
+    "duration": 4.98,
+    "text": "rotate itself is returning the node only"
+  },
+  {
+    "start": 2852.16,
+    "duration": 3.78,
+    "text": "so in reality it is just fixing the"
+  },
+  {
+    "start": 2854.92,
+    "duration": 3.12,
+    "text": "structure of the tree and then"
+  },
+  {
+    "start": 2855.94,
+    "duration": 4.26,
+    "text": "reiterating the node itself"
+  },
+  {
+    "start": 2858.04,
+    "duration": 3.84,
+    "text": "that is it"
+  },
+  {
+    "start": 2860.2,
+    "duration": 3.96,
+    "text": "s private node rotate"
+  },
+  {
+    "start": 2861.88,
+    "duration": 4.32,
+    "text": "so four cases"
+  },
+  {
+    "start": 2864.16,
+    "duration": 3.959,
+    "text": "so one thing I have to I want you to"
+  },
+  {
+    "start": 2866.2,
+    "duration": 5.399,
+    "text": "know is that"
+  },
+  {
+    "start": 2868.119,
+    "duration": 4.921,
+    "text": "in this case when the"
+  },
+  {
+    "start": 2871.599,
+    "duration": 3.72,
+    "text": "height"
+  },
+  {
+    "start": 2873.04,
+    "duration": 4.14,
+    "text": "of"
+  },
+  {
+    "start": 2875.319,
+    "duration": 3.421,
+    "text": "if you are on parent of if you're on"
+  },
+  {
+    "start": 2877.18,
+    "duration": 3.96,
+    "text": "this node"
+  },
+  {
+    "start": 2878.74,
+    "duration": 3.78,
+    "text": "if the height of left minus the height"
+  },
+  {
+    "start": 2881.14,
+    "duration": 3.84,
+    "text": "of right"
+  },
+  {
+    "start": 2882.52,
+    "duration": 4.92,
+    "text": "is greater than one"
+  },
+  {
+    "start": 2884.98,
+    "duration": 4.68,
+    "text": "it basically means that it is left heavy"
+  },
+  {
+    "start": 2887.44,
+    "duration": 4.44,
+    "text": "because left has more height very simple"
+  },
+  {
+    "start": 2889.66,
+    "duration": 5.159,
+    "text": "so you will just do right rotate"
+  },
+  {
+    "start": 2891.88,
+    "duration": 6.18,
+    "text": "so left heavy is two cases which is left"
+  },
+  {
+    "start": 2894.819,
+    "duration": 7.461,
+    "text": "left and left right case"
+  },
+  {
+    "start": 2898.06,
+    "duration": 4.22,
+    "text": "so in left right case you can see"
+  },
+  {
+    "start": 2902.74,
+    "duration": 5.04,
+    "text": "let me just write it down first so if"
+  },
+  {
+    "start": 2906.46,
+    "duration": 3.18,
+    "text": "height of"
+  },
+  {
+    "start": 2907.78,
+    "duration": 4.52,
+    "text": "node dot left"
+  },
+  {
+    "start": 2909.64,
+    "duration": 6.66,
+    "text": "minus height of"
+  },
+  {
+    "start": 2912.3,
+    "duration": 7.559,
+    "text": "node.write is greater than one"
+  },
+  {
+    "start": 2916.3,
+    "duration": 3.559,
+    "text": "then I know that it is"
+  },
+  {
+    "start": 2920.319,
+    "duration": 5.221,
+    "text": "left heavy and now left heavy has two"
+  },
+  {
+    "start": 2922.9,
+    "duration": 5.28,
+    "text": "cases so if"
+  },
+  {
+    "start": 2925.54,
+    "duration": 4.68,
+    "text": "if I take this child over here if the"
+  },
+  {
+    "start": 2928.18,
+    "duration": 5.52,
+    "text": "height of node"
+  },
+  {
+    "start": 2930.22,
+    "duration": 6.84,
+    "text": "dot left P dot left dot left if the"
+  },
+  {
+    "start": 2933.7,
+    "duration": 6.96,
+    "text": "height of this tree and this tree"
+  },
+  {
+    "start": 2937.06,
+    "duration": 6.059,
+    "text": "is positive it means that it is"
+  },
+  {
+    "start": 2940.66,
+    "duration": 4.38,
+    "text": "left left case"
+  },
+  {
+    "start": 2943.119,
+    "duration": 4.681,
+    "text": "because this is greater so left left"
+  },
+  {
+    "start": 2945.04,
+    "duration": 4.38,
+    "text": "case so left left case is this height"
+  },
+  {
+    "start": 2947.8,
+    "duration": 3.84,
+    "text": "will be more this height will be less"
+  },
+  {
+    "start": 2949.42,
+    "duration": 3.24,
+    "text": "that is left left case as you can see on"
+  },
+  {
+    "start": 2951.64,
+    "duration": 4.679,
+    "text": "the screen"
+  },
+  {
+    "start": 2952.66,
+    "duration": 8.54,
+    "text": "so if height of node dot left dot left"
+  },
+  {
+    "start": 2956.319,
+    "duration": 4.881,
+    "text": "and node dot left Dot right"
+  },
+  {
+    "start": 2962.68,
+    "duration": 4.8,
+    "text": "see the thing is don't try to think how"
+  },
+  {
+    "start": 2966.099,
+    "duration": 3.48,
+    "text": "these things are happening when it is"
+  },
+  {
+    "start": 2967.48,
+    "duration": 3.72,
+    "text": "right in front of your eyes this is why"
+  },
+  {
+    "start": 2969.579,
+    "duration": 3.121,
+    "text": "in linked list many people get confused"
+  },
+  {
+    "start": 2971.2,
+    "duration": 4.44,
+    "text": "in linked list you get questions like"
+  },
+  {
+    "start": 2972.7,
+    "duration": 4.8,
+    "text": "okay every three items uh you have to"
+  },
+  {
+    "start": 2975.64,
+    "duration": 3.66,
+    "text": "reverse or whatever so when you are"
+  },
+  {
+    "start": 2977.5,
+    "duration": 4.319,
+    "text": "debugging it and writing it down and it"
+  },
+  {
+    "start": 2979.3,
+    "duration": 4.74,
+    "text": "is the diagram is telling you where all"
+  },
+  {
+    "start": 2981.819,
+    "duration": 3.061,
+    "text": "the arrows will go then why do you need"
+  },
+  {
+    "start": 2984.04,
+    "duration": 2.52,
+    "text": "to think"
+  },
+  {
+    "start": 2984.88,
+    "duration": 3.06,
+    "text": "there are two types of problem one type"
+  },
+  {
+    "start": 2986.56,
+    "duration": 3.72,
+    "text": "of problem is in which you have to think"
+  },
+  {
+    "start": 2987.94,
+    "duration": 4.8,
+    "text": "other type of problems like this are the"
+  },
+  {
+    "start": 2990.28,
+    "duration": 4.559,
+    "text": "visual problems the diagram is telling"
+  },
+  {
+    "start": 2992.74,
+    "duration": 3.48,
+    "text": "me what to do there is no intuition"
+  },
+  {
+    "start": 2994.839,
+    "duration": 3.841,
+    "text": "behind it"
+  },
+  {
+    "start": 2996.22,
+    "duration": 3.119,
+    "text": "OK whatever the diagram is saying I am"
+  },
+  {
+    "start": 2998.68,
+    "duration": 6.02,
+    "text": "doing"
+  },
+  {
+    "start": 2999.339,
+    "duration": 5.361,
+    "text": "so if height of node dot left dot left"
+  },
+  {
+    "start": 3005.28,
+    "duration": 5.16,
+    "text": "is"
+  },
+  {
+    "start": 3006.72,
+    "duration": 6.359,
+    "text": "minus height of node dot left dot right"
+  },
+  {
+    "start": 3010.44,
+    "duration": 4.74,
+    "text": "is actually positive"
+  },
+  {
+    "start": 3013.079,
+    "duration": 5.181,
+    "text": "in that case I know it is"
+  },
+  {
+    "start": 3015.18,
+    "duration": 3.08,
+    "text": "left left case"
+  },
+  {
+    "start": 3019.14,
+    "duration": 5.64,
+    "text": "what is the answer in left left case"
+  },
+  {
+    "start": 3021.24,
+    "duration": 6.079,
+    "text": "right rotate on p p is node so right"
+  },
+  {
+    "start": 3024.78,
+    "duration": 2.539,
+    "text": "rotate"
+  },
+  {
+    "start": 3028.02,
+    "duration": 6.42,
+    "text": "right rotate I'll create later on node"
+  },
+  {
+    "start": 3032.339,
+    "duration": 5.181,
+    "text": "similarly"
+  },
+  {
+    "start": 3034.44,
+    "duration": 3.08,
+    "text": "if this is"
+  },
+  {
+    "start": 3038.579,
+    "duration": 2.721,
+    "text": "negative"
+  },
+  {
+    "start": 3043.74,
+    "duration": 5.099,
+    "text": "meaning"
+  },
+  {
+    "start": 3046.14,
+    "duration": 6.74,
+    "text": "this height is greater this height is"
+  },
+  {
+    "start": 3048.839,
+    "duration": 4.041,
+    "text": "smaller means it is Left Right case"
+  },
+  {
+    "start": 3053.46,
+    "duration": 6.06,
+    "text": "and left right case we do what left"
+  },
+  {
+    "start": 3055.8,
+    "duration": 6.24,
+    "text": "rotate on child means node dot left so"
+  },
+  {
+    "start": 3059.52,
+    "duration": 5.94,
+    "text": "we do left rotate on node dot left node"
+  },
+  {
+    "start": 3062.04,
+    "duration": 6.42,
+    "text": "dot left is going to be equal to left"
+  },
+  {
+    "start": 3065.46,
+    "duration": 6.899,
+    "text": "rotate node dot left"
+  },
+  {
+    "start": 3068.46,
+    "duration": 6.659,
+    "text": "and then return"
+  },
+  {
+    "start": 3072.359,
+    "duration": 5.22,
+    "text": "right rotate on the original node right"
+  },
+  {
+    "start": 3075.119,
+    "duration": 5.521,
+    "text": "rotate on the original node no problem"
+  },
+  {
+    "start": 3077.579,
+    "duration": 4.861,
+    "text": "no problem at all"
+  },
+  {
+    "start": 3080.64,
+    "duration": 4.699,
+    "text": "it will actually be equal to if this is"
+  },
+  {
+    "start": 3082.44,
+    "duration": 2.899,
+    "text": "negative"
+  },
+  {
+    "start": 3086.819,
+    "duration": 4.26,
+    "text": "make sense"
+  },
+  {
+    "start": 3089.04,
+    "duration": 3.84,
+    "text": "very simple"
+  },
+  {
+    "start": 3091.079,
+    "duration": 3.721,
+    "text": "in recursion you will understand in"
+  },
+  {
+    "start": 3092.88,
+    "duration": 3.42,
+    "text": "recursion I told you if the no if the"
+  },
+  {
+    "start": 3094.8,
+    "duration": 3.36,
+    "text": "return type is node then you're going to"
+  },
+  {
+    "start": 3096.3,
+    "duration": 3.779,
+    "text": "be returning node so if you are trying"
+  },
+  {
+    "start": 3098.16,
+    "duration": 4.679,
+    "text": "to fix it"
+  },
+  {
+    "start": 3100.079,
+    "duration": 5.101,
+    "text": "for this node if you're trying to fix it"
+  },
+  {
+    "start": 3102.839,
+    "duration": 3.901,
+    "text": "then this function is actually you"
+  },
+  {
+    "start": 3105.18,
+    "duration": 4.139,
+    "text": "should also return the type node because"
+  },
+  {
+    "start": 3106.74,
+    "duration": 4.02,
+    "text": "this function is accepting node that is"
+  },
+  {
+    "start": 3109.319,
+    "duration": 2.821,
+    "text": "why its returning node otherwise it will"
+  },
+  {
+    "start": 3110.76,
+    "duration": 4.22,
+    "text": "give you error it will not even let you"
+  },
+  {
+    "start": 3112.14,
+    "duration": 2.84,
+    "text": "you know compile or whatever"
+  },
+  {
+    "start": 3115.5,
+    "duration": 3.059,
+    "text": "so if you debug it you can debug it on"
+  },
+  {
+    "start": 3117.24,
+    "duration": 2.7,
+    "text": "pen and paper I showed you the entire"
+  },
+  {
+    "start": 3118.559,
+    "duration": 2.52,
+    "text": "thing"
+  },
+  {
+    "start": 3119.94,
+    "duration": 3.54,
+    "text": "um"
+  },
+  {
+    "start": 3121.079,
+    "duration": 4.5,
+    "text": "when I add a 10 over here it's going to"
+  },
+  {
+    "start": 3123.48,
+    "duration": 4.8,
+    "text": "say like okay new node added return node"
+  },
+  {
+    "start": 3125.579,
+    "duration": 4.26,
+    "text": "so it's going to call the node for this"
+  },
+  {
+    "start": 3128.28,
+    "duration": 3.96,
+    "text": "one"
+  },
+  {
+    "start": 3129.839,
+    "duration": 3.961,
+    "text": "call the rotate for this one for this"
+  },
+  {
+    "start": 3132.24,
+    "duration": 3.66,
+    "text": "one it will not execute because none of"
+  },
+  {
+    "start": 3133.8,
+    "duration": 4.2,
+    "text": "the conditions will satisfy hence it"
+  },
+  {
+    "start": 3135.9,
+    "duration": 3.54,
+    "text": "will come out of here and when it will"
+  },
+  {
+    "start": 3138.0,
+    "duration": 4.5,
+    "text": "come out of here it will be like okay"
+  },
+  {
+    "start": 3139.44,
+    "duration": 4.619,
+    "text": "either over here or over here so it"
+  },
+  {
+    "start": 3142.5,
+    "duration": 4.38,
+    "text": "comes out over here then load dot left"
+  },
+  {
+    "start": 3144.059,
+    "duration": 5.401,
+    "text": "will be equal to whatever it was so node"
+  },
+  {
+    "start": 3146.88,
+    "duration": 4.86,
+    "text": "dot left will be equal to whatever it"
+  },
+  {
+    "start": 3149.46,
+    "duration": 4.02,
+    "text": "was unchanged and then it will be okay"
+  },
+  {
+    "start": 3151.74,
+    "duration": 3.599,
+    "text": "I'm not going to call it rotate for this"
+  },
+  {
+    "start": 3153.48,
+    "duration": 3.72,
+    "text": "call rotate for this it's going to say"
+  },
+  {
+    "start": 3155.339,
+    "duration": 3.78,
+    "text": "okay this does not satisfy the condition"
+  },
+  {
+    "start": 3157.2,
+    "duration": 4.879,
+    "text": "so no worries I will just return the"
+  },
+  {
+    "start": 3159.119,
+    "duration": 2.96,
+    "text": "node normally itself"
+  },
+  {
+    "start": 3162.48,
+    "duration": 4.8,
+    "text": "return the node normally itself"
+  },
+  {
+    "start": 3165.18,
+    "duration": 4.56,
+    "text": "and this will either be returned from"
+  },
+  {
+    "start": 3167.28,
+    "duration": 4.559,
+    "text": "here or here so it will be like no dot"
+  },
+  {
+    "start": 3169.74,
+    "duration": 4.68,
+    "text": "right no dot left means"
+  },
+  {
+    "start": 3171.839,
+    "duration": 4.621,
+    "text": "C dot left so for this node in recursion"
+  },
+  {
+    "start": 3174.42,
+    "duration": 3.659,
+    "text": "node dot left will be equal to this only"
+  },
+  {
+    "start": 3176.46,
+    "duration": 3.84,
+    "text": "so remaining unchanged as you can see"
+  },
+  {
+    "start": 3178.079,
+    "duration": 4.02,
+    "text": "remaining unchanged I told you I won't"
+  },
+  {
+    "start": 3180.3,
+    "duration": 4.38,
+    "text": "show you the pen and paper stuff but I'm"
+  },
+  {
+    "start": 3182.099,
+    "duration": 3.781,
+    "text": "still doing okay so now this for p it"
+  },
+  {
+    "start": 3184.68,
+    "duration": 4.2,
+    "text": "will be like okay"
+  },
+  {
+    "start": 3185.88,
+    "duration": 5.34,
+    "text": "uh rotate it so it's like okay is this"
+  },
+  {
+    "start": 3188.88,
+    "duration": 4.979,
+    "text": "unbalanced yeah then it will rotate it"
+  },
+  {
+    "start": 3191.22,
+    "duration": 4.08,
+    "text": "normally and then whatever the node is"
+  },
+  {
+    "start": 3193.859,
+    "duration": 3.361,
+    "text": "supposed to be over here"
+  },
+  {
+    "start": 3195.3,
+    "duration": 3.779,
+    "text": "which is going to be child it is going"
+  },
+  {
+    "start": 3197.22,
+    "duration": 5.48,
+    "text": "to return that and where it will return"
+  },
+  {
+    "start": 3199.079,
+    "duration": 7.141,
+    "text": "from where it was called so return"
+  },
+  {
+    "start": 3202.7,
+    "duration": 5.02,
+    "text": "the child that we have over here and it"
+  },
+  {
+    "start": 3206.22,
+    "duration": 4.5,
+    "text": "will be called from here so it will"
+  },
+  {
+    "start": 3207.72,
+    "duration": 4.74,
+    "text": "return over here so this node.left will"
+  },
+  {
+    "start": 3210.72,
+    "duration": 3.119,
+    "text": "now be equal to child and this tree will"
+  },
+  {
+    "start": 3212.46,
+    "duration": 3.48,
+    "text": "be rotated"
+  },
+  {
+    "start": 3213.839,
+    "duration": 3.421,
+    "text": "okay cool"
+  },
+  {
+    "start": 3215.94,
+    "duration": 3.24,
+    "text": "use the pen and paper you will"
+  },
+  {
+    "start": 3217.26,
+    "duration": 3.359,
+    "text": "understand this is very simple stuff"
+  },
+  {
+    "start": 3219.18,
+    "duration": 3.72,
+    "text": "because we have done such questions"
+  },
+  {
+    "start": 3220.619,
+    "duration": 5.641,
+    "text": "before and I showed you the pro the"
+  },
+  {
+    "start": 3222.9,
+    "duration": 5.4,
+    "text": "problem by running it also"
+  },
+  {
+    "start": 3226.26,
+    "duration": 5.28,
+    "text": "copy paste now"
+  },
+  {
+    "start": 3228.3,
+    "duration": 7.16,
+    "text": "uh write heavy"
+  },
+  {
+    "start": 3231.54,
+    "duration": 3.92,
+    "text": "write heavy is when this is"
+  },
+  {
+    "start": 3235.5,
+    "duration": 4.16,
+    "text": "actually"
+  },
+  {
+    "start": 3236.88,
+    "duration": 2.78,
+    "text": "less than"
+  },
+  {
+    "start": 3240.0,
+    "duration": 5.359,
+    "text": "-1"
+  },
+  {
+    "start": 3240.68,
+    "duration": 4.679,
+    "text": "and right right case will be what"
+  },
+  {
+    "start": 3245.94,
+    "duration": 3.139,
+    "text": "node Dot"
+  },
+  {
+    "start": 3251.78,
+    "duration": 5.7,
+    "text": "node.write right right case let's check"
+  },
+  {
+    "start": 3254.64,
+    "duration": 2.84,
+    "text": "the right right case"
+  },
+  {
+    "start": 3261.96,
+    "duration": 4.8,
+    "text": "right right case Okay node"
+  },
+  {
+    "start": 3264.54,
+    "duration": 8.16,
+    "text": "dot right"
+  },
+  {
+    "start": 3266.76,
+    "duration": 8.4,
+    "text": "dot left and node.write Dot right"
+  },
+  {
+    "start": 3272.7,
+    "duration": 4.859,
+    "text": "the difference between this and this"
+  },
+  {
+    "start": 3275.16,
+    "duration": 3.48,
+    "text": "should be negative because this is small"
+  },
+  {
+    "start": 3277.559,
+    "duration": 4.681,
+    "text": "this is big"
+  },
+  {
+    "start": 3278.64,
+    "duration": 7.62,
+    "text": "so left minus right should be negative"
+  },
+  {
+    "start": 3282.24,
+    "duration": 6.42,
+    "text": "so node Dot right dot left node dot"
+  },
+  {
+    "start": 3286.26,
+    "duration": 4.5,
+    "text": "right dot right should be"
+  },
+  {
+    "start": 3288.66,
+    "duration": 4.26,
+    "text": "negative that will be right right case"
+  },
+  {
+    "start": 3290.76,
+    "duration": 4.579,
+    "text": "and in right right case I do left rotate"
+  },
+  {
+    "start": 3292.92,
+    "duration": 2.419,
+    "text": "on the Note"
+  },
+  {
+    "start": 3296.22,
+    "duration": 4.32,
+    "text": "now float it on the Node"
+  },
+  {
+    "start": 3298.5,
+    "duration": 4.26,
+    "text": "similarly"
+  },
+  {
+    "start": 3300.54,
+    "duration": 5.94,
+    "text": "node Dot"
+  },
+  {
+    "start": 3302.76,
+    "duration": 6.74,
+    "text": "write dot left node.right dot right"
+  },
+  {
+    "start": 3306.48,
+    "duration": 3.02,
+    "text": "should be positive"
+  },
+  {
+    "start": 3314.7,
+    "duration": 3.48,
+    "text": "should be positive"
+  },
+  {
+    "start": 3316.44,
+    "duration": 5.399,
+    "text": "in this case I'm going to say right"
+  },
+  {
+    "start": 3318.18,
+    "duration": 6.98,
+    "text": "rotate on child child is node dot right"
+  },
+  {
+    "start": 3321.839,
+    "duration": 3.321,
+    "text": "so right rotate"
+  },
+  {
+    "start": 3326.16,
+    "duration": 3.199,
+    "text": "that is going to be right"
+  },
+  {
+    "start": 3329.94,
+    "duration": 6.98,
+    "text": "right rotate no Dot"
+  },
+  {
+    "start": 3332.16,
+    "duration": 4.76,
+    "text": "right and then left rotate on the Node"
+  },
+  {
+    "start": 3341.22,
+    "duration": 4.68,
+    "text": "in the end just return the node so"
+  },
+  {
+    "start": 3343.68,
+    "duration": 5.28,
+    "text": "even though this is being called for"
+  },
+  {
+    "start": 3345.9,
+    "duration": 5.34,
+    "text": "every single path as we move above it"
+  },
+  {
+    "start": 3348.96,
+    "duration": 4.98,
+    "text": "will only run once because this"
+  },
+  {
+    "start": 3351.24,
+    "duration": 4.8,
+    "text": "condition will only be satisfied once in"
+  },
+  {
+    "start": 3353.94,
+    "duration": 4.08,
+    "text": "other cases just return the node itself"
+  },
+  {
+    "start": 3356.04,
+    "duration": 3.36,
+    "text": "so in reality this function that you're"
+  },
+  {
+    "start": 3358.02,
+    "duration": 3.059,
+    "text": "saying Canal you were returning node"
+  },
+  {
+    "start": 3359.4,
+    "duration": 3.48,
+    "text": "previously and now you are returning it"
+  },
+  {
+    "start": 3361.079,
+    "duration": 2.76,
+    "text": "in a function I am still returning the"
+  },
+  {
+    "start": 3362.88,
+    "duration": 3.479,
+    "text": "node only"
+  },
+  {
+    "start": 3363.839,
+    "duration": 4.74,
+    "text": "but I'm performing some functions in one"
+  },
+  {
+    "start": 3366.359,
+    "duration": 4.46,
+    "text": "of the cases where D3 is unbalanced it"
+  },
+  {
+    "start": 3368.579,
+    "duration": 5.04,
+    "text": "will adjust the size sorry adjust the"
+  },
+  {
+    "start": 3370.819,
+    "duration": 4.901,
+    "text": "structure return the correct node for"
+  },
+  {
+    "start": 3373.619,
+    "duration": 4.44,
+    "text": "everything else it will return the node"
+  },
+  {
+    "start": 3375.72,
+    "duration": 3.72,
+    "text": "only not doing nothing just returning"
+  },
+  {
+    "start": 3378.059,
+    "duration": 4.581,
+    "text": "the node only"
+  },
+  {
+    "start": 3379.44,
+    "duration": 3.2,
+    "text": "what we were doing previously"
+  },
+  {
+    "start": 3383.099,
+    "duration": 5.421,
+    "text": "okay now we have to create left rotate"
+  },
+  {
+    "start": 3385.68,
+    "duration": 2.84,
+    "text": "and right rotate"
+  },
+  {
+    "start": 3390.18,
+    "duration": 4.5,
+    "text": "okay left rotate and right rotate"
+  },
+  {
+    "start": 3392.76,
+    "duration": 3.599,
+    "text": "let's see how we can do that okay now"
+  },
+  {
+    "start": 3394.68,
+    "duration": 3.78,
+    "text": "right rotate and left rotate very simple"
+  },
+  {
+    "start": 3396.359,
+    "duration": 3.661,
+    "text": "stuff so we have already run the"
+  },
+  {
+    "start": 3398.46,
+    "duration": 3.3,
+    "text": "overwhelming complex part all the test"
+  },
+  {
+    "start": 3400.02,
+    "duration": 3.059,
+    "text": "cases I showed you the run through of"
+  },
+  {
+    "start": 3401.76,
+    "duration": 2.88,
+    "text": "the code as well you can also debug"
+  },
+  {
+    "start": 3403.079,
+    "duration": 3.661,
+    "text": "yourself I've showed you how to put"
+  },
+  {
+    "start": 3404.64,
+    "duration": 4.199,
+    "text": "debug pointer into it but I I showed you"
+  },
+  {
+    "start": 3406.74,
+    "duration": 4.14,
+    "text": "like what the return node is what the"
+  },
+  {
+    "start": 3408.839,
+    "duration": 4.201,
+    "text": "calling the function in the node return"
+  },
+  {
+    "start": 3410.88,
+    "duration": 4.14,
+    "text": "is in the reality it's only returning"
+  },
+  {
+    "start": 3413.04,
+    "duration": 3.539,
+    "text": "the node itself like previously in the"
+  },
+  {
+    "start": 3415.02,
+    "duration": 4.02,
+    "text": "previous binary search tree lecture how"
+  },
+  {
+    "start": 3416.579,
+    "duration": 4.561,
+    "text": "it was returning the node in insert uh"
+  },
+  {
+    "start": 3419.04,
+    "duration": 4.74,
+    "text": "over here but now it's only going to"
+  },
+  {
+    "start": 3421.14,
+    "duration": 4.679,
+    "text": "rotate it in one single case and this if"
+  },
+  {
+    "start": 3423.78,
+    "duration": 4.02,
+    "text": "condition will only be valid for one"
+  },
+  {
+    "start": 3425.819,
+    "duration": 4.26,
+    "text": "single case because it will have that"
+  },
+  {
+    "start": 3427.8,
+    "duration": 5.759,
+    "text": "one case that will be sub tree that is"
+  },
+  {
+    "start": 3430.079,
+    "duration": 5.821,
+    "text": "rotated sorry the unbalanced and we're"
+  },
+  {
+    "start": 3433.559,
+    "duration": 4.5,
+    "text": "doing uh right rotate left rotate now so"
+  },
+  {
+    "start": 3435.9,
+    "duration": 4.08,
+    "text": "we already have this thing over here so"
+  },
+  {
+    "start": 3438.059,
+    "duration": 3.54,
+    "text": "ideally you know think about when we"
+  },
+  {
+    "start": 3439.98,
+    "duration": 3.42,
+    "text": "were doing linked list"
+  },
+  {
+    "start": 3441.599,
+    "duration": 3.661,
+    "text": "the diagram was telling us what to do"
+  },
+  {
+    "start": 3443.4,
+    "duration": 3.54,
+    "text": "and we were just coding that I will do"
+  },
+  {
+    "start": 3445.26,
+    "duration": 3.9,
+    "text": "the same thing I am shutting off my"
+  },
+  {
+    "start": 3446.94,
+    "duration": 5.1,
+    "text": "brain now because my brain it's not"
+  },
+  {
+    "start": 3449.16,
+    "duration": 5.28,
+    "text": "required now because whatever the"
+  },
+  {
+    "start": 3452.04,
+    "duration": 3.96,
+    "text": "diagram is telling me I will code it"
+  },
+  {
+    "start": 3454.44,
+    "duration": 4.5,
+    "text": "I don't even need to understand anything"
+  },
+  {
+    "start": 3456.0,
+    "duration": 4.619,
+    "text": "because it's not worth it because we"
+  },
+  {
+    "start": 3458.94,
+    "duration": 4.02,
+    "text": "have already understood how right rotate"
+  },
+  {
+    "start": 3460.619,
+    "duration": 3.96,
+    "text": "work how ref rotate works now the"
+  },
+  {
+    "start": 3462.96,
+    "duration": 3.599,
+    "text": "diagram is telling me what to do so I"
+  },
+  {
+    "start": 3464.579,
+    "duration": 2.76,
+    "text": "will just do it understanding part is"
+  },
+  {
+    "start": 3466.559,
+    "duration": 4.02,
+    "text": "done"
+  },
+  {
+    "start": 3467.339,
+    "duration": 5.161,
+    "text": "okay we did that in theory so"
+  },
+  {
+    "start": 3470.579,
+    "duration": 3.661,
+    "text": "think about what all things we don't"
+  },
+  {
+    "start": 3472.5,
+    "duration": 4.98,
+    "text": "need to touch"
+  },
+  {
+    "start": 3474.24,
+    "duration": 4.98,
+    "text": "uh T3 is not going to be changed don't"
+  },
+  {
+    "start": 3477.48,
+    "duration": 4.139,
+    "text": "touch T3"
+  },
+  {
+    "start": 3479.22,
+    "duration": 3.839,
+    "text": "T1 is not going to be changed don't"
+  },
+  {
+    "start": 3481.619,
+    "duration": 4.921,
+    "text": "touch T1"
+  },
+  {
+    "start": 3483.059,
+    "duration": 6.921,
+    "text": "T2 will be changed so p"
+  },
+  {
+    "start": 3486.54,
+    "duration": 3.44,
+    "text": "it's gonna write it down"
+  },
+  {
+    "start": 3493.92,
+    "duration": 6.419,
+    "text": "right rotate across node p"
+  },
+  {
+    "start": 3496.98,
+    "duration": 5.4,
+    "text": "node child is equal to P dot left"
+  },
+  {
+    "start": 3500.339,
+    "duration": 7.821,
+    "text": "node C is equal to P dot left no problem"
+  },
+  {
+    "start": 3502.38,
+    "duration": 5.78,
+    "text": "node T is equal to T dot left dot right"
+  },
+  {
+    "start": 3511.38,
+    "duration": 5.42,
+    "text": "no"
+  },
+  {
+    "start": 3513.359,
+    "duration": 3.441,
+    "text": "or C dot right"
+  },
+  {
+    "start": 3517.26,
+    "duration": 4.38,
+    "text": "T is equal to C dot right T is equal to"
+  },
+  {
+    "start": 3519.299,
+    "duration": 3.661,
+    "text": "C dot right"
+  },
+  {
+    "start": 3521.64,
+    "duration": 2.939,
+    "text": "okay now"
+  },
+  {
+    "start": 3522.96,
+    "duration": 2.399,
+    "text": "write rotate"
+  },
+  {
+    "start": 3524.579,
+    "duration": 5.0,
+    "text": "um"
+  },
+  {
+    "start": 3525.359,
+    "duration": 4.22,
+    "text": "C dot left will become p"
+  },
+  {
+    "start": 3532.319,
+    "duration": 6.201,
+    "text": "and P dot left sorry C dot right will"
+  },
+  {
+    "start": 3535.98,
+    "duration": 2.54,
+    "text": "become p"
+  },
+  {
+    "start": 3539.099,
+    "duration": 7.7,
+    "text": "C dot right will become p and p dot left"
+  },
+  {
+    "start": 3543.299,
+    "duration": 3.5,
+    "text": "will become t"
+  },
+  {
+    "start": 3549.24,
+    "duration": 4.74,
+    "text": "done that's it"
+  },
+  {
+    "start": 3551.52,
+    "duration": 5.039,
+    "text": "one last thing you have to do is update"
+  },
+  {
+    "start": 3553.98,
+    "duration": 4.44,
+    "text": "the heights now because C was added"
+  },
+  {
+    "start": 3556.559,
+    "duration": 2.881,
+    "text": "above P was coming down so update the"
+  },
+  {
+    "start": 3558.42,
+    "duration": 3.179,
+    "text": "height"
+  },
+  {
+    "start": 3559.44,
+    "duration": 7.22,
+    "text": "P dot height"
+  },
+  {
+    "start": 3561.599,
+    "duration": 5.061,
+    "text": "is equal to math dot Max"
+  },
+  {
+    "start": 3578.7,
+    "duration": 6.74,
+    "text": "so new height is going to be equal to"
+  },
+  {
+    "start": 3580.88,
+    "duration": 4.56,
+    "text": "maximum of left and right"
+  },
+  {
+    "start": 3585.599,
+    "duration": 3.061,
+    "text": "plus one for this"
+  },
+  {
+    "start": 3587.28,
+    "duration": 4.4,
+    "text": "we have done the height formula before"
+  },
+  {
+    "start": 3588.66,
+    "duration": 3.02,
+    "text": "so don't worry about that"
+  },
+  {
+    "start": 3593.22,
+    "duration": 3.26,
+    "text": "similarly C dot height"
+  },
+  {
+    "start": 3596.819,
+    "duration": 6.78,
+    "text": "will be equal to mat dot Max C Dot"
+  },
+  {
+    "start": 3599.94,
+    "duration": 6.24,
+    "text": "left C dot right plus one now what is"
+  },
+  {
+    "start": 3603.599,
+    "duration": 5.181,
+    "text": "the new node new node is C"
+  },
+  {
+    "start": 3606.18,
+    "duration": 5.639,
+    "text": "rate on C"
+  },
+  {
+    "start": 3608.78,
+    "duration": 5.5,
+    "text": "I am telling it again and again the only"
+  },
+  {
+    "start": 3611.819,
+    "duration": 4.561,
+    "text": "intuition problem that you are going to"
+  },
+  {
+    "start": 3614.28,
+    "duration": 5.1,
+    "text": "have I know you are having this doubt"
+  },
+  {
+    "start": 3616.38,
+    "duration": 5.1,
+    "text": "is over in this line 43."
+  },
+  {
+    "start": 3619.38,
+    "duration": 5.1,
+    "text": "please try to understand that in"
+  },
+  {
+    "start": 3621.48,
+    "duration": 5.7,
+    "text": "original format it was return node right"
+  },
+  {
+    "start": 3624.48,
+    "duration": 3.9,
+    "text": "now also it is written node only"
+  },
+  {
+    "start": 3627.18,
+    "duration": 3.72,
+    "text": "see"
+  },
+  {
+    "start": 3628.38,
+    "duration": 5.16,
+    "text": "it is doing nothing but return node but"
+  },
+  {
+    "start": 3630.9,
+    "duration": 5.1,
+    "text": "for that one case in which the sub tree"
+  },
+  {
+    "start": 3633.54,
+    "duration": 4.14,
+    "text": "is unbalanced it will balance in then"
+  },
+  {
+    "start": 3636.0,
+    "duration": 5.339,
+    "text": "return the node"
+  },
+  {
+    "start": 3637.68,
+    "duration": 5.1,
+    "text": "so new node will be returned like C"
+  },
+  {
+    "start": 3641.339,
+    "duration": 3.841,
+    "text": "and that will be"
+  },
+  {
+    "start": 3642.78,
+    "duration": 4.5,
+    "text": "added over here"
+  },
+  {
+    "start": 3645.18,
+    "duration": 3.6,
+    "text": "so it will return then it will be"
+  },
+  {
+    "start": 3647.28,
+    "duration": 3.6,
+    "text": "returned from where it was called which"
+  },
+  {
+    "start": 3648.78,
+    "duration": 4.14,
+    "text": "is somewhere over here and then that new"
+  },
+  {
+    "start": 3650.88,
+    "duration": 5.459,
+    "text": "child will be equal to the node.left of"
+  },
+  {
+    "start": 3652.92,
+    "duration": 5.159,
+    "text": "the above the one above that one as I"
+  },
+  {
+    "start": 3656.339,
+    "duration": 4.321,
+    "text": "showed you in the example right now when"
+  },
+  {
+    "start": 3658.079,
+    "duration": 4.621,
+    "text": "I was writing this code"
+  },
+  {
+    "start": 3660.66,
+    "duration": 4.439,
+    "text": "okay it was very simple it is don't"
+  },
+  {
+    "start": 3662.7,
+    "duration": 3.72,
+    "text": "overthink it it's very simple I shared"
+  },
+  {
+    "start": 3665.099,
+    "duration": 2.72,
+    "text": "it like three four times I won't share"
+  },
+  {
+    "start": 3666.42,
+    "duration": 4.439,
+    "text": "it again now because then it will get"
+  },
+  {
+    "start": 3667.819,
+    "duration": 4.721,
+    "text": "cringy anyway"
+  },
+  {
+    "start": 3670.859,
+    "duration": 3.0,
+    "text": "so I told you where you might get doubt"
+  },
+  {
+    "start": 3672.54,
+    "duration": 2.34,
+    "text": "I solve that doubt now we can move"
+  },
+  {
+    "start": 3673.859,
+    "duration": 4.021,
+    "text": "forward"
+  },
+  {
+    "start": 3674.88,
+    "duration": 5.58,
+    "text": "okay now left rotate left rotate is very"
+  },
+  {
+    "start": 3677.88,
+    "duration": 3.9,
+    "text": "simple copy paste you can still you can"
+  },
+  {
+    "start": 3680.46,
+    "duration": 4.02,
+    "text": "just do the"
+  },
+  {
+    "start": 3681.78,
+    "duration": 3.96,
+    "text": "use the"
+  },
+  {
+    "start": 3684.48,
+    "duration": 3.66,
+    "text": "you know"
+  },
+  {
+    "start": 3685.74,
+    "duration": 4.319,
+    "text": "um this thing over here okay so again no"
+  },
+  {
+    "start": 3688.14,
+    "duration": 4.56,
+    "text": "need to think I will take in this"
+  },
+  {
+    "start": 3690.059,
+    "duration": 6.26,
+    "text": "example only it's saying C"
+  },
+  {
+    "start": 3692.7,
+    "duration": 3.619,
+    "text": "so I will have node C over here"
+  },
+  {
+    "start": 3697.14,
+    "duration": 5.28,
+    "text": "left rotate so node"
+  },
+  {
+    "start": 3700.5,
+    "duration": 3.72,
+    "text": "p is going to be equal to C dot right"
+  },
+  {
+    "start": 3702.42,
+    "duration": 5.0,
+    "text": "node p"
+  },
+  {
+    "start": 3704.22,
+    "duration": 3.2,
+    "text": "is going to be equal to"
+  },
+  {
+    "start": 3707.46,
+    "duration": 4.379,
+    "text": "C dot right and what will remain"
+  },
+  {
+    "start": 3710.22,
+    "duration": 2.52,
+    "text": "unchanged"
+  },
+  {
+    "start": 3711.839,
+    "duration": 3.541,
+    "text": "um"
+  },
+  {
+    "start": 3712.74,
+    "duration": 3.839,
+    "text": "p t three will remain unchanged"
+  },
+  {
+    "start": 3715.38,
+    "duration": 4.62,
+    "text": "uh"
+  },
+  {
+    "start": 3716.579,
+    "duration": 7.74,
+    "text": "T1 will remain unchanged T2 will be"
+  },
+  {
+    "start": 3720.0,
+    "duration": 6.799,
+    "text": "changed so C dot right or P dot left P"
+  },
+  {
+    "start": 3724.319,
+    "duration": 2.48,
+    "text": "dot left"
+  },
+  {
+    "start": 3733.559,
+    "duration": 2.941,
+    "text": "okay okay"
+  },
+  {
+    "start": 3734.88,
+    "duration": 5.28,
+    "text": "so here we have"
+  },
+  {
+    "start": 3736.5,
+    "duration": 5.819,
+    "text": "P dot left is equal to my T and now how"
+  },
+  {
+    "start": 3740.16,
+    "duration": 6.679,
+    "text": "to change it so if I'm changing it left"
+  },
+  {
+    "start": 3742.319,
+    "duration": 4.52,
+    "text": "rotate then P dot left becomes C"
+  },
+  {
+    "start": 3749.52,
+    "duration": 5.66,
+    "text": "no problem at all and C dot right"
+  },
+  {
+    "start": 3752.339,
+    "duration": 2.841,
+    "text": "becomes t"
+  },
+  {
+    "start": 3758.46,
+    "duration": 5.24,
+    "text": "no problem similarly P dot height and C"
+  },
+  {
+    "start": 3761.28,
+    "duration": 2.42,
+    "text": "dot height"
+  },
+  {
+    "start": 3763.74,
+    "duration": 5.599,
+    "text": "looks good now new node is equal to P so"
+  },
+  {
+    "start": 3766.619,
+    "duration": 2.72,
+    "text": "I will return p"
+  },
+  {
+    "start": 3771.78,
+    "duration": 5.16,
+    "text": "that's it avl3 done"
+  },
+  {
+    "start": 3774.42,
+    "duration": 3.96,
+    "text": "um very cool stuff"
+  },
+  {
+    "start": 3776.94,
+    "duration": 4.56,
+    "text": "simple"
+  },
+  {
+    "start": 3778.38,
+    "duration": 4.679,
+    "text": "right now you can run this let's try"
+  },
+  {
+    "start": 3781.5,
+    "duration": 3.599,
+    "text": "running it okay so here in the main"
+  },
+  {
+    "start": 3783.059,
+    "duration": 6.06,
+    "text": "function I can write my"
+  },
+  {
+    "start": 3785.099,
+    "duration": 8.641,
+    "text": "code I can say AVL tree is equal to new"
+  },
+  {
+    "start": 3789.119,
+    "duration": 5.761,
+    "text": "AVL tree and let's say I insert I try to"
+  },
+  {
+    "start": 3793.74,
+    "duration": 3.3,
+    "text": "insert you know"
+  },
+  {
+    "start": 3794.88,
+    "duration": 3.66,
+    "text": "ascending order so in binary search"
+  },
+  {
+    "start": 3797.04,
+    "duration": 2.96,
+    "text": "today it will just make a line like I"
+  },
+  {
+    "start": 3798.54,
+    "duration": 4.559,
+    "text": "showed in the previous one"
+  },
+  {
+    "start": 3800.0,
+    "duration": 7.24,
+    "text": "and I is equal to 0"
+  },
+  {
+    "start": 3803.099,
+    "duration": 5.7,
+    "text": "I is less than let us say 1000 and I"
+  },
+  {
+    "start": 3807.24,
+    "duration": 5.7,
+    "text": "plus plus"
+  },
+  {
+    "start": 3808.799,
+    "duration": 6.901,
+    "text": "I'm going to say tree dot insert I"
+  },
+  {
+    "start": 3812.94,
+    "duration": 3.899,
+    "text": "if I check the height of this uh in a"
+  },
+  {
+    "start": 3815.7,
+    "duration": 3.24,
+    "text": "binary search tree which is not"
+  },
+  {
+    "start": 3816.839,
+    "duration": 3.421,
+    "text": "balancing it will be like okay right"
+  },
+  {
+    "start": 3818.94,
+    "duration": 5.34,
+    "text": "right right right right right right"
+  },
+  {
+    "start": 3820.26,
+    "duration": 6.66,
+    "text": "right right it will give us 1000 so"
+  },
+  {
+    "start": 3824.28,
+    "duration": 5.279,
+    "text": "system dot out Dot"
+  },
+  {
+    "start": 3826.92,
+    "duration": 4.98,
+    "text": "println tree Dot"
+  },
+  {
+    "start": 3829.559,
+    "duration": 5.401,
+    "text": "height this should give"
+  },
+  {
+    "start": 3831.9,
+    "duration": 5.159,
+    "text": "log of thousand let's see okay so log of"
+  },
+  {
+    "start": 3834.96,
+    "duration": 5.839,
+    "text": "around 1000 so it should give me one"
+  },
+  {
+    "start": 3837.059,
+    "duration": 7.221,
+    "text": "plus log thousand so uh log thousand two"
+  },
+  {
+    "start": 3840.799,
+    "duration": 3.481,
+    "text": "plus one three"
+  },
+  {
+    "start": 3844.68,
+    "duration": 4.86,
+    "text": "three"
+  },
+  {
+    "start": 3846.54,
+    "duration": 4.799,
+    "text": "I inserted thousand elements in a tree"
+  },
+  {
+    "start": 3849.54,
+    "duration": 3.24,
+    "text": "in binary search tree height would be"
+  },
+  {
+    "start": 3851.339,
+    "duration": 3.48,
+    "text": "one one one you know just go right right"
+  },
+  {
+    "start": 3852.78,
+    "duration": 3.839,
+    "text": "right right right right as I showed in"
+  },
+  {
+    "start": 3854.819,
+    "duration": 3.661,
+    "text": "the previous example"
+  },
+  {
+    "start": 3856.619,
+    "duration": 4.141,
+    "text": "this example"
+  },
+  {
+    "start": 3858.48,
+    "duration": 4.02,
+    "text": "but now no it's balancing it"
+  },
+  {
+    "start": 3860.76,
+    "duration": 4.68,
+    "text": "that is why Always height will be log"
+  },
+  {
+    "start": 3862.5,
+    "duration": 6.599,
+    "text": "off n"
+  },
+  {
+    "start": 3865.44,
+    "duration": 6.3,
+    "text": "simple very easy very nice self"
+  },
+  {
+    "start": 3869.099,
+    "duration": 7.861,
+    "text": "balancing binary tree is a piece of cake"
+  },
+  {
+    "start": 3871.74,
+    "duration": 7.319,
+    "text": "done okay so lastly I'd say you can"
+  },
+  {
+    "start": 3876.96,
+    "duration": 4.5,
+    "text": "take a screenshot"
+  },
+  {
+    "start": 3879.059,
+    "duration": 3.481,
+    "text": "shared on social media hashtag DSA with"
+  },
+  {
+    "start": 3881.46,
+    "duration": 4.26,
+    "text": "Kunal join the learning public"
+  },
+  {
+    "start": 3882.54,
+    "duration": 4.68,
+    "text": "initiative I'll make tutorials uh much"
+  },
+  {
+    "start": 3885.72,
+    "duration": 4.5,
+    "text": "faster at least four videos you can"
+  },
+  {
+    "start": 3887.22,
+    "duration": 4.619,
+    "text": "accept expect in a month and uh"
+  },
+  {
+    "start": 3890.22,
+    "duration": 3.0,
+    "text": "as the next one's recorded as well I"
+  },
+  {
+    "start": 3891.839,
+    "duration": 3.181,
+    "text": "have to edit those"
+  },
+  {
+    "start": 3893.22,
+    "duration": 3.24,
+    "text": "um but I wanted to make sure we do this"
+  },
+  {
+    "start": 3895.02,
+    "duration": 2.88,
+    "text": "one first before jumping on to the"
+  },
+  {
+    "start": 3896.46,
+    "duration": 2.94,
+    "text": "questions because these are some of the"
+  },
+  {
+    "start": 3897.9,
+    "duration": 3.84,
+    "text": "concepts that are being used so few"
+  },
+  {
+    "start": 3899.4,
+    "duration": 4.74,
+    "text": "things number one like number two"
+  },
+  {
+    "start": 3901.74,
+    "duration": 4.079,
+    "text": "comment number three take a screenshot"
+  },
+  {
+    "start": 3904.14,
+    "duration": 4.02,
+    "text": "and share with hashtag DSA with Kunal"
+  },
+  {
+    "start": 3905.819,
+    "duration": 5.101,
+    "text": "and that's it these three things you"
+  },
+  {
+    "start": 3908.16,
+    "duration": 5.159,
+    "text": "need to do for follow-ups the"
+  },
+  {
+    "start": 3910.92,
+    "duration": 3.899,
+    "text": "assignments and everything notes and the"
+  },
+  {
+    "start": 3913.319,
+    "duration": 3.48,
+    "text": "code link can be found in the"
+  },
+  {
+    "start": 3914.819,
+    "duration": 3.721,
+    "text": "description below so you can directly"
+  },
+  {
+    "start": 3916.799,
+    "duration": 3.841,
+    "text": "use the URL that I will share with you"
+  },
+  {
+    "start": 3918.54,
+    "duration": 3.96,
+    "text": "in the description below and you can"
+  },
+  {
+    "start": 3920.64,
+    "duration": 3.12,
+    "text": "just run it after signing up you can run"
+  },
+  {
+    "start": 3922.5,
+    "duration": 3.42,
+    "text": "it and you can run the code that I'm"
+  },
+  {
+    "start": 3923.76,
+    "duration": 4.799,
+    "text": "writing make it modified forkit do"
+  },
+  {
+    "start": 3925.92,
+    "duration": 4.08,
+    "text": "whatever you want and it's very nice"
+  },
+  {
+    "start": 3928.559,
+    "duration": 3.361,
+    "text": "because you can do it right from your"
+  },
+  {
+    "start": 3930.0,
+    "duration": 3.48,
+    "text": "browser itself like I'm doing so for"
+  },
+  {
+    "start": 3931.92,
+    "duration": 4.139,
+    "text": "teaching it makes it much more"
+  },
+  {
+    "start": 3933.48,
+    "duration": 4.92,
+    "text": "convenient so yeah like comment if you"
+  },
+  {
+    "start": 3936.059,
+    "duration": 4.5,
+    "text": "comment more people will view it and"
+  },
+  {
+    "start": 3938.4,
+    "duration": 4.26,
+    "text": "more views will get and more people will"
+  },
+  {
+    "start": 3940.559,
+    "duration": 3.601,
+    "text": "learn from these free courses and more"
+  },
+  {
+    "start": 3942.66,
+    "duration": 3.0,
+    "text": "motivation I'll get to make such videos"
+  },
+  {
+    "start": 3944.16,
+    "duration": 5.1,
+    "text": "so like and comment it at least"
+  },
+  {
+    "start": 3945.66,
+    "duration": 5.22,
+    "text": "something you can do and share you can"
+  },
+  {
+    "start": 3949.26,
+    "duration": 4.02,
+    "text": "do it if you don't want to that's fine"
+  },
+  {
+    "start": 3950.88,
+    "duration": 3.78,
+    "text": "but like and comment please do it if"
+  },
+  {
+    "start": 3953.28,
+    "duration": 3.18,
+    "text": "you've watched it till now please like"
+  },
+  {
+    "start": 3954.66,
+    "duration": 4.08,
+    "text": "and comment I cannot stress this enough"
+  },
+  {
+    "start": 3956.46,
+    "duration": 5.159,
+    "text": "and assignments everything all the links"
+  },
+  {
+    "start": 3958.74,
+    "duration": 4.74,
+    "text": "code description below and I'll see you"
+  },
+  {
+    "start": 3961.619,
+    "duration": 4.021,
+    "text": "in the next one have a great day bye if"
+  },
+  {
+    "start": 3963.48,
+    "duration": 3.25,
+    "text": "you have any doubts comment section"
+  },
+  {
+    "start": 3965.64,
+    "duration": 9.849,
+    "text": "foreign"
+  },
+  {
+    "start": 3966.73,
+    "duration": 8.759,
+    "text": "[Music]"
+  }
+]

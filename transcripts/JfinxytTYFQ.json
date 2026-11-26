@@ -1,0 +1,4527 @@
+[
+  {
+    "start": 0.0,
+    "duration": 4.16,
+    "text": "this was asked in amazon hard question and  literally the copy pasted code of an easy question"
+  },
+  {
+    "start": 8.24,
+    "duration": 4.88,
+    "text": "hey everyone welcome back to another video and  uh in this video we're doing cyclic sort before"
+  },
+  {
+    "start": 13.12,
+    "duration": 5.84,
+    "text": "we get started listen very carefully this is  a very important pattern for you know amazon"
+  },
+  {
+    "start": 18.96,
+    "duration": 5.52,
+    "text": "and google and facebook companies so literally  they ask questions directly from this patent"
+  },
+  {
+    "start": 24.48,
+    "duration": 4.64,
+    "text": "in this video only we'll be doing like four or  five questions directly asked in amazon and google"
+  },
+  {
+    "start": 29.12,
+    "duration": 3.92,
+    "text": "in those companies and interviews please don't  skip this video i will explain everything in"
+  },
+  {
+    "start": 33.04,
+    "duration": 5.92,
+    "text": "detail from scratch and how to actually find when  to use this pattern so we are doing a complete"
+  },
+  {
+    "start": 38.96,
+    "duration": 4.4,
+    "text": "dsa boot camp interview preparation complete  programming everything covered so make sure you"
+  },
+  {
+    "start": 43.36,
+    "duration": 4.48,
+    "text": "check out the link in the description there's a  java dsa complete bootcamp playlist so if you're"
+  },
+  {
+    "start": 47.84,
+    "duration": 4.56,
+    "text": "preparing for your placements or whatever and  if you want to learn about what it what we have"
+  },
+  {
+    "start": 52.4,
+    "duration": 3.52,
+    "text": "done so far what we're going to do in the future  check out the links in the description there's"
+  },
+  {
+    "start": 55.92,
+    "duration": 5.36,
+    "text": "an amazing playlist the course is free and uh  you know please subscribe and share with your"
+  },
+  {
+    "start": 61.28,
+    "duration": 5.6,
+    "text": "friends so they can also benefit plus but please  do not skip this video amazon amazon at least ask"
+  },
+  {
+    "start": 66.88,
+    "duration": 4.96,
+    "text": "a lot of questions from this pattern all right  so let's look at cyclic sort what is cyclic sort"
+  },
+  {
+    "start": 72.88,
+    "duration": 7.76,
+    "text": "so we are saying cyclic sort so it's a sorting  algorithm so far we've done bubble sort"
+  },
+  {
+    "start": 80.64,
+    "duration": 5.6,
+    "text": "insertion sort and selection selection sort  but in this section what we are doing is that"
+  },
+  {
+    "start": 86.24,
+    "duration": 7.04,
+    "text": "cyclic sort is used um so for for example so far  we did like uh you know bubble sort and stuff"
+  },
+  {
+    "start": 93.28,
+    "duration": 6.32,
+    "text": "and we did like uh you know we did um selection  sort or insertion sort they were giving like uh"
+  },
+  {
+    "start": 99.6,
+    "duration": 5.6,
+    "text": "complexities of like of n squared you know in like  the worst case we already discussed that in this"
+  },
+  {
+    "start": 105.2,
+    "duration": 4.4,
+    "text": "case what is happening is that it says that uh  let's say the question is something like this so"
+  },
+  {
+    "start": 109.6,
+    "duration": 4.88,
+    "text": "before we dive into what is cyclic sort let's look  at a question okay and then i'll explain cyclic"
+  },
+  {
+    "start": 114.48,
+    "duration": 5.76,
+    "text": "sort okay so the question is let's say you're  given an unsorted array uh something like uh 3"
+  },
+  {
+    "start": 123.6,
+    "duration": 12.08,
+    "text": "5 2 one and four you're given something like this  okay index values are 0 1 2 3 4. you have to sort"
+  },
+  {
+    "start": 135.68,
+    "duration": 5.84,
+    "text": "this array you have to sort this array so how can  you do this you can say you cannot apply bubble"
+  },
+  {
+    "start": 141.52,
+    "duration": 6.48,
+    "text": "sort or insertion sort or you know selection sort  quick sort merge sort whatever but these are like"
+  },
+  {
+    "start": 148.0,
+    "duration": 5.36,
+    "text": "giving like you know of n square of n log n or  whatever but what if i ask you that hey i want to"
+  },
+  {
+    "start": 153.36,
+    "duration": 6.96,
+    "text": "solve it in just one single pass or one for loop  in selection sort insertion sort and all these"
+  },
+  {
+    "start": 160.32,
+    "duration": 6.48,
+    "text": "bubbles what we did you were running two for loops  so it was making n square comparisons right here"
+  },
+  {
+    "start": 166.8,
+    "duration": 5.2,
+    "text": "what we want to do is only make n comparisons  sort this in n comparisons this is a pattern"
+  },
+  {
+    "start": 175.84,
+    "duration": 0.64,
+    "text": "when given"
+  },
+  {
+    "start": 179.36,
+    "duration": 5.2,
+    "text": "numbers from range 1 to n"
+  },
+  {
+    "start": 186.8,
+    "duration": 1.52,
+    "text": "use cyclic sort"
+  },
+  {
+    "start": 191.68,
+    "duration": 3.44,
+    "text": "this is very very important very very very"
+  },
+  {
+    "start": 195.12,
+    "duration": 5.44,
+    "text": "very very very important this line is  very very very very very very important"
+  },
+  {
+    "start": 201.6,
+    "duration": 4.88,
+    "text": "so some amazon questions will be doing like  uh you're given numbers from 1 to n find the"
+  },
+  {
+    "start": 206.48,
+    "duration": 6.64,
+    "text": "missing number you're given some unsorted array  find the you know smallest uh you know positive"
+  },
+  {
+    "start": 213.12,
+    "duration": 4.96,
+    "text": "missing number or something like that you're given  numbers from 1 to n find the duplicate number"
+  },
+  {
+    "start": 220.0,
+    "duration": 6.16,
+    "text": "so what do all these things have in common 1 to n  1 to n 1 to n so this range of 1 to n whenever you"
+  },
+  {
+    "start": 226.16,
+    "duration": 7.28,
+    "text": "see a question that has range is given from 1 to n  what do you do cyclic sort you remember okay when"
+  },
+  {
+    "start": 233.44,
+    "duration": 5.2,
+    "text": "all said range given from 1 to n that's cyclic  sort kunal said if you're given a sorted array do"
+  },
+  {
+    "start": 238.64,
+    "duration": 5.76,
+    "text": "bind research you know so this is why you know we  are saying it's an interview preparation bootcamp"
+  },
+  {
+    "start": 244.4,
+    "duration": 3.04,
+    "text": "when you are given a question in the interview  you will it will click to you like this"
+  },
+  {
+    "start": 248.0,
+    "duration": 7.68,
+    "text": "we did this pattern in kunal's boot camp okay  so repeat after me given range from 1 to n"
+  },
+  {
+    "start": 255.68,
+    "duration": 5.44,
+    "text": "what do we have to do cyclic sort okay  let's see how we can do cyclic sort"
+  },
+  {
+    "start": 264.48,
+    "duration": 5.36,
+    "text": "so algorithm let's say we check the  algorithm like how we are running this"
+  },
+  {
+    "start": 270.56,
+    "duration": 9.6,
+    "text": "so we say something like this only we  say we have something like 3 5 2 1 4."
+  },
+  {
+    "start": 281.12,
+    "duration": 6.0,
+    "text": "okay these are the index values  0 1 2 3 4 something like this"
+  },
+  {
+    "start": 288.72,
+    "duration": 5.68,
+    "text": "now what do we need to do how do we do cyclic  sort it's a good question so the idea is that"
+  },
+  {
+    "start": 294.4,
+    "duration": 7.36,
+    "text": "we know that the array contains numbers from  1 to n only we know that okay so imagine"
+  },
+  {
+    "start": 301.76,
+    "duration": 6.0,
+    "text": "what is this is very important we are trying to  explain what is cyclic sort and how it works given"
+  },
+  {
+    "start": 309.04,
+    "duration": 3.52,
+    "text": "given that numbers in the array  are going to be from 1 to n only"
+  },
+  {
+    "start": 312.56,
+    "duration": 5.2,
+    "text": "at here let's say n is equal to 5 so  numbers are from 1 to 5 but they are jumbled"
+  },
+  {
+    "start": 318.32,
+    "duration": 9.2,
+    "text": "okay imagine in the ideal world when the array is  sorted okay when the array is sorted in that case"
+  },
+  {
+    "start": 328.8,
+    "duration": 5.28,
+    "text": "all the numbers are going to be at their correct  indices okay all the numbers are going to be"
+  },
+  {
+    "start": 334.08,
+    "duration": 5.68,
+    "text": "at their correct indices and what are those  indexes going to be let's say if i sort this"
+  },
+  {
+    "start": 342.08,
+    "duration": 2.4,
+    "text": "let's say after sorting it becomes what"
+  },
+  {
+    "start": 346.72,
+    "duration": 2.48,
+    "text": "after sorting it becomes obviously this"
+  },
+  {
+    "start": 350.96,
+    "duration": 5.12,
+    "text": "and index becomes what index is like  this so you can see that after sorting"
+  },
+  {
+    "start": 358.96,
+    "duration": 2.32,
+    "text": "index is actually equal to"
+  },
+  {
+    "start": 363.68,
+    "duration": 4.64,
+    "text": "value minus 1 that is correct  index is 2 it will contain 3"
+  },
+  {
+    "start": 370.8,
+    "duration": 5.52,
+    "text": "value minus 1 yeah if in if the value is  2 it will be at index value minus 1 means"
+  },
+  {
+    "start": 376.32,
+    "duration": 6.88,
+    "text": "1 if the value is 5 it will be at index  5 minus 1 4 why because it starts from 0"
+  },
+  {
+    "start": 384.96,
+    "duration": 4.88,
+    "text": "because index starts from 0 this is very  simple no explanation is needed because it's"
+  },
+  {
+    "start": 389.84,
+    "duration": 4.8,
+    "text": "right in front of your eyes in the sorted  array every element will be at the index"
+  },
+  {
+    "start": 395.2,
+    "duration": 5.92,
+    "text": "that index value will be element -1  why because index value starts from 0"
+  },
+  {
+    "start": 404.96,
+    "duration": 6.56,
+    "text": "and we are given elements from 1  till n that is given to us okay"
+  },
+  {
+    "start": 412.16,
+    "duration": 5.04,
+    "text": "now the question is how do we sort this it's  a good question so this is a good point so the"
+  },
+  {
+    "start": 417.2,
+    "duration": 4.48,
+    "text": "point to be noted is this thing this is a very  important point using this we will sort this"
+  },
+  {
+    "start": 421.68,
+    "duration": 6.64,
+    "text": "particular array in just one pass we have to  sort in just one single pass i have to sort so"
+  },
+  {
+    "start": 428.32,
+    "duration": 7.52,
+    "text": "i'm going to start from the very beginning i'm  going to start from the very beginning 35214"
+  },
+  {
+    "start": 440.96,
+    "duration": 4.88,
+    "text": "one two three four so i'm going to  start from the very beginning from here"
+  },
+  {
+    "start": 445.84,
+    "duration": 5.44,
+    "text": "i'm going to check hey is 3 at the correct  index you tell me where should three be"
+  },
+  {
+    "start": 452.96,
+    "duration": 6.48,
+    "text": "if the in element contains from one to n an index  is starting from zero three should be at what"
+  },
+  {
+    "start": 459.44,
+    "duration": 5.84,
+    "text": "index three minus one it should be at index number  two it's going to be like no it is not at the"
+  },
+  {
+    "start": 465.28,
+    "duration": 7.36,
+    "text": "correct index it is not swap it with the correct  index directly swap it with the correct index swap"
+  },
+  {
+    "start": 474.72,
+    "duration": 0.8,
+    "text": "it will become what"
+  },
+  {
+    "start": 477.76,
+    "duration": 6.56,
+    "text": "two five three one four again i will be still  over here because it might be possible that"
+  },
+  {
+    "start": 484.32,
+    "duration": 5.6,
+    "text": "what you have swapped it we know that we  have swapped three to the correct position"
+  },
+  {
+    "start": 489.92,
+    "duration": 4.96,
+    "text": "but we do not know whether the other  number that came to the position of 3"
+  },
+  {
+    "start": 494.88,
+    "duration": 2.56,
+    "text": "if that is also in the correct  position or not we don't know that"
+  },
+  {
+    "start": 498.0,
+    "duration": 4.72,
+    "text": "so we are going to check again is 2 in the correct  position it's going to be like no it's not 2"
+  },
+  {
+    "start": 502.72,
+    "duration": 4.32,
+    "text": "should be at index number 1 but it's at index  number zero okay swap it with index number one"
+  },
+  {
+    "start": 509.2,
+    "duration": 2.32,
+    "text": "swap with index two"
+  },
+  {
+    "start": 514.4,
+    "duration": 10.08,
+    "text": "swap with index one so it will become something  like five two three one four after that it's"
+  },
+  {
+    "start": 524.48,
+    "duration": 6.32,
+    "text": "going to be like uh i have swapped this it may be  possible that what i have swapped in place of two"
+  },
+  {
+    "start": 530.8,
+    "duration": 3.36,
+    "text": "might not be at the correct index hence i  cannot move forward i will check for this again"
+  },
+  {
+    "start": 534.72,
+    "duration": 4.32,
+    "text": "is 5 at the correct index it's going to be like  no it's not ok swap it with the correct index"
+  },
+  {
+    "start": 539.04,
+    "duration": 2.24,
+    "text": "so 5's correct index will be 4 which is"
+  },
+  {
+    "start": 543.6,
+    "duration": 8.88,
+    "text": "this one so swap with 4 it will become what it  will become four two three one five again i'll"
+  },
+  {
+    "start": 552.48,
+    "duration": 5.68,
+    "text": "be at four over here so i'm like it's four  at the correct index it's gonna be like uh"
+  },
+  {
+    "start": 558.16,
+    "duration": 4.16,
+    "text": "no it's not okay put it at the correct index  now what is the correct index for four three"
+  },
+  {
+    "start": 564.64,
+    "duration": 5.04,
+    "text": "so it's going to swap it it's gonna  be like swap this this will come one"
+  },
+  {
+    "start": 569.68,
+    "duration": 5.36,
+    "text": "two three four five now it's gonna be like  is one at the correct index it's gonna be"
+  },
+  {
+    "start": 575.04,
+    "duration": 4.08,
+    "text": "like yes it is okay then move forward it's  two at the correct index yes it is okay then"
+  },
+  {
+    "start": 579.12,
+    "duration": 4.08,
+    "text": "move forward is three at the correct index  yes it is is four at the correct index yes"
+  },
+  {
+    "start": 583.2,
+    "duration": 7.28,
+    "text": "it is it's five at the correct index yes  it is loop over answer as simple as that"
+  },
+  {
+    "start": 592.56,
+    "duration": 5.44,
+    "text": "we know that every unique item is only getting  swapped once okay let's talk about the number of"
+  },
+  {
+    "start": 598.0,
+    "duration": 5.44,
+    "text": "you know comparisons that it's going to make so  we are not incrementing i when we are swapping"
+  },
+  {
+    "start": 603.44,
+    "duration": 6.4,
+    "text": "the numbers okay so it might result in more than  any iterations of the loop okay but let's check"
+  },
+  {
+    "start": 609.84,
+    "duration": 5.92,
+    "text": "in the worst case how many swaps is it going  to make how many swaps is it going to make"
+  },
+  {
+    "start": 617.2,
+    "duration": 6.4,
+    "text": "so the while loop as we know to put it at the  correct index total n minus one numbers of swap"
+  },
+  {
+    "start": 623.6,
+    "duration": 7.92,
+    "text": "are need to be made okay that is true that is true  in the worst case because uh uh in the simulator"
+  },
+  {
+    "start": 631.52,
+    "duration": 3.68,
+    "text": "in the bubble case also we were making n minus one  swap if just one number is remaining why would we"
+  },
+  {
+    "start": 635.2,
+    "duration": 6.24,
+    "text": "put it at like from where are we going to compare  this if n minus one numbers are so basically what"
+  },
+  {
+    "start": 641.44,
+    "duration": 5.84,
+    "text": "i'm saying is y n minus one swaps think about it  if n minus one numbers are at the correct index"
+  },
+  {
+    "start": 647.28,
+    "duration": 4.48,
+    "text": "from all the n numbers does it not mean that  the last n number is also at the correct index"
+  },
+  {
+    "start": 655.36,
+    "duration": 3.76,
+    "text": "okay and that is what is happening over  here in this example what happened this is"
+  },
+  {
+    "start": 659.12,
+    "duration": 4.48,
+    "text": "like the worst case example okay fun  fact this is the worst case example"
+  },
+  {
+    "start": 669.76,
+    "duration": 6.24,
+    "text": "so in this example what happened you made n minus  1 swaps so n was equal to five you made four swaps"
+  },
+  {
+    "start": 676.88,
+    "duration": 4.24,
+    "text": "one two three and four that  is correct four swaps made"
+  },
+  {
+    "start": 685.68,
+    "duration": 7.2,
+    "text": "plus after that you made how many  other comparisons one two three four"
+  },
+  {
+    "start": 694.32,
+    "duration": 5.28,
+    "text": "okay five comparisons actually so one for this  like is four at the correct is sorry this one"
+  },
+  {
+    "start": 699.6,
+    "duration": 3.92,
+    "text": "so once you did all the swapping and let's say  after that elements are at the correct index"
+  },
+  {
+    "start": 703.52,
+    "duration": 3.76,
+    "text": "and you are still over here then you will come  where is one at the correct index yes it is is"
+  },
+  {
+    "start": 707.28,
+    "duration": 3.6,
+    "text": "two at the correct index yes it is is three  at the correct index yes it is is four at the"
+  },
+  {
+    "start": 710.88,
+    "duration": 6.4,
+    "text": "correct index yes it is five at the correct index  yes it is total n swaps means total 5 swaps made"
+  },
+  {
+    "start": 720.16,
+    "duration": 9.68,
+    "text": "so total how many swaps have been made  in worst case n minus 1 plus n swaps"
+  },
+  {
+    "start": 730.64,
+    "duration": 8.4,
+    "text": "which is equal to 2 n minus 1 swaps in worst case  and i know that in time complexity we ignore the"
+  },
+  {
+    "start": 739.04,
+    "duration": 6.08,
+    "text": "constants hence this is big o of n linear what is  bigger notation we will cover in time complexity"
+  },
+  {
+    "start": 745.12,
+    "duration": 5.84,
+    "text": "for now it is going to make at max 2 and 2n minus  1 swap you already know about time complexity"
+  },
+  {
+    "start": 750.96,
+    "duration": 4.24,
+    "text": "because i covered this uh in little you know brief  and a little bit more detail in binary search"
+  },
+  {
+    "start": 755.2,
+    "duration": 3.84,
+    "text": "lecture so you already know what i mean by swap  and how that affects the time and everything you"
+  },
+  {
+    "start": 759.04,
+    "duration": 3.84,
+    "text": "know that we have covered this in binary search  if you haven't watched binary search watch it"
+  },
+  {
+    "start": 763.52,
+    "duration": 2.64,
+    "text": "i hope you are able to understand in  worst case how many swaps it's making"
+  },
+  {
+    "start": 766.72,
+    "duration": 4.96,
+    "text": "all right and that's how we swap it let's try to  code this that's it with this algorithm let's try"
+  },
+  {
+    "start": 771.68,
+    "duration": 5.44,
+    "text": "to code this after that we will be doing lots  of questions of amazon and google by the way if"
+  },
+  {
+    "start": 777.12,
+    "duration": 3.92,
+    "text": "you liked it uh make sure you like pause this  video give it a comment that is the best way"
+  },
+  {
+    "start": 781.04,
+    "duration": 5.12,
+    "text": "to you know support join the learning in public  initiative so share your learnings on socials"
+  },
+  {
+    "start": 786.16,
+    "duration": 5.68,
+    "text": "uh on twitter use the hashtag dsa with kunal and  tag community classroom tag me uh share the good"
+  },
+  {
+    "start": 791.84,
+    "duration": 4.24,
+    "text": "work that you do share the lead code profiles  that you you know are achieving so many green"
+  },
+  {
+    "start": 796.08,
+    "duration": 5.04,
+    "text": "green stars i see so many people you know doing  some nice questions i will i will update the"
+  },
+  {
+    "start": 801.12,
+    "duration": 5.04,
+    "text": "you know uh the assignments for this as well so  if you're new we also do assignments and code"
+  },
+  {
+    "start": 806.16,
+    "duration": 2.96,
+    "text": "and everything notes and everything links are  in the description there's a github link you"
+  },
+  {
+    "start": 809.12,
+    "duration": 4.56,
+    "text": "can find everything there so yeah if you want to  support the good initiative make sure you um you"
+  },
+  {
+    "start": 813.68,
+    "duration": 4.64,
+    "text": "know share about the work you do like it right now  comment after the video is over if you liked it or"
+  },
+  {
+    "start": 818.32,
+    "duration": 5.04,
+    "text": "you can comment right now as well that would never  mean a lot and that's gonna help future people get"
+  },
+  {
+    "start": 823.36,
+    "duration": 4.48,
+    "text": "these videos discovered there's been a lot of you  know clickbaits and stuff and i will show you in"
+  },
+  {
+    "start": 827.84,
+    "duration": 5.28,
+    "text": "this video amazon interview questions we'll be  doing like four or five or something it's nothing"
+  },
+  {
+    "start": 834.0,
+    "duration": 4.72,
+    "text": "literally copy pasting this code it will solve all  the amazon questions that you know all the four or"
+  },
+  {
+    "start": 838.72,
+    "duration": 5.76,
+    "text": "five even lead code hard questions i promised  you this he could hard is nothing he's like"
+  },
+  {
+    "start": 844.48,
+    "duration": 5.84,
+    "text": "you can only make it and to amazon with compared  problems it's like very very naive thing these"
+  },
+  {
+    "start": 850.32,
+    "duration": 5.76,
+    "text": "people don't know what they're talking about and  students ruin their career by just doing cp you"
+  },
+  {
+    "start": 856.08,
+    "duration": 5.2,
+    "text": "don't need cp for this that is the reason you know  amazon india is like the pay is like very average"
+  },
+  {
+    "start": 861.28,
+    "duration": 3.68,
+    "text": "i don't know what the hype is about and that's  what i'm trying to explain there is no hype"
+  },
+  {
+    "start": 865.6,
+    "duration": 5.12,
+    "text": "it's great companies but youtubers have overhyped  this and in this video i'll show you will clear"
+  },
+  {
+    "start": 870.72,
+    "duration": 5.28,
+    "text": "these interviews like this there's nothing lit  literally nothing okay so let's let's look into"
+  },
+  {
+    "start": 876.0,
+    "duration": 3.12,
+    "text": "it let's look at the code base and please make  sure you show the support okay so i'm going to"
+  },
+  {
+    "start": 879.12,
+    "duration": 9.84,
+    "text": "make a new file over here a new java class i'm  going to call it cyclic sort that looks good"
+  },
+  {
+    "start": 892.72,
+    "duration": 7.92,
+    "text": "okay let's do it so over here you can see we are  starting with the very first index and then we are"
+  },
+  {
+    "start": 900.64,
+    "duration": 5.12,
+    "text": "putting it at the correct index then doing it  again we will only move the i pointer let's say"
+  },
+  {
+    "start": 905.76,
+    "duration": 5.44,
+    "text": "this was i over here this blue circle represents  i we will only move i forward when i is at the"
+  },
+  {
+    "start": 911.2,
+    "duration": 6.96,
+    "text": "correct index that's it only three things you  need to do start looping from i put it at the"
+  },
+  {
+    "start": 918.16,
+    "duration": 8.08,
+    "text": "correct index only move i in the beginning when i  is at the correct index that's it check swap move"
+  },
+  {
+    "start": 926.24,
+    "duration": 6.0,
+    "text": "check swap move check swap move that's it till  you reach at the end of the index pause this"
+  },
+  {
+    "start": 932.24,
+    "duration": 6.48,
+    "text": "video do it yourself it's very simple five lines  of code only this is nothing okay literally the"
+  },
+  {
+    "start": 938.72,
+    "duration": 6.64,
+    "text": "amazon interview question is also five line  like this this is nothing okay even the hard"
+  },
+  {
+    "start": 945.36,
+    "duration": 5.36,
+    "text": "questions will do lead code hard questions like  this all right the intuition and the problem"
+  },
+  {
+    "start": 950.72,
+    "duration": 5.28,
+    "text": "solving skills are important these are like very  you know in hindi if i say in interview problems"
+  },
+  {
+    "start": 961.12,
+    "duration": 12.72,
+    "text": "all right let's move forward um so i can say sort  and say static uh cyclic sort or i can just say"
+  },
+  {
+    "start": 973.84,
+    "duration": 6.96,
+    "text": "sort because the name is already you know you can  say array oh it's not returning anything so void"
+  },
+  {
+    "start": 981.44,
+    "duration": 5.36,
+    "text": "and that looks good i'm going to have an index  pointer i so i'm going to say i is equal to 0"
+  },
+  {
+    "start": 986.8,
+    "duration": 5.28,
+    "text": "and while this i is you know less than the  nums like the the length of the my numbers"
+  },
+  {
+    "start": 992.08,
+    "duration": 5.28,
+    "text": "so i can say while my i is less than like it's not  till the end of the array array.length what do i"
+  },
+  {
+    "start": 997.36,
+    "duration": 5.04,
+    "text": "need to do check check whether this is at the  correct index or not check whether this is at"
+  },
+  {
+    "start": 1002.4,
+    "duration": 9.36,
+    "text": "the correct index or not in correct index should  be what should be what if i am checking for three"
+  },
+  {
+    "start": 1011.76,
+    "duration": 5.92,
+    "text": "what should be the correct index of three  three minus one so element at i minus one"
+  },
+  {
+    "start": 1019.04,
+    "duration": 7.52,
+    "text": "okay this should be the correct index now you need  to check whether this index is equal to i or not"
+  },
+  {
+    "start": 1027.12,
+    "duration": 6.72,
+    "text": "if it is not equal to i is 3 at the  correct index 2 no 3 is at 0 swap 2 and 0"
+  },
+  {
+    "start": 1034.72,
+    "duration": 8.24,
+    "text": "very simple if the correct index uh sorry if  the number at the correct index so i can say um"
+  },
+  {
+    "start": 1044.8,
+    "duration": 7.28,
+    "text": "you know if the if the num sorry  array of my i is not equal to"
+  },
+  {
+    "start": 1057.44,
+    "duration": 3.04,
+    "text": "is not equal to the element at the correct index"
+  },
+  {
+    "start": 1061.36,
+    "duration": 4.88,
+    "text": "element at the correct index in  that case what do i do i swap"
+  },
+  {
+    "start": 1068.32,
+    "duration": 8.8,
+    "text": "array i comma correct so for example here it will  say is the element at i equal to the element at"
+  },
+  {
+    "start": 1077.12,
+    "duration": 5.68,
+    "text": "like let's say the correct index so it's going  to be like the element at i is equal to what 3 is"
+  },
+  {
+    "start": 1082.8,
+    "duration": 6.16,
+    "text": "this equal to the element at 2 element at 2 also  should be 3 it's going to be like no element at 2"
+  },
+  {
+    "start": 1088.96,
+    "duration": 5.84,
+    "text": "is 2 it's going to be like oh that will not work  swap it similarly for this element at i is equal"
+  },
+  {
+    "start": 1094.8,
+    "duration": 6.24,
+    "text": "to two and uh it's going to be like at element of  one which is uh two minus one which is over here"
+  },
+  {
+    "start": 1101.04,
+    "duration": 4.24,
+    "text": "the correct index is that the correct index what  does it contain it's gonna be like it contains"
+  },
+  {
+    "start": 1105.28,
+    "duration": 7.28,
+    "text": "five no no no no swap it that is not working for  example in this one let's say this is one index"
+  },
+  {
+    "start": 1112.56,
+    "duration": 5.2,
+    "text": "so it's going to be like element at i is equal  to what 2 element at correct is equal to what"
+  },
+  {
+    "start": 1117.76,
+    "duration": 8.24,
+    "text": "2 minus 1 2 hence it will not swap it will  move ahead okay swap otherwise move ahead"
+  },
+  {
+    "start": 1127.52,
+    "duration": 8.72,
+    "text": "that is it let's create the swap function so  i'm going to say static void swap index first"
+  },
+  {
+    "start": 1137.12,
+    "duration": 5.44,
+    "text": "comma second this is something we have  done before already temp is equal to"
+  },
+  {
+    "start": 1145.28,
+    "duration": 9.44,
+    "text": "array of first array of first is equal to array  of second array of second there's something we've"
+  },
+  {
+    "start": 1154.72,
+    "duration": 5.44,
+    "text": "done before if you don't know what this is check  out the arrays lecture that is it uh let's try to"
+  },
+  {
+    "start": 1161.28,
+    "duration": 8.72,
+    "text": "fix this let me give something like this only  what did we have we had three five two one four"
+  },
+  {
+    "start": 1170.0,
+    "duration": 6.0,
+    "text": "notice it should be in range of one till n three  five two one four um it can also be range from"
+  },
+  {
+    "start": 1176.0,
+    "duration": 5.2,
+    "text": "zero to n minus one okay totally fine but it  has to be like a continuous continuous one okay"
+  },
+  {
+    "start": 1183.76,
+    "duration": 0.4,
+    "text": "all right"
+  },
+  {
+    "start": 1188.48,
+    "duration": 3.36,
+    "text": "i'm just going to say sort this array"
+  },
+  {
+    "start": 1194.16,
+    "duration": 1.84,
+    "text": "and just i'm going to print the array"
+  },
+  {
+    "start": 1197.36,
+    "duration": 4.4,
+    "text": "arrays.tostring and everything already covered  internal details will be covered in hope"
+  },
+  {
+    "start": 1202.56,
+    "duration": 4.16,
+    "text": "at his lecture we already covered all these  things should you give me one two three four five"
+  },
+  {
+    "start": 1208.72,
+    "duration": 4.0,
+    "text": "one two three four five let's try to  sort it in ascending or descending"
+  },
+  {
+    "start": 1214.0,
+    "duration": 1.52,
+    "text": "should give me one two three four five again"
+  },
+  {
+    "start": 1218.56,
+    "duration": 1.28,
+    "text": "one two three four five"
+  },
+  {
+    "start": 1221.92,
+    "duration": 4.32,
+    "text": "basic stuff nothing new over here this  can be ignored only was is nothing"
+  },
+  {
+    "start": 1226.8,
+    "duration": 3.6,
+    "text": "already know this main thing is this only how much"
+  },
+  {
+    "start": 1230.4,
+    "duration": 6.88,
+    "text": "one two three four five six six lines of  code only six seven lines of code that's it"
+  },
+  {
+    "start": 1238.56,
+    "duration": 4.4,
+    "text": "main algorithm is like six six lines of  code only two three four five six that's it"
+  },
+  {
+    "start": 1244.8,
+    "duration": 5.2,
+    "text": "nothing nothing going on here that's it via  this approach you will be solving amazon"
+  },
+  {
+    "start": 1250.0,
+    "duration": 4.64,
+    "text": "google questions now because they ask a  lot of questions from cyclic sort okay"
+  },
+  {
+    "start": 1254.64,
+    "duration": 7.04,
+    "text": "so when given and so again when you're given  like you know arrays from index from one till n"
+  },
+  {
+    "start": 1261.68,
+    "duration": 4.96,
+    "text": "are they given like continuous elements which  is something we'll be doing in this section also"
+  },
+  {
+    "start": 1266.64,
+    "duration": 4.96,
+    "text": "okay now let's look at the question  of amazon this was asked in amazon"
+  },
+  {
+    "start": 1271.6,
+    "duration": 4.72,
+    "text": "um so the question is missing number so the  question states let me zoom in a little bit"
+  },
+  {
+    "start": 1277.04,
+    "duration": 5.04,
+    "text": "that you are given an array numbers containing  n distinct numbers in the range from 0 to n"
+  },
+  {
+    "start": 1283.84,
+    "duration": 6.0,
+    "text": "by reading this line it should click in  your mind what do we need to do cyclic sort"
+  },
+  {
+    "start": 1291.2,
+    "duration": 4.56,
+    "text": "cyclic sort you can do it otherwise as well it  will take otherwise it will take something like"
+  },
+  {
+    "start": 1295.76,
+    "duration": 4.0,
+    "text": "n square if you know about hash maps you can  use something like a hash map or create another"
+  },
+  {
+    "start": 1299.76,
+    "duration": 6.08,
+    "text": "array or whatever you can do it in ofn but it will  take extra space okay but you you say you only you"
+  },
+  {
+    "start": 1305.84,
+    "duration": 5.04,
+    "text": "you don't need to take any extra space only like  constant space complexity and often both of these"
+  },
+  {
+    "start": 1310.88,
+    "duration": 7.28,
+    "text": "things are offered by what these three things are  hint one hint two hint three hints cyclic sort"
+  },
+  {
+    "start": 1318.16,
+    "duration": 4.88,
+    "text": "okay so this particular thing is not even required  only you don't even have to look at this thing"
+  },
+  {
+    "start": 1323.04,
+    "duration": 5.2,
+    "text": "just this line gives you enough hints that you  have to use cyclic sort now is the question it"
+  },
+  {
+    "start": 1328.24,
+    "duration": 5.36,
+    "text": "says you're given n numbers from range 0 to n okay  that's fine return the only number that is missing"
+  },
+  {
+    "start": 1333.6,
+    "duration": 4.8,
+    "text": "from that range okay in this case let's say n is  equal to 3 so what are all the numbers from 0 to n"
+  },
+  {
+    "start": 1338.4,
+    "duration": 7.6,
+    "text": "0 till 3 0 1 2 3 4 numbers so 0 1 2 3 are  4 numbers 0 1 2 3 which one is missing from"
+  },
+  {
+    "start": 1346.0,
+    "duration": 5.68,
+    "text": "this 2 is missing correct that's fine in this  case n is equal to 2 so number should be 0 1 2"
+  },
+  {
+    "start": 1352.48,
+    "duration": 2.88,
+    "text": "here we only have 0 and 1 which  number is missing 2 is missing"
+  },
+  {
+    "start": 1355.92,
+    "duration": 6.88,
+    "text": "here n is equal to 9 so the number should be  0 1 2 3 four five six seven eight nine and all"
+  },
+  {
+    "start": 1362.8,
+    "duration": 5.84,
+    "text": "the numbers are here but eight is missing you have  to find that pause this video try it out yourself"
+  },
+  {
+    "start": 1368.64,
+    "duration": 5.36,
+    "text": "and then we'll come back to the solution okay  i hope you were able to do it but let's try it"
+  },
+  {
+    "start": 1375.6,
+    "duration": 6.16,
+    "text": "so the question is this one question number  one so the question states you're given"
+  },
+  {
+    "start": 1384.24,
+    "duration": 0.48,
+    "text": "numbers"
+  },
+  {
+    "start": 1387.36,
+    "duration": 5.92,
+    "text": "from 0 till n so this means that total"
+  },
+  {
+    "start": 1395.36,
+    "duration": 1.92,
+    "text": "there will be"
+  },
+  {
+    "start": 1399.2,
+    "duration": 7.84,
+    "text": "n plus 1 numbers okay that is something we know  so total there will be n plus one numbers um"
+  },
+  {
+    "start": 1410.64,
+    "duration": 4.72,
+    "text": "okay so let's take an example that's fine you  can take an example so example can be something"
+  },
+  {
+    "start": 1415.36,
+    "duration": 8.64,
+    "text": "like um you're given let's say n is equal to 4  and you're given the array something like this"
+  },
+  {
+    "start": 1426.08,
+    "duration": 3.28,
+    "text": "you're given something like 4 zero"
+  },
+  {
+    "start": 1437.76,
+    "duration": 9.28,
+    "text": "two and one okay number is four then you should be  having what zero one two three four this is what"
+  },
+  {
+    "start": 1447.04,
+    "duration": 7.28,
+    "text": "you should be having and we have four zero two one  three is missing how do we find that cyclic sort"
+  },
+  {
+    "start": 1455.68,
+    "duration": 4.32,
+    "text": "before thinking like how to at least  get started right in the interview also"
+  },
+  {
+    "start": 1460.0,
+    "duration": 3.68,
+    "text": "you should think out loud you  should brainstorm try various things"
+  },
+  {
+    "start": 1463.68,
+    "duration": 4.8,
+    "text": "and these problem solving abilities will actually  be able to get you the answer right now you may"
+  },
+  {
+    "start": 1468.48,
+    "duration": 4.64,
+    "text": "not know how we are going to solve it but  the important point is you know how to start"
+  },
+  {
+    "start": 1475.36,
+    "duration": 5.04,
+    "text": "right amazon question this is an amazon question  it's like very basic it's literally copy pasting"
+  },
+  {
+    "start": 1480.4,
+    "duration": 4.56,
+    "text": "our previous solution okay let's see how we can  do this only difference is here we're taking 0 to"
+  },
+  {
+    "start": 1484.96,
+    "duration": 6.8,
+    "text": "n it's not going to change anything no what is  the difference going to be the only difference"
+  },
+  {
+    "start": 1491.76,
+    "duration": 6.32,
+    "text": "is going to be that in the previous section  every index was at value minus 1. here every"
+  },
+  {
+    "start": 1498.08,
+    "duration": 6.0,
+    "text": "index will act will it will act be will be at its  own index okay so in the sorted here you can see"
+  },
+  {
+    "start": 1507.04,
+    "duration": 6.8,
+    "text": "here you can see that in sorted version"
+  },
+  {
+    "start": 1516.96,
+    "duration": 8.48,
+    "text": "element is actually equal to equal to the  index that is true because if i have 0 1 2 3"
+  },
+  {
+    "start": 1525.44,
+    "duration": 6.48,
+    "text": "4 index will be what 0 1 2 3 4. previously  we were checking element minus 1 now we're"
+  },
+  {
+    "start": 1531.92,
+    "duration": 4.48,
+    "text": "just going to check equal to equal to  element let's try to solve this 4 0 2 1"
+  },
+  {
+    "start": 1539.44,
+    "duration": 2.8,
+    "text": "4 0 2 1"
+  },
+  {
+    "start": 1545.2,
+    "duration": 4.32,
+    "text": "so i mentioned that in the original sorted array  like if this array is sorted 0 will be at the"
+  },
+  {
+    "start": 1549.52,
+    "duration": 6.64,
+    "text": "zeroth index 2 will be at the 2 index 1 will be  at index number 1 3 is missing so what about 4"
+  },
+  {
+    "start": 1557.04,
+    "duration": 7.44,
+    "text": "you're gonna be like hey kunal index 4  does not exist index 4 does not exist"
+  },
+  {
+    "start": 1565.52,
+    "duration": 8.72,
+    "text": "means index number n does not exist ignore it  whenever you find index n ignore it because you"
+  },
+  {
+    "start": 1574.24,
+    "duration": 7.52,
+    "text": "cannot put it in the array just ignore it okay  cool so we are going to say i is starting from"
+  },
+  {
+    "start": 1581.76,
+    "duration": 7.2,
+    "text": "here it's gonna say it's equal to n so you cannot  put it anywhere move forward then i will start"
+  },
+  {
+    "start": 1588.96,
+    "duration": 5.44,
+    "text": "from here is zero at the correct index no it's  not okay then put it at the correct index means"
+  },
+  {
+    "start": 1596.96,
+    "duration": 6.4,
+    "text": "put it at the correct index means this one  swap this will become zero four two one it's"
+  },
+  {
+    "start": 1603.36,
+    "duration": 6.72,
+    "text": "gonna check for this again this is uh n so  ignore this i will be at two is two at the"
+  },
+  {
+    "start": 1610.08,
+    "duration": 6.0,
+    "text": "correct index yes it is okay move forward is  one at the correct index no it's not swap it"
+  },
+  {
+    "start": 1619.68,
+    "duration": 6.64,
+    "text": "swap it with index number one this will  become what this will become zero one 2 4"
+  },
+  {
+    "start": 1628.4,
+    "duration": 2.4,
+    "text": "that's it now it will check for this one let's say"
+  },
+  {
+    "start": 1631.76,
+    "duration": 8.08,
+    "text": "this one it's going to be like it's n  ignore this and then loop over answer"
+  },
+  {
+    "start": 1641.68,
+    "duration": 6.4,
+    "text": "okay now the question number two is okay kunal  that is fine but from this how can we find the"
+  },
+  {
+    "start": 1650.8,
+    "duration": 4.72,
+    "text": "missing number you tell me if this is the answer  if this is a sorted answer that we have this is"
+  },
+  {
+    "start": 1655.52,
+    "duration": 7.12,
+    "text": "the indices how do we find the correct answer  start searching from the start the first index"
+  },
+  {
+    "start": 1662.64,
+    "duration": 6.72,
+    "text": "that you find that is not having the required  number at that index that is your answer does"
+  },
+  {
+    "start": 1669.36,
+    "duration": 5.04,
+    "text": "zero contain zero yes it does does one contain  one yes it does does index number two containing"
+  },
+  {
+    "start": 1674.4,
+    "duration": 7.44,
+    "text": "contain two yes it does does index number three  contain three no it does not this is the answer"
+  },
+  {
+    "start": 1687.28,
+    "duration": 0.48,
+    "text": "that's it"
+  },
+  {
+    "start": 1690.64,
+    "duration": 5.2,
+    "text": "as simple as it can get"
+  },
+  {
+    "start": 1697.12,
+    "duration": 4.32,
+    "text": "okay what will be the other case  case number two will be when"
+  },
+  {
+    "start": 1701.44,
+    "duration": 2.96,
+    "text": "n is not available in the array case two"
+  },
+  {
+    "start": 1708.48,
+    "duration": 1.36,
+    "text": "when n is not there in the array"
+  },
+  {
+    "start": 1718.64,
+    "duration": 4.96,
+    "text": "for example you're given something like array  is equal to for n is equal to 4 you're given"
+  },
+  {
+    "start": 1723.6,
+    "duration": 8.56,
+    "text": "something like 1 0 3 2 after sorting this  will become what this will become 0 1 2 3"
+  },
+  {
+    "start": 1733.12,
+    "duration": 6.24,
+    "text": "sorted array then it's going to check if 0 has at  the correct index 0 yes it does is the collect is"
+  },
+  {
+    "start": 1739.36,
+    "duration": 5.04,
+    "text": "the element at index number 1 1 yes it is is the  element index number 2 2 yes it is is the element"
+  },
+  {
+    "start": 1744.4,
+    "duration": 4.72,
+    "text": "is in this number 3 3 yes it is then what is  the answer in this case answer is equal to n"
+  },
+  {
+    "start": 1751.04,
+    "duration": 1.44,
+    "text": "those are the two cases that's it"
+  },
+  {
+    "start": 1755.84,
+    "duration": 4.64,
+    "text": "that's it is this really any different than what  we have done already just need to run one extra"
+  },
+  {
+    "start": 1760.48,
+    "duration": 5.76,
+    "text": "loop cyclic sort of n complexity space complexity  uh constant because we're not making any new area"
+  },
+  {
+    "start": 1766.24,
+    "duration": 4.8,
+    "text": "or whatever changing in the original array we'll  cover in detail what is space complexity and stuff"
+  },
+  {
+    "start": 1771.92,
+    "duration": 3.44,
+    "text": "is this really an amazon like type question  like that you need to be worried about"
+  },
+  {
+    "start": 1775.92,
+    "duration": 6.56,
+    "text": "are these the sort of questions you need to  be overhyped about no very simple let's try"
+  },
+  {
+    "start": 1782.48,
+    "duration": 4.56,
+    "text": "to code this pause this video code it yourself  try to submit it on lead code but i'll still"
+  },
+  {
+    "start": 1787.04,
+    "duration": 11.36,
+    "text": "do it all right okay i'm just going to copy  paste delete code one java this one copy paste"
+  },
+  {
+    "start": 1800.0,
+    "duration": 5.52,
+    "text": "i'm gonna create oh by the way one more thing  i want to show if you copy a code a java code"
+  },
+  {
+    "start": 1805.52,
+    "duration": 6.72,
+    "text": "and you directly do paste over here it will  create that file it created the solution class"
+  },
+  {
+    "start": 1813.04,
+    "duration": 6.48,
+    "text": "again you copy this entire class code not just  from lead code from anywhere copy this okay"
+  },
+  {
+    "start": 1820.24,
+    "duration": 4.56,
+    "text": "when you do a paste over here  paste it will create that class"
+  },
+  {
+    "start": 1828.0,
+    "duration": 4.16,
+    "text": "created that i'm going to  refractor this to something like"
+  },
+  {
+    "start": 1834.8,
+    "duration": 1.04,
+    "text": "missing number"
+  },
+  {
+    "start": 1838.08,
+    "duration": 5.36,
+    "text": "that's the question copy paste"
+  },
+  {
+    "start": 1845.84,
+    "duration": 4.96,
+    "text": "amazon question i'm going  to copy this entire thing"
+  },
+  {
+    "start": 1857.68,
+    "duration": 4.08,
+    "text": "paste it over here i'm going to say public in"
+  },
+  {
+    "start": 1861.76,
+    "duration": 4.64,
+    "text": "missing number because i have to  return the missing number that is cool"
+  },
+  {
+    "start": 1872.96,
+    "duration": 4.56,
+    "text": "all right why am i doing static what is static  and everything we'll do it in object-oriented"
+  },
+  {
+    "start": 1877.52,
+    "duration": 4.56,
+    "text": "programming okay don't worry about it okay so why  we are using stat why we are not using static here"
+  },
+  {
+    "start": 1882.08,
+    "duration": 4.24,
+    "text": "why we do view static when we use local  programs that is covered in object-oriented"
+  },
+  {
+    "start": 1886.32,
+    "duration": 4.32,
+    "text": "programming don't worry much about it for now  focus on algorithm so here it's just saying"
+  },
+  {
+    "start": 1890.64,
+    "duration": 6.08,
+    "text": "that where's my good notes so here it's saying  that do the same thing swap swap and whatever"
+  },
+  {
+    "start": 1897.36,
+    "duration": 8.96,
+    "text": "um only thing is skip the n so if in the array  you have n then you need to skip it for example"
+  },
+  {
+    "start": 1906.32,
+    "duration": 8.4,
+    "text": "if i can say if the element array of you know by  the way here i don't need correct i can just say"
+  },
+  {
+    "start": 1916.96,
+    "duration": 9.84,
+    "text": "this thing if the array at the index number  i you know is if the element over here"
+  },
+  {
+    "start": 1927.6,
+    "duration": 6.24,
+    "text": "only swap and do everything when this element is  actually less than n right what is n array.length"
+  },
+  {
+    "start": 1935.44,
+    "duration": 5.92,
+    "text": "okay so in this case if this contains something  like n then this will not run it will just move"
+  },
+  {
+    "start": 1941.36,
+    "duration": 6.48,
+    "text": "ahead okay this is very simple and this  is going to be saying this is not equal to"
+  },
+  {
+    "start": 1949.04,
+    "duration": 3.68,
+    "text": "this own index that's it own index"
+  },
+  {
+    "start": 1955.76,
+    "duration": 6.08,
+    "text": "okay or if you want me to do correct one so  basically it's like i copy paste it previously"
+  },
+  {
+    "start": 1962.88,
+    "duration": 5.68,
+    "text": "okay let's just do the copy paste one only  the the only thing like now to make it you"
+  },
+  {
+    "start": 1968.56,
+    "duration": 4.4,
+    "text": "know easy to understand let's say we were  taking the correct index let's say element"
+  },
+  {
+    "start": 1972.96,
+    "duration": 4.16,
+    "text": "was equal to let's say 4 then what would  be the correct index of 4 what would it be"
+  },
+  {
+    "start": 1978.0,
+    "duration": 6.72,
+    "text": "4 minus 1 in this case if the element is let's  say 4 what will be the correct index of 4 4"
+  },
+  {
+    "start": 1985.44,
+    "duration": 8.48,
+    "text": "because you're starting from 0 that's it is there  any other change we need to do anything else we"
+  },
+  {
+    "start": 1993.92,
+    "duration": 9.12,
+    "text": "need to do here no that's it then just search  for elements search for first missing number"
+  },
+  {
+    "start": 2003.04,
+    "duration": 5.44,
+    "text": "so i can say for i is equal to zero but sorry  for j is equal to zero uh or i can just say for"
+  },
+  {
+    "start": 2009.28,
+    "duration": 5.6,
+    "text": "index is equal to zero index is less than  array dot length and index plus plus if"
+  },
+  {
+    "start": 2016.4,
+    "duration": 15.44,
+    "text": "the array of index is not equal to index  return index otherwise case number 2 return n"
+  },
+  {
+    "start": 2036.4,
+    "duration": 8.72,
+    "text": "that's it see it's going to say once you're sorted  is is this equal to this is the index uh is the"
+  },
+  {
+    "start": 2045.12,
+    "duration": 6.48,
+    "text": "element at 0 equal to 0 is going to be like yes it  is is the element at 1 equal to 1 yes it is is the"
+  },
+  {
+    "start": 2051.6,
+    "duration": 6.4,
+    "text": "element at 2 equal to 2 yes it is is the element  at 4 equal to 4 no it's not it's equal to 3"
+  },
+  {
+    "start": 2059.52,
+    "duration": 6.96,
+    "text": "all right cool try to debug it as well  but for now let me just paste run code"
+  },
+  {
+    "start": 2069.84,
+    "duration": 4.0,
+    "text": "that works submit"
+  },
+  {
+    "start": 2076.0,
+    "duration": 6.8,
+    "text": "pretty cool uh accepted looks good to me all  right let's try to debug it like how it's"
+  },
+  {
+    "start": 2082.8,
+    "duration": 5.6,
+    "text": "working internally so if i put a debug pointer  here i would have to do public static void main"
+  },
+  {
+    "start": 2093.2,
+    "duration": 3.44,
+    "text": "but i think you're all able to understand  how it's working internally i didn't show"
+  },
+  {
+    "start": 2096.64,
+    "duration": 2.72,
+    "text": "the debug in the previous one so  we can do it in this one no problem"
+  },
+  {
+    "start": 2099.36,
+    "duration": 4.8,
+    "text": "so i can say r a is equal to  let's take this one only we have"
+  },
+  {
+    "start": 2106.72,
+    "duration": 2.72,
+    "text": "what do we have here four zero two one"
+  },
+  {
+    "start": 2111.52,
+    "duration": 9.28,
+    "text": "four zero two and then i'm going to say  print missing number need to add static"
+  },
+  {
+    "start": 2120.8,
+    "duration": 6.0,
+    "text": "over here because you can only  use static from static okay um"
+  },
+  {
+    "start": 2129.6,
+    "duration": 7.44,
+    "text": "static void okay missing  number let's try to debug it"
+  },
+  {
+    "start": 2137.76,
+    "duration": 6.08,
+    "text": "see what we get first thing is  going to do it's going to swap these"
+  },
+  {
+    "start": 2144.72,
+    "duration": 5.92,
+    "text": "let me hide this so array is like this it's going  to start from 0 it's going to be like hey at index"
+  },
+  {
+    "start": 2150.64,
+    "duration": 4.64,
+    "text": "number 0 you have 4 which is equal to n skip  it because 4 cannot be put at the correct index"
+  },
+  {
+    "start": 2155.28,
+    "duration": 4.88,
+    "text": "because that index does not exist array out of  bound exception it's saying so it's going to skip"
+  },
+  {
+    "start": 2160.16,
+    "duration": 7.6,
+    "text": "it i plus plus now i is equal to 1 it's going to  be like hey is 0 at the correct index no it's not"
+  },
+  {
+    "start": 2167.76,
+    "duration": 7.76,
+    "text": "swap 0 with the correct index which is equal  to what zero so it's swapping correct index"
+  },
+  {
+    "start": 2175.52,
+    "duration": 4.32,
+    "text": "zero with the wrong index one swapping so  zero four two one will be the answer now"
+  },
+  {
+    "start": 2181.84,
+    "duration": 9.6,
+    "text": "gonna swap it so seeing 0 4 2 1 and then  it's going to be at uh i is equal to equal to"
+  },
+  {
+    "start": 2192.16,
+    "duration": 4.24,
+    "text": "you know again 1 only because it might be possible  that it's not at the correct index and that is"
+  },
+  {
+    "start": 2196.4,
+    "duration": 5.52,
+    "text": "true it's going to skip 4 again i is equal to 1  again 4 skipped moving ahead i is equal to 2 is"
+  },
+  {
+    "start": 2201.92,
+    "duration": 6.16,
+    "text": "2 at the correct index no it's not uh 2 is 2 at  the correct index yes it is 2 is at the correct"
+  },
+  {
+    "start": 2208.08,
+    "duration": 8.24,
+    "text": "index so it will be like i plus plus is i is equal  to 3 i is equal to 3 contains 1 but 1 is not at"
+  },
+  {
+    "start": 2216.32,
+    "duration": 5.2,
+    "text": "the correct index 1 should be at index number 1 it  will swap index number 3 with 1 that is correct so"
+  },
+  {
+    "start": 2221.52,
+    "duration": 5.04,
+    "text": "correct number correct index is 1 the wrong index  that we are currently at is 3 it will swap 1 with"
+  },
+  {
+    "start": 2227.76,
+    "duration": 4.48,
+    "text": "all right the third index we will have four  so it's gonna be like four is actually array"
+  },
+  {
+    "start": 2232.24,
+    "duration": 5.2,
+    "text": "outer bound so skip it i plus plus our i is now  equal to array.length so it will break the loop"
+  },
+  {
+    "start": 2238.64,
+    "duration": 3.2,
+    "text": "loop is broken now loop is broken array is now"
+  },
+  {
+    "start": 2241.84,
+    "duration": 7.92,
+    "text": "0 1 2 4 0 1 2 4 that is correct now it's going to  check is at element is index number 0 containing 0"
+  },
+  {
+    "start": 2251.2,
+    "duration": 5.44,
+    "text": "is index number 0 containing 0 it's saying yes  it does okay don't do anything is index number"
+  },
+  {
+    "start": 2256.64,
+    "duration": 4.48,
+    "text": "one containing one yes it is don't do anything  if index number two containing two yes it is is"
+  },
+  {
+    "start": 2261.12,
+    "duration": 5.44,
+    "text": "index number three containing three no it does  not hence three is missing return three answer"
+  },
+  {
+    "start": 2269.12,
+    "duration": 6.16,
+    "text": "as simple as it can get amazon question all  right very simple stuff let's look into the next"
+  },
+  {
+    "start": 2275.28,
+    "duration": 4.8,
+    "text": "question now okay let's look at the next question  this was asked in google find all the numbers"
+  },
+  {
+    "start": 2280.08,
+    "duration": 6.08,
+    "text": "that are missing in the array again it's saying  given an array of numbers of n integers where"
+  },
+  {
+    "start": 2286.16,
+    "duration": 6.32,
+    "text": "every number is in the range of 1 to n that's  it cyclic sort that is it so google question"
+  },
+  {
+    "start": 2294.72,
+    "duration": 4.56,
+    "text": "is this anything is this any different than  previous question pause this video think about it"
+  },
+  {
+    "start": 2299.28,
+    "duration": 6.64,
+    "text": "okay now we are back if you already tried it what  do you do cyclic sort all the indices that don't"
+  },
+  {
+    "start": 2305.92,
+    "duration": 7.6,
+    "text": "have the correct index that's your answer so you  have to return all the elements that do not appear"
+  },
+  {
+    "start": 2313.52,
+    "duration": 6.72,
+    "text": "so for example here let's say uh n integers are  given from 1 to n so here in this case let's say"
+  },
+  {
+    "start": 2320.96,
+    "duration": 10.24,
+    "text": "n is equal to what 8 so given numbers 1 2 3 4 5 6  7 8 should be there but 5 and 6 are missing there"
+  },
+  {
+    "start": 2331.2,
+    "duration": 7.92,
+    "text": "are a few duplicate elements what do you do simple  cyclic sort simple cyclic sort elements that are"
+  },
+  {
+    "start": 2339.12,
+    "duration": 4.32,
+    "text": "not at the correct index that's your answer this  is something you can figure out yourself if it's"
+  },
+  {
+    "start": 2343.44,
+    "duration": 5.92,
+    "text": "starting from zero then each element should  have should be at which two things i'm pointing"
+  },
+  {
+    "start": 2349.36,
+    "duration": 5.28,
+    "text": "out if it is starting from zero let me write  this down let me write this down okay so tips"
+  },
+  {
+    "start": 2358.8,
+    "duration": 0.24,
+    "text": "if"
+  },
+  {
+    "start": 2362.08,
+    "duration": 8.16,
+    "text": "range is like 0 till n then  we obviously see every element"
+  },
+  {
+    "start": 2372.48,
+    "duration": 4.24,
+    "text": "will be at index equal to value"
+  },
+  {
+    "start": 2378.96,
+    "duration": 0.16,
+    "text": "if"
+  },
+  {
+    "start": 2381.2,
+    "duration": 4.16,
+    "text": "ranges one till n is very simple"
+  },
+  {
+    "start": 2387.52,
+    "duration": 0.96,
+    "text": "every element"
+  },
+  {
+    "start": 2391.92,
+    "duration": 4.56,
+    "text": "will be at index what we did  in the very first example"
+  },
+  {
+    "start": 2398.24,
+    "duration": 5.92,
+    "text": "value minus 1 that's it so in this question what  are we saying let's see what this question says"
+  },
+  {
+    "start": 2404.16,
+    "duration": 4.24,
+    "text": "this question says you are given same you know  one till n you have to return all the numbers"
+  },
+  {
+    "start": 2408.4,
+    "duration": 5.04,
+    "text": "that do not exist in they do not appear in nums  that's fine let's try to solve this so question"
+  },
+  {
+    "start": 2416.96,
+    "duration": 6.32,
+    "text": "google question this is really a google question  uh so let's say you're given n is equal to 8"
+  },
+  {
+    "start": 2425.28,
+    "duration": 4.48,
+    "text": "okay and you're given an array something like this  again something like what is it given in lead code"
+  },
+  {
+    "start": 2430.32,
+    "duration": 11.36,
+    "text": "4 3 2 7 8 2 3 1 okay that is given to us so before  moving forward we know that we are going to apply"
+  },
+  {
+    "start": 2441.68,
+    "duration": 8.16,
+    "text": "cyclic sort okay so what did we do in cyclic sort  we said if nums of i is not equal to numbers of"
+  },
+  {
+    "start": 2449.84,
+    "duration": 4.32,
+    "text": "the correct index where the correct index is what  numbers are five minus one y is numbers of y data"
+  },
+  {
+    "start": 2454.16,
+    "duration": 5.28,
+    "text": "minus one here this is the reason numbers of  i minus one we already did this right now we"
+  },
+  {
+    "start": 2459.44,
+    "duration": 4.48,
+    "text": "literally did this right now the first question  we did was this so don't ask questions like kunal"
+  },
+  {
+    "start": 2463.92,
+    "duration": 4.56,
+    "text": "how do you know it's a num minus one the two  simple steps are very common sense if a number"
+  },
+  {
+    "start": 2468.48,
+    "duration": 4.4,
+    "text": "starting from zero to n try to look at the sorted  version and see where every element is lying"
+  },
+  {
+    "start": 2473.6,
+    "duration": 3.92,
+    "text": "every element is lying at the index equal  to the element if it's starting from one"
+  },
+  {
+    "start": 2477.52,
+    "duration": 4.16,
+    "text": "every element will be lying at index equal  to the element minus 1 because index starts"
+  },
+  {
+    "start": 2481.68,
+    "duration": 3.44,
+    "text": "from 0 that's it sorry common sense i don't  think i should explain it again and again"
+  },
+  {
+    "start": 2485.76,
+    "duration": 9.36,
+    "text": "okay so here in the sorted version what will be b  having let's try to see 0 1 2 3 4 five six seven"
+  },
+  {
+    "start": 2495.12,
+    "duration": 4.48,
+    "text": "in the sorted version i'm saying is four at  the if i'm over here it's four at the correct"
+  },
+  {
+    "start": 2499.6,
+    "duration": 4.64,
+    "text": "index no it's not okay swap it with the correct  index so this will become what this will become"
+  },
+  {
+    "start": 2506.24,
+    "duration": 4.64,
+    "text": "what this will become by the way before  actually solving how to you know solve"
+  },
+  {
+    "start": 2510.88,
+    "duration": 2.64,
+    "text": "the problem at least you know how  it will be applying cyclic sort"
+  },
+  {
+    "start": 2513.52,
+    "duration": 4.0,
+    "text": "at least get started once it's cyclic  sorted you will already get the answer"
+  },
+  {
+    "start": 2518.16,
+    "duration": 4.16,
+    "text": "the important thing is how to get started in  in my interviews also when i cleared my google"
+  },
+  {
+    "start": 2522.32,
+    "duration": 4.4,
+    "text": "interviews i did not know the answer i was  like okay let's try this let's try that okay"
+  },
+  {
+    "start": 2526.72,
+    "duration": 4.8,
+    "text": "what can we do i try to do i do this i do that  and once you do all these things then you will"
+  },
+  {
+    "start": 2531.52,
+    "duration": 6.08,
+    "text": "get the answer okay never memorize these solutions  never directly jump on the answer you will ruin"
+  },
+  {
+    "start": 2537.6,
+    "duration": 4.08,
+    "text": "your interview try to explain your thought process  to the interview i'll do a separate video on this"
+  },
+  {
+    "start": 2541.68,
+    "duration": 5.84,
+    "text": "how to you know actually do a technical interview  at these big companies um so it's like swapping so"
+  },
+  {
+    "start": 2547.52,
+    "duration": 9.28,
+    "text": "again similar thing we did previously seven three  two four eight two three one okay then it's gonna"
+  },
+  {
+    "start": 2556.8,
+    "duration": 7.2,
+    "text": "be like okay is seven at the correct index  no it's not okay put it at the correct index"
+  },
+  {
+    "start": 2564.0,
+    "duration": 2.0,
+    "text": "so three so it will be swapped with this"
+  },
+  {
+    "start": 2567.28,
+    "duration": 4.16,
+    "text": "where is already done did this thing  you know nothing nothing new over here"
+  },
+  {
+    "start": 2573.76,
+    "duration": 4.32,
+    "text": "seven and one it just has like a little  bit duplicates element which will be"
+  },
+  {
+    "start": 2578.08,
+    "duration": 1.76,
+    "text": "skipped automatically as you will see right now"
+  },
+  {
+    "start": 2580.48,
+    "duration": 3.36,
+    "text": "so now it's going to check for  three three at the correct index"
+  },
+  {
+    "start": 2587.76,
+    "duration": 6.16,
+    "text": "um no it's not swap it with the correct  index so this will become two three"
+  },
+  {
+    "start": 2595.36,
+    "duration": 7.2,
+    "text": "three four eight two seven one then it's gonna  check for two again still at the correct index"
+  },
+  {
+    "start": 2602.56,
+    "duration": 6.32,
+    "text": "no it's not okay then put it at the correct  index this one this will become three two three"
+  },
+  {
+    "start": 2610.56,
+    "duration": 8.0,
+    "text": "four eight two seven one indices will be what  one two three four five six seven that will"
+  },
+  {
+    "start": 2618.56,
+    "duration": 3.36,
+    "text": "check for this three is three at the correct  index it's going to be like okay let's check"
+  },
+  {
+    "start": 2623.04,
+    "duration": 4.48,
+    "text": "index number three minus one should contain three  index number three minus one two contains three"
+  },
+  {
+    "start": 2627.52,
+    "duration": 6.64,
+    "text": "yes it does so it is automatically handling  the duplicates also so ignore this okay so i'm"
+  },
+  {
+    "start": 2634.16,
+    "duration": 4.56,
+    "text": "going to move forward i'm going to say now i'm  going to check for this it's 2 at the correct"
+  },
+  {
+    "start": 2638.72,
+    "duration": 4.16,
+    "text": "index yes it is 3 at the correct index yes  it is it's 4 at the correct index yes it is"
+  },
+  {
+    "start": 2642.88,
+    "duration": 6.08,
+    "text": "is 8 at the correct index no it's not swap it  with the correct index okay so it's gonna be like"
+  },
+  {
+    "start": 2651.28,
+    "duration": 7.04,
+    "text": "three two three four one two seven eight is one  at the correct index no it's not swap it with"
+  },
+  {
+    "start": 2658.32,
+    "duration": 8.96,
+    "text": "the correct index one two three four three two  seven eight three are the correct index means"
+  },
+  {
+    "start": 2667.28,
+    "duration": 5.44,
+    "text": "just three minus one index contains three three  minus one index contains three as it does ignore"
+  },
+  {
+    "start": 2672.72,
+    "duration": 4.8,
+    "text": "two is two at the correct index meaning just two  minus one index means two minus one is what index"
+  },
+  {
+    "start": 2677.52,
+    "duration": 5.04,
+    "text": "number one does one contain two one does contain  two okay ignore this is seven at the correct index"
+  },
+  {
+    "start": 2683.12,
+    "duration": 5.36,
+    "text": "yes it is is eight at the correct index yet  this is is the answer after cyclic sort this"
+  },
+  {
+    "start": 2688.48,
+    "duration": 9.6,
+    "text": "is the answer so this is the answer let me write  this neatly one two three four three two seven"
+  },
+  {
+    "start": 2698.08,
+    "duration": 6.96,
+    "text": "eight indices are zero one two three four  five six seven find all the missing numbers"
+  },
+  {
+    "start": 2705.04,
+    "duration": 4.56,
+    "text": "what will be all the missing numbers b what  was find one missing number what was the"
+  },
+  {
+    "start": 2709.6,
+    "duration": 5.2,
+    "text": "answer for that incorrect index in this case  similarly what is the answer incorrect indices"
+  },
+  {
+    "start": 2716.08,
+    "duration": 4.48,
+    "text": "that's it because if there was a  number that belongs to that index"
+  },
+  {
+    "start": 2720.56,
+    "duration": 6.96,
+    "text": "it would be at the correct index because it's not  it means that it's missing so at zeroth index do"
+  },
+  {
+    "start": 2727.52,
+    "duration": 4.96,
+    "text": "we have zero plus one yes we do at index number  one do we have one plus one yes we do at index"
+  },
+  {
+    "start": 2732.48,
+    "duration": 4.56,
+    "text": "number two do we have two plus one yes at index  number three do we have four yes yes we do at"
+  },
+  {
+    "start": 2737.04,
+    "duration": 6.24,
+    "text": "index number four do we have four plus one equal  to five no we do not five is missing at index"
+  },
+  {
+    "start": 2743.28,
+    "duration": 5.28,
+    "text": "number five do we have five plus one six no we do  not six is missing at index number six do we have"
+  },
+  {
+    "start": 2748.56,
+    "duration": 5.12,
+    "text": "six plus one seven yes we do at index number seven  do we have seven plus one eight yes we do answer"
+  },
+  {
+    "start": 2756.32,
+    "duration": 8.16,
+    "text": "is this anything different no just copy pasting  it's a google question everyone all right"
+  },
+  {
+    "start": 2766.16,
+    "duration": 3.84,
+    "text": "these are very simple questions these are  literally the questions that they ask you know"
+  },
+  {
+    "start": 2770.0,
+    "duration": 3.12,
+    "text": "and not just this in dynamic  programming and graph and everything"
+  },
+  {
+    "start": 2773.12,
+    "duration": 3.2,
+    "text": "that also i will teach you in such a way  only you will find patterns like this"
+  },
+  {
+    "start": 2777.04,
+    "duration": 4.72,
+    "text": "like this you will find patterns all right let's  move forward and code this thing i think you all"
+  },
+  {
+    "start": 2781.76,
+    "duration": 4.72,
+    "text": "can do this on your own it's very copy pasting  no new code needs to be written for this just"
+  },
+  {
+    "start": 2786.48,
+    "duration": 5.36,
+    "text": "copy paste that's it okay so i'm just going  to copy paste this thing they are using a list"
+  },
+  {
+    "start": 2791.84,
+    "duration": 5.84,
+    "text": "okay so don't worry we can use list as well  in the in the future uh we will be covering"
+  },
+  {
+    "start": 2797.68,
+    "duration": 5.84,
+    "text": "this in detail like lists and everything so  don't worry for now just you can also use uh"
+  },
+  {
+    "start": 2805.68,
+    "duration": 3.12,
+    "text": "you know you can also use a um"
+  },
+  {
+    "start": 2812.32,
+    "duration": 3.36,
+    "text": "normal array if you want okay but here  they are using list so we can use an"
+  },
+  {
+    "start": 2815.68,
+    "duration": 4.48,
+    "text": "array if you want i will teach you how  to do it with arrays no worries so here"
+  },
+  {
+    "start": 2820.16,
+    "duration": 5.36,
+    "text": "what are we going to do find all the missing  numbers so i'm just going to rename this to"
+  },
+  {
+    "start": 2827.6,
+    "duration": 2.72,
+    "text": "find all missing"
+  },
+  {
+    "start": 2832.64,
+    "duration": 2.4,
+    "text": "coil paste question over here"
+  },
+  {
+    "start": 2838.48,
+    "duration": 5.36,
+    "text": "asked in google so what do we do  cyclic sort copy paste cyclic sort"
+  },
+  {
+    "start": 2846.24,
+    "duration": 1.6,
+    "text": "cyclic sort copy pasted"
+  },
+  {
+    "start": 2855.84,
+    "duration": 8.08,
+    "text": "okay removing static from here because the code  is not allowed uh so it's copy pasted that's fine"
+  },
+  {
+    "start": 2863.92,
+    "duration": 4.4,
+    "text": "okay so now what do we need to do  uh we are using this entire thing so"
+  },
+  {
+    "start": 2869.2,
+    "duration": 7.6,
+    "text": "maybe i can change it to nums  because no worries um copy paste"
+  },
+  {
+    "start": 2880.08,
+    "duration": 4.88,
+    "text": "copy paste this here okay that's fine so  while i is less than zero i less than is"
+  },
+  {
+    "start": 2884.96,
+    "duration": 5.2,
+    "text": "my correct index is this otherwise i  just swap that's it nothing nothing"
+  },
+  {
+    "start": 2890.16,
+    "duration": 6.32,
+    "text": "to change over here literally copy paste  it after that i just need to say just fine"
+  },
+  {
+    "start": 2896.48,
+    "duration": 7.2,
+    "text": "missing numbers that's it that's what i need  to do so one more thing that uh i think uh"
+  },
+  {
+    "start": 2907.76,
+    "duration": 3.36,
+    "text": "oh it's an integer array only so it's  not a list so i think it will work"
+  },
+  {
+    "start": 2911.12,
+    "duration": 4.0,
+    "text": "but what i need do need to do i need to  return a list type this what type it is"
+  },
+  {
+    "start": 2915.12,
+    "duration": 5.12,
+    "text": "you know don't worry about it we will we  will cover this in the so the thing is that"
+  },
+  {
+    "start": 2923.28,
+    "duration": 5.92,
+    "text": "here the answer can be of variable length okay so  here let's say the answer is of length two here"
+  },
+  {
+    "start": 2929.2,
+    "duration": 4.64,
+    "text": "the answer is of length one that is the reason  they have list over here we will cover this in"
+  },
+  {
+    "start": 2933.84,
+    "duration": 5.84,
+    "text": "detail in object-oriented programming okay this  list type and whatever array list list link list"
+  },
+  {
+    "start": 2939.68,
+    "duration": 4.8,
+    "text": "all these things will be covered in detail okay  don't worry i think we did cover a list already"
+  },
+  {
+    "start": 2945.04,
+    "duration": 5.2,
+    "text": "oh we did cover our list already so why am i  worrying no no we covered this we did a sec we did"
+  },
+  {
+    "start": 2950.24,
+    "duration": 4.64,
+    "text": "a lecture on arraylist yeah yeah we did that so we  can create an arraylist no problem so i can say a"
+  },
+  {
+    "start": 2954.88,
+    "duration": 4.32,
+    "text": "new list by the way this list is an interface so  don't worry about it we will cover what interfaces"
+  },
+  {
+    "start": 2959.2,
+    "duration": 5.12,
+    "text": "are but i think we definitely covered rls before  so i can say my answer is equal to new arraylist"
+  },
+  {
+    "start": 2964.32,
+    "duration": 5.84,
+    "text": "oh we covered this watch the arraylist lectures  link is in the description for i is equal to"
+  },
+  {
+    "start": 2971.68,
+    "duration": 4.48,
+    "text": "zero i is less than what my  uh num start length and i"
+  },
+  {
+    "start": 2978.72,
+    "duration": 2.16,
+    "text": "numbs out length and i plus index plus one"
+  },
+  {
+    "start": 2980.88,
+    "duration": 5.36,
+    "text": "i'm just going to say if the index is  not at the correct index if the nums of"
+  },
+  {
+    "start": 2987.68,
+    "duration": 5.12,
+    "text": "index does not contain the correct index  means what does not contain index plus 1"
+  },
+  {
+    "start": 2995.2,
+    "duration": 4.08,
+    "text": "in that case what is the answer so it says  if the element at the index does not contain"
+  },
+  {
+    "start": 2999.28,
+    "duration": 4.08,
+    "text": "index plus one that is true rule number two  if you're having index number one till n"
+  },
+  {
+    "start": 3004.0,
+    "duration": 3.68,
+    "text": "the index is actually going  to be equal to value minus one"
+  },
+  {
+    "start": 3007.68,
+    "duration": 4.72,
+    "text": "means value is going to be index plus  one very simple so here you can say that"
+  },
+  {
+    "start": 3014.4,
+    "duration": 7.76,
+    "text": "index number four does not contain five  index number four does not contain five"
+  },
+  {
+    "start": 3022.16,
+    "duration": 5.76,
+    "text": "hence the answer of missing number is what  index plus 1 so i'm just going to say add"
+  },
+  {
+    "start": 3027.92,
+    "duration": 7.04,
+    "text": "in my list in my answer you can just add  index plus 1 in the end just return answer"
+  },
+  {
+    "start": 3036.24,
+    "duration": 6.0,
+    "text": "that's it then it's going to be like 4 5 does  5 contain 5 plus 1 6 no it does not then 5 plus"
+  },
+  {
+    "start": 3042.24,
+    "duration": 6.48,
+    "text": "1 is the answer 6 is missing that is correct  6 is missing added till here nothing changed"
+  },
+  {
+    "start": 3049.36,
+    "duration": 5.52,
+    "text": "here i'm just making one for loop that's it that  is also similar to this one okay don't worry this"
+  },
+  {
+    "start": 3054.88,
+    "duration": 4.48,
+    "text": "is something we have covered already at a list  only thing new is list interface i can't tell"
+  },
+  {
+    "start": 3059.36,
+    "duration": 3.04,
+    "text": "you this right now because then i would have  to explain what is an interface and everything"
+  },
+  {
+    "start": 3062.4,
+    "duration": 5.44,
+    "text": "that is covered in detail in object 20 programming  copy paste let's copy paste and submit this"
+  },
+  {
+    "start": 3073.36,
+    "duration": 0.72,
+    "text": "run the code"
+  },
+  {
+    "start": 3077.2,
+    "duration": 4.88,
+    "text": "that works submit"
+  },
+  {
+    "start": 3082.08,
+    "duration": 7.76,
+    "text": "accept it pretty good alrighty cool so that looks  nice and now let's move on to the next question"
+  },
+  {
+    "start": 3089.84,
+    "duration": 4.72,
+    "text": "another amazon question so find the duplicate  number it's a lead code medium question"
+  },
+  {
+    "start": 3094.56,
+    "duration": 4.32,
+    "text": "but it's literally an easy question  literally copy pasting cyclic sort"
+  },
+  {
+    "start": 3098.88,
+    "duration": 5.2,
+    "text": "that's it how do i know cyclic sort how do i  know it's cyclic sort given an array of integers"
+  },
+  {
+    "start": 3104.08,
+    "duration": 5.76,
+    "text": "containing n plus one integers uh where each  integer is in the range of one till n that's it"
+  },
+  {
+    "start": 3111.44,
+    "duration": 9.6,
+    "text": "question over no need to think cyclic sort  okay cool so the question actually says that"
+  },
+  {
+    "start": 3122.08,
+    "duration": 4.72,
+    "text": "there is only one repeated number in the array  you have to find this repeated number okay"
+  },
+  {
+    "start": 3126.8,
+    "duration": 3.44,
+    "text": "and we know that if it's from one  till n then it's going to contain"
+  },
+  {
+    "start": 3130.24,
+    "duration": 6.48,
+    "text": "uh you know um similarly n plus one integers  uh so we already discussed this previously"
+  },
+  {
+    "start": 3138.16,
+    "duration": 10.16,
+    "text": "so for example if n is equal to over here like  4 so it's going to contain 1 2 3 4 plus 1 um"
+  },
+  {
+    "start": 3148.32,
+    "duration": 6.96,
+    "text": "repeated number okay so we already know that the  ones at the correct index will be where index min"
+  },
+  {
+    "start": 3155.84,
+    "duration": 5.68,
+    "text": "element value of -1 that's it so don't modify  and the array and use only constant extra"
+  },
+  {
+    "start": 3161.52,
+    "duration": 6.0,
+    "text": "we know we know cyclic sort what are you saying  to us amazon interview question whatever okay"
+  },
+  {
+    "start": 3167.52,
+    "duration": 4.64,
+    "text": "this is nothing it's not even medium it's easy  and it's very popular you can see 9000 thumbs up"
+  },
+  {
+    "start": 3172.16,
+    "duration": 5.04,
+    "text": "very popular question it's nothing easy question  literally cyclic sort and i have no idea why they"
+  },
+  {
+    "start": 3177.2,
+    "duration": 5.52,
+    "text": "put it as medium okay because it's literally copy  pasting cyclic sort please follow this course you"
+  },
+  {
+    "start": 3182.72,
+    "duration": 4.64,
+    "text": "will solve questions like this of interviews and  people are doing it some people have given shout"
+  },
+  {
+    "start": 3187.36,
+    "duration": 4.56,
+    "text": "outs i want this course to be reached by so many  people you know people ask for two lakh rupees and"
+  },
+  {
+    "start": 3193.28,
+    "duration": 5.12,
+    "text": "so many lakhs and lakhs of rupees for their live  boot camps no you do you don't need these courses"
+  },
+  {
+    "start": 3198.4,
+    "duration": 4.72,
+    "text": "this is more than enough trust me i have  cleared these interviews and i'm providing"
+  },
+  {
+    "start": 3203.12,
+    "duration": 4.8,
+    "text": "don't trust me by the way that is not true watch  the videos yourself you will understand don't"
+  },
+  {
+    "start": 3207.92,
+    "duration": 5.04,
+    "text": "trust me watch the content share with your  friends it's free you got nothing to lose"
+  },
+  {
+    "start": 3212.96,
+    "duration": 6.48,
+    "text": "i got nothing to gain i'm here to help you all  please understand no one is doing this for free"
+  },
+  {
+    "start": 3219.44,
+    "duration": 5.52,
+    "text": "people are you know so greedy that they  are actually manipulating on the names of"
+  },
+  {
+    "start": 3224.96,
+    "duration": 6.24,
+    "text": "oh amazon interviews competitive programming you  can't do it without this thing no no no no no no"
+  },
+  {
+    "start": 3231.84,
+    "duration": 6.96,
+    "text": "give us 30 000 give us 540 000 give us 2 lakh  give us 15 of your income no no don't go anywhere"
+  },
+  {
+    "start": 3239.36,
+    "duration": 6.88,
+    "text": "no need no no need you will not find this quality  anywhere okay don't trust me watch this course"
+  },
+  {
+    "start": 3246.24,
+    "duration": 6.16,
+    "text": "let's get started so there's one repeated number  for example here n is equal to 4 so 1 2 3 4 are"
+  },
+  {
+    "start": 3252.4,
+    "duration": 5.36,
+    "text": "available and 3 is repeated ok similarly n is  equal to 1 so 1 is available plus 1 is repeated"
+  },
+  {
+    "start": 3258.64,
+    "duration": 8.96,
+    "text": "1 you know so you have 1 and 2 so here n is equal  to 2 so 1 and 2 1 is repeated how do we do this"
+  },
+  {
+    "start": 3267.6,
+    "duration": 4.08,
+    "text": "first thing we need to forget about how to  solve it first apply cyclic sort because"
+  },
+  {
+    "start": 3271.68,
+    "duration": 5.04,
+    "text": "it's literally question is screaming cyclic sort  let's apply cyclic sort then we will find out how"
+  },
+  {
+    "start": 3276.72,
+    "duration": 5.44,
+    "text": "to solve this try to pause this video and think  about it we literally did this question right now"
+  },
+  {
+    "start": 3282.16,
+    "duration": 5.68,
+    "text": "this exact question we did right now right now we  did this question you want to see where we did it"
+  },
+  {
+    "start": 3287.84,
+    "duration": 8.88,
+    "text": "let's see over here when we were doing swapping  this array consisted of duplicate elements"
+  },
+  {
+    "start": 3296.72,
+    "duration": 3.28,
+    "text": "when we were like is 2 at the correct  index so we were checking whether"
+  },
+  {
+    "start": 3300.0,
+    "duration": 4.32,
+    "text": "the index 2 minus 1 is you know at the correct  index so it was a duplicate index when we were"
+  },
+  {
+    "start": 3304.32,
+    "duration": 4.0,
+    "text": "finding a duplicate index we were saying that  okay it's at the correct index that is your answer"
+  },
+  {
+    "start": 3310.8,
+    "duration": 0.88,
+    "text": "that is your answer"
+  },
+  {
+    "start": 3314.16,
+    "duration": 2.64,
+    "text": "okay so basically the idea is that"
+  },
+  {
+    "start": 3318.88,
+    "duration": 7.52,
+    "text": "the only thing that we are changing over here is  that uh we need we know that um uh we are going to"
+  },
+  {
+    "start": 3326.4,
+    "duration": 9.6,
+    "text": "swap so basically we are going to swap when uh the  index you know is uh when the element is not equal"
+  },
+  {
+    "start": 3336.0,
+    "duration": 4.32,
+    "text": "when the index plus one is not equal to element  okay that is when we are doing the swapping part"
+  },
+  {
+    "start": 3340.32,
+    "duration": 3.44,
+    "text": "we already know this let's take the  lead code example lead code says"
+  },
+  {
+    "start": 3347.12,
+    "duration": 4.48,
+    "text": "find duplicate number medium question of  lead code amazon question number three amazon"
+  },
+  {
+    "start": 3355.6,
+    "duration": 8.72,
+    "text": "what they are saying one three four two two  one three four two two let's try cyclic sort"
+  },
+  {
+    "start": 3364.32,
+    "duration": 8.0,
+    "text": "so index number zero here one two three four  okay let's try cyclic sort in this one so here"
+  },
+  {
+    "start": 3372.32,
+    "duration": 8.32,
+    "text": "i'm just going to say that um initially i am over  here is index number one at the correct is is one"
+  },
+  {
+    "start": 3380.64,
+    "duration": 6.8,
+    "text": "at the correct index means if is the element  e equal to index plus one that is correct one"
+  },
+  {
+    "start": 3387.44,
+    "duration": 5.6,
+    "text": "is at the correct index move forward is three at  the correct index three should be at which index"
+  },
+  {
+    "start": 3393.92,
+    "duration": 5.12,
+    "text": "three minus one means that two no it's not  swap it it's going to be like now swap it"
+  },
+  {
+    "start": 3400.72,
+    "duration": 3.68,
+    "text": "have we have done this before i don't know  why i'm writing it again and again but still"
+  },
+  {
+    "start": 3407.04,
+    "duration": 2.96,
+    "text": "now again over here is 4 at the  correct index no it's not swap it"
+  },
+  {
+    "start": 3414.48,
+    "duration": 6.96,
+    "text": "2 okay is two at the correct index two should  be at index number two minus one means one yeah"
+  },
+  {
+    "start": 3421.44,
+    "duration": 5.44,
+    "text": "that is true three is three at the correct  index yes four is four at the correct index"
+  },
+  {
+    "start": 3426.88,
+    "duration": 4.56,
+    "text": "yes it is two is two at the correct index  here we are checking notice something what"
+  },
+  {
+    "start": 3431.44,
+    "duration": 9.2,
+    "text": "we are doing we are checking that if you  know element is not equal to index plus one"
+  },
+  {
+    "start": 3444.16,
+    "duration": 3.84,
+    "text": "okay in this case we need to check two things"
+  },
+  {
+    "start": 3450.24,
+    "duration": 4.08,
+    "text": "two things you need to check in case of duplicate  what are the two things that you need to check"
+  },
+  {
+    "start": 3455.2,
+    "duration": 5.92,
+    "text": "whether the element at the original index that  you want what is the original index that we want"
+  },
+  {
+    "start": 3462.72,
+    "duration": 14.08,
+    "text": "the value minus 1 so if element at value minus  1 means 2 minus 1 which is equal to 1 okay"
+  },
+  {
+    "start": 3477.44,
+    "duration": 10.4,
+    "text": "if this is not equal to not equal to  element at the correct index current index"
+  },
+  {
+    "start": 3490.56,
+    "duration": 0.48,
+    "text": "current"
+  },
+  {
+    "start": 3493.52,
+    "duration": 4.32,
+    "text": "index swap this is something  we were doing previously also"
+  },
+  {
+    "start": 3499.44,
+    "duration": 2.4,
+    "text": "okay but now there is an extra check"
+  },
+  {
+    "start": 3505.36,
+    "duration": 0.64,
+    "text": "otherwise"
+  },
+  {
+    "start": 3508.08,
+    "duration": 1.12,
+    "text": "you have found the answer"
+  },
+  {
+    "start": 3511.2,
+    "duration": 8.56,
+    "text": "isn't this very simple found the answer that  is true for example here it's going to say"
+  },
+  {
+    "start": 3520.72,
+    "duration": 7.76,
+    "text": "hey is 3 at the correct index means element is not  equal to index plus 1 3 is not equal to i plus 1"
+  },
+  {
+    "start": 3528.48,
+    "duration": 6.08,
+    "text": "plus 1 which is 2 that is correct 3 is not equal  to 2 means it's at the wrong index uh so i'm just"
+  },
+  {
+    "start": 3534.56,
+    "duration": 6.16,
+    "text": "going to say okay check whether the element  at the correct index 2 is equal to 3 or not"
+  },
+  {
+    "start": 3541.52,
+    "duration": 6.72,
+    "text": "it's going to be like no it's not equal to 3 okay  swap it then come over here index 4 should be at"
+  },
+  {
+    "start": 3548.24,
+    "duration": 8.0,
+    "text": "index index plus index plus 1 should be equal to 4  is index plus 1 equal to 4 is 1 plus 1 equal to 4"
+  },
+  {
+    "start": 3556.24,
+    "duration": 7.84,
+    "text": "no it's not hence swap it check whether check  whether the original index which is four minus"
+  },
+  {
+    "start": 3564.08,
+    "duration": 4.88,
+    "text": "one three index should be uh four should be at  three index number three does this index number"
+  },
+  {
+    "start": 3568.96,
+    "duration": 6.48,
+    "text": "three contain four or not it's saying it does not  contain 4 ok swap it swap it now we come over here"
+  },
+  {
+    "start": 3576.8,
+    "duration": 7.2,
+    "text": "now we're saying is the element not equal to index  plus 1 yeah 2 is not equal to index 4 plus 1 5"
+  },
+  {
+    "start": 3584.0,
+    "duration": 5.44,
+    "text": "so means this is at the wrong index okay  check whether at the correct index there is"
+  },
+  {
+    "start": 3589.44,
+    "duration": 5.2,
+    "text": "two available already or not it's going to check  okay original index is two minus one which is one"
+  },
+  {
+    "start": 3594.64,
+    "duration": 7.28,
+    "text": "it already contains two that means the else  condition will take place because this says"
+  },
+  {
+    "start": 3601.92,
+    "duration": 5.52,
+    "text": "not equal to element here it is saying that  it is equal to element means else condition"
+  },
+  {
+    "start": 3609.92,
+    "duration": 5.44,
+    "text": "okay i hope you are able to understand this i ran  it with both the examples so this is common very"
+  },
+  {
+    "start": 3615.36,
+    "duration": 5.28,
+    "text": "simple stuff this is very common sense okay if  the element is not equal to the index plus one it"
+  },
+  {
+    "start": 3620.64,
+    "duration": 4.48,
+    "text": "very common sense we discussed the two cases  already that it means that element is at the"
+  },
+  {
+    "start": 3625.12,
+    "duration": 4.64,
+    "text": "wrong index now you may have two cases one  element that is at the wrong index is like"
+  },
+  {
+    "start": 3629.76,
+    "duration": 4.08,
+    "text": "the unique element two element that is at  the wrong index is the duplicate element"
+  },
+  {
+    "start": 3634.48,
+    "duration": 4.4,
+    "text": "if it has a duplicate element then the element  at the correct position is going to be equal to"
+  },
+  {
+    "start": 3638.88,
+    "duration": 4.24,
+    "text": "that element in that case just return your  answer if it is not the duplicate element"
+  },
+  {
+    "start": 3643.12,
+    "duration": 5.68,
+    "text": "then the element at the correct index is not  going to be equal to that element swap that's it"
+  },
+  {
+    "start": 3650.56,
+    "duration": 4.08,
+    "text": "that is it lead code medium 9000  upwards amazon interview question"
+  },
+  {
+    "start": 3654.64,
+    "duration": 4.8,
+    "text": "piece of cake let's solve this okay so  again i'm gonna copy paste this thing"
+  },
+  {
+    "start": 3662.08,
+    "duration": 7.76,
+    "text": "i'm gonna say what is this  find find duplicate it says"
+  },
+  {
+    "start": 3672.64,
+    "duration": 9.12,
+    "text": "find duplicate in the problem copy paste  that is it we are just going to copy paste"
+  },
+  {
+    "start": 3683.36,
+    "duration": 4.88,
+    "text": "the cyclic sort missing number or whatever  let's just copy paste this entire thing"
+  },
+  {
+    "start": 3691.28,
+    "duration": 0.56,
+    "text": "copied"
+  },
+  {
+    "start": 3694.4,
+    "duration": 1.6,
+    "text": "paste it i'm just going to make it"
+  },
+  {
+    "start": 3697.84,
+    "duration": 6.0,
+    "text": "i'm just going to copy paste it again copy pasting  only okay nothing new is happening over here"
+  },
+  {
+    "start": 3705.84,
+    "duration": 7.6,
+    "text": "okay what is this thing ah it's an error message  because i don't have swap over here no problem"
+  },
+  {
+    "start": 3714.08,
+    "duration": 6.96,
+    "text": "copy paste it all right so what do we need to do  we are copy pasting this and we are saying that um"
+  },
+  {
+    "start": 3722.72,
+    "duration": 5.68,
+    "text": "where is my good notes we are saying if the  element is not equal to index plus 1 okay we"
+  },
+  {
+    "start": 3728.4,
+    "duration": 11.76,
+    "text": "can do that so i can say if the element what  is the element my array of i is not equal to"
+  },
+  {
+    "start": 3740.16,
+    "duration": 4.4,
+    "text": "plus 1 index plus 1 in that  case what do i need to do"
+  },
+  {
+    "start": 3750.56,
+    "duration": 6.32,
+    "text": "this thing so basically correct index is going to  be equal to minus 1 and then i'm going to check"
+  },
+  {
+    "start": 3757.92,
+    "duration": 7.04,
+    "text": "whether if okay i don't need this thing this is  for the n so i don't need this one it's basically"
+  },
+  {
+    "start": 3764.96,
+    "duration": 5.6,
+    "text": "going to say if this is not equal to the correct  index in that case you need to do the swap part"
+  },
+  {
+    "start": 3771.44,
+    "duration": 4.72,
+    "text": "okay that is cool that is cool otherwise  what do we need to do otherwise"
+  },
+  {
+    "start": 3780.16,
+    "duration": 5.68,
+    "text": "otherwise you have found the answer so otherwise  return the answer and what is the answer"
+  },
+  {
+    "start": 3786.88,
+    "duration": 9.28,
+    "text": "answer is equal to that number  only so array of i that's it okay"
+  },
+  {
+    "start": 3797.12,
+    "duration": 4.64,
+    "text": "so if this is not equal to this in this case  you do this otherwise you just move ahead"
+  },
+  {
+    "start": 3804.24,
+    "duration": 2.16,
+    "text": "that's it okay"
+  },
+  {
+    "start": 3809.12,
+    "duration": 7.04,
+    "text": "if there are no duplicates you can just return  minus one i think copy paste copy paste that is it"
+  },
+  {
+    "start": 3817.52,
+    "duration": 8.08,
+    "text": "very simple stuff already ran it many many times  in the whiteboard let's submit this submit it"
+  },
+  {
+    "start": 3830.0,
+    "duration": 0.56,
+    "text": "very easy"
+  },
+  {
+    "start": 3832.88,
+    "duration": 0.56,
+    "text": "cool stuff"
+  },
+  {
+    "start": 3835.84,
+    "duration": 3.92,
+    "text": "okay you can also it's you can also solve this  by like cycle detection which we'll be doing in"
+  },
+  {
+    "start": 3839.76,
+    "duration": 4.32,
+    "text": "linked list entire you know all the algorithms  and everything will be doing cycle detection"
+  },
+  {
+    "start": 3844.08,
+    "duration": 6.64,
+    "text": "two pointer method you know sliding window and uh  you know like uh fast and slow pointer don't worry"
+  },
+  {
+    "start": 3850.72,
+    "duration": 4.24,
+    "text": "we'll do everything all right so that looks good  let's look into the next question okay and the"
+  },
+  {
+    "start": 3854.96,
+    "duration": 4.88,
+    "text": "previous question we did the find duplicate in  ln in an array that was also asked in microsoft"
+  },
+  {
+    "start": 3860.64,
+    "duration": 4.64,
+    "text": "so uh just look at the thought process problem  solving skills and now let's look at the"
+  },
+  {
+    "start": 3865.28,
+    "duration": 4.0,
+    "text": "next question this is also very popular  question uh find all the duplicates in the array"
+  },
+  {
+    "start": 3869.28,
+    "duration": 3.84,
+    "text": "is it any different it's saying you're  given an array of numbers of length and"
+  },
+  {
+    "start": 3873.12,
+    "duration": 5.92,
+    "text": "integers from one till n that's it cyclic sort  that's it each each each integer appears once"
+  },
+  {
+    "start": 3879.04,
+    "duration": 5.04,
+    "text": "or twice return the area of all the elements  where all the integers appear twice that's it"
+  },
+  {
+    "start": 3885.6,
+    "duration": 6.8,
+    "text": "of n and constant space that's it this line should  tell you that we're using cyclic sort that is it"
+  },
+  {
+    "start": 3892.4,
+    "duration": 5.36,
+    "text": "apply cyclic sort all the elements that are  the wrong index that's your answer that's it"
+  },
+  {
+    "start": 3899.84,
+    "duration": 3.44,
+    "text": "nothing else lead code medium  is it really medium so easy"
+  },
+  {
+    "start": 3904.48,
+    "duration": 5.04,
+    "text": "let's try to solve this this is very next level  similar i don't even have to explain this thing"
+  },
+  {
+    "start": 3909.52,
+    "duration": 3.6,
+    "text": "just do cyclic sort and all the numbers that  are not at the correct index that's your answer"
+  },
+  {
+    "start": 3914.64,
+    "duration": 4.8,
+    "text": "we did this right now it's not like i'm  skipping anything no this is what i'm"
+  },
+  {
+    "start": 3919.44,
+    "duration": 5.28,
+    "text": "trying to tell you lead code easy medium hard  no does not matter basics are same for everyone"
+  },
+  {
+    "start": 3925.68,
+    "duration": 4.16,
+    "text": "thought process is same all these questions  are built on top of that and that is what"
+  },
+  {
+    "start": 3929.84,
+    "duration": 3.52,
+    "text": "they are looking for companies are looking  for if you have good problem solving skills"
+  },
+  {
+    "start": 3933.36,
+    "duration": 7.04,
+    "text": "if you understand the question never memorize a  question never memorize any code always focus on"
+  },
+  {
+    "start": 3940.4,
+    "duration": 4.88,
+    "text": "understanding the problem if you memorize  you will forget but if you understand you"
+  },
+  {
+    "start": 3945.28,
+    "duration": 7.2,
+    "text": "will always remember it let's solve this oh there  was by the way asked in amazon and microsoft also"
+  },
+  {
+    "start": 3956.72,
+    "duration": 1.44,
+    "text": "so let's take next question"
+  },
+  {
+    "start": 3961.44,
+    "duration": 3.36,
+    "text": "numbers are given as on lead  code you are given something like"
+  },
+  {
+    "start": 3965.52,
+    "duration": 10.88,
+    "text": "4 3 2 7 8 2 3 1 numbers are given from 1 to n i  think in double check on lead code 1 to n so every"
+  },
+  {
+    "start": 3976.4,
+    "duration": 3.84,
+    "text": "particular element will be at the correct index  and that index is going to be element minus one"
+  },
+  {
+    "start": 3980.88,
+    "duration": 7.36,
+    "text": "already discussed this let's solve this zero one  two three four five six seven and we're just gonna"
+  },
+  {
+    "start": 3988.24,
+    "duration": 8.88,
+    "text": "keep swapping you know so we're going to say um  here we are not just going to return the first"
+  },
+  {
+    "start": 3997.12,
+    "duration": 4.88,
+    "text": "duplicate element we find okay so another hint  i can give you if if in the questions you're"
+  },
+  {
+    "start": 4002.0,
+    "duration": 6.88,
+    "text": "saying find all find all duplicate find all uh  you know repeated or whatever in that case first"
+  },
+  {
+    "start": 4008.88,
+    "duration": 4.24,
+    "text": "do cyclic sort as it is then run a for loop  and see what indices are at the wrong value"
+  },
+  {
+    "start": 4013.12,
+    "duration": 3.84,
+    "text": "that's what we're going to do over here very  simple because if you just return the first"
+  },
+  {
+    "start": 4016.96,
+    "duration": 4.24,
+    "text": "element that is duplicate you will miss out  on the rest first do cyclic sort then do it"
+  },
+  {
+    "start": 4022.8,
+    "duration": 10.4,
+    "text": "is 4 at the correct index no 4 should be at  4 minus 1 3 swap it so it will be 7 3 2 4 8 2"
+  },
+  {
+    "start": 4033.2,
+    "duration": 12.32,
+    "text": "3 1 then it's going to be like 7 at the correct  index no it's not swapped with 6 3 3 2 4 8 2 7"
+  },
+  {
+    "start": 4047.12,
+    "duration": 7.92,
+    "text": "one is three at the correct index no it's not  swap it with two two three three four eight"
+  },
+  {
+    "start": 4055.04,
+    "duration": 9.52,
+    "text": "two seven one is two at the correct index no it  not swap it three two three four eight two seven"
+  },
+  {
+    "start": 4064.56,
+    "duration": 4.72,
+    "text": "one there's three at the correct index yes it is  because at index number two we have three only"
+  },
+  {
+    "start": 4069.28,
+    "duration": 4.32,
+    "text": "then move ahead so at the correct index yes it  is three are the correct index series four at the"
+  },
+  {
+    "start": 4073.6,
+    "duration": 9.68,
+    "text": "correct index yes it is is 8 at the correct index  no it's not swap it so this will become 3 2 3 4"
+  },
+  {
+    "start": 4085.36,
+    "duration": 9.2,
+    "text": "1 2 7 8 is 1 at the correct index no it's  not swap it one two three uh two three"
+  },
+  {
+    "start": 4095.2,
+    "duration": 8.32,
+    "text": "four three two seven eight okay three are the  correct necessities two at the correct index"
+  },
+  {
+    "start": 4103.52,
+    "duration": 4.0,
+    "text": "uh yes it is is seven under correcting  this is eight as a correctness yes it is"
+  },
+  {
+    "start": 4108.08,
+    "duration": 9.6,
+    "text": "so this is going to be one two three four  three two seven eight indices are zero one 2"
+  },
+  {
+    "start": 4117.68,
+    "duration": 8.32,
+    "text": "3 4 5 6 7 what are all the wrong indices this  is correct correct correct correct wrong wrong"
+  },
+  {
+    "start": 4126.64,
+    "duration": 8.24,
+    "text": "correct correct answer is equal to 3 n 2. isn't  that the answer only 3 and 2 are repeated yeah"
+  },
+  {
+    "start": 4138.24,
+    "duration": 0.88,
+    "text": "that is your answer"
+  },
+  {
+    "start": 4141.28,
+    "duration": 4.56,
+    "text": "is this anything different than what  we did previously copy paste that's it"
+  },
+  {
+    "start": 4148.16,
+    "duration": 5.76,
+    "text": "this is a very simple stuff nothing new over here  let's try to code this you can pause this video"
+  },
+  {
+    "start": 4153.92,
+    "duration": 4.32,
+    "text": "first of all like comment follow the course  wholeheartedly you will be able to clear all the"
+  },
+  {
+    "start": 4158.24,
+    "duration": 6.56,
+    "text": "interviews and also um you know comment if you  like this share with your friends please share"
+  },
+  {
+    "start": 4165.52,
+    "duration": 3.84,
+    "text": "you know they will also benefit quite a lot  okay so i'm just going to copy paste this thing"
+  },
+  {
+    "start": 4172.08,
+    "duration": 8.4,
+    "text": "copy this and paste this so i'm going  to say find all duplicates paste"
+  },
+  {
+    "start": 4183.44,
+    "duration": 6.8,
+    "text": "i'm going to copy paste the answer for this just  copy paste this thing literally copy pasting here"
+  },
+  {
+    "start": 4190.24,
+    "duration": 8.0,
+    "text": "the correct index is actually going to be equal  to sorry i is equal to 0 exactly copy pasting let"
+  },
+  {
+    "start": 4198.24,
+    "duration": 6.72,
+    "text": "me show you i i'm copy pasting only okay just  need swap did not copy paste this no problem"
+  },
+  {
+    "start": 4205.84,
+    "duration": 6.4,
+    "text": "koi paste did not create the swap one so i'm gonna  copy paste this we are all doing copy paste right"
+  },
+  {
+    "start": 4212.24,
+    "duration": 5.12,
+    "text": "now nothing new happening over here that looks  good but the correct index is actually going"
+  },
+  {
+    "start": 4217.36,
+    "duration": 5.92,
+    "text": "to be equal to this this is also you know packed  only so then we're swapping otherwise doing this"
+  },
+  {
+    "start": 4223.28,
+    "duration": 6.64,
+    "text": "now i'm just going to find all the duplicate ones  so missing number or find all missing we had this"
+  },
+  {
+    "start": 4229.92,
+    "duration": 9.04,
+    "text": "thing copy paste this thing okay nums not it's  actually array so it's basically saying that uh"
+  },
+  {
+    "start": 4241.04,
+    "duration": 5.6,
+    "text": "in the end just return answer copy paste  not a single code i wrote myself okay so"
+  },
+  {
+    "start": 4246.64,
+    "duration": 3.92,
+    "text": "here it's saying if the element is not equal to  the index plus one means you're at the wrong one"
+  },
+  {
+    "start": 4250.56,
+    "duration": 3.2,
+    "text": "what is the answer in that case  answer is equal to that element itself"
+  },
+  {
+    "start": 4253.76,
+    "duration": 4.08,
+    "text": "2 and 3 so the answer is  equal to the element itself"
+  },
+  {
+    "start": 4260.48,
+    "duration": 3.28,
+    "text": "and also don't need this check this check  was like question specific in the previous"
+  },
+  {
+    "start": 4263.76,
+    "duration": 6.08,
+    "text": "one so we don't need this check uh this was a  question specific that is it copy paste only"
+  },
+  {
+    "start": 4269.84,
+    "duration": 6.48,
+    "text": "let's uh try to submit this on lead code  copy and paste let's try to run this"
+  },
+  {
+    "start": 4279.92,
+    "duration": 5.92,
+    "text": "now works submit"
+  },
+  {
+    "start": 4290.56,
+    "duration": 8.48,
+    "text": "that's submitting looks good to me cool alrighty  uh that was also a very easy easy question let's"
+  },
+  {
+    "start": 4299.04,
+    "duration": 5.04,
+    "text": "move on to the next one let's look at the next  question so this is called set mismatch on lead"
+  },
+  {
+    "start": 4304.08,
+    "duration": 6.08,
+    "text": "code so basically the question is that you are  given numbers from one till n cyclic sort uh"
+  },
+  {
+    "start": 4310.16,
+    "duration": 7.04,
+    "text": "and there has been some error it says that uh we  know one number in the set of integers that has"
+  },
+  {
+    "start": 4317.2,
+    "duration": 6.56,
+    "text": "been given to us got duplicated to another number  in the set which results in repetition of one"
+  },
+  {
+    "start": 4323.76,
+    "duration": 5.12,
+    "text": "number and loss of another number you have to find  that number you are given an integer array nums"
+  },
+  {
+    "start": 4328.88,
+    "duration": 4.64,
+    "text": "representing the data after the error and you  have to find the number that occurs twice and"
+  },
+  {
+    "start": 4333.52,
+    "duration": 4.64,
+    "text": "the number that is missing okay so what happened  is you are given numbers from 1 till n so let's"
+  },
+  {
+    "start": 4338.16,
+    "duration": 5.68,
+    "text": "say in this case n is equal to 4 so you should  be given numbers one two three four what is the"
+  },
+  {
+    "start": 4343.84,
+    "duration": 5.28,
+    "text": "error that is happening over here error that is  happening is that one of the numbers got repeated"
+  },
+  {
+    "start": 4350.08,
+    "duration": 6.88,
+    "text": "and one of the numbers got deleted so for example  here two got repeated and three got deleted"
+  },
+  {
+    "start": 4358.72,
+    "duration": 2.96,
+    "text": "you have to find two and three that's the question"
+  },
+  {
+    "start": 4363.44,
+    "duration": 2.56,
+    "text": "is it is it anything different  than we have already done"
+  },
+  {
+    "start": 4367.04,
+    "duration": 5.28,
+    "text": "we already did this we did find duplicate we  did find missing number just combine these two"
+  },
+  {
+    "start": 4373.6,
+    "duration": 6.0,
+    "text": "that's it but uh instead of doing like  separately there's a point to be noted over here"
+  },
+  {
+    "start": 4381.04,
+    "duration": 3.76,
+    "text": "very very thing that we can see over here  is what is the thing that we can see over"
+  },
+  {
+    "start": 4384.8,
+    "duration": 5.44,
+    "text": "here pause this video and think about it all  right now that you're back we can see that"
+  },
+  {
+    "start": 4391.12,
+    "duration": 2.88,
+    "text": "if we try to sort this array  you know cyclic sort we know"
+  },
+  {
+    "start": 4394.56,
+    "duration": 4.48,
+    "text": "first thing we know is we will be applying cyclic  sort because 1 to n is given now actually the"
+  },
+  {
+    "start": 4399.04,
+    "duration": 4.16,
+    "text": "important question is how do we solve this  after cyclic sort after cyclic sort is going"
+  },
+  {
+    "start": 4403.2,
+    "duration": 7.28,
+    "text": "to be sorted you know somewhat like this then you  will find let's say we try to do the question of"
+  },
+  {
+    "start": 4411.36,
+    "duration": 5.52,
+    "text": "find the repeating number okay we already  did that we already dated over here find the"
+  },
+  {
+    "start": 4418.08,
+    "duration": 5.2,
+    "text": "duplicate number or whatever find duplicate number  or find the missing number uh or something we can"
+  },
+  {
+    "start": 4423.28,
+    "duration": 6.32,
+    "text": "do this so here we did find the missing number  so if you say first number that is not equal"
+  },
+  {
+    "start": 4429.6,
+    "duration": 4.4,
+    "text": "to index that's given like that that index  itself is the missing number that is correct"
+  },
+  {
+    "start": 4434.0,
+    "duration": 6.32,
+    "text": "so it's going to be like uh the missing number  over here is um you know the three part okay"
+  },
+  {
+    "start": 4441.36,
+    "duration": 6.24,
+    "text": "so the point to be noted over here is what is  the point to be noted over here let's try to"
+  },
+  {
+    "start": 4448.96,
+    "duration": 4.32,
+    "text": "do it in the you know white board okay  so let's try to solve this question"
+  },
+  {
+    "start": 4453.28,
+    "duration": 6.16,
+    "text": "let's say you are given n is equal to 6 okay  you're given n is equal to 6 and let's say"
+  },
+  {
+    "start": 4459.44,
+    "duration": 11.36,
+    "text": "it should contain all the numbers from 1 till 6  something like you know 3 1 four two six and five"
+  },
+  {
+    "start": 4474.08,
+    "duration": 4.32,
+    "text": "okay let's say one number gets repeated let's say"
+  },
+  {
+    "start": 4480.64,
+    "duration": 5.44,
+    "text": "two is getting repeated so if i want  to repeat 2 i have to remove one number"
+  },
+  {
+    "start": 4488.4,
+    "duration": 5.36,
+    "text": "because the size of the arrow should be same if  i want to repeat 2 i have to remove one number"
+  },
+  {
+    "start": 4494.88,
+    "duration": 1.84,
+    "text": "let's say i try to remove any number three"
+  },
+  {
+    "start": 4501.84,
+    "duration": 8.0,
+    "text": "okay that makes sense this is the question  we cyclic sort this and let's see what we get"
+  },
+  {
+    "start": 4511.04,
+    "duration": 3.52,
+    "text": "let's cyclic sort this it's two  at the correct index no it's not"
+  },
+  {
+    "start": 4514.56,
+    "duration": 2.16,
+    "text": "put it at the correct index this will become"
+  },
+  {
+    "start": 4520.4,
+    "duration": 5.92,
+    "text": "one two four two six five is one at  the correct index yes it is it's two"
+  },
+  {
+    "start": 4526.32,
+    "duration": 4.4,
+    "text": "at the correct index yes it is is four  at the correct index no it's not one two"
+  },
+  {
+    "start": 4530.72,
+    "duration": 5.84,
+    "text": "two four six five it's two at the correct index  yes it is four at the correct index yes it is six"
+  },
+  {
+    "start": 4536.56,
+    "duration": 7.52,
+    "text": "at the correct index no it's not swap one two  two four five six this is my sorted array okay"
+  },
+  {
+    "start": 4547.52,
+    "duration": 4.56,
+    "text": "now we know that one number is missing"
+  },
+  {
+    "start": 4554.32,
+    "duration": 3.28,
+    "text": "and one number is repeating"
+  },
+  {
+    "start": 4559.92,
+    "duration": 0.32,
+    "text": "okay"
+  },
+  {
+    "start": 4563.04,
+    "duration": 4.48,
+    "text": "so if i look at this array if i look at the one  number is missing we have done these questions"
+  },
+  {
+    "start": 4567.52,
+    "duration": 5.28,
+    "text": "individually so let's say what is one number  that is missing the one number that is missing"
+  },
+  {
+    "start": 4572.8,
+    "duration": 7.28,
+    "text": "is going to be where the index is wrong where the  index is wrong so basically this is at the correct"
+  },
+  {
+    "start": 4580.08,
+    "duration": 6.24,
+    "text": "index this is at the correct index this is at the  wrong index so index plus one is the answer so"
+  },
+  {
+    "start": 4589.68,
+    "duration": 4.16,
+    "text": "missing number is equal to what index plus one"
+  },
+  {
+    "start": 4600.64,
+    "duration": 6.32,
+    "text": "okay missing number is equal to index plus one  now notice something since only like the one"
+  },
+  {
+    "start": 4606.96,
+    "duration": 8.0,
+    "text": "number was misplaced okay and the number that is  at the wrong index you know the number that is at"
+  },
+  {
+    "start": 4614.96,
+    "duration": 4.56,
+    "text": "the wrong index is which number if this number  is at the wrong index if all the numbers are"
+  },
+  {
+    "start": 4619.52,
+    "duration": 5.44,
+    "text": "at the right place and there is this one number  that is at the wrong index which number is this"
+  },
+  {
+    "start": 4627.12,
+    "duration": 3.28,
+    "text": "which number is this means duplicate number"
+  },
+  {
+    "start": 4631.04,
+    "duration": 4.8,
+    "text": "all the numbers are at the correct index there  is only one number that is at the wrong index"
+  },
+  {
+    "start": 4636.72,
+    "duration": 5.84,
+    "text": "which number is that duplicate number very simple  stuff because all the numbers are the correct"
+  },
+  {
+    "start": 4642.56,
+    "duration": 7.28,
+    "text": "index only number that is at the wrong index is  the duplicate number so duplicate number is what"
+  },
+  {
+    "start": 4652.24,
+    "duration": 3.12,
+    "text": "number at the missing index"
+  },
+  {
+    "start": 4661.04,
+    "duration": 3.12,
+    "text": "that is it that is the solution"
+  },
+  {
+    "start": 4666.24,
+    "duration": 7.36,
+    "text": "okay so when you find a particular number that  is like an index that is not aligning with the"
+  },
+  {
+    "start": 4674.24,
+    "duration": 4.8,
+    "text": "element something we have done already before just  the only difference is previously we were doing"
+  },
+  {
+    "start": 4679.04,
+    "duration": 5.92,
+    "text": "something like just returning the index now we are  also going to return the uh element at that index"
+  },
+  {
+    "start": 4686.64,
+    "duration": 6.08,
+    "text": "that is it that is it we are also doing this  in find all duplicates we will returning the"
+  },
+  {
+    "start": 4692.72,
+    "duration": 4.56,
+    "text": "elements are the and the indices  like right let's try to code this"
+  },
+  {
+    "start": 4697.28,
+    "duration": 5.12,
+    "text": "again copy pasting only nothing new okay so  i'm going to copy paste uh my lead code problem"
+  },
+  {
+    "start": 4704.64,
+    "duration": 1.6,
+    "text": "what is the question set mismatch"
+  },
+  {
+    "start": 4710.96,
+    "duration": 4.96,
+    "text": "oh sorry new java class set mismatch"
+  },
+  {
+    "start": 4718.96,
+    "duration": 5.28,
+    "text": "paste it i'm just going to copy paste  this thing entire thing is copy pasted"
+  },
+  {
+    "start": 4726.32,
+    "duration": 4.4,
+    "text": "entire thing is copy pasted this  will be array swap will be created"
+  },
+  {
+    "start": 4733.04,
+    "duration": 5.28,
+    "text": "entire thing copy pasted the only thing that  we are focusing on is that okay this will be"
+  },
+  {
+    "start": 4738.32,
+    "duration": 4.56,
+    "text": "minus 1 nothing new over here because we are  taking from 1 till n that is it search for the"
+  },
+  {
+    "start": 4742.88,
+    "duration": 5.36,
+    "text": "first missing number that is correct so when we  find the first missing number when we say that"
+  },
+  {
+    "start": 4748.24,
+    "duration": 4.88,
+    "text": "the element at that index is not equal to index  plus 1 because we are taking from 1 till n"
+  },
+  {
+    "start": 4753.12,
+    "duration": 4.0,
+    "text": "just return what what do we need  to return we need to return the"
+  },
+  {
+    "start": 4760.48,
+    "duration": 5.6,
+    "text": "the number uh the missing number and the the  duplicate number and then the missing number"
+  },
+  {
+    "start": 4766.08,
+    "duration": 5.92,
+    "text": "what is the duplicate number duplicate number  is the number at the meeting missing index means"
+  },
+  {
+    "start": 4772.0,
+    "duration": 4.16,
+    "text": "number of i so return let's say  i return a new integer array"
+  },
+  {
+    "start": 4778.48,
+    "duration": 3.52,
+    "text": "so the first element is going to be  the duplicate which is at the number"
+  },
+  {
+    "start": 4782.0,
+    "duration": 5.6,
+    "text": "the number at the missing index so number at the  missing index this thing that is it the second"
+  },
+  {
+    "start": 4787.6,
+    "duration": 4.72,
+    "text": "thing will be what second thing we are returning  is the first one is duplicate second one is the"
+  },
+  {
+    "start": 4792.32,
+    "duration": 4.08,
+    "text": "number that is missing number that is missing  we already discussed this missing number is what"
+  },
+  {
+    "start": 4796.4,
+    "duration": 5.84,
+    "text": "the index or index plus one if you're taking  you know index plus one so over here two uh"
+  },
+  {
+    "start": 4802.24,
+    "duration": 3.92,
+    "text": "plus one three three is missing that is correct  so index plus one we have already covered this"
+  },
+  {
+    "start": 4808.16,
+    "duration": 5.92,
+    "text": "that is it otherwise if the if there is nothing  like uh wrong in that case you can just return"
+  },
+  {
+    "start": 4814.8,
+    "duration": 6.64,
+    "text": "uh minus one comma minus one okay if nothing  is wrong just return minus 1 comma minus 1"
+  },
+  {
+    "start": 4821.44,
+    "duration": 6.8,
+    "text": "was there anything different i did literally  copy paste it okay and since we like don't need"
+  },
+  {
+    "start": 4828.24,
+    "duration": 5.2,
+    "text": "this one because this was like the edge case for  you know skipping n so i don't need this one um"
+  },
+  {
+    "start": 4834.64,
+    "duration": 4.08,
+    "text": "copy paste it i don't think i need to  write any code in this this is literally"
+  },
+  {
+    "start": 4838.72,
+    "duration": 7.12,
+    "text": "no new code okay let's copy paste this  and submit let's paste it over here"
+  },
+  {
+    "start": 4847.68,
+    "duration": 4.72,
+    "text": "looks good let's submit it that looks pretty good  alrighty and it's also efficient time complexity"
+  },
+  {
+    "start": 4852.4,
+    "duration": 5.68,
+    "text": "is good no extra space of n so it's very like  optimized as well and uh good solution if you"
+  },
+  {
+    "start": 4858.08,
+    "duration": 4.48,
+    "text": "do it in the interview they're going to be more  than satisfied cool let's move on to the next one"
+  },
+  {
+    "start": 4862.56,
+    "duration": 4.16,
+    "text": "okay now let's look into the next question  this is a lead code hard question and this"
+  },
+  {
+    "start": 4866.72,
+    "duration": 6.72,
+    "text": "the question is first missing positive one funny  thing about this is that this is also copy pasting"
+  },
+  {
+    "start": 4873.44,
+    "duration": 5.44,
+    "text": "this is also literally copy pasting the previous  solution okay we did the missing number let me"
+  },
+  {
+    "start": 4878.88,
+    "duration": 5.2,
+    "text": "know the missing number in the array then you  might be asking why is this a hard question then"
+  },
+  {
+    "start": 4884.72,
+    "duration": 4.4,
+    "text": "the hard question is because here it's not given  that it's the array from one till n this is going"
+  },
+  {
+    "start": 4889.12,
+    "duration": 5.52,
+    "text": "to use cyclic sort but it is hard because it is  not directly telling us that it's using cyclic"
+  },
+  {
+    "start": 4894.64,
+    "duration": 4.56,
+    "text": "sort so you have to think about it you have  to improve your problem solving skills by this"
+  },
+  {
+    "start": 4899.76,
+    "duration": 7.6,
+    "text": "okay this was asked in amazon okay but the code  is exactly the same copy pasting exactly the same"
+  },
+  {
+    "start": 4907.36,
+    "duration": 5.6,
+    "text": "but it's always important don't copy place  blindly i never copy paste blindly i know what the"
+  },
+  {
+    "start": 4912.96,
+    "duration": 5.68,
+    "text": "algorithm is i know how it's getting solved i know  what is happening behind the scene that is what"
+  },
+  {
+    "start": 4918.64,
+    "duration": 6.16,
+    "text": "you should do as well never memorize never copy  paste blindly always understand how it's working"
+  },
+  {
+    "start": 4925.44,
+    "duration": 3.52,
+    "text": "and have this in your mind that this  lead code hard and medium and easy"
+  },
+  {
+    "start": 4928.96,
+    "duration": 4.88,
+    "text": "this does not matter at all amazon hard question  this is amazon easy question if you know about"
+  },
+  {
+    "start": 4933.84,
+    "duration": 7.52,
+    "text": "cyclic sort this is amazon easy question it's not  a hard question okay let's look into it what's the"
+  },
+  {
+    "start": 4941.36,
+    "duration": 5.76,
+    "text": "question even an unsorted integer array numbers  and return the smallest missing positive integer"
+  },
+  {
+    "start": 4947.84,
+    "duration": 4.96,
+    "text": "of n time and constant space so this is a  little bit of hint that it's cyclic sort"
+  },
+  {
+    "start": 4952.8,
+    "duration": 5.04,
+    "text": "but let's see so you're given something like  three four minus one and one so let's say if"
+  },
+  {
+    "start": 4957.84,
+    "duration": 4.24,
+    "text": "you sort let me just open up my whiteboard  okay so let's do it let's say question"
+  },
+  {
+    "start": 4966.08,
+    "duration": 2.24,
+    "text": "lead code hard"
+  },
+  {
+    "start": 4970.72,
+    "duration": 5.12,
+    "text": "amazon or whatever it's very it's actually lead  code easy this is so funny this is like the entire"
+  },
+  {
+    "start": 4975.84,
+    "duration": 4.64,
+    "text": "mindset behind hard it's hard for someone who  does not know the pattern and the algorithm and"
+  },
+  {
+    "start": 4980.48,
+    "duration": 4.88,
+    "text": "what the problem solving skills will be required  it is not lead code hard easy medium based on the"
+  },
+  {
+    "start": 4985.36,
+    "duration": 6.0,
+    "text": "code sample no code is same it's literally the  same code as easy but the people who clear the"
+  },
+  {
+    "start": 4991.36,
+    "duration": 5.36,
+    "text": "interviews know how to approach that easy question  in the hard question this is not a hard question"
+  },
+  {
+    "start": 4996.72,
+    "duration": 5.44,
+    "text": "if you know the pattern it's exactly the same code  base so let's say you're given something like 3"
+  },
+  {
+    "start": 5003.76,
+    "duration": 4.64,
+    "text": "4 minus 1 and 1 you have to  find the smallest missing"
+  },
+  {
+    "start": 5008.4,
+    "duration": 7.52,
+    "text": "positive number if i sort this it will  become something like this minus 1 1 3 and 4"
+  },
+  {
+    "start": 5017.68,
+    "duration": 4.0,
+    "text": "okay so which is the smallest  positive number that is missing"
+  },
+  {
+    "start": 5026.96,
+    "duration": 2.8,
+    "text": "smallest positive so note over here"
+  },
+  {
+    "start": 5033.92,
+    "duration": 10.8,
+    "text": "ignore negatives because positive numbers are  asked so ignore the negative numbers i will look"
+  },
+  {
+    "start": 5044.72,
+    "duration": 8.56,
+    "text": "at 1 okay i will look at 1 then i will see ok the  smallest 2 numbers are 1 and 3 is there a number"
+  },
+  {
+    "start": 5053.28,
+    "duration": 5.68,
+    "text": "between this yes 2 is missing so answer in this  case is 2 smallest missing positive number is 2."
+  },
+  {
+    "start": 5061.44,
+    "duration": 4.0,
+    "text": "okay let's take another example lead  code another example says something like"
+  },
+  {
+    "start": 5066.16,
+    "duration": 7.36,
+    "text": "7 8 9 11 12 this is the array given to you uh  this is already sorted which is the smallest"
+  },
+  {
+    "start": 5074.08,
+    "duration": 2.64,
+    "text": "missing positive number one is missing"
+  },
+  {
+    "start": 5078.96,
+    "duration": 4.88,
+    "text": "we start checking from the smallest numbers  so basically the idea is this is the idea"
+  },
+  {
+    "start": 5084.8,
+    "duration": 3.92,
+    "text": "you are given let's say some array you sorted  or whatever then you start checking from one"
+  },
+  {
+    "start": 5091.6,
+    "duration": 7.36,
+    "text": "start checking from one does one  exist in this array yes it does"
+  },
+  {
+    "start": 5098.96,
+    "duration": 5.04,
+    "text": "then check for two does two exit in this exist  in this array no it does not answer is two"
+  },
+  {
+    "start": 5107.76,
+    "duration": 2.96,
+    "text": "let's say given an array something like this  in lead code you're given something like"
+  },
+  {
+    "start": 5111.28,
+    "duration": 6.16,
+    "text": "one two and zero after sorting this will become  zero one and two start checking from one does"
+  },
+  {
+    "start": 5117.44,
+    "duration": 4.72,
+    "text": "one exist in the exists in the area yes it  does does two exists in the array yes it does"
+  },
+  {
+    "start": 5122.16,
+    "duration": 3.68,
+    "text": "the three exists in the array no it  does not answer is equal to three"
+  },
+  {
+    "start": 5127.6,
+    "duration": 4.56,
+    "text": "this is your hint that we are going to apply  cyclic sort why because you are approaching from"
+  },
+  {
+    "start": 5132.16,
+    "duration": 6.0,
+    "text": "number one number one then two then three then  four and then five okay so how are we going to"
+  },
+  {
+    "start": 5138.16,
+    "duration": 5.68,
+    "text": "solve this we are exactly going to copy paste the  missing number code okay so we're going to put all"
+  },
+  {
+    "start": 5143.84,
+    "duration": 10.0,
+    "text": "the elements at their correct indices but we are  going to ignore all the elements that are negative"
+  },
+  {
+    "start": 5159.76,
+    "duration": 6.72,
+    "text": "that are negative and greater than n basically  greater than the length of the array so once"
+  },
+  {
+    "start": 5166.48,
+    "duration": 7.12,
+    "text": "we are done with the cyclic sort the first element  you know that does not have the correct index that"
+  },
+  {
+    "start": 5173.6,
+    "duration": 7.36,
+    "text": "will be our answer very simple stuff cyclic sort  only so why how do i know this thing exactly like"
+  },
+  {
+    "start": 5180.96,
+    "duration": 7.52,
+    "text": "this this is just brainstorming okay this is just  me running the example lead code is giving to me"
+  },
+  {
+    "start": 5188.48,
+    "duration": 4.32,
+    "text": "i am not doing anything different here i ran the  example lead code gave i like okay this is what"
+  },
+  {
+    "start": 5192.8,
+    "duration": 5.28,
+    "text": "lead code is saying then i will start checking  from one and then when i start checking from one"
+  },
+  {
+    "start": 5198.08,
+    "duration": 6.96,
+    "text": "it will be like okay one uh one and three and  whatever one is one existing yes is two existing"
+  },
+  {
+    "start": 5205.04,
+    "duration": 7.28,
+    "text": "no two is the answer and two is the missing number  as well okay similarly you take the previous"
+  },
+  {
+    "start": 5212.32,
+    "duration": 10.08,
+    "text": "example that lead code provided 7 8 11 12. so  it's going to be like 7 8 9 11 12 it's going to"
+  },
+  {
+    "start": 5222.4,
+    "duration": 6.4,
+    "text": "check for start checking from one does one exist  no just that's the answer that is the answer"
+  },
+  {
+    "start": 5230.32,
+    "duration": 5.68,
+    "text": "that's it with cyclic sort this is going to be  the one and the first element at the wrong index"
+  },
+  {
+    "start": 5236.0,
+    "duration": 6.64,
+    "text": "is going to be what 0 because 0 should contain  1 so this is the answer index plus 1 answer"
+  },
+  {
+    "start": 5245.36,
+    "duration": 6.8,
+    "text": "let's talk about this one in this case 0 1 2 3 the  first element at the wrong index we are ignoring"
+  },
+  {
+    "start": 5252.16,
+    "duration": 5.28,
+    "text": "the negative ones okay so after sorting this  is actually going to become after sorting it's"
+  },
+  {
+    "start": 5257.44,
+    "duration": 4.8,
+    "text": "not going to be this because since we are doing  cyclic sort then after sorting this will become"
+  },
+  {
+    "start": 5262.24,
+    "duration": 9.6,
+    "text": "something like this this will become this is minus  1 1 3 4 sorry uh 3 4 minus 1 minus 1 was the 3 4"
+  },
+  {
+    "start": 5271.84,
+    "duration": 6.08,
+    "text": "minus 1 and 1 that was the correct one  let's try to sort this with cyclic sort"
+  },
+  {
+    "start": 5279.2,
+    "duration": 4.72,
+    "text": "it's going to be like it's 3 at the correct index  no it's not put it at the correct index 3 sorry"
+  },
+  {
+    "start": 5286.72,
+    "duration": 7.36,
+    "text": "minus 1 4 3 1 minus 1 is going to ignore this  4 is at the correct index no it's not minus one"
+  },
+  {
+    "start": 5294.08,
+    "duration": 7.52,
+    "text": "one three four one at the correct index no it's  not swap it one minus one three four sorted so"
+  },
+  {
+    "start": 5301.6,
+    "duration": 6.16,
+    "text": "i click sort one two three first missing positive  number zero has the correct index yes does first"
+  },
+  {
+    "start": 5307.76,
+    "duration": 5.84,
+    "text": "has the correct element no it does not one should  be having 2 we do not have 2 this is the answer"
+  },
+  {
+    "start": 5318.4,
+    "duration": 6.0,
+    "text": "2 is the answer that is correct two is missing  smallest positive number so you know we are"
+  },
+  {
+    "start": 5324.4,
+    "duration": 4.08,
+    "text": "starting checking from one one one one one one two  three four so we are starting from one two three"
+  },
+  {
+    "start": 5328.48,
+    "duration": 6.56,
+    "text": "four five six seven eight till n are you all able  to understand we're starting from one two three"
+  },
+  {
+    "start": 5336.8,
+    "duration": 3.2,
+    "text": "any amount of number you may have  but we're doing it in this step right"
+  },
+  {
+    "start": 5340.0,
+    "duration": 4.8,
+    "text": "we need this step so this step whenever you find  this step in that case also apply cyclic sort"
+  },
+  {
+    "start": 5345.6,
+    "duration": 4.88,
+    "text": "okay so when you're given one till n array apply  cyclic sort when you're given the step one two"
+  },
+  {
+    "start": 5350.48,
+    "duration": 6.24,
+    "text": "three four five six seven for finding a number in  this range starting from one till n there's also"
+  },
+  {
+    "start": 5356.72,
+    "duration": 5.68,
+    "text": "some something like cyclic sort starting from one  till n okay so another example can be you're given"
+  },
+  {
+    "start": 5362.4,
+    "duration": 8.0,
+    "text": "an array like uh something like 3 4 2 1 after  cyclic sort this will become 1 2 3 4 so this"
+  },
+  {
+    "start": 5370.4,
+    "duration": 5.36,
+    "text": "will be like 0 1 2 3 correct index correct index  correct index correct index answer is equal to n"
+  },
+  {
+    "start": 5375.76,
+    "duration": 7.36,
+    "text": "which is equal to 5 that is true so literally we  are going to copy paste the missing number let's"
+  },
+  {
+    "start": 5383.12,
+    "duration": 5.84,
+    "text": "see okay let's try to code this first missing  number missing number missing number copy paste"
+  },
+  {
+    "start": 5391.52,
+    "duration": 6.4,
+    "text": "copy is the entire thing uh what is the  problem statement miss first missing positive"
+  },
+  {
+    "start": 5401.36,
+    "duration": 3.28,
+    "text": "i literally explained to you my thought  process so i think it should be clear"
+  },
+  {
+    "start": 5405.44,
+    "duration": 7.6,
+    "text": "okay that looks good and it's just saying that  i need to ignore the elements that are less"
+  },
+  {
+    "start": 5413.04,
+    "duration": 5.36,
+    "text": "than this i also need to ignore the negatives  so i'm going to say if this is or if this is"
+  },
+  {
+    "start": 5418.4,
+    "duration": 6.32,
+    "text": "a positive then only do this because i'm  ignoring the negatives and i'm just going"
+  },
+  {
+    "start": 5424.72,
+    "duration": 4.8,
+    "text": "to swap it with minus 1 and in the end the  answer is actually going to be index plus 1"
+  },
+  {
+    "start": 5431.28,
+    "duration": 5.68,
+    "text": "okay so this is check is add is index plus  one is added all the numbers as we can say"
+  },
+  {
+    "start": 5436.96,
+    "duration": 4.4,
+    "text": "uh you know we are all we are ignoring what are  numbers all the numbers that are greater than n"
+  },
+  {
+    "start": 5441.36,
+    "duration": 8.4,
+    "text": "so already explained this so i can take equal  to n obviously and uh one more thing is that"
+  },
+  {
+    "start": 5450.88,
+    "duration": 8.16,
+    "text": "this is actually also here and length plus one  so for example here uh till n we are going so if"
+  },
+  {
+    "start": 5459.04,
+    "duration": 4.88,
+    "text": "here n is equal to four till one till n we are  going so the first missing positive numbers if"
+  },
+  {
+    "start": 5463.92,
+    "duration": 4.64,
+    "text": "all the elements from 1 till n r is going to be  equal to n plus 1 is going to be available over"
+  },
+  {
+    "start": 5468.56,
+    "duration": 5.76,
+    "text": "here so 5 is going to be the answer 5 is going  to be the answer so if all the elements are like"
+  },
+  {
+    "start": 5474.32,
+    "duration": 4.16,
+    "text": "you know in sorted order from 1 till n the  answer is going to be equal to n plus 1"
+  },
+  {
+    "start": 5479.92,
+    "duration": 4.96,
+    "text": "n plus 1 that is it and also the name of  the function is first missing positive"
+  },
+  {
+    "start": 5485.6,
+    "duration": 5.68,
+    "text": "first missing positive okay and here again  we are checking for index uh since it's from"
+  },
+  {
+    "start": 5491.28,
+    "duration": 6.64,
+    "text": "you know index number one so index plus one if  this element is not equal to index plus one so"
+  },
+  {
+    "start": 5497.92,
+    "duration": 4.72,
+    "text": "that is pretty straightforward you know is  zero equal to is index plus one equal to the"
+  },
+  {
+    "start": 5502.64,
+    "duration": 4.8,
+    "text": "index if the is a is the index plus 1 equal  to value index plus 1 equal to value so it's"
+  },
+  {
+    "start": 5507.44,
+    "duration": 5.12,
+    "text": "checking whether index plus 1 is equal to value  or not okay just copy paste this and submit it"
+  },
+  {
+    "start": 5516.32,
+    "duration": 1.92,
+    "text": "try to submit let's run this first"
+  },
+  {
+    "start": 5520.4,
+    "duration": 1.12,
+    "text": "let's try to submit this"
+  },
+  {
+    "start": 5525.68,
+    "duration": 4.96,
+    "text": "accepted hard question and literally  the copy pasted code of an easy question"
+  },
+  {
+    "start": 5530.64,
+    "duration": 4.8,
+    "text": "easy to medium question this was literally easy  question only because even the medium question"
+  },
+  {
+    "start": 5535.44,
+    "duration": 4.64,
+    "text": "was made from easy question so i never say that  you know copy this thing blindly so one thing i"
+  },
+  {
+    "start": 5540.08,
+    "duration": 3.36,
+    "text": "want to make sure is why are we doing the copy  based thing to make you understand that the"
+  },
+  {
+    "start": 5543.44,
+    "duration": 5.6,
+    "text": "heart is just in your mind only it's actually  easy only but the basics you should never skip"
+  },
+  {
+    "start": 5549.04,
+    "duration": 2.88,
+    "text": "even top computer programmers will  agree on this never skip the basics"
+  },
+  {
+    "start": 5552.64,
+    "duration": 6.32,
+    "text": "okay so even what i'm trying to say is even  easy questions are hard for someone who has"
+  },
+  {
+    "start": 5558.96,
+    "duration": 5.52,
+    "text": "not studied and hard questions are easy for  someone who has studied this is actually how you"
+  },
+  {
+    "start": 5564.48,
+    "duration": 5.04,
+    "text": "clear your interviews you have to look at these  patterns how to optimize what type of problem to"
+  },
+  {
+    "start": 5569.52,
+    "duration": 2.88,
+    "text": "approach with which type of problem that is  what i'm going to teach you for every single"
+  },
+  {
+    "start": 5572.4,
+    "duration": 4.64,
+    "text": "data structure every single algorithm that is the  reason the name of this bootcamp is zero to fang"
+  },
+  {
+    "start": 5577.04,
+    "duration": 4.08,
+    "text": "please share with your friends you will not  find this type of knowledge anywhere for free"
+  },
+  {
+    "start": 5581.68,
+    "duration": 3.52,
+    "text": "share with your friends right now text them  right now pause this video like and comment"
+  },
+  {
+    "start": 5586.16,
+    "duration": 3.68,
+    "text": "this is amazon hard question is this really a  hard question when i literally copy paste it"
+  },
+  {
+    "start": 5590.72,
+    "duration": 4.08,
+    "text": "so it is a hard question for someone who has not  studied it is a hard question for someone who does"
+  },
+  {
+    "start": 5594.8,
+    "duration": 4.72,
+    "text": "not know cyclic sort but for you all who already  know these algorithms and stuff who know how to"
+  },
+  {
+    "start": 5599.52,
+    "duration": 4.8,
+    "text": "optimize problems i never jump onto solutions  directly i mentioned in the beginning as well"
+  },
+  {
+    "start": 5604.32,
+    "duration": 4.56,
+    "text": "you can solve using bubble sort quick sort it may  take n square complexity or whatever then what we"
+  },
+  {
+    "start": 5608.88,
+    "duration": 4.24,
+    "text": "did we tried to see what things are you know  uh what we're trying to resolve i explained my"
+  },
+  {
+    "start": 5613.12,
+    "duration": 4.96,
+    "text": "thought process then i explained the complexity  analysis and everything so we in this boot camp"
+  },
+  {
+    "start": 5618.08,
+    "duration": 5.04,
+    "text": "are never memorizing anything it is literally  copy pasting because the algorithm is same"
+  },
+  {
+    "start": 5623.92,
+    "duration": 4.64,
+    "text": "and some people say that oh it's very big thing  it's very you know complete programming this is"
+  },
+  {
+    "start": 5628.56,
+    "duration": 6.24,
+    "text": "lead code hard no only competitive programming  can solve this no they are misguiding you"
+  },
+  {
+    "start": 5636.64,
+    "duration": 7.6,
+    "text": "this is proof that it's misguiding  amazon like this no cp required"
+  },
+  {
+    "start": 5644.24,
+    "duration": 4.8,
+    "text": "this is all you need or google facebook i  think like cp can definitely help in that"
+  },
+  {
+    "start": 5649.04,
+    "duration": 6.4,
+    "text": "case but for microsoft amazon at least in india  no this is the level of question if you go to"
+  },
+  {
+    "start": 5655.44,
+    "duration": 6.32,
+    "text": "interview bit or other you know where they have  previous year solutions graph dp link list these"
+  },
+  {
+    "start": 5661.76,
+    "duration": 3.76,
+    "text": "questions of microsoft amazon are like this  then why are people saying that cp is mandatory"
+  },
+  {
+    "start": 5667.36,
+    "duration": 4.48,
+    "text": "just do this course microsoft amazon you will  do like this trust me and don't trust me just"
+  },
+  {
+    "start": 5671.84,
+    "duration": 3.2,
+    "text": "solve this problems yourself via share  this in the assignments and everything"
+  },
+  {
+    "start": 5675.04,
+    "duration": 5.44,
+    "text": "this is the proof right here that basics are  important okay so if i'm saying it in hindi"
+  },
+  {
+    "start": 5681.76,
+    "duration": 6.24,
+    "text": "please ignore it okay so what i mean is it's like  a little bit overrated that's true also the salary"
+  },
+  {
+    "start": 5688.0,
+    "duration": 3.68,
+    "text": "of these companies in india is also not that great  i don't know what's the overhyping thing about"
+  },
+  {
+    "start": 5692.32,
+    "duration": 6.64,
+    "text": "many youtubers have overriped this ruins ruins the  future of students they only do cp and in the end"
+  },
+  {
+    "start": 5698.96,
+    "duration": 4.8,
+    "text": "they realize it was not mandatory when they don't  even have interest we have interest and do it"
+  },
+  {
+    "start": 5705.92,
+    "duration": 4.0,
+    "text": "okay so not just for this for dp  graph and everything we will see"
+  },
+  {
+    "start": 5709.92,
+    "duration": 4.32,
+    "text": "how to break hard problems into easy  problems that is the what we are doing here"
+  },
+  {
+    "start": 5714.24,
+    "duration": 4.0,
+    "text": "over here breaking bigger problems and smaller  problems so you can solve any interview question"
+  },
+  {
+    "start": 5718.96,
+    "duration": 2.96,
+    "text": "make sure you like share subscribe  comment right now and share with"
+  },
+  {
+    "start": 5721.92,
+    "duration": 9.44,
+    "text": "your friends and i will see you in the  next one thanks a lot for watching bye"
+  }
+]

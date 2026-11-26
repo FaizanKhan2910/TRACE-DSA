@@ -1,0 +1,2077 @@
+[
+  {
+    "start": 3.73,
+    "duration": 4.4,
+    "text": "Welcome back to another video and now we are starting with sorting."
+  },
+  {
+    "start": 8.13,
+    "duration": 3.36,
+    "text": "So if you're new to the channel, we have started the complete data series algorithms,"
+  },
+  {
+    "start": 11.49,
+    "duration": 3.76,
+    "text": "interview, preparation, boot camp, the link for that, the entire playlist is in the description"
+  },
+  {
+    "start": 15.25,
+    "duration": 5.12,
+    "text": "below. It's completely free. And now we're starting with sorting. So we're going to be sorting the"
+  },
+  {
+    "start": 20.37,
+    "duration": 4.4,
+    "text": "arrays. So we're looking to what is sorting and what are the various ways of sorting,"
+  },
+  {
+    "start": 24.77,
+    "duration": 4.32,
+    "text": "how these various ways compare with each with each other, what are some internal sorting methods"
+  },
+  {
+    "start": 29.09,
+    "duration": 4.48,
+    "text": "available in like programming languages. So we're going to be learning about bubble sort,"
+  },
+  {
+    "start": 33.57,
+    "duration": 6.4,
+    "text": "quick sort, insertion sort, count sort, radix sort and cyclic sort. So this is a very important"
+  },
+  {
+    "start": 39.97,
+    "duration": 5.92,
+    "text": "topic because it's often asked in interviews, not like directly as a sorting algorithm,"
+  },
+  {
+    "start": 45.89,
+    "duration": 8.0,
+    "text": "but many questions may follow the sorting approach. They may ask you, which sorting"
+  },
+  {
+    "start": 53.89,
+    "duration": 3.44,
+    "text": "algorithm are you using or whatever. In the future, when we do recursion, we will be"
+  },
+  {
+    "start": 57.33,
+    "duration": 4.8,
+    "text": "learning two more sorting algorithms merge sort and quick sort but since we have not done recursion"
+  },
+  {
+    "start": 62.13,
+    "duration": 4.64,
+    "text": "right now for now we'll only be looking at sorting algorithms without recursion let's get"
+  },
+  {
+    "start": 66.77,
+    "duration": 5.04,
+    "text": "started in this video we are looking at bubble sort so let's take an example first over here"
+  },
+  {
+    "start": 71.81,
+    "duration": 8.08,
+    "text": "okay let's first take an example over here let's say the array given to us is something like"
+  },
+  {
+    "start": 79.89,
+    "duration": 10.32,
+    "text": "like 3, 1, 5, 4, 2, okay, this is the array that has been given to us, obviously you can"
+  },
+  {
+    "start": 90.21,
+    "duration": 5.0,
+    "text": "see this is not sorted, okay, so it's an unsorted array, sorted means what, either ascending"
+  },
+  {
+    "start": 95.21,
+    "duration": 3.64,
+    "text": "or descending, so if I am saying that an array is sorted, an array is sorted in"
+  },
+  {
+    "start": 98.85,
+    "duration": 4.72,
+    "text": "ascending order, it means it should be sorted in like, you know, smaller to greatest,"
+  },
+  {
+    "start": 103.57,
+    "duration": 5.52,
+    "text": "so sorted version of this array would be what, 1, 2, 3, 4, 5, very simple, if"
+  },
+  {
+    "start": 109.09,
+    "duration": 6.6,
+    "text": "If we are given an array something like this, 23, 12, 19, sorted version would be something"
+  },
+  {
+    "start": 115.69,
+    "duration": 8.24,
+    "text": "like this, 12, 19, 23, increasing order, ascending order sorted, okay."
+  },
+  {
+    "start": 123.93,
+    "duration": 3.48,
+    "text": "So let us see what is bubble sort and how we use bubble sort."
+  },
+  {
+    "start": 127.41,
+    "duration": 5.48,
+    "text": "So bubble sort is basically a comparison sort method, okay."
+  },
+  {
+    "start": 132.89,
+    "duration": 3.28,
+    "text": "Now what does it mean by comparison sort method?"
+  },
+  {
+    "start": 136.17,
+    "duration": 5.44,
+    "text": "idea is that with every sorting algorithm that we do okay with every sorting algorithm that we do"
+  },
+  {
+    "start": 142.49,
+    "duration": 8.08,
+    "text": "we are going to try something with every pass okay with every step let's say in simple language"
+  },
+  {
+    "start": 150.57,
+    "duration": 5.76,
+    "text": "what I'm trying to say is I am going to I'm going to try to sort this array step by step"
+  },
+  {
+    "start": 156.33,
+    "duration": 4.16,
+    "text": "that is very simple stuff okay this is an array that we are given to be sorted"
+  },
+  {
+    "start": 160.49,
+    "duration": 4.56,
+    "text": "think about it if someone is asking you hey Kunal sort this array okay and you're using some"
+  },
+  {
+    "start": 165.05,
+    "duration": 5.92,
+    "text": "algorithm or whatever would that algorithm just sort it like in just one single step no it's a"
+  },
+  {
+    "start": 170.97,
+    "duration": 3.84,
+    "text": "really large number you know so many large numbers can available be available over here"
+  },
+  {
+    "start": 176.01,
+    "duration": 6.32,
+    "text": "so every sorting algorithm it's going to sort it step by step okay now all the sorting algorithms"
+  },
+  {
+    "start": 182.33,
+    "duration": 6.24,
+    "text": "after talking about they differ by each step like in each step what are they doing what are"
+  },
+  {
+    "start": 188.57,
+    "duration": 4.96,
+    "text": "various sorting algorithms doing that is what makes all of these things different let's"
+  },
+  {
+    "start": 193.53,
+    "duration": 2.12,
+    "text": "Let's focus on bubble sort right now."
+  },
+  {
+    "start": 195.65,
+    "duration": 1.56,
+    "text": "Bubble sort is very simple."
+  },
+  {
+    "start": 197.21,
+    "duration": 4.64,
+    "text": "Bubble sort basically says that in every step,"
+  },
+  {
+    "start": 201.85,
+    "duration": 2.48,
+    "text": "step number one, in every step,"
+  },
+  {
+    "start": 204.33,
+    "duration": 4.5,
+    "text": "you are comparing adjacent elements."
+  },
+  {
+    "start": 208.83,
+    "duration": 2.88,
+    "text": "In every step, you are comparing adjacent elements"
+  },
+  {
+    "start": 211.71,
+    "duration": 2.48,
+    "text": "like this and these two elements."
+  },
+  {
+    "start": 215.39,
+    "duration": 3.24,
+    "text": "So the idea is that let's try to see what is happening"
+  },
+  {
+    "start": 218.63,
+    "duration": 1.08,
+    "text": "and then I'll explain to you"
+  },
+  {
+    "start": 219.71,
+    "duration": 2.2,
+    "text": "like why we are doing this."
+  },
+  {
+    "start": 221.91,
+    "duration": 2.44,
+    "text": "So two questions you may be having right now."
+  },
+  {
+    "start": 224.35,
+    "duration": 20.0,
+    "text": "What are we doing? Why we are doing it? Okay, so let's answer that first. Let's answer answer. What are we doing in every single step? Okay, so we are going to start with the first two elements. We're going to compare. Hey, is the, is this element like the first element greater than the second element? It's going to be like, yes, it is, then you're going to swap it."
+  },
+  {
+    "start": 244.35,
+    "duration": 8.29,
+    "text": "you are going to swap it. So when you swap it, it will become something like this. One"
+  },
+  {
+    "start": 252.64,
+    "duration": 5.36,
+    "text": "will come over here, three will come over here, five, four and two. Now you take the next"
+  },
+  {
+    "start": 258.0,
+    "duration": 4.84,
+    "text": "two elements, then it's going to be like, hey, is three greater than five is the first"
+  },
+  {
+    "start": 262.84,
+    "duration": 3.28,
+    "text": "element greater than the next element. It's going to be like, no, it's not. And it's"
+  },
+  {
+    "start": 266.12,
+    "duration": 4.12,
+    "text": "going to be like, okay, cool, let's move ahead. It's five, it's five greater than"
+  },
+  {
+    "start": 270.24,
+    "duration": 11.16,
+    "text": "4, yes it is swap, swap 5 and 4, this becomes 1, 3, 4 and 5 and 2 over here."
+  },
+  {
+    "start": 281.4,
+    "duration": 7.38,
+    "text": "Now it says it's 5 greater than 2, it's going to be like yes it is ok, swap, swap it again,"
+  },
+  {
+    "start": 288.78,
+    "duration": 1.8,
+    "text": "this will become what?"
+  },
+  {
+    "start": 290.58,
+    "duration": 3.48,
+    "text": "1, 3, 4, 2, 5."
+  },
+  {
+    "start": 294.06,
+    "duration": 10.02,
+    "text": "This is ass number 1, first step, ok, so this is what we are doing, why we are doing"
+  },
+  {
+    "start": 304.08,
+    "duration": 13.14,
+    "text": "it what is happening let us see why bubble sort can you see that when I ran this particular"
+  },
+  {
+    "start": 317.22,
+    "duration": 5.4,
+    "text": "thing just the comparison of adjacent element when I ran it one times throughout the entire"
+  },
+  {
+    "start": 322.62,
+    "duration": 16.49,
+    "text": "array the largest element is at the end with the first parts pass through the array the"
+  },
+  {
+    "start": 339.11,
+    "duration": 15.7,
+    "text": "largest element came in the end ok. So, with the first pass through the entire array"
+  },
+  {
+    "start": 354.81,
+    "duration": 4.74,
+    "text": "we ran the pass through the entire array. And you can see the largest element came in the"
+  },
+  {
+    "start": 359.55,
+    "duration": 6.26,
+    "text": "end. Now my array is 13425. Let's see. Now I'm going to run it for the second time. 13425."
+  },
+  {
+    "start": 365.81,
+    "duration": 7.8,
+    "text": "Let's run it for another time. It's going to say is one greater than three? No, it's"
+  },
+  {
+    "start": 373.61,
+    "duration": 3.48,
+    "text": "not. Okay, it's three greater than four. No, it's not. It's four greater than two."
+  },
+  {
+    "start": 377.09,
+    "duration": 10.46,
+    "text": "Yes, it is swap. Okay, then it's going to be like, it's four greater than five."
+  },
+  {
+    "start": 387.55,
+    "duration": 6.68,
+    "text": "it is not, this is my answer. Now you can see the second last element in the second"
+  },
+  {
+    "start": 394.23,
+    "duration": 6.6,
+    "text": "pass, in the second pass, the second largest element in the array comes at the second last"
+  },
+  {
+    "start": 400.83,
+    "duration": 8.24,
+    "text": "index, that is true. Similarly, when I run this again, are you able to understand this"
+  },
+  {
+    "start": 409.07,
+    "duration": 21.96,
+    "text": "thing. Now with pass number two, second largest element is at the second from last index. Similarly,"
+  },
+  {
+    "start": 431.03,
+    "duration": 5.34,
+    "text": "when I do pass number three, the third largest element will be at the third index from the"
+  },
+  {
+    "start": 436.37,
+    "duration": 4.68,
+    "text": "last means three will actually come over here. You can try that out yourself as well."
+  },
+  {
+    "start": 441.05,
+    "duration": 7.0,
+    "text": "can say if now the array I have is 1, 3, 2, 4, 5. Let's try comparing 1 and 3. That's"
+  },
+  {
+    "start": 448.05,
+    "duration": 6.11,
+    "text": "not going to swap 3 and 2. It's 3 greater than 2. Yes, it is. Swap it. It's going to"
+  },
+  {
+    "start": 454.16,
+    "duration": 8.71,
+    "text": "be 1. That's it. Third largest element is at the third index. So with every step, what"
+  },
+  {
+    "start": 462.87,
+    "duration": 5.88,
+    "text": "is happening? At every step, the largest element remaining in the array is coming at"
+  },
+  {
+    "start": 468.75,
+    "duration": 3.84,
+    "text": "the last, like the last remaining for that array. So for example, when you run the"
+  },
+  {
+    "start": 472.59,
+    "duration": 5.48,
+    "text": "the array first time, the entire largest element from all the arrays will come at the last."
+  },
+  {
+    "start": 478.07,
+    "duration": 6.08,
+    "text": "When you run it for the second time, the largest element from this array will come at this last"
+  },
+  {
+    "start": 484.15,
+    "duration": 1.0,
+    "text": "element."
+  },
+  {
+    "start": 485.15,
+    "duration": 6.4,
+    "text": "When you run it for the third time, the largest element from this particular one will come"
+  },
+  {
+    "start": 491.55,
+    "duration": 4.08,
+    "text": "over here means three will come over here, when you run it again, one two will come"
+  },
+  {
+    "start": 495.63,
+    "duration": 8.56,
+    "text": "over here, one will come over here. That is in short that is bubble sort. It is also"
+  },
+  {
+    "start": 504.19,
+    "duration": 5.76,
+    "text": "known as syncing sort. It is also known as syncing sort and it also known as exchange"
+  },
+  {
+    "start": 509.95,
+    "duration": 23.23,
+    "text": "sort. Let me write it down over here. Also known as syncing sort or exchange sort"
+  },
+  {
+    "start": 533.18,
+    "duration": 4.64,
+    "text": "because you are exchanging elements. So now we have answered what we are doing and"
+  },
+  {
+    "start": 537.82,
+    "duration": 4.76,
+    "text": "And we have also answered why we are doing it because the idea is the intuition, intuition"
+  },
+  {
+    "start": 542.58,
+    "duration": 7.08,
+    "text": "is with every pass, with every step, the largest element will come in the end with every step."
+  },
+  {
+    "start": 549.66,
+    "duration": 1.84,
+    "text": "Okay, that is the idea."
+  },
+  {
+    "start": 551.5,
+    "duration": 4.52,
+    "text": "Few things I want you to notice over here, we still have to talk a little bit more about"
+  },
+  {
+    "start": 556.02,
+    "duration": 4.12,
+    "text": "like the, you know, time complexity, space complexity and stuff like what is the number"
+  },
+  {
+    "start": 560.14,
+    "duration": 1.28,
+    "text": "of comparison it's making."
+  },
+  {
+    "start": 561.42,
+    "duration": 2.72,
+    "text": "If you don't know about what is space and time complexity, don't worry, we'll"
+  },
+  {
+    "start": 564.14,
+    "duration": 1.0,
+    "text": "cover it."
+  },
+  {
+    "start": 565.14,
+    "duration": 4.48,
+    "text": "it you know before, but now we will also look a little bit about what is the complexity"
+  },
+  {
+    "start": 569.62,
+    "duration": 6.64,
+    "text": "of these algorithms as well. So, one thing I want to note, I want you to notice over here"
+  },
+  {
+    "start": 576.26,
+    "duration": 5.28,
+    "text": "is that with the first pass, you can see that the largest element was over here, okay,"
+  },
+  {
+    "start": 581.54,
+    "duration": 6.48,
+    "text": "the largest element was over here. Then, does it not make sense that for the remaining"
+  },
+  {
+    "start": 588.02,
+    "duration": 4.96,
+    "text": "part of the array, I am only going to consider this part and ignore this because I already"
+  },
+  {
+    "start": 592.98,
+    "duration": 3.32,
+    "text": "you know that this is not going to swap with anything because this is the largest part"
+  },
+  {
+    "start": 596.3,
+    "duration": 1.0,
+    "text": "of the element."
+  },
+  {
+    "start": 597.3,
+    "duration": 5.4,
+    "text": "So, what I am saying is when you come over here till 4, does it really makes you make"
+  },
+  {
+    "start": 602.7,
+    "duration": 3.52,
+    "text": "sense to compare 4 and 5?"
+  },
+  {
+    "start": 606.22,
+    "duration": 3.24,
+    "text": "It does not because we know 5 is the largest element, okay."
+  },
+  {
+    "start": 609.46,
+    "duration": 4.52,
+    "text": "Similarly, when we come at this array, the third largest element we are trying to find,"
+  },
+  {
+    "start": 613.98,
+    "duration": 3.0,
+    "text": "does it make sense to compare it with 4 and 5?"
+  },
+  {
+    "start": 616.98,
+    "duration": 4.8,
+    "text": "When I swap this, does it make sense to compare it like this and like this?"
+  },
+  {
+    "start": 621.78,
+    "duration": 1.0,
+    "text": "No."
+  },
+  {
+    "start": 622.78,
+    "duration": 7.84,
+    "text": "I want you to notice is with every pass with every pass with first pass this side will be sorted"
+  },
+  {
+    "start": 631.42,
+    "duration": 5.04,
+    "text": "with the second pass you can see this side is sorted with the third pass you can see this side"
+  },
+  {
+    "start": 636.46,
+    "duration": 6.9,
+    "text": "is sorted okay hence you don't have to compare it again and again you can just ignore this"
+  },
+  {
+    "start": 643.36,
+    "duration": 11.0,
+    "text": "ok. So, what I am trying to say is that what I am trying to say is that 31542, let us try"
+  },
+  {
+    "start": 654.36,
+    "duration": 7.24,
+    "text": "it again, what I am trying to say, how the code is going to run. So, code is going to"
+  },
+  {
+    "start": 661.6,
+    "duration": 4.52,
+    "text": "run something like this, we are going to have an index value, an index value is going"
+  },
+  {
+    "start": 666.12,
+    "duration": 7.22,
+    "text": "to start from let us say I is going to start from 0 ok, I is going to start from"
+  },
+  {
+    "start": 673.34,
+    "duration": 6.12,
+    "text": "0. Now, we are just going to say the next loop that we will be running will be from let"
+  },
+  {
+    "start": 679.46,
+    "duration": 13.94,
+    "text": "us say that is j that will be from 1. So, we are just going to check is j greater than"
+  },
+  {
+    "start": 693.4,
+    "duration": 5.84,
+    "text": "j minus 1 it is going to be like yes it is swap. After swapping this will become 1,"
+  },
+  {
+    "start": 699.24,
+    "duration": 6.16,
+    "text": "5 4 2 then the j the value of j will increase now j will come over here is going to be like hey"
+  },
+  {
+    "start": 705.4,
+    "duration": 5.04,
+    "text": "Is j greater than j minus 1? No, it's not and it's going to be like okay value of j increase is j"
+  },
+  {
+    "start": 711.24,
+    "duration": 1.32,
+    "text": "Sorry is"
+  },
+  {
+    "start": 712.56,
+    "duration": 3.24,
+    "text": "When the value of j increases over here. Let me just write it in a correct way"
+  },
+  {
+    "start": 716.24,
+    "duration": 7.19,
+    "text": "So you have i starting from 0 and j starting from 1. You're just basically going to say that"
+  },
+  {
+    "start": 724.23,
+    "duration": 1.8,
+    "text": "you know"
+  },
+  {
+    "start": 726.03,
+    "duration": 8.74,
+    "text": "is j actually smaller than j minus 1 it's going to be like yes it is then swap 1 3 5 4 2 j's"
+  },
+  {
+    "start": 734.77,
+    "duration": 6.58,
+    "text": "value will be incremented now so j will come over here is j value smaller than j minus"
+  },
+  {
+    "start": 741.35,
+    "duration": 9.97,
+    "text": "1 no it's not ok plus 1 is j value smaller than j minus 1 yes it is swap 1 3 4 5 2 j"
+  },
+  {
+    "start": 751.32,
+    "duration": 8.4,
+    "text": "will now come over here. Is j value smaller than j minus 1? Yes, it is. Swap. 1, 3, 4,"
+  },
+  {
+    "start": 759.72,
+    "duration": 6.64,
+    "text": "2, 5. You can see this j has now ended. j will now be index out of bound. So, this j is actually"
+  },
+  {
+    "start": 766.36,
+    "duration": 14.36,
+    "text": "the internal loop. Internal loop. This j is basically sorting the array step by step."
+  },
+  {
+    "start": 780.72,
+    "duration": 5.88,
+    "text": "And how many times do I want to do this thing? n minus 1 times. Why? Because first"
+  },
+  {
+    "start": 786.6,
+    "duration": 5.44,
+    "text": "Next I am going to solve it for the element that is coming over here, then I will sort"
+  },
+  {
+    "start": 792.04,
+    "duration": 3.92,
+    "text": "for the element coming over here, then for the element coming over here, then for the"
+  },
+  {
+    "start": 795.96,
+    "duration": 5.24,
+    "text": "element coming over here, here only one element will be remaining, hence no sorting required."
+  },
+  {
+    "start": 801.2,
+    "duration": 1.56,
+    "text": "This is n minus 1."
+  },
+  {
+    "start": 802.76,
+    "duration": 7.4,
+    "text": "So, the idea is whatever this j thing is doing, do this n minus 1 times, for which"
+  },
+  {
+    "start": 810.16,
+    "duration": 1.36,
+    "text": "I will have this i, ok."
+  },
+  {
+    "start": 811.52,
+    "duration": 7.33,
+    "text": "So, this i is actually not like a pointer, I mean obviously it is, but it is not"
+  },
+  {
+    "start": 818.85,
+    "duration": 8.11,
+    "text": "actually doing anything. It's just a counter. So I here is a counter. I is a counter only."
+  },
+  {
+    "start": 826.96,
+    "duration": 5.0,
+    "text": "Okay, so it's like, okay, do all these things that you are doing. How many times do you want"
+  },
+  {
+    "start": 831.96,
+    "duration": 5.92,
+    "text": "to do this n minus one times? Okay, that's what the outer loop will be for. I'll run"
+  },
+  {
+    "start": 837.88,
+    "duration": 5.24,
+    "text": "it right now. So for example, I's value is zero. Okay, now when this loop is finished,"
+  },
+  {
+    "start": 843.12,
+    "duration": 7.23,
+    "text": "when this loop is finished, I will be I plus one. Okay, now J will start again for"
+  },
+  {
+    "start": 850.35,
+    "duration": 9.92,
+    "text": "I is equal to one. This means second pass. I is equal to one means second pass. So here"
+  },
+  {
+    "start": 860.27,
+    "duration": 13.12,
+    "text": "the area I have is 13425. I have 13425. Index 01234. J starts from here again. It's going"
+  },
+  {
+    "start": 873.39,
+    "duration": 4.44,
+    "text": "to be like, is this smaller than the previous one? No, it's not. J moves ahead. Is this"
+  },
+  {
+    "start": 877.83,
+    "duration": 3.58,
+    "text": "smaller than previous one? No, it's not. J moves ahead. Is too smaller than previous"
+  },
+  {
+    "start": 881.41,
+    "duration": 11.72,
+    "text": "one yes it is swap 1 3 2 4 5 now notice something I mentioned that it does not really make sense"
+  },
+  {
+    "start": 893.13,
+    "duration": 4.2,
+    "text": "now J will come over here okay but it does not really make sense to compare the remaining"
+  },
+  {
+    "start": 897.33,
+    "duration": 4.6,
+    "text": "elements that have already been sorted I know that this is the largest element and I know"
+  },
+  {
+    "start": 901.93,
+    "duration": 5.0,
+    "text": "that after the first after the second pass this will again be sorted so it does not"
+  },
+  {
+    "start": 906.93,
+    "duration": 5.28,
+    "text": "really make sense to you know gain and again compare with this because after every pass"
+  },
+  {
+    "start": 912.21,
+    "duration": 5.0,
+    "text": "from the backhand side these elements are at the correct index hence you don't have"
+  },
+  {
+    "start": 917.21,
+    "duration": 6.04,
+    "text": "to compare. So basically j is with every loop j is starting from one but j will only go"
+  },
+  {
+    "start": 923.25,
+    "duration": 9.72,
+    "text": "till the part where the array is not sorted. So when I run for i is equal to 2 which"
+  },
+  {
+    "start": 932.97,
+    "duration": 12.15,
+    "text": "is the third pass, I have 1, 3, 2, 4, 5, J will only run till this, J will only run till"
+  },
+  {
+    "start": 945.12,
+    "duration": 21.14,
+    "text": "this. So, J will only check this because this is already sorted. So, let us see the"
+  },
+  {
+    "start": 966.26,
+    "duration": 8.12,
+    "text": "index value, index value let's say here is 0, 1, 2, 3, 4, 0, 1, 2, 3, 4. So, here J is"
+  },
+  {
+    "start": 974.38,
+    "duration": 6.4,
+    "text": "actually going to, going till 2. Here J is actually just going till 3. So, J is actually"
+  },
+  {
+    "start": 980.78,
+    "duration": 7.96,
+    "text": "going till the length minus i. What is length minus i over here? Length minus i is 5 minus"
+  },
+  {
+    "start": 988.74,
+    "duration": 6.0,
+    "text": "1 which is 4. So, J is actually going till length minus i like less than length minus"
+  },
+  {
+    "start": 994.74,
+    "duration": 10.54,
+    "text": "i or less than equal to length minus i minus 1 same thing ok. So, length minus i is 4 j"
+  },
+  {
+    "start": 1005.28,
+    "duration": 5.38,
+    "text": "is only going to go till less than 4 means till 3 that is correct. Here length minus"
+  },
+  {
+    "start": 1010.66,
+    "duration": 7.32,
+    "text": "i is equal to what 5 minus 2 3 which is equal to 3 j will only go till 2 0 1 2 that is"
+  },
+  {
+    "start": 1017.98,
+    "duration": 9.2,
+    "text": "correct? You can try to make it happen till end also but that is waste of time. It is not"
+  },
+  {
+    "start": 1027.18,
+    "duration": 8.88,
+    "text": "really helping us anyway. That is pretty much about it and yeah. Now let us consider the"
+  },
+  {
+    "start": 1036.06,
+    "duration": 4.32,
+    "text": "complexity of you know bubble sort. I know we have not like discussed about space and"
+  },
+  {
+    "start": 1040.38,
+    "duration": 3.8,
+    "text": "time complexity before. We have discussed about it before but we have not done a lecture"
+  },
+  {
+    "start": 1044.18,
+    "duration": 3.44,
+    "text": "on it but I think you are already aware of it if you have been following the course"
+  },
+  {
+    "start": 1047.62,
+    "duration": 3.2,
+    "text": "because we did learn about it when we were doing binary search."
+  },
+  {
+    "start": 1050.82,
+    "duration": 5.92,
+    "text": "So, for now, again, as always, do not worry about what is Big O notation or whatever."
+  },
+  {
+    "start": 1056.74,
+    "duration": 3.8,
+    "text": "I will mention it over here right now, but for people who do not know what is Big O"
+  },
+  {
+    "start": 1060.54,
+    "duration": 6.08,
+    "text": "notation, try to understand it in a way that say we are comparing something like what"
+  },
+  {
+    "start": 1066.62,
+    "duration": 2.84,
+    "text": "is the maximum number of comparisons being made."
+  },
+  {
+    "start": 1069.46,
+    "duration": 5.12,
+    "text": "Let us say that is what we are comparing now in terms of time complexity."
+  },
+  {
+    "start": 1074.58,
+    "duration": 4.52,
+    "text": "So, space complexity for all the algorithms that we will be doing right now is constant."
+  },
+  {
+    "start": 1079.1,
+    "duration": 3.72,
+    "text": "It basically means is there any extra space you are taking means are you creating a new"
+  },
+  {
+    "start": 1082.82,
+    "duration": 1.0,
+    "text": "array or whatever."
+  },
+  {
+    "start": 1083.82,
+    "duration": 1.0,
+    "text": "So, we are not."
+  },
+  {
+    "start": 1084.82,
+    "duration": 9.24,
+    "text": "So, that is why space complexity for this one is equal to constant."
+  },
+  {
+    "start": 1094.06,
+    "duration": 3.8,
+    "text": "This basically means the big one rotation will come back cover later on like what"
+  },
+  {
+    "start": 1097.86,
+    "duration": 11.86,
+    "text": "is it and how it works and everything but what this means is that no extra space"
+  },
+  {
+    "start": 1109.72,
+    "duration": 15.13,
+    "text": "required that is like copying the array or whatever not required."
+  },
+  {
+    "start": 1124.85,
+    "duration": 4.2,
+    "text": "This is also known as in place sorting algorithms."
+  },
+  {
+    "start": 1129.05,
+    "duration": 11.67,
+    "text": "Also known as in place sorting algorithms means you don't have to create a new array"
+  },
+  {
+    "start": 1140.72,
+    "duration": 5.56,
+    "text": "or whatever that is the simple meaning of it."
+  },
+  {
+    "start": 1146.28,
+    "duration": 2.0,
+    "text": "Cool."
+  },
+  {
+    "start": 1148.28,
+    "duration": 5.42,
+    "text": "Now, let's discuss about the complexity like the time complexity. So, we can discuss about"
+  },
+  {
+    "start": 1153.7,
+    "duration": 8.38,
+    "text": "time complexity. Let me first just write the answer over here time complexity. I can say"
+  },
+  {
+    "start": 1162.08,
+    "duration": 11.8,
+    "text": "best case is O of n worst case is O of n squared and I will explain it in detail right now"
+  },
+  {
+    "start": 1173.88,
+    "duration": 8.2,
+    "text": "Now don't worry, this is when the array is sorted, this is when the array is sorted in"
+  },
+  {
+    "start": 1182.08,
+    "duration": 2.54,
+    "text": "opposite."
+  },
+  {
+    "start": 1184.62,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 1185.62,
+    "duration": 3.36,
+    "text": "So for example, you're given an array sorted in descending order, you want to sort it in"
+  },
+  {
+    "start": 1188.98,
+    "duration": 1.24,
+    "text": "ascending order."
+  },
+  {
+    "start": 1190.22,
+    "duration": 2.8,
+    "text": "So that that is the worst case."
+  },
+  {
+    "start": 1193.02,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 1194.02,
+    "duration": 4.72,
+    "text": "Now, as I mentioned, forget about what is bigger notation right now."
+  },
+  {
+    "start": 1198.74,
+    "duration": 3.64,
+    "text": "This N you can basically imagine as the number of comparisons."
+  },
+  {
+    "start": 1202.38,
+    "duration": 1.16,
+    "text": "Okay."
+  },
+  {
+    "start": 1203.54,
+    "duration": 6.7,
+    "text": "of comparisons you need. Okay, for example, if the array is of size 100, you will need"
+  },
+  {
+    "start": 1210.24,
+    "duration": 7.44,
+    "text": "around, you know, 100 square comparisons, that's like 10,000 comparisons. If the arrays"
+  },
+  {
+    "start": 1217.68,
+    "duration": 8.8,
+    "text": "has a size of, you know, something like 50, then you will need 15 to 50, which is"
+  },
+  {
+    "start": 1226.48,
+    "duration": 5.4,
+    "text": "2,500 comparisons. In the worst case, in the best case, similarly, you will need"
+  },
+  {
+    "start": 1231.88,
+    "duration": 8.8,
+    "text": "50 comparisons, 100 comparisons, best case, worst case. So, as you can see as the size"
+  },
+  {
+    "start": 1240.68,
+    "duration": 16.08,
+    "text": "of the input is growing, so here I can see that as the size of array is growing, the"
+  },
+  {
+    "start": 1256.76,
+    "duration": 11.33,
+    "text": "number of comparisons is also growing. This is time complexity basically. So,"
+  },
+  {
+    "start": 1268.09,
+    "duration": 5.76,
+    "text": "as the input grows, how your time grows, that is known as time complexity. So n square"
+  },
+  {
+    "start": 1273.85,
+    "duration": 3.88,
+    "text": "basically means time will grow very fast, otherwise it will grow very slow. So as you"
+  },
+  {
+    "start": 1277.73,
+    "duration": 7.68,
+    "text": "can see, for 2500, if the in the worst case, it grew like, you know, for 10,000, here"
+  },
+  {
+    "start": 1285.41,
+    "duration": 6.36,
+    "text": "it's just doubling, here it's actually into four. So here it's actually into two, here"
+  },
+  {
+    "start": 1291.77,
+    "duration": 3.66,
+    "text": "it's actually into four. Why? Because the complexity is n squared. So I hope you"
+  },
+  {
+    "start": 1295.43,
+    "duration": 5.96,
+    "text": "are able to understand how the time is like growing but I don't think I have to explain"
+  },
+  {
+    "start": 1301.39,
+    "duration": 4.44,
+    "text": "this again and again because we already discussed in detail with like a graph and everything"
+  },
+  {
+    "start": 1305.83,
+    "duration": 4.28,
+    "text": "in the binary search lecture. So if you have been following the course right now you would"
+  },
+  {
+    "start": 1310.11,
+    "duration": 4.04,
+    "text": "be able to understand but let's see how we get this answer how do we get n squared"
+  },
+  {
+    "start": 1314.15,
+    "duration": 9.44,
+    "text": "and n let's say the best case is let's say the array is sorted okay best case array"
+  },
+  {
+    "start": 1323.59,
+    "duration": 7.24,
+    "text": "array is sorted. So the array is sorted like one, two, three, four, five. For my i is equal"
+  },
+  {
+    "start": 1330.83,
+    "duration": 7.28,
+    "text": "to one, sorry, zero, my j is going to start from here. Sorry, not here, here. Then it's"
+  },
+  {
+    "start": 1338.11,
+    "duration": 3.84,
+    "text": "going to be like, Hey, is this smaller than this? It's going to be like, no, it's not."
+  },
+  {
+    "start": 1341.95,
+    "duration": 3.28,
+    "text": "Is this smaller than this? No, it's not. Is this smaller than this? No, it's not."
+  },
+  {
+    "start": 1345.23,
+    "duration": 6.04,
+    "text": "Is this smaller than this? No, it's not. That's it. End of program. How many times"
+  },
+  {
+    "start": 1351.27,
+    "duration": 10.84,
+    "text": "did this loop run only once? Do I need to check it again? No, so basically what we are"
+  },
+  {
+    "start": 1362.11,
+    "duration": 17.63,
+    "text": "trying to do is when j never swaps for a value of i, i basically means you all know i means"
+  },
+  {
+    "start": 1379.74,
+    "duration": 9.32,
+    "text": "ith pass. If for a particular pass the value of j never swaps, what does it mean?"
+  },
+  {
+    "start": 1389.06,
+    "duration": 2.04,
+    "text": "What does it mean?"
+  },
+  {
+    "start": 1391.1,
+    "duration": 18.62,
+    "text": "It means array is sorted, if j never, it means array is sorted, hence you can end the program."
+  },
+  {
+    "start": 1409.72,
+    "duration": 4.08,
+    "text": "This is also true for like previous algorithms, the same thing we did over here."
+  },
+  {
+    "start": 1413.8,
+    "duration": 4.0,
+    "text": "Once you do it like this, once you run it for i is equal to, you know, let's say you"
+  },
+  {
+    "start": 1417.8,
+    "duration": 7.24,
+    "text": "run it for now, this is for i is equal to 2, for i is equal to 3, it will be something"
+  },
+  {
+    "start": 1425.04,
+    "duration": 3.64,
+    "text": "like this, 1, 2, 3, 4, 5."
+  },
+  {
+    "start": 1428.68,
+    "duration": 4.32,
+    "text": "it will not like it will go through one pass but then it will end because it's already"
+  },
+  {
+    "start": 1433.0,
+    "duration": 5.24,
+    "text": "sorted. So whenever obviously if you find yourself in a place that for a particular"
+  },
+  {
+    "start": 1438.24,
+    "duration": 5.6,
+    "text": "value of i, j is not swapping. What does it mean? It means that the array is sorted"
+  },
+  {
+    "start": 1443.84,
+    "duration": 4.96,
+    "text": "and you can end your program over there. It means that if the initial array was sorted"
+  },
+  {
+    "start": 1448.8,
+    "duration": 4.88,
+    "text": "j will only run for i is equal to zero then the program will end. How many comparisons"
+  },
+  {
+    "start": 1453.68,
+    "duration": 7.12,
+    "text": "did we make in total? I only ran once and J runs and J ran like N N N times. So total"
+  },
+  {
+    "start": 1460.8,
+    "duration": 19.54,
+    "text": "N N into one N. So best case comparisons and let's talk about worst case. Okay, so let's"
+  },
+  {
+    "start": 1480.34,
+    "duration": 4.0,
+    "text": "talk about like now the worst case thing. It's actually like, you know, let me show"
+  },
+  {
+    "start": 1484.34,
+    "duration": 7.2,
+    "text": "you something. So one comparison two, three and four, it's actually N minus one. But"
+  },
+  {
+    "start": 1491.54,
+    "duration": 10.75,
+    "text": "In time complexity, constants are ignored."
+  },
+  {
+    "start": 1502.29,
+    "duration": 3.4,
+    "text": "The short answer for why they are ignored, I've already answered this many times, but"
+  },
+  {
+    "start": 1505.69,
+    "duration": 3.8,
+    "text": "since if you haven't watched the previous videos, which you definitely should, they are ignored"
+  },
+  {
+    "start": 1509.49,
+    "duration": 2.04,
+    "text": "because we don't actually want the exact time."
+  },
+  {
+    "start": 1511.53,
+    "duration": 4.84,
+    "text": "We want the relationship, want the mathematical function, but that will be clear much more"
+  },
+  {
+    "start": 1516.37,
+    "duration": 1.0,
+    "text": "later on."
+  },
+  {
+    "start": 1517.37,
+    "duration": 6.44,
+    "text": "Worst case will be if you're given a descending order sorted array 5, 4, 3, 2, 1, i is"
+  },
+  {
+    "start": 1523.81,
+    "duration": 4.32,
+    "text": "equal to zero initially. And I'm starting the algorithm with the j is equal to over"
+  },
+  {
+    "start": 1528.13,
+    "duration": 6.06,
+    "text": "here. This is like zero one two three fourth index j starts from here. Is this smaller"
+  },
+  {
+    "start": 1534.19,
+    "duration": 7.14,
+    "text": "than this? Yes it is. Swap it will swap to four five three two one j will come over here"
+  },
+  {
+    "start": 1541.33,
+    "duration": 6.92,
+    "text": "is this smaller than this? Yes it is. Swap it will be then four three five two one"
+  },
+  {
+    "start": 1548.25,
+    "duration": 5.76,
+    "text": "j will be over here is too smaller than 5, yes it is, swap 4, 3, 2, 5, 1 is one smaller"
+  },
+  {
+    "start": 1554.01,
+    "duration": 16.19,
+    "text": "than 5, yes it is, 4, 3, 2, 1, 5, total how many swaps, n minus 1 swaps, then in the next"
+  },
+  {
+    "start": 1570.2,
+    "duration": 4.48,
+    "text": "case how many swaps will it be making? In the next case, we are going to take this"
+  },
+  {
+    "start": 1574.68,
+    "duration": 7.24,
+    "text": "this particular one now. So, here we will be having for i is equal to 1 means the second"
+  },
+  {
+    "start": 1581.92,
+    "duration": 8.88,
+    "text": "pass it will have something like 4, 3, 2, 1, 5, I already told you this is already sorted."
+  },
+  {
+    "start": 1590.8,
+    "duration": 10.26,
+    "text": "So, I do not need to compare this, I will only run my loop till here, run loop only"
+  },
+  {
+    "start": 1601.06,
+    "duration": 8.68,
+    "text": "for this. So, how many swaps will it do? Let us see, J is over here, this will be swapped"
+  },
+  {
+    "start": 1609.74,
+    "duration": 10.4,
+    "text": "3, 4, 2, 1, then J will be over here, 3, 2, 4, 1, then J will be over here, 3, 2, 1,"
+  },
+  {
+    "start": 1620.14,
+    "duration": 11.25,
+    "text": "4. Now, 5, 5, 5, you can see this is sorted. So, with every step, with every pass, end"
+  },
+  {
+    "start": 1631.39,
+    "duration": 6.08,
+    "text": "of the array is getting sorted. Now I need to apply for i is equal to three, I can see"
+  },
+  {
+    "start": 1637.47,
+    "duration": 5.2,
+    "text": "for i is equal to three, sorry for i is equal to two means the third pass. Now i is equal"
+  },
+  {
+    "start": 1642.67,
+    "duration": 8.8,
+    "text": "to two, this is the third pass or third pass it will have four, five. This is already sorted"
+  },
+  {
+    "start": 1651.47,
+    "duration": 4.6,
+    "text": "so I will not run for this, I will only run my loop for the first three. So for previous"
+  },
+  {
+    "start": 1656.07,
+    "duration": 7.84,
+    "text": "one you can see this run actually how many times one two three n minus two times similarly"
+  },
+  {
+    "start": 1663.91,
+    "duration": 8.44,
+    "text": "this will run how many times j will be over here swap two three one four five j will be"
+  },
+  {
+    "start": 1672.35,
+    "duration": 6.36,
+    "text": "over here swap two one three four five that's it j loop will end because j is only going"
+  },
+  {
+    "start": 1678.71,
+    "duration": 5.04,
+    "text": "to run till here so now it's going to be like it ran actually n minus three times"
+  },
+  {
+    "start": 1683.75,
+    "duration": 5.64,
+    "text": "means 5 minus 3 means 2 twice. That is true it ran 2 times. Similarly in the next one"
+  },
+  {
+    "start": 1689.39,
+    "duration": 9.28,
+    "text": "it will run n minus 4 times. Let us see. So i is equal to now equal to what? i is equal"
+  },
+  {
+    "start": 1698.67,
+    "duration": 10.71,
+    "text": "to 3 fourth pass. So it will be like this is already sorted it will only run for this"
+  },
+  {
+    "start": 1709.38,
+    "duration": 4.92,
+    "text": "j is over here, this smaller than this. Yes, it is one, two, three, four, five. It ran n"
+  },
+  {
+    "start": 1714.3,
+    "duration": 7.6,
+    "text": "minus four times means five minus four, once it will only run once. That's it. Does it"
+  },
+  {
+    "start": 1721.9,
+    "duration": 5.87,
+    "text": "really make sense to sort this thing now? Does it really make sense to run i is equal"
+  },
+  {
+    "start": 1727.77,
+    "duration": 5.68,
+    "text": "to four for this single one? No, because it's just one element. I know it's in"
+  },
+  {
+    "start": 1733.45,
+    "duration": 4.16,
+    "text": "the right place because this is already sorted. Then I know that this is in the"
+  },
+  {
+    "start": 1737.61,
+    "duration": 7.13,
+    "text": "the right place. Very simple stuff. This is something we will not run. Outer loop i is"
+  },
+  {
+    "start": 1744.74,
+    "duration": 10.68,
+    "text": "running till n minus 1 only till 0 till n minus 1. Internal loop is going to be running till"
+  },
+  {
+    "start": 1755.42,
+    "duration": 7.36,
+    "text": "n minus as you can see n minus i. So, here i was equal to 0. So, it is actually running"
+  },
+  {
+    "start": 1762.78,
+    "duration": 8.42,
+    "text": "until n minus i minus 1, n minus i minus 1, n minus i minus 1, n minus i minus 1, n minus"
+  },
+  {
+    "start": 1771.2,
+    "duration": 8.12,
+    "text": "i minus 1, n minus 3 minus 1. That is how many times these loops are running. So, it is actually"
+  },
+  {
+    "start": 1779.32,
+    "duration": 9.4,
+    "text": "complexity like the number of comparisons how much? n minus 1, so total comparisons."
+  },
+  {
+    "start": 1788.72,
+    "duration": 15.74,
+    "text": "how much n minus 1 plus n minus 2 plus n minus 3 plus n minus 4, which is equal to what? 4"
+  },
+  {
+    "start": 1804.46,
+    "duration": 28.04,
+    "text": "n minus 1 plus 2 plus 3 plus 4. What is this thing? This is actually 4 n minus n into n"
+  },
+  {
+    "start": 1832.5,
+    "duration": 5.6,
+    "text": "n plus 1 divided by 2, this is the formula, right? So, n into n plus 1 divided by 2, if"
+  },
+  {
+    "start": 1838.1,
+    "duration": 5.48,
+    "text": "I write n is equal to 4, so you can see 4 into 5 divided by 2 means 10, they should"
+  },
+  {
+    "start": 1843.58,
+    "duration": 11.53,
+    "text": "give me 10, yeah, it's giving me 10. So, here it's basically like 4n minus n square"
+  },
+  {
+    "start": 1855.11,
+    "duration": 8.78,
+    "text": "plus n divided by 2. Okay, this is actually like 8n minus n square minus n divided by"
+  },
+  {
+    "start": 1863.89,
+    "duration": 7.2,
+    "text": "2. This is actually equal to, it's actually equal to what, one second, 8n minus n square"
+  },
+  {
+    "start": 1871.09,
+    "duration": 6.62,
+    "text": "minus n divided by 2, that is correct. 7n minus n square divided by 2. This is in"
+  },
+  {
+    "start": 1877.71,
+    "duration": 4.42,
+    "text": "big O notation, constants are cancelled and less dominating terms are removed."
+  },
+  {
+    "start": 1882.13,
+    "duration": 10.44,
+    "text": "So this is big O of n squared. Why, why did this thing happen? Come back in time complexity"
+  },
+  {
+    "start": 1892.57,
+    "duration": 10.45,
+    "text": "lecture we will explain it in detail, time complexity lecture. So in the worst case this"
+  },
+  {
+    "start": 1903.02,
+    "duration": 7.28,
+    "text": "is n squared O of n squared. Alrighty, I think that looks good n squared plus n divided"
+  },
+  {
+    "start": 1910.3,
+    "duration": 9.79,
+    "text": "by 2, that is correct, 8n minus n square minus n, 7n, okay, cool, this is correct. That is"
+  },
+  {
+    "start": 1920.09,
+    "duration": 3.72,
+    "text": "pretty much about it, that is it. So, we discussed about complexity and we discussed about all"
+  },
+  {
+    "start": 1923.81,
+    "duration": 3.0,
+    "text": "these other things as well."
+  },
+  {
+    "start": 1926.81,
+    "duration": 6.1,
+    "text": "One more thing I want to share is like, one more thing I want to share is that it is"
+  },
+  {
+    "start": 1932.91,
+    "duration": 5.76,
+    "text": "a stable sorting algorithm. Let us look into what is a stable sorting algorithm. So, stable"
+  },
+  {
+    "start": 1938.67,
+    "duration": 8.72,
+    "text": "Sorting algorithm basically means that when you have the order, when you have the order,"
+  },
+  {
+    "start": 1949.55,
+    "duration": 6.96,
+    "text": "order should be the same when the value is same. Order should be the same when the value is same."
+  },
+  {
+    "start": 1956.51,
+    "duration": 3.76,
+    "text": "For example, let's say you have a value like this, you have something like,"
+  },
+  {
+    "start": 1960.27,
+    "duration": 8.72,
+    "text": "like, you know, you have something like N, then you have 20, 20 which is in red color,"
+  },
+  {
+    "start": 1968.99,
+    "duration": 5.84,
+    "text": "then you have 20 which is in, you know, again, black color, then you have 30, and then you"
+  },
+  {
+    "start": 1974.83,
+    "duration": 6.56,
+    "text": "have N which is in red color, okay."
+  },
+  {
+    "start": 1981.39,
+    "duration": 9.51,
+    "text": "So here, basically, if I sort this thing, and it becomes something like this, it becomes"
+  },
+  {
+    "start": 1990.9,
+    "duration": 9.04,
+    "text": "something like 10 like this, 10 like this, then it becomes 20, then it becomes 20, then"
+  },
+  {
+    "start": 1999.94,
+    "duration": 6.0,
+    "text": "it becomes 30."
+  },
+  {
+    "start": 2005.94,
+    "duration": 5.72,
+    "text": "So here you can say that the value of these two particular numbers, even though the color"
+  },
+  {
+    "start": 2011.66,
+    "duration": 4.8,
+    "text": "is different, some properties, let us say these are balls, let us say these are"
+  },
+  {
+    "start": 2016.46,
+    "duration": 6.44,
+    "text": "balls, let us say these are balls."
+  },
+  {
+    "start": 2022.9,
+    "duration": 6.76,
+    "text": "So you can see that even though the value, by the value it sorted perfectly, but in the"
+  },
+  {
+    "start": 2029.66,
+    "duration": 8.92,
+    "text": "original array, I am talking about stability, what is stability? Stability is very simple"
+  },
+  {
+    "start": 2038.58,
+    "duration": 20.31,
+    "text": "stuff. Okay, in the original array, you can see in original array, black ball of 10 was"
+  },
+  {
+    "start": 2058.89,
+    "duration": 22.75,
+    "text": "was before red ball of 10 and in the sorted one this order is maintained, okay. So in"
+  },
+  {
+    "start": 2081.64,
+    "duration": 4.04,
+    "text": "the sorted array this order is maintained. Let's say the array was something like this"
+  },
+  {
+    "start": 2085.68,
+    "duration": 14.83,
+    "text": "in sorted. Let's say it was something like 10, 10, 20, 20, 30. Even though this is sorted,"
+  },
+  {
+    "start": 2100.51,
+    "duration": 7.24,
+    "text": "even though it is sorted by values, it is not sorted according to the order that was given"
+  },
+  {
+    "start": 2107.75,
+    "duration": 6.32,
+    "text": "initially. It is sorted according to values 10, 10, 20, 20, 30. But in the original"
+  },
+  {
+    "start": 2114.07,
+    "duration": 7.62,
+    "text": "array 10, the red ball that had 10 was coming after the black ball that had 10, but in the"
+  },
+  {
+    "start": 2121.69,
+    "duration": 6.92,
+    "text": "sorted array that is not the true. So, this is unstable. So, what is stable and unstable"
+  },
+  {
+    "start": 2128.61,
+    "duration": 8.72,
+    "text": "sorted algorithm? It basically means that when the original order is maintained for"
+  },
+  {
+    "start": 2137.33,
+    "duration": 8.0,
+    "text": "values that are equal that is sorted algorithm, sorted like a stable sorting, when the"
+  },
+  {
+    "start": 2145.33,
+    "duration": 4.68,
+    "text": "order is not maintained, the original order is not maintained, when two or more values"
+  },
+  {
+    "start": 2150.01,
+    "duration": 6.72,
+    "text": "are same, that is unstable. Example is right in front of you. Okay, now let's try to code"
+  },
+  {
+    "start": 2156.73,
+    "duration": 3.88,
+    "text": "this thing, we discussed everything, all we need to do now is code. Okay, so I'll"
+  },
+  {
+    "start": 2160.61,
+    "duration": 8.92,
+    "text": "just rename this file to let's say, I'll just add or I'll just create a new function."
+  },
+  {
+    "start": 2169.53,
+    "duration": 6.8,
+    "text": "See, we can create a new function static wide because it's not returning anything I mentioned"
+  },
+  {
+    "start": 2176.33,
+    "duration": 4.04,
+    "text": "space complexity is constant because it's not creating any new array and it's an in"
+  },
+  {
+    "start": 2180.37,
+    "duration": 3.88,
+    "text": "place sorting algorithms means it's sorting the original array no new array is being"
+  },
+  {
+    "start": 2184.25,
+    "duration": 6.8,
+    "text": "created or whatever I can say bubble sort I can just say bubble sort it's just going"
+  },
+  {
+    "start": 2191.05,
+    "duration": 4.6,
+    "text": "to take an array that's it now we just need to sort it so we're just going to"
+  },
+  {
+    "start": 2195.65,
+    "duration": 10.75,
+    "text": "say run the steps n minus 1 times that is okay that is fine. So, I can say for i is equal"
+  },
+  {
+    "start": 2206.4,
+    "duration": 11.56,
+    "text": "to 0 i is less than array dot length i plus plus for each step max item will come at the"
+  },
+  {
+    "start": 2217.96,
+    "duration": 9.64,
+    "text": "last respective index, we already covered this, already covered this, respective index, this"
+  },
+  {
+    "start": 2227.6,
+    "duration": 4.72,
+    "text": "is going to be the j pointer that I was talking about, you know, for j is equal to starting"
+  },
+  {
+    "start": 2232.32,
+    "duration": 9.44,
+    "text": "from one starting from one, j actually has to be what less than nums or array dot length"
+  },
+  {
+    "start": 2241.76,
+    "duration": 7.76,
+    "text": "minus i or you can do something like less than equal to arrowed out length minus i,"
+  },
+  {
+    "start": 2249.52,
+    "duration": 6.4,
+    "text": "minus 1, same thing, very same thing and after that is just going to say compare. So, basically"
+  },
+  {
+    "start": 2256.88,
+    "duration": 13.52,
+    "text": "swap if the item is smaller than the previous item. So, if array of j is smaller than the"
+  },
+  {
+    "start": 2270.4,
+    "duration": 6.28,
+    "text": "the previous item array of j minus one. In that case, what are you going to do? Swap."
+  },
+  {
+    "start": 2276.68,
+    "duration": 9.78,
+    "text": "So I am just going to say int temp is equal to ARR of j, ARR of j is equal to ARR of j"
+  },
+  {
+    "start": 2286.46,
+    "duration": 6.2,
+    "text": "minus one, ARR of j minus one is equal to temp. We have already done this swapping"
+  },
+  {
+    "start": 2292.66,
+    "duration": 5.88,
+    "text": "thing a lot of times. So if you haven't already been following, before asking doubts"
+  },
+  {
+    "start": 2298.54,
+    "duration": 4.96,
+    "text": "Ask yourself a question, have I watched every single video in the DSA playlist?"
+  },
+  {
+    "start": 2303.5,
+    "duration": 5.04,
+    "text": "If you have not, then most probably your doubt is missed because you did not watch the videos."
+  },
+  {
+    "start": 2308.54,
+    "duration": 5.12,
+    "text": "I never ever share anything that I have not explained already before."
+  },
+  {
+    "start": 2313.66,
+    "duration": 4.88,
+    "text": "If I am like something like Big O notation, I assure you students that I will cover it"
+  },
+  {
+    "start": 2318.54,
+    "duration": 3.92,
+    "text": "in the space and time complexity lecture."
+  },
+  {
+    "start": 2322.46,
+    "duration": 2.0,
+    "text": "So let's try to run this thing."
+  },
+  {
+    "start": 2324.46,
+    "duration": 13.46,
+    "text": "So I can say array is equal to something and then I can say sort bubble sort the array"
+  },
+  {
+    "start": 2337.92,
+    "duration": 5.56,
+    "text": "then just I'm just going to say print arrays dot to string again, this thing also we have"
+  },
+  {
+    "start": 2343.48,
+    "duration": 17.84,
+    "text": "covered in the array section, let's say I input something like 5432112345 something"
+  },
+  {
+    "start": 2361.32,
+    "duration": 10.04,
+    "text": "is wrong over here when I do 12345 let's say 12345 it's going to give me 12345 but the"
+  },
+  {
+    "start": 2371.36,
+    "duration": 6.37,
+    "text": "thing is that see what is happening over here is the problem is that for i is equal to 0"
+  },
+  {
+    "start": 2377.73,
+    "duration": 6.99,
+    "text": "it will run okay let's let's try to debug it debug for i is equal to 0 it will run"
+  },
+  {
+    "start": 2384.72,
+    "duration": 5.24,
+    "text": "and since we know that it's already sorted no swap will occur over here let's see you"
+  },
+  {
+    "start": 2389.96,
+    "duration": 4.68,
+    "text": "can see no swap is occurring. Now I is equal to one it's checking the same thing again again"
+  },
+  {
+    "start": 2394.64,
+    "duration": 5.32,
+    "text": "no swap will occur or I is equal to two again it will check again no swap will occur again"
+  },
+  {
+    "start": 2399.96,
+    "duration": 6.08,
+    "text": "no swap will occur. So we already discussed that if no swap is occurring over here it"
+  },
+  {
+    "start": 2406.04,
+    "duration": 5.6,
+    "text": "means that your array is sorted. So for that we can take a Boolean value. So I can"
+  },
+  {
+    "start": 2411.64,
+    "duration": 14.49,
+    "text": "say Boolean swapped and here I can say swap is equal to false here if swap is taking place"
+  },
+  {
+    "start": 2426.13,
+    "duration": 7.8,
+    "text": "I can say swap is equal to true and now I can say that after J has ran like for one step"
+  },
+  {
+    "start": 2433.93,
+    "duration": 15.55,
+    "text": "two step for every particular I, if you did not swap for a particular value of I, it means"
+  },
+  {
+    "start": 2449.48,
+    "duration": 12.6,
+    "text": "the array is sorted, hence, stop the program, I can just say break, break when if not stopped,"
+  },
+  {
+    "start": 2462.08,
+    "duration": 7.8,
+    "text": "sorry not what is it what is the name swapped I can just say break or you can do something"
+  },
+  {
+    "start": 2469.88,
+    "duration": 6.12,
+    "text": "like if swapped is equal to equal to false okay but in a simpler way you can write it"
+  },
+  {
+    "start": 2476.0,
+    "duration": 10.08,
+    "text": "like this is very simple because if swapped is swapped is true then it's just going"
+  },
+  {
+    "start": 2486.08,
+    "duration": 10.71,
+    "text": "to say one second if you did not swap you should break yeah so when swap value is false"
+  },
+  {
+    "start": 2496.79,
+    "duration": 5.62,
+    "text": "you should break. So not false will give me true, right? Not false will give me true."
+  },
+  {
+    "start": 2502.41,
+    "duration": 5.14,
+    "text": "So when the array, the swap value is false means the, when no swap occurred in that case,"
+  },
+  {
+    "start": 2507.55,
+    "duration": 4.28,
+    "text": "it will be true. This statement will be true and it will break. That makes sense. Let's"
+  },
+  {
+    "start": 2511.83,
+    "duration": 4.4,
+    "text": "run this now, try to run this first and then debug it. It's going to be sorted"
+  },
+  {
+    "start": 2516.23,
+    "duration": 5.52,
+    "text": "only. You can see it's sorted also already. Let's debug it now. You will see that"
+  },
+  {
+    "start": 2521.75,
+    "duration": 5.16,
+    "text": "it will end after just one loop. I is equal to zero. Then it's going to try to, you know,"
+  },
+  {
+    "start": 2526.91,
+    "duration": 10.36,
+    "text": "swap it. No, no, no, no. Swap is not swap value is false. So not swap will get true. It will"
+  },
+  {
+    "start": 2537.27,
+    "duration": 4.44,
+    "text": "break. So hey, for I is equal to zero, no swap occurred. It basically means the array"
+  },
+  {
+    "start": 2541.71,
+    "duration": 3.52,
+    "text": "is sorted. Don't need to check for I is equal to one, two, three, four. Okay. Don't"
+  },
+  {
+    "start": 2545.23,
+    "duration": 7.56,
+    "text": "need to check for that break that's it program over cool it actually went inside the print"
+  },
+  {
+    "start": 2552.79,
+    "duration": 7.04,
+    "text": "condition so don't worry about it cool so O of n complexity you just you just witnessed"
+  },
+  {
+    "start": 2559.83,
+    "duration": 11.97,
+    "text": "O of n complexity okay say just for one element it's working if you don't put any element"
+  },
+  {
+    "start": 2571.8,
+    "duration": 14.94,
+    "text": "let's see fine if you put negatives minus 1, 7, 7 minus 30 to 89 should work most definitely"
+  },
+  {
+    "start": 2586.74,
+    "duration": 12.89,
+    "text": "okay it's working can you add 0 if you want it will also work for that okay so this looks"
+  },
+  {
+    "start": 2599.63,
+    "duration": 4.52,
+    "text": "pretty good and we are discussed about complexity analysis and everything okay so if we take"
+  },
+  {
+    "start": 2604.15,
+    "duration": 9.2,
+    "text": "the example that we took 31542 right. So we take 31542 let's try to debug it first let's"
+  },
+  {
+    "start": 2613.35,
+    "duration": 5.92,
+    "text": "run it obviously it's going to sort it 1 2 3 4 5 it will sort it 1 2 3 4 5 but let's try"
+  },
+  {
+    "start": 2619.27,
+    "duration": 7.84,
+    "text": "to debug it now entire thing like we had over here this thing 1 3 4 5 2 so after pass number"
+  },
+  {
+    "start": 2627.11,
+    "duration": 5.48,
+    "text": "1 after pass number 1 you will see that 5 will come at the end let's see goes inside"
+  },
+  {
+    "start": 2632.59,
+    "duration": 5.0,
+    "text": "it's going to be like, okay, J is at this index is one less than three. Yes, it is. It will"
+  },
+  {
+    "start": 2637.59,
+    "duration": 6.48,
+    "text": "swap. It will swap. So you can see now one came over here and three came over here. It"
+  },
+  {
+    "start": 2644.07,
+    "duration": 5.08,
+    "text": "was swapped. Now the value of J will increase to two J is equal to over here. Now this will"
+  },
+  {
+    "start": 2649.15,
+    "duration": 5.72,
+    "text": "not swap because five is greater than three or is less than five. So it will swap."
+  },
+  {
+    "start": 2654.87,
+    "duration": 3.52,
+    "text": "So you can see four came over here, five came over here. Who is also less than five?"
+  },
+  {
+    "start": 2658.39,
+    "duration": 6.32,
+    "text": "will come over here two will come over here it will swap swapped right now this loop will"
+  },
+  {
+    "start": 2664.71,
+    "duration": 4.64,
+    "text": "end now this loop will end and you will see when this loop ends you can see five is at"
+  },
+  {
+    "start": 2669.35,
+    "duration": 5.56,
+    "text": "the the greatest element of the array is now at the end index similarly when I run it"
+  },
+  {
+    "start": 2674.91,
+    "duration": 3.72,
+    "text": "again the second largest element will be at the second largest index means four will"
+  },
+  {
+    "start": 2678.63,
+    "duration": 5.28,
+    "text": "come over here in the next pass for i is equal to one this will end now i is equal"
+  },
+  {
+    "start": 2683.91,
+    "duration": 6.22,
+    "text": "to 1 now 4 will come over here when this loop ends and it will only run till 2 notice something"
+  },
+  {
+    "start": 2690.13,
+    "duration": 4.46,
+    "text": "it will only run till 2 because of this area root length minus i we already covered this"
+  },
+  {
+    "start": 2694.59,
+    "duration": 5.18,
+    "text": "over here how many times the loop is running this thing length minus i less than length"
+  },
+  {
+    "start": 2699.77,
+    "duration": 7.8,
+    "text": "minus i or less than equal to length minus i minus 1 same thing ok once twice twice"
+  },
+  {
+    "start": 2707.57,
+    "duration": 6.32,
+    "text": "swapped that's it three times it ran three times n minus one minus i five minus one minus"
+  },
+  {
+    "start": 2713.89,
+    "duration": 4.72,
+    "text": "one three now you can see four is over here similarly when I run it again three will come"
+  },
+  {
+    "start": 2718.61,
+    "duration": 11.33,
+    "text": "over here okay once twice that's it okay so for three it actually run how many times"
+  },
+  {
+    "start": 2730.74,
+    "duration": 7.6,
+    "text": "five minus two minus one means two times now it will only run once that's it break"
+  },
+  {
+    "start": 2738.34,
+    "duration": 7.04,
+    "text": "and out that's it so you already saw it break it broke as well so one and two were already"
+  },
+  {
+    "start": 2745.38,
+    "duration": 5.52,
+    "text": "sorted over here as you can see one and two are already sorted so hence it will be like okay"
+  },
+  {
+    "start": 2750.9,
+    "duration": 6.88,
+    "text": "for i is equal to three there was no particular condition you know in j for swapping hence you"
+  },
+  {
+    "start": 2757.78,
+    "duration": 4.72,
+    "text": "don't need to check for the future i's like i is equal to four you don't have to check for that"
+  },
+  {
+    "start": 2762.5,
+    "duration": 6.4,
+    "text": "hence it broke, like broke the loop. That's it. That is bubble sort. We discussed about the complexity,"
+  },
+  {
+    "start": 2768.9,
+    "duration": 4.64,
+    "text": "we discussed about everything. Stable sorting algorithm, we looked into it. So now we'll look into"
+  },
+  {
+    "start": 2773.54,
+    "duration": 4.32,
+    "text": "the next sorting algorithms. So I'll see you in the next video. Make sure you like, share and"
+  },
+  {
+    "start": 2777.86,
+    "duration": 6.16,
+    "text": "subscribe. And yeah, make sure you comment as well, very important. So free education and"
+  },
+  {
+    "start": 2786.18,
+    "duration": 6.16,
+    "text": "I really appreciate if you would like and comment. That's it. See you in the next one."
+  }
+]

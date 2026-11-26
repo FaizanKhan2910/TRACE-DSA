@@ -1,0 +1,2507 @@
+[
+  {
+    "start": 3.6,
+    "duration": 5.6,
+    "text": "Welcome back to another video and in this video we are learning about access control and like"
+  },
+  {
+    "start": 9.2,
+    "duration": 5.28,
+    "text": "object classes and the cloning and all these other things, how basically data is protected"
+  },
+  {
+    "start": 14.48,
+    "duration": 7.28,
+    "text": "and stuff. So yeah, let's learn about it. It's a very important topic. So you know we talked"
+  },
+  {
+    "start": 21.76,
+    "duration": 4.4,
+    "text": "about data hiding and stuff and all these other things previously. So now we'll actually see"
+  },
+  {
+    "start": 26.16,
+    "duration": 7.12,
+    "text": "how do we do it? Okay, and two things that we did in the previous OOP lecture, which"
+  },
+  {
+    "start": 33.28,
+    "duration": 5.64,
+    "text": "was like the properties in the last two last two properties were encapsulation and abstraction."
+  },
+  {
+    "start": 38.92,
+    "duration": 5.6,
+    "text": "So this one will talk more about the the encapsulation part and like the data hiding part and stuff"
+  },
+  {
+    "start": 44.52,
+    "duration": 4.36,
+    "text": "and in the next video like this is a detailed video of that and the next video will be a"
+  },
+  {
+    "start": 48.88,
+    "duration": 4.2,
+    "text": "detailed video of abstraction we'll talk about instances abstract classes and all these"
+  },
+  {
+    "start": 53.08,
+    "duration": 3.72,
+    "text": "other things make sure action subscribe we're doing the complete test algorithm boot camp"
+  },
+  {
+    "start": 56.8,
+    "duration": 4.16,
+    "text": "is the object and programming playlist going on make sure you comment very really appreciate"
+  },
+  {
+    "start": 60.96,
+    "duration": 4.04,
+    "text": "it's the best way to show the support. Let's get started. Before we actually move on to"
+  },
+  {
+    "start": 65.0,
+    "duration": 5.52,
+    "text": "access control, let me just give you a nice small example package. You can see our files"
+  },
+  {
+    "start": 70.52,
+    "duration": 6.96,
+    "text": "are divided into so many packages now. Access or something like that. Okay, I just create"
+  },
+  {
+    "start": 77.48,
+    "duration": 8.87,
+    "text": "a file a. Okay, a class a actually don't need public static void mean or whatever."
+  },
+  {
+    "start": 86.35,
+    "duration": 9.52,
+    "text": "Okay, I can say int num. I just create a constructor like that. Okay, in number and I can actually"
+  },
+  {
+    "start": 95.87,
+    "duration": 6.26,
+    "text": "I can actually make one with like multiple. Okay, I can say string name and I can say"
+  },
+  {
+    "start": 102.13,
+    "duration": 15.1,
+    "text": "int array constructor. There we go. Very simple. So sometimes what would happen is that sometimes"
+  },
+  {
+    "start": 117.23,
+    "duration": 6.08,
+    "text": "your class has some variables. You only want to give access to these variables. So for example,"
+  },
+  {
+    "start": 123.31,
+    "duration": 6.96,
+    "text": "someone is making an object of class a, create a main function here. Okay, main public static"
+  },
+  {
+    "start": 130.27,
+    "duration": 6.72,
+    "text": "void main a object is equal to new a something like that. It's actually asking for three things."
+  },
+  {
+    "start": 136.99,
+    "duration": 10.48,
+    "text": "So number string and array, number 34 string Kunal array is equal to a new integer array"
+  },
+  {
+    "start": 147.47,
+    "duration": 5.1,
+    "text": "of size 34 or whatever."
+  },
+  {
+    "start": 152.57,
+    "duration": 6.02,
+    "text": "So basically the idea is that or what I can do is I am not going to pass an array over"
+  },
+  {
+    "start": 158.59,
+    "duration": 16.51,
+    "text": "over here. I am actually going to create it here like this. New array of size num. Something"
+  },
+  {
+    "start": 175.1,
+    "duration": 8.2,
+    "text": "like that. So this is create an array of size 10 or something. Now what I want is I need"
+  },
+  {
+    "start": 183.3,
+    "duration": 11.68,
+    "text": "to do a few things need to do a few things. Number one, access the data members. Okay,"
+  },
+  {
+    "start": 194.98,
+    "duration": 6.0,
+    "text": "modify the data members, etc, etc, things you want to do with data members. Data members"
+  },
+  {
+    "start": 200.98,
+    "duration": 6.04,
+    "text": "are these things. Okay, maybe like now we have already done this, just do object dot"
+  },
+  {
+    "start": 207.02,
+    "duration": 6.26,
+    "text": "object dot arr, it will be able to print that you can do object dot array. That's totally"
+  },
+  {
+    "start": 213.28,
+    "duration": 5.22,
+    "text": "fine. Okay, this is totally cool. You can do something with that. I'm like, Yeah, sure,"
+  },
+  {
+    "start": 218.5,
+    "duration": 4.36,
+    "text": "you are fine. You are correct. But in the previous lecture, we learned about like data"
+  },
+  {
+    "start": 222.86,
+    "duration": 9.37,
+    "text": "hiding and stuff. It is not from the security point of view, allowing access to a data"
+  },
+  {
+    "start": 232.23,
+    "duration": 5.48,
+    "text": "structure or internal variables and stuff like this directly, it's not a good way"
+  },
+  {
+    "start": 237.71,
+    "duration": 5.6,
+    "text": "to do. It's not a good convention. Okay, even in the internal linked list and stuff we use,"
+  },
+  {
+    "start": 243.31,
+    "duration": 6.84,
+    "text": "so not linked list, ArrayList. Isn't ArrayList internal thing that has been given to us? Right?"
+  },
+  {
+    "start": 250.15,
+    "duration": 5.52,
+    "text": "So here you can see that they also have their stuff as final and all these other things"
+  },
+  {
+    "start": 255.67,
+    "duration": 9.6,
+    "text": "and private basically, private, private, private, private. These all things are private."
+  },
+  {
+    "start": 265.27,
+    "duration": 5.96,
+    "text": "means I can't really access these. So if I go over here, I create a new ArrayList. Okay,"
+  },
+  {
+    "start": 271.23,
+    "duration": 14.95,
+    "text": "I say ArrayList, let's say ArrayList of type integer list is equal to new ArrayList. Okay,"
+  },
+  {
+    "start": 286.18,
+    "duration": 7.4,
+    "text": "ArrayList class has a variable called default capacity. Let's try to access it. It's not"
+  },
+  {
+    "start": 293.58,
+    "duration": 8.09,
+    "text": "able to access it. It's saying, what is it saying? Private access, you are not able to"
+  },
+  {
+    "start": 301.67,
+    "duration": 7.12,
+    "text": "access it. It's giving me a red, red color. So that is what is meant by this private stuff."
+  },
+  {
+    "start": 308.79,
+    "duration": 6.04,
+    "text": "You cannot really change this number to 10 default, let's say, ArrayList has a default"
+  },
+  {
+    "start": 314.83,
+    "duration": 11.73,
+    "text": "capacity of 10, you can't change it internally like this, but you can do it via some constructor"
+  },
+  {
+    "start": 326.56,
+    "duration": 7.16,
+    "text": "like this. Okay, some initial capacity you can provide with the constructor. But directly"
+  },
+  {
+    "start": 333.72,
+    "duration": 4.24,
+    "text": "you are not able to change. Similarly, list internally would be implemented as something"
+  },
+  {
+    "start": 337.96,
+    "duration": 6.8,
+    "text": "like this. Add list internally implements the list that internally has some size or"
+  },
+  {
+    "start": 344.76,
+    "duration": 4.28,
+    "text": "something will learn in like, don't have to worry about this right now, learn it"
+  },
+  {
+    "start": 349.04,
+    "duration": 5.6,
+    "text": "in abstraction. But here you can see here we have some, you know, some sort of data"
+  },
+  {
+    "start": 354.64,
+    "duration": 10.19,
+    "text": "like this. If I'm adding over here like grow, say element data and something like that."
+  },
+  {
+    "start": 370.27,
+    "duration": 4.24,
+    "text": "Just give me a second. So here you can see these all arrays and stuff that you can see"
+  },
+  {
+    "start": 374.51,
+    "duration": 5.6,
+    "text": "they're all private. You can't like directly access these things. This basically what I'm saying."
+  },
+  {
+    "start": 380.11,
+    "duration": 4.16,
+    "text": "So you'll be like internally, by the way, we'll also create our own array list."
+  },
+  {
+    "start": 384.99,
+    "duration": 3.84,
+    "text": "So we're actually currently using this class, but we'll also create our own array list class."
+  },
+  {
+    "start": 388.83,
+    "duration": 7.08,
+    "text": "So the idea is that internally it may be using some list or whatever like anything that it's"
+  },
+  {
+    "start": 395.91,
+    "duration": 4.04,
+    "text": "using we can use it like an internally it's an array internally let's say it's implemented"
+  },
+  {
+    "start": 399.95,
+    "duration": 5.06,
+    "text": "as an array or whatever but we are not able to access that array directly we can definitely"
+  },
+  {
+    "start": 405.01,
+    "duration": 6.46,
+    "text": "print that array change that array but we cannot access the reference of that array directly"
+  },
+  {
+    "start": 411.47,
+    "duration": 5.24,
+    "text": "why because it's private it's not allowed for us to do that similarly that is what"
+  },
+  {
+    "start": 416.71,
+    "duration": 5.74,
+    "text": "we're going to try over here. Okay, you want to access something you want to get something."
+  },
+  {
+    "start": 422.45,
+    "duration": 6.6,
+    "text": "So you can make this let's say as private. I'll give you all the rules for this as well."
+  },
+  {
+    "start": 429.05,
+    "duration": 4.68,
+    "text": "What does it mean by private? What does it mean by public? What does it mean by this"
+  },
+  {
+    "start": 433.73,
+    "duration": 5.96,
+    "text": "one known one more known as protected? Okay, things like that. But let's just look into"
+  },
+  {
+    "start": 439.69,
+    "duration": 10.0,
+    "text": "private right now. So now if I say object dot number, it's not giving me anything. Why?"
+  },
+  {
+    "start": 449.69,
+    "duration": 3.24,
+    "text": "Because number is private. It's like, Hey, this is private. You can't really access it"
+  },
+  {
+    "start": 452.93,
+    "duration": 5.2,
+    "text": "to modify it. Okay, cool. This provides us a little bit of security. This is data hiding."
+  },
+  {
+    "start": 458.13,
+    "duration": 4.8,
+    "text": "Okay, data is hidden. Now like, what is the use of this private? I can't really"
+  },
+  {
+    "start": 462.93,
+    "duration": 4.6,
+    "text": "access num or whatever you can. You can do it via getters and setters method. What"
+  },
+  {
+    "start": 467.53,
+    "duration": 5.08,
+    "text": "we learned about in the previous encapsulation. So you can create a getter and setter getter"
+  },
+  {
+    "start": 472.61,
+    "duration": 11.09,
+    "text": "for num, setter for num. So getter gets the value setter sets the value. So if I get the"
+  },
+  {
+    "start": 483.7,
+    "duration": 4.76,
+    "text": "value so you can just say object dot get num, this will actually give the value of"
+  },
+  {
+    "start": 488.46,
+    "duration": 4.3,
+    "text": "num. It will just go inside it. Now we'll be like, Hey, how are you getting the value"
+  },
+  {
+    "start": 492.76,
+    "duration": 4.3,
+    "text": "of num if num is private? Well, I'm not directly getting it. I'm saying object has"
+  },
+  {
+    "start": 497.06,
+    "duration": 3.96,
+    "text": "a get num method. And this get num method is inside this class. That is what private"
+  },
+  {
+    "start": 501.02,
+    "duration": 6.12,
+    "text": "means private basically means it this num reference variable will be able to you can"
+  },
+  {
+    "start": 507.14,
+    "duration": 8.12,
+    "text": "access it anywhere in this file anywhere. Okay, but since this method is private, sorry,"
+  },
+  {
+    "start": 515.26,
+    "duration": 8.6,
+    "text": "this method is public, this method can be accessed from anywhere. Okay, so in some other"
+  },
+  {
+    "start": 523.86,
+    "duration": 4.68,
+    "text": "package if I have let's say in some other package in a singleton class package in the"
+  },
+  {
+    "start": 528.54,
+    "duration": 6.32,
+    "text": "main one, I say something like import, or I just create a new file, new class like this"
+  },
+  {
+    "start": 534.86,
+    "duration": 9.32,
+    "text": "a, a, I'm going to import this import class a. So in com Kunal access, there's an a class"
+  },
+  {
+    "start": 544.18,
+    "duration": 9.37,
+    "text": "is equal to new a. Okay, here I can say a dot get now. Obviously, I would have to"
+  },
+  {
+    "start": 553.55,
+    "duration": 9.84,
+    "text": "Initialize it like this, problem like this, okay, that's basically the idea, private only"
+  },
+  {
+    "start": 563.39,
+    "duration": 10.2,
+    "text": "means you're only able to access it in this also, only in this, okay."
+  },
+  {
+    "start": 573.59,
+    "duration": 2.52,
+    "text": "What does it mean by public?"
+  },
+  {
+    "start": 576.11,
+    "duration": 5.69,
+    "text": "Public means you can access it anywhere."
+  },
+  {
+    "start": 581.8,
+    "duration": 13.49,
+    "text": "Public means you can access it anywhere, okay, what if I remove it, in that case I'm getting"
+  },
+  {
+    "start": 595.29,
+    "duration": 1.0,
+    "text": "an error."
+  },
+  {
+    "start": 596.29,
+    "duration": 7.44,
+    "text": "it's saying it's not public. What does this thing mean then? Basically, this is known"
+  },
+  {
+    "start": 603.73,
+    "duration": 4.4,
+    "text": "as the default access modifier. You learned about private. Okay, private is very simple"
+  },
+  {
+    "start": 608.13,
+    "duration": 5.72,
+    "text": "only in this file. That's it. No doubt should occur. Private means only in that file. Public"
+  },
+  {
+    "start": 613.85,
+    "duration": 6.92,
+    "text": "means what? Everywhere. Everywhere. So no doubt should occur in this. Okay. Now the"
+  },
+  {
+    "start": 620.77,
+    "duration": 4.8,
+    "text": "two confusing ones. It's not really confusing. It's just a little bit explanation required."
+  },
+  {
+    "start": 625.57,
+    "duration": 2.84,
+    "text": "One is when you don't specify anything."
+  },
+  {
+    "start": 628.41,
+    "duration": 4.28,
+    "text": "When you don't specify any access modifier, in that case, what will happen?"
+  },
+  {
+    "start": 632.69,
+    "duration": 5.16,
+    "text": "Here you can see in the different package, it's not able to allow."
+  },
+  {
+    "start": 637.85,
+    "duration": 8.64,
+    "text": "But in the same package, it will be able to allow."
+  },
+  {
+    "start": 646.49,
+    "duration": 5.64,
+    "text": "Okay, so this is the default one in the same package and stuff it is able to allow."
+  },
+  {
+    "start": 652.13,
+    "duration": 10.99,
+    "text": "Okay, what if you have something like this extends a create a constructor?"
+  },
+  {
+    "start": 663.12,
+    "duration": 1.0,
+    "text": "No problem."
+  },
+  {
+    "start": 664.12,
+    "duration": 1.0,
+    "text": "Done."
+  },
+  {
+    "start": 665.12,
+    "duration": 3.16,
+    "text": "We'll talk more about this as well, like when we have,"
+  },
+  {
+    "start": 668.28,
+    "duration": 3.48,
+    "text": "when we have like a, I'll give you an inheritance example"
+  },
+  {
+    "start": 671.76,
+    "duration": 1.48,
+    "text": "as well, no worries."
+  },
+  {
+    "start": 673.24,
+    "duration": 2.32,
+    "text": "Okay, but for now, I just want you to explain"
+  },
+  {
+    "start": 675.56,
+    "duration": 2.32,
+    "text": "that this default one basically means"
+  },
+  {
+    "start": 677.88,
+    "duration": 5.0,
+    "text": "that you are not able to access it outside the package."
+  },
+  {
+    "start": 685.16,
+    "duration": 5.0,
+    "text": "Okay, this is not really structured, these rules."
+  },
+  {
+    "start": 690.16,
+    "duration": 5.08,
+    "text": "structured these rules, wouldn't it be cool if there was like a well-defined structure"
+  },
+  {
+    "start": 695.24,
+    "duration": 2.0,
+    "text": "for this, right?"
+  },
+  {
+    "start": 697.24,
+    "duration": 6.0,
+    "text": "So wouldn't it be cool if you could just follow a table, for example, and using that table,"
+  },
+  {
+    "start": 703.24,
+    "duration": 4.04,
+    "text": "you would be able to understand if it would work or not."
+  },
+  {
+    "start": 707.28,
+    "duration": 1.8,
+    "text": "So this was just an example."
+  },
+  {
+    "start": 709.08,
+    "duration": 2.4,
+    "text": "Now we will do a deep dive."
+  },
+  {
+    "start": 711.48,
+    "duration": 5.04,
+    "text": "Now we will do a deep dive of every single possible combination."
+  },
+  {
+    "start": 716.52,
+    "duration": 6.2,
+    "text": "private, will it be accessible within subclass of different package, same package using default"
+  },
+  {
+    "start": 722.72,
+    "duration": 8.89,
+    "text": "one using a protected one, there's one more called protected protected. Even for protected"
+  },
+  {
+    "start": 731.61,
+    "duration": 6.28,
+    "text": "is not working. So what is the difference between protected and just a default one? Okay, so"
+  },
+  {
+    "start": 737.89,
+    "duration": 4.16,
+    "text": "this was just to give you a hint of what we are doing. Now let's look into the detailed"
+  },
+  {
+    "start": 742.05,
+    "duration": 4.52,
+    "text": "picture of every single rule that exists like this. You will not be confused than"
+  },
+  {
+    "start": 746.57,
+    "duration": 6.64,
+    "text": "ever. Okay, let's look into it. Here we go. Using this simple rule, you can figure out"
+  },
+  {
+    "start": 753.21,
+    "duration": 5.72,
+    "text": "every single possible combination. So if the access modifier is public, can you access"
+  },
+  {
+    "start": 758.93,
+    "duration": 5.92,
+    "text": "that variable in us in the same class? Plus means you can empty means you cannot. So"
+  },
+  {
+    "start": 764.85,
+    "duration": 5.88,
+    "text": "yes, you can in the same package. Yes, you can in the same packages subclass means"
+  },
+  {
+    "start": 770.73,
+    "duration": 4.36,
+    "text": "inheritance is involved, you know, subclass parent class, child class, basically, yes,"
+  },
+  {
+    "start": 775.09,
+    "duration": 6.4,
+    "text": "you can in the subclass of a different package. Yes, you can in the world means different"
+  },
+  {
+    "start": 781.49,
+    "duration": 5.16,
+    "text": "package and not even subclass no inheritance involved. Yes, you can public, you can access"
+  },
+  {
+    "start": 786.65,
+    "duration": 5.32,
+    "text": "everywhere. Private as I mentioned, you can only access in that class only. These are"
+  },
+  {
+    "start": 791.97,
+    "duration": 6.24,
+    "text": "the two different ones. So protected is used when we are talking about inheritance. When"
+  },
+  {
+    "start": 798.21,
+    "duration": 6.64,
+    "text": "we are talking about inheritance. So let's take this example only you're taking protected."
+  },
+  {
+    "start": 804.85,
+    "duration": 5.36,
+    "text": "So protected in the same class, can you access in the same class, I can access, yeah, that's"
+  },
+  {
+    "start": 810.21,
+    "duration": 6.76,
+    "text": "totally fine. In the same package, can you access in the same package means in main? Yes,"
+  },
+  {
+    "start": 816.97,
+    "duration": 7.16,
+    "text": "you can, it's able to access it in the same package subclass, are you able to access? Let's"
+  },
+  {
+    "start": 824.13,
+    "duration": 10.16,
+    "text": "try to see subclass extends a so I can say I have to create a constructor no problem."
+  },
+  {
+    "start": 834.29,
+    "duration": 10.28,
+    "text": "And then I can just say that in the same package subclass okay no problem public static I can"
+  },
+  {
+    "start": 844.57,
+    "duration": 9.5,
+    "text": "just say something like this public static void main I can say subclass object is equal"
+  },
+  {
+    "start": 854.07,
+    "duration": 9.9,
+    "text": "to new subclass okay name is 45 name is equal to something like Kunal, Kushwaha or whatever"
+  },
+  {
+    "start": 863.97,
+    "duration": 7.99,
+    "text": "object dot what am I trying to access protected member which is numb yes it's"
+  },
+  {
+    "start": 871.96,
+    "duration": 7.16,
+    "text": "working so this this rule also works fine in the subclass of the same package in"
+  },
+  {
+    "start": 879.12,
+    "duration": 6.68,
+    "text": "the subclass of a different package are you able to access yes subclass example"
+  },
+  {
+    "start": 885.8,
+    "duration": 5.68,
+    "text": "let's say in a different package somewhere over here yes able to access"
+  },
+  {
+    "start": 891.48,
+    "duration": 6.48,
+    "text": "In the world, different package and not subclass."
+  },
+  {
+    "start": 897.96,
+    "duration": 8.04,
+    "text": "So different package, but not subclass, not subclass."
+  },
+  {
+    "start": 906.0,
+    "duration": 7.92,
+    "text": "Remove this, remove this, remove this, not able to access."
+  },
+  {
+    "start": 913.92,
+    "duration": 9.1,
+    "text": "So different package, not subclass is the only place where protected cannot be used."
+  },
+  {
+    "start": 923.02,
+    "duration": 2.16,
+    "text": "How about when no modifier is allowed?"
+  },
+  {
+    "start": 925.18,
+    "duration": 4.48,
+    "text": "If no modifier is there, then here you can see in the same class it can be used, same"
+  },
+  {
+    "start": 929.66,
+    "duration": 4.64,
+    "text": "package also, same package in the subclass also, that's it."
+  },
+  {
+    "start": 934.3,
+    "duration": 4.44,
+    "text": "In different packages you cannot use if there is no modifier allowed."
+  },
+  {
+    "start": 938.74,
+    "duration": 2.92,
+    "text": "Does not matter if it's subclass or parent class or whatever."
+  },
+  {
+    "start": 941.66,
+    "duration": 2.16,
+    "text": "You can't use it in different packages."
+  },
+  {
+    "start": 943.82,
+    "duration": 4.84,
+    "text": "So for example, if there are some data variables that you won't don't want to"
+  },
+  {
+    "start": 948.66,
+    "duration": 6.0,
+    "text": "be used outside the packages if you don't if you want it to be structured in the package"
+  },
+  {
+    "start": 954.66,
+    "duration": 5.04,
+    "text": "only so now we like Kunal this is fine we are able to understand this particular graph"
+  },
+  {
+    "start": 959.7,
+    "duration": 4.8,
+    "text": "now this particular table but actually tell us right when do we use which one I'll tell"
+  },
+  {
+    "start": 964.5,
+    "duration": 5.8,
+    "text": "you private is for sensitive data that you don't want direct access to how can you"
+  },
+  {
+    "start": 970.3,
+    "duration": 4.68,
+    "text": "really then make use of this using the getter method and setter method you can access"
+  },
+  {
+    "start": 974.98,
+    "duration": 6.0,
+    "text": "it via some methods that can be public. I've already showed you example for that. This thing."
+  },
+  {
+    "start": 982.18,
+    "duration": 6.16,
+    "text": "Very simple. Okay. Kunal when will we use no modifier? You will use no modifier for those"
+  },
+  {
+    "start": 988.34,
+    "duration": 5.76,
+    "text": "variables that you don't want to be used outside that particular package. Okay. You have a package"
+  },
+  {
+    "start": 994.1,
+    "duration": 4.24,
+    "text": "called students that has some student specific data. You don't want those variables to be"
+  },
+  {
+    "start": 998.34,
+    "duration": 4.96,
+    "text": "accessed by any other package outside students. You will use the no modifier. Protected."
+  },
+  {
+    "start": 1003.3,
+    "duration": 8.0,
+    "text": "when you only want to you're like okay protected I will use I don't want my variables to be accessed"
+  },
+  {
+    "start": 1011.3,
+    "duration": 5.84,
+    "text": "outside the package but I only want it to be accessed outside the package if it is in the sub"
+  },
+  {
+    "start": 1017.14,
+    "duration": 5.68,
+    "text": "class if that class is the subclass of this particular class where the variable is so for"
+  },
+  {
+    "start": 1022.82,
+    "duration": 6.08,
+    "text": "example if that particular class is the subclass in which my particular variable is this is the"
+  },
+  {
+    "start": 1028.9,
+    "duration": 4.88,
+    "text": "the only exception so if you have an exception with packages then use protected. Kunal when"
+  },
+  {
+    "start": 1033.78,
+    "duration": 5.76,
+    "text": "will we use public when you want it to be accessed everywhere this is very dangerous so this is very"
+  },
+  {
+    "start": 1039.54,
+    "duration": 5.2,
+    "text": "like it will be able to access anywhere you can modify it or whatever until analysis is not final"
+  },
+  {
+    "start": 1044.74,
+    "duration": 6.44,
+    "text": "or whatever but yeah this holds true for like getters and set up methods and stuff like that"
+  },
+  {
+    "start": 1051.18,
+    "duration": 6.0,
+    "text": "for that we use public okay this is the reason the public static void main is public now you"
+  },
+  {
+    "start": 1057.18,
+    "duration": 4.6,
+    "text": "you will be able to understand, my public static void min is public, because we want the main"
+  },
+  {
+    "start": 1061.78,
+    "duration": 8.03,
+    "text": "function to be accessed from everywhere. That's the main function that will run. That is it."
+  },
+  {
+    "start": 1069.81,
+    "duration": 4.56,
+    "text": "Access modifier finished. That's it. Just play around with it now. I gave you an example"
+  },
+  {
+    "start": 1074.37,
+    "duration": 5.24,
+    "text": "of already all these four columns, five columns. That's it. Nothing else. Very easy. That"
+  },
+  {
+    "start": 1079.61,
+    "duration": 7.12,
+    "text": "is it. Let's move forward. One last point about protected that I want to share this"
+  },
+  {
+    "start": 1086.73,
+    "duration": 7.36,
+    "text": "the important point only the subclass can access the protected members in the base class"
+  },
+  {
+    "start": 1094.09,
+    "duration": 8.2,
+    "text": "when it's in different package only subclass can access the members in the protected class"
+  },
+  {
+    "start": 1102.29,
+    "duration": 6.52,
+    "text": "when it's outside the package if I make this into a for example in this case you can see"
+  },
+  {
+    "start": 1108.81,
+    "duration": 6.96,
+    "text": "it's not able to access num has protected access so only the subclass of a can access"
+  },
+  {
+    "start": 1115.77,
+    "duration": 6.0,
+    "text": "it. If you want a to access it, in that case, what will happen? It will check, okay, you"
+  },
+  {
+    "start": 1121.77,
+    "duration": 4.12,
+    "text": "are you're trying to access the reference variable a, even if you put this as a, it's"
+  },
+  {
+    "start": 1125.89,
+    "duration": 4.28,
+    "text": "going to be like, okay, you're trying to access num. Let me see what type of num is. So it's"
+  },
+  {
+    "start": 1130.17,
+    "duration": 7.3,
+    "text": "going to be like a num is protected. So it's only able to access this in a different package"
+  },
+  {
+    "start": 1137.47,
+    "duration": 5.58,
+    "text": "when you are accessing it with a subclass, not even the class itself subclass in"
+  },
+  {
+    "start": 1143.05,
+    "duration": 6.16,
+    "text": "different package okay so only the subclass in different package that is it's very simple"
+  },
+  {
+    "start": 1149.21,
+    "duration": 4.4,
+    "text": "because this back door is closed it's going to be like you can't really because if this"
+  },
+  {
+    "start": 1153.61,
+    "duration": 5.48,
+    "text": "was allowed okay imagine imagine something like this if this was allowed okay because"
+  },
+  {
+    "start": 1159.09,
+    "duration": 5.28,
+    "text": "this a does not know what is extending it right only the subclass knows that I am you"
+  },
+  {
+    "start": 1164.37,
+    "duration": 4.64,
+    "text": "know that in the previous video I told about that above one does not have any idea about"
+  },
+  {
+    "start": 1169.01,
+    "duration": 6.48,
+    "text": "the bottom one. Remember that point. Similarly, A does not know what all things are using it."
+  },
+  {
+    "start": 1175.49,
+    "duration": 5.56,
+    "text": "But below one knows which thing it is using from above. Base knows what parent is. Parent"
+  },
+  {
+    "start": 1181.05,
+    "duration": 5.46,
+    "text": "does not know what bases are. So if this holds true, if this was holding true, I could"
+  },
+  {
+    "start": 1186.51,
+    "duration": 6.68,
+    "text": "use these two lines anywhere. I could use these two lines anywhere. So don't ask"
+  },
+  {
+    "start": 1193.19,
+    "duration": 5.04,
+    "text": "Kunal, why is this line not working in different package for protected?"
+  },
+  {
+    "start": 1199.35,
+    "duration": 0.32,
+    "text": "Why?"
+  },
+  {
+    "start": 1199.79,
+    "duration": 0.92,
+    "text": "Very simple answer."
+  },
+  {
+    "start": 1201.47,
+    "duration": 2.64,
+    "text": "Protected means that only subclass can access it."
+  },
+  {
+    "start": 1204.83,
+    "duration": 4.4,
+    "text": "And there is no way of this a knowing that, Hey, there's actually subclass"
+  },
+  {
+    "start": 1209.23,
+    "duration": 3.44,
+    "text": "that is extending to me, but this a it's like, okay, I am a only."
+  },
+  {
+    "start": 1213.99,
+    "duration": 3.44,
+    "text": "For this, it's just like this thing, this thing."
+  },
+  {
+    "start": 1218.11,
+    "duration": 2.72,
+    "text": "So if this holds true, it means that you can access this."
+  },
+  {
+    "start": 1221.27,
+    "duration": 1.88,
+    "text": "If this holds true, it means that it's public."
+  },
+  {
+    "start": 1223.19,
+    "duration": 6.08,
+    "text": "That's basically if this holds true, there is no difference between public and protected."
+  },
+  {
+    "start": 1229.27,
+    "duration": 4.72,
+    "text": "So in different package, you can only access it via subclass because only the subclass knows"
+  },
+  {
+    "start": 1233.99,
+    "duration": 1.72,
+    "text": "what I am extending."
+  },
+  {
+    "start": 1235.71,
+    "duration": 3.16,
+    "text": "The extended class does not know that the subclass is extending it."
+  },
+  {
+    "start": 1238.87,
+    "duration": 3.36,
+    "text": "I've explained this in the previous lecture, how inheritance works, please make sure you"
+  },
+  {
+    "start": 1242.23,
+    "duration": 1.0,
+    "text": "watch that."
+  },
+  {
+    "start": 1243.23,
+    "duration": 2.24,
+    "text": "Okay, it's very simple, simple rule one line."
+  },
+  {
+    "start": 1245.47,
+    "duration": 5.24,
+    "text": "Only subclass can access in different packages because a does not itself know what the"
+  },
+  {
+    "start": 1250.71,
+    "duration": 6.08,
+    "text": "subclass is okay so since a does not know if a feels like I am only a over here"
+  },
+  {
+    "start": 1256.79,
+    "duration": 3.6,
+    "text": "so that is true then a can be in any other class you can put it over here"
+  },
+  {
+    "start": 1260.39,
+    "duration": 3.04,
+    "text": "somewhere as well this is not subclass but then you can put it somewhere over"
+  },
+  {
+    "start": 1263.43,
+    "duration": 6.84,
+    "text": "here as well like just the normal these two lines these two lines if a has no"
+  },
+  {
+    "start": 1270.27,
+    "duration": 4.8,
+    "text": "idea about the child classes then you can put it anywhere right if it has"
+  },
+  {
+    "start": 1275.07,
+    "duration": 7.28,
+    "text": "to work over here? No. Since A does not know anything about what is the base class, child"
+  },
+  {
+    "start": 1282.35,
+    "duration": 4.96,
+    "text": "class or whatever, that is why the dependency on whether it will be able to access in the"
+  },
+  {
+    "start": 1287.31,
+    "duration": 5.6,
+    "text": "different package or not is dependent on the subclass because A does not know anything."
+  },
+  {
+    "start": 1292.91,
+    "duration": 3.7,
+    "text": "Base does not know anything. Okay, just know anything stuff. I have already explained"
+  },
+  {
+    "start": 1296.61,
+    "duration": 2.86,
+    "text": "in previous lecture. Okay, please check it out. Cool. Let's move forward. Let"
+  },
+  {
+    "start": 1299.47,
+    "duration": 4.88,
+    "text": "me give you one more example. Let's say there was another subclass to that extends"
+  },
+  {
+    "start": 1304.35,
+    "duration": 8.3,
+    "text": "A. Okay, something like that. Let me create another subclass to subclass to that also extends"
+  },
+  {
+    "start": 1312.65,
+    "duration": 9.74,
+    "text": "a, for example. Okay, there's another subclass to. Now, if there was, let's say here, I know"
+  },
+  {
+    "start": 1322.39,
+    "duration": 8.0,
+    "text": "that if you're doing something like this, object dot num, right, it's only allowed"
+  },
+  {
+    "start": 1330.39,
+    "duration": 7.28,
+    "text": "this is only allowed when this type is a subclass of A or it's a subclass of this entire subclass."
+  },
+  {
+    "start": 1339.35,
+    "duration": 8.72,
+    "text": "Something like this, let's say something like this class sub sub class extends subclass"
+  },
+  {
+    "start": 1357.96,
+    "duration": 9.61,
+    "text": "sub subclass new sub subclass that works. So either should be a subclass of A or it should"
+  },
+  {
+    "start": 1367.57,
+    "duration": 5.76,
+    "text": "should be a subclass of itself. In that case, it will be able to access protected. Okay,"
+  },
+  {
+    "start": 1373.33,
+    "duration": 7.44,
+    "text": "something like that. Very, very, very simple. Cool. We've already covered this. Now, subclass"
+  },
+  {
+    "start": 1380.77,
+    "duration": 4.88,
+    "text": "has, you know, it has like knowledge of its internal members and which one it it is accessing"
+  },
+  {
+    "start": 1385.65,
+    "duration": 5.92,
+    "text": "from like the parent or whatever. Okay. But let's say the object that we have over"
+  },
+  {
+    "start": 1391.57,
+    "duration": 5.52,
+    "text": "here, it is not of type subclass. For example, it's of type A or it's of type subclass"
+  },
+  {
+    "start": 1397.09,
+    "duration": 6.76,
+    "text": "for example, something like this. Okay, I mean, since it's also extending a that works fine,"
+  },
+  {
+    "start": 1403.85,
+    "duration": 12.31,
+    "text": "but what I'm trying to say is that something like this. So let's say it's another, another"
+  },
+  {
+    "start": 1416.16,
+    "duration": 7.84,
+    "text": "particular subclass of a the same one. Okay, so obviously subclass has no idea about it."
+  },
+  {
+    "start": 1424.0,
+    "duration": 4.76,
+    "text": "Subclass has no idea about subclass to you have a over here. And then you have subclass"
+  },
+  {
+    "start": 1428.76,
+    "duration": 5.32,
+    "text": "subclass 2, that is very simple, it cannot go like downwards or only go upwards, only"
+  },
+  {
+    "start": 1434.08,
+    "duration": 3.88,
+    "text": "the upwards have knowledge, I have already explained this in detail in the previous lecture."
+  },
+  {
+    "start": 1437.96,
+    "duration": 8.52,
+    "text": "Now for subclass, the subclass 2 basically it may not even have been written by the"
+  },
+  {
+    "start": 1446.48,
+    "duration": 4.0,
+    "text": "time we were using the subclass, subclass 2 may not even have been written by the"
+  },
+  {
+    "start": 1450.48,
+    "duration": 6.24,
+    "text": "time we were using the subclass, so for the subclass to manipulate the subclass"
+  },
+  {
+    "start": 1456.72,
+    "duration": 5.16,
+    "text": "two's let's say protected members if this had its own protected member that would be"
+  },
+  {
+    "start": 1461.88,
+    "duration": 6.28,
+    "text": "very dangerous because it would mean that anyone is modifying subclass 2's members okay"
+  },
+  {
+    "start": 1468.16,
+    "duration": 5.96,
+    "text": "from like subclass 2's point of view it does not the subclass 2 will not know who will"
+  },
+  {
+    "start": 1474.12,
+    "duration": 6.96,
+    "text": "tamper with the protected internals and how this will you know they make make S2's job"
+  },
+  {
+    "start": 1481.08,
+    "duration": 4.64,
+    "text": "very hard to find the reason you know like what is happening."
+  },
+  {
+    "start": 1485.72,
+    "duration": 5.68,
+    "text": "So that's basically about it, cool, all right, that makes sense."
+  },
+  {
+    "start": 1491.4,
+    "duration": 4.44,
+    "text": "So in simple terms, it's just following this rule."
+  },
+  {
+    "start": 1495.84,
+    "duration": 8.4,
+    "text": "So you have your A, this is subclass 1, this is subclass 2, subclass 1 has all the knowledge"
+  },
+  {
+    "start": 1504.24,
+    "duration": 5.4,
+    "text": "of the chains above it, subclass 2 as well, but the chain cannot go like this."
+  },
+  {
+    "start": 1509.64,
+    "duration": 5.68,
+    "text": "It can go up, but you can't go downwards like this from S1 to S2."
+  },
+  {
+    "start": 1515.32,
+    "duration": 4.6,
+    "text": "So A does not have any knowledge, that is why you can't just put A over here because"
+  },
+  {
+    "start": 1519.92,
+    "duration": 4.92,
+    "text": "it will not be knowing that hey, I'm actually being used inside a subclass, right?"
+  },
+  {
+    "start": 1524.84,
+    "duration": 1.84,
+    "text": "I don't know anything."
+  },
+  {
+    "start": 1526.68,
+    "duration": 6.0,
+    "text": "And plus it's static, so it's not really a part of subclass as such, like, of the objects."
+  },
+  {
+    "start": 1532.68,
+    "duration": 5.32,
+    "text": "Okay, so for it, it will be like just public, okay, you're using this A object, new A,"
+  },
+  {
+    "start": 1538.0,
+    "duration": 2.48,
+    "text": "and then if you're able to access protected, it does not mean that you're accessing"
+  },
+  {
+    "start": 1540.48,
+    "duration": 2.48,
+    "text": "it inside a subclass in a different package."
+  },
+  {
+    "start": 1542.96,
+    "duration": 6.28,
+    "text": "means you're accessing address as public okay as simple as that so in one line in different"
+  },
+  {
+    "start": 1549.24,
+    "duration": 4.4,
+    "text": "packages with protected just one line answer with protected in different packages you're"
+  },
+  {
+    "start": 1553.64,
+    "duration": 8.68,
+    "text": "only able to access it in subclasses that's it so there's a member in a class if there's"
+  },
+  {
+    "start": 1562.32,
+    "duration": 3.92,
+    "text": "a member in the parent class they're only able to access it in different package"
+  },
+  {
+    "start": 1566.24,
+    "duration": 5.0,
+    "text": "in the subclasses if that is protected that's it okay now let's talk a little bit"
+  },
+  {
+    "start": 1571.24,
+    "duration": 4.64,
+    "text": "more about packages we already saw what packages are how they work and stuff but"
+  },
+  {
+    "start": 1575.88,
+    "duration": 5.36,
+    "text": "you know some things are currently happening or when we import a new class"
+  },
+  {
+    "start": 1581.24,
+    "duration": 8.0,
+    "text": "it automatically does import Java.util Java.io or whatever that we do so"
+  },
+  {
+    "start": 1589.24,
+    "duration": 4.48,
+    "text": "let's try to see what these packages are okay so this is packages 2.2 means a"
+  },
+  {
+    "start": 1593.72,
+    "duration": 4.08,
+    "text": "little bit more about packages so packages that we already know what packages"
+  },
+  {
+    "start": 1597.8,
+    "duration": 4.72,
+    "text": "are just folders that we used to divide or categorize our classes and stuff. There are"
+  },
+  {
+    "start": 1602.52,
+    "duration": 9.78,
+    "text": "two types, okay, packages, two types, one are the user defined means the folders that"
+  },
+  {
+    "start": 1612.3,
+    "duration": 6.44,
+    "text": "we create and stuff, and other ones are the inbuilt packages. This is something we've"
+  },
+  {
+    "start": 1618.74,
+    "duration": 4.24,
+    "text": "already covered done, we already know how to create our own packages and stuff I've"
+  },
+  {
+    "start": 1622.98,
+    "duration": 3.0,
+    "text": "been doing it throughout the object or in programming course so we don't have to"
+  },
+  {
+    "start": 1625.98,
+    "duration": 4.76,
+    "text": "go there. But if you want to learn how packages work and all these other things, basic stuff"
+  },
+  {
+    "start": 1630.74,
+    "duration": 4.32,
+    "text": "and what they are, I know they're like just folders and stuff. So please check out the"
+  },
+  {
+    "start": 1635.06,
+    "duration": 10.06,
+    "text": "packages video. Okay, but the inbuilt ones will learn more about it when we do like"
+  },
+  {
+    "start": 1645.12,
+    "duration": 4.48,
+    "text": "collections, free collection framework and all these other things. But let's see what"
+  },
+  {
+    "start": 1649.6,
+    "duration": 10.64,
+    "text": "all we have. Okay, so we have the lang package. This is an important one. Now"
+  },
+  {
+    "start": 1660.24,
+    "duration": 10.38,
+    "text": "this basically contains, you know, the essential stuff of Java. So stuff that is like pretty"
+  },
+  {
+    "start": 1670.62,
+    "duration": 7.86,
+    "text": "mandatory in order to use like the Java language specific stuff. Okay, for example, like something"
+  },
+  {
+    "start": 1678.48,
+    "duration": 5.4,
+    "text": "like operations that we do, right, plus minus into divide or whatever, internally somewhere"
+  },
+  {
+    "start": 1683.88,
+    "duration": 4.68,
+    "text": "that might become contained in classes, primitive data types, internally somewhere it might"
+  },
+  {
+    "start": 1688.56,
+    "duration": 4.0,
+    "text": "be in some class or whatever right even though it's implemented as primitive it"
+  },
+  {
+    "start": 1692.56,
+    "duration": 4.12,
+    "text": "might be available in some class so all these basic stuffs that are like very"
+  },
+  {
+    "start": 1696.68,
+    "duration": 7.44,
+    "text": "important in some language specific stuff they go inside the land okay so now"
+  },
+  {
+    "start": 1704.12,
+    "duration": 7.48,
+    "text": "you will like Kunal we have been using like you know our integers and these"
+  },
+  {
+    "start": 1711.6,
+    "duration": 3.36,
+    "text": "primitives and all these things you're talking about operations but we never"
+  },
+  {
+    "start": 1714.96,
+    "duration": 5.44,
+    "text": "import java.lang we never write import java.lang how are we using it without"
+  },
+  {
+    "start": 1720.4,
+    "duration": 7.98,
+    "text": "importing it then it's automatically imported okay automatically imported I'm"
+  },
+  {
+    "start": 1728.38,
+    "duration": 4.12,
+    "text": "not gonna write about it you can just do it yourself okay cool the next one is"
+  },
+  {
+    "start": 1732.5,
+    "duration": 5.76,
+    "text": "io input output what is this it contains input output classes so then"
+  },
+  {
+    "start": 1738.26,
+    "duration": 5.8,
+    "text": "we will be doing file reading and stuff those sorts of classes that I used to"
+  },
+  {
+    "start": 1744.06,
+    "duration": 5.92,
+    "text": "read a file, optimized input output for completely programming in Java, for example, right buffer"
+  },
+  {
+    "start": 1749.98,
+    "duration": 7.6,
+    "text": "reader and all these other things. These go inside the IO package, Java dot IO package."
+  },
+  {
+    "start": 1757.58,
+    "duration": 3.92,
+    "text": "So it's just a folder in the Java folder. So Java folder is the main folder. This is"
+  },
+  {
+    "start": 1761.5,
+    "duration": 4.92,
+    "text": "the main folder, which is the Java folder is literally a folder when you install Java,"
+  },
+  {
+    "start": 1766.42,
+    "duration": 5.48,
+    "text": "you will find it. And these are sub folders in it. Okay, next one is the util one"
+  },
+  {
+    "start": 1771.9,
+    "duration": 6.92,
+    "text": "we have used this, we have used this when we import something like an analyst or whatever"
+  },
+  {
+    "start": 1778.82,
+    "duration": 6.12,
+    "text": "that contains that is like in the utl one. So basically it contains utl means what? Utility"
+  },
+  {
+    "start": 1784.94,
+    "duration": 8.68,
+    "text": "classes. So this contains like data structures and stuff. Okay, data structures and stuff"
+  },
+  {
+    "start": 1793.62,
+    "duration": 5.04,
+    "text": "and your collections framework as well. Okay, so collection framework has a separate dedicated"
+  },
+  {
+    "start": 1798.66,
+    "duration": 14.65,
+    "text": "video on it. Let me just show it to you. Like this over here, you can see if I do array list"
+  },
+  {
+    "start": 1813.31,
+    "duration": 7.32,
+    "text": "in the java.util. And in java.util also have collections. Collections has lot of nice classes"
+  },
+  {
+    "start": 1820.63,
+    "duration": 7.64,
+    "text": "that we'll be using. It has its own internal implementation of bind research. And basically"
+  },
+  {
+    "start": 1828.27,
+    "duration": 8.4,
+    "text": "it has a lot of things. Okay, it has a lot of things. Cool. All right, let's move forward."
+  },
+  {
+    "start": 1836.67,
+    "duration": 9.21,
+    "text": "So the next one is more on like the, let's say the development side, the applet. Okay."
+  },
+  {
+    "start": 1845.88,
+    "duration": 5.68,
+    "text": "So it's used to create applets in Java. Don't learn about these things like right now."
+  },
+  {
+    "start": 1851.56,
+    "duration": 4.36,
+    "text": "It's a pretty like obsolete stuff. And when it comes to like, you know, in Java, JSP,"
+  },
+  {
+    "start": 1855.92,
+    "duration": 3.6,
+    "text": "servlets and stuff, no one is like really learning that right now until unless you"
+  },
+  {
+    "start": 1859.52,
+    "duration": 4.16,
+    "text": "require it in a job or whatever do it, but I would not recommend putting time in learning"
+  },
+  {
+    "start": 1863.68,
+    "duration": 4.0,
+    "text": "these things. You can learn something like Spring Framework or something. You can learn"
+  },
+  {
+    "start": 1867.68,
+    "duration": 4.32,
+    "text": "about Maven or Gradle or something, but don't learn about like Surblitz and all these other"
+  },
+  {
+    "start": 1872.0,
+    "duration": 5.68,
+    "text": "things. The next one is for graphical user interface. You want to create a button or"
+  },
+  {
+    "start": 1877.68,
+    "duration": 4.88,
+    "text": "whatever GUI applications. For that, we have AWT. Again, I would not recommend learning"
+  },
+  {
+    "start": 1882.56,
+    "duration": 4.24,
+    "text": "this. Trust me, you will not miss out. Please don't learn it until unless someone in your"
+  },
+  {
+    "start": 1886.8,
+    "duration": 7.44,
+    "text": "job requires you to do so. No need to learn about the GUI applications using Java or in"
+  },
+  {
+    "start": 1894.24,
+    "duration": 5.96,
+    "text": "Python, people have like take a inter or whatever. No, no need to do it. It's obsolete. Okay,"
+  },
+  {
+    "start": 1900.2,
+    "duration": 3.16,
+    "text": "it does not mean it may not be using in some company. I mean, sure, if it's being used"
+  },
+  {
+    "start": 1903.36,
+    "duration": 4.48,
+    "text": "learn, but out of the like when you're learning Java or whatever, don't don't learn it."
+  },
+  {
+    "start": 1907.84,
+    "duration": 4.68,
+    "text": "Okay, cool. Some you can also perform some like networking operations. If you're making"
+  },
+  {
+    "start": 1912.52,
+    "duration": 3.48,
+    "text": "an app and you want to connect with the Internet or do all these other things."
+  },
+  {
+    "start": 1916.0,
+    "duration": 6.4,
+    "text": "that we have the net package. So this is all like the standard ones. That is it. Yeah,"
+  },
+  {
+    "start": 1922.4,
+    "duration": 3.88,
+    "text": "we've been using this like quite a lot. We have been using this. We've been using this."
+  },
+  {
+    "start": 1926.28,
+    "duration": 4.68,
+    "text": "I mean, we'll use this later on. Later on, we'll use this. We've been using this as"
+  },
+  {
+    "start": 1930.96,
+    "duration": 6.28,
+    "text": "well as a collections one collections framework. We'll cover later on separate video on"
+  },
+  {
+    "start": 1937.24,
+    "duration": 8.36,
+    "text": "this. Okay, cool. Let's move forward. Okay, so we talked about the lang package,"
+  },
+  {
+    "start": 1945.6,
+    "duration": 5.52,
+    "text": "one more class one class an important class and we've already covered this before but now it's time"
+  },
+  {
+    "start": 1951.12,
+    "duration": 5.04,
+    "text": "to dive into a little bit more detail one more class that is inside the lang class is the object"
+  },
+  {
+    "start": 1956.16,
+    "duration": 9.88,
+    "text": "class now you already covered the object class before object class obviously it's already imported"
+  },
+  {
+    "start": 1966.04,
+    "duration": 9.84,
+    "text": "because lang package is like it's already imported object this class this one okay so you can see"
+  },
+  {
+    "start": 1975.88,
+    "duration": 5.52,
+    "text": "class object is the root of the class hierarchy. So it is the topmost class in inheritance."
+  },
+  {
+    "start": 1982.12,
+    "duration": 5.12,
+    "text": "So if you extend, if you are inheriting like if you're doing this, this also this is basically"
+  },
+  {
+    "start": 1989.64,
+    "duration": 8.64,
+    "text": "extending object class indirectly. Okay, you are like, okay, so for example, if you don't put"
+  },
+  {
+    "start": 1998.28,
+    "duration": 4.88,
+    "text": "anything over here, then we know that by default it's extending the object class."
+  },
+  {
+    "start": 2003.16,
+    "duration": 5.44,
+    "text": "but if you do put something over here then you're like Kunal is it extending a or is it extending the"
+  },
+  {
+    "start": 2008.6,
+    "duration": 5.04,
+    "text": "object class because you said by default object class is extended by every class i'll be like it's"
+  },
+  {
+    "start": 2013.64,
+    "duration": 6.16,
+    "text": "also expanding object class also but then you'll be like Kunal you told that in java multiple"
+  },
+  {
+    "start": 2019.8,
+    "duration": 6.56,
+    "text": "inheritance is not allowed and how come it is doing this how come it is doing this then"
+  },
+  {
+    "start": 2026.36,
+    "duration": 7.2,
+    "text": "well this is known as like it's internally doing it okay indirectly it's doing it okay cool it's"
+  },
+  {
+    "start": 2033.56,
+    "duration": 6.96,
+    "text": "indirectly doing it all right let's move forward so basically object class has a few important"
+  },
+  {
+    "start": 2040.52,
+    "duration": 6.0,
+    "text": "things that we use so first of all is printing the object value so i'm just going to create another"
+  },
+  {
+    "start": 2046.52,
+    "duration": 11.76,
+    "text": "Let's say Java class object demo. Okay, something like that. So it has one called overriding"
+  },
+  {
+    "start": 2058.28,
+    "duration": 6.0,
+    "text": "overriding methods. So these are all the ones in the object class, the object constructor,"
+  },
+  {
+    "start": 2064.28,
+    "duration": 8.64,
+    "text": "obviously hash code. Let's talk about that. What else equals Let's talk about that."
+  },
+  {
+    "start": 2072.92,
+    "duration": 6.14,
+    "text": "else clone sure let's talk about that we'll talk about every single method that is available"
+  },
+  {
+    "start": 2079.06,
+    "duration": 5.92,
+    "text": "to offer us to override in the object class what else two string let's talk about that"
+  },
+  {
+    "start": 2084.98,
+    "duration": 7.4,
+    "text": "no problem what else finalize sure let's talk about that so override we already know"
+  },
+  {
+    "start": 2092.38,
+    "duration": 6.16,
+    "text": "what it is basically is an internal implementation in the object class and we can override it"
+  },
+  {
+    "start": 2098.54,
+    "duration": 8.28,
+    "text": "to use it as our own. Okay. So let's say I have int number, I'll create a constructor."
+  },
+  {
+    "start": 2106.82,
+    "duration": 7.07,
+    "text": "That's it. So something that we've already covered these two things we've already covered"
+  },
+  {
+    "start": 2113.89,
+    "duration": 12.0,
+    "text": "already covered already covered these two two string basically gives the string representation"
+  },
+  {
+    "start": 2125.89,
+    "duration": 5.08,
+    "text": "finalize basically gets called when garbage collection hits. Okay. No problem. What"
+  },
+  {
+    "start": 2130.97,
+    "duration": 9.28,
+    "text": "is hash code? Hash code is very simple. We will go in the details, we will go in details"
+  },
+  {
+    "start": 2140.25,
+    "duration": 10.06,
+    "text": "of how to create it in hash map lecture. But what it is, it basically gives a number representation"
+  },
+  {
+    "start": 2150.31,
+    "duration": 5.82,
+    "text": "of an object. That's what it does. So internally it may have its own like, you know, its own"
+  },
+  {
+    "start": 2156.13,
+    "duration": 6.24,
+    "text": "like implementation or whatever, but if we try to do it on our own, I can say something"
+  },
+  {
+    "start": 2162.37,
+    "duration": 12.01,
+    "text": "like object demo, public static moid main, object demo, object is equal to new object"
+  },
+  {
+    "start": 2174.38,
+    "duration": 8.12,
+    "text": "demo. Okay, and it's actually taking a number 34 or whatever. Okay, I just say print object"
+  },
+  {
+    "start": 2182.5,
+    "duration": 8.67,
+    "text": "dot hash value, try to see what it will give. It's gonna give 34 only, I think is I think"
+  },
+  {
+    "start": 2191.17,
+    "duration": 6.24,
+    "text": "for numbers, what is the unique value of number not 34 in Java, it gives 34. Okay, sorry,"
+  },
+  {
+    "start": 2197.41,
+    "duration": 6.12,
+    "text": "in Python, it gives like number model or something, but in Java, it actually gives some random"
+  },
+  {
+    "start": 2203.53,
+    "duration": 6.16,
+    "text": "value. Okay, so this basically is an internal implementation of this. So here you can"
+  },
+  {
+    "start": 2209.69,
+    "duration": 4.6,
+    "text": "see that somewhere over here, it may be having like its own internal implementation."
+  },
+  {
+    "start": 2214.29,
+    "duration": 4.56,
+    "text": "But what is the idea about hash code? What do we mean by hash code? Hash code basically"
+  },
+  {
+    "start": 2218.85,
+    "duration": 6.72,
+    "text": "means that a unique representation of an object via a number."
+  },
+  {
+    "start": 2225.57,
+    "duration": 8.6,
+    "text": "If I try to make another object, object number 2 and I give the same value as 34 or whatever,"
+  },
+  {
+    "start": 2234.17,
+    "duration": 5.51,
+    "text": "let me see if the answer will be same or different."
+  },
+  {
+    "start": 2239.68,
+    "duration": 7.55,
+    "text": "It is actually going to be different, it's different because it's actually not just"
+  },
+  {
+    "start": 2247.23,
+    "duration": 3.28,
+    "text": "based on number but as an object whole."
+  },
+  {
+    "start": 2250.51,
+    "duration": 2.8,
+    "text": "But what if I modify the hash code value?"
+  },
+  {
+    "start": 2253.31,
+    "duration": 3.64,
+    "text": "If I just say return number, that's it."
+  },
+  {
+    "start": 2256.95,
+    "duration": 8.92,
+    "text": "The hash code value is going to be the number itself, run, 34, 34, 34, 34."
+  },
+  {
+    "start": 2265.87,
+    "duration": 3.72,
+    "text": "One misconception people have is that hash code is the address, no, it is not."
+  },
+  {
+    "start": 2269.59,
+    "duration": 6.34,
+    "text": "You can't get address in Java, this is actually a random integer value formed via using some"
+  },
+  {
+    "start": 2275.93,
+    "duration": 1.0,
+    "text": "algorithm."
+  },
+  {
+    "start": 2276.93,
+    "duration": 4.66,
+    "text": "We will write our own, we will also write our own algorithm, we will create our own"
+  },
+  {
+    "start": 2281.59,
+    "duration": 4.88,
+    "text": "hash code function when we do hash maps and stuff, rolling hash and stuff, there's so"
+  },
+  {
+    "start": 2286.47,
+    "duration": 5.48,
+    "text": "many things to do. Right. So what is hash code, hash code just gives us a random number"
+  },
+  {
+    "start": 2291.95,
+    "duration": 4.44,
+    "text": "so that we can identify whether the object is the same object or the different object."
+  },
+  {
+    "start": 2296.39,
+    "duration": 9.58,
+    "text": "If I do it something like this and super dot hash code, and if I just don't create"
+  },
+  {
+    "start": 2305.97,
+    "duration": 4.8,
+    "text": "a new I just assign it to the previous one. Okay, I won't create a new object. I"
+  },
+  {
+    "start": 2310.77,
+    "duration": 9.84,
+    "text": "just assign it to a previous one then let's see what will happen same I am really not"
+  },
+  {
+    "start": 2320.61,
+    "duration": 4.16,
+    "text": "sure what doubt you can get over here I am not sure what doubt you can get over here"
+  },
+  {
+    "start": 2324.77,
+    "duration": 4.88,
+    "text": "what is hash code it just takes the object put some algorithm on it okay some mathematical"
+  },
+  {
+    "start": 2329.65,
+    "duration": 4.0,
+    "text": "algorithm like take the size of or whatever I don't know what internally how it works"
+  },
+  {
+    "start": 2333.65,
+    "duration": 4.4,
+    "text": "I have no idea and I don't really care so internally it does something and gets the"
+  },
+  {
+    "start": 2338.05,
+    "duration": 4.8,
+    "text": "number value of that you can have your own hash code we will actually create our own"
+  },
+  {
+    "start": 2342.85,
+    "duration": 4.0,
+    "text": "hash code method and we do hash maps. That's basically what hash code is. It's not the"
+  },
+  {
+    "start": 2346.85,
+    "duration": 4.44,
+    "text": "address, it's just giving a random unique number. Just to identify whether the object"
+  },
+  {
+    "start": 2351.29,
+    "duration": 5.52,
+    "text": "is uniqueness of the object only. Okay, so if the hash code is same, it means that it's"
+  },
+  {
+    "start": 2356.81,
+    "duration": 8.0,
+    "text": "the same object. Okay, cool. That's it. We'll go into the details of this later"
+  },
+  {
+    "start": 2364.81,
+    "duration": 8.4,
+    "text": "on in the hash map video. Okay, what is equals? What does equals mean? Let's look into that"
+  },
+  {
+    "start": 2373.21,
+    "duration": 5.28,
+    "text": "equals basically means before we go on to equals, let me tell you something else. So"
+  },
+  {
+    "start": 2378.49,
+    "duration": 8.16,
+    "text": "let's say we create a new object like over here, I say new object demo number 45. And"
+  },
+  {
+    "start": 2386.65,
+    "duration": 15.62,
+    "text": "And then I say if object is less than object to print object is less than object to no problem."
+  },
+  {
+    "start": 2402.27,
+    "duration": 5.04,
+    "text": "Let's say internally I give it something else I can say something like you know, if it is"
+  },
+  {
+    "start": 2407.31,
+    "duration": 7.32,
+    "text": "a constructor over here, I can just put something like let's say int value or something like"
+  },
+  {
+    "start": 2414.63,
+    "duration": 1.0,
+    "text": "this."
+  },
+  {
+    "start": 2415.63,
+    "duration": 8.52,
+    "text": "say this dot val is equal to 78 or whatever. Okay, or I can just take name, I can say,"
+  },
+  {
+    "start": 2424.15,
+    "duration": 9.08,
+    "text": "string name, you can say this dot name is equal to something like Kunal. Okay, I can"
+  },
+  {
+    "start": 2433.23,
+    "duration": 5.8,
+    "text": "let's say post on, I can just put otherwise I can just say string name over here and"
+  },
+  {
+    "start": 2439.03,
+    "duration": 6.88,
+    "text": "I can just put name over here and I can just put let's say Kunal over here and let's say"
+  },
+  {
+    "start": 2445.91,
+    "duration": 5.76,
+    "text": "I put Rahul over here or let me take numbers only you can never mind I can take numbers"
+  },
+  {
+    "start": 2451.67,
+    "duration": 17.99,
+    "text": "like 56.8 and here I can take numbers like 12 78.9 take float float and I just add"
+  },
+  {
+    "start": 2469.66,
+    "duration": 10.88,
+    "text": "float over here, float gpa or something. This dot gpa is equal to gpa. I can say float"
+  },
+  {
+    "start": 2480.54,
+    "duration": 8.64,
+    "text": "gpa. Okay, so this every object has two things. Every object has a number and a gpa. Now"
+  },
+  {
+    "start": 2489.18,
+    "duration": 6.44,
+    "text": "you are saying, hey, if object one is actually less than object two, print object one is"
+  },
+  {
+    "start": 2495.62,
+    "duration": 7.56,
+    "text": "less than object 2. But Java will get confused. Bro, you want me to compare the num variables"
+  },
+  {
+    "start": 2503.18,
+    "duration": 5.52,
+    "text": "of every object or the gpa variable of every object? I have no idea. Which one do you want"
+  },
+  {
+    "start": 2508.7,
+    "duration": 5.92,
+    "text": "me to compare? Here Java will get confused and give you an error. Okay, let's say here"
+  },
+  {
+    "start": 2514.62,
+    "duration": 4.52,
+    "text": "instead of this, you can say if this is equal to equal to this, you can say object one"
+  },
+  {
+    "start": 2519.14,
+    "duration": 5.0,
+    "text": "is I'll tell you how to compare like less than greater than that comes after like interfaces."
+  },
+  {
+    "start": 2524.14,
+    "duration": 5.52,
+    "text": "for now, let's just say we compare the quality of it. Okay. So it's like, Hey, if object one"
+  },
+  {
+    "start": 2529.66,
+    "duration": 4.68,
+    "text": "is equal to equal to object two, like regarding this thing, it was giving an error over here,"
+  },
+  {
+    "start": 2534.34,
+    "duration": 4.8,
+    "text": "right? Over here, like, if you want me to check with this, or this, or whatever. In"
+  },
+  {
+    "start": 2539.14,
+    "duration": 4.52,
+    "text": "that case, for, for me to tell you this, we'll have to look into comparable. And this"
+  },
+  {
+    "start": 2543.66,
+    "duration": 4.48,
+    "text": "is going to be, when we do like abstraction and interfaces and stuff. So we'll learn"
+  },
+  {
+    "start": 2548.14,
+    "duration": 4.04,
+    "text": "about it over there. But right now, let's just look into, let's say, equal to equal"
+  },
+  {
+    "start": 2552.18,
+    "duration": 8.12,
+    "text": "to what is the correct way of doing it. So, let us say here it is saying is equal to object"
+  },
+  {
+    "start": 2560.3,
+    "duration": 11.6,
+    "text": "number 2 or something like that. So, you can say is equal to object 2. And another way we"
+  },
+  {
+    "start": 2571.9,
+    "duration": 10.15,
+    "text": "can do this is something like this dot equals object. Here you can see the warning is"
+  },
+  {
+    "start": 2582.05,
+    "duration": 5.28,
+    "text": "gone here the warning is available okay so it's saying new object is compared"
+  },
+  {
+    "start": 2587.33,
+    "duration": 4.04,
+    "text": "using equal to equal to it saying don't compare it with equal to equal to compare"
+  },
+  {
+    "start": 2591.37,
+    "duration": 7.48,
+    "text": "it with dot equals let's see what the output will be in both the cases one"
+  },
+  {
+    "start": 2598.85,
+    "duration": 6.95,
+    "text": "second it's not giving the output okay it's saying this is false and this is"
+  },
+  {
+    "start": 2605.8,
+    "duration": 4.12,
+    "text": "false as well but what if I try to put let's say 12 over here now let's try"
+  },
+  {
+    "start": 2609.92,
+    "duration": 10.79,
+    "text": "to print it now what is happening again it's not able to print so this is what"
+  },
+  {
+    "start": 2620.71,
+    "duration": 6.32,
+    "text": "we're trying to modify. We want to say that when you do object one dot equals object two,"
+  },
+  {
+    "start": 2627.03,
+    "duration": 4.08,
+    "text": "we want it to actually like right now it's using the internal one right let's see what"
+  },
+  {
+    "start": 2631.11,
+    "duration": 3.52,
+    "text": "the difference is between let's say first of all equal to equal to and so the simple"
+  },
+  {
+    "start": 2634.63,
+    "duration": 4.16,
+    "text": "idea is that here equal to equal to you can see it's a comparator but dot equals is actually"
+  },
+  {
+    "start": 2638.79,
+    "duration": 4.48,
+    "text": "like a method or like a internal like function or something like that. The only difference"
+  },
+  {
+    "start": 2643.27,
+    "duration": 4.32,
+    "text": "is equal to equal to is basically checking whether these two objects are pointing to"
+  },
+  {
+    "start": 2647.59,
+    "duration": 5.28,
+    "text": "the same, these two variables are pointing to the same object or not. Okay, I've already"
+  },
+  {
+    "start": 2652.87,
+    "duration": 4.2,
+    "text": "I have having déjà vu, I've already explained this equal to equal to versus dot equals,"
+  },
+  {
+    "start": 2657.07,
+    "duration": 4.24,
+    "text": "I have explained this in strings. Yes, I've explained this in strings is exactly like"
+  },
+  {
+    "start": 2661.31,
+    "duration": 4.08,
+    "text": "that. I remember now. So in detail, I've explained it in strings using a diagram"
+  },
+  {
+    "start": 2665.39,
+    "duration": 3.16,
+    "text": "as well. So you can check the strings lecture. This is basically checking if object one"
+  },
+  {
+    "start": 2668.55,
+    "duration": 3.8,
+    "text": "and object two are pointing the same same thing or not dot equals is actually checking"
+  },
+  {
+    "start": 2672.35,
+    "duration": 4.56,
+    "text": "the content of it. Okay, so if I'm overwrite this thing, if I just say check the"
+  },
+  {
+    "start": 2676.91,
+    "duration": 6.16,
+    "text": "the content for num, okay, check the content for num. So here what you can do is internally"
+  },
+  {
+    "start": 2683.07,
+    "duration": 3.88,
+    "text": "it's just checking for like right now the object one but what we are going to do is"
+  },
+  {
+    "start": 2686.95,
+    "duration": 7.96,
+    "text": "now actually remove this I'm going to say if this dot number is equal to equal to object"
+  },
+  {
+    "start": 2694.91,
+    "duration": 12.45,
+    "text": "dot number and it's no object type or actually thing is in object demo type so I would"
+  },
+  {
+    "start": 2707.36,
+    "duration": 15.23,
+    "text": "have to cast it. No problem. We can do that like this. So now it's going to check whether"
+  },
+  {
+    "start": 2722.59,
+    "duration": 4.6,
+    "text": "this number is equal to the object dot number internally how it's working memory management"
+  },
+  {
+    "start": 2727.19,
+    "duration": 4.32,
+    "text": "please watch the strings lecture now it will be actually printing this as true because"
+  },
+  {
+    "start": 2731.51,
+    "duration": 4.96,
+    "text": "now it's not checking the object itself is just checking the the num value. Okay,"
+  },
+  {
+    "start": 2736.47,
+    "duration": 4.04,
+    "text": "so this basically checks whether two are just taking the addresses basically. And"
+  },
+  {
+    "start": 2740.51,
+    "duration": 4.08,
+    "text": "this is basically just checking whether the value is same or not. And that value"
+  },
+  {
+    "start": 2744.59,
+    "duration": 7.68,
+    "text": "you can modify by overriding it using this thing okay that's it and how to do"
+  },
+  {
+    "start": 2752.27,
+    "duration": 3.98,
+    "text": "comparators and stuff with objects will look into the that will look into the"
+  },
+  {
+    "start": 2756.25,
+    "duration": 3.76,
+    "text": "another lecture in the in the next lecture itself when we do abstract"
+  },
+  {
+    "start": 2760.01,
+    "duration": 8.74,
+    "text": "classes and interfaces okay cool there's one more thing I want to share it's"
+  },
+  {
+    "start": 2768.75,
+    "duration": 4.56,
+    "text": "known as so we talked about instances and instance variables and all"
+  },
+  {
+    "start": 2773.31,
+    "duration": 5.2,
+    "text": "these are things. But what if I want to talk about like, what if I want to check whether"
+  },
+  {
+    "start": 2778.51,
+    "duration": 5.18,
+    "text": "a particular thing is an instance or not, right? So if I talk about this subclass public static"
+  },
+  {
+    "start": 2783.69,
+    "duration": 17.02,
+    "text": "word mean object one. So I can say print obj instance of what a let's see what we get."
+  },
+  {
+    "start": 2800.71,
+    "duration": 8.53,
+    "text": "Try to run this true. It is an instance of a it's a subclass of it is object is"
+  },
+  {
+    "start": 2809.24,
+    "duration": 3.68,
+    "text": "is a sub is an it is an object of subclass which is a type a so indirectly it belongs"
+  },
+  {
+    "start": 2812.92,
+    "duration": 8.33,
+    "text": "to like type a as well if I put just subclass over here is an instance of subclass yes it"
+  },
+  {
+    "start": 2821.25,
+    "duration": 7.65,
+    "text": "is it is an instance of subclass yes it is it is an instance is it an instance of object"
+  },
+  {
+    "start": 2828.9,
+    "duration": 4.72,
+    "text": "class every every object is an instance of object class as such right because every"
+  },
+  {
+    "start": 2833.62,
+    "duration": 4.24,
+    "text": "class in here it is like the object class true."
+  },
+  {
+    "start": 2837.86,
+    "duration": 4.16,
+    "text": "Okay, there's the instance of method that I wanted to share share with you about"
+  },
+  {
+    "start": 2843.06,
+    "duration": 3.28,
+    "text": "Okay, cool. There's one more over here"
+  },
+  {
+    "start": 2847.94,
+    "duration": 4.48,
+    "text": "Equals we covered clone will cover later on. There should be one more"
+  },
+  {
+    "start": 2854.02,
+    "duration": 6.26,
+    "text": "All right"
+  },
+  {
+    "start": 2860.28,
+    "duration": 3.47,
+    "text": "There should be a get class"
+  },
+  {
+    "start": 2863.91,
+    "duration": 2.0,
+    "text": "It should be a get class somewhere over here"
+  },
+  {
+    "start": 2866.39,
+    "duration": 2.64,
+    "text": "So I just do something like this. Let's say I do get class"
+  },
+  {
+    "start": 2869.83,
+    "duration": 2.0,
+    "text": "I say something like"
+  },
+  {
+    "start": 2871.83,
+    "duration": 10.36,
+    "text": "print object one dot get class. Yes, here we have it in the object class is a get class."
+  },
+  {
+    "start": 2882.19,
+    "duration": 10.47,
+    "text": "So if I just print this, let's see what we get. So we're actually getting this instance"
+  },
+  {
+    "start": 2892.66,
+    "duration": 4.26,
+    "text": "of this, okay, that this object, that is what we're getting. So we can use it to"
+  },
+  {
+    "start": 2896.92,
+    "duration": 5.76,
+    "text": "calculate like the, you know, to get like some data about it. So some data about"
+  },
+  {
+    "start": 2902.68,
+    "duration": 5.36,
+    "text": "the class, you can say dot, we're going to add a type and cast and get class, like component"
+  },
+  {
+    "start": 2908.04,
+    "duration": 5.88,
+    "text": "type and all these other like get classes and get constructors. It's going to just return"
+  },
+  {
+    "start": 2913.92,
+    "duration": 5.08,
+    "text": "a list of an array or list of constructors and stuff. So if you want to get some data"
+  },
+  {
+    "start": 2919.0,
+    "duration": 5.0,
+    "text": "about the classes, get fields, get interfaces in that to get methods and all these other"
+  },
+  {
+    "start": 2924.0,
+    "duration": 5.48,
+    "text": "things, right, that name, let's say I try to get the name of this class, what will"
+  },
+  {
+    "start": 2929.48,
+    "duration": 11.44,
+    "text": "be the class B, object one's name. It's actually object demo. Cool. And one more thing I want"
+  },
+  {
+    "start": 2940.92,
+    "duration": 9.76,
+    "text": "to share is that this is final, so we can't override it. Okay. I've already covered final"
+  },
+  {
+    "start": 2950.68,
+    "duration": 5.88,
+    "text": "in detail. So that's why you can't override it. This thing, the get class one, you can't"
+  },
+  {
+    "start": 2956.56,
+    "duration": 12.39,
+    "text": "override it. Okay. That was the get class one. Cool. And when you get this get class"
+  },
+  {
+    "start": 2968.95,
+    "duration": 7.76,
+    "text": "information it will actually be stored in a heap okay so it will be stored in a heap area and"
+  },
+  {
+    "start": 2976.71,
+    "duration": 4.64,
+    "text": "whatever object we get from this and that's going to be like a class object we can get data about"
+  },
+  {
+    "start": 2981.35,
+    "duration": 5.6,
+    "text": "the class with it so you can see so many things I can apply okay that's it so if you want some"
+  },
+  {
+    "start": 2986.95,
+    "duration": 7.68,
+    "text": "information about the class you can use dot get class okay let's move forward there are a few"
+  },
+  {
+    "start": 2994.63,
+    "duration": 5.12,
+    "text": "more like weight and stuff and all these other things they work in like Java concurrency"
+  },
+  {
+    "start": 2999.75,
+    "duration": 5.36,
+    "text": "multi-threading stuff and classes and all like all things like that that will cover in like the multi-threading module when we do it"
+  },
+  {
+    "start": 3005.11,
+    "duration": 4.28,
+    "text": "Okay, well that was it about this video more things to come we'll learn now learn about like"
+  },
+  {
+    "start": 3011.03,
+    "duration": 2.0,
+    "text": "Abstraction abstract classes interfaces"
+  },
+  {
+    "start": 3013.79,
+    "duration": 2.3,
+    "text": "So many things to write over like there as well"
+  },
+  {
+    "start": 3017.91,
+    "duration": 2.88,
+    "text": "It's a very important topic interfaces is a very important topic"
+  },
+  {
+    "start": 3020.79,
+    "duration": 4.44,
+    "text": "So the limitations you were seeing in like multiple inheritance will solve it over there and it's used heavily"
+  },
+  {
+    "start": 3025.23,
+    "duration": 4.68,
+    "text": "Over here as well you can see so many interfaces and stuff like right now you see extends will"
+  },
+  {
+    "start": 3029.91,
+    "duration": 2.24,
+    "text": "introduce a new keyword like implements."
+  },
+  {
+    "start": 3032.15,
+    "duration": 4.6,
+    "text": "So it's a pretty important topic so make sure to like, share and subscribe and I'll see"
+  },
+  {
+    "start": 3036.75,
+    "duration": 1.04,
+    "text": "you in the next one."
+  }
+]

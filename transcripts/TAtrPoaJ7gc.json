@@ -1,0 +1,4867 @@
+[
+  {
+    "start": 4.24,
+    "duration": 7.0,
+    "text": "Hey everyone, welcome back to this video and today we will start with Java programs. So we'll actually be doing some"
+  },
+  {
+    "start": 11.44,
+    "duration": 8.52,
+    "text": "hands-on coding and seeing how the execution and everything is working in practice. So everything hands-on and we'll cover some important topics like"
+  },
+  {
+    "start": 20.32,
+    "duration": 6.26,
+    "text": "you know how in the previous example in the previous videos we saw that it gets converted to bytecode and everything"
+  },
+  {
+    "start": 26.64,
+    "duration": 6.04,
+    "text": "We talked about the compiler, the interpreter and all these things. So that is something that will actually be seen"
+  },
+  {
+    "start": 32.68,
+    "duration": 4.8,
+    "text": "Okay, that is something we'll actually be seeing in action. And if you want to see all these"
+  },
+  {
+    "start": 37.48,
+    "duration": 3.64,
+    "text": "previous videos, the link for the playlist is in the description below. Make sure you"
+  },
+  {
+    "start": 41.12,
+    "duration": 4.2,
+    "text": "check out other links as well and like share and subscribe. In this session, we'll also"
+  },
+  {
+    "start": 45.32,
+    "duration": 4.78,
+    "text": "look into data types in Java. So a lot of things that we covered will also be doing"
+  },
+  {
+    "start": 50.1,
+    "duration": 4.9,
+    "text": "some questions and other concepts like, you know, scopes and casting and all these"
+  },
+  {
+    "start": 55.0,
+    "duration": 4.16,
+    "text": "things. So it's going to be a very great session. So let's get started. Let me"
+  },
+  {
+    "start": 59.16,
+    "duration": 5.68,
+    "text": "me open up my terminal over here. So I hope you have done your installation, the JDK downloaded"
+  },
+  {
+    "start": 64.84,
+    "duration": 5.76,
+    "text": "the JDK. And in the previous session, we also saw IntelliJ idea. But let's start without"
+  },
+  {
+    "start": 70.6,
+    "duration": 4.8,
+    "text": "that like without IntelliJ, let's just do normal stuff. So I have my terminal open"
+  },
+  {
+    "start": 75.4,
+    "duration": 8.8,
+    "text": "over here. Let me zoom in a little bit. You can see that font looks good to me. And"
+  },
+  {
+    "start": 84.2,
+    "duration": 2.2,
+    "text": "Let me open up, let's say VS code."
+  },
+  {
+    "start": 86.4,
+    "duration": 3.36,
+    "text": "You can open up any text editor you like,"
+  },
+  {
+    "start": 89.76,
+    "duration": 1.28,
+    "text": "totally, totally up to you."
+  },
+  {
+    "start": 92.48,
+    "duration": 2.12,
+    "text": "So we are actually going to be looking at the structure"
+  },
+  {
+    "start": 94.6,
+    "duration": 4.42,
+    "text": "of the Java program."
+  },
+  {
+    "start": 99.02,
+    "duration": 4.52,
+    "text": "So let's say in my desktop, I'm saving it as main,"
+  },
+  {
+    "start": 103.54,
+    "duration": 0.92,
+    "text": "but not in my desktop."
+  },
+  {
+    "start": 104.46,
+    "duration": 4.04,
+    "text": "I can say in my community classroom bootcamp,"
+  },
+  {
+    "start": 108.5,
+    "duration": 3.44,
+    "text": "I can in my lectures create another folder"
+  },
+  {
+    "start": 111.94,
+    "duration": 18.88,
+    "text": "which will be let's say first Java program or something like that first tutorial something"
+  },
+  {
+    "start": 130.82,
+    "duration": 1.0,
+    "text": "like that."
+  },
+  {
+    "start": 131.82,
+    "duration": 7.98,
+    "text": "So in the first tutorial folder I save it as main dot Java because that is what we discussed"
+  },
+  {
+    "start": 139.8,
+    "duration": 7.36,
+    "text": "in the previous section C++ in C++ you write files in you know file name dot CPP in Java"
+  },
+  {
+    "start": 147.16,
+    "duration": 4.68,
+    "text": "the extension of file code is, the extension code of the file is what?"
+  },
+  {
+    "start": 151.84,
+    "duration": 9.82,
+    "text": "The extension.java, we are giving it some name, main.java let's say, okay."
+  },
+  {
+    "start": 161.66,
+    "duration": 10.96,
+    "text": "So we have main.java over here, and let me also open up the folder on the right hand"
+  },
+  {
+    "start": 172.62,
+    "duration": 10.91,
+    "text": "side, lectures, first hour program, Java is over here, very nice, okay."
+  },
+  {
+    "start": 183.53,
+    "duration": 4.4,
+    "text": "So this is my main.java, and currently it's empty."
+  },
+  {
+    "start": 187.93,
+    "duration": 5.48,
+    "text": "So in Java, one thing I want to mention is that everything that you are going to be writing,"
+  },
+  {
+    "start": 193.41,
+    "duration": 2.16,
+    "text": "it is going to be in classes."
+  },
+  {
+    "start": 195.57,
+    "duration": 8.7,
+    "text": "Every file that is with an extension of .java is a class itself."
+  },
+  {
+    "start": 204.27,
+    "duration": 5.44,
+    "text": "I repeat, every file that ends with .java is a class."
+  },
+  {
+    "start": 209.71,
+    "duration": 2.24,
+    "text": "Class is basically name, group of properties and functions."
+  },
+  {
+    "start": 211.95,
+    "duration": 4.0,
+    "text": "Don't worry much about in details of what classes are and everything, we will cover"
+  },
+  {
+    "start": 215.95,
+    "duration": 2.88,
+    "text": "that in detail when we do object-oriented programming."
+  },
+  {
+    "start": 218.83,
+    "duration": 3.72,
+    "text": "But I know you already know what a class does because we have covered it in the previous"
+  },
+  {
+    "start": 222.55,
+    "duration": 2.6,
+    "text": "sections."
+  },
+  {
+    "start": 225.15,
+    "duration": 6.02,
+    "text": "So here I am saying that it is main.java means that this file should contain a class and the"
+  },
+  {
+    "start": 231.17,
+    "duration": 4.86,
+    "text": "name of that class should be what main, why?"
+  },
+  {
+    "start": 236.03,
+    "duration": 5.16,
+    "text": "Because that is the name of this file."
+  },
+  {
+    "start": 241.19,
+    "duration": 7.32,
+    "text": "So I will create a class main, that is it, I mean zoom in a little bit, class main,"
+  },
+  {
+    "start": 248.51,
+    "duration": 1.0,
+    "text": "that is it."
+  },
+  {
+    "start": 249.51,
+    "duration": 8.96,
+    "text": "class main curly braces. Every code that we will be writing will be in this class. All"
+  },
+  {
+    "start": 258.47,
+    "duration": 6.62,
+    "text": "the code that we will be writing will be in this class. So, there is one more convention"
+  },
+  {
+    "start": 265.09,
+    "duration": 5.62,
+    "text": "I want you to follow. So, first one was this, if you have a main.java, it basically means"
+  },
+  {
+    "start": 270.71,
+    "duration": 8.24,
+    "text": "that there is a class main in this file. And whatever variable that you see in programming"
+  },
+  {
+    "start": 278.95,
+    "duration": 6.36,
+    "text": "language is, if it's starting with a capital letter, it basically means that is a class."
+  },
+  {
+    "start": 285.31,
+    "duration": 2.16,
+    "text": "This is a convention."
+  },
+  {
+    "start": 287.47,
+    "duration": 3.16,
+    "text": "So even though if I write it something like this, this might be correct."
+  },
+  {
+    "start": 290.63,
+    "duration": 5.88,
+    "text": "If I write it like, if I also rename this to small m, it will be correct since like,"
+  },
+  {
+    "start": 296.51,
+    "duration": 3.08,
+    "text": "it will run, but it's not good practice."
+  },
+  {
+    "start": 299.59,
+    "duration": 4.6,
+    "text": "If you are creating a class, make sure that the first letter is capital, that is"
+  },
+  {
+    "start": 304.19,
+    "duration": 1.0,
+    "text": "a convention."
+  },
+  {
+    "start": 305.19,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 306.19,
+    "duration": 5.92,
+    "text": "Second thing I want you to note is, remember this, if the name of the file is let's say"
+  },
+  {
+    "start": 312.11,
+    "duration": 8.93,
+    "text": "main.java, then the main class that is in this file is going to be a public class."
+  },
+  {
+    "start": 321.04,
+    "duration": 1.0,
+    "text": "What do I mean by public?"
+  },
+  {
+    "start": 322.04,
+    "duration": 2.68,
+    "text": "You might be, hey Kunal, what is this public thing?"
+  },
+  {
+    "start": 324.72,
+    "duration": 1.96,
+    "text": "This new thing we don't know about it."
+  },
+  {
+    "start": 326.68,
+    "duration": 2.0,
+    "text": "That's fine."
+  },
+  {
+    "start": 328.68,
+    "duration": 4.92,
+    "text": "Basically imagine that in programming in this file, there are so many let's say"
+  },
+  {
+    "start": 333.6,
+    "duration": 7.12,
+    "text": "classes and you know blocks of code and stuff that you only want to showcase to some people."
+  },
+  {
+    "start": 340.72,
+    "duration": 8.44,
+    "text": "Okay, let's say this main class has some code that you only want to be accessible when it's"
+  },
+  {
+    "start": 349.16,
+    "duration": 4.72,
+    "text": "being used in this class only. Let's say if you're using this file in some other file"
+  },
+  {
+    "start": 353.88,
+    "duration": 4.92,
+    "text": "and you don't want to share the code that is in this file to some other file, there"
+  },
+  {
+    "start": 358.8,
+    "duration": 6.1,
+    "text": "there should be a way to do this. If I am saying something like, let us say for example,"
+  },
+  {
+    "start": 364.9,
+    "duration": 6.64,
+    "text": "I am saying int a is equal to 10 or whatever, it is not like let us say not correct right"
+  },
+  {
+    "start": 371.54,
+    "duration": 5.16,
+    "text": "now, but for example, I am doing something like let us say there is some value over here"
+  },
+  {
+    "start": 376.7,
+    "duration": 5.48,
+    "text": "and you want that this should not be available outside this class, there are a few ways"
+  },
+  {
+    "start": 382.18,
+    "duration": 4.36,
+    "text": "to do this as you know access modifiers, which we look more into when we do object"
+  },
+  {
+    "start": 386.54,
+    "duration": 6.88,
+    "text": "200 programming. In simple terms, public means that this class can be accessed from anywhere,"
+  },
+  {
+    "start": 393.42,
+    "duration": 6.24,
+    "text": "as simple as that. Public means this class can be accessed from anywhere, this class"
+  },
+  {
+    "start": 399.66,
+    "duration": 6.36,
+    "text": "can be accessed from other classes, other files, other packages, that is what the"
+  },
+  {
+    "start": 406.02,
+    "duration": 6.12,
+    "text": "meaning of this is. So, do not worry about the details of it, that is just because"
+  },
+  {
+    "start": 412.14,
+    "duration": 3.78,
+    "text": "In this section I'm saying because please, this is a very important point."
+  },
+  {
+    "start": 415.92,
+    "duration": 5.52,
+    "text": "I will share a lot of such keywords in this session that will make no sense at first."
+  },
+  {
+    "start": 421.44,
+    "duration": 2.0,
+    "text": "What do you have to do in this session?"
+  },
+  {
+    "start": 423.44,
+    "duration": 6.24,
+    "text": "You have to understand what these keywords are doing and ignore how they are doing it"
+  },
+  {
+    "start": 429.68,
+    "duration": 5.5,
+    "text": "because that will be covered in object-oriented programming in detail."
+  },
+  {
+    "start": 435.18,
+    "duration": 5.14,
+    "text": "So don't stress too much if you don't understand how these things are working internally"
+  },
+  {
+    "start": 440.32,
+    "duration": 3.96,
+    "text": "because I can't tell you that right now because I would have to cover object-oriented programming"
+  },
+  {
+    "start": 444.28,
+    "duration": 1.0,
+    "text": "for that."
+  },
+  {
+    "start": 445.28,
+    "duration": 8.62,
+    "text": "We will cover that in detail in this lecture, only focus on how these things are happening."
+  },
+  {
+    "start": 453.9,
+    "duration": 3.84,
+    "text": "Not how it's happening, like what these things are doing, how it's actually doing it, we'll"
+  },
+  {
+    "start": 457.74,
+    "duration": 1.84,
+    "text": "look into in the future sessions."
+  },
+  {
+    "start": 459.58,
+    "duration": 6.92,
+    "text": "So, we know that we have public over here so that we can access this class from anywhere."
+  },
+  {
+    "start": 466.5,
+    "duration": 5.64,
+    "text": "In the previous sections we saw that we have .java files that we compile and that gives"
+  },
+  {
+    "start": 472.14,
+    "duration": 4.76,
+    "text": "us a .class file which contains the byte code very simple stuff."
+  },
+  {
+    "start": 476.9,
+    "duration": 6.96,
+    "text": "Now inside this file we would have to create a function."
+  },
+  {
+    "start": 483.86,
+    "duration": 2.56,
+    "text": "In C++ you might know there is a main function."
+  },
+  {
+    "start": 486.42,
+    "duration": 4.52,
+    "text": "Similarly in Java also there is a main function it is a convention the name has"
+  },
+  {
+    "start": 490.94,
+    "duration": 2.68,
+    "text": "to be main and what is the function?"
+  },
+  {
+    "start": 493.62,
+    "duration": 5.56,
+    "text": "is a block of code where your program starts that is known as the main function from where"
+  },
+  {
+    "start": 499.18,
+    "duration": 5.56,
+    "text": "your program will start by convention it's written in like that's how Java has been made"
+  },
+  {
+    "start": 504.74,
+    "duration": 5.7,
+    "text": "if there is no main function you will not be able to run the program you might be asking"
+  },
+  {
+    "start": 510.44,
+    "duration": 5.3,
+    "text": "Kunal what is a function function is basically just collection of code that you can use"
+  },
+  {
+    "start": 515.74,
+    "duration": 5.26,
+    "text": "again and again that's it okay we have a separate module on functions as well don't"
+  },
+  {
+    "start": 521.0,
+    "duration": 5.8,
+    "text": "worry about it. Now I'm going to write a function over here. It's going to be a lot. So please"
+  },
+  {
+    "start": 526.8,
+    "duration": 5.28,
+    "text": "you know, don't worry much about it because I'll be explaining each and every single word"
+  },
+  {
+    "start": 532.08,
+    "duration": 6.06,
+    "text": "and people say that hey Java is like you have to write a lot in Java. That's the beauty"
+  },
+  {
+    "start": 538.14,
+    "duration": 3.86,
+    "text": "of it. I love that we have to write a lot. You know, it's like we have get more control"
+  },
+  {
+    "start": 542.0,
+    "duration": 6.44,
+    "text": "and it's like amazing. It's not that much if you look at it at first. So it's like"
+  },
+  {
+    "start": 548.44,
+    "duration": 5.32,
+    "text": "it offers a lot of nice functionalities, which I'll show you more later on. So in this section"
+  },
+  {
+    "start": 553.76,
+    "duration": 4.8,
+    "text": "we'll also be looking at like input and output and everything. So here, let's say the main"
+  },
+  {
+    "start": 558.56,
+    "duration": 6.48,
+    "text": "function right where the program will start the int main of Java if you have done C++"
+  },
+  {
+    "start": 565.04,
+    "duration": 12.16,
+    "text": "public static void main string parks is the main function in Java. Do not worry"
+  },
+  {
+    "start": 577.2,
+    "duration": 5.36,
+    "text": "much about what is public, static, void, string, what is this thing? What is this thing?"
+  },
+  {
+    "start": 582.56,
+    "duration": 4.08,
+    "text": "I will cover each and every of these things in detail later on, but I will also definitely"
+  },
+  {
+    "start": 586.64,
+    "duration": 4.56,
+    "text": "explain what each of these words represent shortly. Okay, do not worry about it. In this"
+  },
+  {
+    "start": 591.2,
+    "duration": 3.48,
+    "text": "lecture only, I will explain what is static and what is this thing and what is this"
+  },
+  {
+    "start": 594.68,
+    "duration": 5.24,
+    "text": "thing, what is this thing and all these things. Okay, now let's try to write, let's"
+  },
+  {
+    "start": 599.92,
+    "duration": 3.6,
+    "text": "print hello word. Again, I'm going to write some things. So don't worry if you don't"
+  },
+  {
+    "start": 603.52,
+    "duration": 5.04,
+    "text": "don't understand how it's happening because I will cover it in detail in this lecture only."
+  },
+  {
+    "start": 608.56,
+    "duration": 12.53,
+    "text": "System.out.println, hello world, okay, forget about just forget about how this thing is happening."
+  },
+  {
+    "start": 621.09,
+    "duration": 5.54,
+    "text": "First, let's focus on what we learned in the previous lecture, how this thing will execute."
+  },
+  {
+    "start": 626.63,
+    "duration": 4.6,
+    "text": "Let's try to create a bytecode of this. After that, I will dive deep into every single word"
+  },
+  {
+    "start": 631.23,
+    "duration": 3.4,
+    "text": "I have written in this lecture only. So don't worry. Okay, don't worry, just stay"
+  },
+  {
+    "start": 634.63,
+    "duration": 5.0,
+    "text": "with me forget about how this is working for now we just want to run this thing convert"
+  },
+  {
+    "start": 639.63,
+    "duration": 6.56,
+    "text": "it into bytecode and run this how do we convert dot Java file into bytecode dot class file"
+  },
+  {
+    "start": 646.19,
+    "duration": 5.72,
+    "text": "Java compiler Java C you might have installed JDK so in JDK we have the Java C once you"
+  },
+  {
+    "start": 651.91,
+    "duration": 9.4,
+    "text": "install JDK you will get Java C Java C first I have to change document so I will go"
+  },
+  {
+    "start": 661.31,
+    "duration": 9.04,
+    "text": "into my community classroom, TSA boot camp, lectures, lecture number five first tutorial."
+  },
+  {
+    "start": 670.35,
+    "duration": 11.05,
+    "text": "I have my main.java over here. Okay. So I will just say Java C main.java got an error."
+  },
+  {
+    "start": 681.4,
+    "duration": 9.58,
+    "text": "I forgot to put a colon. That's okay. I've been coding in Python for a while. No worries."
+  },
+  {
+    "start": 690.98,
+    "duration": 9.16,
+    "text": "errors means? What do you see over here? Can you see main.class? This is the byte code that"
+  },
+  {
+    "start": 700.14,
+    "duration": 8.23,
+    "text": "we talked about previous lectures in previous lecture. Let's open this up. It will actually"
+  },
+  {
+    "start": 708.37,
+    "duration": 10.68,
+    "text": "look very dirty. This is a byte code. Open text editor. This is the byte code of Java."
+  },
+  {
+    "start": 719.05,
+    "duration": 7.34,
+    "text": "own language, we can't understand this thing. Okay, so I'm going to close this. So in the"
+  },
+  {
+    "start": 726.39,
+    "duration": 4.8,
+    "text": "previous lecture, we thought we saw that when we do main Java C compile this, it will not"
+  },
+  {
+    "start": 731.19,
+    "duration": 4.24,
+    "text": "directly compile into machine code, it will combine it into byte code. When I share this"
+  },
+  {
+    "start": 735.43,
+    "duration": 4.96,
+    "text": "file to any of you, you all will be able to run this because Java is platform independent."
+  },
+  {
+    "start": 740.39,
+    "duration": 3.88,
+    "text": "We learned about this in the previous section in detail. Now let's try to run this"
+  },
+  {
+    "start": 744.27,
+    "duration": 12.21,
+    "text": "main class java main hello world file is running awesome. So that is the entire thing that we"
+  },
+  {
+    "start": 756.48,
+    "duration": 6.72,
+    "text": "discussed in the previous lectures in action. Now let us look into this thing. What is this"
+  },
+  {
+    "start": 763.2,
+    "duration": 9.46,
+    "text": "entire thing? So I will give you a brief about what these things are doing. I will"
+  },
+  {
+    "start": 772.66,
+    "duration": 7.84,
+    "text": "explain how it's doing it when we do object oriented programming, okay. So here, public"
+  },
+  {
+    "start": 780.5,
+    "duration": 4.24,
+    "text": "basic now I'm explaining every single word. So listen very carefully. Why is my chair"
+  },
+  {
+    "start": 784.74,
+    "duration": 6.04,
+    "text": "making so much noise? Public means this class can be accessed from anywhere point number"
+  },
+  {
+    "start": 790.78,
+    "duration": 6.84,
+    "text": "one. Next point, what is a class? Class is just name group of properties and functions."
+  },
+  {
+    "start": 797.62,
+    "duration": 3.76,
+    "text": "In this class, we have this function, this method, if you can, if you like to"
+  },
+  {
+    "start": 801.38,
+    "duration": 5.4,
+    "text": "to call it. Basically, all the functions that are in classes are known as methods. Okay,"
+  },
+  {
+    "start": 806.78,
+    "duration": 6.52,
+    "text": "so here we have this method or function main function. Main is just the name of the file."
+  },
+  {
+    "start": 813.3,
+    "duration": 4.88,
+    "text": "If the name of the file is main.java, then the public class has to be the same name"
+  },
+  {
+    "start": 818.18,
+    "duration": 5.0,
+    "text": "that is the name of the file. I can't do it something like demo. This will give me"
+  },
+  {
+    "start": 823.18,
+    "duration": 4.84,
+    "text": "error. It will say, hey, your public class in the file is demo, but the name of"
+  },
+  {
+    "start": 828.02,
+    "duration": 5.04,
+    "text": "this file is main that is not allowed. Why we'll cover it in object 20 programming, don't"
+  },
+  {
+    "start": 833.06,
+    "duration": 5.7,
+    "text": "worry about it. You try you can try it will give you error. Next thing main function main"
+  },
+  {
+    "start": 838.76,
+    "duration": 5.54,
+    "text": "the word main is actually reserved. It's like important. It's like we the the function"
+  },
+  {
+    "start": 844.3,
+    "duration": 4.76,
+    "text": "name has to be main only. If it is not main program will not run whenever you run your"
+  },
+  {
+    "start": 849.06,
+    "duration": 5.32,
+    "text": "Java file, it will look for the main function in it. And if the main function is not"
+  },
+  {
+    "start": 854.38,
+    "duration": 7.12,
+    "text": "there, your code will not run. So main function is the entry point of the Java program. Okay,"
+  },
+  {
+    "start": 861.5,
+    "duration": 4.24,
+    "text": "I'm stressing it again and again, just focus on what we are doing, not how we are doing"
+  },
+  {
+    "start": 865.74,
+    "duration": 5.12,
+    "text": "it. We'll cover this very in detail in the short videos like shortly only like not so"
+  },
+  {
+    "start": 870.86,
+    "duration": 5.08,
+    "text": "much ahead very shortly, we'll cover this. Okay, so name has to be main only. What"
+  },
+  {
+    "start": 875.94,
+    "duration": 5.64,
+    "text": "is public public basically means that if this is the main code, imagine this is the"
+  },
+  {
+    "start": 881.58,
+    "duration": 3.44,
+    "text": "The main function without this our program will not run."
+  },
+  {
+    "start": 885.02,
+    "duration": 7.08,
+    "text": "Does it not make sense to make it available to be executed from anywhere?"
+  },
+  {
+    "start": 892.1,
+    "duration": 1.92,
+    "text": "Does it not make sense?"
+  },
+  {
+    "start": 894.02,
+    "duration": 1.0,
+    "text": "Make sense?"
+  },
+  {
+    "start": 895.02,
+    "duration": 3.36,
+    "text": "If you make it private, it might be a case that your main function will not be able"
+  },
+  {
+    "start": 898.38,
+    "duration": 1.0,
+    "text": "to run."
+  },
+  {
+    "start": 899.38,
+    "duration": 1.0,
+    "text": "Hence this class will not run."
+  },
+  {
+    "start": 900.38,
+    "duration": 4.16,
+    "text": "That's the intuition behind it, why we have it public over here."
+  },
+  {
+    "start": 904.54,
+    "duration": 1.0,
+    "text": "What is static?"
+  },
+  {
+    "start": 905.54,
+    "duration": 1.72,
+    "text": "Next point."
+  },
+  {
+    "start": 907.26,
+    "duration": 3.28,
+    "text": "Static is basically imagine I said that I am of human class."
+  },
+  {
+    "start": 910.54,
+    "duration": 2.88,
+    "text": "I am an object of human class."
+  },
+  {
+    "start": 913.42,
+    "duration": 6.48,
+    "text": "This particular main function or method is a part of which class main class?"
+  },
+  {
+    "start": 919.9,
+    "duration": 6.68,
+    "text": "Point number one, we know that this main function is the first entry point in the program."
+  },
+  {
+    "start": 926.58,
+    "duration": 4.48,
+    "text": "Program starts from here, program is going to start from here from the main function"
+  },
+  {
+    "start": 931.06,
+    "duration": 2.88,
+    "text": "point number two."
+  },
+  {
+    "start": 933.94,
+    "duration": 6.24,
+    "text": "If you say that you are running this class and basically in classes what happens"
+  },
+  {
+    "start": 940.18,
+    "duration": 6.56,
+    "text": "is when you use the variable names or functions or whatever in classes, in order to use that"
+  },
+  {
+    "start": 946.74,
+    "duration": 2.6,
+    "text": "you have to create an object of the class."
+  },
+  {
+    "start": 949.34,
+    "duration": 1.0,
+    "text": "That is how it usually goes."
+  },
+  {
+    "start": 950.34,
+    "duration": 1.2,
+    "text": "We'll cover more in detail."
+  },
+  {
+    "start": 951.54,
+    "duration": 1.88,
+    "text": "For example, I am a human."
+  },
+  {
+    "start": 953.42,
+    "duration": 3.68,
+    "text": "I might have a function called getName that gives me my name."
+  },
+  {
+    "start": 957.1,
+    "duration": 5.24,
+    "text": "So if the object itself is not present, how can you get my name?"
+  },
+  {
+    "start": 962.34,
+    "duration": 2.56,
+    "text": "You're saying, give me the name of the human."
+  },
+  {
+    "start": 964.9,
+    "duration": 1.0,
+    "text": "Which human?"
+  },
+  {
+    "start": 965.9,
+    "duration": 2.88,
+    "text": "Which human's name do you need?"
+  },
+  {
+    "start": 968.78,
+    "duration": 4.58,
+    "text": "If you need the name of a human, you have to give me a human, right?"
+  },
+  {
+    "start": 973.36,
+    "duration": 5.88,
+    "text": "So these functions or variable names or whatever, we access it when we have objects of that"
+  },
+  {
+    "start": 979.24,
+    "duration": 1.72,
+    "text": "class."
+  },
+  {
+    "start": 980.96,
+    "duration": 6.7,
+    "text": "But in the previous example, we saw that some variables like the population does not depend"
+  },
+  {
+    "start": 987.66,
+    "duration": 1.38,
+    "text": "on object."
+  },
+  {
+    "start": 989.04,
+    "duration": 4.2,
+    "text": "If you ask what is the population of the humans, you can just say without looking"
+  },
+  {
+    "start": 993.24,
+    "duration": 5.96,
+    "text": "at any particular human that for all the humans, all the objects of the humans, population"
+  },
+  {
+    "start": 999.2,
+    "duration": 3.78,
+    "text": "of the world is 7 billion."
+  },
+  {
+    "start": 1002.98,
+    "duration": 3.76,
+    "text": "Okay, so why do we have static over here?"
+  },
+  {
+    "start": 1006.74,
+    "duration": 6.4,
+    "text": "Important point is that if this main function, we want to execute this main function without"
+  },
+  {
+    "start": 1013.14,
+    "duration": 5.76,
+    "text": "creating an object of main class, okay, this does not have to be main."
+  },
+  {
+    "start": 1018.9,
+    "duration": 3.49,
+    "text": "It can be demo as well."
+  },
+  {
+    "start": 1022.39,
+    "duration": 6.52,
+    "text": "Okay, if we want to run this function and since this function is a part of the demo class"
+  },
+  {
+    "start": 1028.91,
+    "duration": 5.96,
+    "text": "and we know that this is the first thing that is going to run, it basically means that we"
+  },
+  {
+    "start": 1034.87,
+    "duration": 5.76,
+    "text": "have to run this without creating an object of this class and what variables and functions"
+  },
+  {
+    "start": 1040.63,
+    "duration": 6.16,
+    "text": "are the ones that do not depend on the objects, static variables and functions."
+  },
+  {
+    "start": 1046.79,
+    "duration": 1.84,
+    "text": "So why do we have static over here?"
+  },
+  {
+    "start": 1048.63,
+    "duration": 9.15,
+    "text": "we want to run this main function without creating an object of class demo. Okay, that"
+  },
+  {
+    "start": 1057.78,
+    "duration": 5.08,
+    "text": "is the reason. Because if this is the first thing that is being started, how can I have"
+  },
+  {
+    "start": 1062.86,
+    "duration": 4.64,
+    "text": "some other execution of this code base? How can I do something like this? Do you want"
+  },
+  {
+    "start": 1067.5,
+    "duration": 8.2,
+    "text": "me to do something like this demo object is equal to new or new demo class? This is"
+  },
+  {
+    "start": 1075.7,
+    "duration": 6.16,
+    "text": "basically how you create objects in Python. And then you can say object dot main. But"
+  },
+  {
+    "start": 1081.86,
+    "duration": 6.12,
+    "text": "since I know that this is the entry point of the program, nothing is running before this."
+  },
+  {
+    "start": 1087.98,
+    "duration": 3.96,
+    "text": "If nothing is running before this, how can you create an object of demo class before"
+  },
+  {
+    "start": 1091.94,
+    "duration": 3.6,
+    "text": "this? I hope that was able to you were able to forget what I wrote, I will explain"
+  },
+  {
+    "start": 1095.54,
+    "duration": 4.72,
+    "text": "it in detail when we do object programming. But we basically want to run this without"
+  },
+  {
+    "start": 1100.26,
+    "duration": 4.36,
+    "text": "creating the object of demo class. That's why we have static over here. What is"
+  },
+  {
+    "start": 1104.62,
+    "duration": 1.0,
+    "text": "void."
+  },
+  {
+    "start": 1105.62,
+    "duration": 1.94,
+    "text": "void is the return type of the function."
+  },
+  {
+    "start": 1107.56,
+    "duration": 5.02,
+    "text": "If you say, hey, create a function that takes two numbers and returns me the sum, what is"
+  },
+  {
+    "start": 1112.58,
+    "duration": 6.52,
+    "text": "the type of the return value going to be in that case, integer plus integer, integer."
+  },
+  {
+    "start": 1119.1,
+    "duration": 6.96,
+    "text": "You might say, give, write a function that takes a name and returns hello name returns"
+  },
+  {
+    "start": 1126.06,
+    "duration": 6.68,
+    "text": "basically means whenever this function stops executing, it will give some value."
+  },
+  {
+    "start": 1132.74,
+    "duration": 4.68,
+    "text": "In this case, we don't want it to give any value, hence we have written void, don't"
+  },
+  {
+    "start": 1137.42,
+    "duration": 5.5,
+    "text": "give me any value, we will look more into return types of functions."
+  },
+  {
+    "start": 1142.92,
+    "duration": 4.34,
+    "text": "In the future videos, we have a separate section on functions, do not worry about it."
+  },
+  {
+    "start": 1147.26,
+    "duration": 5.24,
+    "text": "Last but not least, this is known as arguments, these are known as command lined arguments."
+  },
+  {
+    "start": 1152.5,
+    "duration": 4.12,
+    "text": "This is an array, array is basically the next next lecture, next video that we will"
+  },
+  {
+    "start": 1156.62,
+    "duration": 1.84,
+    "text": "be starting will be on arrays."
+  },
+  {
+    "start": 1158.46,
+    "duration": 2.96,
+    "text": "So this is basically a collection of strings."
+  },
+  {
+    "start": 1161.42,
+    "duration": 7.16,
+    "text": "If I just want to print this, I can say arcs of whatever is at the 0th index of array."
+  },
+  {
+    "start": 1168.58,
+    "duration": 5.16,
+    "text": "So if I try to run this, okay, so let's try to print what is in this string."
+  },
+  {
+    "start": 1173.74,
+    "duration": 4.64,
+    "text": "Let's say I print the first element of what is in this particular array."
+  },
+  {
+    "start": 1178.38,
+    "duration": 3.64,
+    "text": "And here you can make sure make sure that this is and this is same with the file name"
+  },
+  {
+    "start": 1182.02,
+    "duration": 1.68,
+    "text": "and the public class name."
+  },
+  {
+    "start": 1183.7,
+    "duration": 1.0,
+    "text": "So let's try this."
+  },
+  {
+    "start": 1184.7,
+    "duration": 4.84,
+    "text": "Let me say Java C demo dot Java."
+  },
+  {
+    "start": 1189.54,
+    "duration": 6.88,
+    "text": "When I run this Java demo, let's say I pass 30, it's printing 30."
+  },
+  {
+    "start": 1196.42,
+    "duration": 5.96,
+    "text": "This is the command line argument, whatever arguments you are giving in the terminal as"
+  },
+  {
+    "start": 1202.38,
+    "duration": 6.47,
+    "text": "an array, it will be stored in this variable."
+  },
+  {
+    "start": 1208.85,
+    "duration": 1.0,
+    "text": "Let's try it again."
+  },
+  {
+    "start": 1209.85,
+    "duration": 2.76,
+    "text": "Let's say we print the first one."
+  },
+  {
+    "start": 1212.61,
+    "duration": 9.1,
+    "text": "So here I can say Java demo 30 and let's say, oh, sorry, I had to, I would have"
+  },
+  {
+    "start": 1221.71,
+    "duration": 14.25,
+    "text": "to obviously recompile it dot Java, Kunal, awesome. So zero thindex first index. By the"
+  },
+  {
+    "start": 1235.96,
+    "duration": 4.0,
+    "text": "way, if you don't know about it, arrays start from zero thindex. So this is zero thindex"
+  },
+  {
+    "start": 1239.96,
+    "duration": 3.76,
+    "text": "first index, don't worry about it. It's just command line arguments, we'll cover arrays"
+  },
+  {
+    "start": 1243.72,
+    "duration": 6.36,
+    "text": "as a separate lecture. So that is basically the structure of the Java program. Okay."
+  },
+  {
+    "start": 1250.08,
+    "duration": 3.36,
+    "text": "File name, then the public class should be here. Everything you will be writing"
+  },
+  {
+    "start": 1253.44,
+    "duration": 4.36,
+    "text": "in classes, you must have a main function where all the main code will go. This is where"
+  },
+  {
+    "start": 1257.8,
+    "duration": 5.36,
+    "text": "the program will start executing. Here you can see that all the whenever I'm doing a"
+  },
+  {
+    "start": 1263.16,
+    "duration": 5.16,
+    "text": "compilation of any Java file, it's creating the demo, the dot class file, the byte code"
+  },
+  {
+    "start": 1268.32,
+    "duration": 4.2,
+    "text": "in that folder only. If you want to change the location of this, then you can do that."
+  },
+  {
+    "start": 1272.52,
+    "duration": 6.08,
+    "text": "I can say Java C, I can say, I can add the dash D flag. So this basically will"
+  },
+  {
+    "start": 1278.6,
+    "duration": 6.08,
+    "text": "ask for a particular location where you want to store the bytecode, the .class file, that's"
+  },
+  {
+    "start": 1284.68,
+    "duration": 8.82,
+    "text": "a current file only. And then I can just write, you know, demo.java in the current file only"
+  },
+  {
+    "start": 1293.5,
+    "duration": 7.26,
+    "text": "I'll have demo.java. But if I do something like dash dash, so like dot dot dot dot dot"
+  },
+  {
+    "start": 1300.76,
+    "duration": 6.16,
+    "text": "means previous directory. Now in the previous directory, I should have demo.class. Here"
+  },
+  {
+    "start": 1306.92,
+    "duration": 5.84,
+    "text": "we go. So if you don't want your byte, the things that you are doing in this"
+  },
+  {
+    "start": 1312.76,
+    "duration": 4.64,
+    "text": "is actually a best practice. There's like the source code goes in the source file src"
+  },
+  {
+    "start": 1317.4,
+    "duration": 6.16,
+    "text": "folder and output the binary code, the, the, not the binary one, the, the byte code it goes"
+  },
+  {
+    "start": 1323.56,
+    "duration": 4.4,
+    "text": "in the, in the out folder. This will be much more clearer when we do intelligent idea"
+  },
+  {
+    "start": 1327.96,
+    "duration": 4.2,
+    "text": "when we use the IDE, let's do that only. I know you might be wondering regarding this"
+  },
+  {
+    "start": 1332.16,
+    "duration": 5.0,
+    "text": "line because I explained everything else, but this line, this line is not yet explained"
+  },
+  {
+    "start": 1337.16,
+    "duration": 4.28,
+    "text": "what is system, what is out, what is print LN, we will cover this when we"
+  },
+  {
+    "start": 1341.44,
+    "duration": 4.08,
+    "text": "do intelligent idea in this video only okay so don't worry one important thing"
+  },
+  {
+    "start": 1345.52,
+    "duration": 4.32,
+    "text": "I want to share with you another doubt you may having is Kunal how does my"
+  },
+  {
+    "start": 1349.84,
+    "duration": 5.52,
+    "text": "computer know that this Java C where is this Java C what is this Java C I know"
+  },
+  {
+    "start": 1355.36,
+    "duration": 3.8,
+    "text": "it is a compiler we looked into the previous lecture but where from where"
+  },
+  {
+    "start": 1359.16,
+    "duration": 5.36,
+    "text": "is it the computer is finding this so all one thing I want you to understand"
+  },
+  {
+    "start": 1364.52,
+    "duration": 10.4,
+    "text": "And is all these commands that you write Java C, Java, Git, Python, Python 3, ok, all these"
+  },
+  {
+    "start": 1374.92,
+    "duration": 6.2,
+    "text": "commands that you write, these are executable files that are located in your computer somewhere,"
+  },
+  {
+    "start": 1381.12,
+    "duration": 1.0,
+    "text": "ok."
+  },
+  {
+    "start": 1382.12,
+    "duration": 9.28,
+    "text": "So when I write Java C, how does my computer know where this file is located, if I want"
+  },
+  {
+    "start": 1391.4,
+    "duration": 11.68,
+    "text": "to see this is located in this folder if I say list user folder bin folder so here we"
+  },
+  {
+    "start": 1403.08,
+    "duration": 10.44,
+    "text": "might be having javasi somewhere I can just do filter javasi yep here we have it somewhere"
+  },
+  {
+    "start": 1413.52,
+    "duration": 3.2,
+    "text": "In this folder, we have Java C."
+  },
+  {
+    "start": 1416.72,
+    "duration": 1.48,
+    "text": "Do you want me to open this?"
+  },
+  {
+    "start": 1418.2,
+    "duration": 1.2,
+    "text": "No worries."
+  },
+  {
+    "start": 1419.4,
+    "duration": 6.56,
+    "text": "User binary."
+  },
+  {
+    "start": 1425.96,
+    "duration": 4.0,
+    "text": "These are all the files you can see in this folder."
+  },
+  {
+    "start": 1429.96,
+    "duration": 1.4,
+    "text": "Java C is here."
+  },
+  {
+    "start": 1431.36,
+    "duration": 0.84,
+    "text": "Java is also here."
+  },
+  {
+    "start": 1432.2,
+    "duration": 1.52,
+    "text": "Java C is also here."
+  },
+  {
+    "start": 1433.72,
+    "duration": 1.04,
+    "text": "Python will be here as well."
+  },
+  {
+    "start": 1434.76,
+    "duration": 2.6,
+    "text": "Python is here."
+  },
+  {
+    "start": 1437.36,
+    "duration": 2.2,
+    "text": "Java C is here."
+  },
+  {
+    "start": 1439.56,
+    "duration": 0.84,
+    "text": "But double click this."
+  },
+  {
+    "start": 1440.4,
+    "duration": 0.84,
+    "text": "A terminal will open."
+  },
+  {
+    "start": 1441.24,
+    "duration": 8.68,
+    "text": "Okay, so you can directly, you know, also if you want to run the Java C command, basically"
+  },
+  {
+    "start": 1449.92,
+    "duration": 4.56,
+    "text": "the command Java C is only doing the double click on this file."
+  },
+  {
+    "start": 1454.48,
+    "duration": 7.92,
+    "text": "We can also write the entire path like user bin, Java C, things like that, that will"
+  },
+  {
+    "start": 1462.4,
+    "duration": 1.88,
+    "text": "be very tedious."
+  },
+  {
+    "start": 1464.28,
+    "duration": 5.2,
+    "text": "And we don't want to do that, okay, we don't want to do that again and again"
+  },
+  {
+    "start": 1469.48,
+    "duration": 5.36,
+    "text": "very much writing of code. We want that hey whenever I write Java C or whenever I write"
+  },
+  {
+    "start": 1474.84,
+    "duration": 6.24,
+    "text": "Git, my computer should know it automatically where this file is located, this executable."
+  },
+  {
+    "start": 1481.08,
+    "duration": 6.38,
+    "text": "It does that via path variables and like environment variables. If I just print environment"
+  },
+  {
+    "start": 1487.46,
+    "duration": 6.74,
+    "text": "variable path, here you can see that whenever I write some executable command like Git,"
+  },
+  {
+    "start": 1494.2,
+    "duration": 6.18,
+    "text": "will say hey is get available in this folder is gonna be like no it's not hey is get available"
+  },
+  {
+    "start": 1500.38,
+    "duration": 7.0,
+    "text": "in this folder no it's not hey is get available in this folder no it's not hey is get available"
+  },
+  {
+    "start": 1507.38,
+    "duration": 8.65,
+    "text": "in user local bin let's see user bin get hey is get available in user bin yes it is it"
+  },
+  {
+    "start": 1516.03,
+    "duration": 2.64,
+    "text": "will then execute it."
+  },
+  {
+    "start": 1518.67,
+    "duration": 6.08,
+    "text": "This is the path variable the environment variable is basically just a list of folder"
+  },
+  {
+    "start": 1524.75,
+    "duration": 6.12,
+    "text": "Other addresses in which your computer will check whether the command that you have written"
+  },
+  {
+    "start": 1530.87,
+    "duration": 2.96,
+    "text": "is available or not."
+  },
+  {
+    "start": 1533.83,
+    "duration": 4.04,
+    "text": "The executable of this is available in any of these folders or not."
+  },
+  {
+    "start": 1537.87,
+    "duration": 3.4,
+    "text": "Where was javasi user bin?"
+  },
+  {
+    "start": 1541.27,
+    "duration": 3.56,
+    "text": "So user bin is here."
+  },
+  {
+    "start": 1544.83,
+    "duration": 5.88,
+    "text": "If user bin was not here, it will give me an error that javasi command not found."
+  },
+  {
+    "start": 1550.71,
+    "duration": 5.12,
+    "text": "So if you are getting errors like this, Python not found, Java C not found, make sure you"
+  },
+  {
+    "start": 1555.83,
+    "duration": 5.4,
+    "text": "add your environment variables. In Windows, you can do this via control, control, control"
+  },
+  {
+    "start": 1561.23,
+    "duration": 3.6,
+    "text": "manager or whatever there's environment variables, you can search for that. And there's like"
+  },
+  {
+    "start": 1564.83,
+    "duration": 5.04,
+    "text": "dot profile files dot bash RC file and stuff. It's very easy. Google a little bit just"
+  },
+  {
+    "start": 1569.87,
+    "duration": 3.92,
+    "text": "Google how to add environment variables for your operating system. You will be"
+  },
+  {
+    "start": 1573.79,
+    "duration": 4.72,
+    "text": "able to do that when you export it. And you can add it in your dot profile dot"
+  },
+  {
+    "start": 1578.51,
+    "duration": 4.4,
+    "text": "bash RC dot bash underscore profile, whatever dot Z profile, totally up to you. These are"
+  },
+  {
+    "start": 1582.91,
+    "duration": 5.96,
+    "text": "just files that contains these environment variable paths. That's it. If I show you mine,"
+  },
+  {
+    "start": 1588.87,
+    "duration": 20.19,
+    "text": "I can say this is a path variable available over here. Okay, there are like other files"
+  },
+  {
+    "start": 1609.06,
+    "duration": 4.52,
+    "text": "as well, where I've added my path, but for Python three, here's it's added Python seven,"
+  },
+  {
+    "start": 1613.58,
+    "duration": 6.84,
+    "text": "here it's added. Okay, so that is pretty much about it. Like the path variable stuff,"
+  },
+  {
+    "start": 1620.42,
+    "duration": 3.76,
+    "text": "important please make sure you google up a little bit about it but when you download java it will"
+  },
+  {
+    "start": 1624.18,
+    "duration": 5.76,
+    "text": "be set for you I believe if it's not you can definitely set the java home variable so like"
+  },
+  {
+    "start": 1630.98,
+    "duration": 6.64,
+    "text": "java home this one as a path variable all right let's now move on to intelligent idea"
+  },
+  {
+    "start": 1639.14,
+    "duration": 2.56,
+    "text": "so this is the screen that you will be seeing let me just close this"
+  },
+  {
+    "start": 1643.46,
+    "duration": 4.24,
+    "text": "and this line I will explain don't worry this is the screen that you will see that's"
+  },
+  {
+    "start": 1647.7,
+    "duration": 4.92,
+    "text": "It's a, you know, simple, very intelligent idea offers a lot of nice features."
+  },
+  {
+    "start": 1652.62,
+    "duration": 4.52,
+    "text": "So let's just create a new project, click on new project and just select the version"
+  },
+  {
+    "start": 1657.14,
+    "duration": 1.0,
+    "text": "of your JDK."
+  },
+  {
+    "start": 1658.14,
+    "duration": 4.24,
+    "text": "Let's say open JDK, you can add the path of your JDK from where you have downloaded"
+  },
+  {
+    "start": 1662.38,
+    "duration": 1.0,
+    "text": "it."
+  },
+  {
+    "start": 1663.38,
+    "duration": 3.4,
+    "text": "So you can just add the path where it lies in your folder in your computer."
+  },
+  {
+    "start": 1666.78,
+    "duration": 4.04,
+    "text": "I can say open JDK next create project from template."
+  },
+  {
+    "start": 1670.82,
+    "duration": 1.0,
+    "text": "Sure."
+  },
+  {
+    "start": 1671.82,
+    "duration": 2.68,
+    "text": "So it will automatically create a file for me next."
+  },
+  {
+    "start": 1674.5,
+    "duration": 9.35,
+    "text": "I can say project name I'll add it in the I'll add it in the community classroom bootcamp"
+  },
+  {
+    "start": 1683.85,
+    "duration": 8.68,
+    "text": "in lectures first Java program I'll create let's say a new folder here first idea program"
+  },
+  {
+    "start": 1692.53,
+    "duration": 7.28,
+    "text": "first IntelliJ idea program basically open package base package com.kunal I will explain"
+  },
+  {
+    "start": 1699.81,
+    "duration": 14.33,
+    "text": "what packages okay I'll explain it later on finish done simple stuff close that's it as"
+  },
+  {
+    "start": 1714.14,
+    "duration": 6.56,
+    "text": "simple as that this is my folder this is my source folder it contains comm dot Kunal package"
+  },
+  {
+    "start": 1720.7,
+    "duration": 4.52,
+    "text": "I'll explain what a package is don't worry and it automatically created a file for me"
+  },
+  {
+    "start": 1725.22,
+    "duration": 4.28,
+    "text": "as you can see the main thing that we followed this is a main dot Java file hence the public"
+  },
+  {
+    "start": 1729.5,
+    "duration": 4.88,
+    "text": "classes also mean. If I try to change it to other name, it will give me an error. What"
+  },
+  {
+    "start": 1734.38,
+    "duration": 7.0,
+    "text": "is the error? That class demo is public. So it should be declared in a file named demo.java."
+  },
+  {
+    "start": 1741.38,
+    "duration": 6.93,
+    "text": "I also said the same thing previously. Okay, good. So you can do definitely do something"
+  },
+  {
+    "start": 1748.31,
+    "duration": 5.8,
+    "text": "like this. If this is demo, you just cannot make this public then public class will"
+  },
+  {
+    "start": 1754.11,
+    "duration": 6.04,
+    "text": "only be the class that is name of the file. This will work. This is fine. You"
+  },
+  {
+    "start": 1760.15,
+    "duration": 6.12,
+    "text": "you can't make it public. If you want to make it public, it has to be main.java. The main"
+  },
+  {
+    "start": 1766.27,
+    "duration": 7.03,
+    "text": "main name of the file should be main. Okay, cool. And let me let's say zoom in a little"
+  },
+  {
+    "start": 1773.3,
+    "duration": 9.53,
+    "text": "bit more so you all can see. Let's say 35. Okay, I hope you all are able to see it now."
+  },
+  {
+    "start": 1782.83,
+    "duration": 5.0,
+    "text": "It's very, very visible, at least to me as well. So let's talk a bit more about let's"
+  },
+  {
+    "start": 1787.83,
+    "duration": 3.08,
+    "text": "go to the previous. By the way, there's a shortcut for this. So if you don't have"
+  },
+  {
+    "start": 1790.91,
+    "duration": 5.8,
+    "text": "public static void main is what I love you know you can just say psvm enter will create"
+  },
+  {
+    "start": 1796.71,
+    "duration": 10.13,
+    "text": "it for you if you want to do out the output you can just say s out s o ut shortcuts don't"
+  },
+  {
+    "start": 1806.84,
+    "duration": 4.84,
+    "text": "worry I will explain each and every word of this and this is thing I have already explained"
+  },
+  {
+    "start": 1811.68,
+    "duration": 3.96,
+    "text": "this is I have already explained only this is remaining and this thing is remaining okay"
+  },
+  {
+    "start": 1815.64,
+    "duration": 6.08,
+    "text": "package thing what is a package in simple terms it's the folder in which your Java"
+  },
+  {
+    "start": 1821.72,
+    "duration": 7.72,
+    "text": "file lies. It's the folder in which your Java file will lie. Why is it important? Because"
+  },
+  {
+    "start": 1829.44,
+    "duration": 6.72,
+    "text": "sometimes we need to provide some sort of rules. Like for example, this function can"
+  },
+  {
+    "start": 1836.16,
+    "duration": 6.28,
+    "text": "only be accessed to files that are in this named package. Some sort of rules you may"
+  },
+  {
+    "start": 1842.44,
+    "duration": 5.72,
+    "text": "need to provide that this file should only be accessible to all the other files in"
+  },
+  {
+    "start": 1848.16,
+    "duration": 5.76,
+    "text": "the Rahul package, Kunal package like the Kunal package is nothing but folder."
+  },
+  {
+    "start": 1853.92,
+    "duration": 5.28,
+    "text": "You can see this is a folder folder over here, okay folder."
+  },
+  {
+    "start": 1859.2,
+    "duration": 5.08,
+    "text": "So you want that hey all the files that are in the Rahul folder or Rahul package should"
+  },
+  {
+    "start": 1864.28,
+    "duration": 6.0,
+    "text": "not be accessed to all the files that are in the Kunal package or Kunal folder."
+  },
+  {
+    "start": 1870.28,
+    "duration": 4.96,
+    "text": "So providing this layer of security and stuff like the rules and stuff packages or folders"
+  },
+  {
+    "start": 1875.24,
+    "duration": 4.24,
+    "text": "help us in doing that. We will look more into these access modifiers and how these things"
+  },
+  {
+    "start": 1879.48,
+    "duration": 3.68,
+    "text": "are scoped and everything. When we will be doing object 20 programming, we'll make an"
+  },
+  {
+    "start": 1883.16,
+    "duration": 4.8,
+    "text": "entire table. There are so many, you know, keywords right now, you only know about public."
+  },
+  {
+    "start": 1887.96,
+    "duration": 4.72,
+    "text": "There's something also known as private protected and all these things. So we'll look more"
+  },
+  {
+    "start": 1892.68,
+    "duration": 3.4,
+    "text": "into detail. But for now, I believe you know what a package is. It's nothing is"
+  },
+  {
+    "start": 1896.08,
+    "duration": 4.28,
+    "text": "just a folder. If it says package com dot Kunal, it basically means there's a"
+  },
+  {
+    "start": 1900.36,
+    "duration": 4.6,
+    "text": "com package inside that there's a Kunal if I just make a one one more over here again"
+  },
+  {
+    "start": 1904.96,
+    "duration": 12.08,
+    "text": "new package Rahul okay com dot Kunal contains a file main if I create a file over here I"
+  },
+  {
+    "start": 1917.04,
+    "duration": 7.28,
+    "text": "can say right click new Java class I can give this a name as demo dot Java notice"
+  },
+  {
+    "start": 1924.32,
+    "duration": 8.06,
+    "text": "something that now it says comm dot rahul why because it's in the comm dot rahul"
+  },
+  {
+    "start": 1932.38,
+    "duration": 4.74,
+    "text": "fold dot means sub folder so dot rahul means that rahul is a folder in the"
+  },
+  {
+    "start": 1937.12,
+    "duration": 4.82,
+    "text": "comm folder dot Kunal mean Kunal's is a folder in a comm folder that is true"
+  },
+  {
+    "start": 1941.94,
+    "duration": 4.84,
+    "text": "Kunal is a folder in comm folder rahul is also folder in a comm folder this is"
+  },
+  {
+    "start": 1946.78,
+    "duration": 4.12,
+    "text": "nothing but folder only why we do this because I already explained to you"
+  },
+  {
+    "start": 1950.9,
+    "duration": 6.0,
+    "text": "might need to have some privacy. Okay. So more in detail in the next, you know, when we do"
+  },
+  {
+    "start": 1956.9,
+    "duration": 4.32,
+    "text": "object and programming, but that is as simple as it gets. Okay. I hope that is you are able"
+  },
+  {
+    "start": 1961.22,
+    "duration": 4.16,
+    "text": "to understand that. What is the next thing we need to look into? The next thing we need"
+  },
+  {
+    "start": 1965.38,
+    "duration": 5.44,
+    "text": "to look into over here is that, what is this thing? System.outdoor.println. Hello world."
+  },
+  {
+    "start": 1972.26,
+    "duration": 4.72,
+    "text": "So I mentioned that all of these things are happening in classes in Java and Java"
+  },
+  {
+    "start": 1976.98,
+    "duration": 6.72,
+    "text": "people, they have provided some basic functions to us that we can use in order to do good work."
+  },
+  {
+    "start": 1983.7,
+    "duration": 4.96,
+    "text": "For example, what are some of the basic functions that we can use? We need to do input, we need to"
+  },
+  {
+    "start": 1988.66,
+    "duration": 6.56,
+    "text": "do output debugging all these things we need to do. Okay, so for that, they have created a function"
+  },
+  {
+    "start": 1995.22,
+    "duration": 4.96,
+    "text": "for the printing part, if you want to print something display something, they have a class"
+  },
+  {
+    "start": 2000.18,
+    "duration": 5.28,
+    "text": "for that the system class. If you click on macOS, if you click, if you do command and"
+  },
+  {
+    "start": 2005.46,
+    "duration": 5.12,
+    "text": "click on this, you can actually see this file that the Java people have written. It's actually"
+  },
+  {
+    "start": 2010.58,
+    "duration": 6.02,
+    "text": "in the Java dot lang package language package, which is inherited by default will look more"
+  },
+  {
+    "start": 2016.6,
+    "duration": 5.66,
+    "text": "into inheritance later on. But this is basically added in all the files by default in simple"
+  },
+  {
+    "start": 2022.26,
+    "duration": 5.12,
+    "text": "language. So everything that is in the lang package, you can access in your files."
+  },
+  {
+    "start": 2027.38,
+    "duration": 5.04,
+    "text": "So what is this package, this lang package or folder contains all these files that"
+  },
+  {
+    "start": 2032.42,
+    "duration": 6.32,
+    "text": "that are basically created by the people who made Java to make our lives easier."
+  },
+  {
+    "start": 2038.74,
+    "duration": 5.32,
+    "text": "And this system.java, it says .java, it starts with a capital letter, hence we know that"
+  },
+  {
+    "start": 2044.06,
+    "duration": 2.52,
+    "text": "this is a class."
+  },
+  {
+    "start": 2046.58,
+    "duration": 8.07,
+    "text": "So this system class actually contains several useful class fields and methods."
+  },
+  {
+    "start": 2054.65,
+    "duration": 4.56,
+    "text": "It cannot be instantiated because this is a final class."
+  },
+  {
+    "start": 2059.21,
+    "duration": 1.0,
+    "text": "Again, do not worry."
+  },
+  {
+    "start": 2060.21,
+    "duration": 3.48,
+    "text": "Do not worry about final keywords, a separate topic will cover later on."
+  },
+  {
+    "start": 2063.69,
+    "duration": 6.54,
+    "text": "For now just worry about we have a print ln method or a function or in windows you can"
+  },
+  {
+    "start": 2070.23,
+    "duration": 4.66,
+    "text": "just to control click control hold control click on this you will actually be able to"
+  },
+  {
+    "start": 2074.89,
+    "duration": 2.48,
+    "text": "see what the Java people have written."
+  },
+  {
+    "start": 2077.37,
+    "duration": 6.04,
+    "text": "It says that it will you will give it a string and it will print that string."
+  },
+  {
+    "start": 2083.41,
+    "duration": 1.88,
+    "text": "That's it."
+  },
+  {
+    "start": 2085.29,
+    "duration": 1.0,
+    "text": "What is this out thing?"
+  },
+  {
+    "start": 2086.29,
+    "duration": 6.68,
+    "text": "So basically system is a class it contains a variable called out out basically is a"
+  },
+  {
+    "start": 2092.97,
+    "duration": 7.92,
+    "text": "a type of print stream. Print stream basically means that it's going to printing, it's going"
+  },
+  {
+    "start": 2100.89,
+    "duration": 2.96,
+    "text": "to be printing it like in a stream, which we'll talk more about later, there's like"
+  },
+  {
+    "start": 2103.85,
+    "duration": 4.4,
+    "text": "buffer reader and all these other things you can use for, you know, fast input and"
+  },
+  {
+    "start": 2108.25,
+    "duration": 5.04,
+    "text": "output for computer programming. But here's it says that a print stream adds the functionality"
+  },
+  {
+    "start": 2113.29,
+    "duration": 5.0,
+    "text": "to another output stream, namely the ability to print representations of various data"
+  },
+  {
+    "start": 2118.29,
+    "duration": 7.4,
+    "text": "values conveniently. For example, here I'm saying that print stream, okay, print stream"
+  },
+  {
+    "start": 2125.69,
+    "duration": 7.2,
+    "text": "has an object here, print stream has something called print ln. So you can see print stream"
+  },
+  {
+    "start": 2132.89,
+    "duration": 7.64,
+    "text": "has something called print ln. Okay, so again, system has a variable called out which is"
+  },
+  {
+    "start": 2140.53,
+    "duration": 6.2,
+    "text": "of type print stream. And this out actually has a variant has a method called print"
+  },
+  {
+    "start": 2146.73,
+    "duration": 7.44,
+    "text": "ln. Obviously, since out is of type printstream, print ln is also in printstream. We are just"
+  },
+  {
+    "start": 2154.17,
+    "duration": 5.52,
+    "text": "accessing that via this. Out is like a reference variable for this printstream."
+  },
+  {
+    "start": 2161.85,
+    "duration": 7.36,
+    "text": "And by default, the by default value, if we say for this, the by default value,"
+  },
+  {
+    "start": 2169.21,
+    "duration": 11.27,
+    "text": "the standard output stream is your command line it's your command line okay so this is the standard"
+  },
+  {
+    "start": 2180.48,
+    "duration": 6.8,
+    "text": "output stream as you can see standard output stream is your command line means your laptop you can"
+  },
+  {
+    "start": 2187.28,
+    "duration": 6.4,
+    "text": "also change this to something like a file but maybe we can also take a look into right now"
+  },
+  {
+    "start": 2193.68,
+    "duration": 6.49,
+    "text": "so you can let's say you don't want to let's try to run this click on this button it will"
+  },
+  {
+    "start": 2200.17,
+    "duration": 6.13,
+    "text": "will do the compilation and everything for you. So you don't have to worry. Hello world."
+  },
+  {
+    "start": 2206.3,
+    "duration": 8.35,
+    "text": "Okay, you can see bytecode is available over here. This is like decompile dot class file."
+  },
+  {
+    "start": 2214.65,
+    "duration": 4.64,
+    "text": "So it's actually doing the reverse of bytecode source code recreated from dot class file"
+  },
+  {
+    "start": 2219.29,
+    "duration": 5.84,
+    "text": "by IntelliJ idea. So very smart. This is the bytecode main dot class. I'll go more"
+  },
+  {
+    "start": 2225.13,
+    "duration": 3.44,
+    "text": "into details of this. So system is just a class that provides us all these nice"
+  },
+  {
+    "start": 2228.57,
+    "duration": 5.88,
+    "text": "functions and out is basically just a variable name of print stream. So don't worry much"
+  },
+  {
+    "start": 2234.45,
+    "duration": 5.52,
+    "text": "about it. We can definitely change this to something else and output it if you don't"
+  },
+  {
+    "start": 2239.97,
+    "duration": 4.16,
+    "text": "want to output it over here you want to output it on a let's say a text file for example,"
+  },
+  {
+    "start": 2244.13,
+    "duration": 4.36,
+    "text": "you can change that and these things don't worry about it just memorize this for now"
+  },
+  {
+    "start": 2248.49,
+    "duration": 4.56,
+    "text": "how it's working internally objects references and this thing print ln is a part of this"
+  },
+  {
+    "start": 2253.05,
+    "duration": 4.44,
+    "text": "class. I will be able to explain that much more clearly when we do object 20 programming."
+  },
+  {
+    "start": 2257.49,
+    "duration": 5.36,
+    "text": "Okay, so this basically we know that in system, it contains system contains an out variable"
+  },
+  {
+    "start": 2262.85,
+    "duration": 4.36,
+    "text": "which is of type print stream. And this print ln is in print stream. So print ln basically"
+  },
+  {
+    "start": 2267.21,
+    "duration": 7.88,
+    "text": "takes a string and outputs it. Okay. So it's taking a string and outputting it. Very simple"
+  },
+  {
+    "start": 2275.09,
+    "duration": 5.76,
+    "text": "stuff. All right. Okay, so I hope that makes sense. If you don't want a new line,"
+  },
+  {
+    "start": 2280.85,
+    "duration": 4.08,
+    "text": "there's a method provide for that as well. This will not add a new line. For example,"
+  },
+  {
+    "start": 2284.93,
+    "duration": 5.72,
+    "text": "If I say in next line I can say my name is Kunal."
+  },
+  {
+    "start": 2290.65,
+    "duration": 6.36,
+    "text": "If I print this, I run this basically it will first print hello world then it will print"
+  },
+  {
+    "start": 2297.01,
+    "duration": 1.0,
+    "text": "a new line."
+  },
+  {
+    "start": 2298.01,
+    "duration": 1.0,
+    "text": "It will add a new line."
+  },
+  {
+    "start": 2299.01,
+    "duration": 2.52,
+    "text": "You can see it added a new line then it added Kunal."
+  },
+  {
+    "start": 2301.53,
+    "duration": 4.92,
+    "text": "If you don't want a new line you can just say print run it again."
+  },
+  {
+    "start": 2306.45,
+    "duration": 5.68,
+    "text": "Now it will not add a new line after this hello world from the same line it started"
+  },
+  {
+    "start": 2312.13,
+    "duration": 2.4,
+    "text": "my name is Kunal."
+  },
+  {
+    "start": 2314.53,
+    "duration": 5.06,
+    "text": "So all these functionalities so many are given to us if you want to print some numbers."
+  },
+  {
+    "start": 2319.59,
+    "duration": 6.52,
+    "text": "Now you can see definition is changed to a number internally it's calling some other"
+  },
+  {
+    "start": 2326.11,
+    "duration": 3.32,
+    "text": "functions or whatever we don't have to go into too much detail right now."
+  },
+  {
+    "start": 2329.43,
+    "duration": 5.36,
+    "text": "So right now just focus on what we are doing over here how it's doing it will cover later"
+  },
+  {
+    "start": 2334.79,
+    "duration": 3.6,
+    "text": "on but I still tried to explain a little bit and we might be confused in this out"
+  },
+  {
+    "start": 2338.39,
+    "duration": 4.58,
+    "text": "or whatever what is this print stream nothing it's just a class print stream is a class"
+  },
+  {
+    "start": 2342.97,
+    "duration": 5.84,
+    "text": "And this print stream it just adds sort of like the you know, functionalities on the output"
+  },
+  {
+    "start": 2348.81,
+    "duration": 1.0,
+    "text": "that we are doing."
+  },
+  {
+    "start": 2349.81,
+    "duration": 4.08,
+    "text": "So you can also do output of like, you know, you can do some output and you want, if you"
+  },
+  {
+    "start": 2353.89,
+    "duration": 4.36,
+    "text": "want to do some output in the file and not the command line, so you can do that we'll"
+  },
+  {
+    "start": 2358.25,
+    "duration": 2.84,
+    "text": "cover that later on when we do object-oriented programming."
+  },
+  {
+    "start": 2361.09,
+    "duration": 4.64,
+    "text": "Okay, so that was about like the output part, very simple stuff."
+  },
+  {
+    "start": 2365.73,
+    "duration": 2.0,
+    "text": "Now let's look into the input part."
+  },
+  {
+    "start": 2367.73,
+    "duration": 2.92,
+    "text": "So let's look into how we can take inputs in Java."
+  },
+  {
+    "start": 2370.65,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 2371.65,
+    "duration": 4.92,
+    "text": "So similarly for output, we had the system class, okay, Java was like, hey, there's a"
+  },
+  {
+    "start": 2376.57,
+    "duration": 4.08,
+    "text": "system class that does, you know, things for you, you have like output methods in it and"
+  },
+  {
+    "start": 2380.65,
+    "duration": 2.0,
+    "text": "output functions in it that you can use."
+  },
+  {
+    "start": 2382.65,
+    "duration": 5.96,
+    "text": "Similarly, we have something for input as well, known as a scanner class."
+  },
+  {
+    "start": 2388.61,
+    "duration": 2.96,
+    "text": "It's available in the Java dot util package."
+  },
+  {
+    "start": 2391.57,
+    "duration": 4.16,
+    "text": "Notice this thing that came on import Java dot util dot scanner."
+  },
+  {
+    "start": 2395.73,
+    "duration": 2.2,
+    "text": "This is what I meant."
+  },
+  {
+    "start": 2397.93,
+    "duration": 6.96,
+    "text": "We are able to use this scanner class in our own file because it's public, so they are"
+  },
+  {
+    "start": 2404.89,
+    "duration": 6.2,
+    "text": "like you can use it anywhere, so that's the reason we have like this public as well."
+  },
+  {
+    "start": 2411.09,
+    "duration": 3.92,
+    "text": "So scanner basically means what does it mean, scanner what does it mean?"
+  },
+  {
+    "start": 2415.01,
+    "duration": 4.32,
+    "text": "Basically means we need to create like all the information is given over here related"
+  },
+  {
+    "start": 2419.33,
+    "duration": 1.0,
+    "text": "to integers or whatever."
+  },
+  {
+    "start": 2420.33,
+    "duration": 4.64,
+    "text": "But you can say it's a simple tech scanner which can parse primitive types and strings"
+  },
+  {
+    "start": 2424.97,
+    "duration": 2.26,
+    "text": "using regular expressions."
+  },
+  {
+    "start": 2427.23,
+    "duration": 6.08,
+    "text": "are primitive types will look into later on. The syntax for this is we need a scanner that"
+  },
+  {
+    "start": 2433.31,
+    "duration": 6.48,
+    "text": "will be able to take input from us. Okay, so I can say scanner input is equal to I will"
+  },
+  {
+    "start": 2439.79,
+    "duration": 8.7,
+    "text": "create a new object of this, we can do that via a new keyword, new is a keyword scanner."
+  },
+  {
+    "start": 2448.49,
+    "duration": 7.24,
+    "text": "And here in the object, here we have to pass from where you are taking the input."
+  },
+  {
+    "start": 2455.73,
+    "duration": 4.88,
+    "text": "This can either be a file, maybe you are reading a file, okay, for now let's say I am just"
+  },
+  {
+    "start": 2460.61,
+    "duration": 10.13,
+    "text": "taking input from my keyboard, so I will just say system.in, okay, so this thing that I did"
+  },
+  {
+    "start": 2470.74,
+    "duration": 5.08,
+    "text": "was previously you know system.out thing we did."
+  },
+  {
+    "start": 2475.82,
+    "duration": 5.68,
+    "text": "System.out means the default standard output stream."
+  },
+  {
+    "start": 2481.5,
+    "duration": 2.96,
+    "text": "So it means this is the standard output stream."
+  },
+  {
+    "start": 2484.46,
+    "duration": 11.22,
+    "text": "In the standard output stream print something standard output stream print something in"
+  },
+  {
+    "start": 2495.68,
+    "duration": 7.74,
+    "text": "that here you are creating an input variable of type scanner that basically says don't"
+  },
+  {
+    "start": 2503.42,
+    "duration": 3.8,
+    "text": "worry about the syntax right now this is basically object 20 programming only we'll"
+  },
+  {
+    "start": 2507.22,
+    "duration": 4.16,
+    "text": "cover this in detail later on this is basically a constructor which is initializing this"
+  },
+  {
+    "start": 2511.38,
+    "duration": 5.48,
+    "text": "particular object basically a new keyword is creating a new object and this call is"
+  },
+  {
+    "start": 2516.86,
+    "duration": 4.48,
+    "text": "known as a constructor where we're passing this parameter for now don't worry about all these"
+  },
+  {
+    "start": 2521.34,
+    "duration": 5.28,
+    "text": "things just focus on what we are doing what it's achieving so it's saying okay system means"
+  },
+  {
+    "start": 2526.62,
+    "duration": 5.04,
+    "text": "system is something that Java has created for us Java people are like hey there's this system class"
+  },
+  {
+    "start": 2531.66,
+    "duration": 6.24,
+    "text": "and it contains an out variable that basically means your command line okay and here I can"
+  },
+  {
+    "start": 2537.9,
+    "duration": 5.76,
+    "text": "say that print ln in the out so I'm saying out dot print ln is what I'm saying right"
+  },
+  {
+    "start": 2543.66,
+    "duration": 4.92,
+    "text": "something print ln in this out whatever out you have, I can modify my out to something"
+  },
+  {
+    "start": 2548.58,
+    "duration": 7.28,
+    "text": "like this, like, you know, file, something like this. So then when I do out print ln,"
+  },
+  {
+    "start": 2555.86,
+    "duration": 4.38,
+    "text": "in that case, out will not be null, null is basically something we'll talk later on out"
+  },
+  {
+    "start": 2560.24,
+    "duration": 4.78,
+    "text": "in that case will be some file. So when I do out print ln, it will add that in that"
+  },
+  {
+    "start": 2565.02,
+    "duration": 5.64,
+    "text": "file. Currently by default out when it's null means no value, it means that it's"
+  },
+  {
+    "start": 2570.66,
+    "duration": 5.64,
+    "text": "command line. Similarly, Java also said, okay, in system you have out, we have in also"
+  },
+  {
+    "start": 2576.3,
+    "duration": 6.24,
+    "text": "system down it means system dot in means the standard input stream, your keyboard corresponds"
+  },
+  {
+    "start": 2582.54,
+    "duration": 6.4,
+    "text": "to the keyboard input. Okay, so this is your keyboard input. Again, the value is null."
+  },
+  {
+    "start": 2588.94,
+    "duration": 4.44,
+    "text": "You can specify this somewhere as well. Over here, you can write something like I don't"
+  },
+  {
+    "start": 2593.38,
+    "duration": 5.24,
+    "text": "want the system in means the system in default system input. I want some file"
+  },
+  {
+    "start": 2598.62,
+    "duration": 6.72,
+    "text": "stream or whatever file input stream or whatever I want to read from a file. You can do that."
+  },
+  {
+    "start": 2605.34,
+    "duration": 6.0,
+    "text": "So this is just a stream for that. This scanner basically means that this variable will read"
+  },
+  {
+    "start": 2611.34,
+    "duration": 7.99,
+    "text": "everything that you wanted. Okay, system dot out means command line, your computer display"
+  },
+  {
+    "start": 2619.33,
+    "duration": 4.64,
+    "text": "system dot in means your keyboard. We are passing that when we are creating the scanner"
+  },
+  {
+    "start": 2623.97,
+    "duration": 4.92,
+    "text": "object, because that's like initializing the object, it's actually putting the value"
+  },
+  {
+    "start": 2628.89,
+    "duration": 5.38,
+    "text": "in the object like hey object, you are a type of scanner, and you have a value of system"
+  },
+  {
+    "start": 2634.27,
+    "duration": 6.18,
+    "text": "dot in whenever input asks for something, you will take the input from keyboard. This is"
+  },
+  {
+    "start": 2640.45,
+    "duration": 5.16,
+    "text": "the meaning how it's doing it will look into object 20 program. Now we are ready to take"
+  },
+  {
+    "start": 2645.61,
+    "duration": 5.76,
+    "text": "input via this scanner scanner is nothing it's just a class that allows us to take"
+  },
+  {
+    "start": 2651.37,
+    "duration": 6.68,
+    "text": "input. Here you can see it implements here one second, you can say it says public"
+  },
+  {
+    "start": 2658.05,
+    "duration": 5.08,
+    "text": "final class scanner extends object, but it does not mention it over here, but it's true"
+  },
+  {
+    "start": 2663.13,
+    "duration": 4.92,
+    "text": "because every, you know, class in Java extends the object class, another important and very"
+  },
+  {
+    "start": 2668.05,
+    "duration": 3.56,
+    "text": "fun concept we'll look more into when we do object 20 programming, there's an object"
+  },
+  {
+    "start": 2671.61,
+    "duration": 2.08,
+    "text": "class as well."
+  },
+  {
+    "start": 2673.69,
+    "duration": 4.16,
+    "text": "So for now, let's just try to output this, don't worry about like what is kind of"
+  },
+  {
+    "start": 2677.85,
+    "duration": 5.0,
+    "text": "just basically a class that specifies an input stream and using the object of that"
+  },
+  {
+    "start": 2682.85,
+    "duration": 3.92,
+    "text": "class, the variable of that class, we can take input."
+  },
+  {
+    "start": 2686.77,
+    "duration": 7.65,
+    "text": "in the Java dot util package. Okay, let's take input. Now I can say input, this is a"
+  },
+  {
+    "start": 2694.42,
+    "duration": 5.64,
+    "text": "variable it can it is pointing to the object of scanner class. Okay, so it will contain"
+  },
+  {
+    "start": 2700.06,
+    "duration": 5.64,
+    "text": "all the functions that are provided by scanner class. Again, I'll go through it in detail"
+  },
+  {
+    "start": 2705.7,
+    "duration": 7.64,
+    "text": "in object oriented programming. Let's say I want to take next integer or just next"
+  },
+  {
+    "start": 2713.34,
+    "duration": 12.85,
+    "text": "line. Okay, if I want to take, let's say next integer, for example, so I can just say print,"
+  },
+  {
+    "start": 2726.19,
+    "duration": 4.16,
+    "text": "whatever input you are getting, I whatever input I was getting, I passed it into the print"
+  },
+  {
+    "start": 2730.35,
+    "duration": 8.72,
+    "text": "statement. And now let's try to run this program. It says next integer, I can add an integer,"
+  },
+  {
+    "start": 2739.07,
+    "duration": 5.79,
+    "text": "it will just print that integer only. If I try to pass something else, let's say"
+  },
+  {
+    "start": 2744.86,
+    "duration": 9.64,
+    "text": "it is asking for next integer, let us say I pass Kunal a string error. So, this thing"
+  },
+  {
+    "start": 2754.5,
+    "duration": 5.8,
+    "text": "the next integer, you can see this is also in the scanner class. Similarly, scanner class"
+  },
+  {
+    "start": 2760.3,
+    "duration": 6.52,
+    "text": "has provided a lot of things to us. If you want to input a string, you can do next."
+  },
+  {
+    "start": 2766.82,
+    "duration": 14.16,
+    "text": "it will input a string. Okay, so it's basically inputting the first string only till it finds"
+  },
+  {
+    "start": 2780.98,
+    "duration": 8.98,
+    "text": "a space. If you want to input the entire line at once, you can say next line, otherwise"
+  },
+  {
+    "start": 2789.96,
+    "duration": 10.46,
+    "text": "it will just take this first word, entire line. Okay, we will go through it later on."
+  },
+  {
+    "start": 2800.42,
+    "duration": 4.48,
+    "text": "Let's first look into the primitive data types. I'm talking about int and all these things."
+  },
+  {
+    "start": 2804.9,
+    "duration": 6.56,
+    "text": "let's look into it first. Okay, I'll create another class. I don't want this, let's delete"
+  },
+  {
+    "start": 2811.46,
+    "duration": 10.57,
+    "text": "the Rahul one, and I'll create another class over here that says primitives, public static"
+  },
+  {
+    "start": 2822.03,
+    "duration": 5.44,
+    "text": "void main, that's it. So there are a few few primitives that we'll be looking into in"
+  },
+  {
+    "start": 2827.47,
+    "duration": 4.8,
+    "text": "this section. And the first one is let's say integer. So if you want to create an"
+  },
+  {
+    "start": 2832.27,
+    "duration": 4.84,
+    "text": "integer like if you want to store like all the rule numbers of your students, so"
+  },
+  {
+    "start": 2837.11,
+    "duration": 8.16,
+    "text": "you can say int role number is equal to 64. By the way, in Java, you have to end every"
+  },
+  {
+    "start": 2845.27,
+    "duration": 6.68,
+    "text": "statement with a colon. This basically means that the line is over. Okay, so you can store"
+  },
+  {
+    "start": 2851.95,
+    "duration": 3.82,
+    "text": "the name of the person, name of the person is stored in a string. This is actually"
+  },
+  {
+    "start": 2855.77,
+    "duration": 8.29,
+    "text": "not primitive. Okay, this is actually not primitive. What does it actually means"
+  },
+  {
+    "start": 2864.06,
+    "duration": 4.76,
+    "text": "by primitive? Okay, I said it's like 0 to 100. So if you don't know what primitives"
+  },
+  {
+    "start": 2868.82,
+    "duration": 10.69,
+    "text": "are let me tell you primitive is basically any data type that you cannot break even further."
+  },
+  {
+    "start": 2879.51,
+    "duration": 8.6,
+    "text": "If I am saying string name is equal to Kunal. Can I break this Kunal name into even further"
+  },
+  {
+    "start": 2888.11,
+    "duration": 7.88,
+    "text": "data types? I can I can break this into individual letters and characters K U N A L I can do"
+  },
+  {
+    "start": 2895.99,
+    "duration": 7.28,
+    "text": "that. Okay, so this is a string data type. And I can then also break it into characters."
+  },
+  {
+    "start": 2903.27,
+    "duration": 5.92,
+    "text": "Can I break the character K or any other character into more data type? No, I can't. So this"
+  },
+  {
+    "start": 2909.19,
+    "duration": 6.6,
+    "text": "last data type, which you cannot break into any other data type, it's known as primitive."
+  },
+  {
+    "start": 2915.79,
+    "duration": 6.0,
+    "text": "For example, integer. Okay, you cannot break integer into other data types. Integer"
+  },
+  {
+    "start": 2921.79,
+    "duration": 8.0,
+    "text": "is the primitive data type, another can be character, letter is equal to R let us say,"
+  },
+  {
+    "start": 2929.79,
+    "duration": 9.04,
+    "text": "char is starting with this thing, the single quotes string starts with double quotes."
+  },
+  {
+    "start": 2938.83,
+    "duration": 7.24,
+    "text": "You might want to stay over some decimal point values, for that we have float marks"
+  },
+  {
+    "start": 2946.07,
+    "duration": 11.64,
+    "text": "equal to 98.67, you have to add a f over here, you have to add a f over here. Why we need"
+  },
+  {
+    "start": 2957.71,
+    "duration": 7.68,
+    "text": "to do this? We look into it shortly. Another one consists of double, which is for large"
+  },
+  {
+    "start": 2965.39,
+    "duration": 31.53,
+    "text": "numbers, large decimal numbers. Another one is long, which is for large integer values,"
+  },
+  {
+    "start": 2996.92,
+    "duration": 11.35,
+    "text": "have to add a, you know, lowercase l or a double case, sorry, capital case l, why we"
+  },
+  {
+    "start": 3008.27,
+    "duration": 4.68,
+    "text": "are adding this l over here, f over here will I'll explain to you in this video shortly"
+  },
+  {
+    "start": 3012.95,
+    "duration": 5.8,
+    "text": "only don't worry. One more might be missing is Boolean true or false values for that"
+  },
+  {
+    "start": 3018.75,
+    "duration": 11.89,
+    "text": "we have the Boolean data type Boolean check is equal to true or false. Those are the"
+  },
+  {
+    "start": 3030.64,
+    "duration": 10.14,
+    "text": "only two values it has. Okay, so why are we adding f over here? There are few questions."
+  },
+  {
+    "start": 3040.78,
+    "duration": 3.8,
+    "text": "If you already have integer over here, why do you have long? If you already have float"
+  },
+  {
+    "start": 3044.58,
+    "duration": 4.64,
+    "text": "over here, why do you have double? Okay, to answer this question, we would have to"
+  },
+  {
+    "start": 3049.22,
+    "duration": 6.76,
+    "text": "look into what is the size, the maximum size that can be stored in one data type."
+  },
+  {
+    "start": 3055.98,
+    "duration": 4.64,
+    "text": "And that is something we look into when we do binary, like the bitwise operators"
+  },
+  {
+    "start": 3060.62,
+    "duration": 3.48,
+    "text": "In that we'll entirely look into the binary structure and how to calculate the size and"
+  },
+  {
+    "start": 3064.1,
+    "duration": 1.0,
+    "text": "everything."
+  },
+  {
+    "start": 3065.1,
+    "duration": 4.48,
+    "text": "For now, this is four bytes till four bytes of numbers you can store here."
+  },
+  {
+    "start": 3069.58,
+    "duration": 1.36,
+    "text": "This is eight bytes."
+  },
+  {
+    "start": 3070.94,
+    "duration": 1.68,
+    "text": "This is four bytes."
+  },
+  {
+    "start": 3072.62,
+    "duration": 2.8,
+    "text": "Long is also eight bytes."
+  },
+  {
+    "start": 3075.42,
+    "duration": 6.24,
+    "text": "So why it's like, what is the size and what is the range of numbers we can store?"
+  },
+  {
+    "start": 3081.66,
+    "duration": 4.24,
+    "text": "I'll explain to you in very, very detail when we do bitwise operators."
+  },
+  {
+    "start": 3085.9,
+    "duration": 1.4,
+    "text": "What was the second question?"
+  },
+  {
+    "start": 3087.3,
+    "duration": 2.04,
+    "text": "Why are you adding F over here?"
+  },
+  {
+    "start": 3089.34,
+    "duration": 5.92,
+    "text": "Why are you adding L over here? Another nice question. So all the decimal values that we"
+  },
+  {
+    "start": 3095.26,
+    "duration": 7.7,
+    "text": "have by default, they are of type double. By default, they are of type double. If you"
+  },
+  {
+    "start": 3102.96,
+    "duration": 6.38,
+    "text": "want to store them in float, basically we have to add a F over here. Float gives us"
+  },
+  {
+    "start": 3109.34,
+    "duration": 4.64,
+    "text": "error in some points sometimes like floating point error, that is why to get more accurate"
+  },
+  {
+    "start": 3113.98,
+    "duration": 4.72,
+    "text": "values, we can use double or something. But the only reason to use long instead"
+  },
+  {
+    "start": 3118.7,
+    "duration": 5.84,
+    "text": "of int is because long provides us to store larger values. Same thing is for double as"
+  },
+  {
+    "start": 3124.54,
+    "duration": 6.12,
+    "text": "well, we can store larger decimal values. And by default, when you are not adding any,"
+  },
+  {
+    "start": 3130.66,
+    "duration": 5.76,
+    "text": "you know, points or anything, the by default structure, the value is of type integer. That"
+  },
+  {
+    "start": 3136.42,
+    "duration": 5.98,
+    "text": "is why I'm specifically adding L over here. I hope that makes sense. All the other values"
+  },
+  {
+    "start": 3142.4,
+    "duration": 4.08,
+    "text": "like hexadecimal binary numbers and everything will cover that more in detail. Those are"
+  },
+  {
+    "start": 3146.48,
+    "duration": 3.84,
+    "text": "are the two doubts you may having and those both of the doubts are now resolved."
+  },
+  {
+    "start": 3150.32,
+    "duration": 2.96,
+    "text": "There's a few basic data types."
+  },
+  {
+    "start": 3153.28,
+    "duration": 4.08,
+    "text": "There's one more thing I want to show you that even though these are primitive data types,"
+  },
+  {
+    "start": 3157.36,
+    "duration": 3.12,
+    "text": "there contains classes for these as well."
+  },
+  {
+    "start": 3160.48,
+    "duration": 4.16,
+    "text": "So here I told you everything that starts with a capital letter is a class int is"
+  },
+  {
+    "start": 3164.64,
+    "duration": 1.52,
+    "text": "not starting with a capital letter."
+  },
+  {
+    "start": 3166.16,
+    "duration": 4.68,
+    "text": "It's not a class then it's a primitive data type, but you can also create a class"
+  },
+  {
+    "start": 3170.84,
+    "duration": 9.28,
+    "text": "of integer integer role number is equal to 64 role number dot can get so many the reason"
+  },
+  {
+    "start": 3180.12,
+    "duration": 5.36,
+    "text": "is this is known as wrapper classes will look more into later on when we do object 20 programming."
+  },
+  {
+    "start": 3185.48,
+    "duration": 4.52,
+    "text": "But basically the idea of wrapper class is if you want some additional functionalities"
+  },
+  {
+    "start": 3190.0,
+    "duration": 4.36,
+    "text": "if I say role number dot dot basically gives me all the functions that can be applied"
+  },
+  {
+    "start": 3194.36,
+    "duration": 5.0,
+    "text": "on this currently you can see none nothing is available these are just some basic stuff"
+  },
+  {
+    "start": 3199.36,
+    "duration": 5.92,
+    "text": "but here if I do dot so many things are available, get the double value, compare value, byte value,"
+  },
+  {
+    "start": 3205.28,
+    "duration": 5.76,
+    "text": "hash code equals long value, two string, so many things are available in competitive programming,"
+  },
+  {
+    "start": 3211.04,
+    "duration": 3.84,
+    "text": "you need these methods for that you can use the wrapper class. Don't worry about wrapper"
+  },
+  {
+    "start": 3214.88,
+    "duration": 4.32,
+    "text": "classes right now, we'll cover it later when we do object oriented programming. The only"
+  },
+  {
+    "start": 3219.2,
+    "duration": 8.16,
+    "text": "idea is that it's allowing me to add some more functionalities to my primitives. So to"
+  },
+  {
+    "start": 3227.36,
+    "duration": 4.1,
+    "text": "sum up, primitives are like the ones you cannot, you know, even divide much further. Here are"
+  },
+  {
+    "start": 3231.46,
+    "duration": 4.7,
+    "text": "integer. Similarly, we have long, long we have because sometimes integer might be small"
+  },
+  {
+    "start": 3236.16,
+    "duration": 4.4,
+    "text": "for your use case. So it's double the size of integer. What is the size? How do we calculate"
+  },
+  {
+    "start": 3240.56,
+    "duration": 5.56,
+    "text": "the size? We'll cover in detail later on double and when float are for decimal points, character"
+  },
+  {
+    "start": 3246.12,
+    "duration": 5.48,
+    "text": "we have over here, which is for characters Boolean we have for true or false values."
+  },
+  {
+    "start": 3251.6,
+    "duration": 3.48,
+    "text": "So now let's look into the inputs of these things. Okay, let me just comment this"
+  },
+  {
+    "start": 3255.08,
+    "duration": 6.72,
+    "text": "out by the way you can select all command slash in Mac control slash it will be commented"
+  },
+  {
+    "start": 3261.8,
+    "duration": 5.44,
+    "text": "out comments basically if you don't know what comments are that's fine comments basically"
+  },
+  {
+    "start": 3267.24,
+    "duration": 4.04,
+    "text": "means that when you're compiling your code and stuff right all the comments will be ignored"
+  },
+  {
+    "start": 3271.28,
+    "duration": 6.44,
+    "text": "by the compiler that's what it basically means so in the comment I can write anything"
+  },
+  {
+    "start": 3277.72,
+    "duration": 7.96,
+    "text": "know something like anything you can write. Oops, what happened? What happened? Okay, can"
+  },
+  {
+    "start": 3285.68,
+    "duration": 7.2,
+    "text": "write anything. Okay, it won't matter. So it will be ignored by the compiler. Let's do"
+  },
+  {
+    "start": 3292.88,
+    "duration": 5.84,
+    "text": "the input part again. So let's say, let me, let me make another, let me make another,"
+  },
+  {
+    "start": 3298.72,
+    "duration": 7.75,
+    "text": "another file, let's say for example, okay, let's make another file, new Java class,"
+  },
+  {
+    "start": 3306.47,
+    "duration": 13.33,
+    "text": "I can say inputs, public static void main, I can say scanner input is equal to new scanner"
+  },
+  {
+    "start": 3319.8,
+    "duration": 6.28,
+    "text": "from where do I want to take the input system keyboard, which is system dot in."
+  },
+  {
+    "start": 3326.08,
+    "duration": 7.52,
+    "text": "This is the this is the keyboard system dot in the invariable is the keyboard to keyboard"
+  },
+  {
+    "start": 3333.6,
+    "duration": 2.0,
+    "text": "says in the documentation as well."
+  },
+  {
+    "start": 3335.6,
+    "duration": 5.2,
+    "text": "Here we have input stream, there we had output stream or whatever print stream."
+  },
+  {
+    "start": 3340.8,
+    "duration": 4.72,
+    "text": "So, let us say we are inputting, let us say we try to input integer at first."
+  },
+  {
+    "start": 3345.52,
+    "duration": 9.64,
+    "text": "So, I can say int roll number is equal to input dot next int, next integer, then I"
+  },
+  {
+    "start": 3355.16,
+    "duration": 6.44,
+    "text": "can just print system dot auto print ln, I can give a message over here, your roll"
+  },
+  {
+    "start": 3361.6,
+    "duration": 16.81,
+    "text": "number is, then I can just add plus roll number, let's try to run this. It's asking for an"
+  },
+  {
+    "start": 3378.41,
+    "duration": 8.9,
+    "text": "input. So I should give an input like 54. Ah, you see what happened? It's running the"
+  },
+  {
+    "start": 3387.31,
+    "duration": 5.08,
+    "text": "main file over here. I have to run the inputs dot Java, it's running the main dot Java."
+  },
+  {
+    "start": 3392.39,
+    "duration": 5.4,
+    "text": "Sometimes that happens. So you can, you can click on this green button as well. Run"
+  },
+  {
+    "start": 3397.79,
+    "duration": 13.77,
+    "text": "input dot main 54 your rule number is 50 can also print a message before it please enter"
+  },
+  {
+    "start": 3411.56,
+    "duration": 11.07,
+    "text": "some input something like that just one second so please enter some input and then it will"
+  },
+  {
+    "start": 3422.63,
+    "duration": 4.32,
+    "text": "give me this so it will basically say please enter some input I don't want this to be"
+  },
+  {
+    "start": 3426.95,
+    "duration": 6.16,
+    "text": "in the new line in the same line I will take the input and then I will print it"
+  },
+  {
+    "start": 3433.11,
+    "duration": 12.13,
+    "text": "let us try to run this. Please enter some input 67 your number is 67. So, how is this"
+  },
+  {
+    "start": 3445.24,
+    "duration": 5.62,
+    "text": "thing internally working? Again, I told you very simply main function is the first function"
+  },
+  {
+    "start": 3450.86,
+    "duration": 5.78,
+    "text": "that runs. So, it will start execution from here from this line my execution will start"
+  },
+  {
+    "start": 3456.64,
+    "duration": 4.68,
+    "text": "it will go to this line it will create the object and define this in the next line"
+  },
+  {
+    "start": 3461.32,
+    "duration": 5.68,
+    "text": "it will print please enter some input it prints this in the next line it will take the roll"
+  },
+  {
+    "start": 3467.0,
+    "duration": 5.84,
+    "text": "number takes the roll number then it will print this line this roll number will be replaced by this"
+  },
+  {
+    "start": 3473.8,
+    "duration": 6.16,
+    "text": "you might be wondering how are you adding string and integer this is a string this is an integer"
+  },
+  {
+    "start": 3480.6,
+    "duration": 4.48,
+    "text": "okay so we will look more into that in this session only how you can convert types from"
+  },
+  {
+    "start": 3485.08,
+    "duration": 5.12,
+    "text": "one to another one more thing we will be doing later on is called debugging where you can"
+  },
+  {
+    "start": 3490.2,
+    "duration": 5.2,
+    "text": "actually see how each and every single line of code is working click on this this point you will"
+  },
+  {
+    "start": 3495.4,
+    "duration": 4.48,
+    "text": "see something red like this it's called debug pointer right now when I am running this code it's"
+  },
+  {
+    "start": 3499.88,
+    "duration": 5.68,
+    "text": "running instantly I want it to run line by line I want to see how it's running line by line click"
+  },
+  {
+    "start": 3505.56,
+    "duration": 7.36,
+    "text": "on the debug this bug now you will be able to run it line by line currently it's over here"
+  },
+  {
+    "start": 3512.92,
+    "duration": 6.88,
+    "text": "orx contain nothing go inside it like the next step it's defining this and next step is"
+  },
+  {
+    "start": 3519.8,
+    "duration": 9.12,
+    "text": "please enter some input. So, I will give it some input in the console 45 we will go inside"
+  },
+  {
+    "start": 3528.92,
+    "duration": 8.26,
+    "text": "and oh sorry sorry it did not execute that one before. So, let us try it again debug"
+  },
+  {
+    "start": 3537.18,
+    "duration": 7.58,
+    "text": "pointer set point it I can say initially it is over here now it is over here go inside"
+  },
+  {
+    "start": 3544.76,
+    "duration": 5.92,
+    "text": "It's saying output this, okay, output this, now it's asking for a roll number."
+  },
+  {
+    "start": 3550.68,
+    "duration": 8.4,
+    "text": "So in console, it's asking for some input 58, enter, going inside system.out, I say"
+  },
+  {
+    "start": 3559.08,
+    "duration": 2.4,
+    "text": "roll number value is 58, that's true."
+  },
+  {
+    "start": 3561.48,
+    "duration": 2.08,
+    "text": "This is the next line that is executed."
+  },
+  {
+    "start": 3563.56,
+    "duration": 4.6,
+    "text": "So in the debugger, I can go in the next line and in the console, it will print"
+  },
+  {
+    "start": 3568.16,
+    "duration": 5.24,
+    "text": "your roll number is 58 function finishes, you can see now it's outside the function"
+  },
+  {
+    "start": 3573.4,
+    "duration": 6.67,
+    "text": "and program over okay don't worry about debugging right now we'll do it in you"
+  },
+  {
+    "start": 3580.07,
+    "duration": 3.44,
+    "text": "know we'll do it very nicely but I just wanted to show you how every single line"
+  },
+  {
+    "start": 3583.51,
+    "duration": 4.64,
+    "text": "is executed one by one okay all right one more thing I want to share with you"
+  },
+  {
+    "start": 3588.15,
+    "duration": 4.64,
+    "text": "if you're writing something like int a is equal to 10 so here this thing like"
+  },
+  {
+    "start": 3592.79,
+    "duration": 6.56,
+    "text": "the the 10 thing so this is basically it's called a literal so in in in"
+  },
+  {
+    "start": 3599.35,
+    "duration": 5.2,
+    "text": "primitive data types literals are the you know syntactical representation"
+  },
+  {
+    "start": 3604.55,
+    "duration": 4.36,
+    "text": "of like Boolean character numeric or like your character like string data for example"
+  },
+  {
+    "start": 3608.91,
+    "duration": 4.56,
+    "text": "here you know if you're writing this thing over here the object it's known as a literal"
+  },
+  {
+    "start": 3613.47,
+    "duration": 5.16,
+    "text": "if someone asks you this is known as an identifier the reference variable is called the identifier"
+  },
+  {
+    "start": 3618.63,
+    "duration": 5.8,
+    "text": "so it's basically the name of the variable method class packages or other things like"
+  },
+  {
+    "start": 3624.43,
+    "duration": 5.6,
+    "text": "interfaces in Java this is an identifier this is an identifier this is an identifier"
+  },
+  {
+    "start": 3630.03,
+    "duration": 6.76,
+    "text": "this is an identifier. So, this was basically a quick summary about literals and identifier."
+  },
+  {
+    "start": 3636.79,
+    "duration": 5.44,
+    "text": "One more thing I want to share with you is that, you know, if you want to write the something"
+  },
+  {
+    "start": 3642.23,
+    "duration": 3.64,
+    "text": "like this, you know, you might want to be wondering how do we write in the form of millions."
+  },
+  {
+    "start": 3645.87,
+    "duration": 7.6,
+    "text": "So, let us say you want to write 234 million. So, 234 million is somewhat like this,"
+  },
+  {
+    "start": 3653.47,
+    "duration": 4.44,
+    "text": "but this is not correct in terms of the syntax comma does not allow it. So, instead"
+  },
+  {
+    "start": 3657.91,
+    "duration": 4.9,
+    "text": "of comma just replace it with an underscore underscore will be ignored and a comma will"
+  },
+  {
+    "start": 3662.81,
+    "duration": 15.72,
+    "text": "be put there. So this actually means 20234 million you print this 234 million. All right,"
+  },
+  {
+    "start": 3678.53,
+    "duration": 3.96,
+    "text": "let's look into some other inputs that we can take. So just some basic stuff that I"
+  },
+  {
+    "start": 3682.49,
+    "duration": 5.0,
+    "text": "wanted to share but let's take some you know some string input for example. So string"
+  },
+  {
+    "start": 3687.49,
+    "duration": 4.88,
+    "text": "name is equal to I can say I already showed this previously by the way. So input dot"
+  },
+  {
+    "start": 3692.37,
+    "duration": 4.76,
+    "text": "Next, we'll take the next word only next line will take the entire line. So if you want,"
+  },
+  {
+    "start": 3697.13,
+    "duration": 7.12,
+    "text": "I can just show you next line print name. I can run this next line. If I just write"
+  },
+  {
+    "start": 3704.25,
+    "duration": 5.08,
+    "text": "and anything in the entire line. Hey, my name is Kunal. This entire line will be stored"
+  },
+  {
+    "start": 3709.33,
+    "duration": 7.44,
+    "text": "in the name variable. Hey, my name is Kunal. We just want the first word, then just"
+  },
+  {
+    "start": 3716.77,
+    "duration": 6.66,
+    "text": "do next. You understand right system dot in is something I have provided in this input."
+  },
+  {
+    "start": 3723.43,
+    "duration": 4.64,
+    "text": "The object of this input knows that the input that it needs to take is from the keyword"
+  },
+  {
+    "start": 3728.07,
+    "duration": 5.08,
+    "text": "in the key from the keyboard from my from my keyboard. So whenever it's calling any function"
+  },
+  {
+    "start": 3733.15,
+    "duration": 6.86,
+    "text": "like this like hey, take the next word, take the next integer or whatever it's going"
+  },
+  {
+    "start": 3740.01,
+    "duration": 3.22,
+    "text": "to take from your keyboard. It's actually going to wait for you. If you provide"
+  },
+  {
+    "start": 3743.23,
+    "duration": 4.72,
+    "text": "a file, it's going to take it from the file one by one. Okay, look more into that later"
+  },
+  {
+    "start": 3747.95,
+    "duration": 5.0,
+    "text": "on when we learn about file stream buffer reader and whatever. Here I can just say Kunal. Hey,"
+  },
+  {
+    "start": 3752.95,
+    "duration": 5.52,
+    "text": "it will only take the first word. Another, another one can be what is another one? Another"
+  },
+  {
+    "start": 3758.47,
+    "duration": 14.28,
+    "text": "one can be float. So I can say float marks is equal to input dot next float. This will"
+  },
+  {
+    "start": 3772.75,
+    "duration": 8.31,
+    "text": "print the marks. Basically, it's going to also ask for the name now. So I'm just going"
+  },
+  {
+    "start": 3781.06,
+    "duration": 9.1,
+    "text": "to comment this out. And then I'm going to run this. I'm going to say 56 or something"
+  },
+  {
+    "start": 3790.16,
+    "duration": 6.4,
+    "text": "like that. So you can see it rounded it off. That is why I said this is the floating point"
+  },
+  {
+    "start": 3796.56,
+    "duration": 5.64,
+    "text": "error. values are not accurate in float. It's another point you should mention. Okay,"
+  },
+  {
+    "start": 3802.2,
+    "duration": 4.44,
+    "text": "this is a floating point error. Let's say let's try to see if I try to add an"
+  },
+  {
+    "start": 3806.64,
+    "duration": 4.94,
+    "text": "an integer over here. Let's just say I say 10. Actually it's giving me the output as"
+  },
+  {
+    "start": 3811.58,
+    "duration": 6.18,
+    "text": "float but I gave it an integer. What is happening here? It's known as like casting. We'll look"
+  },
+  {
+    "start": 3817.76,
+    "duration": 6.28,
+    "text": "more into it later on. In this in this video only, we'll look into like the type conversion"
+  },
+  {
+    "start": 3824.04,
+    "duration": 4.52,
+    "text": "and casting. So if the conversion is happening. Okay, I don't think I have to go through"
+  },
+  {
+    "start": 3828.56,
+    "duration": 3.48,
+    "text": "every single one. You can definitely do it on your own and just try it out just"
+  },
+  {
+    "start": 3832.04,
+    "duration": 12.04,
+    "text": "to in IntelliJ idea, you can just say, example, if I can just say, you know, input dot next,"
+  },
+  {
+    "start": 3844.08,
+    "duration": 4.68,
+    "text": "all these things you're getting next line next integer next float net big decimal, big decimal"
+  },
+  {
+    "start": 3848.76,
+    "duration": 4.68,
+    "text": "something we look into later on Boolean byte by basically means just one byte. Okay, double"
+  },
+  {
+    "start": 3853.44,
+    "duration": 4.96,
+    "text": "long, we already know what long is short is something there has next basically gives"
+  },
+  {
+    "start": 3858.4,
+    "duration": 4.8,
+    "text": "a true or false value, whether it has a next integer has next int means let's say you're"
+  },
+  {
+    "start": 3863.2,
+    "duration": 5.4,
+    "text": "reading a file, you want to say, hey, is the next value an integer? Just check it for me"
+  },
+  {
+    "start": 3868.6,
+    "duration": 6.32,
+    "text": "for that you can use this thing. Okay, so many things we can use. Alright, that was like the"
+  },
+  {
+    "start": 3874.92,
+    "duration": 4.44,
+    "text": "basics of input and output, you can do something like let's say I create another file, I can"
+  },
+  {
+    "start": 3879.36,
+    "duration": 8.2,
+    "text": "say some dot Java. Okay, if I say something like this, this thumb dot, what? Oh, sorry,"
+  },
+  {
+    "start": 3887.56,
+    "duration": 7.12,
+    "text": "the public static word mean, then I can say, let's copy this. Now you can make your own"
+  },
+  {
+    "start": 3894.68,
+    "duration": 7.4,
+    "text": "program. Okay, so your program can be like int number one is equal to input dot next"
+  },
+  {
+    "start": 3902.08,
+    "duration": 7.24,
+    "text": "int int number two is going to be equal to input dot next int. Then you can say int"
+  },
+  {
+    "start": 3909.32,
+    "duration": 7.36,
+    "text": "sum is equal to number one plus number two. And just print out the sum like this."
+  },
+  {
+    "start": 3916.68,
+    "duration": 8.64,
+    "text": "sum is equal to sum, that is it, try to run this, it is going to ask for two numbers,"
+  },
+  {
+    "start": 3925.32,
+    "duration": 13.51,
+    "text": "let us say 30, 40, sum is 70, simple stuff, try to run this again, I can say 30 space"
+  },
+  {
+    "start": 3938.83,
+    "duration": 7.88,
+    "text": "40, that is also fine, it will take the next integer only, next integer, integer, integer,"
+  },
+  {
+    "start": 3946.71,
+    "duration": 6.22,
+    "text": "integer this, second integer this. Okay, so whatever you have inputted in your keyboard,"
+  },
+  {
+    "start": 3952.93,
+    "duration": 4.48,
+    "text": "it will take that as a first number, and then the second number as the second number. If"
+  },
+  {
+    "start": 3957.41,
+    "duration": 3.8,
+    "text": "you give a string over here, let's say first number, I will give number second one, I will"
+  },
+  {
+    "start": 3961.21,
+    "duration": 6.72,
+    "text": "give a string error, you are asking for an integer, and you are giving a string."
+  },
+  {
+    "start": 3967.93,
+    "duration": 6.84,
+    "text": "That won't work, right? Okay, so let's try something else. Let me try to give a"
+  },
+  {
+    "start": 3974.77,
+    "duration": 9.22,
+    "text": "float value then see what happens. So I can say first number 30 second one can be 40.3"
+  },
+  {
+    "start": 3983.99,
+    "duration": 7.36,
+    "text": "again error, error again, because you are asking for an integer and it is giving a float try"
+  },
+  {
+    "start": 3991.35,
+    "duration": 8.07,
+    "text": "to do it the other way around. Let us say you have float over here and you are giving"
+  },
+  {
+    "start": 3999.42,
+    "duration": 10.34,
+    "text": "an integer say 30 and 40 this is giving the some output as same it was asking for"
+  },
+  {
+    "start": 4009.76,
+    "duration": 6.24,
+    "text": "float I gave it an integer here I also say next int I can also the next float for example"
+  },
+  {
+    "start": 4016.0,
+    "duration": 14.69,
+    "text": "next float next float try to run this 30 40 no error why is this happening is a very important"
+  },
+  {
+    "start": 4030.69,
+    "duration": 5.16,
+    "text": "topic known as type conversion and casting which we look into right now so now let's"
+  },
+  {
+    "start": 4035.85,
+    "duration": 5.04,
+    "text": "look into a very important concept known as casting and conversion I was inputting"
+  },
+  {
+    "start": 4040.89,
+    "duration": 5.24,
+    "text": "an integer, but it was automatically converting it into a float, you can try it, I already"
+  },
+  {
+    "start": 4046.13,
+    "duration": 4.16,
+    "text": "tried it like multiple times, let me create a new class for that."
+  },
+  {
+    "start": 4050.29,
+    "duration": 3.28,
+    "text": "Now from this point, you can mark it, I'll also add the timestamps."
+  },
+  {
+    "start": 4053.57,
+    "duration": 1.92,
+    "text": "So this is an important section."
+  },
+  {
+    "start": 4055.49,
+    "duration": 4.6,
+    "text": "Entire section will be entirely focused on type conversion and casting."
+  },
+  {
+    "start": 4060.09,
+    "duration": 8.87,
+    "text": "So I can say type casting or whatever, okay, let's do it."
+  },
+  {
+    "start": 4068.96,
+    "duration": 2.0,
+    "text": "So what is happening over here?"
+  },
+  {
+    "start": 4070.96,
+    "duration": 7.92,
+    "text": "So when one type of data is assigned to another type of variable, an automatic type conversion"
+  },
+  {
+    "start": 4078.88,
+    "duration": 3.96,
+    "text": "will take place if the following conditions are met."
+  },
+  {
+    "start": 4082.84,
+    "duration": 9.96,
+    "text": "For example, I can say float number is equal to let's say something like I can add a scanner"
+  },
+  {
+    "start": 4092.8,
+    "duration": 6.34,
+    "text": "input is equal to new scanner system dot in."
+  },
+  {
+    "start": 4099.14,
+    "duration": 9.28,
+    "text": "I can say input dot next float so it's taking a float okay I'll also print this out it's"
+  },
+  {
+    "start": 4108.42,
+    "duration": 5.48,
+    "text": "taking a float but I will input an integer I'll input an integer and then you'll see"
+  },
+  {
+    "start": 4113.9,
+    "duration": 5.76,
+    "text": "it will automatically convert that into a float automatically convert it into float when"
+  },
+  {
+    "start": 4119.66,
+    "duration": 6.32,
+    "text": "does this thing happen condition number one the two types should be compatible so it's"
+  },
+  {
+    "start": 4125.98,
+    "duration": 4.66,
+    "text": "not like you are adding string over here and it will convert or character over here and"
+  },
+  {
+    "start": 4130.64,
+    "duration": 5.46,
+    "text": "it will like automatically convert it. No, that won't happen. Okay, type should be compatible"
+  },
+  {
+    "start": 4136.1,
+    "duration": 6.08,
+    "text": "and the second thing that we need in order to execute this thing like adding an integer"
+  },
+  {
+    "start": 4142.18,
+    "duration": 4.92,
+    "text": "it's automatically converting into a float is that the destination type should be greater"
+  },
+  {
+    "start": 4147.1,
+    "duration": 5.84,
+    "text": "than the source type. We know that float is greater than integers. Integer may integers"
+  },
+  {
+    "start": 4152.94,
+    "duration": 3.96,
+    "text": "you can only add the integer value in float, you can add the integer and the decimal value"
+  },
+  {
+    "start": 4156.9,
+    "duration": 5.16,
+    "text": "as well. So float is greater than integer. So whatever you have on the left hand side"
+  },
+  {
+    "start": 4162.06,
+    "duration": 7.78,
+    "text": "should be greater than this. If I switch it, if I say if I switch this, if I say int number"
+  },
+  {
+    "start": 4169.84,
+    "duration": 4.66,
+    "text": "is equal to input dot next float, first of all, this will give an error because"
+  },
+  {
+    "start": 4174.5,
+    "duration": 4.76,
+    "text": "you can't do it. This is smaller. This is not this is not larger than the source"
+  },
+  {
+    "start": 4179.26,
+    "duration": 8.54,
+    "text": "type. So, if I say next int and here again if I provide float you are asking for integer"
+  },
+  {
+    "start": 4187.8,
+    "duration": 7.68,
+    "text": "and you are giving float that will not work. If you are asking for float and giving integer"
+  },
+  {
+    "start": 4195.48,
+    "duration": 3.96,
+    "text": "that will work but if you are asking for something smaller and giving something bigger"
+  },
+  {
+    "start": 4199.44,
+    "duration": 7.6,
+    "text": "than that then it will not work. Automatically it will not work. So, Java auto also performs"
+  },
+  {
+    "start": 4207.04,
+    "duration": 7.12,
+    "text": "like automatic type conversion when storing a literal integer and integer constant into"
+  },
+  {
+    "start": 4214.16,
+    "duration": 6.2,
+    "text": "variables of type like, you know, byte and short and long and even care sometimes."
+  },
+  {
+    "start": 4220.36,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 4221.36,
+    "duration": 2.68,
+    "text": "So it takes the ASCII value of that."
+  },
+  {
+    "start": 4224.04,
+    "duration": 5.24,
+    "text": "Now you might be asking, hey Kunal, how do we convert integer to float then?"
+  },
+  {
+    "start": 4229.28,
+    "duration": 4.84,
+    "text": "If it's not automatically converting it, how can we convert integer to float then?"
+  },
+  {
+    "start": 4234.12,
+    "duration": 5.92,
+    "text": "that is known as casting type casting casting incompatible types. So, basically I can do"
+  },
+  {
+    "start": 4240.04,
+    "duration": 5.52,
+    "text": "something like this basically the all the automatic type conversion that they are helpful,"
+  },
+  {
+    "start": 4245.56,
+    "duration": 4.28,
+    "text": "but they might not fulfill all the needs. For example, what if you want to assign an"
+  },
+  {
+    "start": 4249.84,
+    "duration": 5.88,
+    "text": "integer value to let's say a byte variable or an integer value or like a float value"
+  },
+  {
+    "start": 4255.72,
+    "duration": 6.32,
+    "text": "to an integer variable. This will not happen automatically because integer is smaller"
+  },
+  {
+    "start": 4262.04,
+    "duration": 7.04,
+    "text": "than float. So this is sometimes called as narrowing conversion. Since you are explicitly"
+  },
+  {
+    "start": 4269.08,
+    "duration": 7.28,
+    "text": "saying like, hey, narrow the float into the integer, for example, I can say something"
+  },
+  {
+    "start": 4276.36,
+    "duration": 14.84,
+    "text": "like integer num, I can hide this is equal to let's say a float, something like this."
+  },
+  {
+    "start": 4291.2,
+    "duration": 4.7,
+    "text": "is giving an error right now or type double or whatever let us say this is float."
+  },
+  {
+    "start": 4295.9,
+    "duration": 13.66,
+    "text": "So this is something that I can convert to integer like this let us run this it should"
+  },
+  {
+    "start": 4309.56,
+    "duration": 11.83,
+    "text": "give me only the integer value of 67.56 only 67 this is known as type casting compressing"
+  },
+  {
+    "start": 4321.39,
+    "duration": 5.52,
+    "text": "the bigger number in a smaller type explicitly it saying convert it into an integer hence"
+  },
+  {
+    "start": 4326.91,
+    "duration": 6.25,
+    "text": "all the decimal will be removed only integer will you take it is not type casting."
+  },
+  {
+    "start": 4333.16,
+    "duration": 7.04,
+    "text": "Similarly, you can do for byte as well, and yeah, all these are things you can do."
+  },
+  {
+    "start": 4340.2,
+    "duration": 8.5,
+    "text": "All right, next thing I want you to look into is, which is known as automatic type promotion"
+  },
+  {
+    "start": 4348.7,
+    "duration": 4.98,
+    "text": "in expressions, a byte is of one byte."
+  },
+  {
+    "start": 4353.68,
+    "duration": 6.0,
+    "text": "So, if I say one byte, the range is let us say 256, how it is the range 256 will"
+  },
+  {
+    "start": 4359.68,
+    "duration": 1.44,
+    "text": "look into later on."
+  },
+  {
+    "start": 4361.12,
+    "duration": 7.08,
+    "text": "If I say int a is equal to 257, okay, then I can say or I can say something like yeah,"
+  },
+  {
+    "start": 4368.2,
+    "duration": 7.97,
+    "text": "I can say byte b is equal to a it will give an error obviously because a is of type integer"
+  },
+  {
+    "start": 4376.17,
+    "duration": 2.96,
+    "text": "and you're trying to provide it into the smaller type."
+  },
+  {
+    "start": 4379.13,
+    "duration": 7.01,
+    "text": "I can explicitly cast this cast this into byte."
+  },
+  {
+    "start": 4386.14,
+    "duration": 3.76,
+    "text": "Now let's see what the output we get."
+  },
+  {
+    "start": 4389.9,
+    "duration": 4.44,
+    "text": "Imagine like for now just know that the maximum value I can store in byte a byte"
+  },
+  {
+    "start": 4394.34,
+    "duration": 12.47,
+    "text": "is 256. What is the output we are getting? 1. Why are we getting 1? Even after casting,"
+  },
+  {
+    "start": 4406.81,
+    "duration": 7.04,
+    "text": "can you store 257 in byte variable if the maximum range of byte variables is 256? No,"
+  },
+  {
+    "start": 4413.85,
+    "duration": 5.42,
+    "text": "you can't. In that case, what it does is it actually, you know, when the value 256"
+  },
+  {
+    "start": 4419.27,
+    "duration": 5.46,
+    "text": "is cast into a byte, the result is the remainder of 256 and the maximum value that"
+  },
+  {
+    "start": 4424.73,
+    "duration": 7.2,
+    "text": "can we put over here which is 250, 257 and 256. Maximum value I can put is 256. I am saying"
+  },
+  {
+    "start": 4431.93,
+    "duration": 4.44,
+    "text": "hey please put 257 in byte. It's like I can't do that. What I'll do is now is you"
+  },
+  {
+    "start": 4436.37,
+    "duration": 4.8,
+    "text": "have given me more than I can handle. I'll just do a remainder of my maximum value. So"
+  },
+  {
+    "start": 4441.17,
+    "duration": 8.04,
+    "text": "it's actually adding 257 modulo 256 which is 1. That is what is happening over"
+  },
+  {
+    "start": 4449.21,
+    "duration": 7.8,
+    "text": "here. Let us look into another case. Let us say byte a is equal to 40 or let me just comment"
+  },
+  {
+    "start": 4457.01,
+    "duration": 9.36,
+    "text": "this out. And then let us say something like byte b is equal to 50. Then let us say byte"
+  },
+  {
+    "start": 4466.37,
+    "duration": 11.83,
+    "text": "c is equal to 100. Then I can say let us say an integer d is equal to let us say"
+  },
+  {
+    "start": 4478.2,
+    "duration": 9.86,
+    "text": "A into B divided by C or whatever like that. Then I print S out D or if I do just do integer"
+  },
+  {
+    "start": 4488.06,
+    "duration": 11.88,
+    "text": "like A into B like this, let's see what the output will be 50. That is true 40 into 50"
+  },
+  {
+    "start": 4499.94,
+    "duration": 19.45,
+    "text": "divided by 100 40 into 50 divided by 100. Oh, sorry, it's 20 actually, sorry, because"
+  },
+  {
+    "start": 4519.39,
+    "duration": 5.92,
+    "text": "I was adding an extra line. No worries. I can hide all the other things and just print"
+  },
+  {
+    "start": 4525.31,
+    "duration": 8.01,
+    "text": "one thing. It's actually going to be 20. That's true. You can see 20 here as well. 20. That"
+  },
+  {
+    "start": 4533.32,
+    "duration": 5.56,
+    "text": "is correct. A into B divided by C. I also don't need the braces because very basic mathematics."
+  },
+  {
+    "start": 4538.88,
+    "duration": 6.8,
+    "text": "The question is that A into B is actually 40 into 50, which is 2000. 2000. How is"
+  },
+  {
+    "start": 4545.68,
+    "duration": 7.36,
+    "text": "it able to store 2000 in a byte format byte into byte should give me byte. So 2000 should"
+  },
+  {
+    "start": 4553.04,
+    "duration": 3.64,
+    "text": "not be able to store it in a byte because the maximum value I can store is 256. And what"
+  },
+  {
+    "start": 4556.68,
+    "duration": 5.12,
+    "text": "is happening over here? What is happening is that the result of the intermediate term"
+  },
+  {
+    "start": 4561.8,
+    "duration": 6.08,
+    "text": "a into B easily exceeds the range of byte operator, the byte operand basically like"
+  },
+  {
+    "start": 4567.88,
+    "duration": 7.0,
+    "text": "the whatever the range of byte is to handle this kind of problem Java automatically is"
+  },
+  {
+    "start": 4574.88,
+    "duration": 6.96,
+    "text": "promoting each byte or you know short or whatever that you take to integer when it's evaluating"
+  },
+  {
+    "start": 4581.84,
+    "duration": 5.52,
+    "text": "this expression automatically it's promoting it in the expression so that it's able to"
+  },
+  {
+    "start": 4587.36,
+    "duration": 6.16,
+    "text": "store it. This means that the sub expression this one a into b is performed using integers"
+  },
+  {
+    "start": 4593.52,
+    "duration": 5.4,
+    "text": "even though these both are bytes the function this expression is performed using integers"
+  },
+  {
+    "start": 4598.92,
+    "duration": 8.61,
+    "text": "and not bytes. But if you do something like this, notice I had integer over here, that"
+  },
+  {
+    "start": 4607.53,
+    "duration": 3.8,
+    "text": "is why it was doing it automatically. But if you do something like this, and this will"
+  },
+  {
+    "start": 4611.33,
+    "duration": 4.24,
+    "text": "only happen in like, you know, the expressions, if you do something like this, let's say"
+  },
+  {
+    "start": 4615.57,
+    "duration": 6.44,
+    "text": "you do something like byte B is equal to 50. And then you did, then you do something"
+  },
+  {
+    "start": 4622.01,
+    "duration": 12.51,
+    "text": "like d is equal to b into 2 or something. This will give an error. Why? Because whenever"
+  },
+  {
+    "start": 4634.52,
+    "duration": 4.0,
+    "text": "you are performing these evaluations, it's I mentioned in this already, whenever you"
+  },
+  {
+    "start": 4638.52,
+    "duration": 4.2,
+    "text": "are doing byte evaluations, automatically it converts it into int. And since this is"
+  },
+  {
+    "start": 4642.72,
+    "duration": 6.4,
+    "text": "an integer now, how can you assign this to a byte? Can't do it. Same reason you"
+  },
+  {
+    "start": 4649.12,
+    "duration": 11.01,
+    "text": "were not able to assign float to an integer without explicitly doing the casting, cool."
+  },
+  {
+    "start": 4660.13,
+    "duration": 4.08,
+    "text": "So that's about it, let's look into some other examples."
+  },
+  {
+    "start": 4664.21,
+    "duration": 1.84,
+    "text": "So let's try to look an example for character."
+  },
+  {
+    "start": 4666.05,
+    "duration": 7.56,
+    "text": "Let's say I say int number is equal to a character a, but let's say num number is equal to"
+  },
+  {
+    "start": 4673.61,
+    "duration": 6.29,
+    "text": "a character a, and let's try to print this number."
+  },
+  {
+    "start": 4679.9,
+    "duration": 7.44,
+    "text": "integer and I'm assigning it a character should give me 65 or something or 97 65 is for capital"
+  },
+  {
+    "start": 4687.34,
+    "duration": 10.98,
+    "text": "A I'm not wrong 65 I gave it a letter and it's giving me a number it's giving me a"
+  },
+  {
+    "start": 4698.32,
+    "duration": 6.6,
+    "text": "number again automatic type conversion the ascai value of this so in Java we actually"
+  },
+  {
+    "start": 4704.92,
+    "duration": 4.36,
+    "text": "have this is also one more point I want to mention Java follows the Unicode principles"
+  },
+  {
+    "start": 4709.28,
+    "duration": 4.08,
+    "text": "So it means that all the languages and everything you can put, you know, easily in Java."
+  },
+  {
+    "start": 4713.76,
+    "duration": 4.4,
+    "text": "So if I say, hello in Hindi,"
+  },
+  {
+    "start": 4719.88,
+    "duration": 6.64,
+    "text": "Namaste, copy this namaste,"
+  },
+  {
+    "start": 4729.92,
+    "duration": 3.32,
+    "text": "Unicode, Unicode values, Unicode is namaste."
+  },
+  {
+    "start": 4733.88,
+    "duration": 2.36,
+    "text": "You can either print Chinese, hello in Chinese."
+  },
+  {
+    "start": 4739.5,
+    "duration": 8.46,
+    "text": "Ni hao, the Unicode values, such an amazing thing in Java."
+  },
+  {
+    "start": 4748.4,
+    "duration": 2.16,
+    "text": "All the characters, all the languages and everything you can print."
+  },
+  {
+    "start": 4751.56,
+    "duration": 2.28,
+    "text": "Unicode values, Google more about Unicode values."
+  },
+  {
+    "start": 4754.04,
+    "duration": 6.8,
+    "text": "NASCAR values and stuff, but Java, it's working on Unicode value. Okay. One more thing I want to"
+  },
+  {
+    "start": 4760.84,
+    "duration": 6.0,
+    "text": "share about is the type promotion rules, how this promotion actually happens. So Java defines"
+  },
+  {
+    "start": 4766.84,
+    "duration": 4.16,
+    "text": "several type promotional rules in the expressions, you might be wondering how, what is the rule"
+  },
+  {
+    "start": 4771.0,
+    "duration": 3.84,
+    "text": "for the evaluation of these, you know, promotion of these, you're automatically converting byte"
+  },
+  {
+    "start": 4774.84,
+    "duration": 5.52,
+    "text": "to integer in the expression when I do byte, byte, you know, B into two, A into B, it's"
+  },
+  {
+    "start": 4780.36,
+    "duration": 4.9,
+    "text": "It's automatically doing, you know, in the, it's automatically like promoting the type"
+  },
+  {
+    "start": 4785.26,
+    "duration": 2.06,
+    "text": "to next type, like bride to integer."
+  },
+  {
+    "start": 4787.32,
+    "duration": 1.2,
+    "text": "What are the rules that it's following?"
+  },
+  {
+    "start": 4788.52,
+    "duration": 3.36,
+    "text": "Is it doing it randomly or are there any rules that it's following?"
+  },
+  {
+    "start": 4791.88,
+    "duration": 3.36,
+    "text": "So the rule are as follows."
+  },
+  {
+    "start": 4795.24,
+    "duration": 7.28,
+    "text": "First rule is all the bite, short and character values are promoted to integer."
+  },
+  {
+    "start": 4802.52,
+    "duration": 6.48,
+    "text": "Okay, then if any one of the operands, any one of the things that you're multiplying"
+  },
+  {
+    "start": 4809.0,
+    "duration": 5.84,
+    "text": "or dividing or whatever is long, the whole operation will be promoted to long."
+  },
+  {
+    "start": 4814.84,
+    "duration": 5.56,
+    "text": "If it is float, the whole operation will be promoted to float entire X play, you know,"
+  },
+  {
+    "start": 4820.4,
+    "duration": 4.56,
+    "text": "if it's double, then the entire operation will be evaluated to double."
+  },
+  {
+    "start": 4824.96,
+    "duration": 9.61,
+    "text": "If I say system.out.println integer into float, this will give me float, this is what"
+  },
+  {
+    "start": 4834.57,
+    "duration": 2.64,
+    "text": "I mean in float."
+  },
+  {
+    "start": 4837.21,
+    "duration": 4.36,
+    "text": "If I say, yeah, that's pretty much about it, very simple."
+  },
+  {
+    "start": 4841.57,
+    "duration": 8.71,
+    "text": "definition I gave was just this. If I do something like this f float because by default"
+  },
+  {
+    "start": 4850.28,
+    "duration": 5.42,
+    "text": "it's double. Let's say you float into integer giving me float only. There is a floating"
+  },
+  {
+    "start": 4855.7,
+    "duration": 8.26,
+    "text": "point error. Make sense. Integer into integer, integer that is very simple stuff. These"
+  },
+  {
+    "start": 4863.96,
+    "duration": 8.77,
+    "text": "two rules type promotion rules make sure you follow. All right. Cool. All right."
+  },
+  {
+    "start": 4872.73,
+    "duration": 5.56,
+    "text": "Well, that I believe that was pretty much about everything that I wanted to cover for casting."
+  },
+  {
+    "start": 4878.29,
+    "duration": 4.76,
+    "text": "So this entire rules and stuff that I shared with you, let's try to look it into one example"
+  },
+  {
+    "start": 4883.05,
+    "duration": 3.88,
+    "text": "that will solve all your make things all make everything clear."
+  },
+  {
+    "start": 4886.93,
+    "duration": 3.74,
+    "text": "So I can say byte B is equal to what it's a 42."
+  },
+  {
+    "start": 4890.67,
+    "duration": 5.7,
+    "text": "Then I can say something like car C is equal to a, then I can say short s is equal"
+  },
+  {
+    "start": 4896.37,
+    "duration": 8.26,
+    "text": "to 1024. And then I can say something like int i is equal to something like 50,000 or"
+  },
+  {
+    "start": 4904.63,
+    "duration": 7.6,
+    "text": "something. Okay, that makes sense. I can say float f is equal to 5.67 f, something like"
+  },
+  {
+    "start": 4912.23,
+    "duration": 8.68,
+    "text": "that. I can say double D is equal to 0.12, let's say 34, very simple stuff. Then I can"
+  },
+  {
+    "start": 4920.91,
+    "duration": 6.52,
+    "text": "say my result that is going to be in a double my result is going to be let's say f into"
+  },
+  {
+    "start": 4927.43,
+    "duration": 7.08,
+    "text": "b and then I can add something like let's say integer divided by character then I can"
+  },
+  {
+    "start": 4934.51,
+    "duration": 9.91,
+    "text": "add something like you know I can subtract a double minus short something like that"
+  },
+  {
+    "start": 4944.42,
+    "duration": 7.0,
+    "text": "makes sense cool. What I'm going to do is now I'm going to say print my result but"
+  },
+  {
+    "start": 4951.42,
+    "duration": 6.44,
+    "text": "But before that, I'm actually also going to print entire, you know, initial, like how"
+  },
+  {
+    "start": 4957.86,
+    "duration": 11.25,
+    "text": "these things are individually giving me answers."
+  },
+  {
+    "start": 4969.11,
+    "duration": 7.09,
+    "text": "So it will first convert this into whatever calculation it will do, it will then add"
+  },
+  {
+    "start": 4976.2,
+    "duration": 4.24,
+    "text": "it and add a string to it, then answer for individually for this will be given, then"
+  },
+  {
+    "start": 4980.44,
+    "duration": 3.28,
+    "text": "it will add string to it, then an answer for this will be given."
+  },
+  {
+    "start": 4983.72,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 4984.72,
+    "duration": 3.52,
+    "text": "So basically I added string to it so that it does not give me the entire answer."
+  },
+  {
+    "start": 4988.24,
+    "duration": 8.58,
+    "text": "Let's see what the output is, should only give me two lines."
+  },
+  {
+    "start": 4996.82,
+    "duration": 8.26,
+    "text": "So F into B, load into Boolean is actually giving me a float and integer divided by character"
+  },
+  {
+    "start": 5005.08,
+    "duration": 7.18,
+    "text": "is giving me integer and double minus short is giving me a negative number."
+  },
+  {
+    "start": 5012.26,
+    "duration": 6.6,
+    "text": "Okay, let's look into this particular expression a little bit more closely."
+  },
+  {
+    "start": 5018.86,
+    "duration": 2.76,
+    "text": "So in the first expression, you can see F into B."
+  },
+  {
+    "start": 5021.62,
+    "duration": 5.96,
+    "text": "So B is promoted to float because you know float into float into byte."
+  },
+  {
+    "start": 5027.58,
+    "duration": 1.8,
+    "text": "So this is the bigger one."
+  },
+  {
+    "start": 5029.38,
+    "duration": 3.12,
+    "text": "So all the smaller ones will be converted to bigger ones."
+  },
+  {
+    "start": 5032.5,
+    "duration": 5.88,
+    "text": "So B is actually promoted to float and then the sub expression is calculated in float."
+  },
+  {
+    "start": 5038.38,
+    "duration": 6.56,
+    "text": "In the next I divide by C, C is promoted to integer and then you know the answer"
+  },
+  {
+    "start": 5044.94,
+    "duration": 9.84,
+    "text": "this entire answer is an integer. Then in the next one, double minus s or let us say if"
+  },
+  {
+    "start": 5054.78,
+    "duration": 7.94,
+    "text": "we take star, star is also fine because we are taking something like let us say star only"
+  },
+  {
+    "start": 5062.72,
+    "duration": 1.0,
+    "text": "no worries."
+  },
+  {
+    "start": 5063.72,
+    "duration": 3.92,
+    "text": "But here what is happening in any case, even if you take the previous one, in any case"
+  },
+  {
+    "start": 5067.64,
+    "duration": 7.12,
+    "text": "what is happening? The value of s, the short because it is a smaller one, it is being"
+  },
+  {
+    "start": 5074.76,
+    "duration": 8.36,
+    "text": "promoted to double. And the outcome is what? Float I can just write it output is float"
+  },
+  {
+    "start": 5083.12,
+    "duration": 10.76,
+    "text": "plus what integer minus double. What is this? What is the maximum of all these? What is"
+  },
+  {
+    "start": 5093.88,
+    "duration": 6.48,
+    "text": "the maximum one? Double, which is equal to double. This is what we have been doing so"
+  },
+  {
+    "start": 5100.36,
+    "duration": 4.2,
+    "text": "So far right, if you have multiple types, all the others are converted to the biggest"
+  },
+  {
+    "start": 5104.56,
+    "duration": 3.56,
+    "text": "one in float integer and double, which is the biggest one double."
+  },
+  {
+    "start": 5108.12,
+    "duration": 5.1,
+    "text": "So every result entire result is converted to double."
+  },
+  {
+    "start": 5113.22,
+    "duration": 1.0,
+    "text": "Make sense?"
+  },
+  {
+    "start": 5114.22,
+    "duration": 1.0,
+    "text": "Cool."
+  },
+  {
+    "start": 5115.22,
+    "duration": 2.68,
+    "text": "That was about typecasting conversion, all the rules and everything I mentioned, please"
+  },
+  {
+    "start": 5117.9,
+    "duration": 5.92,
+    "text": "watch it again and again and very, very simple stuff of while loop and for loop."
+  },
+  {
+    "start": 5123.82,
+    "duration": 3.88,
+    "text": "So you can say something for loop will do later on, but let's just say while loop."
+  },
+  {
+    "start": 5127.7,
+    "duration": 4.48,
+    "text": "So in while loop basically the basic is something like this for if condition like, you know"
+  },
+  {
+    "start": 5132.18,
+    "duration": 9.96,
+    "text": "you can say if let's just say basic of if condition if true print hello world I am explicitly"
+  },
+  {
+    "start": 5142.14,
+    "duration": 11.38,
+    "text": "saying it's true obviously this condition will execute obviously if I say if false obviously"
+  },
+  {
+    "start": 5153.52,
+    "duration": 3.96,
+    "text": "it will not execute because this is false this will only execute when the things inside"
+  },
+  {
+    "start": 5157.48,
+    "duration": 7.54,
+    "text": "this are true if I say int a is equal to 10 and here I say if a is equal to equal to 10"
+  },
+  {
+    "start": 5165.02,
+    "duration": 4.94,
+    "text": "is a equal to 10 yes it is print hello world it will print hello world this is a basic if"
+  },
+  {
+    "start": 5169.96,
+    "duration": 6.4,
+    "text": "condition in programming languages okay while loop is similar while loop is like basic stuff"
+  },
+  {
+    "start": 5176.36,
+    "duration": 5.64,
+    "text": "so I can say let's say I want to print the first five numbers so I can say int count"
+  },
+  {
+    "start": 5182.0,
+    "duration": 14.28,
+    "text": "is equal to one and I can say while my count is not equal to five print count and count"
+  },
+  {
+    "start": 5196.28,
+    "duration": 13.66,
+    "text": "plus plus. It will print all the numbers one two three four count value is one then it will"
+  },
+  {
+    "start": 5209.94,
+    "duration": 5.24,
+    "text": "start the loop is one not equal to five. Yes one is not equal to five print one increase"
+  },
+  {
+    "start": 5215.18,
+    "duration": 5.16,
+    "text": "the value of one by one. Now count will be two is you can try to put a debug pointer over"
+  },
+  {
+    "start": 5220.34,
+    "duration": 7.18,
+    "text": "here as well. So you can say currently the count value is one is one not equal to five."
+  },
+  {
+    "start": 5227.52,
+    "duration": 4.38,
+    "text": "It says it's true that is correct one is not equal to five. Hence go inside this loop"
+  },
+  {
+    "start": 5231.9,
+    "duration": 4.96,
+    "text": "print one and increase the value of one by one. Now count is two is two not equal"
+  },
+  {
+    "start": 5236.86,
+    "duration": 5.32,
+    "text": "to five. Yes, in two increase it to three is three not equal to five. Yes, is four"
+  },
+  {
+    "start": 5242.18,
+    "duration": 6.0,
+    "text": "not equal to 5, yes. Is 5 not equal to 5? No. Now this condition is false. Hence it"
+  },
+  {
+    "start": 5248.18,
+    "duration": 8.76,
+    "text": "will not go inside the while loop. It will come outside the while loop. Program over."
+  },
+  {
+    "start": 5256.94,
+    "duration": 8.28,
+    "text": "For loop is similar. For loop syntax is something like this. I can say same thing. I can say"
+  },
+  {
+    "start": 5265.22,
+    "duration": 7.6,
+    "text": "for braces and body will go over here. Here my initialization will go. So int count"
+  },
+  {
+    "start": 5272.82,
+    "duration": 5.92,
+    "text": "is equal to 1, next my condition will go, so I can just hide this, my condition will"
+  },
+  {
+    "start": 5278.74,
+    "duration": 7.44,
+    "text": "go over here while let us say count not equal to 5 and next my increment will go count plus"
+  },
+  {
+    "start": 5286.18,
+    "duration": 7.2,
+    "text": "plus, this thing comes over here, this thing comes over here, this thing comes over here,"
+  },
+  {
+    "start": 5293.38,
+    "duration": 10.0,
+    "text": "print, count, same stuff. Now a question you may be eitherizing hey Kunal, when do"
+  },
+  {
+    "start": 5303.38,
+    "duration": 4.24,
+    "text": "do we use for loop and when do we use while loop? We'll do more questions on this later"
+  },
+  {
+    "start": 5307.62,
+    "duration": 4.96,
+    "text": "on. Some of the more difficult hard questions also we'll do that we'll use this in prime"
+  },
+  {
+    "start": 5312.58,
+    "duration": 3.6,
+    "text": "numbers and sieves and all these things we'll be doing. Simple answer is when you don't"
+  },
+  {
+    "start": 5316.18,
+    "duration": 4.2,
+    "text": "know how many times the loop is going to run, use the while loop. When you know how many"
+  },
+  {
+    "start": 5320.38,
+    "duration": 6.04,
+    "text": "times the loop is going to run, use the for loop as simple as that. So we have public"
+  },
+  {
+    "start": 5326.42,
+    "duration": 7.15,
+    "text": "static void main. I'll just copy paste this scanner thing. I can say please enter"
+  },
+  {
+    "start": 5333.57,
+    "duration": 10.56,
+    "text": "a temperature in Celsius, okay, we can Google about it Celsius to Fahrenheit converter formula."
+  },
+  {
+    "start": 5344.13,
+    "duration": 7.44,
+    "text": "What is it 9 by 5 or something to convert degree Celsius to Fahrenheit, right? It says"
+  },
+  {
+    "start": 5351.57,
+    "duration": 10.85,
+    "text": "what is the formula? To convert temperature in degree Celsius, multiply it by 9 divide"
+  },
+  {
+    "start": 5362.42,
+    "duration": 6.3,
+    "text": "by 5 and add 32 to it okay. So we are taking it in Celsius and then our answer let's say"
+  },
+  {
+    "start": 5368.72,
+    "duration": 6.76,
+    "text": "it's going to be let's say we take it in float because temperature can be in like you know"
+  },
+  {
+    "start": 5375.48,
+    "duration": 6.06,
+    "text": "decimal points. So I can say float temperature in Celsius is going to be equal to what"
+  },
+  {
+    "start": 5381.54,
+    "duration": 6.34,
+    "text": "in dot next float. Now it's going to be like float temperature in Fahrenheit is"
+  },
+  {
+    "start": 5387.88,
+    "duration": 6.86,
+    "text": "going to be equal to what? Temperature in Celsius multiplied by 9 by 5. So, temperature"
+  },
+  {
+    "start": 5394.74,
+    "duration": 15.34,
+    "text": "in Celsius divided multiplied by 9 divided by 5 plus 32. Makes sense? That's the formula"
+  },
+  {
+    "start": 5410.08,
+    "duration": 8.93,
+    "text": "over here. Then I can just say print temperature in Fahrenheit. Let's try something. So let's"
+  },
+  {
+    "start": 5419.01,
+    "duration": 10.49,
+    "text": "say if I do Celsius 40 degree Celsius should give me 104 104 wide converted it to float"
+  },
+  {
+    "start": 5429.5,
+    "duration": 13.24,
+    "text": "we already covered it and also give something like 32.89 90.202 91.202 very simple stuff"
+  },
+  {
+    "start": 5442.74,
+    "duration": 4.0,
+    "text": "so I'll add some questions in the assignment try it out very simple you know simple stuff"
+  },
+  {
+    "start": 5446.74,
+    "duration": 4.32,
+    "text": "and that was it we learned about input output type conversion casting all the rules"
+  },
+  {
+    "start": 5451.06,
+    "duration": 5.36,
+    "text": "and don't worry about what the object is, how the constructor is happening, what is new,"
+  },
+  {
+    "start": 5456.42,
+    "duration": 3.6,
+    "text": "we'll cover the scanner class and how these things are working internally in detail."
+  },
+  {
+    "start": 5460.58,
+    "duration": 2.96,
+    "text": "Don't worry about it, we'll cover it in object-oriented programming,"
+  },
+  {
+    "start": 5463.54,
+    "duration": 3.28,
+    "text": "how the object is being created, what is this new keyword, what is static,"
+  },
+  {
+    "start": 5466.82,
+    "duration": 2.48,
+    "text": "public-private-protective, whatever, everything will cover in detail."
+  },
+  {
+    "start": 5469.86,
+    "duration": 3.44,
+    "text": "For now, this is just something that Java people have given us."
+  },
+  {
+    "start": 5473.3,
+    "duration": 2.32,
+    "text": "It defines a variable that means our keyboard."
+  },
+  {
+    "start": 5475.62,
+    "duration": 3.76,
+    "text": "System.out means it defines a variable that means our default output."
+  },
+  {
+    "start": 5479.38,
+    "duration": 5.56,
+    "text": "scanner is basically a scanner class and system basically means the system dot out means this"
+  },
+  {
+    "start": 5484.94,
+    "duration": 7.32,
+    "text": "is the monitor the command the command line in the command line do a dot print."
+  },
+  {
+    "start": 5492.26,
+    "duration": 2.92,
+    "text": "So it will print it in the command line this will be much more clearer when we work with"
+  },
+  {
+    "start": 5495.18,
+    "duration": 1.4,
+    "text": "files and stuff."
+  },
+  {
+    "start": 5496.58,
+    "duration": 4.12,
+    "text": "So currently you are outputting it on command line later you will be outputting on in"
+  },
+  {
+    "start": 5500.7,
+    "duration": 4.4,
+    "text": "files and stuff in many like Google kits kickstart and stuff they ask you to submit"
+  },
+  {
+    "start": 5505.1,
+    "duration": 1.0,
+    "text": "a file right."
+  },
+  {
+    "start": 5506.1,
+    "duration": 4.48,
+    "text": "work on that as well, some of efficient way to get, you know, input and output and stuff."
+  },
+  {
+    "start": 5510.58,
+    "duration": 4.52,
+    "text": "Don't worry much about that right now. We'll cover that in detail in Object 20 programming."
+  },
+  {
+    "start": 5515.1,
+    "duration": 2.6,
+    "text": "If you liked it, make sure you like share and subscribe and check out the links in"
+  },
+  {
+    "start": 5517.7,
+    "duration": 3.4,
+    "text": "the description. I add assignments and notes and everything over there. And we'll see"
+  },
+  {
+    "start": 5521.1,
+    "duration": 3.24,
+    "text": "you in the next one. Don't worry, we'll cover everything in Object 20 programming"
+  },
+  {
+    "start": 5524.34,
+    "duration": 3.6,
+    "text": "in much more detail. For now, just focus on what we are doing and how we are doing"
+  },
+  {
+    "start": 5527.94,
+    "duration": 4.04,
+    "text": "it. We'll cover it in a very, very short period of time. Thanks a lot for watching"
+  },
+  {
+    "start": 5531.98,
+    "duration": 3.24,
+    "text": "and check out the links in description. I'll see you in the next one. Bye."
+  }
+]

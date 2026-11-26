@@ -1,0 +1,8127 @@
+[
+  {
+    "start": 3.76,
+    "duration": 3.92,
+    "text": "hey everyone welcome back to another"
+  },
+  {
+    "start": 5.359,
+    "duration": 3.921,
+    "text": "video of the complete java data"
+  },
+  {
+    "start": 7.68,
+    "duration": 3.44,
+    "text": "structures algorithms boot camp in this"
+  },
+  {
+    "start": 9.28,
+    "duration": 3.519,
+    "text": "video we will be learning about"
+  },
+  {
+    "start": 11.12,
+    "duration": 3.12,
+    "text": "searching in matrices so like if you're"
+  },
+  {
+    "start": 12.799,
+    "duration": 3.841,
+    "text": "giving a sorted metrics how do you"
+  },
+  {
+    "start": 14.24,
+    "duration": 4.48,
+    "text": "search in that and how do you you know"
+  },
+  {
+    "start": 16.64,
+    "duration": 4.399,
+    "text": "reduce the search space how do you apply"
+  },
+  {
+    "start": 18.72,
+    "duration": 4.399,
+    "text": "binary search in it for example so all"
+  },
+  {
+    "start": 21.039,
+    "duration": 4.32,
+    "text": "these questions will be doing and also"
+  },
+  {
+    "start": 23.119,
+    "duration": 3.761,
+    "text": "uh since this is a complete boot camp so"
+  },
+  {
+    "start": 25.359,
+    "duration": 3.121,
+    "text": "we have we are covering the entire boot"
+  },
+  {
+    "start": 26.88,
+    "duration": 3.84,
+    "text": "camp from scratch no prerequisites are"
+  },
+  {
+    "start": 28.48,
+    "duration": 3.68,
+    "text": "required so make sure you check out the"
+  },
+  {
+    "start": 30.72,
+    "duration": 2.72,
+    "text": "playlist link in the description below"
+  },
+  {
+    "start": 32.16,
+    "duration": 2.88,
+    "text": "you will find all the lectures over"
+  },
+  {
+    "start": 33.44,
+    "duration": 3.36,
+    "text": "there for free and if you want to learn"
+  },
+  {
+    "start": 35.04,
+    "duration": 3.519,
+    "text": "about the assignments and notes and all"
+  },
+  {
+    "start": 36.8,
+    "duration": 3.12,
+    "text": "the code that you want to see the link"
+  },
+  {
+    "start": 38.559,
+    "duration": 2.561,
+    "text": "for that is also in the description"
+  },
+  {
+    "start": 39.92,
+    "duration": 2.4,
+    "text": "before we get started make sure you"
+  },
+  {
+    "start": 41.12,
+    "duration": 2.959,
+    "text": "pause the video and subscribe to the"
+  },
+  {
+    "start": 42.32,
+    "duration": 4.16,
+    "text": "channel if you haven't already we do"
+  },
+  {
+    "start": 44.079,
+    "duration": 4.0,
+    "text": "some amazing work on the channel and uh"
+  },
+  {
+    "start": 46.48,
+    "duration": 4.32,
+    "text": "we're gonna be you know bringing such uh"
+  },
+  {
+    "start": 48.079,
+    "duration": 4.401,
+    "text": "nice content to you regularly cool"
+  },
+  {
+    "start": 50.8,
+    "duration": 3.279,
+    "text": "so let's get started so with the first"
+  },
+  {
+    "start": 52.48,
+    "duration": 3.2,
+    "text": "question uh if you don't know what"
+  },
+  {
+    "start": 54.079,
+    "duration": 3.441,
+    "text": "matrices are or what all these things"
+  },
+  {
+    "start": 55.68,
+    "duration": 3.359,
+    "text": "are we've already covered it in like the"
+  },
+  {
+    "start": 57.52,
+    "duration": 5.679,
+    "text": "arrays lecture so make sure you check it"
+  },
+  {
+    "start": 59.039,
+    "duration": 6.641,
+    "text": "out but uh let's get started with um"
+  },
+  {
+    "start": 63.199,
+    "duration": 2.481,
+    "text": "searching"
+  },
+  {
+    "start": 66.64,
+    "duration": 3.519,
+    "text": "in"
+  },
+  {
+    "start": 67.52,
+    "duration": 2.639,
+    "text": "matrices"
+  },
+  {
+    "start": 70.24,
+    "duration": 5.36,
+    "text": "okay matrix is like a uh"
+  },
+  {
+    "start": 72.88,
+    "duration": 3.919,
+    "text": "and a 2d array something for example so"
+  },
+  {
+    "start": 75.6,
+    "duration": 2.72,
+    "text": "if you're not aware of what are 2d"
+  },
+  {
+    "start": 76.799,
+    "duration": 2.32,
+    "text": "arrays and all these things make sure"
+  },
+  {
+    "start": 78.32,
+    "duration": 1.839,
+    "text": "you check out the links in the"
+  },
+  {
+    "start": 79.119,
+    "duration": 2.961,
+    "text": "description"
+  },
+  {
+    "start": 80.159,
+    "duration": 4.401,
+    "text": "so"
+  },
+  {
+    "start": 82.08,
+    "duration": 5.28,
+    "text": "we're talking about uh searching in a 2d"
+  },
+  {
+    "start": 84.56,
+    "duration": 4.559,
+    "text": "array right so if you're given a"
+  },
+  {
+    "start": 87.36,
+    "duration": 3.439,
+    "text": "simple array like this"
+  },
+  {
+    "start": 89.119,
+    "duration": 4.32,
+    "text": "if you're given an array let's say a"
+  },
+  {
+    "start": 90.799,
+    "duration": 4.721,
+    "text": "three by three array"
+  },
+  {
+    "start": 93.439,
+    "duration": 5.68,
+    "text": "you give your elements like 18"
+  },
+  {
+    "start": 95.52,
+    "duration": 5.36,
+    "text": "9 12 36 minus 4"
+  },
+  {
+    "start": 99.119,
+    "duration": 5.121,
+    "text": "91"
+  },
+  {
+    "start": 100.88,
+    "duration": 4.64,
+    "text": "44 33"
+  },
+  {
+    "start": 104.24,
+    "duration": 2.48,
+    "text": "16"
+  },
+  {
+    "start": 105.52,
+    "duration": 3.84,
+    "text": "and you're saying that okay this is a"
+  },
+  {
+    "start": 106.72,
+    "duration": 4.24,
+    "text": "matrices that is matrix given to you and"
+  },
+  {
+    "start": 109.36,
+    "duration": 2.48,
+    "text": "the target element that you need to"
+  },
+  {
+    "start": 110.96,
+    "duration": 2.72,
+    "text": "search"
+  },
+  {
+    "start": 111.84,
+    "duration": 3.44,
+    "text": "is equal to what let's say"
+  },
+  {
+    "start": 113.68,
+    "duration": 3.68,
+    "text": "91"
+  },
+  {
+    "start": 115.28,
+    "duration": 4.32,
+    "text": "you need to search whether 91 exists in"
+  },
+  {
+    "start": 117.36,
+    "duration": 4.64,
+    "text": "this area or not how do we do that it's"
+  },
+  {
+    "start": 119.6,
+    "duration": 4.32,
+    "text": "very simple you know this is not sorted"
+  },
+  {
+    "start": 122.0,
+    "duration": 4.079,
+    "text": "it's just like random numbers so you"
+  },
+  {
+    "start": 123.92,
+    "duration": 4.24,
+    "text": "keep checking one by one you run a"
+  },
+  {
+    "start": 126.079,
+    "duration": 4.8,
+    "text": "nested for loop again if you are not"
+  },
+  {
+    "start": 128.16,
+    "duration": 4.719,
+    "text": "aware of the nested for loop and how to"
+  },
+  {
+    "start": 130.879,
+    "duration": 5.041,
+    "text": "traverse how to basically"
+  },
+  {
+    "start": 132.879,
+    "duration": 4.321,
+    "text": "run through a 2d array pause this video"
+  },
+  {
+    "start": 135.92,
+    "duration": 3.6,
+    "text": "check out the link in the description"
+  },
+  {
+    "start": 137.2,
+    "duration": 4.48,
+    "text": "below there's a section on"
+  },
+  {
+    "start": 139.52,
+    "duration": 4.48,
+    "text": "arrays but there's a separate video on"
+  },
+  {
+    "start": 141.68,
+    "duration": 4.8,
+    "text": "arrays in that we have covered the 2d"
+  },
+  {
+    "start": 144.0,
+    "duration": 3.92,
+    "text": "you know uh for loop"
+  },
+  {
+    "start": 146.48,
+    "duration": 3.28,
+    "text": "check that out there you will understand"
+  },
+  {
+    "start": 147.92,
+    "duration": 4.08,
+    "text": "how each and every element is you are"
+  },
+  {
+    "start": 149.76,
+    "duration": 3.52,
+    "text": "going through it i never skip anything"
+  },
+  {
+    "start": 152.0,
+    "duration": 3.36,
+    "text": "everything that i say i have already"
+  },
+  {
+    "start": 153.28,
+    "duration": 5.2,
+    "text": "covered previously or i mentioned that"
+  },
+  {
+    "start": 155.36,
+    "duration": 4.8,
+    "text": "we will cover it in the later courses so"
+  },
+  {
+    "start": 158.48,
+    "duration": 3.119,
+    "text": "we can run two for loops one for the"
+  },
+  {
+    "start": 160.16,
+    "duration": 4.0,
+    "text": "rows and one for the columns like we"
+  },
+  {
+    "start": 161.599,
+    "duration": 3.841,
+    "text": "have learnt already so you can say zero"
+  },
+  {
+    "start": 164.16,
+    "duration": 2.88,
+    "text": "one two"
+  },
+  {
+    "start": 165.44,
+    "duration": 2.96,
+    "text": "zero one two"
+  },
+  {
+    "start": 167.04,
+    "duration": 5.36,
+    "text": "so i can say"
+  },
+  {
+    "start": 168.4,
+    "duration": 5.52,
+    "text": "for rho is equal to 0 row is less than n"
+  },
+  {
+    "start": 172.4,
+    "duration": 4.64,
+    "text": "row plus plus"
+  },
+  {
+    "start": 173.92,
+    "duration": 5.2,
+    "text": "and i can say for column is equal to 0"
+  },
+  {
+    "start": 177.04,
+    "duration": 4.16,
+    "text": "column is less than also n"
+  },
+  {
+    "start": 179.12,
+    "duration": 4.16,
+    "text": "column plus plus so it's going to be"
+  },
+  {
+    "start": 181.2,
+    "duration": 3.36,
+    "text": "like if"
+  },
+  {
+    "start": 183.28,
+    "duration": 4.16,
+    "text": "array of"
+  },
+  {
+    "start": 184.56,
+    "duration": 6.16,
+    "text": "row comma column is equal to target"
+  },
+  {
+    "start": 187.44,
+    "duration": 5.439,
+    "text": "it means that you have found the answer"
+  },
+  {
+    "start": 190.72,
+    "duration": 4.239,
+    "text": "okay otherwise after running this for"
+  },
+  {
+    "start": 192.879,
+    "duration": 4.481,
+    "text": "loop you have not found the answer"
+  },
+  {
+    "start": 194.959,
+    "duration": 3.681,
+    "text": "just return minus 1 means element does"
+  },
+  {
+    "start": 197.36,
+    "duration": 3.76,
+    "text": "not exist"
+  },
+  {
+    "start": 198.64,
+    "duration": 5.04,
+    "text": "so it will start like this for 0"
+  },
+  {
+    "start": 201.12,
+    "duration": 4.64,
+    "text": "basically this outer loop is for the row"
+  },
+  {
+    "start": 203.68,
+    "duration": 4.16,
+    "text": "this inner loop is actually for every"
+  },
+  {
+    "start": 205.76,
+    "duration": 3.52,
+    "text": "single column i've explained this in"
+  },
+  {
+    "start": 207.84,
+    "duration": 3.28,
+    "text": "detail so make sure you check out if you"
+  },
+  {
+    "start": 209.28,
+    "duration": 4.48,
+    "text": "don't understand"
+  },
+  {
+    "start": 211.12,
+    "duration": 5.28,
+    "text": "the area lecture so okay is 18 equal to"
+  },
+  {
+    "start": 213.76,
+    "duration": 5.039,
+    "text": "target no is 9 equal to target no is 12"
+  },
+  {
+    "start": 216.4,
+    "duration": 4.24,
+    "text": "equal to target no this loop is over it"
+  },
+  {
+    "start": 218.799,
+    "duration": 4.8,
+    "text": "will come out of here r will now be"
+  },
+  {
+    "start": 220.64,
+    "duration": 5.12,
+    "text": "equal to 1 r will now be equal to 1 same"
+  },
+  {
+    "start": 223.599,
+    "duration": 5.521,
+    "text": "column will now run for r equal to 1 is"
+  },
+  {
+    "start": 225.76,
+    "duration": 6.64,
+    "text": "36 equal to 91 no is this equal to 91 no"
+  },
+  {
+    "start": 229.12,
+    "duration": 4.72,
+    "text": "this is equal to 91 yes answer"
+  },
+  {
+    "start": 232.4,
+    "duration": 3.68,
+    "text": "found my answer"
+  },
+  {
+    "start": 233.84,
+    "duration": 5.119,
+    "text": "answer i have found out where"
+  },
+  {
+    "start": 236.08,
+    "duration": 5.439,
+    "text": "column one comma two"
+  },
+  {
+    "start": 238.959,
+    "duration": 3.84,
+    "text": "sorry uh index number one comma two"
+  },
+  {
+    "start": 241.519,
+    "duration": 4.72,
+    "text": "first row"
+  },
+  {
+    "start": 242.799,
+    "duration": 4.321,
+    "text": "uh row number one column number second"
+  },
+  {
+    "start": 246.239,
+    "duration": 2.64,
+    "text": "okay"
+  },
+  {
+    "start": 247.12,
+    "duration": 3.28,
+    "text": "row number one"
+  },
+  {
+    "start": 248.879,
+    "duration": 5.08,
+    "text": "column number second"
+  },
+  {
+    "start": 250.4,
+    "duration": 3.559,
+    "text": "here's your answer"
+  },
+  {
+    "start": 254.159,
+    "duration": 3.36,
+    "text": "okay"
+  },
+  {
+    "start": 255.2,
+    "duration": 4.879,
+    "text": "so this is a very simple search"
+  },
+  {
+    "start": 257.519,
+    "duration": 3.84,
+    "text": "and what is the worst number of steps is"
+  },
+  {
+    "start": 260.079,
+    "duration": 2.081,
+    "text": "going to take"
+  },
+  {
+    "start": 261.359,
+    "duration": 2.161,
+    "text": "n"
+  },
+  {
+    "start": 262.16,
+    "duration": 4.64,
+    "text": "into n"
+  },
+  {
+    "start": 263.52,
+    "duration": 5.52,
+    "text": "which is equal to n square is equal to"
+  },
+  {
+    "start": 266.8,
+    "duration": 3.6,
+    "text": "the time complexity don't worry about"
+  },
+  {
+    "start": 269.04,
+    "duration": 3.2,
+    "text": "this"
+  },
+  {
+    "start": 270.4,
+    "duration": 3.359,
+    "text": "the bigger notation because we've"
+  },
+  {
+    "start": 272.24,
+    "duration": 3.28,
+    "text": "already covered like"
+  },
+  {
+    "start": 273.759,
+    "duration": 3.44,
+    "text": "a little bit about it but in detail what"
+  },
+  {
+    "start": 275.52,
+    "duration": 3.52,
+    "text": "is vivo notation like the mathematics of"
+  },
+  {
+    "start": 277.199,
+    "duration": 2.881,
+    "text": "it we will cover in time complexity"
+  },
+  {
+    "start": 279.04,
+    "duration": 2.719,
+    "text": "lecture"
+  },
+  {
+    "start": 280.08,
+    "duration": 3.119,
+    "text": "so if you're watching it in the future"
+  },
+  {
+    "start": 281.759,
+    "duration": 2.16,
+    "text": "uh we have already covered it make sure"
+  },
+  {
+    "start": 283.199,
+    "duration": 2.081,
+    "text": "you check out the link in the"
+  },
+  {
+    "start": 283.919,
+    "duration": 3.84,
+    "text": "description"
+  },
+  {
+    "start": 285.28,
+    "duration": 5.28,
+    "text": "okay so at maximum it will take n square"
+  },
+  {
+    "start": 287.759,
+    "duration": 5.761,
+    "text": "comparison so complex time complexity is"
+  },
+  {
+    "start": 290.56,
+    "duration": 3.919,
+    "text": "of n squared or if the number of rows"
+  },
+  {
+    "start": 293.52,
+    "duration": 2.8,
+    "text": "are m"
+  },
+  {
+    "start": 294.479,
+    "duration": 4.241,
+    "text": "n and number of columns are m for"
+  },
+  {
+    "start": 296.32,
+    "duration": 3.599,
+    "text": "example so the complexity will be equal"
+  },
+  {
+    "start": 298.72,
+    "duration": 4.319,
+    "text": "to what"
+  },
+  {
+    "start": 299.919,
+    "duration": 3.12,
+    "text": "n cross m"
+  },
+  {
+    "start": 304.08,
+    "duration": 3.04,
+    "text": "okay"
+  },
+  {
+    "start": 305.28,
+    "duration": 3.28,
+    "text": "cool let's take another question this is"
+  },
+  {
+    "start": 307.12,
+    "duration": 4.48,
+    "text": "a very simple one"
+  },
+  {
+    "start": 308.56,
+    "duration": 4.88,
+    "text": "let's take let's say we have our"
+  },
+  {
+    "start": 311.6,
+    "duration": 4.8,
+    "text": "something like this"
+  },
+  {
+    "start": 313.44,
+    "duration": 5.68,
+    "text": "let's say we have a matrix"
+  },
+  {
+    "start": 316.4,
+    "duration": 4.799,
+    "text": "let's say the matrix"
+  },
+  {
+    "start": 319.12,
+    "duration": 4.32,
+    "text": "is"
+  },
+  {
+    "start": 321.199,
+    "duration": 5.761,
+    "text": "sorted"
+  },
+  {
+    "start": 323.44,
+    "duration": 6.72,
+    "text": "in a row wise and column wise manner"
+  },
+  {
+    "start": 326.96,
+    "duration": 5.519,
+    "text": "in a row wise"
+  },
+  {
+    "start": 330.16,
+    "duration": 3.68,
+    "text": "and column"
+  },
+  {
+    "start": 332.479,
+    "duration": 2.56,
+    "text": "y is"
+  },
+  {
+    "start": 333.84,
+    "duration": 3.28,
+    "text": "manner"
+  },
+  {
+    "start": 335.039,
+    "duration": 3.6,
+    "text": "let's say the matrix is sorted like this"
+  },
+  {
+    "start": 337.12,
+    "duration": 4.799,
+    "text": "now what do i mean by this let's say"
+  },
+  {
+    "start": 338.639,
+    "duration": 3.28,
+    "text": "you're given a matrix like this"
+  },
+  {
+    "start": 343.68,
+    "duration": 2.239,
+    "text": "okay"
+  },
+  {
+    "start": 349.44,
+    "duration": 4.479,
+    "text": "okay so even something like 10"
+  },
+  {
+    "start": 351.84,
+    "duration": 7.68,
+    "text": "20 30"
+  },
+  {
+    "start": 353.919,
+    "duration": 8.0,
+    "text": "40. you're giving like 15 25 35"
+  },
+  {
+    "start": 359.52,
+    "duration": 3.6,
+    "text": "45 given 28"
+  },
+  {
+    "start": 361.919,
+    "duration": 2.161,
+    "text": "29"
+  },
+  {
+    "start": 363.12,
+    "duration": 2.48,
+    "text": "uh"
+  },
+  {
+    "start": 364.08,
+    "duration": 2.72,
+    "text": "37"
+  },
+  {
+    "start": 365.6,
+    "duration": 5.12,
+    "text": "and"
+  },
+  {
+    "start": 366.8,
+    "duration": 5.44,
+    "text": "49 and you're given something like 33"
+  },
+  {
+    "start": 370.72,
+    "duration": 2.88,
+    "text": "34"
+  },
+  {
+    "start": 372.24,
+    "duration": 3.2,
+    "text": "38"
+  },
+  {
+    "start": 373.6,
+    "duration": 3.68,
+    "text": "and 50."
+  },
+  {
+    "start": 375.44,
+    "duration": 4.479,
+    "text": "you can see that row wise and column"
+  },
+  {
+    "start": 377.28,
+    "duration": 4.96,
+    "text": "wise sorted row y is sorted and column"
+  },
+  {
+    "start": 379.919,
+    "duration": 4.801,
+    "text": "wise sorted it means that every row is"
+  },
+  {
+    "start": 382.24,
+    "duration": 4.239,
+    "text": "sorted like this also if you look or if"
+  },
+  {
+    "start": 384.72,
+    "duration": 4.16,
+    "text": "you look at any column that will also be"
+  },
+  {
+    "start": 386.479,
+    "duration": 2.401,
+    "text": "sorted"
+  },
+  {
+    "start": 389.36,
+    "duration": 5.2,
+    "text": "take any row"
+  },
+  {
+    "start": 390.8,
+    "duration": 6.64,
+    "text": "row number this is 0 1 2 3"
+  },
+  {
+    "start": 394.56,
+    "duration": 5.359,
+    "text": "0 1 2 3. these are the columns"
+  },
+  {
+    "start": 397.44,
+    "duration": 4.4,
+    "text": "these are the rows"
+  },
+  {
+    "start": 399.919,
+    "duration": 6.801,
+    "text": "take any row it will be sorted let's say"
+  },
+  {
+    "start": 401.84,
+    "duration": 7.759,
+    "text": "row number 2 28 29 37 49 sorted"
+  },
+  {
+    "start": 406.72,
+    "duration": 5.919,
+    "text": "let's say column number three 40 45 49"
+  },
+  {
+    "start": 409.599,
+    "duration": 4.88,
+    "text": "50. it's also sorted"
+  },
+  {
+    "start": 412.639,
+    "duration": 3.041,
+    "text": "okay so now you need to search an"
+  },
+  {
+    "start": 414.479,
+    "duration": 2.401,
+    "text": "element in this"
+  },
+  {
+    "start": 415.68,
+    "duration": 3.44,
+    "text": "let's say you are saying trying to"
+  },
+  {
+    "start": 416.88,
+    "duration": 6.2,
+    "text": "search let's say target element"
+  },
+  {
+    "start": 419.12,
+    "duration": 3.96,
+    "text": "try to search for 37."
+  },
+  {
+    "start": 423.759,
+    "duration": 2.88,
+    "text": "try to search for"
+  },
+  {
+    "start": 425.36,
+    "duration": 3.44,
+    "text": "37"
+  },
+  {
+    "start": 426.639,
+    "duration": 4.4,
+    "text": "how are we going to do that"
+  },
+  {
+    "start": 428.8,
+    "duration": 3.2,
+    "text": "let's see"
+  },
+  {
+    "start": 431.039,
+    "duration": 2.56,
+    "text": "so the"
+  },
+  {
+    "start": 432.0,
+    "duration": 3.599,
+    "text": "very first solution that comes to our"
+  },
+  {
+    "start": 433.599,
+    "duration": 3.761,
+    "text": "mind is this similar one"
+  },
+  {
+    "start": 435.599,
+    "duration": 4.32,
+    "text": "we can do something like this"
+  },
+  {
+    "start": 437.36,
+    "duration": 4.72,
+    "text": "and then we can search for 37 of n"
+  },
+  {
+    "start": 439.919,
+    "duration": 4.161,
+    "text": "squared but the thing is that this is"
+  },
+  {
+    "start": 442.08,
+    "duration": 3.28,
+    "text": "not efficient and we are not really"
+  },
+  {
+    "start": 444.08,
+    "duration": 3.76,
+    "text": "utilizing"
+  },
+  {
+    "start": 445.36,
+    "duration": 4.08,
+    "text": "what has been provided to us"
+  },
+  {
+    "start": 447.84,
+    "duration": 4.16,
+    "text": "for us they have provided that the"
+  },
+  {
+    "start": 449.44,
+    "duration": 4.879,
+    "text": "matrix matrix is sorted so that is"
+  },
+  {
+    "start": 452.0,
+    "duration": 4.56,
+    "text": "something we have not"
+  },
+  {
+    "start": 454.319,
+    "duration": 6.481,
+    "text": "thought about"
+  },
+  {
+    "start": 456.56,
+    "duration": 6.24,
+    "text": "so in this case what we can do is"
+  },
+  {
+    "start": 460.8,
+    "duration": 3.519,
+    "text": "when you are given such large search"
+  },
+  {
+    "start": 462.8,
+    "duration": 4.32,
+    "text": "spaces"
+  },
+  {
+    "start": 464.319,
+    "duration": 4.72,
+    "text": "try to figure out how you can minimize"
+  },
+  {
+    "start": 467.12,
+    "duration": 4.0,
+    "text": "the search space there's also a very"
+  },
+  {
+    "start": 469.039,
+    "duration": 3.921,
+    "text": "nice pattern or a hint in coding"
+  },
+  {
+    "start": 471.12,
+    "duration": 3.68,
+    "text": "interviews that you will get so if"
+  },
+  {
+    "start": 472.96,
+    "duration": 3.6,
+    "text": "they're asking you to search something"
+  },
+  {
+    "start": 474.8,
+    "duration": 4.0,
+    "text": "and there's a little like a bigger data"
+  },
+  {
+    "start": 476.56,
+    "duration": 4.56,
+    "text": "or whatever try to see how you can"
+  },
+  {
+    "start": 478.8,
+    "duration": 4.079,
+    "text": "minimize that search"
+  },
+  {
+    "start": 481.12,
+    "duration": 4.72,
+    "text": "try to see how you can"
+  },
+  {
+    "start": 482.879,
+    "duration": 6.241,
+    "text": "minimize that search for example"
+  },
+  {
+    "start": 485.84,
+    "duration": 7.28,
+    "text": "if you're trying to search for 37"
+  },
+  {
+    "start": 489.12,
+    "duration": 6.56,
+    "text": "okay trying to search for 37 so here"
+  },
+  {
+    "start": 493.12,
+    "duration": 4.72,
+    "text": "what are the few cases"
+  },
+  {
+    "start": 495.68,
+    "duration": 4.0,
+    "text": "uh you know when you try to search so we"
+  },
+  {
+    "start": 497.84,
+    "duration": 4.0,
+    "text": "always look for cases let's try to see"
+  },
+  {
+    "start": 499.68,
+    "duration": 3.68,
+    "text": "how many cases we can get over here so"
+  },
+  {
+    "start": 501.84,
+    "duration": 2.72,
+    "text": "let's say you try by"
+  },
+  {
+    "start": 503.36,
+    "duration": 2.64,
+    "text": "that's a normal thing that you were"
+  },
+  {
+    "start": 504.56,
+    "duration": 3.44,
+    "text": "doing before let's say i try to do this"
+  },
+  {
+    "start": 506.0,
+    "duration": 3.68,
+    "text": "only okay"
+  },
+  {
+    "start": 508.0,
+    "duration": 3.599,
+    "text": "which i try to do so only i can try"
+  },
+  {
+    "start": 509.68,
+    "duration": 4.32,
+    "text": "start start by searching like this"
+  },
+  {
+    "start": 511.599,
+    "duration": 4.641,
+    "text": "normal normal normal okay"
+  },
+  {
+    "start": 514.0,
+    "duration": 2.24,
+    "text": "so"
+  },
+  {
+    "start": 517.599,
+    "duration": 4.88,
+    "text": "whenever i am comparing a particular"
+  },
+  {
+    "start": 519.68,
+    "duration": 4.56,
+    "text": "element with my target element what are"
+  },
+  {
+    "start": 522.479,
+    "duration": 4.401,
+    "text": "the cases that i can get now that it's a"
+  },
+  {
+    "start": 524.24,
+    "duration": 2.64,
+    "text": "sorted array"
+  },
+  {
+    "start": 527.12,
+    "duration": 4.64,
+    "text": "the first case can be"
+  },
+  {
+    "start": 528.88,
+    "duration": 5.04,
+    "text": "case number one think about it it can be"
+  },
+  {
+    "start": 531.76,
+    "duration": 4.24,
+    "text": "as many cases you know as like there"
+  },
+  {
+    "start": 533.92,
+    "duration": 4.08,
+    "text": "will be so let's try to figure out how"
+  },
+  {
+    "start": 536.0,
+    "duration": 4.88,
+    "text": "many cases can be there so trying to"
+  },
+  {
+    "start": 538.0,
+    "duration": 4.48,
+    "text": "search for uh elements so"
+  },
+  {
+    "start": 540.88,
+    "duration": 3.84,
+    "text": "uh for example let's say you're trying"
+  },
+  {
+    "start": 542.48,
+    "duration": 4.0,
+    "text": "to search for um"
+  },
+  {
+    "start": 544.72,
+    "duration": 3.84,
+    "text": "something like"
+  },
+  {
+    "start": 546.48,
+    "duration": 3.2,
+    "text": "let's say you're at 34 or whatever"
+  },
+  {
+    "start": 548.56,
+    "duration": 3.52,
+    "text": "okay"
+  },
+  {
+    "start": 549.68,
+    "duration": 4.719,
+    "text": "so if the given number"
+  },
+  {
+    "start": 552.08,
+    "duration": 4.8,
+    "text": "the target number"
+  },
+  {
+    "start": 554.399,
+    "duration": 3.921,
+    "text": "is actually greater"
+  },
+  {
+    "start": 556.88,
+    "duration": 3.519,
+    "text": "than the number that you are at right"
+  },
+  {
+    "start": 558.32,
+    "duration": 3.68,
+    "text": "now"
+  },
+  {
+    "start": 560.399,
+    "duration": 3.44,
+    "text": "okay so for example if you're trying to"
+  },
+  {
+    "start": 562.0,
+    "duration": 3.279,
+    "text": "search for let's say if you're at this"
+  },
+  {
+    "start": 563.839,
+    "duration": 3.201,
+    "text": "particular so you're trying to say hey"
+  },
+  {
+    "start": 565.279,
+    "duration": 3.201,
+    "text": "is this equal to target so you know in"
+  },
+  {
+    "start": 567.04,
+    "duration": 3.2,
+    "text": "binary search we're doing equal to less"
+  },
+  {
+    "start": 568.48,
+    "duration": 3.28,
+    "text": "than or greater than"
+  },
+  {
+    "start": 570.24,
+    "duration": 2.64,
+    "text": "similarly the same thing we will doing"
+  },
+  {
+    "start": 571.76,
+    "duration": 2.8,
+    "text": "over here"
+  },
+  {
+    "start": 572.88,
+    "duration": 4.32,
+    "text": "the same concept we'll be applying over"
+  },
+  {
+    "start": 574.56,
+    "duration": 5.68,
+    "text": "here case number one can be"
+  },
+  {
+    "start": 577.2,
+    "duration": 6.639,
+    "text": "if the element"
+  },
+  {
+    "start": 580.24,
+    "duration": 3.599,
+    "text": "is equal to equal to target"
+  },
+  {
+    "start": 584.08,
+    "duration": 2.72,
+    "text": "answer found"
+  },
+  {
+    "start": 586.959,
+    "duration": 7.281,
+    "text": "case number two can be equal to what"
+  },
+  {
+    "start": 590.8,
+    "duration": 3.44,
+    "text": "if the element that you are at"
+  },
+  {
+    "start": 595.68,
+    "duration": 3.92,
+    "text": "is"
+  },
+  {
+    "start": 596.56,
+    "duration": 3.04,
+    "text": "smaller than target"
+  },
+  {
+    "start": 600.16,
+    "duration": 4.4,
+    "text": "in this case what will happen"
+  },
+  {
+    "start": 602.88,
+    "duration": 3.519,
+    "text": "it basically means"
+  },
+  {
+    "start": 604.56,
+    "duration": 3.12,
+    "text": "that all the elements that you have in"
+  },
+  {
+    "start": 606.399,
+    "duration": 3.68,
+    "text": "this row"
+  },
+  {
+    "start": 607.68,
+    "duration": 4.32,
+    "text": "of this element try to see so for"
+  },
+  {
+    "start": 610.079,
+    "duration": 3.2,
+    "text": "example if i say"
+  },
+  {
+    "start": 612.0,
+    "duration": 3.6,
+    "text": "um"
+  },
+  {
+    "start": 613.279,
+    "duration": 4.56,
+    "text": "you know if i talk about"
+  },
+  {
+    "start": 615.6,
+    "duration": 4.56,
+    "text": "25 for example so here we might do"
+  },
+  {
+    "start": 617.839,
+    "duration": 3.601,
+    "text": "something and then case number 3 can be"
+  },
+  {
+    "start": 620.16,
+    "duration": 4.239,
+    "text": "something like this"
+  },
+  {
+    "start": 621.44,
+    "duration": 4.72,
+    "text": "so case number 3"
+  },
+  {
+    "start": 624.399,
+    "duration": 3.521,
+    "text": "will be equal to that if the element"
+  },
+  {
+    "start": 626.16,
+    "duration": 3.2,
+    "text": "that you are at you know that let's say"
+  },
+  {
+    "start": 627.92,
+    "duration": 4.56,
+    "text": "you're searching for"
+  },
+  {
+    "start": 629.36,
+    "duration": 5.039,
+    "text": "is actually greater than the target"
+  },
+  {
+    "start": 632.48,
+    "duration": 3.84,
+    "text": "the currently the one we are comparing"
+  },
+  {
+    "start": 634.399,
+    "duration": 3.44,
+    "text": "is actually greater than target so these"
+  },
+  {
+    "start": 636.32,
+    "duration": 4.32,
+    "text": "were the three cases that we had in like"
+  },
+  {
+    "start": 637.839,
+    "duration": 4.401,
+    "text": "binary search also okay in binary search"
+  },
+  {
+    "start": 640.64,
+    "duration": 2.4,
+    "text": "we also had a upper bound and lower"
+  },
+  {
+    "start": 642.24,
+    "duration": 2.8,
+    "text": "bound"
+  },
+  {
+    "start": 643.04,
+    "duration": 3.6,
+    "text": "okay we had two places from which we"
+  },
+  {
+    "start": 645.04,
+    "duration": 3.039,
+    "text": "were comparing"
+  },
+  {
+    "start": 646.64,
+    "duration": 3.36,
+    "text": "so in this case"
+  },
+  {
+    "start": 648.079,
+    "duration": 3.921,
+    "text": "what all cases are going to compare with"
+  },
+  {
+    "start": 650.0,
+    "duration": 5.12,
+    "text": "it what is the start and end going to be"
+  },
+  {
+    "start": 652.0,
+    "duration": 4.959,
+    "text": "is my question start and end going to be"
+  },
+  {
+    "start": 655.12,
+    "duration": 4.719,
+    "text": "so in matrix related questions when you"
+  },
+  {
+    "start": 656.959,
+    "duration": 4.721,
+    "text": "are trying to reduce the search space"
+  },
+  {
+    "start": 659.839,
+    "duration": 4.161,
+    "text": "you have to think about how you can"
+  },
+  {
+    "start": 661.68,
+    "duration": 5.04,
+    "text": "eliminate rows and columns"
+  },
+  {
+    "start": 664.0,
+    "duration": 4.32,
+    "text": "how you can eliminate rows and columns"
+  },
+  {
+    "start": 666.72,
+    "duration": 3.84,
+    "text": "so let's talk about the element being"
+  },
+  {
+    "start": 668.32,
+    "duration": 4.959,
+    "text": "less than target okay"
+  },
+  {
+    "start": 670.56,
+    "duration": 4.399,
+    "text": "so let's say i'm talking about 25 or 29"
+  },
+  {
+    "start": 673.279,
+    "duration": 4.961,
+    "text": "so it's 29"
+  },
+  {
+    "start": 674.959,
+    "duration": 6.081,
+    "text": "less than equal less than 37 yes it is"
+  },
+  {
+    "start": 678.24,
+    "duration": 5.599,
+    "text": "but does it really tell you anything"
+  },
+  {
+    "start": 681.04,
+    "duration": 5.359,
+    "text": "does it really tell you anything"
+  },
+  {
+    "start": 683.839,
+    "duration": 2.56,
+    "text": "not really"
+  },
+  {
+    "start": 686.8,
+    "duration": 5.84,
+    "text": "what can you do if 29 is less than 37"
+  },
+  {
+    "start": 689.68,
+    "duration": 5.279,
+    "text": "can you can you eliminate this row no"
+  },
+  {
+    "start": 692.64,
+    "duration": 5.04,
+    "text": "can you eliminate this sorry this column"
+  },
+  {
+    "start": 694.959,
+    "duration": 4.481,
+    "text": "no can you eliminate this row no not"
+  },
+  {
+    "start": 697.68,
+    "duration": 2.64,
+    "text": "really no no particular proof over here"
+  },
+  {
+    "start": 699.44,
+    "duration": 4.399,
+    "text": "as such"
+  },
+  {
+    "start": 700.32,
+    "duration": 7.12,
+    "text": "because it might be possible that um"
+  },
+  {
+    "start": 703.839,
+    "duration": 3.601,
+    "text": "you know it might be possible"
+  },
+  {
+    "start": 707.839,
+    "duration": 4.881,
+    "text": "that uh there's some other like um"
+  },
+  {
+    "start": 710.639,
+    "duration": 4.561,
+    "text": "number over here for example you cannot"
+  },
+  {
+    "start": 712.72,
+    "duration": 3.76,
+    "text": "say something like hey 29 is actually"
+  },
+  {
+    "start": 715.2,
+    "duration": 3.04,
+    "text": "less than 37"
+  },
+  {
+    "start": 716.48,
+    "duration": 4.56,
+    "text": "so all the elements in this column will"
+  },
+  {
+    "start": 718.24,
+    "duration": 4.599,
+    "text": "be less than 37 no it might be possible"
+  },
+  {
+    "start": 721.04,
+    "duration": 4.56,
+    "text": "that here you had"
+  },
+  {
+    "start": 722.839,
+    "duration": 4.44,
+    "text": "39 or something and then you change this"
+  },
+  {
+    "start": 725.6,
+    "duration": 2.479,
+    "text": "accordingly"
+  },
+  {
+    "start": 727.279,
+    "duration": 3.12,
+    "text": "okay"
+  },
+  {
+    "start": 728.079,
+    "duration": 4.0,
+    "text": "so this is not going to work that is why"
+  },
+  {
+    "start": 730.399,
+    "duration": 2.801,
+    "text": "we have to figure out a lower bound and"
+  },
+  {
+    "start": 732.079,
+    "duration": 2.641,
+    "text": "upper bound"
+  },
+  {
+    "start": 733.2,
+    "duration": 3.04,
+    "text": "the lower bound is obviously going to be"
+  },
+  {
+    "start": 734.72,
+    "duration": 3.919,
+    "text": "this one"
+  },
+  {
+    "start": 736.24,
+    "duration": 4.24,
+    "text": "okay this is smallest number"
+  },
+  {
+    "start": 738.639,
+    "duration": 4.0,
+    "text": "upper bound is going to be"
+  },
+  {
+    "start": 740.48,
+    "duration": 4.32,
+    "text": "in this last column"
+  },
+  {
+    "start": 742.639,
+    "duration": 4.801,
+    "text": "okay so this particular row this is the"
+  },
+  {
+    "start": 744.8,
+    "duration": 2.64,
+    "text": "lower bound"
+  },
+  {
+    "start": 748.0,
+    "duration": 4.32,
+    "text": "this last column is the upper bound"
+  },
+  {
+    "start": 752.639,
+    "duration": 3.44,
+    "text": "so you are going to compare it with"
+  },
+  {
+    "start": 754.0,
+    "duration": 4.16,
+    "text": "which number lower bound and upper bound"
+  },
+  {
+    "start": 756.079,
+    "duration": 3.44,
+    "text": "this one"
+  },
+  {
+    "start": 758.16,
+    "duration": 2.64,
+    "text": "this is the one you are going to compare"
+  },
+  {
+    "start": 759.519,
+    "duration": 2.721,
+    "text": "it with"
+  },
+  {
+    "start": 760.8,
+    "duration": 3.36,
+    "text": "so now that we know let's say the search"
+  },
+  {
+    "start": 762.24,
+    "duration": 3.44,
+    "text": "space has reduced to you know like"
+  },
+  {
+    "start": 764.16,
+    "duration": 2.96,
+    "text": "let's say we're trying to say this is"
+  },
+  {
+    "start": 765.68,
+    "duration": 4.32,
+    "text": "the the"
+  },
+  {
+    "start": 767.12,
+    "duration": 4.64,
+    "text": "row 0 is the lower bound and"
+  },
+  {
+    "start": 770.0,
+    "duration": 4.0,
+    "text": "last row is the upper bound so let's say"
+  },
+  {
+    "start": 771.76,
+    "duration": 5.759,
+    "text": "the target element is actually let's say"
+  },
+  {
+    "start": 774.0,
+    "duration": 4.399,
+    "text": "in this case uh you know less than"
+  },
+  {
+    "start": 777.519,
+    "duration": 3.601,
+    "text": "the"
+  },
+  {
+    "start": 778.399,
+    "duration": 5.68,
+    "text": "element that we have you know with its"
+  },
+  {
+    "start": 781.12,
+    "duration": 4.24,
+    "text": "comparison so it's saying that okay 40"
+  },
+  {
+    "start": 784.079,
+    "duration": 3.44,
+    "text": "is actually greater than the target"
+  },
+  {
+    "start": 785.36,
+    "duration": 3.68,
+    "text": "element so now we know that okay this is"
+  },
+  {
+    "start": 787.519,
+    "duration": 4.0,
+    "text": "the last element of the right most"
+  },
+  {
+    "start": 789.04,
+    "duration": 5.28,
+    "text": "element does it not mean that every"
+  },
+  {
+    "start": 791.519,
+    "duration": 5.041,
+    "text": "single element in this particular"
+  },
+  {
+    "start": 794.32,
+    "duration": 4.8,
+    "text": "column is going to be equal to greater"
+  },
+  {
+    "start": 796.56,
+    "duration": 2.56,
+    "text": "than target"
+  },
+  {
+    "start": 799.36,
+    "duration": 3.599,
+    "text": "we know that we are so 2k two points you"
+  },
+  {
+    "start": 801.519,
+    "duration": 2.721,
+    "text": "might be having questions two points"
+  },
+  {
+    "start": 802.959,
+    "duration": 3.281,
+    "text": "point number one"
+  },
+  {
+    "start": 804.24,
+    "duration": 4.399,
+    "text": "we are checking the last row sorry we"
+  },
+  {
+    "start": 806.24,
+    "duration": 5.44,
+    "text": "are checking the last column okay"
+  },
+  {
+    "start": 808.639,
+    "duration": 5.681,
+    "text": "so here it's saying that uh"
+  },
+  {
+    "start": 811.68,
+    "duration": 4.399,
+    "text": "the target element is smaller than this"
+  },
+  {
+    "start": 814.32,
+    "duration": 4.079,
+    "text": "particular number"
+  },
+  {
+    "start": 816.079,
+    "duration": 4.081,
+    "text": "and we know the target element let's say"
+  },
+  {
+    "start": 818.399,
+    "duration": 3.521,
+    "text": "smaller than this number and we know"
+  },
+  {
+    "start": 820.16,
+    "duration": 3.679,
+    "text": "that all of these numbers"
+  },
+  {
+    "start": 821.92,
+    "duration": 3.919,
+    "text": "are greater than this number so does it"
+  },
+  {
+    "start": 823.839,
+    "duration": 3.36,
+    "text": "not mean that all of these numbers are"
+  },
+  {
+    "start": 825.839,
+    "duration": 4.0,
+    "text": "also going to be greater than target"
+  },
+  {
+    "start": 827.199,
+    "duration": 2.64,
+    "text": "element"
+  },
+  {
+    "start": 832.639,
+    "duration": 4.0,
+    "text": "hence"
+  },
+  {
+    "start": 834.32,
+    "duration": 4.319,
+    "text": "ignore this"
+  },
+  {
+    "start": 836.639,
+    "duration": 5.681,
+    "text": "means if your element is greater than"
+  },
+  {
+    "start": 838.639,
+    "duration": 6.081,
+    "text": "target element you can do column minus"
+  },
+  {
+    "start": 842.32,
+    "duration": 2.4,
+    "text": "minus"
+  },
+  {
+    "start": 845.519,
+    "duration": 4.801,
+    "text": "now your"
+  },
+  {
+    "start": 846.56,
+    "duration": 5.12,
+    "text": "matrix remaining is this one"
+  },
+  {
+    "start": 850.32,
+    "duration": 4.079,
+    "text": "now it will check again it's going to"
+  },
+  {
+    "start": 851.68,
+    "duration": 5.12,
+    "text": "check okay is 30"
+  },
+  {
+    "start": 854.399,
+    "duration": 4.88,
+    "text": "equal to"
+  },
+  {
+    "start": 856.8,
+    "duration": 5.279,
+    "text": "greater than or less than the element"
+  },
+  {
+    "start": 859.279,
+    "duration": 4.161,
+    "text": "like the target if it's 30 uh equal to"
+  },
+  {
+    "start": 862.079,
+    "duration": 2.961,
+    "text": "target greater than target or less than"
+  },
+  {
+    "start": 863.44,
+    "duration": 4.16,
+    "text": "target it's gonna be like it's less than"
+  },
+  {
+    "start": 865.04,
+    "duration": 4.4,
+    "text": "target means this one case number two in"
+  },
+  {
+    "start": 867.6,
+    "duration": 3.359,
+    "text": "that case what will happen pause this"
+  },
+  {
+    "start": 869.44,
+    "duration": 3.519,
+    "text": "video think about it"
+  },
+  {
+    "start": 870.959,
+    "duration": 4.0,
+    "text": "so if this number is actually smaller"
+  },
+  {
+    "start": 872.959,
+    "duration": 4.401,
+    "text": "than the target number"
+  },
+  {
+    "start": 874.959,
+    "duration": 3.921,
+    "text": "and we know that all the other numbers"
+  },
+  {
+    "start": 877.36,
+    "duration": 3.44,
+    "text": "on the left hand side of this are going"
+  },
+  {
+    "start": 878.88,
+    "duration": 3.36,
+    "text": "to be smaller than this number does it"
+  },
+  {
+    "start": 880.8,
+    "duration": 2.88,
+    "text": "not mean that all the left hand side"
+  },
+  {
+    "start": 882.24,
+    "duration": 3.839,
+    "text": "numbers are also going to be smaller"
+  },
+  {
+    "start": 883.68,
+    "duration": 6.399,
+    "text": "than the target number"
+  },
+  {
+    "start": 886.079,
+    "duration": 4.0,
+    "text": "hence we can ignore this entire row"
+  },
+  {
+    "start": 891.12,
+    "duration": 4.159,
+    "text": "hence"
+  },
+  {
+    "start": 892.32,
+    "duration": 4.0,
+    "text": "row plus plus"
+  },
+  {
+    "start": 895.279,
+    "duration": 4.56,
+    "text": "now our"
+  },
+  {
+    "start": 896.32,
+    "duration": 3.519,
+    "text": "search space is reduced to this"
+  },
+  {
+    "start": 900.24,
+    "duration": 4.88,
+    "text": "is 35 equal to target greater than"
+  },
+  {
+    "start": 902.639,
+    "duration": 3.76,
+    "text": "target or less than target 35 is less"
+  },
+  {
+    "start": 905.12,
+    "duration": 3.36,
+    "text": "than target"
+  },
+  {
+    "start": 906.399,
+    "duration": 3.44,
+    "text": "so again row plus plus this row will be"
+  },
+  {
+    "start": 908.48,
+    "duration": 3.28,
+    "text": "removed"
+  },
+  {
+    "start": 909.839,
+    "duration": 2.881,
+    "text": "now the elements will be something like"
+  },
+  {
+    "start": 911.76,
+    "duration": 3.28,
+    "text": "this"
+  },
+  {
+    "start": 912.72,
+    "duration": 4.08,
+    "text": "this particular one"
+  },
+  {
+    "start": 915.04,
+    "duration": 2.96,
+    "text": "is 37 equal to target greater than or"
+  },
+  {
+    "start": 916.8,
+    "duration": 3.599,
+    "text": "less than target it's gonna be like it's"
+  },
+  {
+    "start": 918.0,
+    "duration": 4.399,
+    "text": "equal to target okay answer found"
+  },
+  {
+    "start": 920.399,
+    "duration": 3.761,
+    "text": "that's your question"
+  },
+  {
+    "start": 922.399,
+    "duration": 4.641,
+    "text": "that is it"
+  },
+  {
+    "start": 924.16,
+    "duration": 4.88,
+    "text": "as simple as that so this is our search"
+  },
+  {
+    "start": 927.04,
+    "duration": 4.88,
+    "text": "space that is going to be it we are"
+  },
+  {
+    "start": 929.04,
+    "duration": 6.0,
+    "text": "going to start searching from row 0 and"
+  },
+  {
+    "start": 931.92,
+    "duration": 4.56,
+    "text": "column last"
+  },
+  {
+    "start": 935.04,
+    "duration": 2.56,
+    "text": "okay and we're gonna keep running this"
+  },
+  {
+    "start": 936.48,
+    "duration": 2.719,
+    "text": "loop"
+  },
+  {
+    "start": 937.6,
+    "duration": 3.52,
+    "text": "okay"
+  },
+  {
+    "start": 939.199,
+    "duration": 3.041,
+    "text": "cool so i'm going to keep running my"
+  },
+  {
+    "start": 941.12,
+    "duration": 3.44,
+    "text": "loop till my"
+  },
+  {
+    "start": 942.24,
+    "duration": 4.64,
+    "text": "row is actually less than the length and"
+  },
+  {
+    "start": 944.56,
+    "duration": 4.959,
+    "text": "column is actually greater than uh you"
+  },
+  {
+    "start": 946.88,
+    "duration": 4.48,
+    "text": "know greater than equal to 0 because if"
+  },
+  {
+    "start": 949.519,
+    "duration": 4.721,
+    "text": "we are doing column minus minus and it"
+  },
+  {
+    "start": 951.36,
+    "duration": 4.479,
+    "text": "becomes negative that will give us error"
+  },
+  {
+    "start": 954.24,
+    "duration": 3.36,
+    "text": "okay"
+  },
+  {
+    "start": 955.839,
+    "duration": 4.321,
+    "text": "cool what is the complexity of this"
+  },
+  {
+    "start": 957.6,
+    "duration": 4.96,
+    "text": "going to be like how many comparisons is"
+  },
+  {
+    "start": 960.16,
+    "duration": 2.4,
+    "text": "it making"
+  },
+  {
+    "start": 962.8,
+    "duration": 3.12,
+    "text": "so we're only making one com one"
+  },
+  {
+    "start": 964.72,
+    "duration": 4.239,
+    "text": "reversal"
+  },
+  {
+    "start": 965.92,
+    "duration": 3.919,
+    "text": "we had the row zero and column n minus"
+  },
+  {
+    "start": 968.959,
+    "duration": 2.961,
+    "text": "one"
+  },
+  {
+    "start": 969.839,
+    "duration": 4.321,
+    "text": "okay like the length of the entire like"
+  },
+  {
+    "start": 971.92,
+    "duration": 5.12,
+    "text": "matrix minus one"
+  },
+  {
+    "start": 974.16,
+    "duration": 5.119,
+    "text": "so it's like from zero till and we are"
+  },
+  {
+    "start": 977.04,
+    "duration": 3.68,
+    "text": "running and uh let's let's try to"
+  },
+  {
+    "start": 979.279,
+    "duration": 4.8,
+    "text": "uh so basically what i'm trying to say"
+  },
+  {
+    "start": 980.72,
+    "duration": 5.76,
+    "text": "is that this row is starting from here"
+  },
+  {
+    "start": 984.079,
+    "duration": 4.721,
+    "text": "so this row is actually going from 0"
+  },
+  {
+    "start": 986.48,
+    "duration": 4.4,
+    "text": "till n like this"
+  },
+  {
+    "start": 988.8,
+    "duration": 4.64,
+    "text": "okay and this column is actually going"
+  },
+  {
+    "start": 990.88,
+    "duration": 4.0,
+    "text": "from like behind from n"
+  },
+  {
+    "start": 993.44,
+    "duration": 4.8,
+    "text": "minus 1"
+  },
+  {
+    "start": 994.88,
+    "duration": 5.04,
+    "text": "till 0 like this"
+  },
+  {
+    "start": 998.24,
+    "duration": 3.12,
+    "text": "so it's what equal to total number of"
+  },
+  {
+    "start": 999.92,
+    "duration": 3.68,
+    "text": "steps equal to what"
+  },
+  {
+    "start": 1001.36,
+    "duration": 5.76,
+    "text": "n times it's going down and in the worst"
+  },
+  {
+    "start": 1003.6,
+    "duration": 5.919,
+    "text": "case let's say n times is going behind"
+  },
+  {
+    "start": 1007.12,
+    "duration": 4.079,
+    "text": "are you all able to understand so column"
+  },
+  {
+    "start": 1009.519,
+    "duration": 4.0,
+    "text": "is actually"
+  },
+  {
+    "start": 1011.199,
+    "duration": 4.401,
+    "text": "decreasing by one so column was last"
+  },
+  {
+    "start": 1013.519,
+    "duration": 3.361,
+    "text": "like okay okay column number three then"
+  },
+  {
+    "start": 1015.6,
+    "duration": 2.88,
+    "text": "column number two let's try to call"
+  },
+  {
+    "start": 1016.88,
+    "duration": 3.36,
+    "text": "search for column number one let's try"
+  },
+  {
+    "start": 1018.48,
+    "duration": 3.039,
+    "text": "to search in column number zero"
+  },
+  {
+    "start": 1020.24,
+    "duration": 3.519,
+    "text": "end times"
+  },
+  {
+    "start": 1021.519,
+    "duration": 3.761,
+    "text": "another case might be okay row number"
+  },
+  {
+    "start": 1023.759,
+    "duration": 4.881,
+    "text": "zero row number one row number two row"
+  },
+  {
+    "start": 1025.28,
+    "duration": 5.36,
+    "text": "number last n times total n plus n is"
+  },
+  {
+    "start": 1028.64,
+    "duration": 4.88,
+    "text": "equal to what two n times its making"
+  },
+  {
+    "start": 1030.64,
+    "duration": 5.439,
+    "text": "comparisons so time complexity is"
+  },
+  {
+    "start": 1033.52,
+    "duration": 3.76,
+    "text": "big o of n"
+  },
+  {
+    "start": 1036.079,
+    "duration": 2.321,
+    "text": "because constants are removed in"
+  },
+  {
+    "start": 1037.28,
+    "duration": 3.12,
+    "text": "complexity"
+  },
+  {
+    "start": 1038.4,
+    "duration": 4.0,
+    "text": "space complexity means auxiliary space"
+  },
+  {
+    "start": 1040.4,
+    "duration": 4.159,
+    "text": "are we taking any extra space no we are"
+  },
+  {
+    "start": 1042.4,
+    "duration": 4.799,
+    "text": "not that is equal to constant this"
+  },
+  {
+    "start": 1044.559,
+    "duration": 4.961,
+    "text": "bigger notation we will learn later on"
+  },
+  {
+    "start": 1047.199,
+    "duration": 4.48,
+    "text": "okay so let's try to code this"
+  },
+  {
+    "start": 1049.52,
+    "duration": 5.44,
+    "text": "particular thing so i will just make"
+  },
+  {
+    "start": 1051.679,
+    "duration": 4.24,
+    "text": "another class over here i'll say"
+  },
+  {
+    "start": 1054.96,
+    "duration": 4.48,
+    "text": "row"
+  },
+  {
+    "start": 1055.919,
+    "duration": 5.921,
+    "text": "call matrix so row y sorted matrix"
+  },
+  {
+    "start": 1059.44,
+    "duration": 4.4,
+    "text": "and column y sorted matrix so here i'm"
+  },
+  {
+    "start": 1061.84,
+    "duration": 4.88,
+    "text": "just going to say let me create another"
+  },
+  {
+    "start": 1063.84,
+    "duration": 4.48,
+    "text": "function i'm going to create a static"
+  },
+  {
+    "start": 1066.72,
+    "duration": 3.92,
+    "text": "i'm going to create let's say i'm going"
+  },
+  {
+    "start": 1068.32,
+    "duration": 4.239,
+    "text": "to return a return an array and i'm"
+  },
+  {
+    "start": 1070.64,
+    "duration": 3.039,
+    "text": "going to create a"
+  },
+  {
+    "start": 1072.559,
+    "duration": 3.521,
+    "text": "search"
+  },
+  {
+    "start": 1073.679,
+    "duration": 5.201,
+    "text": "here i'm just going to take a 2d"
+  },
+  {
+    "start": 1076.08,
+    "duration": 5.44,
+    "text": "matrix and i'm going to take my target"
+  },
+  {
+    "start": 1078.88,
+    "duration": 3.919,
+    "text": "element that is it"
+  },
+  {
+    "start": 1081.52,
+    "duration": 3.2,
+    "text": "that is it"
+  },
+  {
+    "start": 1082.799,
+    "duration": 3.521,
+    "text": "all right so what is the"
+  },
+  {
+    "start": 1084.72,
+    "duration": 3.44,
+    "text": "start index going to be and what is the"
+  },
+  {
+    "start": 1086.32,
+    "duration": 3.28,
+    "text": "end index going to be so i'm going to"
+  },
+  {
+    "start": 1088.16,
+    "duration": 4.32,
+    "text": "say my"
+  },
+  {
+    "start": 1089.6,
+    "duration": 5.199,
+    "text": "my start which is my like uh"
+  },
+  {
+    "start": 1092.48,
+    "duration": 5.6,
+    "text": "the row is starting from zero"
+  },
+  {
+    "start": 1094.799,
+    "duration": 3.281,
+    "text": "and i'm taking column"
+  },
+  {
+    "start": 1098.4,
+    "duration": 5.44,
+    "text": "starting from"
+  },
+  {
+    "start": 1099.76,
+    "duration": 6.0,
+    "text": "matrix dot length minus one"
+  },
+  {
+    "start": 1103.84,
+    "duration": 4.64,
+    "text": "that is it"
+  },
+  {
+    "start": 1105.76,
+    "duration": 4.4,
+    "text": "okay or i can just uh"
+  },
+  {
+    "start": 1108.48,
+    "duration": 3.92,
+    "text": "yeah that looks good"
+  },
+  {
+    "start": 1110.16,
+    "duration": 3.36,
+    "text": "so i'm gonna say what is the condition"
+  },
+  {
+    "start": 1112.4,
+    "duration": 3.76,
+    "text": "for it"
+  },
+  {
+    "start": 1113.52,
+    "duration": 5.039,
+    "text": "the condition is that uh"
+  },
+  {
+    "start": 1116.16,
+    "duration": 4.399,
+    "text": "while my row is actually less than"
+  },
+  {
+    "start": 1118.559,
+    "duration": 4.24,
+    "text": "the length and column is actually"
+  },
+  {
+    "start": 1120.559,
+    "duration": 5.281,
+    "text": "greater than equal to zero so i can say"
+  },
+  {
+    "start": 1122.799,
+    "duration": 6.0,
+    "text": "while my row is less than the length"
+  },
+  {
+    "start": 1125.84,
+    "duration": 5.44,
+    "text": "which is matrix dot length"
+  },
+  {
+    "start": 1128.799,
+    "duration": 3.441,
+    "text": "and my column is greater than equal to"
+  },
+  {
+    "start": 1131.28,
+    "duration": 2.8,
+    "text": "zero"
+  },
+  {
+    "start": 1132.24,
+    "duration": 3.6,
+    "text": "i have to make three checks"
+  },
+  {
+    "start": 1134.08,
+    "duration": 4.32,
+    "text": "so three checks if element is equal to"
+  },
+  {
+    "start": 1135.84,
+    "duration": 5.52,
+    "text": "target so if"
+  },
+  {
+    "start": 1138.4,
+    "duration": 4.399,
+    "text": "matrix of row comma column is equal to"
+  },
+  {
+    "start": 1141.36,
+    "duration": 3.679,
+    "text": "equal to target"
+  },
+  {
+    "start": 1142.799,
+    "duration": 4.161,
+    "text": "i can just say found my answer"
+  },
+  {
+    "start": 1145.039,
+    "duration": 4.481,
+    "text": "new"
+  },
+  {
+    "start": 1146.96,
+    "duration": 5.92,
+    "text": "integer"
+  },
+  {
+    "start": 1149.52,
+    "duration": 5.519,
+    "text": "and the answer i have found is equal to"
+  },
+  {
+    "start": 1152.88,
+    "duration": 3.28,
+    "text": "row comma column"
+  },
+  {
+    "start": 1155.039,
+    "duration": 3.76,
+    "text": "okay"
+  },
+  {
+    "start": 1156.16,
+    "duration": 3.759,
+    "text": "otherwise i can say that um"
+  },
+  {
+    "start": 1158.799,
+    "duration": 1.301,
+    "text": "if"
+  },
+  {
+    "start": 1159.919,
+    "duration": 1.521,
+    "text": "the"
+  },
+  {
+    "start": 1160.1,
+    "duration": 4.14,
+    "text": "[Music]"
+  },
+  {
+    "start": 1161.44,
+    "duration": 4.239,
+    "text": "matrix was the second case if the"
+  },
+  {
+    "start": 1164.24,
+    "duration": 4.0,
+    "text": "element is actually less than target"
+  },
+  {
+    "start": 1165.679,
+    "duration": 3.681,
+    "text": "element so if the matrix of row and"
+  },
+  {
+    "start": 1168.24,
+    "duration": 3.6,
+    "text": "column"
+  },
+  {
+    "start": 1169.36,
+    "duration": 4.24,
+    "text": "is actually less than my"
+  },
+  {
+    "start": 1171.84,
+    "duration": 2.64,
+    "text": "target element if the target element is"
+  },
+  {
+    "start": 1173.6,
+    "duration": 2.8,
+    "text": "bigger"
+  },
+  {
+    "start": 1174.48,
+    "duration": 3.84,
+    "text": "so the target element is"
+  },
+  {
+    "start": 1176.4,
+    "duration": 2.72,
+    "text": "bigger in that case what am i going to"
+  },
+  {
+    "start": 1178.32,
+    "duration": 2.08,
+    "text": "do"
+  },
+  {
+    "start": 1179.12,
+    "duration": 2.96,
+    "text": "i'm going to say"
+  },
+  {
+    "start": 1180.4,
+    "duration": 2.96,
+    "text": "row"
+  },
+  {
+    "start": 1182.08,
+    "duration": 3.92,
+    "text": "plus plus"
+  },
+  {
+    "start": 1183.36,
+    "duration": 5.04,
+    "text": "so i'm going to say row plus plus"
+  },
+  {
+    "start": 1186.0,
+    "duration": 6.039,
+    "text": "otherwise i'm going to do what"
+  },
+  {
+    "start": 1188.4,
+    "duration": 3.639,
+    "text": "column minus minus"
+  },
+  {
+    "start": 1193.84,
+    "duration": 3.36,
+    "text": "that looks good"
+  },
+  {
+    "start": 1195.12,
+    "duration": 4.16,
+    "text": "and if nothing has been returned it"
+  },
+  {
+    "start": 1197.2,
+    "duration": 3.839,
+    "text": "means that it does not exist so i can"
+  },
+  {
+    "start": 1199.28,
+    "duration": 5.04,
+    "text": "just say return"
+  },
+  {
+    "start": 1201.039,
+    "duration": 3.281,
+    "text": "minus 1 comma minus 1"
+  },
+  {
+    "start": 1205.52,
+    "duration": 4.96,
+    "text": "that is it"
+  },
+  {
+    "start": 1207.679,
+    "duration": 6.561,
+    "text": "i have an integer array like this"
+  },
+  {
+    "start": 1210.48,
+    "duration": 3.76,
+    "text": "integer array is equal to"
+  },
+  {
+    "start": 1215.6,
+    "duration": 2.959,
+    "text": "okay"
+  },
+  {
+    "start": 1217.2,
+    "duration": 3.92,
+    "text": "you can also"
+  },
+  {
+    "start": 1218.559,
+    "duration": 4.561,
+    "text": "uh it does not have to be like n cross n"
+  },
+  {
+    "start": 1221.12,
+    "duration": 4.16,
+    "text": "you can just you know uh replace this"
+  },
+  {
+    "start": 1223.12,
+    "duration": 5.439,
+    "text": "with like m as well this can also be"
+  },
+  {
+    "start": 1225.28,
+    "duration": 5.6,
+    "text": "like n cross m matrix okay so that"
+  },
+  {
+    "start": 1228.559,
+    "duration": 4.161,
+    "text": "is basically like the same thing only"
+  },
+  {
+    "start": 1230.88,
+    "duration": 3.84,
+    "text": "okay so the only thing that will change"
+  },
+  {
+    "start": 1232.72,
+    "duration": 4.56,
+    "text": "over here is this particular value we'll"
+  },
+  {
+    "start": 1234.72,
+    "duration": 4.8,
+    "text": "just put the last column value over here"
+  },
+  {
+    "start": 1237.28,
+    "duration": 4.56,
+    "text": "so it does not even have to be n cross n"
+  },
+  {
+    "start": 1239.52,
+    "duration": 3.68,
+    "text": "it can be n cross m also the size of the"
+  },
+  {
+    "start": 1241.84,
+    "duration": 2.4,
+    "text": "matrix"
+  },
+  {
+    "start": 1243.2,
+    "duration": 3.44,
+    "text": "so"
+  },
+  {
+    "start": 1244.24,
+    "duration": 4.72,
+    "text": "what did i have in my example"
+  },
+  {
+    "start": 1246.64,
+    "duration": 5.2,
+    "text": "10 20 30 40"
+  },
+  {
+    "start": 1248.96,
+    "duration": 2.88,
+    "text": "10 20"
+  },
+  {
+    "start": 1252.0,
+    "duration": 3.28,
+    "text": "30 40."
+  },
+  {
+    "start": 1256.559,
+    "duration": 5.12,
+    "text": "15 25 35 45"
+  },
+  {
+    "start": 1259.28,
+    "duration": 4.32,
+    "text": "15 25 35"
+  },
+  {
+    "start": 1261.679,
+    "duration": 4.161,
+    "text": "45"
+  },
+  {
+    "start": 1263.6,
+    "duration": 5.12,
+    "text": "then i have something like"
+  },
+  {
+    "start": 1265.84,
+    "duration": 4.64,
+    "text": "28 29 37 49"
+  },
+  {
+    "start": 1268.72,
+    "duration": 3.199,
+    "text": "28 29"
+  },
+  {
+    "start": 1270.48,
+    "duration": 4.0,
+    "text": "37"
+  },
+  {
+    "start": 1271.919,
+    "duration": 2.561,
+    "text": "49"
+  },
+  {
+    "start": 1274.88,
+    "duration": 4.799,
+    "text": "then i have 33 34 38 50"
+  },
+  {
+    "start": 1278.48,
+    "duration": 2.319,
+    "text": "33"
+  },
+  {
+    "start": 1279.679,
+    "duration": 2.24,
+    "text": "34"
+  },
+  {
+    "start": 1280.799,
+    "duration": 4.88,
+    "text": "38"
+  },
+  {
+    "start": 1281.919,
+    "duration": 7.201,
+    "text": "50. let's say i try to search for"
+  },
+  {
+    "start": 1285.679,
+    "duration": 5.841,
+    "text": "um try to search for in the matrix sorry"
+  },
+  {
+    "start": 1289.12,
+    "duration": 5.52,
+    "text": "it's called array over here so in the"
+  },
+  {
+    "start": 1291.52,
+    "duration": 4.88,
+    "text": "area let's say i try to search for 37"
+  },
+  {
+    "start": 1294.64,
+    "duration": 5.2,
+    "text": "this will give this will return me an"
+  },
+  {
+    "start": 1296.4,
+    "duration": 6.88,
+    "text": "array so i can say arrays dot 2 string"
+  },
+  {
+    "start": 1299.84,
+    "duration": 6.56,
+    "text": "like this it should give me 0 1 2"
+  },
+  {
+    "start": 1303.28,
+    "duration": 3.12,
+    "text": "one to two comma two"
+  },
+  {
+    "start": 1312.559,
+    "duration": 3.6,
+    "text": "should give me two comma two"
+  },
+  {
+    "start": 1314.64,
+    "duration": 4.96,
+    "text": "it's giving me two comma two that looks"
+  },
+  {
+    "start": 1316.159,
+    "duration": 4.801,
+    "text": "good let's try to search for 49 it"
+  },
+  {
+    "start": 1319.6,
+    "duration": 4.079,
+    "text": "should give me 2"
+  },
+  {
+    "start": 1320.96,
+    "duration": 2.719,
+    "text": "comma 3"
+  },
+  {
+    "start": 1324.48,
+    "duration": 4.88,
+    "text": "2 comma 3 let's say i try to search for"
+  },
+  {
+    "start": 1326.32,
+    "duration": 4.479,
+    "text": "something that does not exist like 39"
+  },
+  {
+    "start": 1329.36,
+    "duration": 3.679,
+    "text": "should give me minus 1 comma minus 1"
+  },
+  {
+    "start": 1330.799,
+    "duration": 4.481,
+    "text": "because it does not exist"
+  },
+  {
+    "start": 1333.039,
+    "duration": 4.401,
+    "text": "minus 1 minus 1 looks good"
+  },
+  {
+    "start": 1335.28,
+    "duration": 3.84,
+    "text": "say yeah that looks good"
+  },
+  {
+    "start": 1337.44,
+    "duration": 3.52,
+    "text": "pretty cool stuff"
+  },
+  {
+    "start": 1339.12,
+    "duration": 4.0,
+    "text": "all right let's look into the"
+  },
+  {
+    "start": 1340.96,
+    "duration": 3.52,
+    "text": "next question you can also debug it like"
+  },
+  {
+    "start": 1343.12,
+    "duration": 3.28,
+    "text": "this"
+  },
+  {
+    "start": 1344.48,
+    "duration": 3.92,
+    "text": "put a debug pointer over here"
+  },
+  {
+    "start": 1346.4,
+    "duration": 3.92,
+    "text": "debug it and then see how it's working"
+  },
+  {
+    "start": 1348.4,
+    "duration": 3.6,
+    "text": "internally we've covered this thing in"
+  },
+  {
+    "start": 1350.32,
+    "duration": 4.08,
+    "text": "the previous lectures of arrays or how"
+  },
+  {
+    "start": 1352.0,
+    "duration": 4.0,
+    "text": "to debug a 2d array so if you want to"
+  },
+  {
+    "start": 1354.4,
+    "duration": 3.44,
+    "text": "check it out check out the links in the"
+  },
+  {
+    "start": 1356.0,
+    "duration": 3.28,
+    "text": "description below"
+  },
+  {
+    "start": 1357.84,
+    "duration": 3.6,
+    "text": "now let's look into the next question"
+  },
+  {
+    "start": 1359.28,
+    "duration": 4.16,
+    "text": "now in the previous uh question the"
+  },
+  {
+    "start": 1361.44,
+    "duration": 4.56,
+    "text": "array was not like the the matrix what"
+  },
+  {
+    "start": 1363.44,
+    "duration": 5.119,
+    "text": "was not like strictly sorted right we"
+  },
+  {
+    "start": 1366.0,
+    "duration": 4.64,
+    "text": "knew that okay it was just sorted in row"
+  },
+  {
+    "start": 1368.559,
+    "duration": 3.281,
+    "text": "and column wise manner so that's why we"
+  },
+  {
+    "start": 1370.64,
+    "duration": 2.88,
+    "text": "were not able to apply like let's say"
+  },
+  {
+    "start": 1371.84,
+    "duration": 3.6,
+    "text": "binary search or whatever"
+  },
+  {
+    "start": 1373.52,
+    "duration": 3.36,
+    "text": "but let's say we talk about a sorted"
+  },
+  {
+    "start": 1375.44,
+    "duration": 3.599,
+    "text": "matrix okay so what do we mean by a"
+  },
+  {
+    "start": 1376.88,
+    "duration": 5.679,
+    "text": "sorted matrix we take a look at another"
+  },
+  {
+    "start": 1379.039,
+    "duration": 5.921,
+    "text": "question we say search"
+  },
+  {
+    "start": 1382.559,
+    "duration": 2.401,
+    "text": "in a"
+  },
+  {
+    "start": 1385.039,
+    "duration": 4.801,
+    "text": "sorted"
+  },
+  {
+    "start": 1387.28,
+    "duration": 2.56,
+    "text": "matrix"
+  },
+  {
+    "start": 1390.72,
+    "duration": 3.68,
+    "text": "okay so the idea is that you said let's"
+  },
+  {
+    "start": 1393.039,
+    "duration": 3.601,
+    "text": "say you're given a matrix like this"
+  },
+  {
+    "start": 1394.4,
+    "duration": 4.96,
+    "text": "let's say the matrix given to you is"
+  },
+  {
+    "start": 1396.64,
+    "duration": 2.72,
+    "text": "something like"
+  },
+  {
+    "start": 1400.559,
+    "duration": 3.281,
+    "text": "uh this does not have to be like n cross"
+  },
+  {
+    "start": 1402.159,
+    "duration": 3.681,
+    "text": "n it can also be n cross m just like in"
+  },
+  {
+    "start": 1403.84,
+    "duration": 3.68,
+    "text": "the previous example so what do i mean"
+  },
+  {
+    "start": 1405.84,
+    "duration": 5.199,
+    "text": "by like sorted matrix and how is it"
+  },
+  {
+    "start": 1407.52,
+    "duration": 3.519,
+    "text": "different than previous one let's see"
+  },
+  {
+    "start": 1415.6,
+    "duration": 4.559,
+    "text": "okay so we can say we create something"
+  },
+  {
+    "start": 1417.6,
+    "duration": 3.36,
+    "text": "like one two three four"
+  },
+  {
+    "start": 1420.159,
+    "duration": 3.441,
+    "text": "okay"
+  },
+  {
+    "start": 1420.96,
+    "duration": 5.28,
+    "text": "five six seven eight"
+  },
+  {
+    "start": 1423.6,
+    "duration": 4.48,
+    "text": "something like this nine ten eleven"
+  },
+  {
+    "start": 1426.24,
+    "duration": 5.679,
+    "text": "twelve"
+  },
+  {
+    "start": 1428.08,
+    "duration": 6.4,
+    "text": "just adding simple numbers 13 14 15 and"
+  },
+  {
+    "start": 1431.919,
+    "duration": 2.561,
+    "text": "16."
+  },
+  {
+    "start": 1434.72,
+    "duration": 4.559,
+    "text": "okay now in this case what is happening"
+  },
+  {
+    "start": 1436.559,
+    "duration": 4.161,
+    "text": "is that uh array is sorted in a like a"
+  },
+  {
+    "start": 1439.279,
+    "duration": 3.28,
+    "text": "sorted manner so"
+  },
+  {
+    "start": 1440.72,
+    "duration": 4.559,
+    "text": "go like this then we start going like"
+  },
+  {
+    "start": 1442.559,
+    "duration": 4.801,
+    "text": "this like this then like this"
+  },
+  {
+    "start": 1445.279,
+    "duration": 3.121,
+    "text": "this is a sorted matrix"
+  },
+  {
+    "start": 1447.36,
+    "duration": 3.679,
+    "text": "okay"
+  },
+  {
+    "start": 1448.4,
+    "duration": 5.36,
+    "text": "so the question now is that"
+  },
+  {
+    "start": 1451.039,
+    "duration": 6.161,
+    "text": "how do we approach this problem"
+  },
+  {
+    "start": 1453.76,
+    "duration": 6.88,
+    "text": "how do we approach this problem"
+  },
+  {
+    "start": 1457.2,
+    "duration": 3.44,
+    "text": "okay let's see"
+  },
+  {
+    "start": 1464.0,
+    "duration": 4.0,
+    "text": "in short what i can say is that"
+  },
+  {
+    "start": 1468.24,
+    "duration": 2.88,
+    "text": "what is the pattern over here if you see"
+  },
+  {
+    "start": 1470.0,
+    "duration": 3.84,
+    "text": "that"
+  },
+  {
+    "start": 1471.12,
+    "duration": 5.039,
+    "text": "first element of a particular row"
+  },
+  {
+    "start": 1473.84,
+    "duration": 4.079,
+    "text": "is greater than the last element of the"
+  },
+  {
+    "start": 1476.159,
+    "duration": 3.681,
+    "text": "previous row"
+  },
+  {
+    "start": 1477.919,
+    "duration": 3.441,
+    "text": "okay that's why it's like a strictly"
+  },
+  {
+    "start": 1479.84,
+    "duration": 2.56,
+    "text": "sorted matrix"
+  },
+  {
+    "start": 1481.36,
+    "duration": 2.799,
+    "text": "so"
+  },
+  {
+    "start": 1482.4,
+    "duration": 3.84,
+    "text": "few solutions that come to mind pause"
+  },
+  {
+    "start": 1484.159,
+    "duration": 4.481,
+    "text": "about pause and think about it first one"
+  },
+  {
+    "start": 1486.24,
+    "duration": 4.96,
+    "text": "is like normal search you know n square"
+  },
+  {
+    "start": 1488.64,
+    "duration": 4.399,
+    "text": "or n cross m time complexity"
+  },
+  {
+    "start": 1491.2,
+    "duration": 3.52,
+    "text": "second one can be convert this into a"
+  },
+  {
+    "start": 1493.039,
+    "duration": 3.601,
+    "text": "one d area then apply binary search on"
+  },
+  {
+    "start": 1494.72,
+    "duration": 3.199,
+    "text": "it so convert it into something like"
+  },
+  {
+    "start": 1496.64,
+    "duration": 5.519,
+    "text": "this"
+  },
+  {
+    "start": 1497.919,
+    "duration": 6.961,
+    "text": "one two three four five six seven eight"
+  },
+  {
+    "start": 1502.159,
+    "duration": 4.241,
+    "text": "till 16. then apply binary search on"
+  },
+  {
+    "start": 1504.88,
+    "duration": 3.279,
+    "text": "this"
+  },
+  {
+    "start": 1506.4,
+    "duration": 3.44,
+    "text": "you can do something like this but we"
+  },
+  {
+    "start": 1508.159,
+    "duration": 4.081,
+    "text": "are not going to do that"
+  },
+  {
+    "start": 1509.84,
+    "duration": 4.8,
+    "text": "since we know it's a sorted matrix let's"
+  },
+  {
+    "start": 1512.24,
+    "duration": 4.319,
+    "text": "try to see how we can"
+  },
+  {
+    "start": 1514.64,
+    "duration": 3.44,
+    "text": "apply binary search on this particular"
+  },
+  {
+    "start": 1516.559,
+    "duration": 3.041,
+    "text": "one"
+  },
+  {
+    "start": 1518.08,
+    "duration": 4.8,
+    "text": "okay"
+  },
+  {
+    "start": 1519.6,
+    "duration": 3.28,
+    "text": "so in binary search we need"
+  },
+  {
+    "start": 1522.96,
+    "duration": 5.76,
+    "text": "the three cases already right so uh"
+  },
+  {
+    "start": 1525.44,
+    "duration": 5.119,
+    "text": "greater than equal 10 and uh less than"
+  },
+  {
+    "start": 1528.72,
+    "duration": 4.16,
+    "text": "right and we need like lower bound and"
+  },
+  {
+    "start": 1530.559,
+    "duration": 4.48,
+    "text": "upper bound so in the previous example i"
+  },
+  {
+    "start": 1532.88,
+    "duration": 4.24,
+    "text": "told you that try to reduce the search"
+  },
+  {
+    "start": 1535.039,
+    "duration": 4.321,
+    "text": "space when you're given such a big"
+  },
+  {
+    "start": 1537.12,
+    "duration": 3.679,
+    "text": "matrices or whatever so what what i mean"
+  },
+  {
+    "start": 1539.36,
+    "duration": 2.88,
+    "text": "by that is"
+  },
+  {
+    "start": 1540.799,
+    "duration": 2.88,
+    "text": "eliminating the row eliminating the"
+  },
+  {
+    "start": 1542.24,
+    "duration": 2.24,
+    "text": "column or whatever"
+  },
+  {
+    "start": 1543.679,
+    "duration": 2.24,
+    "text": "okay"
+  },
+  {
+    "start": 1544.48,
+    "duration": 3.12,
+    "text": "so that is what we did in the previous"
+  },
+  {
+    "start": 1545.919,
+    "duration": 3.36,
+    "text": "one as well similarly the same thing we"
+  },
+  {
+    "start": 1547.6,
+    "duration": 3.84,
+    "text": "will do in this one also"
+  },
+  {
+    "start": 1549.279,
+    "duration": 4.241,
+    "text": "but the approach will change why because"
+  },
+  {
+    "start": 1551.44,
+    "duration": 3.44,
+    "text": "the array is sorted now"
+  },
+  {
+    "start": 1553.52,
+    "duration": 3.6,
+    "text": "so what we are going to do is we are"
+  },
+  {
+    "start": 1554.88,
+    "duration": 4.0,
+    "text": "going to start by numbering the indices"
+  },
+  {
+    "start": 1557.12,
+    "duration": 3.76,
+    "text": "this is these are the rows"
+  },
+  {
+    "start": 1558.88,
+    "duration": 3.679,
+    "text": "these are the columns we are going to"
+  },
+  {
+    "start": 1560.88,
+    "duration": 3.279,
+    "text": "start by searching"
+  },
+  {
+    "start": 1562.559,
+    "duration": 3.281,
+    "text": "on the middle column"
+  },
+  {
+    "start": 1564.159,
+    "duration": 4.4,
+    "text": "we can also start by searching on the"
+  },
+  {
+    "start": 1565.84,
+    "duration": 4.8,
+    "text": "row by the way okay so anyone you can"
+  },
+  {
+    "start": 1568.559,
+    "duration": 4.0,
+    "text": "use let's say we are searching on the"
+  },
+  {
+    "start": 1570.64,
+    "duration": 4.159,
+    "text": "middle column so as we are trying to"
+  },
+  {
+    "start": 1572.559,
+    "duration": 3.441,
+    "text": "reduce the search space let's see what"
+  },
+  {
+    "start": 1574.799,
+    "duration": 3.36,
+    "text": "we can do"
+  },
+  {
+    "start": 1576.0,
+    "duration": 3.679,
+    "text": "so let's take the middle column since we"
+  },
+  {
+    "start": 1578.159,
+    "duration": 3.76,
+    "text": "know the array is sorted so we'll be"
+  },
+  {
+    "start": 1579.679,
+    "duration": 5.36,
+    "text": "taking the middle one so middle column"
+  },
+  {
+    "start": 1581.919,
+    "duration": 5.441,
+    "text": "is going to be this one let's take this"
+  },
+  {
+    "start": 1585.039,
+    "duration": 2.321,
+    "text": "column"
+  },
+  {
+    "start": 1587.6,
+    "duration": 3.84,
+    "text": "okay"
+  },
+  {
+    "start": 1588.64,
+    "duration": 2.8,
+    "text": "did a little bit"
+  },
+  {
+    "start": 1591.76,
+    "duration": 4.08,
+    "text": "all right"
+  },
+  {
+    "start": 1592.799,
+    "duration": 4.401,
+    "text": "so we are taking the middle column"
+  },
+  {
+    "start": 1595.84,
+    "duration": 3.52,
+    "text": "and in the middle column we are going to"
+  },
+  {
+    "start": 1597.2,
+    "duration": 4.32,
+    "text": "check okay we are going to perform"
+  },
+  {
+    "start": 1599.36,
+    "duration": 4.24,
+    "text": "binary search on the middle column"
+  },
+  {
+    "start": 1601.52,
+    "duration": 5.12,
+    "text": "so"
+  },
+  {
+    "start": 1603.6,
+    "duration": 3.04,
+    "text": "take middle column"
+  },
+  {
+    "start": 1608.96,
+    "duration": 5.92,
+    "text": "and perform binary search on it"
+  },
+  {
+    "start": 1613.52,
+    "duration": 3.36,
+    "text": "because we are trying to reduce the"
+  },
+  {
+    "start": 1614.88,
+    "duration": 4.0,
+    "text": "number of rows you can do the same for"
+  },
+  {
+    "start": 1616.88,
+    "duration": 3.84,
+    "text": "rows as well take the middle row try to"
+  },
+  {
+    "start": 1618.88,
+    "duration": 3.44,
+    "text": "reduce the number of columns you can do"
+  },
+  {
+    "start": 1620.72,
+    "duration": 2.64,
+    "text": "that as well"
+  },
+  {
+    "start": 1622.32,
+    "duration": 4.16,
+    "text": "okay"
+  },
+  {
+    "start": 1623.36,
+    "duration": 6.16,
+    "text": "so we can see that let's say if i'm"
+  },
+  {
+    "start": 1626.48,
+    "duration": 4.319,
+    "text": "trying to search for something like"
+  },
+  {
+    "start": 1629.52,
+    "duration": 2.48,
+    "text": "2"
+  },
+  {
+    "start": 1630.799,
+    "duration": 4.161,
+    "text": "let's say i'm trying to search for 2"
+  },
+  {
+    "start": 1632.0,
+    "duration": 5.44,
+    "text": "let's say the target is equal to 2"
+  },
+  {
+    "start": 1634.96,
+    "duration": 4.719,
+    "text": "target is equal to 2. i'm going to"
+  },
+  {
+    "start": 1637.44,
+    "duration": 4.239,
+    "text": "perform a binary search on this"
+  },
+  {
+    "start": 1639.679,
+    "duration": 4.161,
+    "text": "so binary search middle element is going"
+  },
+  {
+    "start": 1641.679,
+    "duration": 3.841,
+    "text": "to be 6 it's going to be saying that"
+  },
+  {
+    "start": 1643.84,
+    "duration": 3.76,
+    "text": "target element is actually less than the"
+  },
+  {
+    "start": 1645.52,
+    "duration": 4.159,
+    "text": "middle element"
+  },
+  {
+    "start": 1647.6,
+    "duration": 5.04,
+    "text": "target element is actually less than the"
+  },
+  {
+    "start": 1649.679,
+    "duration": 5.12,
+    "text": "middle element so if i know"
+  },
+  {
+    "start": 1652.64,
+    "duration": 3.759,
+    "text": "that target is actually less than the"
+  },
+  {
+    "start": 1654.799,
+    "duration": 3.681,
+    "text": "middle element"
+  },
+  {
+    "start": 1656.399,
+    "duration": 3.921,
+    "text": "does it not mean that"
+  },
+  {
+    "start": 1658.48,
+    "duration": 3.439,
+    "text": "all these other and i know that all"
+  },
+  {
+    "start": 1660.32,
+    "duration": 2.56,
+    "text": "these other elements are actually going"
+  },
+  {
+    "start": 1661.919,
+    "duration": 2.721,
+    "text": "to be"
+  },
+  {
+    "start": 1662.88,
+    "duration": 3.519,
+    "text": "greater than the middle element which is"
+  },
+  {
+    "start": 1664.64,
+    "duration": 3.6,
+    "text": "equal to 6."
+  },
+  {
+    "start": 1666.399,
+    "duration": 4.88,
+    "text": "so does it not mean that it will also be"
+  },
+  {
+    "start": 1668.24,
+    "duration": 4.88,
+    "text": "greater than the target element"
+  },
+  {
+    "start": 1671.279,
+    "duration": 3.041,
+    "text": "if all of these numbers are greater than"
+  },
+  {
+    "start": 1673.12,
+    "duration": 4.4,
+    "text": "6"
+  },
+  {
+    "start": 1674.32,
+    "duration": 5.04,
+    "text": "and i know that 6 is greater than 2 does"
+  },
+  {
+    "start": 1677.52,
+    "duration": 3.44,
+    "text": "it not mean that all of these numbers"
+  },
+  {
+    "start": 1679.36,
+    "duration": 4.48,
+    "text": "are also greater than 2 which is my"
+  },
+  {
+    "start": 1680.96,
+    "duration": 2.88,
+    "text": "target element"
+  },
+  {
+    "start": 1686.72,
+    "duration": 7.48,
+    "text": "so can you not say that you can"
+  },
+  {
+    "start": 1689.44,
+    "duration": 4.76,
+    "text": "definitely exclude these rows"
+  },
+  {
+    "start": 1697.039,
+    "duration": 4.081,
+    "text": "okay"
+  },
+  {
+    "start": 1698.399,
+    "duration": 3.921,
+    "text": "hope that makes sense"
+  },
+  {
+    "start": 1701.12,
+    "duration": 3.52,
+    "text": "so"
+  },
+  {
+    "start": 1702.32,
+    "duration": 4.64,
+    "text": "case comes over here that"
+  },
+  {
+    "start": 1704.64,
+    "duration": 4.88,
+    "text": "you know if"
+  },
+  {
+    "start": 1706.96,
+    "duration": 4.719,
+    "text": "element"
+  },
+  {
+    "start": 1709.52,
+    "duration": 4.08,
+    "text": "is actually like again three cases"
+  },
+  {
+    "start": 1711.679,
+    "duration": 4.561,
+    "text": "element if this is equal to if six was"
+  },
+  {
+    "start": 1713.6,
+    "duration": 4.88,
+    "text": "equal to let's say target okay that way"
+  },
+  {
+    "start": 1716.24,
+    "duration": 5.679,
+    "text": "i have found my answer"
+  },
+  {
+    "start": 1718.48,
+    "duration": 3.439,
+    "text": "okay case number two"
+  },
+  {
+    "start": 1722.72,
+    "duration": 6.0,
+    "text": "if element that i'm comparing"
+  },
+  {
+    "start": 1726.08,
+    "duration": 6.0,
+    "text": "if this is actually let's say um"
+  },
+  {
+    "start": 1728.72,
+    "duration": 3.36,
+    "text": "you know greater than target"
+  },
+  {
+    "start": 1732.72,
+    "duration": 4.959,
+    "text": "in that case what is happening"
+  },
+  {
+    "start": 1734.559,
+    "duration": 5.761,
+    "text": "i'm ignoring the rows"
+  },
+  {
+    "start": 1737.679,
+    "duration": 3.681,
+    "text": "ignoring the rows that are in between"
+  },
+  {
+    "start": 1740.32,
+    "duration": 3.68,
+    "text": "like a"
+  },
+  {
+    "start": 1741.36,
+    "duration": 5.199,
+    "text": "after it so after this all the rows will"
+  },
+  {
+    "start": 1744.0,
+    "duration": 2.559,
+    "text": "be ignored"
+  },
+  {
+    "start": 1746.96,
+    "duration": 6.04,
+    "text": "okay"
+  },
+  {
+    "start": 1749.039,
+    "duration": 3.961,
+    "text": "cool so ignore"
+  },
+  {
+    "start": 1753.52,
+    "duration": 6.08,
+    "text": "rows after it"
+  },
+  {
+    "start": 1756.559,
+    "duration": 4.72,
+    "text": "and what the third k is going to be"
+  },
+  {
+    "start": 1759.6,
+    "duration": 5.88,
+    "text": "if"
+  },
+  {
+    "start": 1761.279,
+    "duration": 4.201,
+    "text": "element is less than target"
+  },
+  {
+    "start": 1766.32,
+    "duration": 3.76,
+    "text": "in that case what will happen all the"
+  },
+  {
+    "start": 1768.159,
+    "duration": 5.041,
+    "text": "rows above it will get ignored for"
+  },
+  {
+    "start": 1770.08,
+    "duration": 5.44,
+    "text": "example you are trying to search for 10"
+  },
+  {
+    "start": 1773.2,
+    "duration": 4.32,
+    "text": "okay and you know that 6 is less than 10"
+  },
+  {
+    "start": 1775.52,
+    "duration": 4.08,
+    "text": "it basically means all the above rows"
+  },
+  {
+    "start": 1777.52,
+    "duration": 5.6,
+    "text": "above 6 will also be less than 10 hence"
+  },
+  {
+    "start": 1779.6,
+    "duration": 3.52,
+    "text": "all the above ones will be discarded"
+  },
+  {
+    "start": 1783.679,
+    "duration": 3.041,
+    "text": "ignore"
+  },
+  {
+    "start": 1785.44,
+    "duration": 3.2,
+    "text": "above"
+  },
+  {
+    "start": 1786.72,
+    "duration": 4.319,
+    "text": "rows"
+  },
+  {
+    "start": 1788.64,
+    "duration": 4.159,
+    "text": "that is what we are trying to"
+  },
+  {
+    "start": 1791.039,
+    "duration": 4.64,
+    "text": "this is how we are reducing the search"
+  },
+  {
+    "start": 1792.799,
+    "duration": 4.801,
+    "text": "space this is how we are"
+  },
+  {
+    "start": 1795.679,
+    "duration": 4.081,
+    "text": "reducing the search space so we are"
+  },
+  {
+    "start": 1797.6,
+    "duration": 4.0,
+    "text": "trying to skip the rows that we don't"
+  },
+  {
+    "start": 1799.76,
+    "duration": 2.72,
+    "text": "want"
+  },
+  {
+    "start": 1801.6,
+    "duration": 3.199,
+    "text": "okay"
+  },
+  {
+    "start": 1802.48,
+    "duration": 4.559,
+    "text": "in the end what will happen is that only"
+  },
+  {
+    "start": 1804.799,
+    "duration": 3.841,
+    "text": "two rows will be remaining"
+  },
+  {
+    "start": 1807.039,
+    "duration": 3.681,
+    "text": "in the end only"
+  },
+  {
+    "start": 1808.64,
+    "duration": 3.6,
+    "text": "two rows will be remaining because only"
+  },
+  {
+    "start": 1810.72,
+    "duration": 3.199,
+    "text": "two elements will be remaining now you"
+  },
+  {
+    "start": 1812.24,
+    "duration": 3.439,
+    "text": "may be asking me hey kunal what are the"
+  },
+  {
+    "start": 1813.919,
+    "duration": 3.76,
+    "text": "bounds that you are taking over here"
+  },
+  {
+    "start": 1815.679,
+    "duration": 3.36,
+    "text": "right what are the bounds of the of the"
+  },
+  {
+    "start": 1817.679,
+    "duration": 2.401,
+    "text": "binary search that you are taking over"
+  },
+  {
+    "start": 1819.039,
+    "duration": 3.12,
+    "text": "here"
+  },
+  {
+    "start": 1820.08,
+    "duration": 3.68,
+    "text": "first thing that i am taking is a row"
+  },
+  {
+    "start": 1822.159,
+    "duration": 3.681,
+    "text": "which is going to start obviously from"
+  },
+  {
+    "start": 1823.76,
+    "duration": 5.2,
+    "text": "zero so row is going to start from here"
+  },
+  {
+    "start": 1825.84,
+    "duration": 5.439,
+    "text": "like just like in the previous example"
+  },
+  {
+    "start": 1828.96,
+    "duration": 5.56,
+    "text": "so this is like my let's say"
+  },
+  {
+    "start": 1831.279,
+    "duration": 3.241,
+    "text": "row start"
+  },
+  {
+    "start": 1836.96,
+    "duration": 4.4,
+    "text": "okay this is my lower bound upper bound"
+  },
+  {
+    "start": 1839.84,
+    "duration": 4.48,
+    "text": "is going to be equal to what so my upper"
+  },
+  {
+    "start": 1841.36,
+    "duration": 4.08,
+    "text": "bound is going to be the last row so"
+  },
+  {
+    "start": 1844.32,
+    "duration": 3.359,
+    "text": "row end"
+  },
+  {
+    "start": 1845.44,
+    "duration": 3.04,
+    "text": "this is going to be my upper bound"
+  },
+  {
+    "start": 1847.679,
+    "duration": 2.401,
+    "text": "okay"
+  },
+  {
+    "start": 1848.48,
+    "duration": 3.6,
+    "text": "and the middle of this is going to be"
+  },
+  {
+    "start": 1850.08,
+    "duration": 4.079,
+    "text": "the middle of this so"
+  },
+  {
+    "start": 1852.08,
+    "duration": 3.68,
+    "text": "this plus this divided by 2 this is the"
+  },
+  {
+    "start": 1854.159,
+    "duration": 3.921,
+    "text": "middle"
+  },
+  {
+    "start": 1855.76,
+    "duration": 2.32,
+    "text": "middle"
+  },
+  {
+    "start": 1858.399,
+    "duration": 3.76,
+    "text": "middle"
+  },
+  {
+    "start": 1860.32,
+    "duration": 4.16,
+    "text": "when two rows are remaining that will be"
+  },
+  {
+    "start": 1862.159,
+    "duration": 4.081,
+    "text": "another case"
+  },
+  {
+    "start": 1864.48,
+    "duration": 4.16,
+    "text": "in the end let's say two rows are"
+  },
+  {
+    "start": 1866.24,
+    "duration": 2.4,
+    "text": "remaining"
+  },
+  {
+    "start": 1870.64,
+    "duration": 5.12,
+    "text": "now search space is reduced to two rows"
+  },
+  {
+    "start": 1873.6,
+    "duration": 3.439,
+    "text": "so one two three okay let me change my"
+  },
+  {
+    "start": 1875.76,
+    "duration": 4.08,
+    "text": "color"
+  },
+  {
+    "start": 1877.039,
+    "duration": 2.801,
+    "text": "over here"
+  },
+  {
+    "start": 1880.799,
+    "duration": 7.36,
+    "text": "one two three four"
+  },
+  {
+    "start": 1884.32,
+    "duration": 6.0,
+    "text": "one two three four five six"
+  },
+  {
+    "start": 1888.159,
+    "duration": 5.64,
+    "text": "seven eight"
+  },
+  {
+    "start": 1890.32,
+    "duration": 3.479,
+    "text": "looks pretty good"
+  },
+  {
+    "start": 1896.32,
+    "duration": 4.64,
+    "text": "all right"
+  },
+  {
+    "start": 1898.48,
+    "duration": 5.199,
+    "text": "cool so what do we do over here now if"
+  },
+  {
+    "start": 1900.96,
+    "duration": 4.959,
+    "text": "only two rows are remaining"
+  },
+  {
+    "start": 1903.679,
+    "duration": 4.641,
+    "text": "so first thing you need to do is first"
+  },
+  {
+    "start": 1905.919,
+    "duration": 3.521,
+    "text": "thing you need to do is um if two rows"
+  },
+  {
+    "start": 1908.32,
+    "duration": 2.64,
+    "text": "are remaining and i'm"
+  },
+  {
+    "start": 1909.44,
+    "duration": 2.8,
+    "text": "i'm always at the middle column okay i'm"
+  },
+  {
+    "start": 1910.96,
+    "duration": 2.48,
+    "text": "at the middle column so i'm over here"
+  },
+  {
+    "start": 1912.24,
+    "duration": 3.039,
+    "text": "let's see"
+  },
+  {
+    "start": 1913.44,
+    "duration": 4.0,
+    "text": "i'm over here"
+  },
+  {
+    "start": 1915.279,
+    "duration": 3.76,
+    "text": "first check you need to make is hey do"
+  },
+  {
+    "start": 1917.44,
+    "duration": 4.4,
+    "text": "any of these middle column elements"
+  },
+  {
+    "start": 1919.039,
+    "duration": 2.801,
+    "text": "contain the answer"
+  },
+  {
+    "start": 1922.32,
+    "duration": 2.32,
+    "text": "check"
+  },
+  {
+    "start": 1923.44,
+    "duration": 2.719,
+    "text": "whether"
+  },
+  {
+    "start": 1924.64,
+    "duration": 4.639,
+    "text": "the"
+  },
+  {
+    "start": 1926.159,
+    "duration": 3.12,
+    "text": "mid column you are at"
+  },
+  {
+    "start": 1931.12,
+    "duration": 2.72,
+    "text": "you are"
+  },
+  {
+    "start": 1932.399,
+    "duration": 3.201,
+    "text": "at"
+  },
+  {
+    "start": 1933.84,
+    "duration": 3.52,
+    "text": "contains"
+  },
+  {
+    "start": 1935.6,
+    "duration": 3.28,
+    "text": "the answer"
+  },
+  {
+    "start": 1937.36,
+    "duration": 3.6,
+    "text": "that is"
+  },
+  {
+    "start": 1938.88,
+    "duration": 3.6,
+    "text": "2 comma 6"
+  },
+  {
+    "start": 1940.96,
+    "duration": 3.439,
+    "text": "try to search in this"
+  },
+  {
+    "start": 1942.48,
+    "duration": 3.919,
+    "text": "let's say i'm trying to search for 3 for"
+  },
+  {
+    "start": 1944.399,
+    "duration": 4.0,
+    "text": "example ok let's say target is equal to"
+  },
+  {
+    "start": 1946.399,
+    "duration": 3.76,
+    "text": "3."
+  },
+  {
+    "start": 1948.399,
+    "duration": 3.28,
+    "text": "so 2 is not equal to 3 6 is also not"
+  },
+  {
+    "start": 1950.159,
+    "duration": 3.281,
+    "text": "equal to 3"
+  },
+  {
+    "start": 1951.679,
+    "duration": 3.921,
+    "text": "then what are you going to do you are"
+  },
+  {
+    "start": 1953.44,
+    "duration": 4.16,
+    "text": "going to consider four parts"
+  },
+  {
+    "start": 1955.6,
+    "duration": 3.6,
+    "text": "part number one"
+  },
+  {
+    "start": 1957.6,
+    "duration": 4.64,
+    "text": "part number two"
+  },
+  {
+    "start": 1959.2,
+    "duration": 5.92,
+    "text": "part number three and part number four"
+  },
+  {
+    "start": 1962.24,
+    "duration": 2.88,
+    "text": "second point is"
+  },
+  {
+    "start": 1966.96,
+    "duration": 3.28,
+    "text": "consider the four parts"
+  },
+  {
+    "start": 1975.12,
+    "duration": 3.52,
+    "text": "consider the"
+  },
+  {
+    "start": 1976.48,
+    "duration": 3.12,
+    "text": "four parts"
+  },
+  {
+    "start": 1978.64,
+    "duration": 2.72,
+    "text": "okay"
+  },
+  {
+    "start": 1979.6,
+    "duration": 4.24,
+    "text": "so how do we check for that check"
+  },
+  {
+    "start": 1981.36,
+    "duration": 3.84,
+    "text": "whether like the uh the target element"
+  },
+  {
+    "start": 1983.84,
+    "duration": 2.959,
+    "text": "which is three"
+  },
+  {
+    "start": 1985.2,
+    "duration": 3.199,
+    "text": "okay"
+  },
+  {
+    "start": 1986.799,
+    "duration": 3.521,
+    "text": "if it is equal to like any of the middle"
+  },
+  {
+    "start": 1988.399,
+    "duration": 4.721,
+    "text": "elements that's fine otherwise you can"
+  },
+  {
+    "start": 1990.32,
+    "duration": 2.8,
+    "text": "see that"
+  },
+  {
+    "start": 1993.2,
+    "duration": 5.68,
+    "text": "if it's present in the first half second"
+  },
+  {
+    "start": 1994.799,
+    "duration": 4.081,
+    "text": "half third hour fourth or fourth half"
+  },
+  {
+    "start": 1999.679,
+    "duration": 5.24,
+    "text": "okay"
+  },
+  {
+    "start": 2001.679,
+    "duration": 3.24,
+    "text": "sound good"
+  },
+  {
+    "start": 2005.36,
+    "duration": 4.08,
+    "text": "cool so we're going to check whether 3"
+  },
+  {
+    "start": 2006.96,
+    "duration": 4.079,
+    "text": "exists over here here here or here and"
+  },
+  {
+    "start": 2009.44,
+    "duration": 2.719,
+    "text": "we know that these are we know that"
+  },
+  {
+    "start": 2011.039,
+    "duration": 3.041,
+    "text": "these are what"
+  },
+  {
+    "start": 2012.159,
+    "duration": 3.36,
+    "text": "sorted sorted arrays"
+  },
+  {
+    "start": 2014.08,
+    "duration": 3.68,
+    "text": "definitely you can do like simple binary"
+  },
+  {
+    "start": 2015.519,
+    "duration": 4.081,
+    "text": "search over here"
+  },
+  {
+    "start": 2017.76,
+    "duration": 3.12,
+    "text": "simple binary search in these four"
+  },
+  {
+    "start": 2019.6,
+    "duration": 4.16,
+    "text": "that's it"
+  },
+  {
+    "start": 2020.88,
+    "duration": 2.88,
+    "text": "as simple as that"
+  },
+  {
+    "start": 2026.88,
+    "duration": 2.24,
+    "text": "cool"
+  },
+  {
+    "start": 2029.679,
+    "duration": 2.961,
+    "text": "all right"
+  },
+  {
+    "start": 2031.2,
+    "duration": 3.199,
+    "text": "that is it"
+  },
+  {
+    "start": 2032.64,
+    "duration": 5.68,
+    "text": "so it will search over here"
+  },
+  {
+    "start": 2034.399,
+    "duration": 5.601,
+    "text": "does 3 exist in this part of the array"
+  },
+  {
+    "start": 2038.32,
+    "duration": 3.68,
+    "text": "does 3 exist in"
+  },
+  {
+    "start": 2040.0,
+    "duration": 4.08,
+    "text": "this part of the array"
+  },
+  {
+    "start": 2042.0,
+    "duration": 3.519,
+    "text": "it's going to be like no it does not"
+  },
+  {
+    "start": 2044.08,
+    "duration": 4.319,
+    "text": "then it's going to be like does 3 exist"
+  },
+  {
+    "start": 2045.519,
+    "duration": 5.041,
+    "text": "in this part of the array no the 3 exist"
+  },
+  {
+    "start": 2048.399,
+    "duration": 4.0,
+    "text": "in this part of the area the 3 and 4 1."
+  },
+  {
+    "start": 2050.56,
+    "duration": 4.24,
+    "text": "yes it does answer"
+  },
+  {
+    "start": 2052.399,
+    "duration": 2.401,
+    "text": "that's it"
+  },
+  {
+    "start": 2056.32,
+    "duration": 3.2,
+    "text": "very simple stuff"
+  },
+  {
+    "start": 2058.159,
+    "duration": 4.161,
+    "text": "what is the time complexity like how"
+  },
+  {
+    "start": 2059.52,
+    "duration": 5.599,
+    "text": "many comparisons is it going to make"
+  },
+  {
+    "start": 2062.32,
+    "duration": 4.559,
+    "text": "so in order to find the two rows"
+  },
+  {
+    "start": 2065.119,
+    "duration": 3.76,
+    "text": "it's going to take how many comparisons"
+  },
+  {
+    "start": 2066.879,
+    "duration": 4.0,
+    "text": "it making the size of this particular"
+  },
+  {
+    "start": 2068.879,
+    "duration": 3.04,
+    "text": "column what is the size of the column"
+  },
+  {
+    "start": 2070.879,
+    "duration": 4.0,
+    "text": "going to be"
+  },
+  {
+    "start": 2071.919,
+    "duration": 4.48,
+    "text": "what is this size going to be this size"
+  },
+  {
+    "start": 2074.879,
+    "duration": 3.841,
+    "text": "the size is actually equal to the number"
+  },
+  {
+    "start": 2076.399,
+    "duration": 4.801,
+    "text": "of rows and we know that if there are n"
+  },
+  {
+    "start": 2078.72,
+    "duration": 5.6,
+    "text": "elements if there are n rows so the size"
+  },
+  {
+    "start": 2081.2,
+    "duration": 4.399,
+    "text": "to find these two columns the maximum"
+  },
+  {
+    "start": 2084.32,
+    "duration": 5.0,
+    "text": "comparison in binary search is going to"
+  },
+  {
+    "start": 2085.599,
+    "duration": 3.721,
+    "text": "take log of n"
+  },
+  {
+    "start": 2090.079,
+    "duration": 3.04,
+    "text": "okay"
+  },
+  {
+    "start": 2091.2,
+    "duration": 3.28,
+    "text": "and then we are searching across the"
+  },
+  {
+    "start": 2093.119,
+    "duration": 3.04,
+    "text": "columns also"
+  },
+  {
+    "start": 2094.48,
+    "duration": 3.92,
+    "text": "we are searching across the columns also"
+  },
+  {
+    "start": 2096.159,
+    "duration": 5.121,
+    "text": "like this"
+  },
+  {
+    "start": 2098.4,
+    "duration": 6.08,
+    "text": "this is going to take how much"
+  },
+  {
+    "start": 2101.28,
+    "duration": 3.2,
+    "text": "this is going to take how much time"
+  },
+  {
+    "start": 2105.44,
+    "duration": 3.2,
+    "text": "if the size of the column is m let's say"
+  },
+  {
+    "start": 2107.119,
+    "duration": 4.081,
+    "text": "in the worst case"
+  },
+  {
+    "start": 2108.64,
+    "duration": 2.56,
+    "text": "log of m"
+  },
+  {
+    "start": 2113.76,
+    "duration": 4.88,
+    "text": "total complexity is what"
+  },
+  {
+    "start": 2115.68,
+    "duration": 4.96,
+    "text": "big o of log n plus log n space"
+  },
+  {
+    "start": 2118.64,
+    "duration": 4.479,
+    "text": "complexity or the auxiliary space is"
+  },
+  {
+    "start": 2120.64,
+    "duration": 2.479,
+    "text": "constant"
+  },
+  {
+    "start": 2123.44,
+    "duration": 2.88,
+    "text": "very simple stuff"
+  },
+  {
+    "start": 2126.56,
+    "duration": 3.68,
+    "text": "all right"
+  },
+  {
+    "start": 2128.16,
+    "duration": 3.6,
+    "text": "so"
+  },
+  {
+    "start": 2130.24,
+    "duration": 3.599,
+    "text": "don't think about this like hey kunal"
+  },
+  {
+    "start": 2131.76,
+    "duration": 4.16,
+    "text": "you're doing m over here i'll say m over"
+  },
+  {
+    "start": 2133.839,
+    "duration": 4.801,
+    "text": "here as well it might be like you know"
+  },
+  {
+    "start": 2135.92,
+    "duration": 4.96,
+    "text": "2m or 3m or 4m or whatever no constants"
+  },
+  {
+    "start": 2138.64,
+    "duration": 4.0,
+    "text": "are ignored okay in time complexity"
+  },
+  {
+    "start": 2140.88,
+    "duration": 3.84,
+    "text": "constants are ignored why they are"
+  },
+  {
+    "start": 2142.64,
+    "duration": 4.24,
+    "text": "ignored we will go into details of this"
+  },
+  {
+    "start": 2144.72,
+    "duration": 4.0,
+    "text": "in like the binary search sorry the time"
+  },
+  {
+    "start": 2146.88,
+    "duration": 2.959,
+    "text": "complexity lecture let's try to code"
+  },
+  {
+    "start": 2148.72,
+    "duration": 2.8,
+    "text": "this thing"
+  },
+  {
+    "start": 2149.839,
+    "duration": 3.52,
+    "text": "okay so now let's try to code this i'm"
+  },
+  {
+    "start": 2151.52,
+    "duration": 3.92,
+    "text": "going to create another file"
+  },
+  {
+    "start": 2153.359,
+    "duration": 5.441,
+    "text": "i'm going to call it"
+  },
+  {
+    "start": 2155.44,
+    "duration": 5.12,
+    "text": "started matrix or something"
+  },
+  {
+    "start": 2158.8,
+    "duration": 3.44,
+    "text": "cool"
+  },
+  {
+    "start": 2160.56,
+    "duration": 4.08,
+    "text": "and i'm going to create another function"
+  },
+  {
+    "start": 2162.24,
+    "duration": 3.76,
+    "text": "which is going to return the"
+  },
+  {
+    "start": 2164.64,
+    "duration": 2.8,
+    "text": "uh"
+  },
+  {
+    "start": 2166.0,
+    "duration": 3.359,
+    "text": "the answer for this so it's going to"
+  },
+  {
+    "start": 2167.44,
+    "duration": 3.919,
+    "text": "return the value of the"
+  },
+  {
+    "start": 2169.359,
+    "duration": 3.201,
+    "text": "the coordinates so i'm going to say"
+  },
+  {
+    "start": 2171.359,
+    "duration": 3.201,
+    "text": "static"
+  },
+  {
+    "start": 2172.56,
+    "duration": 4.4,
+    "text": "i'm going to return it in in an array"
+  },
+  {
+    "start": 2174.56,
+    "duration": 4.799,
+    "text": "form an array of size 2. i'm going to"
+  },
+  {
+    "start": 2176.96,
+    "duration": 4.879,
+    "text": "say search"
+  },
+  {
+    "start": 2179.359,
+    "duration": 3.681,
+    "text": "and i'm going to search in my"
+  },
+  {
+    "start": 2181.839,
+    "duration": 3.361,
+    "text": "matrix"
+  },
+  {
+    "start": 2183.04,
+    "duration": 3.68,
+    "text": "and i'm going to have an int"
+  },
+  {
+    "start": 2185.2,
+    "duration": 2.399,
+    "text": "target"
+  },
+  {
+    "start": 2186.72,
+    "duration": 2.399,
+    "text": "okay"
+  },
+  {
+    "start": 2187.599,
+    "duration": 2.231,
+    "text": "that looks good"
+  },
+  {
+    "start": 2189.119,
+    "duration": 2.96,
+    "text": "um"
+  },
+  {
+    "start": 2189.83,
+    "duration": 4.97,
+    "text": "[Music]"
+  },
+  {
+    "start": 2192.079,
+    "duration": 5.361,
+    "text": "it may be possible that the matrix is of"
+  },
+  {
+    "start": 2194.8,
+    "duration": 4.08,
+    "text": "one dimension so i can say"
+  },
+  {
+    "start": 2197.44,
+    "duration": 3.36,
+    "text": "something like"
+  },
+  {
+    "start": 2198.88,
+    "duration": 3.68,
+    "text": "rows is equal to"
+  },
+  {
+    "start": 2200.8,
+    "duration": 4.319,
+    "text": "matrix dot length"
+  },
+  {
+    "start": 2202.56,
+    "duration": 5.84,
+    "text": "and my columns are equal to"
+  },
+  {
+    "start": 2205.119,
+    "duration": 6.641,
+    "text": "matrix of 0 dot length"
+  },
+  {
+    "start": 2208.4,
+    "duration": 3.36,
+    "text": "now be cautious over here"
+  },
+  {
+    "start": 2213.359,
+    "duration": 4.641,
+    "text": "be cautious"
+  },
+  {
+    "start": 2215.92,
+    "duration": 5.28,
+    "text": "matrix"
+  },
+  {
+    "start": 2218.0,
+    "duration": 4.48,
+    "text": "may be empty so add a check for that"
+  },
+  {
+    "start": 2221.2,
+    "duration": 4.879,
+    "text": "yourself"
+  },
+  {
+    "start": 2222.48,
+    "duration": 4.8,
+    "text": "okay so here i can say that if my"
+  },
+  {
+    "start": 2226.079,
+    "duration": 4.0,
+    "text": "rows"
+  },
+  {
+    "start": 2227.28,
+    "duration": 5.2,
+    "text": "are equal to equal to 1"
+  },
+  {
+    "start": 2230.079,
+    "duration": 4.321,
+    "text": "in that case what do we need to do"
+  },
+  {
+    "start": 2232.48,
+    "duration": 4.08,
+    "text": "we need to do something"
+  },
+  {
+    "start": 2234.4,
+    "duration": 2.16,
+    "text": "so"
+  },
+  {
+    "start": 2237.04,
+    "duration": 4.559,
+    "text": "we would need one more function because"
+  },
+  {
+    "start": 2239.599,
+    "duration": 3.361,
+    "text": "we are searching in individual rows as"
+  },
+  {
+    "start": 2241.599,
+    "duration": 2.801,
+    "text": "well"
+  },
+  {
+    "start": 2242.96,
+    "duration": 2.96,
+    "text": "we are searching in individual rows as"
+  },
+  {
+    "start": 2244.4,
+    "duration": 4.0,
+    "text": "well we are applying a simple binary"
+  },
+  {
+    "start": 2245.92,
+    "duration": 4.0,
+    "text": "search for example in these rows"
+  },
+  {
+    "start": 2248.4,
+    "duration": 2.8,
+    "text": "so we'll need a simple binary search"
+  },
+  {
+    "start": 2249.92,
+    "duration": 3.679,
+    "text": "function as well"
+  },
+  {
+    "start": 2251.2,
+    "duration": 3.84,
+    "text": "so i can say static"
+  },
+  {
+    "start": 2253.599,
+    "duration": 2.721,
+    "text": "int"
+  },
+  {
+    "start": 2255.04,
+    "duration": 4.319,
+    "text": "um"
+  },
+  {
+    "start": 2256.32,
+    "duration": 3.039,
+    "text": "simple binary search"
+  },
+  {
+    "start": 2262.48,
+    "duration": 2.96,
+    "text": "binary"
+  },
+  {
+    "start": 2264.079,
+    "duration": 4.76,
+    "text": "search"
+  },
+  {
+    "start": 2265.44,
+    "duration": 7.12,
+    "text": "and this is just going to take my"
+  },
+  {
+    "start": 2268.839,
+    "duration": 5.481,
+    "text": "matrix okay and it's going to take the"
+  },
+  {
+    "start": 2272.56,
+    "duration": 3.12,
+    "text": "um"
+  },
+  {
+    "start": 2274.32,
+    "duration": 4.08,
+    "text": "what"
+  },
+  {
+    "start": 2275.68,
+    "duration": 5.6,
+    "text": "it's basically going to say that uh"
+  },
+  {
+    "start": 2278.4,
+    "duration": 5.679,
+    "text": "this is basically saying that"
+  },
+  {
+    "start": 2281.28,
+    "duration": 4.319,
+    "text": "in which row do you want to search in"
+  },
+  {
+    "start": 2284.079,
+    "duration": 3.841,
+    "text": "which row"
+  },
+  {
+    "start": 2285.599,
+    "duration": 4.24,
+    "text": "do you want to search"
+  },
+  {
+    "start": 2287.92,
+    "duration": 3.04,
+    "text": "and for example let's say here i want to"
+  },
+  {
+    "start": 2289.839,
+    "duration": 2.481,
+    "text": "search in"
+  },
+  {
+    "start": 2290.96,
+    "duration": 3.52,
+    "text": "in this row"
+  },
+  {
+    "start": 2292.32,
+    "duration": 4.24,
+    "text": "but also it's checking from which column"
+  },
+  {
+    "start": 2294.48,
+    "duration": 3.76,
+    "text": "till which column do you want to search"
+  },
+  {
+    "start": 2296.56,
+    "duration": 3.76,
+    "text": "so i want to search from column number"
+  },
+  {
+    "start": 2298.24,
+    "duration": 4.96,
+    "text": "this still column number this column"
+  },
+  {
+    "start": 2300.32,
+    "duration": 2.88,
+    "text": "start in column end"
+  },
+  {
+    "start": 2303.599,
+    "duration": 3.121,
+    "text": "column"
+  },
+  {
+    "start": 2305.04,
+    "duration": 3.52,
+    "text": "start and"
+  },
+  {
+    "start": 2306.72,
+    "duration": 2.8,
+    "text": "column end and what do you want to"
+  },
+  {
+    "start": 2308.56,
+    "duration": 3.519,
+    "text": "search"
+  },
+  {
+    "start": 2309.52,
+    "duration": 4.0,
+    "text": "that is also something it's taken so"
+  },
+  {
+    "start": 2312.079,
+    "duration": 4.721,
+    "text": "i'll apply a simple binary search over"
+  },
+  {
+    "start": 2313.52,
+    "duration": 5.12,
+    "text": "here while start is less than end"
+  },
+  {
+    "start": 2316.8,
+    "duration": 3.2,
+    "text": "is an equal to end"
+  },
+  {
+    "start": 2318.64,
+    "duration": 2.88,
+    "text": "simple binary search we have done this"
+  },
+  {
+    "start": 2320.0,
+    "duration": 2.8,
+    "text": "before so we're going to say we're going"
+  },
+  {
+    "start": 2321.52,
+    "duration": 2.72,
+    "text": "to take the middle element so i'm going"
+  },
+  {
+    "start": 2322.8,
+    "duration": 3.68,
+    "text": "to say my"
+  },
+  {
+    "start": 2324.24,
+    "duration": 4.72,
+    "text": "middle is going to be equal to what"
+  },
+  {
+    "start": 2326.48,
+    "duration": 4.08,
+    "text": "it's going to be like start"
+  },
+  {
+    "start": 2328.96,
+    "duration": 3.28,
+    "text": "plus"
+  },
+  {
+    "start": 2330.56,
+    "duration": 2.96,
+    "text": "n minus star divided by 2 we've already"
+  },
+  {
+    "start": 2332.24,
+    "duration": 2.8,
+    "text": "covered this"
+  },
+  {
+    "start": 2333.52,
+    "duration": 2.64,
+    "text": "n minus"
+  },
+  {
+    "start": 2335.04,
+    "duration": 3.36,
+    "text": "start"
+  },
+  {
+    "start": 2336.16,
+    "duration": 4.48,
+    "text": "divided by 2 okay it's a much more"
+  },
+  {
+    "start": 2338.4,
+    "duration": 5.199,
+    "text": "efficient way to do it now simple bind"
+  },
+  {
+    "start": 2340.64,
+    "duration": 5.04,
+    "text": "research condition if the"
+  },
+  {
+    "start": 2343.599,
+    "duration": 5.76,
+    "text": "element at the middle of this"
+  },
+  {
+    "start": 2345.68,
+    "duration": 6.08,
+    "text": "okay so if uh at that row if the element"
+  },
+  {
+    "start": 2349.359,
+    "duration": 4.401,
+    "text": "at that rows middle so i'm talking about"
+  },
+  {
+    "start": 2351.76,
+    "duration": 4.319,
+    "text": "this particular row which is already"
+  },
+  {
+    "start": 2353.76,
+    "duration": 3.839,
+    "text": "passed over here and we have now checked"
+  },
+  {
+    "start": 2356.079,
+    "duration": 3.361,
+    "text": "for the middle"
+  },
+  {
+    "start": 2357.599,
+    "duration": 3.681,
+    "text": "one so this will be the middle one if"
+  },
+  {
+    "start": 2359.44,
+    "duration": 3.44,
+    "text": "i'm talking about this particular"
+  },
+  {
+    "start": 2361.28,
+    "duration": 3.76,
+    "text": "this particular column this will be the"
+  },
+  {
+    "start": 2362.88,
+    "duration": 4.239,
+    "text": "middle one so this rows this middle"
+  },
+  {
+    "start": 2365.04,
+    "duration": 4.72,
+    "text": "element is this equal to target so"
+  },
+  {
+    "start": 2367.119,
+    "duration": 4.48,
+    "text": "basically of matrix of"
+  },
+  {
+    "start": 2369.76,
+    "duration": 2.88,
+    "text": "row comma"
+  },
+  {
+    "start": 2371.599,
+    "duration": 4.48,
+    "text": "middle"
+  },
+  {
+    "start": 2372.64,
+    "duration": 3.439,
+    "text": "equal to equal to target"
+  },
+  {
+    "start": 2376.4,
+    "duration": 4.959,
+    "text": "in that case i can just say return new"
+  },
+  {
+    "start": 2379.76,
+    "duration": 4.0,
+    "text": "integer"
+  },
+  {
+    "start": 2381.359,
+    "duration": 4.081,
+    "text": "the answer is going to be equal to what"
+  },
+  {
+    "start": 2383.76,
+    "duration": 4.0,
+    "text": "row comma"
+  },
+  {
+    "start": 2385.44,
+    "duration": 2.32,
+    "text": "middle"
+  },
+  {
+    "start": 2387.92,
+    "duration": 3.76,
+    "text": "this is going to be 2d array"
+  },
+  {
+    "start": 2390.8,
+    "duration": 2.88,
+    "text": "okay"
+  },
+  {
+    "start": 2391.68,
+    "duration": 5.36,
+    "text": "that is the case otherwise what can we"
+  },
+  {
+    "start": 2393.68,
+    "duration": 5.28,
+    "text": "do i can say if this is less than or"
+  },
+  {
+    "start": 2397.04,
+    "duration": 4.0,
+    "text": "greater than or whatever"
+  },
+  {
+    "start": 2398.96,
+    "duration": 3.36,
+    "text": "so i can say if this is"
+  },
+  {
+    "start": 2401.04,
+    "duration": 4.0,
+    "text": "actually"
+  },
+  {
+    "start": 2402.32,
+    "duration": 4.48,
+    "text": "less than target"
+  },
+  {
+    "start": 2405.04,
+    "duration": 4.0,
+    "text": "otherwise"
+  },
+  {
+    "start": 2406.8,
+    "duration": 5.68,
+    "text": "so this is less than target in that case"
+  },
+  {
+    "start": 2409.04,
+    "duration": 3.44,
+    "text": "i can say my start is going to be"
+  },
+  {
+    "start": 2413.28,
+    "duration": 6.079,
+    "text": "start is going to be equal to what"
+  },
+  {
+    "start": 2416.079,
+    "duration": 3.28,
+    "text": "start is going to be equal to what"
+  },
+  {
+    "start": 2420.8,
+    "duration": 4.0,
+    "text": "uh sorry if this is less than target if"
+  },
+  {
+    "start": 2422.56,
+    "duration": 4.4,
+    "text": "element lies less than target"
+  },
+  {
+    "start": 2424.8,
+    "duration": 3.84,
+    "text": "then end should be"
+  },
+  {
+    "start": 2426.96,
+    "duration": 2.639,
+    "text": "mid minus one we have simple binary"
+  },
+  {
+    "start": 2428.64,
+    "duration": 2.959,
+    "text": "search"
+  },
+  {
+    "start": 2429.599,
+    "duration": 4.081,
+    "text": "if you are not aware of this it's watch"
+  },
+  {
+    "start": 2431.599,
+    "duration": 4.801,
+    "text": "the simple binary search lecture"
+  },
+  {
+    "start": 2433.68,
+    "duration": 4.88,
+    "text": "okay no no not mid minus one"
+  },
+  {
+    "start": 2436.4,
+    "duration": 4.16,
+    "text": "this is a target target which is greater"
+  },
+  {
+    "start": 2438.56,
+    "duration": 4.4,
+    "text": "than middle so this will actually come"
+  },
+  {
+    "start": 2440.56,
+    "duration": 2.4,
+    "text": "over here"
+  },
+  {
+    "start": 2443.359,
+    "duration": 4.24,
+    "text": "and this will say"
+  },
+  {
+    "start": 2444.88,
+    "duration": 4.959,
+    "text": "star uh if target is greater than middle"
+  },
+  {
+    "start": 2447.599,
+    "duration": 5.361,
+    "text": "start will be mid plus one yeah that"
+  },
+  {
+    "start": 2449.839,
+    "duration": 4.641,
+    "text": "looks good very simple stuff"
+  },
+  {
+    "start": 2452.96,
+    "duration": 2.72,
+    "text": "okay"
+  },
+  {
+    "start": 2454.48,
+    "duration": 2.72,
+    "text": "cool"
+  },
+  {
+    "start": 2455.68,
+    "duration": 5.2,
+    "text": "and in the end if you haven't found you"
+  },
+  {
+    "start": 2457.2,
+    "duration": 3.68,
+    "text": "can just written minus 1 comma minus 1"
+  },
+  {
+    "start": 2461.359,
+    "duration": 5.561,
+    "text": "minus 1"
+  },
+  {
+    "start": 2463.28,
+    "duration": 3.64,
+    "text": "comma minus 1"
+  },
+  {
+    "start": 2467.359,
+    "duration": 3.041,
+    "text": "search in the"
+  },
+  {
+    "start": 2470.96,
+    "duration": 4.159,
+    "text": "row"
+  },
+  {
+    "start": 2472.56,
+    "duration": 4.08,
+    "text": "provided"
+  },
+  {
+    "start": 2475.119,
+    "duration": 5.921,
+    "text": "between the"
+  },
+  {
+    "start": 2476.64,
+    "duration": 6.4,
+    "text": "columns provided that's it okay so now"
+  },
+  {
+    "start": 2481.04,
+    "duration": 4.48,
+    "text": "if we have only one element"
+  },
+  {
+    "start": 2483.04,
+    "duration": 4.079,
+    "text": "if we have only one element so we can"
+  },
+  {
+    "start": 2485.52,
+    "duration": 4.319,
+    "text": "just say return"
+  },
+  {
+    "start": 2487.119,
+    "duration": 4.321,
+    "text": "binary search in the matrix"
+  },
+  {
+    "start": 2489.839,
+    "duration": 3.841,
+    "text": "and"
+  },
+  {
+    "start": 2491.44,
+    "duration": 4.08,
+    "text": "what is the row going to be zeroth row"
+  },
+  {
+    "start": 2493.68,
+    "duration": 3.36,
+    "text": "because there's only one row what is the"
+  },
+  {
+    "start": 2495.52,
+    "duration": 3.24,
+    "text": "start column going to be an end column"
+  },
+  {
+    "start": 2497.04,
+    "duration": 3.2,
+    "text": "going to be this is going to be"
+  },
+  {
+    "start": 2498.76,
+    "duration": 4.28,
+    "text": "[Music]"
+  },
+  {
+    "start": 2500.24,
+    "duration": 4.24,
+    "text": "all the entire columns zero till columns"
+  },
+  {
+    "start": 2503.04,
+    "duration": 4.079,
+    "text": "like the end column"
+  },
+  {
+    "start": 2504.48,
+    "duration": 4.16,
+    "text": "and target will be target that's it"
+  },
+  {
+    "start": 2507.119,
+    "duration": 3.441,
+    "text": "that is it"
+  },
+  {
+    "start": 2508.64,
+    "duration": 3.36,
+    "text": "a very simple stuff"
+  },
+  {
+    "start": 2510.56,
+    "duration": 3.039,
+    "text": "what is the next step"
+  },
+  {
+    "start": 2512.0,
+    "duration": 4.079,
+    "text": "uh so this is the edge case but the next"
+  },
+  {
+    "start": 2513.599,
+    "duration": 5.121,
+    "text": "step is actually take the middle"
+  },
+  {
+    "start": 2516.079,
+    "duration": 4.161,
+    "text": "middle column this middle column"
+  },
+  {
+    "start": 2518.72,
+    "duration": 2.96,
+    "text": "and we have to take the middle we have"
+  },
+  {
+    "start": 2520.24,
+    "duration": 3.92,
+    "text": "to perform binary search on the middle"
+  },
+  {
+    "start": 2521.68,
+    "duration": 5.439,
+    "text": "column for example so here i'm just"
+  },
+  {
+    "start": 2524.16,
+    "duration": 2.959,
+    "text": "going to say that"
+  },
+  {
+    "start": 2528.8,
+    "duration": 7.319,
+    "text": "run the loop"
+  },
+  {
+    "start": 2530.48,
+    "duration": 5.639,
+    "text": "till two rows are remaining"
+  },
+  {
+    "start": 2536.8,
+    "duration": 3.279,
+    "text": "run the loop till two rows are remaining"
+  },
+  {
+    "start": 2538.64,
+    "duration": 2.56,
+    "text": "in the end only these two rows will be"
+  },
+  {
+    "start": 2540.079,
+    "duration": 3.121,
+    "text": "remaining"
+  },
+  {
+    "start": 2541.2,
+    "duration": 4.72,
+    "text": "so in the end uh row start will be"
+  },
+  {
+    "start": 2543.2,
+    "duration": 4.399,
+    "text": "overhead here row end will be over here"
+  },
+  {
+    "start": 2545.92,
+    "duration": 3.12,
+    "text": "so the condition for two rows remaining"
+  },
+  {
+    "start": 2547.599,
+    "duration": 5.121,
+    "text": "will be what"
+  },
+  {
+    "start": 2549.04,
+    "duration": 5.2,
+    "text": "row start is equal to row n minus 1"
+  },
+  {
+    "start": 2552.72,
+    "duration": 3.52,
+    "text": "so let's say these two rows were the"
+  },
+  {
+    "start": 2554.24,
+    "duration": 4.0,
+    "text": "ones remaining so 3"
+  },
+  {
+    "start": 2556.24,
+    "duration": 4.24,
+    "text": "2 is equal to 3 minus 1 let's say these"
+  },
+  {
+    "start": 2558.24,
+    "duration": 5.04,
+    "text": "two rows were remaining 1 is equal to 2"
+  },
+  {
+    "start": 2560.48,
+    "duration": 6.08,
+    "text": "minus 1 so while i can say"
+  },
+  {
+    "start": 2563.28,
+    "duration": 3.28,
+    "text": "my row start"
+  },
+  {
+    "start": 2567.52,
+    "duration": 4.16,
+    "text": "where is my row start"
+  },
+  {
+    "start": 2570.079,
+    "duration": 3.361,
+    "text": "i haven't taken it over here oh i have"
+  },
+  {
+    "start": 2571.68,
+    "duration": 3.76,
+    "text": "to take it over also no problem i"
+  },
+  {
+    "start": 2573.44,
+    "duration": 5.04,
+    "text": "haven't initialized it yet"
+  },
+  {
+    "start": 2575.44,
+    "duration": 5.679,
+    "text": "row start is starting from zero row end"
+  },
+  {
+    "start": 2578.48,
+    "duration": 4.24,
+    "text": "is at like the last one so"
+  },
+  {
+    "start": 2581.119,
+    "duration": 3.601,
+    "text": "these are my upper bounds you can also"
+  },
+  {
+    "start": 2582.72,
+    "duration": 3.68,
+    "text": "do it column wise i am eliminating the"
+  },
+  {
+    "start": 2584.72,
+    "duration": 3.52,
+    "text": "rows you can also eliminate the columns"
+  },
+  {
+    "start": 2586.4,
+    "duration": 4.8,
+    "text": "if you want so this will be equal to"
+  },
+  {
+    "start": 2588.24,
+    "duration": 4.24,
+    "text": "total rows minus one and what is the"
+  },
+  {
+    "start": 2591.2,
+    "duration": 3.84,
+    "text": "middle going to be"
+  },
+  {
+    "start": 2592.48,
+    "duration": 4.56,
+    "text": "the middle one the middle column so"
+  },
+  {
+    "start": 2595.04,
+    "duration": 3.92,
+    "text": "middle column means this particular one"
+  },
+  {
+    "start": 2597.04,
+    "duration": 5.84,
+    "text": "mid column"
+  },
+  {
+    "start": 2598.96,
+    "duration": 5.6,
+    "text": "made column mid column is going to be"
+  },
+  {
+    "start": 2602.88,
+    "duration": 3.6,
+    "text": "a column"
+  },
+  {
+    "start": 2604.56,
+    "duration": 3.519,
+    "text": "middle following the convention is going"
+  },
+  {
+    "start": 2606.48,
+    "duration": 3.599,
+    "text": "to be total number of columns divided by"
+  },
+  {
+    "start": 2608.079,
+    "duration": 3.681,
+    "text": "2 that's it"
+  },
+  {
+    "start": 2610.079,
+    "duration": 3.04,
+    "text": "that is it and now my condition is going"
+  },
+  {
+    "start": 2611.76,
+    "duration": 2.559,
+    "text": "to be equal to what"
+  },
+  {
+    "start": 2613.119,
+    "duration": 2.48,
+    "text": "while my"
+  },
+  {
+    "start": 2614.319,
+    "duration": 3.361,
+    "text": "row start"
+  },
+  {
+    "start": 2615.599,
+    "duration": 3.841,
+    "text": "is actually"
+  },
+  {
+    "start": 2617.68,
+    "duration": 4.8,
+    "text": "less than"
+  },
+  {
+    "start": 2619.44,
+    "duration": 4.56,
+    "text": "rho end minus 1"
+  },
+  {
+    "start": 2622.48,
+    "duration": 2.879,
+    "text": "while this is true"
+  },
+  {
+    "start": 2624.0,
+    "duration": 2.8,
+    "text": "it will be having"
+  },
+  {
+    "start": 2625.359,
+    "duration": 2.801,
+    "text": "more than two"
+  },
+  {
+    "start": 2626.8,
+    "duration": 3.12,
+    "text": "rows"
+  },
+  {
+    "start": 2628.16,
+    "duration": 4.64,
+    "text": "while this is true"
+  },
+  {
+    "start": 2629.92,
+    "duration": 4.88,
+    "text": "it will have more than two rows which"
+  },
+  {
+    "start": 2632.8,
+    "duration": 4.16,
+    "text": "we're trying to eliminate how do we try"
+  },
+  {
+    "start": 2634.8,
+    "duration": 3.92,
+    "text": "to eliminate it let's check out check"
+  },
+  {
+    "start": 2636.96,
+    "duration": 2.879,
+    "text": "our cases three cases i am not doing"
+  },
+  {
+    "start": 2638.72,
+    "duration": 2.48,
+    "text": "anything new"
+  },
+  {
+    "start": 2639.839,
+    "duration": 3.361,
+    "text": "all these things have already explained"
+  },
+  {
+    "start": 2641.2,
+    "duration": 3.6,
+    "text": "to you here here are the three cases"
+  },
+  {
+    "start": 2643.2,
+    "duration": 5.2,
+    "text": "case number one if element is equal to"
+  },
+  {
+    "start": 2644.8,
+    "duration": 5.12,
+    "text": "target okay no problem if the element"
+  },
+  {
+    "start": 2648.4,
+    "duration": 3.04,
+    "text": "so first we need to take the middle"
+  },
+  {
+    "start": 2649.92,
+    "duration": 3.919,
+    "text": "element so i can say"
+  },
+  {
+    "start": 2651.44,
+    "duration": 4.96,
+    "text": "middle is going to be equal to what"
+  },
+  {
+    "start": 2653.839,
+    "duration": 4.321,
+    "text": "rho start"
+  },
+  {
+    "start": 2656.4,
+    "duration": 4.08,
+    "text": "plus rho"
+  },
+  {
+    "start": 2658.16,
+    "duration": 3.6,
+    "text": "rho star plus n by 2 or rho plus"
+  },
+  {
+    "start": 2660.48,
+    "duration": 3.04,
+    "text": "we have covered this in binary search"
+  },
+  {
+    "start": 2661.76,
+    "duration": 2.8,
+    "text": "this formula this formula we have"
+  },
+  {
+    "start": 2663.52,
+    "duration": 2.96,
+    "text": "covered in"
+  },
+  {
+    "start": 2664.56,
+    "duration": 4.32,
+    "text": "binary search"
+  },
+  {
+    "start": 2666.48,
+    "duration": 5.119,
+    "text": "okay because this will be what to start"
+  },
+  {
+    "start": 2668.88,
+    "duration": 3.51,
+    "text": "plus row minus start so"
+  },
+  {
+    "start": 2671.599,
+    "duration": 2.401,
+    "text": "so this will be"
+  },
+  {
+    "start": 2672.39,
+    "duration": 4.85,
+    "text": "[Music]"
+  },
+  {
+    "start": 2674.0,
+    "duration": 3.24,
+    "text": "one second"
+  },
+  {
+    "start": 2679.839,
+    "duration": 4.881,
+    "text": "to start"
+  },
+  {
+    "start": 2682.48,
+    "duration": 4.4,
+    "text": "plus and minus start yeah that's correct"
+  },
+  {
+    "start": 2684.72,
+    "duration": 3.92,
+    "text": "that is correct that is correct so this"
+  },
+  {
+    "start": 2686.88,
+    "duration": 3.52,
+    "text": "is actually going to be equal to if i'm"
+  },
+  {
+    "start": 2688.64,
+    "duration": 4.719,
+    "text": "saying start this is basically what i'm"
+  },
+  {
+    "start": 2690.4,
+    "duration": 5.52,
+    "text": "trying to say start"
+  },
+  {
+    "start": 2693.359,
+    "duration": 4.48,
+    "text": "plus what is it"
+  },
+  {
+    "start": 2695.92,
+    "duration": 3.6,
+    "text": "n minus star divided by 2 right"
+  },
+  {
+    "start": 2697.839,
+    "duration": 3.121,
+    "text": "n minus start"
+  },
+  {
+    "start": 2699.52,
+    "duration": 4.0,
+    "text": "divide by 2"
+  },
+  {
+    "start": 2700.96,
+    "duration": 3.52,
+    "text": "so this will be 2s"
+  },
+  {
+    "start": 2703.52,
+    "duration": 2.319,
+    "text": "like this"
+  },
+  {
+    "start": 2704.48,
+    "duration": 3.92,
+    "text": "this and this you can start plus and"
+  },
+  {
+    "start": 2705.839,
+    "duration": 3.361,
+    "text": "divide by two so exactly the same thing"
+  },
+  {
+    "start": 2708.4,
+    "duration": 2.16,
+    "text": "okay"
+  },
+  {
+    "start": 2709.2,
+    "duration": 2.48,
+    "text": "cool no problem so that's how we find"
+  },
+  {
+    "start": 2710.56,
+    "duration": 2.32,
+    "text": "the middle if you want to look into"
+  },
+  {
+    "start": 2711.68,
+    "duration": 3.04,
+    "text": "details of it check out the binary"
+  },
+  {
+    "start": 2712.88,
+    "duration": 4.08,
+    "text": "search lecture link in the"
+  },
+  {
+    "start": 2714.72,
+    "duration": 4.16,
+    "text": "description below so we found the middle"
+  },
+  {
+    "start": 2716.96,
+    "duration": 4.56,
+    "text": "element now we will just add these three"
+  },
+  {
+    "start": 2718.88,
+    "duration": 5.36,
+    "text": "check check cases very simple stuff so"
+  },
+  {
+    "start": 2721.52,
+    "duration": 4.72,
+    "text": "if the matrix middle element middle"
+  },
+  {
+    "start": 2724.24,
+    "duration": 2.879,
+    "text": "element is equal to what"
+  },
+  {
+    "start": 2726.24,
+    "duration": 2.8,
+    "text": "my"
+  },
+  {
+    "start": 2727.119,
+    "duration": 3.441,
+    "text": "uh"
+  },
+  {
+    "start": 2729.04,
+    "duration": 4.4,
+    "text": "middle rows"
+  },
+  {
+    "start": 2730.56,
+    "duration": 6.0,
+    "text": "which column am i taking"
+  },
+  {
+    "start": 2733.44,
+    "duration": 3.12,
+    "text": "middle column i'm taking"
+  },
+  {
+    "start": 2736.72,
+    "duration": 5.04,
+    "text": "if this is equal to equal to target"
+  },
+  {
+    "start": 2738.96,
+    "duration": 5.44,
+    "text": "in that case i can just say return"
+  },
+  {
+    "start": 2741.76,
+    "duration": 3.839,
+    "text": "new integer value of"
+  },
+  {
+    "start": 2744.4,
+    "duration": 2.64,
+    "text": "the answer"
+  },
+  {
+    "start": 2745.599,
+    "duration": 2.881,
+    "text": "what is it"
+  },
+  {
+    "start": 2747.04,
+    "duration": 3.44,
+    "text": "like this"
+  },
+  {
+    "start": 2748.48,
+    "duration": 5.839,
+    "text": "what is the answer answer is actually"
+  },
+  {
+    "start": 2750.48,
+    "duration": 4.96,
+    "text": "equal to now mid comma column mid"
+  },
+  {
+    "start": 2754.319,
+    "duration": 3.121,
+    "text": "that's it"
+  },
+  {
+    "start": 2755.44,
+    "duration": 3.04,
+    "text": "you're returning that otherwise what do"
+  },
+  {
+    "start": 2757.44,
+    "duration": 2.879,
+    "text": "you do"
+  },
+  {
+    "start": 2758.48,
+    "duration": 5.04,
+    "text": "if"
+  },
+  {
+    "start": 2760.319,
+    "duration": 5.04,
+    "text": "this is actually let's say"
+  },
+  {
+    "start": 2763.52,
+    "duration": 3.36,
+    "text": "not equal to equal to but"
+  },
+  {
+    "start": 2765.359,
+    "duration": 3.441,
+    "text": "less than target"
+  },
+  {
+    "start": 2766.88,
+    "duration": 3.76,
+    "text": "okay if the element is less than target"
+  },
+  {
+    "start": 2768.8,
+    "duration": 4.0,
+    "text": "what did we cover for that"
+  },
+  {
+    "start": 2770.64,
+    "duration": 3.6,
+    "text": "uh ignore the above rows so we are"
+  },
+  {
+    "start": 2772.8,
+    "duration": 3.92,
+    "text": "ignoring the above rows let's say this"
+  },
+  {
+    "start": 2774.24,
+    "duration": 4.8,
+    "text": "was the item it was at"
+  },
+  {
+    "start": 2776.72,
+    "duration": 5.04,
+    "text": "so it was saying ignore the above rows"
+  },
+  {
+    "start": 2779.04,
+    "duration": 3.84,
+    "text": "means start will now be equal to"
+  },
+  {
+    "start": 2781.76,
+    "duration": 3.12,
+    "text": "mid"
+  },
+  {
+    "start": 2782.88,
+    "duration": 3.68,
+    "text": "start will come below because i'm"
+  },
+  {
+    "start": 2784.88,
+    "duration": 6.239,
+    "text": "ignoring these two rows then start will"
+  },
+  {
+    "start": 2786.56,
+    "duration": 8.4,
+    "text": "come below so i can say in this case"
+  },
+  {
+    "start": 2791.119,
+    "duration": 3.841,
+    "text": "row start is actually equal to"
+  },
+  {
+    "start": 2795.92,
+    "duration": 4.159,
+    "text": "middle"
+  },
+  {
+    "start": 2798.24,
+    "duration": 4.079,
+    "text": "otherwise"
+  },
+  {
+    "start": 2800.079,
+    "duration": 4.961,
+    "text": "if i'm ignoring the bottom ones then end"
+  },
+  {
+    "start": 2802.319,
+    "duration": 3.76,
+    "text": "will come above now end will become mid"
+  },
+  {
+    "start": 2805.04,
+    "duration": 3.36,
+    "text": "otherwise"
+  },
+  {
+    "start": 2806.079,
+    "duration": 5.841,
+    "text": "otherwise row end is going to be equal"
+  },
+  {
+    "start": 2808.4,
+    "duration": 3.52,
+    "text": "to mid very simple stuff"
+  },
+  {
+    "start": 2812.64,
+    "duration": 4.959,
+    "text": "so once this loop has run"
+  },
+  {
+    "start": 2815.44,
+    "duration": 4.48,
+    "text": "we will now have two rows"
+  },
+  {
+    "start": 2817.599,
+    "duration": 4.881,
+    "text": "now we have"
+  },
+  {
+    "start": 2819.92,
+    "duration": 5.52,
+    "text": "two rows"
+  },
+  {
+    "start": 2822.48,
+    "duration": 2.96,
+    "text": "now we have two rows"
+  },
+  {
+    "start": 2827.52,
+    "duration": 3.76,
+    "text": "okay we have two rows now what do we"
+  },
+  {
+    "start": 2829.28,
+    "duration": 5.52,
+    "text": "need to do so in the end we have two"
+  },
+  {
+    "start": 2831.28,
+    "duration": 5.68,
+    "text": "rows remaining check whether the middle"
+  },
+  {
+    "start": 2834.8,
+    "duration": 4.24,
+    "text": "elements of the column"
+  },
+  {
+    "start": 2836.96,
+    "duration": 2.96,
+    "text": "contain the answer or not so we'll do"
+  },
+  {
+    "start": 2839.04,
+    "duration": 1.92,
+    "text": "that"
+  },
+  {
+    "start": 2839.92,
+    "duration": 2.639,
+    "text": "check"
+  },
+  {
+    "start": 2840.96,
+    "duration": 4.399,
+    "text": "whether the"
+  },
+  {
+    "start": 2842.559,
+    "duration": 7.441,
+    "text": "um"
+  },
+  {
+    "start": 2845.359,
+    "duration": 5.441,
+    "text": "uh target is in um"
+  },
+  {
+    "start": 2850.0,
+    "duration": 3.2,
+    "text": "the"
+  },
+  {
+    "start": 2850.8,
+    "duration": 5.36,
+    "text": "column"
+  },
+  {
+    "start": 2853.2,
+    "duration": 6.32,
+    "text": "of two rows we're going to check that so"
+  },
+  {
+    "start": 2856.16,
+    "duration": 6.64,
+    "text": "i'm going to say if matrix"
+  },
+  {
+    "start": 2859.52,
+    "duration": 5.92,
+    "text": "of row start and the middle column which"
+  },
+  {
+    "start": 2862.8,
+    "duration": 5.039,
+    "text": "is equal to column of middle"
+  },
+  {
+    "start": 2865.44,
+    "duration": 4.0,
+    "text": "if this is equal to equal to target"
+  },
+  {
+    "start": 2867.839,
+    "duration": 5.361,
+    "text": "then i'm just going to say"
+  },
+  {
+    "start": 2869.44,
+    "duration": 5.44,
+    "text": "return new and"
+  },
+  {
+    "start": 2873.2,
+    "duration": 4.0,
+    "text": "our start"
+  },
+  {
+    "start": 2874.88,
+    "duration": 3.92,
+    "text": "comma column mid"
+  },
+  {
+    "start": 2877.2,
+    "duration": 2.48,
+    "text": "that is it"
+  },
+  {
+    "start": 2878.8,
+    "duration": 3.12,
+    "text": "okay"
+  },
+  {
+    "start": 2879.68,
+    "duration": 5.2,
+    "text": "otherwise similarly"
+  },
+  {
+    "start": 2881.92,
+    "duration": 5.52,
+    "text": "i will check for end as well"
+  },
+  {
+    "start": 2884.88,
+    "duration": 3.84,
+    "text": "so i'm gonna say"
+  },
+  {
+    "start": 2887.44,
+    "duration": 3.52,
+    "text": "oh by the way this condition will be"
+  },
+  {
+    "start": 2888.72,
+    "duration": 3.839,
+    "text": "violated what is the end going to be"
+  },
+  {
+    "start": 2890.96,
+    "duration": 3.76,
+    "text": "end is actually going to be this plus"
+  },
+  {
+    "start": 2892.559,
+    "duration": 2.161,
+    "text": "one"
+  },
+  {
+    "start": 2896.24,
+    "duration": 4.079,
+    "text": "very simple stuff"
+  },
+  {
+    "start": 2898.24,
+    "duration": 3.599,
+    "text": "okay checking for start checking for end"
+  },
+  {
+    "start": 2900.319,
+    "duration": 3.441,
+    "text": "first checking for two then checking for"
+  },
+  {
+    "start": 2901.839,
+    "duration": 3.121,
+    "text": "six that is simple"
+  },
+  {
+    "start": 2903.76,
+    "duration": 3.2,
+    "text": "that is simple"
+  },
+  {
+    "start": 2904.96,
+    "duration": 3.44,
+    "text": "otherwise"
+  },
+  {
+    "start": 2906.96,
+    "duration": 4.08,
+    "text": "search in"
+  },
+  {
+    "start": 2908.4,
+    "duration": 2.64,
+    "text": "first half"
+  },
+  {
+    "start": 2912.48,
+    "duration": 3.119,
+    "text": "search in second half third half and"
+  },
+  {
+    "start": 2914.0,
+    "duration": 3.68,
+    "text": "fourth half"
+  },
+  {
+    "start": 2915.599,
+    "duration": 3.841,
+    "text": "second half"
+  },
+  {
+    "start": 2917.68,
+    "duration": 4.399,
+    "text": "third half"
+  },
+  {
+    "start": 2919.44,
+    "duration": 2.639,
+    "text": "fourth half"
+  },
+  {
+    "start": 2923.119,
+    "duration": 3.72,
+    "text": "that is it"
+  },
+  {
+    "start": 2925.2,
+    "duration": 4.48,
+    "text": "when are we going to search in the first"
+  },
+  {
+    "start": 2926.839,
+    "duration": 4.681,
+    "text": "half when are we going to search in the"
+  },
+  {
+    "start": 2929.68,
+    "duration": 3.84,
+    "text": "first half so what is the first half of"
+  },
+  {
+    "start": 2931.52,
+    "duration": 4.16,
+    "text": "the arrays first half is like if the"
+  },
+  {
+    "start": 2933.52,
+    "duration": 4.0,
+    "text": "target element the three that we are"
+  },
+  {
+    "start": 2935.68,
+    "duration": 3.84,
+    "text": "trying to search let's say"
+  },
+  {
+    "start": 2937.52,
+    "duration": 3.92,
+    "text": "um or let's say for if we're trying to"
+  },
+  {
+    "start": 2939.52,
+    "duration": 3.599,
+    "text": "search for one okay"
+  },
+  {
+    "start": 2941.44,
+    "duration": 3.28,
+    "text": "so we can say that if you're trying to"
+  },
+  {
+    "start": 2943.119,
+    "duration": 5.041,
+    "text": "search for one"
+  },
+  {
+    "start": 2944.72,
+    "duration": 3.44,
+    "text": "then what can we say"
+  },
+  {
+    "start": 2951.599,
+    "duration": 5.081,
+    "text": "target element is less than equal to"
+  },
+  {
+    "start": 2959.68,
+    "duration": 2.879,
+    "text": "this particular one"
+  },
+  {
+    "start": 2962.8,
+    "duration": 4.0,
+    "text": "because this is in sorted order all the"
+  },
+  {
+    "start": 2964.88,
+    "duration": 3.52,
+    "text": "other elements after be behind this if"
+  },
+  {
+    "start": 2966.8,
+    "duration": 3.12,
+    "text": "there were they will be like you know"
+  },
+  {
+    "start": 2968.4,
+    "duration": 3.199,
+    "text": "less than one 1"
+  },
+  {
+    "start": 2969.92,
+    "duration": 3.76,
+    "text": "so if i can say that my element is"
+  },
+  {
+    "start": 2971.599,
+    "duration": 4.161,
+    "text": "actually less than equal to 1"
+  },
+  {
+    "start": 2973.68,
+    "duration": 5.6,
+    "text": "search over here if it is less than"
+  },
+  {
+    "start": 2975.76,
+    "duration": 5.92,
+    "text": "equal to 5 search for over here if it is"
+  },
+  {
+    "start": 2979.28,
+    "duration": 3.2,
+    "text": "greater than equal to"
+  },
+  {
+    "start": 2981.68,
+    "duration": 3.28,
+    "text": "3"
+  },
+  {
+    "start": 2982.48,
+    "duration": 4.56,
+    "text": "search over here if it is greater than"
+  },
+  {
+    "start": 2984.96,
+    "duration": 3.44,
+    "text": "equal to 7 then search for here"
+  },
+  {
+    "start": 2987.04,
+    "duration": 2.24,
+    "text": "so this is basically going to be equal"
+  },
+  {
+    "start": 2988.4,
+    "duration": 1.679,
+    "text": "to"
+  },
+  {
+    "start": 2989.28,
+    "duration": 3.279,
+    "text": "uh"
+  },
+  {
+    "start": 2990.079,
+    "duration": 4.161,
+    "text": "row is going to be this row okay"
+  },
+  {
+    "start": 2992.559,
+    "duration": 3.681,
+    "text": "for for let's say let's say i take for"
+  },
+  {
+    "start": 2994.24,
+    "duration": 3.839,
+    "text": "this first half first okay for first"
+  },
+  {
+    "start": 2996.24,
+    "duration": 5.04,
+    "text": "half what is it going to be for first"
+  },
+  {
+    "start": 2998.079,
+    "duration": 3.201,
+    "text": "half it's going to say that"
+  },
+  {
+    "start": 3001.44,
+    "duration": 5.2,
+    "text": "if target is actually less than equal to"
+  },
+  {
+    "start": 3003.76,
+    "duration": 4.559,
+    "text": "1 search in the first half of the array"
+  },
+  {
+    "start": 3006.64,
+    "duration": 3.12,
+    "text": "okay and what is the first what is the"
+  },
+  {
+    "start": 3008.319,
+    "duration": 2.401,
+    "text": "less than equal to 1 going to be from"
+  },
+  {
+    "start": 3009.76,
+    "duration": 2.319,
+    "text": "which"
+  },
+  {
+    "start": 3010.72,
+    "duration": 3.68,
+    "text": "what is this element going to be what is"
+  },
+  {
+    "start": 3012.079,
+    "duration": 3.681,
+    "text": "the coordinate of this element"
+  },
+  {
+    "start": 3014.4,
+    "duration": 2.56,
+    "text": "coordinate is"
+  },
+  {
+    "start": 3015.76,
+    "duration": 5.12,
+    "text": "row start"
+  },
+  {
+    "start": 3016.96,
+    "duration": 6.96,
+    "text": "because this is row start this is row"
+  },
+  {
+    "start": 3020.88,
+    "duration": 4.8,
+    "text": "row row start plus 1 row start plus"
+  },
+  {
+    "start": 3023.92,
+    "duration": 3.12,
+    "text": "1 i don't have to write that this is row"
+  },
+  {
+    "start": 3025.68,
+    "duration": 4.639,
+    "text": "start"
+  },
+  {
+    "start": 3027.04,
+    "duration": 5.279,
+    "text": "so it's going to be like row start comma"
+  },
+  {
+    "start": 3030.319,
+    "duration": 3.76,
+    "text": "mid column minus one"
+  },
+  {
+    "start": 3032.319,
+    "duration": 2.961,
+    "text": "so this is going to be"
+  },
+  {
+    "start": 3034.079,
+    "duration": 3.76,
+    "text": "c mid"
+  },
+  {
+    "start": 3035.28,
+    "duration": 4.4,
+    "text": "minus one row start comma c minus one"
+  },
+  {
+    "start": 3037.839,
+    "duration": 2.961,
+    "text": "okay no problem so it's going to be like"
+  },
+  {
+    "start": 3039.68,
+    "duration": 2.639,
+    "text": "if my"
+  },
+  {
+    "start": 3040.8,
+    "duration": 3.36,
+    "text": "target element"
+  },
+  {
+    "start": 3042.319,
+    "duration": 3.441,
+    "text": "is less than equal to"
+  },
+  {
+    "start": 3044.16,
+    "duration": 3.04,
+    "text": "matrix of"
+  },
+  {
+    "start": 3045.76,
+    "duration": 2.559,
+    "text": "row start"
+  },
+  {
+    "start": 3047.2,
+    "duration": 3.52,
+    "text": "and"
+  },
+  {
+    "start": 3048.319,
+    "duration": 3.681,
+    "text": "c mid minus 1"
+  },
+  {
+    "start": 3050.72,
+    "duration": 2.639,
+    "text": "in that case i'm going to search in the"
+  },
+  {
+    "start": 3052.0,
+    "duration": 3.04,
+    "text": "first half"
+  },
+  {
+    "start": 3053.359,
+    "duration": 3.921,
+    "text": "i'm going to copy paste this thing like"
+  },
+  {
+    "start": 3055.04,
+    "duration": 2.24,
+    "text": "this"
+  },
+  {
+    "start": 3058.8,
+    "duration": 3.2,
+    "text": "okay what is the second half going to be"
+  },
+  {
+    "start": 3060.48,
+    "duration": 3.119,
+    "text": "second half is going to be if target"
+  },
+  {
+    "start": 3062.0,
+    "duration": 3.68,
+    "text": "element is"
+  },
+  {
+    "start": 3063.599,
+    "duration": 4.24,
+    "text": "greater than equal to this if target"
+  },
+  {
+    "start": 3065.68,
+    "duration": 4.24,
+    "text": "element is greater than equal to 3 means"
+  },
+  {
+    "start": 3067.839,
+    "duration": 4.161,
+    "text": "this is sorted array so you can find you"
+  },
+  {
+    "start": 3069.92,
+    "duration": 4.24,
+    "text": "know search for any of this and in any"
+  },
+  {
+    "start": 3072.0,
+    "duration": 5.359,
+    "text": "of this part in this entire like second"
+  },
+  {
+    "start": 3074.16,
+    "duration": 4.88,
+    "text": "half so what is the coordinate of this"
+  },
+  {
+    "start": 3077.359,
+    "duration": 4.321,
+    "text": "row start comma"
+  },
+  {
+    "start": 3079.04,
+    "duration": 4.88,
+    "text": "mid plus 1 so if target element is"
+  },
+  {
+    "start": 3081.68,
+    "duration": 4.24,
+    "text": "greater than equal to rho start comma"
+  },
+  {
+    "start": 3083.92,
+    "duration": 4.0,
+    "text": "mid plus 1"
+  },
+  {
+    "start": 3085.92,
+    "duration": 3.199,
+    "text": "no problem what is the third half going"
+  },
+  {
+    "start": 3087.92,
+    "duration": 2.72,
+    "text": "to be"
+  },
+  {
+    "start": 3089.119,
+    "duration": 4.321,
+    "text": "um"
+  },
+  {
+    "start": 3090.64,
+    "duration": 5.84,
+    "text": "row start plus 1 comma"
+  },
+  {
+    "start": 3093.44,
+    "duration": 5.679,
+    "text": "c mid minus 1 so rho start"
+  },
+  {
+    "start": 3096.48,
+    "duration": 2.639,
+    "text": "plus 1"
+  },
+  {
+    "start": 3101.52,
+    "duration": 3.839,
+    "text": "and c min minus 1 should be less than"
+  },
+  {
+    "start": 3103.44,
+    "duration": 3.44,
+    "text": "equal to this otherwise this is greater"
+  },
+  {
+    "start": 3105.359,
+    "duration": 3.841,
+    "text": "than equal to this one this is the"
+  },
+  {
+    "start": 3106.88,
+    "duration": 5.52,
+    "text": "fourth half which is rho star plus 1"
+  },
+  {
+    "start": 3109.2,
+    "duration": 5.2,
+    "text": "comma c mid plus 1"
+  },
+  {
+    "start": 3112.4,
+    "duration": 4.159,
+    "text": "right"
+  },
+  {
+    "start": 3114.4,
+    "duration": 2.159,
+    "text": "so"
+  },
+  {
+    "start": 3116.8,
+    "duration": 5.12,
+    "text": "this is equal to"
+  },
+  {
+    "start": 3119.04,
+    "duration": 5.12,
+    "text": "i can just put else over here by the way"
+  },
+  {
+    "start": 3121.92,
+    "duration": 3.679,
+    "text": "else"
+  },
+  {
+    "start": 3124.16,
+    "duration": 2.72,
+    "text": "all right"
+  },
+  {
+    "start": 3125.599,
+    "duration": 3.52,
+    "text": "cool"
+  },
+  {
+    "start": 3126.88,
+    "duration": 5.12,
+    "text": "i think that looks good and i can just"
+  },
+  {
+    "start": 3129.119,
+    "duration": 4.72,
+    "text": "call this function binary search one"
+  },
+  {
+    "start": 3132.0,
+    "duration": 4.64,
+    "text": "so in this case i need to search you"
+  },
+  {
+    "start": 3133.839,
+    "duration": 4.961,
+    "text": "know i can say binary search you can say"
+  },
+  {
+    "start": 3136.64,
+    "duration": 3.919,
+    "text": "return binary search"
+  },
+  {
+    "start": 3138.8,
+    "duration": 3.6,
+    "text": "in the matrix"
+  },
+  {
+    "start": 3140.559,
+    "duration": 4.161,
+    "text": "and i'm trying to search for what in the"
+  },
+  {
+    "start": 3142.4,
+    "duration": 5.12,
+    "text": "first half row start the row will be"
+  },
+  {
+    "start": 3144.72,
+    "duration": 4.0,
+    "text": "this in this row i'm trying to search"
+  },
+  {
+    "start": 3147.52,
+    "duration": 4.4,
+    "text": "from where till where i'm trying to"
+  },
+  {
+    "start": 3148.72,
+    "duration": 4.72,
+    "text": "search from 0 till column mid minus 1"
+  },
+  {
+    "start": 3151.92,
+    "duration": 2.72,
+    "text": "from 0 till"
+  },
+  {
+    "start": 3153.44,
+    "duration": 5.679,
+    "text": "column mid"
+  },
+  {
+    "start": 3154.64,
+    "duration": 4.479,
+    "text": "minus 1 i'm trying to search for target"
+  },
+  {
+    "start": 3159.28,
+    "duration": 2.16,
+    "text": "okay"
+  },
+  {
+    "start": 3160.16,
+    "duration": 3.12,
+    "text": "what is happening in the second half"
+  },
+  {
+    "start": 3161.44,
+    "duration": 3.28,
+    "text": "second half i'm trying to search in the"
+  },
+  {
+    "start": 3163.28,
+    "duration": 5.279,
+    "text": "same row start"
+  },
+  {
+    "start": 3164.72,
+    "duration": 4.96,
+    "text": "okay but i'm trying to search for"
+  },
+  {
+    "start": 3168.559,
+    "duration": 4.161,
+    "text": "what"
+  },
+  {
+    "start": 3169.68,
+    "duration": 3.04,
+    "text": "i'm trying to search for"
+  },
+  {
+    "start": 3175.44,
+    "duration": 3.76,
+    "text": "c mid plus one till end"
+  },
+  {
+    "start": 3177.599,
+    "duration": 3.681,
+    "text": "so i'm trying to search the start is"
+  },
+  {
+    "start": 3179.2,
+    "duration": 4.72,
+    "text": "going to be equal to what"
+  },
+  {
+    "start": 3181.28,
+    "duration": 5.52,
+    "text": "start is going to be equal to c mid"
+  },
+  {
+    "start": 3183.92,
+    "duration": 5.199,
+    "text": "plus 1 end is going to be till the end"
+  },
+  {
+    "start": 3186.8,
+    "duration": 5.6,
+    "text": "end is going to be equal to till the end"
+  },
+  {
+    "start": 3189.119,
+    "duration": 4.561,
+    "text": "which is equal to entire column minus 1"
+  },
+  {
+    "start": 3192.4,
+    "duration": 2.959,
+    "text": "okay"
+  },
+  {
+    "start": 3193.68,
+    "duration": 2.56,
+    "text": "but here one more condition i need to"
+  },
+  {
+    "start": 3195.359,
+    "duration": 3.441,
+    "text": "put"
+  },
+  {
+    "start": 3196.24,
+    "duration": 4.4,
+    "text": "the target should actually be"
+  },
+  {
+    "start": 3198.8,
+    "duration": 4.08,
+    "text": "less than this also"
+  },
+  {
+    "start": 3200.64,
+    "duration": 3.679,
+    "text": "target should lie between this and this"
+  },
+  {
+    "start": 3202.88,
+    "duration": 3.439,
+    "text": "they might be like other numbers over"
+  },
+  {
+    "start": 3204.319,
+    "duration": 3.52,
+    "text": "here because if i'm saying that target"
+  },
+  {
+    "start": 3206.319,
+    "duration": 3.921,
+    "text": "is greater than 3 greater than equal to"
+  },
+  {
+    "start": 3207.839,
+    "duration": 4.161,
+    "text": "3 it does not necessarily mean that it"
+  },
+  {
+    "start": 3210.24,
+    "duration": 3.2,
+    "text": "will not lie over here"
+  },
+  {
+    "start": 3212.0,
+    "duration": 2.88,
+    "text": "you might be like ok what could what if"
+  },
+  {
+    "start": 3213.44,
+    "duration": 2.96,
+    "text": "the target was 7"
+  },
+  {
+    "start": 3214.88,
+    "duration": 3.52,
+    "text": "in that case will it not search for here"
+  },
+  {
+    "start": 3216.4,
+    "duration": 4.88,
+    "text": "no so here i need to say if target is"
+  },
+  {
+    "start": 3218.4,
+    "duration": 5.679,
+    "text": "greater than 3 and less than 4"
+  },
+  {
+    "start": 3221.28,
+    "duration": 4.88,
+    "text": "greater than equal to three"
+  },
+  {
+    "start": 3224.079,
+    "duration": 5.121,
+    "text": "and and"
+  },
+  {
+    "start": 3226.16,
+    "duration": 3.919,
+    "text": "target should be less than equal to"
+  },
+  {
+    "start": 3229.2,
+    "duration": 4.56,
+    "text": "uh"
+  },
+  {
+    "start": 3230.079,
+    "duration": 3.681,
+    "text": "the last one so matrix off"
+  },
+  {
+    "start": 3233.92,
+    "duration": 4.48,
+    "text": "uh in the row start only it's going to"
+  },
+  {
+    "start": 3235.839,
+    "duration": 4.881,
+    "text": "be columns like the last column"
+  },
+  {
+    "start": 3238.4,
+    "duration": 4.8,
+    "text": "columns minus 1"
+  },
+  {
+    "start": 3240.72,
+    "duration": 4.72,
+    "text": "okay now i'm searching in the third half"
+  },
+  {
+    "start": 3243.2,
+    "duration": 3.6,
+    "text": "and the third half is going to say"
+  },
+  {
+    "start": 3245.44,
+    "duration": 2.56,
+    "text": "that okay we are searching let me just"
+  },
+  {
+    "start": 3246.8,
+    "duration": 2.24,
+    "text": "hide this"
+  },
+  {
+    "start": 3248.0,
+    "duration": 4.0,
+    "text": "so"
+  },
+  {
+    "start": 3249.04,
+    "duration": 4.72,
+    "text": "we are searching in the third half for"
+  },
+  {
+    "start": 3252.0,
+    "duration": 3.68,
+    "text": "row start plus one which is the row we"
+  },
+  {
+    "start": 3253.76,
+    "duration": 3.44,
+    "text": "are searching for searching for row"
+  },
+  {
+    "start": 3255.68,
+    "duration": 3.6,
+    "text": "start plus one this is the row in which"
+  },
+  {
+    "start": 3257.2,
+    "duration": 4.399,
+    "text": "we are searching for"
+  },
+  {
+    "start": 3259.28,
+    "duration": 4.4,
+    "text": "uh and what from where are we searching"
+  },
+  {
+    "start": 3261.599,
+    "duration": 6.401,
+    "text": "we are searching from the zeroth index"
+  },
+  {
+    "start": 3263.68,
+    "duration": 4.32,
+    "text": "till the c minor c mid minus 1."
+  },
+  {
+    "start": 3270.079,
+    "duration": 5.441,
+    "text": "similarly in this last one"
+  },
+  {
+    "start": 3272.559,
+    "duration": 5.28,
+    "text": "i'm also searching in row start plus 1"
+  },
+  {
+    "start": 3275.52,
+    "duration": 3.52,
+    "text": "i'm searching from c mid plus 1 and"
+  },
+  {
+    "start": 3277.839,
+    "duration": 2.881,
+    "text": "column"
+  },
+  {
+    "start": 3279.04,
+    "duration": 3.2,
+    "text": "till column -1"
+  },
+  {
+    "start": 3280.72,
+    "duration": 2.96,
+    "text": "columns are remaining the same and only"
+  },
+  {
+    "start": 3282.24,
+    "duration": 3.04,
+    "text": "row is changing"
+  },
+  {
+    "start": 3283.68,
+    "duration": 4.08,
+    "text": "column remaining the same row is"
+  },
+  {
+    "start": 3285.28,
+    "duration": 4.559,
+    "text": "changing column remaining same row is"
+  },
+  {
+    "start": 3287.76,
+    "duration": 3.079,
+    "text": "changing"
+  },
+  {
+    "start": 3289.839,
+    "duration": 4.881,
+    "text": "that is"
+  },
+  {
+    "start": 3290.839,
+    "duration": 3.881,
+    "text": "it that's your answer"
+  },
+  {
+    "start": 3295.839,
+    "duration": 2.48,
+    "text": "that's it"
+  },
+  {
+    "start": 3299.76,
+    "duration": 4.559,
+    "text": "let's try to run this program if i say"
+  },
+  {
+    "start": 3302.079,
+    "duration": 3.441,
+    "text": "int"
+  },
+  {
+    "start": 3304.319,
+    "duration": 3.76,
+    "text": "i can say"
+  },
+  {
+    "start": 3305.52,
+    "duration": 4.079,
+    "text": "array is equal to"
+  },
+  {
+    "start": 3308.079,
+    "duration": 3.76,
+    "text": "something like"
+  },
+  {
+    "start": 3309.599,
+    "duration": 2.24,
+    "text": "this"
+  },
+  {
+    "start": 3312.24,
+    "duration": 4.0,
+    "text": "you can say one two three"
+  },
+  {
+    "start": 3314.319,
+    "duration": 3.921,
+    "text": "four five six"
+  },
+  {
+    "start": 3316.24,
+    "duration": 4.24,
+    "text": "seven eight nine"
+  },
+  {
+    "start": 3318.24,
+    "duration": 4.96,
+    "text": "in the end i'm just to say print array"
+  },
+  {
+    "start": 3320.48,
+    "duration": 4.24,
+    "text": "start to string"
+  },
+  {
+    "start": 3323.2,
+    "duration": 2.72,
+    "text": "i can say my"
+  },
+  {
+    "start": 3324.72,
+    "duration": 2.56,
+    "text": "answer"
+  },
+  {
+    "start": 3325.92,
+    "duration": 4.48,
+    "text": "in the mid"
+  },
+  {
+    "start": 3327.28,
+    "duration": 6.96,
+    "text": "in the array try to search for"
+  },
+  {
+    "start": 3330.4,
+    "duration": 6.32,
+    "text": "target 6 it should give me 0 1 0 1 2 1"
+  },
+  {
+    "start": 3334.24,
+    "duration": 2.48,
+    "text": "comma 2"
+  },
+  {
+    "start": 3339.2,
+    "duration": 5.359,
+    "text": "it's giving me 1 comma 2 let's try to"
+  },
+  {
+    "start": 3341.04,
+    "duration": 4.48,
+    "text": "search for something that does not exist"
+  },
+  {
+    "start": 3344.559,
+    "duration": 3.921,
+    "text": "like"
+  },
+  {
+    "start": 3345.52,
+    "duration": 5.92,
+    "text": "989 or whatever"
+  },
+  {
+    "start": 3348.48,
+    "duration": 4.8,
+    "text": "should give me minus 1 minus 1"
+  },
+  {
+    "start": 3351.44,
+    "duration": 5.04,
+    "text": "looking good let's try to search for 9"
+  },
+  {
+    "start": 3353.28,
+    "duration": 3.2,
+    "text": "it should give me 2 comma 2"
+  },
+  {
+    "start": 3357.28,
+    "duration": 3.12,
+    "text": "2 comma 2"
+  },
+  {
+    "start": 3358.48,
+    "duration": 3.44,
+    "text": "that looks pretty good and we already"
+  },
+  {
+    "start": 3360.4,
+    "duration": 2.48,
+    "text": "discussed about the complexity for this"
+  },
+  {
+    "start": 3361.92,
+    "duration": 3.199,
+    "text": "as well"
+  },
+  {
+    "start": 3362.88,
+    "duration": 3.919,
+    "text": "so yeah that looks pretty good that was"
+  },
+  {
+    "start": 3365.119,
+    "duration": 3.601,
+    "text": "about this video but we're not done here"
+  },
+  {
+    "start": 3366.799,
+    "duration": 3.52,
+    "text": "because there are a few more questions i"
+  },
+  {
+    "start": 3368.72,
+    "duration": 3.119,
+    "text": "want to tell you about so there's this"
+  },
+  {
+    "start": 3370.319,
+    "duration": 4.48,
+    "text": "one question called"
+  },
+  {
+    "start": 3371.839,
+    "duration": 4.881,
+    "text": "kth smallest in a sorted matrix so even"
+  },
+  {
+    "start": 3374.799,
+    "duration": 3.441,
+    "text": "though we can do that via binary search"
+  },
+  {
+    "start": 3376.72,
+    "duration": 3.52,
+    "text": "there are other ways to solve that"
+  },
+  {
+    "start": 3378.24,
+    "duration": 3.2,
+    "text": "problem like you can use heaps and stuff"
+  },
+  {
+    "start": 3380.24,
+    "duration": 3.28,
+    "text": "or priority queues which we'll learn"
+  },
+  {
+    "start": 3381.44,
+    "duration": 4.639,
+    "text": "more about later so i think it will be"
+  },
+  {
+    "start": 3383.52,
+    "duration": 4.96,
+    "text": "like a double work you know and it will"
+  },
+  {
+    "start": 3386.079,
+    "duration": 4.161,
+    "text": "be it will be a very mix-up if i do that"
+  },
+  {
+    "start": 3388.48,
+    "duration": 3.119,
+    "text": "right now and then i come back to that"
+  },
+  {
+    "start": 3390.24,
+    "duration": 3.52,
+    "text": "question again you know in the future"
+  },
+  {
+    "start": 3391.599,
+    "duration": 3.76,
+    "text": "video so it makes more sense than i'll"
+  },
+  {
+    "start": 3393.76,
+    "duration": 3.28,
+    "text": "that i'll do it in like when we do heaps"
+  },
+  {
+    "start": 3395.359,
+    "duration": 3.2,
+    "text": "only okay so there are a few more"
+  },
+  {
+    "start": 3397.04,
+    "duration": 2.88,
+    "text": "questions that i want to do because some"
+  },
+  {
+    "start": 3398.559,
+    "duration": 3.28,
+    "text": "advanced level questions now that we'll"
+  },
+  {
+    "start": 3399.92,
+    "duration": 4.159,
+    "text": "be doing that will also be covered that"
+  },
+  {
+    "start": 3401.839,
+    "duration": 3.921,
+    "text": "will also be basically using other data"
+  },
+  {
+    "start": 3404.079,
+    "duration": 4.401,
+    "text": "structures that we have not used before"
+  },
+  {
+    "start": 3405.76,
+    "duration": 3.839,
+    "text": "so like hash maps and stuff so make sure"
+  },
+  {
+    "start": 3408.48,
+    "duration": 3.359,
+    "text": "you do the assignments in the"
+  },
+  {
+    "start": 3409.599,
+    "duration": 4.72,
+    "text": "description below and uh if you like"
+  },
+  {
+    "start": 3411.839,
+    "duration": 4.561,
+    "text": "this video then subscribe and uh as the"
+  },
+  {
+    "start": 3414.319,
+    "duration": 3.441,
+    "text": "course movie moves forward we'll be"
+  },
+  {
+    "start": 3416.4,
+    "duration": 2.88,
+    "text": "doing much more advanced questions like"
+  },
+  {
+    "start": 3417.76,
+    "duration": 2.799,
+    "text": "i have promised we did binary search i"
+  },
+  {
+    "start": 3419.28,
+    "duration": 2.96,
+    "text": "told you we'll be doing questions"
+  },
+  {
+    "start": 3420.559,
+    "duration": 2.961,
+    "text": "related to binary search we did that now"
+  },
+  {
+    "start": 3422.24,
+    "duration": 3.04,
+    "text": "we'll be doing let's say in the future"
+  },
+  {
+    "start": 3423.52,
+    "duration": 4.4,
+    "text": "videos uh we'll also be doing sliding"
+  },
+  {
+    "start": 3425.28,
+    "duration": 4.0,
+    "text": "window and two pointer method okay so in"
+  },
+  {
+    "start": 3427.92,
+    "duration": 2.639,
+    "text": "that also we will only be doing like"
+  },
+  {
+    "start": 3429.28,
+    "duration": 2.319,
+    "text": "questions that are using just those"
+  },
+  {
+    "start": 3430.559,
+    "duration": 2.961,
+    "text": "methods"
+  },
+  {
+    "start": 3431.599,
+    "duration": 4.72,
+    "text": "when we do hash maps"
+  },
+  {
+    "start": 3433.52,
+    "duration": 4.24,
+    "text": "then we will be continuing these videos"
+  },
+  {
+    "start": 3436.319,
+    "duration": 3.681,
+    "text": "and we will do"
+  },
+  {
+    "start": 3437.76,
+    "duration": 4.72,
+    "text": "questions that use sliding window and"
+  },
+  {
+    "start": 3440.0,
+    "duration": 4.4,
+    "text": "two pointer with hash maps or with"
+  },
+  {
+    "start": 3442.48,
+    "duration": 3.76,
+    "text": "priority queue"
+  },
+  {
+    "start": 3444.4,
+    "duration": 4.08,
+    "text": "so it's not like a video is over over"
+  },
+  {
+    "start": 3446.24,
+    "duration": 3.68,
+    "text": "there only it's not like if arrays"
+  },
+  {
+    "start": 3448.48,
+    "duration": 3.359,
+    "text": "videos is done then we will not do"
+  },
+  {
+    "start": 3449.92,
+    "duration": 4.48,
+    "text": "errors or if strings videos are done we"
+  },
+  {
+    "start": 3451.839,
+    "duration": 4.161,
+    "text": "will not do strings uh in the future"
+  },
+  {
+    "start": 3454.4,
+    "duration": 3.679,
+    "text": "strings are like very important we will"
+  },
+  {
+    "start": 3456.0,
+    "duration": 4.559,
+    "text": "do strings in dynamic programming one of"
+  },
+  {
+    "start": 3458.079,
+    "duration": 4.401,
+    "text": "the most important topics in dynamic"
+  },
+  {
+    "start": 3460.559,
+    "duration": 2.721,
+    "text": "programming is strings"
+  },
+  {
+    "start": 3462.48,
+    "duration": 2.4,
+    "text": "so"
+  },
+  {
+    "start": 3463.28,
+    "duration": 2.88,
+    "text": "please don't ask me questions like kunal"
+  },
+  {
+    "start": 3464.88,
+    "duration": 2.56,
+    "text": "how will you do this how will you do"
+  },
+  {
+    "start": 3466.16,
+    "duration": 2.8,
+    "text": "that when will you do this when will you"
+  },
+  {
+    "start": 3467.44,
+    "duration": 4.24,
+    "text": "do that"
+  },
+  {
+    "start": 3468.96,
+    "duration": 4.8,
+    "text": "it will be very bad for you if i try to"
+  },
+  {
+    "start": 3471.68,
+    "duration": 4.48,
+    "text": "solve questions that are using hash maps"
+  },
+  {
+    "start": 3473.76,
+    "duration": 3.92,
+    "text": "and heaps right now it will be very bad"
+  },
+  {
+    "start": 3476.16,
+    "duration": 2.72,
+    "text": "for you because we have not covered that"
+  },
+  {
+    "start": 3477.68,
+    "duration": 2.56,
+    "text": "in the course"
+  },
+  {
+    "start": 3478.88,
+    "duration": 4.239,
+    "text": "does it mean that we are not going to do"
+  },
+  {
+    "start": 3480.24,
+    "duration": 5.119,
+    "text": "it no we are going to do it when when we"
+  },
+  {
+    "start": 3483.119,
+    "duration": 4.081,
+    "text": "cover hash maps and heaps"
+  },
+  {
+    "start": 3485.359,
+    "duration": 3.041,
+    "text": "so have a little patience i will cover"
+  },
+  {
+    "start": 3487.2,
+    "duration": 2.8,
+    "text": "everything in detail"
+  },
+  {
+    "start": 3488.4,
+    "duration": 3.04,
+    "text": "when i have told you i have promised you"
+  },
+  {
+    "start": 3490.0,
+    "duration": 3.839,
+    "text": "that this is a course that will get you"
+  },
+  {
+    "start": 3491.44,
+    "duration": 4.32,
+    "text": "interview ready i mean it"
+  },
+  {
+    "start": 3493.839,
+    "duration": 4.641,
+    "text": "okay we're doing a lot more questions"
+  },
+  {
+    "start": 3495.76,
+    "duration": 4.96,
+    "text": "and as i've mentioned theory for one and"
+  },
+  {
+    "start": 3498.48,
+    "duration": 4.319,
+    "text": "for questions a separate topic so as we"
+  },
+  {
+    "start": 3500.72,
+    "duration": 3.92,
+    "text": "move forward to more complex data we"
+  },
+  {
+    "start": 3502.799,
+    "duration": 3.841,
+    "text": "have not started any major data issues"
+  },
+  {
+    "start": 3504.64,
+    "duration": 3.439,
+    "text": "right now trees are remaining linked"
+  },
+  {
+    "start": 3506.64,
+    "duration": 3.6,
+    "text": "list and so many other things are"
+  },
+  {
+    "start": 3508.079,
+    "duration": 4.72,
+    "text": "remaining there we will get graphs are"
+  },
+  {
+    "start": 3510.24,
+    "duration": 4.48,
+    "text": "remaining dp recursion so there will get"
+  },
+  {
+    "start": 3512.799,
+    "duration": 3.441,
+    "text": "more and more nice nice questions for"
+  },
+  {
+    "start": 3514.72,
+    "duration": 3.28,
+    "text": "that every particular question i'll be"
+  },
+  {
+    "start": 3516.24,
+    "duration": 3.44,
+    "text": "making separate separate videos so it's"
+  },
+  {
+    "start": 3518.0,
+    "duration": 4.319,
+    "text": "easier for you to revise"
+  },
+  {
+    "start": 3519.68,
+    "duration": 4.48,
+    "text": "okay so theory videos different and uh"
+  },
+  {
+    "start": 3522.319,
+    "duration": 3.04,
+    "text": "question videos different make sure you"
+  },
+  {
+    "start": 3524.16,
+    "duration": 2.72,
+    "text": "subscribe to the channel check out the"
+  },
+  {
+    "start": 3525.359,
+    "duration": 2.72,
+    "text": "links in the description below pause the"
+  },
+  {
+    "start": 3526.88,
+    "duration": 2.64,
+    "text": "video right now subscribe and share with"
+  },
+  {
+    "start": 3528.079,
+    "duration": 5.161,
+    "text": "your friends and i'll see you in the"
+  },
+  {
+    "start": 3529.52,
+    "duration": 3.72,
+    "text": "next one have a great day"
+  },
+  {
+    "start": 3533.9,
+    "duration": 4.85,
+    "text": "[Music]"
+  }
+]

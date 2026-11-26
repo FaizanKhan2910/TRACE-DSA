@@ -1,0 +1,8162 @@
+[
+  {
+    "start": 4.56,
+    "duration": 3.72,
+    "text": "Hey everyone, welcome back to another"
+  },
+  {
+    "start": 6.16,
+    "duration": 4.8,
+    "text": "video and in this video we are going to"
+  },
+  {
+    "start": 8.28,
+    "duration": 4.6,
+    "text": "look into conditionals and loops in"
+  },
+  {
+    "start": 10.96,
+    "duration": 3.64,
+    "text": "Java. So when we were learning about"
+  },
+  {
+    "start": 12.88,
+    "duration": 4.0,
+    "text": "flowcharts, we saw that you take, you"
+  },
+  {
+    "start": 14.6,
+    "duration": 4.4,
+    "text": "know, input and output, you do some"
+  },
+  {
+    "start": 16.88,
+    "duration": 4.0,
+    "text": "processing, and you have some conditions"
+  },
+  {
+    "start": 19.0,
+    "duration": 3.6,
+    "text": "as well. We have already seen about"
+  },
+  {
+    "start": 20.88,
+    "duration": 3.2,
+    "text": "input output. We have already seen a"
+  },
+  {
+    "start": 22.6,
+    "duration": 3.76,
+    "text": "little bit about like processing like A"
+  },
+  {
+    "start": 24.08,
+    "duration": 4.92,
+    "text": "is equal to A plus one, you know, C plus"
+  },
+  {
+    "start": 26.36,
+    "duration": 4.6,
+    "text": "plus, B plus plus or whatever. If you"
+  },
+  {
+    "start": 29.0,
+    "duration": 2.76,
+    "text": "are just starting out,"
+  },
+  {
+    "start": 30.96,
+    "duration": 3.16,
+    "text": "do check out the links in the"
+  },
+  {
+    "start": 31.76,
+    "duration": 4.96,
+    "text": "description. There's an entire Java DSA"
+  },
+  {
+    "start": 34.12,
+    "duration": 4.6,
+    "text": "playlist. So this is a video of part of"
+  },
+  {
+    "start": 36.72,
+    "duration": 3.52,
+    "text": "that and you can check out all the"
+  },
+  {
+    "start": 38.72,
+    "duration": 3.24,
+    "text": "videos in that playlist. The link is in"
+  },
+  {
+    "start": 40.24,
+    "duration": 2.76,
+    "text": "the description. Make sure you like,"
+  },
+  {
+    "start": 41.96,
+    "duration": 2.28,
+    "text": "share, and subscribe and let's get"
+  },
+  {
+    "start": 43.0,
+    "duration": 3.44,
+    "text": "started."
+  },
+  {
+    "start": 44.24,
+    "duration": 3.88,
+    "text": "So let me create a new project in Idea."
+  },
+  {
+    "start": 46.44,
+    "duration": 3.0,
+    "text": "We have done a tutorial on this already."
+  },
+  {
+    "start": 48.12,
+    "duration": 3.36,
+    "text": "You can find the link in the description"
+  },
+  {
+    "start": 49.44,
+    "duration": 3.84,
+    "text": "for the playlist. I'm going to create a"
+  },
+  {
+    "start": 51.48,
+    "duration": 4.92,
+    "text": "new project."
+  },
+  {
+    "start": 53.28,
+    "duration": 7.2,
+    "text": "And I'm going to say next."
+  },
+  {
+    "start": 56.4,
+    "duration": 4.08,
+    "text": "From command line, like from the"
+  },
+  {
+    "start": 60.88,
+    "duration": 5.32,
+    "text": "template and let me just create a"
+  },
+  {
+    "start": 64.559,
+    "duration": 2.761,
+    "text": "Now lecture number"
+  },
+  {
+    "start": 66.2,
+    "duration": 2.96,
+    "text": "six,"
+  },
+  {
+    "start": 67.32,
+    "duration": 3.36,
+    "text": "which is"
+  },
+  {
+    "start": 69.16,
+    "duration": 4.4,
+    "text": "conditions"
+  },
+  {
+    "start": 70.68,
+    "duration": 2.88,
+    "text": "and loops."
+  },
+  {
+    "start": 75.24,
+    "duration": 3.84,
+    "text": "Code."
+  },
+  {
+    "start": 77.2,
+    "duration": 5.16,
+    "text": "Open."
+  },
+  {
+    "start": 79.08,
+    "duration": 3.28,
+    "text": "com.kunal finish."
+  },
+  {
+    "start": 83.56,
+    "duration": 4.2,
+    "text": "Pretty cool. All right."
+  },
+  {
+    "start": 85.68,
+    "duration": 3.44,
+    "text": "Opening it up over here."
+  },
+  {
+    "start": 87.76,
+    "duration": 3.0,
+    "text": "That looks good."
+  },
+  {
+    "start": 89.12,
+    "duration": 3.4,
+    "text": "So let's first look at the conditions"
+  },
+  {
+    "start": 90.76,
+    "duration": 4.28,
+    "text": "part, okay, the if conditions. What are"
+  },
+  {
+    "start": 92.52,
+    "duration": 4.68,
+    "text": "conditions? Now what is a condition?"
+  },
+  {
+    "start": 95.04,
+    "duration": 4.48,
+    "text": "Okay, let's see. Why would we require"
+  },
+  {
+    "start": 97.2,
+    "duration": 3.52,
+    "text": "such things? So basically, let's say you"
+  },
+  {
+    "start": 99.52,
+    "duration": 5.04,
+    "text": "want to, you know, in our previous"
+  },
+  {
+    "start": 100.72,
+    "duration": 6.08,
+    "text": "example, that input a salary and if the"
+  },
+  {
+    "start": 104.56,
+    "duration": 4.52,
+    "text": "salary is"
+  },
+  {
+    "start": 106.8,
+    "duration": 6.32,
+    "text": "greater than 10,000, give a bonus of"
+  },
+  {
+    "start": 109.08,
+    "duration": 7.84,
+    "text": "2,000. Otherwise, give a bonus of 1,000."
+  },
+  {
+    "start": 113.12,
+    "duration": 6.2,
+    "text": "So this check, if this is this, do this,"
+  },
+  {
+    "start": 116.92,
+    "duration": 5.24,
+    "text": "otherwise do this. This is something we"
+  },
+  {
+    "start": 119.32,
+    "duration": 4.56,
+    "text": "can do via if statements. The syntax"
+  },
+  {
+    "start": 122.16,
+    "duration": 3.44,
+    "text": "looks something like this. By the way,"
+  },
+  {
+    "start": 123.88,
+    "duration": 3.08,
+    "text": "this is the way you can add multi-line"
+  },
+  {
+    "start": 125.6,
+    "duration": 4.2,
+    "text": "comments. So, just"
+  },
+  {
+    "start": 126.96,
+    "duration": 5.56,
+    "text": "slash star star slash. Everything you"
+  },
+  {
+    "start": 129.8,
+    "duration": 4.32,
+    "text": "add in this will be a comment. So, the"
+  },
+  {
+    "start": 132.52,
+    "duration": 3.64,
+    "text": "the the the thing that I'm trying to"
+  },
+  {
+    "start": 134.12,
+    "duration": 3.92,
+    "text": "show you over here is the What is the"
+  },
+  {
+    "start": 136.16,
+    "duration": 3.36,
+    "text": "syntax? How do we write a"
+  },
+  {
+    "start": 138.04,
+    "duration": 5.6,
+    "text": "if statement?"
+  },
+  {
+    "start": 139.52,
+    "duration": 8.64,
+    "text": "Syntax of if statements."
+  },
+  {
+    "start": 143.64,
+    "duration": 6.28,
+    "text": "Okay? So, this is a syntax. You write if"
+  },
+  {
+    "start": 148.16,
+    "duration": 3.84,
+    "text": "brackets"
+  },
+  {
+    "start": 149.92,
+    "duration": 5.8,
+    "text": "Boolean expression, so either true or"
+  },
+  {
+    "start": 152.0,
+    "duration": 5.2,
+    "text": "false. It should be like true or false."
+  },
+  {
+    "start": 155.72,
+    "duration": 3.92,
+    "text": "Okay?"
+  },
+  {
+    "start": 157.2,
+    "duration": 5.36,
+    "text": "And then the body."
+  },
+  {
+    "start": 159.64,
+    "duration": 6.28,
+    "text": "Whatever you want to do in it."
+  },
+  {
+    "start": 162.56,
+    "duration": 5.28,
+    "text": "Okay? So, if this condition is true, do"
+  },
+  {
+    "start": 165.92,
+    "duration": 4.08,
+    "text": "this. And then there's another condition"
+  },
+  {
+    "start": 167.84,
+    "duration": 4.68,
+    "text": "called else."
+  },
+  {
+    "start": 170.0,
+    "duration": 2.52,
+    "text": "Do this."
+  },
+  {
+    "start": 174.68,
+    "duration": 5.0,
+    "text": "Okay? For example,"
+  },
+  {
+    "start": 177.4,
+    "duration": 3.24,
+    "text": "I can say something like um"
+  },
+  {
+    "start": 179.68,
+    "duration": 4.48,
+    "text": "you know,"
+  },
+  {
+    "start": 180.64,
+    "duration": 5.2,
+    "text": "int salary is equal to"
+  },
+  {
+    "start": 184.16,
+    "duration": 4.64,
+    "text": "something like this."
+  },
+  {
+    "start": 185.84,
+    "duration": 5.0,
+    "text": "Then I can say, if"
+  },
+  {
+    "start": 188.8,
+    "duration": 4.159,
+    "text": "brackets"
+  },
+  {
+    "start": 190.84,
+    "duration": 4.32,
+    "text": "I need a true or false expression an"
+  },
+  {
+    "start": 192.959,
+    "duration": 3.881,
+    "text": "expression a statement that will give me"
+  },
+  {
+    "start": 195.16,
+    "duration": 4.359,
+    "text": "either true or false."
+  },
+  {
+    "start": 196.84,
+    "duration": 4.28,
+    "text": "So, I can say if salary is greater than"
+  },
+  {
+    "start": 199.519,
+    "duration": 2.881,
+    "text": "10,000."
+  },
+  {
+    "start": 201.12,
+    "duration": 3.119,
+    "text": "So, this will definitely give me true or"
+  },
+  {
+    "start": 202.4,
+    "duration": 3.8,
+    "text": "false. Salary will either be greater"
+  },
+  {
+    "start": 204.239,
+    "duration": 5.321,
+    "text": "than 10,000 or less than 10,000. This"
+  },
+  {
+    "start": 206.2,
+    "duration": 5.08,
+    "text": "will give me either true or false."
+  },
+  {
+    "start": 209.56,
+    "duration": 4.36,
+    "text": "I can say salary"
+  },
+  {
+    "start": 211.28,
+    "duration": 5.16,
+    "text": "is equal to salary plus"
+  },
+  {
+    "start": 213.92,
+    "duration": 3.88,
+    "text": "2,000 rupees."
+  },
+  {
+    "start": 216.44,
+    "duration": 4.72,
+    "text": "Otherwise,"
+  },
+  {
+    "start": 217.8,
+    "duration": 5.159,
+    "text": "salary is equal to salary plus 1,000"
+  },
+  {
+    "start": 221.16,
+    "duration": 5.04,
+    "text": "rupees."
+  },
+  {
+    "start": 222.959,
+    "duration": 3.241,
+    "text": "And then in the end I can just say"
+  },
+  {
+    "start": 226.72,
+    "duration": 3.96,
+    "text": "print"
+  },
+  {
+    "start": 227.92,
+    "duration": 2.76,
+    "text": "the new salary."
+  },
+  {
+    "start": 231.16,
+    "duration": 3.56,
+    "text": "This one is definitely greater than"
+  },
+  {
+    "start": 232.6,
+    "duration": 4.2,
+    "text": "10,000, so it will be"
+  },
+  {
+    "start": 234.72,
+    "duration": 5.96,
+    "text": "226400"
+  },
+  {
+    "start": 236.8,
+    "duration": 5.76,
+    "text": "cuz salary Sorry, 227400"
+  },
+  {
+    "start": 240.68,
+    "duration": 4.48,
+    "text": "cuz greater than 10,000."
+  },
+  {
+    "start": 242.56,
+    "duration": 2.6,
+    "text": "It will do this."
+  },
+  {
+    "start": 245.2,
+    "duration": 3.36,
+    "text": "So, in if and else in if and else"
+  },
+  {
+    "start": 247.2,
+    "duration": 3.04,
+    "text": "condition, only one of these are going"
+  },
+  {
+    "start": 248.56,
+    "duration": 4.52,
+    "text": "to run."
+  },
+  {
+    "start": 250.24,
+    "duration": 5.12,
+    "text": "Only one of these are going to run."
+  },
+  {
+    "start": 253.08,
+    "duration": 3.84,
+    "text": "You can put a debug pointer here, try to"
+  },
+  {
+    "start": 255.36,
+    "duration": 4.96,
+    "text": "debug this program, and you can see line"
+  },
+  {
+    "start": 256.92,
+    "duration": 3.4,
+    "text": "by line how these things are working."
+  },
+  {
+    "start": 260.56,
+    "duration": 3.0,
+    "text": "So, right now we are here. Salary is"
+  },
+  {
+    "start": 261.88,
+    "duration": 4.96,
+    "text": "equal to this much. It's going to check,"
+  },
+  {
+    "start": 263.56,
+    "duration": 4.72,
+    "text": "\"Hey, is 25,400 greater than 10,000?\""
+  },
+  {
+    "start": 266.84,
+    "duration": 3.28,
+    "text": "It's going to say, \"Yes, it is.\" Then"
+  },
+  {
+    "start": 268.28,
+    "duration": 3.6,
+    "text": "it's going to go inside."
+  },
+  {
+    "start": 270.12,
+    "duration": 3.92,
+    "text": "Yes, it is. It went inside this if"
+  },
+  {
+    "start": 271.88,
+    "duration": 4.6,
+    "text": "condition. Means it will not go inside"
+  },
+  {
+    "start": 274.04,
+    "duration": 5.56,
+    "text": "this else condition. If and else, only"
+  },
+  {
+    "start": 276.48,
+    "duration": 3.12,
+    "text": "one of these will execute."
+  },
+  {
+    "start": 280.52,
+    "duration": 3.88,
+    "text": "You can see this was not executed."
+  },
+  {
+    "start": 282.64,
+    "duration": 3.64,
+    "text": "New salary."
+  },
+  {
+    "start": 284.4,
+    "duration": 3.32,
+    "text": "Input and uh sorry, exit out of the"
+  },
+  {
+    "start": 286.28,
+    "duration": 3.2,
+    "text": "program."
+  },
+  {
+    "start": 287.72,
+    "duration": 3.68,
+    "text": "You can also add multiple else if"
+  },
+  {
+    "start": 289.48,
+    "duration": 5.84,
+    "text": "statements in the same thing. So, let's"
+  },
+  {
+    "start": 291.4,
+    "duration": 3.92,
+    "text": "say you want to add something like um"
+  },
+  {
+    "start": 297.84,
+    "duration": 4.36,
+    "text": "multiple if else statements."
+  },
+  {
+    "start": 302.88,
+    "duration": 4.28,
+    "text": "So, let's say you want to add something"
+  },
+  {
+    "start": 303.96,
+    "duration": 3.2,
+    "text": "like if"
+  },
+  {
+    "start": 307.96,
+    "duration": 5.28,
+    "text": "the salary is"
+  },
+  {
+    "start": 310.72,
+    "duration": 2.52,
+    "text": "you know,"
+  },
+  {
+    "start": 313.36,
+    "duration": 5.72,
+    "text": "greater than 10,000,"
+  },
+  {
+    "start": 316.6,
+    "duration": 4.08,
+    "text": "then uh salary"
+  },
+  {
+    "start": 319.08,
+    "duration": 3.52,
+    "text": "is equal to salary plus 2,000. You can"
+  },
+  {
+    "start": 320.68,
+    "duration": 5.239,
+    "text": "also write it as salary plus equal to"
+  },
+  {
+    "start": 322.6,
+    "duration": 7.48,
+    "text": "2,000. Okay? It's the same as writing"
+  },
+  {
+    "start": 325.919,
+    "duration": 6.201,
+    "text": "salary is equal to salary plus 2,000."
+  },
+  {
+    "start": 330.08,
+    "duration": 3.52,
+    "text": "Okay, shortcut form."
+  },
+  {
+    "start": 332.12,
+    "duration": 4.24,
+    "text": "Otherwise,"
+  },
+  {
+    "start": 333.6,
+    "duration": 5.36,
+    "text": "if So, you can see else if. Means I'm"
+  },
+  {
+    "start": 336.36,
+    "duration": 5.36,
+    "text": "combining more than one else Sorry, if"
+  },
+  {
+    "start": 338.96,
+    "duration": 5.36,
+    "text": "conditions. If salary is greater than"
+  },
+  {
+    "start": 341.72,
+    "duration": 4.68,
+    "text": "20,000,"
+  },
+  {
+    "start": 344.32,
+    "duration": 3.56,
+    "text": "give a bonus of, let's say, 3,000"
+  },
+  {
+    "start": 346.4,
+    "duration": 5.6,
+    "text": "rupees."
+  },
+  {
+    "start": 347.88,
+    "duration": 5.8,
+    "text": "In end, I will have else condition only."
+  },
+  {
+    "start": 352.0,
+    "duration": 4.48,
+    "text": "Okay, in the end, I will have"
+  },
+  {
+    "start": 353.68,
+    "duration": 3.76,
+    "text": "else condition only."
+  },
+  {
+    "start": 356.48,
+    "duration": 3.12,
+    "text": "Okay?"
+  },
+  {
+    "start": 357.44,
+    "duration": 2.16,
+    "text": "Cool."
+  },
+  {
+    "start": 359.72,
+    "duration": 4.4,
+    "text": "So, this else basically means if none of"
+  },
+  {
+    "start": 361.88,
+    "duration": 4.28,
+    "text": "the above conditions are true,"
+  },
+  {
+    "start": 364.12,
+    "duration": 6.72,
+    "text": "then execute this condition."
+  },
+  {
+    "start": 366.16,
+    "duration": 4.68,
+    "text": "Else, salary plus equal to 1,000."
+  },
+  {
+    "start": 371.64,
+    "duration": 4.36,
+    "text": "Okay?"
+  },
+  {
+    "start": 372.52,
+    "duration": 5.399,
+    "text": "That is a multiple if-else statement."
+  },
+  {
+    "start": 376.0,
+    "duration": 4.52,
+    "text": "So, these are conditional like the"
+  },
+  {
+    "start": 377.919,
+    "duration": 4.841,
+    "text": "conditions and we can use the if-else"
+  },
+  {
+    "start": 380.52,
+    "duration": 3.32,
+    "text": "statements to structure the flow of our"
+  },
+  {
+    "start": 382.76,
+    "duration": 3.04,
+    "text": "program."
+  },
+  {
+    "start": 383.84,
+    "duration": 4.76,
+    "text": "Uh now, let's look into"
+  },
+  {
+    "start": 385.8,
+    "duration": 4.28,
+    "text": "something else, which is known as loops."
+  },
+  {
+    "start": 388.6,
+    "duration": 3.64,
+    "text": "So, we'll be doing some some nice"
+  },
+  {
+    "start": 390.08,
+    "duration": 3.68,
+    "text": "questions in this session only and that"
+  },
+  {
+    "start": 392.24,
+    "duration": 3.2,
+    "text": "will make it much more clearer. We will"
+  },
+  {
+    "start": 393.76,
+    "duration": 3.64,
+    "text": "actually be, let's say, creating a"
+  },
+  {
+    "start": 395.44,
+    "duration": 3.92,
+    "text": "calculator app program."
+  },
+  {
+    "start": 397.4,
+    "duration": 4.36,
+    "text": "Okay? In this session only. So, that is"
+  },
+  {
+    "start": 399.36,
+    "duration": 3.84,
+    "text": "going to be a very nice uh hands-on"
+  },
+  {
+    "start": 401.76,
+    "duration": 4.44,
+    "text": "experience. So, I'm going to say"
+  },
+  {
+    "start": 403.2,
+    "duration": 3.0,
+    "text": "conditionals."
+  },
+  {
+    "start": 406.28,
+    "duration": 3.92,
+    "text": "File name conditionals."
+  },
+  {
+    "start": 408.96,
+    "duration": 3.72,
+    "text": "Another file name I'm going to create"
+  },
+  {
+    "start": 410.2,
+    "duration": 2.48,
+    "text": "loops."
+  },
+  {
+    "start": 418.2,
+    "duration": 4.84,
+    "text": "All right. So, we have scanner. I can"
+  },
+  {
+    "start": 420.56,
+    "duration": 5.2,
+    "text": "say"
+  },
+  {
+    "start": 423.04,
+    "duration": 6.56,
+    "text": "input is equal to new scanner. We"
+  },
+  {
+    "start": 425.76,
+    "duration": 5.48,
+    "text": "already have seen all these things."
+  },
+  {
+    "start": 429.6,
+    "duration": 3.6,
+    "text": "And then I can say"
+  },
+  {
+    "start": 431.24,
+    "duration": 3.24,
+    "text": "loop. Okay, so what is a loop?"
+  },
+  {
+    "start": 433.2,
+    "duration": 3.32,
+    "text": "Okay, forget about scanner right now."
+  },
+  {
+    "start": 434.48,
+    "duration": 3.92,
+    "text": "Let's just do a simple loop. So, I can"
+  },
+  {
+    "start": 436.52,
+    "duration": 3.92,
+    "text": "say"
+  },
+  {
+    "start": 438.4,
+    "duration": 3.92,
+    "text": "I can say something like um"
+  },
+  {
+    "start": 440.44,
+    "duration": 5.92,
+    "text": "What is a loop, basically? The loop is"
+  },
+  {
+    "start": 442.32,
+    "duration": 8.4,
+    "text": "basically, let's say, the question is"
+  },
+  {
+    "start": 446.36,
+    "duration": 4.36,
+    "text": "print numbers from"
+  },
+  {
+    "start": 451.12,
+    "duration": 5.48,
+    "text": "1 to 5. That's the question."
+  },
+  {
+    "start": 453.36,
+    "duration": 3.24,
+    "text": "You can do it something like this."
+  },
+  {
+    "start": 457.08,
+    "duration": 4.28,
+    "text": "One."
+  },
+  {
+    "start": 459.08,
+    "duration": 2.28,
+    "text": "Okay?"
+  },
+  {
+    "start": 462.16,
+    "duration": 2.2,
+    "text": "Two."
+  },
+  {
+    "start": 465.0,
+    "duration": 4.12,
+    "text": "three"
+  },
+  {
+    "start": 466.92,
+    "duration": 2.2,
+    "text": "four"
+  },
+  {
+    "start": 470.68,
+    "duration": 3.52,
+    "text": "five"
+  },
+  {
+    "start": 472.56,
+    "duration": 4.72,
+    "text": "Okay? Otherwise, if someone asks you,"
+  },
+  {
+    "start": 474.2,
+    "duration": 6.24,
+    "text": "\"Hey, uh print hello world five times.\""
+  },
+  {
+    "start": 477.28,
+    "duration": 3.16,
+    "text": "So, you can do something like this."
+  },
+  {
+    "start": 480.68,
+    "duration": 2.6,
+    "text": "Hello world."
+  },
+  {
+    "start": 487.8,
+    "duration": 2.28,
+    "text": "Okay?"
+  },
+  {
+    "start": 490.12,
+    "duration": 3.6,
+    "text": "Five times means copy it five times."
+  },
+  {
+    "start": 495.2,
+    "duration": 5.36,
+    "text": "But, imagine someone asked you do a"
+  },
+  {
+    "start": 497.48,
+    "duration": 5.64,
+    "text": "particular task 10,000 times. Would you"
+  },
+  {
+    "start": 500.56,
+    "duration": 4.08,
+    "text": "write it 10,000 times?"
+  },
+  {
+    "start": 503.12,
+    "duration": 2.92,
+    "text": "No, right?"
+  },
+  {
+    "start": 504.64,
+    "duration": 3.76,
+    "text": "So, there's a few tasks that you want to"
+  },
+  {
+    "start": 506.04,
+    "duration": 5.28,
+    "text": "do again and again in like a loop. For"
+  },
+  {
+    "start": 508.4,
+    "duration": 4.24,
+    "text": "example, print 1 to 10 numbers, display"
+  },
+  {
+    "start": 511.32,
+    "duration": 4.76,
+    "text": "all the you know, iterate over a"
+  },
+  {
+    "start": 512.64,
+    "duration": 5.64,
+    "text": "particular data type, or take inputs"
+  },
+  {
+    "start": 516.08,
+    "duration": 4.76,
+    "text": "while the user does not press X, which"
+  },
+  {
+    "start": 518.28,
+    "duration": 4.8,
+    "text": "is something we'll do later on. So,"
+  },
+  {
+    "start": 520.84,
+    "duration": 3.84,
+    "text": "in that case, you can do something like"
+  },
+  {
+    "start": 523.08,
+    "duration": 2.72,
+    "text": "you can use loops for that. And there"
+  },
+  {
+    "start": 524.68,
+    "duration": 3.84,
+    "text": "are three types of loops we'll be"
+  },
+  {
+    "start": 525.8,
+    "duration": 4.2,
+    "text": "looking into. First one being for loop."
+  },
+  {
+    "start": 528.52,
+    "duration": 5.92,
+    "text": "And we'll also be seeing when to use"
+  },
+  {
+    "start": 530.0,
+    "duration": 4.44,
+    "text": "which loop. So, for loop syntax is"
+  },
+  {
+    "start": 540.76,
+    "duration": 3.8,
+    "text": "So, syntax is something like this."
+  },
+  {
+    "start": 545.88,
+    "duration": 2.959,
+    "text": "For"
+  },
+  {
+    "start": 546.8,
+    "duration": 3.64,
+    "text": "brackets"
+  },
+  {
+    "start": 548.839,
+    "duration": 3.321,
+    "text": "This you have your"
+  },
+  {
+    "start": 550.44,
+    "duration": 3.76,
+    "text": "body like whatever you want to do, how"
+  },
+  {
+    "start": 552.16,
+    "duration": 5.04,
+    "text": "many times you want to do it."
+  },
+  {
+    "start": 554.2,
+    "duration": 3.0,
+    "text": "initialization"
+  },
+  {
+    "start": 557.839,
+    "duration": 4.081,
+    "text": "condition"
+  },
+  {
+    "start": 559.52,
+    "duration": 2.4,
+    "text": "and"
+  },
+  {
+    "start": 562.12,
+    "duration": 3.48,
+    "text": "increment decrement."
+  },
+  {
+    "start": 566.04,
+    "duration": 4.64,
+    "text": "Okay? So, for example, let's say the"
+  },
+  {
+    "start": 567.76,
+    "duration": 4.6,
+    "text": "question is print numbers from 1 to 5."
+  },
+  {
+    "start": 570.68,
+    "duration": 2.76,
+    "text": "Okay, that is the question. Let's try to"
+  },
+  {
+    "start": 572.36,
+    "duration": 4.16,
+    "text": "solve this"
+  },
+  {
+    "start": 573.44,
+    "duration": 5.92,
+    "text": "using this in this syntax. So, for"
+  },
+  {
+    "start": 576.52,
+    "duration": 4.6,
+    "text": "brackets and this will have our body."
+  },
+  {
+    "start": 579.36,
+    "duration": 3.48,
+    "text": "Numbers from 1 to 5. So, I will"
+  },
+  {
+    "start": 581.12,
+    "duration": 5.28,
+    "text": "initialize a number from 1 to 5. I can"
+  },
+  {
+    "start": 582.84,
+    "duration": 5.4,
+    "text": "say int number is equal to 1."
+  },
+  {
+    "start": 586.4,
+    "duration": 5.4,
+    "text": "While this number"
+  },
+  {
+    "start": 588.24,
+    "duration": 3.56,
+    "text": "is less than equal to 5."
+  },
+  {
+    "start": 592.08,
+    "duration": 4.76,
+    "text": "Number plus plus or you can say number"
+  },
+  {
+    "start": 595.08,
+    "duration": 3.44,
+    "text": "plus equal to 1."
+  },
+  {
+    "start": 596.84,
+    "duration": 3.44,
+    "text": "Increment the number by 1. I will tell"
+  },
+  {
+    "start": 598.52,
+    "duration": 4.04,
+    "text": "you how this thing is working."
+  },
+  {
+    "start": 600.28,
+    "duration": 4.16,
+    "text": "For every time this for loop runs, I"
+  },
+  {
+    "start": 602.56,
+    "duration": 3.0,
+    "text": "will just print the number."
+  },
+  {
+    "start": 604.44,
+    "duration": 4.28,
+    "text": "Let's try to run this and then I'll"
+  },
+  {
+    "start": 605.56,
+    "duration": 3.16,
+    "text": "explain how this is working."
+  },
+  {
+    "start": 610.28,
+    "duration": 5.28,
+    "text": "1 2 3 4 5."
+  },
+  {
+    "start": 612.48,
+    "duration": 3.08,
+    "text": "Let's see how this is working then."
+  },
+  {
+    "start": 615.8,
+    "duration": 4.64,
+    "text": "Let me add some nice indentation. Okay."
+  },
+  {
+    "start": 619.04,
+    "duration": 2.92,
+    "text": "Basically, what is happening over here"
+  },
+  {
+    "start": 620.44,
+    "duration": 2.8,
+    "text": "is that when this line of code is"
+  },
+  {
+    "start": 621.96,
+    "duration": 4.6,
+    "text": "executed,"
+  },
+  {
+    "start": 623.24,
+    "duration": 6.28,
+    "text": "int num is equal to 1. Num is equal to 1"
+  },
+  {
+    "start": 626.56,
+    "duration": 6.68,
+    "text": "is going to be initialized. Okay? Uh"
+  },
+  {
+    "start": 629.52,
+    "duration": 6.84,
+    "text": "a variable num will be initialized to 1."
+  },
+  {
+    "start": 633.24,
+    "duration": 5.52,
+    "text": "After that, it's going to check is 1 is"
+  },
+  {
+    "start": 636.36,
+    "duration": 4.6,
+    "text": "num less than equal to 5? It's going to"
+  },
+  {
+    "start": 638.76,
+    "duration": 5.0,
+    "text": "be like, yes, it is. Then it's going to"
+  },
+  {
+    "start": 640.96,
+    "duration": 5.04,
+    "text": "run this particular command or whatever"
+  },
+  {
+    "start": 643.76,
+    "duration": 4.12,
+    "text": "code that you have in the block."
+  },
+  {
+    "start": 646.0,
+    "duration": 4.04,
+    "text": "After that, it will"
+  },
+  {
+    "start": 647.88,
+    "duration": 4.2,
+    "text": "increment it by whatever values you're"
+  },
+  {
+    "start": 650.04,
+    "duration": 4.52,
+    "text": "putting. Okay? So, it will increment it"
+  },
+  {
+    "start": 652.08,
+    "duration": 4.68,
+    "text": "by 1 in this case. Then it will be now"
+  },
+  {
+    "start": 654.56,
+    "duration": 3.32,
+    "text": "2. It will then turn check again. Is 2"
+  },
+  {
+    "start": 656.76,
+    "duration": 3.68,
+    "text": "less than equal to 5? It's going to be"
+  },
+  {
+    "start": 657.88,
+    "duration": 5.36,
+    "text": "like, yes, it is. Okay. Print num. Num"
+  },
+  {
+    "start": 660.44,
+    "duration": 4.84,
+    "text": "is 2, so print 2. If you then it will"
+  },
+  {
+    "start": 663.24,
+    "duration": 4.12,
+    "text": "then it will be 3. Then it will be like,"
+  },
+  {
+    "start": 665.28,
+    "duration": 4.04,
+    "text": "3 is less than equal to 5? Yes, it is."
+  },
+  {
+    "start": 667.36,
+    "duration": 4.44,
+    "text": "Print 3. Then it will be 4. So,"
+  },
+  {
+    "start": 669.32,
+    "duration": 4.28,
+    "text": "basically, this happens only one time."
+  },
+  {
+    "start": 671.8,
+    "duration": 4.56,
+    "text": "After that, it will have the check, run"
+  },
+  {
+    "start": 673.6,
+    "duration": 5.32,
+    "text": "the body, increment. Have the check, run"
+  },
+  {
+    "start": 676.36,
+    "duration": 4.8,
+    "text": "the body, increment. Have the check, run"
+  },
+  {
+    "start": 678.92,
+    "duration": 4.16,
+    "text": "the body, increment. When the num value"
+  },
+  {
+    "start": 681.16,
+    "duration": 3.72,
+    "text": "will be 6, then it's going to check, is"
+  },
+  {
+    "start": 683.08,
+    "duration": 4.08,
+    "text": "6 less than equal to 5? It's going to be"
+  },
+  {
+    "start": 684.88,
+    "duration": 4.04,
+    "text": "like, no, it's not. Hence, it will not"
+  },
+  {
+    "start": 687.16,
+    "duration": 3.679,
+    "text": "execute what is inside the function that"
+  },
+  {
+    "start": 688.92,
+    "duration": 6.2,
+    "text": "the uh sorry, the for loop body and it"
+  },
+  {
+    "start": 690.839,
+    "duration": 4.281,
+    "text": "will exit out of it. You can also do the"
+  },
+  {
+    "start": 696.36,
+    "duration": 2.52,
+    "text": "debugging."
+  },
+  {
+    "start": 700.28,
+    "duration": 4.44,
+    "text": "Initially, you can say if I go in this,"
+  },
+  {
+    "start": 702.84,
+    "duration": 4.8,
+    "text": "it now initializes the value num is"
+  },
+  {
+    "start": 704.72,
+    "duration": 4.88,
+    "text": "equal to one and it's going to be like"
+  },
+  {
+    "start": 707.64,
+    "duration": 4.68,
+    "text": "Okay, print it."
+  },
+  {
+    "start": 709.6,
+    "duration": 4.2,
+    "text": "Now, it will go again over here like I"
+  },
+  {
+    "start": 712.32,
+    "duration": 3.32,
+    "text": "said, you know, initialize for the very"
+  },
+  {
+    "start": 713.8,
+    "duration": 4.24,
+    "text": "first time, check if it is less than"
+  },
+  {
+    "start": 715.64,
+    "duration": 4.36,
+    "text": "five, print it and now it's over here."
+  },
+  {
+    "start": 718.04,
+    "duration": 3.4,
+    "text": "You can see currently num value is one."
+  },
+  {
+    "start": 720.0,
+    "duration": 3.8,
+    "text": "When I go on the next step, it will"
+  },
+  {
+    "start": 721.44,
+    "duration": 3.12,
+    "text": "increment it by one."
+  },
+  {
+    "start": 723.8,
+    "duration": 2.56,
+    "text": "Two."
+  },
+  {
+    "start": 724.56,
+    "duration": 3.6,
+    "text": "And now it did the check again. Is two"
+  },
+  {
+    "start": 726.36,
+    "duration": 3.76,
+    "text": "less than five? Yes, it is. Less than"
+  },
+  {
+    "start": 728.16,
+    "duration": 3.52,
+    "text": "equal to five? Yes, it is. Print it."
+  },
+  {
+    "start": 730.12,
+    "duration": 3.08,
+    "text": "Similarly, three. Similarly, four."
+  },
+  {
+    "start": 731.68,
+    "duration": 3.4,
+    "text": "Similarly, five. Now the value will be"
+  },
+  {
+    "start": 733.2,
+    "duration": 3.12,
+    "text": "six. So, it'll be like is six less than"
+  },
+  {
+    "start": 735.08,
+    "duration": 2.64,
+    "text": "equal to five? No, it's not. It will"
+  },
+  {
+    "start": 736.32,
+    "duration": 2.8,
+    "text": "come out of the"
+  },
+  {
+    "start": 737.72,
+    "duration": 2.92,
+    "text": "loop."
+  },
+  {
+    "start": 739.12,
+    "duration": 3.04,
+    "text": "Out of the loop."
+  },
+  {
+    "start": 740.64,
+    "duration": 3.2,
+    "text": "End of the program."
+  },
+  {
+    "start": 742.16,
+    "duration": 3.24,
+    "text": "Similarly, if I put something like"
+  },
+  {
+    "start": 743.84,
+    "duration": 3.44,
+    "text": "increment in two."
+  },
+  {
+    "start": 745.4,
+    "duration": 6.12,
+    "text": "So, first the value will be one, then it"
+  },
+  {
+    "start": 747.28,
+    "duration": 4.24,
+    "text": "will be three, then it will be five."
+  },
+  {
+    "start": 754.24,
+    "duration": 2.64,
+    "text": "One, three, and five."
+  },
+  {
+    "start": 756.0,
+    "duration": 2.76,
+    "text": "Okay."
+  },
+  {
+    "start": 756.88,
+    "duration": 3.48,
+    "text": "So, this is how you"
+  },
+  {
+    "start": 758.76,
+    "duration": 3.32,
+    "text": "uh print the numbers."
+  },
+  {
+    "start": 760.36,
+    "duration": 5.4,
+    "text": "Let's say you want to say print numbers"
+  },
+  {
+    "start": 762.08,
+    "duration": 3.68,
+    "text": "from um, you know,"
+  },
+  {
+    "start": 767.12,
+    "duration": 4.4,
+    "text": "one to n, where n is something that the"
+  },
+  {
+    "start": 769.56,
+    "duration": 4.279,
+    "text": "user will input. So, I'll just add my"
+  },
+  {
+    "start": 771.52,
+    "duration": 5.92,
+    "text": "scanner over here."
+  },
+  {
+    "start": 773.839,
+    "duration": 6.0,
+    "text": "Scanner input is equal to new scanner"
+  },
+  {
+    "start": 777.44,
+    "duration": 3.8,
+    "text": "system.in."
+  },
+  {
+    "start": 779.839,
+    "duration": 4.721,
+    "text": "I can say"
+  },
+  {
+    "start": 781.24,
+    "duration": 3.32,
+    "text": "int n is equal to"
+  },
+  {
+    "start": 785.44,
+    "duration": 3.72,
+    "text": "in.nextint."
+  },
+  {
+    "start": 787.24,
+    "duration": 3.44,
+    "text": "Something we have already done before."
+  },
+  {
+    "start": 789.16,
+    "duration": 3.12,
+    "text": "Then I'll just run a for loop. By the"
+  },
+  {
+    "start": 790.68,
+    "duration": 3.48,
+    "text": "way, in IntelliJ IDEA, if you write for"
+  },
+  {
+    "start": 792.28,
+    "duration": 3.2,
+    "text": "I, it will create an iteration loop for"
+  },
+  {
+    "start": 794.16,
+    "duration": 3.12,
+    "text": "yourself."
+  },
+  {
+    "start": 795.48,
+    "duration": 3.96,
+    "text": "Automatically, it created."
+  },
+  {
+    "start": 797.28,
+    "duration": 4.52,
+    "text": "So, I can say num starts from zero,"
+  },
+  {
+    "start": 799.44,
+    "duration": 3.32,
+    "text": "should be less than equal to n, num plus"
+  },
+  {
+    "start": 801.8,
+    "duration": 2.8,
+    "text": "plus."
+  },
+  {
+    "start": 802.76,
+    "duration": 4.08,
+    "text": "You can start from one also cuz I want"
+  },
+  {
+    "start": 804.6,
+    "duration": 3.08,
+    "text": "to input print numbers from one to n,"
+  },
+  {
+    "start": 806.84,
+    "duration": 3.32,
+    "text": "right?"
+  },
+  {
+    "start": 807.68,
+    "duration": 3.72,
+    "text": "Let's say print"
+  },
+  {
+    "start": 810.16,
+    "duration": 2.88,
+    "text": "number."
+  },
+  {
+    "start": 811.4,
+    "duration": 3.8,
+    "text": "I'll just add a space over here so that"
+  },
+  {
+    "start": 813.04,
+    "duration": 5.72,
+    "text": "I don't add it in a new line every time."
+  },
+  {
+    "start": 815.2,
+    "duration": 3.56,
+    "text": "And that is it. Let's try to run this."
+  },
+  {
+    "start": 819.04,
+    "duration": 3.16,
+    "text": "Let me hide this code."
+  },
+  {
+    "start": 823.64,
+    "duration": 4.36,
+    "text": "So it will ask for me to run a to input"
+  },
+  {
+    "start": 825.68,
+    "duration": 4.64,
+    "text": "a number. Let's say 100."
+  },
+  {
+    "start": 828.0,
+    "duration": 4.92,
+    "text": "So all the numbers from one to 100 it"
+  },
+  {
+    "start": 830.32,
+    "duration": 2.6,
+    "text": "will print."
+  },
+  {
+    "start": 833.28,
+    "duration": 4.2,
+    "text": "Okay, very basic stuff."
+  },
+  {
+    "start": 835.84,
+    "duration": 2.6,
+    "text": "Let's say I want to Let's say I wanted"
+  },
+  {
+    "start": 837.48,
+    "duration": 4.08,
+    "text": "to"
+  },
+  {
+    "start": 838.44,
+    "duration": 4.8,
+    "text": "um print hello world n number of times."
+  },
+  {
+    "start": 841.56,
+    "duration": 2.92,
+    "text": "So I can just say"
+  },
+  {
+    "start": 843.24,
+    "duration": 4.0,
+    "text": "if you want to print hello world n"
+  },
+  {
+    "start": 844.48,
+    "duration": 5.48,
+    "text": "number of times"
+  },
+  {
+    "start": 847.24,
+    "duration": 2.72,
+    "text": "hello world."
+  },
+  {
+    "start": 851.56,
+    "duration": 4.16,
+    "text": "Let's say I'll tell it to print hello"
+  },
+  {
+    "start": 853.08,
+    "duration": 6.68,
+    "text": "world 10 times."
+  },
+  {
+    "start": 855.72,
+    "duration": 5.24,
+    "text": "10 times it's printing hello world."
+  },
+  {
+    "start": 859.76,
+    "duration": 3.56,
+    "text": "Okay."
+  },
+  {
+    "start": 860.96,
+    "duration": 4.0,
+    "text": "That is the for loop. The next loop"
+  },
+  {
+    "start": 863.32,
+    "duration": 4.04,
+    "text": "we'll be looking into is called a while"
+  },
+  {
+    "start": 864.96,
+    "duration": 2.4,
+    "text": "loop."
+  },
+  {
+    "start": 869.92,
+    "duration": 4.44,
+    "text": "While loops. Syntax is something like"
+  },
+  {
+    "start": 871.96,
+    "duration": 2.4,
+    "text": "this."
+  },
+  {
+    "start": 876.32,
+    "duration": 4.04,
+    "text": "Syntax is something like this."
+  },
+  {
+    "start": 878.44,
+    "duration": 4.0,
+    "text": "So you have the while loop condition"
+  },
+  {
+    "start": 880.36,
+    "duration": 4.76,
+    "text": "over here. You write while"
+  },
+  {
+    "start": 882.44,
+    "duration": 4.0,
+    "text": "and you write the condition"
+  },
+  {
+    "start": 885.12,
+    "duration": 3.88,
+    "text": "and then"
+  },
+  {
+    "start": 886.44,
+    "duration": 2.56,
+    "text": "body."
+  },
+  {
+    "start": 889.32,
+    "duration": 3.32,
+    "text": "That's it."
+  },
+  {
+    "start": 891.28,
+    "duration": 4.0,
+    "text": "That is it."
+  },
+  {
+    "start": 892.64,
+    "duration": 5.72,
+    "text": "Let's try to convert this program of uh"
+  },
+  {
+    "start": 895.28,
+    "duration": 4.559,
+    "text": "one to five numbers into a while loop."
+  },
+  {
+    "start": 898.36,
+    "duration": 3.96,
+    "text": "So I can say"
+  },
+  {
+    "start": 899.839,
+    "duration": 2.481,
+    "text": "int"
+  },
+  {
+    "start": 902.64,
+    "duration": 4.04,
+    "text": "num is equal to one. So basically I'm"
+  },
+  {
+    "start": 904.76,
+    "duration": 3.64,
+    "text": "converting this program"
+  },
+  {
+    "start": 906.68,
+    "duration": 3.8,
+    "text": "into a while loop so that is why you"
+  },
+  {
+    "start": 908.4,
+    "duration": 3.76,
+    "text": "will be able to see the reference, like"
+  },
+  {
+    "start": 910.48,
+    "duration": 3.44,
+    "text": "how this is getting converted to a while"
+  },
+  {
+    "start": 912.16,
+    "duration": 3.64,
+    "text": "loop. Basically the for loop we wrote"
+  },
+  {
+    "start": 913.92,
+    "duration": 5.04,
+    "text": "before we are converting it into a while"
+  },
+  {
+    "start": 915.8,
+    "duration": 5.2,
+    "text": "loop. So I can say while So basically"
+  },
+  {
+    "start": 918.96,
+    "duration": 4.88,
+    "text": "the initialization part, I'll just"
+  },
+  {
+    "start": 921.0,
+    "duration": 2.84,
+    "text": "copy-paste this"
+  },
+  {
+    "start": 924.44,
+    "duration": 2.72,
+    "text": "for reference."
+  },
+  {
+    "start": 928.56,
+    "duration": 3.44,
+    "text": "So, for the initialization part, that"
+  },
+  {
+    "start": 930.08,
+    "duration": 3.92,
+    "text": "will come outside the while loop. This"
+  },
+  {
+    "start": 932.0,
+    "duration": 3.08,
+    "text": "condition will now come inside the while"
+  },
+  {
+    "start": 934.0,
+    "duration": 2.84,
+    "text": "loop."
+  },
+  {
+    "start": 935.08,
+    "duration": 3.12,
+    "text": "This body"
+  },
+  {
+    "start": 936.84,
+    "duration": 4.16,
+    "text": "will come inside the body of the while"
+  },
+  {
+    "start": 938.2,
+    "duration": 6.2,
+    "text": "loop. And this increment thing will also"
+  },
+  {
+    "start": 941.0,
+    "duration": 4.8,
+    "text": "come inside the body of the while loop."
+  },
+  {
+    "start": 944.4,
+    "duration": 4.76,
+    "text": "That's it."
+  },
+  {
+    "start": 945.8,
+    "duration": 3.36,
+    "text": "Let me try to hide this thing."
+  },
+  {
+    "start": 954.96,
+    "duration": 2.8,
+    "text": "Let's try to run this."
+  },
+  {
+    "start": 960.32,
+    "duration": 3.24,
+    "text": "Oh, it's actually asking for an input."
+  },
+  {
+    "start": 961.8,
+    "duration": 4.24,
+    "text": "Let me also"
+  },
+  {
+    "start": 963.56,
+    "duration": 2.48,
+    "text": "hide that."
+  },
+  {
+    "start": 968.36,
+    "duration": 2.68,
+    "text": "1 to 5."
+  },
+  {
+    "start": 969.72,
+    "duration": 3.52,
+    "text": "1 2 3 4 5."
+  },
+  {
+    "start": 971.04,
+    "duration": 4.8,
+    "text": "How this is working? Let's see."
+  },
+  {
+    "start": 973.24,
+    "duration": 2.6,
+    "text": "Debugging."
+  },
+  {
+    "start": 976.72,
+    "duration": 3.64,
+    "text": "So, here okay."
+  },
+  {
+    "start": 977.92,
+    "duration": 4.4,
+    "text": "So, here it's saying num value is one"
+  },
+  {
+    "start": 980.36,
+    "duration": 3.96,
+    "text": "and I initialize that. Okay. So, num is"
+  },
+  {
+    "start": 982.32,
+    "duration": 3.6,
+    "text": "value initialized to one. Is one less"
+  },
+  {
+    "start": 984.32,
+    "duration": 3.68,
+    "text": "than equal to five? It's saying it's"
+  },
+  {
+    "start": 985.92,
+    "duration": 3.32,
+    "text": "true. Hence, it will go inside this"
+  },
+  {
+    "start": 988.0,
+    "duration": 2.839,
+    "text": "while loop."
+  },
+  {
+    "start": 989.24,
+    "duration": 3.92,
+    "text": "It will print one. And then it will"
+  },
+  {
+    "start": 990.839,
+    "duration": 5.481,
+    "text": "increment the value of one by like plus"
+  },
+  {
+    "start": 993.16,
+    "duration": 5.12,
+    "text": "one to it. It will now become two."
+  },
+  {
+    "start": 996.32,
+    "duration": 3.48,
+    "text": "That's true. Num becomes two. Is two"
+  },
+  {
+    "start": 998.28,
+    "duration": 3.28,
+    "text": "less than equal to five? Yes, it is."
+  },
+  {
+    "start": 999.8,
+    "duration": 3.08,
+    "text": "Print two and make it three. Is three"
+  },
+  {
+    "start": 1001.56,
+    "duration": 3.52,
+    "text": "less than equal to five? Print three,"
+  },
+  {
+    "start": 1002.88,
+    "duration": 4.28,
+    "text": "make it four."
+  },
+  {
+    "start": 1005.08,
+    "duration": 3.84,
+    "text": "Make it five."
+  },
+  {
+    "start": 1007.16,
+    "duration": 4.24,
+    "text": "Make it six. Is six less than equal to"
+  },
+  {
+    "start": 1008.92,
+    "duration": 3.8,
+    "text": "five? No. Hence, it will not go inside"
+  },
+  {
+    "start": 1011.4,
+    "duration": 3.56,
+    "text": "the while loop. It will exit out of the"
+  },
+  {
+    "start": 1012.72,
+    "duration": 4.8,
+    "text": "while loop."
+  },
+  {
+    "start": 1014.96,
+    "duration": 2.56,
+    "text": "Program over."
+  },
+  {
+    "start": 1018.16,
+    "duration": 2.56,
+    "text": "Okay."
+  },
+  {
+    "start": 1018.96,
+    "duration": 3.36,
+    "text": "So, that's the while loop."
+  },
+  {
+    "start": 1020.72,
+    "duration": 2.4,
+    "text": "Now, the question you may ask yourself"
+  },
+  {
+    "start": 1022.32,
+    "duration": 2.36,
+    "text": "is"
+  },
+  {
+    "start": 1023.12,
+    "duration": 3.44,
+    "text": "how do we know when we"
+  },
+  {
+    "start": 1024.68,
+    "duration": 4.12,
+    "text": "when we need to use the while loop, when"
+  },
+  {
+    "start": 1026.56,
+    "duration": 4.36,
+    "text": "we need to use the for loop? You can use"
+  },
+  {
+    "start": 1028.8,
+    "duration": 4.399,
+    "text": "both of these anytime you want. Okay?"
+  },
+  {
+    "start": 1030.92,
+    "duration": 3.44,
+    "text": "It's totally up to your preference."
+  },
+  {
+    "start": 1033.199,
+    "duration": 3.481,
+    "text": "One of the things that I would"
+  },
+  {
+    "start": 1034.36,
+    "duration": 5.2,
+    "text": "recommend, like something that why these"
+  },
+  {
+    "start": 1036.68,
+    "duration": 5.92,
+    "text": "two exist is because"
+  },
+  {
+    "start": 1039.56,
+    "duration": 5.879,
+    "text": "you need to run a while loop when you"
+  },
+  {
+    "start": 1042.6,
+    "duration": 5.359,
+    "text": "don't know how many times the loop is"
+  },
+  {
+    "start": 1045.439,
+    "duration": 5.041,
+    "text": "going to run."
+  },
+  {
+    "start": 1047.959,
+    "duration": 4.641,
+    "text": "And run and use a for loop when you know"
+  },
+  {
+    "start": 1050.48,
+    "duration": 3.4,
+    "text": "how many times the loop is going to run."
+  },
+  {
+    "start": 1052.6,
+    "duration": 3.2,
+    "text": "If the question is something like print"
+  },
+  {
+    "start": 1053.88,
+    "duration": 4.04,
+    "text": "the first 10 numbers,"
+  },
+  {
+    "start": 1055.8,
+    "duration": 4.08,
+    "text": "then you will use a for loop. If the"
+  },
+  {
+    "start": 1057.92,
+    "duration": 4.6,
+    "text": "question is something like"
+  },
+  {
+    "start": 1059.88,
+    "duration": 4.96,
+    "text": "keep taking input from a user till the"
+  },
+  {
+    "start": 1062.52,
+    "duration": 3.6,
+    "text": "user does not press X."
+  },
+  {
+    "start": 1064.84,
+    "duration": 3.68,
+    "text": "Here, do you know how many times the"
+  },
+  {
+    "start": 1066.12,
+    "duration": 4.32,
+    "text": "loop will run? No. Depends on the user."
+  },
+  {
+    "start": 1068.52,
+    "duration": 3.36,
+    "text": "Till the user will not press an X, that"
+  },
+  {
+    "start": 1070.44,
+    "duration": 3.6,
+    "text": "many times of amount"
+  },
+  {
+    "start": 1071.88,
+    "duration": 5.08,
+    "text": "like the loop will running."
+  },
+  {
+    "start": 1074.04,
+    "duration": 4.72,
+    "text": "So, in that case, use a while loop."
+  },
+  {
+    "start": 1076.96,
+    "duration": 3.28,
+    "text": "One more loop is there known as a"
+  },
+  {
+    "start": 1078.76,
+    "duration": 4.64,
+    "text": "do-while loop."
+  },
+  {
+    "start": 1080.24,
+    "duration": 3.16,
+    "text": "Okay? Let's see."
+  },
+  {
+    "start": 1086.0,
+    "duration": 3.76,
+    "text": "So, the next one is a"
+  },
+  {
+    "start": 1087.64,
+    "duration": 4.52,
+    "text": "do-while loop. Syntax is something like"
+  },
+  {
+    "start": 1089.76,
+    "duration": 2.4,
+    "text": "this."
+  },
+  {
+    "start": 1092.28,
+    "duration": 4.28,
+    "text": "Do"
+  },
+  {
+    "start": 1094.16,
+    "duration": 5.92,
+    "text": "this thing"
+  },
+  {
+    "start": 1096.56,
+    "duration": 3.52,
+    "text": "while condition."
+  },
+  {
+    "start": 1101.0,
+    "duration": 6.64,
+    "text": "Okay? Let's try it out."
+  },
+  {
+    "start": 1104.08,
+    "duration": 3.56,
+    "text": "I'll also explain the difference between"
+  },
+  {
+    "start": 1113.04,
+    "duration": 7.16,
+    "text": "Okay? So, let's say we take"
+  },
+  {
+    "start": 1116.04,
+    "duration": 8.44,
+    "text": "int n is equal to 1. I can say do"
+  },
+  {
+    "start": 1120.2,
+    "duration": 8.4,
+    "text": "print n and n plus plus while"
+  },
+  {
+    "start": 1124.48,
+    "duration": 4.12,
+    "text": "n is less than equal to 5."
+  },
+  {
+    "start": 1129.0,
+    "duration": 2.96,
+    "text": "I'll explain what the difference is."
+  },
+  {
+    "start": 1130.12,
+    "duration": 3.04,
+    "text": "Don't worry."
+  },
+  {
+    "start": 1131.96,
+    "duration": 3.28,
+    "text": "I think it's pretty obvious what it's"
+  },
+  {
+    "start": 1133.16,
+    "duration": 4.0,
+    "text": "doing."
+  },
+  {
+    "start": 1135.24,
+    "duration": 3.92,
+    "text": "1 2 3 4 5."
+  },
+  {
+    "start": 1137.16,
+    "duration": 3.2,
+    "text": "Why would we want to use a do-while loop"
+  },
+  {
+    "start": 1139.16,
+    "duration": 2.6,
+    "text": "and when would we want to use a while"
+  },
+  {
+    "start": 1140.36,
+    "duration": 3.16,
+    "text": "loop? That is another good question. Let"
+  },
+  {
+    "start": 1141.76,
+    "duration": 2.92,
+    "text": "me just write the body syntax over here."
+  },
+  {
+    "start": 1143.52,
+    "duration": 3.64,
+    "text": "Okay."
+  },
+  {
+    "start": 1144.68,
+    "duration": 3.92,
+    "text": "So, do-while and while the do-while loop"
+  },
+  {
+    "start": 1147.16,
+    "duration": 2.48,
+    "text": "and the while loop have one difference"
+  },
+  {
+    "start": 1148.6,
+    "duration": 3.44,
+    "text": "in it."
+  },
+  {
+    "start": 1149.64,
+    "duration": 4.52,
+    "text": "In the do-while loop, the program is"
+  },
+  {
+    "start": 1152.04,
+    "duration": 5.72,
+    "text": "going to execute the loop is going to"
+  },
+  {
+    "start": 1154.16,
+    "duration": 5.72,
+    "text": "execute at least once."
+  },
+  {
+    "start": 1157.76,
+    "duration": 4.4,
+    "text": "At least once it will execute. So, it"
+  },
+  {
+    "start": 1159.88,
+    "duration": 4.64,
+    "text": "will execute at least once."
+  },
+  {
+    "start": 1162.16,
+    "duration": 3.04,
+    "text": "For example, if I write something like"
+  },
+  {
+    "start": 1164.52,
+    "duration": 2.56,
+    "text": "um"
+  },
+  {
+    "start": 1165.2,
+    "duration": 7.12,
+    "text": "you know, let's say I remove this thing"
+  },
+  {
+    "start": 1167.08,
+    "duration": 5.24,
+    "text": "all these things and I just write print"
+  },
+  {
+    "start": 1172.44,
+    "duration": 5.72,
+    "text": "Hello world."
+  },
+  {
+    "start": 1174.24,
+    "duration": 5.16,
+    "text": "And here I write while n is not equal to"
+  },
+  {
+    "start": 1178.16,
+    "duration": 3.16,
+    "text": "one."
+  },
+  {
+    "start": 1179.4,
+    "duration": 3.32,
+    "text": "So, here even though n is equal to one,"
+  },
+  {
+    "start": 1181.32,
+    "duration": 4.2,
+    "text": "this should not execute, but it will"
+  },
+  {
+    "start": 1182.72,
+    "duration": 5.16,
+    "text": "because first it will execute the body,"
+  },
+  {
+    "start": 1185.52,
+    "duration": 3.52,
+    "text": "then it will make the change checks."
+  },
+  {
+    "start": 1187.88,
+    "duration": 3.28,
+    "text": "So, basically the idea is it will"
+  },
+  {
+    "start": 1189.04,
+    "duration": 4.08,
+    "text": "execute at least once."
+  },
+  {
+    "start": 1191.16,
+    "duration": 4.28,
+    "text": "And after that it will only execute when"
+  },
+  {
+    "start": 1193.12,
+    "duration": 4.28,
+    "text": "this while condition is true after that."
+  },
+  {
+    "start": 1195.44,
+    "duration": 4.52,
+    "text": "So, once it will always execute. Let's"
+  },
+  {
+    "start": 1197.4,
+    "duration": 2.56,
+    "text": "try it out."
+  },
+  {
+    "start": 1201.68,
+    "duration": 3.96,
+    "text": "Prints Hello world. So, basically this"
+  },
+  {
+    "start": 1203.36,
+    "duration": 4.0,
+    "text": "is what happened. n is equal to one. It"
+  },
+  {
+    "start": 1205.64,
+    "duration": 4.6,
+    "text": "will do this thing first. It will print"
+  },
+  {
+    "start": 1207.36,
+    "duration": 5.08,
+    "text": "Hello world. After that it will check."
+  },
+  {
+    "start": 1210.24,
+    "duration": 4.4,
+    "text": "That again if you want to run this loop,"
+  },
+  {
+    "start": 1212.44,
+    "duration": 4.4,
+    "text": "this condition should follow. While n is"
+  },
+  {
+    "start": 1214.64,
+    "duration": 5.44,
+    "text": "not equal to one. It will say n is equal"
+  },
+  {
+    "start": 1216.84,
+    "duration": 5.08,
+    "text": "to one, hence loop will end."
+  },
+  {
+    "start": 1220.08,
+    "duration": 4.64,
+    "text": "Okay. So, in cases in which you"
+  },
+  {
+    "start": 1221.92,
+    "duration": 4.8,
+    "text": "definitely have to have one time the"
+  },
+  {
+    "start": 1224.72,
+    "duration": 4.12,
+    "text": "loop running, in that case you can use a"
+  },
+  {
+    "start": 1226.72,
+    "duration": 4.52,
+    "text": "do while loop. For example, if you want"
+  },
+  {
+    "start": 1228.84,
+    "duration": 4.4,
+    "text": "to say take input of so many numbers"
+  },
+  {
+    "start": 1231.24,
+    "duration": 5.16,
+    "text": "till the user input some other value"
+  },
+  {
+    "start": 1233.24,
+    "duration": 5.36,
+    "text": "like x or something. Okay? In that case,"
+  },
+  {
+    "start": 1236.4,
+    "duration": 3.16,
+    "text": "once the value will obviously be input,"
+  },
+  {
+    "start": 1238.6,
+    "duration": 2.36,
+    "text": "right?"
+  },
+  {
+    "start": 1239.56,
+    "duration": 3.52,
+    "text": "The value will always be there like for"
+  },
+  {
+    "start": 1240.96,
+    "duration": 3.88,
+    "text": "the very first time."
+  },
+  {
+    "start": 1243.08,
+    "duration": 3.32,
+    "text": "That you can use a do while loop. Now,"
+  },
+  {
+    "start": 1244.84,
+    "duration": 3.32,
+    "text": "let's try to solve some questions over"
+  },
+  {
+    "start": 1246.4,
+    "duration": 3.4,
+    "text": "here because questions are important in"
+  },
+  {
+    "start": 1248.16,
+    "duration": 3.44,
+    "text": "order to understand how these things are"
+  },
+  {
+    "start": 1249.8,
+    "duration": 4.64,
+    "text": "working internally. So, let's say we"
+  },
+  {
+    "start": 1251.6,
+    "duration": 4.92,
+    "text": "create a question like largest. So, you"
+  },
+  {
+    "start": 1254.44,
+    "duration": 5.72,
+    "text": "will be giving three numbers"
+  },
+  {
+    "start": 1256.52,
+    "duration": 7.28,
+    "text": "and let's say public static void main."
+  },
+  {
+    "start": 1260.16,
+    "duration": 6.0,
+    "text": "Scanner input is equal to new scanner"
+  },
+  {
+    "start": 1263.8,
+    "duration": 3.48,
+    "text": "system.in."
+  },
+  {
+    "start": 1266.16,
+    "duration": 3.68,
+    "text": "So, basically you are going to input"
+  },
+  {
+    "start": 1267.28,
+    "duration": 6.12,
+    "text": "three numbers, okay? So I can say A, B,"
+  },
+  {
+    "start": 1269.84,
+    "duration": 6.4,
+    "text": "and C. int A is equal to in.nextint,"
+  },
+  {
+    "start": 1273.4,
+    "duration": 5.24,
+    "text": "int B is equal to in.nextint,"
+  },
+  {
+    "start": 1276.24,
+    "duration": 4.56,
+    "text": "int C is equal to"
+  },
+  {
+    "start": 1278.64,
+    "duration": 5.44,
+    "text": "in.nextint."
+  },
+  {
+    "start": 1280.8,
+    "duration": 9.28,
+    "text": "Three numbers are here. Question is"
+  },
+  {
+    "start": 1284.08,
+    "duration": 6.0,
+    "text": "find the largest of the three numbers."
+  },
+  {
+    "start": 1290.32,
+    "duration": 3.04,
+    "text": "How do we do that?"
+  },
+  {
+    "start": 1291.96,
+    "duration": 3.12,
+    "text": "So let's look at how we are going to"
+  },
+  {
+    "start": 1293.36,
+    "duration": 4.08,
+    "text": "solve this problem. You can also create"
+  },
+  {
+    "start": 1295.08,
+    "duration": 3.8,
+    "text": "a flowchart for it if you like. But"
+  },
+  {
+    "start": 1297.44,
+    "duration": 5.44,
+    "text": "imagine that you have three numbers."
+  },
+  {
+    "start": 1298.88,
+    "duration": 9.24,
+    "text": "Let's say, you know, A is equal to 10,"
+  },
+  {
+    "start": 1302.88,
+    "duration": 6.92,
+    "text": "B is equal to 20, and C is equal to 30."
+  },
+  {
+    "start": 1308.12,
+    "duration": 4.08,
+    "text": "You have to figure out which is the"
+  },
+  {
+    "start": 1309.8,
+    "duration": 3.56,
+    "text": "largest number from all these three"
+  },
+  {
+    "start": 1312.2,
+    "duration": 3.0,
+    "text": "numbers."
+  },
+  {
+    "start": 1313.36,
+    "duration": 4.0,
+    "text": "So one way we can do this, we can let's"
+  },
+  {
+    "start": 1315.2,
+    "duration": 4.56,
+    "text": "say assume that this is the largest"
+  },
+  {
+    "start": 1317.36,
+    "duration": 2.4,
+    "text": "number."
+  },
+  {
+    "start": 1321.04,
+    "duration": 3.76,
+    "text": "Okay? We can take a maximum value. We"
+  },
+  {
+    "start": 1323.0,
+    "duration": 3.2,
+    "text": "can say maximum"
+  },
+  {
+    "start": 1324.8,
+    "duration": 4.96,
+    "text": "is equal to"
+  },
+  {
+    "start": 1326.2,
+    "duration": 3.56,
+    "text": "let's say 10."
+  },
+  {
+    "start": 1329.88,
+    "duration": 5.72,
+    "text": "Then we are going to check this with B."
+  },
+  {
+    "start": 1333.92,
+    "duration": 4.56,
+    "text": "Is"
+  },
+  {
+    "start": 1335.6,
+    "duration": 5.24,
+    "text": "B greater than maximum?"
+  },
+  {
+    "start": 1338.48,
+    "duration": 4.32,
+    "text": "At the current maximum that I have, is B"
+  },
+  {
+    "start": 1340.84,
+    "duration": 3.6,
+    "text": "greater than that?"
+  },
+  {
+    "start": 1342.8,
+    "duration": 3.04,
+    "text": "It's going to be like"
+  },
+  {
+    "start": 1344.44,
+    "duration": 4.04,
+    "text": "you know,"
+  },
+  {
+    "start": 1345.84,
+    "duration": 6.64,
+    "text": "yes, it is. So in that case, it is going"
+  },
+  {
+    "start": 1348.48,
+    "duration": 6.4,
+    "text": "to say that my maximum now is equal to"
+  },
+  {
+    "start": 1352.48,
+    "duration": 2.4,
+    "text": "B."
+  },
+  {
+    "start": 1356.92,
+    "duration": 4.08,
+    "text": "Then it's going to make another check."
+  },
+  {
+    "start": 1358.88,
+    "duration": 3.32,
+    "text": "It's good if condition."
+  },
+  {
+    "start": 1361.0,
+    "duration": 4.56,
+    "text": "If"
+  },
+  {
+    "start": 1362.2,
+    "duration": 5.4,
+    "text": "C is actually greater than my maximum."
+  },
+  {
+    "start": 1365.56,
+    "duration": 4.76,
+    "text": "Is 30 greater than my maximum, which is"
+  },
+  {
+    "start": 1367.6,
+    "duration": 4.76,
+    "text": "currently now 20? It's going to be like"
+  },
+  {
+    "start": 1370.32,
+    "duration": 4.72,
+    "text": "yes, it is. Then"
+  },
+  {
+    "start": 1372.36,
+    "duration": 6.36,
+    "text": "max is equal to"
+  },
+  {
+    "start": 1375.04,
+    "duration": 3.68,
+    "text": "30 or C."
+  },
+  {
+    "start": 1381.48,
+    "duration": 5.36,
+    "text": "Means 30."
+  },
+  {
+    "start": 1383.24,
+    "duration": 3.6,
+    "text": "That is my answer."
+  },
+  {
+    "start": 1388.32,
+    "duration": 3.52,
+    "text": "If you are unable to see, here you can"
+  },
+  {
+    "start": 1389.92,
+    "duration": 4.44,
+    "text": "see."
+  },
+  {
+    "start": 1391.84,
+    "duration": 2.52,
+    "text": "There we go."
+  },
+  {
+    "start": 1394.52,
+    "duration": 4.4,
+    "text": "Cool?"
+  },
+  {
+    "start": 1396.04,
+    "duration": 4.52,
+    "text": "So, let's try to code this example."
+  },
+  {
+    "start": 1398.92,
+    "duration": 5.04,
+    "text": "So, here in this case I will say let's"
+  },
+  {
+    "start": 1400.56,
+    "duration": 5.28,
+    "text": "say int maximum is equal to A."
+  },
+  {
+    "start": 1403.96,
+    "duration": 5.28,
+    "text": "Then I can say if"
+  },
+  {
+    "start": 1405.84,
+    "duration": 6.08,
+    "text": "B is greater than maximum,"
+  },
+  {
+    "start": 1409.24,
+    "duration": 4.52,
+    "text": "I can say maximum is equal to B."
+  },
+  {
+    "start": 1411.92,
+    "duration": 3.6,
+    "text": "Otherwise, I can say"
+  },
+  {
+    "start": 1413.76,
+    "duration": 3.48,
+    "text": "if"
+  },
+  {
+    "start": 1415.52,
+    "duration": 3.84,
+    "text": "let's say"
+  },
+  {
+    "start": 1417.24,
+    "duration": 4.36,
+    "text": "C is greater than maximum,"
+  },
+  {
+    "start": 1419.36,
+    "duration": 4.16,
+    "text": "max is equal to C."
+  },
+  {
+    "start": 1421.6,
+    "duration": 4.48,
+    "text": "And then I will output say"
+  },
+  {
+    "start": 1423.52,
+    "duration": 2.56,
+    "text": "maximum."
+  },
+  {
+    "start": 1426.96,
+    "duration": 4.32,
+    "text": "Let's give it three numbers, 10 20 30."
+  },
+  {
+    "start": 1432.92,
+    "duration": 4.36,
+    "text": "30 is the maximum one."
+  },
+  {
+    "start": 1434.64,
+    "duration": 5.2,
+    "text": "Let's give it something else, 56"
+  },
+  {
+    "start": 1437.28,
+    "duration": 4.48,
+    "text": "12"
+  },
+  {
+    "start": 1439.84,
+    "duration": 4.56,
+    "text": "79"
+  },
+  {
+    "start": 1441.76,
+    "duration": 5.16,
+    "text": "79 is the maximum one."
+  },
+  {
+    "start": 1444.4,
+    "duration": 3.8,
+    "text": "33 789"
+  },
+  {
+    "start": 1446.92,
+    "duration": 4.56,
+    "text": "65"
+  },
+  {
+    "start": 1448.2,
+    "duration": 5.4,
+    "text": "789 is the maximum one."
+  },
+  {
+    "start": 1451.48,
+    "duration": 3.96,
+    "text": "That's what is happening. It's saying"
+  },
+  {
+    "start": 1453.6,
+    "duration": 3.68,
+    "text": "initially let's say it will say let's"
+  },
+  {
+    "start": 1455.44,
+    "duration": 3.88,
+    "text": "let's try to, you know, run this code"
+  },
+  {
+    "start": 1457.28,
+    "duration": 5.28,
+    "text": "only. Debug it"
+  },
+  {
+    "start": 1459.32,
+    "duration": 5.4,
+    "text": "and see how this is thing is working."
+  },
+  {
+    "start": 1462.56,
+    "duration": 4.0,
+    "text": "Input, cool."
+  },
+  {
+    "start": 1464.72,
+    "duration": 3.28,
+    "text": "A is equal to 33. So, it's saying max is"
+  },
+  {
+    "start": 1466.56,
+    "duration": 3.76,
+    "text": "equal to 33."
+  },
+  {
+    "start": 1468.0,
+    "duration": 5.2,
+    "text": "Okay, currently max is equal to 33. Now"
+  },
+  {
+    "start": 1470.32,
+    "duration": 4.04,
+    "text": "it's checking, \"Hey, is B greater than"
+  },
+  {
+    "start": 1473.2,
+    "duration": 3.04,
+    "text": "max maximum value?\" It's going to be"
+  },
+  {
+    "start": 1474.36,
+    "duration": 3.64,
+    "text": "like, \"Yes, it is.\" Then the new maximum"
+  },
+  {
+    "start": 1476.24,
+    "duration": 5.4,
+    "text": "value is going to be B. Now the new"
+  },
+  {
+    "start": 1478.0,
+    "duration": 5.24,
+    "text": "maximum value is going to be 789."
+  },
+  {
+    "start": 1481.64,
+    "duration": 4.16,
+    "text": "That is true. You can see maximum is now"
+  },
+  {
+    "start": 1483.24,
+    "duration": 4.24,
+    "text": "789. It's not 33 anymore. Now it's"
+  },
+  {
+    "start": 1485.8,
+    "duration": 4.28,
+    "text": "checking again, \"Is C greater than the"
+  },
+  {
+    "start": 1487.48,
+    "duration": 4.64,
+    "text": "maximum value? Is 65 greater than the"
+  },
+  {
+    "start": 1490.08,
+    "duration": 4.64,
+    "text": "maximum value which is 789?\" No, it's"
+  },
+  {
+    "start": 1492.12,
+    "duration": 3.96,
+    "text": "not. Hence, this will not execute."
+  },
+  {
+    "start": 1494.72,
+    "duration": 3.28,
+    "text": "This will this if condition will be"
+  },
+  {
+    "start": 1496.08,
+    "duration": 4.36,
+    "text": "false. This will be false, so this will"
+  },
+  {
+    "start": 1498.0,
+    "duration": 4.96,
+    "text": "not execute. Hence the output will be"
+  },
+  {
+    "start": 1500.44,
+    "duration": 4.12,
+    "text": "789."
+  },
+  {
+    "start": 1502.96,
+    "duration": 3.52,
+    "text": "Program ends."
+  },
+  {
+    "start": 1504.56,
+    "duration": 3.04,
+    "text": "Very simple stuff. And one more thing"
+  },
+  {
+    "start": 1506.48,
+    "duration": 3.2,
+    "text": "like before we move on to the next"
+  },
+  {
+    "start": 1507.6,
+    "duration": 3.68,
+    "text": "question, um"
+  },
+  {
+    "start": 1509.68,
+    "duration": 3.24,
+    "text": "there are many ways to solve one pro-"
+  },
+  {
+    "start": 1511.28,
+    "duration": 3.2,
+    "text": "one one problem, okay? There can be many"
+  },
+  {
+    "start": 1512.92,
+    "duration": 4.44,
+    "text": "ways. If you don't want to take the like"
+  },
+  {
+    "start": 1514.48,
+    "duration": 5.56,
+    "text": "the, you know, the maximum one as as A"
+  },
+  {
+    "start": 1517.36,
+    "duration": 5.04,
+    "text": "or whatever, you can say initially"
+  },
+  {
+    "start": 1520.04,
+    "duration": 3.72,
+    "text": "something like, let's say"
+  },
+  {
+    "start": 1522.4,
+    "duration": 2.72,
+    "text": "Let me just uh let me just copy this"
+  },
+  {
+    "start": 1523.76,
+    "duration": 2.84,
+    "text": "thing, okay? Let me just comment this"
+  },
+  {
+    "start": 1525.12,
+    "duration": 4.28,
+    "text": "out. No copy."
+  },
+  {
+    "start": 1526.6,
+    "duration": 4.64,
+    "text": "I can say, let's say another method, int"
+  },
+  {
+    "start": 1529.4,
+    "duration": 4.88,
+    "text": "max is equal to zero."
+  },
+  {
+    "start": 1531.24,
+    "duration": 4.0,
+    "text": "And here you can say that um"
+  },
+  {
+    "start": 1534.28,
+    "duration": 2.88,
+    "text": "if"
+  },
+  {
+    "start": 1535.24,
+    "duration": 4.52,
+    "text": "A is greater than B,"
+  },
+  {
+    "start": 1537.16,
+    "duration": 6.6,
+    "text": "max is equal to A."
+  },
+  {
+    "start": 1539.76,
+    "duration": 4.0,
+    "text": "Otherwise, max is equal to B."
+  },
+  {
+    "start": 1544.24,
+    "duration": 4.12,
+    "text": "So now in this maximum value, it will"
+  },
+  {
+    "start": 1546.0,
+    "duration": 4.64,
+    "text": "actually store either A or B."
+  },
+  {
+    "start": 1548.36,
+    "duration": 4.92,
+    "text": "And in the next line, you can say if C"
+  },
+  {
+    "start": 1550.64,
+    "duration": 5.64,
+    "text": "is greater than max,"
+  },
+  {
+    "start": 1553.28,
+    "duration": 3.0,
+    "text": "max is equal to C."
+  },
+  {
+    "start": 1556.48,
+    "duration": 3.08,
+    "text": "Same thing."
+  },
+  {
+    "start": 1557.72,
+    "duration": 3.36,
+    "text": "Here it's actually trying to suggest us,"
+  },
+  {
+    "start": 1559.56,
+    "duration": 2.96,
+    "text": "IntelliJ is saying you can optimize this"
+  },
+  {
+    "start": 1561.08,
+    "duration": 4.4,
+    "text": "loop."
+  },
+  {
+    "start": 1562.52,
+    "duration": 5.08,
+    "text": "Ah yeah, you can use a maximum uh the"
+  },
+  {
+    "start": 1565.48,
+    "duration": 3.04,
+    "text": "math.max call. That's also something you"
+  },
+  {
+    "start": 1567.6,
+    "duration": 2.6,
+    "text": "can do."
+  },
+  {
+    "start": 1568.52,
+    "duration": 4.2,
+    "text": "So basically math you know, the math"
+  },
+  {
+    "start": 1570.2,
+    "duration": 5.96,
+    "text": "class has something like this, so if I"
+  },
+  {
+    "start": 1572.72,
+    "duration": 4.76,
+    "text": "comment this out, you can say my int max"
+  },
+  {
+    "start": 1576.16,
+    "duration": 3.36,
+    "text": "is equal to"
+  },
+  {
+    "start": 1577.48,
+    "duration": 3.72,
+    "text": "math.max"
+  },
+  {
+    "start": 1579.52,
+    "duration": 4.56,
+    "text": "A and B. So it's basically going to"
+  },
+  {
+    "start": 1581.2,
+    "duration": 4.12,
+    "text": "return the two the maximum value"
+  },
+  {
+    "start": 1584.08,
+    "duration": 3.0,
+    "text": "from these two."
+  },
+  {
+    "start": 1585.32,
+    "duration": 3.76,
+    "text": "Okay? So this is going to contain the"
+  },
+  {
+    "start": 1587.08,
+    "duration": 4.68,
+    "text": "maximum value of these two."
+  },
+  {
+    "start": 1589.08,
+    "duration": 5.2,
+    "text": "And I can again pass this in math.max"
+  },
+  {
+    "start": 1591.76,
+    "duration": 2.52,
+    "text": "for C."
+  },
+  {
+    "start": 1599.96,
+    "duration": 3.2,
+    "text": "Okay?"
+  },
+  {
+    "start": 1601.0,
+    "duration": 5.36,
+    "text": "So this is basically saying basically if"
+  },
+  {
+    "start": 1603.16,
+    "duration": 3.2,
+    "text": "I do math.max"
+  },
+  {
+    "start": 1607.8,
+    "duration": 4.96,
+    "text": "let's say"
+  },
+  {
+    "start": 1609.36,
+    "duration": 6.36,
+    "text": "34 and 7 57, so it's going to print 57."
+  },
+  {
+    "start": 1612.76,
+    "duration": 2.96,
+    "text": "Let me comment this out."
+  },
+  {
+    "start": 1618.0,
+    "duration": 3.92,
+    "text": "All right, it will give an error because"
+  },
+  {
+    "start": 1619.88,
+    "duration": 4.92,
+    "text": "I did not comment out this thing."
+  },
+  {
+    "start": 1621.92,
+    "duration": 2.88,
+    "text": "Now, it should run."
+  },
+  {
+    "start": 1627.32,
+    "duration": 3.56,
+    "text": "57"
+  },
+  {
+    "start": 1628.76,
+    "duration": 4.84,
+    "text": "That is what math.max is doing."
+  },
+  {
+    "start": 1630.88,
+    "duration": 5.28,
+    "text": "Okay? I replace this with my variable"
+  },
+  {
+    "start": 1633.6,
+    "duration": 2.56,
+    "text": "max."
+  },
+  {
+    "start": 1641.08,
+    "duration": 5.24,
+    "text": "Take the inputs."
+  },
+  {
+    "start": 1643.16,
+    "duration": 3.16,
+    "text": "Now, let's try to run this."
+  },
+  {
+    "start": 1646.56,
+    "duration": 6.2,
+    "text": "I get three numbers."
+  },
+  {
+    "start": 1648.2,
+    "duration": 6.32,
+    "text": "10 30 27. It will print 30. Why? Because"
+  },
+  {
+    "start": 1652.76,
+    "duration": 6.2,
+    "text": "it will it is it is first going to say"
+  },
+  {
+    "start": 1654.52,
+    "duration": 6.44,
+    "text": "math.max of 27 and whatever the maximum"
+  },
+  {
+    "start": 1658.96,
+    "duration": 7.44,
+    "text": "value is of 10 and 30. So, it's going to"
+  },
+  {
+    "start": 1660.96,
+    "duration": 7.64,
+    "text": "be like math.max of 27, 30 means 30."
+  },
+  {
+    "start": 1666.4,
+    "duration": 4.24,
+    "text": "That's my answer. Now, let's go into the"
+  },
+  {
+    "start": 1668.6,
+    "duration": 5.44,
+    "text": "next question. Let's do something. Let's"
+  },
+  {
+    "start": 1670.64,
+    "duration": 5.16,
+    "text": "say we input a character, a letter, and"
+  },
+  {
+    "start": 1674.04,
+    "duration": 3.92,
+    "text": "basically any an alphabet, and it will"
+  },
+  {
+    "start": 1675.8,
+    "duration": 4.0,
+    "text": "tell us whether the alphabet is"
+  },
+  {
+    "start": 1677.96,
+    "duration": 3.16,
+    "text": "uppercase or lowercase."
+  },
+  {
+    "start": 1679.8,
+    "duration": 5.6,
+    "text": "Let's try to make that program. That'd"
+  },
+  {
+    "start": 1681.12,
+    "duration": 4.28,
+    "text": "be pretty pretty nice. So, you can say"
+  },
+  {
+    "start": 1687.16,
+    "duration": 3.76,
+    "text": "type check"
+  },
+  {
+    "start": 1688.8,
+    "duration": 5.0,
+    "text": "or something like char uh"
+  },
+  {
+    "start": 1690.92,
+    "duration": 5.76,
+    "text": "case check or whatever. Okay?"
+  },
+  {
+    "start": 1693.8,
+    "duration": 5.08,
+    "text": "case check"
+  },
+  {
+    "start": 1696.68,
+    "duration": 4.68,
+    "text": "Let's start with void main. And here I"
+  },
+  {
+    "start": 1698.88,
+    "duration": 7.32,
+    "text": "can say scanner"
+  },
+  {
+    "start": 1701.36,
+    "duration": 6.84,
+    "text": "input is equal to new scanner system.in."
+  },
+  {
+    "start": 1706.2,
+    "duration": 5.12,
+    "text": "Let's take a character input."
+  },
+  {
+    "start": 1708.2,
+    "duration": 4.36,
+    "text": "There is no such thing as in.nextChar."
+  },
+  {
+    "start": 1711.32,
+    "duration": 3.44,
+    "text": "So, for that, we're going to have to"
+  },
+  {
+    "start": 1712.56,
+    "duration": 4.36,
+    "text": "take a string input and take the first"
+  },
+  {
+    "start": 1714.76,
+    "duration": 4.72,
+    "text": "letter of it. Okay? So, that's the way"
+  },
+  {
+    "start": 1716.92,
+    "duration": 5.08,
+    "text": "to take characters. Sorry."
+  },
+  {
+    "start": 1719.48,
+    "duration": 6.16,
+    "text": "Uh char ch"
+  },
+  {
+    "start": 1722.0,
+    "duration": 3.64,
+    "text": "is equal to in.next.trim.charAt(0)."
+  },
+  {
+    "start": 1728.6,
+    "duration": 3.44,
+    "text": "What am I doing over here?"
+  },
+  {
+    "start": 1730.2,
+    "duration": 5.16,
+    "text": "Trim basically means that uh I'll just"
+  },
+  {
+    "start": 1732.04,
+    "duration": 5.8,
+    "text": "hide this for now. Let's say I say"
+  },
+  {
+    "start": 1735.36,
+    "duration": 2.48,
+    "text": "print"
+  },
+  {
+    "start": 1738.52,
+    "duration": 2.76,
+    "text": "in.next."
+  },
+  {
+    "start": 1740.16,
+    "duration": 3.44,
+    "text": "This is just going to print the next"
+  },
+  {
+    "start": 1741.28,
+    "duration": 3.44,
+    "text": "word. So, if I just run this,"
+  },
+  {
+    "start": 1743.6,
+    "duration": 2.68,
+    "text": "it's just going to print the next word,"
+  },
+  {
+    "start": 1744.72,
+    "duration": 3.4,
+    "text": "okay? It will take the next word over"
+  },
+  {
+    "start": 1746.28,
+    "duration": 4.28,
+    "text": "here, and it will it will print it in"
+  },
+  {
+    "start": 1748.12,
+    "duration": 3.72,
+    "text": "this uh function only. So, I can say"
+  },
+  {
+    "start": 1750.56,
+    "duration": 2.56,
+    "text": "hello, so it will print hello. Nothing"
+  },
+  {
+    "start": 1751.84,
+    "duration": 3.44,
+    "text": "new over here."
+  },
+  {
+    "start": 1753.12,
+    "duration": 4.08,
+    "text": "What is dot trim? Dot trim basically"
+  },
+  {
+    "start": 1755.28,
+    "duration": 4.44,
+    "text": "means remove all the extra spaces that"
+  },
+  {
+    "start": 1757.2,
+    "duration": 5.2,
+    "text": "are at the end of these words."
+  },
+  {
+    "start": 1759.72,
+    "duration": 5.2,
+    "text": "So, I can say if I take uh you know,"
+  },
+  {
+    "start": 1762.4,
+    "duration": 5.44,
+    "text": "next uh for uh"
+  },
+  {
+    "start": 1764.92,
+    "duration": 6.4,
+    "text": "let's say if I do trim over here."
+  },
+  {
+    "start": 1767.84,
+    "duration": 3.48,
+    "text": "Now, let's say if I print it."
+  },
+  {
+    "start": 1771.4,
+    "duration": 5.24,
+    "text": "Let me do a Let me do a space."
+  },
+  {
+    "start": 1774.28,
+    "duration": 2.36,
+    "text": "Hello."
+  },
+  {
+    "start": 1776.88,
+    "duration": 4.12,
+    "text": "So, you can see extra space was removed."
+  },
+  {
+    "start": 1781.28,
+    "duration": 1.96,
+    "text": "Okay?"
+  },
+  {
+    "start": 1782.16,
+    "duration": 3.04,
+    "text": "Because that is what not what we want."
+  },
+  {
+    "start": 1783.24,
+    "duration": 4.72,
+    "text": "We basically want that, okay, we are"
+  },
+  {
+    "start": 1785.2,
+    "duration": 4.92,
+    "text": "going to be inputting a number like um a"
+  },
+  {
+    "start": 1787.96,
+    "duration": 3.92,
+    "text": "character, basically, not a number. So,"
+  },
+  {
+    "start": 1790.12,
+    "duration": 3.96,
+    "text": "I can say I'm I'm going to be inputting"
+  },
+  {
+    "start": 1791.88,
+    "duration": 4.36,
+    "text": "uh K."
+  },
+  {
+    "start": 1794.08,
+    "duration": 3.96,
+    "text": "So, this K is actually a string input."
+  },
+  {
+    "start": 1796.24,
+    "duration": 3.64,
+    "text": "You cannot take like a char input. It"
+  },
+  {
+    "start": 1798.04,
+    "duration": 5.36,
+    "text": "will convert it into char when you use"
+  },
+  {
+    "start": 1799.88,
+    "duration": 5.4,
+    "text": "this method called char at zero."
+  },
+  {
+    "start": 1803.4,
+    "duration": 3.52,
+    "text": "Don't worry about this right now because"
+  },
+  {
+    "start": 1805.28,
+    "duration": 4.04,
+    "text": "string is a separate module of this"
+  },
+  {
+    "start": 1806.92,
+    "duration": 3.96,
+    "text": "course. So, we'll look into it later on,"
+  },
+  {
+    "start": 1809.32,
+    "duration": 3.48,
+    "text": "like what is a char at and everything,"
+  },
+  {
+    "start": 1810.88,
+    "duration": 4.0,
+    "text": "but in case In short, if you want to"
+  },
+  {
+    "start": 1812.8,
+    "duration": 3.68,
+    "text": "understand, it's not that complicated."
+  },
+  {
+    "start": 1814.88,
+    "duration": 3.64,
+    "text": "This is a string."
+  },
+  {
+    "start": 1816.48,
+    "duration": 5.0,
+    "text": "Char at basically means give me the"
+  },
+  {
+    "start": 1818.52,
+    "duration": 4.8,
+    "text": "character at this index of the string."
+  },
+  {
+    "start": 1821.48,
+    "duration": 3.52,
+    "text": "String, you can imagine it as a"
+  },
+  {
+    "start": 1823.32,
+    "duration": 2.92,
+    "text": "character array. Array is actually the"
+  },
+  {
+    "start": 1825.0,
+    "duration": 3.92,
+    "text": "next topic, so it will be much more"
+  },
+  {
+    "start": 1826.24,
+    "duration": 4.12,
+    "text": "clearer then. But uh in arrays, index"
+  },
+  {
+    "start": 1828.92,
+    "duration": 4.0,
+    "text": "starts from zero."
+  },
+  {
+    "start": 1830.36,
+    "duration": 3.4,
+    "text": "So, if I'm saying something like uh"
+  },
+  {
+    "start": 1832.92,
+    "duration": 3.88,
+    "text": "hello."
+  },
+  {
+    "start": 1833.76,
+    "duration": 6.12,
+    "text": "Okay? So, if I'm saying, let's say"
+  },
+  {
+    "start": 1836.8,
+    "duration": 4.08,
+    "text": "string word is equal to something like"
+  },
+  {
+    "start": 1839.88,
+    "duration": 4.52,
+    "text": "hello."
+  },
+  {
+    "start": 1840.88,
+    "duration": 6.0,
+    "text": "And then I print word {dot} char at"
+  },
+  {
+    "start": 1844.4,
+    "duration": 2.48,
+    "text": "zero."
+  },
+  {
+    "start": 1847.76,
+    "duration": 4.24,
+    "text": "This is going to print print which is"
+  },
+  {
+    "start": 1849.72,
+    "duration": 7.84,
+    "text": "the character at this"
+  },
+  {
+    "start": 1852.0,
+    "duration": 5.56,
+    "text": "word's zeroth index. H, it will print H."
+  },
+  {
+    "start": 1859.84,
+    "duration": 3.56,
+    "text": "H."
+  },
+  {
+    "start": 1860.8,
+    "duration": 5.4,
+    "text": "Which is the character at index number"
+  },
+  {
+    "start": 1863.4,
+    "duration": 6.28,
+    "text": "two. So, zero, one,"
+  },
+  {
+    "start": 1866.2,
+    "duration": 3.48,
+    "text": "two. L, it will print L."
+  },
+  {
+    "start": 1871.64,
+    "duration": 2.84,
+    "text": "Okay."
+  },
+  {
+    "start": 1872.52,
+    "duration": 4.12,
+    "text": "So, this char at is actually returning a"
+  },
+  {
+    "start": 1874.48,
+    "duration": 5.0,
+    "text": "character type. You can see over here."
+  },
+  {
+    "start": 1876.64,
+    "duration": 5.08,
+    "text": "Character type."
+  },
+  {
+    "start": 1879.48,
+    "duration": 3.8,
+    "text": "Okay. So, if it is returning a character"
+  },
+  {
+    "start": 1881.72,
+    "duration": 3.76,
+    "text": "type, then we already have learned about"
+  },
+  {
+    "start": 1883.28,
+    "duration": 4.96,
+    "text": "data, you know, data type. So, I can"
+  },
+  {
+    "start": 1885.48,
+    "duration": 5.88,
+    "text": "store it in a character type."
+  },
+  {
+    "start": 1888.24,
+    "duration": 3.12,
+    "text": "That's why it's working."
+  },
+  {
+    "start": 1892.96,
+    "duration": 3.56,
+    "text": "Now, I will input a character and it"
+  },
+  {
+    "start": 1894.36,
+    "duration": 4.88,
+    "text": "will be stored in the CH."
+  },
+  {
+    "start": 1896.52,
+    "duration": 3.68,
+    "text": "Input, let's say L."
+  },
+  {
+    "start": 1899.24,
+    "duration": 3.16,
+    "text": "L."
+  },
+  {
+    "start": 1900.2,
+    "duration": 3.32,
+    "text": "Type character."
+  },
+  {
+    "start": 1902.4,
+    "duration": 3.32,
+    "text": "Question is you need to check whether"
+  },
+  {
+    "start": 1903.52,
+    "duration": 3.64,
+    "text": "this is lower case or upper case."
+  },
+  {
+    "start": 1905.72,
+    "duration": 2.84,
+    "text": "So, the CH and everything you can use"
+  },
+  {
+    "start": 1907.16,
+    "duration": 4.28,
+    "text": "like the ASCII values and stuff, but we"
+  },
+  {
+    "start": 1908.56,
+    "duration": 4.08,
+    "text": "can also do something like if"
+  },
+  {
+    "start": 1911.44,
+    "duration": 3.0,
+    "text": "But, since it's a character, I can"
+  },
+  {
+    "start": 1912.64,
+    "duration": 4.0,
+    "text": "directly compare it with uh"
+  },
+  {
+    "start": 1914.44,
+    "duration": 4.88,
+    "text": "the values of uh you know, lower case A"
+  },
+  {
+    "start": 1916.64,
+    "duration": 4.64,
+    "text": "and lower case uh Z. If it lies in the"
+  },
+  {
+    "start": 1919.32,
+    "duration": 3.28,
+    "text": "range of that because in the type"
+  },
+  {
+    "start": 1921.28,
+    "duration": 3.08,
+    "text": "section, we saw that it actually"
+  },
+  {
+    "start": 1922.6,
+    "duration": 3.28,
+    "text": "converts it into like, you know, checks"
+  },
+  {
+    "start": 1924.36,
+    "duration": 2.96,
+    "text": "when integer. So, we already saw that."
+  },
+  {
+    "start": 1925.88,
+    "duration": 3.0,
+    "text": "If you haven't, check out the link in"
+  },
+  {
+    "start": 1927.32,
+    "duration": 3.44,
+    "text": "the description below. We have an entire"
+  },
+  {
+    "start": 1928.88,
+    "duration": 3.84,
+    "text": "entire session on that on types and"
+  },
+  {
+    "start": 1930.76,
+    "duration": 4.96,
+    "text": "everything and how these compare."
+  },
+  {
+    "start": 1932.72,
+    "duration": 4.68,
+    "text": "This is greater than equal to A"
+  },
+  {
+    "start": 1935.72,
+    "duration": 4.64,
+    "text": "and"
+  },
+  {
+    "start": 1937.4,
+    "duration": 4.56,
+    "text": "CH is less than equal to Z. Basically,"
+  },
+  {
+    "start": 1940.36,
+    "duration": 2.92,
+    "text": "this is something we did not cover"
+  },
+  {
+    "start": 1941.96,
+    "duration": 3.2,
+    "text": "before and"
+  },
+  {
+    "start": 1943.28,
+    "duration": 3.12,
+    "text": "So, basically, if you want to add two"
+  },
+  {
+    "start": 1945.16,
+    "duration": 3.28,
+    "text": "conditions, like both of these"
+  },
+  {
+    "start": 1946.4,
+    "duration": 3.36,
+    "text": "conditions need to be true, you can use"
+  },
+  {
+    "start": 1948.44,
+    "duration": 3.36,
+    "text": "the and"
+  },
+  {
+    "start": 1949.76,
+    "duration": 4.04,
+    "text": "and and operator."
+  },
+  {
+    "start": 1951.8,
+    "duration": 4.24,
+    "text": "Okay. So, it will only be true if this"
+  },
+  {
+    "start": 1953.8,
+    "duration": 4.16,
+    "text": "is true and this is true."
+  },
+  {
+    "start": 1956.04,
+    "duration": 3.84,
+    "text": "Okay. If it If it If it If we go into"
+  },
+  {
+    "start": 1957.96,
+    "duration": 5.52,
+    "text": "our conditionals again,"
+  },
+  {
+    "start": 1959.88,
+    "duration": 5.32,
+    "text": "and if I just hide this thing,"
+  },
+  {
+    "start": 1963.48,
+    "duration": 4.28,
+    "text": "so you can see multiple I can say if"
+  },
+  {
+    "start": 1965.2,
+    "duration": 2.56,
+    "text": "let's say"
+  },
+  {
+    "start": 1968.88,
+    "duration": 7.12,
+    "text": "Let's say int A is equal to 10 and"
+  },
+  {
+    "start": 1972.8,
+    "duration": 5.12,
+    "text": "int B is equal to 20. So I can say if A"
+  },
+  {
+    "start": 1976.0,
+    "duration": 6.16,
+    "text": "is equal to equal to 10"
+  },
+  {
+    "start": 1977.92,
+    "duration": 4.24,
+    "text": "and B is equal to equal to 20."
+  },
+  {
+    "start": 1986.88,
+    "duration": 6.24,
+    "text": "So is A equal to 10? Yes, it is. B equal"
+  },
+  {
+    "start": 1989.2,
+    "duration": 3.92,
+    "text": "to 20? Yes, it is. It will print."
+  },
+  {
+    "start": 1996.52,
+    "duration": 4.52,
+    "text": "If you say or, you can also add or. Or"
+  },
+  {
+    "start": 1999.4,
+    "duration": 3.84,
+    "text": "basically means either one of these"
+  },
+  {
+    "start": 2001.04,
+    "duration": 4.96,
+    "text": "should be true."
+  },
+  {
+    "start": 2003.24,
+    "duration": 4.28,
+    "text": "So if I make this one false, so even"
+  },
+  {
+    "start": 2006.0,
+    "duration": 3.8,
+    "text": "though A is equal to 10, B is not equal"
+  },
+  {
+    "start": 2007.52,
+    "duration": 4.48,
+    "text": "to 20, it will still run because this is"
+  },
+  {
+    "start": 2009.8,
+    "duration": 3.44,
+    "text": "or. Means any one of these two be true."
+  },
+  {
+    "start": 2012.0,
+    "duration": 2.72,
+    "text": "We will do this in detail when we do"
+  },
+  {
+    "start": 2013.24,
+    "duration": 3.2,
+    "text": "bitwise operators. Okay, these are"
+  },
+  {
+    "start": 2014.72,
+    "duration": 4.2,
+    "text": "bitwise operators. We'll do it in"
+  },
+  {
+    "start": 2016.44,
+    "duration": 3.92,
+    "text": "detail. Hello world."
+  },
+  {
+    "start": 2018.92,
+    "duration": 3.36,
+    "text": "Okay, we'll do it in detail. There's a"
+  },
+  {
+    "start": 2020.36,
+    "duration": 5.68,
+    "text": "separate section for this."
+  },
+  {
+    "start": 2022.28,
+    "duration": 5.76,
+    "text": "And if I do something like um"
+  },
+  {
+    "start": 2026.04,
+    "duration": 4.2,
+    "text": "Okay, so you you already learned about"
+  },
+  {
+    "start": 2028.04,
+    "duration": 4.24,
+    "text": "and and or. There's a double equal to we"
+  },
+  {
+    "start": 2030.24,
+    "duration": 4.44,
+    "text": "basically compares the value of this and"
+  },
+  {
+    "start": 2032.28,
+    "duration": 5.24,
+    "text": "there's one more called uh not equal to."
+  },
+  {
+    "start": 2034.68,
+    "duration": 4.52,
+    "text": "If A not equal to"
+  },
+  {
+    "start": 2037.52,
+    "duration": 3.0,
+    "text": "35,"
+  },
+  {
+    "start": 2039.2,
+    "duration": 3.4,
+    "text": "print this."
+  },
+  {
+    "start": 2040.52,
+    "duration": 4.0,
+    "text": "Is A equal to 35? No, it's not. So hence"
+  },
+  {
+    "start": 2042.6,
+    "duration": 4.4,
+    "text": "this is true. A should not be equal to"
+  },
+  {
+    "start": 2044.52,
+    "duration": 4.399,
+    "text": "35. That is true. A is not equal to 35,"
+  },
+  {
+    "start": 2047.0,
+    "duration": 4.24,
+    "text": "A is 10. Hence it will print hello"
+  },
+  {
+    "start": 2048.919,
+    "duration": 2.321,
+    "text": "world."
+  },
+  {
+    "start": 2053.36,
+    "duration": 3.72,
+    "text": "So you can"
+  },
+  {
+    "start": 2054.24,
+    "duration": 4.32,
+    "text": "multiple You can add so many if so many"
+  },
+  {
+    "start": 2057.08,
+    "duration": 3.36,
+    "text": "so many conditions you can add in this"
+  },
+  {
+    "start": 2058.56,
+    "duration": 3.72,
+    "text": "one single if condition."
+  },
+  {
+    "start": 2060.44,
+    "duration": 4.479,
+    "text": "Okay, like we are adding"
+  },
+  {
+    "start": 2062.28,
+    "duration": 4.399,
+    "text": "two over here. If A is greater than A,"
+  },
+  {
+    "start": 2064.919,
+    "duration": 4.361,
+    "text": "the value like if it if it lies between"
+  },
+  {
+    "start": 2066.679,
+    "duration": 5.281,
+    "text": "the range of capital small A and small"
+  },
+  {
+    "start": 2069.28,
+    "duration": 5.04,
+    "text": "Z, I can say"
+  },
+  {
+    "start": 2071.96,
+    "duration": 2.36,
+    "text": "print"
+  },
+  {
+    "start": 2075.919,
+    "duration": 3.801,
+    "text": "lower case."
+  },
+  {
+    "start": 2078.159,
+    "duration": 2.72,
+    "text": "Otherwise, I can say"
+  },
+  {
+    "start": 2079.72,
+    "duration": 3.76,
+    "text": "print"
+  },
+  {
+    "start": 2080.879,
+    "duration": 2.601,
+    "text": "upper case."
+  },
+  {
+    "start": 2085.52,
+    "duration": 3.159,
+    "text": "Let's try to run this program."
+  },
+  {
+    "start": 2089.84,
+    "duration": 4.039,
+    "text": "Can add any number Oh, sorry, any letter"
+  },
+  {
+    "start": 2091.56,
+    "duration": 5.0,
+    "text": "H. Lower case letter H."
+  },
+  {
+    "start": 2093.879,
+    "duration": 4.321,
+    "text": "If I add something like capital H,"
+  },
+  {
+    "start": 2096.56,
+    "duration": 4.0,
+    "text": "upper case."
+  },
+  {
+    "start": 2098.2,
+    "duration": 3.16,
+    "text": "Simple stuff. All right."
+  },
+  {
+    "start": 2100.56,
+    "duration": 2.64,
+    "text": "Cool."
+  },
+  {
+    "start": 2101.36,
+    "duration": 3.48,
+    "text": "Let's move on to the next question. Now,"
+  },
+  {
+    "start": 2103.2,
+    "duration": 3.44,
+    "text": "let's look into another problem, which"
+  },
+  {
+    "start": 2104.84,
+    "duration": 4.08,
+    "text": "is the Fibonacci problem. What are"
+  },
+  {
+    "start": 2106.64,
+    "duration": 4.48,
+    "text": "Fibonacci numbers? Fibonacci numbers are"
+  },
+  {
+    "start": 2108.92,
+    "duration": 3.08,
+    "text": "basically, let's say they start by 0 and"
+  },
+  {
+    "start": 2111.12,
+    "duration": 3.2,
+    "text": "1."
+  },
+  {
+    "start": 2112.0,
+    "duration": 3.52,
+    "text": "Starts from 0 and 1. Let's say Let's say"
+  },
+  {
+    "start": 2114.32,
+    "duration": 3.2,
+    "text": "the 0th Fibonacci number, first"
+  },
+  {
+    "start": 2115.52,
+    "duration": 4.0,
+    "text": "Fibonacci number. And the series then"
+  },
+  {
+    "start": 2117.52,
+    "duration": 4.08,
+    "text": "continues by adding the previous two"
+  },
+  {
+    "start": 2119.52,
+    "duration": 3.88,
+    "text": "numbers. So, basically, the next number"
+  },
+  {
+    "start": 2121.6,
+    "duration": 5.24,
+    "text": "is going to be what? Sum of the previous"
+  },
+  {
+    "start": 2123.4,
+    "duration": 5.28,
+    "text": "two numbers. 0 + 1 2 or 0 + 1 is 1. 1"
+  },
+  {
+    "start": 2126.84,
+    "duration": 3.16,
+    "text": "comes over here. The next number is"
+  },
+  {
+    "start": 2128.68,
+    "duration": 3.64,
+    "text": "going to be the sum of the previous two"
+  },
+  {
+    "start": 2130.0,
+    "duration": 4.16,
+    "text": "numbers. 1 + 1 is 2. 2 will come over"
+  },
+  {
+    "start": 2132.32,
+    "duration": 4.12,
+    "text": "here. Next will be the sum of previous"
+  },
+  {
+    "start": 2134.16,
+    "duration": 3.68,
+    "text": "two numbers. 2 + 1 3. 3 will come over"
+  },
+  {
+    "start": 2136.44,
+    "duration": 3.72,
+    "text": "here. Next will be the sum of the"
+  },
+  {
+    "start": 2137.84,
+    "duration": 4.4,
+    "text": "previous two numbers. 3 + 2 5. 5 will"
+  },
+  {
+    "start": 2140.16,
+    "duration": 4.84,
+    "text": "come over here. Next will be the sum of"
+  },
+  {
+    "start": 2142.24,
+    "duration": 5.84,
+    "text": "previous two numbers. 5 + 3 8. Then 8 +"
+  },
+  {
+    "start": 2145.0,
+    "duration": 4.76,
+    "text": "5 13 and so on."
+  },
+  {
+    "start": 2148.08,
+    "duration": 3.08,
+    "text": "That is what we want to do."
+  },
+  {
+    "start": 2149.76,
+    "duration": 2.4,
+    "text": "Okay, so we have to write a code for"
+  },
+  {
+    "start": 2151.16,
+    "duration": 3.52,
+    "text": "this."
+  },
+  {
+    "start": 2152.16,
+    "duration": 4.0,
+    "text": "So, basically, what is happening is that"
+  },
+  {
+    "start": 2154.68,
+    "duration": 2.96,
+    "text": "um"
+  },
+  {
+    "start": 2156.16,
+    "duration": 3.12,
+    "text": "we will be having the first number as"
+  },
+  {
+    "start": 2157.64,
+    "duration": 5.08,
+    "text": "this one, like the 0th or the first one"
+  },
+  {
+    "start": 2159.28,
+    "duration": 5.6,
+    "text": "number, we can say A is equal to 0, B is"
+  },
+  {
+    "start": 2162.72,
+    "duration": 5.48,
+    "text": "equal to 1, and we will be having a"
+  },
+  {
+    "start": 2164.88,
+    "duration": 5.6,
+    "text": "number N is equal to, let's say, let's"
+  },
+  {
+    "start": 2168.2,
+    "duration": 3.32,
+    "text": "say"
+  },
+  {
+    "start": 2170.48,
+    "duration": 5.36,
+    "text": "seven."
+  },
+  {
+    "start": 2171.52,
+    "duration": 4.32,
+    "text": "So, the the question is find the"
+  },
+  {
+    "start": 2178.72,
+    "duration": 3.36,
+    "text": "nth Fibonacci number."
+  },
+  {
+    "start": 2182.32,
+    "duration": 3.72,
+    "text": "So, basically, the 0th, first,"
+  },
+  {
+    "start": 2184.8,
+    "duration": 4.04,
+    "text": "second,"
+  },
+  {
+    "start": 2186.04,
+    "duration": 5.16,
+    "text": "third, fourth, fifth, sixth number,"
+  },
+  {
+    "start": 2188.84,
+    "duration": 5.56,
+    "text": "seventh number. So, the answer for this"
+  },
+  {
+    "start": 2191.2,
+    "duration": 4.48,
+    "text": "should be equal to 13."
+  },
+  {
+    "start": 2194.4,
+    "duration": 3.44,
+    "text": "If I say, \"Give me the sixth Fibonacci"
+  },
+  {
+    "start": 2195.68,
+    "duration": 4.8,
+    "text": "number.\" Answer should be eight."
+  },
+  {
+    "start": 2197.84,
+    "duration": 4.6,
+    "text": "That is what we're going to do."
+  },
+  {
+    "start": 2200.48,
+    "duration": 3.44,
+    "text": "And here we know how many times our loop"
+  },
+  {
+    "start": 2202.44,
+    "duration": 3.4,
+    "text": "is going to run. We know we need to find"
+  },
+  {
+    "start": 2203.92,
+    "duration": 4.44,
+    "text": "the nth number. We will have the value"
+  },
+  {
+    "start": 2205.84,
+    "duration": 4.56,
+    "text": "of n because we will input it. Hence, we"
+  },
+  {
+    "start": 2208.36,
+    "duration": 4.0,
+    "text": "will use a for loop for this. So, we"
+  },
+  {
+    "start": 2210.4,
+    "duration": 3.88,
+    "text": "will initialize these two variables."
+  },
+  {
+    "start": 2212.36,
+    "duration": 3.76,
+    "text": "Then we will use a for loop till, you"
+  },
+  {
+    "start": 2214.28,
+    "duration": 2.84,
+    "text": "know, till it runs till like seven or"
+  },
+  {
+    "start": 2216.12,
+    "duration": 3.28,
+    "text": "whatever."
+  },
+  {
+    "start": 2217.12,
+    "duration": 4.08,
+    "text": "And then basically we will just keep on"
+  },
+  {
+    "start": 2219.4,
+    "duration": 3.68,
+    "text": "adding and updating these two values."
+  },
+  {
+    "start": 2221.2,
+    "duration": 6.04,
+    "text": "For example, the next number will be a"
+  },
+  {
+    "start": 2223.08,
+    "duration": 6.56,
+    "text": "plus b, which is equal to one. Comma, a"
+  },
+  {
+    "start": 2227.24,
+    "duration": 5.56,
+    "text": "will then be replaced with the"
+  },
+  {
+    "start": 2229.64,
+    "duration": 5.6,
+    "text": "b, and b will be replaced with this. So,"
+  },
+  {
+    "start": 2232.8,
+    "duration": 4.68,
+    "text": "a then will be one, b will be one. Next"
+  },
+  {
+    "start": 2235.24,
+    "duration": 4.68,
+    "text": "will be one plus one, two."
+  },
+  {
+    "start": 2237.48,
+    "duration": 3.84,
+    "text": "A will be replaced with the the next"
+  },
+  {
+    "start": 2239.92,
+    "duration": 2.96,
+    "text": "one, this one."
+  },
+  {
+    "start": 2241.32,
+    "duration": 3.16,
+    "text": "And b will be"
+  },
+  {
+    "start": 2242.88,
+    "duration": 4.32,
+    "text": "Let me make it much more clearer by"
+  },
+  {
+    "start": 2244.48,
+    "duration": 2.72,
+    "text": "making a table."
+  },
+  {
+    "start": 2249.6,
+    "duration": 2.96,
+    "text": "Let's make it much more clearer by"
+  },
+  {
+    "start": 2251.0,
+    "duration": 3.08,
+    "text": "making a table."
+  },
+  {
+    "start": 2252.56,
+    "duration": 2.72,
+    "text": "So, a"
+  },
+  {
+    "start": 2254.08,
+    "duration": 3.44,
+    "text": "comma b"
+  },
+  {
+    "start": 2255.28,
+    "duration": 4.16,
+    "text": "Initially, it's zero, it's one."
+  },
+  {
+    "start": 2257.52,
+    "duration": 5.28,
+    "text": "And this is my"
+  },
+  {
+    "start": 2259.44,
+    "duration": 5.48,
+    "text": "series that is currently ongoing. Okay?"
+  },
+  {
+    "start": 2262.8,
+    "duration": 4.44,
+    "text": "So, now when I do zero plus one, it will"
+  },
+  {
+    "start": 2264.92,
+    "duration": 5.24,
+    "text": "be one. And"
+  },
+  {
+    "start": 2267.24,
+    "duration": 5.04,
+    "text": "b will come over here."
+  },
+  {
+    "start": 2270.16,
+    "duration": 4.08,
+    "text": "And the new b is going to be this thing"
+  },
+  {
+    "start": 2272.28,
+    "duration": 3.6,
+    "text": "that I have just added. One plus one"
+  },
+  {
+    "start": 2274.24,
+    "duration": 3.4,
+    "text": "then will become two."
+  },
+  {
+    "start": 2275.88,
+    "duration": 3.24,
+    "text": "B will come over here."
+  },
+  {
+    "start": 2277.64,
+    "duration": 5.0,
+    "text": "This will be the one that I've currently"
+  },
+  {
+    "start": 2279.12,
+    "duration": 5.48,
+    "text": "added. Two. Two plus one, three."
+  },
+  {
+    "start": 2282.64,
+    "duration": 4.16,
+    "text": "Two will come over here."
+  },
+  {
+    "start": 2284.6,
+    "duration": 3.08,
+    "text": "And three will come over here. Two plus"
+  },
+  {
+    "start": 2286.8,
+    "duration": 2.92,
+    "text": "three,"
+  },
+  {
+    "start": 2287.68,
+    "duration": 3.28,
+    "text": "five. See, very simple. Three will come"
+  },
+  {
+    "start": 2289.72,
+    "duration": 3.56,
+    "text": "over here."
+  },
+  {
+    "start": 2290.96,
+    "duration": 3.92,
+    "text": "And five will come over here. Five plus"
+  },
+  {
+    "start": 2293.28,
+    "duration": 2.96,
+    "text": "three, eight."
+  },
+  {
+    "start": 2294.88,
+    "duration": 2.44,
+    "text": "It will keep on going on going on going"
+  },
+  {
+    "start": 2296.24,
+    "duration": 2.72,
+    "text": "on."
+  },
+  {
+    "start": 2297.32,
+    "duration": 3.6,
+    "text": "Something like this. Let me just Let me"
+  },
+  {
+    "start": 2298.96,
+    "duration": 3.48,
+    "text": "just show you the"
+  },
+  {
+    "start": 2300.92,
+    "duration": 3.92,
+    "text": "you know, in case you're unable to see"
+  },
+  {
+    "start": 2302.44,
+    "duration": 6.12,
+    "text": "the"
+  },
+  {
+    "start": 2304.84,
+    "duration": 3.72,
+    "text": "Now, I think it might be visible."
+  },
+  {
+    "start": 2312.56,
+    "duration": 2.56,
+    "text": "Like this."
+  },
+  {
+    "start": 2315.52,
+    "duration": 3.08,
+    "text": "This one."
+  },
+  {
+    "start": 2316.56,
+    "duration": 3.32,
+    "text": "Previously, I mentioned like when you"
+  },
+  {
+    "start": 2318.6,
+    "duration": 3.64,
+    "text": "know how many times a loop is running,"
+  },
+  {
+    "start": 2319.88,
+    "duration": 3.72,
+    "text": "you can use a for loop. But, one more"
+  },
+  {
+    "start": 2322.24,
+    "duration": 4.28,
+    "text": "case in which you might want to use a"
+  },
+  {
+    "start": 2323.6,
+    "duration": 3.88,
+    "text": "while loop is when the code is looking"
+  },
+  {
+    "start": 2326.52,
+    "duration": 2.8,
+    "text": "cleaner."
+  },
+  {
+    "start": 2327.48,
+    "duration": 3.6,
+    "text": "Sometimes, the code will look much more"
+  },
+  {
+    "start": 2329.32,
+    "duration": 4.04,
+    "text": "cleaner when you're using, let's say, a"
+  },
+  {
+    "start": 2331.08,
+    "duration": 4.4,
+    "text": "while loop over a over a for loop. So,"
+  },
+  {
+    "start": 2333.36,
+    "duration": 4.48,
+    "text": "here in this case, I'll just add a I'll"
+  },
+  {
+    "start": 2335.48,
+    "duration": 6.96,
+    "text": "just add a scanner class."
+  },
+  {
+    "start": 2337.84,
+    "duration": 7.0,
+    "text": "In is equal to new scanner system.in."
+  },
+  {
+    "start": 2342.44,
+    "duration": 4.0,
+    "text": "And here, I'll just input my nth"
+  },
+  {
+    "start": 2344.84,
+    "duration": 4.32,
+    "text": "Fibonacci number."
+  },
+  {
+    "start": 2346.44,
+    "duration": 2.72,
+    "text": "next int"
+  },
+  {
+    "start": 2351.2,
+    "duration": 3.28,
+    "text": "Okay?"
+  },
+  {
+    "start": 2352.08,
+    "duration": 4.36,
+    "text": "So, now the initial ones that we'll be"
+  },
+  {
+    "start": 2354.48,
+    "duration": 4.24,
+    "text": "having, the one that, you know, the"
+  },
+  {
+    "start": 2356.44,
+    "duration": 4.48,
+    "text": "the the two numbers, one and zero. I can"
+  },
+  {
+    "start": 2358.72,
+    "duration": 4.44,
+    "text": "add is I'd, let's say, int uh"
+  },
+  {
+    "start": 2360.92,
+    "duration": 4.72,
+    "text": "uh p is equal to zero means previous,"
+  },
+  {
+    "start": 2363.16,
+    "duration": 4.76,
+    "text": "and int i means the current index equal"
+  },
+  {
+    "start": 2365.64,
+    "duration": 4.56,
+    "text": "to one."
+  },
+  {
+    "start": 2367.92,
+    "duration": 4.36,
+    "text": "We already have the first two numbers."
+  },
+  {
+    "start": 2370.2,
+    "duration": 4.32,
+    "text": "So, our count can start from, let's say,"
+  },
+  {
+    "start": 2372.28,
+    "duration": 4.68,
+    "text": "two. Count is equal to two."
+  },
+  {
+    "start": 2374.52,
+    "duration": 5.88,
+    "text": "Okay? And then, I can say while"
+  },
+  {
+    "start": 2376.96,
+    "duration": 5.28,
+    "text": "count is less than equal to n."
+  },
+  {
+    "start": 2380.4,
+    "duration": 3.92,
+    "text": "You want the nth Fibonacci number."
+  },
+  {
+    "start": 2382.24,
+    "duration": 5.2,
+    "text": "Okay? So, while count is less than equal"
+  },
+  {
+    "start": 2384.32,
+    "duration": 4.96,
+    "text": "to n, what do we need to do?"
+  },
+  {
+    "start": 2387.44,
+    "duration": 3.36,
+    "text": "We need to add"
+  },
+  {
+    "start": 2389.28,
+    "duration": 3.92,
+    "text": "uh"
+  },
+  {
+    "start": 2390.8,
+    "duration": 4.44,
+    "text": "We need to basically the answer in the"
+  },
+  {
+    "start": 2393.2,
+    "duration": 3.24,
+    "text": "end is going to lie in the ith like the"
+  },
+  {
+    "start": 2395.24,
+    "duration": 2.36,
+    "text": "nth Fibonacci number, right? So, that"
+  },
+  {
+    "start": 2396.44,
+    "duration": 2.36,
+    "text": "will be i."
+  },
+  {
+    "start": 2397.6,
+    "duration": 4.44,
+    "text": "So, here uh"
+  },
+  {
+    "start": 2398.8,
+    "duration": 5.48,
+    "text": "how do we make sure that that happens?"
+  },
+  {
+    "start": 2402.04,
+    "duration": 3.72,
+    "text": "We need to add the previous two numbers."
+  },
+  {
+    "start": 2404.28,
+    "duration": 3.0,
+    "text": "That is what we want to do. So,"
+  },
+  {
+    "start": 2405.76,
+    "duration": 2.96,
+    "text": "basically, I can take a temporary"
+  },
+  {
+    "start": 2407.28,
+    "duration": 3.24,
+    "text": "variable"
+  },
+  {
+    "start": 2408.72,
+    "duration": 3.28,
+    "text": "temporary variable of i."
+  },
+  {
+    "start": 2410.52,
+    "duration": 2.96,
+    "text": "Because this temporary variable, now"
+  },
+  {
+    "start": 2412.0,
+    "duration": 3.04,
+    "text": "previous is actually going to be equal"
+  },
+  {
+    "start": 2413.48,
+    "duration": 3.12,
+    "text": "to, you know, when we were doing in the"
+  },
+  {
+    "start": 2415.04,
+    "duration": 3.96,
+    "text": "previous example, we were doing this"
+  },
+  {
+    "start": 2416.6,
+    "duration": 4.92,
+    "text": "will come over here. B will come to A"
+  },
+  {
+    "start": 2419.0,
+    "duration": 3.36,
+    "text": "means the new A is going to be equal to"
+  },
+  {
+    "start": 2421.52,
+    "duration": 1.84,
+    "text": "B."
+  },
+  {
+    "start": 2422.36,
+    "duration": 1.96,
+    "text": "That is what we're going to do over"
+  },
+  {
+    "start": 2423.36,
+    "duration": 1.96,
+    "text": "here."
+  },
+  {
+    "start": 2424.32,
+    "duration": 2.92,
+    "text": "Okay?"
+  },
+  {
+    "start": 2425.32,
+    "duration": 3.56,
+    "text": "So, if I have something like this, I can"
+  },
+  {
+    "start": 2427.24,
+    "duration": 3.52,
+    "text": "say that um"
+  },
+  {
+    "start": 2428.88,
+    "duration": 3.76,
+    "text": "you know, P will be equal to I"
+  },
+  {
+    "start": 2430.76,
+    "duration": 3.72,
+    "text": "previously. But, why am I taking this I"
+  },
+  {
+    "start": 2432.64,
+    "duration": 3.12,
+    "text": "in a temporary variable?"
+  },
+  {
+    "start": 2434.48,
+    "duration": 3.76,
+    "text": "Because"
+  },
+  {
+    "start": 2435.76,
+    "duration": 3.92,
+    "text": "we want to make sure that uh we want to"
+  },
+  {
+    "start": 2438.24,
+    "duration": 3.36,
+    "text": "add these two numbers, right? We want to"
+  },
+  {
+    "start": 2439.68,
+    "duration": 4.08,
+    "text": "say I plus P."
+  },
+  {
+    "start": 2441.6,
+    "duration": 5.92,
+    "text": "I can store this in I only. Means the"
+  },
+  {
+    "start": 2443.76,
+    "duration": 6.32,
+    "text": "next number is I is equal to I plus P."
+  },
+  {
+    "start": 2447.52,
+    "duration": 2.56,
+    "text": "That is it."
+  },
+  {
+    "start": 2450.56,
+    "duration": 5.88,
+    "text": "Count plus plus."
+  },
+  {
+    "start": 2453.64,
+    "duration": 4.28,
+    "text": "That's it. That's my Fibonacci number."
+  },
+  {
+    "start": 2456.44,
+    "duration": 4.8,
+    "text": "If you don't want to like do this is I"
+  },
+  {
+    "start": 2457.92,
+    "duration": 5.36,
+    "text": "and uh stuff, so I can say this is A. Or"
+  },
+  {
+    "start": 2461.24,
+    "duration": 3.8,
+    "text": "I can just write it in the, you know,"
+  },
+  {
+    "start": 2463.28,
+    "duration": 3.24,
+    "text": "format of what we what which we wrote in"
+  },
+  {
+    "start": 2465.04,
+    "duration": 2.52,
+    "text": "in the"
+  },
+  {
+    "start": 2466.52,
+    "duration": 2.72,
+    "text": "um"
+  },
+  {
+    "start": 2467.56,
+    "duration": 4.56,
+    "text": "program as well. So, I can say this is"
+  },
+  {
+    "start": 2469.24,
+    "duration": 2.88,
+    "text": "let's say my A."
+  },
+  {
+    "start": 2474.0,
+    "duration": 4.8,
+    "text": "Just renaming it to B."
+  },
+  {
+    "start": 2477.16,
+    "duration": 4.68,
+    "text": "Okay. So, here I'm saying basically if"
+  },
+  {
+    "start": 2478.8,
+    "duration": 3.8,
+    "text": "you want to say next is equal to B plus"
+  },
+  {
+    "start": 2481.84,
+    "duration": 2.84,
+    "text": "A."
+  },
+  {
+    "start": 2482.6,
+    "duration": 5.68,
+    "text": "Okay? So, the third Fibonacci number, it"
+  },
+  {
+    "start": 2484.68,
+    "duration": 5.28,
+    "text": "will be 1 plus 0. And then I'm just"
+  },
+  {
+    "start": 2488.28,
+    "duration": 4.0,
+    "text": "updating the values."
+  },
+  {
+    "start": 2489.96,
+    "duration": 4.2,
+    "text": "The A is going to become B. That is true"
+  },
+  {
+    "start": 2492.28,
+    "duration": 4.28,
+    "text": "because temp actually stores the value"
+  },
+  {
+    "start": 2494.16,
+    "duration": 4.56,
+    "text": "of B. Why have I taken temp? Because if"
+  },
+  {
+    "start": 2496.56,
+    "duration": 3.96,
+    "text": "I do A is equal to B over here, this"
+  },
+  {
+    "start": 2498.72,
+    "duration": 3.56,
+    "text": "will not be the value of B that it had"
+  },
+  {
+    "start": 2500.52,
+    "duration": 3.32,
+    "text": "previously. This will be the one that is"
+  },
+  {
+    "start": 2502.28,
+    "duration": 3.24,
+    "text": "now updated."
+  },
+  {
+    "start": 2503.84,
+    "duration": 2.92,
+    "text": "That is why I'm taking a previous value"
+  },
+  {
+    "start": 2505.52,
+    "duration": 3.84,
+    "text": "over here."
+  },
+  {
+    "start": 2506.76,
+    "duration": 4.8,
+    "text": "Okay? Try to run this on the paper. You"
+  },
+  {
+    "start": 2509.36,
+    "duration": 4.4,
+    "text": "will be It is exactly the same thing as"
+  },
+  {
+    "start": 2511.56,
+    "duration": 4.12,
+    "text": "we were doing in the previous example."
+  },
+  {
+    "start": 2513.76,
+    "duration": 3.12,
+    "text": "And I literally ran it like line by"
+  },
+  {
+    "start": 2515.68,
+    "duration": 3.52,
+    "text": "line, and that is exactly what it's"
+  },
+  {
+    "start": 2516.88,
+    "duration": 4.68,
+    "text": "doing. So, this is the next number, and"
+  },
+  {
+    "start": 2519.2,
+    "duration": 4.16,
+    "text": "then I'm I'm just updating A and B. A is"
+  },
+  {
+    "start": 2521.56,
+    "duration": 3.76,
+    "text": "being updated to B. That is correct. A"
+  },
+  {
+    "start": 2523.36,
+    "duration": 3.4,
+    "text": "is being updated to B. B is being"
+  },
+  {
+    "start": 2525.32,
+    "duration": 3.64,
+    "text": "updated to whatever next number I have"
+  },
+  {
+    "start": 2526.76,
+    "duration": 4.24,
+    "text": "added. That is true. B is being updated"
+  },
+  {
+    "start": 2528.96,
+    "duration": 4.84,
+    "text": "to whatever next number we have added."
+  },
+  {
+    "start": 2531.0,
+    "duration": 5.04,
+    "text": "In the end, I'll just print B."
+  },
+  {
+    "start": 2533.8,
+    "duration": 5.52,
+    "text": "We were saying seventh Fibonacci number."
+  },
+  {
+    "start": 2536.04,
+    "duration": 4.48,
+    "text": "It should give us in that example we had"
+  },
+  {
+    "start": 2539.32,
+    "duration": 3.6,
+    "text": "what did we have for seventh Fibonacci"
+  },
+  {
+    "start": 2540.52,
+    "duration": 4.04,
+    "text": "number? 13."
+  },
+  {
+    "start": 2542.92,
+    "duration": 3.4,
+    "text": "We are getting 13."
+  },
+  {
+    "start": 2544.56,
+    "duration": 3.16,
+    "text": "Sixth Fibonacci number should give me"
+  },
+  {
+    "start": 2546.32,
+    "duration": 3.0,
+    "text": "eight."
+  },
+  {
+    "start": 2547.72,
+    "duration": 3.64,
+    "text": "We're getting eight."
+  },
+  {
+    "start": 2549.32,
+    "duration": 2.96,
+    "text": "Okay, cool."
+  },
+  {
+    "start": 2551.36,
+    "duration": 3.6,
+    "text": "Hm."
+  },
+  {
+    "start": 2552.28,
+    "duration": 3.4,
+    "text": "That is that is pretty much about it and"
+  },
+  {
+    "start": 2554.96,
+    "duration": 2.12,
+    "text": "uh"
+  },
+  {
+    "start": 2555.68,
+    "duration": 2.6,
+    "text": "we will learn more about like the time"
+  },
+  {
+    "start": 2557.08,
+    "duration": 3.08,
+    "text": "complexity and everything when we"
+  },
+  {
+    "start": 2558.28,
+    "duration": 3.24,
+    "text": "actually do time complexity. We'll also"
+  },
+  {
+    "start": 2560.16,
+    "duration": 3.52,
+    "text": "solve this in many other ways. I'll also"
+  },
+  {
+    "start": 2561.52,
+    "duration": 4.88,
+    "text": "teach you how to find the Fibonacci nth"
+  },
+  {
+    "start": 2563.68,
+    "duration": 4.8,
+    "text": "Fibonacci number without using any loops"
+  },
+  {
+    "start": 2566.4,
+    "duration": 3.04,
+    "text": "in just one single step. I'll be able to"
+  },
+  {
+    "start": 2568.48,
+    "duration": 2.8,
+    "text": "you will be able to find the nth"
+  },
+  {
+    "start": 2569.44,
+    "duration": 3.96,
+    "text": "Fibonacci number. That is going to come"
+  },
+  {
+    "start": 2571.28,
+    "duration": 4.2,
+    "text": "in some bit more advanced topic which is"
+  },
+  {
+    "start": 2573.4,
+    "duration": 4.52,
+    "text": "in during the space and time complexity"
+  },
+  {
+    "start": 2575.48,
+    "duration": 4.32,
+    "text": "analysis. So, stay tuned for that."
+  },
+  {
+    "start": 2577.92,
+    "duration": 3.16,
+    "text": "Let's look at the next question."
+  },
+  {
+    "start": 2579.8,
+    "duration": 3.2,
+    "text": "Now, let's say for the next question we"
+  },
+  {
+    "start": 2581.08,
+    "duration": 4.08,
+    "text": "say something like um"
+  },
+  {
+    "start": 2583.0,
+    "duration": 8.48,
+    "text": "there's a number given to you. Let's say"
+  },
+  {
+    "start": 2585.16,
+    "duration": 8.92,
+    "text": "number n is equal to 1 3 8 5 7 5"
+  },
+  {
+    "start": 2591.48,
+    "duration": 2.6,
+    "text": "um"
+  },
+  {
+    "start": 2595.96,
+    "duration": 4.52,
+    "text": "7 8 7 9. This is a number given to you."
+  },
+  {
+    "start": 2599.68,
+    "duration": 3.44,
+    "text": "Okay?"
+  },
+  {
+    "start": 2600.48,
+    "duration": 4.84,
+    "text": "And you basically need to find how many"
+  },
+  {
+    "start": 2603.12,
+    "duration": 3.72,
+    "text": "times the number seven is occurring in"
+  },
+  {
+    "start": 2605.32,
+    "duration": 4.76,
+    "text": "this number."
+  },
+  {
+    "start": 2606.84,
+    "duration": 3.24,
+    "text": "So, the answer should be three."
+  },
+  {
+    "start": 2610.44,
+    "duration": 3.6,
+    "text": "How do we do this problem?"
+  },
+  {
+    "start": 2612.4,
+    "duration": 3.28,
+    "text": "Pause this video and then figure it out"
+  },
+  {
+    "start": 2614.04,
+    "duration": 2.84,
+    "text": "and then now we'll look into the"
+  },
+  {
+    "start": 2615.68,
+    "duration": 2.64,
+    "text": "solution."
+  },
+  {
+    "start": 2616.88,
+    "duration": 3.2,
+    "text": "Okay."
+  },
+  {
+    "start": 2618.32,
+    "duration": 3.6,
+    "text": "So, basically the idea to do this thing"
+  },
+  {
+    "start": 2620.08,
+    "duration": 3.28,
+    "text": "is whenever you get such questions where"
+  },
+  {
+    "start": 2621.92,
+    "duration": 3.24,
+    "text": "you actually have to deal with"
+  },
+  {
+    "start": 2623.36,
+    "duration": 3.12,
+    "text": "individual digits"
+  },
+  {
+    "start": 2625.16,
+    "duration": 3.28,
+    "text": "you are going to have to check"
+  },
+  {
+    "start": 2626.48,
+    "duration": 3.04,
+    "text": "individual digits for you know obvious"
+  },
+  {
+    "start": 2628.44,
+    "duration": 2.48,
+    "text": "reasons because you are checking"
+  },
+  {
+    "start": 2629.52,
+    "duration": 3.16,
+    "text": "individual digits."
+  },
+  {
+    "start": 2630.92,
+    "duration": 3.28,
+    "text": "Now, how can we get individual digit"
+  },
+  {
+    "start": 2632.68,
+    "duration": 2.8,
+    "text": "digits from this?"
+  },
+  {
+    "start": 2634.2,
+    "duration": 2.84,
+    "text": "There can be many ways. You can convert"
+  },
+  {
+    "start": 2635.48,
+    "duration": 4.52,
+    "text": "this entire data type to a string data"
+  },
+  {
+    "start": 2637.04,
+    "duration": 4.04,
+    "text": "type and then you can iterate upon it."
+  },
+  {
+    "start": 2640.0,
+    "duration": 2.28,
+    "text": "Or you can do something much more"
+  },
+  {
+    "start": 2641.08,
+    "duration": 3.72,
+    "text": "simpler."
+  },
+  {
+    "start": 2642.28,
+    "duration": 4.76,
+    "text": "If you take the remainder"
+  },
+  {
+    "start": 2644.8,
+    "duration": 3.88,
+    "text": "of any number by 10"
+  },
+  {
+    "start": 2647.04,
+    "duration": 4.04,
+    "text": "you are actually going to get the last"
+  },
+  {
+    "start": 2648.68,
+    "duration": 2.4,
+    "text": "value."
+  },
+  {
+    "start": 2652.68,
+    "duration": 4.4,
+    "text": "You're getting the last value. Let's"
+  },
+  {
+    "start": 2654.48,
+    "duration": 6.04,
+    "text": "check it out. If I say"
+  },
+  {
+    "start": 2657.08,
+    "duration": 6.32,
+    "text": "let's say n is equal to 1 3 8 9."
+  },
+  {
+    "start": 2660.52,
+    "duration": 6.48,
+    "text": "And if I divide it by 10, so I can say 1"
+  },
+  {
+    "start": 2663.4,
+    "duration": 5.2,
+    "text": "3 8 9 divided by 10,"
+  },
+  {
+    "start": 2667.0,
+    "duration": 3.24,
+    "text": "so I can say"
+  },
+  {
+    "start": 2668.6,
+    "duration": 3.28,
+    "text": "10 into"
+  },
+  {
+    "start": 2670.24,
+    "duration": 5.92,
+    "text": "138"
+  },
+  {
+    "start": 2671.88,
+    "duration": 8.56,
+    "text": "gives me 1 3 8 0. Remainder is 9."
+  },
+  {
+    "start": 2676.16,
+    "duration": 4.28,
+    "text": "Isn't this same as the last digit?"
+  },
+  {
+    "start": 2680.64,
+    "duration": 3.64,
+    "text": "Hence,"
+  },
+  {
+    "start": 2681.76,
+    "duration": 6.8,
+    "text": "n modulo 10"
+  },
+  {
+    "start": 2684.28,
+    "duration": 4.28,
+    "text": "is going to give you the last digit."
+  },
+  {
+    "start": 2688.84,
+    "duration": 4.92,
+    "text": "Remainder of that number with 10 will"
+  },
+  {
+    "start": 2691.28,
+    "duration": 4.84,
+    "text": "give you the last digit."
+  },
+  {
+    "start": 2693.76,
+    "duration": 4.68,
+    "text": "So here we can do something like if I"
+  },
+  {
+    "start": 2696.12,
+    "duration": 4.76,
+    "text": "try to, you know, take a smaller example"
+  },
+  {
+    "start": 2698.44,
+    "duration": 7.52,
+    "text": "in order to make things clear. So I can"
+  },
+  {
+    "start": 2700.88,
+    "duration": 8.52,
+    "text": "say let's say n is equal to 1 3 8 3 9."
+  },
+  {
+    "start": 2705.96,
+    "duration": 3.44,
+    "text": "Count the number of threes."
+  },
+  {
+    "start": 2712.12,
+    "duration": 3.64,
+    "text": "Okay?"
+  },
+  {
+    "start": 2713.56,
+    "duration": 3.64,
+    "text": "So in this case the answer should be"
+  },
+  {
+    "start": 2715.76,
+    "duration": 4.0,
+    "text": "two."
+  },
+  {
+    "start": 2717.2,
+    "duration": 4.24,
+    "text": "Let's uh try to see this."
+  },
+  {
+    "start": 2719.76,
+    "duration": 3.16,
+    "text": "How this works. So basically I'm going"
+  },
+  {
+    "start": 2721.44,
+    "duration": 3.76,
+    "text": "to say"
+  },
+  {
+    "start": 2722.92,
+    "duration": 5.52,
+    "text": "while, you know,"
+  },
+  {
+    "start": 2725.2,
+    "duration": 3.24,
+    "text": "n is greater than zero,"
+  },
+  {
+    "start": 2728.6,
+    "duration": 4.96,
+    "text": "um I can say,"
+  },
+  {
+    "start": 2731.84,
+    "duration": 4.96,
+    "text": "you know, my remainder"
+  },
+  {
+    "start": 2733.56,
+    "duration": 4.72,
+    "text": "is going to be equal to n divided by 10."
+  },
+  {
+    "start": 2736.8,
+    "duration": 4.28,
+    "text": "Then I'm going to check this is actually"
+  },
+  {
+    "start": 2738.28,
+    "duration": 2.8,
+    "text": "the last digit."
+  },
+  {
+    "start": 2741.8,
+    "duration": 4.16,
+    "text": "Okay, so I'll check is my remainder"
+  },
+  {
+    "start": 2746.48,
+    "duration": 2.92,
+    "text": "equal to"
+  },
+  {
+    "start": 2747.96,
+    "duration": 3.4,
+    "text": "three."
+  },
+  {
+    "start": 2749.4,
+    "duration": 3.8,
+    "text": "If it is, then I'll say"
+  },
+  {
+    "start": 2751.36,
+    "duration": 3.36,
+    "text": "count plus plus."
+  },
+  {
+    "start": 2753.2,
+    "duration": 5.4,
+    "text": "Let's say initially"
+  },
+  {
+    "start": 2754.72,
+    "duration": 3.88,
+    "text": "count is equal to zero."
+  },
+  {
+    "start": 2759.04,
+    "duration": 3.72,
+    "text": "Okay, and in any case, I'm just then"
+  },
+  {
+    "start": 2761.0,
+    "duration": 4.52,
+    "text": "going to reduce this number as well. So,"
+  },
+  {
+    "start": 2762.76,
+    "duration": 5.8,
+    "text": "for example, I have something like n is"
+  },
+  {
+    "start": 2765.52,
+    "duration": 5.84,
+    "text": "equal to 1 3 8 3 9."
+  },
+  {
+    "start": 2768.56,
+    "duration": 5.36,
+    "text": "Remainder will be, let's say, 9."
+  },
+  {
+    "start": 2771.36,
+    "duration": 3.92,
+    "text": "Now, I need to actually remove this 9"
+  },
+  {
+    "start": 2773.92,
+    "duration": 2.88,
+    "text": "from this number as well, right? Because"
+  },
+  {
+    "start": 2775.28,
+    "duration": 4.32,
+    "text": "then I will check for"
+  },
+  {
+    "start": 2776.8,
+    "duration": 5.4,
+    "text": "this thing, 1 3 8 3. How do I do this? I"
+  },
+  {
+    "start": 2779.6,
+    "duration": 4.12,
+    "text": "can just say n is equal to n divide by"
+  },
+  {
+    "start": 2782.2,
+    "duration": 4.68,
+    "text": "10."
+  },
+  {
+    "start": 2783.72,
+    "duration": 5.48,
+    "text": "That is true because if 1 3 8 9"
+  },
+  {
+    "start": 2786.88,
+    "duration": 5.36,
+    "text": "1 3 8 3 9 I divided by 10"
+  },
+  {
+    "start": 2789.2,
+    "duration": 5.04,
+    "text": "it will give me 1 3 8 3."
+  },
+  {
+    "start": 2792.24,
+    "duration": 4.6,
+    "text": "Okay, then for 1 3 8 3 I will check"
+  },
+  {
+    "start": 2794.24,
+    "duration": 5.16,
+    "text": "modulo 10 is uh this So, basically, this"
+  },
+  {
+    "start": 2796.84,
+    "duration": 2.56,
+    "text": "is what I'm doing."
+  },
+  {
+    "start": 2801.52,
+    "duration": 3.68,
+    "text": "Basically,"
+  },
+  {
+    "start": 2802.68,
+    "duration": 4.88,
+    "text": "it will say 1 3 8 3"
+  },
+  {
+    "start": 2805.2,
+    "duration": 5.4,
+    "text": "9. It will say modulo 10 going to give"
+  },
+  {
+    "start": 2807.56,
+    "duration": 4.68,
+    "text": "me 9. And let's take a count over here."
+  },
+  {
+    "start": 2810.6,
+    "duration": 3.08,
+    "text": "So, count initially zero. Is 9 equal to"
+  },
+  {
+    "start": 2812.24,
+    "duration": 3.52,
+    "text": "3? No, it's not."
+  },
+  {
+    "start": 2813.68,
+    "duration": 3.68,
+    "text": "Then, uh I'm just going to not increment"
+  },
+  {
+    "start": 2815.76,
+    "duration": 4.0,
+    "text": "the count variable, and I'm just going"
+  },
+  {
+    "start": 2817.36,
+    "duration": 5.24,
+    "text": "to divide it by 10. So, now if I divide"
+  },
+  {
+    "start": 2819.76,
+    "duration": 5.6,
+    "text": "it by 10, this will be 1 3 8 3 now."
+  },
+  {
+    "start": 2822.6,
+    "duration": 4.68,
+    "text": "Remainder of 10 will give me 3. 3 equal"
+  },
+  {
+    "start": 2825.36,
+    "duration": 5.16,
+    "text": "to 3? Yes, count will be 1. This will be"
+  },
+  {
+    "start": 2827.28,
+    "duration": 5.52,
+    "text": "now reduced to 1 3 8."
+  },
+  {
+    "start": 2830.52,
+    "duration": 3.84,
+    "text": "Remainder is 8. Nope. It will now reduce"
+  },
+  {
+    "start": 2832.8,
+    "duration": 3.84,
+    "text": "to 13."
+  },
+  {
+    "start": 2834.36,
+    "duration": 4.92,
+    "text": "Last digit, remainder 3. Yep, count"
+  },
+  {
+    "start": 2836.64,
+    "duration": 4.96,
+    "text": "increased to 2. This will be 1."
+  },
+  {
+    "start": 2839.28,
+    "duration": 3.68,
+    "text": "Last digit 1 equal to 3? No, it's not."
+  },
+  {
+    "start": 2841.6,
+    "duration": 3.96,
+    "text": "It will then be again reduced to zero"
+  },
+  {
+    "start": 2842.96,
+    "duration": 4.52,
+    "text": "because 1 divide by 10 will give me zero"
+  },
+  {
+    "start": 2845.56,
+    "duration": 3.64,
+    "text": "in the integer. Okay, since we're"
+  },
+  {
+    "start": 2847.48,
+    "duration": 4.0,
+    "text": "storing it in integer, it will be like"
+  },
+  {
+    "start": 2849.2,
+    "duration": 3.72,
+    "text": "it's a 0.1. Points will be canceled out,"
+  },
+  {
+    "start": 2851.48,
+    "duration": 2.68,
+    "text": "only zero will be there."
+  },
+  {
+    "start": 2852.92,
+    "duration": 3.52,
+    "text": "While n is greater than zero is the"
+  },
+  {
+    "start": 2854.16,
+    "duration": 4.48,
+    "text": "condition, hence this will terminate,"
+  },
+  {
+    "start": 2856.44,
+    "duration": 5.32,
+    "text": "and our answer will be available to us."
+  },
+  {
+    "start": 2858.64,
+    "duration": 4.6,
+    "text": "I can say n is equal to n divide by 10."
+  },
+  {
+    "start": 2861.76,
+    "duration": 3.4,
+    "text": "That is it."
+  },
+  {
+    "start": 2863.24,
+    "duration": 3.32,
+    "text": "Let's try to code this solution. So, if"
+  },
+  {
+    "start": 2865.16,
+    "duration": 3.48,
+    "text": "we're trying to code this solution, we"
+  },
+  {
+    "start": 2866.56,
+    "duration": 4.0,
+    "text": "can also do some really optimized things"
+  },
+  {
+    "start": 2868.64,
+    "duration": 3.44,
+    "text": "like, you know, bit masking and shift"
+  },
+  {
+    "start": 2870.56,
+    "duration": 3.72,
+    "text": "operators and everything. We'll do that."
+  },
+  {
+    "start": 2872.08,
+    "duration": 3.6,
+    "text": "We'll do the same questions later on."
+  },
+  {
+    "start": 2874.28,
+    "duration": 4.0,
+    "text": "Count"
+  },
+  {
+    "start": 2875.68,
+    "duration": 2.6,
+    "text": "nums."
+  },
+  {
+    "start": 2879.72,
+    "duration": 2.44,
+    "text": "I'll explain it right man. I'm not"
+  },
+  {
+    "start": 2880.76,
+    "duration": 2.72,
+    "text": "taking a"
+  },
+  {
+    "start": 2882.16,
+    "duration": 2.36,
+    "text": "Let's say I'm not taking an input. I can"
+  },
+  {
+    "start": 2883.48,
+    "duration": 4.12,
+    "text": "just say"
+  },
+  {
+    "start": 2884.52,
+    "duration": 4.72,
+    "text": "4 5 5 3 5 3 6 or whatever."
+  },
+  {
+    "start": 2887.6,
+    "duration": 4.48,
+    "text": "Then I can say"
+  },
+  {
+    "start": 2889.24,
+    "duration": 4.36,
+    "text": "while n is greater than zero"
+  },
+  {
+    "start": 2892.08,
+    "duration": 3.28,
+    "text": "similarly the same thing we did in the"
+  },
+  {
+    "start": 2893.6,
+    "duration": 4.84,
+    "text": "previous, you know"
+  },
+  {
+    "start": 2895.36,
+    "duration": 5.64,
+    "text": "and the drawing part I can say my count"
+  },
+  {
+    "start": 2898.44,
+    "duration": 5.52,
+    "text": "is equal to zero initially. In the end"
+  },
+  {
+    "start": 2901.0,
+    "duration": 4.0,
+    "text": "my answer is going to be equal to what?"
+  },
+  {
+    "start": 2903.96,
+    "duration": 3.2,
+    "text": "count"
+  },
+  {
+    "start": 2905.0,
+    "duration": 4.88,
+    "text": "And here I'm just going to say int"
+  },
+  {
+    "start": 2907.16,
+    "duration": 6.6,
+    "text": "remainder is equal to n modulo 10."
+  },
+  {
+    "start": 2909.88,
+    "duration": 6.36,
+    "text": "If remainder is equal to equal to five"
+  },
+  {
+    "start": 2913.76,
+    "duration": 5.84,
+    "text": "count plus plus"
+  },
+  {
+    "start": 2916.24,
+    "duration": 7.32,
+    "text": "n is equal to n modulo or n divided by"
+  },
+  {
+    "start": 2919.6,
+    "duration": 4.96,
+    "text": "10. We can also write something like"
+  },
+  {
+    "start": 2923.56,
+    "duration": 3.36,
+    "text": "this"
+  },
+  {
+    "start": 2924.56,
+    "duration": 6.8,
+    "text": "to make it shorter."
+  },
+  {
+    "start": 2926.92,
+    "duration": 4.44,
+    "text": "has two fives, so answer should be two."
+  },
+  {
+    "start": 2933.12,
+    "duration": 4.76,
+    "text": "And that is correct."
+  },
+  {
+    "start": 2934.52,
+    "duration": 6.0,
+    "text": "Let's add one more five over here."
+  },
+  {
+    "start": 2937.88,
+    "duration": 5.92,
+    "text": "Answer should be three."
+  },
+  {
+    "start": 2940.52,
+    "duration": 6.16,
+    "text": "Let's add no fives over here."
+  },
+  {
+    "start": 2943.8,
+    "duration": 2.88,
+    "text": "Answer should be zero."
+  },
+  {
+    "start": 2948.2,
+    "duration": 2.16,
+    "text": "zero"
+  },
+  {
+    "start": 2949.52,
+    "duration": 2.44,
+    "text": "Okay."
+  },
+  {
+    "start": 2950.36,
+    "duration": 3.6,
+    "text": "So very simple solution and now let's"
+  },
+  {
+    "start": 2951.96,
+    "duration": 3.44,
+    "text": "look into the next problem. Now let's"
+  },
+  {
+    "start": 2953.96,
+    "duration": 3.76,
+    "text": "try to do another important question."
+  },
+  {
+    "start": 2955.4,
+    "duration": 4.96,
+    "text": "Let's say you are given a number that is"
+  },
+  {
+    "start": 2957.72,
+    "duration": 5.8,
+    "text": "let's say question that uh number is"
+  },
+  {
+    "start": 2960.36,
+    "duration": 5.16,
+    "text": "given to you that says the number is 2 3"
+  },
+  {
+    "start": 2963.52,
+    "duration": 3.24,
+    "text": "5 9"
+  },
+  {
+    "start": 2965.52,
+    "duration": 3.0,
+    "text": "7."
+  },
+  {
+    "start": 2966.76,
+    "duration": 5.96,
+    "text": "The answer should be the reverse of this"
+  },
+  {
+    "start": 2968.52,
+    "duration": 6.24,
+    "text": "number. The answer should be 7 9 5 3 2."
+  },
+  {
+    "start": 2972.72,
+    "duration": 3.4,
+    "text": "Pause this video, think about it and"
+  },
+  {
+    "start": 2974.76,
+    "duration": 3.76,
+    "text": "it's going to use the same remainder"
+  },
+  {
+    "start": 2976.12,
+    "duration": 4.28,
+    "text": "approach and then watch the rest of the"
+  },
+  {
+    "start": 2978.52,
+    "duration": 4.0,
+    "text": "video to get the answer."
+  },
+  {
+    "start": 2980.4,
+    "duration": 3.76,
+    "text": "Okay. I hope you tried it out and let's"
+  },
+  {
+    "start": 2982.52,
+    "duration": 3.56,
+    "text": "see how we're going to do this. So"
+  },
+  {
+    "start": 2984.16,
+    "duration": 3.16,
+    "text": "basically the idea is same, the same"
+  },
+  {
+    "start": 2986.08,
+    "duration": 2.92,
+    "text": "while loop that we used before we're"
+  },
+  {
+    "start": 2987.32,
+    "duration": 3.76,
+    "text": "going to use the same thing. So"
+  },
+  {
+    "start": 2989.0,
+    "duration": 3.88,
+    "text": "basically I'm going to say that my"
+  },
+  {
+    "start": 2991.08,
+    "duration": 3.72,
+    "text": "result initially"
+  },
+  {
+    "start": 2992.88,
+    "duration": 3.16,
+    "text": "is equal to zero. Before I write the"
+  },
+  {
+    "start": 2994.8,
+    "duration": 2.16,
+    "text": "code, let me show you how it's going to"
+  },
+  {
+    "start": 2996.04,
+    "duration": 2.2,
+    "text": "work."
+  },
+  {
+    "start": 2996.96,
+    "duration": 3.36,
+    "text": "So, basically the idea is I'm going to"
+  },
+  {
+    "start": 2998.24,
+    "duration": 3.2,
+    "text": "take the remainder every time while the"
+  },
+  {
+    "start": 3000.32,
+    "duration": 3.08,
+    "text": "number is greater than zero. I'm going"
+  },
+  {
+    "start": 3001.44,
+    "duration": 3.88,
+    "text": "to take the remainder. I'm going to add"
+  },
+  {
+    "start": 3003.4,
+    "duration": 5.6,
+    "text": "it in my answer. So, initially let's say"
+  },
+  {
+    "start": 3005.32,
+    "duration": 6.64,
+    "text": "the answer is zero. Okay, and my number"
+  },
+  {
+    "start": 3009.0,
+    "duration": 4.2,
+    "text": "like the entire thing is over here 2 3 5"
+  },
+  {
+    "start": 3011.96,
+    "duration": 2.48,
+    "text": "7 9."
+  },
+  {
+    "start": 3013.2,
+    "duration": 3.32,
+    "text": "When I take the remainder for the very"
+  },
+  {
+    "start": 3014.44,
+    "duration": 3.92,
+    "text": "first time, my remainder will be seven."
+  },
+  {
+    "start": 3016.52,
+    "duration": 4.36,
+    "text": "I'll add it to my answer. Answer will"
+  },
+  {
+    "start": 3018.36,
+    "duration": 3.92,
+    "text": "become seven."
+  },
+  {
+    "start": 3020.88,
+    "duration": 3.36,
+    "text": "Okay, then I'll take the remainder"
+  },
+  {
+    "start": 3022.28,
+    "duration": 3.48,
+    "text": "again. It will be now be nine."
+  },
+  {
+    "start": 3024.24,
+    "duration": 3.4,
+    "text": "Before adding this is the same thing we"
+  },
+  {
+    "start": 3025.76,
+    "duration": 4.28,
+    "text": "were doing previously. Only one extra"
+  },
+  {
+    "start": 3027.64,
+    "duration": 5.84,
+    "text": "step is needed. When you are adding this"
+  },
+  {
+    "start": 3030.04,
+    "duration": 5.0,
+    "text": "number in your answer, make sure you do"
+  },
+  {
+    "start": 3033.48,
+    "duration": 3.6,
+    "text": "you have to basically"
+  },
+  {
+    "start": 3035.04,
+    "duration": 4.32,
+    "text": "add the number in your answer"
+  },
+  {
+    "start": 3037.08,
+    "duration": 4.0,
+    "text": "so that it you it should be like 79 over"
+  },
+  {
+    "start": 3039.36,
+    "duration": 3.36,
+    "text": "here, right? So, basically you need to"
+  },
+  {
+    "start": 3041.08,
+    "duration": 3.08,
+    "text": "shift this seven towards the right. So,"
+  },
+  {
+    "start": 3042.72,
+    "duration": 4.4,
+    "text": "towards the left."
+  },
+  {
+    "start": 3044.16,
+    "duration": 5.84,
+    "text": "So, what you need to do is"
+  },
+  {
+    "start": 3047.12,
+    "duration": 4.0,
+    "text": "you have let's say seven over here."
+  },
+  {
+    "start": 3050.0,
+    "duration": 2.88,
+    "text": "Okay."
+  },
+  {
+    "start": 3051.12,
+    "duration": 3.52,
+    "text": "And you have nine over here that needs"
+  },
+  {
+    "start": 3052.88,
+    "duration": 3.52,
+    "text": "to come over here now. How do we make"
+  },
+  {
+    "start": 3054.64,
+    "duration": 4.0,
+    "text": "sure nine comes over here?"
+  },
+  {
+    "start": 3056.4,
+    "duration": 5.96,
+    "text": "We can just basically can we not do if I"
+  },
+  {
+    "start": 3058.64,
+    "duration": 5.52,
+    "text": "do something like 7 into 10 plus nine?"
+  },
+  {
+    "start": 3062.36,
+    "duration": 4.48,
+    "text": "What is this going to give me?"
+  },
+  {
+    "start": 3064.16,
+    "duration": 4.2,
+    "text": "70 plus nine 79."
+  },
+  {
+    "start": 3066.84,
+    "duration": 2.44,
+    "text": "Let's say I take another number five"
+  },
+  {
+    "start": 3068.36,
+    "duration": 4.12,
+    "text": "now."
+  },
+  {
+    "start": 3069.28,
+    "duration": 5.44,
+    "text": "If I do again, now it's 79. So, 79 into"
+  },
+  {
+    "start": 3072.48,
+    "duration": 5.56,
+    "text": "10 plus five."
+  },
+  {
+    "start": 3074.72,
+    "duration": 4.4,
+    "text": "Which is 795."
+  },
+  {
+    "start": 3078.04,
+    "duration": 2.12,
+    "text": "Make sense?"
+  },
+  {
+    "start": 3079.12,
+    "duration": 5.88,
+    "text": "Then three."
+  },
+  {
+    "start": 3080.16,
+    "duration": 6.88,
+    "text": "So, 795 into 10 plus three, which is"
+  },
+  {
+    "start": 3085.0,
+    "duration": 4.56,
+    "text": "7953."
+  },
+  {
+    "start": 3087.04,
+    "duration": 8.16,
+    "text": "Then again, last remainder two."
+  },
+  {
+    "start": 3089.56,
+    "duration": 8.16,
+    "text": "7953 into 10 plus two, which is 79532."
+  },
+  {
+    "start": 3095.2,
+    "duration": 5.52,
+    "text": "Last remainder then now be zero."
+  },
+  {
+    "start": 3097.72,
+    "duration": 3.0,
+    "text": "Isn't this my answer?"
+  },
+  {
+    "start": 3101.28,
+    "duration": 4.44,
+    "text": "Okay, very simple solution. Same"
+  },
+  {
+    "start": 3103.2,
+    "duration": 4.28,
+    "text": "remainder, same dividing. Only thing, we"
+  },
+  {
+    "start": 3105.72,
+    "duration": 4.16,
+    "text": "are just going to multiply the answer by"
+  },
+  {
+    "start": 3107.48,
+    "duration": 4.52,
+    "text": "10 and add the remainder in order to get"
+  },
+  {
+    "start": 3109.88,
+    "duration": 3.96,
+    "text": "the answer at that particular point."
+  },
+  {
+    "start": 3112.0,
+    "duration": 3.2,
+    "text": "When the loop finishes, this will be my"
+  },
+  {
+    "start": 3113.84,
+    "duration": 3.4,
+    "text": "entire answer."
+  },
+  {
+    "start": 3115.2,
+    "duration": 5.12,
+    "text": "Let's try to code this program. Okay, so"
+  },
+  {
+    "start": 3117.24,
+    "duration": 5.4,
+    "text": "let me create another file. I can say"
+  },
+  {
+    "start": 3120.32,
+    "duration": 4.0,
+    "text": "reverse"
+  },
+  {
+    "start": 3122.64,
+    "duration": 4.6,
+    "text": "static void main"
+  },
+  {
+    "start": 3124.32,
+    "duration": 5.28,
+    "text": "int number is equal to something like"
+  },
+  {
+    "start": 3127.24,
+    "duration": 4.4,
+    "text": "this random number. Then I'm going to"
+  },
+  {
+    "start": 3129.6,
+    "duration": 3.92,
+    "text": "say what? int answer is equal to"
+  },
+  {
+    "start": 3131.64,
+    "duration": 4.12,
+    "text": "initially zero. In the end, I'm just"
+  },
+  {
+    "start": 3133.52,
+    "duration": 4.44,
+    "text": "going to print the answer. And same"
+  },
+  {
+    "start": 3135.76,
+    "duration": 4.76,
+    "text": "thing that we did previously, while"
+  },
+  {
+    "start": 3137.96,
+    "duration": 6.32,
+    "text": "number is greater than zero int"
+  },
+  {
+    "start": 3140.52,
+    "duration": 8.44,
+    "text": "remainder is going to be n modulo 10 and"
+  },
+  {
+    "start": 3144.28,
+    "duration": 4.68,
+    "text": "divide by 10 equal not n, sorry, num"
+  },
+  {
+    "start": 3149.24,
+    "duration": 4.36,
+    "text": "num modulo 10. Num is dividing by num is"
+  },
+  {
+    "start": 3151.68,
+    "duration": 3.96,
+    "text": "then getting divided by 10 for the same"
+  },
+  {
+    "start": 3153.6,
+    "duration": 3.76,
+    "text": "reasons in the previous example. And I'm"
+  },
+  {
+    "start": 3155.64,
+    "duration": 3.8,
+    "text": "just going to add it in my answer. So,"
+  },
+  {
+    "start": 3157.36,
+    "duration": 4.2,
+    "text": "answer is equal to answer into 10 plus"
+  },
+  {
+    "start": 3159.44,
+    "duration": 6.24,
+    "text": "remainder. That is it."
+  },
+  {
+    "start": 3161.56,
+    "duration": 5.48,
+    "text": "So simple. So simple. 97482"
+  },
+  {
+    "start": 3165.68,
+    "duration": 4.12,
+    "text": "should be answer."
+  },
+  {
+    "start": 3167.04,
+    "duration": 4.4,
+    "text": "97482"
+  },
+  {
+    "start": 3169.8,
+    "duration": 5.72,
+    "text": "How simple is this?"
+  },
+  {
+    "start": 3171.44,
+    "duration": 7.04,
+    "text": "1 2 3 4 5 6 should give me 6"
+  },
+  {
+    "start": 3175.52,
+    "duration": 5.96,
+    "text": "654321"
+  },
+  {
+    "start": 3178.48,
+    "duration": 3.0,
+    "text": "654312"
+  },
+  {
+    "start": 3181.72,
+    "duration": 3.8,
+    "text": "3121"
+  },
+  {
+    "start": 3183.56,
+    "duration": 2.84,
+    "text": "Very simple stuff."
+  },
+  {
+    "start": 3185.52,
+    "duration": 2.68,
+    "text": "Okay?"
+  },
+  {
+    "start": 3186.4,
+    "duration": 3.04,
+    "text": "Cool. Let's look at the last question"
+  },
+  {
+    "start": 3188.2,
+    "duration": 2.68,
+    "text": "which is going to combine all these"
+  },
+  {
+    "start": 3189.44,
+    "duration": 3.64,
+    "text": "things together which is known as"
+  },
+  {
+    "start": 3190.88,
+    "duration": 4.2,
+    "text": "building a calculator app. Not an app,"
+  },
+  {
+    "start": 3193.08,
+    "duration": 3.96,
+    "text": "but a program. Calculator program. So,"
+  },
+  {
+    "start": 3195.08,
+    "duration": 4.72,
+    "text": "let's try to make a calculator program."
+  },
+  {
+    "start": 3197.04,
+    "duration": 5.44,
+    "text": "So, I can say calculator"
+  },
+  {
+    "start": 3199.8,
+    "duration": 5.72,
+    "text": "and then I'll make static void main."
+  },
+  {
+    "start": 3202.48,
+    "duration": 5.12,
+    "text": "Scanner in is equal to new scanner"
+  },
+  {
+    "start": 3205.52,
+    "duration": 3.0,
+    "text": "system.in. If you're just watching this"
+  },
+  {
+    "start": 3207.6,
+    "duration": 2.44,
+    "text": "video, make sure you check out the"
+  },
+  {
+    "start": 3208.52,
+    "duration": 2.8,
+    "text": "playlist. All these things have been"
+  },
+  {
+    "start": 3210.04,
+    "duration": 2.28,
+    "text": "covered over there. What is scanner and"
+  },
+  {
+    "start": 3211.32,
+    "duration": 3.64,
+    "text": "everything."
+  },
+  {
+    "start": 3212.32,
+    "duration": 7.44,
+    "text": "Okay. So, the idea is that we're going"
+  },
+  {
+    "start": 3214.96,
+    "duration": 6.72,
+    "text": "to take input from user till user does"
+  },
+  {
+    "start": 3219.76,
+    "duration": 4.2,
+    "text": "not press"
+  },
+  {
+    "start": 3221.68,
+    "duration": 4.16,
+    "text": "X or X."
+  },
+  {
+    "start": 3223.96,
+    "duration": 4.36,
+    "text": "Okay? Till that time, we are going to"
+  },
+  {
+    "start": 3225.84,
+    "duration": 3.52,
+    "text": "keep taking like input from the user."
+  },
+  {
+    "start": 3228.32,
+    "duration": 3.48,
+    "text": "First, we are going to take the"
+  },
+  {
+    "start": 3229.36,
+    "duration": 6.08,
+    "text": "operation from the user and like plus,"
+  },
+  {
+    "start": 3231.8,
+    "duration": 6.16,
+    "text": "minus, into, or divide. And"
+  },
+  {
+    "start": 3235.44,
+    "duration": 4.64,
+    "text": "whenever the user inputs X, the program"
+  },
+  {
+    "start": 3237.96,
+    "duration": 3.84,
+    "text": "will stop. So, basically, I can create"
+  },
+  {
+    "start": 3240.08,
+    "duration": 3.4,
+    "text": "an infinite while loop over here that"
+  },
+  {
+    "start": 3241.8,
+    "duration": 3.16,
+    "text": "while true"
+  },
+  {
+    "start": 3243.48,
+    "duration": 2.48,
+    "text": "Okay, while true"
+  },
+  {
+    "start": 3244.96,
+    "duration": 2.84,
+    "text": "char"
+  },
+  {
+    "start": 3245.96,
+    "duration": 3.84,
+    "text": "ch, take the take the character input,"
+  },
+  {
+    "start": 3247.8,
+    "duration": 4.44,
+    "text": "take the"
+  },
+  {
+    "start": 3249.8,
+    "duration": 5.4,
+    "text": "op operator as input. So, I'm just going"
+  },
+  {
+    "start": 3252.24,
+    "duration": 5.64,
+    "text": "to say char ch is equal to what?"
+  },
+  {
+    "start": 3255.2,
+    "duration": 5.8,
+    "text": "Uh or my operation, my operation"
+  },
+  {
+    "start": 3257.88,
+    "duration": 4.88,
+    "text": "uh operator is equal to what?"
+  },
+  {
+    "start": 3261.0,
+    "duration": 4.12,
+    "text": "in.next"
+  },
+  {
+    "start": 3262.76,
+    "duration": 4.68,
+    "text": "No, no, no, no, next. dot"
+  },
+  {
+    "start": 3265.12,
+    "duration": 2.32,
+    "text": "trim"
+  },
+  {
+    "start": 3268.08,
+    "duration": 3.76,
+    "text": "dot char at zero."
+  },
+  {
+    "start": 3270.72,
+    "duration": 2.16,
+    "text": "Now, basically, I'm just going to make a"
+  },
+  {
+    "start": 3271.84,
+    "duration": 4.44,
+    "text": "check."
+  },
+  {
+    "start": 3272.88,
+    "duration": 6.76,
+    "text": "I'm basically going to check that if"
+  },
+  {
+    "start": 3276.28,
+    "duration": 5.08,
+    "text": "my operator is equal to equal to, you"
+  },
+  {
+    "start": 3279.64,
+    "duration": 2.76,
+    "text": "know, plus"
+  },
+  {
+    "start": 3281.36,
+    "duration": 5.4,
+    "text": "or"
+  },
+  {
+    "start": 3282.4,
+    "duration": 7.4,
+    "text": "my operator is equal to equal to minus"
+  },
+  {
+    "start": 3286.76,
+    "duration": 5.52,
+    "text": "or my operator is equal to equal to"
+  },
+  {
+    "start": 3289.8,
+    "duration": 4.96,
+    "text": "multiply"
+  },
+  {
+    "start": 3292.28,
+    "duration": 3.68,
+    "text": "or my operator is equal to equal to"
+  },
+  {
+    "start": 3294.76,
+    "duration": 3.04,
+    "text": "divide."
+  },
+  {
+    "start": 3295.96,
+    "duration": 3.84,
+    "text": "Because if you add something as an op uh"
+  },
+  {
+    "start": 3297.8,
+    "duration": 4.04,
+    "text": "if you add this as a character Oh, this"
+  },
+  {
+    "start": 3299.8,
+    "duration": 4.8,
+    "text": "can also be a uh you know, remainder"
+  },
+  {
+    "start": 3301.84,
+    "duration": 4.52,
+    "text": "thing. So, I can say or if my operator"
+  },
+  {
+    "start": 3304.6,
+    "duration": 2.76,
+    "text": "is equal to equal to"
+  },
+  {
+    "start": 3306.36,
+    "duration": 2.24,
+    "text": "modulo."
+  },
+  {
+    "start": 3307.36,
+    "duration": 3.16,
+    "text": "You can also, you know, get away with"
+  },
+  {
+    "start": 3308.6,
+    "duration": 3.0,
+    "text": "it. But if you add something like and"
+  },
+  {
+    "start": 3310.52,
+    "duration": 2.44,
+    "text": "that should not give you any answer,"
+  },
+  {
+    "start": 3311.6,
+    "duration": 2.64,
+    "text": "right? We're not using bitwise"
+  },
+  {
+    "start": 3312.96,
+    "duration": 3.52,
+    "text": "operators. And if you add something like"
+  },
+  {
+    "start": 3314.24,
+    "duration": 4.12,
+    "text": "dollar Okay? So, what what is that"
+  },
+  {
+    "start": 3316.48,
+    "duration": 4.04,
+    "text": "dollar? Dollar is nothing."
+  },
+  {
+    "start": 3318.36,
+    "duration": 5.04,
+    "text": "So, that is why we are taking only these"
+  },
+  {
+    "start": 3320.52,
+    "duration": 3.8,
+    "text": "five basic operators."
+  },
+  {
+    "start": 3323.4,
+    "duration": 1.88,
+    "text": "Okay?"
+  },
+  {
+    "start": 3324.32,
+    "duration": 4.32,
+    "text": "Now, what we're going to do is we're"
+  },
+  {
+    "start": 3325.28,
+    "duration": 3.36,
+    "text": "going to input two numbers."
+  },
+  {
+    "start": 3328.88,
+    "duration": 5.4,
+    "text": "Okay? So, we're going to say int"
+  },
+  {
+    "start": 3331.76,
+    "duration": 3.84,
+    "text": "num1 is equal to"
+  },
+  {
+    "start": 3334.28,
+    "duration": 2.68,
+    "text": "in."
+  },
+  {
+    "start": 3335.6,
+    "duration": 4.4,
+    "text": "next int."
+  },
+  {
+    "start": 3336.96,
+    "duration": 5.6,
+    "text": "in number two is equal to in. Next"
+  },
+  {
+    "start": 3340.0,
+    "duration": 4.76,
+    "text": "Next int."
+  },
+  {
+    "start": 3342.56,
+    "duration": 3.64,
+    "text": "Taking two numbers now. Now I basically"
+  },
+  {
+    "start": 3344.76,
+    "duration": 5.0,
+    "text": "need to make a check."
+  },
+  {
+    "start": 3346.2,
+    "duration": 6.32,
+    "text": "So basically I can say that if operator"
+  },
+  {
+    "start": 3349.76,
+    "duration": 5.04,
+    "text": "is equal to equal to"
+  },
+  {
+    "start": 3352.52,
+    "duration": 3.4,
+    "text": "addition then in that case I can just"
+  },
+  {
+    "start": 3354.8,
+    "duration": 3.6,
+    "text": "say"
+  },
+  {
+    "start": 3355.92,
+    "duration": 2.48,
+    "text": "print"
+  },
+  {
+    "start": 3360.08,
+    "duration": 4.92,
+    "text": "or not print. I can just say I take my"
+  },
+  {
+    "start": 3362.28,
+    "duration": 5.64,
+    "text": "result over here somewhere. I can say my"
+  },
+  {
+    "start": 3365.0,
+    "duration": 2.92,
+    "text": "int answer"
+  },
+  {
+    "start": 3369.2,
+    "duration": 3.8,
+    "text": "is equal to zero. And in the end I can"
+  },
+  {
+    "start": 3371.92,
+    "duration": 4.24,
+    "text": "just say"
+  },
+  {
+    "start": 3373.0,
+    "duration": 3.16,
+    "text": "print answer."
+  },
+  {
+    "start": 3390.36,
+    "duration": 4.08,
+    "text": "Ah, makes sense because uh I haven't"
+  },
+  {
+    "start": 3392.92,
+    "duration": 2.88,
+    "text": "added like uh"
+  },
+  {
+    "start": 3394.44,
+    "duration": 2.8,
+    "text": "the condition to break this while loop"
+  },
+  {
+    "start": 3395.8,
+    "duration": 3.4,
+    "text": "right now. We'll do that. Cuz it's an"
+  },
+  {
+    "start": 3397.24,
+    "duration": 3.92,
+    "text": "infinite while loop and we have to make"
+  },
+  {
+    "start": 3399.2,
+    "duration": 3.88,
+    "text": "a condition to break it which is uh"
+  },
+  {
+    "start": 3401.16,
+    "duration": 3.36,
+    "text": "whenever the user inputs X because"
+  },
+  {
+    "start": 3403.08,
+    "duration": 2.48,
+    "text": "currently that there's no condition for"
+  },
+  {
+    "start": 3404.52,
+    "duration": 2.68,
+    "text": "that and it will keep on running"
+  },
+  {
+    "start": 3405.56,
+    "duration": 3.24,
+    "text": "infinitely. Hence we need to put a"
+  },
+  {
+    "start": 3407.2,
+    "duration": 3.52,
+    "text": "condition for that as well."
+  },
+  {
+    "start": 3408.8,
+    "duration": 3.52,
+    "text": "Anyway, in this case I can say answer is"
+  },
+  {
+    "start": 3410.72,
+    "duration": 2.48,
+    "text": "equal to"
+  },
+  {
+    "start": 3412.32,
+    "duration": 2.52,
+    "text": "um"
+  },
+  {
+    "start": 3413.2,
+    "duration": 4.52,
+    "text": "what?"
+  },
+  {
+    "start": 3414.84,
+    "duration": 2.88,
+    "text": "num one plus num two"
+  },
+  {
+    "start": 3419.24,
+    "duration": 2.72,
+    "text": "That is it."
+  },
+  {
+    "start": 3420.28,
+    "duration": 3.48,
+    "text": "Then I can say"
+  },
+  {
+    "start": 3421.96,
+    "duration": 3.8,
+    "text": "Just copy paste this."
+  },
+  {
+    "start": 3423.76,
+    "duration": 4.24,
+    "text": "If your operator is equal to equal to"
+  },
+  {
+    "start": 3425.76,
+    "duration": 3.32,
+    "text": "minus, answer is equal to num one minus"
+  },
+  {
+    "start": 3428.0,
+    "duration": 3.96,
+    "text": "num two."
+  },
+  {
+    "start": 3429.08,
+    "duration": 5.52,
+    "text": "If operator is equal to equal to"
+  },
+  {
+    "start": 3431.96,
+    "duration": 4.92,
+    "text": "you know, multiplied, I can say answer"
+  },
+  {
+    "start": 3434.6,
+    "duration": 5.0,
+    "text": "is equal to num one into num two."
+  },
+  {
+    "start": 3436.88,
+    "duration": 4.96,
+    "text": "If operator is equal to equal to divide"
+  },
+  {
+    "start": 3439.6,
+    "duration": 4.96,
+    "text": "I need to basically here make a check."
+  },
+  {
+    "start": 3441.84,
+    "duration": 4.4,
+    "text": "Okay? I need to make a check that uh you"
+  },
+  {
+    "start": 3444.56,
+    "duration": 3.56,
+    "text": "know, if"
+  },
+  {
+    "start": 3446.24,
+    "duration": 4.04,
+    "text": "number two"
+  },
+  {
+    "start": 3448.12,
+    "duration": 4.84,
+    "text": "is not equal to zero because you cannot"
+  },
+  {
+    "start": 3450.28,
+    "duration": 5.08,
+    "text": "divide by zero."
+  },
+  {
+    "start": 3452.96,
+    "duration": 6.96,
+    "text": "Then I can say something like answer is"
+  },
+  {
+    "start": 3455.36,
+    "duration": 4.56,
+    "text": "equal to num1 divide by num2."
+  },
+  {
+    "start": 3460.24,
+    "duration": 5.36,
+    "text": "Okay?"
+  },
+  {
+    "start": 3461.6,
+    "duration": 4.0,
+    "text": "And only thing remaining now is"
+  },
+  {
+    "start": 3468.24,
+    "duration": 4.4,
+    "text": "something like modulo."
+  },
+  {
+    "start": 3471.04,
+    "duration": 4.2,
+    "text": "See, I can just add"
+  },
+  {
+    "start": 3472.64,
+    "duration": 4.12,
+    "text": "answer is equal to num1"
+  },
+  {
+    "start": 3475.24,
+    "duration": 3.4,
+    "text": "modulo"
+  },
+  {
+    "start": 3476.76,
+    "duration": 4.48,
+    "text": "num2."
+  },
+  {
+    "start": 3478.64,
+    "duration": 4.88,
+    "text": "Okay? Now, the last thing is that"
+  },
+  {
+    "start": 3481.24,
+    "duration": 5.76,
+    "text": "if this is not the case, okay? These are"
+  },
+  {
+    "start": 3483.52,
+    "duration": 5.0,
+    "text": "not the operators, then"
+  },
+  {
+    "start": 3487.0,
+    "duration": 4.2,
+    "text": "basically it means that you input"
+  },
+  {
+    "start": 3488.52,
+    "duration": 5.24,
+    "text": "something like X. So, in that case you"
+  },
+  {
+    "start": 3491.2,
+    "duration": 4.92,
+    "text": "can say something like"
+  },
+  {
+    "start": 3493.76,
+    "duration": 2.36,
+    "text": "you know."
+  },
+  {
+    "start": 3496.88,
+    "duration": 4.28,
+    "text": "Here I can add since going to take a"
+  },
+  {
+    "start": 3498.48,
+    "duration": 4.24,
+    "text": "character input. If it is not in this,"
+  },
+  {
+    "start": 3501.16,
+    "duration": 2.72,
+    "text": "it basically means it's either an X or"
+  },
+  {
+    "start": 3502.72,
+    "duration": 2.76,
+    "text": "something else."
+  },
+  {
+    "start": 3503.88,
+    "duration": 2.8,
+    "text": "So, I can say else"
+  },
+  {
+    "start": 3505.48,
+    "duration": 3.52,
+    "text": "if"
+  },
+  {
+    "start": 3506.68,
+    "duration": 5.28,
+    "text": "operator is equal to X"
+  },
+  {
+    "start": 3509.0,
+    "duration": 4.48,
+    "text": "or operator is equal to"
+  },
+  {
+    "start": 3511.96,
+    "duration": 3.56,
+    "text": "capital X,"
+  },
+  {
+    "start": 3513.48,
+    "duration": 4.28,
+    "text": "break the while loop."
+  },
+  {
+    "start": 3515.52,
+    "duration": 4.32,
+    "text": "Otherwise, it's let's say not a"
+  },
+  {
+    "start": 3517.76,
+    "duration": 4.52,
+    "text": "particular operator or not a you know,"
+  },
+  {
+    "start": 3519.84,
+    "duration": 5.32,
+    "text": "either X or capital X, in that case you"
+  },
+  {
+    "start": 3522.28,
+    "duration": 2.88,
+    "text": "can just print"
+  },
+  {
+    "start": 3525.24,
+    "duration": 4.8,
+    "text": "invalid"
+  },
+  {
+    "start": 3527.04,
+    "duration": 3.0,
+    "text": "operation."
+  },
+  {
+    "start": 3532.64,
+    "duration": 3.68,
+    "text": "Something like that."
+  },
+  {
+    "start": 3534.12,
+    "duration": 5.64,
+    "text": "Let's try it out. Let me"
+  },
+  {
+    "start": 3536.32,
+    "duration": 5.48,
+    "text": "add some Let's add some like uh"
+  },
+  {
+    "start": 3539.76,
+    "duration": 3.44,
+    "text": "commands or like the the messages as"
+  },
+  {
+    "start": 3541.8,
+    "duration": 3.92,
+    "text": "over here here as well."
+  },
+  {
+    "start": 3543.2,
+    "duration": 5.48,
+    "text": "You can say enter the"
+  },
+  {
+    "start": 3545.72,
+    "duration": 2.96,
+    "text": "operator."
+  },
+  {
+    "start": 3550.76,
+    "duration": 4.92,
+    "text": "New line."
+  },
+  {
+    "start": 3552.52,
+    "duration": 5.76,
+    "text": "Let's say enter two numbers."
+  },
+  {
+    "start": 3555.68,
+    "duration": 3.84,
+    "text": "It's out."
+  },
+  {
+    "start": 3558.28,
+    "duration": 4.92,
+    "text": "Enter"
+  },
+  {
+    "start": 3559.52,
+    "duration": 3.68,
+    "text": "two numbers."
+  },
+  {
+    "start": 3565.48,
+    "duration": 4.84,
+    "text": "Okay?"
+  },
+  {
+    "start": 3566.68,
+    "duration": 6.8,
+    "text": "New line over here."
+  },
+  {
+    "start": 3570.32,
+    "duration": 3.16,
+    "text": "Let's try to run this."
+  },
+  {
+    "start": 3575.96,
+    "duration": 4.48,
+    "text": "Enter an operator, let's say plus."
+  },
+  {
+    "start": 3578.6,
+    "duration": 4.48,
+    "text": "Enter two numbers."
+  },
+  {
+    "start": 3580.44,
+    "duration": 2.64,
+    "text": "Three and four."
+  },
+  {
+    "start": 3583.4,
+    "duration": 3.56,
+    "text": "Mhm."
+  },
+  {
+    "start": 3585.56,
+    "duration": 3.4,
+    "text": "Should actually display the answer as"
+  },
+  {
+    "start": 3586.96,
+    "duration": 3.48,
+    "text": "well at every point."
+  },
+  {
+    "start": 3588.96,
+    "duration": 3.4,
+    "text": "Mhm."
+  },
+  {
+    "start": 3590.44,
+    "duration": 3.72,
+    "text": "Okay. So, basically I can display the"
+  },
+  {
+    "start": 3592.36,
+    "duration": 3.68,
+    "text": "answer. I forgot to display and this"
+  },
+  {
+    "start": 3594.16,
+    "duration": 3.0,
+    "text": "will not Yeah, this So, yeah, yeah,"
+  },
+  {
+    "start": 3596.04,
+    "duration": 3.04,
+    "text": "yeah."
+  },
+  {
+    "start": 3597.16,
+    "duration": 3.76,
+    "text": "Can display the answer over here after"
+  },
+  {
+    "start": 3599.08,
+    "duration": 2.96,
+    "text": "every operation."
+  },
+  {
+    "start": 3600.92,
+    "duration": 2.52,
+    "text": "Basically, it was outside the while"
+  },
+  {
+    "start": 3602.04,
+    "duration": 2.92,
+    "text": "loop, so"
+  },
+  {
+    "start": 3603.44,
+    "duration": 3.08,
+    "text": "it would only display like one answer,"
+  },
+  {
+    "start": 3604.96,
+    "duration": 2.68,
+    "text": "but I need to display at every point of"
+  },
+  {
+    "start": 3606.52,
+    "duration": 3.24,
+    "text": "time."
+  },
+  {
+    "start": 3607.64,
+    "duration": 4.44,
+    "text": "Don't think I need the extra lines over"
+  },
+  {
+    "start": 3609.76,
+    "duration": 5.48,
+    "text": "here, so I can just remove the"
+  },
+  {
+    "start": 3612.08,
+    "duration": 3.16,
+    "text": "new line statements."
+  },
+  {
+    "start": 3616.04,
+    "duration": 3.4,
+    "text": "Okay. Let's try it out."
+  },
+  {
+    "start": 3621.64,
+    "duration": 4.24,
+    "text": "Enter the operator, plus. Enter two"
+  },
+  {
+    "start": 3623.6,
+    "duration": 3.16,
+    "text": "numbers, three and four. Answer is"
+  },
+  {
+    "start": 3625.88,
+    "duration": 2.64,
+    "text": "seven."
+  },
+  {
+    "start": 3626.76,
+    "duration": 4.56,
+    "text": "It is asking for the operator again"
+  },
+  {
+    "start": 3628.52,
+    "duration": 5.08,
+    "text": "because you can see"
+  },
+  {
+    "start": 3631.32,
+    "duration": 5.76,
+    "text": "uh there's an infinite while loop. So,"
+  },
+  {
+    "start": 3633.6,
+    "duration": 3.48,
+    "text": "infinite while loop, it says"
+  },
+  {
+    "start": 3637.52,
+    "duration": 3.32,
+    "text": "you know, enter the operator. It's"
+  },
+  {
+    "start": 3638.76,
+    "duration": 4.24,
+    "text": "saying, \"Okay, input it.\" If it lies"
+  },
+  {
+    "start": 3640.84,
+    "duration": 3.96,
+    "text": "over here, cool. And then it's going to"
+  },
+  {
+    "start": 3643.0,
+    "duration": 3.8,
+    "text": "ask for, you know, uh it's going to"
+  },
+  {
+    "start": 3644.8,
+    "duration": 3.72,
+    "text": "print the answer and then ask for the"
+  },
+  {
+    "start": 3646.8,
+    "duration": 3.6,
+    "text": "operator again. If it lies over here,"
+  },
+  {
+    "start": 3648.52,
+    "duration": 3.12,
+    "text": "cool, because I initially mentioned"
+  },
+  {
+    "start": 3650.4,
+    "duration": 3.32,
+    "text": "there are three conditions, one if"
+  },
+  {
+    "start": 3651.64,
+    "duration": 3.92,
+    "text": "condition, else if condition, and else"
+  },
+  {
+    "start": 3653.72,
+    "duration": 3.8,
+    "text": "condition. Only one of these is going to"
+  },
+  {
+    "start": 3655.56,
+    "duration": 3.76,
+    "text": "run. So, this normal one is running,"
+  },
+  {
+    "start": 3657.52,
+    "duration": 3.72,
+    "text": "this break will never happen. This will"
+  },
+  {
+    "start": 3659.32,
+    "duration": 3.88,
+    "text": "only happen when you input X, then it"
+  },
+  {
+    "start": 3661.24,
+    "duration": 3.48,
+    "text": "will print the answer, take the input"
+  },
+  {
+    "start": 3663.2,
+    "duration": 3.48,
+    "text": "again, print the answer, take the input"
+  },
+  {
+    "start": 3664.72,
+    "duration": 5.76,
+    "text": "again. When you press X, let's say I"
+  },
+  {
+    "start": 3666.68,
+    "duration": 5.68,
+    "text": "take star and I add six and"
+  },
+  {
+    "start": 3670.48,
+    "duration": 5.24,
+    "text": "two, should give me 12."
+  },
+  {
+    "start": 3672.36,
+    "duration": 5.32,
+    "text": "12. Now, let's say I input X."
+  },
+  {
+    "start": 3675.72,
+    "duration": 3.56,
+    "text": "Program over."
+  },
+  {
+    "start": 3677.68,
+    "duration": 2.96,
+    "text": "So, when I input X, it's going to say,"
+  },
+  {
+    "start": 3679.28,
+    "duration": 3.12,
+    "text": "\"Does X lie over here? Does this"
+  },
+  {
+    "start": 3680.64,
+    "duration": 3.28,
+    "text": "condition satisfy X?\" It's going to be"
+  },
+  {
+    "start": 3682.4,
+    "duration": 4.6,
+    "text": "like no, it does not. Then it's going to"
+  },
+  {
+    "start": 3683.92,
+    "duration": 4.4,
+    "text": "check if else else if operation is equal"
+  },
+  {
+    "start": 3687.0,
+    "duration": 4.36,
+    "text": "to it's going to be like yes, it is."
+  },
+  {
+    "start": 3688.32,
+    "duration": 3.04,
+    "text": "Break outside the while loop."
+  },
+  {
+    "start": 3691.56,
+    "duration": 4.32,
+    "text": "Okay, I can also try some other operator"
+  },
+  {
+    "start": 3694.36,
+    "duration": 3.56,
+    "text": "like this."
+  },
+  {
+    "start": 3695.88,
+    "duration": 3.4,
+    "text": "Saying invalid operation, enter the"
+  },
+  {
+    "start": 3697.92,
+    "duration": 2.28,
+    "text": "operator again."
+  },
+  {
+    "start": 3699.28,
+    "duration": 2.92,
+    "text": "Okay?"
+  },
+  {
+    "start": 3700.2,
+    "duration": 3.76,
+    "text": "That's basically the idea."
+  },
+  {
+    "start": 3702.2,
+    "duration": 3.12,
+    "text": "Very simple stuff. You can try to make a"
+  },
+  {
+    "start": 3703.96,
+    "duration": 3.08,
+    "text": "flowchart of this if you want. It's"
+  },
+  {
+    "start": 3705.32,
+    "duration": 4.24,
+    "text": "going to be a pretty big, but it's going"
+  },
+  {
+    "start": 3707.04,
+    "duration": 4.88,
+    "text": "to be good practice. And just lot of"
+  },
+  {
+    "start": 3709.56,
+    "duration": 4.92,
+    "text": "copy pasting over here and uh"
+  },
+  {
+    "start": 3711.92,
+    "duration": 3.48,
+    "text": "yeah, simple simple calculator program."
+  },
+  {
+    "start": 3714.48,
+    "duration": 1.92,
+    "text": "Make sure you check out the links in the"
+  },
+  {
+    "start": 3715.4,
+    "duration": 3.52,
+    "text": "description. I'll be uploading the"
+  },
+  {
+    "start": 3716.4,
+    "duration": 3.84,
+    "text": "assignment and notes and everything. And"
+  },
+  {
+    "start": 3718.92,
+    "duration": 3.48,
+    "text": "uh in the next session we'll be doing"
+  },
+  {
+    "start": 3720.24,
+    "duration": 3.4,
+    "text": "arrays. If you have if you are new, then"
+  },
+  {
+    "start": 3722.4,
+    "duration": 2.96,
+    "text": "all the videos are available in the"
+  },
+  {
+    "start": 3723.64,
+    "duration": 3.48,
+    "text": "playlist below in order. So, if you're"
+  },
+  {
+    "start": 3725.36,
+    "duration": 3.2,
+    "text": "looking for videos in order, check out"
+  },
+  {
+    "start": 3727.12,
+    "duration": 2.4,
+    "text": "the links in the description. Make sure"
+  },
+  {
+    "start": 3728.56,
+    "duration": 1.72,
+    "text": "you like, share, and subscribe. Share"
+  },
+  {
+    "start": 3729.52,
+    "duration": 2.04,
+    "text": "with your friends. We're going to be"
+  },
+  {
+    "start": 3730.28,
+    "duration": 3.32,
+    "text": "doing some amazing work like in this"
+  },
+  {
+    "start": 3731.56,
+    "duration": 3.32,
+    "text": "session. I did so many questions. We'll"
+  },
+  {
+    "start": 3733.6,
+    "duration": 3.16,
+    "text": "be doing so many questions for every"
+  },
+  {
+    "start": 3734.88,
+    "duration": 3.64,
+    "text": "other topic. From the next session we'll"
+  },
+  {
+    "start": 3736.76,
+    "duration": 3.92,
+    "text": "be doing arrays, which is going to be"
+  },
+  {
+    "start": 3738.52,
+    "duration": 4.24,
+    "text": "bringing us very many amazing things,"
+  },
+  {
+    "start": 3740.68,
+    "duration": 3.48,
+    "text": "sorting, searching, and I know"
+  },
+  {
+    "start": 3742.76,
+    "duration": 3.24,
+    "text": "interview problems as well. So, make"
+  },
+  {
+    "start": 3744.16,
+    "duration": 5.44,
+    "text": "sure you subscribe and I'll see you in"
+  },
+  {
+    "start": 3746.0,
+    "duration": 3.6,
+    "text": "the next video. Bye."
+  }
+]

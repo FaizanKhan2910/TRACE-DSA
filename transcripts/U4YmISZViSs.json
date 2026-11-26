@@ -1,0 +1,3667 @@
+[
+  {
+    "start": 4.04,
+    "duration": 2.759,
+    "text": "hey everyone welcome back to my channel"
+  },
+  {
+    "start": 5.2,
+    "duration": 3.439,
+    "text": "in the new video in this video we're"
+  },
+  {
+    "start": 6.799,
+    "duration": 4.76,
+    "text": "going to learn about a new algorithm"
+  },
+  {
+    "start": 8.639,
+    "duration": 5.2,
+    "text": "very important um and nice algorithm for"
+  },
+  {
+    "start": 11.559,
+    "duration": 4.361,
+    "text": "range queries because why am I teaching"
+  },
+  {
+    "start": 13.839,
+    "duration": 3.841,
+    "text": "you this algorithm because range query"
+  },
+  {
+    "start": 15.92,
+    "duration": 2.84,
+    "text": "questions are very important and if you"
+  },
+  {
+    "start": 17.68,
+    "duration": 2.8,
+    "text": "don't already know we're doing a"
+  },
+  {
+    "start": 18.76,
+    "duration": 3.72,
+    "text": "complete data sees algorithms Java"
+  },
+  {
+    "start": 20.48,
+    "duration": 3.28,
+    "text": "interview preparation boot camp so check"
+  },
+  {
+    "start": 22.48,
+    "duration": 4.0,
+    "text": "out all the links in the description"
+  },
+  {
+    "start": 23.76,
+    "duration": 5.32,
+    "text": "below so all the previous lectures"
+  },
+  {
+    "start": 26.48,
+    "duration": 5.56,
+    "text": "important questions videos topics"
+  },
+  {
+    "start": 29.08,
+    "duration": 4.88,
+    "text": "interviews uh links to the code samples"
+  },
+  {
+    "start": 32.04,
+    "duration": 4.679,
+    "text": "assignments for your practice and"
+  },
+  {
+    "start": 33.96,
+    "duration": 4.88,
+    "text": "everything uh PDF notes can be found in"
+  },
+  {
+    "start": 36.719,
+    "duration": 4.761,
+    "text": "the description below and I highly"
+  },
+  {
+    "start": 38.84,
+    "duration": 5.84,
+    "text": "recommend you to check it out so let's"
+  },
+  {
+    "start": 41.48,
+    "duration": 6.8,
+    "text": "talk about a range query problem let's"
+  },
+  {
+    "start": 44.68,
+    "duration": 6.84,
+    "text": "say you're given an array okay so you're"
+  },
+  {
+    "start": 48.28,
+    "duration": 3.24,
+    "text": "given an array something like"
+  },
+  {
+    "start": 53.16,
+    "duration": 3.0,
+    "text": "this"
+  },
+  {
+    "start": 58.92,
+    "duration": 3.0,
+    "text": "13527"
+  },
+  {
+    "start": 63.68,
+    "duration": 9.68,
+    "text": "135"
+  },
+  {
+    "start": 66.4,
+    "duration": 12.6,
+    "text": "27 again 6 1 4 and 8 indexes are 0 1 2 3"
+  },
+  {
+    "start": 73.36,
+    "duration": 9.399,
+    "text": "4 5 6 7 8 okay the question is find the"
+  },
+  {
+    "start": 79.0,
+    "duration": 7.479,
+    "text": "sum of index numbers between the index 2"
+  },
+  {
+    "start": 82.759,
+    "duration": 7.801,
+    "text": "and six meaning these"
+  },
+  {
+    "start": 86.479,
+    "duration": 8.481,
+    "text": "numbers index number 2 till 6"
+  },
+  {
+    "start": 90.56,
+    "duration": 9.16,
+    "text": "what is the sum of this equal to this is"
+  },
+  {
+    "start": 94.96,
+    "duration": 6.72,
+    "text": "5 + 2 + 7 + 6 + one so how can we solve"
+  },
+  {
+    "start": 99.72,
+    "duration": 4.92,
+    "text": "this"
+  },
+  {
+    "start": 101.68,
+    "duration": 5.6,
+    "text": "question how can we solve this question"
+  },
+  {
+    "start": 104.64,
+    "duration": 6.32,
+    "text": "we can solve this question very"
+  },
+  {
+    "start": 107.28,
+    "duration": 5.72,
+    "text": "simply run a for"
+  },
+  {
+    "start": 110.96,
+    "duration": 7.119,
+    "text": "loop"
+  },
+  {
+    "start": 113.0,
+    "duration": 8.24,
+    "text": "from index 2 till 6 time complexity o of"
+  },
+  {
+    "start": 118.079,
+    "duration": 5.72,
+    "text": "n okay in wor case people will be like"
+  },
+  {
+    "start": 121.24,
+    "duration": 4.799,
+    "text": "find me the sum of all the like the from"
+  },
+  {
+    "start": 123.799,
+    "duration": 6.041,
+    "text": "the zeroth index to the last index so"
+  },
+  {
+    "start": 126.039,
+    "duration": 8.641,
+    "text": "one by one you can take the sum of all"
+  },
+  {
+    "start": 129.84,
+    "duration": 7.119,
+    "text": "the of all the indices time complexity"
+  },
+  {
+    "start": 134.68,
+    "duration": 5.44,
+    "text": "worst case of"
+  },
+  {
+    "start": 136.959,
+    "duration": 5.601,
+    "text": "n okay best case if someone says just"
+  },
+  {
+    "start": 140.12,
+    "duration": 6.199,
+    "text": "one index find the sum from index number"
+  },
+  {
+    "start": 142.56,
+    "duration": 5.48,
+    "text": "6 to six so constant but worst case time"
+  },
+  {
+    "start": 146.319,
+    "duration": 4.961,
+    "text": "complexity often this everyone knows is"
+  },
+  {
+    "start": 148.04,
+    "duration": 7.88,
+    "text": "a very simple problem not problem okay"
+  },
+  {
+    "start": 151.28,
+    "duration": 7.84,
+    "text": "cool but now the question is do"
+  },
+  {
+    "start": 155.92,
+    "duration": 6.52,
+    "text": "better that's the question you have to"
+  },
+  {
+    "start": 159.12,
+    "duration": 4.72,
+    "text": "do better be better in life you know you"
+  },
+  {
+    "start": 162.44,
+    "duration": 2.6,
+    "text": "have to do better you have to do better"
+  },
+  {
+    "start": 163.84,
+    "duration": 4.24,
+    "text": "than"
+  },
+  {
+    "start": 165.04,
+    "duration": 5.919,
+    "text": "often how do we do that so we're going"
+  },
+  {
+    "start": 168.08,
+    "duration": 2.879,
+    "text": "to learn about a new"
+  },
+  {
+    "start": 178.76,
+    "duration": 8.24,
+    "text": "algorithm"
+  },
+  {
+    "start": 180.319,
+    "duration": 6.681,
+    "text": "this is known as square root D"
+  },
+  {
+    "start": 187.72,
+    "duration": 4.76,
+    "text": "composition square root"
+  },
+  {
+    "start": 190.519,
+    "duration": 4.681,
+    "text": "decomposition now how does square root"
+  },
+  {
+    "start": 192.48,
+    "duration": 2.72,
+    "text": "decomposition"
+  },
+  {
+    "start": 196.799,
+    "duration": 3.841,
+    "text": "work so in square root"
+  },
+  {
+    "start": 204.44,
+    "duration": 3.48,
+    "text": "decomposition here we have"
+  },
+  {
+    "start": 208.48,
+    "duration": 4.2,
+    "text": "it just going to remove"
+  },
+  {
+    "start": 213.48,
+    "duration": 5.679,
+    "text": "my"
+  },
+  {
+    "start": 215.76,
+    "duration": 5.92,
+    "text": "cursor the cursor is not"
+  },
+  {
+    "start": 219.159,
+    "duration": 5.16,
+    "text": "visible okay now it's"
+  },
+  {
+    "start": 221.68,
+    "duration": 5.8,
+    "text": "good so square root decomposition what"
+  },
+  {
+    "start": 224.319,
+    "duration": 5.56,
+    "text": "is it it's very simple with square root"
+  },
+  {
+    "start": 227.48,
+    "duration": 5.679,
+    "text": "decomposition what you do is you divide"
+  },
+  {
+    "start": 229.879,
+    "duration": 3.28,
+    "text": "uh it's it's used to"
+  },
+  {
+    "start": 236.519,
+    "duration": 5.72,
+    "text": "optimize uh"
+  },
+  {
+    "start": 238.68,
+    "duration": 5.72,
+    "text": "queries you know for a particular range"
+  },
+  {
+    "start": 242.239,
+    "duration": 4.0,
+    "text": "and it reduces the time complexity to"
+  },
+  {
+    "start": 244.4,
+    "duration": 4.36,
+    "text": "square root of"
+  },
+  {
+    "start": 246.239,
+    "duration": 6.08,
+    "text": "n"
+  },
+  {
+    "start": 248.76,
+    "duration": 8.12,
+    "text": "reduces time complexity I will show you"
+  },
+  {
+    "start": 252.319,
+    "duration": 7.64,
+    "text": "how to Big go of square root of n so"
+  },
+  {
+    "start": 256.88,
+    "duration": 4.639,
+    "text": "rather than n of n it's going to be like"
+  },
+  {
+    "start": 259.959,
+    "duration": 3.96,
+    "text": "now the complexity is reduced to square"
+  },
+  {
+    "start": 261.519,
+    "duration": 6.601,
+    "text": "root of n how does that"
+  },
+  {
+    "start": 263.919,
+    "duration": 8.28,
+    "text": "work so first things first"
+  },
+  {
+    "start": 268.12,
+    "duration": 7.639,
+    "text": "steps how can we do this step number one"
+  },
+  {
+    "start": 272.199,
+    "duration": 5.72,
+    "text": "is divide the"
+  },
+  {
+    "start": 275.759,
+    "duration": 5.401,
+    "text": "array and this can be any question it"
+  },
+  {
+    "start": 277.919,
+    "duration": 4.361,
+    "text": "doesn't have to be like uh you know it"
+  },
+  {
+    "start": 281.16,
+    "duration": 4.24,
+    "text": "doesn't have to"
+  },
+  {
+    "start": 282.28,
+    "duration": 5.44,
+    "text": "be like get me the sum between two"
+  },
+  {
+    "start": 285.4,
+    "duration": 4.88,
+    "text": "ranges no it can be like the maximum"
+  },
+  {
+    "start": 287.72,
+    "duration": 5.56,
+    "text": "number in two ranges multiplication in"
+  },
+  {
+    "start": 290.28,
+    "duration": 5.88,
+    "text": "all the numbers in two ranges uh minimum"
+  },
+  {
+    "start": 293.28,
+    "duration": 5.16,
+    "text": "average whatever you want to take so"
+  },
+  {
+    "start": 296.16,
+    "duration": 4.72,
+    "text": "square root decomposition very important"
+  },
+  {
+    "start": 298.44,
+    "duration": 5.0,
+    "text": "because High chance you will be asked"
+  },
+  {
+    "start": 300.88,
+    "duration": 7.2,
+    "text": "range based query"
+  },
+  {
+    "start": 303.44,
+    "duration": 6.8,
+    "text": "questions divide the array into"
+  },
+  {
+    "start": 308.08,
+    "duration": 5.52,
+    "text": "blocks of"
+  },
+  {
+    "start": 310.24,
+    "duration": 3.36,
+    "text": "size root"
+  },
+  {
+    "start": 314.759,
+    "duration": 4.841,
+    "text": "n"
+  },
+  {
+    "start": 316.28,
+    "duration": 7.8,
+    "text": "okay then"
+  },
+  {
+    "start": 319.6,
+    "duration": 6.0,
+    "text": "compute answer for every block I will"
+  },
+  {
+    "start": 324.08,
+    "duration": 3.0,
+    "text": "show you an example don't worry if"
+  },
+  {
+    "start": 325.6,
+    "duration": 2.879,
+    "text": "you're not understanding right now don't"
+  },
+  {
+    "start": 327.08,
+    "duration": 3.32,
+    "text": "worry"
+  },
+  {
+    "start": 328.479,
+    "duration": 4.041,
+    "text": "third"
+  },
+  {
+    "start": 330.4,
+    "duration": 6.079,
+    "text": "given a question or"
+  },
+  {
+    "start": 332.52,
+    "duration": 5.56,
+    "text": "query for left to right means between"
+  },
+  {
+    "start": 336.479,
+    "duration": 4.801,
+    "text": "two"
+  },
+  {
+    "start": 338.08,
+    "duration": 7.28,
+    "text": "indexes combine the blocks that contain"
+  },
+  {
+    "start": 341.28,
+    "duration": 8.56,
+    "text": "this I will show you right now blocks"
+  },
+  {
+    "start": 345.36,
+    "duration": 4.48,
+    "text": "that contain"
+  },
+  {
+    "start": 351.479,
+    "duration": 3.801,
+    "text": "this so let's take an example of how"
+  },
+  {
+    "start": 354.12,
+    "duration": 3.96,
+    "text": "this"
+  },
+  {
+    "start": 355.28,
+    "duration": 5.16,
+    "text": "works step number one divide the array"
+  },
+  {
+    "start": 358.08,
+    "duration": 4.0,
+    "text": "into blocks of size rooten so let's say"
+  },
+  {
+    "start": 360.44,
+    "duration": 6.56,
+    "text": "I have the array let's take the previous"
+  },
+  {
+    "start": 362.08,
+    "duration": 8.399,
+    "text": "array only okay so let's say I have this"
+  },
+  {
+    "start": 367.0,
+    "duration": 7.039,
+    "text": "array let's say I have this array this"
+  },
+  {
+    "start": 370.479,
+    "duration": 9.201,
+    "text": "was 1 3 5"
+  },
+  {
+    "start": 374.039,
+    "duration": 9.28,
+    "text": "2 7 6 1 4"
+  },
+  {
+    "start": 379.68,
+    "duration": 5.44,
+    "text": "8 these are total nine elements now what"
+  },
+  {
+    "start": 383.319,
+    "duration": 6.88,
+    "text": "I have to do is I have to divide this"
+  },
+  {
+    "start": 385.12,
+    "duration": 8.479,
+    "text": "into blocks of root n so what is root n"
+  },
+  {
+    "start": 390.199,
+    "duration": 7.601,
+    "text": "root of 9 3 so three three indices I"
+  },
+  {
+    "start": 393.599,
+    "duration": 4.201,
+    "text": "have to combine this will"
+  },
+  {
+    "start": 401.96,
+    "duration": 8.6,
+    "text": "become 1 2 3 1 2 3 so 1 3 and 5 2 7 and"
+  },
+  {
+    "start": 409.16,
+    "duration": 5.12,
+    "text": "6 are"
+  },
+  {
+    "start": 410.56,
+    "duration": 5.4,
+    "text": "here and 1A 4A 8 three numbers are here"
+  },
+  {
+    "start": 414.28,
+    "duration": 3.68,
+    "text": "this is index number 0o index number one"
+  },
+  {
+    "start": 415.96,
+    "duration": 8.76,
+    "text": "index number two these are index number"
+  },
+  {
+    "start": 417.96,
+    "duration": 8.679,
+    "text": "0 1 2 3 4 5 6 7 8 are you able to"
+  },
+  {
+    "start": 424.72,
+    "duration": 4.56,
+    "text": "understand are you able to understand"
+  },
+  {
+    "start": 426.639,
+    "duration": 5.081,
+    "text": "let's take a let's take another example"
+  },
+  {
+    "start": 429.28,
+    "duration": 4.52,
+    "text": "let's say if I say 135"
+  },
+  {
+    "start": 431.72,
+    "duration": 5.08,
+    "text": "276 let's"
+  },
+  {
+    "start": 433.8,
+    "duration": 3.0,
+    "text": "say"
+  },
+  {
+    "start": 436.919,
+    "duration": 4.641,
+    "text": "um let's say 314"
+  },
+  {
+    "start": 443.16,
+    "duration": 5.24,
+    "text": "okay"
+  },
+  {
+    "start": 444.8,
+    "duration": 5.76,
+    "text": "314 and let's say I do one more over"
+  },
+  {
+    "start": 448.4,
+    "duration": 3.76,
+    "text": "here let's say eight because sometimes"
+  },
+  {
+    "start": 450.56,
+    "duration": 3.84,
+    "text": "you'll like what if there are not even"
+  },
+  {
+    "start": 452.16,
+    "duration": 4.96,
+    "text": "numbers so here you can"
+  },
+  {
+    "start": 454.4,
+    "duration": 7.359,
+    "text": "see I have to break it down into chunks"
+  },
+  {
+    "start": 457.12,
+    "duration": 4.639,
+    "text": "of three because square root of"
+  },
+  {
+    "start": 462.199,
+    "duration": 5.84,
+    "text": "um square root of um let's say of 10"
+  },
+  {
+    "start": 466.199,
+    "duration": 6.041,
+    "text": "integer value it will give me"
+  },
+  {
+    "start": 468.039,
+    "duration": 6.761,
+    "text": "three 10 in this case 1 1 2 3 4 5 6 7 8"
+  },
+  {
+    "start": 472.24,
+    "duration": 5.72,
+    "text": "9 10"
+  },
+  {
+    "start": 474.8,
+    "duration": 5.72,
+    "text": "so I like okay 3 three so three 3 three"
+  },
+  {
+    "start": 477.96,
+    "duration": 6.519,
+    "text": "then one sorry"
+  },
+  {
+    "start": 480.52,
+    "duration": 3.959,
+    "text": "135 276"
+  },
+  {
+    "start": 486.599,
+    "duration": 4.56,
+    "text": "314 then"
+  },
+  {
+    "start": 488.879,
+    "duration": 4.841,
+    "text": "eight if there is eight I will just add"
+  },
+  {
+    "start": 491.159,
+    "duration": 4.681,
+    "text": "0 0 because I'm trying to find some and"
+  },
+  {
+    "start": 493.72,
+    "duration": 5.24,
+    "text": "anything added to zero doesn't really"
+  },
+  {
+    "start": 495.84,
+    "duration": 5.84,
+    "text": "change anything so here I have it"
+  },
+  {
+    "start": 498.96,
+    "duration": 6.0,
+    "text": "initially I had 10 indices now I only"
+  },
+  {
+    "start": 501.68,
+    "duration": 6.519,
+    "text": "have four indices every index contains"
+  },
+  {
+    "start": 504.96,
+    "duration": 5.799,
+    "text": "three elements now I will compute the"
+  },
+  {
+    "start": 508.199,
+    "duration": 6.241,
+    "text": "answer for every block"
+  },
+  {
+    "start": 510.759,
+    "duration": 3.681,
+    "text": "what is the sum of 1 + 3 +"
+  },
+  {
+    "start": 516.44,
+    "duration": 9.24,
+    "text": "5 0 1 2 3 index number one uh index"
+  },
+  {
+    "start": 521.599,
+    "duration": 8.201,
+    "text": "number 0 1 2 so 1 + 3 + 5 this is 9 this"
+  },
+  {
+    "start": 525.68,
+    "duration": 6.32,
+    "text": "is 15 this is 8 this is 8 this is known"
+  },
+  {
+    "start": 529.8,
+    "duration": 2.2,
+    "text": "as"
+  },
+  {
+    "start": 533.48,
+    "duration": 7.12,
+    "text": "pre-processing okay so what have we done"
+  },
+  {
+    "start": 537.32,
+    "duration": 6.84,
+    "text": "we have reduced the original array that"
+  },
+  {
+    "start": 540.6,
+    "duration": 9.88,
+    "text": "we had of size n into chunks of root of"
+  },
+  {
+    "start": 544.16,
+    "duration": 9.0,
+    "text": "n chunks of root of n sounds"
+  },
+  {
+    "start": 550.48,
+    "duration": 6.28,
+    "text": "good so we have root n elements now"
+  },
+  {
+    "start": 553.16,
+    "duration": 3.6,
+    "text": "almost almost root n"
+  },
+  {
+    "start": 557.64,
+    "duration": 5.84,
+    "text": "elements okay sounds good so this is"
+  },
+  {
+    "start": 561.72,
+    "duration": 4.559,
+    "text": "known as pre-processing that I have"
+  },
+  {
+    "start": 563.48,
+    "duration": 6.24,
+    "text": "created my chunks array that's step"
+  },
+  {
+    "start": 566.279,
+    "duration": 5.161,
+    "text": "number one now this is done"
+  },
+  {
+    "start": 569.72,
+    "duration": 4.6,
+    "text": "uh but how do we actually solve"
+  },
+  {
+    "start": 571.44,
+    "duration": 6.2,
+    "text": "questions now how do I actually solve"
+  },
+  {
+    "start": 574.32,
+    "duration": 5.84,
+    "text": "questions there can be many cases over"
+  },
+  {
+    "start": 577.64,
+    "duration": 6.72,
+    "text": "here there can be three cases over"
+  },
+  {
+    "start": 580.16,
+    "duration": 6.28,
+    "text": "here okay case number one is let's say"
+  },
+  {
+    "start": 584.36,
+    "duration": 3.44,
+    "text": "you're trying to say if I talk about"
+  },
+  {
+    "start": 586.44,
+    "duration": 7.28,
+    "text": "case number"
+  },
+  {
+    "start": 587.8,
+    "duration": 10.88,
+    "text": "one um let's say trying to say that"
+  },
+  {
+    "start": 593.72,
+    "duration": 9.679,
+    "text": "um question one can be find the range of"
+  },
+  {
+    "start": 598.68,
+    "duration": 4.719,
+    "text": "index some index between 3"
+  },
+  {
+    "start": 603.92,
+    "duration": 5.479,
+    "text": "till"
+  },
+  {
+    "start": 605.56,
+    "duration": 8.04,
+    "text": "7 so index number 3 till 7 is what you"
+  },
+  {
+    "start": 609.399,
+    "duration": 8.521,
+    "text": "tell me index number 3 till 7"
+  },
+  {
+    "start": 613.6,
+    "duration": 5.479,
+    "text": "276 No 3 till 8 3 till 8 not 3 till 7 3"
+  },
+  {
+    "start": 617.92,
+    "duration": 4.919,
+    "text": "till"
+  },
+  {
+    "start": 619.079,
+    "duration": 10.2,
+    "text": "8 what is index number 3 till 8 this one"
+  },
+  {
+    "start": 622.839,
+    "duration": 9.56,
+    "text": "276 314 276 314 meaning these two so"
+  },
+  {
+    "start": 629.279,
+    "duration": 4.961,
+    "text": "entire chunks of block will be taken"
+  },
+  {
+    "start": 632.399,
+    "duration": 4.56,
+    "text": "nothing is left in"
+  },
+  {
+    "start": 634.24,
+    "duration": 5.64,
+    "text": "Middle entire block we are taking that's"
+  },
+  {
+    "start": 636.959,
+    "duration": 4.761,
+    "text": "case number one very simple think about"
+  },
+  {
+    "start": 639.88,
+    "duration": 5.199,
+    "text": "what will be case number"
+  },
+  {
+    "start": 641.72,
+    "duration": 3.359,
+    "text": "two what will"
+  },
+  {
+    "start": 646.44,
+    "duration": 6.88,
+    "text": "be case number two case number two can"
+  },
+  {
+    "start": 650.279,
+    "duration": 4.961,
+    "text": "be something like index number two"
+  },
+  {
+    "start": 653.32,
+    "duration": 6.639,
+    "text": "till"
+  },
+  {
+    "start": 655.24,
+    "duration": 7.32,
+    "text": "um index number two till"
+  },
+  {
+    "start": 659.959,
+    "duration": 6.401,
+    "text": "index number"
+  },
+  {
+    "start": 662.56,
+    "duration": 6.2,
+    "text": "five meaning this"
+  },
+  {
+    "start": 666.36,
+    "duration": 5.52,
+    "text": "one so"
+  },
+  {
+    "start": 668.76,
+    "duration": 8.519,
+    "text": "meaning 1/3 of this and the whole chunk"
+  },
+  {
+    "start": 671.88,
+    "duration": 5.399,
+    "text": "this so 1/3 of this and whole of"
+  },
+  {
+    "start": 677.88,
+    "duration": 5.48,
+    "text": "this okay so 15 will be in my"
+  },
+  {
+    "start": 681.0,
+    "duration": 4.279,
+    "text": "answer and a little bit from the"
+  },
+  {
+    "start": 683.36,
+    "duration": 3.599,
+    "text": "previous index will also be in my answer"
+  },
+  {
+    "start": 685.279,
+    "duration": 4.761,
+    "text": "from the previous"
+  },
+  {
+    "start": 686.959,
+    "duration": 5.12,
+    "text": "chunk similarly the right hand side"
+  },
+  {
+    "start": 690.04,
+    "duration": 4.28,
+    "text": "step number three case number three will"
+  },
+  {
+    "start": 692.079,
+    "duration": 2.241,
+    "text": "be"
+  },
+  {
+    "start": 696.16,
+    "duration": 5.72,
+    "text": "what case number three will be let's say"
+  },
+  {
+    "start": 699.48,
+    "duration": 2.4,
+    "text": "index"
+  },
+  {
+    "start": 702.68,
+    "duration": 3.0,
+    "text": "number"
+  },
+  {
+    "start": 708.279,
+    "duration": 3.881,
+    "text": "six till index"
+  },
+  {
+    "start": 712.92,
+    "duration": 4.28,
+    "text": "number"
+  },
+  {
+    "start": 714.72,
+    "duration": 5.119,
+    "text": "9 so in this"
+  },
+  {
+    "start": 717.2,
+    "duration": 4.96,
+    "text": "case this will be hold"
+  },
+  {
+    "start": 719.839,
+    "duration": 6.601,
+    "text": "and I will take 1/3 of"
+  },
+  {
+    "start": 722.16,
+    "duration": 7.479,
+    "text": "this 6 till 9 this will be whole and I'm"
+  },
+  {
+    "start": 726.44,
+    "duration": 5.88,
+    "text": "taking whole and one half of this are"
+  },
+  {
+    "start": 729.639,
+    "duration": 2.681,
+    "text": "you able to"
+  },
+  {
+    "start": 732.72,
+    "duration": 4.359,
+    "text": "understand okay so that's what we're"
+  },
+  {
+    "start": 735.24,
+    "duration": 4.76,
+    "text": "going to do we're going to create the"
+  },
+  {
+    "start": 737.079,
+    "duration": 4.041,
+    "text": "pre-processing table uh the array first"
+  },
+  {
+    "start": 740.0,
+    "duration": 3.399,
+    "text": "and then when we're going to do the"
+  },
+  {
+    "start": 741.12,
+    "duration": 5.719,
+    "text": "query in the query we're going to be"
+  },
+  {
+    "start": 743.399,
+    "duration": 7.8,
+    "text": "like solve the left part solve the"
+  },
+  {
+    "start": 746.839,
+    "duration": 4.36,
+    "text": "middle part then solve the right"
+  },
+  {
+    "start": 751.32,
+    "duration": 6.84,
+    "text": "part okay for the query for example if"
+  },
+  {
+    "start": 755.24,
+    "duration": 6.12,
+    "text": "someone says uh I'll take the color blue"
+  },
+  {
+    "start": 758.16,
+    "duration": 7.44,
+    "text": "now if someone says give me from the"
+  },
+  {
+    "start": 761.36,
+    "duration": 8.24,
+    "text": "ranges of two"
+  },
+  {
+    "start": 765.6,
+    "duration": 6.64,
+    "text": "till 7 so if I talk about 2 till"
+  },
+  {
+    "start": 769.6,
+    "duration": 5.44,
+    "text": "7 this is the"
+  },
+  {
+    "start": 772.24,
+    "duration": 8.599,
+    "text": "left this is"
+  },
+  {
+    "start": 775.04,
+    "duration": 5.799,
+    "text": "the middle this is the right"
+  },
+  {
+    "start": 783.839,
+    "duration": 6.321,
+    "text": "okay sounds"
+  },
+  {
+    "start": 785.92,
+    "duration": 6.64,
+    "text": "good all right one thing I have yet to"
+  },
+  {
+    "start": 790.16,
+    "duration": 4.72,
+    "text": "make you understand is because we will"
+  },
+  {
+    "start": 792.56,
+    "duration": 4.8,
+    "text": "be quering on this block"
+  },
+  {
+    "start": 794.88,
+    "duration": 6.399,
+    "text": "array okay we will be quering on the"
+  },
+  {
+    "start": 797.36,
+    "duration": 3.919,
+    "text": "Block array then"
+  },
+  {
+    "start": 802.279,
+    "duration": 7.8,
+    "text": "uh think about this um the only"
+  },
+  {
+    "start": 807.24,
+    "duration": 4.599,
+    "text": "time we are going how do I explain this"
+  },
+  {
+    "start": 810.079,
+    "duration": 3.641,
+    "text": "this is actually very simple I'm just"
+  },
+  {
+    "start": 811.839,
+    "duration": 4.641,
+    "text": "trying to understand how to explain this"
+  },
+  {
+    "start": 813.72,
+    "duration": 5.119,
+    "text": "hold on let me think about it it's very"
+  },
+  {
+    "start": 816.48,
+    "duration": 3.88,
+    "text": "simple uh it's Common Sense actually"
+  },
+  {
+    "start": 818.839,
+    "duration": 3.8,
+    "text": "okay so now I'll will explain to you"
+  },
+  {
+    "start": 820.36,
+    "duration": 4.76,
+    "text": "what I mean what I mean is here you can"
+  },
+  {
+    "start": 822.639,
+    "duration": 4.841,
+    "text": "see that if you're talking about index"
+  },
+  {
+    "start": 825.12,
+    "duration": 5.8,
+    "text": "number let's say index number think of"
+  },
+  {
+    "start": 827.48,
+    "duration": 6.56,
+    "text": "focus on my words index number two till"
+  },
+  {
+    "start": 830.92,
+    "duration": 3.12,
+    "text": "index number let's"
+  },
+  {
+    "start": 834.199,
+    "duration": 6.601,
+    "text": "say index number nine so index number"
+  },
+  {
+    "start": 837.519,
+    "duration": 5.721,
+    "text": "two till index number N9 you know that"
+  },
+  {
+    "start": 840.8,
+    "duration": 4.56,
+    "text": "this thing is out of the chunk and this"
+  },
+  {
+    "start": 843.24,
+    "duration": 4.0,
+    "text": "thing is out of the chunk this thing is"
+  },
+  {
+    "start": 845.36,
+    "duration": 5.32,
+    "text": "inside my chunk as it is yeah that is"
+  },
+  {
+    "start": 847.24,
+    "duration": 5.839,
+    "text": "true here it is inside my chunk as it"
+  },
+  {
+    "start": 850.68,
+    "duration": 6.079,
+    "text": "is are you able to"
+  },
+  {
+    "start": 853.079,
+    "duration": 6.161,
+    "text": "understand so do you understand that the"
+  },
+  {
+    "start": 856.759,
+    "duration": 4.121,
+    "text": "number of elements on the left hand side"
+  },
+  {
+    "start": 859.24,
+    "duration": 4.44,
+    "text": "and the number of elements on the right"
+  },
+  {
+    "start": 860.88,
+    "duration": 5.68,
+    "text": "hand side will never exceed square root"
+  },
+  {
+    "start": 863.68,
+    "duration": 4.0,
+    "text": "of n because that's the number of chunks"
+  },
+  {
+    "start": 866.56,
+    "duration": 3.199,
+    "text": "we"
+  },
+  {
+    "start": 867.68,
+    "duration": 5.519,
+    "text": "have"
+  },
+  {
+    "start": 869.759,
+    "duration": 6.64,
+    "text": "number of elements in a chunk"
+  },
+  {
+    "start": 873.199,
+    "duration": 6.56,
+    "text": "meaning okay I know that if this two was"
+  },
+  {
+    "start": 876.399,
+    "duration": 5.56,
+    "text": "a part of a whole chunk then it would"
+  },
+  {
+    "start": 879.759,
+    "duration": 5.841,
+    "text": "have been in the middle part and not on"
+  },
+  {
+    "start": 881.959,
+    "duration": 8.041,
+    "text": "the left for example for example index"
+  },
+  {
+    "start": 885.6,
+    "duration": 6.599,
+    "text": "uh from uh 3 till 9 in that case index"
+  },
+  {
+    "start": 890.0,
+    "duration": 4.04,
+    "text": "number 3 till 8 is a part of the chunk"
+  },
+  {
+    "start": 892.199,
+    "duration": 4.161,
+    "text": "so no splitting is"
+  },
+  {
+    "start": 894.04,
+    "duration": 3.68,
+    "text": "required I can take it as a whole index"
+  },
+  {
+    "start": 896.36,
+    "duration": 2.919,
+    "text": "number one and index number two as a"
+  },
+  {
+    "start": 897.72,
+    "duration": 4.08,
+    "text": "whole I will take it"
+  },
+  {
+    "start": 899.279,
+    "duration": 5.081,
+    "text": "and index number three in the chunk I"
+  },
+  {
+    "start": 901.8,
+    "duration": 4.399,
+    "text": "will have to break it down a little bit"
+  },
+  {
+    "start": 904.36,
+    "duration": 3.36,
+    "text": "so the point I'm trying to make is the"
+  },
+  {
+    "start": 906.199,
+    "duration": 3.361,
+    "text": "breaking down that you're doing the"
+  },
+  {
+    "start": 907.72,
+    "duration": 4.0,
+    "text": "slicing that you're doing like 1/3 I"
+  },
+  {
+    "start": 909.56,
+    "duration": 5.44,
+    "text": "will take or whatever that is never"
+  },
+  {
+    "start": 911.72,
+    "duration": 5.52,
+    "text": "going to exceed square root of n because"
+  },
+  {
+    "start": 915.0,
+    "duration": 5.04,
+    "text": "the maximum size the only size of the"
+  },
+  {
+    "start": 917.24,
+    "duration": 4.44,
+    "text": "chunk is square root of N and if there"
+  },
+  {
+    "start": 920.04,
+    "duration": 3.479,
+    "text": "was a case that say whole chunk so for"
+  },
+  {
+    "start": 921.68,
+    "duration": 4.719,
+    "text": "example you will never do something like"
+  },
+  {
+    "start": 923.519,
+    "duration": 5.401,
+    "text": "uh for index number 2 till 7 you will"
+  },
+  {
+    "start": 926.399,
+    "duration": 5.281,
+    "text": "never say something like okay if it's 2"
+  },
+  {
+    "start": 928.92,
+    "duration": 6.8,
+    "text": "till 7 then"
+  },
+  {
+    "start": 931.68,
+    "duration": 6.88,
+    "text": "u meaning this five till index number 7"
+  },
+  {
+    "start": 935.72,
+    "duration": 7.679,
+    "text": "1 you will never say something like okay"
+  },
+  {
+    "start": 938.56,
+    "duration": 7.04,
+    "text": "I will take 1 3 6 and seven as one chunk"
+  },
+  {
+    "start": 943.399,
+    "duration": 3.44,
+    "text": "and five and two as other chunk no"
+  },
+  {
+    "start": 945.6,
+    "duration": 4.479,
+    "text": "that's not the case that's not the"
+  },
+  {
+    "start": 946.839,
+    "duration": 6.521,
+    "text": "chunks in reality these are the chunks"
+  },
+  {
+    "start": 950.079,
+    "duration": 3.281,
+    "text": "square root of 3 square root of"
+  },
+  {
+    "start": 954.199,
+    "duration": 4.481,
+    "text": "3 okay so I hope you're able to"
+  },
+  {
+    "start": 956.399,
+    "duration": 3.56,
+    "text": "understand this it's very simple again"
+  },
+  {
+    "start": 958.68,
+    "duration": 5.159,
+    "text": "same example you can take another"
+  },
+  {
+    "start": 959.959,
+    "duration": 5.921,
+    "text": "example if you are taking from this five"
+  },
+  {
+    "start": 963.839,
+    "duration": 4.761,
+    "text": "which is index number two till one which"
+  },
+  {
+    "start": 965.88,
+    "duration": 5.24,
+    "text": "is index number 7 you will not be like"
+  },
+  {
+    "start": 968.6,
+    "duration": 5.52,
+    "text": "okay from index number two till index"
+  },
+  {
+    "start": 971.12,
+    "duration": 4.92,
+    "text": "number five I will have my left no"
+  },
+  {
+    "start": 974.12,
+    "duration": 5.92,
+    "text": "because from index number two till index"
+  },
+  {
+    "start": 976.04,
+    "duration": 6.52,
+    "text": "number five a chunk already exists 3 45"
+  },
+  {
+    "start": 980.04,
+    "duration": 4.84,
+    "text": "here this one and for that the answer is"
+  },
+  {
+    "start": 982.56,
+    "duration": 2.32,
+    "text": "already"
+  },
+  {
+    "start": 985.92,
+    "duration": 6.8,
+    "text": "calculated already calculated"
+  },
+  {
+    "start": 990.12,
+    "duration": 4.76,
+    "text": "so the point I'm trying to make what I'm"
+  },
+  {
+    "start": 992.72,
+    "duration": 4.88,
+    "text": "trying to make you understand is the"
+  },
+  {
+    "start": 994.88,
+    "duration": 4.24,
+    "text": "slice that the the buffer that is in the"
+  },
+  {
+    "start": 997.6,
+    "duration": 6.44,
+    "text": "left hand side and the right hand side"
+  },
+  {
+    "start": 999.12,
+    "duration": 7.24,
+    "text": "that lies outside the whole chunk that"
+  },
+  {
+    "start": 1004.04,
+    "duration": 3.96,
+    "text": "itself will never be equal greater than"
+  },
+  {
+    "start": 1006.36,
+    "duration": 4.159,
+    "text": "square root of n because the maximum"
+  },
+  {
+    "start": 1008.0,
+    "duration": 4.36,
+    "text": "size of one chunk is square root of"
+  },
+  {
+    "start": 1010.519,
+    "duration": 5.641,
+    "text": "n"
+  },
+  {
+    "start": 1012.36,
+    "duration": 6.24,
+    "text": "okay sounds good so take all the chunks"
+  },
+  {
+    "start": 1016.16,
+    "duration": 4.56,
+    "text": "in the middle then something left in the"
+  },
+  {
+    "start": 1018.6,
+    "duration": 4.239,
+    "text": "left something left in the right so I"
+  },
+  {
+    "start": 1020.72,
+    "duration": 5.04,
+    "text": "will start from the left and I will keep"
+  },
+  {
+    "start": 1022.839,
+    "duration": 5.12,
+    "text": "checking till the right that's it so I"
+  },
+  {
+    "start": 1025.76,
+    "duration": 4.48,
+    "text": "will start from the left till the left"
+  },
+  {
+    "start": 1027.959,
+    "duration": 5.681,
+    "text": "chunk is finished so for index number 2"
+  },
+  {
+    "start": 1030.24,
+    "duration": 6.64,
+    "text": "till 7 I will calculate for index"
+  },
+  {
+    "start": 1033.64,
+    "duration": 6.12,
+    "text": "number 2 till 2 this is something I will"
+  },
+  {
+    "start": 1036.88,
+    "duration": 6.72,
+    "text": "calculate using for Loop plus middle"
+  },
+  {
+    "start": 1039.76,
+    "duration": 3.84,
+    "text": "will be the chunk so three"
+  },
+  {
+    "start": 1044.039,
+    "duration": 6.921,
+    "text": "till five this will be the whole chunk"
+  },
+  {
+    "start": 1047.88,
+    "duration": 6.039,
+    "text": "Plus right hand side 6 till"
+  },
+  {
+    "start": 1050.96,
+    "duration": 7.52,
+    "text": "7 this is how it will"
+  },
+  {
+    "start": 1053.919,
+    "duration": 6.64,
+    "text": "work left middle right and this left and"
+  },
+  {
+    "start": 1058.48,
+    "duration": 5.52,
+    "text": "right I know that this size will never"
+  },
+  {
+    "start": 1060.559,
+    "duration": 5.561,
+    "text": "be greater than root of n so root n plus"
+  },
+  {
+    "start": 1064.0,
+    "duration": 5.88,
+    "text": "root n plus root n time complexity root"
+  },
+  {
+    "start": 1066.12,
+    "duration": 5.439,
+    "text": "n simple"
+  },
+  {
+    "start": 1069.88,
+    "duration": 4.56,
+    "text": "okay"
+  },
+  {
+    "start": 1071.559,
+    "duration": 4.841,
+    "text": "cool now how are we going to calculate"
+  },
+  {
+    "start": 1074.44,
+    "duration": 9.479,
+    "text": "this left"
+  },
+  {
+    "start": 1076.4,
+    "duration": 7.519,
+    "text": "part uh for any block index I for"
+  },
+  {
+    "start": 1084.32,
+    "duration": 7.0,
+    "text": "any block of index I so you're saying"
+  },
+  {
+    "start": 1087.32,
+    "duration": 6.839,
+    "text": "index index 2 till 7 I need to find the"
+  },
+  {
+    "start": 1091.32,
+    "duration": 7.28,
+    "text": "answer so if I talk about the block of"
+  },
+  {
+    "start": 1094.159,
+    "duration": 6.721,
+    "text": "let's say fourth index which block does"
+  },
+  {
+    "start": 1098.6,
+    "duration": 5.079,
+    "text": "the fourth index lie in fourth index is"
+  },
+  {
+    "start": 1100.88,
+    "duration": 5.84,
+    "text": "seven which block does seven l in seven"
+  },
+  {
+    "start": 1103.679,
+    "duration": 6.641,
+    "text": "lies in Block one how do I know"
+  },
+  {
+    "start": 1106.72,
+    "duration": 3.6,
+    "text": "that how do I know that"
+  },
+  {
+    "start": 1113.679,
+    "duration": 7.681,
+    "text": "it is equal to I / root of n meaning 4 /"
+  },
+  {
+    "start": 1118.6,
+    "duration": 2.76,
+    "text": "3 which is"
+  },
+  {
+    "start": 1122.32,
+    "duration": 10.4,
+    "text": "1 which block does index number seven"
+  },
+  {
+    "start": 1125.84,
+    "duration": 6.88,
+    "text": "lie in 7 / 3 2 7"
+  },
+  {
+    "start": 1132.799,
+    "duration": 7.161,
+    "text": "lies index number seven which is one"
+  },
+  {
+    "start": 1135.72,
+    "duration": 7.24,
+    "text": "lies in the block two that is correct"
+  },
+  {
+    "start": 1139.96,
+    "duration": 4.92,
+    "text": "that is correct simple mathematics"
+  },
+  {
+    "start": 1142.96,
+    "duration": 4.64,
+    "text": "because you're dividing into three root"
+  },
+  {
+    "start": 1144.88,
+    "duration": 4.84,
+    "text": "n root root every block is rooten that's"
+  },
+  {
+    "start": 1147.6,
+    "duration": 5.079,
+    "text": "how you know"
+  },
+  {
+    "start": 1149.72,
+    "duration": 5.319,
+    "text": "it so if you're given an index so from"
+  },
+  {
+    "start": 1152.679,
+    "duration": 4.401,
+    "text": "index left to right find the answer you"
+  },
+  {
+    "start": 1155.039,
+    "duration": 4.361,
+    "text": "now know how to find which first block"
+  },
+  {
+    "start": 1157.08,
+    "duration": 2.32,
+    "text": "to look"
+  },
+  {
+    "start": 1159.799,
+    "duration": 5.281,
+    "text": "at"
+  },
+  {
+    "start": 1162.32,
+    "duration": 7.28,
+    "text": "okay sounds"
+  },
+  {
+    "start": 1165.08,
+    "duration": 6.079,
+    "text": "good so if I talk about two"
+  },
+  {
+    "start": 1169.6,
+    "duration": 5.12,
+    "text": "okay so I will start checking from the"
+  },
+  {
+    "start": 1171.159,
+    "duration": 5.721,
+    "text": "main index I talk about index number two"
+  },
+  {
+    "start": 1174.72,
+    "duration": 4.959,
+    "text": "so this will be"
+  },
+  {
+    "start": 1176.88,
+    "duration": 5.32,
+    "text": "2 divide by whatever I'm taking which is"
+  },
+  {
+    "start": 1179.679,
+    "duration": 6.401,
+    "text": "square root of three"
+  },
+  {
+    "start": 1182.2,
+    "duration": 8.04,
+    "text": "three uh I'll take the um I'll take the"
+  },
+  {
+    "start": 1186.08,
+    "duration": 4.16,
+    "text": "what I'll take the percentage so the"
+  },
+  {
+    "start": 1190.799,
+    "duration": 6.561,
+    "text": "remainder so for 2 till 7 I'll take 2"
+  },
+  {
+    "start": 1194.88,
+    "duration": 4.32,
+    "text": "modulo 3 which is giving me what if you"
+  },
+  {
+    "start": 1197.36,
+    "duration": 5.199,
+    "text": "want to check"
+  },
+  {
+    "start": 1199.2,
+    "duration": 5.44,
+    "text": "it's giving me two only 2 mod 3 is index"
+  },
+  {
+    "start": 1202.559,
+    "duration": 4.48,
+    "text": "number two so start from index number"
+  },
+  {
+    "start": 1204.64,
+    "duration": 5.56,
+    "text": "two start from index number two my"
+  },
+  {
+    "start": 1207.039,
+    "duration": 4.721,
+    "text": "answer will be five"
+  },
+  {
+    "start": 1210.2,
+    "duration": 4.959,
+    "text": "plus"
+  },
+  {
+    "start": 1211.76,
+    "duration": 6.36,
+    "text": "um 5 plus"
+  },
+  {
+    "start": 1215.159,
+    "duration": 5.76,
+    "text": "what my low Plus+ so low will now be"
+  },
+  {
+    "start": 1218.12,
+    "duration": 5.36,
+    "text": "equal to three uh if I'm starting from"
+  },
+  {
+    "start": 1220.919,
+    "duration": 4.041,
+    "text": "left left will be equal to let me start"
+  },
+  {
+    "start": 1223.48,
+    "duration": 3.559,
+    "text": "again let me start again hold on let me"
+  },
+  {
+    "start": 1224.96,
+    "duration": 4.04,
+    "text": "show you let me show you a better"
+  },
+  {
+    "start": 1227.039,
+    "duration": 3.441,
+    "text": "example hold on first of all Let Me"
+  },
+  {
+    "start": 1229.0,
+    "duration": 4.36,
+    "text": "Clear My screen and then we will do a"
+  },
+  {
+    "start": 1230.48,
+    "duration": 5.52,
+    "text": "dry run"
+  },
+  {
+    "start": 1233.36,
+    "duration": 5.12,
+    "text": "okay let's clear the screen and then do"
+  },
+  {
+    "start": 1236.0,
+    "duration": 2.48,
+    "text": "a dry"
+  },
+  {
+    "start": 1240.44,
+    "duration": 4.56,
+    "text": "run let me just write this down"
+  },
+  {
+    "start": 1245.2,
+    "duration": 8.24,
+    "text": "neatly"
+  },
+  {
+    "start": 1246.84,
+    "duration": 6.6,
+    "text": "so right I have original array over"
+  },
+  {
+    "start": 1257.12,
+    "duration": 4.48,
+    "text": "here 1"
+  },
+  {
+    "start": 1259.2,
+    "duration": 5.12,
+    "text": "3"
+  },
+  {
+    "start": 1261.6,
+    "duration": 8.92,
+    "text": "5 2"
+  },
+  {
+    "start": 1264.32,
+    "duration": 14.68,
+    "text": "7 6 1 4 8 this will"
+  },
+  {
+    "start": 1270.52,
+    "duration": 8.48,
+    "text": "become 0 1 2 3 4 5 6 7 8 this will"
+  },
+  {
+    "start": 1284.24,
+    "duration": 5.08,
+    "text": "become this will sum will become"
+  },
+  {
+    "start": 1287.039,
+    "duration": 9.081,
+    "text": "eight"
+  },
+  {
+    "start": 1289.32,
+    "duration": 10.4,
+    "text": "this is 8 this is 15 9 0 1 2 3 these are"
+  },
+  {
+    "start": 1296.12,
+    "duration": 3.6,
+    "text": "the three three I'm taking"
+  },
+  {
+    "start": 1300.36,
+    "duration": 5.64,
+    "text": "chunks this was"
+  },
+  {
+    "start": 1303.559,
+    "duration": 5.441,
+    "text": "actually 135"
+  },
+  {
+    "start": 1306.0,
+    "duration": 3.0,
+    "text": "276"
+  },
+  {
+    "start": 1317.039,
+    "duration": 3.0,
+    "text": "314"
+  },
+  {
+    "start": 1325.84,
+    "duration": 5.76,
+    "text": "okay these are the chunks now the"
+  },
+  {
+    "start": 1327.64,
+    "duration": 8.8,
+    "text": "question is from range 2 till"
+  },
+  {
+    "start": 1331.6,
+    "duration": 7.28,
+    "text": "7 from range 2 till 7 so my leftmost"
+  },
+  {
+    "start": 1336.44,
+    "duration": 7.44,
+    "text": "that I'm starting"
+  },
+  {
+    "start": 1338.88,
+    "duration": 8.36,
+    "text": "is equal to 2 rightmost is seven I will"
+  },
+  {
+    "start": 1343.88,
+    "duration": 5.08,
+    "text": "start searching for where is the block"
+  },
+  {
+    "start": 1347.24,
+    "duration": 6.4,
+    "text": "of two"
+  },
+  {
+    "start": 1348.96,
+    "duration": 8.28,
+    "text": "where is the block of two it will be two"
+  },
+  {
+    "start": 1353.64,
+    "duration": 3.6,
+    "text": "modulo for the left hand"
+  },
+  {
+    "start": 1358.08,
+    "duration": 4.839,
+    "text": "side for the left hand side I will"
+  },
+  {
+    "start": 1363.679,
+    "duration": 6.521,
+    "text": "say left"
+  },
+  {
+    "start": 1366.6,
+    "duration": 7.84,
+    "text": "modulo square root of n this will give"
+  },
+  {
+    "start": 1370.2,
+    "duration": 5.76,
+    "text": "me 2 modulo 3 which is equal to 2 so I"
+  },
+  {
+    "start": 1374.44,
+    "duration": 5.52,
+    "text": "have to start taking from index number"
+  },
+  {
+    "start": 1375.96,
+    "duration": 4.0,
+    "text": "two my sum will be equal to"
+  },
+  {
+    "start": 1380.52,
+    "duration": 7.72,
+    "text": "five for now"
+  },
+  {
+    "start": 1383.039,
+    "duration": 7.801,
+    "text": "sum okay sum is equal to five right now"
+  },
+  {
+    "start": 1388.24,
+    "duration": 6.12,
+    "text": "okay left plus plus left will be now"
+  },
+  {
+    "start": 1390.84,
+    "duration": 7.52,
+    "text": "equal to three now I'm over here three"
+  },
+  {
+    "start": 1394.36,
+    "duration": 5.72,
+    "text": "now again 3 modulo 3 this gives me zero"
+  },
+  {
+    "start": 1398.36,
+    "duration": 6.12,
+    "text": "when it gives me zero I know that my"
+  },
+  {
+    "start": 1400.08,
+    "duration": 6.12,
+    "text": "block is over my block is over so I will"
+  },
+  {
+    "start": 1404.48,
+    "duration": 4.6,
+    "text": "come out of the for"
+  },
+  {
+    "start": 1406.2,
+    "duration": 5.16,
+    "text": "loop I will come out of the for Loop now"
+  },
+  {
+    "start": 1409.08,
+    "duration": 3.92,
+    "text": "left is done now I know that my middle"
+  },
+  {
+    "start": 1411.36,
+    "duration": 4.799,
+    "text": "part is left so I will take this whole"
+  },
+  {
+    "start": 1413.0,
+    "duration": 6.48,
+    "text": "chunk as it is I will take this whole"
+  },
+  {
+    "start": 1416.159,
+    "duration": 3.321,
+    "text": "chunk as it"
+  },
+  {
+    "start": 1419.679,
+    "duration": 8.041,
+    "text": "is okay so I know while"
+  },
+  {
+    "start": 1424.32,
+    "duration": 6.359,
+    "text": "left plus I have to take this whole"
+  },
+  {
+    "start": 1427.72,
+    "duration": 5.88,
+    "text": "Chunk in order to take this whole chunk"
+  },
+  {
+    "start": 1430.679,
+    "duration": 5.961,
+    "text": "my right should be ahead of this because"
+  },
+  {
+    "start": 1433.6,
+    "duration": 6.079,
+    "text": "if right was here at four then I could"
+  },
+  {
+    "start": 1436.64,
+    "duration": 7.12,
+    "text": "not take the whole chunk"
+  },
+  {
+    "start": 1439.679,
+    "duration": 6.321,
+    "text": "okay so for middle I will"
+  },
+  {
+    "start": 1443.76,
+    "duration": 4.96,
+    "text": "say if"
+  },
+  {
+    "start": 1446.0,
+    "duration": 7.0,
+    "text": "left plus square"
+  },
+  {
+    "start": 1448.72,
+    "duration": 6.0,
+    "text": "root of n is less than equal to right in"
+  },
+  {
+    "start": 1453.0,
+    "duration": 6.88,
+    "text": "that case take that whole"
+  },
+  {
+    "start": 1454.72,
+    "duration": 8.4,
+    "text": "block sum plus equal to what whole block"
+  },
+  {
+    "start": 1459.88,
+    "duration": 6.919,
+    "text": "of that index which index is this"
+  },
+  {
+    "start": 1463.12,
+    "duration": 6.679,
+    "text": "at left divide by square root of"
+  },
+  {
+    "start": 1466.799,
+    "duration": 3.0,
+    "text": "n"
+  },
+  {
+    "start": 1471.679,
+    "duration": 7.12,
+    "text": "block so it's like 3 + 3 is less than"
+  },
+  {
+    "start": 1476.6,
+    "duration": 4.48,
+    "text": "equal to 7 yes it is take the whole"
+  },
+  {
+    "start": 1478.799,
+    "duration": 4.641,
+    "text": "block whole block sum is what now I"
+  },
+  {
+    "start": 1481.08,
+    "duration": 6.199,
+    "text": "don't have to calculate 2 + 7 + 6 I"
+  },
+  {
+    "start": 1483.44,
+    "duration": 10.599,
+    "text": "don't have to calculate that I will just"
+  },
+  {
+    "start": 1487.279,
+    "duration": 10.161,
+    "text": "take left divide by root of n 3 / 3 1"
+  },
+  {
+    "start": 1494.039,
+    "duration": 5.921,
+    "text": "index number one I will take 15 + 15 I"
+  },
+  {
+    "start": 1497.44,
+    "duration": 2.52,
+    "text": "will get get"
+  },
+  {
+    "start": 1500.24,
+    "duration": 8.12,
+    "text": "20 and then I will jump my left by"
+  },
+  {
+    "start": 1504.799,
+    "duration": 5.801,
+    "text": "square root times so jump left over here"
+  },
+  {
+    "start": 1508.36,
+    "duration": 5.08,
+    "text": "left is now equal to"
+  },
+  {
+    "start": 1510.6,
+    "duration": 6.92,
+    "text": "six now right part is"
+  },
+  {
+    "start": 1513.44,
+    "duration": 6.479,
+    "text": "remaining for right part I will check"
+  },
+  {
+    "start": 1517.52,
+    "duration": 5.879,
+    "text": "while left is less than equal to right"
+  },
+  {
+    "start": 1519.919,
+    "duration": 5.801,
+    "text": "just keep adding that's it so six uh"
+  },
+  {
+    "start": 1523.399,
+    "duration": 6.481,
+    "text": "it's in the over here it's three I will"
+  },
+  {
+    "start": 1525.72,
+    "duration": 4.839,
+    "text": "add 323 then it will go ahead 1 it will"
+  },
+  {
+    "start": 1529.88,
+    "duration": 3.44,
+    "text": "be"
+  },
+  {
+    "start": 1530.559,
+    "duration": 6.201,
+    "text": "24 and now left is equal to right so"
+  },
+  {
+    "start": 1533.32,
+    "duration": 3.44,
+    "text": "program over answer is"
+  },
+  {
+    "start": 1537.279,
+    "duration": 8.161,
+    "text": "24 okay 5 + 15 20 + 3 + 1 24 answer so"
+  },
+  {
+    "start": 1543.279,
+    "duration": 3.921,
+    "text": "this left took square root of N Middle"
+  },
+  {
+    "start": 1545.44,
+    "duration": 4.0,
+    "text": "took square root of n right took square"
+  },
+  {
+    "start": 1547.2,
+    "duration": 4.959,
+    "text": "root of n even though there's this Loop"
+  },
+  {
+    "start": 1549.44,
+    "duration": 5.08,
+    "text": "we know that this left and right"
+  },
+  {
+    "start": 1552.159,
+    "duration": 3.801,
+    "text": "maximum that they have will never be"
+  },
+  {
+    "start": 1554.52,
+    "duration": 4.36,
+    "text": "greater than root n because the chunks"
+  },
+  {
+    "start": 1555.96,
+    "duration": 4.319,
+    "text": "are of the side size root n root n + Ro"
+  },
+  {
+    "start": 1558.88,
+    "duration": 6.36,
+    "text": "n + root"
+  },
+  {
+    "start": 1560.279,
+    "duration": 6.441,
+    "text": "n okay or root n + root N - 2 root n- 1"
+  },
+  {
+    "start": 1565.24,
+    "duration": 3.12,
+    "text": "or something"
+  },
+  {
+    "start": 1566.72,
+    "duration": 5.079,
+    "text": "whatever"
+  },
+  {
+    "start": 1568.36,
+    "duration": 6.84,
+    "text": "okay sounds good so one more question is"
+  },
+  {
+    "start": 1571.799,
+    "duration": 4.6,
+    "text": "what if you want to update an element"
+  },
+  {
+    "start": 1575.2,
+    "duration": 3.839,
+    "text": "same thing you can do let's say I want"
+  },
+  {
+    "start": 1576.399,
+    "duration": 3.961,
+    "text": "to change index number four to something"
+  },
+  {
+    "start": 1579.039,
+    "duration": 4.601,
+    "text": "let's say I want to check index number"
+  },
+  {
+    "start": 1580.36,
+    "duration": 4.84,
+    "text": "four to 8 so what will happen is this"
+  },
+  {
+    "start": 1583.64,
+    "duration": 5.72,
+    "text": "you can just"
+  },
+  {
+    "start": 1585.2,
+    "duration": 8.599,
+    "text": "say array of four is equal to 8 this"
+  },
+  {
+    "start": 1589.36,
+    "duration": 6.76,
+    "text": "will change this to 8 but now this is"
+  },
+  {
+    "start": 1593.799,
+    "duration": 5.0,
+    "text": "also messed up I have to change this it"
+  },
+  {
+    "start": 1596.12,
+    "duration": 6.0,
+    "text": "is not 15 now it should be 16 but it's"
+  },
+  {
+    "start": 1598.799,
+    "duration": 6.081,
+    "text": "15 so I have to change that so block ID"
+  },
+  {
+    "start": 1602.12,
+    "duration": 6.559,
+    "text": "is going to be equal to what 4 /qu Ro TK"
+  },
+  {
+    "start": 1604.88,
+    "duration": 6.12,
+    "text": "of n which is 1 so I know that this four"
+  },
+  {
+    "start": 1608.679,
+    "duration": 6.36,
+    "text": "index lies in the block one okay block"
+  },
+  {
+    "start": 1611.0,
+    "duration": 8.6,
+    "text": "one I need to change so i' say block"
+  },
+  {
+    "start": 1615.039,
+    "duration": 4.561,
+    "text": "one I'd say"
+  },
+  {
+    "start": 1620.399,
+    "duration": 3.4,
+    "text": "I would add the difference in"
+  },
+  {
+    "start": 1623.919,
+    "duration": 6.48,
+    "text": "it of the new value minus the current"
+  },
+  {
+    "start": 1627.12,
+    "duration": 6.36,
+    "text": "value so I will say"
+  },
+  {
+    "start": 1630.399,
+    "duration": 5.64,
+    "text": "15 block of"
+  },
+  {
+    "start": 1633.48,
+    "duration": 6.84,
+    "text": "1 is equal to you can do it in the"
+  },
+  {
+    "start": 1636.039,
+    "duration": 8.12,
+    "text": "longer way also current Value"
+  },
+  {
+    "start": 1640.32,
+    "duration": 3.839,
+    "text": "Plus or I would just"
+  },
+  {
+    "start": 1644.679,
+    "duration": 6.641,
+    "text": "say current value I just say minus the"
+  },
+  {
+    "start": 1647.679,
+    "duration": 7.801,
+    "text": "old value minus the old value which was"
+  },
+  {
+    "start": 1651.32,
+    "duration": 8.959,
+    "text": "7 plus the new value 8 so which equal to"
+  },
+  {
+    "start": 1655.48,
+    "duration": 4.799,
+    "text": "15 + 8 -"
+  },
+  {
+    "start": 1660.399,
+    "duration": 3.601,
+    "text": "7 which is equal"
+  },
+  {
+    "start": 1666.88,
+    "duration": 4.24,
+    "text": "to what block of"
+  },
+  {
+    "start": 1673.44,
+    "duration": 3.0,
+    "text": "I"
+  },
+  {
+    "start": 1676.519,
+    "duration": 3.0,
+    "text": "Plus"
+  },
+  {
+    "start": 1679.72,
+    "duration": 5.439,
+    "text": "uh"
+  },
+  {
+    "start": 1680.679,
+    "duration": 4.48,
+    "text": "value that I want to add"
+  },
+  {
+    "start": 1688.88,
+    "duration": 7.799,
+    "text": "minus blocks of blocks of"
+  },
+  {
+    "start": 1692.24,
+    "duration": 7.0,
+    "text": "I the blocks of uh the one is equal to"
+  },
+  {
+    "start": 1696.679,
+    "duration": 2.561,
+    "text": "this old"
+  },
+  {
+    "start": 1700.24,
+    "duration": 7.0,
+    "text": "one plus this"
+  },
+  {
+    "start": 1704.039,
+    "duration": 5.721,
+    "text": "minus the old one that I had over here"
+  },
+  {
+    "start": 1707.24,
+    "duration": 6.919,
+    "text": "so so array of"
+  },
+  {
+    "start": 1709.76,
+    "duration": 7.44,
+    "text": "I in the original array okay and then"
+  },
+  {
+    "start": 1714.159,
+    "duration": 5.041,
+    "text": "update the array of I so it will just be"
+  },
+  {
+    "start": 1717.2,
+    "duration": 4.92,
+    "text": "like it's simple it's like I just"
+  },
+  {
+    "start": 1719.2,
+    "duration": 6.04,
+    "text": "rearranged it a little bit subtract the"
+  },
+  {
+    "start": 1722.12,
+    "duration": 6.12,
+    "text": "old one add the new one that's"
+  },
+  {
+    "start": 1725.24,
+    "duration": 3.0,
+    "text": "it"
+  },
+  {
+    "start": 1728.84,
+    "duration": 4.88,
+    "text": "simple"
+  },
+  {
+    "start": 1730.44,
+    "duration": 5.839,
+    "text": "so that was basically about it let's try"
+  },
+  {
+    "start": 1733.72,
+    "duration": 2.559,
+    "text": "to code"
+  },
+  {
+    "start": 1736.399,
+    "duration": 6.0,
+    "text": "this"
+  },
+  {
+    "start": 1738.64,
+    "duration": 7.48,
+    "text": "simple okay so let's start to um code"
+  },
+  {
+    "start": 1742.399,
+    "duration": 5.88,
+    "text": "this now and here I will say that um"
+  },
+  {
+    "start": 1746.12,
+    "duration": 5.039,
+    "text": "it's very simple first I have to make"
+  },
+  {
+    "start": 1748.279,
+    "duration": 4.841,
+    "text": "this pre-processing array I have already"
+  },
+  {
+    "start": 1751.159,
+    "duration": 3.681,
+    "text": "shown the dry and done everything notes"
+  },
+  {
+    "start": 1753.12,
+    "duration": 4.0,
+    "text": "will be in the description below this"
+  },
+  {
+    "start": 1754.84,
+    "duration": 4.52,
+    "text": "code sample will be also in the"
+  },
+  {
+    "start": 1757.12,
+    "duration": 5.0,
+    "text": "description below and here what I'm"
+  },
+  {
+    "start": 1759.36,
+    "duration": 4.039,
+    "text": "going to do is I'm going to close this"
+  },
+  {
+    "start": 1762.12,
+    "duration": 6.159,
+    "text": "make it look"
+  },
+  {
+    "start": 1763.399,
+    "duration": 6.041,
+    "text": "more bigger and nice so you can"
+  },
+  {
+    "start": 1768.279,
+    "duration": 3.561,
+    "text": "see it"
+  },
+  {
+    "start": 1769.44,
+    "duration": 5.2,
+    "text": "clearly that should be"
+  },
+  {
+    "start": 1771.84,
+    "duration": 4.64,
+    "text": "enough good enough cool check out the"
+  },
+  {
+    "start": 1774.64,
+    "duration": 4.68,
+    "text": "links in the description below for the"
+  },
+  {
+    "start": 1776.48,
+    "duration": 4.64,
+    "text": "code sample and the everything now let's"
+  },
+  {
+    "start": 1779.32,
+    "duration": 3.92,
+    "text": "say"
+  },
+  {
+    "start": 1781.12,
+    "duration": 6.32,
+    "text": "in"
+  },
+  {
+    "start": 1783.24,
+    "duration": 8.279,
+    "text": "my array is equal to whatever you want"
+  },
+  {
+    "start": 1787.44,
+    "duration": 8.88,
+    "text": "to put 1 3 5 2"
+  },
+  {
+    "start": 1791.519,
+    "duration": 9.28,
+    "text": "7 6 3 1"
+  },
+  {
+    "start": 1796.32,
+    "duration": 6.04,
+    "text": "48 this what we have over here in 10 is"
+  },
+  {
+    "start": 1800.799,
+    "duration": 7.88,
+    "text": "equal to array"
+  },
+  {
+    "start": 1802.36,
+    "duration": 7.4,
+    "text": "dot length now build a logs array what"
+  },
+  {
+    "start": 1808.679,
+    "duration": 6.84,
+    "text": "is square"
+  },
+  {
+    "start": 1809.76,
+    "duration": 10.96,
+    "text": "root is equal to integer value of math"
+  },
+  {
+    "start": 1815.519,
+    "duration": 9.201,
+    "text": "dot square root of n okay blocks array"
+  },
+  {
+    "start": 1820.72,
+    "duration": 5.72,
+    "text": "will be of what size square root so"
+  },
+  {
+    "start": 1824.72,
+    "duration": 5.76,
+    "text": "square root square root should be the"
+  },
+  {
+    "start": 1826.44,
+    "duration": 7.88,
+    "text": "last index to square root + 1 I'd say"
+  },
+  {
+    "start": 1830.48,
+    "duration": 3.84,
+    "text": "blocks is equal to new"
+  },
+  {
+    "start": 1835.24,
+    "duration": 4.439,
+    "text": "int this is very simple we showed the"
+  },
+  {
+    "start": 1837.76,
+    "duration": 4.6,
+    "text": "dry run for this so for"
+  },
+  {
+    "start": 1839.679,
+    "duration": 4.441,
+    "text": "example this was nine so the last"
+  },
+  {
+    "start": 1842.36,
+    "duration": 5.52,
+    "text": "element that I need should be square"
+  },
+  {
+    "start": 1844.12,
+    "duration": 5.96,
+    "text": "root of 9 so three at least is I need"
+  },
+  {
+    "start": 1847.88,
+    "duration": 3.799,
+    "text": "okay that's the number of indexes we"
+  },
+  {
+    "start": 1850.08,
+    "duration": 2.76,
+    "text": "have every index has a size of square"
+  },
+  {
+    "start": 1851.679,
+    "duration": 3.321,
+    "text": "root of"
+  },
+  {
+    "start": 1852.84,
+    "duration": 7.0,
+    "text": "it"
+  },
+  {
+    "start": 1855.0,
+    "duration": 8.6,
+    "text": "um okay I will have a blocks"
+  },
+  {
+    "start": 1859.84,
+    "duration": 7.6,
+    "text": "ID initially let's say it's minus one I"
+  },
+  {
+    "start": 1863.6,
+    "duration": 9.36,
+    "text": "will now try to build my block array for"
+  },
+  {
+    "start": 1867.44,
+    "duration": 5.52,
+    "text": "in I is equal to z i is uh less"
+  },
+  {
+    "start": 1874.48,
+    "duration": 3.84,
+    "text": "than n and"
+  },
+  {
+    "start": 1879.48,
+    "duration": 3.919,
+    "text": "i++ what I want to do"
+  },
+  {
+    "start": 1886.159,
+    "duration": 4.52,
+    "text": "is"
+  },
+  {
+    "start": 1888.48,
+    "duration": 4.039,
+    "text": "start from I is equal to 0 then 1 then"
+  },
+  {
+    "start": 1890.679,
+    "duration": 5.72,
+    "text": "two then I know a block change is"
+  },
+  {
+    "start": 1892.519,
+    "duration": 8.4,
+    "text": "required 3 4 5 block change is required"
+  },
+  {
+    "start": 1896.399,
+    "duration": 6.681,
+    "text": "6 7 8 a block change is required nine so"
+  },
+  {
+    "start": 1900.919,
+    "duration": 4.801,
+    "text": "0 1 2 you can see these are in the"
+  },
+  {
+    "start": 1903.08,
+    "duration": 5.319,
+    "text": "remainers of square root of n square"
+  },
+  {
+    "start": 1905.72,
+    "duration": 5.839,
+    "text": "root of n is let's say these are all"
+  },
+  {
+    "start": 1908.399,
+    "duration": 7.4,
+    "text": "multiples of square root of n so 0 is"
+  },
+  {
+    "start": 1911.559,
+    "duration": 6.441,
+    "text": "there three is there six is there 9 is"
+  },
+  {
+    "start": 1915.799,
+    "duration": 5.921,
+    "text": "there if"
+  },
+  {
+    "start": 1918.0,
+    "duration": 6.2,
+    "text": "the index I'm currently at modulo square"
+  },
+  {
+    "start": 1921.72,
+    "duration": 4.919,
+    "text": "root of n becomes zero I know my new"
+  },
+  {
+    "start": 1924.2,
+    "duration": 2.439,
+    "text": "block is"
+  },
+  {
+    "start": 1928.72,
+    "duration": 7.079,
+    "text": "starting new block is starting I will"
+  },
+  {
+    "start": 1932.279,
+    "duration": 5.841,
+    "text": "say block ID"
+  },
+  {
+    "start": 1935.799,
+    "duration": 7.521,
+    "text": "Plus+ okay other than that I will just"
+  },
+  {
+    "start": 1938.12,
+    "duration": 7.159,
+    "text": "keep adding in the blocks of ID blocks"
+  },
+  {
+    "start": 1943.32,
+    "duration": 5.68,
+    "text": "of block"
+  },
+  {
+    "start": 1945.279,
+    "duration": 6.441,
+    "text": "ID plus equal to R of"
+  },
+  {
+    "start": 1949.0,
+    "duration": 5.48,
+    "text": "I this is how my blocks array will be"
+  },
+  {
+    "start": 1951.72,
+    "duration": 4.319,
+    "text": "created this array over here I will add"
+  },
+  {
+    "start": 1954.48,
+    "duration": 3.439,
+    "text": "one then three then five then it will be"
+  },
+  {
+    "start": 1956.039,
+    "duration": 3.801,
+    "text": "like okay now you are at index number"
+  },
+  {
+    "start": 1957.919,
+    "duration": 3.6,
+    "text": "three so you have to change come to the"
+  },
+  {
+    "start": 1959.84,
+    "duration": 4.079,
+    "text": "next one so now it will start adding"
+  },
+  {
+    "start": 1961.519,
+    "duration": 4.441,
+    "text": "from index to index number one it will"
+  },
+  {
+    "start": 1963.919,
+    "duration": 3.801,
+    "text": "add 2 7 six then you will be at index"
+  },
+  {
+    "start": 1965.96,
+    "duration": 4.839,
+    "text": "number six It'll like okay now you're at"
+  },
+  {
+    "start": 1967.72,
+    "duration": 5.6,
+    "text": "index number six new multiple so move"
+  },
+  {
+    "start": 1970.799,
+    "duration": 4.36,
+    "text": "forward it will move forward to"
+  },
+  {
+    "start": 1973.32,
+    "duration": 4.56,
+    "text": "two"
+  },
+  {
+    "start": 1975.159,
+    "duration": 4.4,
+    "text": "Okay sounds good now you can do any"
+  },
+  {
+    "start": 1977.88,
+    "duration": 4.2,
+    "text": "query in this example let's say we will"
+  },
+  {
+    "start": 1979.559,
+    "duration": 2.521,
+    "text": "do the sum"
+  },
+  {
+    "start": 1982.48,
+    "duration": 5.96,
+    "text": "query so"
+  },
+  {
+    "start": 1985.2,
+    "duration": 6.64,
+    "text": "query public static"
+  },
+  {
+    "start": 1988.44,
+    "duration": 5.8,
+    "text": "int query you're going to pass the"
+  },
+  {
+    "start": 1991.84,
+    "duration": 5.559,
+    "text": "original"
+  },
+  {
+    "start": 1994.24,
+    "duration": 6.08,
+    "text": "array as well as"
+  },
+  {
+    "start": 1997.399,
+    "duration": 6.52,
+    "text": "blocks I need an"
+  },
+  {
+    "start": 2000.32,
+    "duration": 6.239,
+    "text": "left right and I will also pass the"
+  },
+  {
+    "start": 2003.919,
+    "duration": 4.0,
+    "text": "square root let's say answer is"
+  },
+  {
+    "start": 2006.559,
+    "duration": 5.72,
+    "text": "initially"
+  },
+  {
+    "start": 2007.919,
+    "duration": 4.36,
+    "text": "Z in the end I return the"
+  },
+  {
+    "start": 2012.76,
+    "duration": 4.84,
+    "text": "answer okay now what do I need to do"
+  },
+  {
+    "start": 2015.08,
+    "duration": 5.12,
+    "text": "left part again I've already explained"
+  },
+  {
+    "start": 2017.6,
+    "duration": 10.52,
+    "text": "this so I will just code it left part is"
+  },
+  {
+    "start": 2020.2,
+    "duration": 11.04,
+    "text": "this so while my left modulo square"
+  },
+  {
+    "start": 2028.12,
+    "duration": 7.08,
+    "text": "root is not equal to"
+  },
+  {
+    "start": 2031.24,
+    "duration": 6.36,
+    "text": "zero I know that I in the left hand side"
+  },
+  {
+    "start": 2035.2,
+    "duration": 6.88,
+    "text": "and left should also be less than and"
+  },
+  {
+    "start": 2037.6,
+    "duration": 8.199,
+    "text": "right and left should not be equal to"
+  },
+  {
+    "start": 2042.08,
+    "duration": 10.2,
+    "text": "zero in that case keep adding plus equal"
+  },
+  {
+    "start": 2045.799,
+    "duration": 6.481,
+    "text": "to a RR of left left Plus+ now"
+  },
+  {
+    "start": 2060.599,
+    "duration": 5.24,
+    "text": "middle middle part let's see middle part"
+  },
+  {
+    "start": 2063.72,
+    "duration": 7.119,
+    "text": "if left plus square root of n is less"
+  },
+  {
+    "start": 2065.839,
+    "duration": 7.881,
+    "text": "than equal to so while left plus square"
+  },
+  {
+    "start": 2070.839,
+    "duration": 4.161,
+    "text": "root is less than equal to R I will take"
+  },
+  {
+    "start": 2073.72,
+    "duration": 5.04,
+    "text": "that entire"
+  },
+  {
+    "start": 2075.0,
+    "duration": 7.48,
+    "text": "chunk plus equal to blocks"
+  },
+  {
+    "start": 2078.76,
+    "duration": 7.2,
+    "text": "of that entire chunk as I've written"
+  },
+  {
+    "start": 2082.48,
+    "duration": 5.359,
+    "text": "over here l/ by square root of N and my"
+  },
+  {
+    "start": 2085.96,
+    "duration": 2.879,
+    "text": "number will be increased by square root"
+  },
+  {
+    "start": 2087.839,
+    "duration": 4.24,
+    "text": "of n as"
+  },
+  {
+    "start": 2088.839,
+    "duration": 3.24,
+    "text": "well the"
+  },
+  {
+    "start": 2093.52,
+    "duration": 5.359,
+    "text": "left right"
+  },
+  {
+    "start": 2095.879,
+    "duration": 3.0,
+    "text": "part"
+  },
+  {
+    "start": 2098.92,
+    "duration": 3.24,
+    "text": "if while left and Les left is less than"
+  },
+  {
+    "start": 2101.079,
+    "duration": 6.361,
+    "text": "right"
+  },
+  {
+    "start": 2102.16,
+    "duration": 5.28,
+    "text": "simple less than equal to right just"
+  },
+  {
+    "start": 2110.839,
+    "duration": 3.881,
+    "text": "take that is"
+  },
+  {
+    "start": 2113.0,
+    "duration": 4.119,
+    "text": "it that's"
+  },
+  {
+    "start": 2114.72,
+    "duration": 5.8,
+    "text": "it one more function you have to create"
+  },
+  {
+    "start": 2117.119,
+    "duration": 7.761,
+    "text": "is update how are you going to"
+  },
+  {
+    "start": 2120.52,
+    "duration": 7.76,
+    "text": "update void update I want to update the"
+  },
+  {
+    "start": 2124.88,
+    "duration": 6.08,
+    "text": "blocks array I have to update the"
+  },
+  {
+    "start": 2128.28,
+    "duration": 7.64,
+    "text": "original array in index I I have to"
+  },
+  {
+    "start": 2130.96,
+    "duration": 6.92,
+    "text": "update the new value and I will pass the"
+  },
+  {
+    "start": 2135.92,
+    "duration": 4.52,
+    "text": "square so what I'm going to do is I'm"
+  },
+  {
+    "start": 2137.88,
+    "duration": 6.16,
+    "text": "going to find the block ID"
+  },
+  {
+    "start": 2140.44,
+    "duration": 6.2,
+    "text": "first which block this index lie in that"
+  },
+  {
+    "start": 2144.04,
+    "duration": 5.92,
+    "text": "is simple square root of i/ square root"
+  },
+  {
+    "start": 2146.64,
+    "duration": 7.8,
+    "text": "of n after that"
+  },
+  {
+    "start": 2149.96,
+    "duration": 10.399,
+    "text": "blocks is equal to blocks plus so"
+  },
+  {
+    "start": 2154.44,
+    "duration": 7.919,
+    "text": "blocks of block ID plus equal to new"
+  },
+  {
+    "start": 2160.359,
+    "duration": 6.96,
+    "text": "value minus old"
+  },
+  {
+    "start": 2162.359,
+    "duration": 6.0,
+    "text": "value new value minus old value is AR RR"
+  },
+  {
+    "start": 2167.319,
+    "duration": 3.641,
+    "text": "of"
+  },
+  {
+    "start": 2168.359,
+    "duration": 6.561,
+    "text": "I and then after this I will change AR"
+  },
+  {
+    "start": 2170.96,
+    "duration": 7.52,
+    "text": "RR of I also equal to the new"
+  },
+  {
+    "start": 2174.92,
+    "duration": 3.56,
+    "text": "value uh that's"
+  },
+  {
+    "start": 2185.72,
+    "duration": 3.0,
+    "text": "it"
+  },
+  {
+    "start": 2196.04,
+    "duration": 3.4,
+    "text": "okay sounds"
+  },
+  {
+    "start": 2201.16,
+    "duration": 5.64,
+    "text": "good can also print system"
+  },
+  {
+    "start": 2208.16,
+    "duration": 6.52,
+    "text": "dot out dot print Ln I shared with you"
+  },
+  {
+    "start": 2213.24,
+    "duration": 3.8,
+    "text": "where you might find that doubt in the"
+  },
+  {
+    "start": 2214.68,
+    "duration": 4.08,
+    "text": "left and right but please remember the"
+  },
+  {
+    "start": 2217.04,
+    "duration": 4.319,
+    "text": "maximum Loop that will run it will not"
+  },
+  {
+    "start": 2218.76,
+    "duration": 5.44,
+    "text": "be greater than root 10 that is why"
+  },
+  {
+    "start": 2221.359,
+    "duration": 2.841,
+    "text": "complexity is root"
+  },
+  {
+    "start": 2227.24,
+    "duration": 7.04,
+    "text": "10 let's do"
+  },
+  {
+    "start": 2230.0,
+    "duration": 8.52,
+    "text": "blocks let me run this okay so I run"
+  },
+  {
+    "start": 2234.28,
+    "duration": 4.24,
+    "text": "this I should get 95"
+  },
+  {
+    "start": 2239.76,
+    "duration": 8.72,
+    "text": "88"
+  },
+  {
+    "start": 2242.4,
+    "duration": 9.959,
+    "text": "9588 simple try to get some between um"
+  },
+  {
+    "start": 2248.48,
+    "duration": 3.879,
+    "text": "some between 2 to 7 should give"
+  },
+  {
+    "start": 2257.319,
+    "duration": 9.641,
+    "text": "24"
+  },
+  {
+    "start": 2259.16,
+    "duration": 7.8,
+    "text": "query blocks ARR 27 what is square root"
+  },
+  {
+    "start": 2272.56,
+    "duration": 5.48,
+    "text": "3"
+  },
+  {
+    "start": 2274.16,
+    "duration": 6.84,
+    "text": "24 easy"
+  },
+  {
+    "start": 2278.04,
+    "duration": 6.319,
+    "text": "easy so please remember it's not just"
+  },
+  {
+    "start": 2281.0,
+    "duration": 6.8,
+    "text": "for some this program algorithm now you"
+  },
+  {
+    "start": 2284.359,
+    "duration": 6.401,
+    "text": "can use for anything sum between two two"
+  },
+  {
+    "start": 2287.8,
+    "duration": 4.6,
+    "text": "two indices greatest between two indices"
+  },
+  {
+    "start": 2290.76,
+    "duration": 4.64,
+    "text": "you know like maximum between two"
+  },
+  {
+    "start": 2292.4,
+    "duration": 5.439,
+    "text": "indices average between two indices some"
+  },
+  {
+    "start": 2295.4,
+    "duration": 4.08,
+    "text": "other rule between two indices anything"
+  },
+  {
+    "start": 2297.839,
+    "duration": 4.641,
+    "text": "can"
+  },
+  {
+    "start": 2299.48,
+    "duration": 5.119,
+    "text": "be that you can Sol solve now in square"
+  },
+  {
+    "start": 2302.48,
+    "duration": 4.24,
+    "text": "root of n so I shared with you where you"
+  },
+  {
+    "start": 2304.599,
+    "duration": 4.681,
+    "text": "might find out I shared with you like"
+  },
+  {
+    "start": 2306.72,
+    "duration": 4.92,
+    "text": "the dedicated example and the working"
+  },
+  {
+    "start": 2309.28,
+    "duration": 4.16,
+    "text": "and the steps and all these other things"
+  },
+  {
+    "start": 2311.64,
+    "duration": 3.199,
+    "text": "why we using it check out the links in"
+  },
+  {
+    "start": 2313.44,
+    "duration": 3.24,
+    "text": "the description below this code you can"
+  },
+  {
+    "start": 2314.839,
+    "duration": 3.28,
+    "text": "run directly on your browser as well my"
+  },
+  {
+    "start": 2316.68,
+    "duration": 4.159,
+    "text": "same code I will leave the link in the"
+  },
+  {
+    "start": 2318.119,
+    "duration": 5.161,
+    "text": "description below code and uh"
+  },
+  {
+    "start": 2320.839,
+    "duration": 3.361,
+    "text": "assignments and all the links and"
+  },
+  {
+    "start": 2323.28,
+    "duration": 2.36,
+    "text": "everything can be found in the"
+  },
+  {
+    "start": 2324.2,
+    "duration": 3.68,
+    "text": "description below make sure you like"
+  },
+  {
+    "start": 2325.64,
+    "duration": 3.76,
+    "text": "share and subscribe and I'll post more"
+  },
+  {
+    "start": 2327.88,
+    "duration": 2.68,
+    "text": "videos if you have any questions leave"
+  },
+  {
+    "start": 2329.4,
+    "duration": 3.48,
+    "text": "them in the comment section below if you"
+  },
+  {
+    "start": 2330.56,
+    "duration": 3.6,
+    "text": "have any request for any other video"
+  },
+  {
+    "start": 2332.88,
+    "duration": 3.12,
+    "text": "please leave this in the comment section"
+  },
+  {
+    "start": 2334.16,
+    "duration": 4.36,
+    "text": "of this video and you can share with"
+  },
+  {
+    "start": 2336.0,
+    "duration": 4.16,
+    "text": "using DS with Kunal on social medias"
+  },
+  {
+    "start": 2338.52,
+    "duration": 3.839,
+    "text": "like Twitter and Linkedin and join the"
+  },
+  {
+    "start": 2340.16,
+    "duration": 3.48,
+    "text": "learning public initiative see what"
+  },
+  {
+    "start": 2342.359,
+    "duration": 3.161,
+    "text": "other people are working on ask your"
+  },
+  {
+    "start": 2343.64,
+    "duration": 3.76,
+    "text": "questions over there join our Discord"
+  },
+  {
+    "start": 2345.52,
+    "duration": 2.92,
+    "text": "all the usual stuff thanks a lot for"
+  },
+  {
+    "start": 2347.4,
+    "duration": 3.56,
+    "text": "watching see you in the next one have a"
+  },
+  {
+    "start": 2348.44,
+    "duration": 2.52,
+    "text": "great day"
+  },
+  {
+    "start": 2355.64,
+    "duration": 3.0,
+    "text": "by"
+  }
+]

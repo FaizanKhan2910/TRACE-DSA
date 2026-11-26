@@ -1,0 +1,1707 @@
+[
+  {
+    "start": 3.959,
+    "duration": 2.561,
+    "text": "hey everyone welcome back to my channel"
+  },
+  {
+    "start": 5.04,
+    "duration": 3.4,
+    "text": "another new video in this video we are"
+  },
+  {
+    "start": 6.52,
+    "duration": 3.079,
+    "text": "continuing the D algorithms boot camp"
+  },
+  {
+    "start": 8.44,
+    "duration": 3.48,
+    "text": "and we're doing a very important"
+  },
+  {
+    "start": 9.599,
+    "duration": 4.04,
+    "text": "question so I have started doing some"
+  },
+  {
+    "start": 11.92,
+    "duration": 3.12,
+    "text": "very important questions for the tree"
+  },
+  {
+    "start": 13.639,
+    "duration": 3.4,
+    "text": "data structure like some Advanced"
+  },
+  {
+    "start": 15.04,
+    "duration": 3.12,
+    "text": "questions we're continuing the playlist"
+  },
+  {
+    "start": 17.039,
+    "duration": 2.641,
+    "text": "in order so if you check out the"
+  },
+  {
+    "start": 18.16,
+    "duration": 3.84,
+    "text": "playlist Link in the description below"
+  },
+  {
+    "start": 19.68,
+    "duration": 3.759,
+    "text": "it's exactly in order you can you can"
+  },
+  {
+    "start": 22.0,
+    "duration": 4.199,
+    "text": "follow the exact same order without"
+  },
+  {
+    "start": 23.439,
+    "duration": 4.84,
+    "text": "shuffling it and"
+  },
+  {
+    "start": 26.199,
+    "duration": 3.84,
+    "text": "um yeah that's what we're doing so in"
+  },
+  {
+    "start": 28.279,
+    "duration": 3.521,
+    "text": "this video we're going to do a question"
+  },
+  {
+    "start": 30.039,
+    "duration": 4.961,
+    "text": "that was asked in the Google phone"
+  },
+  {
+    "start": 31.8,
+    "duration": 5.24,
+    "text": "screen so very important question 11,000"
+  },
+  {
+    "start": 35.0,
+    "duration": 4.6,
+    "text": "close to 12,000 thumbs up on lead code"
+  },
+  {
+    "start": 37.04,
+    "duration": 4.999,
+    "text": "hard question it says hard on curly"
+  },
+  {
+    "start": 39.6,
+    "duration": 4.439,
+    "text": "braces it is not a hard question it's"
+  },
+  {
+    "start": 42.039,
+    "duration": 7.081,
+    "text": "just a bit"
+  },
+  {
+    "start": 44.039,
+    "duration": 5.081,
+    "text": "uh it's not it's not hard"
+  },
+  {
+    "start": 49.16,
+    "duration": 4.96,
+    "text": "so let's do this question um what is the"
+  },
+  {
+    "start": 52.199,
+    "duration": 3.0,
+    "text": "question but yeah before we move forward"
+  },
+  {
+    "start": 54.12,
+    "duration": 2.36,
+    "text": "with that check out the links in the"
+  },
+  {
+    "start": 55.199,
+    "duration": 3.481,
+    "text": "description below for the code and"
+  },
+  {
+    "start": 56.48,
+    "duration": 5.16,
+    "text": "assignments and previous lectures and"
+  },
+  {
+    "start": 58.68,
+    "duration": 5.68,
+    "text": "everything um um I think my video was"
+  },
+  {
+    "start": 61.64,
+    "duration": 4.64,
+    "text": "paused for a second but it's fine I'm"
+  },
+  {
+    "start": 64.36,
+    "duration": 4.2,
+    "text": "not that pretty so you don't have to see"
+  },
+  {
+    "start": 66.28,
+    "duration": 4.479,
+    "text": "me the important thing is that you can"
+  },
+  {
+    "start": 68.56,
+    "duration": 6.559,
+    "text": "see the screen and the screen is not"
+  },
+  {
+    "start": 70.759,
+    "duration": 8.881,
+    "text": "hanging so that's the important thing"
+  },
+  {
+    "start": 75.119,
+    "duration": 6.841,
+    "text": "right okay um Let's Talk About It Word"
+  },
+  {
+    "start": 79.64,
+    "duration": 5.839,
+    "text": "ladder let's see what the question is a"
+  },
+  {
+    "start": 81.96,
+    "duration": 8.28,
+    "text": "transformation sequence from word begin"
+  },
+  {
+    "start": 85.479,
+    "duration": 8.28,
+    "text": "word to word end word using a dictionary"
+  },
+  {
+    "start": 90.24,
+    "duration": 7.76,
+    "text": "word list dictionary word"
+  },
+  {
+    "start": 93.759,
+    "duration": 6.921,
+    "text": "list is a sequence of words okay such"
+  },
+  {
+    "start": 98.0,
+    "duration": 4.68,
+    "text": "that these are the conditions every"
+  },
+  {
+    "start": 100.68,
+    "duration": 5.84,
+    "text": "adjacent pair of the words differ by a"
+  },
+  {
+    "start": 102.68,
+    "duration": 5.16,
+    "text": "single letter okay every s of I is okay"
+  },
+  {
+    "start": 106.52,
+    "duration": 4.599,
+    "text": "it should be in"
+  },
+  {
+    "start": 107.84,
+    "duration": 6.879,
+    "text": "the word list and the last one in the"
+  },
+  {
+    "start": 111.119,
+    "duration": 5.6,
+    "text": "series has to be the end word given two"
+  },
+  {
+    "start": 114.719,
+    "duration": 5.72,
+    "text": "words begin word and end"
+  },
+  {
+    "start": 116.719,
+    "duration": 6.161,
+    "text": "word uh return the number of words in"
+  },
+  {
+    "start": 120.439,
+    "duration": 4.521,
+    "text": "the shortest transformation sequence"
+  },
+  {
+    "start": 122.88,
+    "duration": 5.04,
+    "text": "from begin word to end word or zero if"
+  },
+  {
+    "start": 124.96,
+    "duration": 2.96,
+    "text": "no such sequence is"
+  },
+  {
+    "start": 128.119,
+    "duration": 7.681,
+    "text": "possible okay so for example you are"
+  },
+  {
+    "start": 132.879,
+    "duration": 6.041,
+    "text": "given the word hit and you are given the"
+  },
+  {
+    "start": 135.8,
+    "duration": 7.04,
+    "text": "end word cogg and you are given these"
+  },
+  {
+    "start": 138.92,
+    "duration": 7.28,
+    "text": "list of words so you have to make"
+  },
+  {
+    "start": 142.84,
+    "duration": 7.759,
+    "text": "hit from hit you have to make"
+  },
+  {
+    "start": 146.2,
+    "duration": 6.88,
+    "text": "cogg but you can only change"
+  },
+  {
+    "start": 150.599,
+    "duration": 4.241,
+    "text": "you can only change one letter at a time"
+  },
+  {
+    "start": 153.08,
+    "duration": 5.32,
+    "text": "so if you start from"
+  },
+  {
+    "start": 154.84,
+    "duration": 6.36,
+    "text": "hit okay if you start from hit you can"
+  },
+  {
+    "start": 158.4,
+    "duration": 5.96,
+    "text": "select hot because it's changing only"
+  },
+  {
+    "start": 161.2,
+    "duration": 5.2,
+    "text": "one letter which is I then you check hot"
+  },
+  {
+    "start": 164.36,
+    "duration": 5.44,
+    "text": "and then you can select"
+  },
+  {
+    "start": 166.4,
+    "duration": 4.68,
+    "text": "uh dot because it is only changing one"
+  },
+  {
+    "start": 169.8,
+    "duration": 4.84,
+    "text": "letter which is"
+  },
+  {
+    "start": 171.08,
+    "duration": 6.12,
+    "text": "D then you can select uh"
+  },
+  {
+    "start": 174.64,
+    "duration": 6.2,
+    "text": "dog which is only changing one letter"
+  },
+  {
+    "start": 177.2,
+    "duration": 5.84,
+    "text": "which is T then you can select"
+  },
+  {
+    "start": 180.84,
+    "duration": 5.319,
+    "text": "Cog which is only changing one letter"
+  },
+  {
+    "start": 183.04,
+    "duration": 6.24,
+    "text": "which is this D1 and the Cog is the end"
+  },
+  {
+    "start": 186.159,
+    "duration": 7.961,
+    "text": "word that we need so we reached Cog in"
+  },
+  {
+    "start": 189.28,
+    "duration": 8.36,
+    "text": "how many words 1 2 3 4 five"
+  },
+  {
+    "start": 194.12,
+    "duration": 7.28,
+    "text": "words okay simple that's the"
+  },
+  {
+    "start": 197.64,
+    "duration": 6.599,
+    "text": "problem how do we solve this what do we"
+  },
+  {
+    "start": 201.4,
+    "duration": 4.399,
+    "text": "do pause this video think about it think"
+  },
+  {
+    "start": 204.239,
+    "duration": 3.041,
+    "text": "about what we're doing and then we'll"
+  },
+  {
+    "start": 205.799,
+    "duration": 4.681,
+    "text": "get started so how are we going to solve"
+  },
+  {
+    "start": 207.28,
+    "duration": 6.599,
+    "text": "this question um let me first write the"
+  },
+  {
+    "start": 210.48,
+    "duration": 7.319,
+    "text": "question down so this same one we can"
+  },
+  {
+    "start": 213.879,
+    "duration": 6.041,
+    "text": "take hit uh Cog and the list entire list"
+  },
+  {
+    "start": 217.799,
+    "duration": 4.921,
+    "text": "that we have over here hope you can see"
+  },
+  {
+    "start": 219.92,
+    "duration": 5.8,
+    "text": "the screen so my"
+  },
+  {
+    "start": 222.72,
+    "duration": 3.0,
+    "text": "words"
+  },
+  {
+    "start": 226.799,
+    "duration": 5.52,
+    "text": "oh the words that I"
+  },
+  {
+    "start": 229.08,
+    "duration": 3.239,
+    "text": "have where is"
+  },
+  {
+    "start": 235.84,
+    "duration": 6.2,
+    "text": "it here we"
+  },
+  {
+    "start": 237.92,
+    "duration": 4.12,
+    "text": "go the words that I"
+  },
+  {
+    "start": 243.519,
+    "duration": 3.961,
+    "text": "have what are the words that we"
+  },
+  {
+    "start": 249.2,
+    "duration": 5.999,
+    "text": "have hot dot dog lot oh sorry that was"
+  },
+  {
+    "start": 253.48,
+    "duration": 4.2,
+    "text": "Hindi for etc"
+  },
+  {
+    "start": 255.199,
+    "duration": 6.401,
+    "text": "etc I keep forgetting that this is"
+  },
+  {
+    "start": 257.68,
+    "duration": 11.16,
+    "text": "English only Channel but anyway we had"
+  },
+  {
+    "start": 261.6,
+    "duration": 8.84,
+    "text": "dot we had hot we have dog we have a lot"
+  },
+  {
+    "start": 268.84,
+    "duration": 7.48,
+    "text": "we have a lot"
+  },
+  {
+    "start": 270.44,
+    "duration": 9.52,
+    "text": "log we have a cog so from Hit I have to"
+  },
+  {
+    "start": 276.32,
+    "duration": 3.64,
+    "text": "create Cog"
+  },
+  {
+    "start": 280.56,
+    "duration": 6.16,
+    "text": "Cog"
+  },
+  {
+    "start": 282.759,
+    "duration": 7.081,
+    "text": "okay this is my starting word and ending"
+  },
+  {
+    "start": 286.72,
+    "duration": 7.199,
+    "text": "word so what you're going to do is think"
+  },
+  {
+    "start": 289.84,
+    "duration": 6.199,
+    "text": "about it you have to select every every"
+  },
+  {
+    "start": 293.919,
+    "duration": 4.241,
+    "text": "adjacent word should only differ every"
+  },
+  {
+    "start": 296.039,
+    "duration": 4.16,
+    "text": "adjacent word should only differ in one"
+  },
+  {
+    "start": 298.16,
+    "duration": 3.8,
+    "text": "character we're going to use a BFS"
+  },
+  {
+    "start": 300.199,
+    "duration": 5.681,
+    "text": "approach bet for search because we'll be"
+  },
+  {
+    "start": 301.96,
+    "duration": 6.36,
+    "text": "using a q okay so starting put this"
+  },
+  {
+    "start": 305.88,
+    "duration": 3.48,
+    "text": "entire thing in a set so it's easy to"
+  },
+  {
+    "start": 308.32,
+    "duration": 3.36,
+    "text": "look"
+  },
+  {
+    "start": 309.36,
+    "duration": 5.8,
+    "text": "up easy"
+  },
+  {
+    "start": 311.68,
+    "duration": 7.48,
+    "text": "to look up and what I would do is I"
+  },
+  {
+    "start": 315.16,
+    "duration": 4.0,
+    "text": "would uh put in the"
+  },
+  {
+    "start": 320.84,
+    "duration": 6.799,
+    "text": "que I will put in the"
+  },
+  {
+    "start": 324.0,
+    "duration": 6.4,
+    "text": "que my first word which is hit and I"
+  },
+  {
+    "start": 327.639,
+    "duration": 5.361,
+    "text": "will take a length answer"
+  },
+  {
+    "start": 330.4,
+    "duration": 6.96,
+    "text": "initially that is zero I will put hit in"
+  },
+  {
+    "start": 333.0,
+    "duration": 4.36,
+    "text": "it I will remove hit from"
+  },
+  {
+    "start": 338.479,
+    "duration": 5.121,
+    "text": "the"
+  },
+  {
+    "start": 340.56,
+    "duration": 8.079,
+    "text": "Q and I will add all the"
+  },
+  {
+    "start": 343.6,
+    "duration": 6.76,
+    "text": "elements uh all the I will add all the"
+  },
+  {
+    "start": 348.639,
+    "duration": 3.881,
+    "text": "so when I added hit in it I will"
+  },
+  {
+    "start": 350.36,
+    "duration": 4.959,
+    "text": "actually increment it by one whenever"
+  },
+  {
+    "start": 352.52,
+    "duration": 8.92,
+    "text": "you add it increment by"
+  },
+  {
+    "start": 355.319,
+    "duration": 8.561,
+    "text": "one and uh when I remove move hit I will"
+  },
+  {
+    "start": 361.44,
+    "duration": 5.56,
+    "text": "add all the other items that differ by"
+  },
+  {
+    "start": 363.88,
+    "duration": 5.719,
+    "text": "one what all items in the set differ"
+  },
+  {
+    "start": 367.0,
+    "duration": 5.68,
+    "text": "differ by one character hot only so I"
+  },
+  {
+    "start": 369.599,
+    "duration": 6.081,
+    "text": "will add hot in it so that is sequence"
+  },
+  {
+    "start": 372.68,
+    "duration": 4.88,
+    "text": "two for now now I will remove hot and I"
+  },
+  {
+    "start": 375.68,
+    "duration": 6.079,
+    "text": "will add all the"
+  },
+  {
+    "start": 377.56,
+    "duration": 8.639,
+    "text": "items that differ one by hot so there is"
+  },
+  {
+    "start": 381.759,
+    "duration": 9.041,
+    "text": "Dot and there is lot so I will add dot"
+  },
+  {
+    "start": 386.199,
+    "duration": 8.681,
+    "text": "in it and I will add lot in"
+  },
+  {
+    "start": 390.8,
+    "duration": 7.32,
+    "text": "it size three then I will remove Dot and"
+  },
+  {
+    "start": 394.88,
+    "duration": 5.64,
+    "text": "I will add one that remains only one"
+  },
+  {
+    "start": 398.12,
+    "duration": 5.16,
+    "text": "character that is empty sorry not empty"
+  },
+  {
+    "start": 400.52,
+    "duration": 5.72,
+    "text": "only one character that differs from dot"
+  },
+  {
+    "start": 403.28,
+    "duration": 5.56,
+    "text": "dog dog you do know what differs means"
+  },
+  {
+    "start": 406.24,
+    "duration": 6.76,
+    "text": "right so what is the one character"
+  },
+  {
+    "start": 408.84,
+    "duration": 7.52,
+    "text": "difference so in D in D O T I can"
+  },
+  {
+    "start": 413.0,
+    "duration": 8.4,
+    "text": "replace t with G so it will make dog and"
+  },
+  {
+    "start": 416.36,
+    "duration": 5.04,
+    "text": "I have dog over here I cannot make it"
+  },
+  {
+    "start": 428.319,
+    "duration": 3.801,
+    "text": "and also I have to remove these items so"
+  },
+  {
+    "start": 430.479,
+    "duration": 4.761,
+    "text": "I can't add multiple items so I will"
+  },
+  {
+    "start": 432.12,
+    "duration": 6.04,
+    "text": "keep removing also so I I added hit I"
+  },
+  {
+    "start": 435.24,
+    "duration": 5.76,
+    "text": "added hot hot will be removed dot dot"
+  },
+  {
+    "start": 438.16,
+    "duration": 6.12,
+    "text": "will be removed lot lot will be removed"
+  },
+  {
+    "start": 441.0,
+    "duration": 3.28,
+    "text": "dog is added dog will be"
+  },
+  {
+    "start": 445.96,
+    "duration": 8.2,
+    "text": "removed okay then I will remove lot"
+  },
+  {
+    "start": 450.319,
+    "duration": 6.88,
+    "text": "so what is one uh character"
+  },
+  {
+    "start": 454.16,
+    "duration": 6.2,
+    "text": "difference word Cog is not one because"
+  },
+  {
+    "start": 457.199,
+    "duration": 7.84,
+    "text": "it has two character differences C and G"
+  },
+  {
+    "start": 460.36,
+    "duration": 9.119,
+    "text": "but log is so I will add log over"
+  },
+  {
+    "start": 465.039,
+    "duration": 4.44,
+    "text": "here okay incremented by"
+  },
+  {
+    "start": 471.08,
+    "duration": 9.92,
+    "text": "one all right then I will remove"
+  },
+  {
+    "start": 474.879,
+    "duration": 7.681,
+    "text": "dog and I will add Cog over here"
+  },
+  {
+    "start": 481.0,
+    "duration": 4.44,
+    "text": "actually I will not add Cog because I"
+  },
+  {
+    "start": 482.56,
+    "duration": 5.84,
+    "text": "have already found Cog so CG is my last"
+  },
+  {
+    "start": 485.44,
+    "duration": 4.24,
+    "text": "element so the destination element so I"
+  },
+  {
+    "start": 488.4,
+    "duration": 5.88,
+    "text": "found"
+  },
+  {
+    "start": 489.68,
+    "duration": 7.6,
+    "text": "Cog um or this will be five I found"
+  },
+  {
+    "start": 494.28,
+    "duration": 3.0,
+    "text": "Cog"
+  },
+  {
+    "start": 497.319,
+    "duration": 5.44,
+    "text": "so no this will be four only because I"
+  },
+  {
+    "start": 499.68,
+    "duration": 6.04,
+    "text": "did not add Cog so I found CG I will"
+  },
+  {
+    "start": 502.759,
+    "duration": 5.481,
+    "text": "just return this + one answer plus one"
+  },
+  {
+    "start": 505.72,
+    "duration": 5.52,
+    "text": "five is the answer yeah"
+  },
+  {
+    "start": 508.24,
+    "duration": 3.0,
+    "text": "correct"
+  },
+  {
+    "start": 511.28,
+    "duration": 7.199,
+    "text": "so create the set use the que uh using a"
+  },
+  {
+    "start": 515.2,
+    "duration": 5.56,
+    "text": "BFS approach because uh you know think"
+  },
+  {
+    "start": 518.479,
+    "duration": 4.521,
+    "text": "about the intuition we have to do Word"
+  },
+  {
+    "start": 520.76,
+    "duration": 4.24,
+    "text": "Lookup we have to check that only one"
+  },
+  {
+    "start": 523.0,
+    "duration": 4.279,
+    "text": "character difference should be there so"
+  },
+  {
+    "start": 525.0,
+    "duration": 4.72,
+    "text": "what is going to be the time"
+  },
+  {
+    "start": 527.279,
+    "duration": 3.881,
+    "text": "complexity space complexity is O of n"
+  },
+  {
+    "start": 529.72,
+    "duration": 4.32,
+    "text": "for the number of words because that's"
+  },
+  {
+    "start": 531.16,
+    "duration": 5.359,
+    "text": "the number of words we are storing"
+  },
+  {
+    "start": 534.04,
+    "duration": 5.76,
+    "text": "but if we"
+  },
+  {
+    "start": 536.519,
+    "duration": 5.481,
+    "text": "have the length let's say length L of"
+  },
+  {
+    "start": 539.8,
+    "duration": 5.64,
+    "text": "the word is called if is"
+  },
+  {
+    "start": 542.0,
+    "duration": 7.04,
+    "text": "M and uh for every word we are checking"
+  },
+  {
+    "start": 545.44,
+    "duration": 4.8,
+    "text": "in the set which is the word that is uh"
+  },
+  {
+    "start": 549.04,
+    "duration": 6.039,
+    "text": "one"
+  },
+  {
+    "start": 550.24,
+    "duration": 7.0,
+    "text": "difference so this into this so n into"
+  },
+  {
+    "start": 555.079,
+    "duration": 6.481,
+    "text": "n n"
+  },
+  {
+    "start": 557.24,
+    "duration": 9.92,
+    "text": "s and we are doing it for every"
+  },
+  {
+    "start": 561.56,
+    "duration": 5.6,
+    "text": "character also n² into M that's the"
+  },
+  {
+    "start": 568.12,
+    "duration": 5.48,
+    "text": "complexity now if this is not clear it"
+  },
+  {
+    "start": 570.72,
+    "duration": 5.72,
+    "text": "will be more clear when I code it"
+  },
+  {
+    "start": 573.6,
+    "duration": 6.0,
+    "text": "okay time"
+  },
+  {
+    "start": 576.44,
+    "duration": 4.2,
+    "text": "complexity it's very simple CU for every"
+  },
+  {
+    "start": 579.6,
+    "duration": 5.12,
+    "text": "word I'm"
+  },
+  {
+    "start": 580.64,
+    "duration": 6.879,
+    "text": "checking how many words are there"
+  },
+  {
+    "start": 584.72,
+    "duration": 4.239,
+    "text": "that differ by one so every word I'll be"
+  },
+  {
+    "start": 587.519,
+    "duration": 5.161,
+    "text": "checking in the worst"
+  },
+  {
+    "start": 588.959,
+    "duration": 7.081,
+    "text": "case so that's n n into n and whenever"
+  },
+  {
+    "start": 592.68,
+    "duration": 5.599,
+    "text": "I'm checking I'm checking each character"
+  },
+  {
+    "start": 596.04,
+    "duration": 3.68,
+    "text": "so multiplied by m which is the total"
+  },
+  {
+    "start": 598.279,
+    "duration": 4.401,
+    "text": "character"
+  },
+  {
+    "start": 599.72,
+    "duration": 5.28,
+    "text": "count o of n"
+  },
+  {
+    "start": 602.68,
+    "duration": 4.8,
+    "text": "is the"
+  },
+  {
+    "start": 605.0,
+    "duration": 5.88,
+    "text": "space let's code it it will be making"
+  },
+  {
+    "start": 607.48,
+    "duration": 5.88,
+    "text": "much more sense okay um so let's see how"
+  },
+  {
+    "start": 610.88,
+    "duration": 5.36,
+    "text": "we're going to solve this question here"
+  },
+  {
+    "start": 613.36,
+    "duration": 6.64,
+    "text": "I have lead code copy"
+  },
+  {
+    "start": 616.24,
+    "duration": 7.64,
+    "text": "this create a new file it's"
+  },
+  {
+    "start": 620.0,
+    "duration": 6.839,
+    "text": "called ladder uh what's the name of the"
+  },
+  {
+    "start": 623.88,
+    "duration": 2.959,
+    "text": "problem Word"
+  },
+  {
+    "start": 627.2,
+    "duration": 3.84,
+    "text": "ladder um"
+  },
+  {
+    "start": 634.64,
+    "duration": 4.68,
+    "text": "public in ladder length whatever"
+  },
+  {
+    "start": 636.6,
+    "duration": 4.0,
+    "text": "whatever okay by the way the code can be"
+  },
+  {
+    "start": 639.32,
+    "duration": 3.48,
+    "text": "found in the description below you can"
+  },
+  {
+    "start": 640.6,
+    "duration": 5.239,
+    "text": "run it on your system directly on your"
+  },
+  {
+    "start": 642.8,
+    "duration": 5.479,
+    "text": "browser and let's see how we can do this"
+  },
+  {
+    "start": 645.839,
+    "duration": 5.761,
+    "text": "so in ladder"
+  },
+  {
+    "start": 648.279,
+    "duration": 6.56,
+    "text": "length uh I have my begin word end word"
+  },
+  {
+    "start": 651.6,
+    "duration": 5.96,
+    "text": "and word list okay okay so let's start"
+  },
+  {
+    "start": 654.839,
+    "duration": 7.841,
+    "text": "to code this here I can say that first"
+  },
+  {
+    "start": 657.56,
+    "duration": 8.279,
+    "text": "of all base condition and I will have"
+  },
+  {
+    "start": 662.68,
+    "duration": 7.159,
+    "text": "my this thing side by side so you can"
+  },
+  {
+    "start": 665.839,
+    "duration": 5.841,
+    "text": "see the base condition if end word is"
+  },
+  {
+    "start": 669.839,
+    "duration": 3.401,
+    "text": "not in the"
+  },
+  {
+    "start": 671.68,
+    "duration": 4.159,
+    "text": "list"
+  },
+  {
+    "start": 673.24,
+    "duration": 5.32,
+    "text": "okay word list"
+  },
+  {
+    "start": 675.839,
+    "duration": 4.521,
+    "text": "dot"
+  },
+  {
+    "start": 678.56,
+    "duration": 5.16,
+    "text": "contains"
+  },
+  {
+    "start": 680.36,
+    "duration": 3.36,
+    "text": "what end"
+  },
+  {
+    "start": 684.76,
+    "duration": 6.28,
+    "text": "word"
+  },
+  {
+    "start": 687.56,
+    "duration": 5.959,
+    "text": "okay in that case just return zero I"
+  },
+  {
+    "start": 691.04,
+    "duration": 5.599,
+    "text": "have to create a"
+  },
+  {
+    "start": 693.519,
+    "duration": 7.721,
+    "text": "set you can call these all the visited"
+  },
+  {
+    "start": 696.639,
+    "duration": 6.041,
+    "text": "ones new hash set not a problem I will"
+  },
+  {
+    "start": 701.24,
+    "duration": 4.56,
+    "text": "create a"
+  },
+  {
+    "start": 702.68,
+    "duration": 8.08,
+    "text": "que of type"
+  },
+  {
+    "start": 705.8,
+    "duration": 8.0,
+    "text": "string just call it short Q"
+  },
+  {
+    "start": 710.76,
+    "duration": 6.759,
+    "text": "New Link"
+  },
+  {
+    "start": 713.8,
+    "duration": 6.479,
+    "text": "list and I will add the first begin word"
+  },
+  {
+    "start": 717.519,
+    "duration": 7.041,
+    "text": "in it"
+  },
+  {
+    "start": 720.279,
+    "duration": 8.24,
+    "text": "okay I will take a length zero for now"
+  },
+  {
+    "start": 724.56,
+    "duration": 7.279,
+    "text": "same breadth for search while Q"
+  },
+  {
+    "start": 728.519,
+    "duration": 3.32,
+    "text": "is not"
+  },
+  {
+    "start": 732.0,
+    "duration": 7.12,
+    "text": "empty I will take the size which"
+  },
+  {
+    "start": 735.48,
+    "duration": 7.96,
+    "text": "is Q do size and I will increase the"
+  },
+  {
+    "start": 739.12,
+    "duration": 7.76,
+    "text": "length by one and I will add all"
+  },
+  {
+    "start": 743.44,
+    "duration": 6.28,
+    "text": "the I will check for every element so"
+  },
+  {
+    "start": 746.88,
+    "duration": 5.399,
+    "text": "what are we doing over here uh I'm"
+  },
+  {
+    "start": 749.72,
+    "duration": 5.479,
+    "text": "removing that many number of items it's"
+  },
+  {
+    "start": 752.279,
+    "duration": 5.881,
+    "text": "it's breath for search nothing new for"
+  },
+  {
+    "start": 755.199,
+    "duration": 2.961,
+    "text": "in I"
+  },
+  {
+    "start": 758.6,
+    "duration": 9.599,
+    "text": "is equal to Zer I is less than size and"
+  },
+  {
+    "start": 765.0,
+    "duration": 6.8,
+    "text": "i++ I will get my current string which"
+  },
+  {
+    "start": 768.199,
+    "duration": 6.361,
+    "text": "is just remove from the Q so I remove"
+  },
+  {
+    "start": 771.8,
+    "duration": 5.0,
+    "text": "hit from the Q when I have removed hit"
+  },
+  {
+    "start": 774.56,
+    "duration": 5.6,
+    "text": "this current is hit for example I will"
+  },
+  {
+    "start": 776.8,
+    "duration": 6.12,
+    "text": "check in the remaining set all the items"
+  },
+  {
+    "start": 780.16,
+    "duration": 6.6,
+    "text": "that all the items that differ by one"
+  },
+  {
+    "start": 782.92,
+    "duration": 3.84,
+    "text": "character so what I can do"
+  },
+  {
+    "start": 787.92,
+    "duration": 5.12,
+    "text": "is what I can do"
+  },
+  {
+    "start": 790.199,
+    "duration": 8.481,
+    "text": "is"
+  },
+  {
+    "start": 793.04,
+    "duration": 8.12,
+    "text": "uh all the items for in J is equal to"
+  },
+  {
+    "start": 798.68,
+    "duration": 3.839,
+    "text": "zero J is less than for all the"
+  },
+  {
+    "start": 801.16,
+    "duration": 6.119,
+    "text": "characters for"
+  },
+  {
+    "start": 802.519,
+    "duration": 8.401,
+    "text": "example current dot"
+  },
+  {
+    "start": 807.279,
+    "duration": 7.041,
+    "text": "length and J Plus+ for every character I"
+  },
+  {
+    "start": 810.92,
+    "duration": 6.719,
+    "text": "will check so for car CH is equal to"
+  },
+  {
+    "start": 814.32,
+    "duration": 7.4,
+    "text": "let's say I start from a c is less than"
+  },
+  {
+    "start": 817.639,
+    "duration": 4.081,
+    "text": "equal to zed"
+  },
+  {
+    "start": 822.959,
+    "duration": 6.68,
+    "text": "C++ I will try"
+  },
+  {
+    "start": 825.279,
+    "duration": 7.12,
+    "text": "to change the character um that I have"
+  },
+  {
+    "start": 829.639,
+    "duration": 5.801,
+    "text": "taken for hit H I will try to change it"
+  },
+  {
+    "start": 832.399,
+    "duration": 5.961,
+    "text": "by let's say AIT and then I will check"
+  },
+  {
+    "start": 835.44,
+    "duration": 7.759,
+    "text": "if AIT exists over here if it doesn't"
+  },
+  {
+    "start": 838.36,
+    "duration": 10.039,
+    "text": "check for bit CIT dit EIT and then"
+  },
+  {
+    "start": 843.199,
+    "duration": 10.521,
+    "text": "similarly do h a hbt h c and then do h i"
+  },
+  {
+    "start": 848.399,
+    "duration": 7.12,
+    "text": "a h i b h i c h i d h i e so on and so"
+  },
+  {
+    "start": 853.72,
+    "duration": 4.64,
+    "text": "forth do you get"
+  },
+  {
+    "start": 855.519,
+    "duration": 7.401,
+    "text": "it"
+  },
+  {
+    "start": 858.36,
+    "duration": 7.279,
+    "text": "so temp of if I create a I have to"
+  },
+  {
+    "start": 862.92,
+    "duration": 4.599,
+    "text": "create a character of character"
+  },
+  {
+    "start": 865.639,
+    "duration": 4.081,
+    "text": "array"
+  },
+  {
+    "start": 867.519,
+    "duration": 4.721,
+    "text": "temporary okay"
+  },
+  {
+    "start": 869.72,
+    "duration": 7.0,
+    "text": "this will be current door to"
+  },
+  {
+    "start": 872.24,
+    "duration": 7.56,
+    "text": "C car array I will say temp of"
+  },
+  {
+    "start": 876.72,
+    "duration": 7.52,
+    "text": "J is equal to this character then"
+  },
+  {
+    "start": 879.8,
+    "duration": 6.88,
+    "text": "check new word is equal to what new"
+  },
+  {
+    "start": 884.24,
+    "duration": 4.48,
+    "text": "string"
+  },
+  {
+    "start": 886.68,
+    "duration": 5.04,
+    "text": "temp okay I hope you're able to"
+  },
+  {
+    "start": 888.72,
+    "duration": 7.6,
+    "text": "understand this I found hit I will"
+  },
+  {
+    "start": 891.72,
+    "duration": 7.76,
+    "text": "change the zero index of the hit"
+  },
+  {
+    "start": 896.32,
+    "duration": 8.079,
+    "text": "hit with all the characters so first I"
+  },
+  {
+    "start": 899.48,
+    "duration": 8.719,
+    "text": "will check for a it bit CIT dit if it"
+  },
+  {
+    "start": 904.399,
+    "duration": 7.521,
+    "text": "exists over here in my set after that I"
+  },
+  {
+    "start": 908.199,
+    "duration": 7.161,
+    "text": "will check for H A hbt after that I will"
+  },
+  {
+    "start": 911.92,
+    "duration": 6.32,
+    "text": "check for h a h i so every index in my"
+  },
+  {
+    "start": 915.36,
+    "duration": 5.599,
+    "text": "word I will replace with all 26"
+  },
+  {
+    "start": 918.24,
+    "duration": 6.56,
+    "text": "characters of the English"
+  },
+  {
+    "start": 920.959,
+    "duration": 6.641,
+    "text": "alphabet okay if this new"
+  },
+  {
+    "start": 924.8,
+    "duration": 6.68,
+    "text": "word"
+  },
+  {
+    "start": 927.6,
+    "duration": 3.88,
+    "text": "equals my end"
+  },
+  {
+    "start": 932.16,
+    "duration": 4.679,
+    "text": "word I have found my answer and that is"
+  },
+  {
+    "start": 935.56,
+    "duration": 6.719,
+    "text": "l+"
+  },
+  {
+    "start": 936.839,
+    "duration": 7.641,
+    "text": "one I can say otherwise if the word list"
+  },
+  {
+    "start": 942.279,
+    "duration": 6.0,
+    "text": "contains the new"
+  },
+  {
+    "start": 944.48,
+    "duration": 3.799,
+    "text": "word and it is not"
+  },
+  {
+    "start": 949.88,
+    "duration": 4.319,
+    "text": "visited like I've already not visited"
+  },
+  {
+    "start": 956.12,
+    "duration": 4.48,
+    "text": "it in that case add it in q"
+  },
+  {
+    "start": 962.0,
+    "duration": 6.759,
+    "text": "and remove also add it from"
+  },
+  {
+    "start": 965.8,
+    "duration": 4.959,
+    "text": "visited like I have visited this you can"
+  },
+  {
+    "start": 968.759,
+    "duration": 3.64,
+    "text": "also do it by Vera and start removing it"
+  },
+  {
+    "start": 970.759,
+    "duration": 5.32,
+    "text": "but this is"
+  },
+  {
+    "start": 972.399,
+    "duration": 8.161,
+    "text": "fine if nothing else works in the"
+  },
+  {
+    "start": 976.079,
+    "duration": 6.641,
+    "text": "end return zero means there is no"
+  },
+  {
+    "start": 980.56,
+    "duration": 4.36,
+    "text": "answer and that's it that's it so that's"
+  },
+  {
+    "start": 982.72,
+    "duration": 5.239,
+    "text": "why the complexity this will be constant"
+  },
+  {
+    "start": 984.92,
+    "duration": 5.719,
+    "text": "as as it is because uh this is like a"
+  },
+  {
+    "start": 987.959,
+    "duration": 7.921,
+    "text": "fixed number of characters 26 but we're"
+  },
+  {
+    "start": 990.639,
+    "duration": 9.56,
+    "text": "doing this for m so this m multiplied"
+  },
+  {
+    "start": 995.88,
+    "duration": 10.319,
+    "text": "by outer two Loops so n into"
+  },
+  {
+    "start": 1000.199,
+    "duration": 8.361,
+    "text": "n so n so this is n cross M times n so"
+  },
+  {
+    "start": 1006.199,
+    "duration": 4.921,
+    "text": "this this entire thing see is M it is"
+  },
+  {
+    "start": 1008.56,
+    "duration": 4.04,
+    "text": "inside a for Loop so M multiplied by"
+  },
+  {
+    "start": 1011.12,
+    "duration": 2.519,
+    "text": "number of times this for Loop is running"
+  },
+  {
+    "start": 1012.6,
+    "duration": 4.44,
+    "text": "which is"
+  },
+  {
+    "start": 1013.639,
+    "duration": 7.281,
+    "text": "n so n into M multiplied by number and"
+  },
+  {
+    "start": 1017.04,
+    "duration": 7.08,
+    "text": "this Loop is running n n into M into n"
+  },
+  {
+    "start": 1020.92,
+    "duration": 4.6,
+    "text": "N2 m is the time complexity oh that's it"
+  },
+  {
+    "start": 1024.12,
+    "duration": 2.6,
+    "text": "problem solved okay well thanks a lot"
+  },
+  {
+    "start": 1025.52,
+    "duration": 2.6,
+    "text": "for watching you can find the code in"
+  },
+  {
+    "start": 1026.72,
+    "duration": 2.479,
+    "text": "the description below and if you have"
+  },
+  {
+    "start": 1028.12,
+    "duration": 3.88,
+    "text": "any question let me know in the comment"
+  },
+  {
+    "start": 1029.199,
+    "duration": 4.24,
+    "text": "section below and um yeah keep following"
+  },
+  {
+    "start": 1032.0,
+    "duration": 3.319,
+    "text": "the playlist work hard good luck for"
+  },
+  {
+    "start": 1033.439,
+    "duration": 3.281,
+    "text": "your interviews any questions you have"
+  },
+  {
+    "start": 1035.319,
+    "duration": 4.36,
+    "text": "any suggestions you have let me know in"
+  },
+  {
+    "start": 1036.72,
+    "duration": 5.76,
+    "text": "the comments uh links code everything"
+  },
+  {
+    "start": 1039.679,
+    "duration": 4.321,
+    "text": "previous videos uh assignments can be"
+  },
+  {
+    "start": 1042.48,
+    "duration": 2.68,
+    "text": "found in the description below if you"
+  },
+  {
+    "start": 1044.0,
+    "duration": 2.439,
+    "text": "want to support the channel make sure"
+  },
+  {
+    "start": 1045.16,
+    "duration": 2.72,
+    "text": "you like share and subscribe join the"
+  },
+  {
+    "start": 1046.439,
+    "duration": 4.24,
+    "text": "learning public initiative you can take"
+  },
+  {
+    "start": 1047.88,
+    "duration": 5.64,
+    "text": "a screenshot and share with #d with"
+  },
+  {
+    "start": 1050.679,
+    "duration": 4.24,
+    "text": "Kunal on socials and um yeah check out"
+  },
+  {
+    "start": 1053.52,
+    "duration": 4.64,
+    "text": "the previous videos are very good new"
+  },
+  {
+    "start": 1054.919,
+    "duration": 3.241,
+    "text": "videos are coming and have"
+  },
+  {
+    "start": 1063.52,
+    "duration": 3.0,
+    "text": "fun"
+  }
+]

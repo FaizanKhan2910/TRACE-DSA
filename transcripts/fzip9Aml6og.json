@@ -1,0 +1,6112 @@
+[
+  {
+    "start": 3.76,
+    "duration": 4.14,
+    "text": "Hey everyone welcome back to another video and in this video we are talking about maths for"
+  },
+  {
+    "start": 7.9,
+    "duration": 4.84,
+    "text": "data structures and algorithms. Now this is a two-part video because in this one we will"
+  },
+  {
+    "start": 12.74,
+    "duration": 6.68,
+    "text": "be doing like introduction and complete like bitwise operators, prime numbers and some techniques"
+  },
+  {
+    "start": 19.42,
+    "duration": 7.2,
+    "text": "for that, HCFL CM number theory stuff, square root method, Euclidean algorithms and some"
+  },
+  {
+    "start": 26.62,
+    "duration": 4.44,
+    "text": "modulo properties. That is like a lot of content. Maths is much more than that."
+  },
+  {
+    "start": 31.06,
+    "duration": 5.16,
+    "text": "We have like combinations and like permutations combinations, we have game theory and all these"
+  },
+  {
+    "start": 36.22,
+    "duration": 1.0,
+    "text": "other things."
+  },
+  {
+    "start": 37.22,
+    "duration": 6.0,
+    "text": "These are like some of the basic ones like that you study in high school but I will be"
+  },
+  {
+    "start": 43.22,
+    "duration": 4.84,
+    "text": "going more over those and some of the other you know topics like Fermat's theorems and"
+  },
+  {
+    "start": 48.06,
+    "duration": 4.52,
+    "text": "Chinese remainder theorem and some of the more advanced level mathematics that they"
+  },
+  {
+    "start": 52.58,
+    "duration": 4.08,
+    "text": "are not going to ask in interviews but it is good to know let us say for complete"
+  },
+  {
+    "start": 56.66,
+    "duration": 2.96,
+    "text": "coding or just for your own good knowledge."
+  },
+  {
+    "start": 59.62,
+    "duration": 4.62,
+    "text": "There are some advanced concepts as well and if you check the GitHub issue of the DSA like"
+  },
+  {
+    "start": 64.24,
+    "duration": 4.68,
+    "text": "the link in the description, this is a separate issue I have created which is one of the advanced"
+  },
+  {
+    "start": 68.92,
+    "duration": 1.0,
+    "text": "concepts."
+  },
+  {
+    "start": 69.92,
+    "duration": 4.56,
+    "text": "So I will be covering these as well and everything that I mentioned in the issues will be covered."
+  },
+  {
+    "start": 74.48,
+    "duration": 1.0,
+    "text": "So let's get started."
+  },
+  {
+    "start": 75.48,
+    "duration": 5.36,
+    "text": "Yeah, before we get started, you know, for those of you who are new to the channel"
+  },
+  {
+    "start": 80.84,
+    "duration": 6.28,
+    "text": "how we say it, we have an entire DSA complete, you know, bootcamp going on."
+  },
+  {
+    "start": 87.12,
+    "duration": 2.0,
+    "text": "It's free, the entire playlist is in the description below."
+  },
+  {
+    "start": 89.12,
+    "duration": 1.0,
+    "text": "make sure you check it out."
+  },
+  {
+    "start": 90.12,
+    "duration": 2.6,
+    "text": "But without further ado, let's get started."
+  },
+  {
+    "start": 92.72,
+    "duration": 3.96,
+    "text": "All right, so let's start with the very first thing, which is bitwise operators, very important"
+  },
+  {
+    "start": 96.68,
+    "duration": 1.0,
+    "text": "topic."
+  },
+  {
+    "start": 97.68,
+    "duration": 6.92,
+    "text": "Also in terms of interview rounds and CP or whatever you want to do is very, very important."
+  },
+  {
+    "start": 104.6,
+    "duration": 3.96,
+    "text": "So bitwise operators, right, bit manipulation, first we have to understand what it is."
+  },
+  {
+    "start": 108.56,
+    "duration": 3.56,
+    "text": "And then we look at some of the concepts and obviously questions."
+  },
+  {
+    "start": 112.12,
+    "duration": 7.28,
+    "text": "So, when we write something like you know A is equal to 10, something like this in Java"
+  },
+  {
+    "start": 119.4,
+    "duration": 4.92,
+    "text": "we write let's say int A is equal to 10 or something or in any language, internally whatever"
+  },
+  {
+    "start": 124.32,
+    "duration": 3.96,
+    "text": "thing that things that you are doing, the video you are watching right now, all the"
+  },
+  {
+    "start": 128.28,
+    "duration": 4.8,
+    "text": "servers that are running, all the applications, intelligent idea that you use internally"
+  },
+  {
+    "start": 133.08,
+    "duration": 6.24,
+    "text": "at the very minute thing, it's all a bunch of zeros and ones."
+  },
+  {
+    "start": 139.32,
+    "duration": 7.4,
+    "text": "And that is what computer understands because, so in the first lecture we learnt about like"
+  },
+  {
+    "start": 146.72,
+    "duration": 3.8,
+    "text": "your programming language that you write that gets converted into let us say machine code,"
+  },
+  {
+    "start": 150.52,
+    "duration": 3.64,
+    "text": "that machine code is understandable by the machine for example, these are like the zeros"
+  },
+  {
+    "start": 154.16,
+    "duration": 4.84,
+    "text": "and ones and we already talked about like we can definitely write in zeros and ones"
+  },
+  {
+    "start": 159.0,
+    "duration": 3.88,
+    "text": "as well but it is like not possible, it was very complex stuff, that is why we have"
+  },
+  {
+    "start": 162.88,
+    "duration": 1.64,
+    "text": "programming languages."
+  },
+  {
+    "start": 164.52,
+    "duration": 3.68,
+    "text": "So that's how numbers get stored like internally."
+  },
+  {
+    "start": 168.2,
+    "duration": 6.48,
+    "text": "This is known as number system, the various number systems, base 10, base 8, base 16, you"
+  },
+  {
+    "start": 174.68,
+    "duration": 6.04,
+    "text": "know, base 2, we'll learn about what this base represents, basically means how many"
+  },
+  {
+    "start": 180.72,
+    "duration": 6.88,
+    "text": "numbers do we have in that particular number theory, like the base concepts."
+  },
+  {
+    "start": 187.6,
+    "duration": 6.08,
+    "text": "For example, if I'm saying, which base concept have we been studying since we"
+  },
+  {
+    "start": 193.68,
+    "duration": 5.68,
+    "text": "were like in kindergarten base 10 why because we have been studying only 10"
+  },
+  {
+    "start": 199.36,
+    "duration": 8.04,
+    "text": "numbers 0 1 2 3 4 5 6 7 8 9 using these 10 numbers we are able to create all the"
+  },
+  {
+    "start": 207.4,
+    "duration": 5.12,
+    "text": "numbers right so that's what we have been studying base 10 numbers is known as"
+  },
+  {
+    "start": 212.52,
+    "duration": 4.32,
+    "text": "decimal number system which number system we have been studying since we were"
+  },
+  {
+    "start": 216.84,
+    "duration": 4.64,
+    "text": "kids decimal number system now we ask Kunal why why are we not studying"
+  },
+  {
+    "start": 221.48,
+    "duration": 6.48,
+    "text": "other number systems. Why are we studying decimal number system? Why do all the finances"
+  },
+  {
+    "start": 227.96,
+    "duration": 5.36,
+    "text": "and all these things, day to day life things, everything has happened on decimal number system,"
+  },
+  {
+    "start": 233.32,
+    "duration": 7.2,
+    "text": "your page numbers of your books or whatever. The reason for that is a very valid reason"
+  },
+  {
+    "start": 240.52,
+    "duration": 4.88,
+    "text": "because you have 10 fingers. So you are able to count it like on 10 numbers, that is why I think."
+  },
+  {
+    "start": 245.4,
+    "duration": 7.12,
+    "text": "not sure maybe if there are some other reason let me know in the comments below but similarly"
+  },
+  {
+    "start": 252.52,
+    "duration": 5.52,
+    "text": "there are other number systems base two number system means binary number system this is what"
+  },
+  {
+    "start": 258.04,
+    "duration": 6.32,
+    "text": "the computer understands so using just zero and one computer can you know make anything"
+  },
+  {
+    "start": 264.36,
+    "duration": 5.12,
+    "text": "that you can in normal language like python or Java or whatever okay and that's what"
+  },
+  {
+    "start": 269.48,
+    "duration": 4.64,
+    "text": "we're going to study about in this lecture how to convert one number system to another"
+  },
+  {
+    "start": 274.12,
+    "duration": 4.84,
+    "text": "number systems also very important for your you know exams in BTEC or high school or whatever"
+  },
+  {
+    "start": 278.96,
+    "duration": 1.96,
+    "text": "if you have computer science."
+  },
+  {
+    "start": 280.92,
+    "duration": 2.68,
+    "text": "So let us first you know look into it."
+  },
+  {
+    "start": 283.6,
+    "duration": 10.24,
+    "text": "So I am going to say bit manipulation that is the topic for today."
+  },
+  {
+    "start": 293.84,
+    "duration": 4.68,
+    "text": "Let us learn about some of the concepts like first some of the operators first."
+  },
+  {
+    "start": 298.52,
+    "duration": 4.04,
+    "text": "So we already have learnt about operators I mean we have been learning about operators"
+  },
+  {
+    "start": 302.56,
+    "duration": 4.72,
+    "text": "since we were in kindergarten like the addition operator, the subtraction operator you"
+  },
+  {
+    "start": 307.28,
+    "duration": 3.2,
+    "text": "you know multiplication, division, right?"
+  },
+  {
+    "start": 310.48,
+    "duration": 2.76,
+    "text": "You have A, you have B, you have 10 and 20."
+  },
+  {
+    "start": 313.24,
+    "duration": 2.64,
+    "text": "You say 10 plus 20, it will give you 30, okay?"
+  },
+  {
+    "start": 315.88,
+    "duration": 3.52,
+    "text": "So these are like mathematical operators."
+  },
+  {
+    "start": 319.4,
+    "duration": 2.4,
+    "text": "We have some bitwise operators as well."
+  },
+  {
+    "start": 321.8,
+    "duration": 2.52,
+    "text": "They also have their own use cases."
+  },
+  {
+    "start": 324.32,
+    "duration": 1.08,
+    "text": "Let's look at the first one."
+  },
+  {
+    "start": 325.4,
+    "duration": 5.23,
+    "text": "Let's say if I'm talking about operators, okay?"
+  },
+  {
+    "start": 330.63,
+    "duration": 6.27,
+    "text": "Let's look at the first one and, okay?"
+  },
+  {
+    "start": 336.9,
+    "duration": 3.24,
+    "text": "This is the first operator, bitwise and."
+  },
+  {
+    "start": 340.14,
+    "duration": 13.56,
+    "text": "Bitwise and basically means if there are two numbers then A and B, this is basically going"
+  },
+  {
+    "start": 353.7,
+    "duration": 10.2,
+    "text": "to say that any type of, any number of numbers that you have here, let us say I have two numbers."
+  },
+  {
+    "start": 363.9,
+    "duration": 5.44,
+    "text": "So both the numbers, like all of the numbers should be true."
+  },
+  {
+    "start": 369.34,
+    "duration": 4.04,
+    "text": "We can imagine let us say 0 means false, 1 means true."
+  },
+  {
+    "start": 373.38,
+    "duration": 7.32,
+    "text": "So false and false, if A is false and B is false, then A and B should be false as well,"
+  },
+  {
+    "start": 380.7,
+    "duration": 2.36,
+    "text": "because what is the condition for and?"
+  },
+  {
+    "start": 383.06,
+    "duration": 7.88,
+    "text": "And condition means that all the, you know, numbers and things that you have between ands,"
+  },
+  {
+    "start": 390.94,
+    "duration": 4.12,
+    "text": "everything should be true, then only the entire explanation, entire expression will"
+  },
+  {
+    "start": 395.06,
+    "duration": 5.32,
+    "text": "be true, then only this entire thing will be true, okay?"
+  },
+  {
+    "start": 400.38,
+    "duration": 4.6,
+    "text": "So false and false, obviously false, false and true."
+  },
+  {
+    "start": 404.98,
+    "duration": 6.04,
+    "text": "One of those is false, hence it's false, true and false, this is also false, true and true,"
+  },
+  {
+    "start": 411.02,
+    "duration": 8.6,
+    "text": "yeah, this is true because everyone is true, okay, that's basically the idea of and, alright,"
+  },
+  {
+    "start": 419.62,
+    "duration": 1.0,
+    "text": "everything should be true."
+  },
+  {
+    "start": 420.62,
+    "duration": 5.96,
+    "text": "If I'm trying saying A and B and C, then all the A, B and C, all the three should"
+  },
+  {
+    "start": 426.58,
+    "duration": 2.2,
+    "text": "be true, all the three should be equal to one."
+  },
+  {
+    "start": 428.78,
+    "duration": 6.28,
+    "text": "So in common sense, you can say that one means true or the connection like gate is open or"
+  },
+  {
+    "start": 435.06,
+    "duration": 1.54,
+    "text": "whatever are selected."
+  },
+  {
+    "start": 436.6,
+    "duration": 6.22,
+    "text": "If you have done, you know, electronics, zero means false, okay, switch is closed, the switch"
+  },
+  {
+    "start": 442.82,
+    "duration": 1.0,
+    "text": "is open."
+  },
+  {
+    "start": 443.82,
+    "duration": 2.88,
+    "text": "One means, yeah, closed like the current is flowing."
+  },
+  {
+    "start": 446.7,
+    "duration": 1.0,
+    "text": "That's not going to that."
+  },
+  {
+    "start": 447.7,
+    "duration": 3.44,
+    "text": "That's a very, I did not like that subject."
+  },
+  {
+    "start": 451.14,
+    "duration": 1.34,
+    "text": "All right."
+  },
+  {
+    "start": 452.48,
+    "duration": 6.76,
+    "text": "So now some, you might be asking, hey Kunal, what's the use case of this?"
+  },
+  {
+    "start": 459.24,
+    "duration": 1.0,
+    "text": "What is the use case of this?"
+  },
+  {
+    "start": 460.24,
+    "duration": 3.4,
+    "text": "Okay, a question can be given to you, something like this, let's say a question given to you"
+  },
+  {
+    "start": 463.64,
+    "duration": 15.88,
+    "text": "is like, given number n, find if it's even or odd, okay, you can solve this with a"
+  },
+  {
+    "start": 479.52,
+    "duration": 5.48,
+    "text": "single and operator without using the comparators like if number percent two is equal to one,"
+  },
+  {
+    "start": 485.0,
+    "duration": 5.28,
+    "text": "then it is odd, no, that's an old way, you can use and operator for that."
+  },
+  {
+    "start": 490.28,
+    "duration": 5.0,
+    "text": "I'll tell you later because right now we have not learned about like binary number representation."
+  },
+  {
+    "start": 495.28,
+    "duration": 2.76,
+    "text": "So I'll teach you that later."
+  },
+  {
+    "start": 498.04,
+    "duration": 1.0,
+    "text": "All right."
+  },
+  {
+    "start": 499.04,
+    "duration": 4.64,
+    "text": "So that is pretty much about it and because obviously we'll be doing questions."
+  },
+  {
+    "start": 503.68,
+    "duration": 7.21,
+    "text": "So one thing I want you to note over here is as you can see that whenever you and when"
+  },
+  {
+    "start": 510.89,
+    "duration": 8.59,
+    "text": "you and one with any number digits remain the same."
+  },
+  {
+    "start": 519.48,
+    "duration": 14.24,
+    "text": "If you add with 1, the digits will remain the same. Digits remain the same. So, example"
+  },
+  {
+    "start": 533.72,
+    "duration": 6.32,
+    "text": "I can talk about 1, 1, 0, 0, 1, 0, 1, 0, 0. I can add this with let us say all with"
+  },
+  {
+    "start": 540.04,
+    "duration": 14.76,
+    "text": "1, 0 and 1, 0, 0 and 1, 0, 1 and 1, 1, 0 and 1, 0, 1, 0, 0, 0, 1, 1. Isn't this"
+  },
+  {
+    "start": 554.8,
+    "duration": 6.36,
+    "text": "and the same. This is like a nice observation I wanted to have. But these are these observations."
+  },
+  {
+    "start": 561.16,
+    "duration": 4.88,
+    "text": "All of these observations will be applying when we do questions in this video itself."
+  },
+  {
+    "start": 566.04,
+    "duration": 6.88,
+    "text": "Okay, second operator also very easy one bitwise OR operator. OR is like opposite of AND it"
+  },
+  {
+    "start": 572.92,
+    "duration": 7.8,
+    "text": "means that if any one is true, entire expression is true. If any one is true, entire expression"
+  },
+  {
+    "start": 580.72,
+    "duration": 21.31,
+    "text": "is true. For example, I can have a b 0 0 1 1 0 1 0 1 a or or b both are false. This will"
+  },
+  {
+    "start": 602.03,
+    "duration": 4.6,
+    "text": "be false. This is false, but this is true. Anyone is true. That's true. Okay, entire"
+  },
+  {
+    "start": 606.63,
+    "duration": 4.84,
+    "text": "expression is true. Anyone is true. Yeah, that's true. Anyone should be true. Here"
+  },
+  {
+    "start": 611.47,
+    "duration": 7.76,
+    "text": "both are true. Yeah, that's also true. Okay, that's bitwise or don't worry will"
+  },
+  {
+    "start": 619.23,
+    "duration": 4.92,
+    "text": "be like learning about it. We'll be doing so many nice questions right now. So bear with"
+  },
+  {
+    "start": 624.15,
+    "duration": 5.4,
+    "text": "me a little bit. Let me just get the basics of a first, first of all, basics cleared."
+  },
+  {
+    "start": 629.55,
+    "duration": 8.16,
+    "text": "Third one, another very important one, this is something we'll be using a lot XOR symbol"
+  },
+  {
+    "start": 637.71,
+    "duration": 10.18,
+    "text": "for this is this. It means if and only if okay, if and only if it's like exclusive"
+  },
+  {
+    "start": 647.89,
+    "duration": 9.0,
+    "text": "or it means exclusive or, basically means that if you have two numbers then only one of those"
+  },
+  {
+    "start": 656.89,
+    "duration": 11.15,
+    "text": "should be true, only one should be true, a, b, ax or b. If you have something like this,"
+  },
+  {
+    "start": 668.04,
+    "duration": 5.3,
+    "text": "both are false, false, at least one should be true, sorry only one should be true,"
+  },
+  {
+    "start": 673.34,
+    "duration": 3.7,
+    "text": "one is true, yeah that is true, only one should be true, yes that is true, only"
+  },
+  {
+    "start": 677.04,
+    "duration": 4.32,
+    "text": "only one should be true, here everything is true false, so more than one number it can"
+  },
+  {
+    "start": 681.36,
+    "duration": 5.8,
+    "text": "be like odd number should be true, cool."
+  },
+  {
+    "start": 687.16,
+    "duration": 4.52,
+    "text": "Some important observations over here, these observations are the things that will help"
+  },
+  {
+    "start": 691.68,
+    "duration": 5.64,
+    "text": "you in solving the questions, so that is why I am writing this in red, nice observation"
+  },
+  {
+    "start": 697.32,
+    "duration": 5.92,
+    "text": "I can just write it, mark it with red over here."
+  },
+  {
+    "start": 703.24,
+    "duration": 7.8,
+    "text": "that you can see is if I add any number, sorry, not add XOR, if I XOR any number with one,"
+  },
+  {
+    "start": 711.04,
+    "duration": 8.03,
+    "text": "what am I getting? XOR any number with one, I am getting the complement of that number."
+  },
+  {
+    "start": 719.07,
+    "duration": 6.48,
+    "text": "Compliment means opposite. Okay, you can see if I did zero XOR one, I got one, so zero"
+  },
+  {
+    "start": 725.55,
+    "duration": 7.64,
+    "text": "got converted to one, I did one XOR zero. Okay, sorry, I did one XOR one. So one got"
+  },
+  {
+    "start": 733.19,
+    "duration": 5.36,
+    "text": "converted to zero, anything XOR with one, you will get the answer opposite of that. Zero's"
+  },
+  {
+    "start": 738.55,
+    "duration": 3.76,
+    "text": "opposite is one. Yeah, that's the answer. One opposite is zero. Yeah, that's true. Zero"
+  },
+  {
+    "start": 742.31,
+    "duration": 4.56,
+    "text": "is the answer. Compliment basically means I'll teach you how to do. So right now"
+  },
+  {
+    "start": 746.87,
+    "duration": 3.84,
+    "text": "we are only like doing zeros and ones, but I'll be teaching you like how do we"
+  },
+  {
+    "start": 750.71,
+    "duration": 5.2,
+    "text": "actually go ahead with doing it like the entire for entire like bigger numbers as well and"
+  },
+  {
+    "start": 755.91,
+    "duration": 10.8,
+    "text": "not just zeros and one that's if I said 32 and 47 for example 35 and 16 37 XOR 44 something"
+  },
+  {
+    "start": 766.71,
+    "duration": 5.68,
+    "text": "like that that's also a valid thing nothing new in this case everything what you need"
+  },
+  {
+    "start": 772.39,
+    "duration": 4.8,
+    "text": "to do is basically convert all these individual numbers into binary representations and"
+  },
+  {
+    "start": 777.19,
+    "duration": 6.0,
+    "text": "do the normal thing, that is the only thing. So bear with me. So these are some of the observations"
+  },
+  {
+    "start": 783.19,
+    "duration": 4.4,
+    "text": "and these are like facts, no need for explanation in this. So if you XOR it with 1, it will"
+  },
+  {
+    "start": 787.59,
+    "duration": 6.32,
+    "text": "be give you the compliment of this. If you XOR it with 0, it will give you the number"
+  },
+  {
+    "start": 793.91,
+    "duration": 6.4,
+    "text": "itself. So you can see whenever I say 0 XOR 0 gives me 0, 1 XOR 0 gives me 1. And"
+  },
+  {
+    "start": 800.31,
+    "duration": 5.16,
+    "text": "if you XOR the same number with the same number, obviously nothing is exclusive now,"
+  },
+  {
+    "start": 805.47,
+    "duration": 14.84,
+    "text": "the answer will be 0, 32 XOR 32, 0, 5 million XOR 5 million, 0, cool, and since we were"
+  },
+  {
+    "start": 820.31,
+    "duration": 4.48,
+    "text": "talking about the complement one, so let me just write that down as well over here, so"
+  },
+  {
+    "start": 824.79,
+    "duration": 8.36,
+    "text": "I can say the complement operators like something like this, so it just makes it you know"
+  },
+  {
+    "start": 833.15,
+    "duration": 7.08,
+    "text": "opposite. So, if a is equal to 1 0 1 1 0 something like that a complement is going to be equal"
+  },
+  {
+    "start": 840.23,
+    "duration": 9.0,
+    "text": "to 0 1 0 0 1 that is it. Very basic stuff, but before we move forward let us also look"
+  },
+  {
+    "start": 849.23,
+    "duration": 4.7,
+    "text": "into like the main part like how do we actually represent a number in terms of binary or any"
+  },
+  {
+    "start": 853.93,
+    "duration": 5.54,
+    "text": "other number because then only we will be able to solve all the problems and understand"
+  },
+  {
+    "start": 859.47,
+    "duration": 5.52,
+    "text": "all the concepts. Now, let us look into a very important topic which is conversion of like"
+  },
+  {
+    "start": 864.99,
+    "duration": 5.2,
+    "text": "number systems, conversion into various bases. So, if I am saying I am writing int a is equal"
+  },
+  {
+    "start": 870.19,
+    "duration": 5.36,
+    "text": "to 10, how is that being stored in like my memory in my computer? So, I am going to"
+  },
+  {
+    "start": 875.55,
+    "duration": 4.16,
+    "text": "teach you like two ways via which you can convert any number into any other number."
+  },
+  {
+    "start": 881.23,
+    "duration": 2.72,
+    "text": "So, let us first look at what all bases are available."
+  },
+  {
+    "start": 883.95,
+    "duration": 17.84,
+    "text": "So, number systems, so the first one we have is like the decimal number system, this contains"
+  },
+  {
+    "start": 901.79,
+    "duration": 10.0,
+    "text": "like 0, 1, 2 up to 9, this is of base 10, base 10 means there are 10 numbers which you"
+  },
+  {
+    "start": 911.79,
+    "duration": 6.2,
+    "text": "can use to represent any number in decimal form, if you want to represent 357, it will"
+  },
+  {
+    "start": 917.99,
+    "duration": 7.92,
+    "text": "be just 357, I can say base is 10. That's it. If I want to represent 10, 10 is basically"
+  },
+  {
+    "start": 925.91,
+    "duration": 7.76,
+    "text": "like this base is 10. Second, we can talk about our like binary numbers, for example,"
+  },
+  {
+    "start": 933.67,
+    "duration": 11.03,
+    "text": "binary numbers. It only uses zero and one. Hence the base is two. So example, if you"
+  },
+  {
+    "start": 944.7,
+    "duration": 7.48,
+    "text": "on a represent 10 in binary number, so it is going to be, so 10 which is in decimal number,"
+  },
+  {
+    "start": 952.18,
+    "duration": 7.8,
+    "text": "in binary number it is equal to 1010 base 2, so if you write int a is equal to 10, the"
+  },
+  {
+    "start": 959.98,
+    "duration": 6.96,
+    "text": "computer stores it as 1010, if you are talking about 7 in binary, 7 is a decimal number,"
+  },
+  {
+    "start": 966.94,
+    "duration": 12.94,
+    "text": "in binary it is written as 111, I think okay, but how, Kunal how do you know this,"
+  },
+  {
+    "start": 979.88,
+    "duration": 5.8,
+    "text": "How are we converting it from decimal to binary, binary to decimal?"
+  },
+  {
+    "start": 985.68,
+    "duration": 4.24,
+    "text": "So let me first tell you some other bases that exist, then I will literally teach you"
+  },
+  {
+    "start": 989.92,
+    "duration": 5.44,
+    "text": "how to convert from one base to another base, any bases, so let's see more bases that"
+  },
+  {
+    "start": 995.36,
+    "duration": 1.0,
+    "text": "are involved."
+  },
+  {
+    "start": 996.36,
+    "duration": 8.24,
+    "text": "Now the third one that I can say that exists is octal base, this is numbers from 0, 1,"
+  },
+  {
+    "start": 1004.6,
+    "duration": 11.84,
+    "text": "2, 3 till 7, hence base is 8, ok, very cool stuff. So, basically it is similar to numbers"
+  },
+  {
+    "start": 1016.44,
+    "duration": 4.0,
+    "text": "right, like the ones we have done since we were children like if I am talking about decimal"
+  },
+  {
+    "start": 1020.44,
+    "duration": 6.52,
+    "text": "number system, let us count decimal numbers 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,"
+  },
+  {
+    "start": 1026.96,
+    "duration": 9.28,
+    "text": "14, 15, 16, 17, 18, 19, 20, 21, 23. Similarly with octal, 0, 1, 2, 3, 4, 5, 6, 7, 8, 8 does"
+  },
+  {
+    "start": 1036.24,
+    "duration": 8.16,
+    "text": "not exist. So, from talking about counting, so I can say 0 in decimal if I am counting,"
+  },
+  {
+    "start": 1044.4,
+    "duration": 11.92,
+    "text": "I can have something like this 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,"
+  },
+  {
+    "start": 1056.32,
+    "duration": 6.12,
+    "text": "on and so forth in octal if I'm counting like this remember I can only use digits from zero"
+  },
+  {
+    "start": 1062.44,
+    "duration": 5.64,
+    "text": "till seven hence I cannot use eight nine okay I cannot use numbers that contain eight or"
+  },
+  {
+    "start": 1068.08,
+    "duration": 8.84,
+    "text": "nine so I can say octal can be zero one two three four five six seven eight nine will not"
+  },
+  {
+    "start": 1076.92,
+    "duration": 10.08,
+    "text": "be there, I can say 10, 11, 12, 13, 14, 15, 16, you know, 17, 18 cannot be there because"
+  },
+  {
+    "start": 1087.0,
+    "duration": 5.12,
+    "text": "it contains 8 and 8 is not in octal, 19 cannot be there, 20 is there."
+  },
+  {
+    "start": 1092.12,
+    "duration": 8.1,
+    "text": "So, what am I saying, basically means that 8 in decimal is equal to 10 in octal, 9 in"
+  },
+  {
+    "start": 1100.22,
+    "duration": 9.22,
+    "text": "decimal is equal to 11 in octal, 9 in decimal is equal to 11 in base 8, there is a fourth"
+  },
+  {
+    "start": 1109.44,
+    "duration": 9.8,
+    "text": "one hexadecimal. This is being used by you know a lot of computer you know programming"
+  },
+  {
+    "start": 1119.24,
+    "duration": 4.36,
+    "text": "languages internally so many hexadecimal like you represent addresses and stuff sometimes"
+  },
+  {
+    "start": 1123.6,
+    "duration": 6.84,
+    "text": "and some complex you know notations and stuff. So, this basically says that you have 16"
+  },
+  {
+    "start": 1130.44,
+    "duration": 9.6,
+    "text": "in total 0 to 9. So, you have 0 to 9 and you have a till f. So, you have basically"
+  },
+  {
+    "start": 1140.04,
+    "duration": 13.92,
+    "text": "In hexadecimal you have something like this, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E,"
+  },
+  {
+    "start": 1153.96,
+    "duration": 13.41,
+    "text": "F. So, 10, 11, 12, 13, 14, 15, 16 numbers total, base 16. So, you can say 10 in decimal"
+  },
+  {
+    "start": 1167.37,
+    "duration": 12.72,
+    "text": "is equal to F, not F, A in binary, not binary, hexadecimal, A in hexadecimal, A in hexadecimal."
+  },
+  {
+    "start": 1180.09,
+    "duration": 11.39,
+    "text": "12, normal 1 is equal to what? 9, 10, 11, 12, C in hexadecimal. We will cover all these"
+  },
+  {
+    "start": 1191.48,
+    "duration": 4.0,
+    "text": "things. Let us do it right now. So, now new topic will start. We will say how do we"
+  },
+  {
+    "start": 1195.48,
+    "duration": 4.68,
+    "text": "convert from one number system to another number system? How do we do that? So,"
+  },
+  {
+    "start": 1200.16,
+    "duration": 5.0,
+    "text": "So, let us talk about conversions, very important point because after this we will be able to"
+  },
+  {
+    "start": 1205.16,
+    "duration": 6.48,
+    "text": "do so many questions, we will be able to understand so many concepts and so many other things."
+  },
+  {
+    "start": 1211.64,
+    "duration": 4.0,
+    "text": "Conversion, there are two things you have to remember."
+  },
+  {
+    "start": 1215.64,
+    "duration": 4.28,
+    "text": "Using these two points, you will be able to convert from any number system to any number"
+  },
+  {
+    "start": 1219.92,
+    "duration": 2.4,
+    "text": "system, just these two points."
+  },
+  {
+    "start": 1222.32,
+    "duration": 13.73,
+    "text": "number 1, conversion from decimal to base b and the second one is conversion from base"
+  },
+  {
+    "start": 1236.05,
+    "duration": 15.91,
+    "text": "b to decimal that is it. The simple answer for this is keep dividing or let me just remove"
+  },
+  {
+    "start": 1251.96,
+    "duration": 5.52,
+    "text": "this thing and write it separately decimal to any base piece for example the question can be"
+  },
+  {
+    "start": 1258.44,
+    "duration": 8.64,
+    "text": "convert you know 17 okay can be convert normal 17 in decimal to let's say base 2."
+  },
+  {
+    "start": 1268.6,
+    "duration": 15.07,
+    "text": "So the key is that keep dividing by base take remainders and write in opposite"
+  },
+  {
+    "start": 1283.67,
+    "duration": 10.21,
+    "text": "it. For example, 17 base 10 to base two. So 17 is saying, okay, keep dividing 17 by whatever"
+  },
+  {
+    "start": 1293.88,
+    "duration": 4.44,
+    "text": "base is given. Okay, base two is given 17. I'm going to divide by two. It's going to"
+  },
+  {
+    "start": 1298.32,
+    "duration": 6.56,
+    "text": "be like two into eight is 16 remainder is one. And now there's going to be like two"
+  },
+  {
+    "start": 1304.88,
+    "duration": 7.44,
+    "text": "fours are eight remainder is zero. So where two twos are four remainder is zero two"
+  },
+  {
+    "start": 1312.32,
+    "duration": 4.24,
+    "text": "two ones or two remainder is zero. These are all the remainders I am going to write it"
+  },
+  {
+    "start": 1316.56,
+    "duration": 19.8,
+    "text": "in opposite. So I am going to say 1 0 0 1 0 0 0 1 not 10 it is base two. So 17 actually"
+  },
+  {
+    "start": 1336.36,
+    "duration": 4.88,
+    "text": "17 in binary number so when you write int a is equal to 17 computer will store it like"
+  },
+  {
+    "start": 1341.24,
+    "duration": 5.08,
+    "text": "this you know each RAM and everything has their individual cells. So in RAM it will"
+  },
+  {
+    "start": 1346.32,
+    "duration": 5.06,
+    "text": "be stored like, you know, something like this, these are like cells of ramps or whatever,"
+  },
+  {
+    "start": 1351.38,
+    "duration": 6.24,
+    "text": "it will be 1 0 0 0 1 and a will be pointing to something like this. That's how it works"
+  },
+  {
+    "start": 1357.62,
+    "duration": 5.92,
+    "text": "internally, right? Cool? That's how numbers and everything internally everything is like"
+  },
+  {
+    "start": 1363.54,
+    "duration": 7.32,
+    "text": "zeros and ones only. Okay, so that is how you can convert any base to any other base."
+  },
+  {
+    "start": 1370.86,
+    "duration": 7.8,
+    "text": "If you want to check, hey, can I convert the base 17, sorry, base 10 into let's say, in"
+  },
+  {
+    "start": 1378.66,
+    "duration": 3.12,
+    "text": "base 8, in octal, what is it going to be?"
+  },
+  {
+    "start": 1381.78,
+    "duration": 15.47,
+    "text": "Keep dividing by 8, 8 to the 16 remainder is 1, that's it and yeah, that's it, 21,"
+  },
+  {
+    "start": 1397.25,
+    "duration": 12.95,
+    "text": "17 in base 10 is equal to 21 in base 8, okay, very simple stuff."
+  },
+  {
+    "start": 1410.2,
+    "duration": 7.88,
+    "text": "Now the second point is how can you convert any base to decimal at second point?"
+  },
+  {
+    "start": 1418.08,
+    "duration": 10.16,
+    "text": "Convert any base to decimal, convert any base B to decimal, so let us say we can take the"
+  },
+  {
+    "start": 1428.24,
+    "duration": 7.28,
+    "text": "previous question only, convert in binary let us say in base 2 you are given this, what"
+  },
+  {
+    "start": 1435.52,
+    "duration": 2.52,
+    "text": "is this in base 10?"
+  },
+  {
+    "start": 1438.04,
+    "duration": 14.58,
+    "text": "So the steps for this is multiply and add the power of base with digits."
+  },
+  {
+    "start": 1452.62,
+    "duration": 3.28,
+    "text": "First thing you have to do is write the power of the base, base is 2, so you can start"
+  },
+  {
+    "start": 1455.9,
+    "duration": 5.28,
+    "text": "from 0, so you can see 2 raise to power 0 multiplied by the first number from the right hand"
+  },
+  {
+    "start": 1461.18,
+    "duration": 7.32,
+    "text": "side which is 1 plus 2 raise to power 1 into the second number 0 plus 2 raise to"
+  },
+  {
+    "start": 1468.5,
+    "duration": 9.92,
+    "text": "power 3 into the third number 0 plus 2 raise to power 4 into the fourth number so 0 plus"
+  },
+  {
+    "start": 1478.42,
+    "duration": 7.08,
+    "text": "2 raise to power 5 into the fifth number which is 1, this is equal to what? This is equal"
+  },
+  {
+    "start": 1485.5,
+    "duration": 14.94,
+    "text": "to what is 2 raise to power 5? 32, 0, 1, sorry it is 2 that is what I was thinking, I skipped"
+  },
+  {
+    "start": 1500.44,
+    "duration": 11.48,
+    "text": "2 0 1 2 3 4 ok so at 2 raise to power 4 16 plus 2 raise to power 3 into 0 will be 0 2"
+  },
+  {
+    "start": 1511.92,
+    "duration": 5.32,
+    "text": "raise to power 2 into 0 will be 0 2 raise to power 1 into 1 into 0 will be 0 plus 2"
+  },
+  {
+    "start": 1517.24,
+    "duration": 8.27,
+    "text": "raise to power 0 into 1 will be 1 which is equal to 17 in base 10 similarly if this"
+  },
+  {
+    "start": 1525.51,
+    "duration": 7.65,
+    "text": "is given to you 21 in base 8 what is that in decimal 21 in base 8 is equal to in decimal"
+  },
+  {
+    "start": 1533.16,
+    "duration": 8.18,
+    "text": "what? So, again, 8 raised to power 0 into digit number 1, which is 1 plus 8 raised to"
+  },
+  {
+    "start": 1541.34,
+    "duration": 7.6,
+    "text": "power 1 into digit number 2, which is 2. So, this is equal to 2 into 8 plus 1, 17 in"
+  },
+  {
+    "start": 1548.94,
+    "duration": 8.97,
+    "text": "decimal. It is correct. How simple? Very easy stuff. So, that is how you can convert"
+  },
+  {
+    "start": 1557.91,
+    "duration": 4.56,
+    "text": "any number into any other number. Now, you may be given a question, hey, how do"
+  },
+  {
+    "start": 1562.47,
+    "duration": 5.56,
+    "text": "you convert base two number that is given to you into a base eight number. What will"
+  },
+  {
+    "start": 1568.03,
+    "duration": 4.32,
+    "text": "you do? First you convert that base two to decimal, then you convert that decimal to base"
+  },
+  {
+    "start": 1572.35,
+    "duration": 6.92,
+    "text": "eight. That's it. So using using these two rules, you can convert any number base into"
+  },
+  {
+    "start": 1579.27,
+    "duration": 9.64,
+    "text": "any other number base. Okay, as simple as it can get. That's it. Okay. Cool stuff."
+  },
+  {
+    "start": 1588.91,
+    "duration": 4.24,
+    "text": "I teach you like additions and deletions and all these things as well. But before"
+  },
+  {
+    "start": 1593.15,
+    "duration": 4.32,
+    "text": "that we need to learn about a few more important concepts. I will also teach you by the way"
+  },
+  {
+    "start": 1597.47,
+    "duration": 5.2,
+    "text": "the negative of a number in binary, it is a very important topic. So yeah everything will"
+  },
+  {
+    "start": 1602.67,
+    "duration": 2.64,
+    "text": "be covered in this lecture. Oh by the way make sure like, share and subscribe if you"
+  },
+  {
+    "start": 1605.31,
+    "duration": 6.96,
+    "text": "haven't already. Let us move forward now. So continuing with operators, two more operators"
+  },
+  {
+    "start": 1612.27,
+    "duration": 10.72,
+    "text": "were remaining. We will be doing questions in this section as well. So it is going to"
+  },
+  {
+    "start": 1622.99,
+    "duration": 11.92,
+    "text": "be a full featured lecture. So fifth operator is a left shift operator. Exactly as the name"
+  },
+  {
+    "start": 1634.91,
+    "duration": 5.56,
+    "text": "suggests, it shifts all the bits, you know, one bit towards the left. For example, if"
+  },
+  {
+    "start": 1640.47,
+    "duration": 7.76,
+    "text": "you have 10, I know 10 in decimal is equal to 1010 in binary. Now you can calculate"
+  },
+  {
+    "start": 1648.23,
+    "duration": 9.56,
+    "text": "this yourself. So, what if I do 10 left shift 1 step number 1 is it will convert the internally"
+  },
+  {
+    "start": 1657.79,
+    "duration": 8.16,
+    "text": "everything that happens even if you sum you know 10 plus 20 or 32 plus 45 internally computer"
+  },
+  {
+    "start": 1665.95,
+    "duration": 5.36,
+    "text": "converts it into binary numbers and then does it does the following work ok."
+  },
+  {
+    "start": 1671.31,
+    "duration": 4.6,
+    "text": "So, internally first computer will be converting this decimal that we have written in a is"
+  },
+  {
+    "start": 1675.91,
+    "duration": 7.48,
+    "text": "equal to 10 you can say 10 left shift 1 to decimal number so it will be like 1010 left"
+  },
+  {
+    "start": 1683.39,
+    "duration": 5.12,
+    "text": "shift 1 it's going to be like okay shift it towards the left shift it towards the left"
+  },
+  {
+    "start": 1688.51,
+    "duration": 3.32,
+    "text": "over here it's going to be like okay I'm going to move this over here this over here"
+  },
+  {
+    "start": 1691.83,
+    "duration": 3.84,
+    "text": "this over here this over here means one extra number I need so whenever you need"
+  },
+  {
+    "start": 1695.67,
+    "duration": 3.72,
+    "text": "an extra number you just add a zero over here in left shift so this will be equal"
+  },
+  {
+    "start": 1699.39,
+    "duration": 7.68,
+    "text": "to 1 0 1 0 0. So, you can see all of these numbers were previously over here now it has"
+  },
+  {
+    "start": 1707.07,
+    "duration": 7.84,
+    "text": "shifted once towards the left. What is this new number actually? What is this new number?"
+  },
+  {
+    "start": 1714.91,
+    "duration": 6.0,
+    "text": "This is actually 2 raise to power 0 into 0 plus 2 raise to power 1 into 0 plus 2 raise"
+  },
+  {
+    "start": 1720.91,
+    "duration": 10.72,
+    "text": "to power 2 into 0 plus 2 is to power 3 into 0. So, this is 1 plus 2 raise to power 4 into"
+  },
+  {
+    "start": 1731.63,
+    "duration": 6.72,
+    "text": "1. This is actually equal to 16 plus 4 is equal to 20. Hence, I am going to write this"
+  },
+  {
+    "start": 1738.35,
+    "duration": 10.04,
+    "text": "in red. A any number left shift 1 is just going to double that number. How cool is"
+  },
+  {
+    "start": 1748.39,
+    "duration": 6.24,
+    "text": "this, if you are given a number, you want to double that number, just left shift by 1,"
+  },
+  {
+    "start": 1754.63,
+    "duration": 4.92,
+    "text": "because that is what is happening right, we are increasing entire base, you can see, we"
+  },
+  {
+    "start": 1759.55,
+    "duration": 4.84,
+    "text": "increase in entire base by adding a 0 over here, what if I left shift this again, it"
+  },
+  {
+    "start": 1764.39,
+    "duration": 7.76,
+    "text": "will become 40, what if I left shift it again, it will become double of 40, 80."
+  },
+  {
+    "start": 1772.15,
+    "duration": 11.56,
+    "text": "So a general point can be if you left shift a number a b times it is going to multiply"
+  },
+  {
+    "start": 1783.71,
+    "duration": 6.47,
+    "text": "a into 2 raise to power b."
+  },
+  {
+    "start": 1790.18,
+    "duration": 7.44,
+    "text": "If I am saying 2 left shift 4 that basically means 2 into 2 raise to power 4 that is the"
+  },
+  {
+    "start": 1797.62,
+    "duration": 6.24,
+    "text": "answer 2 left shift 4 that was the left shift operator."
+  },
+  {
+    "start": 1803.86,
+    "duration": 4.68,
+    "text": "We will do questions on that these are very important when you need to extract bits"
+  },
+  {
+    "start": 1808.54,
+    "duration": 4.36,
+    "text": "and stuff and get the masks, masks are something we will talk about later on when we will be"
+  },
+  {
+    "start": 1812.9,
+    "duration": 2.12,
+    "text": "solving problems."
+  },
+  {
+    "start": 1815.02,
+    "duration": 4.92,
+    "text": "The last one that we are talking about the sixth operator is opposite of this it is known"
+  },
+  {
+    "start": 1819.94,
+    "duration": 4.76,
+    "text": "as write shift, something we will be using very heavily in this lecture, write shift"
+  },
+  {
+    "start": 1824.7,
+    "duration": 5.98,
+    "text": "operator like this, very simple it just moves it towards the right, so if I am"
+  },
+  {
+    "start": 1830.68,
+    "duration": 4.98,
+    "text": "saying any number let us say you have something like question, you have something"
+  },
+  {
+    "start": 1835.66,
+    "duration": 9.28,
+    "text": "like 0011001 something like that right shift one will say okay move this towards the right"
+  },
+  {
+    "start": 1844.94,
+    "duration": 8.92,
+    "text": "mean ignore this part this is actually going to be equal to 001100 that's it and by the"
+  },
+  {
+    "start": 1853.86,
+    "duration": 8.28,
+    "text": "way say similarly like in decimal number system you know we need 0011234 base 10 is actually"
+  },
+  {
+    "start": 1862.14,
+    "duration": 9.38,
+    "text": "equal to 1, 1, 2, 3, 4, base 10. So, leading zeros are ignored. This is same for all number"
+  },
+  {
+    "start": 1871.52,
+    "duration": 10.91,
+    "text": "systems, same for all number systems. Obviously, the zeros over on the left hand side will"
+  },
+  {
+    "start": 1882.43,
+    "duration": 5.76,
+    "text": "only be ignored because 100 is not equal to 1, you cannot ignore the right zeros. Similarly,"
+  },
+  {
+    "start": 1888.19,
+    "duration": 9.4,
+    "text": "This is also you know similarly this is like 1 1 0 0, this one also 1 1 0 0 1, that's right"
+  },
+  {
+    "start": 1897.59,
+    "duration": 6.6,
+    "text": "shift and you can see that this is actually going to divide the number by 2, since we"
+  },
+  {
+    "start": 1904.19,
+    "duration": 5.76,
+    "text": "are doing the opposite stuff, so it's dividing the number by 2, that is what we are doing"
+  },
+  {
+    "start": 1909.95,
+    "duration": 9.4,
+    "text": "over here. So, if I say A, I am going to write this in red color. So, I am saying A, right"
+  },
+  {
+    "start": 1919.35,
+    "duration": 16.74,
+    "text": "shift B, it is actually A, A divided by 2 raise to power P, general point. So, it is"
+  },
+  {
+    "start": 1936.09,
+    "duration": 3.4,
+    "text": "very important because we will be learning about, we will be like using right shift"
+  },
+  {
+    "start": 1939.49,
+    "duration": 7.68,
+    "text": "operators quite a lot in this lecture. So, let us do some questions now and then"
+  },
+  {
+    "start": 1947.17,
+    "duration": 5.28,
+    "text": "we can move forward with the other concepts like a negative of a number and prime numbers,"
+  },
+  {
+    "start": 1952.45,
+    "duration": 5.04,
+    "text": "number theory, algorithms, all these other things. These six were like the very basic"
+  },
+  {
+    "start": 1957.49,
+    "duration": 5.68,
+    "text": "operators that we learned about. We also learned about number systems and we also learned about,"
+  },
+  {
+    "start": 1963.17,
+    "duration": 13.04,
+    "text": "I can just write it, continued ahead. We learned about conversions and we learned"
+  },
+  {
+    "start": 1976.21,
+    "duration": 4.0,
+    "text": "about a bunch of things. Now it's important to do some questions in order to understand the"
+  },
+  {
+    "start": 1980.21,
+    "duration": 4.8,
+    "text": "working of how these things are actually useful to us."
+  },
+  {
+    "start": 1985.01,
+    "duration": 6.57,
+    "text": "The questions, let us do some nice questions."
+  },
+  {
+    "start": 1991.58,
+    "duration": 14.59,
+    "text": "So question number 1, let us say, given a number n, find if it is prime, not prime that"
+  },
+  {
+    "start": 2006.17,
+    "duration": 9.95,
+    "text": "comes later, odd or even, let us come back to the previous lectures, let us come back"
+  },
+  {
+    "start": 2016.12,
+    "duration": 6.78,
+    "text": "to this particular point, this particular point."
+  },
+  {
+    "start": 2022.9,
+    "duration": 3.48,
+    "text": "When you add a number, by the way, first of all pause this video, try it out yourself"
+  },
+  {
+    "start": 2026.38,
+    "duration": 2.44,
+    "text": "and then we will come back later."
+  },
+  {
+    "start": 2028.82,
+    "duration": 6.2,
+    "text": "So when you add one with any number, the digits remain the same."
+  },
+  {
+    "start": 2035.02,
+    "duration": 5.24,
+    "text": "When you add a number with any number, the digits remain the same, point number one."
+  },
+  {
+    "start": 2040.26,
+    "duration": 3.4,
+    "text": "How to go about the thinking process for this?"
+  },
+  {
+    "start": 2043.66,
+    "duration": 4.36,
+    "text": "You know that every number, whatever calculation we do, internally it will be calculated"
+  },
+  {
+    "start": 2048.02,
+    "duration": 4.86,
+    "text": "as a binary number, even if you do subtraction, addition or whatever."
+  },
+  {
+    "start": 2052.88,
+    "duration": 12.47,
+    "text": "So this is a good point, every number is calculated or whatever you want to do in binary form"
+  },
+  {
+    "start": 2065.35,
+    "duration": 1.0,
+    "text": "internally."
+  },
+  {
+    "start": 2066.35,
+    "duration": 12.97,
+    "text": "So for example, if I say if I say something like what is 12 plus 7, what is this?"
+  },
+  {
+    "start": 2079.32,
+    "duration": 6.24,
+    "text": "So computer is going to solve it like this computer is going to convert 12 into into"
+  },
+  {
+    "start": 2085.56,
+    "duration": 10.93,
+    "text": "binary first is going to be 1 1 0 0 plus what is 7 7 in binary is 1 1 1 remaining will be"
+  },
+  {
+    "start": 2096.49,
+    "duration": 4.64,
+    "text": "replaced with 0 obviously because you know 0 1 1 1 is equal to 1 1 1 only that is why"
+  },
+  {
+    "start": 2101.13,
+    "duration": 9.64,
+    "text": "I have put 0 over here at this what is 0 plus 1 1 what is 0 plus 1 1 what is 1 plus 1 2"
+  },
+  {
+    "start": 2110.77,
+    "duration": 4.68,
+    "text": "can you write 2 over here no 2 is not available in binary how do we write 2 in"
+  },
+  {
+    "start": 2115.45,
+    "duration": 7.48,
+    "text": "binary one zero so in decimal number system remember what was happening in decimal number"
+  },
+  {
+    "start": 2122.93,
+    "duration": 6.4,
+    "text": "system if you were having more than one digits you did a carry on okay so I'm talking about"
+  },
+  {
+    "start": 2129.33,
+    "duration": 8.72,
+    "text": "12 plus 12 plus 19 or something okay 9 plus 2 is 11 can I write 11 like this no whatever"
+  },
+  {
+    "start": 2138.05,
+    "duration": 6.65,
+    "text": "we used to do we used to do something like this 11's one comes over here and one goes"
+  },
+  {
+    "start": 2144.7,
+    "duration": 7.76,
+    "text": "over here, then it is 1 plus 1 plus 1 3, answer. Similarly, over here 1 plus 1 is 2 means 1,"
+  },
+  {
+    "start": 2152.46,
+    "duration": 8.95,
+    "text": "0 means 10 let us say, so 0 will go over here and 1 will go over here, same stuff. Fundamentals"
+  },
+  {
+    "start": 2161.41,
+    "duration": 5.04,
+    "text": "are same, binary number, decimal number, octal number, same carry on, same everything"
+  },
+  {
+    "start": 2166.45,
+    "duration": 7.2,
+    "text": "is happening. Now what is 1 plus 1, again 2, what is 2? 1, 0 I can write it definitely"
+  },
+  {
+    "start": 2173.65,
+    "duration": 9.16,
+    "text": "like this. So what is 12 plus 7? 12 plus 7 is equal to 19. So I can say that 19 in decimal"
+  },
+  {
+    "start": 2182.81,
+    "duration": 10.64,
+    "text": "is actually equal to 12 plus 7 which is this thing in binary. You can check this as well."
+  },
+  {
+    "start": 2193.45,
+    "duration": 4.56,
+    "text": "This is 2 raised to power 0 into 1 which is 1 plus 2 raised to power 1 into 1 which"
+  },
+  {
+    "start": 2198.01,
+    "duration": 4.84,
+    "text": "is 2 plus 2 raised to power, this is ignored because it is 0. This is 2 raised to"
+  },
+  {
+    "start": 2202.85,
+    "duration": 9.99,
+    "text": "power 4 into 1, 16, 16, 17, 18, 19, yeah, let us check out to be fine, okay. So one thing"
+  },
+  {
+    "start": 2212.84,
+    "duration": 5.92,
+    "text": "I want you to notice, remember that in internally it is like binary number system, do you all"
+  },
+  {
+    "start": 2218.76,
+    "duration": 17.36,
+    "text": "know that every number, so if I am saying something like 10011, leaving this every"
+  },
+  {
+    "start": 2236.12,
+    "duration": 8.64,
+    "text": "other is a power of 2. This is 2 raised to power 1 into 1, 2 raised to power 2 into 1,"
+  },
+  {
+    "start": 2244.76,
+    "duration": 4.56,
+    "text": "2 raised to power 3 into 1, 2 raised to power 4 into 1. This is the only number that is"
+  },
+  {
+    "start": 2249.32,
+    "duration": 7.32,
+    "text": "not like going to be a power of 2. And every number is 0 or 1. Hence, this is the number"
+  },
+  {
+    "start": 2256.64,
+    "duration": 5.48,
+    "text": "whether it determines whether because we all know this entire thing will be even."
+  },
+  {
+    "start": 2262.12,
+    "duration": 11.3,
+    "text": "Let me change the color. We know that this will always be even. Why? Because"
+  },
+  {
+    "start": 2273.42,
+    "duration": 4.42,
+    "text": "Because all of these are power of 2, any number like this, it is like 2 raise to power, you"
+  },
+  {
+    "start": 2277.84,
+    "duration": 5.22,
+    "text": "know, 0, 2 raise to power 1, 2 raise to power 2, this is 2 raise to power 0."
+  },
+  {
+    "start": 2283.06,
+    "duration": 7.72,
+    "text": "So if this particular number, hence, if this particular number is 1, it means that the"
+  },
+  {
+    "start": 2290.78,
+    "duration": 7.06,
+    "text": "answer to everything in this plus 1 is my answer, okay."
+  },
+  {
+    "start": 2297.84,
+    "duration": 6.4,
+    "text": "So if this is 1, the entire number will be odd, does that make sense?"
+  },
+  {
+    "start": 2304.24,
+    "duration": 12.34,
+    "text": "If 2 raised to power 0, place is equal to equal to 1, number is odd, otherwise number"
+  },
+  {
+    "start": 2316.58,
+    "duration": 1.0,
+    "text": "is even."
+  },
+  {
+    "start": 2317.58,
+    "duration": 9.72,
+    "text": "So, a question for you, is this number even or odd, 0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1."
+  },
+  {
+    "start": 2327.3,
+    "duration": 5.16,
+    "text": "It is odd number because last is 1."
+  },
+  {
+    "start": 2332.46,
+    "duration": 2.94,
+    "text": "This is the digit that is determining what is even or odd, right, because it is 2"
+  },
+  {
+    "start": 2335.4,
+    "duration": 6.32,
+    "text": "raise to power 0 which is 1, it is saying 1, so 2 raise to power 0 into something either"
+  },
+  {
+    "start": 2341.72,
+    "duration": 5.92,
+    "text": "0 or 1 plus whatever you are doing, so this plus whatever you are doing this will always"
+  },
+  {
+    "start": 2347.64,
+    "duration": 10.56,
+    "text": "be even because it is 2 raise to power 1 plus 2 raise to power 2 plus whatever, these"
+  },
+  {
+    "start": 2358.2,
+    "duration": 4.36,
+    "text": "are all the even number sum and all the even number sum gives even number, but this is"
+  },
+  {
+    "start": 2362.56,
+    "duration": 5.44,
+    "text": "the only number that is odd, so if this is equal to 1 number is odd, this is equal"
+  },
+  {
+    "start": 2368.0,
+    "duration": 7.6,
+    "text": "to 0, number is even. That is your answer. Find out what the last number is. If it is"
+  },
+  {
+    "start": 2375.6,
+    "duration": 5.52,
+    "text": "1, then the answer is odd. If it is 0, then the answer is even. How can we do that? Now"
+  },
+  {
+    "start": 2381.12,
+    "duration": 4.04,
+    "text": "the question is reduced to that. So given any number, if I am given let us say something"
+  },
+  {
+    "start": 2385.16,
+    "duration": 9.52,
+    "text": "like 0 0 1 0 1. If I add any number, I want to basically get the last number. I want"
+  },
+  {
+    "start": 2394.68,
+    "duration": 7.0,
+    "text": "to get this last digit. We know if we add any number with one, we get that number only."
+  },
+  {
+    "start": 2401.68,
+    "duration": 7.84,
+    "text": "We get that number only. We know when we add any number with zero, we get zero. Any number"
+  },
+  {
+    "start": 2409.52,
+    "duration": 7.14,
+    "text": "and zero will zero. If I just do it like this, that I only want the last number, whatever"
+  },
+  {
+    "start": 2416.66,
+    "duration": 4.6,
+    "text": "the last number is, I want that and I know that any number I add with one will give"
+  },
+  {
+    "start": 2421.26,
+    "duration": 8.74,
+    "text": "me that number only. So, 1 and 1 will give me 1, 1 and 1 will give me 1, all the other"
+  },
+  {
+    "start": 2430.0,
+    "duration": 4.48,
+    "text": "numbers will give me 0. Does it not mean that it will give me either 0 or 1? So, here I will"
+  },
+  {
+    "start": 2434.48,
+    "duration": 7.92,
+    "text": "say all these numbers will be like ignored obviously, the answer is 1, hence odd number."
+  },
+  {
+    "start": 2442.4,
+    "duration": 15.37,
+    "text": "So, to sum up n and 1 is equal to equal to 1 means odd else even that is it, just and"
+  },
+  {
+    "start": 2457.77,
+    "duration": 5.48,
+    "text": "the number with 1 if the answer is 1 it means that you are getting you know by the way you"
+  },
+  {
+    "start": 2463.25,
+    "duration": 3.64,
+    "text": "know if you just and 1 so you are saying hey Kunal can you not do it something like"
+  },
+  {
+    "start": 2466.89,
+    "duration": 4.64,
+    "text": "this is also the same thing yeah it is but in number system we have told that as many"
+  },
+  {
+    "start": 2471.53,
+    "duration": 4.16,
+    "text": "numbers you have you have to fill those gaps even in decimal number system. We fill those"
+  },
+  {
+    "start": 2475.69,
+    "duration": 10.51,
+    "text": "gaps by zeros even in decimal number system. Let us try to code this. So I can rename"
+  },
+  {
+    "start": 2486.2,
+    "duration": 8.87,
+    "text": "this file to let us say something like odd or even and you just have a number let us"
+  },
+  {
+    "start": 2495.07,
+    "duration": 8.24,
+    "text": "say n is equal to something let us say 67 and then you just say print is odd or"
+  },
+  {
+    "start": 2503.31,
+    "duration": 7.24,
+    "text": "or not the number n, when I create this is odd number n. So I'm just going to say written"
+  },
+  {
+    "start": 2510.55,
+    "duration": 6.76,
+    "text": "n and 1, that's it. n and 1 is equal to equal to 1. So if this is equal to if n and 1 is"
+  },
+  {
+    "start": 2517.31,
+    "duration": 4.0,
+    "text": "equal to equal to 1 number is odd, otherwise it's even it should give me this should give"
+  },
+  {
+    "start": 2521.31,
+    "duration": 8.17,
+    "text": "me true because 67 and 1 should give me one and that is odd true. If I try something"
+  },
+  {
+    "start": 2529.48,
+    "duration": 10.9,
+    "text": "like 68, 68 is odd, no it is not it will give false, very simple stuff, all right, let us"
+  },
+  {
+    "start": 2540.38,
+    "duration": 1.0,
+    "text": "move forward to the next question."
+  },
+  {
+    "start": 2541.38,
+    "duration": 6.88,
+    "text": "One more thing I want to mention, this last digit is known as LSB least significant bit,"
+  },
+  {
+    "start": 2548.26,
+    "duration": 11.07,
+    "text": "this is known as LSB least significant bit, okay, cool."
+  },
+  {
+    "start": 2559.33,
+    "duration": 6.3,
+    "text": "Question number two, so a very important question, this question is, we are given"
+  },
+  {
+    "start": 2565.63,
+    "duration": 8.12,
+    "text": "an array of numbers and in that array every number appears twice only one number appears"
+  },
+  {
+    "start": 2573.75,
+    "duration": 10.29,
+    "text": "once you have to find that number for example array is given something like this two three"
+  },
+  {
+    "start": 2584.04,
+    "duration": 11.04,
+    "text": "four one two one three six four so you can see one is appearing twice two is appearing"
+  },
+  {
+    "start": 2595.08,
+    "duration": 6.0,
+    "text": "twice, three is appearing twice, four is appearing twice, six is appearing once, this is my answer."
+  },
+  {
+    "start": 2602.92,
+    "duration": 5.16,
+    "text": "How do we find this? Try to pause this video and think about it."
+  },
+  {
+    "start": 2608.72,
+    "duration": 4.8,
+    "text": "Always in interviews, try to give the brute force solution first, we discuss the complexity of it"
+  },
+  {
+    "start": 2613.52,
+    "duration": 5.2,
+    "text": "and then do the optimized solution. So what is happening over here, what can we do? You can"
+  },
+  {
+    "start": 2618.72,
+    "duration": 6.24,
+    "text": "sort this array and then you can check, right? It's going to take mlogin and nlogin is"
+  },
+  {
+    "start": 2624.96,
+    "duration": 3.76,
+    "text": "that is how you can sort in n log n. It is also going to take some space complexity because"
+  },
+  {
+    "start": 2628.72,
+    "duration": 4.72,
+    "text": "merge sort, quick sort, we will learn about it later, take some complexity."
+  },
+  {
+    "start": 2633.44,
+    "duration": 6.0,
+    "text": "So, how can we do this? Try to think about it and then come back to this video. Before"
+  },
+  {
+    "start": 2639.44,
+    "duration": 3.92,
+    "text": "starting this question, there is one thing you have to understand. You know these bitwise"
+  },
+  {
+    "start": 2643.36,
+    "duration": 5.16,
+    "text": "operators like you know your normal mathematical operators, they also follow the associative"
+  },
+  {
+    "start": 2648.52,
+    "duration": 7.0,
+    "text": "property. So, if I say something like, you know, 5 into 3 into 5 into 4. So, if I say"
+  },
+  {
+    "start": 2655.52,
+    "duration": 6.32,
+    "text": "5 into 3, something like this and then 5 into 4, this is also equal to something like"
+  },
+  {
+    "start": 2661.84,
+    "duration": 8.04,
+    "text": "if I say 5 into 5 into 3 into 4, something like that is also equal to 5 into 4 into"
+  },
+  {
+    "start": 2669.88,
+    "duration": 6.76,
+    "text": "3 into 5 is also equal to 4 into 3 into 5 into 5. So, the order basically does not"
+  },
+  {
+    "start": 2676.64,
+    "duration": 1.36,
+    "text": "matter in simple terms."
+  },
+  {
+    "start": 2678.0,
+    "duration": 12.04,
+    "text": "Similarly, if I am saying 2xor 3xor 3xor 4, this is equal to 2xor 4xor 3xor 3 or whatever."
+  },
+  {
+    "start": 2690.04,
+    "duration": 4.52,
+    "text": "Similarly for like all the bitwise operators we have talked about, how do we solve this"
+  },
+  {
+    "start": 2694.56,
+    "duration": 1.0,
+    "text": "problem?"
+  },
+  {
+    "start": 2695.56,
+    "duration": 1.0,
+    "text": "It is very simple."
+  },
+  {
+    "start": 2696.56,
+    "duration": 2.74,
+    "text": "So, you can use hash map or whatever you want, we will learn about hash maps later"
+  },
+  {
+    "start": 2699.3,
+    "duration": 1.0,
+    "text": "on."
+  },
+  {
+    "start": 2700.3,
+    "duration": 3.86,
+    "text": "But let us say we do not want to do it in constant time in just one single pass,"
+  },
+  {
+    "start": 2704.16,
+    "duration": 8.12,
+    "text": "O of n complexity. So you know that this particular point, the point I have written, I have written"
+  },
+  {
+    "start": 2712.28,
+    "duration": 8.2,
+    "text": "in red, all the important points I have written in red, this one, any number XOR with that"
+  },
+  {
+    "start": 2720.48,
+    "duration": 7.32,
+    "text": "number gives 0 and 0 XOR any number gives that number itself, two points. So if I XOR"
+  },
+  {
+    "start": 2727.8,
+    "duration": 6.16,
+    "text": "this entire array, if I XOR this entire array, I know that all the duplicates will"
+  },
+  {
+    "start": 2733.96,
+    "duration": 7.34,
+    "text": "lead to 0, to XOR 2 will give me 0. Why? Because A XOR A gives 0, this will give me 0, this"
+  },
+  {
+    "start": 2741.3,
+    "duration": 5.16,
+    "text": "will give me 0, this will give me 0 and this will give me 0. Only thing remaining in the"
+  },
+  {
+    "start": 2746.46,
+    "duration": 7.28,
+    "text": "end will be what? 0 XOR 4, that will give me what? 4. That is your answer. XOR the"
+  },
+  {
+    "start": 2753.74,
+    "duration": 4.2,
+    "text": "entire array, that is your answer. In the end you will be only remaining with the"
+  },
+  {
+    "start": 2757.94,
+    "duration": 3.84,
+    "text": "element that is unique because all the duplicate elements will be XORed by themselves."
+  },
+  {
+    "start": 2761.78,
+    "duration": 4.12,
+    "text": "themselves, order does not matter. In the end, if you have duplicate elements, they will"
+  },
+  {
+    "start": 2765.9,
+    "duration": 6.08,
+    "text": "get XOR and they will be equal to 0. So, all the duplicate elements will be equal to 0,"
+  },
+  {
+    "start": 2771.98,
+    "duration": 9.17,
+    "text": "only thing remaining will be the unique element, that's it. So, just answer is XOR all the"
+  },
+  {
+    "start": 2781.15,
+    "duration": 1.0,
+    "text": "numbers."
+  },
+  {
+    "start": 2782.15,
+    "duration": 7.24,
+    "text": "What is the complexity? O of n, space complexity, constant. Let's try to code this. Now before"
+  },
+  {
+    "start": 2789.39,
+    "duration": 5.12,
+    "text": "I move on to like the coding part, you may be getting a point like you may be getting like a"
+  },
+  {
+    "start": 2797.15,
+    "duration": 4.4,
+    "text": "doubt like a Kunal why is this like working because this is not in the order. Let me give"
+  },
+  {
+    "start": 2801.55,
+    "duration": 3.92,
+    "text": "you another question for that. Let me give you another question for that. Let's say you're"
+  },
+  {
+    "start": 2805.47,
+    "duration": 4.48,
+    "text": "given all the numbers in an array that contain the negative of that number and positive of"
+  },
+  {
+    "start": 2809.95,
+    "duration": 3.84,
+    "text": "that number, but only one number is present by itself. So, for example, you're given like"
+  },
+  {
+    "start": 2813.79,
+    "duration": 12.71,
+    "text": "minus 2, 3, 2, 4, minus 5, 5 and minus 4. As you can see that 2 contains the positive"
+  },
+  {
+    "start": 2826.5,
+    "duration": 5.0,
+    "text": "and negative, 4 contains positive and negative, 5 contains minus 5 and plus 5. Only 3 is available"
+  },
+  {
+    "start": 2831.5,
+    "duration": 4.64,
+    "text": "over there by its own. So the answer is 3. Okay, how did you know that? You are like"
+  },
+  {
+    "start": 2836.14,
+    "duration": 4.96,
+    "text": "hey just add all these because minus 2 will be getting cancelled out 2. So you just"
+  },
+  {
+    "start": 2841.1,
+    "duration": 4.4,
+    "text": "take initial sum as zero and then just say zero plus minus two plus three plus two plus"
+  },
+  {
+    "start": 2845.5,
+    "duration": 3.8,
+    "text": "four plus minus five plus five and plus minus four because you know that minus two will"
+  },
+  {
+    "start": 2849.3,
+    "duration": 3.52,
+    "text": "be cancelled out with two four will be cancelled out of minus four minus five will be cancelled"
+  },
+  {
+    "start": 2852.82,
+    "duration": 5.12,
+    "text": "out of five order does not matter then why are you having why why may you be having"
+  },
+  {
+    "start": 2857.94,
+    "duration": 6.36,
+    "text": "the same doubt over here same way here also order will not matter because of this concept"
+  },
+  {
+    "start": 2864.3,
+    "duration": 3.86,
+    "text": "okay in the end three will be remaining exactly the same thing we are doing instead"
+  },
+  {
+    "start": 2868.16,
+    "duration": 6.08,
+    "text": "of doing addition of all, we are just doing XOR of all, let us try to code this thing."
+  },
+  {
+    "start": 2874.24,
+    "duration": 5.88,
+    "text": "So I have something like this, I am going to say find unique and I am going to say public"
+  },
+  {
+    "start": 2880.12,
+    "duration": 4.52,
+    "text": "static void main, it is going to have like an array like this in which I am going to"
+  },
+  {
+    "start": 2884.64,
+    "duration": 9.88,
+    "text": "let us write 2 comma 3 comma 3 comma 4 comma 2 comma 6 comma 4."
+  },
+  {
+    "start": 2894.52,
+    "duration": 6.6,
+    "text": "two, four and three are occurring twice and only six is occurring once, right? So six should"
+  },
+  {
+    "start": 2901.12,
+    "duration": 8.24,
+    "text": "be the answer. So I can say answer of my array, I can just write this, I'm going to return"
+  },
+  {
+    "start": 2909.36,
+    "duration": 10.12,
+    "text": "an integer, initially answer or my, you know, unique is equal to zero. And I can just"
+  },
+  {
+    "start": 2919.48,
+    "duration": 17.83,
+    "text": "say return unique and I can say for every number in my array, I can say just XOR it that's it."
+  },
+  {
+    "start": 2937.31,
+    "duration": 8.17,
+    "text": "This should give me six. How simple was that? It's very simple. Six, four of n."
+  },
+  {
+    "start": 2946.84,
+    "duration": 2.96,
+    "text": "All right, let's move on to the next question. Okay, now let's move on to the next question."
+  },
+  {
+    "start": 2949.8,
+    "duration": 5.28,
+    "text": "So the next question says that you're given a number and you have to find out let's say"
+  },
+  {
+    "start": 2955.08,
+    "duration": 7.82,
+    "text": "let us say you have to find out the ith bit of that number ok. So, let us say you are given"
+  },
+  {
+    "start": 2962.9,
+    "duration": 11.04,
+    "text": "a number like this. So, I can say find ith bit of a number ok. So, you are given something"
+  },
+  {
+    "start": 2973.94,
+    "duration": 11.56,
+    "text": "like this you are saying let us say the number is 1 1 0 1 1 0 ok. I can say 0 and 1 over"
+  },
+  {
+    "start": 2985.5,
+    "duration": 5.56,
+    "text": "here okay that's the number given to you so you can say that this is the first bit"
+  },
+  {
+    "start": 2991.06,
+    "duration": 7.72,
+    "text": "the second bit the third fourth fifth sixth seventh eighth you have to find let's"
+  },
+  {
+    "start": 2998.78,
+    "duration": 4.32,
+    "text": "say the fifth bit this is equal to what I know it's equal to one but how do we"
+  },
+  {
+    "start": 3003.1,
+    "duration": 6.2,
+    "text": "find it how do we find it so we know that we were able to find our question"
+  },
+  {
+    "start": 3009.3,
+    "duration": 4.04,
+    "text": "in the odd even number we wanted to find what was the least significant bit"
+  },
+  {
+    "start": 3013.34,
+    "duration": 5.52,
+    "text": "what what was the right most bit we just and it with one similar concept you can apply over here"
+  },
+  {
+    "start": 3019.9,
+    "duration": 5.2,
+    "text": "and this particular number digits with one it will give me that number rest and will be zero"
+  },
+  {
+    "start": 3026.14,
+    "duration": 2.96,
+    "text": "so i can say answer can be"
+  },
+  {
+    "start": 3031.02,
+    "duration": 8.08,
+    "text": "one zero one one zero one one zero this is like and this with one rest all will be zero"
+  },
+  {
+    "start": 3039.1,
+    "duration": 12.34,
+    "text": "this will give me answer, that is correct. But now the question is how do we get this"
+  },
+  {
+    "start": 3051.44,
+    "duration": 12.98,
+    "text": "thing? What is this thing? This is called a mask. So mask is like a separate number or"
+  },
+  {
+    "start": 3064.42,
+    "duration": 6.08,
+    "text": "entity you have that allows us to get our answer related to it. So if I am talking"
+  },
+  {
+    "start": 3070.5,
+    "duration": 4.88,
+    "text": "about the fifth bit, you can see that there contains four zeros. So basically I want to"
+  },
+  {
+    "start": 3075.38,
+    "duration": 9.78,
+    "text": "create if number is given equal to n, I need to create a mask with n minus 1 zeros. How"
+  },
+  {
+    "start": 3085.16,
+    "duration": 7.58,
+    "text": "do we do that? Can I not just do, so I need n minus 1 zeros in the right hand side. What"
+  },
+  {
+    "start": 3092.74,
+    "duration": 5.32,
+    "text": "do we need to do in order to move the 1 towards the left hand side and get zeros over here?"
+  },
+  {
+    "start": 3098.06,
+    "duration": 11.68,
+    "text": "shift. So, I can say 1 left shift 4 is going to give me 1. So, in order to create this"
+  },
+  {
+    "start": 3109.74,
+    "duration": 7.4,
+    "text": "mass you can say 1 left shift n minus 1. That way you will get the ith bit after that."
+  },
+  {
+    "start": 3117.14,
+    "duration": 16.98,
+    "text": "So, the answer is equal to n and 1 left shift n minus 1 that is your answer. Very cool"
+  },
+  {
+    "start": 3134.12,
+    "duration": 16.18,
+    "text": "stuff alright similar question can be set the ith bit set basically means turn it"
+  },
+  {
+    "start": 3150.3,
+    "duration": 5.56,
+    "text": "to turn it to one so if ith bit is zero make it one if it is one make it one"
+  },
+  {
+    "start": 3155.86,
+    "duration": 3.52,
+    "text": "only remain one only such as the question is something like this one zero"
+  },
+  {
+    "start": 3159.38,
+    "duration": 8.88,
+    "text": "one zero one one zero let's say you want to set the fourth bit we know when we"
+  },
+  {
+    "start": 3168.26,
+    "duration": 8.52,
+    "text": "or any number with 1, it will give me 1, just or this with 1, this will be 1, 0, 0, 0, 0,"
+  },
+  {
+    "start": 3176.78,
+    "duration": 11.52,
+    "text": "0, 0, ok, just or this, this will become 1, 0, 1, 1, 1, 0, i-thpit set, answer. Similarly,"
+  },
+  {
+    "start": 3188.3,
+    "duration": 8.75,
+    "text": "this is a mask you can create similarly, ok. So, this basically means if it is 0,"
+  },
+  {
+    "start": 3197.05,
+    "duration": 12.59,
+    "text": "it to one if it's one remain one only ok as simple as it gets very cool stuff the opposite"
+  },
+  {
+    "start": 3209.64,
+    "duration": 10.42,
+    "text": "of this can be reset reset ith bit how do we reset ith bit check it was something like"
+  },
+  {
+    "start": 3220.06,
+    "duration": 8.0,
+    "text": "one zero one zero one one zero you have to reset let's say the this bit ok the fifth"
+  },
+  {
+    "start": 3228.06,
+    "duration": 5.68,
+    "text": "bit reset it reset basically means if it's one make it zero if it's zero make it zero"
+  },
+  {
+    "start": 3233.74,
+    "duration": 5.96,
+    "text": "only. So basically the opposite of this. So I know if I add any number will 1, I will"
+  },
+  {
+    "start": 3239.7,
+    "duration": 5.16,
+    "text": "get that number itself. But if I add any number with 0, I will get the opposite of that number."
+  },
+  {
+    "start": 3244.86,
+    "duration": 5.8,
+    "text": "I will get 0 only. Not opposite, 0 only. 0 and anything will be 0. So add everything"
+  },
+  {
+    "start": 3250.66,
+    "duration": 6.8,
+    "text": "with 1 and this number with 0. This will say okay 1, 0. This will become 0 because"
+  },
+  {
+    "start": 3257.46,
+    "duration": 20.52,
+    "text": "anything and with 0 gives 0 0 1 1 0 answer okay so how do we get this mask it's very"
+  },
+  {
+    "start": 3277.98,
+    "duration": 4.8,
+    "text": "simple you know how to get this mask if you just do the complement of it means"
+  },
+  {
+    "start": 3282.78,
+    "duration": 6.12,
+    "text": "opposite see you will get this mask this mask is basically equal to what mask is"
+  },
+  {
+    "start": 3288.9,
+    "duration": 4.08,
+    "text": "equal to if I just do the opposite of this so this is basically going to be"
+  },
+  {
+    "start": 3292.98,
+    "duration": 5.6,
+    "text": "equal to 1 left shift it's going to be n minus 1 then just take the"
+  },
+  {
+    "start": 3298.58,
+    "duration": 7.2,
+    "text": "compliment of this. Alright, we are not just going to do questions right now, a lot of theory"
+  },
+  {
+    "start": 3305.78,
+    "duration": 3.84,
+    "text": "is remaining, lots of concepts are remaining. So please make sure you like, share and subscribe"
+  },
+  {
+    "start": 3309.62,
+    "duration": 8.5,
+    "text": "and yeah, let's move forward. Next question, we're doing some interview questions as well"
+  },
+  {
+    "start": 3318.12,
+    "duration": 24.29,
+    "text": "in this video. So another question is find the position of the right most set bit. Okay,"
+  },
+  {
+    "start": 3342.41,
+    "duration": 1.0,
+    "text": "What do you mean by this?"
+  },
+  {
+    "start": 3343.41,
+    "duration": 6.18,
+    "text": "So let's say I give an example, let's say I give an example like, say I give something"
+  },
+  {
+    "start": 3349.59,
+    "duration": 7.95,
+    "text": "like this, 1, 0, 1, 1, 0, 1, 1, 0."
+  },
+  {
+    "start": 3357.54,
+    "duration": 5.6,
+    "text": "Looking from the right hand side, which is the set bit, the first one that occurs from"
+  },
+  {
+    "start": 3363.14,
+    "duration": 4.4,
+    "text": "the right hand side is going to be like this is the answer."
+  },
+  {
+    "start": 3367.54,
+    "duration": 1.0,
+    "text": "That's true."
+  },
+  {
+    "start": 3368.54,
+    "duration": 1.0,
+    "text": "Yeah."
+  },
+  {
+    "start": 3369.54,
+    "duration": 3.34,
+    "text": "Answer is equal to 2."
+  },
+  {
+    "start": 3372.88,
+    "duration": 3.46,
+    "text": "Okay."
+  },
+  {
+    "start": 3376.34,
+    "duration": 1.0,
+    "text": "That's true."
+  },
+  {
+    "start": 3377.34,
+    "duration": 2.48,
+    "text": "So how can we find this answer?"
+  },
+  {
+    "start": 3379.82,
+    "duration": 9.89,
+    "text": "How do we get this thing, something to think about, right, let's try to see how we can get"
+  },
+  {
+    "start": 3389.71,
+    "duration": 5.26,
+    "text": "this."
+  },
+  {
+    "start": 3394.97,
+    "duration": 9.6,
+    "text": "So, if I'm writing this number in the form, let's say I write this number N, if I'm saying"
+  },
+  {
+    "start": 3404.57,
+    "duration": 5.24,
+    "text": "this is the right most bit, so it will be 1 over here, let's say B over here and A"
+  },
+  {
+    "start": 3409.81,
+    "duration": 6.24,
+    "text": "over here, okay, and I know that these B's are all going to be here, A is going to"
+  },
+  {
+    "start": 3416.05,
+    "duration": 3.68,
+    "text": "be equal to what, if I write 0 over here also, okay, let's say I write 0 over here"
+  },
+  {
+    "start": 3419.73,
+    "duration": 6.12,
+    "text": "and answer will now be equal to 4. So, here I know that a is going to be equal to this"
+  },
+  {
+    "start": 3425.85,
+    "duration": 4.04,
+    "text": "thing this will be my a, this will be my b and this will be my I am just writing this"
+  },
+  {
+    "start": 3429.89,
+    "duration": 5.92,
+    "text": "in a form. So, a is going to be 1 1 something like this, b is going to be equal to 0 0 and"
+  },
+  {
+    "start": 3435.81,
+    "duration": 17.8,
+    "text": "0 ok cool stuff. Now, we need to find this 1, but how do we find that 1 from this n"
+  },
+  {
+    "start": 3453.61,
+    "duration": 1.92,
+    "text": "something to think about?"
+  },
+  {
+    "start": 3455.53,
+    "duration": 0.84,
+    "text": "How can we do that?"
+  },
+  {
+    "start": 3458.81,
+    "duration": 3.4,
+    "text": "Let's see."
+  },
+  {
+    "start": 3462.21,
+    "duration": 2.88,
+    "text": "So if you have something like just trying to see"
+  },
+  {
+    "start": 3465.09,
+    "duration": 1.36,
+    "text": "how I can explain this to you,"
+  },
+  {
+    "start": 3466.45,
+    "duration": 12.76,
+    "text": "like how the thought process will be."
+  },
+  {
+    "start": 3479.21,
+    "duration": 1.48,
+    "text": "Okay."
+  },
+  {
+    "start": 3480.69,
+    "duration": 2.16,
+    "text": "So I'm gonna tell you an approach for this"
+  },
+  {
+    "start": 3482.85,
+    "duration": 1.4,
+    "text": "and then we'll actually, you know,"
+  },
+  {
+    "start": 3484.25,
+    "duration": 4.12,
+    "text": "learn about how we are doing that."
+  },
+  {
+    "start": 3488.37,
+    "duration": 2.72,
+    "text": "So we know that we need to make these"
+  },
+  {
+    "start": 3491.09,
+    "duration": 2.48,
+    "text": "because B is available over here as zero already."
+  },
+  {
+    "start": 3493.57,
+    "duration": 0.84,
+    "text": "We are not touching this"
+  },
+  {
+    "start": 3494.41,
+    "duration": 4.64,
+    "text": "this is actually, this thing is my answer. We have to create all of these things as zero."
+  },
+  {
+    "start": 3499.05,
+    "duration": 8.21,
+    "text": "That is what we need to do, right? How can we do that? I just need to make something like"
+  },
+  {
+    "start": 3509.66,
+    "duration": 10.22,
+    "text": "a complement 1b. And then I just add these two, right? But what is this actually equal to in"
+  },
+  {
+    "start": 3519.88,
+    "duration": 9.89,
+    "text": "terms of formulas? What is actually equal to in terms of formula? It's actually equal to negative"
+  },
+  {
+    "start": 3529.77,
+    "duration": 5.76,
+    "text": "n. But for that, we have to understand about negative numbers. Okay, right now, let's just"
+  },
+  {
+    "start": 3535.53,
+    "duration": 4.16,
+    "text": "just say, we will cover about negative number in the after this question. So, I know that"
+  },
+  {
+    "start": 3539.69,
+    "duration": 6.84,
+    "text": "let us say minus of n is equal to this, then I can say that the rightmost bit my answer"
+  },
+  {
+    "start": 3546.53,
+    "duration": 8.33,
+    "text": "will be equal to n and negative n, because I know 0 and 0 will be 0, 1 and 1 will be"
+  },
+  {
+    "start": 3554.86,
+    "duration": 8.32,
+    "text": "1, a and complement a will be 0. Hence, this will be equal to the answer, just rightmost"
+  },
+  {
+    "start": 3563.18,
+    "duration": 6.68,
+    "text": "set bit. But now the question is why? How do you know that this is equal to this? How?"
+  },
+  {
+    "start": 3569.86,
+    "duration": 6.96,
+    "text": "It is a good question. Let us look into that. It is a good question."
+  },
+  {
+    "start": 3576.82,
+    "duration": 3.76,
+    "text": "Okay, so now let us talk about negative of a binary number. For example, you are given"
+  },
+  {
+    "start": 3580.58,
+    "duration": 5.28,
+    "text": "a normal number, normal negative number in let us say base 10, let us say minus 24."
+  },
+  {
+    "start": 3585.86,
+    "duration": 4.0,
+    "text": "You want to represent that in binary. In binary, we do not have like negative symbol"
+  },
+  {
+    "start": 3589.86,
+    "duration": 4.04,
+    "text": "as such. You have to represent it in the forms of 0 and 7 months. Let us see how"
+  },
+  {
+    "start": 3593.9,
+    "duration": 9.13,
+    "text": "we can do that. So, let us say we are talking about negative of a number, negative of a number"
+  },
+  {
+    "start": 3603.03,
+    "duration": 9.06,
+    "text": "in binary form, so very important topic. First I will tell you how we can calculate it"
+  },
+  {
+    "start": 3612.09,
+    "duration": 4.4,
+    "text": "and then I will tell you why it is working the way it is. So, let us say you are storing"
+  },
+  {
+    "start": 3616.49,
+    "duration": 5.18,
+    "text": "a number in one byte, here we have to think about size of the number. So, even though"
+  },
+  {
+    "start": 3621.67,
+    "duration": 5.08,
+    "text": "So previously I mentioned numbers like you know, random numbers, but it does mean that"
+  },
+  {
+    "start": 3626.75,
+    "duration": 2.52,
+    "text": "this is also being stored in a particular size."
+  },
+  {
+    "start": 3629.27,
+    "duration": 4.24,
+    "text": "Okay, so we know that one byte is equal to eight bits."
+  },
+  {
+    "start": 3633.51,
+    "duration": 4.92,
+    "text": "So you can store eight numbers, eight times ones or zeros in one byte."
+  },
+  {
+    "start": 3638.43,
+    "duration": 6.52,
+    "text": "So I know that one byte is equal to eight bits."
+  },
+  {
+    "start": 3644.95,
+    "duration": 5.16,
+    "text": "If you're storing 10 in one byte, 10 in one byte is going to be stored like this."
+  },
+  {
+    "start": 3650.11,
+    "duration": 8.28,
+    "text": "There is going to be like 8 boxes, 10 is going to be stored like 0, 1, 0, 1, rest all will"
+  },
+  {
+    "start": 3658.39,
+    "duration": 1.0,
+    "text": "be 0."
+  },
+  {
+    "start": 3659.39,
+    "duration": 4.04,
+    "text": "This is 10 stored in 1 byte."
+  },
+  {
+    "start": 3663.43,
+    "duration": 5.64,
+    "text": "Okay, let us say we calculate negative of 10, negative of 10 is going to be equal to"
+  },
+  {
+    "start": 3669.07,
+    "duration": 1.0,
+    "text": "what?"
+  },
+  {
+    "start": 3670.07,
+    "duration": 1.76,
+    "text": "That is the question."
+  },
+  {
+    "start": 3671.83,
+    "duration": 6.72,
+    "text": "Most important point, this is the most significant bit, this is the least significant"
+  },
+  {
+    "start": 3678.55,
+    "duration": 1.0,
+    "text": "bit."
+  },
+  {
+    "start": 3679.55,
+    "duration": 6.96,
+    "text": "This tells us whether the number is even or odd. This tells us whether the number is"
+  },
+  {
+    "start": 3687.47,
+    "duration": 11.15,
+    "text": "positive or negative. It tells us if number is positive or negative. One means negative,"
+  },
+  {
+    "start": 3699.5,
+    "duration": 8.06,
+    "text": "zero means positive. So, this is like the reserved number. This is the reserved bit."
+  },
+  {
+    "start": 3707.56,
+    "duration": 7.32,
+    "text": "If the size of the data type, let us say you are taking integer, that is 4 bytes, ok, that"
+  },
+  {
+    "start": 3714.88,
+    "duration": 2.0,
+    "text": "is like 32 bits."
+  },
+  {
+    "start": 3716.88,
+    "duration": 5.64,
+    "text": "The first bit is going to be either plus or 0, I mean plus 1 or 0 obviously, but that"
+  },
+  {
+    "start": 3722.52,
+    "duration": 4.36,
+    "text": "particular first bit, it is going to represent whether the number is positive or not and"
+  },
+  {
+    "start": 3726.88,
+    "duration": 4.12,
+    "text": "rest of the 31 bits, that is going to represent the value of the number."
+  },
+  {
+    "start": 3731.0,
+    "duration": 12.8,
+    "text": "So, these actually represent the value of the number, ok, cool stuff."
+  },
+  {
+    "start": 3743.8,
+    "duration": 5.32,
+    "text": "This is an important concept when we talk about range of a number from which range till which"
+  },
+  {
+    "start": 3749.12,
+    "duration": 6.04,
+    "text": "range can I store my numbers that is something we will learn about after finding the negative"
+  },
+  {
+    "start": 3755.16,
+    "duration": 1.0,
+    "text": "of a number."
+  },
+  {
+    "start": 3756.16,
+    "duration": 4.32,
+    "text": "Okay, so after this concept we will learn about range of a number."
+  },
+  {
+    "start": 3760.48,
+    "duration": 2.52,
+    "text": "Negative 10 steps are very simple."
+  },
+  {
+    "start": 3763.0,
+    "duration": 2.08,
+    "text": "Let us first learn about the steps."
+  },
+  {
+    "start": 3765.08,
+    "duration": 2.12,
+    "text": "Step number one."
+  },
+  {
+    "start": 3767.2,
+    "duration": 1.88,
+    "text": "Step number one is what?"
+  },
+  {
+    "start": 3769.08,
+    "duration": 9.38,
+    "text": "Step number one is take the complement of it or step number one can be yeah, take the complement"
+  },
+  {
+    "start": 3778.46,
+    "duration": 11.13,
+    "text": "of it, take complement of number, step number two is add one to it, this is also known as"
+  },
+  {
+    "start": 3789.59,
+    "duration": 8.39,
+    "text": "two's complement method, okay."
+  },
+  {
+    "start": 3797.98,
+    "duration": 11.38,
+    "text": "So 10 in binary is what, let us say 10 in binary, let us say this is 10 when stored"
+  },
+  {
+    "start": 3809.36,
+    "duration": 4.92,
+    "text": "in a 1 byte data type. Let us say it is stored in a size 1 byte then this will be the value"
+  },
+  {
+    "start": 3814.28,
+    "duration": 10.44,
+    "text": "of 10. Step number 1 says invert everything. So, this will be 1 1 1 1 0 1 0 1. Step number"
+  },
+  {
+    "start": 3824.72,
+    "duration": 14.02,
+    "text": "2 basically says add 1 to it. 1 plus 1 is 2 1 1 0 1 1 1. So, this is equal to negative"
+  },
+  {
+    "start": 3838.74,
+    "duration": 10.28,
+    "text": "10 in, negative 10 in binary is equal to 1, 1, 1, 1, 0, 1, 1, 0 when stored in what, 1"
+  },
+  {
+    "start": 3849.02,
+    "duration": 2.44,
+    "text": "byte data type."
+  },
+  {
+    "start": 3851.46,
+    "duration": 4.64,
+    "text": "Very cool stuff, that is how you calculate it, but that is not the real problem, this"
+  },
+  {
+    "start": 3856.1,
+    "duration": 5.2,
+    "text": "is very simple, just negative, just complement the number add 1 to it, that is it."
+  },
+  {
+    "start": 3861.3,
+    "duration": 6.36,
+    "text": "The real question is why, why is this working Kunal, why are you taking these two steps,"
+  },
+  {
+    "start": 3867.66,
+    "duration": 6.38,
+    "text": "so special about this let's see this is the important part why why does two"
+  },
+  {
+    "start": 3874.04,
+    "duration": 7.3,
+    "text": "complement give negative of a number why though so you know when the size is one"
+  },
+  {
+    "start": 3881.34,
+    "duration": 5.76,
+    "text": "byte means eight bits and you're having an additional bit that is going to get"
+  },
+  {
+    "start": 3887.1,
+    "duration": 8.12,
+    "text": "ignored okay for example I'm saying store 500 in one byte can you store"
+  },
+  {
+    "start": 3895.22,
+    "duration": 5.68,
+    "text": "400, 500 in one byte, try to represent 500 in terms of bits, it will be more than one"
+  },
+  {
+    "start": 3900.9,
+    "duration": 5.44,
+    "text": "byte, will be more than one bit, try to see it in the terms of you know, like the negative"
+  },
+  {
+    "start": 3906.34,
+    "duration": 7.0,
+    "text": "is like the number of bits in the binary, not going to work, okay."
+  },
+  {
+    "start": 3913.34,
+    "duration": 5.64,
+    "text": "So whenever the numbers exceed, so for example, if you are like, hey, store this in one"
+  },
+  {
+    "start": 3918.98,
+    "duration": 8.98,
+    "text": "byte, one, two, something like this, store this in one byte, one byte is like eight bits"
+  },
+  {
+    "start": 3927.96,
+    "duration": 1.0,
+    "text": "only."
+  },
+  {
+    "start": 3928.96,
+    "duration": 4.88,
+    "text": "So, one, two, three, four, five, six, seven, eight, only this will be stored, this will"
+  },
+  {
+    "start": 3933.84,
+    "duration": 7.04,
+    "text": "be discarded by because space is not there, space is not available."
+  },
+  {
+    "start": 3940.88,
+    "duration": 4.84,
+    "text": "So why is to complement the negative of a number, very important point, you know whenever"
+  },
+  {
+    "start": 3945.72,
+    "duration": 4.2,
+    "text": "you subtract zero from a number, you get the negative of the number, that's very"
+  },
+  {
+    "start": 3949.92,
+    "duration": 6.44,
+    "text": "simple stuff. When you subtract 0 from a number, so 0 minus 10 is minus 10. So I am talking"
+  },
+  {
+    "start": 3956.36,
+    "duration": 11.08,
+    "text": "about 10, if I am talking about what is 10. If I subtract this from 0, this should give"
+  },
+  {
+    "start": 3967.44,
+    "duration": 5.96,
+    "text": "me negative 10 in binary. Okay. And since I am storing this in the size of 1 byte,"
+  },
+  {
+    "start": 3973.4,
+    "duration": 4.08,
+    "text": "if I add an additional one over here, this does not really matter much because it will"
+  },
+  {
+    "start": 3977.48,
+    "duration": 4.88,
+    "text": "get ignored. All the extra bits will get ignored because size will not allow it."
+  },
+  {
+    "start": 3982.36,
+    "duration": 5.64,
+    "text": "saying add a ninth bit, but that is not allowed, only allowed to add eight bits."
+  },
+  {
+    "start": 3988.0,
+    "duration": 5.44,
+    "text": "What is this thing?"
+  },
+  {
+    "start": 3993.44,
+    "duration": 2.75,
+    "text": "What is this?"
+  },
+  {
+    "start": 3996.19,
+    "duration": 6.3,
+    "text": "Can you see that this is a power of 2, if there is only one available, if there is only"
+  },
+  {
+    "start": 4002.49,
+    "duration": 5.28,
+    "text": "one single number in the binary representation that is 1, rest everything is 0, does it"
+  },
+  {
+    "start": 4007.77,
+    "duration": 8.69,
+    "text": "not mean that is power of 2, for example, if I am saying this, this is 8, 8 is equal"
+  },
+  {
+    "start": 4016.46,
+    "duration": 6.36,
+    "text": "to what? 7 plus 1 and what is 7? 1 1 1 plus 1, can you see this pattern? What is this?"
+  },
+  {
+    "start": 4022.82,
+    "duration": 8.28,
+    "text": "16, 16 is equal to what? 15 plus 1 and what is 15 in binary? 1 1 1 1 plus 1, you can"
+  },
+  {
+    "start": 4031.1,
+    "duration": 10.16,
+    "text": "also confirm this 1 1 1 1 plus 1, 1 plus 1 is 2, 0 1, 1 plus 1 is 2, 0 1, 1 plus 1"
+  },
+  {
+    "start": 4041.26,
+    "duration": 5.44,
+    "text": "is 2, 0 1, 1 plus 1 is 2, that is it, works. Can I not write this entire thing"
+  },
+  {
+    "start": 4046.7,
+    "duration": 22.29,
+    "text": "as this thing. Now my question is reduced to this thing, does it make sense? If I rearrange"
+  },
+  {
+    "start": 4068.99,
+    "duration": 15.78,
+    "text": "this thing, if I just say, isn't this equal to complement of a number? Subtracting one"
+  },
+  {
+    "start": 4084.77,
+    "duration": 3.44,
+    "text": "from that, isn't that equal to complement of a number? This is equal to complement of"
+  },
+  {
+    "start": 4088.21,
+    "duration": 3.52,
+    "text": "a number, why? Why is this working? Like why is this, isn't this the complement of"
+  },
+  {
+    "start": 4091.73,
+    "duration": 11.21,
+    "text": "a number. So, if I say 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, this particular expression 1 minus"
+  },
+  {
+    "start": 4102.94,
+    "duration": 9.64,
+    "text": "0, 1, 1 minus 1, 0, 1 minus 0, 1, 1 minus 1, 1, sorry, 0, 1 minus 0, 1, 1, 1, 1. Isn't"
+  },
+  {
+    "start": 4112.58,
+    "duration": 9.61,
+    "text": "this the negation? Compliment. Very simple stuff. 0 become 1, 1 becomes 0, 1 minus"
+  },
+  {
+    "start": 4122.19,
+    "duration": 5.2,
+    "text": "0 will be 1, 1 minus 1 will be 0, so 0 becomes 1, 1 becomes 0, anything subtract with 1 will"
+  },
+  {
+    "start": 4127.39,
+    "duration": 5.0,
+    "text": "be like then the opposite of that. And what is the next step? Isn't this like the step"
+  },
+  {
+    "start": 4132.39,
+    "duration": 5.92,
+    "text": "2 that we were doing? Isn't this the step 2 that we were doing over here? First take"
+  },
+  {
+    "start": 4138.31,
+    "duration": 5.48,
+    "text": "complement that I had one. Very simple. That is why 2's complement gives negative"
+  },
+  {
+    "start": 4143.79,
+    "duration": 6.6,
+    "text": "number. All right. Now it's another important point I want to share is range of numbers."
+  },
+  {
+    "start": 4150.39,
+    "duration": 7.95,
+    "text": "of numbers. So how many numbers can we store let's say in one byte? How many numbers can"
+  },
+  {
+    "start": 4158.34,
+    "duration": 8.68,
+    "text": "we store in one byte? One byte has eight bits. Okay, eight bits. Here I can add either"
+  },
+  {
+    "start": 4167.02,
+    "duration": 5.42,
+    "text": "zero or one. Here I can add either zero or one, zero or one, zero or one, zero or"
+  },
+  {
+    "start": 4172.44,
+    "duration": 5.48,
+    "text": "one, zero or one, zero or one. Total numbers that I can make is equal to what? Two numbers"
+  },
+  {
+    "start": 4177.92,
+    "duration": 7.56,
+    "text": "can be added over here 2 into 2 into 2 till 8 times. Total numbers I can make is 2 raise"
+  },
+  {
+    "start": 4185.48,
+    "duration": 9.58,
+    "text": "to power 8 which is equal to 256. Total 256 numbers I can make in 1 byte, unique numbers"
+  },
+  {
+    "start": 4195.06,
+    "duration": 4.28,
+    "text": "that I can store, total number of unique numbers that I can store in a data type of"
+  },
+  {
+    "start": 4199.34,
+    "duration": 9.36,
+    "text": "size 1 byte is 256. This is the number of numbers that I can store. But what is"
+  },
+  {
+    "start": 4208.7,
+    "duration": 8.76,
+    "text": "the actual value, actual range, we know that this is going to be the sign of the number,"
+  },
+  {
+    "start": 4217.46,
+    "duration": 3.24,
+    "text": "right, positive or negative."
+  },
+  {
+    "start": 4220.7,
+    "duration": 6.87,
+    "text": "Actual number is actually going to be stored here, which is n minus 1."
+  },
+  {
+    "start": 4227.57,
+    "duration": 11.49,
+    "text": "Actual number is stored in bits equal to n minus 1 if n is total bits, ok."
+  },
+  {
+    "start": 4239.06,
+    "duration": 12.01,
+    "text": "So in 1 byte, actual number will be stored in the 7 bits and how many different numbers"
+  },
+  {
+    "start": 4251.07,
+    "duration": 7.87,
+    "text": "can we make from 7 bits, 2 raise to power 7?"
+  },
+  {
+    "start": 4258.94,
+    "duration": 9.23,
+    "text": "Total I can make from 7 bits is equal to 2 raise to power 7 which is equal to 128."
+  },
+  {
+    "start": 4268.17,
+    "duration": 9.52,
+    "text": "So 128 numbers in the negative, 128 numbers in the positive, very simple, very simple."
+  },
+  {
+    "start": 4277.69,
+    "duration": 6.12,
+    "text": "So I can say till minus 128, because total has to be 256, total unique numbers you can"
+  },
+  {
+    "start": 4283.81,
+    "duration": 1.0,
+    "text": "make is 256."
+  },
+  {
+    "start": 4284.81,
+    "duration": 5.26,
+    "text": "So let's say okay, you have 128 numbers that you can make with the seven digits, okay."
+  },
+  {
+    "start": 4290.07,
+    "duration": 3.28,
+    "text": "So with this seven digits, I can make 128 numbers."
+  },
+  {
+    "start": 4293.35,
+    "duration": 6.76,
+    "text": "Now, if I have let's say, zero over here, then 128 positive, if I have one over here"
+  },
+  {
+    "start": 4300.11,
+    "duration": 5.8,
+    "text": "then 128 negative, you're like Kunal this looks good to me, 128 negative plus 128"
+  },
+  {
+    "start": 4305.91,
+    "duration": 7.44,
+    "text": "gives me 128 plus 128 total 256 numbers but this is wrong why because in the range from"
+  },
+  {
+    "start": 4313.35,
+    "duration": 6.16,
+    "text": "128 negative 10 128 positive how many numbers are there 256 think about it again how many"
+  },
+  {
+    "start": 4319.51,
+    "duration": 13.68,
+    "text": "numbers are there 257 because 0 is there as well 0 is here as well think about one"
+  },
+  {
+    "start": 4333.19,
+    "duration": 8.3,
+    "text": "one more thing. So, you have 128 negative numbers, should you have 1 and you have 1 0, then how"
+  },
+  {
+    "start": 4341.49,
+    "duration": 9.76,
+    "text": "many numbers are remaining in positive side? 127. 127. So, why 127? Why am I decreasing"
+  },
+  {
+    "start": 4351.25,
+    "duration": 5.38,
+    "text": "the value over here for 127 and not having 128 over here and minus 127 over here? Let"
+  },
+  {
+    "start": 4356.63,
+    "duration": 4.86,
+    "text": "us think about it. Negative of 0. Why am I questioned? Doubt you will be having. Kunal,"
+  },
+  {
+    "start": 4361.49,
+    "duration": 2.18,
+    "text": "Why did you reduce the value 1?"
+  },
+  {
+    "start": 4363.67,
+    "duration": 4.56,
+    "text": "I know I get it Kunal, total number in this range you were getting 257 that is why you"
+  },
+  {
+    "start": 4368.23,
+    "duration": 8.0,
+    "text": "reduced 1 from 128, like 128 cannot be stored, Kunal why?"
+  },
+  {
+    "start": 4376.23,
+    "duration": 2.44,
+    "text": "Why cannot it be stored?"
+  },
+  {
+    "start": 4378.67,
+    "duration": 2.48,
+    "text": "What is wrong with it?"
+  },
+  {
+    "start": 4381.15,
+    "duration": 4.8,
+    "text": "Why is it that you are only reducing the number 1 on the positive side and not the negative"
+  },
+  {
+    "start": 4385.95,
+    "duration": 1.0,
+    "text": "side?"
+  },
+  {
+    "start": 4386.95,
+    "duration": 3.16,
+    "text": "I know you have to reduce 1 because you have total 257 are forming here but you"
+  },
+  {
+    "start": 4390.11,
+    "duration": 7.48,
+    "text": "have to you can only show 256 because negative of zero is not a negative number that is why"
+  },
+  {
+    "start": 4397.59,
+    "duration": 4.88,
+    "text": "I reduced the positive set what is negative of zero zero I can prove it as prove it as"
+  },
+  {
+    "start": 4402.47,
+    "duration": 4.56,
+    "text": "well that's the reason negative of zero let's say zero is being stored in one byte so negative"
+  },
+  {
+    "start": 4407.03,
+    "duration": 5.64,
+    "text": "of zero is what zero zero zero zero zero zero take a complement of it complement after"
+  },
+  {
+    "start": 4412.67,
+    "duration": 21.81,
+    "text": "one step will be ok second step add one to it 1 plus 1 2 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0"
+  },
+  {
+    "start": 4434.48,
+    "duration": 13.76,
+    "text": "1 and 1 plus 1 2 over here this is actually 9 bits and we know that this will be discarded"
+  },
+  {
+    "start": 4448.24,
+    "duration": 7.96,
+    "text": "remaining what remaining is this 0 hence negative 0 is 0 only even in binary this formula"
+  },
+  {
+    "start": 4456.2,
+    "duration": 4.6,
+    "text": "applies so this extra positive number that I was taking on the left right hand side I"
+  },
+  {
+    "start": 4460.8,
+    "duration": 6.0,
+    "text": "reduced it so what is the range a simple formula I don't think I have to do it for long or"
+  },
+  {
+    "start": 4466.8,
+    "duration": 4.48,
+    "text": "double or float or whatever you can do it on your own according to the you know the"
+  },
+  {
+    "start": 4471.28,
+    "duration": 3.8,
+    "text": "programming language the bytes that have been mentioned I will tell you one formula you"
+  },
+  {
+    "start": 4475.08,
+    "duration": 5.52,
+    "text": "don't have to memorize the range ever okay formula to find the range I'll write it"
+  },
+  {
+    "start": 4480.6,
+    "duration": 13.45,
+    "text": "in red. Range formula for n bits, if total bits are n minus 2 raise to power n minus"
+  },
+  {
+    "start": 4494.05,
+    "duration": 8.52,
+    "text": "1 to 2 raise to power n minus 1 minus 1, so formula. Explanation already provided. Now"
+  },
+  {
+    "start": 4502.57,
+    "duration": 4.84,
+    "text": "you need to find the range of 4 byte integer in Java, you can do it. You want to find"
+  },
+  {
+    "start": 4507.41,
+    "duration": 4.0,
+    "text": "the range of long, you can do it. You can find for floats, you can do for separately"
+  },
+  {
+    "start": 4511.41,
+    "duration": 4.32,
+    "text": "like for the negative part of food and the decimal part of food, anything you can do with"
+  },
+  {
+    "start": 4515.73,
+    "duration": 7.27,
+    "text": "this formula now. All right. Very cool stuff. Let's move forward. Okay. So don't have this"
+  },
+  {
+    "start": 4523.0,
+    "duration": 5.6,
+    "text": "doubt again. Like, see, it's very simple. If you total can have, let's say 256 numbers,"
+  },
+  {
+    "start": 4528.6,
+    "duration": 5.32,
+    "text": "okay, you can total have 256 numbers. It makes sense that okay, 256 numbers means"
+  },
+  {
+    "start": 4533.92,
+    "duration": 5.64,
+    "text": "and you can have total 128 numbers in this side. Okay, this can have total 128."
+  },
+  {
+    "start": 4539.56,
+    "duration": 4.08,
+    "text": "So once I will put 0 over here means 128 positive numbers."
+  },
+  {
+    "start": 4543.64,
+    "duration": 3.64,
+    "text": "Once I will put 1 over here means 128 negative numbers."
+  },
+  {
+    "start": 4547.28,
+    "duration": 3.72,
+    "text": "So I should have 128 positive and 128 negative."
+  },
+  {
+    "start": 4551.0,
+    "duration": 4.28,
+    "text": "That is the reason including 0, 0 is a positive number."
+  },
+  {
+    "start": 4555.28,
+    "duration": 7.76,
+    "text": "That is why including 0 and numbers from 1 till 127 total makes how much 128 and number"
+  },
+  {
+    "start": 4563.04,
+    "duration": 7.56,
+    "text": "from minus 1 till minus 128 that makes how many numbers 128 very common sense stuff there"
+  },
+  {
+    "start": 4570.6,
+    "duration": 5.64,
+    "text": "is the reason for that ok that is why I reduced the negatives the positives by 1 because positive"
+  },
+  {
+    "start": 4576.24,
+    "duration": 4.8,
+    "text": "numbers were actually happening as 129 so I reduced by 1."
+  },
+  {
+    "start": 4581.04,
+    "duration": 3.24,
+    "text": "So let us do another question now let us do a few more questions and then we will be doing"
+  },
+  {
+    "start": 4584.28,
+    "duration": 6.68,
+    "text": "like a lot more concepts as well like prime numbers and stuff so yeah but before that"
+  },
+  {
+    "start": 4590.96,
+    "duration": 2.24,
+    "text": "Let's just do some questions."
+  },
+  {
+    "start": 4593.2,
+    "duration": 3.08,
+    "text": "So one question I really want to focus on right now"
+  },
+  {
+    "start": 4596.28,
+    "duration": 3.84,
+    "text": "is that, so a question."
+  },
+  {
+    "start": 4600.12,
+    "duration": 3.8,
+    "text": "You know, we did like the every number is appearing twice"
+  },
+  {
+    "start": 4603.92,
+    "duration": 2.08,
+    "text": "and only one number is appearing once."
+  },
+  {
+    "start": 4606.0,
+    "duration": 1.48,
+    "text": "Find that one number."
+  },
+  {
+    "start": 4607.48,
+    "duration": 2.28,
+    "text": "But what if the question was something like every number"
+  },
+  {
+    "start": 4609.76,
+    "duration": 2.96,
+    "text": "is appearing three times and only one number is appearing"
+  },
+  {
+    "start": 4612.72,
+    "duration": 0.68,
+    "text": "once?"
+  },
+  {
+    "start": 4613.4,
+    "duration": 1.28,
+    "text": "Find that number."
+  },
+  {
+    "start": 4614.68,
+    "duration": 1.88,
+    "text": "What if the problem was like every number"
+  },
+  {
+    "start": 4616.56,
+    "duration": 1.72,
+    "text": "is appearing five times?"
+  },
+  {
+    "start": 4618.28,
+    "duration": 1.68,
+    "text": "If every number is appearing even times,"
+  },
+  {
+    "start": 4619.96,
+    "duration": 4.16,
+    "text": "then you can do it normally. But what if the number is appearing odd times? What if the"
+  },
+  {
+    "start": 4624.12,
+    "duration": 3.72,
+    "text": "number is appearing seven times? So every single number is appearing seven times in the"
+  },
+  {
+    "start": 4627.84,
+    "duration": 4.48,
+    "text": "array only one number is appearing once find that number. How can we do that? So let's"
+  },
+  {
+    "start": 4632.32,
+    "duration": 3.76,
+    "text": "say the question is a number is appearing three times every number is appearing three"
+  },
+  {
+    "start": 4636.08,
+    "duration": 5.28,
+    "text": "times. So an array can be given to you something like this. So you can give you"
+  },
+  {
+    "start": 4641.36,
+    "duration": 11.44,
+    "text": "like a 2 comma 2 comma 3 comma 2 comma 7 comma 7 comma 8 comma 7 comma 8 comma 8 something"
+  },
+  {
+    "start": 4652.8,
+    "duration": 4.68,
+    "text": "like that so you can see 2 is appearing 3 times 7 is appearing 3 times and 8 is appearing"
+  },
+  {
+    "start": 4657.48,
+    "duration": 5.16,
+    "text": "3 times so the question is how do you find the number that is only appearing once that"
+  },
+  {
+    "start": 4662.64,
+    "duration": 5.32,
+    "text": "is the question think about it and pause this video okay all right so this is very"
+  },
+  {
+    "start": 4667.96,
+    "duration": 6.32,
+    "text": "simple, we're going to follow the same approach. But the idea is that you know that every number"
+  },
+  {
+    "start": 4674.28,
+    "duration": 4.72,
+    "text": "is appearing three times, then the value of its bits will also be appearing three times."
+  },
+  {
+    "start": 4680.36,
+    "duration": 4.72,
+    "text": "Right. So if I talk about every single number, so if I talk about this number, if I take an empty,"
+  },
+  {
+    "start": 4685.08,
+    "duration": 2.96,
+    "text": "you know, number like this sort of like an array like this, let's say,"
+  },
+  {
+    "start": 4688.84,
+    "duration": 5.84,
+    "text": "it's like an empty array. Okay. And let me just create it like a bigger,"
+  },
+  {
+    "start": 4694.68,
+    "duration": 9.0,
+    "text": "bigger format so that you can see it clearly, okay. So if I am talking about two, what is"
+  },
+  {
+    "start": 4703.68,
+    "duration": 7.16,
+    "text": "two in binary it is 1 comma 0. Again, I am talking about two, okay. Again, I am talking"
+  },
+  {
+    "start": 4710.84,
+    "duration": 7.6,
+    "text": "about two. Same things will be getting added, okay. So if I am talking about two, so basically"
+  },
+  {
+    "start": 4718.44,
+    "duration": 7.32,
+    "text": "this array says that all the items that are at the, all the bits that are set"
+  },
+  {
+    "start": 4725.76,
+    "duration": 5.04,
+    "text": "means that are one, just keep adding those in this array. So if I'm adding two over here"
+  },
+  {
+    "start": 4730.8,
+    "duration": 3.56,
+    "text": "and I'm adding two again, it means that obviously the bits that are available over there that"
+  },
+  {
+    "start": 4734.36,
+    "duration": 4.72,
+    "text": "is just going to be added as one. So I'm saying two is available over here. Okay, two"
+  },
+  {
+    "start": 4739.08,
+    "duration": 4.72,
+    "text": "is again available. Okay, one plus one again to that's cool. Now three is available. Three"
+  },
+  {
+    "start": 4743.8,
+    "duration": 7.4,
+    "text": "is what one one, that's it. So basically what I'm trying to say is this is for two."
+  },
+  {
+    "start": 4751.2,
+    "duration": 6.44,
+    "text": "is again for two, this is for three, this is again for this two now seven, seven is one"
+  },
+  {
+    "start": 4757.64,
+    "duration": 8.52,
+    "text": "one and one, then we have seven again, seven again is one one and one, then we have eight,"
+  },
+  {
+    "start": 4766.16,
+    "duration": 7.0,
+    "text": "eight is actually one, zero zero zero, then we have seven and then double eight, seven"
+  },
+  {
+    "start": 4773.16,
+    "duration": 5.2,
+    "text": "is again here, then eight is again here, eight is again here. So basically if I just"
+  },
+  {
+    "start": 4778.36,
+    "duration": 4.88,
+    "text": "Just count the total number of bits, if we count the total number of bits, it is becoming"
+  },
+  {
+    "start": 4783.24,
+    "duration": 4.94,
+    "text": "something like this."
+  },
+  {
+    "start": 4788.18,
+    "duration": 6.56,
+    "text": "If in the array you are storing the total number of bits, this contains 1, 2, 3, 4 bits."
+  },
+  {
+    "start": 4794.74,
+    "duration": 3.64,
+    "text": "This contains 1, 2, 3, 4, 5, 6."
+  },
+  {
+    "start": 4798.38,
+    "duration": 2.24,
+    "text": "This contains 1, 2, 3."
+  },
+  {
+    "start": 4800.62,
+    "duration": 3.22,
+    "text": "This contains 1, 2, 3."
+  },
+  {
+    "start": 4803.84,
+    "duration": 2.36,
+    "text": "Make sense?"
+  },
+  {
+    "start": 4806.2,
+    "duration": 3.52,
+    "text": "Imagine there was no 3."
+  },
+  {
+    "start": 4809.72,
+    "duration": 2.24,
+    "text": "Imagine 3 was not there."
+  },
+  {
+    "start": 4811.96,
+    "duration": 6.48,
+    "text": "3 was not there, so if 3 was not there, this will be equal to something like this. If 3"
+  },
+  {
+    "start": 4818.44,
+    "duration": 12.62,
+    "text": "was not there, it will be equal to 3 comma, so here we have 1, 2, 3, 4, 5, 6, 7 actually,"
+  },
+  {
+    "start": 4831.06,
+    "duration": 17.93,
+    "text": "sorry not 6, we have 7 here. So this will be 3, if 3 was not in array. So obviously"
+  },
+  {
+    "start": 4848.99,
+    "duration": 4.12,
+    "text": "if 3 was not in array, it means that every single number is appearing 3 times, means"
+  },
+  {
+    "start": 4853.11,
+    "duration": 4.76,
+    "text": "their set bits are also going to be appearing three times. So the set bits are going to"
+  },
+  {
+    "start": 4857.87,
+    "duration": 4.96,
+    "text": "be a multiple of three. Does that make sense? Hence this entire number is going to be divisible"
+  },
+  {
+    "start": 4862.83,
+    "duration": 4.52,
+    "text": "by three every digit of this number in the array. Every number in the array is going"
+  },
+  {
+    "start": 4867.35,
+    "duration": 5.04,
+    "text": "to be multiple of three or not. Yes, but here what we are saying is let's say we"
+  },
+  {
+    "start": 4872.39,
+    "duration": 5.0,
+    "text": "add one of these numbers that is some extra. So some of the digits may not be multiple"
+  },
+  {
+    "start": 4877.39,
+    "duration": 3.12,
+    "text": "of three, we'll be having extra. So we have seven over here and four over here"
+  },
+  {
+    "start": 4880.51,
+    "duration": 5.04,
+    "text": "because one and one. So, if I just take the modulo of this with 3 with the number that"
+  },
+  {
+    "start": 4885.55,
+    "duration": 5.08,
+    "text": "is repeating, if I just take the modulo, modulo is going to be equal to what? Modulo is going"
+  },
+  {
+    "start": 4890.63,
+    "duration": 10.32,
+    "text": "to be 0 0 1 1. What is this equal to 3? That is my answer. That is my answer. Extra number."
+  },
+  {
+    "start": 4900.95,
+    "duration": 3.32,
+    "text": "Everything that was appearing 3 times, the thought process is everything that was"
+  },
+  {
+    "start": 4904.27,
+    "duration": 4.8,
+    "text": "appearing 3 times, their set bits will also appear 3 times. Hence, this set bits"
+  },
+  {
+    "start": 4909.07,
+    "duration": 4.24,
+    "text": "will be modulo of three means remainder with three will be zero. But if there's one extra"
+  },
+  {
+    "start": 4913.31,
+    "duration": 7.92,
+    "text": "number that is actually addition to the three multiples that we have, that will be not a"
+  },
+  {
+    "start": 4921.23,
+    "duration": 3.96,
+    "text": "multiple of three. That's what we're doing over here. Very simple stuff. Not just for"
+  },
+  {
+    "start": 4925.19,
+    "duration": 3.6,
+    "text": "three, you can do this for anyone. If the number is appearing five times or seven times,"
+  },
+  {
+    "start": 4928.79,
+    "duration": 4.68,
+    "text": "you do modulo with five or seven or whatever. As simple as that. All right, I believe"
+  },
+  {
+    "start": 4933.47,
+    "duration": 3.96,
+    "text": "I'll give this to you as a homework, like maybe you can try to code it yourself."
+  },
+  {
+    "start": 4937.43,
+    "duration": 5.56,
+    "text": "are very simple stuff. Cool. Let's move on to the next question. So next question is over"
+  },
+  {
+    "start": 4942.99,
+    "duration": 8.58,
+    "text": "here, you can see next question. So the next question is you have to remove the last digit."
+  },
+  {
+    "start": 4951.57,
+    "duration": 5.96,
+    "text": "So but no, let's not do that one. Let's do very simple, simple one. Let's do something"
+  },
+  {
+    "start": 4957.53,
+    "duration": 9.68,
+    "text": "that is a good question. So this was asked in Amazon. So basically, you have to find"
+  },
+  {
+    "start": 4967.21,
+    "duration": 12.6,
+    "text": "the nth magic number, find the nth magic number. So for example, the first magic"
+  },
+  {
+    "start": 4979.81,
+    "duration": 12.8,
+    "text": "number is equal to write 1 in binary and take the addition of the powers of 5 so this is"
+  },
+  {
+    "start": 4992.61,
+    "duration": 10.53,
+    "text": "actually equal to 5 magic number second magic number is equal to write 2 in binary and then"
+  },
+  {
+    "start": 5003.14,
+    "duration": 9.12,
+    "text": "take the power of 5 5 raised to power 1 which is just sorry yeah 5 raised to power 1 1 second"
+  },
+  {
+    "start": 5012.26,
+    "duration": 9.13,
+    "text": "so just take it from 5 raised to power 1 not 0 1 2 3 first magic number is 5"
+  },
+  {
+    "start": 5021.39,
+    "duration": 10.64,
+    "text": "second magic number is 25 third magic number is 5 plus 25 which is 30 which is 5 plus 25"
+  },
+  {
+    "start": 5032.03,
+    "duration": 9.68,
+    "text": "fourth magic number is equal to write 4 in binary which is 100 is equal to 125 okay because 5 is to"
+  },
+  {
+    "start": 5041.71,
+    "duration": 6.88,
+    "text": "power 3 4 and so forth you can see fifth magic number this is fifth in binary so it's 125 plus"
+  },
+  {
+    "start": 5048.59,
+    "duration": 5.8,
+    "text": "5, 130 and it keeps going on and on and on. You have to find the nth magic number. How"
+  },
+  {
+    "start": 5054.39,
+    "duration": 6.83,
+    "text": "can we do that? How can you find the nth magic number if n is given to you? Let's say n is"
+  },
+  {
+    "start": 5061.22,
+    "duration": 5.88,
+    "text": "given as 6. So it's n is equal to 6. You're given something like n is equal to 6 and you"
+  },
+  {
+    "start": 5067.1,
+    "duration": 3.48,
+    "text": "have to find the nth magic number. First thing we need to know is we have to convert"
+  },
+  {
+    "start": 5070.58,
+    "duration": 3.56,
+    "text": "it in, you know, we have to do it in binary. So we have to take the binary form"
+  },
+  {
+    "start": 5074.14,
+    "duration": 4.68,
+    "text": "of this. Binary form is 110 and we're going to start from 5 raised to power"
+  },
+  {
+    "start": 5078.82,
+    "duration": 5.84,
+    "text": "them, I want to keep on multiplying this with these numbers. Okay, so you have to basically"
+  },
+  {
+    "start": 5084.66,
+    "duration": 4.76,
+    "text": "check what is the last number. And how can we do that with and of one, we already did"
+  },
+  {
+    "start": 5089.42,
+    "duration": 10.71,
+    "text": "that. So I'm going to say N and one, I'm going to give it the this will give me last number,"
+  },
+  {
+    "start": 5100.13,
+    "duration": 5.76,
+    "text": "last digit in binary representation note, I don't really have to convert six in binary,"
+  },
+  {
+    "start": 5105.89,
+    "duration": 4.6,
+    "text": "I can directly do six and one, it will automatically convert into binary internally, I can think"
+  },
+  {
+    "start": 5110.49,
+    "duration": 4.76,
+    "text": "of it as it's working in binary, which it is. Okay. And then what you have to do, okay,"
+  },
+  {
+    "start": 5115.25,
+    "duration": 6.8,
+    "text": "we have zero, then I can just do, okay, whatever that might be. And then you have to basically"
+  },
+  {
+    "start": 5122.05,
+    "duration": 5.08,
+    "text": "check for this now, you have to ignore this, how do we ignore this, right shift, then"
+  },
+  {
+    "start": 5127.13,
+    "duration": 6.76,
+    "text": "you can just do right shift one, this will go in loop. Okay, so we'll first take n"
+  },
+  {
+    "start": 5133.89,
+    "duration": 4.36,
+    "text": "and one, it will give you zero, you multiply it by five raised to power one. And then"
+  },
+  {
+    "start": 5138.25,
+    "duration": 3.88,
+    "text": "you do right shift, then you do n and one again, it will give you one, you multiplied"
+  },
+  {
+    "start": 5142.13,
+    "duration": 4.32,
+    "text": "by five raised to part two, then you do right shift. Now to believe you one, one and one"
+  },
+  {
+    "start": 5146.45,
+    "duration": 4.72,
+    "text": "will give you one multiplied by five raised to part three, then you do right shift again,"
+  },
+  {
+    "start": 5151.17,
+    "duration": 9.66,
+    "text": "then you will have zero. That's it. That is it. Okay. Very cool stuff. Let's try to"
+  },
+  {
+    "start": 5160.83,
+    "duration": 11.68,
+    "text": "to code this thing. So if I say magic number, and I'm going to be given n and n is equal"
+  },
+  {
+    "start": 5172.51,
+    "duration": 7.12,
+    "text": "to let's say I want to find the sixth magic number, the sixth magic number I have to find."
+  },
+  {
+    "start": 5179.63,
+    "duration": 7.0,
+    "text": "So how is it going to be first, it's going to be like int answer is equal to initially"
+  },
+  {
+    "start": 5186.63,
+    "duration": 8.75,
+    "text": "let's say zero, then I can just say print answer. And I can say while my number is greater"
+  },
+  {
+    "start": 5195.38,
+    "duration": 5.16,
+    "text": "than zero, what do we need to do? We need to take the last digit which is equal to what"
+  },
+  {
+    "start": 5200.54,
+    "duration": 8.72,
+    "text": "last is it is equal to what last digit is equal to this. And I can say and is equal"
+  },
+  {
+    "start": 5209.26,
+    "duration": 5.68,
+    "text": "to n is equal to n, right shift one. That's it. I can take a base over here, I can"
+  },
+  {
+    "start": 5214.94,
+    "duration": 7.96,
+    "text": "say in base initially is equal to 5 and every time in the end I can say base is equal to"
+  },
+  {
+    "start": 5222.9,
+    "duration": 6.82,
+    "text": "base into 5 because base is keep on increasing 5 is power 1, 5 is power 2, 5 is power 3."
+  },
+  {
+    "start": 5229.72,
+    "duration": 9.46,
+    "text": "But in my answer I will only add base or I can say answer plus equal to last into"
+  },
+  {
+    "start": 5239.18,
+    "duration": 12.88,
+    "text": "base that's it that is it yeah so sixth magic number should be 150 150 let's try"
+  },
+  {
+    "start": 5252.06,
+    "duration": 9.8,
+    "text": "something else let's try the third magic number which is 30 30 try the first magic"
+  },
+  {
+    "start": 5261.86,
+    "duration": 9.52,
+    "text": "number what is this should give me five five let's try one more let's say fifth"
+  },
+  {
+    "start": 5271.38,
+    "duration": 12.02,
+    "text": "magic number should be 130. Looks pretty good. This is my Amazon question. Very simple. Okay."
+  },
+  {
+    "start": 5283.4,
+    "duration": 6.92,
+    "text": "One thing I want to mention over here is that how many times this loop is running? Okay."
+  },
+  {
+    "start": 5290.32,
+    "duration": 5.28,
+    "text": "It's obviously running the number of times there are bits in the particular binary representation"
+  },
+  {
+    "start": 5295.6,
+    "duration": 5.4,
+    "text": "of the number. Okay. So, for example, I talked about n is equal to 6. 6 is equal to what?"
+  },
+  {
+    "start": 5301.0,
+    "duration": 4.56,
+    "text": "many digits are in the binary representation of 6, 1, 1, 0, so 3 digits are in the binary"
+  },
+  {
+    "start": 5305.56,
+    "duration": 10.34,
+    "text": "representation of 6, how do we find that 3? How do we find that 3? Let us see."
+  },
+  {
+    "start": 5315.9,
+    "duration": 4.84,
+    "text": "Basically, we have to find the complexity of this, right? So, I know this is running"
+  },
+  {
+    "start": 5320.74,
+    "duration": 4.76,
+    "text": "3 times. How can we find that? You can say, okay, you can just say in order to find"
+  },
+  {
+    "start": 5325.5,
+    "duration": 4.5,
+    "text": "the number of digits in a, so basically how to find number of digits in the representation"
+  },
+  {
+    "start": 5330.0,
+    "duration": 14.54,
+    "text": "of base. So question is, find number of digits in base B. Okay, so if I'm talking about six"
+  },
+  {
+    "start": 5344.54,
+    "duration": 7.56,
+    "text": "in binary, sorry, six in let's say, decimal has how many number of digits? One, six in"
+  },
+  {
+    "start": 5352.1,
+    "duration": 12.7,
+    "text": "binary is equal to what? Six in binary is equal to 110 in binary and that has how"
+  },
+  {
+    "start": 5364.8,
+    "duration": 7.08,
+    "text": "how many digits 3? How do we get this? One way can be keep doing a right shift till you"
+  },
+  {
+    "start": 5371.88,
+    "duration": 7.56,
+    "text": "get 0 and keep a counter. Start count from 0, do right shift count 1, right shift again"
+  },
+  {
+    "start": 5379.44,
+    "duration": 4.52,
+    "text": "count 1, right shift again count 1 till the number is not equal to 0 that way you will"
+  },
+  {
+    "start": 5383.96,
+    "duration": 5.12,
+    "text": "get it. But there is a formula for this as well. There is a formula in just a single"
+  },
+  {
+    "start": 5389.08,
+    "duration": 9.23,
+    "text": "formula, you can get the answer. So, what is the formula for this? Formula is very simple."
+  },
+  {
+    "start": 5398.31,
+    "duration": 12.0,
+    "text": "Formula says the integer value, if you are talking about the base, if you are talking"
+  },
+  {
+    "start": 5410.31,
+    "duration": 6.92,
+    "text": "about the base, let us think about this. If I am saying log A base B is equal to x,"
+  },
+  {
+    "start": 5417.23,
+    "duration": 9.44,
+    "text": "specifically means a is equal to b raised to power x, a is equal to b raised to the"
+  },
+  {
+    "start": 5426.67,
+    "duration": 14.97,
+    "text": "power x. So if I am saying that log 6 base 2, what is this equal to? Let us say something."
+  },
+  {
+    "start": 5441.64,
+    "duration": 7.68,
+    "text": "So log 6 base 2 should be something. Let us say it is equal to x. So I know 6 is"
+  },
+  {
+    "start": 5449.32,
+    "duration": 11.3,
+    "text": "equal to 2 raise to power x. So, this base thing that I am talking about, this thing"
+  },
+  {
+    "start": 5460.62,
+    "duration": 7.16,
+    "text": "that I am talking about, this actually represents the number of digits in the representation"
+  },
+  {
+    "start": 5467.78,
+    "duration": 10.39,
+    "text": "of this base. So, I am talking about something like, let us look into it with an example."
+  },
+  {
+    "start": 5478.17,
+    "duration": 2.64,
+    "text": "Let us look into it with an example. So, the example we can take is let us say log"
+  },
+  {
+    "start": 5480.81,
+    "duration": 6.76,
+    "text": "log 10 base 2. Okay, we can take an example like log 10 base 2. So I can say if I have"
+  },
+  {
+    "start": 5487.57,
+    "duration": 5.08,
+    "text": "log 10 base 2, it's actually equal to 3.2 something I think. Okay, let me just double"
+  },
+  {
+    "start": 5492.65,
+    "duration": 15.07,
+    "text": "check log n base 2, 3.32 actually to be specific. Okay, so this is equal to 3.32 something."
+  },
+  {
+    "start": 5507.72,
+    "duration": 6.04,
+    "text": "And I know that like x can say 10 is equal to 2 raised to power 3.32, this basically"
+  },
+  {
+    "start": 5513.76,
+    "duration": 1.0,
+    "text": "means what?"
+  },
+  {
+    "start": 5514.76,
+    "duration": 8.83,
+    "text": "Basically how many times 2 has been multiplied to form 10, okay?"
+  },
+  {
+    "start": 5523.59,
+    "duration": 4.54,
+    "text": "And then there is one extra over here, like obviously not 3, it is more than 3."
+  },
+  {
+    "start": 5528.13,
+    "duration": 3.22,
+    "text": "So if I am taking a whole number, it should be 4."
+  },
+  {
+    "start": 5531.35,
+    "duration": 5.28,
+    "text": "So if I take just the integer value of this and add 1 to it, should that not"
+  },
+  {
+    "start": 5536.63,
+    "duration": 7.19,
+    "text": "give me equal to number of digits?"
+  },
+  {
+    "start": 5543.82,
+    "duration": 3.7,
+    "text": "So this basically means log 10 base 2."
+  },
+  {
+    "start": 5547.52,
+    "duration": 5.92,
+    "text": "So if I am saying a formula, if I write just a formula over here."
+  },
+  {
+    "start": 5553.44,
+    "duration": 2.04,
+    "text": "So the formula is very important."
+  },
+  {
+    "start": 5555.48,
+    "duration": 14.36,
+    "text": "Formula says number of digits in base B of number n is equal to what?"
+  },
+  {
+    "start": 5569.84,
+    "duration": 15.76,
+    "text": "value of log base B of the number n plus 1. So, 3 plus 1. So, if I am saying how many number"
+  },
+  {
+    "start": 5585.6,
+    "duration": 8.04,
+    "text": "of digits are there in the binary representation of 10, then the answer for that will be log"
+  },
+  {
+    "start": 5593.64,
+    "duration": 7.0,
+    "text": "10 base 2 plus 1 means integer value of this 3 plus 1 4 and that is true binary in 10"
+  },
+  {
+    "start": 5600.64,
+    "duration": 5.12,
+    "text": "in binary is one zero one C, correct? Let's try to code this thing. Okay, so I can just"
+  },
+  {
+    "start": 5605.76,
+    "duration": 6.36,
+    "text": "create number of digits. How easy is it? You know, you can you can create number of digits"
+  },
+  {
+    "start": 5612.12,
+    "duration": 3.48,
+    "text": "with like, you know, you can do right shift operator and take counter, but this is just"
+  },
+  {
+    "start": 5615.6,
+    "duration": 6.64,
+    "text": "one single step number, let's say n is equal to something, I can say base B is equal"
+  },
+  {
+    "start": 5622.24,
+    "duration": 6.4,
+    "text": "to something. And then my answer is going to be equal to what is answer is going to"
+  },
+  {
+    "start": 5628.64,
+    "duration": 14.58,
+    "text": "to be equal to the integer value of log n base b. So I can say math dot log n base b."
+  },
+  {
+    "start": 5643.22,
+    "duration": 5.4,
+    "text": "If you want to convert anything to base b, you just divide by the same log of that with"
+  },
+  {
+    "start": 5648.62,
+    "duration": 13.0,
+    "text": "b plus 1 answer. What I am trying to do is, so this is what I mean. This is what I mean."
+  },
+  {
+    "start": 5661.62,
+    "duration": 12.51,
+    "text": "So what I mean is log A base B is equal to log X on log is the formula."
+  },
+  {
+    "start": 5674.13,
+    "duration": 2.48,
+    "text": "Okay, let's try to run this."
+  },
+  {
+    "start": 5676.61,
+    "duration": 3.72,
+    "text": "So it's saying three, four, five, six, seven in base tenants."
+  },
+  {
+    "start": 5680.33,
+    "duration": 1.0,
+    "text": "How many digits?"
+  },
+  {
+    "start": 5681.33,
+    "duration": 7.01,
+    "text": "Well, I know it's five digits run five digits."
+  },
+  {
+    "start": 5688.34,
+    "duration": 8.34,
+    "text": "If I say 10 in binary should give me four digits, four digits, very simple stuff."
+  },
+  {
+    "start": 5696.68,
+    "duration": 8.64,
+    "text": "So what is the complexity of this? Log n. Okay. Number of digits is the number of complexity."
+  },
+  {
+    "start": 5705.32,
+    "duration": 4.16,
+    "text": "If n is the number given, how many times it's running the loop? Log n times complexity. Log"
+  },
+  {
+    "start": 5709.48,
+    "duration": 4.76,
+    "text": "n. That's it. Let's look at the next question. All right. So now let's look into the next"
+  },
+  {
+    "start": 5714.24,
+    "duration": 4.68,
+    "text": "question. So let's say you are given something like this. So let's say you're given like"
+  },
+  {
+    "start": 5718.92,
+    "duration": 17.35,
+    "text": "like a pattern like this, you know Pascal's triangle, Pascal's triangle. So what is Pascal's"
+  },
+  {
+    "start": 5736.27,
+    "duration": 9.36,
+    "text": "triangle? You know Pascal's triangle is something like this, 1, 1, 1, 1, 2, 1, 1, 3, 3, 1, then"
+  },
+  {
+    "start": 5745.63,
+    "duration": 11.0,
+    "text": "you have 1, 4, 6, 4, 1, then you have 1, 5, 10, 10, 5, 1, like this. So, the question"
+  },
+  {
+    "start": 5756.63,
+    "duration": 13.44,
+    "text": "is, find the sum of nth row, that is the question, that is what you want to do. So,"
+  },
+  {
+    "start": 5770.07,
+    "duration": 5.96,
+    "text": "we know that each row is what? Sum of each row is equal to what? What is every number"
+  },
+  {
+    "start": 5776.03,
+    "duration": 5.96,
+    "text": "in Pascal's triangle. So just for your, you know, I can just write over here, this is"
+  },
+  {
+    "start": 5781.99,
+    "duration": 3.2,
+    "text": "very basic, you know, when you learn about just the properties of Pascal's triangle,"
+  },
+  {
+    "start": 5785.19,
+    "duration": 6.69,
+    "text": "you'll know it. So basically, sum of each row is equal to sum of like all the numbers"
+  },
+  {
+    "start": 5791.88,
+    "duration": 6.52,
+    "text": "and what are all the numbers in Pascal's triangle? n c 0. So for nth row, the sum"
+  },
+  {
+    "start": 5798.4,
+    "duration": 8.44,
+    "text": "r n c 0 plus n c 1 plus n c 2 the combination plus n c n which is equal to 2 raised to"
+  },
+  {
+    "start": 5806.84,
+    "duration": 6.24,
+    "text": "power n. This entire sum comes around to be 2 raised to power n versus the sum of each"
+  },
+  {
+    "start": 5813.08,
+    "duration": 1.0,
+    "text": "row."
+  },
+  {
+    "start": 5814.08,
+    "duration": 8.92,
+    "text": "For nth row sum is going to be equal to so if you are starting from like 0 so it is"
+  },
+  {
+    "start": 5823.0,
+    "duration": 5.76,
+    "text": "going to be like so you are starting from index 0 and it is going to be n minus 1."
+  },
+  {
+    "start": 5828.76,
+    "duration": 4.84,
+    "text": "So nth row is going to be for n is equal to n minus 1 because we are starting from 0."
+  },
+  {
+    "start": 5833.6,
+    "duration": 5.12,
+    "text": "So example 5th row in 5th row n is going to be 4, in 6th row n is going to be equal to"
+  },
+  {
+    "start": 5838.72,
+    "duration": 1.0,
+    "text": "5."
+  },
+  {
+    "start": 5839.72,
+    "duration": 6.77,
+    "text": "So for nth row sum is going to be 2 raise to power n minus 1."
+  },
+  {
+    "start": 5846.49,
+    "duration": 7.0,
+    "text": "So answer is equal to, how can we calculate this, pause this, this is very simple, this"
+  },
+  {
+    "start": 5853.49,
+    "duration": 12.15,
+    "text": "is 1 left shift and minus 1. This is equal to 1 into 2 rich bar and minus 1. So, this"
+  },
+  {
+    "start": 5865.64,
+    "duration": 6.74,
+    "text": "is my answer. That is it. I do not think I have to code this. I need to throw it and"
+  },
+  {
+    "start": 5872.38,
+    "duration": 7.12,
+    "text": "we just 1 right shift and minus 1. Sorry, 1 left shift and minus 1. That is it. Similarly,"
+  },
+  {
+    "start": 5879.5,
+    "duration": 3.08,
+    "text": "another question is something we have done like similar to this. We have done this."
+  },
+  {
+    "start": 5882.58,
+    "duration": 20.14,
+    "text": "Let's see the next question. So you are given a number find out if it's power of 2 or not."
+  },
+  {
+    "start": 5902.72,
+    "duration": 4.98,
+    "text": "So we know how we can find the power of 2. Okay, only one bit will be there that will"
+  },
+  {
+    "start": 5907.7,
+    "duration": 6.7,
+    "text": "have one rest everything will be 0. So example, this is a power of 2. This is a this is not"
+  },
+  {
+    "start": 5914.4,
+    "duration": 4.82,
+    "text": "a power of 2 because here we have here we have two ones, but only one one should"
+  },
+  {
+    "start": 5919.22,
+    "duration": 5.8,
+    "text": "be there, rest everything should be 0, that is how you figure out the power of whether"
+  },
+  {
+    "start": 5925.02,
+    "duration": 12.4,
+    "text": "a number given is a power of 2 or not. So, how can we do this? How can we do it?"
+  },
+  {
+    "start": 5937.42,
+    "duration": 5.88,
+    "text": "You can try by doing the right shift. So, right shift take a counter of which is going"
+  },
+  {
+    "start": 5943.3,
+    "duration": 6.96,
+    "text": "to count the number of ones in the binary representation. Keep doing right shift, increment the count"
+  },
+  {
+    "start": 5950.26,
+    "duration": 8.2,
+    "text": "value, whenever you have like, you know, increment the count value, whenever you find a one, do"
+  },
+  {
+    "start": 5958.46,
+    "duration": 6.76,
+    "text": "this till the number is, you know, greater than zero. And if the value of count is one,"
+  },
+  {
+    "start": 5965.22,
+    "duration": 5.88,
+    "text": "then the answer is, okay, it's, you know, it's a power of two, otherwise it's not, can"
+  },
+  {
+    "start": 5971.1,
+    "duration": 6.76,
+    "text": "we do a simpler method? Can we do a simpler method? We know that if a number is a power"
+  },
+  {
+    "start": 5977.86,
+    "duration": 6.64,
+    "text": "of 2 it will be something like this as many zeros as we want. We also know that we can"
+  },
+  {
+    "start": 5984.5,
+    "duration": 8.56,
+    "text": "represent any power of 2 in this form. So if this is 1, 2, 3, 4, 5, 6, 7, I can say we"
+  },
+  {
+    "start": 5993.06,
+    "duration": 6.08,
+    "text": "can do it like this 1, 2, 3, 4, 5, 6, 7 plus 1. We just saw this when we were learning"
+  },
+  {
+    "start": 5999.14,
+    "duration": 8.52,
+    "text": "about 2's complement. So the question is if you do something like this, whatever number"
+  },
+  {
+    "start": 6007.66,
+    "duration": 11.43,
+    "text": "that has been given to you and it with the number that you have okay and it with the"
+  },
+  {
+    "start": 6019.09,
+    "duration": 11.39,
+    "text": "number you have so in that case what the answer is going to be over here the answer over here"
+  },
+  {
+    "start": 6030.48,
+    "duration": 10.82,
+    "text": "is going to be zero make sense is very simple because all the ones are zero over here and"
+  },
+  {
+    "start": 6041.3,
+    "duration": 4.4,
+    "text": "I just and it with one and this is obviously going to be zero because it has an empty"
+  },
+  {
+    "start": 6045.7,
+    "duration": 5.36,
+    "text": "space over here, then the 1 and 0 and 1 and 0, 1 and 0, it will be 0. Let us take an example"
+  },
+  {
+    "start": 6051.06,
+    "duration": 11.65,
+    "text": "where this is not a, you know, not a power of 2 in this case, 1, 0, 0. Here, this is"
+  },
+  {
+    "start": 6062.71,
+    "duration": 11.76,
+    "text": "not equal to 0. So, what is this? This is nothing but n minus 1. So, I can say that"
+  },
+  {
+    "start": 6074.47,
+    "duration": 13.43,
+    "text": "answer is equal to if n and n minus 1 is equal to 0, then it is power of 2. Very simple stuff."
+  },
+  {
+    "start": 6089.58,
+    "duration": 5.6,
+    "text": "Cool. Do you want me to code this? I think I can code this, but you can do it as well."
+  },
+  {
+    "start": 6095.18,
+    "duration": 14.03,
+    "text": "It is nothing major, just one line of code. We can do it. I can say power of 2."
+  },
+  {
+    "start": 6109.85,
+    "duration": 8.75,
+    "text": "public static void main in n is equal to let's say 16 I'm just going to say print and I can"
+  },
+  {
+    "start": 6118.6,
+    "duration": 9.72,
+    "text": "say my answer then I can say Boolean answer is equal to I can say n and n minus 1 should"
+  },
+  {
+    "start": 6128.32,
+    "duration": 9.8,
+    "text": "be equal to 0 ok I need to simplify one second I need to just add it in an expression"
+  },
+  {
+    "start": 6138.12,
+    "duration": 8.74,
+    "text": "take one second like this, just brackets like this here, that looks good, this should give"
+  },
+  {
+    "start": 6146.86,
+    "duration": 15.31,
+    "text": "me true, 16 is a power of 2, 32, 32 is a power of 2, yes, 31, 31 is not a power of 2, should"
+  },
+  {
+    "start": 6162.17,
+    "duration": 7.72,
+    "text": "give me false, that is it, one line of code, so without any loop or anything you can do"
+  },
+  {
+    "start": 6169.89,
+    "duration": 12.77,
+    "text": "it. But what if I try something like, something like zero, in that case, it's giving true"
+  },
+  {
+    "start": 6182.66,
+    "duration": 10.16,
+    "text": "as well. This is an exception case. Note picks for n is equal to zero. If n is equal to zero,"
+  },
+  {
+    "start": 6192.82,
+    "duration": 6.36,
+    "text": "just return false. Cool. That was our question. Let's look into the next one. Let's look"
+  },
+  {
+    "start": 6199.18,
+    "duration": 4.0,
+    "text": "into another question. This is also very important one. So the question is, let's"
+  },
+  {
+    "start": 6203.18,
+    "duration": 5.44,
+    "text": "say you are given, you have to find basically a raise to power b, that is what you want to"
+  },
+  {
+    "start": 6208.62,
+    "duration": 9.52,
+    "text": "find. So, find a raise to power b or calculate a raise to power b. So, let us say you are"
+  },
+  {
+    "start": 6218.14,
+    "duration": 6.84,
+    "text": "given something like 3 raise to power 6, one way you can do this is 3 into 3 into 3 into"
+  },
+  {
+    "start": 6224.98,
+    "duration": 7.88,
+    "text": "3 into 3 into 3, 1, 2, 3, 4, 5, 6. The time complexity over here is we go off b."
+  },
+  {
+    "start": 6232.86,
+    "duration": 8.64,
+    "text": "we are just multiplying it b times but can I not write this as let's say if this is 3"
+  },
+  {
+    "start": 6241.5,
+    "duration": 7.4,
+    "text": "raised to power 6 if I am writing this as 3 raised to power 2 plus 4 because you know"
+  },
+  {
+    "start": 6248.9,
+    "duration": 3.72,
+    "text": "any number can be represented in the power of 2 because any number can be represented"
+  },
+  {
+    "start": 6252.62,
+    "duration": 5.8,
+    "text": "into binary numbers what is this equal to 3 raised to power 2 into 3 raised to power"
+  },
+  {
+    "start": 6258.42,
+    "duration": 9.12,
+    "text": "or something like that. Hope that makes sense. So if I'm talking about incrementing this,"
+  },
+  {
+    "start": 6267.54,
+    "duration": 4.54,
+    "text": "I'm talking about something like this, I'm saying three raised to power one, one, zero"
+  },
+  {
+    "start": 6272.08,
+    "duration": 7.66,
+    "text": "is six. Okay, so I can have my answer over here, I can say my answer is equal to initially"
+  },
+  {
+    "start": 6279.74,
+    "duration": 8.68,
+    "text": "something. Okay, initially it's something, let's say it's one, then I can say that n is"
+  },
+  {
+    "start": 6288.42,
+    "duration": 7.52,
+    "text": "equal to 110. I can do right shift dot and I can do right shift of off and with one,"
+  },
+  {
+    "start": 6295.94,
+    "duration": 5.88,
+    "text": "this will give me zero. Okay, if it is zero, then ignore, because we're not taking that"
+  },
+  {
+    "start": 6301.82,
+    "duration": 3.72,
+    "text": "number, we're only taking because this is actually equal to three raised to power two"
+  },
+  {
+    "start": 6305.54,
+    "duration": 6.44,
+    "text": "2 plus 4 right. So, we are only taking 2 and 4 the ones that are equal to 1 set bits make"
+  },
+  {
+    "start": 6311.98,
+    "duration": 5.48,
+    "text": "sense that is obviously true because if I do 2 raise to bar 0 into 0 it will not do anything"
+  },
+  {
+    "start": 6317.46,
+    "duration": 5.68,
+    "text": "hence I can just ignore it and I can say answer is equal to answer into I can take a base"
+  },
+  {
+    "start": 6323.14,
+    "duration": 8.88,
+    "text": "as well. I can take a base as well base is going to be equal to what 3. So, I can"
+  },
+  {
+    "start": 6332.02,
+    "duration": 10.08,
+    "text": "say now base is equal to you know 3 into 3 which is equal to 9, so I can say base is"
+  },
+  {
+    "start": 6342.1,
+    "duration": 5.98,
+    "text": "equal to now 9 and then I can say okay n is now going to be equal to 11, right shift"
+  },
+  {
+    "start": 6348.08,
+    "duration": 6.46,
+    "text": "this so I can say right shift 1, I get 1 then my answer is going to be answer into"
+  },
+  {
+    "start": 6354.54,
+    "duration": 5.2,
+    "text": "base that is true because first if your answer is 3 square then you want to multiply"
+  },
+  {
+    "start": 6359.74,
+    "duration": 6.2,
+    "text": "because what is this? This is actually equal to 3 square into 3 h to power 4. So this is"
+  },
+  {
+    "start": 6365.94,
+    "duration": 4.54,
+    "text": "of your overall answer. Then you have to multiply this as well whenever you get it whenever this"
+  },
+  {
+    "start": 6370.48,
+    "duration": 3.88,
+    "text": "is equal to one. Yeah, this is equal to one as well over here as you can see. So total"
+  },
+  {
+    "start": 6374.36,
+    "duration": 4.76,
+    "text": "answer that you have till now plus the new base into the new base. So answer is going"
+  },
+  {
+    "start": 6379.12,
+    "duration": 7.77,
+    "text": "to be equal to answer multiplied by base. So answer is going to now be equal to"
+  },
+  {
+    "start": 6386.89,
+    "duration": 5.98,
+    "text": "nine. Okay, n is now going to be equal to one, right shift one, it's going to give me, it's"
+  },
+  {
+    "start": 6392.87,
+    "duration": 3.8,
+    "text": "going to give me one. So it's going to be like, yeah, this is cool, this works. And"
+  },
+  {
+    "start": 6396.67,
+    "duration": 6.4,
+    "text": "obviously base is going to be equal to over here, what base into base, so nine into nine,"
+  },
+  {
+    "start": 6403.07,
+    "duration": 7.24,
+    "text": "which is equal to what 81. Okay, this is because it's doubling the base every time,"
+  },
+  {
+    "start": 6410.31,
+    "duration": 4.28,
+    "text": "right? So that's, that's what we're doing over here. Because if I have three"
+  },
+  {
+    "start": 6414.59,
+    "duration": 5.2,
+    "text": "raise to power 110 you can see base is doubling every time you can see this is"
+  },
+  {
+    "start": 6419.79,
+    "duration": 7.28,
+    "text": "equal to you know it's like three raised to power you know zero and then here we"
+  },
+  {
+    "start": 6427.07,
+    "duration": 3.16,
+    "text": "have three raised to power one then we have sorry three raised to power this is"
+  },
+  {
+    "start": 6430.23,
+    "duration": 7.17,
+    "text": "102 then we have three raised to power four things like that okay we're"
+  },
+  {
+    "start": 6437.4,
+    "duration": 6.8,
+    "text": "multiplying all these things into the like this that's what we're doing I"
+  },
+  {
+    "start": 6444.2,
+    "duration": 12.16,
+    "text": "think they should make it clear. This is important to understand this question. So now instead"
+  },
+  {
+    "start": 6456.36,
+    "duration": 5.0,
+    "text": "of running it six times and running it how many times the the number of digits in six"
+  },
+  {
+    "start": 6461.36,
+    "duration": 7.64,
+    "text": "to now it's log n log b basically. Okay, so 81 again into answer. So it's going to"
+  },
+  {
+    "start": 6469.0,
+    "duration": 6.08,
+    "text": "be like, you know, three days, what is the already answer nine nine into 81 is my"
+  },
+  {
+    "start": 6475.08,
+    "duration": 12.61,
+    "text": "answer. Let's check what is 3 h to power 6, 729. What is 9 into 81, 729. Very, very simple"
+  },
+  {
+    "start": 6487.69,
+    "duration": 6.0,
+    "text": "stuff. By the way, this is going to be AND. So it's going to be like, how are we going"
+  },
+  {
+    "start": 6493.69,
+    "duration": 4.4,
+    "text": "to check whether, you know, the last number is zero or what. So in order to check the"
+  },
+  {
+    "start": 6498.09,
+    "duration": 5.24,
+    "text": "last number or whatever we do and this will be AND. So it's going to be like N and"
+  },
+  {
+    "start": 6503.33,
+    "duration": 6.24,
+    "text": "one, it's giving me zero, that's true. Then n after that, it's going to be equal to, yeah,"
+  },
+  {
+    "start": 6509.57,
+    "duration": 6.04,
+    "text": "that's true, like the right shift, one. So this will make it is equal to 11. Then I can"
+  },
+  {
+    "start": 6515.61,
+    "duration": 5.12,
+    "text": "do 11 and one, that will give me one. And then I can say 11, right shift one is going"
+  },
+  {
+    "start": 6520.73,
+    "duration": 6.12,
+    "text": "to give me one, then I can do one and one. Okay, then I can do n is equal to one,"
+  },
+  {
+    "start": 6526.85,
+    "duration": 7.32,
+    "text": "shift one, now this will be equal to zero. Okay, so just do and basically just checking"
+  },
+  {
+    "start": 6534.17,
+    "duration": 5.44,
+    "text": "the last value, whether it is one or zero, if it is one, then multiply the answer with"
+  },
+  {
+    "start": 6539.61,
+    "duration": 6.96,
+    "text": "the base, because of all these things. Okay, and do this thing always base is equal to"
+  },
+  {
+    "start": 6546.57,
+    "duration": 5.48,
+    "text": "base into base, this always always this will be happening. Okay, so even if I'm"
+  },
+  {
+    "start": 6552.05,
+    "duration": 3.16,
+    "text": "skipping this, it does not mean that this will get skipped, this will get skipped."
+  },
+  {
+    "start": 6555.21,
+    "duration": 6.6,
+    "text": "We are only not multiplying when the when the value is zero of that particular index."
+  },
+  {
+    "start": 6561.81,
+    "duration": 2.56,
+    "text": "Okay, let's try to code this thing."
+  },
+  {
+    "start": 6564.37,
+    "duration": 6.28,
+    "text": "Okay, let me create another the class called let's say power, I can say public static"
+  },
+  {
+    "start": 6570.65,
+    "duration": 5.94,
+    "text": "void main, I can say in base is equal to three and you know power is equal to something"
+  },
+  {
+    "start": 6576.59,
+    "duration": 7.44,
+    "text": "like what let's say six, okay, then I can say in answer is equal to one initially"
+  },
+  {
+    "start": 6584.03,
+    "duration": 7.04,
+    "text": "And I can say while my, you know, this power is greater than 0, what am I going to do?"
+  },
+  {
+    "start": 6591.07,
+    "duration": 10.51,
+    "text": "I am going to say that if the last value is 1, so if power and 1 is equal to equal"
+  },
+  {
+    "start": 6601.58,
+    "duration": 5.56,
+    "text": "to 1, in that case, answer multiplied by, answer is equal to answer multiplied by"
+  },
+  {
+    "start": 6607.14,
+    "duration": 1.88,
+    "text": "my base."
+  },
+  {
+    "start": 6609.02,
+    "duration": 6.88,
+    "text": "And every time, I am going to increase my base with the base, double it."
+  },
+  {
+    "start": 6615.9,
+    "duration": 3.84,
+    "text": "And then I can just say I also need to increase my power like decrease my power."
+  },
+  {
+    "start": 6619.74,
+    "duration": 4.12,
+    "text": "So first this was in the example 110 then it will be 11 then it will be one."
+  },
+  {
+    "start": 6623.86,
+    "duration": 8.2,
+    "text": "So I can say power is equal to power right shift one."
+  },
+  {
+    "start": 6632.06,
+    "duration": 5.68,
+    "text": "And then in the end I'm just going to say print my answer should give something."
+  },
+  {
+    "start": 6637.74,
+    "duration": 13.66,
+    "text": "see. 729 looks pretty good. If I'm saying two raised to power four 16, okay, works very"
+  },
+  {
+    "start": 6651.4,
+    "duration": 5.72,
+    "text": "well. That's going to work in log of power time. Previously, it was just doing log off"
+  },
+  {
+    "start": 6657.12,
+    "duration": 5.28,
+    "text": "sorry, just off power time. Let's look in the next question. It's also a very straightforward"
+  },
+  {
+    "start": 6662.4,
+    "duration": 8.32,
+    "text": "question. I think you can do it on your own. So you're given a number and find"
+  },
+  {
+    "start": 6670.72,
+    "duration": 10.12,
+    "text": "the number of set bits in it. It's very simple. If you're given something like,"
+  },
+  {
+    "start": 6680.84,
+    "duration": 7.59,
+    "text": "know, how can we do this? So if we can like n is equal to let's say a small number 9 and"
+  },
+  {
+    "start": 6688.43,
+    "duration": 7.12,
+    "text": "we know n is equal to 1001, then the answer should be equal to 2. Answer should be equal"
+  },
+  {
+    "start": 6695.55,
+    "duration": 8.82,
+    "text": "to 2. Okay, so how can we find this out? So one way you can do this is just take our"
+  },
+  {
+    "start": 6704.37,
+    "duration": 4.84,
+    "text": "normal counter and just keep doing right shift again and again till the number is not"
+  },
+  {
+    "start": 6709.21,
+    "duration": 6.18,
+    "text": "not equal to 0 and in the end only increment the counter when you are getting the and equal"
+  },
+  {
+    "start": 6715.39,
+    "duration": 6.18,
+    "text": "to so basically what you can do is what I am trying to say is you know while n is greater"
+  },
+  {
+    "start": 6721.57,
+    "duration": 7.52,
+    "text": "than 0 you can say if n and 1 is equal to equal to 1 count plus plus and then you can"
+  },
+  {
+    "start": 6729.09,
+    "duration": 6.08,
+    "text": "say n is equal to n write shift 1 that is it in the end you will have your answer."
+  },
+  {
+    "start": 6735.17,
+    "duration": 4.44,
+    "text": "Another way that we can do is this very normal stuff, but we want to do something else we"
+  },
+  {
+    "start": 6739.61,
+    "duration": 22.96,
+    "text": "already learned about it. We already learned about something. What was it? Let's see, where"
+  },
+  {
+    "start": 6762.57,
+    "duration": 11.11,
+    "text": "is it? We did n into n minus 1, right? This one, n into n minus 1 stuff. So what if we"
+  },
+  {
+    "start": 6773.68,
+    "duration": 4.24,
+    "text": "do what if we try this, what if we try n into n minus 1, let's see what it's what"
+  },
+  {
+    "start": 6777.92,
+    "duration": 4.72,
+    "text": "it's doing for us or when let's say what we do is let's say we something like we were"
+  },
+  {
+    "start": 6782.64,
+    "duration": 6.84,
+    "text": "talking about the right most bit how are we getting the right most bit let's see the right"
+  },
+  {
+    "start": 6789.48,
+    "duration": 9.29,
+    "text": "most set bit what was the formula for that that we see right most set bit where is it"
+  },
+  {
+    "start": 6798.77,
+    "duration": 10.77,
+    "text": "this is the one n and minus n does the right most set bit okay so we're getting"
+  },
+  {
+    "start": 6809.54,
+    "duration": 7.8,
+    "text": "n and minus n. So I was saying that I have let's say n is equal to this. So I can say"
+  },
+  {
+    "start": 6817.34,
+    "duration": 7.44,
+    "text": "n and minus n, it's going to give me the right most set bit. Okay, so I'm going to"
+  },
+  {
+    "start": 6824.78,
+    "duration": 9.19,
+    "text": "get 0001. Okay, that is what I'm going to get. And if I subtract this with n, if"
+  },
+  {
+    "start": 6833.97,
+    "duration": 13.32,
+    "text": "If I say n minus n and minus n, this is actually going to give me what 1 0 0 0 count is equal"
+  },
+  {
+    "start": 6847.29,
+    "duration": 1.0,
+    "text": "to 1."
+  },
+  {
+    "start": 6848.29,
+    "duration": 7.2,
+    "text": "Now, then I subtract this with the n and minus n and minus n for this is going to be this"
+  },
+  {
+    "start": 6855.49,
+    "duration": 2.96,
+    "text": "entire number itself because it's the right most set pit."
+  },
+  {
+    "start": 6858.45,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 6859.45,
+    "duration": 6.84,
+    "text": "doing this thing till n is greater than 0. Because we are finding the right most bit"
+  },
+  {
+    "start": 6866.29,
+    "duration": 13.29,
+    "text": "and we are deleting it one by one. That is something we can do. We can also do n and"
+  },
+  {
+    "start": 6879.58,
+    "duration": 6.84,
+    "text": "n minus 1. So, what is it that we are doing with n and n minus 1? So, let us say if I"
+  },
+  {
+    "start": 6886.42,
+    "duration": 9.38,
+    "text": "have n is equal to 1 0 0 1 I say and this with n minus 1 what is n minus 1 this if I"
+  },
+  {
+    "start": 6895.8,
+    "duration": 5.72,
+    "text": "and it with this I know n minus 1 is actually going to be equal to yeah so this is actually"
+  },
+  {
+    "start": 6901.52,
+    "duration": 6.52,
+    "text": "going to be equal to 1000 okay now again I and now this is equal to what this is equal"
+  },
+  {
+    "start": 6908.04,
+    "duration": 8.24,
+    "text": "to 8 again I and this with 7 what will I get I will get and with 7 so this is count"
+  },
+  {
+    "start": 6916.28,
+    "duration": 9.12,
+    "text": "one. This is count to answer is to can do that number of set is the number of bits number"
+  },
+  {
+    "start": 6925.4,
+    "duration": 11.26,
+    "text": "of set bits is equal to number of iterations. Let's try it out and let me show you one"
+  },
+  {
+    "start": 6936.66,
+    "duration": 9.42,
+    "text": "more cool thing. Let me show you one more cool thing. I say count set bits. If I"
+  },
+  {
+    "start": 6946.08,
+    "duration": 12.0,
+    "text": "if I say set bits and I say int n is equal to 10 or something, but I have to print integer"
+  },
+  {
+    "start": 6958.08,
+    "duration": 12.79,
+    "text": "dot to binary string n. So, in this way, you can actually see the binary representation"
+  },
+  {
+    "start": 6970.87,
+    "duration": 8.17,
+    "text": "of a number showing 1010. So, in the integer class, there is a function, there is a"
+  },
+  {
+    "start": 6979.04,
+    "duration": 6.72,
+    "text": "method called to binary string that takes in a n integer and it returns the string"
+  },
+  {
+    "start": 6985.76,
+    "duration": 6.36,
+    "text": "value of that binary number. So if you want to see what is 30 or 45 in binary, we can"
+  },
+  {
+    "start": 6992.12,
+    "duration": 8.36,
+    "text": "see that run it 45 in binary is one zero one one zero one. How cool is this? Okay, so this"
+  },
+  {
+    "start": 7000.48,
+    "duration": 7.95,
+    "text": "way we can check like if our program is correct or not. So I can say s out digits. So set"
+  },
+  {
+    "start": 7008.43,
+    "duration": 9.19,
+    "text": "set bits, I can just write set bits in my number and is what it's going to return"
+  },
+  {
+    "start": 7017.62,
+    "duration": 5.92,
+    "text": "an integer set fit in my number n. So I can say int count is equal to zero. And in the"
+  },
+  {
+    "start": 7023.54,
+    "duration": 8.24,
+    "text": "end, I'm just going to say return my count. And I'm going to say, while my count is greater"
+  },
+  {
+    "start": 7031.78,
+    "duration": 6.4,
+    "text": "than n, sorry, greater than zero, while my count is greater than zero, what am I going"
+  },
+  {
+    "start": 7038.18,
+    "duration": 7.64,
+    "text": "to do? What are we going to do in the notes? What did we write? So we said that"
+  },
+  {
+    "start": 7045.82,
+    "duration": 5.84,
+    "text": "But first of all, we are going to do count plus plus, not count is equal to 0, sorry,"
+  },
+  {
+    "start": 7051.66,
+    "duration": 5.6,
+    "text": "n is equal, n is greater than 0. I am going to say count plus plus. Then I am going to"
+  },
+  {
+    "start": 7057.26,
+    "duration": 16.05,
+    "text": "say what? n is equal to or I can say n minus equal to this thing, n and minus n. So, for"
+  },
+  {
+    "start": 7073.31,
+    "duration": 9.63,
+    "text": "this, it should give me 1, 2, 3, 4, answer should be 4, let's see, we're getting 4, we"
+  },
+  {
+    "start": 7082.94,
+    "duration": 7.38,
+    "text": "are getting 4. Okay, or what you can do is, we can do something like this, we can say,"
+  },
+  {
+    "start": 7090.32,
+    "duration": 6.68,
+    "text": "we're taking add with the n minus 1, so I'm going to say while n is greater than 0, I'm"
+  },
+  {
+    "start": 7097.0,
+    "duration": 11.58,
+    "text": "going to say count plus plus, and I'm going to say n is equal to n and n minus one. This"
+  },
+  {
+    "start": 7108.58,
+    "duration": 8.55,
+    "text": "should also give me four, giving me four, I accidentally debugged it. If I run it really"
+  },
+  {
+    "start": 7117.13,
+    "duration": 13.84,
+    "text": "before, if you try something else like 37 or a bigger number, let's say 197 or something,"
+  },
+  {
+    "start": 7130.97,
+    "duration": 6.68,
+    "text": "This has four, one, two, three, four, yeah, four set bits, okay, 199 or something or something"
+  },
+  {
+    "start": 7137.65,
+    "duration": 8.68,
+    "text": "like this, bigger number, binary, how many set bits it has, nine, one, two, three, four,"
+  },
+  {
+    "start": 7146.33,
+    "duration": 3.32,
+    "text": "five, six, seven, eight, nine, yeah, that's true."
+  },
+  {
+    "start": 7149.65,
+    "duration": 8.52,
+    "text": "You can see it's running, the log, yeah, the log int times, yeah, cool, all right,"
+  },
+  {
+    "start": 7158.17,
+    "duration": 1.0,
+    "text": "let's move forward."
+  },
+  {
+    "start": 7159.17,
+    "duration": 3.52,
+    "text": "the question let's say the question is that you are given let's say some numbers you let's"
+  },
+  {
+    "start": 7162.69,
+    "duration": 9.68,
+    "text": "say any number a is given and you have to find the XOR of you know find let's say XOR find"
+  },
+  {
+    "start": 7172.37,
+    "duration": 7.56,
+    "text": "XOR a question like this was asked in code forces round find XOR of numbers let's say"
+  },
+  {
+    "start": 7179.93,
+    "duration": 9.4,
+    "text": "from 0 to 8. Okay, so let's say if a is equal to, you know, let's say is a equal to 0. So"
+  },
+  {
+    "start": 7189.33,
+    "duration": 5.12,
+    "text": "you're going to get something like this. So if a is equal to the value of a, and then"
+  },
+  {
+    "start": 7194.45,
+    "duration": 7.96,
+    "text": "I can say xor from 0 to a, okay, let's see what the answer is. So we know that if a"
+  },
+  {
+    "start": 7202.41,
+    "duration": 6.72,
+    "text": "is equal to 0, xor will be, you know, 0 till 00. If a is equal to 1, xor will"
+  },
+  {
+    "start": 7209.13,
+    "duration": 6.36,
+    "text": "be XOR of 0 and 1 which is equal to 1. If a is equal to 2 XOR will be this XOR this XOR"
+  },
+  {
+    "start": 7215.49,
+    "duration": 12.11,
+    "text": "this, this is going to be equal to what? This is going to be equal to 1 XOR 2. So, basically"
+  },
+  {
+    "start": 7227.6,
+    "duration": 8.52,
+    "text": "this is going to be equal to 3, very cool stuff. It is going to be 3 XOR of 3 is going"
+  },
+  {
+    "start": 7236.12,
+    "duration": 6.76,
+    "text": "to be equal to what? Zero basically three XOR three, which is zero. This will be zero."
+  },
+  {
+    "start": 7242.88,
+    "duration": 4.18,
+    "text": "XOR of four is going to be equal to what x or of four is going to be equal to XOR of"
+  },
+  {
+    "start": 7247.06,
+    "duration": 5.72,
+    "text": "zero one two three and four zero XOR four, which is four XOR of five is going to be"
+  },
+  {
+    "start": 7252.78,
+    "duration": 6.76,
+    "text": "equal to what five is going to be four. If you calculated yourself one XOR of six"
+  },
+  {
+    "start": 7259.54,
+    "duration": 5.24,
+    "text": "is going to be equal to what XOR of six is going to be equal to what, it's going"
+  },
+  {
+    "start": 7264.78,
+    "duration": 11.89,
+    "text": "to be equal to XOR till 5 XOR 6 is going to be equal to 7 XOR till 7 is going to be equal"
+  },
+  {
+    "start": 7276.67,
+    "duration": 10.0,
+    "text": "to what XOR till 6 XOR 7 0 can you see a pattern 0 1 3 0 4 1 7 0 like that. So you can see"
+  },
+  {
+    "start": 7286.67,
+    "duration": 8.68,
+    "text": "0 is equal to 0 4 is equal to 4. If I talk about XOR of 8 till 8 numbers so 8 XOR so"
+  },
+  {
+    "start": 7295.35,
+    "duration": 5.24,
+    "text": "So zero XOR one XOR two XOR three XOR four. So zero till eight all the XORs will be eight."
+  },
+  {
+    "start": 7300.59,
+    "duration": 4.32,
+    "text": "So you can see eight is equal to eight. Can you see this? And you can see this is equal"
+  },
+  {
+    "start": 7304.91,
+    "duration": 5.04,
+    "text": "to one. This is equal to one. If I say XOR of zero till nine that will also be equal"
+  },
+  {
+    "start": 7309.95,
+    "duration": 7.48,
+    "text": "to one. What is happening? And every fourth number is zero. So basically if you see"
+  },
+  {
+    "start": 7317.43,
+    "duration": 7.36,
+    "text": "this pattern, you will say that if a is divisible by four after every four a pattern"
+  },
+  {
+    "start": 7324.79,
+    "duration": 5.68,
+    "text": "is repeating after every four numbers. After if a is equal to a, if this is equal to 0,"
+  },
+  {
+    "start": 7330.47,
+    "duration": 4.88,
+    "text": "if the remainder with 4 is equal to, if this is the first number in the pattern, then the"
+  },
+  {
+    "start": 7335.35,
+    "duration": 6.04,
+    "text": "answer is going to be equal to for 0 till a, XOR, the answer is going to be equal"
+  },
+  {
+    "start": 7341.39,
+    "duration": 7.11,
+    "text": "to the number a itself. We just write it clearly. Now, you may ask, how did you"
+  },
+  {
+    "start": 7348.5,
+    "duration": 4.8,
+    "text": "get it? It's just observation, try to write down these things in like paper and"
+  },
+  {
+    "start": 7353.3,
+    "duration": 5.88,
+    "text": "you will see this observation. Answer is A. If the remainder is equal to 1, then the answer"
+  },
+  {
+    "start": 7359.18,
+    "duration": 6.32,
+    "text": "is 1. If the remainder of any number with 4 is equal to 2, then the XOR of 0 till that"
+  },
+  {
+    "start": 7365.5,
+    "duration": 5.92,
+    "text": "number is going to be equal to what? A plus 1 that is true. So, we had like for 6 we"
+  },
+  {
+    "start": 7371.42,
+    "duration": 7.92,
+    "text": "had 6 plus 1 for 2 we had 2 plus 1 right 3 and the fourth number that is repeating"
+  },
+  {
+    "start": 7379.34,
+    "duration": 6.48,
+    "text": "is if the remainder is three, then the answer is going to be equal to zero. This is going"
+  },
+  {
+    "start": 7385.82,
+    "duration": 9.36,
+    "text": "to keep on repeating. Okay, that's your answer. If you want to find XOR from zero till a,"
+  },
+  {
+    "start": 7395.18,
+    "duration": 6.96,
+    "text": "this is your answer. Okay. The next question is how do you find XOR of numbers between"
+  },
+  {
+    "start": 7402.14,
+    "duration": 11.14,
+    "text": "two ranges. So let's say another question can be XOR between all XOR of all numbers"
+  },
+  {
+    "start": 7413.28,
+    "duration": 12.5,
+    "text": "between A and B. Okay, so if let's say A is equal to three and B is equal to nine, then"
+  },
+  {
+    "start": 7425.78,
+    "duration": 7.32,
+    "text": "you have to calculate three XOR four XOR five XOR six XOR seven XOR eight XOR nine. How"
+  },
+  {
+    "start": 7433.1,
+    "duration": 9.72,
+    "text": "can we do this? If I talk about like from 0 till 9, 0, 1, 2, 3, 4, 5, because this is"
+  },
+  {
+    "start": 7442.82,
+    "duration": 6.0,
+    "text": "something we have studied already, right? Okay, so we can calculate 0 till 9 very easily"
+  },
+  {
+    "start": 7448.82,
+    "duration": 12.19,
+    "text": "using these four cases. But we have to find 3 till 9. Okay, how can we do that? So you"
+  },
+  {
+    "start": 7461.01,
+    "duration": 14.32,
+    "text": "can calculate 0 till 9 very easily. Okay, so basically, what are the extra ones?"
+  },
+  {
+    "start": 7475.33,
+    "duration": 8.68,
+    "text": "are the extras. These are the extras. Isn't it isn't it clear? These are the extras. These"
+  },
+  {
+    "start": 7484.01,
+    "duration": 4.76,
+    "text": "are the extras because we don't want this. We only want three till nine. How do we remove"
+  },
+  {
+    "start": 7488.77,
+    "duration": 6.6,
+    "text": "these extras? These are already in the entire XOR. So we if we XOR this entire thing again"
+  },
+  {
+    "start": 7495.37,
+    "duration": 7.36,
+    "text": "from this, would it not be removed? So basically, this is entire XOR. If I add"
+  },
+  {
+    "start": 7502.73,
+    "duration": 7.48,
+    "text": "onto it if I XOR 0 1 and 2 so this and this will get cancelled out. So I can basically"
+  },
+  {
+    "start": 7510.21,
+    "duration": 11.9,
+    "text": "XOR this entire thing and what is this entire thing this is 0 till a minus 1 0 till a minus"
+  },
+  {
+    "start": 7522.11,
+    "duration": 1.0,
+    "text": "1 XOR."
+  },
+  {
+    "start": 7523.11,
+    "duration": 11.52,
+    "text": "So the answer is that your function of B function B let us say represents xor of 0 till B. So"
+  },
+  {
+    "start": 7534.63,
+    "duration": 10.72,
+    "text": "f of x is equal to xor of 0 till x. So my answer here is equal to xor of 0 till B xor"
+  },
+  {
+    "start": 7545.35,
+    "duration": 8.52,
+    "text": "of 0 till a minus 1. Because this is already added in the this particular part. And we are"
+  },
+  {
+    "start": 7553.87,
+    "duration": 6.56,
+    "text": "XORing it again. So this will be duplicate and we know x XOR XOR X XOR X will give 0."
+  },
+  {
+    "start": 7560.43,
+    "duration": 5.92,
+    "text": "That's why. Okay, so that's very simple stuff. And I believe you can code it, but I can"
+  },
+  {
+    "start": 7566.35,
+    "duration": 4.32,
+    "text": "do it as well. No problem. I'll do it. So I can create a new because if you do"
+  },
+  {
+    "start": 7570.67,
+    "duration": 5.36,
+    "text": "do XOR for every single number, it will be very bad complexity side, this is doing this"
+  },
+  {
+    "start": 7576.03,
+    "duration": 10.24,
+    "text": "like one steps. So I can say something like, you know, range XOR. Now you are not, because"
+  },
+  {
+    "start": 7586.27,
+    "duration": 3.48,
+    "text": "it will give you TLE otherwise if you try, because it's such a big number, if you do"
+  },
+  {
+    "start": 7589.75,
+    "duration": 7.44,
+    "text": "XOR for every number, it's going to be very bad. So for log and in every individual number"
+  },
+  {
+    "start": 7597.19,
+    "duration": 4.76,
+    "text": "and for n numbers this is not very good. So I can say I can create another function. So"
+  },
+  {
+    "start": 7601.95,
+    "duration": 14.4,
+    "text": "I can say it gives from 0 till a. This gives xor from 0 to a. So I can say static int start"
+  },
+  {
+    "start": 7616.35,
+    "duration": 11.16,
+    "text": "xor I can just say xor no problem int a is is going to say if a mod 4 is equal to"
+  },
+  {
+    "start": 7627.51,
+    "duration": 14.78,
+    "text": "equal to 0, then return A, if this is equal to 1, this is equal to 2, and this is equal"
+  },
+  {
+    "start": 7642.29,
+    "duration": 8.6,
+    "text": "to 3. I am going to say return A, return 1, return A plus 1 and in the end is just going"
+  },
+  {
+    "start": 7650.89,
+    "duration": 8.54,
+    "text": "to say return 0 otherwise. That is it. So, how do you find the range XOR? Range XOR"
+  },
+  {
+    "start": 7659.43,
+    "duration": 18.64,
+    "text": "for a till b is equal to xor of a sorry xor of b xor xor of a minus 1. So, if you are"
+  },
+  {
+    "start": 7678.07,
+    "duration": 7.1,
+    "text": "saying int a is equal to in our question 3 and int b is equal to 9. So, if you want"
+  },
+  {
+    "start": 7685.17,
+    "duration": 5.08,
+    "text": "to find the xor of all the numbers in this range which is going to say int answer is"
+  },
+  {
+    "start": 7690.25,
+    "duration": 14.74,
+    "text": "equal to xor of b xor xor of a minus 1 that is my answer xor of 3, 4, 5, 6, 7, 8, 9 should"
+  },
+  {
+    "start": 7704.99,
+    "duration": 7.76,
+    "text": "give me 2. Even if you want to try it yourself say if I want to try it myself I can say int"
+  },
+  {
+    "start": 7712.75,
+    "duration": 9.52,
+    "text": "answer 2 is equal to initially 0 or I can say for i is equal to let's say a i is less"
+  },
+  {
+    "start": 7722.27,
+    "duration": 11.2,
+    "text": "than less than equal to b and i plus plus answer to xor equal to i and then I print answer"
+  },
+  {
+    "start": 7733.47,
+    "duration": 9.01,
+    "text": "to it should give me the same thing. But this will this is only for check will give time"
+  },
+  {
+    "start": 7742.48,
+    "duration": 14.31,
+    "text": "limit exceed TLE for large numbers should give me 2, 2 and 2, 2 and 2. That was a pretty"
+  },
+  {
+    "start": 7756.79,
+    "duration": 5.04,
+    "text": "pretty good question. All right, range XOR cool. Let's take a look at a question. This"
+  },
+  {
+    "start": 7761.83,
+    "duration": 4.96,
+    "text": "was asked in Google. This is a Google question. The question is that you are given an n into"
+  },
+  {
+    "start": 7766.79,
+    "duration": 6.36,
+    "text": "n binary matrix image. Okay, so basically image only the matrix or the 2D array,"
+  },
+  {
+    "start": 7773.15,
+    "duration": 5.68,
+    "text": "contains only zeros and ones. Okay, you have to flip the image horizontally and then you"
+  },
+  {
+    "start": 7778.83,
+    "duration": 5.52,
+    "text": "have to invert it and return the resulting image. Okay, so it means to flip what do we"
+  },
+  {
+    "start": 7784.35,
+    "duration": 5.28,
+    "text": "mean by flip an image, flip an image horizontally means each row of the images reverse. Okay,"
+  },
+  {
+    "start": 7789.63,
+    "duration": 4.24,
+    "text": "so every row is reversed. So if the row is one comma one comma zero, it will be zero"
+  },
+  {
+    "start": 7793.87,
+    "duration": 5.28,
+    "text": "comma zero comma one, just just reverse it. Okay, and then it says to invert an"
+  },
+  {
+    "start": 7799.15,
+    "duration": 8.37,
+    "text": "image means each zero is replaced by one and one is replaced by this was asked in Google okay"
+  },
+  {
+    "start": 7808.56,
+    "duration": 7.44,
+    "text": "there's nothing in this question anyway um I'll try to do some more no hard questions in the"
+  },
+  {
+    "start": 7816.0,
+    "duration": 3.04,
+    "text": "future actually the better questions will come with dynamic programming dynamic"
+  },
+  {
+    "start": 7819.04,
+    "duration": 4.24,
+    "text": "programming but this plus bit masking there's nothing even if I stop the video right now you"
+  },
+  {
+    "start": 7823.28,
+    "duration": 7.2,
+    "text": "can do it but still okay anyway um so very simple just flip the flip an array so it's"
+  },
+  {
+    "start": 7830.48,
+    "duration": 4.44,
+    "text": "is like a simple array you just you know reverse an array it's just a reverse an"
+  },
+  {
+    "start": 7834.92,
+    "duration": 3.84,
+    "text": "array question okay so just reverse this array I know you all know how to reverse"
+  },
+  {
+    "start": 7838.76,
+    "duration": 5.08,
+    "text": "an array okay first first index replay swap with last index till the middle"
+  },
+  {
+    "start": 7843.84,
+    "duration": 3.6,
+    "text": "replay array is reversed okay we have done this in the areas lecture by the"
+  },
+  {
+    "start": 7847.44,
+    "duration": 4.68,
+    "text": "way if you haven't seen that link is in the description and to invert it's"
+  },
+  {
+    "start": 7852.12,
+    "duration": 4.8,
+    "text": "just taking a complement okay so how do we invert we can we have just learned"
+  },
+  {
+    "start": 7856.92,
+    "duration": 7.04,
+    "text": "about it, we can apply bitwise over here. If we XOR any number with one, we get the inverse"
+  },
+  {
+    "start": 7863.96,
+    "duration": 5.32,
+    "text": "of that number, isn't it true? XOR it with one, we will get the inverse. So if the number"
+  },
+  {
+    "start": 7869.28,
+    "duration": 5.28,
+    "text": "is one, then one XOR one will give me zero. But if the number is zero, then zero XOR"
+  },
+  {
+    "start": 7874.56,
+    "duration": 3.76,
+    "text": "one will give me one. So one becomes zero, zero becomes one. That's what we want to"
+  },
+  {
+    "start": 7878.32,
+    "duration": 4.8,
+    "text": "do. So you all can see that after reversing every row, we don't have to do anything"
+  },
+  {
+    "start": 7883.12,
+    "duration": 5.84,
+    "text": "with it so while you are reversing the elements you can also apply XOR it's not like first you"
+  },
+  {
+    "start": 7888.96,
+    "duration": 4.48,
+    "text": "have to reverse it entirely then you have to do XOR no you can do it simultaneously"
+  },
+  {
+    "start": 7894.32,
+    "duration": 3.92,
+    "text": "there's nothing in this question but okay let's see we can solve it no problem so let's take"
+  },
+  {
+    "start": 7898.24,
+    "duration": 9.47,
+    "text": "this lead code example only they are saying uh reverse uh this is why you should not be scared"
+  },
+  {
+    "start": 7907.71,
+    "duration": 5.68,
+    "text": "of you know when you look at a name of funny you know hi you know whatever and just there's"
+  },
+  {
+    "start": 7913.39,
+    "duration": 4.12,
+    "text": "no such thing as easy question hard question saying it again and again so"
+  },
+  {
+    "start": 7917.51,
+    "duration": 13.3,
+    "text": "question is reverse sorry just know the flipping an image okay so it says that"
+  },
+  {
+    "start": 7930.81,
+    "duration": 8.48,
+    "text": "image is let's say 1 1 0 1 0 1 0 0 1 first you reverse it basically reverse"
+  },
+  {
+    "start": 7939.29,
+    "duration": 6.12,
+    "text": "every row this will be 0 1 1 so 1 0 1 0 0 0 then you invert it so invert"
+  },
+  {
+    "start": 7945.41,
+    "duration": 6.1,
+    "text": "basically means flipping the numbers. So this will become equal to what this will become"
+  },
+  {
+    "start": 7951.51,
+    "duration": 8.66,
+    "text": "1 0 0 0 1 0 1 1 1. This is my answer. That's it. That's the question. So the answer is"
+  },
+  {
+    "start": 7960.17,
+    "duration": 6.12,
+    "text": "1 0 0 0 1 0 1 1 1. That's it. Just reverse every single array because we know that in"
+  },
+  {
+    "start": 7966.29,
+    "duration": 4.36,
+    "text": "2D array every single row is individually it's FN array. We have learned about memory"
+  },
+  {
+    "start": 7970.65,
+    "duration": 4.12,
+    "text": "management in Java. So if you haven't already check out the link in the description"
+  },
+  {
+    "start": 7974.77,
+    "duration": 3.92,
+    "text": "entire playlist is there and then we just XOR with any number because I know if the number"
+  },
+  {
+    "start": 7978.69,
+    "duration": 4.0,
+    "text": "is zero if I XOR it with one it will become one if the number is one and I XOR it with"
+  },
+  {
+    "start": 7982.69,
+    "duration": 11.2,
+    "text": "one it will become zero so it is flipped right okay cool that looks pretty good let's try"
+  },
+  {
+    "start": 7993.89,
+    "duration": 4.76,
+    "text": "to code this thing so I'm just going to copy this thing okay and I'm going to paste"
+  },
+  {
+    "start": 7998.65,
+    "duration": 6.44,
+    "text": "it over here and I'm going to say flip image I'm going to refactor this I'm going"
+  },
+  {
+    "start": 8005.09,
+    "duration": 8.48,
+    "text": "to say flip image or something. Okay, let's do it. So I have been given an image, I can"
+  },
+  {
+    "start": 8013.57,
+    "duration": 8.15,
+    "text": "just it says that I have to, you know, make a change in this, I can just make a change"
+  },
+  {
+    "start": 8021.72,
+    "duration": 8.28,
+    "text": "in this only. So I can say my, you know, for every single array in my image. So each"
+  },
+  {
+    "start": 8030.0,
+    "duration": 4.68,
+    "text": "row or I can just write row over here. For every row in my image, what do I need"
+  },
+  {
+    "start": 8034.68,
+    "duration": 9.16,
+    "text": "to do, I need to reverse this array, that's it. So I can say for i is equal to 0, i is"
+  },
+  {
+    "start": 8043.84,
+    "duration": 12.0,
+    "text": "less than my, the number of columns. So I can say image of 0 dot length, this is my"
+  },
+  {
+    "start": 8055.84,
+    "duration": 7.96,
+    "text": "column. So I can say the middle of this is going to be equal to, as we have done before,"
+  },
+  {
+    "start": 8063.8,
+    "duration": 5.9,
+    "text": "plus 1 divided by 2. So, that is my middle and I plus plus that is it. I am just going"
+  },
+  {
+    "start": 8069.7,
+    "duration": 11.68,
+    "text": "to swap now. I am going to say int temp is equal to row of I and I am going to say row"
+  },
+  {
+    "start": 8081.38,
+    "duration": 11.12,
+    "text": "of I is equal to row of this the last column minus I that is true. By the way if you"
+  },
+  {
+    "start": 8092.5,
+    "duration": 4.26,
+    "text": "not able to understand this thing check out the no don't say hey Kunal you did not explain"
+  },
+  {
+    "start": 8096.76,
+    "duration": 5.4,
+    "text": "this thing I did I explained this already so please check it out once in the areas lecture"
+  },
+  {
+    "start": 8102.16,
+    "duration": 5.38,
+    "text": "why am I giving minus I why am I taking temp over here you might be having a doubt over here"
+  },
+  {
+    "start": 8107.54,
+    "duration": 4.12,
+    "text": "like Kunal why are you doing minus I over here okay what is this thing of two pointer"
+  },
+  {
+    "start": 8111.66,
+    "duration": 3.72,
+    "text": "thing that you're doing already explained in the area lecture why would I explain"
+  },
+  {
+    "start": 8115.38,
+    "duration": 12.43,
+    "text": "it again. This is equal to rho of phi. No, this is equal to temp actually. And in the"
+  },
+  {
+    "start": 8127.81,
+    "duration": 5.52,
+    "text": "end I can just say return this image. This image itself I am returning let us say. But"
+  },
+  {
+    "start": 8133.33,
+    "duration": 4.92,
+    "text": "one thing we forgot was doing XOR. I told you that we can do XOR right when we are"
+  },
+  {
+    "start": 8138.25,
+    "duration": 5.76,
+    "text": "taking the particular element. So for every element I can do XOR here only with one."
+  },
+  {
+    "start": 8144.01,
+    "duration": 25.57,
+    "text": "that's it. Is that it? Okay, no problem. Let's try to run this code. That works. Summit."
+  },
+  {
+    "start": 8169.58,
+    "duration": 6.96,
+    "text": "All right. Very fast, faster than 100% of Java solutions and stuff. Yeah, it was a Google"
+  },
+  {
+    "start": 8176.54,
+    "duration": 4.2,
+    "text": "question, but it was a fun question for those. It was easy for us because we just"
+  },
+  {
+    "start": 8180.74,
+    "duration": 5.36,
+    "text": "learned about such things. Cool. All right, but this was the first part of Maths"
+  },
+  {
+    "start": 8186.1,
+    "duration": 4.24,
+    "text": "with data structures, Maths for data structures. After this, we'll be doing like some, you"
+  },
+  {
+    "start": 8190.34,
+    "duration": 3.84,
+    "text": "know, this is going to be like another another part for it. And in that part, we'll be learning"
+  },
+  {
+    "start": 8194.18,
+    "duration": 5.6,
+    "text": "about a lot of other things like, you know, prime factors, and, you know, like, there's"
+  },
+  {
+    "start": 8199.78,
+    "duration": 4.12,
+    "text": "a sieve method, like some optimization methods, we'll learn about how to find factors in"
+  },
+  {
+    "start": 8203.9,
+    "duration": 3.52,
+    "text": "an optimized way, we'll learn about some square root methods, Newton square root"
+  },
+  {
+    "start": 8207.42,
+    "duration": 4.8,
+    "text": "method, we'll learn about some model properties, some important stuff we'll learn about"
+  },
+  {
+    "start": 8212.22,
+    "duration": 4.88,
+    "text": "that's going to come after this video, but this video was dedicated for, you know, your"
+  },
+  {
+    "start": 8217.1,
+    "duration": 3.68,
+    "text": "bitwise operators. And make sure you like and subscribe, I see you in the next one."
+  }
+]

@@ -1,0 +1,1802 @@
+[
+  {
+    "start": 4.14,
+    "duration": 6.0,
+    "text": "Hey everyone, welcome back to another video and in this video we will look into how a Java code executes"
+  },
+  {
+    "start": 10.14,
+    "duration": 7.0,
+    "text": "We will look into the basics of Java from writing the Java code till you know how the Java code executes and gives us the output"
+  },
+  {
+    "start": 17.14,
+    "duration": 8.0,
+    "text": "How everything works internally, what are the various components of Java, what are the various steps involved in the execution of a programming Java"
+  },
+  {
+    "start": 25.14,
+    "duration": 7.0,
+    "text": "And also in this video we will be doing the installation of all the Java tools that are required for you to get started"
+  },
+  {
+    "start": 32.14,
+    "duration": 4.18,
+    "text": "Without further ado, let's get started. But before that, make sure you subscribe and check"
+  },
+  {
+    "start": 36.32,
+    "duration": 4.78,
+    "text": "out the links in the description, all the assignments and notes and everything that I'm showing on"
+  },
+  {
+    "start": 41.1,
+    "duration": 4.56,
+    "text": "the screen as well. Everything is in the description. Make sure you like, comment, share and subscribe"
+  },
+  {
+    "start": 45.66,
+    "duration": 5.48,
+    "text": "and let's get started. So we looked into in the previous lectures when we were talking"
+  },
+  {
+    "start": 51.14,
+    "duration": 6.68,
+    "text": "about programming that we, you know, we have to write the code in human readable format."
+  },
+  {
+    "start": 57.82,
+    "duration": 4.12,
+    "text": "And in the end, machine only understands zeros and ones."
+  },
+  {
+    "start": 61.94,
+    "duration": 4.84,
+    "text": "This zeros and ones instructions known as machine code, machine only understands that"
+  },
+  {
+    "start": 66.78,
+    "duration": 4.76,
+    "text": "but it will be very difficult to for us to write, let's say an entire application using"
+  },
+  {
+    "start": 71.54,
+    "duration": 6.4,
+    "text": "just zeros and ones might be possible or very, very close to impossible and difficult."
+  },
+  {
+    "start": 77.94,
+    "duration": 4.12,
+    "text": "So in order to make this in a more human readable format in a more language sort"
+  },
+  {
+    "start": 82.06,
+    "duration": 5.72,
+    "text": "of a format and well defined structures and you know files sort of format like for that"
+  },
+  {
+    "start": 87.78,
+    "duration": 5.04,
+    "text": "we use programming languages and Java is one of those programming languages that we use."
+  },
+  {
+    "start": 92.82,
+    "duration": 5.36,
+    "text": "So all the Java code that we will be writing it will be in the .java file."
+  },
+  {
+    "start": 98.18,
+    "duration": 5.04,
+    "text": "You have text files that have the extension of .txt, you have C++ files that have the"
+  },
+  {
+    "start": 103.22,
+    "duration": 5.4,
+    "text": "extension of .cpp, you have C files that have the extension of .c, we will be"
+  },
+  {
+    "start": 108.62,
+    "duration": 6.38,
+    "text": "writing java code and the java file will have the extension of dot java okay so again don't"
+  },
+  {
+    "start": 115.0,
+    "duration": 3.62,
+    "text": "worry how we are doing how we are going to do this okay don't worry about that that is"
+  },
+  {
+    "start": 118.62,
+    "duration": 5.84,
+    "text": "the next lecture right now just focus on what we are doing so in the dot java file we will"
+  },
+  {
+    "start": 124.46,
+    "duration": 5.48,
+    "text": "write all our code hello world programs sum of two numbers java application sudo ku"
+  },
+  {
+    "start": 129.94,
+    "duration": 4.36,
+    "text": "solver whatever we are making on in dot java files we will be writing that code"
+  },
+  {
+    "start": 134.3,
+    "duration": 9.32,
+    "text": "Now in C and C++ what happens is that you have your code written in .cfile or .cpp file."
+  },
+  {
+    "start": 143.62,
+    "duration": 2.7,
+    "text": "You give that code to the compiler."
+  },
+  {
+    "start": 146.32,
+    "duration": 6.66,
+    "text": "Compiler is like a software program or whatever in your computer and it is dependent on like"
+  },
+  {
+    "start": 152.98,
+    "duration": 1.0,
+    "text": "the language."
+  },
+  {
+    "start": 153.98,
+    "duration": 1.64,
+    "text": "So C++ may have a compiler."
+  },
+  {
+    "start": 155.62,
+    "duration": 5.0,
+    "text": "The role of a compiler is to take the entire file and convert it into machine readable"
+  },
+  {
+    "start": 160.62,
+    "duration": 1.0,
+    "text": "format."
+  },
+  {
+    "start": 161.62,
+    "duration": 2.28,
+    "text": "For example, zeros and ones."
+  },
+  {
+    "start": 163.9,
+    "duration": 4.88,
+    "text": "there is something different going on in Java notice something different you have the dot Java file"
+  },
+  {
+    "start": 168.78,
+    "duration": 5.68,
+    "text": "which is your source code you can see this is our source code the compiler the Java compiler which"
+  },
+  {
+    "start": 174.46,
+    "duration": 7.12,
+    "text": "we will be looking to later on it compiles the entire file not into machine code but into something"
+  },
+  {
+    "start": 181.58,
+    "duration": 6.61,
+    "text": "known as a byte code it does not directly convert it into machine code this is a very important"
+  },
+  {
+    "start": 188.19,
+    "duration": 6.08,
+    "text": "point it converts it into something called byte code and the extension of that particular file"
+  },
+  {
+    "start": 194.27,
+    "duration": 3.84,
+    "text": "The format of that file is .class."
+  },
+  {
+    "start": 198.11,
+    "duration": 5.48,
+    "text": "So when you take a .java file and compile it, it will give you a .class file that contains"
+  },
+  {
+    "start": 203.59,
+    "duration": 1.84,
+    "text": "a byte code."
+  },
+  {
+    "start": 205.43,
+    "duration": 2.16,
+    "text": "What is this byte code you may ask?"
+  },
+  {
+    "start": 207.59,
+    "duration": 3.4,
+    "text": "This is some intermediate language of Java."
+  },
+  {
+    "start": 210.99,
+    "duration": 1.68,
+    "text": "Why do we have this byte code?"
+  },
+  {
+    "start": 212.67,
+    "duration": 1.44,
+    "text": "Another good question."
+  },
+  {
+    "start": 214.11,
+    "duration": 3.28,
+    "text": "This code cannot directly run on a system."
+  },
+  {
+    "start": 217.39,
+    "duration": 2.72,
+    "text": "We need Java virtual machine to run this thing."
+  },
+  {
+    "start": 220.11,
+    "duration": 4.04,
+    "text": "We will look more into in detail what is Java virtual machine."
+  },
+  {
+    "start": 224.15,
+    "duration": 6.28,
+    "text": "now just understand what we need we need Java virtual machine to run this and once the Java"
+  },
+  {
+    "start": 230.43,
+    "duration": 4.56,
+    "text": "virtual machine runs this code it will be converted into machine code that my computer"
+  },
+  {
+    "start": 234.99,
+    "duration": 1.0,
+    "text": "can understand."
+  },
+  {
+    "start": 235.99,
+    "duration": 6.62,
+    "text": "I will repeat it again our source code file that code that we have written compile it"
+  },
+  {
+    "start": 242.61,
+    "duration": 4.22,
+    "text": "using the compiler so compiler there are two ways to do this like compiler compiles"
+  },
+  {
+    "start": 246.83,
+    "duration": 4.88,
+    "text": "the entire file in C++ you might see that the compiler will compile the entire file"
+  },
+  {
+    "start": 251.71,
+    "duration": 5.16,
+    "text": "okay interpreter will compile the file line by line so in python you know that you can"
+  },
+  {
+    "start": 256.87,
+    "duration": 6.4,
+    "text": "execute code line by line python is an interpreted language you can execute code line by line"
+  },
+  {
+    "start": 263.27,
+    "duration": 3.96,
+    "text": "here what is happening is something you can imagine that is that a different language"
+  },
+  {
+    "start": 267.23,
+    "duration": 5.28,
+    "text": "is being formed in the form of bytecode in the middle stage and that is interpreted"
+  },
+  {
+    "start": 272.51,
+    "duration": 5.56,
+    "text": "line by line using something called jvm java virtual machine which we look into later"
+  },
+  {
+    "start": 278.07,
+    "duration": 6.2,
+    "text": "they're on. And that is how it's converted to machine code. In CC++, this middle part"
+  },
+  {
+    "start": 284.27,
+    "duration": 6.52,
+    "text": "is skipped. Directly by compiler, it's converted into an executable machine code. This is the"
+  },
+  {
+    "start": 290.79,
+    "duration": 6.6,
+    "text": "reason Java is platform independent. Now, there are a lot of things. What is a compiler?"
+  },
+  {
+    "start": 297.39,
+    "duration": 4.76,
+    "text": "What is interpreter? What is this compiler doing? What is actually the compiler in Java?"
+  },
+  {
+    "start": 302.15,
+    "duration": 3.8,
+    "text": "What is an interpreter in Java? What is byte code in Java? What do you mean by"
+  },
+  {
+    "start": 305.95,
+    "duration": 5.16,
+    "text": "platform independence? How is it different than cc++? So many questions. Let's answer"
+  },
+  {
+    "start": 311.11,
+    "duration": 5.2,
+    "text": "every question one by one. First, let's answer about platform independence. What it"
+  },
+  {
+    "start": 316.31,
+    "duration": 4.48,
+    "text": "actually means? How it does platform independence? We will answer shortly. First,"
+  },
+  {
+    "start": 320.79,
+    "duration": 5.08,
+    "text": "focus on how it's doing it. So how is Java doing platform independence? And what"
+  },
+  {
+    "start": 325.87,
+    "duration": 4.68,
+    "text": "does it mean by platform independence? Platform independence means that very"
+  },
+  {
+    "start": 330.55,
+    "duration": 5.96,
+    "text": "important point that the byte code can run on all operating systems. For example, I have"
+  },
+  {
+    "start": 336.51,
+    "duration": 5.4,
+    "text": "written a Java code. I compile that Java code. It will give me a Java like the class"
+  },
+  {
+    "start": 341.91,
+    "duration": 6.16,
+    "text": "file, the byte code, this byte code that I have compiled on my Mac, Mac, Mac book,"
+  },
+  {
+    "start": 348.07,
+    "duration": 4.84,
+    "text": "it can run on your Linux system. It can run on your window system, any, anything you"
+  },
+  {
+    "start": 352.91,
+    "duration": 5.92,
+    "text": "like. That is what is meant by platform independence. The byte code can run on"
+  },
+  {
+    "start": 358.83,
+    "duration": 5.12,
+    "text": "any operating system any byte code that is being formed on any other system can run on any other"
+  },
+  {
+    "start": 363.95,
+    "duration": 6.56,
+    "text": "system platform independence we need to convert the source code to machine code so computer can"
+  },
+  {
+    "start": 370.51,
+    "duration": 6.32,
+    "text": "understand we know that compilers help us in doing this by turning it into an executable code"
+  },
+  {
+    "start": 376.83,
+    "duration": 6.56,
+    "text": "what is executable code code that you can run okay that will give you some output for example"
+  },
+  {
+    "start": 383.39,
+    "duration": 6.4,
+    "text": "When you compile a C or C++ code, you get a .exe file which is platform dependent."
+  },
+  {
+    "start": 390.43,
+    "duration": 7.12,
+    "text": "So if I create a C C++ file, I compile it, I get the executable that is machine executable like"
+  },
+  {
+    "start": 397.55,
+    "duration": 5.28,
+    "text": "executable file after compilation that is machine code that if I run that executable file, I will"
+  },
+  {
+    "start": 402.83,
+    "duration": 4.0,
+    "text": "be able to run that program. I will be able to input in it, output in it. If it's a game,"
+  },
+  {
+    "start": 406.83,
+    "duration": 5.36,
+    "text": "I would be able to play it or whatever. This is platform dependent. If I have compiled"
+  },
+  {
+    "start": 412.19,
+    "duration": 5.2,
+    "text": "this cc++ code on my macbook it will not run on your windows machine you have to compile"
+  },
+  {
+    "start": 417.39,
+    "duration": 4.48,
+    "text": "it again on your windows machine you have to compile the source code again compilation"
+  },
+  {
+    "start": 421.87,
+    "duration": 5.36,
+    "text": "is what converting source code to machine code that's compilation in Java it's not"
+  },
+  {
+    "start": 427.23,
+    "duration": 4.68,
+    "text": "converting into machine code there's an intermediate some different language known as bytecode"
+  },
+  {
+    "start": 431.91,
+    "duration": 5.84,
+    "text": "Java's own language it's converting into that that is the reason Java is platform"
+  },
+  {
+    "start": 437.75,
+    "duration": 5.8,
+    "text": "independent. Since it's not directly converting it into machine code like zeros and ones, it's"
+  },
+  {
+    "start": 443.55,
+    "duration": 7.27,
+    "text": "converting into something called bytecode. This bytecode can run on any machine. Okay."
+  },
+  {
+    "start": 450.82,
+    "duration": 4.76,
+    "text": "And why is it not platform independent? Platform depend, why is it not platform dependent?"
+  },
+  {
+    "start": 455.58,
+    "duration": 5.64,
+    "text": "Because in CC++ the .exe file that we get, this is nothing the executable code is nothing"
+  },
+  {
+    "start": 461.22,
+    "duration": 5.04,
+    "text": "but a set of instructions for the computer. And this depends on the architecture of"
+  },
+  {
+    "start": 466.26,
+    "duration": 5.12,
+    "text": "computer if you look at the CPU registers and all these things you know internal compiler design"
+  },
+  {
+    "start": 471.38,
+    "duration": 4.48,
+    "text": "you might have that course in your BTEC it has a set of instructions which are dependent on the"
+  },
+  {
+    "start": 475.86,
+    "duration": 6.32,
+    "text": "platform but bytecode says that hey I am not machine code as such I am the intermediate code"
+  },
+  {
+    "start": 482.18,
+    "duration": 3.84,
+    "text": "you can run me on any machine does not matter from where I originate."
+  },
+  {
+    "start": 487.14,
+    "duration": 4.24,
+    "text": "Now the next question is how do we convert this bytecode into machine code and run this"
+  },
+  {
+    "start": 491.38,
+    "duration": 7.28,
+    "text": "this program using JVM. So in Java, we get the byte code and JVM, the Java virtual machine"
+  },
+  {
+    "start": 498.66,
+    "duration": 4.52,
+    "text": "which is let's say some other program, let's say just a program someone has written, okay,"
+  },
+  {
+    "start": 503.18,
+    "duration": 5.28,
+    "text": "that converts it into a machine code. Now this machine code will run on that system"
+  },
+  {
+    "start": 508.46,
+    "duration": 4.64,
+    "text": "then. So I will compile my Java program that Java byte code that I will have, I"
+  },
+  {
+    "start": 513.1,
+    "duration": 3.32,
+    "text": "will share this with everyone. If you want to run it on Linux, you can run on Linux."
+  },
+  {
+    "start": 516.42,
+    "duration": 3.0,
+    "text": "You want to run it on Mac, you run on Mac, you want to run the same byte code"
+  },
+  {
+    "start": 519.42,
+    "duration": 5.92,
+    "text": "on Windows, run on Windows, all you need in your system is Java Virtual Machine."
+  },
+  {
+    "start": 525.34,
+    "duration": 6.44,
+    "text": "Now Java is platform independent, but Java Virtual Machine is platform dependent."
+  },
+  {
+    "start": 531.78,
+    "duration": 6.44,
+    "text": "Obviously, every platform be that Windows, Linux or Linux distros like Ubuntu or whatever"
+  },
+  {
+    "start": 538.22,
+    "duration": 6.48,
+    "text": "or macOS, every Java Virtual Machine for these operating systems may have its own set"
+  },
+  {
+    "start": 544.7,
+    "duration": 3.84,
+    "text": "of instructions to convert bytecode to machine code."
+  },
+  {
+    "start": 548.54,
+    "duration": 4.62,
+    "text": "It is the problem of operating system, the JVM is platform dependent."
+  },
+  {
+    "start": 553.16,
+    "duration": 4.16,
+    "text": "If you are using windows, you will download the windows JVM or all the other, you know"
+  },
+  {
+    "start": 557.32,
+    "duration": 5.08,
+    "text": "files and stuff, I will download for the Mac, others will download for Linux, but the byte"
+  },
+  {
+    "start": 562.4,
+    "duration": 3.64,
+    "text": "code that it's converting that can run on anywhere."
+  },
+  {
+    "start": 566.04,
+    "duration": 4.84,
+    "text": "I hope that makes sense, byte code is platform independent, but the JVM that is required"
+  },
+  {
+    "start": 570.88,
+    "duration": 6.24,
+    "text": "to run that byte code that is dependent on the platform."
+  },
+  {
+    "start": 577.12,
+    "duration": 3.04,
+    "text": "Let's look into the architecture of Java."
+  },
+  {
+    "start": 580.16,
+    "duration": 6.78,
+    "text": "a few things JDK Java development kit, JRE Java runtime environment, Java virtual machine"
+  },
+  {
+    "start": 586.94,
+    "duration": 5.08,
+    "text": "and just-in-time compiler. What is Java development kit? Java development"
+  },
+  {
+    "start": 592.02,
+    "duration": 6.96,
+    "text": "kit consists of Java runtime environment plus some development tools. Java runtime"
+  },
+  {
+    "start": 598.98,
+    "duration": 6.12,
+    "text": "environment is also inside JDK, the Java development kit. It consists of the Java virtual machine"
+  },
+  {
+    "start": 605.1,
+    "duration": 5.04,
+    "text": "and library classes java virtual machine it's used to execute the code line by line will"
+  },
+  {
+    "start": 610.14,
+    "duration": 5.92,
+    "text": "also look into what consists into will go into detail of every every single one of this do not"
+  },
+  {
+    "start": 616.06,
+    "duration": 5.2,
+    "text": "worry just for now understand how these things are structured what each and everything is doing"
+  },
+  {
+    "start": 621.26,
+    "duration": 5.36,
+    "text": "i will come on to that next each and every detail point don't worry java virtual machines contains"
+  },
+  {
+    "start": 626.62,
+    "duration": 4.64,
+    "text": "just in time compiler what this is doing how it's doing it next section let's go into the next"
+  },
+  {
+    "start": 631.26,
+    "duration": 3.88,
+    "text": "section now, which is explaining each and every single of these points."
+  },
+  {
+    "start": 635.14,
+    "duration": 3.2,
+    "text": "Let's start with JDK, Java development kit."
+  },
+  {
+    "start": 638.34,
+    "duration": 1.0,
+    "text": "What is it?"
+  },
+  {
+    "start": 639.34,
+    "duration": 5.44,
+    "text": "So Java development kit, it's basically a package, okay, a set of files that you can"
+  },
+  {
+    "start": 644.78,
+    "duration": 1.9,
+    "text": "download from the internet."
+  },
+  {
+    "start": 646.68,
+    "duration": 5.5,
+    "text": "It provides an environment to develop and run the Java program."
+  },
+  {
+    "start": 652.18,
+    "duration": 2.44,
+    "text": "So it consists of things like development tools."
+  },
+  {
+    "start": 654.62,
+    "duration": 2.6,
+    "text": "It provides you an environment to develop your program."
+  },
+  {
+    "start": 657.22,
+    "duration": 3.96,
+    "text": "If you want to write some Java program, if you want to create an application,"
+  },
+  {
+    "start": 661.18,
+    "duration": 1.96,
+    "text": "You need JDK for that."
+  },
+  {
+    "start": 663.14,
+    "duration": 3.52,
+    "text": "It contains all those libraries and all these things."
+  },
+  {
+    "start": 666.66,
+    "duration": 2.04,
+    "text": "It also consists of Java runtime environment."
+  },
+  {
+    "start": 668.7,
+    "duration": 2.68,
+    "text": "We saw that previously, Java runtime environment."
+  },
+  {
+    "start": 671.38,
+    "duration": 2.52,
+    "text": "This box contains inside JDK."
+  },
+  {
+    "start": 673.9,
+    "duration": 3.44,
+    "text": "We'll look more into what is Java runtime environment."
+  },
+  {
+    "start": 677.34,
+    "duration": 4.16,
+    "text": "Java runtime environment in short is used to execute your program."
+  },
+  {
+    "start": 681.5,
+    "duration": 2.96,
+    "text": "JDK also contains a compiler."
+  },
+  {
+    "start": 684.46,
+    "duration": 1.32,
+    "text": "So this is the thing."
+  },
+  {
+    "start": 685.78,
+    "duration": 3.68,
+    "text": "This compiler thing you were talking about earlier, our Java code is converted into"
+  },
+  {
+    "start": 689.46,
+    "duration": 1.0,
+    "text": "byte code."
+  },
+  {
+    "start": 690.46,
+    "duration": 3.64,
+    "text": "What is this compiler this compiler is known as Java C"
+  },
+  {
+    "start": 695.02,
+    "duration": 1.44,
+    "text": "We'll look more into later on"
+  },
+  {
+    "start": 696.46,
+    "duration": 6.08,
+    "text": "I'll actually execute Java C in front of you in the terminal every single step will also do hands-on do not worry"
+  },
+  {
+    "start": 702.9,
+    "duration": 5.52,
+    "text": "For now, you just know this is a compiler that will convert my dot Java file to dot class file in the bytecode"
+  },
+  {
+    "start": 709.42,
+    "duration": 4.4,
+    "text": "Archiver if you want to archive your files, okay, if you want to generate docs Java doc is available"
+  },
+  {
+    "start": 714.46,
+    "duration": 4.96,
+    "text": "Interpreter and loader is also available. What are these two things? What do these things do? We'll look into later on"
+  },
+  {
+    "start": 719.42,
+    "duration": 5.62,
+    "text": "So, in short, if you want to develop Java programs, JDK is required, you can download"
+  },
+  {
+    "start": 725.04,
+    "duration": 5.28,
+    "text": "it from the internet from oracle or whatever, you can download JDK, version 13, 8 or 16 or"
+  },
+  {
+    "start": 730.32,
+    "duration": 1.0,
+    "text": "whatever."
+  },
+  {
+    "start": 731.32,
+    "duration": 4.6,
+    "text": "Let's look into JRE, what is Java runtime environment, which is inside JDK."
+  },
+  {
+    "start": 735.92,
+    "duration": 5.08,
+    "text": "So, this is basically an installation package, again a set of files and stuff, that provides"
+  },
+  {
+    "start": 741.0,
+    "duration": 2.8,
+    "text": "an environment to only run the program."
+  },
+  {
+    "start": 743.8,
+    "duration": 4.32,
+    "text": "You cannot create Java program from this, you can only run your program on this."
+  },
+  {
+    "start": 748.12,
+    "duration": 6.76,
+    "text": "It consists of deployment technologies, some user interface toolkits, some integration libraries,"
+  },
+  {
+    "start": 754.88,
+    "duration": 5.6,
+    "text": "some other base libraries, and it consists of the Java virtual machine."
+  },
+  {
+    "start": 760.48,
+    "duration": 2.88,
+    "text": "So how is it doing, what are all these things that it is doing?"
+  },
+  {
+    "start": 763.36,
+    "duration": 3.4,
+    "text": "Again, we will go internally on this, there is an entire flowchart that I will share"
+  },
+  {
+    "start": 766.76,
+    "duration": 1.0,
+    "text": "with you shortly."
+  },
+  {
+    "start": 767.76,
+    "duration": 3.2,
+    "text": "Do not worry about how this thing is working, just focus on what it is doing."
+  },
+  {
+    "start": 770.96,
+    "duration": 3.24,
+    "text": "Don't worry about how it is doing it because we have a nice flowchart coming"
+  },
+  {
+    "start": 774.2,
+    "duration": 1.0,
+    "text": "in short."
+  },
+  {
+    "start": 775.2,
+    "duration": 6.3,
+    "text": "So, after we get the .class file, the byte code, the next thing that happens at runtime"
+  },
+  {
+    "start": 781.5,
+    "duration": 5.88,
+    "text": "is class loader loads all the classes that are needed to execute the program, basically"
+  },
+  {
+    "start": 787.38,
+    "duration": 4.08,
+    "text": "all the files that are needed to execute the program, it will load that in the memory."
+  },
+  {
+    "start": 791.46,
+    "duration": 5.92,
+    "text": "JVM will send, Java virtual machine will send the code, the .class file to the"
+  },
+  {
+    "start": 797.38,
+    "duration": 4.24,
+    "text": "byte code verifier to check the format of the code."
+  },
+  {
+    "start": 801.62,
+    "duration": 5.12,
+    "text": "If there are any errors or like any illegal practices like application of pointers, by"
+  },
+  {
+    "start": 806.74,
+    "duration": 2.44,
+    "text": "the way, Java does not have pointers."
+  },
+  {
+    "start": 809.18,
+    "duration": 4.24,
+    "text": "So all of these things, bytecode verifier checks, I know there are a lot of questions"
+  },
+  {
+    "start": 813.42,
+    "duration": 5.16,
+    "text": "over here with you now, what is linker loader, what is interpreter, what is, you know,"
+  },
+  {
+    "start": 818.58,
+    "duration": 5.28,
+    "text": "this bytecode verifier, what is the runtime thing, what is happening at compile time,"
+  },
+  {
+    "start": 823.86,
+    "duration": 3.72,
+    "text": "what is happening at runtime, I need to know all these things, let's look into"
+  },
+  {
+    "start": 827.58,
+    "duration": 6.6,
+    "text": "that, tada, entire explanation."
+  },
+  {
+    "start": 834.18,
+    "duration": 5.6,
+    "text": "Let us look into it, compile time, your .java file, javaset which is the compiler, it will"
+  },
+  {
+    "start": 839.78,
+    "duration": 3.16,
+    "text": "compile the file into a bytecode."
+  },
+  {
+    "start": 842.94,
+    "duration": 5.88,
+    "text": "This thing happens at runtime now, so at runtime you can see there is a class loader, it consists"
+  },
+  {
+    "start": 848.82,
+    "duration": 6.16,
+    "text": "of three steps, it is actually how JVM works, this thing happens in the JVM stuff."
+  },
+  {
+    "start": 854.98,
+    "duration": 5.28,
+    "text": "So loading it will read the .class file, this .class file it will read and it will generate"
+  },
+  {
+    "start": 860.26,
+    "duration": 6.36,
+    "text": "a binary data of it, of an object of this class and this object is created in the heap"
+  },
+  {
+    "start": 866.62,
+    "duration": 5.96,
+    "text": "memory because I mentioned it earlier, objects of classes are created in heap."
+  },
+  {
+    "start": 872.58,
+    "duration": 3.88,
+    "text": "So this binary data is nothing but an object of a class, it's like a running instance"
+  },
+  {
+    "start": 876.46,
+    "duration": 5.2,
+    "text": "of the class, it basically consists of all the data and all the files and everything."
+  },
+  {
+    "start": 881.66,
+    "duration": 4.44,
+    "text": "you are writing some file. Let's say your file requires some other file. So all these"
+  },
+  {
+    "start": 886.1,
+    "duration": 5.52,
+    "text": "things will be loaded in the memory in simple terms. Next thing happens is called linking."
+  },
+  {
+    "start": 891.62,
+    "duration": 4.52,
+    "text": "So it will verify linking happens in three steps first of verification. So JVM the"
+  },
+  {
+    "start": 896.14,
+    "duration": 4.88,
+    "text": "Java virtual machine, it will verify like, hey, the dot class file that you have, does"
+  },
+  {
+    "start": 901.02,
+    "duration": 5.0,
+    "text": "it contain any errors or any illegal practices will verify that after that it will allocate"
+  },
+  {
+    "start": 906.02,
+    "duration": 4.04,
+    "text": "the memory for the class variables and some default values because objects need"
+  },
+  {
+    "start": 910.06,
+    "duration": 4.64,
+    "text": "memories I have an integer that me that might be of size you know four bytes or"
+  },
+  {
+    "start": 914.7,
+    "duration": 4.32,
+    "text": "something string might be of some size array might be of some size you know in"
+  },
+  {
+    "start": 919.02,
+    "duration": 4.76,
+    "text": "the end it's just bits one byte is eight bits each bit can contain one or zero"
+  },
+  {
+    "start": 923.78,
+    "duration": 5.12,
+    "text": "we'll go into details of this later on but very simple terms megabytes"
+  },
+  {
+    "start": 928.9,
+    "duration": 5.04,
+    "text": "gigabytes terabytes what are these spaces your file if you have a photo it"
+  },
+  {
+    "start": 933.94,
+    "duration": 3.92,
+    "text": "might take like four megabytes four MB photo song might take three MB of"
+  },
+  {
+    "start": 937.86,
+    "duration": 6.56,
+    "text": "photo. So this space that is allocated, this is done at this step for the variables. Okay,"
+  },
+  {
+    "start": 944.42,
+    "duration": 4.32,
+    "text": "if I'm saying a is equal to 10, this might contain some might take some space in my memory"
+  },
+  {
+    "start": 948.74,
+    "duration": 4.48,
+    "text": "in my RAM or whatever, this is what happens over here. This is what I'm explaining about"
+  },
+  {
+    "start": 953.22,
+    "duration": 6.0,
+    "text": "what linking is. Last step of linking is replacing the symbolic references from the"
+  },
+  {
+    "start": 959.22,
+    "duration": 4.08,
+    "text": "type with the direct references. So might have like different reference variables and"
+  },
+  {
+    "start": 963.3,
+    "duration": 6.0,
+    "text": "all these things which we discussed previously, it replaces those with the actual values, which"
+  },
+  {
+    "start": 969.3,
+    "duration": 4.36,
+    "text": "we will look more into this when we look into functions. Okay, for example, if a is equal"
+  },
+  {
+    "start": 973.66,
+    "duration": 5.92,
+    "text": "to 10, then even though in our source code, it may say a, it may say sum is equal to"
+  },
+  {
+    "start": 979.58,
+    "duration": 6.08,
+    "text": "a plus b. Actually, that needs to be replaced with the actual values of a plus b, right?"
+  },
+  {
+    "start": 985.66,
+    "duration": 4.1,
+    "text": "If I'm saying sum is equal to a plus b, what is a plus b? Internally, it might be something"
+  },
+  {
+    "start": 989.76,
+    "duration": 4.64,
+    "text": "I might have assigned a to 20 b to 30. So this replacing of actual values is also being"
+  },
+  {
+    "start": 994.4,
+    "duration": 6.92,
+    "text": "done over here. Okay, that's very simple stuff to not not stress much about this. In the class"
+  },
+  {
+    "start": 1001.32,
+    "duration": 3.08,
+    "text": "loader stuff, the next thing like, you know, the next thing that we're happening, we"
+  },
+  {
+    "start": 1004.4,
+    "duration": 4.4,
+    "text": "talked about bytecode verifying talked about like interpretation, which is the initialization"
+  },
+  {
+    "start": 1008.8,
+    "duration": 4.32,
+    "text": "part. So all the static variables are assigned with their values defined in the"
+  },
+  {
+    "start": 1013.12,
+    "duration": 4.76,
+    "text": "code and in the static block, if there is any static block, static is basically"
+  },
+  {
+    "start": 1017.88,
+    "duration": 4.86,
+    "text": "something that does static variables do not depend on the object of the classes. Ignore"
+  },
+  {
+    "start": 1022.74,
+    "duration": 5.06,
+    "text": "this right now. It is not able to, I'm not able to understand, I'm not able to explain"
+  },
+  {
+    "start": 1027.8,
+    "duration": 4.3,
+    "text": "much about this because we haven't talked about object 20 programming right now. Static"
+  },
+  {
+    "start": 1032.1,
+    "duration": 3.8,
+    "text": "will be covered in detail in object 20 programming. For now, if you want to understand what"
+  },
+  {
+    "start": 1035.9,
+    "duration": 5.72,
+    "text": "is static, static variables are variables that do not depend on the object of the classes."
+  },
+  {
+    "start": 1041.62,
+    "duration": 9.0,
+    "text": "independent. For example, human class, we all are object of human class. What is a property"
+  },
+  {
+    "start": 1050.62,
+    "duration": 8.28,
+    "text": "that we all inherit that is not dependent on our individual self? Population of India,"
+  },
+  {
+    "start": 1058.9,
+    "duration": 5.6,
+    "text": "for example. So, if for all the people living in India, if I am saying for me the population"
+  },
+  {
+    "start": 1064.5,
+    "duration": 6.36,
+    "text": "of India is 1 billion something, then someone else living in India or them is the population"
+  },
+  {
+    "start": 1070.86,
+    "duration": 4.44,
+    "text": "of India going to be the same or different, let us talk about the population of the world."
+  },
+  {
+    "start": 1075.3,
+    "duration": 6.24,
+    "text": "For me, population of world is 7 billion something, for you who are watching is the population of"
+  },
+  {
+    "start": 1081.54,
+    "duration": 6.56,
+    "text": "earth different, even though we all are humans, objects of the human class, there is one"
+  },
+  {
+    "start": 1088.1,
+    "duration": 7.98,
+    "text": "property that is similar, same for every object, the population of all the objects."
+  },
+  {
+    "start": 1096.08,
+    "duration": 4.2,
+    "text": "This population variable is not dependent on the object."
+  },
+  {
+    "start": 1100.28,
+    "duration": 3.12,
+    "text": "It is not different for every object."
+  },
+  {
+    "start": 1103.4,
+    "duration": 2.5,
+    "text": "Population of Earth is same for every human being."
+  },
+  {
+    "start": 1105.9,
+    "duration": 2.5,
+    "text": "This is static variable example."
+  },
+  {
+    "start": 1108.4,
+    "duration": 1.88,
+    "text": "Look more into later on."
+  },
+  {
+    "start": 1110.28,
+    "duration": 4.32,
+    "text": "JVM also contains the stack and heap memory allocations that we talked about."
+  },
+  {
+    "start": 1114.6,
+    "duration": 3.16,
+    "text": "It's again some internal implementation by which it's utilizing the stack and heap"
+  },
+  {
+    "start": 1117.76,
+    "duration": 1.0,
+    "text": "memory."
+  },
+  {
+    "start": 1118.76,
+    "duration": 2.76,
+    "text": "Heap memory where we have our objects, stack memory where we have our function"
+  },
+  {
+    "start": 1121.52,
+    "duration": 3.68,
+    "text": "calls and reference variables and all these things."
+  },
+  {
+    "start": 1125.2,
+    "duration": 6.32,
+    "text": "memory, it's created when every function program is run. Whenever a new program is run, stack"
+  },
+  {
+    "start": 1131.52,
+    "duration": 3.92,
+    "text": "memory is being created. We'll look more into this later on in this section only. And in"
+  },
+  {
+    "start": 1135.44,
+    "duration": 5.32,
+    "text": "the next section, when we will be actually writing some Java code in the next video."
+  },
+  {
+    "start": 1140.76,
+    "duration": 3.84,
+    "text": "Compile time like this, then dot class file is given at runtime class loader bytecode"
+  },
+  {
+    "start": 1144.6,
+    "duration": 5.0,
+    "text": "verifier interpreter that runtime and then our hardware. JVM execution, we know that"
+  },
+  {
+    "start": 1149.6,
+    "duration": 4.44,
+    "text": "interpreter line by line execution. So JVM is actually interpreting line by line execution."
+  },
+  {
+    "start": 1154.04,
+    "duration": 7.0,
+    "text": "byte code is executed line by line this dot class file executed line by line and one thing"
+  },
+  {
+    "start": 1161.04,
+    "duration": 5.12,
+    "text": "that is limitation over here is that if you have created a function called hello world"
+  },
+  {
+    "start": 1166.16,
+    "duration": 4.88,
+    "text": "it just prints hello world okay and that function is being used many many times function"
+  },
+  {
+    "start": 1171.04,
+    "duration": 4.68,
+    "text": "is just a name group of like a block of code let's say that block of code is being"
+  },
+  {
+    "start": 1175.72,
+    "duration": 6.0,
+    "text": "used many many times then it will interpret that particular code line by line again"
+  },
+  {
+    "start": 1181.72,
+    "duration": 4.56,
+    "text": "and again. Let's say there's a function or a body of a code in simple language that"
+  },
+  {
+    "start": 1186.28,
+    "duration": 4.84,
+    "text": "is being used again and again. Same code is being used again and again. So what is what"
+  },
+  {
+    "start": 1191.12,
+    "duration": 3.68,
+    "text": "do I mean by line by line execution? It means this byte code is being converted to"
+  },
+  {
+    "start": 1194.8,
+    "duration": 5.2,
+    "text": "machine code line by line. So when this block of code is being used in the program"
+  },
+  {
+    "start": 1200.0,
+    "duration": 4.52,
+    "text": "again and again, it will again go this interpretation step, it will again be converted"
+  },
+  {
+    "start": 1204.52,
+    "duration": 4.44,
+    "text": "to machine code again, machine code again, many, many times. So we are repeating"
+  },
+  {
+    "start": 1208.96,
+    "duration": 5.68,
+    "text": "these things. It's not very efficient. To solve this problem, we have just in time compiler."
+  },
+  {
+    "start": 1214.64,
+    "duration": 6.32,
+    "text": "So those methods or functions or blocks of codes that are repeated, it's saying don't"
+  },
+  {
+    "start": 1220.96,
+    "duration": 4.52,
+    "text": "convert it into machine code again and again. Interpreter, don't convert it into machine"
+  },
+  {
+    "start": 1225.48,
+    "duration": 5.0,
+    "text": "code again and again. Just take the, just directly take the machine code from me so"
+  },
+  {
+    "start": 1230.48,
+    "duration": 7.42,
+    "text": "that you don't have to redo the interpretation part. It makes the code a bit faster."
+  },
+  {
+    "start": 1237.9,
+    "duration": 4.4,
+    "text": "I hope you're able to understand very simple stuff if a code is used again and again it"
+  },
+  {
+    "start": 1242.3,
+    "duration": 3.68,
+    "text": "will go under the process of interpretation like converting to machine code line by line"
+  },
+  {
+    "start": 1245.98,
+    "duration": 6.28,
+    "text": "again and again just in time compiler which rests inside the JVM over here it says hey"
+  },
+  {
+    "start": 1252.26,
+    "duration": 4.4,
+    "text": "if this code is being used again and again why are you converting it into machine code"
+  },
+  {
+    "start": 1256.66,
+    "duration": 4.0,
+    "text": "again and again once you have already converted into machine code just take the machine"
+  },
+  {
+    "start": 1260.66,
+    "duration": 3.16,
+    "text": "code from me because I know it's being used again and again can just take it"
+  },
+  {
+    "start": 1263.82,
+    "duration": 5.32,
+    "text": "from me. No need to interpret it again and again line by line. That makes it a bit execution"
+  },
+  {
+    "start": 1269.14,
+    "duration": 5.58,
+    "text": "a bit faster. And garbage collection you already we already know what garbage collection is."
+  },
+  {
+    "start": 1274.72,
+    "duration": 3.92,
+    "text": "If you don't know what's the previous videos, you can check out the playlist entire playlist"
+  },
+  {
+    "start": 1278.64,
+    "duration": 3.52,
+    "text": "in the description below of the complete DSA and Java bootcamp. We talked in detail"
+  },
+  {
+    "start": 1282.16,
+    "duration": 4.22,
+    "text": "about garbage collection and memory management. That is also happens in this step of"
+  },
+  {
+    "start": 1286.38,
+    "duration": 4.62,
+    "text": "JVM. That is pretty much about it. I hope you were able to understand. Let's"
+  },
+  {
+    "start": 1291.0,
+    "duration": 5.2,
+    "text": "see how this entire thing, you know, works collectively, you have the Java source code,"
+  },
+  {
+    "start": 1296.2,
+    "duration": 5.12,
+    "text": "the code you write goes into the JDK, and JDK then compiles it, there's a Java C over"
+  },
+  {
+    "start": 1301.32,
+    "duration": 5.96,
+    "text": "here Java C compiler compiles into a dot class file of bytecode runs into JVM, JVM converts"
+  },
+  {
+    "start": 1307.28,
+    "duration": 4.48,
+    "text": "it into like executable code, that is like done with the then then we actually run"
+  },
+  {
+    "start": 1311.76,
+    "duration": 4.36,
+    "text": "it with like the Java runtime environment. And then we get the display of whatever"
+  },
+  {
+    "start": 1316.12,
+    "duration": 4.8,
+    "text": "like hello world output input output program is running game we are playing application"
+  },
+  {
+    "start": 1320.92,
+    "duration": 4.68,
+    "text": "we are using whatever that's the executable that we are getting we can run that executable"
+  },
+  {
+    "start": 1325.6,
+    "duration": 4.36,
+    "text": "of anywhere you can execute it might be an application you installed on your phone that's"
+  },
+  {
+    "start": 1329.96,
+    "duration": 4.48,
+    "text": "an executable all the compilation everything everything is done now the executable we have"
+  },
+  {
+    "start": 1334.44,
+    "duration": 5.36,
+    "text": "we use that application much about it jre don't be confused with it it's actually"
+  },
+  {
+    "start": 1339.8,
+    "duration": 3.68,
+    "text": "you know all the things mentioned over here installation is only required to run the"
+  },
+  {
+    "start": 1343.48,
+    "duration": 4.4,
+    "text": "program actually all the jvm stuff and everything it's a part of jre as well all"
+  },
+  {
+    "start": 1347.88,
+    "duration": 5.92,
+    "text": "of these things we talked about you know happening inside JVM which is inside JRE and class loader"
+  },
+  {
+    "start": 1353.8,
+    "duration": 4.6,
+    "text": "and all the class needs to execute the program all these things happening like you know with"
+  },
+  {
+    "start": 1358.4,
+    "duration": 5.16,
+    "text": "the help of JRE and JVM so don't worry much about like all these things this is just you"
+  },
+  {
+    "start": 1363.56,
+    "duration": 4.28,
+    "text": "know in detail as detail as I can provide and I think this should be more than enough"
+  },
+  {
+    "start": 1367.84,
+    "duration": 4.52,
+    "text": "for you to understand how things are working internally and you know like JRE it contains"
+  },
+  {
+    "start": 1372.36,
+    "duration": 3.92,
+    "text": "all the deployment technologies all these you know loading and everything JRE helps"
+  },
+  {
+    "start": 1376.28,
+    "duration": 5.76,
+    "text": "in doing this it contains all these you know saying load the libraries load the class files"
+  },
+  {
+    "start": 1382.04,
+    "duration": 7.17,
+    "text": "do that via jre over here okay what is the use of jvm you might be confused between jre and jvm"
+  },
+  {
+    "start": 1389.21,
+    "duration": 5.52,
+    "text": "so jvm is basically just executing executing the code line by line okay so in simple terms"
+  },
+  {
+    "start": 1394.73,
+    "duration": 4.88,
+    "text": "if you want to again like learn more about like you know if i explain it much more clearly"
+  },
+  {
+    "start": 1399.61,
+    "duration": 6.64,
+    "text": "jre versus jvm so jre is more like a box you can see and jvm is the actual content inside"
+  },
+  {
+    "start": 1406.25,
+    "duration": 6.62,
+    "text": "the box. Whatever work JVM is doing, it's doing it with the help of JRE. Whatever libraries"
+  },
+  {
+    "start": 1412.87,
+    "duration": 6.38,
+    "text": "and files and everything that JVM needs, JRE will provide it. JRE contains all these libraries"
+  },
+  {
+    "start": 1419.25,
+    "duration": 5.84,
+    "text": "and all these things. So JRE is just a box and inside the actual work that is being"
+  },
+  {
+    "start": 1425.09,
+    "duration": 6.0,
+    "text": "done, it's being done by JVM and JRE also contains some extra files that JVM uses"
+  },
+  {
+    "start": 1431.09,
+    "duration": 5.76,
+    "text": "in order to do the work, okay, that is the reason of this thing over here, like Java"
+  },
+  {
+    "start": 1436.85,
+    "duration": 5.8,
+    "text": "source code converts, you know, we give it to JDK, JDK contains the compiler, because"
+  },
+  {
+    "start": 1442.65,
+    "duration": 4.72,
+    "text": "JVM and JRE kind of contain the compiler because it is only used to run the program compiler"
+  },
+  {
+    "start": 1447.37,
+    "duration": 6.28,
+    "text": "is only in JDK, we compile this for bytecode, and then JVM does all the work, it's"
+  },
+  {
+    "start": 1453.65,
+    "duration": 1.0,
+    "text": "inside JRE."
+  },
+  {
+    "start": 1454.65,
+    "duration": 4.84,
+    "text": "So in short, like you can say the content of JRE, which is the JVM that is doing"
+  },
+  {
+    "start": 1459.49,
+    "duration": 6.52,
+    "text": "all the work, whenever JVM needs any help, it asks the JRE like, hey, J, hey, JRE, I need"
+  },
+  {
+    "start": 1466.01,
+    "duration": 3.0,
+    "text": "this particular file or library or whatever, please give it to me."
+  },
+  {
+    "start": 1469.01,
+    "duration": 1.48,
+    "text": "JRE will be like, okay, cool."
+  },
+  {
+    "start": 1470.49,
+    "duration": 4.12,
+    "text": "So JRE is nothing but JVM plus some extra files."
+  },
+  {
+    "start": 1474.61,
+    "duration": 2.16,
+    "text": "I hope you were able to understand that."
+  },
+  {
+    "start": 1476.77,
+    "duration": 2.24,
+    "text": "So this is how the main thing is working."
+  },
+  {
+    "start": 1479.01,
+    "duration": 4.8,
+    "text": "And over here somewhere lies the hardware, you can say somewhere over here lies the"
+  },
+  {
+    "start": 1483.81,
+    "duration": 2.84,
+    "text": "part."
+  },
+  {
+    "start": 1486.65,
+    "duration": 5.0,
+    "text": "Now let's jump right into what all tools that we need in order to start the programming"
+  },
+  {
+    "start": 1491.65,
+    "duration": 1.6,
+    "text": "journey on Java."
+  },
+  {
+    "start": 1493.25,
+    "duration": 4.48,
+    "text": "First thing in the, as we mentioned in this video, we need the JDK because we'll be developing"
+  },
+  {
+    "start": 1497.73,
+    "duration": 1.04,
+    "text": "programs."
+  },
+  {
+    "start": 1498.77,
+    "duration": 3.96,
+    "text": "This is the link that you can go to Oracle Java technologies and the link is also in"
+  },
+  {
+    "start": 1502.73,
+    "duration": 1.0,
+    "text": "the description."
+  },
+  {
+    "start": 1503.73,
+    "duration": 5.2,
+    "text": "If you just type download JDK, you will find it currently the version is Java 16."
+  },
+  {
+    "start": 1508.93,
+    "duration": 3.88,
+    "text": "So we can download that you can also use Java 8, Java 13, Java 11, whatever"
+  },
+  {
+    "start": 1512.81,
+    "duration": 1.0,
+    "text": "you like."
+  },
+  {
+    "start": 1513.81,
+    "duration": 1.0,
+    "text": "Let's let's use Java 16."
+  },
+  {
+    "start": 1514.81,
+    "duration": 5.24,
+    "text": "So, click on this link called JDK download."
+  },
+  {
+    "start": 1520.05,
+    "duration": 6.4,
+    "text": "And here according to your system, Linux, Mac OS, Windows, click on this thing, I am"
+  },
+  {
+    "start": 1526.45,
+    "duration": 8.59,
+    "text": "on Windows, sorry I am on Mac OS, so I will click on this, review and then download."
+  },
+  {
+    "start": 1535.04,
+    "duration": 8.6,
+    "text": "So, once you download this, just install it as it is and then your JDK will be downloaded"
+  },
+  {
+    "start": 1543.64,
+    "duration": 5.96,
+    "text": "and actually how to use it, how to set it up. That is something we look into the next"
+  },
+  {
+    "start": 1549.6,
+    "duration": 5.32,
+    "text": "video when we will be writing our first Java program. For now, in this video, we are only"
+  },
+  {
+    "start": 1554.92,
+    "duration": 5.04,
+    "text": "concerned with what all things are required. How we are going to use it, that's coming"
+  },
+  {
+    "start": 1559.96,
+    "duration": 6.64,
+    "text": "in the next video step by step from scratch. Next thing you want to install is an IDE"
+  },
+  {
+    "start": 1566.6,
+    "duration": 4.24,
+    "text": "integrated development environment or like a tool via which you can write your code."
+  },
+  {
+    "start": 1570.84,
+    "duration": 4.92,
+    "text": "idea is one of the best download the community edition for free because this is something"
+  },
+  {
+    "start": 1575.76,
+    "duration": 5.24,
+    "text": "you can use for free so go to this URL again you can see and I will also link it in the"
+  },
+  {
+    "start": 1581.0,
+    "duration": 4.8,
+    "text": "description below so you can go to this URL click on this down button you can download"
+  },
+  {
+    "start": 1585.8,
+    "duration": 5.92,
+    "text": "according to your you know you can download according to your system you if you use"
+  },
+  {
+    "start": 1591.72,
+    "duration": 4.84,
+    "text": "windows you can download the .exe file use Linux you can download it here make"
+  },
+  {
+    "start": 1596.56,
+    "duration": 2.88,
+    "text": "sure you download the community version because it's free and it's more than enough"
+  },
+  {
+    "start": 1599.44,
+    "duration": 6.36,
+    "text": "for us to get started. Okay, I am also using this only. So download this. And it will be"
+  },
+  {
+    "start": 1605.8,
+    "duration": 8.96,
+    "text": "then downloaded. And then you can just, you know, then you can just how to just install"
+  },
+  {
+    "start": 1614.76,
+    "duration": 4.38,
+    "text": "it and don't run it. If you want to run it, fine. But if you get stuck while running"
+  },
+  {
+    "start": 1619.14,
+    "duration": 5.68,
+    "text": "it somewhere, then we will, you know, definitely work from scratch on how to use IntelliJ"
+  },
+  {
+    "start": 1624.82,
+    "duration": 4.96,
+    "text": "idea, create new project set up and everything in the next video. So just download these"
+  },
+  {
+    "start": 1629.78,
+    "duration": 4.64,
+    "text": "two things and download and install these two things. And in the next video, we'll get started"
+  },
+  {
+    "start": 1634.42,
+    "duration": 3.56,
+    "text": "with how to actually use these things and write our first Java program. Make sure you"
+  },
+  {
+    "start": 1637.98,
+    "duration": 3.52,
+    "text": "check out the links in the description, all the things, all the doubts you may have,"
+  },
+  {
+    "start": 1641.5,
+    "duration": 3.72,
+    "text": "all the things you comment, you know, I leave it in the description of the video to resolve"
+  },
+  {
+    "start": 1645.22,
+    "duration": 3.72,
+    "text": "it. There is the entire links to notes and assignments and everything. All the links"
+  },
+  {
+    "start": 1648.94,
+    "duration": 4.12,
+    "text": "I shared here, all the PPT, all the like the entire, you know, notes I shared here"
+  },
+  {
+    "start": 1653.06,
+    "duration": 3.48,
+    "text": "as well, everything is listed below. Make sure you share with your friends and comment"
+  },
+  {
+    "start": 1656.54,
+    "duration": 5.32,
+    "text": "If you like the videos, this is free for everyone, forever and always, everything is going to"
+  },
+  {
+    "start": 1661.86,
+    "duration": 1.0,
+    "text": "be free."
+  },
+  {
+    "start": 1662.86,
+    "duration": 4.28,
+    "text": "If you want to show your support, just like, share and subscribe and share about it on socials."
+  },
+  {
+    "start": 1667.14,
+    "duration": 4.52,
+    "text": "If you're learning something new, just basically share about it so that other people can also"
+  },
+  {
+    "start": 1671.66,
+    "duration": 4.72,
+    "text": "you know, learn more about it and you have no idea how many amazing things are going"
+  },
+  {
+    "start": 1676.38,
+    "duration": 4.44,
+    "text": "to be coming on this channel, you know, entire road maps and entire data structures"
+  },
+  {
+    "start": 1680.82,
+    "duration": 3.84,
+    "text": "algorithms from zero to, you know, to lead code hard will be covering very thing"
+  },
+  {
+    "start": 1684.66,
+    "duration": 1.0,
+    "text": "in a very simple way."
+  },
+  {
+    "start": 1685.66,
+    "duration": 4.24,
+    "text": "I love how the comments you have been sharing and if you have any feedback for me let me know as well"
+  },
+  {
+    "start": 1690.7,
+    "duration": 5.6,
+    "text": "but I please share on socials share your views tag me and you can find my links in the description"
+  },
+  {
+    "start": 1696.3,
+    "duration": 2.32,
+    "text": "and I'll see you in the next one bye"
+  }
+]

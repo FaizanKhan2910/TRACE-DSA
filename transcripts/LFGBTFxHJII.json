@@ -1,0 +1,2727 @@
+[
+  {
+    "start": 4.04,
+    "duration": 3.08,
+    "text": "everyone welcome back to my channel the"
+  },
+  {
+    "start": 5.359,
+    "duration": 4.24,
+    "text": "new video in this video we're going to"
+  },
+  {
+    "start": 7.12,
+    "duration": 3.76,
+    "text": "continue the det algorithms boot camp in"
+  },
+  {
+    "start": 9.599,
+    "duration": 3.601,
+    "text": "specific we're going to continue the"
+  },
+  {
+    "start": 10.88,
+    "duration": 4.839,
+    "text": "trees playlist so I've done a playlist"
+  },
+  {
+    "start": 13.2,
+    "duration": 4.68,
+    "text": "on trees we did so many types of trees"
+  },
+  {
+    "start": 15.719,
+    "duration": 4.521,
+    "text": "implementation Theory time complexity so"
+  },
+  {
+    "start": 17.88,
+    "duration": 4.28,
+    "text": "many Fang level questions all sorts of"
+  },
+  {
+    "start": 20.24,
+    "duration": 3.32,
+    "text": "things I'm really focusing on trees"
+  },
+  {
+    "start": 22.16,
+    "duration": 3.48,
+    "text": "because it's the most important data"
+  },
+  {
+    "start": 23.56,
+    "duration": 4.559,
+    "text": "structure for your coding interviews and"
+  },
+  {
+    "start": 25.64,
+    "duration": 4.879,
+    "text": "in these next few videos the series of"
+  },
+  {
+    "start": 28.119,
+    "duration": 4.361,
+    "text": "videos we'll do Advanced tree questions"
+  },
+  {
+    "start": 30.519,
+    "duration": 3.88,
+    "text": "because we have now done hashmaps like"
+  },
+  {
+    "start": 32.48,
+    "duration": 4.919,
+    "text": "what are hashmaps and stuff we have done"
+  },
+  {
+    "start": 34.399,
+    "duration": 5.32,
+    "text": "heaps lists like link list and stuff and"
+  },
+  {
+    "start": 37.399,
+    "duration": 4.16,
+    "text": "we have done uh trees questions as well"
+  },
+  {
+    "start": 39.719,
+    "duration": 5.081,
+    "text": "but the next few videos I really want to"
+  },
+  {
+    "start": 41.559,
+    "duration": 6.241,
+    "text": "focus on some more difficult level tree"
+  },
+  {
+    "start": 44.8,
+    "duration": 5.2,
+    "text": "questions so it will be using tree but"
+  },
+  {
+    "start": 47.8,
+    "duration": 4.239,
+    "text": "it will use some other Tes also like"
+  },
+  {
+    "start": 50.0,
+    "duration": 3.879,
+    "text": "hashmaps so these questions are very"
+  },
+  {
+    "start": 52.039,
+    "duration": 4.52,
+    "text": "popular that's why I want to do this and"
+  },
+  {
+    "start": 53.879,
+    "duration": 4.84,
+    "text": "I waited till I posted hashmaps because"
+  },
+  {
+    "start": 56.559,
+    "duration": 3.761,
+    "text": "obviously if you if you use hashmap I"
+  },
+  {
+    "start": 58.719,
+    "duration": 4.16,
+    "text": "should have covered hashmap beforehand"
+  },
+  {
+    "start": 60.32,
+    "duration": 4.04,
+    "text": "which I did so we'll do this after that"
+  },
+  {
+    "start": 62.879,
+    "duration": 3.721,
+    "text": "we'll do you know hashmap level"
+  },
+  {
+    "start": 64.36,
+    "duration": 3.88,
+    "text": "questions hashmap specific questions"
+  },
+  {
+    "start": 66.6,
+    "duration": 3.68,
+    "text": "other stuff like sliding window and all"
+  },
+  {
+    "start": 68.24,
+    "duration": 3.879,
+    "text": "sorts of things which also uses hashmap"
+  },
+  {
+    "start": 70.28,
+    "duration": 6.08,
+    "text": "Heap questions for priority que and all"
+  },
+  {
+    "start": 72.119,
+    "duration": 6.36,
+    "text": "sorts of things so let's uh get started"
+  },
+  {
+    "start": 76.36,
+    "duration": 3.48,
+    "text": "so in this video okay so this is a"
+  },
+  {
+    "start": 78.479,
+    "duration": 2.521,
+    "text": "little bit of a reminder for treat"
+  },
+  {
+    "start": 79.84,
+    "duration": 3.04,
+    "text": "reversals if you don't know treat"
+  },
+  {
+    "start": 81.0,
+    "duration": 3.759,
+    "text": "reversals check out the first video in"
+  },
+  {
+    "start": 82.88,
+    "duration": 3.4,
+    "text": "the treat playlist all the links can be"
+  },
+  {
+    "start": 84.759,
+    "duration": 3.561,
+    "text": "found in the description below"
+  },
+  {
+    "start": 86.28,
+    "duration": 4.28,
+    "text": "assignments code previous lectures"
+  },
+  {
+    "start": 88.32,
+    "duration": 4.96,
+    "text": "everything so"
+  },
+  {
+    "start": 90.56,
+    "duration": 6.76,
+    "text": "in audit reversal very easy you first do"
+  },
+  {
+    "start": 93.28,
+    "duration": 9.24,
+    "text": "left then node parent then right"
+  },
+  {
+    "start": 97.32,
+    "duration": 7.56,
+    "text": "pre-ordered reversal you do um first the"
+  },
+  {
+    "start": 102.52,
+    "duration": 5.12,
+    "text": "node that you are at then left that"
+  },
+  {
+    "start": 104.88,
+    "duration": 4.76,
+    "text": "right and post order is Left Right node"
+  },
+  {
+    "start": 107.64,
+    "duration": 4.2,
+    "text": "I will not explain more about these"
+  },
+  {
+    "start": 109.64,
+    "duration": 4.6,
+    "text": "reversals because we've already made"
+  },
+  {
+    "start": 111.84,
+    "duration": 3.959,
+    "text": "like two to five hour long videos"
+  },
+  {
+    "start": 114.24,
+    "duration": 4.32,
+    "text": "explaining these Concepts okay so just"
+  },
+  {
+    "start": 115.799,
+    "duration": 4.32,
+    "text": "go there but I am I trust you because"
+  },
+  {
+    "start": 118.56,
+    "duration": 2.879,
+    "text": "you are following the playlist so these"
+  },
+  {
+    "start": 120.119,
+    "duration": 3.081,
+    "text": "are very basic things you know this"
+  },
+  {
+    "start": 121.439,
+    "duration": 3.161,
+    "text": "already but it's not like kunar is"
+  },
+  {
+    "start": 123.2,
+    "duration": 3.76,
+    "text": "skipping over it okay I've already"
+  },
+  {
+    "start": 124.6,
+    "duration": 5.519,
+    "text": "covered it"
+  },
+  {
+    "start": 126.96,
+    "duration": 4.84,
+    "text": "so this is the question construct a"
+  },
+  {
+    "start": 130.119,
+    "duration": 5.681,
+    "text": "binary tree from pre-order and in"
+  },
+  {
+    "start": 131.8,
+    "duration": 5.36,
+    "text": "ordered reversal you're given a tree in"
+  },
+  {
+    "start": 135.8,
+    "duration": 4.719,
+    "text": "pre-order and in"
+  },
+  {
+    "start": 137.16,
+    "duration": 5.359,
+    "text": "order so pre-order is given this in"
+  },
+  {
+    "start": 140.519,
+    "duration": 6.201,
+    "text": "order is given this and you have to"
+  },
+  {
+    "start": 142.519,
+    "duration": 8.72,
+    "text": "create a binary tree so let's do that uh"
+  },
+  {
+    "start": 146.72,
+    "duration": 7.48,
+    "text": "let me actually take a bigger example"
+  },
+  {
+    "start": 151.239,
+    "duration": 4.881,
+    "text": "so if I create a tree let me just make"
+  },
+  {
+    "start": 154.2,
+    "duration": 4.52,
+    "text": "sure you're able to see"
+  },
+  {
+    "start": 156.12,
+    "duration": 5.0,
+    "text": "it this is not a binary search tree it's"
+  },
+  {
+    "start": 158.72,
+    "duration": 5.0,
+    "text": "just a binary"
+  },
+  {
+    "start": 161.12,
+    "duration": 8.16,
+    "text": "tree yeah I think you can see"
+  },
+  {
+    "start": 163.72,
+    "duration": 5.56,
+    "text": "that I will uh zoom in a little"
+  },
+  {
+    "start": 169.92,
+    "duration": 5.0,
+    "text": "bit all"
+  },
+  {
+    "start": 172.519,
+    "duration": 3.921,
+    "text": "right cool"
+  },
+  {
+    "start": 174.92,
+    "duration": 3.12,
+    "text": "1"
+  },
+  {
+    "start": 176.44,
+    "duration": 4.6,
+    "text": "2"
+  },
+  {
+    "start": 178.04,
+    "duration": 10.08,
+    "text": "3 4"
+  },
+  {
+    "start": 181.04,
+    "duration": 9.52,
+    "text": "5 6 7 8 9 I'm taking this in sequence"
+  },
+  {
+    "start": 188.12,
+    "duration": 5.36,
+    "text": "because it's easier for us to"
+  },
+  {
+    "start": 190.56,
+    "duration": 6.16,
+    "text": "understand okay so this is the tree that"
+  },
+  {
+    "start": 193.48,
+    "duration": 4.839,
+    "text": "we have now what is going to be the"
+  },
+  {
+    "start": 196.72,
+    "duration": 3.92,
+    "text": "pre-ordered reversal the question says"
+  },
+  {
+    "start": 198.319,
+    "duration": 4.681,
+    "text": "you are given pre-order and in ordered"
+  },
+  {
+    "start": 200.64,
+    "duration": 5.44,
+    "text": "reversal so"
+  },
+  {
+    "start": 203.0,
+    "duration": 5.68,
+    "text": "pre-order is going to be what pre-order"
+  },
+  {
+    "start": 206.08,
+    "duration": 5.4,
+    "text": "means first the node"
+  },
+  {
+    "start": 208.68,
+    "duration": 5.68,
+    "text": "itself"
+  },
+  {
+    "start": 211.48,
+    "duration": 5.319,
+    "text": "first the node itself then the left and"
+  },
+  {
+    "start": 214.36,
+    "duration": 4.079,
+    "text": "then the right so I start okay so this"
+  },
+  {
+    "start": 216.799,
+    "duration": 4.241,
+    "text": "is what the pre and in ordered reversal"
+  },
+  {
+    "start": 218.439,
+    "duration": 4.281,
+    "text": "looks like pre-order very simple given"
+  },
+  {
+    "start": 221.04,
+    "duration": 3.44,
+    "text": "like this in order given like this no"
+  },
+  {
+    "start": 222.72,
+    "duration": 5.159,
+    "text": "problem I should not be explaining this"
+  },
+  {
+    "start": 224.48,
+    "duration": 6.119,
+    "text": "too much because already covered it um"
+  },
+  {
+    "start": 227.879,
+    "duration": 4.961,
+    "text": "so yeah pre-order uh node first so if I"
+  },
+  {
+    "start": 230.599,
+    "duration": 3.84,
+    "text": "start from one if I start from one it"
+  },
+  {
+    "start": 232.84,
+    "duration": 3.599,
+    "text": "will be like print one then go to left"
+  },
+  {
+    "start": 234.439,
+    "duration": 4.0,
+    "text": "then go to right printed one then went"
+  },
+  {
+    "start": 236.439,
+    "duration": 3.8,
+    "text": "to left printed two then went to left"
+  },
+  {
+    "start": 238.439,
+    "duration": 4.761,
+    "text": "after that it will go to right printed"
+  },
+  {
+    "start": 240.239,
+    "duration": 6.2,
+    "text": "for and went to left so on and so forth"
+  },
+  {
+    "start": 243.2,
+    "duration": 5.319,
+    "text": "okay so using these two I have to create"
+  },
+  {
+    "start": 246.439,
+    "duration": 5.0,
+    "text": "this tree I'm only given the"
+  },
+  {
+    "start": 248.519,
+    "duration": 5.161,
+    "text": "traversals it is very simple see what is"
+  },
+  {
+    "start": 251.439,
+    "duration": 6.08,
+    "text": "given to"
+  },
+  {
+    "start": 253.68,
+    "duration": 6.399,
+    "text": "you here I know pre-order means print"
+  },
+  {
+    "start": 257.519,
+    "duration": 6.321,
+    "text": "the node then print left then print"
+  },
+  {
+    "start": 260.079,
+    "duration": 7.68,
+    "text": "right so basically I know that the first"
+  },
+  {
+    "start": 263.84,
+    "duration": 6.48,
+    "text": "element in my pre-order is the root node"
+  },
+  {
+    "start": 267.759,
+    "duration": 6.121,
+    "text": "of the tree so I will start from here"
+  },
+  {
+    "start": 270.32,
+    "duration": 6.36,
+    "text": "here now if I try to check the one root"
+  },
+  {
+    "start": 273.88,
+    "duration": 6.039,
+    "text": "node in my in ordit reversal it is over"
+  },
+  {
+    "start": 276.68,
+    "duration": 7.0,
+    "text": "here in order means print left first"
+  },
+  {
+    "start": 279.919,
+    "duration": 6.401,
+    "text": "then print the the node of the tree and"
+  },
+  {
+    "start": 283.68,
+    "duration": 4.68,
+    "text": "then print right print left node of the"
+  },
+  {
+    "start": 286.32,
+    "duration": 6.4,
+    "text": "tree then right okay so one thing that I"
+  },
+  {
+    "start": 288.36,
+    "duration": 6.92,
+    "text": "can see over here is that"
+  },
+  {
+    "start": 292.72,
+    "duration": 3.96,
+    "text": "um the root node is the very first node"
+  },
+  {
+    "start": 295.28,
+    "duration": 3.68,
+    "text": "in the pre-ordered reversal if I check"
+  },
+  {
+    "start": 296.68,
+    "duration": 3.799,
+    "text": "is over here then in order means left"
+  },
+  {
+    "start": 298.96,
+    "duration": 3.56,
+    "text": "will be printed first then the current"
+  },
+  {
+    "start": 300.479,
+    "duration": 3.961,
+    "text": "node then the right so whatever node I"
+  },
+  {
+    "start": 302.52,
+    "duration": 4.239,
+    "text": "am at here let's say if I'm over here at"
+  },
+  {
+    "start": 304.44,
+    "duration": 3.4,
+    "text": "one I know that all of these are in the"
+  },
+  {
+    "start": 306.759,
+    "duration": 4.321,
+    "text": "right"
+  },
+  {
+    "start": 307.84,
+    "duration": 5.28,
+    "text": "tree all of these are in the left tree"
+  },
+  {
+    "start": 311.08,
+    "duration": 6.0,
+    "text": "because of the way this reversal works"
+  },
+  {
+    "start": 313.12,
+    "duration": 7.359,
+    "text": "so see if one is a node 8"
+  },
+  {
+    "start": 317.08,
+    "duration": 7.0,
+    "text": "4925 are all in the left tree that's"
+  },
+  {
+    "start": 320.479,
+    "duration": 7.081,
+    "text": "true 637 637 are all in the right"
+  },
+  {
+    "start": 324.08,
+    "duration": 6.44,
+    "text": "tree make sense now the next one is"
+  },
+  {
+    "start": 327.56,
+    "duration": 5.759,
+    "text": "pre-order reversal the next one is two"
+  },
+  {
+    "start": 330.52,
+    "duration": 5.119,
+    "text": "so I will then find let's say I find uh"
+  },
+  {
+    "start": 333.319,
+    "duration": 4.361,
+    "text": "two over here so I know that this is the"
+  },
+  {
+    "start": 335.639,
+    "duration": 4.56,
+    "text": "right this is the"
+  },
+  {
+    "start": 337.68,
+    "duration": 5.6,
+    "text": "left that's true on the left of true we"
+  },
+  {
+    "start": 340.199,
+    "duration": 5.961,
+    "text": "have two we have three elements 849 849"
+  },
+  {
+    "start": 343.28,
+    "duration": 6.759,
+    "text": "on the right we have only one element"
+  },
+  {
+    "start": 346.16,
+    "duration": 7.44,
+    "text": "five simple problem finished that's it"
+  },
+  {
+    "start": 350.039,
+    "duration": 5.361,
+    "text": "done thanks for watching this video no"
+  },
+  {
+    "start": 353.6,
+    "duration": 3.84,
+    "text": "that Canal what is advanced in this you"
+  },
+  {
+    "start": 355.4,
+    "duration": 5.6,
+    "text": "know you said some other things will be"
+  },
+  {
+    "start": 357.44,
+    "duration": 6.44,
+    "text": "used so yeah in this uh"
+  },
+  {
+    "start": 361.0,
+    "duration": 4.6,
+    "text": "we are going to select what how we going"
+  },
+  {
+    "start": 363.88,
+    "duration": 3.12,
+    "text": "to do this think about it how are we"
+  },
+  {
+    "start": 365.6,
+    "duration": 3.12,
+    "text": "going to do this pause this pause this"
+  },
+  {
+    "start": 367.0,
+    "duration": 4.44,
+    "text": "video okay so here what I'm trying to do"
+  },
+  {
+    "start": 368.72,
+    "duration": 5.52,
+    "text": "is let's say I am uh starting from the"
+  },
+  {
+    "start": 371.44,
+    "duration": 5.4,
+    "text": "root node I have to find that root node"
+  },
+  {
+    "start": 374.24,
+    "duration": 5.519,
+    "text": "in the in ordered reversal so I will"
+  },
+  {
+    "start": 376.84,
+    "duration": 5.84,
+    "text": "find one over here I will find one over"
+  },
+  {
+    "start": 379.759,
+    "duration": 5.041,
+    "text": "here and then all the left left will I"
+  },
+  {
+    "start": 382.68,
+    "duration": 3.76,
+    "text": "will call another recursion on the left"
+  },
+  {
+    "start": 384.8,
+    "duration": 3.56,
+    "text": "of the part of it and the right part of"
+  },
+  {
+    "start": 386.44,
+    "duration": 3.68,
+    "text": "it so similarly for this left part I"
+  },
+  {
+    "start": 388.36,
+    "duration": 5.16,
+    "text": "will again find the next which which is"
+  },
+  {
+    "start": 390.12,
+    "duration": 8.079,
+    "text": "two okay and then I will find four then"
+  },
+  {
+    "start": 393.52,
+    "duration": 8.88,
+    "text": "I will find 8 then I will find 9 then I"
+  },
+  {
+    "start": 398.199,
+    "duration": 7.241,
+    "text": "will find 5 3 6 7 so on and so forth one"
+  },
+  {
+    "start": 402.4,
+    "duration": 7.199,
+    "text": "by one but the real question"
+  },
+  {
+    "start": 405.44,
+    "duration": 6.479,
+    "text": "is how do I find one so I can just do a"
+  },
+  {
+    "start": 409.599,
+    "duration": 5.32,
+    "text": "simple linear search in in ordit"
+  },
+  {
+    "start": 411.919,
+    "duration": 6.481,
+    "text": "reversal we can do that that will take o"
+  },
+  {
+    "start": 414.919,
+    "duration": 6.481,
+    "text": "of n but instead you can create a"
+  },
+  {
+    "start": 418.4,
+    "duration": 3.0,
+    "text": "map"
+  },
+  {
+    "start": 421.599,
+    "duration": 3.681,
+    "text": "hashmap you can create a"
+  },
+  {
+    "start": 426.44,
+    "duration": 5.599,
+    "text": "hashmap that stores the"
+  },
+  {
+    "start": 429.4,
+    "duration": 5.519,
+    "text": "indexes of"
+  },
+  {
+    "start": 432.039,
+    "duration": 6.121,
+    "text": "elements so in constant time you will be"
+  },
+  {
+    "start": 434.919,
+    "duration": 5.321,
+    "text": "able to find the item uh the node in"
+  },
+  {
+    "start": 438.16,
+    "duration": 4.64,
+    "text": "pre-order in the in order list so for"
+  },
+  {
+    "start": 440.24,
+    "duration": 4.84,
+    "text": "example I am at this uh index number"
+  },
+  {
+    "start": 442.8,
+    "duration": 5.399,
+    "text": "zero which is one I have to find one in"
+  },
+  {
+    "start": 445.08,
+    "duration": 4.959,
+    "text": "inorder reversal so I will just find the"
+  },
+  {
+    "start": 448.199,
+    "duration": 3.84,
+    "text": "index of one rather than doing a"
+  },
+  {
+    "start": 450.039,
+    "duration": 3.761,
+    "text": "searching from the zeroth index I will"
+  },
+  {
+    "start": 452.039,
+    "duration": 5.121,
+    "text": "directly get the"
+  },
+  {
+    "start": 453.8,
+    "duration": 4.88,
+    "text": "index of one because it will be stored"
+  },
+  {
+    "start": 457.16,
+    "duration": 3.68,
+    "text": "in a"
+  },
+  {
+    "start": 458.68,
+    "duration": 5.16,
+    "text": "hashmap sound"
+  },
+  {
+    "start": 460.84,
+    "duration": 3.0,
+    "text": "good"
+  },
+  {
+    "start": 464.199,
+    "duration": 7.44,
+    "text": "easy all right so how will this work"
+  },
+  {
+    "start": 467.879,
+    "duration": 6.401,
+    "text": "out let's uh move it up a little"
+  },
+  {
+    "start": 471.639,
+    "duration": 6.201,
+    "text": "bit how will this work"
+  },
+  {
+    "start": 474.28,
+    "duration": 7.599,
+    "text": "out I will have pre-order which"
+  },
+  {
+    "start": 477.84,
+    "duration": 4.039,
+    "text": "is let me just write it"
+  },
+  {
+    "start": 483.8,
+    "duration": 3.32,
+    "text": "down we"
+  },
+  {
+    "start": 487.4,
+    "duration": 15.96,
+    "text": "have pre-ordered reversal 1 2 4 8 9 1 2"
+  },
+  {
+    "start": 494.08,
+    "duration": 15.839,
+    "text": "4 8 9 5 3 6 7 in ordered reversal is 8 4"
+  },
+  {
+    "start": 503.36,
+    "duration": 9.039,
+    "text": "9 2 5 1 6 3 7 I start from here"
+  },
+  {
+    "start": 509.919,
+    "duration": 4.721,
+    "text": "I will find one in the in ordit reversal"
+  },
+  {
+    "start": 512.399,
+    "duration": 4.481,
+    "text": "it will be in a frequency array sorry in"
+  },
+  {
+    "start": 514.64,
+    "duration": 5.24,
+    "text": "a in a hash map in a frequency hash map"
+  },
+  {
+    "start": 516.88,
+    "duration": 7.48,
+    "text": "found it so I will add it in my"
+  },
+  {
+    "start": 519.88,
+    "duration": 7.24,
+    "text": "threee now I will call recursion for the"
+  },
+  {
+    "start": 524.36,
+    "duration": 5.28,
+    "text": "for the next one that I will work"
+  },
+  {
+    "start": 527.12,
+    "duration": 5.6,
+    "text": "with uh I will select the second element"
+  },
+  {
+    "start": 529.64,
+    "duration": 5.8,
+    "text": "so which will be this one then I will"
+  },
+  {
+    "start": 532.72,
+    "duration": 5.96,
+    "text": "find it this is the second element I"
+  },
+  {
+    "start": 535.44,
+    "duration": 6.12,
+    "text": "will add it in the left hand side then I"
+  },
+  {
+    "start": 538.68,
+    "duration": 5.44,
+    "text": "will go to it again the next element in"
+  },
+  {
+    "start": 541.56,
+    "duration": 6.04,
+    "text": "pre-ordered reversal it will be this one"
+  },
+  {
+    "start": 544.12,
+    "duration": 6.839,
+    "text": "so I will be like okay I will add it in"
+  },
+  {
+    "start": 547.6,
+    "duration": 4.64,
+    "text": "my over here then again next one which"
+  },
+  {
+    "start": 550.959,
+    "duration": 4.32,
+    "text": "is"
+  },
+  {
+    "start": 552.24,
+    "duration": 5.52,
+    "text": "eight add it over"
+  },
+  {
+    "start": 555.279,
+    "duration": 5.321,
+    "text": "here"
+  },
+  {
+    "start": 557.76,
+    "duration": 5.0,
+    "text": "easy then again I will be nine so it"
+  },
+  {
+    "start": 560.6,
+    "duration": 5.08,
+    "text": "will be like nine is now here in the"
+  },
+  {
+    "start": 562.76,
+    "duration": 5.36,
+    "text": "right hand side of four so it will be in"
+  },
+  {
+    "start": 565.68,
+    "duration": 4.159,
+    "text": "the right hand side of"
+  },
+  {
+    "start": 568.12,
+    "duration": 4.839,
+    "text": "four"
+  },
+  {
+    "start": 569.839,
+    "duration": 7.721,
+    "text": "okay simly now five right hand side of"
+  },
+  {
+    "start": 572.959,
+    "duration": 8.241,
+    "text": "two so right hand side of two three find"
+  },
+  {
+    "start": 577.56,
+    "duration": 8.2,
+    "text": "three over here right hand side of"
+  },
+  {
+    "start": 581.2,
+    "duration": 4.56,
+    "text": "one six and then"
+  },
+  {
+    "start": 586.24,
+    "duration": 3.44,
+    "text": "seven easy it's all just recursion if"
+  },
+  {
+    "start": 588.44,
+    "duration": 3.44,
+    "text": "you've done the recursion playlist this"
+  },
+  {
+    "start": 589.68,
+    "duration": 4.92,
+    "text": "is nothing easy"
+  },
+  {
+    "start": 591.88,
+    "duration": 6.16,
+    "text": "question the only thing is find the"
+  },
+  {
+    "start": 594.6,
+    "duration": 6.52,
+    "text": "finding the indices that should be in"
+  },
+  {
+    "start": 598.04,
+    "duration": 3.08,
+    "text": "constant time using the Hat"
+  },
+  {
+    "start": 603.079,
+    "duration": 6.081,
+    "text": "okay sounds good so what I'm going to do"
+  },
+  {
+    "start": 606.48,
+    "duration": 4.56,
+    "text": "is I'm going to take two pointers I'm"
+  },
+  {
+    "start": 609.16,
+    "duration": 4.799,
+    "text": "going to take a left pointer and a right"
+  },
+  {
+    "start": 611.04,
+    "duration": 4.919,
+    "text": "pointer so at every recursion tree I'm"
+  },
+  {
+    "start": 613.959,
+    "duration": 4.12,
+    "text": "going to reduce the size of my"
+  },
+  {
+    "start": 615.959,
+    "duration": 4.0,
+    "text": "array okay so if I'm talking about the"
+  },
+  {
+    "start": 618.079,
+    "duration": 7.44,
+    "text": "recursion tree where I'm talking about"
+  },
+  {
+    "start": 619.959,
+    "duration": 5.56,
+    "text": "two so in that case the size will be"
+  },
+  {
+    "start": 626.279,
+    "duration": 3.521,
+    "text": "reduced so if I'm talking about one"
+  },
+  {
+    "start": 628.399,
+    "duration": 2.401,
+    "text": "let's say for example if I'm talking"
+  },
+  {
+    "start": 629.8,
+    "duration": 4.08,
+    "text": "about"
+  },
+  {
+    "start": 630.8,
+    "duration": 5.24,
+    "text": "one um let me just remove all"
+  },
+  {
+    "start": 633.88,
+    "duration": 4.68,
+    "text": "this let me try to explain what I'm"
+  },
+  {
+    "start": 636.04,
+    "duration": 2.52,
+    "text": "doing over"
+  },
+  {
+    "start": 642.8,
+    "duration": 6.96,
+    "text": "here okay if I talk about one then in"
+  },
+  {
+    "start": 646.079,
+    "duration": 6.841,
+    "text": "the recursion tree this will"
+  },
+  {
+    "start": 649.76,
+    "duration": 4.96,
+    "text": "be when I talk about the left hand side"
+  },
+  {
+    "start": 652.92,
+    "duration": 4.479,
+    "text": "okay so if I'm like if you see on this"
+  },
+  {
+    "start": 654.72,
+    "duration": 4.96,
+    "text": "screen you're saying that the current"
+  },
+  {
+    "start": 657.399,
+    "duration": 6.761,
+    "text": "that I'm taking is equal to this this"
+  },
+  {
+    "start": 659.68,
+    "duration": 6.76,
+    "text": "one and um I'm going to call two"
+  },
+  {
+    "start": 664.16,
+    "duration": 3.56,
+    "text": "recursive trees so I'm going to say this"
+  },
+  {
+    "start": 666.44,
+    "duration": 5.079,
+    "text": "is let's say my"
+  },
+  {
+    "start": 667.72,
+    "duration": 7.679,
+    "text": "node then node do left is equal to"
+  },
+  {
+    "start": 671.519,
+    "duration": 5.921,
+    "text": "recursion something node. right is also"
+  },
+  {
+    "start": 675.399,
+    "duration": 4.081,
+    "text": "equal to recursion something so in this"
+  },
+  {
+    "start": 677.44,
+    "duration": 5.12,
+    "text": "node. left the entire array will be"
+  },
+  {
+    "start": 679.48,
+    "duration": 6.32,
+    "text": "reduced to this if this is index I so it"
+  },
+  {
+    "start": 682.56,
+    "duration": 5.68,
+    "text": "will be start will or left will not"
+  },
+  {
+    "start": 685.8,
+    "duration": 3.68,
+    "text": "change but right will change to index"
+  },
+  {
+    "start": 688.24,
+    "duration": 4.719,
+    "text": "minus one"
+  },
+  {
+    "start": 689.48,
+    "duration": 8.68,
+    "text": "here left will change"
+  },
+  {
+    "start": 692.959,
+    "duration": 7.201,
+    "text": "to index + one and right will not"
+  },
+  {
+    "start": 698.16,
+    "duration": 4.88,
+    "text": "change make"
+  },
+  {
+    "start": 700.16,
+    "duration": 5.84,
+    "text": "sense then I will be at two and I'll be"
+  },
+  {
+    "start": 703.04,
+    "duration": 5.08,
+    "text": "like okay if I'm calling for if I'm uh"
+  },
+  {
+    "start": 706.0,
+    "duration": 5.68,
+    "text": "now calling for two I will try to search"
+  },
+  {
+    "start": 708.12,
+    "duration": 6.719,
+    "text": "for two and I will find two over"
+  },
+  {
+    "start": 711.68,
+    "duration": 5.399,
+    "text": "here right so in so when I'm when I"
+  },
+  {
+    "start": 714.839,
+    "duration": 4.24,
+    "text": "added one over here then I know I am"
+  },
+  {
+    "start": 717.079,
+    "duration": 4.921,
+    "text": "calling the left hand side so in the"
+  },
+  {
+    "start": 719.079,
+    "duration": 4.76,
+    "text": "left hand sides whatever it is that is"
+  },
+  {
+    "start": 722.0,
+    "duration": 3.72,
+    "text": "given to me when I'm when I've passed"
+  },
+  {
+    "start": 723.839,
+    "duration": 4.12,
+    "text": "the left and right because this is a"
+  },
+  {
+    "start": 725.72,
+    "duration": 4.96,
+    "text": "chunk that is passed in Left Right This"
+  },
+  {
+    "start": 727.959,
+    "duration": 4.401,
+    "text": "is a chunk that is passed in"
+  },
+  {
+    "start": 730.68,
+    "duration": 5.959,
+    "text": "right"
+  },
+  {
+    "start": 732.36,
+    "duration": 5.64,
+    "text": "okay can explain it more clearly um it"
+  },
+  {
+    "start": 736.639,
+    "duration": 5.64,
+    "text": "should be easy for you because you've"
+  },
+  {
+    "start": 738.0,
+    "duration": 7.839,
+    "text": "done recursion already and so many tree"
+  },
+  {
+    "start": 742.279,
+    "duration": 5.601,
+    "text": "questions me try to zoom in a little bit"
+  },
+  {
+    "start": 745.839,
+    "duration": 5.041,
+    "text": "and make it"
+  },
+  {
+    "start": 747.88,
+    "duration": 3.0,
+    "text": "work"
+  },
+  {
+    "start": 753.68,
+    "duration": 6.399,
+    "text": "hopefully that is clear"
+  },
+  {
+    "start": 756.04,
+    "duration": 6.56,
+    "text": "yeah so let me make sure you"
+  },
+  {
+    "start": 760.079,
+    "duration": 5.841,
+    "text": "understand so first of all I'm at like"
+  },
+  {
+    "start": 762.6,
+    "duration": 4.52,
+    "text": "okay we are at one so one I will just"
+  },
+  {
+    "start": 765.92,
+    "duration": 4.719,
+    "text": "add over"
+  },
+  {
+    "start": 767.12,
+    "duration": 5.6,
+    "text": "here okay I will call node. left and"
+  },
+  {
+    "start": 770.639,
+    "duration": 4.64,
+    "text": "then I later I will call node. right so"
+  },
+  {
+    "start": 772.72,
+    "duration": 8.559,
+    "text": "in this recursive tree the array that I"
+  },
+  {
+    "start": 775.279,
+    "duration": 6.0,
+    "text": "have is 8 4 9 2 2"
+  },
+  {
+    "start": 785.24,
+    "duration": 8.32,
+    "text": "5"
+  },
+  {
+    "start": 787.279,
+    "duration": 6.281,
+    "text": "okay and here the array I have is 63"
+  },
+  {
+    "start": 794.36,
+    "duration": 4.96,
+    "text": "7 now again the same thing will happen"
+  },
+  {
+    "start": 797.16,
+    "duration": 5.84,
+    "text": "it will go to next which will be like"
+  },
+  {
+    "start": 799.32,
+    "duration": 6.199,
+    "text": "two so can I find two over here yes I"
+  },
+  {
+    "start": 803.0,
+    "duration": 5.16,
+    "text": "found two over"
+  },
+  {
+    "start": 805.519,
+    "duration": 6.041,
+    "text": "here and this is this is actually in the"
+  },
+  {
+    "start": 808.16,
+    "duration": 5.32,
+    "text": "frequency uh hash map that we created"
+  },
+  {
+    "start": 811.56,
+    "duration": 3.68,
+    "text": "okay this what we are finding okay so"
+  },
+  {
+    "start": 813.48,
+    "duration": 3.919,
+    "text": "here I will go again two I have found"
+  },
+  {
+    "start": 815.24,
+    "duration": 5.2,
+    "text": "over here yes I have found the index for"
+  },
+  {
+    "start": 817.399,
+    "duration": 7.961,
+    "text": "two so once I have found the index for"
+  },
+  {
+    "start": 820.44,
+    "duration": 7.519,
+    "text": "two I will say that um I will create the"
+  },
+  {
+    "start": 825.36,
+    "duration": 4.599,
+    "text": "node two okay because it is called in"
+  },
+  {
+    "start": 827.959,
+    "duration": 4.12,
+    "text": "the left hand side so I will create the"
+  },
+  {
+    "start": 829.959,
+    "duration": 5.0,
+    "text": "node two and then I will be like okay"
+  },
+  {
+    "start": 832.079,
+    "duration": 4.601,
+    "text": "again node. left and then node dot right"
+  },
+  {
+    "start": 834.959,
+    "duration": 5.961,
+    "text": "so in the left it will"
+  },
+  {
+    "start": 836.68,
+    "duration": 6.959,
+    "text": "be 849 and and here it will be"
+  },
+  {
+    "start": 840.92,
+    "duration": 4.68,
+    "text": "five similarly now it will be like four"
+  },
+  {
+    "start": 843.639,
+    "duration": 7.32,
+    "text": "so I will again be calling four over"
+  },
+  {
+    "start": 845.6,
+    "duration": 7.88,
+    "text": "here left will be 8 right will be 9 so"
+  },
+  {
+    "start": 850.959,
+    "duration": 4.521,
+    "text": "it will create node 8 over here then"
+  },
+  {
+    "start": 853.48,
+    "duration": 4.08,
+    "text": "left will become greater than right so"
+  },
+  {
+    "start": 855.48,
+    "duration": 3.76,
+    "text": "obviously program over and it will just"
+  },
+  {
+    "start": 857.56,
+    "duration": 4.079,
+    "text": "return the root so this will be saved"
+  },
+  {
+    "start": 859.24,
+    "duration": 4.64,
+    "text": "over here then it will call node. right"
+  },
+  {
+    "start": 861.639,
+    "duration": 6.801,
+    "text": "node. right also same thing node will be"
+  },
+  {
+    "start": 863.88,
+    "duration": 7.24,
+    "text": "created um left and right uh after that"
+  },
+  {
+    "start": 868.44,
+    "duration": 5.44,
+    "text": "left becomes more than right so just"
+  },
+  {
+    "start": 871.12,
+    "duration": 5.36,
+    "text": "return return the node so that's why"
+  },
+  {
+    "start": 873.88,
+    "duration": 4.519,
+    "text": "that's the base condition this is both"
+  },
+  {
+    "start": 876.48,
+    "duration": 4.4,
+    "text": "done this is done then in the right hand"
+  },
+  {
+    "start": 878.399,
+    "duration": 4.36,
+    "text": "side again it will be like I create the"
+  },
+  {
+    "start": 880.88,
+    "duration": 5.079,
+    "text": "node so at every step create the node"
+  },
+  {
+    "start": 882.759,
+    "duration": 4.681,
+    "text": "call left and call right that's it left"
+  },
+  {
+    "start": 885.959,
+    "duration": 4.761,
+    "text": "right left becomes greater than right it"
+  },
+  {
+    "start": 887.44,
+    "duration": 5.399,
+    "text": "will move back move back so on and so"
+  },
+  {
+    "start": 890.72,
+    "duration": 4.76,
+    "text": "forth then we'll search for let's say it"
+  },
+  {
+    "start": 892.839,
+    "duration": 4.841,
+    "text": "will search for it will search for three"
+  },
+  {
+    "start": 895.48,
+    "duration": 5.44,
+    "text": "three it will find it'll be like okay I"
+  },
+  {
+    "start": 897.68,
+    "duration": 5.8,
+    "text": "have found three so three over here so"
+  },
+  {
+    "start": 900.92,
+    "duration": 5.76,
+    "text": "it will create three then search for"
+  },
+  {
+    "start": 903.48,
+    "duration": 6.359,
+    "text": "six um in the left hand side when we go"
+  },
+  {
+    "start": 906.68,
+    "duration": 5.399,
+    "text": "there will be six 7 it will search for"
+  },
+  {
+    "start": 909.839,
+    "duration": 4.92,
+    "text": "six six will be added left becomes"
+  },
+  {
+    "start": 912.079,
+    "duration": 5.641,
+    "text": "greater than right move on go over here"
+  },
+  {
+    "start": 914.759,
+    "duration": 5.481,
+    "text": "it will search for the next seven seven"
+  },
+  {
+    "start": 917.72,
+    "duration": 5.0,
+    "text": "will be added left right so you should"
+  },
+  {
+    "start": 920.24,
+    "duration": 4.2,
+    "text": "not make the reason I'm splitting this"
+  },
+  {
+    "start": 922.72,
+    "duration": 4.239,
+    "text": "is so that I can find that left is"
+  },
+  {
+    "start": 924.44,
+    "duration": 5.36,
+    "text": "greater than right one uh condition base"
+  },
+  {
+    "start": 926.959,
+    "duration": 6.8,
+    "text": "condition and then I can"
+  },
+  {
+    "start": 929.8,
+    "duration": 5.32,
+    "text": "um you know um break my recursive"
+  },
+  {
+    "start": 933.759,
+    "duration": 3.921,
+    "text": "function otherwise it will cause"
+  },
+  {
+    "start": 935.12,
+    "duration": 5.88,
+    "text": "overflow but that is basically about it"
+  },
+  {
+    "start": 937.68,
+    "duration": 5.079,
+    "text": "keep searching from pre to in maintain a"
+  },
+  {
+    "start": 941.0,
+    "duration": 4.319,
+    "text": "pre-index because I'm searching from the"
+  },
+  {
+    "start": 942.759,
+    "duration": 5.841,
+    "text": "pre array every single index uh one by"
+  },
+  {
+    "start": 945.319,
+    "duration": 5.08,
+    "text": "one maybe a final not a final sorry"
+  },
+  {
+    "start": 948.6,
+    "duration": 6.56,
+    "text": "maybe a global"
+  },
+  {
+    "start": 950.399,
+    "duration": 7.081,
+    "text": "um Global um index and then find that in"
+  },
+  {
+    "start": 955.16,
+    "duration": 4.44,
+    "text": "the hashmap create the hashmap and uh"
+  },
+  {
+    "start": 957.48,
+    "duration": 4.24,
+    "text": "that's it"
+  },
+  {
+    "start": 959.6,
+    "duration": 3.599,
+    "text": "yeah let's uh code it okay but one thing"
+  },
+  {
+    "start": 961.72,
+    "duration": 2.2,
+    "text": "before I move forward is the space and"
+  },
+  {
+    "start": 963.199,
+    "duration": 4.2,
+    "text": "time"
+  },
+  {
+    "start": 963.92,
+    "duration": 4.599,
+    "text": "complexity so I know that the what is"
+  },
+  {
+    "start": 967.399,
+    "duration": 3.521,
+    "text": "the time"
+  },
+  {
+    "start": 968.519,
+    "duration": 4.68,
+    "text": "complexity I'm iterating every item only"
+  },
+  {
+    "start": 970.92,
+    "duration": 3.96,
+    "text": "once in in order and pre-order reversal"
+  },
+  {
+    "start": 973.199,
+    "duration": 5.281,
+    "text": "so the time"
+  },
+  {
+    "start": 974.88,
+    "duration": 7.24,
+    "text": "complexity is O of N and the space"
+  },
+  {
+    "start": 978.48,
+    "duration": 6.279,
+    "text": "complexity is also o of n for the hash"
+  },
+  {
+    "start": 982.12,
+    "duration": 2.639,
+    "text": "map that I"
+  },
+  {
+    "start": 984.8,
+    "duration": 5.76,
+    "text": "made that's"
+  },
+  {
+    "start": 987.16,
+    "duration": 7.359,
+    "text": "it easy okay so here I will"
+  },
+  {
+    "start": 990.56,
+    "duration": 6.519,
+    "text": "create a new"
+  },
+  {
+    "start": 994.519,
+    "duration": 5.24,
+    "text": "file"
+  },
+  {
+    "start": 997.079,
+    "duration": 4.24,
+    "text": "um"
+  },
+  {
+    "start": 999.759,
+    "duration": 3.161,
+    "text": "Java"
+  },
+  {
+    "start": 1001.319,
+    "duration": 4.601,
+    "text": "advance"
+  },
+  {
+    "start": 1002.92,
+    "duration": 3.0,
+    "text": "three"
+  },
+  {
+    "start": 1007.6,
+    "duration": 3.56,
+    "text": "questions have it as"
+  },
+  {
+    "start": 1012.399,
+    "duration": 4.281,
+    "text": "public don't need this right now and"
+  },
+  {
+    "start": 1014.72,
+    "duration": 3.479,
+    "text": "then this is the question we'll be"
+  },
+  {
+    "start": 1016.68,
+    "duration": 3.079,
+    "text": "solving so they have given given us"
+  },
+  {
+    "start": 1018.199,
+    "duration": 4.0,
+    "text": "build tree which takes pre-order in"
+  },
+  {
+    "start": 1019.759,
+    "duration": 6.08,
+    "text": "order reversal this is what the node"
+  },
+  {
+    "start": 1022.199,
+    "duration": 6.921,
+    "text": "looks like very simple stuff"
+  },
+  {
+    "start": 1025.839,
+    "duration": 6.12,
+    "text": "um we will create a helper function and"
+  },
+  {
+    "start": 1029.12,
+    "duration": 2.839,
+    "text": "we need to create a"
+  },
+  {
+    "start": 1033.439,
+    "duration": 4.64,
+    "text": "map so I will call this"
+  },
+  {
+    "start": 1036.079,
+    "duration": 5.801,
+    "text": "one"
+  },
+  {
+    "start": 1038.079,
+    "duration": 3.801,
+    "text": "prein do"
+  },
+  {
+    "start": 1042.839,
+    "duration": 3.0,
+    "text": "Java"
+  },
+  {
+    "start": 1047.4,
+    "duration": 6.159,
+    "text": "okay"
+  },
+  {
+    "start": 1050.4,
+    "duration": 6.159,
+    "text": "let me follow good naming"
+  },
+  {
+    "start": 1053.559,
+    "duration": 3.0,
+    "text": "conventions"
+  },
+  {
+    "start": 1059.0,
+    "duration": 8.48,
+    "text": "um okay build tree so what is it that"
+  },
+  {
+    "start": 1063.4,
+    "duration": 4.08,
+    "text": "I'm going to do I need a hash"
+  },
+  {
+    "start": 1068.2,
+    "duration": 8.4,
+    "text": "map of type integer type"
+  },
+  {
+    "start": 1072.24,
+    "duration": 7.2,
+    "text": "integer because I'll be storing"
+  },
+  {
+    "start": 1076.6,
+    "duration": 7.4,
+    "text": "um these integer values and"
+  },
+  {
+    "start": 1079.44,
+    "duration": 10.64,
+    "text": "correspondingly they indices 8 0 4 1 9 2"
+  },
+  {
+    "start": 1084.0,
+    "duration": 6.08,
+    "text": "2 3 5 4 1 five so on and so"
+  },
+  {
+    "start": 1091.28,
+    "duration": 3.0,
+    "text": "forth"
+  },
+  {
+    "start": 1097.0,
+    "duration": 8.0,
+    "text": "map okay sounds good for in I is equal"
+  },
+  {
+    "start": 1101.76,
+    "duration": 8.56,
+    "text": "to 0 I is less"
+  },
+  {
+    "start": 1105.0,
+    "duration": 5.32,
+    "text": "than in order dot length"
+  },
+  {
+    "start": 1111.64,
+    "duration": 8.64,
+    "text": "i++ what I'm I going to do map dop"
+  },
+  {
+    "start": 1116.44,
+    "duration": 6.88,
+    "text": "put in order of I and its"
+  },
+  {
+    "start": 1120.28,
+    "duration": 5.24,
+    "text": "index that's"
+  },
+  {
+    "start": 1123.32,
+    "duration": 5.52,
+    "text": "it I will call"
+  },
+  {
+    "start": 1125.52,
+    "duration": 6.12,
+    "text": "my helper function that I will create"
+  },
+  {
+    "start": 1128.84,
+    "duration": 4.959,
+    "text": "this will take in"
+  },
+  {
+    "start": 1131.64,
+    "duration": 5.64,
+    "text": "pre-order in"
+  },
+  {
+    "start": 1133.799,
+    "duration": 4.841,
+    "text": "order what else left and right left"
+  },
+  {
+    "start": 1137.28,
+    "duration": 3.8,
+    "text": "initially will be zero right right will"
+  },
+  {
+    "start": 1138.64,
+    "duration": 2.44,
+    "text": "be the end"
+  },
+  {
+    "start": 1143.4,
+    "duration": 8.48,
+    "text": "index what else the"
+  },
+  {
+    "start": 1146.84,
+    "duration": 5.04,
+    "text": "map and I will just return this"
+  },
+  {
+    "start": 1158.48,
+    "duration": 5.36,
+    "text": "modde"
+  },
+  {
+    "start": 1160.44,
+    "duration": 5.239,
+    "text": "public what is the type Tre"
+  },
+  {
+    "start": 1163.84,
+    "duration": 5.12,
+    "text": "node"
+  },
+  {
+    "start": 1165.679,
+    "duration": 6.681,
+    "text": "helper it's taking uh"
+  },
+  {
+    "start": 1168.96,
+    "duration": 3.4,
+    "text": "in pre-order and in"
+  },
+  {
+    "start": 1175.679,
+    "duration": 5.161,
+    "text": "order int"
+  },
+  {
+    "start": 1178.039,
+    "duration": 6.52,
+    "text": "left int"
+  },
+  {
+    "start": 1180.84,
+    "duration": 3.719,
+    "text": "right hashmap"
+  },
+  {
+    "start": 1185.039,
+    "duration": 6.841,
+    "text": "map what else is it"
+  },
+  {
+    "start": 1188.679,
+    "duration": 7.961,
+    "text": "taking that's"
+  },
+  {
+    "start": 1191.88,
+    "duration": 7.08,
+    "text": "it sound good now I need to start"
+  },
+  {
+    "start": 1196.64,
+    "duration": 4.919,
+    "text": "checking for"
+  },
+  {
+    "start": 1198.96,
+    "duration": 5.16,
+    "text": "I'll I'll start checking from the very"
+  },
+  {
+    "start": 1201.559,
+    "duration": 5.401,
+    "text": "first index of pre-order so I need a"
+  },
+  {
+    "start": 1204.12,
+    "duration": 6.559,
+    "text": "index"
+  },
+  {
+    "start": 1206.96,
+    "duration": 6.88,
+    "text": "uh base condition first of all if left"
+  },
+  {
+    "start": 1210.679,
+    "duration": 4.641,
+    "text": "is greater than right just return that"
+  },
+  {
+    "start": 1213.84,
+    "duration": 4.319,
+    "text": "is easy but I need an"
+  },
+  {
+    "start": 1215.32,
+    "duration": 4.56,
+    "text": "index I will start checking this one"
+  },
+  {
+    "start": 1218.159,
+    "duration": 5.601,
+    "text": "then two then four then eight then index"
+  },
+  {
+    "start": 1219.88,
+    "duration": 7.279,
+    "text": "number zero 1 2 3 4 5 6 7 8 till the"
+  },
+  {
+    "start": 1223.76,
+    "duration": 7.72,
+    "text": "end so I need"
+  },
+  {
+    "start": 1227.159,
+    "duration": 4.321,
+    "text": "index maybe I can take it"
+  },
+  {
+    "start": 1235.64,
+    "duration": 5.6,
+    "text": "outside"
+  },
+  {
+    "start": 1237.48,
+    "duration": 7.12,
+    "text": "something right so the current node that"
+  },
+  {
+    "start": 1241.24,
+    "duration": 7.12,
+    "text": "I am at is going to be equal to"
+  },
+  {
+    "start": 1244.6,
+    "duration": 7.4,
+    "text": "what pre-order current"
+  },
+  {
+    "start": 1248.36,
+    "duration": 5.319,
+    "text": "index then index Plus+ I will create a"
+  },
+  {
+    "start": 1252.0,
+    "duration": 4.679,
+    "text": "tree node for"
+  },
+  {
+    "start": 1253.679,
+    "duration": 3.0,
+    "text": "it"
+  },
+  {
+    "start": 1257.12,
+    "duration": 3.0,
+    "text": "right"
+  },
+  {
+    "start": 1266.679,
+    "duration": 6.24,
+    "text": "new node created now I need to add this"
+  },
+  {
+    "start": 1270.88,
+    "duration": 5.48,
+    "text": "node"
+  },
+  {
+    "start": 1272.919,
+    "duration": 5.441,
+    "text": "okay so when I'm trying to add this"
+  },
+  {
+    "start": 1276.36,
+    "duration": 4.04,
+    "text": "node uh what I'm going to do I'm going"
+  },
+  {
+    "start": 1278.36,
+    "duration": 5.76,
+    "text": "to call recursion so recursion for left"
+  },
+  {
+    "start": 1280.4,
+    "duration": 6.72,
+    "text": "and right so I'm going to say current"
+  },
+  {
+    "start": 1284.12,
+    "duration": 6.32,
+    "text": "node. left is equal to recursion current"
+  },
+  {
+    "start": 1287.12,
+    "duration": 3.32,
+    "text": "node. right is equal to"
+  },
+  {
+    "start": 1295.4,
+    "duration": 6.639,
+    "text": "recursion uh pre-order will not"
+  },
+  {
+    "start": 1298.48,
+    "duration": 6.199,
+    "text": "change in order I will pass as it"
+  },
+  {
+    "start": 1302.039,
+    "duration": 4.441,
+    "text": "is when I'm talking about left then left"
+  },
+  {
+    "start": 1304.679,
+    "duration": 4.521,
+    "text": "will not change but right will become"
+  },
+  {
+    "start": 1306.48,
+    "duration": 5.439,
+    "text": "index minus one I just showed you index"
+  },
+  {
+    "start": 1309.2,
+    "duration": 2.719,
+    "text": "minus"
+  },
+  {
+    "start": 1315.08,
+    "duration": 5.44,
+    "text": "one map will be passed as it is"
+  },
+  {
+    "start": 1319.24,
+    "duration": 5.52,
+    "text": "similarly"
+  },
+  {
+    "start": 1320.52,
+    "duration": 6.68,
+    "text": "here left will become index + one right"
+  },
+  {
+    "start": 1324.76,
+    "duration": 2.44,
+    "text": "will not"
+  },
+  {
+    "start": 1327.679,
+    "duration": 5.281,
+    "text": "change in the end just return the"
+  },
+  {
+    "start": 1333.039,
+    "duration": 5.76,
+    "text": "node"
+  },
+  {
+    "start": 1335.64,
+    "duration": 3.159,
+    "text": "okay what"
+  },
+  {
+    "start": 1339.159,
+    "duration": 5.681,
+    "text": "else so one more"
+  },
+  {
+    "start": 1341.919,
+    "duration": 5.681,
+    "text": "thing um"
+  },
+  {
+    "start": 1344.84,
+    "duration": 5.64,
+    "text": "if left becomes equal to equal to right"
+  },
+  {
+    "start": 1347.6,
+    "duration": 6.16,
+    "text": "this means that I'm at my leaf"
+  },
+  {
+    "start": 1350.48,
+    "duration": 6.64,
+    "text": "node okay so I don't have to go in the"
+  },
+  {
+    "start": 1353.76,
+    "duration": 3.36,
+    "text": "left and right I can just return"
+  },
+  {
+    "start": 1357.159,
+    "duration": 5.0,
+    "text": "it sound"
+  },
+  {
+    "start": 1359.6,
+    "duration": 5.4,
+    "text": "good that's basically about it is there"
+  },
+  {
+    "start": 1362.159,
+    "duration": 2.841,
+    "text": "anything else we need to"
+  },
+  {
+    "start": 1365.4,
+    "duration": 3.0,
+    "text": "do"
+  },
+  {
+    "start": 1369.279,
+    "duration": 4.481,
+    "text": "no okay let's copy"
+  },
+  {
+    "start": 1376.96,
+    "duration": 4.16,
+    "text": "this"
+  },
+  {
+    "start": 1378.64,
+    "duration": 2.48,
+    "text": "past it"
+  },
+  {
+    "start": 1394.88,
+    "duration": 7.36,
+    "text": "run little"
+  },
+  {
+    "start": 1397.64,
+    "duration": 4.6,
+    "text": "typo I make lots of typos it's"
+  },
+  {
+    "start": 1403.08,
+    "duration": 3.56,
+    "text": "fine oh return"
+  },
+  {
+    "start": 1406.88,
+    "duration": 3.0,
+    "text": "null"
+  },
+  {
+    "start": 1411.88,
+    "duration": 2.44,
+    "text": "out of"
+  },
+  {
+    "start": 1415.44,
+    "duration": 6.76,
+    "text": "bound it's giving me outof bound"
+  },
+  {
+    "start": 1418.799,
+    "duration": 3.401,
+    "text": "error H"
+  },
+  {
+    "start": 1425.039,
+    "duration": 5.52,
+    "text": "interesting out of"
+  },
+  {
+    "start": 1428.12,
+    "duration": 5.6,
+    "text": "bound because I'm handling current index"
+  },
+  {
+    "start": 1430.559,
+    "duration": 5.521,
+    "text": "index and also D it putting a d poter"
+  },
+  {
+    "start": 1433.72,
+    "duration": 2.36,
+    "text": "but"
+  },
+  {
+    "start": 1436.88,
+    "duration": 3.0,
+    "text": "um"
+  },
+  {
+    "start": 1447.919,
+    "duration": 2.841,
+    "text": "okay okay I"
+  },
+  {
+    "start": 1450.96,
+    "duration": 5.37,
+    "text": "understand"
+  },
+  {
+    "start": 1453.96,
+    "duration": 5.45,
+    "text": "um I understand"
+  },
+  {
+    "start": 1456.33,
+    "duration": 3.08,
+    "text": "[Music]"
+  },
+  {
+    "start": 1459.84,
+    "duration": 5.839,
+    "text": "um let's see okay so in a this won't"
+  },
+  {
+    "start": 1463.96,
+    "duration": 5.839,
+    "text": "work can't take it at static because I"
+  },
+  {
+    "start": 1465.679,
+    "duration": 4.12,
+    "text": "have to change it like um"
+  },
+  {
+    "start": 1475.24,
+    "duration": 3.439,
+    "text": "yeah because I have to change"
+  },
+  {
+    "start": 1476.919,
+    "duration": 5.081,
+    "text": "it in"
+  },
+  {
+    "start": 1478.679,
+    "duration": 7.12,
+    "text": "every step maybe I can try passing it"
+  },
+  {
+    "start": 1482.0,
+    "duration": 5.399,
+    "text": "in in index but I can't add int as"
+  },
+  {
+    "start": 1485.799,
+    "duration": 4.961,
+    "text": "because if I pass it like this it will"
+  },
+  {
+    "start": 1487.399,
+    "duration": 3.361,
+    "text": "be primitive"
+  },
+  {
+    "start": 1496.24,
+    "duration": 3.919,
+    "text": "um maybe I can create an"
+  },
+  {
+    "start": 1500.44,
+    "duration": 6.4,
+    "text": "array have just one element in"
+  },
+  {
+    "start": 1503.32,
+    "duration": 3.52,
+    "text": "it and pass"
+  },
+  {
+    "start": 1516.32,
+    "duration": 3.64,
+    "text": "that maybe that should"
+  },
+  {
+    "start": 1526.679,
+    "duration": 3.0,
+    "text": "work"
+  },
+  {
+    "start": 1536.12,
+    "duration": 2.96,
+    "text": "oh index minus"
+  },
+  {
+    "start": 1542.76,
+    "duration": 5.72,
+    "text": "one index of"
+  },
+  {
+    "start": 1545.6,
+    "duration": 6.079,
+    "text": "zero index of"
+  },
+  {
+    "start": 1548.48,
+    "duration": 6.96,
+    "text": "Zero no no no"
+  },
+  {
+    "start": 1551.679,
+    "duration": 3.761,
+    "text": "no not index of"
+  },
+  {
+    "start": 1556.679,
+    "duration": 4.681,
+    "text": "zero"
+  },
+  {
+    "start": 1558.679,
+    "duration": 2.681,
+    "text": "yeah index of"
+  },
+  {
+    "start": 1566.64,
+    "duration": 7.0,
+    "text": "Zero"
+  },
+  {
+    "start": 1569.08,
+    "duration": 4.56,
+    "text": "no this is a current index that I"
+  },
+  {
+    "start": 1574.52,
+    "duration": 3.0,
+    "text": "have"
+  },
+  {
+    "start": 1579.039,
+    "duration": 3.201,
+    "text": "oh hold"
+  },
+  {
+    "start": 1582.44,
+    "duration": 7.839,
+    "text": "on I did not even find the"
+  },
+  {
+    "start": 1586.279,
+    "duration": 4.0,
+    "text": "index you know to create the"
+  },
+  {
+    "start": 1591.72,
+    "duration": 4.839,
+    "text": "node so if this is if left is equal to"
+  },
+  {
+    "start": 1594.559,
+    "duration": 5.201,
+    "text": "equal to right return the"
+  },
+  {
+    "start": 1596.559,
+    "duration": 5.36,
+    "text": "node otherwise I have to find the index"
+  },
+  {
+    "start": 1599.76,
+    "duration": 5.639,
+    "text": "right I didn't even use the"
+  },
+  {
+    "start": 1601.919,
+    "duration": 3.48,
+    "text": "map so I can"
+  },
+  {
+    "start": 1606.84,
+    "duration": 5.079,
+    "text": "say current"
+  },
+  {
+    "start": 1609.12,
+    "duration": 5.279,
+    "text": "index of the in"
+  },
+  {
+    "start": 1611.919,
+    "duration": 6.48,
+    "text": "order in"
+  },
+  {
+    "start": 1614.399,
+    "duration": 6.4,
+    "text": "order index is equal to what"
+  },
+  {
+    "start": 1618.399,
+    "duration": 3.921,
+    "text": "map."
+  },
+  {
+    "start": 1620.799,
+    "duration": 3.201,
+    "text": "get"
+  },
+  {
+    "start": 1622.32,
+    "duration": 6.079,
+    "text": "what"
+  },
+  {
+    "start": 1624.0,
+    "duration": 4.399,
+    "text": "current this in order index will come"
+  },
+  {
+    "start": 1637.799,
+    "duration": 7.48,
+    "text": "here that works nice okay and we can see"
+  },
+  {
+    "start": 1640.88,
+    "duration": 8.64,
+    "text": "it's accepted as uh well so easy uh just"
+  },
+  {
+    "start": 1645.279,
+    "duration": 4.241,
+    "text": "we had to see what we did"
+  },
+  {
+    "start": 1649.6,
+    "duration": 4.4,
+    "text": "taking one by one every element figuring"
+  },
+  {
+    "start": 1652.159,
+    "duration": 3.561,
+    "text": "out where this lies in the in order"
+  },
+  {
+    "start": 1654.0,
+    "duration": 6.799,
+    "text": "array we use the"
+  },
+  {
+    "start": 1655.72,
+    "duration": 7.24,
+    "text": "map so we use the map for it map. getet"
+  },
+  {
+    "start": 1660.799,
+    "duration": 5.041,
+    "text": "current you will get that index then"
+  },
+  {
+    "start": 1662.96,
+    "duration": 4.64,
+    "text": "using that index you will split index"
+  },
+  {
+    "start": 1665.84,
+    "duration": 4.679,
+    "text": "minus one index +"
+  },
+  {
+    "start": 1667.6,
+    "duration": 3.799,
+    "text": "one simple all right if you have any"
+  },
+  {
+    "start": 1670.519,
+    "duration": 2.561,
+    "text": "questions let me know in the comment"
+  },
+  {
+    "start": 1671.399,
+    "duration": 3.361,
+    "text": "section below make sure like subscribe"
+  },
+  {
+    "start": 1673.08,
+    "duration": 3.599,
+    "text": "and follow for more videos so in the"
+  },
+  {
+    "start": 1674.76,
+    "duration": 4.039,
+    "text": "next video we'll be doing more advanced"
+  },
+  {
+    "start": 1676.679,
+    "duration": 4.12,
+    "text": "threee questions uh using other data"
+  },
+  {
+    "start": 1678.799,
+    "duration": 5.691,
+    "text": "structures algorithms and then we'll be"
+  },
+  {
+    "start": 1680.799,
+    "duration": 7.901,
+    "text": "moving forward with our boot camp see"
+  },
+  {
+    "start": 1684.49,
+    "duration": 4.21,
+    "text": "[Music]"
+  },
+  {
+    "start": 1690.039,
+    "duration": 3.0,
+    "text": "you"
+  }
+]

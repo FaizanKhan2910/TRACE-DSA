@@ -1,0 +1,9087 @@
+[
+  {
+    "start": 0.0,
+    "duration": 3.28,
+    "text": "Hey everyone, welcome back to my channel"
+  },
+  {
+    "start": 1.44,
+    "duration": 3.2,
+    "text": "another new video. We are continuing the"
+  },
+  {
+    "start": 3.28,
+    "duration": 3.36,
+    "text": "data structures algorithms interview"
+  },
+  {
+    "start": 4.64,
+    "duration": 4.24,
+    "text": "preparation boot camp. We just finished"
+  },
+  {
+    "start": 6.64,
+    "duration": 5.12,
+    "text": "with binary trees. We did the complete"
+  },
+  {
+    "start": 8.88,
+    "duration": 4.96,
+    "text": "five hour long questions video. So if"
+  },
+  {
+    "start": 11.76,
+    "duration": 3.8,
+    "text": "you want to solve any binary interview"
+  },
+  {
+    "start": 13.84,
+    "duration": 3.2,
+    "text": "question, watch that video. But the"
+  },
+  {
+    "start": 15.56,
+    "duration": 2.76,
+    "text": "playlist link to everything all the"
+  },
+  {
+    "start": 17.04,
+    "duration": 3.2,
+    "text": "links code links can be found in the"
+  },
+  {
+    "start": 18.32,
+    "duration": 3.52,
+    "text": "description below. If you're preparing"
+  },
+  {
+    "start": 20.24,
+    "duration": 3.84,
+    "text": "for your interviews, you can check that"
+  },
+  {
+    "start": 21.84,
+    "duration": 4.48,
+    "text": "check that out. But in this video we're"
+  },
+  {
+    "start": 24.08,
+    "duration": 3.96,
+    "text": "going to start with heaps."
+  },
+  {
+    "start": 26.32,
+    "duration": 4.96,
+    "text": "Very important data structure for coding"
+  },
+  {
+    "start": 28.04,
+    "duration": 6.12,
+    "text": "interviews. It's easy and nothing too"
+  },
+  {
+    "start": 31.28,
+    "duration": 5.32,
+    "text": "difficult. Very simple. And we'll be"
+  },
+  {
+    "start": 34.16,
+    "duration": 4.88,
+    "text": "making two videos. So in this video I'll"
+  },
+  {
+    "start": 36.6,
+    "duration": 4.76,
+    "text": "teach you about heaps. What are heaps,"
+  },
+  {
+    "start": 39.04,
+    "duration": 4.84,
+    "text": "how it works, the benefits, complete"
+  },
+  {
+    "start": 41.36,
+    "duration": 5.4,
+    "text": "theory, complete code."
+  },
+  {
+    "start": 43.88,
+    "duration": 5.08,
+    "text": "Heap sort, priority queue. And custom"
+  },
+  {
+    "start": 46.76,
+    "duration": 4.0,
+    "text": "implementation. So everything from"
+  },
+  {
+    "start": 48.96,
+    "duration": 4.88,
+    "text": "scratch we will learn everything about"
+  },
+  {
+    "start": 50.76,
+    "duration": 5.12,
+    "text": "heap. And in the next video we'll do a"
+  },
+  {
+    "start": 53.84,
+    "duration": 3.76,
+    "text": "heaps interview questions video. So if"
+  },
+  {
+    "start": 55.88,
+    "duration": 3.88,
+    "text": "you have been following my boot camp,"
+  },
+  {
+    "start": 57.6,
+    "duration": 3.68,
+    "text": "you know the format I go with. I do a"
+  },
+  {
+    "start": 59.76,
+    "duration": 4.32,
+    "text": "theory video then I do a questions"
+  },
+  {
+    "start": 61.28,
+    "duration": 4.48,
+    "text": "video. So after that we'll do probably a"
+  },
+  {
+    "start": 64.08,
+    "duration": 3.56,
+    "text": "I don't know, five six hour long cuz"
+  },
+  {
+    "start": 65.76,
+    "duration": 4.88,
+    "text": "heaps is an important topic. There are"
+  },
+  {
+    "start": 67.64,
+    "duration": 5.6,
+    "text": "many important concepts in it. So"
+  },
+  {
+    "start": 70.64,
+    "duration": 5.04,
+    "text": "I'll do that. But after this I'll I"
+  },
+  {
+    "start": 73.24,
+    "duration": 4.08,
+    "text": "believe I'll also add in hash maps. Uh"
+  },
+  {
+    "start": 75.68,
+    "duration": 4.44,
+    "text": "the how hash maps work and how hash maps"
+  },
+  {
+    "start": 77.32,
+    "duration": 4.84,
+    "text": "introduction because um"
+  },
+  {
+    "start": 80.12,
+    "duration": 3.6,
+    "text": "heaps and hash maps get questions that"
+  },
+  {
+    "start": 82.16,
+    "duration": 3.48,
+    "text": "use both of these data structures. So I"
+  },
+  {
+    "start": 83.72,
+    "duration": 3.6,
+    "text": "want to make sure I cover both. So but"
+  },
+  {
+    "start": 85.64,
+    "duration": 3.88,
+    "text": "don't worry. What I would recommend is"
+  },
+  {
+    "start": 87.32,
+    "duration": 4.44,
+    "text": "what follow the order in which I have"
+  },
+  {
+    "start": 89.52,
+    "duration": 3.84,
+    "text": "added it in the playlist."
+  },
+  {
+    "start": 91.76,
+    "duration": 3.08,
+    "text": "It's uh"
+  },
+  {
+    "start": 93.36,
+    "duration": 2.4,
+    "text": "whatever you need. Okay, that's all you"
+  },
+  {
+    "start": 94.84,
+    "duration": 2.92,
+    "text": "need."
+  },
+  {
+    "start": 95.76,
+    "duration": 3.92,
+    "text": "So let's lock learn about heaps in this"
+  },
+  {
+    "start": 97.76,
+    "duration": 3.52,
+    "text": "video. In the next video we'll do heaps"
+  },
+  {
+    "start": 99.68,
+    "duration": 2.88,
+    "text": "questions and learn about hash maps and"
+  },
+  {
+    "start": 101.28,
+    "duration": 3.08,
+    "text": "all sorts of things."
+  },
+  {
+    "start": 102.56,
+    "duration": 2.56,
+    "text": "If you haven't already"
+  },
+  {
+    "start": 104.36,
+    "duration": 2.68,
+    "text": "make sure you like, share, and"
+  },
+  {
+    "start": 105.12,
+    "duration": 3.52,
+    "text": "subscribe. Comment if you like the video"
+  },
+  {
+    "start": 107.04,
+    "duration": 3.48,
+    "text": "because it will help it reach more"
+  },
+  {
+    "start": 108.64,
+    "duration": 4.2,
+    "text": "people. You can join the learning public"
+  },
+  {
+    "start": 110.52,
+    "duration": 5.04,
+    "text": "initiative. Share it on socials using"
+  },
+  {
+    "start": 112.84,
+    "duration": 5.68,
+    "text": "hashtag DSA with Kunal. And uh yeah,"
+  },
+  {
+    "start": 115.56,
+    "duration": 2.96,
+    "text": "let's get started with heaps."
+  },
+  {
+    "start": 120.64,
+    "duration": 4.28,
+    "text": "Okay. So first I will tell you about why"
+  },
+  {
+    "start": 122.88,
+    "duration": 4.72,
+    "text": "we are using heaps. Then I will tell you"
+  },
+  {
+    "start": 124.92,
+    "duration": 4.839,
+    "text": "about how it works. And then we'll see"
+  },
+  {
+    "start": 127.6,
+    "duration": 4.8,
+    "text": "it in action like how to how to make"
+  },
+  {
+    "start": 129.759,
+    "duration": 4.001,
+    "text": "heap. Heaps, right? So forget about you"
+  },
+  {
+    "start": 132.4,
+    "duration": 3.08,
+    "text": "know what is heap or whatever. Just"
+  },
+  {
+    "start": 133.76,
+    "duration": 3.48,
+    "text": "think about why we are learning about"
+  },
+  {
+    "start": 135.48,
+    "duration": 4.24,
+    "text": "heaps. Okay, Kunal. We don't know"
+  },
+  {
+    "start": 137.24,
+    "duration": 3.88,
+    "text": "anything about heaps. That's fine. We"
+  },
+  {
+    "start": 139.72,
+    "duration": 3.4,
+    "text": "will learn about it later what heaps"
+  },
+  {
+    "start": 141.12,
+    "duration": 2.96,
+    "text": "are, how it works. But first tell us"
+  },
+  {
+    "start": 143.12,
+    "duration": 4.4,
+    "text": "why."
+  },
+  {
+    "start": 144.08,
+    "duration": 5.92,
+    "text": "Why are we working with heaps? So"
+  },
+  {
+    "start": 147.52,
+    "duration": 5.84,
+    "text": "the simple idea is that whenever you"
+  },
+  {
+    "start": 150.0,
+    "duration": 5.4,
+    "text": "want to get a particular element"
+  },
+  {
+    "start": 153.36,
+    "duration": 6.12,
+    "text": "a particular item, let's say. You want"
+  },
+  {
+    "start": 155.4,
+    "duration": 6.04,
+    "text": "to get some item that um"
+  },
+  {
+    "start": 159.48,
+    "duration": 4.76,
+    "text": "follows some sort of a criteria. For"
+  },
+  {
+    "start": 161.44,
+    "duration": 6.0,
+    "text": "example storing uh"
+  },
+  {
+    "start": 164.24,
+    "duration": 4.56,
+    "text": "10 numbers. So the criteria is smallest"
+  },
+  {
+    "start": 167.44,
+    "duration": 2.8,
+    "text": "number. I want to get the smallest"
+  },
+  {
+    "start": 168.8,
+    "duration": 2.84,
+    "text": "number."
+  },
+  {
+    "start": 170.24,
+    "duration": 3.16,
+    "text": "Okay."
+  },
+  {
+    "start": 171.64,
+    "duration": 3.96,
+    "text": "That is the criteria. Now you're like,"
+  },
+  {
+    "start": 173.4,
+    "duration": 3.72,
+    "text": "Kunal, how are we going to do this?"
+  },
+  {
+    "start": 175.6,
+    "duration": 4.04,
+    "text": "How to do this?"
+  },
+  {
+    "start": 177.12,
+    "duration": 4.28,
+    "text": "So you can store it in an array. You can"
+  },
+  {
+    "start": 179.64,
+    "duration": 3.36,
+    "text": "search for the element."
+  },
+  {
+    "start": 181.4,
+    "duration": 2.8,
+    "text": "You can search for the element. Uh it"
+  },
+  {
+    "start": 183.0,
+    "duration": 3.24,
+    "text": "will take"
+  },
+  {
+    "start": 184.2,
+    "duration": 4.92,
+    "text": "you know, you can do like um"
+  },
+  {
+    "start": 186.24,
+    "duration": 4.84,
+    "text": "linear search if it's an unsorted array."
+  },
+  {
+    "start": 189.12,
+    "duration": 4.0,
+    "text": "And uh you can"
+  },
+  {
+    "start": 191.08,
+    "duration": 4.48,
+    "text": "store it in a tree if you want."
+  },
+  {
+    "start": 193.12,
+    "duration": 6.16,
+    "text": "Okay, you can do all sorts of things."
+  },
+  {
+    "start": 195.56,
+    "duration": 5.88,
+    "text": "But the idea is that my main problem, my"
+  },
+  {
+    "start": 199.28,
+    "duration": 4.72,
+    "text": "main concern"
+  },
+  {
+    "start": 201.44,
+    "duration": 3.4,
+    "text": "my main task, for example, my main task"
+  },
+  {
+    "start": 204.0,
+    "duration": 3.04,
+    "text": "is"
+  },
+  {
+    "start": 204.84,
+    "duration": 4.72,
+    "text": "to get that smallest item. That's my"
+  },
+  {
+    "start": 207.04,
+    "duration": 5.16,
+    "text": "main task. Meaning"
+  },
+  {
+    "start": 209.56,
+    "duration": 5.08,
+    "text": "I give you 10 numbers. Okay. I'm like,"
+  },
+  {
+    "start": 212.2,
+    "duration": 3.64,
+    "text": "hey, here are 10 numbers. I'll give you"
+  },
+  {
+    "start": 214.64,
+    "duration": 2.6,
+    "text": "first number, then I'll give you second"
+  },
+  {
+    "start": 215.84,
+    "duration": 2.32,
+    "text": "number, then I'll give you third number."
+  },
+  {
+    "start": 217.24,
+    "duration": 2.64,
+    "text": "You will store it in your data"
+  },
+  {
+    "start": 218.16,
+    "duration": 4.16,
+    "text": "structure. I'll give you fourth number,"
+  },
+  {
+    "start": 219.88,
+    "duration": 3.76,
+    "text": "you store it in your data structure."
+  },
+  {
+    "start": 222.32,
+    "duration": 2.64,
+    "text": "Give you fifth number, you store it in"
+  },
+  {
+    "start": 223.64,
+    "duration": 2.92,
+    "text": "your data structure."
+  },
+  {
+    "start": 224.96,
+    "duration": 2.84,
+    "text": "So on and so forth. I give you 10"
+  },
+  {
+    "start": 226.56,
+    "duration": 4.0,
+    "text": "numbers."
+  },
+  {
+    "start": 227.8,
+    "duration": 4.28,
+    "text": "Now I'm like, give me the smallest item."
+  },
+  {
+    "start": 230.56,
+    "duration": 2.8,
+    "text": "So let's see how that works. So here's"
+  },
+  {
+    "start": 232.08,
+    "duration": 3.8,
+    "text": "my whiteboard."
+  },
+  {
+    "start": 233.36,
+    "duration": 5.24,
+    "text": "And here if I say, let's say I'm storing"
+  },
+  {
+    "start": 235.88,
+    "duration": 4.92,
+    "text": "the numbers in array. Okay, no problem."
+  },
+  {
+    "start": 238.6,
+    "duration": 4.28,
+    "text": "So I store the number in array."
+  },
+  {
+    "start": 240.8,
+    "duration": 3.4,
+    "text": "I give the first number three. Second"
+  },
+  {
+    "start": 242.88,
+    "duration": 4.32,
+    "text": "number I give"
+  },
+  {
+    "start": 244.2,
+    "duration": 6.44,
+    "text": "uh eight. Third number I give four."
+  },
+  {
+    "start": 247.2,
+    "duration": 5.68,
+    "text": "Fourth number I give 19. Then I give 20."
+  },
+  {
+    "start": 250.64,
+    "duration": 5.879,
+    "text": "Then I give"
+  },
+  {
+    "start": 252.88,
+    "duration": 6.44,
+    "text": "two. Then I give 36. I give these many"
+  },
+  {
+    "start": 256.519,
+    "duration": 4.801,
+    "text": "numbers. 1 2 3 4 5 6 7."
+  },
+  {
+    "start": 259.32,
+    "duration": 4.08,
+    "text": "Now the next question is, okay I have"
+  },
+  {
+    "start": 261.32,
+    "duration": 3.92,
+    "text": "just given you seven numbers or n"
+  },
+  {
+    "start": 263.4,
+    "duration": 5.08,
+    "text": "numbers."
+  },
+  {
+    "start": 265.24,
+    "duration": 4.72,
+    "text": "Can you please find the smallest number"
+  },
+  {
+    "start": 268.48,
+    "duration": 4.2,
+    "text": "in the all the numbers I've given to"
+  },
+  {
+    "start": 269.96,
+    "duration": 4.64,
+    "text": "you? That is one condition. Smallest"
+  },
+  {
+    "start": 272.68,
+    "duration": 3.68,
+    "text": "number. This condition can be anything,"
+  },
+  {
+    "start": 274.6,
+    "duration": 2.84,
+    "text": "but just to simplify the process I have"
+  },
+  {
+    "start": 276.36,
+    "duration": 3.32,
+    "text": "taken a"
+  },
+  {
+    "start": 277.44,
+    "duration": 3.96,
+    "text": "simple condition. It can also be give me"
+  },
+  {
+    "start": 279.68,
+    "duration": 4.04,
+    "text": "the maximum number."
+  },
+  {
+    "start": 281.4,
+    "duration": 3.76,
+    "text": "Or it can also be something like uh"
+  },
+  {
+    "start": 283.72,
+    "duration": 2.48,
+    "text": "let's say these are you have done object"
+  },
+  {
+    "start": 285.16,
+    "duration": 2.48,
+    "text": "oriented programming. So let's say"
+  },
+  {
+    "start": 286.2,
+    "duration": 3.12,
+    "text": "instead of numbers these are human"
+  },
+  {
+    "start": 287.64,
+    "duration": 3.2,
+    "text": "objects. So you can be like, give me the"
+  },
+  {
+    "start": 289.32,
+    "duration": 3.52,
+    "text": "smallest age."
+  },
+  {
+    "start": 290.84,
+    "duration": 3.24,
+    "text": "Or something like that. For simplicity"
+  },
+  {
+    "start": 292.84,
+    "duration": 4.24,
+    "text": "let's say smallest number is the"
+  },
+  {
+    "start": 294.08,
+    "duration": 4.56,
+    "text": "criteria over here. Please don't don't"
+  },
+  {
+    "start": 297.08,
+    "duration": 2.84,
+    "text": "worry too much, okay? Think about the"
+  },
+  {
+    "start": 298.64,
+    "duration": 3.56,
+    "text": "criteria."
+  },
+  {
+    "start": 299.92,
+    "duration": 4.04,
+    "text": "That's the main point over here. So the"
+  },
+  {
+    "start": 302.2,
+    "duration": 3.36,
+    "text": "criteria is, Kunal, give me the smallest"
+  },
+  {
+    "start": 303.96,
+    "duration": 3.56,
+    "text": "number of all the n numbers I have given"
+  },
+  {
+    "start": 305.56,
+    "duration": 4.0,
+    "text": "you. You'll be like, okay, it's in an"
+  },
+  {
+    "start": 307.52,
+    "duration": 4.24,
+    "text": "array. I will just do a linear search."
+  },
+  {
+    "start": 309.56,
+    "duration": 5.32,
+    "text": "So in O of n"
+  },
+  {
+    "start": 311.76,
+    "duration": 3.12,
+    "text": "I can give you"
+  },
+  {
+    "start": 315.36,
+    "duration": 6.52,
+    "text": "smallest number."
+  },
+  {
+    "start": 318.36,
+    "duration": 6.8,
+    "text": "You're like, okay, that's nice. Not bad."
+  },
+  {
+    "start": 321.88,
+    "duration": 6.08,
+    "text": "But the thing is my main task what I"
+  },
+  {
+    "start": 325.16,
+    "duration": 5.64,
+    "text": "want this data structure to do my main"
+  },
+  {
+    "start": 327.96,
+    "duration": 5.52,
+    "text": "task is that I want the conditioned"
+  },
+  {
+    "start": 330.8,
+    "duration": 5.36,
+    "text": "item. So for example, in this case"
+  },
+  {
+    "start": 333.48,
+    "duration": 5.12,
+    "text": "I want the smallest item as fast as"
+  },
+  {
+    "start": 336.16,
+    "duration": 4.44,
+    "text": "possible. Let's say constant time. Means"
+  },
+  {
+    "start": 338.6,
+    "duration": 4.88,
+    "text": "in just one single step"
+  },
+  {
+    "start": 340.6,
+    "duration": 2.88,
+    "text": "give me that item."
+  },
+  {
+    "start": 344.32,
+    "duration": 3.76,
+    "text": "Smallest item."
+  },
+  {
+    "start": 345.72,
+    "duration": 4.36,
+    "text": "In just one single step."
+  },
+  {
+    "start": 348.08,
+    "duration": 3.84,
+    "text": "So I give you 10 numbers. I give you 100"
+  },
+  {
+    "start": 350.08,
+    "duration": 3.32,
+    "text": "numbers. That's fine. You will keep"
+  },
+  {
+    "start": 351.92,
+    "duration": 2.92,
+    "text": "inserting that in a data structure of"
+  },
+  {
+    "start": 353.4,
+    "duration": 4.28,
+    "text": "your choice. Whatever you like, linked"
+  },
+  {
+    "start": 354.84,
+    "duration": 4.0,
+    "text": "list, array or heaps for example. You"
+  },
+  {
+    "start": 357.68,
+    "duration": 2.4,
+    "text": "don't know about heaps, but we will"
+  },
+  {
+    "start": 358.84,
+    "duration": 2.52,
+    "text": "learn. That's actually the answer."
+  },
+  {
+    "start": 360.08,
+    "duration": 2.92,
+    "text": "Sorry, spoiler alert."
+  },
+  {
+    "start": 361.36,
+    "duration": 3.04,
+    "text": "Give you 100 numbers. Okay, you store it"
+  },
+  {
+    "start": 363.0,
+    "duration": 3.44,
+    "text": "in the data structure. Okay. Now I ask"
+  },
+  {
+    "start": 364.4,
+    "duration": 4.08,
+    "text": "you give me I gave you 100 numbers,"
+  },
+  {
+    "start": 366.44,
+    "duration": 4.28,
+    "text": "right? Give me the smallest number of"
+  },
+  {
+    "start": 368.48,
+    "duration": 4.0,
+    "text": "all of these 100 numbers. That answer,"
+  },
+  {
+    "start": 370.72,
+    "duration": 3.52,
+    "text": "like okay, this is the smallest number"
+  },
+  {
+    "start": 372.48,
+    "duration": 5.56,
+    "text": "should be in constant time. No searching"
+  },
+  {
+    "start": 374.24,
+    "duration": 5.48,
+    "text": "required, nothing. In constant time."
+  },
+  {
+    "start": 378.04,
+    "duration": 3.32,
+    "text": "How can you do that? Now you'll be like,"
+  },
+  {
+    "start": 379.72,
+    "duration": 2.6,
+    "text": "okay, Kunal, let's store it in an array"
+  },
+  {
+    "start": 381.36,
+    "duration": 3.0,
+    "text": "only."
+  },
+  {
+    "start": 382.32,
+    "duration": 4.76,
+    "text": "But every time you insert an element,"
+  },
+  {
+    "start": 384.36,
+    "duration": 2.72,
+    "text": "sort the array."
+  },
+  {
+    "start": 387.44,
+    "duration": 3.68,
+    "text": "Every time you insert the element, sort"
+  },
+  {
+    "start": 389.24,
+    "duration": 3.68,
+    "text": "the array. So for example I'll be like,"
+  },
+  {
+    "start": 391.12,
+    "duration": 4.6,
+    "text": "okay, insert uh"
+  },
+  {
+    "start": 392.92,
+    "duration": 4.4,
+    "text": "three. So initially it's empty."
+  },
+  {
+    "start": 395.72,
+    "duration": 3.44,
+    "text": "You'll be like, insert eight. Okay,"
+  },
+  {
+    "start": 397.32,
+    "duration": 4.4,
+    "text": "eight inserted. Now I'll be like, insert"
+  },
+  {
+    "start": 399.16,
+    "duration": 4.08,
+    "text": "four. Okay, four inserted. But you can"
+  },
+  {
+    "start": 401.72,
+    "duration": 4.36,
+    "text": "see now the array has become unsorted."
+  },
+  {
+    "start": 403.24,
+    "duration": 2.84,
+    "text": "So I will sort it."
+  },
+  {
+    "start": 406.88,
+    "duration": 6.0,
+    "text": "Like insert 19. Okay, added. Insert 20."
+  },
+  {
+    "start": 410.36,
+    "duration": 5.92,
+    "text": "Added. Insert two. Okay, added. But now"
+  },
+  {
+    "start": 412.88,
+    "duration": 3.4,
+    "text": "it's unsorted, so sort it."
+  },
+  {
+    "start": 416.8,
+    "duration": 5.12,
+    "text": "Insert 36. Added. So on and so forth."
+  },
+  {
+    "start": 420.04,
+    "duration": 4.36,
+    "text": "Now I'll be like, okay"
+  },
+  {
+    "start": 421.92,
+    "duration": 4.68,
+    "text": "uh give me the smallest element. You can"
+  },
+  {
+    "start": 424.4,
+    "duration": 6.0,
+    "text": "now give it in constant time. Because"
+  },
+  {
+    "start": 426.6,
+    "duration": 3.8,
+    "text": "it's the element at the zeroth index."
+  },
+  {
+    "start": 432.4,
+    "duration": 4.32,
+    "text": "But there's a problem here which is very"
+  },
+  {
+    "start": 433.88,
+    "duration": 5.44,
+    "text": "obvious. Inserting an element is taking"
+  },
+  {
+    "start": 436.72,
+    "duration": 4.48,
+    "text": "O of n time. Why?"
+  },
+  {
+    "start": 439.32,
+    "duration": 4.36,
+    "text": "Because in the worst case scenario you"
+  },
+  {
+    "start": 441.2,
+    "duration": 6.0,
+    "text": "insert an item, then you have to"
+  },
+  {
+    "start": 443.68,
+    "duration": 5.56,
+    "text": "sort the array or whatever."
+  },
+  {
+    "start": 447.2,
+    "duration": 3.88,
+    "text": "Or actually not O of n time."
+  },
+  {
+    "start": 449.24,
+    "duration": 4.16,
+    "text": "Um"
+  },
+  {
+    "start": 451.08,
+    "duration": 3.84,
+    "text": "O of n log n time."
+  },
+  {
+    "start": 453.4,
+    "duration": 3.36,
+    "text": "Yeah."
+  },
+  {
+    "start": 454.92,
+    "duration": 3.84,
+    "text": "O of n log n."
+  },
+  {
+    "start": 456.76,
+    "duration": 4.56,
+    "text": "Or O of n squared. Whatever sorting"
+  },
+  {
+    "start": 458.76,
+    "duration": 5.0,
+    "text": "algorithm you are using. Not O of n."
+  },
+  {
+    "start": 461.32,
+    "duration": 5.12,
+    "text": "So worst case scenario you're getting"
+  },
+  {
+    "start": 463.76,
+    "duration": 4.4,
+    "text": "like you do either merge sort, whatever."
+  },
+  {
+    "start": 466.44,
+    "duration": 4.32,
+    "text": "And um"
+  },
+  {
+    "start": 468.16,
+    "duration": 5.6,
+    "text": "it's taking extra complexity."
+  },
+  {
+    "start": 470.76,
+    "duration": 5.84,
+    "text": "Okay. So for inserting an item it's"
+  },
+  {
+    "start": 473.76,
+    "duration": 5.36,
+    "text": "taking let's say on an average O of"
+  },
+  {
+    "start": 476.6,
+    "duration": 5.36,
+    "text": "n log n"
+  },
+  {
+    "start": 479.12,
+    "duration": 2.84,
+    "text": "to insert"
+  },
+  {
+    "start": 483.48,
+    "duration": 4.64,
+    "text": "one item."
+  },
+  {
+    "start": 485.24,
+    "duration": 4.68,
+    "text": "Okay, that's fine. So the answer that"
+  },
+  {
+    "start": 488.12,
+    "duration": 3.24,
+    "text": "you are getting like, Kunal, you said"
+  },
+  {
+    "start": 489.92,
+    "duration": 2.84,
+    "text": "that"
+  },
+  {
+    "start": 491.36,
+    "duration": 2.8,
+    "text": "I'm storing the data structure and the"
+  },
+  {
+    "start": 492.76,
+    "duration": 3.48,
+    "text": "main purpose of data structure is to"
+  },
+  {
+    "start": 494.16,
+    "duration": 4.0,
+    "text": "give me the query which is the"
+  },
+  {
+    "start": 496.24,
+    "duration": 3.16,
+    "text": "conditioned item, which is smallest item"
+  },
+  {
+    "start": 498.16,
+    "duration": 4.08,
+    "text": "or largest item or whatever the"
+  },
+  {
+    "start": 499.4,
+    "duration": 4.8,
+    "text": "condition is in constant time. This data"
+  },
+  {
+    "start": 502.24,
+    "duration": 3.68,
+    "text": "structure is doing that. But the problem"
+  },
+  {
+    "start": 504.2,
+    "duration": 4.36,
+    "text": "is that inserting an item is taking a"
+  },
+  {
+    "start": 505.92,
+    "duration": 2.64,
+    "text": "lot of time."
+  },
+  {
+    "start": 508.76,
+    "duration": 3.76,
+    "text": "Now the question arises, okay, this is"
+  },
+  {
+    "start": 510.28,
+    "duration": 4.04,
+    "text": "fine. So this thing is good."
+  },
+  {
+    "start": 512.52,
+    "duration": 4.199,
+    "text": "We will try to maintain the smallest"
+  },
+  {
+    "start": 514.32,
+    "duration": 3.68,
+    "text": "item at the zeroth the very first index."
+  },
+  {
+    "start": 516.719,
+    "duration": 4.44,
+    "text": "That is fine."
+  },
+  {
+    "start": 518.0,
+    "duration": 3.159,
+    "text": "Can you reduce this?"
+  },
+  {
+    "start": 521.88,
+    "duration": 3.4,
+    "text": "Can you reduce this?"
+  },
+  {
+    "start": 527.76,
+    "duration": 4.36,
+    "text": "Can you maybe make it O of log n?"
+  },
+  {
+    "start": 530.28,
+    "duration": 3.4,
+    "text": "To insert one item."
+  },
+  {
+    "start": 532.12,
+    "duration": 3.56,
+    "text": "It will take log n time. Can you do"
+  },
+  {
+    "start": 533.68,
+    "duration": 3.52,
+    "text": "that? That's the question."
+  },
+  {
+    "start": 535.68,
+    "duration": 4.6,
+    "text": "Yes."
+  },
+  {
+    "start": 537.2,
+    "duration": 3.08,
+    "text": "Answer is heap."
+  },
+  {
+    "start": 540.6,
+    "duration": 4.08,
+    "text": "Using heaps you can do it."
+  },
+  {
+    "start": 542.76,
+    "duration": 3.24,
+    "text": "So now"
+  },
+  {
+    "start": 544.68,
+    "duration": 3.28,
+    "text": "I believe you are able to understand why"
+  },
+  {
+    "start": 546.0,
+    "duration": 3.56,
+    "text": "we are using heaps. In any question when"
+  },
+  {
+    "start": 547.96,
+    "duration": 4.12,
+    "text": "you're given condition"
+  },
+  {
+    "start": 549.56,
+    "duration": 3.44,
+    "text": "like, okay, you are given"
+  },
+  {
+    "start": 552.08,
+    "duration": 4.36,
+    "text": "um"
+  },
+  {
+    "start": 553.0,
+    "duration": 5.64,
+    "text": "12 like n number of movie reviews, IMDb"
+  },
+  {
+    "start": 556.44,
+    "duration": 4.24,
+    "text": "movie reviews out of 10."
+  },
+  {
+    "start": 558.64,
+    "duration": 4.44,
+    "text": "And you have to find the highest movie"
+  },
+  {
+    "start": 560.68,
+    "duration": 4.4,
+    "text": "review at a constant time."
+  },
+  {
+    "start": 563.08,
+    "duration": 3.76,
+    "text": "So you will store it in a heap."
+  },
+  {
+    "start": 565.08,
+    "duration": 3.32,
+    "text": "I will show you how the structure is of"
+  },
+  {
+    "start": 566.84,
+    "duration": 3.68,
+    "text": "heap and everything."
+  },
+  {
+    "start": 568.4,
+    "duration": 3.6,
+    "text": "But um"
+  },
+  {
+    "start": 570.52,
+    "duration": 4.08,
+    "text": "yes."
+  },
+  {
+    "start": 572.0,
+    "duration": 4.6,
+    "text": "Okay. That's why we use heap. Anyone"
+  },
+  {
+    "start": 574.6,
+    "duration": 4.96,
+    "text": "asks you why we use heap given a"
+  },
+  {
+    "start": 576.6,
+    "duration": 5.2,
+    "text": "condition on a collection of items."
+  },
+  {
+    "start": 579.56,
+    "duration": 4.16,
+    "text": "Like, okay, I give you n items. Find me"
+  },
+  {
+    "start": 581.8,
+    "duration": 4.56,
+    "text": "the smallest item. That's the condition."
+  },
+  {
+    "start": 583.72,
+    "duration": 4.64,
+    "text": "Smallest item in constant time."
+  },
+  {
+    "start": 586.36,
+    "duration": 3.88,
+    "text": "So heaps will be used."
+  },
+  {
+    "start": 588.36,
+    "duration": 3.64,
+    "text": "O of one in constant time you will be"
+  },
+  {
+    "start": 590.24,
+    "duration": 3.64,
+    "text": "able to get that item. If you want to"
+  },
+  {
+    "start": 592.0,
+    "duration": 3.44,
+    "text": "add new items, it will take log of n."
+  },
+  {
+    "start": 593.88,
+    "duration": 3.52,
+    "text": "How it will take log of n? You don't"
+  },
+  {
+    "start": 595.44,
+    "duration": 3.6,
+    "text": "know yet. I haven't taught you that. I"
+  },
+  {
+    "start": 597.4,
+    "duration": 3.08,
+    "text": "will teach you. But just know that it"
+  },
+  {
+    "start": 599.04,
+    "duration": 3.08,
+    "text": "will take log of n. How? I will tell"
+  },
+  {
+    "start": 600.48,
+    "duration": 4.2,
+    "text": "you."
+  },
+  {
+    "start": 602.12,
+    "duration": 4.04,
+    "text": "Okay. So, that's very simple."
+  },
+  {
+    "start": 604.68,
+    "duration": 3.56,
+    "text": "Uh let's move forward to how heaps work"
+  },
+  {
+    "start": 606.16,
+    "duration": 3.4,
+    "text": "structure and why it takes log of n and"
+  },
+  {
+    "start": 608.24,
+    "duration": 2.36,
+    "text": "everything."
+  },
+  {
+    "start": 609.56,
+    "duration": 2.24,
+    "text": "Okay."
+  },
+  {
+    "start": 610.6,
+    "duration": 2.56,
+    "text": "So,"
+  },
+  {
+    "start": 611.8,
+    "duration": 3.32,
+    "text": "heap structure."
+  },
+  {
+    "start": 613.16,
+    "duration": 3.64,
+    "text": "Um"
+  },
+  {
+    "start": 615.12,
+    "duration": 3.44,
+    "text": "heap is actually stored in the form of"
+  },
+  {
+    "start": 616.8,
+    "duration": 3.32,
+    "text": "an array only. Like internally, it is"
+  },
+  {
+    "start": 618.56,
+    "duration": 3.56,
+    "text": "stored in an array."
+  },
+  {
+    "start": 620.12,
+    "duration": 3.6,
+    "text": "So,"
+  },
+  {
+    "start": 622.12,
+    "duration": 4.28,
+    "text": "it will be stored as an array, but it"
+  },
+  {
+    "start": 623.72,
+    "duration": 5.08,
+    "text": "will be represented as a tree."
+  },
+  {
+    "start": 626.4,
+    "duration": 5.04,
+    "text": "It will be represented as a tree."
+  },
+  {
+    "start": 628.8,
+    "duration": 7.04,
+    "text": "For example,"
+  },
+  {
+    "start": 631.44,
+    "duration": 6.2,
+    "text": "what I do is that um"
+  },
+  {
+    "start": 635.84,
+    "duration": 3.28,
+    "text": "let's say I insert some items. Let me"
+  },
+  {
+    "start": 637.64,
+    "duration": 3.56,
+    "text": "just show you a dry run. Okay, so here"
+  },
+  {
+    "start": 639.12,
+    "duration": 4.12,
+    "text": "is how it's going to work."
+  },
+  {
+    "start": 641.2,
+    "duration": 4.48,
+    "text": "I am going to first tell you how the"
+  },
+  {
+    "start": 643.24,
+    "duration": 3.8,
+    "text": "heap data structure is stored. Okay."
+  },
+  {
+    "start": 645.68,
+    "duration": 3.0,
+    "text": "Now, the doubt you will have over here"
+  },
+  {
+    "start": 647.04,
+    "duration": 3.4,
+    "text": "is, \"Kunal, okay, how are you"
+  },
+  {
+    "start": 648.68,
+    "duration": 4.56,
+    "text": "determining that these uh you know,"
+  },
+  {
+    "start": 650.44,
+    "duration": 4.64,
+    "text": "values are like uh how when we add, how"
+  },
+  {
+    "start": 653.24,
+    "duration": 3.84,
+    "text": "do you make sure that the smallest item"
+  },
+  {
+    "start": 655.08,
+    "duration": 3.92,
+    "text": "always or let's say the biggest item"
+  },
+  {
+    "start": 657.08,
+    "duration": 2.96,
+    "text": "always stays in the very first"
+  },
+  {
+    "start": 659.0,
+    "duration": 3.44,
+    "text": "position?\""
+  },
+  {
+    "start": 660.04,
+    "duration": 4.44,
+    "text": "We will talk about that later. Okay."
+  },
+  {
+    "start": 662.44,
+    "duration": 4.48,
+    "text": "Right now, please don't have these have"
+  },
+  {
+    "start": 664.48,
+    "duration": 4.84,
+    "text": "these doubts. Right now, I am answering"
+  },
+  {
+    "start": 666.92,
+    "duration": 5.68,
+    "text": "the question about the structure of"
+  },
+  {
+    "start": 669.32,
+    "duration": 4.36,
+    "text": "heaps. How is it actually stored?"
+  },
+  {
+    "start": 672.6,
+    "duration": 2.32,
+    "text": "Okay?"
+  },
+  {
+    "start": 673.68,
+    "duration": 3.32,
+    "text": "So,"
+  },
+  {
+    "start": 674.92,
+    "duration": 3.64,
+    "text": "here I have skipped zeroth index. Let's"
+  },
+  {
+    "start": 677.0,
+    "duration": 4.36,
+    "text": "say I told you in reality it will be"
+  },
+  {
+    "start": 678.56,
+    "duration": 5.48,
+    "text": "stored at as like an array in reality,"
+  },
+  {
+    "start": 681.36,
+    "duration": 4.56,
+    "text": "but we will visualize it like a tree."
+  },
+  {
+    "start": 684.04,
+    "duration": 4.4,
+    "text": "So, for simplicity purpose, I have"
+  },
+  {
+    "start": 685.92,
+    "duration": 4.0,
+    "text": "skipped zeroth index. Leave it empty."
+  },
+  {
+    "start": 688.44,
+    "duration": 3.64,
+    "text": "Okay, no problem."
+  },
+  {
+    "start": 689.92,
+    "duration": 5.64,
+    "text": "So, here you can see this is my uh array"
+  },
+  {
+    "start": 692.08,
+    "duration": 6.84,
+    "text": "in which heap is stored. 16 14 10 8 7 9"
+  },
+  {
+    "start": 695.56,
+    "duration": 5.279,
+    "text": "3 2 4. So, here you can see 16 14 10 8 7"
+  },
+  {
+    "start": 698.92,
+    "duration": 4.24,
+    "text": "9 3 2 4."
+  },
+  {
+    "start": 700.839,
+    "duration": 4.641,
+    "text": "Okay. This is let's say something called"
+  },
+  {
+    "start": 703.16,
+    "duration": 5.08,
+    "text": "let's say if the question is, \"I give"
+  },
+  {
+    "start": 705.48,
+    "duration": 4.12,
+    "text": "you n numbers, give me the maximum item"
+  },
+  {
+    "start": 708.24,
+    "duration": 3.16,
+    "text": "in constant time.\""
+  },
+  {
+    "start": 709.6,
+    "duration": 3.6,
+    "text": "Here the maximum is 16. You will just"
+  },
+  {
+    "start": 711.4,
+    "duration": 4.439,
+    "text": "return the first element, which is 16,"
+  },
+  {
+    "start": 713.2,
+    "duration": 4.72,
+    "text": "so that is correct. It is true."
+  },
+  {
+    "start": 715.839,
+    "duration": 3.841,
+    "text": "How it is going to be log of n or"
+  },
+  {
+    "start": 717.92,
+    "duration": 3.04,
+    "text": "whatever when we create the when we"
+  },
+  {
+    "start": 719.68,
+    "duration": 3.12,
+    "text": "insert an item or whatever, that we'll"
+  },
+  {
+    "start": 720.96,
+    "duration": 4.8,
+    "text": "look at later. Right now, let's look at"
+  },
+  {
+    "start": 722.8,
+    "duration": 5.28,
+    "text": "how it is stored actually. Okay?"
+  },
+  {
+    "start": 725.76,
+    "duration": 3.56,
+    "text": "So, in the previous example I told you"
+  },
+  {
+    "start": 728.08,
+    "duration": 2.52,
+    "text": "if someone asked you minimum item, in"
+  },
+  {
+    "start": 729.32,
+    "duration": 3.24,
+    "text": "this example I'm saying if someone asked"
+  },
+  {
+    "start": 730.6,
+    "duration": 3.84,
+    "text": "maximum item. Okay. Some of the"
+  },
+  {
+    "start": 732.56,
+    "duration": 4.8,
+    "text": "properties from which what we can see"
+  },
+  {
+    "start": 734.44,
+    "duration": 6.6,
+    "text": "over here. Property number one here, it"
+  },
+  {
+    "start": 737.36,
+    "duration": 5.96,
+    "text": "is a complete binary tree."
+  },
+  {
+    "start": 741.04,
+    "duration": 4.0,
+    "text": "Okay?"
+  },
+  {
+    "start": 743.32,
+    "duration": 4.16,
+    "text": "Represented as a complete binary tree."
+  },
+  {
+    "start": 745.04,
+    "duration": 4.92,
+    "text": "In reality, it is stored in array. It is"
+  },
+  {
+    "start": 747.48,
+    "duration": 3.52,
+    "text": "not stored like a tree in reality."
+  },
+  {
+    "start": 749.96,
+    "duration": 2.879,
+    "text": "But"
+  },
+  {
+    "start": 751.0,
+    "duration": 4.24,
+    "text": "here you can see I have listed down."
+  },
+  {
+    "start": 752.839,
+    "duration": 6.401,
+    "text": "Index number five has seven. Here also"
+  },
+  {
+    "start": 755.24,
+    "duration": 5.32,
+    "text": "index number five has seven in the tree."
+  },
+  {
+    "start": 759.24,
+    "duration": 4.72,
+    "text": "So, complete binary. You know what a"
+  },
+  {
+    "start": 760.56,
+    "duration": 6.12,
+    "text": "complete binary is? Complete binary is"
+  },
+  {
+    "start": 763.96,
+    "duration": 5.76,
+    "text": "every level is full except for the last"
+  },
+  {
+    "start": 766.68,
+    "duration": 5.36,
+    "text": "level, which is the leaf. And the leaf"
+  },
+  {
+    "start": 769.72,
+    "duration": 4.6,
+    "text": "starts from left to right."
+  },
+  {
+    "start": 772.04,
+    "duration": 3.76,
+    "text": "So, I have two here, four here. Next"
+  },
+  {
+    "start": 774.32,
+    "duration": 2.72,
+    "text": "item will here, then here, then here,"
+  },
+  {
+    "start": 775.8,
+    "duration": 3.32,
+    "text": "then here, then here. Okay?"
+  },
+  {
+    "start": 777.04,
+    "duration": 3.76,
+    "text": "Okay."
+  },
+  {
+    "start": 779.12,
+    "duration": 4.52,
+    "text": "Not a problem."
+  },
+  {
+    "start": 780.8,
+    "duration": 2.84,
+    "text": "Not an issue."
+  },
+  {
+    "start": 784.88,
+    "duration": 4.52,
+    "text": "Okay. Complete binary tree."
+  },
+  {
+    "start": 787.44,
+    "duration": 3.12,
+    "text": "The next thing I want you to notice is"
+  },
+  {
+    "start": 789.4,
+    "duration": 2.88,
+    "text": "that"
+  },
+  {
+    "start": 790.56,
+    "duration": 4.8,
+    "text": "point number two,"
+  },
+  {
+    "start": 792.28,
+    "duration": 3.08,
+    "text": "every node"
+  },
+  {
+    "start": 796.36,
+    "duration": 4.2,
+    "text": "that you can see here,"
+  },
+  {
+    "start": 798.48,
+    "duration": 5.16,
+    "text": "since this is a"
+  },
+  {
+    "start": 800.56,
+    "duration": 5.88,
+    "text": "maximum heap, a max heap, if you will."
+  },
+  {
+    "start": 803.64,
+    "duration": 4.96,
+    "text": "Because we want maximum item in constant"
+  },
+  {
+    "start": 806.44,
+    "duration": 5.88,
+    "text": "time, so it's called max heap. Here you"
+  },
+  {
+    "start": 808.6,
+    "duration": 7.0,
+    "text": "will see every node value,"
+  },
+  {
+    "start": 812.32,
+    "duration": 4.36,
+    "text": "every node value is actually greater"
+  },
+  {
+    "start": 815.6,
+    "duration": 3.96,
+    "text": "than"
+  },
+  {
+    "start": 816.68,
+    "duration": 2.88,
+    "text": "equal to"
+  },
+  {
+    "start": 819.92,
+    "duration": 6.96,
+    "text": "all of its children."
+  },
+  {
+    "start": 824.48,
+    "duration": 4.92,
+    "text": "For example, 14. 14 will be greater than"
+  },
+  {
+    "start": 826.88,
+    "duration": 5.0,
+    "text": "equal to all the things below it. That"
+  },
+  {
+    "start": 829.4,
+    "duration": 4.84,
+    "text": "is true."
+  },
+  {
+    "start": 831.88,
+    "duration": 5.2,
+    "text": "Notice something. Even though I have the"
+  },
+  {
+    "start": 834.24,
+    "duration": 5.28,
+    "text": "maximum item at the very first index, as"
+  },
+  {
+    "start": 837.08,
+    "duration": 5.0,
+    "text": "you can see over here, maximum item at"
+  },
+  {
+    "start": 839.52,
+    "duration": 5.0,
+    "text": "the very first index."
+  },
+  {
+    "start": 842.08,
+    "duration": 5.04,
+    "text": "Here, you will see that this may not be"
+  },
+  {
+    "start": 844.52,
+    "duration": 2.6,
+    "text": "sorted."
+  },
+  {
+    "start": 849.48,
+    "duration": 2.88,
+    "text": "And that is okay."
+  },
+  {
+    "start": 852.4,
+    "duration": 3.72,
+    "text": "That is fine."
+  },
+  {
+    "start": 854.16,
+    "duration": 4.32,
+    "text": "Not a problem. My concern is that the"
+  },
+  {
+    "start": 856.12,
+    "duration": 5.48,
+    "text": "first element in the array should be"
+  },
+  {
+    "start": 858.48,
+    "duration": 4.76,
+    "text": "maximum, because that's my main problem."
+  },
+  {
+    "start": 861.6,
+    "duration": 5.12,
+    "text": "I want the maximum item in constant"
+  },
+  {
+    "start": 863.24,
+    "duration": 6.4,
+    "text": "time. How we will maintain this?"
+  },
+  {
+    "start": 866.72,
+    "duration": 5.4,
+    "text": "We will tell I'll tell you later."
+  },
+  {
+    "start": 869.64,
+    "duration": 4.84,
+    "text": "Okay. Now, another doubt. Kunal, you are"
+  },
+  {
+    "start": 872.12,
+    "duration": 4.92,
+    "text": "saying it is stored in an array, but how"
+  },
+  {
+    "start": 874.48,
+    "duration": 5.52,
+    "text": "is it represented as a tree?"
+  },
+  {
+    "start": 877.04,
+    "duration": 4.88,
+    "text": "What is the logic behind it?"
+  },
+  {
+    "start": 880.0,
+    "duration": 3.92,
+    "text": "What is the logic behind it? Let's see."
+  },
+  {
+    "start": 881.92,
+    "duration": 4.64,
+    "text": "So, the logic is very simple."
+  },
+  {
+    "start": 883.92,
+    "duration": 4.24,
+    "text": "Here I can see"
+  },
+  {
+    "start": 886.56,
+    "duration": 3.96,
+    "text": "that the root"
+  },
+  {
+    "start": 888.16,
+    "duration": 4.6,
+    "text": "of the tree"
+  },
+  {
+    "start": 890.52,
+    "duration": 4.92,
+    "text": "is equal to let's say if we say I is"
+  },
+  {
+    "start": 892.76,
+    "duration": 5.36,
+    "text": "equal to one. That is true."
+  },
+  {
+    "start": 895.44,
+    "duration": 2.68,
+    "text": "That is true."
+  },
+  {
+    "start": 899.12,
+    "duration": 3.36,
+    "text": "Okay?"
+  },
+  {
+    "start": 900.48,
+    "duration": 4.64,
+    "text": "For any root,"
+  },
+  {
+    "start": 902.48,
+    "duration": 5.68,
+    "text": "sorry, not any root, for any node,"
+  },
+  {
+    "start": 905.12,
+    "duration": 3.04,
+    "text": "let's say the"
+  },
+  {
+    "start": 908.32,
+    "duration": 6.12,
+    "text": "parent of that node, let's say if I talk"
+  },
+  {
+    "start": 910.48,
+    "duration": 5.359,
+    "text": "about a node, what is the parent?"
+  },
+  {
+    "start": 914.44,
+    "duration": 3.399,
+    "text": "Parent"
+  },
+  {
+    "start": 915.839,
+    "duration": 3.441,
+    "text": "of a node i"
+  },
+  {
+    "start": 917.839,
+    "duration": 3.881,
+    "text": "is going to be equal to what? You tell"
+  },
+  {
+    "start": 919.28,
+    "duration": 4.12,
+    "text": "me. So, let's say if I talk any number."
+  },
+  {
+    "start": 921.72,
+    "duration": 3.16,
+    "text": "So, if we talk about index number five"
+  },
+  {
+    "start": 923.4,
+    "duration": 4.0,
+    "text": "over here,"
+  },
+  {
+    "start": 924.88,
+    "duration": 4.64,
+    "text": "what is the parent of five? Two. What is"
+  },
+  {
+    "start": 927.4,
+    "duration": 3.76,
+    "text": "the parent of four? Two. Okay. What is"
+  },
+  {
+    "start": 929.52,
+    "duration": 3.84,
+    "text": "the parent of eight?"
+  },
+  {
+    "start": 931.16,
+    "duration": 4.4,
+    "text": "Four."
+  },
+  {
+    "start": 933.36,
+    "duration": 4.84,
+    "text": "What is the parent of nine? Four."
+  },
+  {
+    "start": 935.56,
+    "duration": 4.96,
+    "text": "Can you see that if the number is i, if"
+  },
+  {
+    "start": 938.2,
+    "duration": 3.24,
+    "text": "the index is i, the parent is i divided"
+  },
+  {
+    "start": 940.52,
+    "duration": 3.0,
+    "text": "by two."
+  },
+  {
+    "start": 941.44,
+    "duration": 3.0,
+    "text": "What nine divided by two is? Integer"
+  },
+  {
+    "start": 943.52,
+    "duration": 3.2,
+    "text": "number?"
+  },
+  {
+    "start": 944.44,
+    "duration": 3.68,
+    "text": "Four. Because 4.5, so four. Eight"
+  },
+  {
+    "start": 946.72,
+    "duration": 4.44,
+    "text": "divided by two is four. Four is the"
+  },
+  {
+    "start": 948.12,
+    "duration": 5.12,
+    "text": "root. So, four is the parent."
+  },
+  {
+    "start": 951.16,
+    "duration": 3.679,
+    "text": "Take any example. Index number seven."
+  },
+  {
+    "start": 953.24,
+    "duration": 3.839,
+    "text": "Seven divided by two? Integer value?"
+  },
+  {
+    "start": 954.839,
+    "duration": 4.961,
+    "text": "Three. Six divided by two? Three. So,"
+  },
+  {
+    "start": 957.079,
+    "duration": 4.121,
+    "text": "the parent index of"
+  },
+  {
+    "start": 959.8,
+    "duration": 2.36,
+    "text": "six and seven is going to be equal to"
+  },
+  {
+    "start": 961.2,
+    "duration": 2.879,
+    "text": "three."
+  },
+  {
+    "start": 962.16,
+    "duration": 4.32,
+    "text": "These are indices of the arrays, okay?"
+  },
+  {
+    "start": 964.079,
+    "duration": 4.561,
+    "text": "Because we are storing it in an array."
+  },
+  {
+    "start": 966.48,
+    "duration": 5.64,
+    "text": "But how are we representing in a tree?"
+  },
+  {
+    "start": 968.64,
+    "duration": 6.199,
+    "text": "This is how. Parent of every"
+  },
+  {
+    "start": 972.12,
+    "duration": 6.04,
+    "text": "you know, every index i, the parent is"
+  },
+  {
+    "start": 974.839,
+    "duration": 3.321,
+    "text": "going to be equal to what?"
+  },
+  {
+    "start": 978.2,
+    "duration": 5.639,
+    "text": "i divided by two. So, if I look in the"
+  },
+  {
+    "start": 980.48,
+    "duration": 6.16,
+    "text": "array, I say at index number six, I have"
+  },
+  {
+    "start": 983.839,
+    "duration": 6.321,
+    "text": "nine. So, in this array, who is the"
+  },
+  {
+    "start": 986.64,
+    "duration": 5.88,
+    "text": "parent of index number six? That's easy."
+  },
+  {
+    "start": 990.16,
+    "duration": 4.84,
+    "text": "Six divided by two? Three. So, parent of"
+  },
+  {
+    "start": 992.52,
+    "duration": 4.4,
+    "text": "nine is 10."
+  },
+  {
+    "start": 995.0,
+    "duration": 4.04,
+    "text": "And that is true. That's how the tree is"
+  },
+  {
+    "start": 996.92,
+    "duration": 3.84,
+    "text": "represented."
+  },
+  {
+    "start": 999.04,
+    "duration": 3.4,
+    "text": "Similarly, for any node, what is the"
+  },
+  {
+    "start": 1000.76,
+    "duration": 2.8,
+    "text": "left and right? You can figure this out"
+  },
+  {
+    "start": 1002.44,
+    "duration": 2.6,
+    "text": "as well."
+  },
+  {
+    "start": 1003.56,
+    "duration": 3.68,
+    "text": "Let's say if I talk about three. So,"
+  },
+  {
+    "start": 1005.04,
+    "duration": 5.64,
+    "text": "index number three has left equal to"
+  },
+  {
+    "start": 1007.24,
+    "duration": 6.2,
+    "text": "six. Index number four has left equal to"
+  },
+  {
+    "start": 1010.68,
+    "duration": 5.32,
+    "text": "eight. Index number two has left equal"
+  },
+  {
+    "start": 1013.44,
+    "duration": 5.84,
+    "text": "to four. Index number one has left equal"
+  },
+  {
+    "start": 1016.0,
+    "duration": 6.68,
+    "text": "to two. So, it's just doubling."
+  },
+  {
+    "start": 1019.28,
+    "duration": 6.24,
+    "text": "Left of any index i is equal to"
+  },
+  {
+    "start": 1022.68,
+    "duration": 2.84,
+    "text": "two into i."
+  },
+  {
+    "start": 1025.72,
+    "duration": 4.84,
+    "text": "What is right? Uh index number is two,"
+  },
+  {
+    "start": 1029.199,
+    "duration": 3.361,
+    "text": "then what is right? Right is equal to"
+  },
+  {
+    "start": 1030.56,
+    "duration": 4.04,
+    "text": "five. Index is four, right is equal to"
+  },
+  {
+    "start": 1032.56,
+    "duration": 3.639,
+    "text": "nine. Index is three, right is equal to"
+  },
+  {
+    "start": 1034.6,
+    "duration": 3.12,
+    "text": "seven. Okay?"
+  },
+  {
+    "start": 1036.199,
+    "duration": 4.041,
+    "text": "So, similarly again, we have seen the"
+  },
+  {
+    "start": 1037.72,
+    "duration": 3.959,
+    "text": "pattern. Right of any index is equal to"
+  },
+  {
+    "start": 1040.24,
+    "duration": 4.04,
+    "text": "two into i"
+  },
+  {
+    "start": 1041.679,
+    "duration": 2.601,
+    "text": "plus one."
+  },
+  {
+    "start": 1046.92,
+    "duration": 3.88,
+    "text": "Simple."
+  },
+  {
+    "start": 1048.56,
+    "duration": 4.0,
+    "text": "This answers the question of how the"
+  },
+  {
+    "start": 1050.8,
+    "duration": 3.76,
+    "text": "tree how the heap is actually"
+  },
+  {
+    "start": 1052.56,
+    "duration": 4.8,
+    "text": "represented. In reality, it will be"
+  },
+  {
+    "start": 1054.56,
+    "duration": 4.04,
+    "text": "stored in array. We will read it like a"
+  },
+  {
+    "start": 1057.36,
+    "duration": 3.6,
+    "text": "tree."
+  },
+  {
+    "start": 1058.6,
+    "duration": 4.68,
+    "text": "It will be more specific, a complete"
+  },
+  {
+    "start": 1060.96,
+    "duration": 5.719,
+    "text": "binary tree."
+  },
+  {
+    "start": 1063.28,
+    "duration": 5.8,
+    "text": "And every node will have value greater"
+  },
+  {
+    "start": 1066.679,
+    "duration": 4.041,
+    "text": "than equal to all of its children."
+  },
+  {
+    "start": 1069.08,
+    "duration": 2.92,
+    "text": "The maximum item or the minimum item,"
+  },
+  {
+    "start": 1070.72,
+    "duration": 3.28,
+    "text": "whatever you need, will always be at the"
+  },
+  {
+    "start": 1072.0,
+    "duration": 4.0,
+    "text": "very first index. The rest of the array"
+  },
+  {
+    "start": 1074.0,
+    "duration": 4.48,
+    "text": "may not be sorted, but what the rest of"
+  },
+  {
+    "start": 1076.0,
+    "duration": 3.56,
+    "text": "the array will have is this condition"
+  },
+  {
+    "start": 1078.48,
+    "duration": 2.56,
+    "text": "number two."
+  },
+  {
+    "start": 1079.56,
+    "duration": 3.72,
+    "text": "Every node greater than equal to all of"
+  },
+  {
+    "start": 1081.04,
+    "duration": 6.48,
+    "text": "its children. And how is this array"
+  },
+  {
+    "start": 1083.28,
+    "duration": 4.24,
+    "text": "represented in a tree? These rules."
+  },
+  {
+    "start": 1089.56,
+    "duration": 4.2,
+    "text": "Because of this formula, are there any"
+  },
+  {
+    "start": 1092.0,
+    "duration": 3.36,
+    "text": "pointers required?"
+  },
+  {
+    "start": 1093.76,
+    "duration": 4.64,
+    "text": "Like in you know, when we have a node"
+  },
+  {
+    "start": 1095.36,
+    "duration": 4.68,
+    "text": "class, we have like node next, node node"
+  },
+  {
+    "start": 1098.4,
+    "duration": 3.84,
+    "text": "left, node right in tree. Is that"
+  },
+  {
+    "start": 1100.04,
+    "duration": 4.12,
+    "text": "required now? No. Because we are getting"
+  },
+  {
+    "start": 1102.24,
+    "duration": 4.4,
+    "text": "the answer directly from formula. No"
+  },
+  {
+    "start": 1104.16,
+    "duration": 4.64,
+    "text": "pointers required, that is why."
+  },
+  {
+    "start": 1106.64,
+    "duration": 4.64,
+    "text": "No pointers. Well, Java doesn't have"
+  },
+  {
+    "start": 1108.8,
+    "duration": 5.32,
+    "text": "pointers, but you get my point."
+  },
+  {
+    "start": 1111.28,
+    "duration": 2.84,
+    "text": "Pun intended."
+  },
+  {
+    "start": 1119.4,
+    "duration": 4.44,
+    "text": "All right. Okay. Now, one more thing"
+  },
+  {
+    "start": 1121.96,
+    "duration": 3.0,
+    "text": "left is what is the height of this"
+  },
+  {
+    "start": 1123.84,
+    "duration": 2.2,
+    "text": "binary tree?"
+  },
+  {
+    "start": 1124.96,
+    "duration": 3.16,
+    "text": "Complete binary tree, what is the"
+  },
+  {
+    "start": 1126.04,
+    "duration": 4.56,
+    "text": "height? For n elements, you know this."
+  },
+  {
+    "start": 1128.12,
+    "duration": 3.64,
+    "text": "We have done tree playlist on videos."
+  },
+  {
+    "start": 1130.6,
+    "duration": 2.96,
+    "text": "Log n."
+  },
+  {
+    "start": 1131.76,
+    "duration": 4.399,
+    "text": "Okay?"
+  },
+  {
+    "start": 1133.56,
+    "duration": 2.599,
+    "text": "Height."
+  },
+  {
+    "start": 1138.159,
+    "duration": 4.321,
+    "text": "Log of n."
+  },
+  {
+    "start": 1140.72,
+    "duration": 4.199,
+    "text": "Please don't ask me why. I have covered"
+  },
+  {
+    "start": 1142.48,
+    "duration": 3.88,
+    "text": "it in detail in the trees video. If you"
+  },
+  {
+    "start": 1144.919,
+    "duration": 3.921,
+    "text": "want to learn more about complete binary"
+  },
+  {
+    "start": 1146.36,
+    "duration": 5.12,
+    "text": "tree and uh how the height is log n and"
+  },
+  {
+    "start": 1148.84,
+    "duration": 4.839,
+    "text": "anything, please watch that video."
+  },
+  {
+    "start": 1151.48,
+    "duration": 4.72,
+    "text": "Okay. So,"
+  },
+  {
+    "start": 1153.679,
+    "duration": 5.601,
+    "text": "we learn we learned about the motivation"
+  },
+  {
+    "start": 1156.2,
+    "duration": 5.36,
+    "text": "behind heaps. We learned about how heaps"
+  },
+  {
+    "start": 1159.28,
+    "duration": 4.84,
+    "text": "will be stored in my program, in my"
+  },
+  {
+    "start": 1161.56,
+    "duration": 5.0,
+    "text": "computer, in my data structure, how it"
+  },
+  {
+    "start": 1164.12,
+    "duration": 4.84,
+    "text": "is represented. We saw that."
+  },
+  {
+    "start": 1166.56,
+    "duration": 5.04,
+    "text": "So, it will be stored in an array, but"
+  },
+  {
+    "start": 1168.96,
+    "duration": 3.64,
+    "text": "uh in reality, we will look at it like a"
+  },
+  {
+    "start": 1171.6,
+    "duration": 2.8,
+    "text": "tree."
+  },
+  {
+    "start": 1172.6,
+    "duration": 4.6,
+    "text": "And like traditional tree, it will not"
+  },
+  {
+    "start": 1174.4,
+    "duration": 5.8,
+    "text": "have node left next node right. Sorry,"
+  },
+  {
+    "start": 1177.2,
+    "duration": 6.08,
+    "text": "node left or node right, but we will use"
+  },
+  {
+    "start": 1180.2,
+    "duration": 6.2,
+    "text": "this formula to get those parents, left"
+  },
+  {
+    "start": 1183.28,
+    "duration": 5.639,
+    "text": "and right for every node."
+  },
+  {
+    "start": 1186.4,
+    "duration": 4.04,
+    "text": "That is why these pointers not required."
+  },
+  {
+    "start": 1188.919,
+    "duration": 3.561,
+    "text": "Now,"
+  },
+  {
+    "start": 1190.44,
+    "duration": 4.0,
+    "text": "few unanswered questions. Some things"
+  },
+  {
+    "start": 1192.48,
+    "duration": 4.4,
+    "text": "that you don't know right now."
+  },
+  {
+    "start": 1194.44,
+    "duration": 5.88,
+    "text": "Which is Kunal, when you add a new item,"
+  },
+  {
+    "start": 1196.88,
+    "duration": 5.28,
+    "text": "let's say you add in uh"
+  },
+  {
+    "start": 1200.32,
+    "duration": 4.6,
+    "text": "37."
+  },
+  {
+    "start": 1202.16,
+    "duration": 4.48,
+    "text": "Okay? So, in reality, 16 should be"
+  },
+  {
+    "start": 1204.92,
+    "duration": 3.88,
+    "text": "replaced with 37."
+  },
+  {
+    "start": 1206.64,
+    "duration": 4.44,
+    "text": "Because you said max heap in this"
+  },
+  {
+    "start": 1208.8,
+    "duration": 4.52,
+    "text": "example, this is max heap. So, max heap"
+  },
+  {
+    "start": 1211.08,
+    "duration": 4.84,
+    "text": "will always have the"
+  },
+  {
+    "start": 1213.32,
+    "duration": 4.76,
+    "text": "highest item at the very first index."
+  },
+  {
+    "start": 1215.92,
+    "duration": 4.24,
+    "text": "And we know that we insert from left to"
+  },
+  {
+    "start": 1218.08,
+    "duration": 4.28,
+    "text": "right at the very last level. So, let's"
+  },
+  {
+    "start": 1220.16,
+    "duration": 5.44,
+    "text": "say for now at index number 10, here I"
+  },
+  {
+    "start": 1222.36,
+    "duration": 4.36,
+    "text": "insert 37. Now, my heap has become"
+  },
+  {
+    "start": 1225.6,
+    "duration": 2.96,
+    "text": "wrong."
+  },
+  {
+    "start": 1226.72,
+    "duration": 3.6,
+    "text": "Because 37 should come in the place of"
+  },
+  {
+    "start": 1228.56,
+    "duration": 4.56,
+    "text": "16."
+  },
+  {
+    "start": 1230.32,
+    "duration": 5.48,
+    "text": "So, Kunal, how would you move this thing"
+  },
+  {
+    "start": 1233.12,
+    "duration": 4.8,
+    "text": "up? That's the main question."
+  },
+  {
+    "start": 1235.8,
+    "duration": 4.36,
+    "text": "Question number one, that's the doubt."
+  },
+  {
+    "start": 1237.92,
+    "duration": 5.2,
+    "text": "Doubt number two is"
+  },
+  {
+    "start": 1240.16,
+    "duration": 5.44,
+    "text": "that when you have to remove an item,"
+  },
+  {
+    "start": 1243.12,
+    "duration": 4.4,
+    "text": "how will the tree restructure?"
+  },
+  {
+    "start": 1245.6,
+    "duration": 3.52,
+    "text": "And let's say in this case we are only"
+  },
+  {
+    "start": 1247.52,
+    "duration": 3.76,
+    "text": "talking about removing the item at the"
+  },
+  {
+    "start": 1249.12,
+    "duration": 3.6,
+    "text": "very first index."
+  },
+  {
+    "start": 1251.28,
+    "duration": 3.0,
+    "text": "That's the whole point, right? If you"
+  },
+  {
+    "start": 1252.72,
+    "duration": 3.16,
+    "text": "want to remove anything from the middle"
+  },
+  {
+    "start": 1254.28,
+    "duration": 4.4,
+    "text": "or something like that, then just use"
+  },
+  {
+    "start": 1255.88,
+    "duration": 6.32,
+    "text": "arrays or normal binary tree. Why using"
+  },
+  {
+    "start": 1258.68,
+    "duration": 5.88,
+    "text": "heaps? Only using heaps when you are"
+  },
+  {
+    "start": 1262.2,
+    "duration": 3.84,
+    "text": "con- confident that you are working with"
+  },
+  {
+    "start": 1264.56,
+    "duration": 3.0,
+    "text": "a condition. That's what you're going to"
+  },
+  {
+    "start": 1266.04,
+    "duration": 3.04,
+    "text": "be working with."
+  },
+  {
+    "start": 1267.56,
+    "duration": 2.84,
+    "text": "So,"
+  },
+  {
+    "start": 1269.08,
+    "duration": 2.44,
+    "text": "removing item, let's say you have to"
+  },
+  {
+    "start": 1270.4,
+    "duration": 2.92,
+    "text": "remove"
+  },
+  {
+    "start": 1271.52,
+    "duration": 3.12,
+    "text": "obviously the first item, so the maximum"
+  },
+  {
+    "start": 1273.32,
+    "duration": 2.72,
+    "text": "item. Just give me the maximum item,"
+  },
+  {
+    "start": 1274.64,
+    "duration": 2.92,
+    "text": "remove it."
+  },
+  {
+    "start": 1276.04,
+    "duration": 3.6,
+    "text": "So, like, \"Okay, Kunal, I I will remove"
+  },
+  {
+    "start": 1277.56,
+    "duration": 4.52,
+    "text": "this, not a problem. But now this area"
+  },
+  {
+    "start": 1279.64,
+    "duration": 4.44,
+    "text": "is empty.\""
+  },
+  {
+    "start": 1282.08,
+    "duration": 3.8,
+    "text": "Now this is empty. How do I make sure"
+  },
+  {
+    "start": 1284.08,
+    "duration": 3.48,
+    "text": "that the next largest element is"
+  },
+  {
+    "start": 1285.88,
+    "duration": 3.2,
+    "text": "replaced over here? How do I make sure"
+  },
+  {
+    "start": 1287.56,
+    "duration": 2.72,
+    "text": "that happens?"
+  },
+  {
+    "start": 1289.08,
+    "duration": 3.6,
+    "text": "These are two questions you may have"
+  },
+  {
+    "start": 1290.28,
+    "duration": 2.4,
+    "text": "right now."
+  },
+  {
+    "start": 1293.08,
+    "duration": 4.36,
+    "text": "Okay?"
+  },
+  {
+    "start": 1294.48,
+    "duration": 4.44,
+    "text": "So, rest everything is clear. Now, let's"
+  },
+  {
+    "start": 1297.44,
+    "duration": 3.32,
+    "text": "answer these two questions. How to"
+  },
+  {
+    "start": 1298.92,
+    "duration": 4.12,
+    "text": "insert and how to delete. Okay, so what"
+  },
+  {
+    "start": 1300.76,
+    "duration": 5.4,
+    "text": "I'll do is, let's say I start uh a new"
+  },
+  {
+    "start": 1303.04,
+    "duration": 5.16,
+    "text": "uh a new a new tree, okay? A new heap."
+  },
+  {
+    "start": 1306.16,
+    "duration": 4.28,
+    "text": "And let's say we do min heap now. Min"
+  },
+  {
+    "start": 1308.2,
+    "duration": 4.4,
+    "text": "heap means in constant time, I need"
+  },
+  {
+    "start": 1310.44,
+    "duration": 4.88,
+    "text": "minimum item. So, at the very first"
+  },
+  {
+    "start": 1312.6,
+    "duration": 5.04,
+    "text": "index, we will have minimum item."
+  },
+  {
+    "start": 1315.32,
+    "duration": 5.92,
+    "text": "Let's say at first I insert This is my"
+  },
+  {
+    "start": 1317.64,
+    "duration": 3.6,
+    "text": "array, currently it's empty."
+  },
+  {
+    "start": 1326.16,
+    "duration": 4.08,
+    "text": "Currently it's empty, index number one."
+  },
+  {
+    "start": 1332.32,
+    "duration": 7.48,
+    "text": "2 3 4 5 6 7 8 9"
+  },
+  {
+    "start": 1338.08,
+    "duration": 3.36,
+    "text": "10 11, whatever."
+  },
+  {
+    "start": 1339.8,
+    "duration": 3.92,
+    "text": "So,"
+  },
+  {
+    "start": 1341.44,
+    "duration": 3.88,
+    "text": "at first I will insert anything. So,"
+  },
+  {
+    "start": 1343.72,
+    "duration": 2.56,
+    "text": "let's say I insert"
+  },
+  {
+    "start": 1345.32,
+    "duration": 2.28,
+    "text": "eight."
+  },
+  {
+    "start": 1346.28,
+    "duration": 2.8,
+    "text": "So, eight will go over here because"
+  },
+  {
+    "start": 1347.6,
+    "duration": 2.68,
+    "text": "nothing is available. So, index number"
+  },
+  {
+    "start": 1349.08,
+    "duration": 3.08,
+    "text": "one, eight."
+  },
+  {
+    "start": 1350.28,
+    "duration": 3.96,
+    "text": "Now I insert"
+  },
+  {
+    "start": 1352.16,
+    "duration": 5.04,
+    "text": "let's say"
+  },
+  {
+    "start": 1354.24,
+    "duration": 5.24,
+    "text": "I insert seven."
+  },
+  {
+    "start": 1357.2,
+    "duration": 3.88,
+    "text": "So, I will insert seven."
+  },
+  {
+    "start": 1359.48,
+    "duration": 2.84,
+    "text": "Now, seven will go Let's say first I"
+  },
+  {
+    "start": 1361.08,
+    "duration": 3.599,
+    "text": "will insert because it's a complete"
+  },
+  {
+    "start": 1362.32,
+    "duration": 3.4,
+    "text": "binary tree, so from left I will insert"
+  },
+  {
+    "start": 1364.679,
+    "duration": 3.121,
+    "text": "seven"
+  },
+  {
+    "start": 1365.72,
+    "duration": 3.32,
+    "text": "at index number two."
+  },
+  {
+    "start": 1367.8,
+    "duration": 3.24,
+    "text": "So,"
+  },
+  {
+    "start": 1369.04,
+    "duration": 3.32,
+    "text": "in reality, it's being stored in like an"
+  },
+  {
+    "start": 1371.04,
+    "duration": 3.0,
+    "text": "array like this, but this is how we are"
+  },
+  {
+    "start": 1372.36,
+    "duration": 3.28,
+    "text": "visualizing it. So, I'm writing both the"
+  },
+  {
+    "start": 1374.04,
+    "duration": 4.4,
+    "text": "ways so you understand."
+  },
+  {
+    "start": 1375.64,
+    "duration": 4.48,
+    "text": "But now the there's a violation."
+  },
+  {
+    "start": 1378.44,
+    "duration": 3.48,
+    "text": "Because it's a min heap, minimum item"
+  },
+  {
+    "start": 1380.12,
+    "duration": 3.04,
+    "text": "should be at the very top."
+  },
+  {
+    "start": 1381.92,
+    "duration": 3.12,
+    "text": "So,"
+  },
+  {
+    "start": 1383.16,
+    "duration": 6.08,
+    "text": "we are going to check the item that we"
+  },
+  {
+    "start": 1385.04,
+    "duration": 5.72,
+    "text": "have just inserted, check its parent."
+  },
+  {
+    "start": 1389.24,
+    "duration": 4.32,
+    "text": "Is it smaller than the parent? Yes, it"
+  },
+  {
+    "start": 1390.76,
+    "duration": 2.8,
+    "text": "is. Okay, swap."
+  },
+  {
+    "start": 1396.76,
+    "duration": 5.2,
+    "text": "Let's say I keep inserting. Let's say I"
+  },
+  {
+    "start": 1398.56,
+    "duration": 3.4,
+    "text": "will insert, so it will be swapped."
+  },
+  {
+    "start": 1405.12,
+    "duration": 9.2,
+    "text": "Let's say I insert nine nine"
+  },
+  {
+    "start": 1408.48,
+    "duration": 5.84,
+    "text": "10 11 12 14. So, nine"
+  },
+  {
+    "start": 1414.56,
+    "duration": 3.119,
+    "text": "10"
+  },
+  {
+    "start": 1416.04,
+    "duration": 3.56,
+    "text": "11"
+  },
+  {
+    "start": 1417.679,
+    "duration": 3.321,
+    "text": "12"
+  },
+  {
+    "start": 1419.6,
+    "duration": 4.92,
+    "text": "14."
+  },
+  {
+    "start": 1421.0,
+    "duration": 3.52,
+    "text": "It's fine, condition is maintained."
+  },
+  {
+    "start": 1427.6,
+    "duration": 3.079,
+    "text": "Then 13."
+  },
+  {
+    "start": 1431.6,
+    "duration": 3.04,
+    "text": "That's fine."
+  },
+  {
+    "start": 1433.12,
+    "duration": 3.96,
+    "text": "So, you can see it makes sense. This"
+  },
+  {
+    "start": 1434.64,
+    "duration": 4.92,
+    "text": "entire array may not be sorted, but"
+  },
+  {
+    "start": 1437.08,
+    "duration": 5.36,
+    "text": "this thing is important."
+  },
+  {
+    "start": 1439.56,
+    "duration": 4.08,
+    "text": "First item should be minimum. 13"
+  },
+  {
+    "start": 1442.44,
+    "duration": 4.08,
+    "text": "here"
+  },
+  {
+    "start": 1443.64,
+    "duration": 5.16,
+    "text": "and let's say after that I insert five."
+  },
+  {
+    "start": 1446.52,
+    "duration": 4.36,
+    "text": "So, let me just write this down. 1 2 3"
+  },
+  {
+    "start": 1448.8,
+    "duration": 3.84,
+    "text": "index, fourth index, fifth index, sixth"
+  },
+  {
+    "start": 1450.88,
+    "duration": 3.44,
+    "text": "index, seventh index, eighth index. Now"
+  },
+  {
+    "start": 1452.64,
+    "duration": 5.88,
+    "text": "I insert five."
+  },
+  {
+    "start": 1454.32,
+    "duration": 6.48,
+    "text": "I insert five and it's like, \"Hey,"
+  },
+  {
+    "start": 1458.52,
+    "duration": 6.84,
+    "text": "you have just inserted five index number"
+  },
+  {
+    "start": 1460.8,
+    "duration": 7.08,
+    "text": "nine, that is violating the condition.\""
+  },
+  {
+    "start": 1465.36,
+    "duration": 7.2,
+    "text": "Violating the condition."
+  },
+  {
+    "start": 1467.88,
+    "duration": 4.68,
+    "text": "So, please remember one thing."
+  },
+  {
+    "start": 1472.84,
+    "duration": 4.76,
+    "text": "Here I know that for every node, value"
+  },
+  {
+    "start": 1475.76,
+    "duration": 4.68,
+    "text": "of every node"
+  },
+  {
+    "start": 1477.6,
+    "duration": 5.84,
+    "text": "is less than equal to"
+  },
+  {
+    "start": 1480.44,
+    "duration": 4.96,
+    "text": "all its"
+  },
+  {
+    "start": 1483.44,
+    "duration": 4.28,
+    "text": "children."
+  },
+  {
+    "start": 1485.4,
+    "duration": 4.8,
+    "text": "Make sense? So, value of 10 is going to"
+  },
+  {
+    "start": 1487.72,
+    "duration": 4.6,
+    "text": "be less than has to be less than all the"
+  },
+  {
+    "start": 1490.2,
+    "duration": 4.28,
+    "text": "children. Value of nine has to be less"
+  },
+  {
+    "start": 1492.32,
+    "duration": 4.4,
+    "text": "than all of its children. Value of eight"
+  },
+  {
+    "start": 1494.48,
+    "duration": 3.44,
+    "text": "has to be less than all of its children."
+  },
+  {
+    "start": 1496.72,
+    "duration": 3.08,
+    "text": "Right now because of five, that is"
+  },
+  {
+    "start": 1497.92,
+    "duration": 4.0,
+    "text": "violated, but in general."
+  },
+  {
+    "start": 1499.8,
+    "duration": 4.12,
+    "text": "So,"
+  },
+  {
+    "start": 1501.92,
+    "duration": 4.04,
+    "text": "I know"
+  },
+  {
+    "start": 1503.92,
+    "duration": 3.56,
+    "text": "one thing I want to share is obviously"
+  },
+  {
+    "start": 1505.96,
+    "duration": 2.88,
+    "text": "I'm going to check up right. If this is"
+  },
+  {
+    "start": 1507.48,
+    "duration": 3.08,
+    "text": "violating the condition, then I have to"
+  },
+  {
+    "start": 1508.84,
+    "duration": 5.16,
+    "text": "send it up. So, I will just check it"
+  },
+  {
+    "start": 1510.56,
+    "duration": 5.36,
+    "text": "from up. So, is the parent of five that"
+  },
+  {
+    "start": 1514.0,
+    "duration": 4.88,
+    "text": "I have just inserted, and you can find"
+  },
+  {
+    "start": 1515.92,
+    "duration": 4.8,
+    "text": "the parent very easily, n by two."
+  },
+  {
+    "start": 1518.88,
+    "duration": 4.0,
+    "text": "Is the parent of five"
+  },
+  {
+    "start": 1520.72,
+    "duration": 3.52,
+    "text": "greater than five? Yes, it is. Okay,"
+  },
+  {
+    "start": 1522.88,
+    "duration": 4.28,
+    "text": "swap."
+  },
+  {
+    "start": 1524.24,
+    "duration": 2.92,
+    "text": "So, I will swap it."
+  },
+  {
+    "start": 1529.08,
+    "duration": 5.72,
+    "text": "5 10 will be swapped. In reality, it"
+  },
+  {
+    "start": 1531.92,
+    "duration": 2.88,
+    "text": "will be like this."
+  },
+  {
+    "start": 1535.72,
+    "duration": 3.52,
+    "text": "Now you'll be like, \"Kunal, do you have"
+  },
+  {
+    "start": 1537.16,
+    "duration": 3.72,
+    "text": "to check it with the"
+  },
+  {
+    "start": 1539.24,
+    "duration": 3.16,
+    "text": "uh other other side of So, do I have to"
+  },
+  {
+    "start": 1540.88,
+    "duration": 3.44,
+    "text": "check it with 13?\""
+  },
+  {
+    "start": 1542.4,
+    "duration": 3.64,
+    "text": "Think about it. No."
+  },
+  {
+    "start": 1544.32,
+    "duration": 3.96,
+    "text": "Because I know"
+  },
+  {
+    "start": 1546.04,
+    "duration": 4.88,
+    "text": "that 13 was actually"
+  },
+  {
+    "start": 1548.28,
+    "duration": 5.28,
+    "text": "greater than whatever was over here. So,"
+  },
+  {
+    "start": 1550.92,
+    "duration": 4.16,
+    "text": "if five was smaller than 10, then five"
+  },
+  {
+    "start": 1553.56,
+    "duration": 3.32,
+    "text": "is automatically going to be smaller"
+  },
+  {
+    "start": 1555.08,
+    "duration": 3.28,
+    "text": "than everything that is over here, which"
+  },
+  {
+    "start": 1556.88,
+    "duration": 3.76,
+    "text": "is only just one."
+  },
+  {
+    "start": 1558.36,
+    "duration": 4.84,
+    "text": "Because it's complete binary tree."
+  },
+  {
+    "start": 1560.64,
+    "duration": 4.64,
+    "text": "I think about it, now. If I know that"
+  },
+  {
+    "start": 1563.2,
+    "duration": 5.08,
+    "text": "see, in reality,"
+  },
+  {
+    "start": 1565.28,
+    "duration": 5.84,
+    "text": "for 10,"
+  },
+  {
+    "start": 1568.28,
+    "duration": 6.92,
+    "text": "I know that 13 is greater than 10."
+  },
+  {
+    "start": 1571.12,
+    "duration": 5.72,
+    "text": "Okay? So, I'm checking if five is"
+  },
+  {
+    "start": 1575.2,
+    "duration": 4.04,
+    "text": "less than 10,"
+  },
+  {
+    "start": 1576.84,
+    "duration": 4.16,
+    "text": "then of course"
+  },
+  {
+    "start": 1579.24,
+    "duration": 4.439,
+    "text": "five is also going to be less than 13,"
+  },
+  {
+    "start": 1581.0,
+    "duration": 4.2,
+    "text": "hence you don't need to check."
+  },
+  {
+    "start": 1583.679,
+    "duration": 2.761,
+    "text": "Why is five going to be less than 13?"
+  },
+  {
+    "start": 1585.2,
+    "duration": 2.52,
+    "text": "Because 13 is greater than 10. Make"
+  },
+  {
+    "start": 1586.44,
+    "duration": 2.72,
+    "text": "sense?"
+  },
+  {
+    "start": 1587.72,
+    "duration": 3.36,
+    "text": "So, I check like, \"Okay, I added five"
+  },
+  {
+    "start": 1589.16,
+    "duration": 3.519,
+    "text": "over here first at index number nine.\""
+  },
+  {
+    "start": 1591.08,
+    "duration": 3.76,
+    "text": "I'm going to check, \"Hey, is five less"
+  },
+  {
+    "start": 1592.679,
+    "duration": 3.441,
+    "text": "than 10?\" Yes, it is. Okay, swap. Now,"
+  },
+  {
+    "start": 1594.84,
+    "duration": 3.16,
+    "text": "do I need to check whether five is less"
+  },
+  {
+    "start": 1596.12,
+    "duration": 3.72,
+    "text": "than 13 or not? No. Because I know"
+  },
+  {
+    "start": 1598.0,
+    "duration": 4.12,
+    "text": "automatically all the numbers below 10"
+  },
+  {
+    "start": 1599.84,
+    "duration": 3.64,
+    "text": "are already greater than 10. So, if five"
+  },
+  {
+    "start": 1602.12,
+    "duration": 4.88,
+    "text": "is less than 10, obviously it's going to"
+  },
+  {
+    "start": 1603.48,
+    "duration": 3.52,
+    "text": "be less than what is greater than 10."
+  },
+  {
+    "start": 1607.2,
+    "duration": 3.2,
+    "text": "Very simple mathematics."
+  },
+  {
+    "start": 1609.04,
+    "duration": 3.6,
+    "text": "Okay?"
+  },
+  {
+    "start": 1610.4,
+    "duration": 6.16,
+    "text": "Now, keep checking till you find that"
+  },
+  {
+    "start": 1612.64,
+    "duration": 6.28,
+    "text": "okay, it is not breaking any laws."
+  },
+  {
+    "start": 1616.56,
+    "duration": 4.56,
+    "text": "So, I know that now for five, again"
+  },
+  {
+    "start": 1618.92,
+    "duration": 5.08,
+    "text": "check the parent. Now, the parent is"
+  },
+  {
+    "start": 1621.12,
+    "duration": 5.96,
+    "text": "eight. Is eight greater than five? Yes,"
+  },
+  {
+    "start": 1624.0,
+    "duration": 3.08,
+    "text": "it is. Swap again."
+  },
+  {
+    "start": 1629.12,
+    "duration": 3.84,
+    "text": "8 5 will be swapped."
+  },
+  {
+    "start": 1633.92,
+    "duration": 3.08,
+    "text": "Now check with the parent again. Now,"
+  },
+  {
+    "start": 1635.24,
+    "duration": 2.88,
+    "text": "the parent is seven."
+  },
+  {
+    "start": 1637.0,
+    "duration": 2.4,
+    "text": "Um"
+  },
+  {
+    "start": 1638.12,
+    "duration": 4.12,
+    "text": "is seven greater than five? Yes, it is."
+  },
+  {
+    "start": 1639.4,
+    "duration": 2.84,
+    "text": "Okay, again swap."
+  },
+  {
+    "start": 1647.84,
+    "duration": 5.2,
+    "text": "And now I can't go any any more above."
+  },
+  {
+    "start": 1650.48,
+    "duration": 5.0,
+    "text": "So,"
+  },
+  {
+    "start": 1653.04,
+    "duration": 2.44,
+    "text": "done."
+  },
+  {
+    "start": 1656.52,
+    "duration": 4.8,
+    "text": "That's it."
+  },
+  {
+    "start": 1658.64,
+    "duration": 2.68,
+    "text": "Problem solved."
+  },
+  {
+    "start": 1661.4,
+    "duration": 5.64,
+    "text": "How easy was that?"
+  },
+  {
+    "start": 1663.28,
+    "duration": 3.76,
+    "text": "This is known as up heap method."
+  },
+  {
+    "start": 1668.44,
+    "duration": 3.48,
+    "text": "And since you know I'm only checking it"
+  },
+  {
+    "start": 1670.08,
+    "duration": 5.44,
+    "text": "once every level,"
+  },
+  {
+    "start": 1671.92,
+    "duration": 5.16,
+    "text": "only like once every level,"
+  },
+  {
+    "start": 1675.52,
+    "duration": 4.159,
+    "text": "I started"
+  },
+  {
+    "start": 1677.08,
+    "duration": 4.24,
+    "text": "like this, then this, then this, so"
+  },
+  {
+    "start": 1679.679,
+    "duration": 3.481,
+    "text": "one every level, and total how many"
+  },
+  {
+    "start": 1681.32,
+    "duration": 3.08,
+    "text": "levels we have? Log of n. So, complexity"
+  },
+  {
+    "start": 1683.16,
+    "duration": 5.8,
+    "text": "is O of"
+  },
+  {
+    "start": 1684.4,
+    "duration": 4.56,
+    "text": "log n to insert an element. Easy?"
+  },
+  {
+    "start": 1690.6,
+    "duration": 3.12,
+    "text": "Sounds good?"
+  },
+  {
+    "start": 1692.44,
+    "duration": 2.2,
+    "text": "That's how you insert elements in a"
+  },
+  {
+    "start": 1693.72,
+    "duration": 3.32,
+    "text": "heap."
+  },
+  {
+    "start": 1694.64,
+    "duration": 5.88,
+    "text": "Very simple."
+  },
+  {
+    "start": 1697.04,
+    "duration": 4.88,
+    "text": "Try running it, pen and paper."
+  },
+  {
+    "start": 1700.52,
+    "duration": 3.08,
+    "text": "Now, let's look at how to remove"
+  },
+  {
+    "start": 1701.92,
+    "duration": 4.52,
+    "text": "elements. Okay, now removing an item"
+  },
+  {
+    "start": 1703.6,
+    "duration": 4.96,
+    "text": "from heap. This is actually very easy. I"
+  },
+  {
+    "start": 1706.44,
+    "duration": 3.68,
+    "text": "I'm not enjoying, you know? I want to"
+  },
+  {
+    "start": 1708.56,
+    "duration": 3.84,
+    "text": "teach graphs and dynamic programming."
+  },
+  {
+    "start": 1710.12,
+    "duration": 4.08,
+    "text": "He- Heaps is too easy. If someone gives"
+  },
+  {
+    "start": 1712.4,
+    "duration": 4.279,
+    "text": "you a question like, \"This is the tree"
+  },
+  {
+    "start": 1714.2,
+    "duration": 3.6,
+    "text": "given and remove an element and make"
+  },
+  {
+    "start": 1716.679,
+    "duration": 3.601,
+    "text": "sure this condition is already"
+  },
+  {
+    "start": 1717.8,
+    "duration": 4.119,
+    "text": "satisfied.\" You can do it because you've"
+  },
+  {
+    "start": 1720.28,
+    "duration": 3.0,
+    "text": "done the binary trees uh videos"
+  },
+  {
+    "start": 1721.919,
+    "duration": 2.801,
+    "text": "tutorials."
+  },
+  {
+    "start": 1723.28,
+    "duration": 2.96,
+    "text": "I would say pause this video and think"
+  },
+  {
+    "start": 1724.72,
+    "duration": 4.76,
+    "text": "about it. Question is, if you want if"
+  },
+  {
+    "start": 1726.24,
+    "duration": 4.4,
+    "text": "you remove an item, so"
+  },
+  {
+    "start": 1729.48,
+    "duration": 2.04,
+    "text": "you all understand how to insert an"
+  },
+  {
+    "start": 1730.64,
+    "duration": 2.72,
+    "text": "item."
+  },
+  {
+    "start": 1731.52,
+    "duration": 4.0,
+    "text": "But let's say we remove the item in the"
+  },
+  {
+    "start": 1733.36,
+    "duration": 3.76,
+    "text": "min heap, so obviously the first item."
+  },
+  {
+    "start": 1735.52,
+    "duration": 4.159,
+    "text": "This will be removed."
+  },
+  {
+    "start": 1737.12,
+    "duration": 4.36,
+    "text": "Now, how do you rebalance this tree? How"
+  },
+  {
+    "start": 1739.679,
+    "duration": 3.841,
+    "text": "do you make sure that the next smallest"
+  },
+  {
+    "start": 1741.48,
+    "duration": 3.32,
+    "text": "item comes on top?"
+  },
+  {
+    "start": 1743.52,
+    "duration": 3.28,
+    "text": "How do you make sure we do that? Pause"
+  },
+  {
+    "start": 1744.8,
+    "duration": 3.2,
+    "text": "this and think about it."
+  },
+  {
+    "start": 1746.8,
+    "duration": 2.84,
+    "text": "Okay."
+  },
+  {
+    "start": 1748.0,
+    "duration": 3.6,
+    "text": "So, you know how when we inserted, we"
+  },
+  {
+    "start": 1749.64,
+    "duration": 4.32,
+    "text": "just did like from the bottom to the up."
+  },
+  {
+    "start": 1751.6,
+    "duration": 4.12,
+    "text": "This way we will do opposite. So, just"
+  },
+  {
+    "start": 1753.96,
+    "duration": 4.68,
+    "text": "what you have to do is"
+  },
+  {
+    "start": 1755.72,
+    "duration": 4.199,
+    "text": "take the last element because that I can"
+  },
+  {
+    "start": 1758.64,
+    "duration": 2.68,
+    "text": "get"
+  },
+  {
+    "start": 1759.919,
+    "duration": 3.401,
+    "text": "very easily because it's just at the"
+  },
+  {
+    "start": 1761.32,
+    "duration": 3.359,
+    "text": "last, and put it at the"
+  },
+  {
+    "start": 1763.32,
+    "duration": 4.2,
+    "text": "zeroth index or the first index,"
+  },
+  {
+    "start": 1764.679,
+    "duration": 5.641,
+    "text": "whatever the first index is."
+  },
+  {
+    "start": 1767.52,
+    "duration": 2.8,
+    "text": "Remove this."
+  },
+  {
+    "start": 1770.76,
+    "duration": 2.68,
+    "text": "Put it here."
+  },
+  {
+    "start": 1774.919,
+    "duration": 3.401,
+    "text": "10."
+  },
+  {
+    "start": 1775.84,
+    "duration": 3.92,
+    "text": "Now search for downwards."
+  },
+  {
+    "start": 1778.32,
+    "duration": 4.2,
+    "text": "So,"
+  },
+  {
+    "start": 1779.76,
+    "duration": 5.0,
+    "text": "start from here, check what is smaller,"
+  },
+  {
+    "start": 1782.52,
+    "duration": 4.88,
+    "text": "left or right. You can get left easily,"
+  },
+  {
+    "start": 1784.76,
+    "duration": 5.32,
+    "text": "right easily. 2 into I and 2 into I plus"
+  },
+  {
+    "start": 1787.4,
+    "duration": 3.84,
+    "text": "1. Okay? Initially, I is equal to let's"
+  },
+  {
+    "start": 1790.08,
+    "duration": 2.72,
+    "text": "say 1."
+  },
+  {
+    "start": 1791.24,
+    "duration": 4.52,
+    "text": "You can take I zero as well. Maybe when"
+  },
+  {
+    "start": 1792.8,
+    "duration": 5.04,
+    "text": "I So, when I code, I will take uh array"
+  },
+  {
+    "start": 1795.76,
+    "duration": 4.28,
+    "text": "from zero. Not a problem."
+  },
+  {
+    "start": 1797.84,
+    "duration": 3.72,
+    "text": "That will be simple."
+  },
+  {
+    "start": 1800.04,
+    "duration": 4.08,
+    "text": "Very simple."
+  },
+  {
+    "start": 1801.56,
+    "duration": 4.2,
+    "text": "What will be the values then?"
+  },
+  {
+    "start": 1804.12,
+    "duration": 3.2,
+    "text": "If you take array"
+  },
+  {
+    "start": 1805.76,
+    "duration": 3.8,
+    "text": "like uh what will the What will be the"
+  },
+  {
+    "start": 1807.32,
+    "duration": 3.88,
+    "text": "parent? Parent will be instead of index"
+  },
+  {
+    "start": 1809.56,
+    "duration": 2.64,
+    "text": "divided by two, index minus one divided"
+  },
+  {
+    "start": 1811.2,
+    "duration": 4.04,
+    "text": "by two."
+  },
+  {
+    "start": 1812.2,
+    "duration": 4.52,
+    "text": "Left will be index into two plus one."
+  },
+  {
+    "start": 1815.24,
+    "duration": 2.28,
+    "text": "And right will be index into two plus"
+  },
+  {
+    "start": 1816.72,
+    "duration": 2.28,
+    "text": "two."
+  },
+  {
+    "start": 1817.52,
+    "duration": 2.84,
+    "text": "Whatever, you can take from index number"
+  },
+  {
+    "start": 1819.0,
+    "duration": 2.48,
+    "text": "one also."
+  },
+  {
+    "start": 1820.36,
+    "duration": 3.04,
+    "text": "Okay?"
+  },
+  {
+    "start": 1821.48,
+    "duration": 3.76,
+    "text": "So,"
+  },
+  {
+    "start": 1823.4,
+    "duration": 6.56,
+    "text": "I'll check left is smaller or right is"
+  },
+  {
+    "start": 1825.24,
+    "duration": 4.72,
+    "text": "smaller. Left is smaller. Small Swap it."
+  },
+  {
+    "start": 1832.88,
+    "duration": 3.48,
+    "text": "Now, from again,"
+  },
+  {
+    "start": 1835.12,
+    "duration": 2.72,
+    "text": "check here."
+  },
+  {
+    "start": 1836.36,
+    "duration": 2.92,
+    "text": "Do I have to check it from here now for"
+  },
+  {
+    "start": 1837.84,
+    "duration": 3.08,
+    "text": "nine as well?"
+  },
+  {
+    "start": 1839.28,
+    "duration": 4.76,
+    "text": "No, I do not."
+  },
+  {
+    "start": 1840.92,
+    "duration": 3.12,
+    "text": "I don't have to check with nine."
+  },
+  {
+    "start": 1845.12,
+    "duration": 4.72,
+    "text": "Okay? Because of these conditions. Same"
+  },
+  {
+    "start": 1847.96,
+    "duration": 3.2,
+    "text": "reason as I gave previously. Similarly,"
+  },
+  {
+    "start": 1849.84,
+    "duration": 4.12,
+    "text": "now for 10,"
+  },
+  {
+    "start": 1851.16,
+    "duration": 4.2,
+    "text": "is left smaller or right smaller?"
+  },
+  {
+    "start": 1853.96,
+    "duration": 4.8,
+    "text": "Um"
+  },
+  {
+    "start": 1855.36,
+    "duration": 3.4,
+    "text": "Left is smaller. Again, swap."
+  },
+  {
+    "start": 1864.44,
+    "duration": 4.36,
+    "text": "This will also be"
+  },
+  {
+    "start": 1866.72,
+    "duration": 5.32,
+    "text": "This will be seven."
+  },
+  {
+    "start": 1868.8,
+    "duration": 3.24,
+    "text": "This will be 10."
+  },
+  {
+    "start": 1877.08,
+    "duration": 5.72,
+    "text": "This will be eight."
+  },
+  {
+    "start": 1880.16,
+    "duration": 4.28,
+    "text": "Now, left and right. Um there is no"
+  },
+  {
+    "start": 1882.8,
+    "duration": 3.48,
+    "text": "right, so I will not check. Otherwise,"
+  },
+  {
+    "start": 1884.44,
+    "duration": 3.6,
+    "text": "it will give me exception."
+  },
+  {
+    "start": 1886.28,
+    "duration": 4.48,
+    "text": "Right. It's uh There There is no right."
+  },
+  {
+    "start": 1888.04,
+    "duration": 4.32,
+    "text": "Left. Is left smaller than the current"
+  },
+  {
+    "start": 1890.76,
+    "duration": 3.44,
+    "text": "uh value that I'm checking? No, it's"
+  },
+  {
+    "start": 1892.36,
+    "duration": 3.08,
+    "text": "not. Okay, program over. That's done."
+  },
+  {
+    "start": 1894.2,
+    "duration": 3.04,
+    "text": "That's it."
+  },
+  {
+    "start": 1895.44,
+    "duration": 5.16,
+    "text": "This is also doing the same thing."
+  },
+  {
+    "start": 1897.24,
+    "duration": 4.48,
+    "text": "Taking it only one one at a time."
+  },
+  {
+    "start": 1900.6,
+    "duration": 4.56,
+    "text": "That's why"
+  },
+  {
+    "start": 1901.72,
+    "duration": 5.76,
+    "text": "removing will also take log of n."
+  },
+  {
+    "start": 1905.16,
+    "duration": 3.84,
+    "text": "Okay? Insertion removal done. We saw the"
+  },
+  {
+    "start": 1907.48,
+    "duration": 4.16,
+    "text": "dry run as well."
+  },
+  {
+    "start": 1909.0,
+    "duration": 4.12,
+    "text": "Um"
+  },
+  {
+    "start": 1911.64,
+    "duration": 2.88,
+    "text": "Try coding it."
+  },
+  {
+    "start": 1913.12,
+    "duration": 2.84,
+    "text": "Try to code it. It's very simple. I just"
+  },
+  {
+    "start": 1914.52,
+    "duration": 3.12,
+    "text": "told you everything."
+  },
+  {
+    "start": 1915.96,
+    "duration": 3.4,
+    "text": "Told you all the formulas. Try coding it"
+  },
+  {
+    "start": 1917.64,
+    "duration": 4.52,
+    "text": "from Let's say if we store it from"
+  },
+  {
+    "start": 1919.36,
+    "duration": 5.12,
+    "text": "zeroth index itself."
+  },
+  {
+    "start": 1922.16,
+    "duration": 4.04,
+    "text": "And um"
+  },
+  {
+    "start": 1924.48,
+    "duration": 4.72,
+    "text": "Instead of using array to make your life"
+  },
+  {
+    "start": 1926.2,
+    "duration": 5.36,
+    "text": "simpler, use array list."
+  },
+  {
+    "start": 1929.2,
+    "duration": 5.24,
+    "text": "Array list is fine. Use array list."
+  },
+  {
+    "start": 1931.56,
+    "duration": 5.0,
+    "text": "And um very simple. Yeah."
+  },
+  {
+    "start": 1934.44,
+    "duration": 5.04,
+    "text": "So, log n insertion, log n deletion, we"
+  },
+  {
+    "start": 1936.56,
+    "duration": 5.16,
+    "text": "checked that. We saw the structure, how"
+  },
+  {
+    "start": 1939.48,
+    "duration": 3.76,
+    "text": "it's represented, we saw the"
+  },
+  {
+    "start": 1941.72,
+    "duration": 3.12,
+    "text": "how the tree is represented using these"
+  },
+  {
+    "start": 1943.24,
+    "duration": 3.16,
+    "text": "formulas."
+  },
+  {
+    "start": 1944.84,
+    "duration": 2.839,
+    "text": "Or, you can start from zeroth index as"
+  },
+  {
+    "start": 1946.4,
+    "duration": 3.48,
+    "text": "well. You can calculate formulas for"
+  },
+  {
+    "start": 1947.679,
+    "duration": 3.281,
+    "text": "that. I'll write it in the code."
+  },
+  {
+    "start": 1949.88,
+    "duration": 3.04,
+    "text": "Code links can be found in the"
+  },
+  {
+    "start": 1950.96,
+    "duration": 3.28,
+    "text": "description below. I will"
+  },
+  {
+    "start": 1952.92,
+    "duration": 3.0,
+    "text": "be coding on the browser, so you can"
+  },
+  {
+    "start": 1954.24,
+    "duration": 4.04,
+    "text": "directly run it on your"
+  },
+  {
+    "start": 1955.92,
+    "duration": 4.32,
+    "text": "uh web page as well. So, the link to the"
+  },
+  {
+    "start": 1958.28,
+    "duration": 3.84,
+    "text": "code is in the description."
+  },
+  {
+    "start": 1960.24,
+    "duration": 3.72,
+    "text": "Is anything else remaining?"
+  },
+  {
+    "start": 1962.12,
+    "duration": 3.64,
+    "text": "No."
+  },
+  {
+    "start": 1963.96,
+    "duration": 3.76,
+    "text": "Nothing else is remaining. Now, it's"
+  },
+  {
+    "start": 1965.76,
+    "duration": 3.6,
+    "text": "just simple coding part. Coding part is"
+  },
+  {
+    "start": 1967.72,
+    "duration": 3.28,
+    "text": "simple. Most of my videos, the coding"
+  },
+  {
+    "start": 1969.36,
+    "duration": 3.8,
+    "text": "part is just 5 minutes."
+  },
+  {
+    "start": 1971.0,
+    "duration": 4.36,
+    "text": "Simple."
+  },
+  {
+    "start": 1973.16,
+    "duration": 4.12,
+    "text": "Okay, after this, we will do heap sort"
+  },
+  {
+    "start": 1975.36,
+    "duration": 3.48,
+    "text": "and priority queue in this video only."
+  },
+  {
+    "start": 1977.28,
+    "duration": 3.24,
+    "text": "Heap sort is nothing."
+  },
+  {
+    "start": 1978.84,
+    "duration": 3.68,
+    "text": "Okay? Heap sort is easy. I'll tell you"
+  },
+  {
+    "start": 1980.52,
+    "duration": 3.96,
+    "text": "right now. So,"
+  },
+  {
+    "start": 1982.52,
+    "duration": 4.32,
+    "text": "it's so simple. Every time you are"
+  },
+  {
+    "start": 1984.48,
+    "duration": 4.28,
+    "text": "removing an item, you know that in min"
+  },
+  {
+    "start": 1986.84,
+    "duration": 3.24,
+    "text": "heap, you are removing the smallest"
+  },
+  {
+    "start": 1988.76,
+    "duration": 3.16,
+    "text": "item."
+  },
+  {
+    "start": 1990.08,
+    "duration": 3.76,
+    "text": "Okay? If I remove an item from here"
+  },
+  {
+    "start": 1991.92,
+    "duration": 3.68,
+    "text": "right now, it will remove seven."
+  },
+  {
+    "start": 1993.84,
+    "duration": 3.52,
+    "text": "Then, it will remove eight. Then, it"
+  },
+  {
+    "start": 1995.6,
+    "duration": 3.6,
+    "text": "will remove nine. Then, it will remove"
+  },
+  {
+    "start": 1997.36,
+    "duration": 3.16,
+    "text": "10. Then, 11. Then, 12. Then, 13. Then,"
+  },
+  {
+    "start": 1999.2,
+    "duration": 4.24,
+    "text": "14."
+  },
+  {
+    "start": 2000.52,
+    "duration": 4.96,
+    "text": "So, keep removing items from the"
+  },
+  {
+    "start": 2003.44,
+    "duration": 4.2,
+    "text": "heap and just stored it store it in a"
+  },
+  {
+    "start": 2005.48,
+    "duration": 4.24,
+    "text": "link in an array list or a list,"
+  },
+  {
+    "start": 2007.64,
+    "duration": 4.12,
+    "text": "whatever you want to do."
+  },
+  {
+    "start": 2009.72,
+    "duration": 3.959,
+    "text": "So, n items if you remove, it will take"
+  },
+  {
+    "start": 2011.76,
+    "duration": 3.76,
+    "text": "n into log n time."
+  },
+  {
+    "start": 2013.679,
+    "duration": 5.441,
+    "text": "n log n heap. That's heap sort. Heap"
+  },
+  {
+    "start": 2015.52,
+    "duration": 5.52,
+    "text": "sort is easy. Nothing in heap sort."
+  },
+  {
+    "start": 2019.12,
+    "duration": 3.88,
+    "text": "Okay?"
+  },
+  {
+    "start": 2021.04,
+    "duration": 3.24,
+    "text": "Um"
+  },
+  {
+    "start": 2023.0,
+    "duration": 3.4,
+    "text": "I don't know what you want me to tell"
+  },
+  {
+    "start": 2024.28,
+    "duration": 4.56,
+    "text": "you. I I feel like it when I'm teaching"
+  },
+  {
+    "start": 2026.4,
+    "duration": 4.64,
+    "text": "because I've taught in person as well."
+  },
+  {
+    "start": 2028.84,
+    "duration": 4.0,
+    "text": "And I'm like, it's that simple."
+  },
+  {
+    "start": 2031.04,
+    "duration": 4.28,
+    "text": "People get confused. They're like, \"Are"
+  },
+  {
+    "start": 2032.84,
+    "duration": 4.28,
+    "text": "you sure, Kunal bhaiya?\""
+  },
+  {
+    "start": 2035.32,
+    "duration": 3.84,
+    "text": "\"Are you sure that it's it's just this"
+  },
+  {
+    "start": 2037.12,
+    "duration": 4.28,
+    "text": "and nothing else needs to be done?\" Yes,"
+  },
+  {
+    "start": 2039.16,
+    "duration": 5.8,
+    "text": "what else do you want me to say?"
+  },
+  {
+    "start": 2041.4,
+    "duration": 5.24,
+    "text": "What else What What else can I say?"
+  },
+  {
+    "start": 2044.96,
+    "duration": 3.0,
+    "text": "Anything else remaining? Any doubt you"
+  },
+  {
+    "start": 2046.64,
+    "duration": 2.96,
+    "text": "may have? No."
+  },
+  {
+    "start": 2047.96,
+    "duration": 3.36,
+    "text": "You don't have any doubt. You feel like"
+  },
+  {
+    "start": 2049.6,
+    "duration": 3.4,
+    "text": "you have, but you don't."
+  },
+  {
+    "start": 2051.32,
+    "duration": 3.4,
+    "text": "Nothing else is remaining."
+  },
+  {
+    "start": 2053.0,
+    "duration": 3.6,
+    "text": "These topics are really easy. Don't"
+  },
+  {
+    "start": 2054.72,
+    "duration": 4.08,
+    "text": "worry about it. In data structures"
+  },
+  {
+    "start": 2056.6,
+    "duration": 3.84,
+    "text": "algorithms interview preparation, I said"
+  },
+  {
+    "start": 2058.8,
+    "duration": 3.599,
+    "text": "this many times. Only two topics are"
+  },
+  {
+    "start": 2060.44,
+    "duration": 4.4,
+    "text": "challenging. Graphs and dynamic"
+  },
+  {
+    "start": 2062.399,
+    "duration": 4.361,
+    "text": "programming. Rest, everything is easy."
+  },
+  {
+    "start": 2064.84,
+    "duration": 5.079,
+    "text": "Hash maps, heaps, linked list,"
+  },
+  {
+    "start": 2066.76,
+    "duration": 5.52,
+    "text": "recursion, uh trees, uh stacks and"
+  },
+  {
+    "start": 2069.919,
+    "duration": 4.121,
+    "text": "queues, object-oriented programming,"
+  },
+  {
+    "start": 2072.28,
+    "duration": 4.48,
+    "text": "strings, arrays,"
+  },
+  {
+    "start": 2074.04,
+    "duration": 2.72,
+    "text": "everything is easy."
+  },
+  {
+    "start": 2077.28,
+    "duration": 4.72,
+    "text": "Heap sort also easy."
+  },
+  {
+    "start": 2079.44,
+    "duration": 4.68,
+    "text": "While heap is not empty, keep removing"
+  },
+  {
+    "start": 2082.0,
+    "duration": 4.32,
+    "text": "elements. That is heap sort."
+  },
+  {
+    "start": 2084.12,
+    "duration": 4.6,
+    "text": "What else do you want me to say?"
+  },
+  {
+    "start": 2086.32,
+    "duration": 4.52,
+    "text": "We know removing one item is log n. So,"
+  },
+  {
+    "start": 2088.72,
+    "duration": 3.84,
+    "text": "removing n item in n log n. Heap sort"
+  },
+  {
+    "start": 2090.84,
+    "duration": 3.28,
+    "text": "complexity n log n. What else do you"
+  },
+  {
+    "start": 2092.56,
+    "duration": 4.96,
+    "text": "want me to say?"
+  },
+  {
+    "start": 2094.12,
+    "duration": 3.4,
+    "text": "Isn't that what heap sort is? That's it."
+  },
+  {
+    "start": 2100.64,
+    "duration": 3.88,
+    "text": "Okay? These things are very easy. Please"
+  },
+  {
+    "start": 2102.64,
+    "duration": 3.52,
+    "text": "don't waste your time. So, let's code"
+  },
+  {
+    "start": 2104.52,
+    "duration": 3.56,
+    "text": "it. I did the dry run. I explained"
+  },
+  {
+    "start": 2106.16,
+    "duration": 3.96,
+    "text": "everything. Time complexity done. Code"
+  },
+  {
+    "start": 2108.08,
+    "duration": 3.4,
+    "text": "example done. We just saw this dry run,"
+  },
+  {
+    "start": 2110.12,
+    "duration": 3.88,
+    "text": "how it works."
+  },
+  {
+    "start": 2111.48,
+    "duration": 4.8,
+    "text": "And um"
+  },
+  {
+    "start": 2114.0,
+    "duration": 4.359,
+    "text": "Yeah, let's just code it. Okay, so here"
+  },
+  {
+    "start": 2116.28,
+    "duration": 3.36,
+    "text": "in my folder, by the way, you can check"
+  },
+  {
+    "start": 2118.359,
+    "duration": 3.841,
+    "text": "out um"
+  },
+  {
+    "start": 2119.64,
+    "duration": 5.08,
+    "text": "the link in the description below."
+  },
+  {
+    "start": 2122.2,
+    "duration": 5.48,
+    "text": "I'm just going to create new Java. I'm"
+  },
+  {
+    "start": 2124.72,
+    "duration": 5.72,
+    "text": "going to call this um"
+  },
+  {
+    "start": 2127.68,
+    "duration": 2.76,
+    "text": "heaps"
+  },
+  {
+    "start": 2132.72,
+    "duration": 3.12,
+    "text": "lecture"
+  },
+  {
+    "start": 2134.44,
+    "duration": 4.2,
+    "text": "one."
+  },
+  {
+    "start": 2135.84,
+    "duration": 4.64,
+    "text": "I can just say heaps one."
+  },
+  {
+    "start": 2138.64,
+    "duration": 4.48,
+    "text": "public"
+  },
+  {
+    "start": 2140.48,
+    "duration": 2.64,
+    "text": "create"
+  },
+  {
+    "start": 2148.84,
+    "duration": 3.2,
+    "text": "Easy."
+  },
+  {
+    "start": 2150.64,
+    "duration": 4.32,
+    "text": "All right."
+  },
+  {
+    "start": 2152.04,
+    "duration": 5.92,
+    "text": "New file. I'm going to call it"
+  },
+  {
+    "start": 2154.96,
+    "duration": 3.0,
+    "text": "heap.java."
+  },
+  {
+    "start": 2159.68,
+    "duration": 3.0,
+    "text": "And"
+  },
+  {
+    "start": 2164.08,
+    "duration": 4.68,
+    "text": "That's it."
+  },
+  {
+    "start": 2166.24,
+    "duration": 5.88,
+    "text": "class heap"
+  },
+  {
+    "start": 2168.76,
+    "duration": 3.36,
+    "text": "Going to zoom in a little bit."
+  },
+  {
+    "start": 2173.72,
+    "duration": 5.16,
+    "text": "Okay, what do we do?"
+  },
+  {
+    "start": 2175.88,
+    "duration": 7.16,
+    "text": "This is how we do this."
+  },
+  {
+    "start": 2178.88,
+    "duration": 6.88,
+    "text": "What do we do? We need array."
+  },
+  {
+    "start": 2183.04,
+    "duration": 2.72,
+    "text": "So,"
+  },
+  {
+    "start": 2187.96,
+    "duration": 6.28,
+    "text": "import java.util."
+  },
+  {
+    "start": 2191.96,
+    "duration": 5.0,
+    "text": "array list"
+  },
+  {
+    "start": 2194.24,
+    "duration": 5.2,
+    "text": "And"
+  },
+  {
+    "start": 2196.96,
+    "duration": 3.88,
+    "text": "class heap"
+  },
+  {
+    "start": 2199.44,
+    "duration": 3.16,
+    "text": "is something we have over here. Okay,"
+  },
+  {
+    "start": 2200.84,
+    "duration": 5.16,
+    "text": "not a problem."
+  },
+  {
+    "start": 2202.6,
+    "duration": 6.08,
+    "text": "What I'm going to do is that"
+  },
+  {
+    "start": 2206.0,
+    "duration": 4.76,
+    "text": "I'm going to make this of type um"
+  },
+  {
+    "start": 2208.68,
+    "duration": 4.96,
+    "text": "Like, I'm going to make it generic."
+  },
+  {
+    "start": 2210.76,
+    "duration": 4.88,
+    "text": "Okay? So, for example, you can You know"
+  },
+  {
+    "start": 2213.64,
+    "duration": 5.04,
+    "text": "what generics are, right? So, if I say"
+  },
+  {
+    "start": 2215.64,
+    "duration": 6.52,
+    "text": "something like in the heap here, I say"
+  },
+  {
+    "start": 2218.68,
+    "duration": 3.48,
+    "text": "If I say something like"
+  },
+  {
+    "start": 2222.2,
+    "duration": 7.12,
+    "text": "Let's say"
+  },
+  {
+    "start": 2224.44,
+    "duration": 4.88,
+    "text": "heap of what? Heap of integer."
+  },
+  {
+    "start": 2229.44,
+    "duration": 4.76,
+    "text": "Heap is equal to new heap."
+  },
+  {
+    "start": 2232.88,
+    "duration": 2.36,
+    "text": "We all know what this thing is, the"
+  },
+  {
+    "start": 2234.2,
+    "duration": 3.08,
+    "text": "generics. We have done it in"
+  },
+  {
+    "start": 2235.24,
+    "duration": 4.36,
+    "text": "object-oriented"
+  },
+  {
+    "start": 2237.28,
+    "duration": 4.88,
+    "text": "So,"
+  },
+  {
+    "start": 2239.6,
+    "duration": 5.56,
+    "text": "here I will have to then make this also"
+  },
+  {
+    "start": 2242.16,
+    "duration": 3.0,
+    "text": "in terms of generics."
+  },
+  {
+    "start": 2247.8,
+    "duration": 3.4,
+    "text": "There you go."
+  },
+  {
+    "start": 2249.4,
+    "duration": 3.76,
+    "text": "Going to say type T"
+  },
+  {
+    "start": 2251.2,
+    "duration": 4.84,
+    "text": "extends"
+  },
+  {
+    "start": 2253.16,
+    "duration": 2.88,
+    "text": "comparable."
+  },
+  {
+    "start": 2256.76,
+    "duration": 2.52,
+    "text": "We all know how this thing works because"
+  },
+  {
+    "start": 2258.04,
+    "duration": 2.36,
+    "text": "we have done object-oriented"
+  },
+  {
+    "start": 2259.28,
+    "duration": 2.96,
+    "text": "programming. If you have not, please"
+  },
+  {
+    "start": 2260.4,
+    "duration": 2.959,
+    "text": "watch object-oriented programming"
+  },
+  {
+    "start": 2262.24,
+    "duration": 3.32,
+    "text": "playlist."
+  },
+  {
+    "start": 2263.359,
+    "duration": 3.401,
+    "text": "This is how we can compare two objects."
+  },
+  {
+    "start": 2265.56,
+    "duration": 2.84,
+    "text": "This is why I'm extending it with"
+  },
+  {
+    "start": 2266.76,
+    "duration": 3.16,
+    "text": "comparable, so I can compare two"
+  },
+  {
+    "start": 2268.4,
+    "duration": 3.28,
+    "text": "objects."
+  },
+  {
+    "start": 2269.92,
+    "duration": 4.2,
+    "text": "Please understand."
+  },
+  {
+    "start": 2271.68,
+    "duration": 2.44,
+    "text": "Okay?"
+  },
+  {
+    "start": 2274.56,
+    "duration": 2.48,
+    "text": "All right."
+  },
+  {
+    "start": 2277.359,
+    "duration": 4.481,
+    "text": "That looks fine."
+  },
+  {
+    "start": 2279.4,
+    "duration": 4.48,
+    "text": "Okay. Now, heap will have an array. I'll"
+  },
+  {
+    "start": 2281.84,
+    "duration": 4.8,
+    "text": "just make an array list."
+  },
+  {
+    "start": 2283.88,
+    "duration": 2.76,
+    "text": "private"
+  },
+  {
+    "start": 2288.08,
+    "duration": 3.6,
+    "text": "array list of type T"
+  },
+  {
+    "start": 2292.72,
+    "duration": 4.04,
+    "text": "list"
+  },
+  {
+    "start": 2294.08,
+    "duration": 2.68,
+    "text": "constructor"
+  },
+  {
+    "start": 2306.2,
+    "duration": 4.24,
+    "text": "Done."
+  },
+  {
+    "start": 2308.359,
+    "duration": 4.081,
+    "text": "What now? Okay, but since we are going"
+  },
+  {
+    "start": 2310.44,
+    "duration": 3.28,
+    "text": "to swap a lot of elements, we will be"
+  },
+  {
+    "start": 2312.44,
+    "duration": 3.6,
+    "text": "Let's Let's say this is an array list. I"
+  },
+  {
+    "start": 2313.72,
+    "duration": 3.68,
+    "text": "need to swap two indices, so I'll just"
+  },
+  {
+    "start": 2316.04,
+    "duration": 3.52,
+    "text": "create a swap function to make my life"
+  },
+  {
+    "start": 2317.4,
+    "duration": 4.52,
+    "text": "easy. private"
+  },
+  {
+    "start": 2319.56,
+    "duration": 4.68,
+    "text": "not returning anything"
+  },
+  {
+    "start": 2321.92,
+    "duration": 4.48,
+    "text": "first index"
+  },
+  {
+    "start": 2324.24,
+    "duration": 5.6,
+    "text": "second index"
+  },
+  {
+    "start": 2326.4,
+    "duration": 4.64,
+    "text": "temp is equal to list.get"
+  },
+  {
+    "start": 2329.84,
+    "duration": 4.08,
+    "text": "first"
+  },
+  {
+    "start": 2331.04,
+    "duration": 2.88,
+    "text": "list."
+  },
+  {
+    "start": 2335.48,
+    "duration": 3.52,
+    "text": "Should be curly braces."
+  },
+  {
+    "start": 2342.48,
+    "duration": 3.6,
+    "text": "Okay?"
+  },
+  {
+    "start": 2343.52,
+    "duration": 4.6,
+    "text": "Then, I can say"
+  },
+  {
+    "start": 2346.08,
+    "duration": 3.84,
+    "text": "list.set You all know how to swap two"
+  },
+  {
+    "start": 2348.12,
+    "duration": 2.84,
+    "text": "numbers, right? In an array. Two"
+  },
+  {
+    "start": 2349.92,
+    "duration": 2.32,
+    "text": "indices."
+  },
+  {
+    "start": 2350.96,
+    "duration": 3.72,
+    "text": "Please."
+  },
+  {
+    "start": 2352.24,
+    "duration": 2.44,
+    "text": "Please."
+  },
+  {
+    "start": 2355.32,
+    "duration": 5.36,
+    "text": "If you don't know how to swap two"
+  },
+  {
+    "start": 2357.6,
+    "duration": 5.04,
+    "text": "indices in an array list, how can you"
+  },
+  {
+    "start": 2360.68,
+    "duration": 2.96,
+    "text": "clear your interviews?"
+  },
+  {
+    "start": 2362.64,
+    "duration": 4.24,
+    "text": "Please."
+  },
+  {
+    "start": 2363.64,
+    "duration": 3.24,
+    "text": "And then, list.set"
+  },
+  {
+    "start": 2366.92,
+    "duration": 4.64,
+    "text": "It is going to be very shameful"
+  },
+  {
+    "start": 2370.359,
+    "duration": 3.0,
+    "text": "for you"
+  },
+  {
+    "start": 2371.56,
+    "duration": 2.92,
+    "text": "if I explain to you how this method is"
+  },
+  {
+    "start": 2373.359,
+    "duration": 4.161,
+    "text": "working."
+  },
+  {
+    "start": 2374.48,
+    "duration": 3.04,
+    "text": "This function is working."
+  },
+  {
+    "start": 2378.0,
+    "duration": 4.56,
+    "text": "Question is, swap two indices in an"
+  },
+  {
+    "start": 2381.16,
+    "duration": 3.88,
+    "text": "array list."
+  },
+  {
+    "start": 2382.56,
+    "duration": 3.8,
+    "text": "It is going to be shameful"
+  },
+  {
+    "start": 2385.04,
+    "duration": 3.4,
+    "text": "if"
+  },
+  {
+    "start": 2386.36,
+    "duration": 3.52,
+    "text": "right now at this point of course, I"
+  },
+  {
+    "start": 2388.44,
+    "duration": 3.36,
+    "text": "explain to you how this method is"
+  },
+  {
+    "start": 2389.88,
+    "duration": 5.52,
+    "text": "working. Shameful for you."
+  },
+  {
+    "start": 2391.8,
+    "duration": 3.6,
+    "text": "That is why I'm not explaining this."
+  },
+  {
+    "start": 2397.36,
+    "duration": 2.64,
+    "text": "So simple."
+  },
+  {
+    "start": 2400.48,
+    "duration": 2.6,
+    "text": "No words."
+  },
+  {
+    "start": 2404.04,
+    "duration": 3.2,
+    "text": "So watch the array list videos if you"
+  },
+  {
+    "start": 2405.72,
+    "duration": 3.8,
+    "text": "have not if you have any questions about"
+  },
+  {
+    "start": 2407.24,
+    "duration": 3.92,
+    "text": "this thing."
+  },
+  {
+    "start": 2409.52,
+    "duration": 3.24,
+    "text": "Okay. Imagine I teach you dynamic"
+  },
+  {
+    "start": 2411.16,
+    "duration": 3.8,
+    "text": "programming and you're like, \"Kunal,"
+  },
+  {
+    "start": 2412.76,
+    "duration": 4.36,
+    "text": "what does it mean by base condition in"
+  },
+  {
+    "start": 2414.96,
+    "duration": 5.16,
+    "text": "recursion?\""
+  },
+  {
+    "start": 2417.12,
+    "duration": 4.2,
+    "text": "Does it make any sense? Shameful."
+  },
+  {
+    "start": 2420.12,
+    "duration": 2.4,
+    "text": "You're learning dynamic programming and"
+  },
+  {
+    "start": 2421.32,
+    "duration": 2.68,
+    "text": "you don't know what recursion base"
+  },
+  {
+    "start": 2422.52,
+    "duration": 3.16,
+    "text": "condition means."
+  },
+  {
+    "start": 2424.0,
+    "duration": 2.8,
+    "text": "That's shameful."
+  },
+  {
+    "start": 2425.68,
+    "duration": 3.28,
+    "text": "Problem is not dynamic programming."
+  },
+  {
+    "start": 2426.8,
+    "duration": 3.84,
+    "text": "Problem is you don't know recursion."
+  },
+  {
+    "start": 2428.96,
+    "duration": 2.68,
+    "text": "So okay. Fundamental should be clear."
+  },
+  {
+    "start": 2430.64,
+    "duration": 2.44,
+    "text": "Now,"
+  },
+  {
+    "start": 2431.64,
+    "duration": 4.12,
+    "text": "um"
+  },
+  {
+    "start": 2433.08,
+    "duration": 6.24,
+    "text": "another things I need is"
+  },
+  {
+    "start": 2435.76,
+    "duration": 5.52,
+    "text": "these thing. Root, parent uh root I know"
+  },
+  {
+    "start": 2439.32,
+    "duration": 4.56,
+    "text": "never mind. Parent, left, and right. In"
+  },
+  {
+    "start": 2441.28,
+    "duration": 4.24,
+    "text": "this example, I have if root is equal to"
+  },
+  {
+    "start": 2443.88,
+    "duration": 4.52,
+    "text": "I is equal to one."
+  },
+  {
+    "start": 2445.52,
+    "duration": 3.76,
+    "text": "If I put I is equal to zero, so I minus"
+  },
+  {
+    "start": 2448.4,
+    "duration": 3.48,
+    "text": "one."
+  },
+  {
+    "start": 2449.28,
+    "duration": 5.92,
+    "text": "So parent will become"
+  },
+  {
+    "start": 2451.88,
+    "duration": 6.36,
+    "text": "if I is equal to zero means I minus one."
+  },
+  {
+    "start": 2455.2,
+    "duration": 4.64,
+    "text": "Zero will be what? Minus one for zero."
+  },
+  {
+    "start": 2458.24,
+    "duration": 5.28,
+    "text": "So I'll just put minus one over here. So"
+  },
+  {
+    "start": 2459.84,
+    "duration": 3.68,
+    "text": "I minus one divide by two parent."
+  },
+  {
+    "start": 2463.72,
+    "duration": 3.0,
+    "text": "Private int"
+  },
+  {
+    "start": 2465.56,
+    "duration": 4.76,
+    "text": "parent"
+  },
+  {
+    "start": 2466.72,
+    "duration": 4.96,
+    "text": "for this index will be"
+  },
+  {
+    "start": 2470.32,
+    "duration": 4.68,
+    "text": "return"
+  },
+  {
+    "start": 2471.68,
+    "duration": 5.4,
+    "text": "I divide by two. I in reality is what?"
+  },
+  {
+    "start": 2475.0,
+    "duration": 3.04,
+    "text": "I minus one because we are taking it as"
+  },
+  {
+    "start": 2477.08,
+    "duration": 2.44,
+    "text": "zero."
+  },
+  {
+    "start": 2478.04,
+    "duration": 3.08,
+    "text": "So I'm just taking index number zero"
+  },
+  {
+    "start": 2479.52,
+    "duration": 4.08,
+    "text": "only. I'm not taking from index number"
+  },
+  {
+    "start": 2481.12,
+    "duration": 6.56,
+    "text": "one. So minus one, so just put minus one"
+  },
+  {
+    "start": 2483.6,
+    "duration": 4.08,
+    "text": "here. I minus one divide by two. Okay."
+  },
+  {
+    "start": 2490.0,
+    "duration": 4.48,
+    "text": "Not a problem."
+  },
+  {
+    "start": 2491.76,
+    "duration": 2.72,
+    "text": "Similarly,"
+  },
+  {
+    "start": 2496.2,
+    "duration": 4.24,
+    "text": "left"
+  },
+  {
+    "start": 2497.52,
+    "duration": 6.36,
+    "text": "of this index will be what?"
+  },
+  {
+    "start": 2500.44,
+    "duration": 3.44,
+    "text": "Two into I minus one."
+  },
+  {
+    "start": 2508.52,
+    "duration": 3.96,
+    "text": "No."
+  },
+  {
+    "start": 2509.64,
+    "duration": 2.84,
+    "text": "Not I minus one."
+  },
+  {
+    "start": 2512.56,
+    "duration": 3.16,
+    "text": "See about it."
+  },
+  {
+    "start": 2513.84,
+    "duration": 4.12,
+    "text": "Um"
+  },
+  {
+    "start": 2515.72,
+    "duration": 3.36,
+    "text": "This is zero,"
+  },
+  {
+    "start": 2517.96,
+    "duration": 3.2,
+    "text": "one,"
+  },
+  {
+    "start": 2519.08,
+    "duration": 3.2,
+    "text": "two, three,"
+  },
+  {
+    "start": 2521.16,
+    "duration": 3.32,
+    "text": "four,"
+  },
+  {
+    "start": 2522.28,
+    "duration": 3.44,
+    "text": "five, six,"
+  },
+  {
+    "start": 2524.48,
+    "duration": 4.08,
+    "text": "seven,"
+  },
+  {
+    "start": 2525.72,
+    "duration": 6.36,
+    "text": "eight. Left here is seven."
+  },
+  {
+    "start": 2528.56,
+    "duration": 3.52,
+    "text": "Three into two plus one."
+  },
+  {
+    "start": 2532.24,
+    "duration": 4.76,
+    "text": "One into two plus one. Zero into two"
+  },
+  {
+    "start": 2534.68,
+    "duration": 5.12,
+    "text": "plus one. Two into two plus one. So I"
+  },
+  {
+    "start": 2537.0,
+    "duration": 2.8,
+    "text": "into two plus one."
+  },
+  {
+    "start": 2543.56,
+    "duration": 4.2,
+    "text": "Index into two"
+  },
+  {
+    "start": 2545.24,
+    "duration": 3.8,
+    "text": "plus one."
+  },
+  {
+    "start": 2547.76,
+    "duration": 4.44,
+    "text": "That's it."
+  },
+  {
+    "start": 2549.04,
+    "duration": 6.24,
+    "text": "You actually don't need this because of"
+  },
+  {
+    "start": 2552.2,
+    "duration": 5.0,
+    "text": "the rules of basic mathematics."
+  },
+  {
+    "start": 2555.28,
+    "duration": 5.08,
+    "text": "What is the right element? Index into"
+  },
+  {
+    "start": 2557.2,
+    "duration": 5.52,
+    "text": "two plus two. Very simple."
+  },
+  {
+    "start": 2560.36,
+    "duration": 4.64,
+    "text": "Two into two plus two six. One into two"
+  },
+  {
+    "start": 2562.72,
+    "duration": 6.36,
+    "text": "plus two four. Three into two plus two"
+  },
+  {
+    "start": 2565.0,
+    "duration": 4.08,
+    "text": "eight. Zero into two plus two two."
+  },
+  {
+    "start": 2569.16,
+    "duration": 2.68,
+    "text": "That is it."
+  },
+  {
+    "start": 2572.12,
+    "duration": 2.64,
+    "text": "That is it."
+  },
+  {
+    "start": 2575.68,
+    "duration": 4.6,
+    "text": "Now,"
+  },
+  {
+    "start": 2577.68,
+    "duration": 2.6,
+    "text": "insert"
+  },
+  {
+    "start": 2581.92,
+    "duration": 4.48,
+    "text": "of type T,"
+  },
+  {
+    "start": 2583.64,
+    "duration": 5.68,
+    "text": "I will insert a value in it."
+  },
+  {
+    "start": 2586.4,
+    "duration": 2.92,
+    "text": "How do we insert?"
+  },
+  {
+    "start": 2590.08,
+    "duration": 3.92,
+    "text": "Remember, think about it. What did we"
+  },
+  {
+    "start": 2591.8,
+    "duration": 4.08,
+    "text": "do? So when you're inserting, first we"
+  },
+  {
+    "start": 2594.0,
+    "duration": 4.16,
+    "text": "will put the element at the last element"
+  },
+  {
+    "start": 2595.88,
+    "duration": 4.92,
+    "text": "last index. Not a problem."
+  },
+  {
+    "start": 2598.16,
+    "duration": 5.36,
+    "text": "List dot add value."
+  },
+  {
+    "start": 2600.8,
+    "duration": 3.96,
+    "text": "So this will add it at the last."
+  },
+  {
+    "start": 2603.52,
+    "duration": 4.88,
+    "text": "After this,"
+  },
+  {
+    "start": 2604.76,
+    "duration": 6.44,
+    "text": "I will try to swap it from bottom to"
+  },
+  {
+    "start": 2608.4,
+    "duration": 5.08,
+    "text": "above. This is actually called up heap."
+  },
+  {
+    "start": 2611.2,
+    "duration": 4.24,
+    "text": "Up heap because I'm going up"
+  },
+  {
+    "start": 2613.48,
+    "duration": 3.88,
+    "text": "from the last index."
+  },
+  {
+    "start": 2615.44,
+    "duration": 3.8,
+    "text": "Call up heap"
+  },
+  {
+    "start": 2617.36,
+    "duration": 4.48,
+    "text": "from the last index. Last index is what?"
+  },
+  {
+    "start": 2619.24,
+    "duration": 4.64,
+    "text": "List dot size minus one. Okay. I will"
+  },
+  {
+    "start": 2621.84,
+    "duration": 3.28,
+    "text": "now create up heap."
+  },
+  {
+    "start": 2623.88,
+    "duration": 5.2,
+    "text": "So"
+  },
+  {
+    "start": 2625.12,
+    "duration": 5.92,
+    "text": "private void up heap"
+  },
+  {
+    "start": 2629.08,
+    "duration": 3.92,
+    "text": "int index."
+  },
+  {
+    "start": 2631.04,
+    "duration": 4.2,
+    "text": "So what am I going to do?"
+  },
+  {
+    "start": 2633.0,
+    "duration": 4.96,
+    "text": "I'm going to check for the parent. Get"
+  },
+  {
+    "start": 2635.24,
+    "duration": 2.72,
+    "text": "the parent."
+  },
+  {
+    "start": 2638.08,
+    "duration": 5.24,
+    "text": "Int P is equal to"
+  },
+  {
+    "start": 2640.32,
+    "duration": 5.0,
+    "text": "parent of this index."
+  },
+  {
+    "start": 2643.32,
+    "duration": 4.2,
+    "text": "But also, if you're at the base"
+  },
+  {
+    "start": 2645.32,
+    "duration": 5.6,
+    "text": "condition, so if you're at the zeroth"
+  },
+  {
+    "start": 2647.52,
+    "duration": 3.4,
+    "text": "index, then it is over."
+  },
+  {
+    "start": 2652.8,
+    "duration": 3.76,
+    "text": "Then just return. Nothing else needs to"
+  },
+  {
+    "start": 2654.92,
+    "duration": 4.12,
+    "text": "be done."
+  },
+  {
+    "start": 2656.56,
+    "duration": 4.12,
+    "text": "Start checking for the parent. So if I"
+  },
+  {
+    "start": 2659.04,
+    "duration": 5.08,
+    "text": "added stuff over here,"
+  },
+  {
+    "start": 2660.68,
+    "duration": 4.88,
+    "text": "I'll check for the parent. Is parent,"
+  },
+  {
+    "start": 2664.12,
+    "duration": 2.84,
+    "text": "you know,"
+  },
+  {
+    "start": 2665.56,
+    "duration": 2.96,
+    "text": "greater than"
+  },
+  {
+    "start": 2666.96,
+    "duration": 6.2,
+    "text": "the current value?"
+  },
+  {
+    "start": 2668.52,
+    "duration": 6.04,
+    "text": "So current item dot compare to parent"
+  },
+  {
+    "start": 2673.16,
+    "duration": 2.92,
+    "text": "should be less than zero. Means if the"
+  },
+  {
+    "start": 2674.56,
+    "duration": 4.08,
+    "text": "current item is smaller than parent,"
+  },
+  {
+    "start": 2676.08,
+    "duration": 4.76,
+    "text": "then swap."
+  },
+  {
+    "start": 2678.64,
+    "duration": 3.719,
+    "text": "So if"
+  },
+  {
+    "start": 2680.84,
+    "duration": 6.12,
+    "text": "list dot"
+  },
+  {
+    "start": 2682.359,
+    "duration": 4.601,
+    "text": "get index if item at this index"
+  },
+  {
+    "start": 2687.4,
+    "duration": 6.16,
+    "text": "compare to list dot get"
+  },
+  {
+    "start": 2691.4,
+    "duration": 4.64,
+    "text": "parent"
+  },
+  {
+    "start": 2693.56,
+    "duration": 5.24,
+    "text": "means if this item is smaller than"
+  },
+  {
+    "start": 2696.04,
+    "duration": 5.0,
+    "text": "parent, swap"
+  },
+  {
+    "start": 2698.8,
+    "duration": 3.84,
+    "text": "index and parent."
+  },
+  {
+    "start": 2701.04,
+    "duration": 4.04,
+    "text": "So it will be swapped."
+  },
+  {
+    "start": 2702.64,
+    "duration": 4.2,
+    "text": "And then the new element that I'm going"
+  },
+  {
+    "start": 2705.08,
+    "duration": 3.8,
+    "text": "to check for is"
+  },
+  {
+    "start": 2706.84,
+    "duration": 5.44,
+    "text": "the parent index. So I'm just going to"
+  },
+  {
+    "start": 2708.88,
+    "duration": 3.4,
+    "text": "call the same function again"
+  },
+  {
+    "start": 2712.44,
+    "duration": 5.08,
+    "text": "with P."
+  },
+  {
+    "start": 2714.96,
+    "duration": 2.56,
+    "text": "That's it."
+  },
+  {
+    "start": 2717.76,
+    "duration": 2.4,
+    "text": "Easy."
+  },
+  {
+    "start": 2720.359,
+    "duration": 3.601,
+    "text": "Simple. I showed you the dry run in this"
+  },
+  {
+    "start": 2721.92,
+    "duration": 4.64,
+    "text": "example as well."
+  },
+  {
+    "start": 2723.96,
+    "duration": 2.6,
+    "text": "Very easy."
+  },
+  {
+    "start": 2726.68,
+    "duration": 5.28,
+    "text": "Okay."
+  },
+  {
+    "start": 2728.6,
+    "duration": 3.36,
+    "text": "Similarly, you can make remove."
+  },
+  {
+    "start": 2736.2,
+    "duration": 3.84,
+    "text": "This will throw an exception because if"
+  },
+  {
+    "start": 2738.0,
+    "duration": 4.8,
+    "text": "you remove from an empty"
+  },
+  {
+    "start": 2740.04,
+    "duration": 2.76,
+    "text": "empty heap."
+  },
+  {
+    "start": 2744.2,
+    "duration": 3.24,
+    "text": "If list is empty,"
+  },
+  {
+    "start": 2752.12,
+    "duration": 4.28,
+    "text": "removing from an empty"
+  },
+  {
+    "start": 2755.28,
+    "duration": 3.04,
+    "text": "heap."
+  },
+  {
+    "start": 2756.4,
+    "duration": 5.28,
+    "text": "Not cool."
+  },
+  {
+    "start": 2758.32,
+    "duration": 6.36,
+    "text": "So how do we remove? Uh remove the item"
+  },
+  {
+    "start": 2761.68,
+    "duration": 3.0,
+    "text": "at the zeroth index."
+  },
+  {
+    "start": 2768.0,
+    "duration": 4.96,
+    "text": "List dot get"
+  },
+  {
+    "start": 2769.56,
+    "duration": 6.0,
+    "text": "zeroth index and this temp will be"
+  },
+  {
+    "start": 2772.96,
+    "duration": 2.6,
+    "text": "returned."
+  },
+  {
+    "start": 2776.28,
+    "duration": 4.8,
+    "text": "But"
+  },
+  {
+    "start": 2778.4,
+    "duration": 5.4,
+    "text": "swap the last element."
+  },
+  {
+    "start": 2781.08,
+    "duration": 4.279,
+    "text": "I had the last element at the very"
+  },
+  {
+    "start": 2783.8,
+    "duration": 4.12,
+    "text": "zeroth index at the very first. That's"
+  },
+  {
+    "start": 2785.359,
+    "duration": 2.561,
+    "text": "what we did."
+  },
+  {
+    "start": 2787.96,
+    "duration": 5.04,
+    "text": "Last is equal to"
+  },
+  {
+    "start": 2789.88,
+    "duration": 5.44,
+    "text": "list dot remove"
+  },
+  {
+    "start": 2793.0,
+    "duration": 4.6,
+    "text": "list dot size"
+  },
+  {
+    "start": 2795.32,
+    "duration": 5.64,
+    "text": "minus one."
+  },
+  {
+    "start": 2797.6,
+    "duration": 6.48,
+    "text": "And after removing this element, I can"
+  },
+  {
+    "start": 2800.96,
+    "duration": 6.56,
+    "text": "say that if"
+  },
+  {
+    "start": 2804.08,
+    "duration": 3.44,
+    "text": "list is not empty,"
+  },
+  {
+    "start": 2808.52,
+    "duration": 4.4,
+    "text": "list dot set at the zeroth index the"
+  },
+  {
+    "start": 2811.32,
+    "duration": 3.24,
+    "text": "last element."
+  },
+  {
+    "start": 2812.92,
+    "duration": 3.48,
+    "text": "Because it may be possible that heap"
+  },
+  {
+    "start": 2814.56,
+    "duration": 4.04,
+    "text": "only has one item. So when you remove"
+  },
+  {
+    "start": 2816.4,
+    "duration": 3.32,
+    "text": "this last item, you can see this is not"
+  },
+  {
+    "start": 2818.6,
+    "duration": 3.6,
+    "text": "actually removing it. This is just"
+  },
+  {
+    "start": 2819.72,
+    "duration": 4.08,
+    "text": "getting the value."
+  },
+  {
+    "start": 2822.2,
+    "duration": 3.4,
+    "text": "Okay."
+  },
+  {
+    "start": 2823.8,
+    "duration": 3.76,
+    "text": "After you have done that,"
+  },
+  {
+    "start": 2825.6,
+    "duration": 4.8,
+    "text": "it will be like, \"Okay, now do the same"
+  },
+  {
+    "start": 2827.56,
+    "duration": 5.36,
+    "text": "thing you did from bottom to up.\""
+  },
+  {
+    "start": 2830.4,
+    "duration": 5.0,
+    "text": "Now do it from up to bottom. So down"
+  },
+  {
+    "start": 2832.92,
+    "duration": 2.48,
+    "text": "heap."
+  },
+  {
+    "start": 2836.68,
+    "duration": 5.44,
+    "text": "Starting from zeroth index."
+  },
+  {
+    "start": 2839.0,
+    "duration": 3.12,
+    "text": "Let's make down heap."
+  },
+  {
+    "start": 2850.88,
+    "duration": 3.08,
+    "text": "Down heap is very easy."
+  },
+  {
+    "start": 2854.76,
+    "duration": 4.24,
+    "text": "Okay. So down heap is what? Current"
+  },
+  {
+    "start": 2857.2,
+    "duration": 4.4,
+    "text": "index you are at, imagine that is the"
+  },
+  {
+    "start": 2859.0,
+    "duration": 2.6,
+    "text": "minimum."
+  },
+  {
+    "start": 2862.44,
+    "duration": 4.96,
+    "text": "Get the left and right and see which one"
+  },
+  {
+    "start": 2864.12,
+    "duration": 3.28,
+    "text": "is minimum and then swap."
+  },
+  {
+    "start": 2873.08,
+    "duration": 4.04,
+    "text": "I am not even writing any new logic. I'm"
+  },
+  {
+    "start": 2874.92,
+    "duration": 4.2,
+    "text": "just writing it in code whatever I"
+  },
+  {
+    "start": 2877.12,
+    "duration": 4.08,
+    "text": "taught you."
+  },
+  {
+    "start": 2879.12,
+    "duration": 3.48,
+    "text": "Now in left and right, see which one is"
+  },
+  {
+    "start": 2881.2,
+    "duration": 4.64,
+    "text": "minimum."
+  },
+  {
+    "start": 2882.6,
+    "duration": 4.8,
+    "text": "First of all, if left exists,"
+  },
+  {
+    "start": 2885.84,
+    "duration": 3.72,
+    "text": "for example, if"
+  },
+  {
+    "start": 2887.4,
+    "duration": 5.32,
+    "text": "left is actually less than"
+  },
+  {
+    "start": 2889.56,
+    "duration": 3.16,
+    "text": "list dot size"
+  },
+  {
+    "start": 2894.24,
+    "duration": 5.04,
+    "text": "and list dot get"
+  },
+  {
+    "start": 2897.8,
+    "duration": 4.8,
+    "text": "minimum"
+  },
+  {
+    "start": 2899.28,
+    "duration": 7.36,
+    "text": "dot compare to"
+  },
+  {
+    "start": 2902.6,
+    "duration": 4.04,
+    "text": "list dot get left."
+  },
+  {
+    "start": 2909.04,
+    "duration": 4.44,
+    "text": "If this is actually, let's say"
+  },
+  {
+    "start": 2912.12,
+    "duration": 3.08,
+    "text": "if the current min that you have"
+  },
+  {
+    "start": 2913.48,
+    "duration": 2.68,
+    "text": "assumed, which is let's say we are over"
+  },
+  {
+    "start": 2915.2,
+    "duration": 2.28,
+    "text": "here,"
+  },
+  {
+    "start": 2916.16,
+    "duration": 5.28,
+    "text": "if this is actually greater than the"
+  },
+  {
+    "start": 2917.48,
+    "duration": 6.08,
+    "text": "left one, so more than zero,"
+  },
+  {
+    "start": 2921.44,
+    "duration": 3.44,
+    "text": "then min is going to be equal to left."
+  },
+  {
+    "start": 2923.56,
+    "duration": 3.799,
+    "text": "This is also something I should not be"
+  },
+  {
+    "start": 2924.88,
+    "duration": 3.68,
+    "text": "teaching you. It's very easy."
+  },
+  {
+    "start": 2927.359,
+    "duration": 2.641,
+    "text": "Don't be like, \"Kunal, oh you are"
+  },
+  {
+    "start": 2928.56,
+    "duration": 3.28,
+    "text": "assuming that we know everything.\" No,"
+  },
+  {
+    "start": 2930.0,
+    "duration": 4.08,
+    "text": "shame on you if you think that this is"
+  },
+  {
+    "start": 2931.84,
+    "duration": 4.0,
+    "text": "something that needs to be explained."
+  },
+  {
+    "start": 2934.08,
+    "duration": 3.92,
+    "text": "This compare to and stuff."
+  },
+  {
+    "start": 2935.84,
+    "duration": 3.8,
+    "text": "This I spent hours in object-oriented"
+  },
+  {
+    "start": 2938.0,
+    "duration": 3.0,
+    "text": "programming teaching you this."
+  },
+  {
+    "start": 2939.64,
+    "duration": 3.8,
+    "text": "And same thing in linked list, we also"
+  },
+  {
+    "start": 2941.0,
+    "duration": 4.76,
+    "text": "learned about compare to and everything."
+  },
+  {
+    "start": 2943.44,
+    "duration": 2.32,
+    "text": "Okay."
+  },
+  {
+    "start": 2947.6,
+    "duration": 5.88,
+    "text": "If right is less than list dot size,"
+  },
+  {
+    "start": 2950.04,
+    "duration": 5.04,
+    "text": "then compare to list dot get. If right"
+  },
+  {
+    "start": 2953.48,
+    "duration": 3.48,
+    "text": "is greater than zero, means if the right"
+  },
+  {
+    "start": 2955.08,
+    "duration": 4.68,
+    "text": "element is greater than"
+  },
+  {
+    "start": 2956.96,
+    "duration": 4.68,
+    "text": "the min, then min is equal to right."
+  },
+  {
+    "start": 2959.76,
+    "duration": 4.12,
+    "text": "In the end, you will have the min value"
+  },
+  {
+    "start": 2961.64,
+    "duration": 5.52,
+    "text": "will be equal to the minimum of"
+  },
+  {
+    "start": 2963.88,
+    "duration": 3.28,
+    "text": "current, left, and right."
+  },
+  {
+    "start": 2967.44,
+    "duration": 5.16,
+    "text": "So if"
+  },
+  {
+    "start": 2969.4,
+    "duration": 4.48,
+    "text": "min is not equal to index,"
+  },
+  {
+    "start": 2972.6,
+    "duration": 4.04,
+    "text": "means"
+  },
+  {
+    "start": 2973.88,
+    "duration": 5.08,
+    "text": "that you have found that either left or"
+  },
+  {
+    "start": 2976.64,
+    "duration": 3.68,
+    "text": "right, one of those is smaller than the"
+  },
+  {
+    "start": 2978.96,
+    "duration": 3.6,
+    "text": "current item."
+  },
+  {
+    "start": 2980.32,
+    "duration": 4.32,
+    "text": "In that case swap and call down heap in"
+  },
+  {
+    "start": 2982.56,
+    "duration": 4.0,
+    "text": "that swapped element. So, if I it was"
+  },
+  {
+    "start": 2984.64,
+    "duration": 4.12,
+    "text": "was eight and seven over here, I swapped"
+  },
+  {
+    "start": 2986.56,
+    "duration": 5.0,
+    "text": "the seven for eight here and then I will"
+  },
+  {
+    "start": 2988.76,
+    "duration": 2.8,
+    "text": "call it for two."
+  },
+  {
+    "start": 2992.2,
+    "duration": 5.44,
+    "text": "Okay, whatever the mean index is."
+  },
+  {
+    "start": 2995.12,
+    "duration": 5.12,
+    "text": "So, I will say swap"
+  },
+  {
+    "start": 2997.64,
+    "duration": 5.04,
+    "text": "mean and index"
+  },
+  {
+    "start": 3000.24,
+    "duration": 4.8,
+    "text": "and then I will just call down heap on"
+  },
+  {
+    "start": 3002.68,
+    "duration": 2.36,
+    "text": "that"
+  },
+  {
+    "start": 3005.12,
+    "duration": 4.36,
+    "text": "mean, whatever mean is."
+  },
+  {
+    "start": 3007.32,
+    "duration": 3.52,
+    "text": "It will not execute if the if you cannot"
+  },
+  {
+    "start": 3009.48,
+    "duration": 3.04,
+    "text": "find something that is smaller than"
+  },
+  {
+    "start": 3010.84,
+    "duration": 5.0,
+    "text": "either left or right. In that case, our"
+  },
+  {
+    "start": 3012.52,
+    "duration": 3.32,
+    "text": "tree is nice, good."
+  },
+  {
+    "start": 3017.48,
+    "duration": 2.48,
+    "text": "That is it."
+  },
+  {
+    "start": 3018.64,
+    "duration": 3.88,
+    "text": "That's heap."
+  },
+  {
+    "start": 3019.96,
+    "duration": 2.56,
+    "text": "Very simple."
+  },
+  {
+    "start": 3022.92,
+    "duration": 5.0,
+    "text": "Not a problem."
+  },
+  {
+    "start": 3025.6,
+    "duration": 2.32,
+    "text": "Okay?"
+  },
+  {
+    "start": 3028.68,
+    "duration": 2.56,
+    "text": "Very cool."
+  },
+  {
+    "start": 3032.2,
+    "duration": 3.76,
+    "text": "Heap sort. Heap sort is very easy. Heap"
+  },
+  {
+    "start": 3034.48,
+    "duration": 4.16,
+    "text": "sort is a joke."
+  },
+  {
+    "start": 3035.96,
+    "duration": 4.64,
+    "text": "I don't even feel like picking up my pen"
+  },
+  {
+    "start": 3038.64,
+    "duration": 3.92,
+    "text": "and paper and explaining it."
+  },
+  {
+    "start": 3040.6,
+    "duration": 3.48,
+    "text": "Heap sort is simple. You have a heap."
+  },
+  {
+    "start": 3042.56,
+    "duration": 3.76,
+    "text": "Till the heap is empty, keep removing"
+  },
+  {
+    "start": 3044.08,
+    "duration": 3.72,
+    "text": "items and put it in a list. First, it"
+  },
+  {
+    "start": 3046.32,
+    "duration": 3.32,
+    "text": "will remove seven. Okay, seven will be"
+  },
+  {
+    "start": 3047.8,
+    "duration": 3.36,
+    "text": "removed. Then it will remove eight."
+  },
+  {
+    "start": 3049.64,
+    "duration": 3.28,
+    "text": "Eight will come over here. Then it will"
+  },
+  {
+    "start": 3051.16,
+    "duration": 3.08,
+    "text": "remove nine. Nine will come over here."
+  },
+  {
+    "start": 3052.92,
+    "duration": 3.12,
+    "text": "Then it will remove 10. 10 will come"
+  },
+  {
+    "start": 3054.24,
+    "duration": 3.32,
+    "text": "over here. Then it will remove 11. 11"
+  },
+  {
+    "start": 3056.04,
+    "duration": 4.32,
+    "text": "will come over here. So, you can see it"
+  },
+  {
+    "start": 3057.56,
+    "duration": 4.88,
+    "text": "is forming a sorted list."
+  },
+  {
+    "start": 3060.36,
+    "duration": 6.12,
+    "text": "Every item removed takes log n time."
+  },
+  {
+    "start": 3062.44,
+    "duration": 4.04,
+    "text": "Total you will remove n items n log n."
+  },
+  {
+    "start": 3068.2,
+    "duration": 3.96,
+    "text": "Heap sort. That's heap sort."
+  },
+  {
+    "start": 3073.16,
+    "duration": 3.84,
+    "text": "Heap"
+  },
+  {
+    "start": 3074.52,
+    "duration": 2.48,
+    "text": "sort."
+  },
+  {
+    "start": 3078.76,
+    "duration": 2.32,
+    "text": "Can you do heap sort on your own? Very"
+  },
+  {
+    "start": 3080.08,
+    "duration": 2.68,
+    "text": "easy."
+  },
+  {
+    "start": 3081.08,
+    "duration": 3.12,
+    "text": "Public, let's say I remove it in an"
+  },
+  {
+    "start": 3082.76,
+    "duration": 3.16,
+    "text": "array list"
+  },
+  {
+    "start": 3084.2,
+    "duration": 3.2,
+    "text": "of type T."
+  },
+  {
+    "start": 3085.92,
+    "duration": 3.48,
+    "text": "Heap sort"
+  },
+  {
+    "start": 3087.4,
+    "duration": 4.6,
+    "text": "throws"
+  },
+  {
+    "start": 3089.4,
+    "duration": 2.6,
+    "text": "exception."
+  },
+  {
+    "start": 3095.76,
+    "duration": 3.48,
+    "text": "Array list of type T."
+  },
+  {
+    "start": 3100.04,
+    "duration": 6.6,
+    "text": "I can say list or I can say data is"
+  },
+  {
+    "start": 3103.76,
+    "duration": 2.88,
+    "text": "equal to new"
+  },
+  {
+    "start": 3107.88,
+    "duration": 4.56,
+    "text": "array list. While list is not empty"
+  },
+  {
+    "start": 3113.96,
+    "duration": 5.72,
+    "text": "while my list is not empty"
+  },
+  {
+    "start": 3116.76,
+    "duration": 6.04,
+    "text": "just keep removing items from the list"
+  },
+  {
+    "start": 3119.68,
+    "duration": 3.12,
+    "text": "and add it in data."
+  },
+  {
+    "start": 3123.68,
+    "duration": 4.24,
+    "text": "Please don't ask me what the this"
+  },
+  {
+    "start": 3124.8,
+    "duration": 4.04,
+    "text": "keyword is. I will lose my mind."
+  },
+  {
+    "start": 3127.92,
+    "duration": 2.28,
+    "text": "That's it."
+  },
+  {
+    "start": 3128.84,
+    "duration": 4.96,
+    "text": "Keep removing till the list becomes"
+  },
+  {
+    "start": 3130.2,
+    "duration": 3.6,
+    "text": "empty. O of n log n."
+  },
+  {
+    "start": 3134.16,
+    "duration": 5.04,
+    "text": "How simple is this?"
+  },
+  {
+    "start": 3136.36,
+    "duration": 2.84,
+    "text": "Is it not simple?"
+  },
+  {
+    "start": 3140.24,
+    "duration": 3.88,
+    "text": "Okay? Okay."
+  },
+  {
+    "start": 3142.24,
+    "duration": 4.68,
+    "text": "Now I can stuff in add, you know, add"
+  },
+  {
+    "start": 3144.12,
+    "duration": 4.88,
+    "text": "stuff in it. It's fine. Heap dot"
+  },
+  {
+    "start": 3146.92,
+    "duration": 4.8,
+    "text": "insert, if I say"
+  },
+  {
+    "start": 3149.0,
+    "duration": 5.52,
+    "text": "34"
+  },
+  {
+    "start": 3151.72,
+    "duration": 2.8,
+    "text": "or whatever."
+  },
+  {
+    "start": 3162.88,
+    "duration": 7.44,
+    "text": "34, let's say it's mean heap, so"
+  },
+  {
+    "start": 3166.36,
+    "duration": 5.0,
+    "text": "45 22 89"
+  },
+  {
+    "start": 3170.32,
+    "duration": 2.96,
+    "text": "and"
+  },
+  {
+    "start": 3171.36,
+    "duration": 5.0,
+    "text": "76."
+  },
+  {
+    "start": 3173.28,
+    "duration": 7.2,
+    "text": "And then I'm like, okay."
+  },
+  {
+    "start": 3176.36,
+    "duration": 6.24,
+    "text": "Remove item from it. System dot out dot"
+  },
+  {
+    "start": 3180.48,
+    "duration": 4.6,
+    "text": "println"
+  },
+  {
+    "start": 3182.6,
+    "duration": 3.96,
+    "text": "heap dot remove."
+  },
+  {
+    "start": 3185.08,
+    "duration": 4.76,
+    "text": "It should remove the smallest item,"
+  },
+  {
+    "start": 3186.56,
+    "duration": 3.28,
+    "text": "which is 22."
+  },
+  {
+    "start": 3200.6,
+    "duration": 7.84,
+    "text": "Oh, so it should be"
+  },
+  {
+    "start": 3204.64,
+    "duration": 3.8,
+    "text": "Okay, yeah. Throws exception."
+  },
+  {
+    "start": 3209.32,
+    "duration": 5.04,
+    "text": "But it's throwing exception, so should"
+  },
+  {
+    "start": 3211.76,
+    "duration": 2.6,
+    "text": "be declared."
+  },
+  {
+    "start": 3214.64,
+    "duration": 3.04,
+    "text": "22 removed."
+  },
+  {
+    "start": 3216.08,
+    "duration": 3.52,
+    "text": "Simple."
+  },
+  {
+    "start": 3217.68,
+    "duration": 4.28,
+    "text": "What is the next will be removed? 34,"
+  },
+  {
+    "start": 3219.6,
+    "duration": 4.84,
+    "text": "then 45."
+  },
+  {
+    "start": 3221.96,
+    "duration": 2.48,
+    "text": "Simple."
+  },
+  {
+    "start": 3224.48,
+    "duration": 4.04,
+    "text": "34 45"
+  },
+  {
+    "start": 3231.84,
+    "duration": 3.6,
+    "text": "See, 34 45."
+  },
+  {
+    "start": 3236.16,
+    "duration": 2.88,
+    "text": "So easy."
+  },
+  {
+    "start": 3241.16,
+    "duration": 2.96,
+    "text": "Instead also one more thing you can do"
+  },
+  {
+    "start": 3242.8,
+    "duration": 1.96,
+    "text": "is"
+  },
+  {
+    "start": 3244.12,
+    "duration": 2.96,
+    "text": "uh"
+  },
+  {
+    "start": 3244.76,
+    "duration": 6.04,
+    "text": "heap sort."
+  },
+  {
+    "start": 3247.08,
+    "duration": 6.4,
+    "text": "Array list list is equal to heap dot"
+  },
+  {
+    "start": 3250.8,
+    "duration": 2.68,
+    "text": "heap sort."
+  },
+  {
+    "start": 3255.64,
+    "duration": 4.6,
+    "text": "This will just give me the sorted list."
+  },
+  {
+    "start": 3260.72,
+    "duration": 2.52,
+    "text": "n log n."
+  },
+  {
+    "start": 3264.0,
+    "duration": 3.12,
+    "text": "Heap sort."
+  },
+  {
+    "start": 3273.68,
+    "duration": 3.16,
+    "text": "So many typos."
+  },
+  {
+    "start": 3279.52,
+    "duration": 2.48,
+    "text": "Mhm."
+  },
+  {
+    "start": 3286.88,
+    "duration": 4.24,
+    "text": "Oh."
+  },
+  {
+    "start": 3288.28,
+    "duration": 5.92,
+    "text": "Oh oh oh, java dot impo import. I did"
+  },
+  {
+    "start": 3291.12,
+    "duration": 3.08,
+    "text": "not import."
+  },
+  {
+    "start": 3294.76,
+    "duration": 4.24,
+    "text": "System import"
+  },
+  {
+    "start": 3296.32,
+    "duration": 2.68,
+    "text": "should work now."
+  },
+  {
+    "start": 3301.64,
+    "duration": 4.36,
+    "text": "Ta-da!"
+  },
+  {
+    "start": 3303.32,
+    "duration": 4.48,
+    "text": "Heap sort easy."
+  },
+  {
+    "start": 3306.0,
+    "duration": 4.76,
+    "text": "Time complexity done, how it works done,"
+  },
+  {
+    "start": 3307.8,
+    "duration": 4.4,
+    "text": "everything done, heap sort done."
+  },
+  {
+    "start": 3310.76,
+    "duration": 2.32,
+    "text": "This is also what is known as priority"
+  },
+  {
+    "start": 3312.2,
+    "duration": 3.32,
+    "text": "queue."
+  },
+  {
+    "start": 3313.08,
+    "duration": 4.76,
+    "text": "Same thing."
+  },
+  {
+    "start": 3315.52,
+    "duration": 2.32,
+    "text": "Okay?"
+  },
+  {
+    "start": 3318.12,
+    "duration": 3.2,
+    "text": "You can also make priority queue with"
+  },
+  {
+    "start": 3319.52,
+    "duration": 3.8,
+    "text": "linked list if you want."
+  },
+  {
+    "start": 3321.32,
+    "duration": 4.48,
+    "text": "It's also very simple."
+  },
+  {
+    "start": 3323.32,
+    "duration": 4.12,
+    "text": "But that's why that's how the priority"
+  },
+  {
+    "start": 3325.8,
+    "duration": 3.48,
+    "text": "queue also works. Priority queue"
+  },
+  {
+    "start": 3327.44,
+    "duration": 3.68,
+    "text": "basically means"
+  },
+  {
+    "start": 3329.28,
+    "duration": 3.68,
+    "text": "it's a priority. Like my priority is I"
+  },
+  {
+    "start": 3331.12,
+    "duration": 3.08,
+    "text": "want to get the lowest item."
+  },
+  {
+    "start": 3332.96,
+    "duration": 3.16,
+    "text": "So, I will just"
+  },
+  {
+    "start": 3334.2,
+    "duration": 4.88,
+    "text": "use mean heap. That's a priority queue."
+  },
+  {
+    "start": 3336.12,
+    "duration": 4.64,
+    "text": "It's exactly same thing. That's it."
+  },
+  {
+    "start": 3339.08,
+    "duration": 4.96,
+    "text": "Max heap, another type of priority queue"
+  },
+  {
+    "start": 3340.76,
+    "duration": 5.2,
+    "text": "in which my priority is maximum items."
+  },
+  {
+    "start": 3344.04,
+    "duration": 3.36,
+    "text": "Priority queue done. That's it. Okay, so"
+  },
+  {
+    "start": 3345.96,
+    "duration": 3.08,
+    "text": "that's what priority queue is. Now"
+  },
+  {
+    "start": 3347.4,
+    "duration": 3.56,
+    "text": "you'll be like, \"Kunal, what do you mean"
+  },
+  {
+    "start": 3349.04,
+    "duration": 3.88,
+    "text": "that's what priority queue is?"
+  },
+  {
+    "start": 3350.96,
+    "duration": 4.28,
+    "text": "Are you just going to teach us priority"
+  },
+  {
+    "start": 3352.92,
+    "duration": 4.12,
+    "text": "queue in literally just 10 seconds and"
+  },
+  {
+    "start": 3355.24,
+    "duration": 3.16,
+    "text": "say that is what priority queue is?"
+  },
+  {
+    "start": 3357.04,
+    "duration": 2.92,
+    "text": "Exactly."
+  },
+  {
+    "start": 3358.4,
+    "duration": 2.6,
+    "text": "What we just did, that is priority"
+  },
+  {
+    "start": 3359.96,
+    "duration": 3.24,
+    "text": "queue."
+  },
+  {
+    "start": 3361.0,
+    "duration": 4.2,
+    "text": "My priority is let's say minimum item,"
+  },
+  {
+    "start": 3363.2,
+    "duration": 4.159,
+    "text": "so it will give me minimum item."
+  },
+  {
+    "start": 3365.2,
+    "duration": 3.68,
+    "text": "We did priority queue in this example"
+  },
+  {
+    "start": 3367.359,
+    "duration": 3.601,
+    "text": "using heap."
+  },
+  {
+    "start": 3368.88,
+    "duration": 3.96,
+    "text": "That's it. Nothing else I need to tell"
+  },
+  {
+    "start": 3370.96,
+    "duration": 3.56,
+    "text": "you that is different. That is priority"
+  },
+  {
+    "start": 3372.84,
+    "duration": 3.4,
+    "text": "queue only."
+  },
+  {
+    "start": 3374.52,
+    "duration": 2.64,
+    "text": "But you can also do it using linked"
+  },
+  {
+    "start": 3376.24,
+    "duration": 3.8,
+    "text": "list."
+  },
+  {
+    "start": 3377.16,
+    "duration": 2.88,
+    "text": "So, for example"
+  },
+  {
+    "start": 3380.08,
+    "duration": 2.8,
+    "text": "you can insert it using a linked list."
+  },
+  {
+    "start": 3381.56,
+    "duration": 6.12,
+    "text": "So, you can maintain it using a linked"
+  },
+  {
+    "start": 3382.88,
+    "duration": 4.8,
+    "text": "list. Let's say I insert three first."
+  },
+  {
+    "start": 3388.32,
+    "duration": 4.88,
+    "text": "Then I insert four."
+  },
+  {
+    "start": 3391.12,
+    "duration": 4.48,
+    "text": "Then I insert eight. So, let's say"
+  },
+  {
+    "start": 3393.2,
+    "duration": 3.96,
+    "text": "minimum priority. So, minimum item"
+  },
+  {
+    "start": 3395.6,
+    "duration": 4.96,
+    "text": "should be at the zeroth"
+  },
+  {
+    "start": 3397.16,
+    "duration": 5.44,
+    "text": "at the very first head of the link"
+  },
+  {
+    "start": 3400.56,
+    "duration": 3.6,
+    "text": "linked list over here."
+  },
+  {
+    "start": 3402.6,
+    "duration": 4.2,
+    "text": "Then I have"
+  },
+  {
+    "start": 3404.16,
+    "duration": 3.68,
+    "text": "18. Then I want to insert, let's say,"
+  },
+  {
+    "start": 3406.8,
+    "duration": 3.8,
+    "text": "10."
+  },
+  {
+    "start": 3407.84,
+    "duration": 4.44,
+    "text": "So, if I want to insert 10, I will check"
+  },
+  {
+    "start": 3410.6,
+    "duration": 4.32,
+    "text": "till which"
+  },
+  {
+    "start": 3412.28,
+    "duration": 5.44,
+    "text": "item till which pointer"
+  },
+  {
+    "start": 3414.92,
+    "duration": 4.28,
+    "text": "is it less than 10."
+  },
+  {
+    "start": 3417.72,
+    "duration": 3.639,
+    "text": "So, it's going to be like till here it"
+  },
+  {
+    "start": 3419.2,
+    "duration": 3.96,
+    "text": "is less than 10. Okay? Go to this"
+  },
+  {
+    "start": 3421.359,
+    "duration": 3.241,
+    "text": "pointer by traversing one by one,"
+  },
+  {
+    "start": 3423.16,
+    "duration": 3.28,
+    "text": "obviously, because you cannot jump on an"
+  },
+  {
+    "start": 3424.6,
+    "duration": 3.64,
+    "text": "index in linked list. Watch the linked"
+  },
+  {
+    "start": 3426.44,
+    "duration": 3.16,
+    "text": "list playlist. Okay? So, you cannot"
+  },
+  {
+    "start": 3428.24,
+    "duration": 3.68,
+    "text": "directly jump, so I will check from"
+  },
+  {
+    "start": 3429.6,
+    "duration": 4.24,
+    "text": "here. Is three less than 10? Yes, it is."
+  },
+  {
+    "start": 3431.92,
+    "duration": 4.12,
+    "text": "Okay, check again. Is four less than 10?"
+  },
+  {
+    "start": 3433.84,
+    "duration": 4.08,
+    "text": "Yes. Is eight less than 10? Yes. Is 18"
+  },
+  {
+    "start": 3436.04,
+    "duration": 5.36,
+    "text": "less than 10? No. So, take the previous"
+  },
+  {
+    "start": 3437.92,
+    "duration": 3.48,
+    "text": "one, eight. Put it after this."
+  },
+  {
+    "start": 3447.52,
+    "duration": 4.52,
+    "text": "This is how I'm maintaining my priority"
+  },
+  {
+    "start": 3449.64,
+    "duration": 5.6,
+    "text": "queue. Problem here is inserting is"
+  },
+  {
+    "start": 3452.04,
+    "duration": 3.2,
+    "text": "taking O of n time."
+  },
+  {
+    "start": 3456.96,
+    "duration": 4.24,
+    "text": "Priority queue linked list."
+  },
+  {
+    "start": 3459.48,
+    "duration": 3.4,
+    "text": "Not good."
+  },
+  {
+    "start": 3461.2,
+    "duration": 3.76,
+    "text": "So, we will keep using heaps. This is"
+  },
+  {
+    "start": 3462.88,
+    "duration": 2.76,
+    "text": "not important. Not good, linked list"
+  },
+  {
+    "start": 3464.96,
+    "duration": 2.8,
+    "text": "one."
+  },
+  {
+    "start": 3465.64,
+    "duration": 3.76,
+    "text": "O of n, no. Heap is doing the same thing"
+  },
+  {
+    "start": 3467.76,
+    "duration": 3.68,
+    "text": "in O of log n."
+  },
+  {
+    "start": 3469.4,
+    "duration": 3.44,
+    "text": "So, we will not use this one. I won't"
+  },
+  {
+    "start": 3471.44,
+    "duration": 3.36,
+    "text": "even code this because we don't have to"
+  },
+  {
+    "start": 3472.84,
+    "duration": 3.8,
+    "text": "use it. But you can code it yourself."
+  },
+  {
+    "start": 3474.8,
+    "duration": 3.96,
+    "text": "It's very simple."
+  },
+  {
+    "start": 3476.64,
+    "duration": 4.12,
+    "text": "Okay?"
+  },
+  {
+    "start": 3478.76,
+    "duration": 4.52,
+    "text": "So"
+  },
+  {
+    "start": 3480.76,
+    "duration": 2.52,
+    "text": "that's it."
+  },
+  {
+    "start": 3483.6,
+    "duration": 2.92,
+    "text": "Okay, one more thing I want to teach"
+  },
+  {
+    "start": 3484.88,
+    "duration": 3.68,
+    "text": "you, then we'll wrap up and we'll do a"
+  },
+  {
+    "start": 3486.52,
+    "duration": 4.28,
+    "text": "question in the next video, questions."
+  },
+  {
+    "start": 3488.56,
+    "duration": 3.72,
+    "text": "Okay, so let me teach you one thing."
+  },
+  {
+    "start": 3490.8,
+    "duration": 3.64,
+    "text": "Let's say you are given this question."
+  },
+  {
+    "start": 3492.28,
+    "duration": 3.36,
+    "text": "Let's say we learn how to create the"
+  },
+  {
+    "start": 3494.44,
+    "duration": 3.4,
+    "text": "heaps and everything, but let's say you"
+  },
+  {
+    "start": 3495.64,
+    "duration": 4.76,
+    "text": "are given an unsorted array and you have"
+  },
+  {
+    "start": 3497.84,
+    "duration": 4.68,
+    "text": "to create a max heap from that."
+  },
+  {
+    "start": 3500.4,
+    "duration": 4.8,
+    "text": "Unsorted array is given."
+  },
+  {
+    "start": 3502.52,
+    "duration": 5.12,
+    "text": "Let's say you are given"
+  },
+  {
+    "start": 3505.2,
+    "duration": 2.44,
+    "text": "four"
+  },
+  {
+    "start": 3508.72,
+    "duration": 3.88,
+    "text": "one three"
+  },
+  {
+    "start": 3511.04,
+    "duration": 2.76,
+    "text": "two"
+  },
+  {
+    "start": 3512.6,
+    "duration": 3.96,
+    "text": "16"
+  },
+  {
+    "start": 3513.8,
+    "duration": 5.0,
+    "text": "nine 10"
+  },
+  {
+    "start": 3516.56,
+    "duration": 4.4,
+    "text": "14"
+  },
+  {
+    "start": 3518.8,
+    "duration": 3.52,
+    "text": "eight and seven."
+  },
+  {
+    "start": 3520.96,
+    "duration": 3.36,
+    "text": "Remember the fundamentals. We've done"
+  },
+  {
+    "start": 3522.32,
+    "duration": 3.2,
+    "text": "the fundamentals. Indices, let's say I"
+  },
+  {
+    "start": 3524.32,
+    "duration": 4.72,
+    "text": "start with one."
+  },
+  {
+    "start": 3525.52,
+    "duration": 6.16,
+    "text": "One index two three four five six seven"
+  },
+  {
+    "start": 3529.04,
+    "duration": 5.8,
+    "text": "eight nine 10."
+  },
+  {
+    "start": 3531.68,
+    "duration": 3.16,
+    "text": "Unsorted array given."
+  },
+  {
+    "start": 3536.08,
+    "duration": 5.48,
+    "text": "Create"
+  },
+  {
+    "start": 3538.44,
+    "duration": 4.8,
+    "text": "a max heap from this."
+  },
+  {
+    "start": 3541.56,
+    "duration": 3.88,
+    "text": "Initially, what will it look like? It"
+  },
+  {
+    "start": 3543.24,
+    "duration": 4.08,
+    "text": "will look like this."
+  },
+  {
+    "start": 3545.44,
+    "duration": 3.24,
+    "text": "Four"
+  },
+  {
+    "start": 3547.32,
+    "duration": 3.0,
+    "text": "one"
+  },
+  {
+    "start": 3548.68,
+    "duration": 3.44,
+    "text": "three"
+  },
+  {
+    "start": 3550.32,
+    "duration": 3.64,
+    "text": "two"
+  },
+  {
+    "start": 3552.12,
+    "duration": 3.44,
+    "text": "16"
+  },
+  {
+    "start": 3553.96,
+    "duration": 4.04,
+    "text": "nine"
+  },
+  {
+    "start": 3555.56,
+    "duration": 4.4,
+    "text": "10"
+  },
+  {
+    "start": 3558.0,
+    "duration": 4.0,
+    "text": "14"
+  },
+  {
+    "start": 3559.96,
+    "duration": 4.399,
+    "text": "eight and seven."
+  },
+  {
+    "start": 3562.0,
+    "duration": 3.88,
+    "text": "It will look like this."
+  },
+  {
+    "start": 3564.359,
+    "duration": 4.721,
+    "text": "Now, the I"
+  },
+  {
+    "start": 3565.88,
+    "duration": 6.84,
+    "text": "question is create a max heap from this."
+  },
+  {
+    "start": 3569.08,
+    "duration": 6.76,
+    "text": "What is max heap property? Every node"
+  },
+  {
+    "start": 3572.72,
+    "duration": 5.44,
+    "text": "should be greater than equal to"
+  },
+  {
+    "start": 3575.84,
+    "duration": 4.44,
+    "text": "all the children below it."
+  },
+  {
+    "start": 3578.16,
+    "duration": 4.56,
+    "text": "So, just try to do that for every single"
+  },
+  {
+    "start": 3580.28,
+    "duration": 4.0,
+    "text": "node. That's it."
+  },
+  {
+    "start": 3582.72,
+    "duration": 2.72,
+    "text": "That is it."
+  },
+  {
+    "start": 3584.28,
+    "duration": 3.24,
+    "text": "So,"
+  },
+  {
+    "start": 3585.44,
+    "duration": 3.8,
+    "text": "for seven, every node below seven should"
+  },
+  {
+    "start": 3587.52,
+    "duration": 3.4,
+    "text": "be greater than equal to seven."
+  },
+  {
+    "start": 3589.24,
+    "duration": 3.28,
+    "text": "There is no node below seven because"
+  },
+  {
+    "start": 3590.92,
+    "duration": 3.88,
+    "text": "it's leaf node."
+  },
+  {
+    "start": 3592.52,
+    "duration": 5.24,
+    "text": "For eight and for 14. So, can I just"
+  },
+  {
+    "start": 3594.8,
+    "duration": 5.48,
+    "text": "skip these leaf nodes? Yes, I can."
+  },
+  {
+    "start": 3597.76,
+    "duration": 5.32,
+    "text": "I can just skip these."
+  },
+  {
+    "start": 3600.28,
+    "duration": 7.48,
+    "text": "These as well, I can skip these."
+  },
+  {
+    "start": 3603.08,
+    "duration": 4.68,
+    "text": "I will directly start from 16. So,"
+  },
+  {
+    "start": 3613.24,
+    "duration": 4.84,
+    "text": "16 is what? Index number five."
+  },
+  {
+    "start": 3615.76,
+    "duration": 4.88,
+    "text": "Notice that this index"
+  },
+  {
+    "start": 3618.08,
+    "duration": 4.96,
+    "text": "by chance came out to be n divided by"
+  },
+  {
+    "start": 3620.64,
+    "duration": 3.72,
+    "text": "two. 10 divided by two five."
+  },
+  {
+    "start": 3623.04,
+    "duration": 4.32,
+    "text": "That's not by chance. You know this"
+  },
+  {
+    "start": 3624.36,
+    "duration": 4.28,
+    "text": "property of complete binary tree."
+  },
+  {
+    "start": 3627.36,
+    "duration": 3.88,
+    "text": "You know this property of complete"
+  },
+  {
+    "start": 3628.64,
+    "duration": 2.6,
+    "text": "binary tree."
+  },
+  {
+    "start": 3633.0,
+    "duration": 2.76,
+    "text": "Why?"
+  },
+  {
+    "start": 3634.08,
+    "duration": 2.76,
+    "text": "Why are we starting from n divided by"
+  },
+  {
+    "start": 3635.76,
+    "duration": 2.32,
+    "text": "two?"
+  },
+  {
+    "start": 3636.84,
+    "duration": 3.2,
+    "text": "You know this property of complete"
+  },
+  {
+    "start": 3638.08,
+    "duration": 3.12,
+    "text": "binary tree."
+  },
+  {
+    "start": 3640.04,
+    "duration": 2.68,
+    "text": "Because we are ignoring all the leaf"
+  },
+  {
+    "start": 3641.2,
+    "duration": 4.4,
+    "text": "nodes and the number of leaf nodes in"
+  },
+  {
+    "start": 3642.72,
+    "duration": 5.64,
+    "text": "complete binary tree is equal to what?"
+  },
+  {
+    "start": 3645.6,
+    "duration": 4.4,
+    "text": "It's around n n divided by two."
+  },
+  {
+    "start": 3648.36,
+    "duration": 5.24,
+    "text": "So,"
+  },
+  {
+    "start": 3650.0,
+    "duration": 3.6,
+    "text": "why start from n by two?"
+  },
+  {
+    "start": 3654.72,
+    "duration": 3.2,
+    "text": "Because we know we are skipping all the"
+  },
+  {
+    "start": 3656.76,
+    "duration": 3.76,
+    "text": "leaf nodes."
+  },
+  {
+    "start": 3657.92,
+    "duration": 3.8,
+    "text": "But we also know n by two"
+  },
+  {
+    "start": 3660.52,
+    "duration": 4.2,
+    "text": "plus one"
+  },
+  {
+    "start": 3661.72,
+    "duration": 5.4,
+    "text": "till n. So, 6 7 8 9 10"
+  },
+  {
+    "start": 3664.72,
+    "duration": 3.76,
+    "text": "in a complete binary tree all are"
+  },
+  {
+    "start": 3667.12,
+    "duration": 3.0,
+    "text": "leaf nodes."
+  },
+  {
+    "start": 3668.48,
+    "duration": 3.0,
+    "text": "You'll be like, \"Kunal, how? How can you"
+  },
+  {
+    "start": 3670.12,
+    "duration": 4.64,
+    "text": "prove this?\" Well, watch the tree"
+  },
+  {
+    "start": 3671.48,
+    "duration": 3.28,
+    "text": "playlist, tree video."
+  },
+  {
+    "start": 3675.12,
+    "duration": 4.6,
+    "text": "So, start from five."
+  },
+  {
+    "start": 3677.2,
+    "duration": 4.88,
+    "text": "And then just call down heap on it."
+  },
+  {
+    "start": 3679.72,
+    "duration": 3.8,
+    "text": "For every single element. Okay? So,"
+  },
+  {
+    "start": 3682.08,
+    "duration": 3.44,
+    "text": "obviously I don't have to check the leaf"
+  },
+  {
+    "start": 3683.52,
+    "duration": 4.52,
+    "text": "node because there's nothing to check."
+  },
+  {
+    "start": 3685.52,
+    "duration": 4.08,
+    "text": "So, for every node from let's say five"
+  },
+  {
+    "start": 3688.04,
+    "duration": 4.44,
+    "text": "till the root node."
+  },
+  {
+    "start": 3689.6,
+    "duration": 5.96,
+    "text": "So, five four three two one indexes"
+  },
+  {
+    "start": 3692.48,
+    "duration": 5.84,
+    "text": "means four"
+  },
+  {
+    "start": 3695.56,
+    "duration": 4.56,
+    "text": "index is equal to n by two"
+  },
+  {
+    "start": 3698.32,
+    "duration": 4.36,
+    "text": "till one"
+  },
+  {
+    "start": 3700.12,
+    "duration": 5.48,
+    "text": "do down heap"
+  },
+  {
+    "start": 3702.68,
+    "duration": 2.92,
+    "text": "of that index."
+  },
+  {
+    "start": 3706.64,
+    "duration": 5.16,
+    "text": "And question solved."
+  },
+  {
+    "start": 3709.52,
+    "duration": 4.64,
+    "text": "For five index, do down heap. For four,"
+  },
+  {
+    "start": 3711.8,
+    "duration": 4.0,
+    "text": "do down heap. Why? Because that's what a"
+  },
+  {
+    "start": 3714.16,
+    "duration": 3.52,
+    "text": "max heap is."
+  },
+  {
+    "start": 3715.8,
+    "duration": 3.92,
+    "text": "Every node"
+  },
+  {
+    "start": 3717.68,
+    "duration": 3.88,
+    "text": "is actually greater than equal to all of"
+  },
+  {
+    "start": 3719.72,
+    "duration": 3.44,
+    "text": "its children."
+  },
+  {
+    "start": 3721.56,
+    "duration": 3.24,
+    "text": "But if I ask you the time complexity of"
+  },
+  {
+    "start": 3723.16,
+    "duration": 4.48,
+    "text": "this, what will it be?"
+  },
+  {
+    "start": 3724.8,
+    "duration": 4.6,
+    "text": "Outer loop is running n by two times."
+  },
+  {
+    "start": 3727.64,
+    "duration": 3.8,
+    "text": "Inside it is calling down heap. Down"
+  },
+  {
+    "start": 3729.4,
+    "duration": 3.88,
+    "text": "here is down heap is what?"
+  },
+  {
+    "start": 3731.44,
+    "duration": 6.0,
+    "text": "Log of n. We know that."
+  },
+  {
+    "start": 3733.28,
+    "duration": 6.08,
+    "text": "So, it will be n by two log n."
+  },
+  {
+    "start": 3737.44,
+    "duration": 3.56,
+    "text": "But this is actually wrong. That's not"
+  },
+  {
+    "start": 3739.36,
+    "duration": 3.44,
+    "text": "the time complexity. You'll be like,"
+  },
+  {
+    "start": 3741.0,
+    "duration": 3.8,
+    "text": "\"Kunal, how? It is"
+  },
+  {
+    "start": 3742.8,
+    "duration": 3.64,
+    "text": "pretty clear"
+  },
+  {
+    "start": 3744.8,
+    "duration": 6.28,
+    "text": "from the formula.\""
+  },
+  {
+    "start": 3746.44,
+    "duration": 7.16,
+    "text": "Just or like without analysis over here."
+  },
+  {
+    "start": 3751.08,
+    "duration": 3.36,
+    "text": "It is not n by two log n. Sorry, n log"
+  },
+  {
+    "start": 3753.6,
+    "duration": 3.88,
+    "text": "n."
+  },
+  {
+    "start": 3754.44,
+    "duration": 3.04,
+    "text": "It is not n log n."
+  },
+  {
+    "start": 3758.0,
+    "duration": 3.04,
+    "text": "Then what is it? Let's see. This is"
+  },
+  {
+    "start": 3759.64,
+    "duration": 3.72,
+    "text": "going to be a little tricky, but I'll"
+  },
+  {
+    "start": 3761.04,
+    "duration": 5.32,
+    "text": "try to explain."
+  },
+  {
+    "start": 3763.36,
+    "duration": 4.36,
+    "text": "For all the nodes that are in level,"
+  },
+  {
+    "start": 3766.36,
+    "duration": 3.64,
+    "text": "let's say"
+  },
+  {
+    "start": 3767.72,
+    "duration": 3.8,
+    "text": "one above the leaf node"
+  },
+  {
+    "start": 3770.0,
+    "duration": 3.08,
+    "text": "do you know that down heap is taking"
+  },
+  {
+    "start": 3771.52,
+    "duration": 3.68,
+    "text": "constant time because there's only one"
+  },
+  {
+    "start": 3773.08,
+    "duration": 3.56,
+    "text": "swap. For example,"
+  },
+  {
+    "start": 3775.2,
+    "duration": 5.36,
+    "text": "for this one and this one, there's only"
+  },
+  {
+    "start": 3776.64,
+    "duration": 3.92,
+    "text": "one swap. So, constant time."
+  },
+  {
+    "start": 3781.32,
+    "duration": 2.32,
+    "text": "Okay?"
+  },
+  {
+    "start": 3784.44,
+    "duration": 4.08,
+    "text": "And we know that one level above. So, if"
+  },
+  {
+    "start": 3786.6,
+    "duration": 3.48,
+    "text": "I know that"
+  },
+  {
+    "start": 3788.52,
+    "duration": 3.24,
+    "text": "leaf nodes"
+  },
+  {
+    "start": 3790.08,
+    "duration": 4.4,
+    "text": "is equal to"
+  },
+  {
+    "start": 3791.76,
+    "duration": 2.72,
+    "text": "n by two"
+  },
+  {
+    "start": 3795.12,
+    "duration": 4.32,
+    "text": "one level above"
+  },
+  {
+    "start": 3800.52,
+    "duration": 4.16,
+    "text": "leaf nodes"
+  },
+  {
+    "start": 3802.76,
+    "duration": 4.4,
+    "text": "is equal to"
+  },
+  {
+    "start": 3804.68,
+    "duration": 5.12,
+    "text": "is equal to what?"
+  },
+  {
+    "start": 3807.16,
+    "duration": 4.32,
+    "text": "At level number one."
+  },
+  {
+    "start": 3809.8,
+    "duration": 2.8,
+    "text": "Number of leaf nodes again divided by"
+  },
+  {
+    "start": 3811.48,
+    "duration": 2.76,
+    "text": "two. That's the property of complete"
+  },
+  {
+    "start": 3812.6,
+    "duration": 4.24,
+    "text": "binary tree."
+  },
+  {
+    "start": 3814.24,
+    "duration": 4.84,
+    "text": "So, n by four."
+  },
+  {
+    "start": 3816.84,
+    "duration": 5.68,
+    "text": "Level one."
+  },
+  {
+    "start": 3819.08,
+    "duration": 5.24,
+    "text": "Level two will have n by four divided by"
+  },
+  {
+    "start": 3822.52,
+    "duration": 4.4,
+    "text": "two n by eight."
+  },
+  {
+    "start": 3824.32,
+    "duration": 4.64,
+    "text": "Level three"
+  },
+  {
+    "start": 3826.92,
+    "duration": 4.96,
+    "text": "will have n by eight divided by two n by"
+  },
+  {
+    "start": 3828.96,
+    "duration": 5.68,
+    "text": "16. Similarly, root level"
+  },
+  {
+    "start": 3831.88,
+    "duration": 2.76,
+    "text": "will have just one."
+  },
+  {
+    "start": 3835.0,
+    "duration": 2.359,
+    "text": "Okay?"
+  },
+  {
+    "start": 3836.04,
+    "duration": 3.12,
+    "text": "For the leaf nodes, the number of"
+  },
+  {
+    "start": 3837.359,
+    "duration": 3.281,
+    "text": "comparisons is zero."
+  },
+  {
+    "start": 3839.16,
+    "duration": 3.76,
+    "text": "Zero time."
+  },
+  {
+    "start": 3840.64,
+    "duration": 4.0,
+    "text": "For one above the level, it is taking,"
+  },
+  {
+    "start": 3842.92,
+    "duration": 3.2,
+    "text": "let's say, some constant amount of time"
+  },
+  {
+    "start": 3844.64,
+    "duration": 5.4,
+    "text": "c."
+  },
+  {
+    "start": 3846.12,
+    "duration": 3.92,
+    "text": "For level number two, it is taking"
+  },
+  {
+    "start": 3851.359,
+    "duration": 5.521,
+    "text": "Now, it is level number two. So, it is"
+  },
+  {
+    "start": 3853.4,
+    "duration": 5.6,
+    "text": "just two above. So, two into c."
+  },
+  {
+    "start": 3856.88,
+    "duration": 3.84,
+    "text": "This is taking three into c."
+  },
+  {
+    "start": 3859.0,
+    "duration": 4.04,
+    "text": "Similarly,"
+  },
+  {
+    "start": 3860.72,
+    "duration": 4.4,
+    "text": "for the very last one"
+  },
+  {
+    "start": 3863.04,
+    "duration": 4.08,
+    "text": "it is going to be taking what?"
+  },
+  {
+    "start": 3865.12,
+    "duration": 3.96,
+    "text": "How many levels into c?"
+  },
+  {
+    "start": 3867.12,
+    "duration": 6.56,
+    "text": "So, root level is how many levels in the"
+  },
+  {
+    "start": 3869.08,
+    "duration": 4.6,
+    "text": "root? Log of n. So, log of n into c."
+  },
+  {
+    "start": 3877.96,
+    "duration": 3.16,
+    "text": "Okay? So, what is the total amount of"
+  },
+  {
+    "start": 3879.76,
+    "duration": 3.4,
+    "text": "time?"
+  },
+  {
+    "start": 3881.12,
+    "duration": 4.6,
+    "text": "n by four into c"
+  },
+  {
+    "start": 3883.16,
+    "duration": 4.52,
+    "text": "plus n by eight into two c plus n by 16"
+  },
+  {
+    "start": 3885.72,
+    "duration": 5.36,
+    "text": "into three c"
+  },
+  {
+    "start": 3887.68,
+    "duration": 3.4,
+    "text": "plus one into log n c."
+  },
+  {
+    "start": 3891.52,
+    "duration": 3.56,
+    "text": "So, total time"
+  },
+  {
+    "start": 3893.359,
+    "duration": 3.441,
+    "text": "comes out to be"
+  },
+  {
+    "start": 3895.08,
+    "duration": 2.96,
+    "text": "n divided by four"
+  },
+  {
+    "start": 3896.8,
+    "duration": 3.88,
+    "text": "into c"
+  },
+  {
+    "start": 3898.04,
+    "duration": 6.8,
+    "text": "plus n divided by"
+  },
+  {
+    "start": 3900.68,
+    "duration": 5.92,
+    "text": "eight into two c plus n divided by 16"
+  },
+  {
+    "start": 3904.84,
+    "duration": 3.48,
+    "text": "into"
+  },
+  {
+    "start": 3906.6,
+    "duration": 4.48,
+    "text": "three c"
+  },
+  {
+    "start": 3908.32,
+    "duration": 5.48,
+    "text": "plus one into"
+  },
+  {
+    "start": 3911.08,
+    "duration": 2.72,
+    "text": "log n."
+  },
+  {
+    "start": 3916.88,
+    "duration": 2.76,
+    "text": "c into log n."
+  },
+  {
+    "start": 3920.32,
+    "duration": 4.56,
+    "text": "Okay? If I just put n by four"
+  },
+  {
+    "start": 3922.84,
+    "duration": 3.72,
+    "text": "is equal to two raised to power k, it"
+  },
+  {
+    "start": 3924.88,
+    "duration": 4.04,
+    "text": "will give me what?"
+  },
+  {
+    "start": 3926.56,
+    "duration": 4.32,
+    "text": "It will give me"
+  },
+  {
+    "start": 3928.92,
+    "duration": 3.56,
+    "text": "if I just take c common because I can"
+  },
+  {
+    "start": 3930.88,
+    "duration": 3.24,
+    "text": "take c common"
+  },
+  {
+    "start": 3932.48,
+    "duration": 3.2,
+    "text": "from everywhere here."
+  },
+  {
+    "start": 3934.12,
+    "duration": 4.239,
+    "text": "Take c common."
+  },
+  {
+    "start": 3935.68,
+    "duration": 4.72,
+    "text": "It will be"
+  },
+  {
+    "start": 3938.359,
+    "duration": 4.441,
+    "text": "two raised to power k"
+  },
+  {
+    "start": 3940.4,
+    "duration": 2.4,
+    "text": "plus"
+  },
+  {
+    "start": 3942.92,
+    "duration": 3.76,
+    "text": "one upon"
+  },
+  {
+    "start": 3944.28,
+    "duration": 3.76,
+    "text": "two raised to power zero."
+  },
+  {
+    "start": 3946.68,
+    "duration": 2.76,
+    "text": "c two raised to power k I can actually"
+  },
+  {
+    "start": 3948.04,
+    "duration": 2.8,
+    "text": "take common."
+  },
+  {
+    "start": 3949.44,
+    "duration": 4.919,
+    "text": "c n by four."
+  },
+  {
+    "start": 3950.84,
+    "duration": 6.0,
+    "text": "c n by four common. So, this will be one"
+  },
+  {
+    "start": 3954.359,
+    "duration": 2.481,
+    "text": "plus"
+  },
+  {
+    "start": 3958.96,
+    "duration": 2.72,
+    "text": "one plus what?"
+  },
+  {
+    "start": 3966.44,
+    "duration": 4.84,
+    "text": "This is also"
+  },
+  {
+    "start": 3969.4,
+    "duration": 3.68,
+    "text": "This is actually also four."
+  },
+  {
+    "start": 3971.28,
+    "duration": 3.92,
+    "text": "This is also again one"
+  },
+  {
+    "start": 3973.08,
+    "duration": 4.04,
+    "text": "plus"
+  },
+  {
+    "start": 3975.2,
+    "duration": 4.64,
+    "text": "three common."
+  },
+  {
+    "start": 3977.12,
+    "duration": 4.16,
+    "text": "Actually not me Let me not just"
+  },
+  {
+    "start": 3979.84,
+    "duration": 3.08,
+    "text": "remove it because it will make things"
+  },
+  {
+    "start": 3981.28,
+    "duration": 3.68,
+    "text": "confusing."
+  },
+  {
+    "start": 3982.92,
+    "duration": 3.8,
+    "text": "n by eight two."
+  },
+  {
+    "start": 3984.96,
+    "duration": 3.88,
+    "text": "So, I will just take one common and I"
+  },
+  {
+    "start": 3986.72,
+    "duration": 4.76,
+    "text": "will take two common here."
+  },
+  {
+    "start": 3988.84,
+    "duration": 4.04,
+    "text": "Divide by if I remove four"
+  },
+  {
+    "start": 3991.48,
+    "duration": 2.879,
+    "text": "two raised to power one or two raised to"
+  },
+  {
+    "start": 3992.88,
+    "duration": 3.96,
+    "text": "power zero."
+  },
+  {
+    "start": 3994.359,
+    "duration": 4.521,
+    "text": "Plus three common"
+  },
+  {
+    "start": 3996.84,
+    "duration": 4.519,
+    "text": "two raised to power two plus four common"
+  },
+  {
+    "start": 3998.88,
+    "duration": 3.8,
+    "text": "two raised to power three plus plus"
+  },
+  {
+    "start": 4001.359,
+    "duration": 3.961,
+    "text": "in the end"
+  },
+  {
+    "start": 4002.68,
+    "duration": 2.64,
+    "text": "I will say"
+  },
+  {
+    "start": 4008.2,
+    "duration": 4.96,
+    "text": "two raised to power k"
+  },
+  {
+    "start": 4010.28,
+    "duration": 6.2,
+    "text": "because it is log of n."
+  },
+  {
+    "start": 4013.16,
+    "duration": 3.32,
+    "text": "So, log of n is equal to what?"
+  },
+  {
+    "start": 4020.52,
+    "duration": 2.839,
+    "text": "Two raised to power k."
+  },
+  {
+    "start": 4024.359,
+    "duration": 4.281,
+    "text": "Just the same thing."
+  },
+  {
+    "start": 4025.76,
+    "duration": 2.88,
+    "text": "So, if this is three"
+  },
+  {
+    "start": 4029.08,
+    "duration": 2.8,
+    "text": "then here I can see this is three plus"
+  },
+  {
+    "start": 4030.8,
+    "duration": 3.08,
+    "text": "one four."
+  },
+  {
+    "start": 4031.88,
+    "duration": 5.64,
+    "text": "Two two plus one three. One one plus"
+  },
+  {
+    "start": 4033.88,
+    "duration": 3.64,
+    "text": "one. So, k k plus one."
+  },
+  {
+    "start": 4038.2,
+    "duration": 2.44,
+    "text": "Simple."
+  },
+  {
+    "start": 4043.96,
+    "duration": 4.48,
+    "text": "Okay?"
+  },
+  {
+    "start": 4045.92,
+    "duration": 2.52,
+    "text": "Now,"
+  },
+  {
+    "start": 4050.68,
+    "duration": 6.72,
+    "text": "what I want you to see is that"
+  },
+  {
+    "start": 4054.24,
+    "duration": 3.16,
+    "text": "this thing over here"
+  },
+  {
+    "start": 4059.56,
+    "duration": 5.76,
+    "text": "this thing"
+  },
+  {
+    "start": 4061.64,
+    "duration": 3.68,
+    "text": "is bounded by a constant."
+  },
+  {
+    "start": 4068.16,
+    "duration": 4.96,
+    "text": "If you take 11 12 mathematics, I won't"
+  },
+  {
+    "start": 4071.04,
+    "duration": 4.48,
+    "text": "teach 11 12 mathematics. But this is"
+  },
+  {
+    "start": 4073.12,
+    "duration": 5.04,
+    "text": "actually formula"
+  },
+  {
+    "start": 4075.52,
+    "duration": 5.2,
+    "text": "sum of x i"
+  },
+  {
+    "start": 4078.16,
+    "duration": 5.48,
+    "text": "i x raised to power i"
+  },
+  {
+    "start": 4080.72,
+    "duration": 7.84,
+    "text": "to infinity is equal to what?"
+  },
+  {
+    "start": 4083.64,
+    "duration": 7.56,
+    "text": "x divided by 1 minus x squared."
+  },
+  {
+    "start": 4088.56,
+    "duration": 5.28,
+    "text": "So, sums in mathematics if you want to"
+  },
+  {
+    "start": 4091.2,
+    "duration": 2.64,
+    "text": "check that."
+  },
+  {
+    "start": 4095.359,
+    "duration": 3.601,
+    "text": "Okay?"
+  },
+  {
+    "start": 4096.359,
+    "duration": 3.841,
+    "text": "It's divided by a constant."
+  },
+  {
+    "start": 4098.96,
+    "duration": 3.879,
+    "text": "So, hence this actually becomes a"
+  },
+  {
+    "start": 4100.2,
+    "duration": 2.639,
+    "text": "constant."
+  },
+  {
+    "start": 4104.88,
+    "duration": 4.479,
+    "text": "It actually becomes a constant. My time"
+  },
+  {
+    "start": 4107.56,
+    "duration": 4.12,
+    "text": "complexity is O of two raised to power"
+  },
+  {
+    "start": 4109.359,
+    "duration": 2.321,
+    "text": "k."
+  },
+  {
+    "start": 4111.799,
+    "duration": 3.121,
+    "text": "Which is equal to O of n."
+  },
+  {
+    "start": 4116.12,
+    "duration": 5.32,
+    "text": "So, it is not O of n log n. It is O of"
+  },
+  {
+    "start": 4118.24,
+    "duration": 4.96,
+    "text": "n. That was a little confusing, but"
+  },
+  {
+    "start": 4121.44,
+    "duration": 4.279,
+    "text": "I think if I dive too much into the"
+  },
+  {
+    "start": 4123.2,
+    "duration": 3.88,
+    "text": "mathematics, it's also something they"
+  },
+  {
+    "start": 4125.719,
+    "duration": 3.161,
+    "text": "won't ask you in your interviews that"
+  },
+  {
+    "start": 4127.08,
+    "duration": 3.04,
+    "text": "much because it's too heavily focused on"
+  },
+  {
+    "start": 4128.88,
+    "duration": 3.28,
+    "text": "maths."
+  },
+  {
+    "start": 4130.12,
+    "duration": 3.599,
+    "text": "But uh just wanted to mention that a"
+  },
+  {
+    "start": 4132.16,
+    "duration": 3.32,
+    "text": "little bit. But yeah, it's very simple."
+  },
+  {
+    "start": 4133.719,
+    "duration": 4.12,
+    "text": "You can use the functions that I have"
+  },
+  {
+    "start": 4135.48,
+    "duration": 5.239,
+    "text": "created, just run it in a for loop"
+  },
+  {
+    "start": 4137.839,
+    "duration": 4.801,
+    "text": "and just do this thing. Um"
+  },
+  {
+    "start": 4140.719,
+    "duration": 2.761,
+    "text": "yeah. For i is equal to n by two till"
+  },
+  {
+    "start": 4142.64,
+    "duration": 2.84,
+    "text": "one"
+  },
+  {
+    "start": 4143.48,
+    "duration": 3.08,
+    "text": "call down heap on i. That's it."
+  },
+  {
+    "start": 4145.48,
+    "duration": 2.64,
+    "text": "You can make that on your own. I can"
+  },
+  {
+    "start": 4146.56,
+    "duration": 3.759,
+    "text": "just literally say"
+  },
+  {
+    "start": 4148.12,
+    "duration": 4.08,
+    "text": "uh what it will be written like."
+  },
+  {
+    "start": 4150.319,
+    "duration": 3.801,
+    "text": "But uh that's pretty much about it and"
+  },
+  {
+    "start": 4152.2,
+    "duration": 3.32,
+    "text": "very easy stuff."
+  },
+  {
+    "start": 4154.12,
+    "duration": 3.12,
+    "text": "Very cool. All right. So, that was heaps"
+  },
+  {
+    "start": 4155.52,
+    "duration": 3.44,
+    "text": "made easy. We started with why heaps. We"
+  },
+  {
+    "start": 4157.24,
+    "duration": 4.0,
+    "text": "learned about how it's structured. We"
+  },
+  {
+    "start": 4158.96,
+    "duration": 4.16,
+    "text": "learned about the internal details. Made"
+  },
+  {
+    "start": 4161.24,
+    "duration": 3.92,
+    "text": "it from scratch. Ran it. Learned about"
+  },
+  {
+    "start": 4163.12,
+    "duration": 3.88,
+    "text": "heap sort, priority queue, how you can"
+  },
+  {
+    "start": 4165.16,
+    "duration": 3.84,
+    "text": "do priority queue with linked list. It's"
+  },
+  {
+    "start": 4167.0,
+    "duration": 3.96,
+    "text": "a nice example and we covered"
+  },
+  {
+    "start": 4169.0,
+    "duration": 3.04,
+    "text": "everything. Time complexity and stuff,"
+  },
+  {
+    "start": 4170.96,
+    "duration": 2.839,
+    "text": "demo,"
+  },
+  {
+    "start": 4172.04,
+    "duration": 3.56,
+    "text": "trial run, everything. In the next"
+  },
+  {
+    "start": 4173.799,
+    "duration": 2.48,
+    "text": "video, we will be doing"
+  },
+  {
+    "start": 4175.6,
+    "duration": 2.92,
+    "text": "um"
+  },
+  {
+    "start": 4176.279,
+    "duration": 4.52,
+    "text": "some questions on heaps. These are free"
+  },
+  {
+    "start": 4178.52,
+    "duration": 3.839,
+    "text": "videos and free courses I'm making. If"
+  },
+  {
+    "start": 4180.799,
+    "duration": 3.401,
+    "text": "you want to support me, the easiest way"
+  },
+  {
+    "start": 4182.359,
+    "duration": 3.4,
+    "text": "to do it is like and comment, which you"
+  },
+  {
+    "start": 4184.2,
+    "duration": 3.0,
+    "text": "can do right now."
+  },
+  {
+    "start": 4185.759,
+    "duration": 2.761,
+    "text": "And if you want to go above and beyond,"
+  },
+  {
+    "start": 4187.2,
+    "duration": 3.639,
+    "text": "you can take a screenshot, share it on"
+  },
+  {
+    "start": 4188.52,
+    "duration": 3.839,
+    "text": "socials using hashtag DSA with Kunal. I"
+  },
+  {
+    "start": 4190.839,
+    "duration": 2.881,
+    "text": "would really appreciate it. Most people"
+  },
+  {
+    "start": 4192.359,
+    "duration": 3.601,
+    "text": "don't do it because, you know, work"
+  },
+  {
+    "start": 4193.72,
+    "duration": 4.2,
+    "text": "required you take screenshot, post it on"
+  },
+  {
+    "start": 4195.96,
+    "duration": 3.48,
+    "text": "social media what you learned. It's"
+  },
+  {
+    "start": 4197.92,
+    "duration": 3.2,
+    "text": "okay, I understand, but if you can just"
+  },
+  {
+    "start": 4199.44,
+    "duration": 3.28,
+    "text": "like and comment, that's more than"
+  },
+  {
+    "start": 4201.12,
+    "duration": 4.12,
+    "text": "enough. And subscribe, like, comment,"
+  },
+  {
+    "start": 4202.72,
+    "duration": 4.12,
+    "text": "subscribe. Just takes 5 seconds."
+  },
+  {
+    "start": 4205.24,
+    "duration": 3.48,
+    "text": "I'm saying this because"
+  },
+  {
+    "start": 4206.84,
+    "duration": 4.76,
+    "text": "that way it will make motivate me more"
+  },
+  {
+    "start": 4208.72,
+    "duration": 4.28,
+    "text": "to create free courses for many people."
+  },
+  {
+    "start": 4211.6,
+    "duration": 3.24,
+    "text": "And that's pretty much about it. Uh so,"
+  },
+  {
+    "start": 4213.0,
+    "duration": 4.16,
+    "text": "that was easy. Next videos we'll do hash"
+  },
+  {
+    "start": 4214.84,
+    "duration": 4.72,
+    "text": "maps, then some nice questions on heaps"
+  },
+  {
+    "start": 4217.16,
+    "duration": 5.12,
+    "text": "and hash maps, and um popular topics"
+  },
+  {
+    "start": 4219.56,
+    "duration": 4.76,
+    "text": "like sliding window and stuff. Um"
+  },
+  {
+    "start": 4222.28,
+    "duration": 3.92,
+    "text": "But yeah, very excited. Uh heap is a"
+  },
+  {
+    "start": 4224.32,
+    "duration": 3.84,
+    "text": "topic which is important for coding"
+  },
+  {
+    "start": 4226.2,
+    "duration": 3.88,
+    "text": "interviews, so important questions. So,"
+  },
+  {
+    "start": 4228.16,
+    "duration": 3.8,
+    "text": "it's a very important to see what type"
+  },
+  {
+    "start": 4230.08,
+    "duration": 3.44,
+    "text": "of questions are asked in which heap"
+  },
+  {
+    "start": 4231.96,
+    "duration": 3.48,
+    "text": "will be used."
+  },
+  {
+    "start": 4233.52,
+    "duration": 4.28,
+    "text": "And uh as always, we look at the"
+  },
+  {
+    "start": 4235.44,
+    "duration": 4.12,
+    "text": "patterns. I teach you how to think and"
+  },
+  {
+    "start": 4237.8,
+    "duration": 3.08,
+    "text": "all sorts of things, so"
+  },
+  {
+    "start": 4239.56,
+    "duration": 2.84,
+    "text": "we are not going to do 100 questions,"
+  },
+  {
+    "start": 4240.88,
+    "duration": 3.0,
+    "text": "but using just 30 questions or"
+  },
+  {
+    "start": 4242.4,
+    "duration": 4.0,
+    "text": "something, I will tell you how to solve"
+  },
+  {
+    "start": 4243.88,
+    "duration": 4.48,
+    "text": "any heap problem, any other hash map"
+  },
+  {
+    "start": 4246.4,
+    "duration": 3.56,
+    "text": "problem, DP, or whatever graphs you want"
+  },
+  {
+    "start": 4248.36,
+    "duration": 3.32,
+    "text": "to do in the future."
+  },
+  {
+    "start": 4249.96,
+    "duration": 2.72,
+    "text": "But thanks a lot for watching. And if"
+  },
+  {
+    "start": 4251.68,
+    "duration": 2.48,
+    "text": "you have any questions, leave those in"
+  },
+  {
+    "start": 4252.68,
+    "duration": 3.48,
+    "text": "the comment section below. Make sure you"
+  },
+  {
+    "start": 4254.16,
+    "duration": 3.32,
+    "text": "like, share, subscribe, comment, and"
+  },
+  {
+    "start": 4256.16,
+    "duration": 3.8,
+    "text": "I'll see you in the next one. Have a"
+  },
+  {
+    "start": 4257.48,
+    "duration": 2.48,
+    "text": "great day."
+  }
+]

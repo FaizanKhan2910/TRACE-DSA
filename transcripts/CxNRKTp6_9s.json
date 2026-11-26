@@ -1,0 +1,1082 @@
+[
+  {
+    "start": 4.64,
+    "duration": 2.36,
+    "text": "hey everyone welcome back to my channel"
+  },
+  {
+    "start": 5.879,
+    "duration": 3.561,
+    "text": "the new video in this video we're"
+  },
+  {
+    "start": 7.0,
+    "duration": 5.08,
+    "text": "covering another nice uh question of a"
+  },
+  {
+    "start": 9.44,
+    "duration": 7.08,
+    "text": "binary search tree which is uh you're"
+  },
+  {
+    "start": 12.08,
+    "duration": 7.56,
+    "text": "given a binary search tree and uh let me"
+  },
+  {
+    "start": 16.52,
+    "duration": 7.72,
+    "text": "just bring up my iPad here"
+  },
+  {
+    "start": 19.64,
+    "duration": 4.6,
+    "text": "okay so you are given a binary search"
+  },
+  {
+    "start": 28.96,
+    "duration": 5.16,
+    "text": "tree let's say you have"
+  },
+  {
+    "start": 32.239,
+    "duration": 4.881,
+    "text": "five"
+  },
+  {
+    "start": 34.12,
+    "duration": 3.0,
+    "text": "7"
+  },
+  {
+    "start": 37.16,
+    "duration": 6.76,
+    "text": "6 this would be let's say"
+  },
+  {
+    "start": 42.079,
+    "duration": 7.201,
+    "text": "8"
+  },
+  {
+    "start": 43.92,
+    "duration": 8.08,
+    "text": "3 4 2 1 let's say this is the binary"
+  },
+  {
+    "start": 49.28,
+    "duration": 5.599,
+    "text": "search tree that is given to you what"
+  },
+  {
+    "start": 52.0,
+    "duration": 5.64,
+    "text": "the problem is that"
+  },
+  {
+    "start": 54.879,
+    "duration": 6.0,
+    "text": "uh two nodes in the binary search tree"
+  },
+  {
+    "start": 57.64,
+    "duration": 7.36,
+    "text": "are swapped it can be any two"
+  },
+  {
+    "start": 60.879,
+    "duration": 6.081,
+    "text": "nodes it can be any two nod so let's say"
+  },
+  {
+    "start": 65.0,
+    "duration": 3.56,
+    "text": "this one this one are"
+  },
+  {
+    "start": 66.96,
+    "duration": 4.64,
+    "text": "swapped"
+  },
+  {
+    "start": 68.56,
+    "duration": 5.96,
+    "text": "7 and two okay so these two nodes are"
+  },
+  {
+    "start": 71.6,
+    "duration": 5.48,
+    "text": "swapped now it can be any two nodes we"
+  },
+  {
+    "start": 74.52,
+    "duration": 4.32,
+    "text": "know that uh how are we going to solve"
+  },
+  {
+    "start": 77.08,
+    "duration": 3.96,
+    "text": "this one of the ways you can solve this"
+  },
+  {
+    "start": 78.84,
+    "duration": 5.04,
+    "text": "is you can imagine that let's say if"
+  },
+  {
+    "start": 81.04,
+    "duration": 4.48,
+    "text": "this is a binary search tree and we do"
+  },
+  {
+    "start": 83.88,
+    "duration": 4.12,
+    "text": "in ordered reversal then we know that it"
+  },
+  {
+    "start": 85.52,
+    "duration": 5.239,
+    "text": "will be a sorted array"
+  },
+  {
+    "start": 88.0,
+    "duration": 6.24,
+    "text": "so if it is a sorted array so in order"
+  },
+  {
+    "start": 90.759,
+    "duration": 7.441,
+    "text": "reversal before the swapping the sorted"
+  },
+  {
+    "start": 94.24,
+    "duration": 7.08,
+    "text": "array would look something like this 1 2"
+  },
+  {
+    "start": 98.2,
+    "duration": 7.76,
+    "text": "3 4"
+  },
+  {
+    "start": 101.32,
+    "duration": 7.2,
+    "text": "5 6 7 8 this is what it would look like"
+  },
+  {
+    "start": 105.96,
+    "duration": 4.64,
+    "text": "but what has now happened is 2 and seven"
+  },
+  {
+    "start": 108.52,
+    "duration": 4.879,
+    "text": "have been"
+  },
+  {
+    "start": 110.6,
+    "duration": 4.64,
+    "text": "swapped 2 and seven have been swapped so"
+  },
+  {
+    "start": 113.399,
+    "duration": 3.76,
+    "text": "this question now becomes that okay in a"
+  },
+  {
+    "start": 115.24,
+    "duration": 4.919,
+    "text": "sorted array Which two elements are"
+  },
+  {
+    "start": 117.159,
+    "duration": 4.6,
+    "text": "swapped this can be very simple you can"
+  },
+  {
+    "start": 120.159,
+    "duration": 5.0,
+    "text": "just check the previous one so there"
+  },
+  {
+    "start": 121.759,
+    "duration": 5.92,
+    "text": "will be two violations one violation is"
+  },
+  {
+    "start": 125.159,
+    "duration": 5.16,
+    "text": "over here one violation is over"
+  },
+  {
+    "start": 127.679,
+    "duration": 7.041,
+    "text": "here s is greater than its previous"
+  },
+  {
+    "start": 130.319,
+    "duration": 4.401,
+    "text": "element two is less than its previous"
+  },
+  {
+    "start": 135.239,
+    "duration": 4.961,
+    "text": "element okay two"
+  },
+  {
+    "start": 137.76,
+    "duration": 6.0,
+    "text": "violations so that is what we have to"
+  },
+  {
+    "start": 140.2,
+    "duration": 3.56,
+    "text": "find these two violations we have to"
+  },
+  {
+    "start": 144.16,
+    "duration": 5.92,
+    "text": "find in our binary search"
+  },
+  {
+    "start": 147.16,
+    "duration": 5.079,
+    "text": "tree so what we're do is we're going to"
+  },
+  {
+    "start": 150.08,
+    "duration": 5.28,
+    "text": "take the first violation is equal to"
+  },
+  {
+    "start": 152.239,
+    "duration": 5.561,
+    "text": "initially null second violation in equal"
+  },
+  {
+    "start": 155.36,
+    "duration": 5.56,
+    "text": "equal to null whenever we find the first"
+  },
+  {
+    "start": 157.8,
+    "duration": 5.68,
+    "text": "violation so the first violation will"
+  },
+  {
+    "start": 160.92,
+    "duration": 6.08,
+    "text": "arrive when we say that"
+  },
+  {
+    "start": 163.48,
+    "duration": 5.759,
+    "text": "the current node that you are at so it's"
+  },
+  {
+    "start": 167.0,
+    "duration": 4.76,
+    "text": "in order reversal is what left current"
+  },
+  {
+    "start": 169.239,
+    "duration": 4.401,
+    "text": "then right so if I am talking about the"
+  },
+  {
+    "start": 171.76,
+    "duration": 4.04,
+    "text": "current node it means left is already"
+  },
+  {
+    "start": 173.64,
+    "duration": 3.64,
+    "text": "been visited so I'm going to be like"
+  },
+  {
+    "start": 175.8,
+    "duration": 5.88,
+    "text": "let's say I go here then I come here"
+  },
+  {
+    "start": 177.28,
+    "duration": 8.92,
+    "text": "then I come here here I say if left"
+  },
+  {
+    "start": 181.68,
+    "duration": 8.839,
+    "text": "node is less than the previous"
+  },
+  {
+    "start": 186.2,
+    "duration": 6.0,
+    "text": "node it means that first has been found"
+  },
+  {
+    "start": 190.519,
+    "duration": 4.64,
+    "text": "which is equal to previous node because"
+  },
+  {
+    "start": 192.2,
+    "duration": 5.599,
+    "text": "this is the previous"
+  },
+  {
+    "start": 195.159,
+    "duration": 5.08,
+    "text": "one previous"
+  },
+  {
+    "start": 197.799,
+    "duration": 3.921,
+    "text": "node and then we know that we will find"
+  },
+  {
+    "start": 200.239,
+    "duration": 3.92,
+    "text": "the first one first because it comes"
+  },
+  {
+    "start": 201.72,
+    "duration": 4.72,
+    "text": "first so we'll say if first is not equal"
+  },
+  {
+    "start": 204.159,
+    "duration": 7.841,
+    "text": "to null means first has been"
+  },
+  {
+    "start": 206.44,
+    "duration": 7.12,
+    "text": "found if first not equal to null first"
+  },
+  {
+    "start": 212.0,
+    "duration": 4.4,
+    "text": "is equal to previous"
+  },
+  {
+    "start": 213.56,
+    "duration": 6.48,
+    "text": "node then we will keep on uh going we"
+  },
+  {
+    "start": 216.4,
+    "duration": 5.839,
+    "text": "will now go over here this looks fine we"
+  },
+  {
+    "start": 220.04,
+    "duration": 4.96,
+    "text": "will come over"
+  },
+  {
+    "start": 222.239,
+    "duration": 4.72,
+    "text": "here then we will come over here this"
+  },
+  {
+    "start": 225.0,
+    "duration": 6.36,
+    "text": "looks fine we'll come over here we'll do"
+  },
+  {
+    "start": 226.959,
+    "duration": 7.081,
+    "text": "the same condition if this not left it"
+  },
+  {
+    "start": 231.36,
+    "duration": 5.36,
+    "text": "is the current node"
+  },
+  {
+    "start": 234.04,
+    "duration": 4.44,
+    "text": "current current node that you are at now"
+  },
+  {
+    "start": 236.72,
+    "duration": 3.64,
+    "text": "we are at current node if current node"
+  },
+  {
+    "start": 238.48,
+    "duration": 4.319,
+    "text": "is less than the previous node"
+  },
+  {
+    "start": 240.36,
+    "duration": 6.48,
+    "text": "yes it is in this"
+  },
+  {
+    "start": 242.799,
+    "duration": 7.481,
+    "text": "case we will say that the"
+  },
+  {
+    "start": 246.84,
+    "duration": 6.399,
+    "text": "second node that is wrong is equal to"
+  },
+  {
+    "start": 250.28,
+    "duration": 8.16,
+    "text": "what previous no previous is six the"
+  },
+  {
+    "start": 253.239,
+    "duration": 5.201,
+    "text": "current which is the current node"
+  },
+  {
+    "start": 258.84,
+    "duration": 4.799,
+    "text": "current and that's it after that we will"
+  },
+  {
+    "start": 261.56,
+    "duration": 3.56,
+    "text": "just swap these two because these are"
+  },
+  {
+    "start": 263.639,
+    "duration": 4.881,
+    "text": "just pointers to these nodes let"
+  },
+  {
+    "start": 265.12,
+    "duration": 5.28,
+    "text": "references to these nodes that's it"
+  },
+  {
+    "start": 268.52,
+    "duration": 4.92,
+    "text": "pretty simple I told you when I was"
+  },
+  {
+    "start": 270.4,
+    "duration": 4.12,
+    "text": "teaching uh like link list when such"
+  },
+  {
+    "start": 273.44,
+    "duration": 2.28,
+    "text": "questions are given you don't have to"
+  },
+  {
+    "start": 274.52,
+    "duration": 3.32,
+    "text": "think you just have to do what the"
+  },
+  {
+    "start": 275.72,
+    "duration": 4.479,
+    "text": "question is saying and this is what the"
+  },
+  {
+    "start": 277.84,
+    "duration": 2.359,
+    "text": "question is"
+  },
+  {
+    "start": 282.039,
+    "duration": 3.921,
+    "text": "saying okay you do understand how I'm"
+  },
+  {
+    "start": 284.4,
+    "duration": 4.2,
+    "text": "making these previous right so first of"
+  },
+  {
+    "start": 285.96,
+    "duration": 4.799,
+    "text": "all I will have whenever I choose this"
+  },
+  {
+    "start": 288.6,
+    "duration": 4.48,
+    "text": "this will be previous then I evaluate"
+  },
+  {
+    "start": 290.759,
+    "duration": 4.201,
+    "text": "this this will be previous then I"
+  },
+  {
+    "start": 293.08,
+    "duration": 3.88,
+    "text": "evaluate this I will do this then this"
+  },
+  {
+    "start": 294.96,
+    "duration": 4.84,
+    "text": "will become previous whenever you keep"
+  },
+  {
+    "start": 296.96,
+    "duration": 4.519,
+    "text": "evaluating make it previous okay okay if"
+  },
+  {
+    "start": 299.8,
+    "duration": 4.48,
+    "text": "a current node is evaluated that is"
+  },
+  {
+    "start": 301.479,
+    "duration": 4.241,
+    "text": "previous then I will go here this will"
+  },
+  {
+    "start": 304.28,
+    "duration": 4.08,
+    "text": "remain"
+  },
+  {
+    "start": 305.72,
+    "duration": 5.68,
+    "text": "previous and this will become previous"
+  },
+  {
+    "start": 308.36,
+    "duration": 4.839,
+    "text": "then I will go here so on and so forth"
+  },
+  {
+    "start": 311.4,
+    "duration": 4.799,
+    "text": "okay very simple pause this video think"
+  },
+  {
+    "start": 313.199,
+    "duration": 4.681,
+    "text": "about it and uh by the what is the time"
+  },
+  {
+    "start": 316.199,
+    "duration": 3.801,
+    "text": "complexity going to be for this solution"
+  },
+  {
+    "start": 317.88,
+    "duration": 6.879,
+    "text": "we are visiting every node only"
+  },
+  {
+    "start": 320.0,
+    "duration": 8.479,
+    "text": "once and uh there's the recursive space"
+  },
+  {
+    "start": 324.759,
+    "duration": 6.44,
+    "text": "also so we are taking o of n"
+  },
+  {
+    "start": 328.479,
+    "duration": 4.761,
+    "text": "time"
+  },
+  {
+    "start": 331.199,
+    "duration": 6.321,
+    "text": "right that's what we're"
+  },
+  {
+    "start": 333.24,
+    "duration": 6.84,
+    "text": "doing and uh for the tree we are only"
+  },
+  {
+    "start": 337.52,
+    "duration": 4.72,
+    "text": "doing in AIT reversal so it's the height"
+  },
+  {
+    "start": 340.08,
+    "duration": 5.08,
+    "text": "of the height of the tree okay so here"
+  },
+  {
+    "start": 342.24,
+    "duration": 4.84,
+    "text": "you can see on the screen uh can by the"
+  },
+  {
+    "start": 345.16,
+    "duration": 4.64,
+    "text": "way find the link in the description uh"
+  },
+  {
+    "start": 347.08,
+    "duration": 5.08,
+    "text": "below as well for this code so the"
+  },
+  {
+    "start": 349.8,
+    "duration": 6.28,
+    "text": "question"
+  },
+  {
+    "start": 352.16,
+    "duration": 7.92,
+    "text": "was two node swap so we're going to"
+  },
+  {
+    "start": 356.08,
+    "duration": 7.119,
+    "text": "create two node swap. Java"
+  },
+  {
+    "start": 360.08,
+    "duration": 3.119,
+    "text": "first of all I'm going to say"
+  },
+  {
+    "start": 363.36,
+    "duration": 4.959,
+    "text": "class class"
+  },
+  {
+    "start": 365.199,
+    "duration": 5.641,
+    "text": "node int"
+  },
+  {
+    "start": 368.319,
+    "duration": 6.561,
+    "text": "value node"
+  },
+  {
+    "start": 370.84,
+    "duration": 4.04,
+    "text": "left node"
+  },
+  {
+    "start": 376.56,
+    "duration": 9.639,
+    "text": "right public node in val this dot val is"
+  },
+  {
+    "start": 382.56,
+    "duration": 7.72,
+    "text": "equal to Val The Constructor is done all"
+  },
+  {
+    "start": 386.199,
+    "duration": 9.12,
+    "text": "good looking nice"
+  },
+  {
+    "start": 390.28,
+    "duration": 11.8,
+    "text": "now public Class 2 node"
+  },
+  {
+    "start": 395.319,
+    "duration": 11.761,
+    "text": "swap here I'm going to create my node"
+  },
+  {
+    "start": 402.08,
+    "duration": 7.88,
+    "text": "first okay initially that is null node"
+  },
+  {
+    "start": 407.08,
+    "duration": 5.92,
+    "text": "second and I'm going to create a node"
+  },
+  {
+    "start": 409.96,
+    "duration": 5.28,
+    "text": "previous that is also initially equal to"
+  },
+  {
+    "start": 413.0,
+    "duration": 4.039,
+    "text": "null I'm going to say"
+  },
+  {
+    "start": 415.24,
+    "duration": 4.76,
+    "text": "public"
+  },
+  {
+    "start": 417.039,
+    "duration": 5.16,
+    "text": "void I'm going to call this one"
+  },
+  {
+    "start": 420.0,
+    "duration": 5.72,
+    "text": "um"
+  },
+  {
+    "start": 422.199,
+    "duration": 7.481,
+    "text": "helper okay and I'm going to pass"
+  },
+  {
+    "start": 425.72,
+    "duration": 7.599,
+    "text": "node let's say for the naming convention"
+  },
+  {
+    "start": 429.68,
+    "duration": 5.04,
+    "text": "root over here I'm going to call in"
+  },
+  {
+    "start": 433.319,
+    "duration": 5.28,
+    "text": "order"
+  },
+  {
+    "start": 434.72,
+    "duration": 6.36,
+    "text": "traversal on the root node while when I"
+  },
+  {
+    "start": 438.599,
+    "duration": 3.44,
+    "text": "have done in order reversal these two"
+  },
+  {
+    "start": 441.08,
+    "duration": 5.92,
+    "text": "will be"
+  },
+  {
+    "start": 442.039,
+    "duration": 6.28,
+    "text": "populated so I will just swap so I will"
+  },
+  {
+    "start": 447.0,
+    "duration": 4.36,
+    "text": "say"
+  },
+  {
+    "start": 448.319,
+    "duration": 5.56,
+    "text": "first or I will just"
+  },
+  {
+    "start": 451.36,
+    "duration": 5.519,
+    "text": "say if I want to swap"
+  },
+  {
+    "start": 453.879,
+    "duration": 3.0,
+    "text": "it"
+  },
+  {
+    "start": 457.759,
+    "duration": 5.361,
+    "text": "um yeah let's say ideally I just swap"
+  },
+  {
+    "start": 460.96,
+    "duration": 4.4,
+    "text": "the let's say just the values are"
+  },
+  {
+    "start": 463.12,
+    "duration": 4.32,
+    "text": "interchanged okay to make things simpler"
+  },
+  {
+    "start": 465.36,
+    "duration": 6.08,
+    "text": "but you can swap if the entire nodes are"
+  },
+  {
+    "start": 467.44,
+    "duration": 7.0,
+    "text": "interchanged as well so I can say first"
+  },
+  {
+    "start": 471.44,
+    "duration": 3.0,
+    "text": "dot"
+  },
+  {
+    "start": 475.28,
+    "duration": 6.039,
+    "text": "val first. Val is equal"
+  },
+  {
+    "start": 478.319,
+    "duration": 3.0,
+    "text": "to"
+  },
+  {
+    "start": 481.639,
+    "duration": 7.201,
+    "text": "second do"
+  },
+  {
+    "start": 484.44,
+    "duration": 4.4,
+    "text": "Val second do Val is equal"
+  },
+  {
+    "start": 491.639,
+    "duration": 6.56,
+    "text": "to Temp so okay initially now we we"
+  },
+  {
+    "start": 495.12,
+    "duration": 5.799,
+    "text": "assumed that only the values are swapped"
+  },
+  {
+    "start": 498.199,
+    "duration": 5.321,
+    "text": "so you can"
+  },
+  {
+    "start": 500.919,
+    "duration": 4.96,
+    "text": "uh you know swap the entire nodes as"
+  },
+  {
+    "start": 503.52,
+    "duration": 6.92,
+    "text": "well but you are pro experts in that so"
+  },
+  {
+    "start": 505.879,
+    "duration": 8.241,
+    "text": "you can do it yourself now private"
+  },
+  {
+    "start": 510.44,
+    "duration": 5.36,
+    "text": "void in ordered reversal node node now I"
+  },
+  {
+    "start": 514.12,
+    "duration": 6.159,
+    "text": "will just do in ordered"
+  },
+  {
+    "start": 515.8,
+    "duration": 4.479,
+    "text": "reversal if node is equal to equal to"
+  },
+  {
+    "start": 520.479,
+    "duration": 4.321,
+    "text": "null"
+  },
+  {
+    "start": 522.44,
+    "duration": 8.079,
+    "text": "return that's it just"
+  },
+  {
+    "start": 524.8,
+    "duration": 5.719,
+    "text": "return in order reversal node do"
+  },
+  {
+    "start": 530.68,
+    "duration": 4.96,
+    "text": "left node do right and in the middle we"
+  },
+  {
+    "start": 534.08,
+    "duration": 2.68,
+    "text": "will do the work that is what inord"
+  },
+  {
+    "start": 535.64,
+    "duration": 5.319,
+    "text": "reversal"
+  },
+  {
+    "start": 536.76,
+    "duration": 8.199,
+    "text": "is so what is the work that we're doing"
+  },
+  {
+    "start": 540.959,
+    "duration": 6.961,
+    "text": "check if the previous node is violating"
+  },
+  {
+    "start": 544.959,
+    "duration": 6.56,
+    "text": "the binary search Tre property so"
+  },
+  {
+    "start": 547.92,
+    "duration": 5.72,
+    "text": "if the previous node do value is"
+  },
+  {
+    "start": 551.519,
+    "duration": 4.721,
+    "text": "actually greater than the current node"
+  },
+  {
+    "start": 553.64,
+    "duration": 3.56,
+    "text": "do value also so that we don't get null"
+  },
+  {
+    "start": 556.24,
+    "duration": 4.24,
+    "text": "pointer"
+  },
+  {
+    "start": 557.2,
+    "duration": 5.4,
+    "text": "exception if previous node is not equal"
+  },
+  {
+    "start": 560.48,
+    "duration": 6.32,
+    "text": "to null"
+  },
+  {
+    "start": 562.6,
+    "duration": 7.16,
+    "text": "and then I will check if first node is"
+  },
+  {
+    "start": 566.8,
+    "duration": 4.2,
+    "text": "equal to equal to null"
+  },
+  {
+    "start": 569.76,
+    "duration": 3.6,
+    "text": "in that case I will say that I have"
+  },
+  {
+    "start": 571.0,
+    "duration": 5.24,
+    "text": "found the first violation this thing"
+  },
+  {
+    "start": 573.36,
+    "duration": 6.52,
+    "text": "first violation so I will say first is"
+  },
+  {
+    "start": 576.24,
+    "duration": 7.159,
+    "text": "equal to previous otherwise I will say"
+  },
+  {
+    "start": 579.88,
+    "duration": 6.44,
+    "text": "second is equal to current which is the"
+  },
+  {
+    "start": 583.399,
+    "duration": 5.68,
+    "text": "node okay then I will say previous is"
+  },
+  {
+    "start": 586.32,
+    "duration": 2.759,
+    "text": "equal to current"
+  },
+  {
+    "start": 589.6,
+    "duration": 5.56,
+    "text": "node that's"
+  },
+  {
+    "start": 592.16,
+    "duration": 5.2,
+    "text": "it very simple stuff problem"
+  },
+  {
+    "start": 595.16,
+    "duration": 4.84,
+    "text": "solved"
+  },
+  {
+    "start": 597.36,
+    "duration": 4.12,
+    "text": "okay very cool"
+  },
+  {
+    "start": 600.0,
+    "duration": 3.6,
+    "text": "okay that's pretty much about it very"
+  },
+  {
+    "start": 601.48,
+    "duration": 3.359,
+    "text": "simple solution and we did a trial run"
+  },
+  {
+    "start": 603.6,
+    "duration": 3.84,
+    "text": "as well you can try running it if you"
+  },
+  {
+    "start": 604.839,
+    "duration": 4.401,
+    "text": "want uh it's very easy just to create"
+  },
+  {
+    "start": 607.44,
+    "duration": 2.839,
+    "text": "two trees and uh if you have any"
+  },
+  {
+    "start": 609.24,
+    "duration": 3.599,
+    "text": "questions let me know in the comment"
+  },
+  {
+    "start": 610.279,
+    "duration": 4.401,
+    "text": "section below and uh we'll be continuing"
+  },
+  {
+    "start": 612.839,
+    "duration": 4.281,
+    "text": "the boot camp and introducing newer"
+  },
+  {
+    "start": 614.68,
+    "duration": 4.48,
+    "text": "Concepts um you know in the next new"
+  },
+  {
+    "start": 617.12,
+    "duration": 5.0,
+    "text": "year and uh I want to wish you all a"
+  },
+  {
+    "start": 619.16,
+    "duration": 6.08,
+    "text": "Happy New Year as well and uh yeah see"
+  },
+  {
+    "start": 622.12,
+    "duration": 3.12,
+    "text": "you next year"
+  },
+  {
+    "start": 628.04,
+    "duration": 3.0,
+    "text": "bye"
+  }
+]

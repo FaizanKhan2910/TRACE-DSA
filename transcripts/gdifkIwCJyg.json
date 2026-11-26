@@ -1,0 +1,4507 @@
+[
+  {
+    "start": 3.63,
+    "duration": 7.04,
+    "text": "Welcome back to another video and in this video, we are learning about recursion, very important"
+  },
+  {
+    "start": 10.67,
+    "duration": 5.44,
+    "text": "topic, subset questions and string questions. So, subset, subsequence questions, these are"
+  },
+  {
+    "start": 16.11,
+    "duration": 4.24,
+    "text": "asked quite a lot. So, we will be doing these questions, we will be seeing the subset pattern,"
+  },
+  {
+    "start": 20.35,
+    "duration": 4.8,
+    "text": "we will be seeing how to solve these problems, when do we solve these problems using this"
+  },
+  {
+    "start": 25.15,
+    "duration": 3.92,
+    "text": "approach. So, it is sort of like a pattern. In the initial videos, I told you that this"
+  },
+  {
+    "start": 29.07,
+    "duration": 3.64,
+    "text": "is a zero to fang bootcamp. So, when you look at a question, you will know which"
+  },
+  {
+    "start": 32.71,
+    "duration": 5.0,
+    "text": "pattern to apply and this is one of those. So we are learning about subsets and strings"
+  },
+  {
+    "start": 37.71,
+    "duration": 6.2,
+    "text": "obviously. So prerequisites all the previous videos that we have done so far very important."
+  },
+  {
+    "start": 43.91,
+    "duration": 5.84,
+    "text": "So I will be using the same concepts that I have explained deeply already like how to"
+  },
+  {
+    "start": 49.75,
+    "duration": 5.44,
+    "text": "return a particular thing, how to put it in the argument and you know how to like"
+  },
+  {
+    "start": 55.19,
+    "duration": 4.68,
+    "text": "create it in the function body and return that sort of thing. So we did this in like"
+  },
+  {
+    "start": 59.87,
+    "duration": 4.72,
+    "text": "you know previous examples. So please make sure you have watched at least all the previous"
+  },
+  {
+    "start": 64.59,
+    "duration": 5.12,
+    "text": "recursion videos at least, okay? Otherwise don't say Kunal, you skipped anything. No, I didn't"
+  },
+  {
+    "start": 69.71,
+    "duration": 6.08,
+    "text": "skip anything. All the recursion videos I have made that has already covered how to think"
+  },
+  {
+    "start": 75.79,
+    "duration": 3.68,
+    "text": "and how these intuition behind these projects, you know, like these questions."
+  },
+  {
+    "start": 80.19,
+    "duration": 5.68,
+    "text": "So this one is mainly focused on like strings itself. So we learn about strings and string"
+  },
+  {
+    "start": 85.87,
+    "duration": 6.62,
+    "text": "questions and like questions like permutation, combination, subsequence, number, pad, sum"
+  },
+  {
+    "start": 92.49,
+    "duration": 4.04,
+    "text": "or whatever, dice, problems and things like that."
+  },
+  {
+    "start": 96.53,
+    "duration": 5.68,
+    "text": "So yeah, let us get started but before we move forward with the subsequence part, let"
+  },
+  {
+    "start": 102.21,
+    "duration": 8.48,
+    "text": "us do some basic string questions, basic string questions using recursion, basic questions."
+  },
+  {
+    "start": 110.69,
+    "duration": 2.68,
+    "text": "And by the way, make sure you like, share and subscribe, you can find the assignment"
+  },
+  {
+    "start": 113.37,
+    "duration": 5.16,
+    "text": "link in the description below. It will be keep getting updated. So, simple question I have"
+  },
+  {
+    "start": 118.53,
+    "duration": 8.56,
+    "text": "is a simple question. You are given a string and you have to skip like you have to show"
+  },
+  {
+    "start": 127.09,
+    "duration": 7.6,
+    "text": "me some other string, create another string that has removed all the a's from it. That"
+  },
+  {
+    "start": 134.69,
+    "duration": 5.84,
+    "text": "has removed all the a's from it. So, for example, if the string given to you is"
+  },
+  {
+    "start": 140.53,
+    "duration": 9.44,
+    "text": "something like this, B, A, C, C, A, D. The answer should be equal to B, C, C, D."
+  },
+  {
+    "start": 149.97,
+    "duration": 7.08,
+    "text": "And this is very simple to make via, like via, you know, your iteration, just a simple"
+  },
+  {
+    "start": 157.05,
+    "duration": 6.76,
+    "text": "for loop, you can have a string builder object or something. So, but in this case,"
+  },
+  {
+    "start": 163.81,
+    "duration": 3.72,
+    "text": "how do we do it? Like, if you want to do it with recursion, how can you do"
+  },
+  {
+    "start": 167.53,
+    "duration": 12.72,
+    "text": "it. First of all, two approaches, approach number one, pass the answer string in argument."
+  },
+  {
+    "start": 180.25,
+    "duration": 6.96,
+    "text": "Already we have done this in arrays when you pass the answer array in the argument. Second,"
+  },
+  {
+    "start": 187.21,
+    "duration": 6.16,
+    "text": "create the answer variable in function body. This is also something we have done with"
+  },
+  {
+    "start": 193.37,
+    "duration": 5.08,
+    "text": "arrays. So, arrays in a string is also what like, it is like an array of characters,"
+  },
+  {
+    "start": 198.45,
+    "duration": 9.16,
+    "text": "like it, internally it is like a character of like objects and stuff, so we have done"
+  },
+  {
+    "start": 207.61,
+    "duration": 5.14,
+    "text": "this thing before, passing the array in the argument and creating the array in the function"
+  },
+  {
+    "start": 212.75,
+    "duration": 3.94,
+    "text": "body, so please make sure you check out the previous recursion videos, otherwise you"
+  },
+  {
+    "start": 216.69,
+    "duration": 9.4,
+    "text": "will not understand in the function body, so this is what this can be passed to future"
+  },
+  {
+    "start": 226.09,
+    "duration": 10.11,
+    "text": "calls and this one is created new for new function calls, so for every function call"
+  },
+  {
+    "start": 236.2,
+    "duration": 2.34,
+    "text": "and new will be created."
+  },
+  {
+    "start": 238.54,
+    "duration": 1.0,
+    "text": "So what can we do?"
+  },
+  {
+    "start": 239.54,
+    "duration": 8.26,
+    "text": "We have the string BACCAD, we are going to start from the very first character, two ways"
+  },
+  {
+    "start": 247.8,
+    "duration": 2.84,
+    "text": "we can do this, let us say you are taking the answer as well, so initially answer is"
+  },
+  {
+    "start": 250.64,
+    "duration": 5.96,
+    "text": "going to be equal to what, empty, so you are going to take the first character, you"
+  },
+  {
+    "start": 256.6,
+    "duration": 3.68,
+    "text": "Again you're like, hey, is B equal to A, the thing that we have to skip?"
+  },
+  {
+    "start": 260.28,
+    "duration": 1.0,
+    "text": "No, it's not."
+  },
+  {
+    "start": 261.28,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 262.28,
+    "duration": 1.0,
+    "text": "Add it in the answer."
+  },
+  {
+    "start": 263.28,
+    "duration": 6.2,
+    "text": "So it's going to be like my answer is equal to now B and my string is now reduced to what?"
+  },
+  {
+    "start": 269.48,
+    "duration": 1.0,
+    "text": "ACCAD."
+  },
+  {
+    "start": 270.48,
+    "duration": 2.88,
+    "text": "This is a recursion called the arrow."
+  },
+  {
+    "start": 273.36,
+    "duration": 5.2,
+    "text": "We have already discussed in every single video previously how to think about this"
+  },
+  {
+    "start": 278.56,
+    "duration": 1.0,
+    "text": "arrow."
+  },
+  {
+    "start": 279.56,
+    "duration": 5.4,
+    "text": "This arrow basically means that this particular function has called this function and it's"
+  },
+  {
+    "start": 284.96,
+    "duration": 6.0,
+    "text": "just waiting for this to be over right then it's gonna be like okay now we are here is"
+  },
+  {
+    "start": 290.96,
+    "duration": 8.68,
+    "text": "a equal to a yeah it is just skip it now we are here is c equal to a no it's not added"
+  },
+  {
+    "start": 299.64,
+    "duration": 3.16,
+    "text": "in the answer."
+  },
+  {
+    "start": 302.8,
+    "duration": 9.94,
+    "text": "Remaining this again is c equal to a no it's not added in the answer is a equal to a"
+  },
+  {
+    "start": 312.74,
+    "duration": 1.0,
+    "text": "yes it is."
+  },
+  {
+    "start": 313.74,
+    "duration": 7.29,
+    "text": "Don't add it in the answer is d equal to a no it's not added in the answer this"
+  },
+  {
+    "start": 321.03,
+    "duration": 6.48,
+    "text": "is empty now. So, when your original string becomes empty in the argument that means what?"
+  },
+  {
+    "start": 327.51,
+    "duration": 11.79,
+    "text": "We have found the answer return this or something like just you know display this or whatever"
+  },
+  {
+    "start": 339.3,
+    "duration": 6.42,
+    "text": "we can do both. So, let us say whenever you found the answer you can return it. So, when"
+  },
+  {
+    "start": 345.72,
+    "duration": 4.72,
+    "text": "you return it it will go over here because this will be returned from where I have explained"
+  },
+  {
+    "start": 350.44,
+    "duration": 4.56,
+    "text": "this again and again so many times how function values get returned and everything so now by"
+  },
+  {
+    "start": 355.0,
+    "duration": 3.88,
+    "text": "now you should actually be fluent in this thing how these values are getting returned so whenever"
+  },
+  {
+    "start": 358.88,
+    "duration": 5.36,
+    "text": "you are hit this condition just return this argument it will contain what bccd so it will"
+  },
+  {
+    "start": 364.24,
+    "duration": 5.8,
+    "text": "be returned to where it was called so this entire value will be equal to what bccd this"
+  },
+  {
+    "start": 370.04,
+    "duration": 3.52,
+    "text": "will be now returned from where it was called you know we have covered this example"
+  },
+  {
+    "start": 373.56,
+    "duration": 4.36,
+    "text": "before like how do we actually pass the value from base condition to the very top"
+  },
+  {
+    "start": 377.92,
+    "duration": 3.6,
+    "text": "of the recursion. This will be returned here, this will be returned here, this will be returned"
+  },
+  {
+    "start": 381.52,
+    "duration": 12.15,
+    "text": "to main. That's it. That is your recursion. Okay, makes sense. Okay, so you can print"
+  },
+  {
+    "start": 393.67,
+    "duration": 8.19,
+    "text": "this or return this or whatever. One more thing you might, you know, notice is that what"
+  },
+  {
+    "start": 401.86,
+    "duration": 4.6,
+    "text": "if we are creating it, let's say, we are not taking this extra argument over here,"
+  },
+  {
+    "start": 406.46,
+    "duration": 3.44,
+    "text": "you know, this extra variable, we are not taking in the function argument, we just"
+  },
+  {
+    "start": 409.9,
+    "duration": 5.2,
+    "text": "want to pass the string itself and that is it. We are going to take everything else in"
+  },
+  {
+    "start": 415.1,
+    "duration": 4.96,
+    "text": "the body of the function. In that case what will happen? Again I have explained this as"
+  },
+  {
+    "start": 420.06,
+    "duration": 6.32,
+    "text": "well in previous examples, in previous lectures but I will still explain it again. B A C C"
+  },
+  {
+    "start": 426.38,
+    "duration": 10.06,
+    "text": "A D. B A C C A D. This is only thing in the function call. This is the only thing"
+  },
+  {
+    "start": 436.44,
+    "duration": 3.92,
+    "text": "in the function call. I am going to be saying this is my body now. For this"
+  },
+  {
+    "start": 440.36,
+    "duration": 4.52,
+    "text": "function call, this is the body. What is the character? Character is currently equal to"
+  },
+  {
+    "start": 444.88,
+    "duration": 7.76,
+    "text": "B. Is this character B equal to A? No, it is not. Then okay, I am going to take this."
+  },
+  {
+    "start": 452.64,
+    "duration": 5.04,
+    "text": "So this is obviously going to be my answer plus whatever answer you are getting from"
+  },
+  {
+    "start": 457.68,
+    "duration": 7.98,
+    "text": "this function call. Okay. Now in this body, it is going to be like, okay, character is"
+  },
+  {
+    "start": 465.66,
+    "duration": 5.72,
+    "text": "equal to what? A and is A equal to A? Yes, it is. Then I am going to just skip"
+  },
+  {
+    "start": 471.38,
+    "duration": 7.88,
+    "text": "it. It's going to be like empty string plus whatever answer you're getting from here CCAD."
+  },
+  {
+    "start": 479.26,
+    "duration": 4.52,
+    "text": "I've explained this thing before. Now this box again, this exact the same example of like"
+  },
+  {
+    "start": 483.78,
+    "duration": 4.4,
+    "text": "function, I think it explained it in like merge sort or something. Please check it out"
+  },
+  {
+    "start": 488.18,
+    "duration": 5.16,
+    "text": "about this example is basically creating variables in function body. I've explained it in detail."
+  },
+  {
+    "start": 493.34,
+    "duration": 5.0,
+    "text": "So this recursion call will be like, okay, character is right now equal to C, C we"
+  },
+  {
+    "start": 498.34,
+    "duration": 5.96,
+    "text": "will take plus whatever answer you get from the recursion call, which is CAD. That's going"
+  },
+  {
+    "start": 504.3,
+    "duration": 6.12,
+    "text": "to be like character over here is equal to C again. And so the entire answer is going"
+  },
+  {
+    "start": 510.42,
+    "duration": 5.2,
+    "text": "to be equal to C plus whatever answer you're getting from AD with AD is going to be like"
+  },
+  {
+    "start": 515.62,
+    "duration": 3.84,
+    "text": "a it will not take so it's going to be empty plus whatever answer you're getting"
+  },
+  {
+    "start": 519.46,
+    "duration": 5.96,
+    "text": "from just D. So it's going to be like with D only answer I'm getting is equal"
+  },
+  {
+    "start": 525.42,
+    "duration": 5.84,
+    "text": "to D, that is it. If it is the, you know, if you are in the empty string, now it is calling"
+  },
+  {
+    "start": 531.26,
+    "duration": 3.96,
+    "text": "for the empty string, it is going to return the empty string. So, D plus empty string"
+  },
+  {
+    "start": 535.22,
+    "duration": 5.52,
+    "text": "is going to be my string answer, which is equal to what? D, this will return D. So,"
+  },
+  {
+    "start": 540.74,
+    "duration": 4.96,
+    "text": "this entire value over here will be equal to D, empty plus D is equal to what? D,"
+  },
+  {
+    "start": 545.7,
+    "duration": 4.08,
+    "text": "so you can see A D, A was removed. So, now this will be D, this entire thing"
+  },
+  {
+    "start": 549.78,
+    "duration": 3.96,
+    "text": "will be returning D from where it was called and we know it was called from where"
+  },
+  {
+    "start": 553.74,
+    "duration": 4.16,
+    "text": "the arrow was so this will have D now see this character like string actually will be"
+  },
+  {
+    "start": 557.9,
+    "duration": 4.0,
+    "text": "equal to C plus D which is CD this will be returned from where it was called here the"
+  },
+  {
+    "start": 561.9,
+    "duration": 12.08,
+    "text": "value will be CD this will be CCD this will be MT plus CCD so CCD only this will be BCCD"
+  },
+  {
+    "start": 573.98,
+    "duration": 7.8,
+    "text": "this will be returned to main okay so remember if in the previous videos I did this example"
+  },
+  {
+    "start": 581.78,
+    "duration": 3.76,
+    "text": "Like, okay, whatever answer you're getting from below,"
+  },
+  {
+    "start": 585.54,
+    "duration": 0.84,
+    "text": "this is going to check."
+  },
+  {
+    "start": 586.38,
+    "duration": 2.6,
+    "text": "This thing happens when, this above arrow happens when,"
+  },
+  {
+    "start": 588.98,
+    "duration": 1.56,
+    "text": "and the stack is getting empty."
+  },
+  {
+    "start": 590.54,
+    "duration": 2.04,
+    "text": "I already explained this previously."
+  },
+  {
+    "start": 592.58,
+    "duration": 1.64,
+    "text": "So basically what it's going to say is,"
+  },
+  {
+    "start": 594.22,
+    "duration": 3.0,
+    "text": "hey, CD, you are going up."
+  },
+  {
+    "start": 597.22,
+    "duration": 1.2,
+    "text": "I also have a C."
+  },
+  {
+    "start": 598.42,
+    "duration": 1.44,
+    "text": "Can you please take me also?"
+  },
+  {
+    "start": 599.86,
+    "duration": 0.92,
+    "text": "It's gonna be like, yeah, sure."
+  },
+  {
+    "start": 600.78,
+    "duration": 1.84,
+    "text": "So CCD will take ahead."
+  },
+  {
+    "start": 603.58,
+    "duration": 1.84,
+    "text": "Then it's gonna be like, hey, CCD,"
+  },
+  {
+    "start": 605.42,
+    "duration": 1.72,
+    "text": "in the B I have."
+  },
+  {
+    "start": 607.14,
+    "duration": 1.12,
+    "text": "What's the second half, where?"
+  },
+  {
+    "start": 608.26,
+    "duration": 1.64,
+    "text": "Okay, my CD went off."
+  },
+  {
+    "start": 609.9,
+    "duration": 12.72,
+    "text": "ccd went with cd, never mind, all right. So b is going to be like, hey, ccd, can you"
+  },
+  {
+    "start": 622.62,
+    "duration": 4.96,
+    "text": "please take me as well with you when you're going above. So it's going to be like, yeah,"
+  },
+  {
+    "start": 627.58,
+    "duration": 3.88,
+    "text": "sure, it's going to add it in this and it's going to take it to it from where it was"
+  },
+  {
+    "start": 631.46,
+    "duration": 4.76,
+    "text": "called, which was called from main. So this red circle that I have is already explained"
+  },
+  {
+    "start": 636.22,
+    "duration": 6.4,
+    "text": "previously, this is the local answer of function call, local answer of function call already"
+  },
+  {
+    "start": 642.62,
+    "duration": 5.4,
+    "text": "explained in previous videos, this is the recursive answer already explained how to"
+  },
+  {
+    "start": 648.02,
+    "duration": 4.4,
+    "text": "think and everything in the previous function calls, there's also sort of like the concept"
+  },
+  {
+    "start": 652.42,
+    "duration": 5.28,
+    "text": "of the array, right? There's the same thing we're doing here. Okay, so we're skipping"
+  },
+  {
+    "start": 657.7,
+    "duration": 6.12,
+    "text": "a over here, two code samples, one in which let's say you don't return the string"
+  },
+  {
+    "start": 663.82,
+    "duration": 4.6,
+    "text": "and just pass it in the argument, so we can take this as like a process string and this"
+  },
+  {
+    "start": 668.42,
+    "duration": 5.0,
+    "text": "can be as like an unprocessed string, unprocessed will be our original and this next one example"
+  },
+  {
+    "start": 673.42,
+    "duration": 4.64,
+    "text": "is solving the same problem but here we are only taking one argument which is the string"
+  },
+  {
+    "start": 678.06,
+    "duration": 4.16,
+    "text": "that is given to us and we are actually making all the other things in the body"
+  },
+  {
+    "start": 682.22,
+    "duration": 3.52,
+    "text": "of the function only. And since we know after watching so many recursion videos"
+  },
+  {
+    "start": 685.74,
+    "duration": 6.0,
+    "text": "of Kunal that function body elements like variables created in function body have"
+  },
+  {
+    "start": 691.74,
+    "duration": 4.24,
+    "text": "the scope of that function call only. That's why we are passing those when the function"
+  },
+  {
+    "start": 695.98,
+    "duration": 4.0,
+    "text": "call is getting empty. Then it's going up and up and up. I'm like, okay, you are going"
+  },
+  {
+    "start": 699.98,
+    "duration": 3.84,
+    "text": "up. Can you please take my data also? That's why it's going up and up and up to main."
+  },
+  {
+    "start": 703.82,
+    "duration": 3.68,
+    "text": "All right, let's try to code this thing. Okay, so this is a trick I told you like"
+  },
+  {
+    "start": 707.5,
+    "duration": 5.56,
+    "text": "this one. First, we'll look into this approach. Which one is it? This one where we actually"
+  },
+  {
+    "start": 713.06,
+    "duration": 6.84,
+    "text": "have to pass two arguments. So I'm just going to create another package called"
+  },
+  {
+    "start": 719.9,
+    "duration": 8.88,
+    "text": "let's say strings or something. And then I'm going to say something like, you know,"
+  },
+  {
+    "start": 728.78,
+    "duration": 6.4,
+    "text": "like a stream that I'm taking, I'm taking a stream of characters. So this is going to be like,"
+  },
+  {
+    "start": 735.18,
+    "duration": 6.48,
+    "text": "I'm going to say public static, wide main, and then I'm just going to say, we are not"
+  },
+  {
+    "start": 741.66,
+    "duration": 5.36,
+    "text": "returning anything, I'm just taking two arguments, no problem, static not returning"
+  },
+  {
+    "start": 747.02,
+    "duration": 6.4,
+    "text": "anything so why let's say I'm just going to print it okay no problem I'll just print it skip string"
+  },
+  {
+    "start": 754.22,
+    "duration": 8.56,
+    "text": "processed and string unprocessed unprocessed is the original one so process initially will be what"
+  },
+  {
+    "start": 762.78,
+    "duration": 5.84,
+    "text": "empty and what is my base condition base condition means whenever this thing becomes empty unprocessed"
+  },
+  {
+    "start": 768.62,
+    "duration": 4.72,
+    "text": "becomes empty just print the answer so if unprocessed you can also take string builder if"
+  },
+  {
+    "start": 773.34,
+    "duration": 2.96,
+    "text": "you want I don't think I should explain that to you because you already know it"
+  },
+  {
+    "start": 776.3,
+    "duration": 6.16,
+    "text": "same thing, everything is same. If up dot is empty, I can just say print my process"
+  },
+  {
+    "start": 782.46,
+    "duration": 4.48,
+    "text": "and return because I don't want to have any other function calls, I can just return."
+  },
+  {
+    "start": 786.94,
+    "duration": 4.08,
+    "text": "Otherwise, I'm just going to say, okay, what is the first character every in every function"
+  },
+  {
+    "start": 791.02,
+    "duration": 5.2,
+    "text": "call, first character of up, I can say char ch is equal to first character, which is equal to"
+  },
+  {
+    "start": 796.22,
+    "duration": 9.16,
+    "text": "up dot can add 0th index. So, here I am just going to say that if CH is equal to equal"
+  },
+  {
+    "start": 805.38,
+    "duration": 7.32,
+    "text": "to A, skip it, otherwise do not skip it. So, if you want to skip it, you can say something"
+  },
+  {
+    "start": 812.7,
+    "duration": 5.68,
+    "text": "like I am not going to add it in my process. So, for example, processed will not change"
+  },
+  {
+    "start": 818.38,
+    "duration": 4.64,
+    "text": "when this is equal to A, because I do not want to add it in my process, process will"
+  },
+  {
+    "start": 823.02,
+    "duration": 6.0,
+    "text": "remain as it is. So I can say skip process will remain as it is unprocessed will be becoming"
+  },
+  {
+    "start": 829.02,
+    "duration": 4.36,
+    "text": "what? As you can see in every function called unprocess is just removing the first character."
+  },
+  {
+    "start": 833.38,
+    "duration": 4.0,
+    "text": "So you can say I am taking a substring substring basically I have already covered in the strings"
+  },
+  {
+    "start": 837.38,
+    "duration": 5.24,
+    "text": "lecture it just creates a new object and just removes the first character. So I can"
+  },
+  {
+    "start": 842.62,
+    "duration": 8.28,
+    "text": "say substring from index number one. Otherwise I can say I am taking it I want"
+  },
+  {
+    "start": 850.9,
+    "duration": 4.04,
+    "text": "to add this particular character in my process, because I am taking it, let's say for this"
+  },
+  {
+    "start": 854.94,
+    "duration": 7.16,
+    "text": "C, are you taking C? Yeah, BC plus C already added in the process. There is it. And all"
+  },
+  {
+    "start": 862.1,
+    "duration": 4.32,
+    "text": "the things like about substring and everything already covered in the strings lecture. So"
+  },
+  {
+    "start": 866.42,
+    "duration": 3.2,
+    "text": "make sure you check it out. I'm going to say skip. Initially, processed will be"
+  },
+  {
+    "start": 869.62,
+    "duration": 4.96,
+    "text": "empty. And I'm just going to pass a string that contains something like B, A, C, C,"
+  },
+  {
+    "start": 874.58,
+    "duration": 10.22,
+    "text": "A, H, all the A's will be removed. Let's see. All the A's should be removed now. Easy"
+  },
+  {
+    "start": 884.8,
+    "duration": 4.56,
+    "text": "stuff, right? You can also debug it yourself, like put a debug pointer over here and then"
+  },
+  {
+    "start": 889.36,
+    "duration": 3.76,
+    "text": "you can see how it's like sort of like, you know, working internally, it's very easy."
+  },
+  {
+    "start": 893.12,
+    "duration": 3.36,
+    "text": "I'm not going to show the debugging of this because I've already showed it like in previous"
+  },
+  {
+    "start": 896.48,
+    "duration": 4.8,
+    "text": "arrays example. But now let's do a similar thing in which we are actually like, you"
+  },
+  {
+    "start": 901.28,
+    "duration": 6.14,
+    "text": "know returning a string. So I am just going to copy paste this. I am going to say return"
+  },
+  {
+    "start": 907.42,
+    "duration": 6.84,
+    "text": "a string and we know since it is returning I should be having like a return over here."
+  },
+  {
+    "start": 914.26,
+    "duration": 3.96,
+    "text": "So let us see what is the return. Whenever it becomes empty, I am just going to return"
+  },
+  {
+    "start": 918.22,
+    "duration": 3.64,
+    "text": "an empty string. I have already explained this. So if this becomes empty, you return"
+  },
+  {
+    "start": 921.86,
+    "duration": 5.8,
+    "text": "an empty string. So basically it says hey, you are empty. Do you have like any, what"
+  },
+  {
+    "start": 927.66,
+    "duration": 3.62,
+    "text": "What would be the answer if you remove like a from it or whatever, it is going to be like"
+  },
+  {
+    "start": 931.28,
+    "duration": 4.28,
+    "text": "hey I am already empty, so you cannot remove anything from it, this particular step the"
+  },
+  {
+    "start": 935.56,
+    "duration": 1.0,
+    "text": "base condition."
+  },
+  {
+    "start": 936.56,
+    "duration": 5.6,
+    "text": "Then you are taking the character over here and we are not passing over here anything,"
+  },
+  {
+    "start": 942.16,
+    "duration": 5.36,
+    "text": "so because I mentioned only one thing will go in the argument, that is fine and this"
+  },
+  {
+    "start": 947.52,
+    "duration": 6.08,
+    "text": "will also not be available like this, this will also not be available like this."
+  },
+  {
+    "start": 953.6,
+    "duration": 5.4,
+    "text": "So what is the difference now since this is asking for a return value we should have return"
+  },
+  {
+    "start": 959.0,
+    "duration": 5.68,
+    "text": "over here why watch the previous videos already explained it because I have already explained"
+  },
+  {
+    "start": 964.68,
+    "duration": 2.92,
+    "text": "this I am not going to explain it again I have already explained why you need to add"
+  },
+  {
+    "start": 967.6,
+    "duration": 4.28,
+    "text": "a return over here because if you have some return type I think I have explained it in"
+  },
+  {
+    "start": 971.88,
+    "duration": 5.32,
+    "text": "areas lecture also merge sort also beginning recursion video also recursion easy question"
+  },
+  {
+    "start": 977.2,
+    "duration": 3.72,
+    "text": "also and recursion introduction also so I will not explain it again please watch"
+  },
+  {
+    "start": 980.92,
+    "duration": 1.4,
+    "text": "that videos."
+  },
+  {
+    "start": 982.32,
+    "duration": 6.8,
+    "text": "So here it's just saying that you are going to actually return this value plus whatever"
+  },
+  {
+    "start": 989.12,
+    "duration": 4.88,
+    "text": "answer you are getting and this will actually be equal to only when this is not equal to"
+  },
+  {
+    "start": 994.0,
+    "duration": 1.0,
+    "text": "a."
+  },
+  {
+    "start": 995.0,
+    "duration": 3.36,
+    "text": "So when the character is equal to a I don't need to add it but when the character is equal"
+  },
+  {
+    "start": 998.36,
+    "duration": 4.72,
+    "text": "to a I don't need to add it but when it's not equal to a then I need to add it isn't"
+  },
+  {
+    "start": 1003.08,
+    "duration": 4.68,
+    "text": "that what is happening the string here in this case is equal to current answer"
+  },
+  {
+    "start": 1007.76,
+    "duration": 3.8,
+    "text": "plus whatever you are getting from recursion isn't that what we are doing current answer"
+  },
+  {
+    "start": 1011.56,
+    "duration": 4.88,
+    "text": "plus whatever you are getting from recursion. So, this answer will be available over here"
+  },
+  {
+    "start": 1016.44,
+    "duration": 3.84,
+    "text": "because the data type was written string and it is going to be like, hey, I know you are"
+  },
+  {
+    "start": 1020.28,
+    "duration": 5.56,
+    "text": "going up, can you please add my answer also? That is basically the about it. So, I can"
+  },
+  {
+    "start": 1025.84,
+    "duration": 10.64,
+    "text": "say something like print this answer. So, let us say what we will get? It should definitely"
+  },
+  {
+    "start": 1036.48,
+    "duration": 3.4,
+    "text": "give the same answer, but in this case, this entire value will contain a string"
+  },
+  {
+    "start": 1039.88,
+    "duration": 2.69,
+    "text": "in itself."
+  },
+  {
+    "start": 1042.57,
+    "duration": 1.6,
+    "text": "All right, sounds good."
+  },
+  {
+    "start": 1044.17,
+    "duration": 1.0,
+    "text": "All the a's are removed."
+  },
+  {
+    "start": 1045.17,
+    "duration": 2.4,
+    "text": "This a is removed and this a is removed."
+  },
+  {
+    "start": 1047.57,
+    "duration": 1.0,
+    "text": "Cool."
+  },
+  {
+    "start": 1048.57,
+    "duration": 1.6,
+    "text": "Let us move on to the next question."
+  },
+  {
+    "start": 1050.17,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 1051.17,
+    "duration": 4.4,
+    "text": "Now, another similar example can be you need to skip a particular, you know, you need"
+  },
+  {
+    "start": 1055.57,
+    "duration": 4.6,
+    "text": "to skip a particular like not a character, but an entire string itself."
+  },
+  {
+    "start": 1060.17,
+    "duration": 1.96,
+    "text": "So in that case, what will you do?"
+  },
+  {
+    "start": 1062.13,
+    "duration": 1.0,
+    "text": "It is very simple."
+  },
+  {
+    "start": 1063.13,
+    "duration": 4.04,
+    "text": "Let us say I want to, let us say I want to skip like something like, let us say"
+  },
+  {
+    "start": 1067.17,
+    "duration": 14.01,
+    "text": "skip apple or something like that. So I am just going to copy paste this. I just want"
+  },
+  {
+    "start": 1081.18,
+    "duration": 7.62,
+    "text": "to skip apple. So in that case, I am just going to say that now I do not need to check"
+  },
+  {
+    "start": 1088.8,
+    "duration": 4.08,
+    "text": "it by character by character. So I can remove the character. What do I need to check? I"
+  },
+  {
+    "start": 1092.88,
+    "duration": 4.56,
+    "text": "need to check whether this current value that I am at, whether this starts from apple"
+  },
+  {
+    "start": 1097.44,
+    "duration": 11.06,
+    "text": "or not. Okay, so I can say if up dot starts with apple, okay, I can take normal apple,"
+  },
+  {
+    "start": 1108.5,
+    "duration": 4.96,
+    "text": "then you're just going to say, skip this entire thing. Do you want me to explain this on"
+  },
+  {
+    "start": 1113.46,
+    "duration": 3.52,
+    "text": "a white board? It's very simple. Let's do it on white. Okay, so here in this case,"
+  },
+  {
+    "start": 1116.98,
+    "duration": 4.16,
+    "text": "we can see that let's say if I want to skip apple. So question is skip apple. Let's"
+  },
+  {
+    "start": 1121.14,
+    "duration": 6.92,
+    "text": "So, you are given a string like BCB, Apple, FG, something like this."
+  },
+  {
+    "start": 1128.06,
+    "duration": 5.0,
+    "text": "So, it is going to be like in the body, it is going to be like, hey, my current like,"
+  },
+  {
+    "start": 1133.06,
+    "duration": 4.88,
+    "text": "you know, does this string start with Apple, it is going to be like, you know, no, it"
+  },
+  {
+    "start": 1137.94,
+    "duration": 2.36,
+    "text": "does not, then it is going to be like, okay, check the next string."
+  },
+  {
+    "start": 1140.3,
+    "duration": 2.76,
+    "text": "So, it is going to be like, it does not start with Apple."
+  },
+  {
+    "start": 1143.06,
+    "duration": 5.08,
+    "text": "So, my answer is currently going to be equal to whatever answer you are getting from"
+  },
+  {
+    "start": 1148.14,
+    "duration": 1.0,
+    "text": "here."
+  },
+  {
+    "start": 1149.14,
+    "duration": 7.12,
+    "text": "is going to be like B plus whatever answer you are getting from below. So, it is going"
+  },
+  {
+    "start": 1156.26,
+    "duration": 6.36,
+    "text": "to be like whatever answer you are getting from CD, APP, LE, FG or I can just take the"
+  },
+  {
+    "start": 1162.62,
+    "duration": 5.08,
+    "text": "smaller one. I can say B, D or whatever. It is going to be like, hey, is this starting"
+  },
+  {
+    "start": 1167.7,
+    "duration": 3.0,
+    "text": "from Apple? You are going to be like, no, it is not starting from Apple. So, it is"
+  },
+  {
+    "start": 1170.7,
+    "duration": 6.4,
+    "text": "going to be like, okay, take the first character because I want to take that and then whatever"
+  },
+  {
+    "start": 1177.1,
+    "duration": 5.32,
+    "text": "answer you are getting from this particular part fg, it is going to be like, is this starting"
+  },
+  {
+    "start": 1182.42,
+    "duration": 1.0,
+    "text": "from apple?"
+  },
+  {
+    "start": 1183.42,
+    "duration": 4.68,
+    "text": "It is going to be like, yes it is, then okay, answer is going to be equal to whatever answer"
+  },
+  {
+    "start": 1188.1,
+    "duration": 5.6,
+    "text": "you are getting from what, skip the entire apple, skip the entire apple, what is the"
+  },
+  {
+    "start": 1193.7,
+    "duration": 7.12,
+    "text": "size of apple, 1, 2, 3, 4, 5, so what can you do?"
+  },
+  {
+    "start": 1200.82,
+    "duration": 13.09,
+    "text": "can do unprocessed dot substring five. Okay, so I will like give me the answer for FG FG"
+  },
+  {
+    "start": 1213.91,
+    "duration": 3.28,
+    "text": "is going to be like, okay, is this starting from Apple is going to know it's equal to"
+  },
+  {
+    "start": 1217.19,
+    "duration": 4.88,
+    "text": "F plus whatever answer you're getting from below G. So this is going to be like just"
+  },
+  {
+    "start": 1222.07,
+    "duration": 5.88,
+    "text": "like empty after this empty will return empty. So G plus empty will be G this will be returned"
+  },
+  {
+    "start": 1227.95,
+    "duration": 4.12,
+    "text": "over here from where it was called. This will be equal to FG this will be returned"
+  },
+  {
+    "start": 1232.07,
+    "duration": 6.56,
+    "text": "from here this will be mt plus fg which is equal to fg this will be returned here fg d"
+  },
+  {
+    "start": 1238.63,
+    "duration": 6.56,
+    "text": "plus fg is equal to dfg this will be returned here dfg dfg plus b is equal to bdfg that"
+  },
+  {
+    "start": 1245.19,
+    "duration": 6.96,
+    "text": "is my answer that will be returned to main bdfg sound good that is it okay so I am"
+  },
+  {
+    "start": 1252.15,
+    "duration": 6.4,
+    "text": "just going to say that I am just going to say apple just skip the first five characters"
+  },
+  {
+    "start": 1258.55,
+    "duration": 8.56,
+    "text": "Otherwise, it's just going to be unprocessed.carad0 plus whatever answer you're getting with the"
+  },
+  {
+    "start": 1267.11,
+    "duration": 19.87,
+    "text": "remaining one. That is it. Skip Apple. Let's try it out. Skip Apple. B-A-C-C-D-A-H. B-A-C-C-D-A-H."
+  },
+  {
+    "start": 1286.98,
+    "duration": 6.16,
+    "text": "All right. Apple is skipped. That is it. As simple as that. Let's move on to the next question."
+  },
+  {
+    "start": 1293.14,
+    "duration": 8.4,
+    "text": "okay now another question can be let's say you want to skip apple and you don't want to skip let's say"
+  },
+  {
+    "start": 1302.18,
+    "duration": 4.32,
+    "text": "or you want to skip let's say you're you're given apple right so you can say that you want to"
+  },
+  {
+    "start": 1306.5,
+    "duration": 10.82,
+    "text": "you want to skip something like you want to skip app only but you don't want to skip apple okay"
+  },
+  {
+    "start": 1317.32,
+    "duration": 13.23,
+    "text": "So, basically that what I mean is that only skip this app when it is not equal to Apple,"
+  },
+  {
+    "start": 1330.55,
+    "duration": 5.12,
+    "text": "only skip the app when it is not equal to Apple, that is what we are going to do."
+  },
+  {
+    "start": 1335.67,
+    "duration": 7.48,
+    "text": "So, basically what we want to do is copy paste this, I am going to say skip app not"
+  },
+  {
+    "start": 1343.15,
+    "duration": 7.72,
+    "text": "apple, coi paste, coi paste, coi paste, only change what we will make is it should start"
+  },
+  {
+    "start": 1350.87,
+    "duration": 12.33,
+    "text": "from app and it should not start from apple and up dot starts with apple should not be"
+  },
+  {
+    "start": 1363.2,
+    "duration": 4.68,
+    "text": "true."
+  },
+  {
+    "start": 1367.88,
+    "duration": 4.24,
+    "text": "Okay, in this case, remove the first three."
+  },
+  {
+    "start": 1372.12,
+    "duration": 1.0,
+    "text": "That's it."
+  },
+  {
+    "start": 1373.12,
+    "duration": 2.0,
+    "text": "Rest everything is same"
+  },
+  {
+    "start": 1375.52,
+    "duration": 5.44,
+    "text": "Okay, so you can say skip app not Apple. So here it is designed to skip app"
+  },
+  {
+    "start": 1381.4,
+    "duration": 2.0,
+    "text": "But only when it's not Apple"
+  },
+  {
+    "start": 1383.68,
+    "duration": 3.08,
+    "text": "So this will not skip it because it's actually Apple"
+  },
+  {
+    "start": 1387.72,
+    "duration": 1.64,
+    "text": "So it did not skip it"
+  },
+  {
+    "start": 1389.36,
+    "duration": 7.76,
+    "text": "But if you remove it as Apple now it will skip this app make sense"
+  },
+  {
+    "start": 1398.28,
+    "duration": 4.6,
+    "text": "So this entire theory is like similar to the tree. I drew I drew for this"
+  },
+  {
+    "start": 1402.88,
+    "duration": 5.28,
+    "text": "You can see the only change was adding one more condition over here, that is it."
+  },
+  {
+    "start": 1408.16,
+    "duration": 6.6,
+    "text": "No change was made in terms of recursion, that is why I am not explaining this separately."
+  },
+  {
+    "start": 1414.76,
+    "duration": 5.0,
+    "text": "No change was made in terms of recursion, exactly the same thing, just one change was"
+  },
+  {
+    "start": 1419.76,
+    "duration": 2.96,
+    "text": "made over here in terms of comparison that is it."
+  },
+  {
+    "start": 1422.72,
+    "duration": 3.72,
+    "text": "How difficult is this particular line, this is the only thing added, this highlighted"
+  },
+  {
+    "start": 1426.44,
+    "duration": 5.36,
+    "text": "thing is the only thing added, rest everything is same, exactly the same as the previous"
+  },
+  {
+    "start": 1431.8,
+    "duration": 6.28,
+    "text": "recursive tree okay complexity also you can figure it out yourself like you know"
+  },
+  {
+    "start": 1438.08,
+    "duration": 3.48,
+    "text": "that the complexity is what length of the string because every character is"
+  },
+  {
+    "start": 1441.56,
+    "duration": 5.32,
+    "text": "being checked once only okay it's not like both of these recursion calls will"
+  },
+  {
+    "start": 1446.88,
+    "duration": 5.76,
+    "text": "run all the time no only one of these will run where is the time complexity"
+  },
+  {
+    "start": 1452.64,
+    "duration": 7.04,
+    "text": "size of the string alright so it's like some basic approaches I wanted to"
+  },
+  {
+    "start": 1459.68,
+    "duration": 4.6,
+    "text": "teach you like about how to have processed and unprocessed and create"
+  },
+  {
+    "start": 1464.28,
+    "duration": 1.9,
+    "text": "it on its own over here."
+  },
+  {
+    "start": 1466.18,
+    "duration": 5.94,
+    "text": "Now, let's look into the main part of the video, which is subset and like, you know,"
+  },
+  {
+    "start": 1472.12,
+    "duration": 2.68,
+    "text": "subset string questions and subset array questions."
+  },
+  {
+    "start": 1474.8,
+    "duration": 5.24,
+    "text": "Okay, so now let's cover the, you know, most important topic, one of the most important"
+  },
+  {
+    "start": 1480.04,
+    "duration": 4.8,
+    "text": "topic for interview preparation, which is known as like subset problems, like subsequence"
+  },
+  {
+    "start": 1484.84,
+    "duration": 1.0,
+    "text": "problems."
+  },
+  {
+    "start": 1485.84,
+    "duration": 3.8,
+    "text": "So, what makes this course special is I actually teach you when to use and when to apply"
+  },
+  {
+    "start": 1489.64,
+    "duration": 1.0,
+    "text": "these patterns."
+  },
+  {
+    "start": 1490.64,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 1491.64,
+    "duration": 2.68,
+    "text": "So we've covered so many patterns already here,"
+  },
+  {
+    "start": 1494.32,
+    "duration": 2.0,
+    "text": "bind research and all these other things,"
+  },
+  {
+    "start": 1496.32,
+    "duration": 4.4,
+    "text": "cyclic sort and sliding window and all these other things."
+  },
+  {
+    "start": 1500.72,
+    "duration": 2.28,
+    "text": "So we'll be making more videos on that,"
+  },
+  {
+    "start": 1503.0,
+    "duration": 2.84,
+    "text": "but this is like one of those topics."
+  },
+  {
+    "start": 1505.84,
+    "duration": 2.8,
+    "text": "So we're talking about subsets"
+  },
+  {
+    "start": 1508.64,
+    "duration": 2.66,
+    "text": "and so like sub sequences and stuff like that."
+  },
+  {
+    "start": 1511.3,
+    "duration": 1.74,
+    "text": "So subsets."
+  },
+  {
+    "start": 1514.5,
+    "duration": 1.54,
+    "text": "So whenever you're dealing with something"
+  },
+  {
+    "start": 1516.04,
+    "duration": 2.64,
+    "text": "that leads to like permutation and combination,"
+  },
+  {
+    "start": 1518.68,
+    "duration": 7.32,
+    "text": "permutations and combinations."
+  },
+  {
+    "start": 1526.0,
+    "duration": 3.72,
+    "text": "And whenever dealing with like something like subsets, subsets is very simple, it is just"
+  },
+  {
+    "start": 1529.72,
+    "duration": 11.78,
+    "text": "like it may be like non-adjacent collection that is known as a subset."
+  },
+  {
+    "start": 1541.5,
+    "duration": 7.76,
+    "text": "So, for example, if you are given an array like this 359, a subset of this can be 3,"
+  },
+  {
+    "start": 1549.26,
+    "duration": 14.52,
+    "text": "3 comma 5, 3 comma 9, 3 comma 5 comma 9, 5 comma 9, okay, this is what is a combination"
+  },
+  {
+    "start": 1563.78,
+    "duration": 5.04,
+    "text": "taking any one number it can also have like this is also a subset, this is also a subset"
+  },
+  {
+    "start": 1568.82,
+    "duration": 5.68,
+    "text": "taking any two numbers 3 comma 5, 3 comma 9, 5 comma 9, okay, taking all the three"
+  },
+  {
+    "start": 1574.5,
+    "duration": 5.8,
+    "text": "numbers I hope you are able to understand what I mean by subsets, okay."
+  },
+  {
+    "start": 1580.3,
+    "duration": 5.5,
+    "text": "So whenever given a collection of data like this and you are required to get some answers"
+  },
+  {
+    "start": 1585.8,
+    "duration": 6.64,
+    "text": "that are like taking any of the elements, either 1, 2, 3 or all the elements, taking"
+  },
+  {
+    "start": 1592.44,
+    "duration": 6.28,
+    "text": "any 1, 1, 1 of the elements may not be continuous, like in subarray questions, we are actually"
+  },
+  {
+    "start": 1598.72,
+    "duration": 1.0,
+    "text": "taking what?"
+  },
+  {
+    "start": 1599.72,
+    "duration": 5.56,
+    "text": "We are actually taking continuous elements, here we are not doing that, it may also"
+  },
+  {
+    "start": 1605.28,
+    "duration": 8.08,
+    "text": "have continuous elements. 3 comma 5 is also a valid subset. So that is what is basically"
+  },
+  {
+    "start": 1613.36,
+    "duration": 6.6,
+    "text": "meant by it. Subset basically means taking any number of elements from it may or may"
+  },
+  {
+    "start": 1619.96,
+    "duration": 5.84,
+    "text": "not be adjacent that is subset. That is what we are doing over here. So whenever you"
+  },
+  {
+    "start": 1625.8,
+    "duration": 5.76,
+    "text": "get a question that has something like this, you apply the subset method."
+  },
+  {
+    "start": 1631.56,
+    "duration": 7.04,
+    "text": "In this session, we will learn about how you can do it with recursion and how you can do"
+  },
+  {
+    "start": 1638.6,
+    "duration": 3.24,
+    "text": "it with iteration also."
+  },
+  {
+    "start": 1641.84,
+    "duration": 1.0,
+    "text": "Let's get started."
+  },
+  {
+    "start": 1642.84,
+    "duration": 2.56,
+    "text": "So let's look at the very basic problem which is this one only."
+  },
+  {
+    "start": 1645.4,
+    "duration": 5.44,
+    "text": "You are given a list or a string or whatever like this and create all the subsets of"
+  },
+  {
+    "start": 1650.84,
+    "duration": 1.0,
+    "text": "it."
+  },
+  {
+    "start": 1651.84,
+    "duration": 4.24,
+    "text": "All the subsets, no problem, very cool stuff."
+  },
+  {
+    "start": 1656.08,
+    "duration": 2.8,
+    "text": "By now you must be able to understand when we are going to use it."
+  },
+  {
+    "start": 1658.88,
+    "duration": 2.4,
+    "text": "Obviously, we will be doing lots of questions in this video."
+  },
+  {
+    "start": 1661.28,
+    "duration": 3.84,
+    "text": "your like and subscribe and that will give you a much more better understanding and after that"
+  },
+  {
+    "start": 1665.12,
+    "duration": 5.04,
+    "text": "you can do assignments. So we'll do lots of questions over here and of various variety questions."
+  },
+  {
+    "start": 1670.16,
+    "duration": 6.0,
+    "text": "So actually how to actually return all of these things passing in an array list, right? How to"
+  },
+  {
+    "start": 1676.16,
+    "duration": 5.44,
+    "text": "just display, how to just, you know, return all of these answers, let's say put all these answers"
+  },
+  {
+    "start": 1681.6,
+    "duration": 5.12,
+    "text": "in the array list and return that. That is also something we will do. Okay, we have already"
+  },
+  {
+    "start": 1686.72,
+    "duration": 5.24,
+    "text": "done something like returning lists in recursion that is a prerequisite check out the previous"
+  },
+  {
+    "start": 1691.96,
+    "duration": 1.0,
+    "text": "videos."
+  },
+  {
+    "start": 1692.96,
+    "duration": 5.74,
+    "text": "So, let us say a given a string like this, let us say the string given to you is something"
+  },
+  {
+    "start": 1698.7,
+    "duration": 4.68,
+    "text": "like a, b, c."
+  },
+  {
+    "start": 1703.38,
+    "duration": 15.82,
+    "text": "What are all the subsets of this a, b, c, a, b, a, c, what else?"
+  },
+  {
+    "start": 1719.2,
+    "duration": 4.56,
+    "text": "about the pattern just focus on the common sense right now we are just trying to see"
+  },
+  {
+    "start": 1723.76,
+    "duration": 5.2,
+    "text": "what the answer may be potential answer is also one more trick in recursion before actually diving"
+  },
+  {
+    "start": 1728.96,
+    "duration": 4.72,
+    "text": "into the solution at least try to see what you're trying to solve then only you will come to the"
+  },
+  {
+    "start": 1733.68,
+    "duration": 5.52,
+    "text": "solution right that's what we're doing we're trying to see what we are trying to solve okay"
+  },
+  {
+    "start": 1739.2,
+    "duration": 4.64,
+    "text": "and then one more answer can be we're trying to see all the potential answers a b is one"
+  },
+  {
+    "start": 1743.84,
+    "duration": 5.48,
+    "text": "one possible answers, AC is one possible answer. Someone may ask me like, hey Kunal, what about"
+  },
+  {
+    "start": 1749.32,
+    "duration": 7.6,
+    "text": "CA? No, you cannot change the ordering like this. We are only taking sets. It is not the"
+  },
+  {
+    "start": 1756.92,
+    "duration": 5.52,
+    "text": "permutation. So, ordering cannot change. So, for example, if I am talking about this"
+  },
+  {
+    "start": 1762.44,
+    "duration": 7.24,
+    "text": "particular array, this 5 comma 3 is same thing. That is why you can see the order"
+  },
+  {
+    "start": 1769.68,
+    "duration": 5.08,
+    "text": "is same, 5 is coming before 9 here, in original array also 5 is coming before 9, so this is"
+  },
+  {
+    "start": 1774.76,
+    "duration": 6.64,
+    "text": "an important point, okay, cool, so it does not really make sense, right, in a list you"
+  },
+  {
+    "start": 1781.4,
+    "duration": 4.4,
+    "text": "have 3 comma 5 or 5 comma 3 number of elements and type of element is same, okay, value"
+  },
+  {
+    "start": 1785.8,
+    "duration": 5.8,
+    "text": "of element is same, same thing over here, so here you are saying AC and what else"
+  },
+  {
+    "start": 1791.6,
+    "duration": 7.6,
+    "text": "can be the answer, AB is here, AC is here, BC can be an answer, right, what else"
+  },
+  {
+    "start": 1799.2,
+    "duration": 11.84,
+    "text": "This can be an answer A, B, A, C, B, C and A, B, C, can there be any other answer?"
+  },
+  {
+    "start": 1811.04,
+    "duration": 4.64,
+    "text": "Not sure, even if there is up to you, but we will just try to figure it out."
+  },
+  {
+    "start": 1815.68,
+    "duration": 4.88,
+    "text": "Can you see that before like I already mentioned in previous videos, there are two approaches"
+  },
+  {
+    "start": 1820.56,
+    "duration": 4.44,
+    "text": "we follow, what we are doing and how we are doing it until unless you are not clear"
+  },
+  {
+    "start": 1825.0,
+    "duration": 3.72,
+    "text": "with what we are doing, do not worry about how we are doing it because obviously I"
+  },
+  {
+    "start": 1828.72,
+    "duration": 1.0,
+    "text": "will cover that."
+  },
+  {
+    "start": 1829.72,
+    "duration": 4.6,
+    "text": "So, right now forget about how we are doing this, actually focus on what we are doing."
+  },
+  {
+    "start": 1834.32,
+    "duration": 4.56,
+    "text": "So, I hope you all are able to understand what we are doing, what we are trying to achieve."
+  },
+  {
+    "start": 1838.88,
+    "duration": 3.0,
+    "text": "If you are not, try to look at this example again."
+  },
+  {
+    "start": 1841.88,
+    "duration": 4.44,
+    "text": "So, now that you know what we are trying to do, let us see how we can do it."
+  },
+  {
+    "start": 1846.32,
+    "duration": 1.88,
+    "text": "So, we are trying to do what?"
+  },
+  {
+    "start": 1848.2,
+    "duration": 2.68,
+    "text": "Trying to create subsets out of it."
+  },
+  {
+    "start": 1850.88,
+    "duration": 3.44,
+    "text": "All the other problems we will see, we will also see this pattern, creating subsets."
+  },
+  {
+    "start": 1854.32,
+    "duration": 4.76,
+    "text": "Whenever you see the subsets pattern, this pattern, the subsets pattern, this pattern,"
+  },
+  {
+    "start": 1859.08,
+    "duration": 5.96,
+    "text": "whenever you see this pattern, apply the subset method. What does subset mean? In any subset"
+  },
+  {
+    "start": 1865.04,
+    "duration": 5.32,
+    "text": "you can see, in any subset that you are taking, it may be taking an element or removing an"
+  },
+  {
+    "start": 1870.36,
+    "duration": 6.2,
+    "text": "element. Is that thing clear to everyone? Take any example, for example this. Here it"
+  },
+  {
+    "start": 1876.56,
+    "duration": 7.2,
+    "text": "took A, it took B but ignored C. Take any other example, take this example. Here it"
+  },
+  {
+    "start": 1883.76,
+    "duration": 8.42,
+    "text": "ignored B, ignored A, but it took C. So, this pattern of ignoring a few elements and taking"
+  },
+  {
+    "start": 1892.18,
+    "duration": 8.52,
+    "text": "some elements, this pattern very, very, very, very important point, this is something that"
+  },
+  {
+    "start": 1900.7,
+    "duration": 3.08,
+    "text": "will teach you when to apply subset problem."
+  },
+  {
+    "start": 1903.78,
+    "duration": 18.23,
+    "text": "pattern of taking some elements and removing some is known as this subset pattern. That"
+  },
+  {
+    "start": 1922.01,
+    "duration": 5.64,
+    "text": "is exactly what we are going to do in recursion. I will also teach you how to do it in iteration."
+  },
+  {
+    "start": 1927.65,
+    "duration": 5.52,
+    "text": "So yeah, let us first solve it with recursion. So with recursion it is very simple. I told"
+  },
+  {
+    "start": 1933.17,
+    "duration": 4.8,
+    "text": "you previously we can follow the same approach we used previously which was processed and"
+  },
+  {
+    "start": 1937.97,
+    "duration": 5.6,
+    "text": "unprocessed. So let's take a look at the very simple solution right now. By the way,"
+  },
+  {
+    "start": 1943.57,
+    "duration": 3.24,
+    "text": "if you did not understand previous questions and previous lectures, you will not understand"
+  },
+  {
+    "start": 1946.81,
+    "duration": 4.8,
+    "text": "this. So without wasting your time, watch the previous videos of recursion if you haven't"
+  },
+  {
+    "start": 1951.61,
+    "duration": 12.92,
+    "text": "already. Okay, cool. So ABC, processed initially empty, unprocessed ABC. So for every element"
+  },
+  {
+    "start": 1964.53,
+    "duration": 6.36,
+    "text": "I have again I can make it I can write it in a new way. So this is initially empty. This"
+  },
+  {
+    "start": 1970.89,
+    "duration": 8.2,
+    "text": "is like this. Okay, unprocessed and processed. So I have two choices for every character."
+  },
+  {
+    "start": 1979.09,
+    "duration": 4.28,
+    "text": "For every character, I have two choices. What are those two choices? Either take it or"
+  },
+  {
+    "start": 1983.37,
+    "duration": 7.96,
+    "text": "ignore it. Isn't that what the subset method says? Either take it or ignore it. Okay,"
+  },
+  {
+    "start": 1991.33,
+    "duration": 6.44,
+    "text": "Let's say I take it over here. So this will become a remaining will be ABC. Let's say"
+  },
+  {
+    "start": 1997.77,
+    "duration": 6.76,
+    "text": "I ignore it. So it will remain empty and remaining string will be BC. Sorry, this will be BC"
+  },
+  {
+    "start": 2004.53,
+    "duration": 6.73,
+    "text": "also. Okay. Now we're talking about this is another recursion call. You all can see right"
+  },
+  {
+    "start": 2011.26,
+    "duration": 4.16,
+    "text": "this is a recursion call these boxes are recursion call these arrows basically means"
+  },
+  {
+    "start": 2015.42,
+    "duration": 5.0,
+    "text": "that this call is being made in this function calls body. Similarly, this will call recursion"
+  },
+  {
+    "start": 2020.42,
+    "duration": 5.68,
+    "text": "again. Okay, it's gonna be like, okay, with B also, you can either take it or ignore it."
+  },
+  {
+    "start": 2026.1,
+    "duration": 6.84,
+    "text": "It's gonna be like, okay, let me take it. Let me ignore it. Same thing with this, let"
+  },
+  {
+    "start": 2032.94,
+    "duration": 8.08,
+    "text": "me take it. Let me ignore it. Now it see the same thing, take it or ignore it. Let"
+  },
+  {
+    "start": 2041.02,
+    "duration": 16.6,
+    "text": "me take it empty let me ignore it empty let me take it let me ignore it let me take it"
+  },
+  {
+    "start": 2057.62,
+    "duration": 10.2,
+    "text": "let me ignore it let me take it let me ignore it whenever you are now your unprocessed"
+  },
+  {
+    "start": 2067.82,
+    "duration": 5.88,
+    "text": "empty whenever your unprocess is empty you have found one of the subsets that makes sense"
+  },
+  {
+    "start": 2073.7,
+    "duration": 5.08,
+    "text": "because this is like a possible combination of taking something and not taking something"
+  },
+  {
+    "start": 2078.78,
+    "duration": 4.36,
+    "text": "so this is a possible combination of taking something and not taking something why because"
+  },
+  {
+    "start": 2083.14,
+    "duration": 3.72,
+    "text": "unprocess is empty now so this is like one of the potential answers how many answers"
+  },
+  {
+    "start": 2086.86,
+    "duration": 10.92,
+    "text": "you have then? This is one of the answers A, B, C, A, B, C, A, B, C, B, C. So 1, 2, 3, 4,"
+  },
+  {
+    "start": 2097.78,
+    "duration": 10.48,
+    "text": "5, 6, 7. 1, 2, 3, 4, 5, 6, 7. That is it. These are your answers. That is it. Answer."
+  },
+  {
+    "start": 2108.26,
+    "duration": 8.12,
+    "text": "How easy was that? This recursion tree. So whenever your unprocess becomes empty, this"
+  },
+  {
+    "start": 2116.38,
+    "duration": 4.08,
+    "text": "is like a base condition, obviously, there's no more things is coming out of it. So then"
+  },
+  {
+    "start": 2120.46,
+    "duration": 6.76,
+    "text": "you just print processed and move ahead. That's it. As you know, like how the function will"
+  },
+  {
+    "start": 2127.22,
+    "duration": 3.84,
+    "text": "be flowing, you will go over here, and you will go over here, then you will go over here,"
+  },
+  {
+    "start": 2131.06,
+    "duration": 4.64,
+    "text": "it will be like, okay, this is empty print ABC, it will print ABC, then it will move"
+  },
+  {
+    "start": 2135.7,
+    "duration": 4.64,
+    "text": "backward. So you can see when it comes out of the function loop over here, since"
+  },
+  {
+    "start": 2140.34,
+    "duration": 5.4,
+    "text": "this is in the argument of the function. Now it is in this function body. Okay."
+  },
+  {
+    "start": 2145.74,
+    "duration": 5.72,
+    "text": "And in this function body, the value of this is a b. So now it will go over here, it will"
+  },
+  {
+    "start": 2151.46,
+    "duration": 5.32,
+    "text": "be a b. This will be empty. You should not be like a Kunal, you change the actual value"
+  },
+  {
+    "start": 2156.78,
+    "duration": 7.04,
+    "text": "over here a b c. So when it goes back, should it not be a b c? Why would it be a b c?"
+  },
+  {
+    "start": 2163.82,
+    "duration": 7.2,
+    "text": "What is the representation of all the parameters that go inside the function body? They are"
+  },
+  {
+    "start": 2171.02,
+    "duration": 4.76,
+    "text": "the values that are like past. And it's like the value that is for that function call."
+  },
+  {
+    "start": 2175.78,
+    "duration": 5.64,
+    "text": "So processed for this function call is ABC. But when it comes out of the loop, then processed"
+  },
+  {
+    "start": 2181.42,
+    "duration": 4.72,
+    "text": "for this function call is going to be AB. Okay, it's going to pass AB over here, that's"
+  },
+  {
+    "start": 2186.14,
+    "duration": 4.08,
+    "text": "going to print AB, then we move backwards, it's going to be like, okay, left hand side"
+  },
+  {
+    "start": 2190.22,
+    "duration": 3.72,
+    "text": "recursion finished, right hand side finished, move backward, it's going to be like,"
+  },
+  {
+    "start": 2193.94,
+    "duration": 5.0,
+    "text": "okay, now process for this is a, it will call a again over here, AC, it will print"
+  },
+  {
+    "start": 2198.94,
+    "duration": 8.56,
+    "text": "ac back a back back over here then left by the way now by now you should be clear that"
+  },
+  {
+    "start": 2207.5,
+    "duration": 4.92,
+    "text": "how it goes all the left first and then the right ones because you have already done something"
+  },
+  {
+    "start": 2212.42,
+    "duration": 6.0,
+    "text": "like this before I will go with this this this like this like this like this like this"
+  },
+  {
+    "start": 2218.42,
+    "duration": 8.44,
+    "text": "like this like this like this like this like this like this that's it that is it as"
+  },
+  {
+    "start": 2226.86,
+    "duration": 10.69,
+    "text": "as simple as that, so on and so forth. How simple was it? Just take one, reject one and"
+  },
+  {
+    "start": 2237.55,
+    "duration": 6.95,
+    "text": "this is the pattern exactly the same pattern will be following. So whenever you need to"
+  },
+  {
+    "start": 2244.5,
+    "duration": 4.92,
+    "text": "deal with permutation or combination or if you want to deal with like permutation you"
+  },
+  {
+    "start": 2249.42,
+    "duration": 3.92,
+    "text": "want to create a permutation over that also will use like the some of the same approaches."
+  },
+  {
+    "start": 2253.34,
+    "duration": 5.76,
+    "text": "Hope that makes sense and I have not skipped anything because I have literally explained"
+  },
+  {
+    "start": 2259.1,
+    "duration": 4.44,
+    "text": "everything by the previous video till the previous video if you have watched recursion"
+  },
+  {
+    "start": 2263.54,
+    "duration": 4.8,
+    "text": "series you actually dump some like really good fundamental questions that explain all"
+  },
+  {
+    "start": 2268.34,
+    "duration": 5.16,
+    "text": "of these patterns like how to think how values are getting returned what is the base condition"
+  },
+  {
+    "start": 2273.5,
+    "duration": 5.66,
+    "text": "what is the value in every single variable at every single level how that is getting"
+  },
+  {
+    "start": 2279.16,
+    "duration": 5.58,
+    "text": "manipulated in arrays in normal variables in integers in strings or whatever strings"
+  },
+  {
+    "start": 2284.74,
+    "duration": 7.36,
+    "text": "we did it just right now. Okay, so practice is key. Okay, I cannot explain like the same"
+  },
+  {
+    "start": 2292.1,
+    "duration": 4.32,
+    "text": "thing again and again with that will be repetitive. We just have to now focus on patterns because"
+  },
+  {
+    "start": 2296.42,
+    "duration": 4.44,
+    "text": "the fundamentals are already explained in previous videos. There's something new I explained"
+  },
+  {
+    "start": 2300.86,
+    "duration": 5.16,
+    "text": "that. All right. So this entire thing we have already covered this entire thing like"
+  },
+  {
+    "start": 2306.02,
+    "duration": 3.68,
+    "text": "how this is actually working. Why is it going here only? Why is it going here only"
+  },
+  {
+    "start": 2309.7,
+    "duration": 4.32,
+    "text": "and here only? Because first left recursion call will be called and it will keep"
+  },
+  {
+    "start": 2314.02,
+    "duration": 4.64,
+    "text": "on going till it goes to the base condition. I can do a debugging session on session on"
+  },
+  {
+    "start": 2318.66,
+    "duration": 3.84,
+    "text": "this as well. But let's first try to code this and then we'll do a debugging session"
+  },
+  {
+    "start": 2322.5,
+    "duration": 7.64,
+    "text": "on this way. So I can create like another file over here. I can say sub sequence or"
+  },
+  {
+    "start": 2330.14,
+    "duration": 7.24,
+    "text": "something subset subsequence anything subset means for arrays subsequences for strings."
+  },
+  {
+    "start": 2337.38,
+    "duration": 5.24,
+    "text": "So we will be doing like arrays as well. So I can say static. Am I returning anything"
+  },
+  {
+    "start": 2342.62,
+    "duration": 7.12,
+    "text": "No, I'm just printing white sub sequence string processed string unprocessed."
+  },
+  {
+    "start": 2349.74,
+    "duration": 6.28,
+    "text": "What is my base condition base condition says whenever unprocesses empty print processed."
+  },
+  {
+    "start": 2356.02,
+    "duration": 10.12,
+    "text": "So if unprocessed dot is empty print processed and return don't need to do anything else"
+  },
+  {
+    "start": 2366.14,
+    "duration": 4.44,
+    "text": "and after that what I'm going to do take the first character and make two recursion"
+  },
+  {
+    "start": 2370.58,
+    "duration": 1.0,
+    "text": "calls."
+  },
+  {
+    "start": 2371.58,
+    "duration": 9.07,
+    "text": "first you can take it, or you can ignore it. So I can say car CH is equal to first character,"
+  },
+  {
+    "start": 2380.65,
+    "duration": 4.48,
+    "text": "then you can say make two recursion calls either add it or ignore it subsequence I can"
+  },
+  {
+    "start": 2385.13,
+    "duration": 17.09,
+    "text": "say add it up dot substring one or ignore it. That's it. That is it. Subsequence"
+  },
+  {
+    "start": 2402.22,
+    "duration": 10.23,
+    "text": "initially P will be process will be empty. I can take ABC try to run this. So these"
+  },
+  {
+    "start": 2412.45,
+    "duration": 7.76,
+    "text": "are all the subsets. It also included a empty empty one. That's true. This was also included"
+  },
+  {
+    "start": 2420.21,
+    "duration": 10.2,
+    "text": "an empty string ABC, ABC, ABC, ABC, ABC, ABC, ABC, ABC. Okay, how to print these in orders"
+  },
+  {
+    "start": 2430.41,
+    "duration": 3.24,
+    "text": "I'll also teach you that don't worry. I'll also teach you that like when we do iteration"
+  },
+  {
+    "start": 2433.65,
+    "duration": 7.52,
+    "text": "stuff. All right, you can if you do something like this, then you can see like this."
+  },
+  {
+    "start": 2441.17,
+    "duration": 8.12,
+    "text": "now it will be in opposite. Very simple stuff. So, if you want to debug this, you can put"
+  },
+  {
+    "start": 2449.29,
+    "duration": 9.33,
+    "text": "the debug pointer. Actually, I am just going to debug the original one. In the original"
+  },
+  {
+    "start": 2458.62,
+    "duration": 8.73,
+    "text": "one, we were taking it first and rejecting it later on. Debug. Again, I have already"
+  },
+  {
+    "start": 2467.35,
+    "duration": 4.28,
+    "text": "explained debugging part. So, you can please do it yourself. P is initially empty, up"
+  },
+  {
+    "start": 2471.63,
+    "duration": 4.32,
+    "text": "is equal to abc in this function call. That is true. P is empty, up is equal"
+  },
+  {
+    "start": 2475.95,
+    "duration": 5.04,
+    "text": "to a, b, c. It is going to obviously call this thing first. So now it will be in this"
+  },
+  {
+    "start": 2480.99,
+    "duration": 10.46,
+    "text": "function call. Let us see. Make sense? p is equal to a, up is equal to b, c. a, b, c."
+  },
+  {
+    "start": 2491.45,
+    "duration": 3.32,
+    "text": "Now since it is in this function call, it is going to call this again and it will now"
+  },
+  {
+    "start": 2494.77,
+    "duration": 4.28,
+    "text": "call its own left side. So now are you able to understand why left side is getting"
+  },
+  {
+    "start": 2499.05,
+    "duration": 10.39,
+    "text": "called first? Because it is written first. It will be a, b and c. Can see? Over here"
+  },
+  {
+    "start": 2509.44,
+    "duration": 7.0,
+    "text": "it will call it a b and c. Now it will be like it will call its own left side a b c and m"
+  },
+  {
+    "start": 2516.44,
+    "duration": 7.0,
+    "text": "t will I ok a b c and m t it is going to be like ok is up m t yes print a b c it will print"
+  },
+  {
+    "start": 2523.44,
+    "duration": 5.84,
+    "text": "a b c then it will return it will return back from here so it will come out of this line"
+  },
+  {
+    "start": 2529.28,
+    "duration": 6.48,
+    "text": "number 14 of this function call this one. So when it comes out of line number 14 of"
+  },
+  {
+    "start": 2535.76,
+    "duration": 4.42,
+    "text": "this it will contain it will be in this function call ab dash c. So now you can see it will"
+  },
+  {
+    "start": 2540.18,
+    "duration": 4.06,
+    "text": "be in ab dash c and this will be popped out of the stack popped out of the stack and"
+  },
+  {
+    "start": 2544.24,
+    "duration": 6.76,
+    "text": "you are at ab comma c. So are you able to understand when it came back to this function"
+  },
+  {
+    "start": 2551.0,
+    "duration": 6.42,
+    "text": "call it was now using the processed and unprocessed of this function call itself."
+  },
+  {
+    "start": 2557.42,
+    "duration": 6.7,
+    "text": "This is the benefit of putting things in arguments. Now it will call the right hand"
+  },
+  {
+    "start": 2564.12,
+    "duration": 10.52,
+    "text": "side which is skip C. So it will call A B dash empty, A B dash empty, empty is empty."
+  },
+  {
+    "start": 2574.64,
+    "duration": 3.4,
+    "text": "So P is just going to be A B, it's going to print it."
+  },
+  {
+    "start": 2578.04,
+    "duration": 7.64,
+    "text": "Now it's going to move ahead, A and B C. That's it, like that it will keep on going."
+  },
+  {
+    "start": 2585.68,
+    "duration": 6.92,
+    "text": "So do try to run this on your own, but now let's try to see how we can you know, so"
+  },
+  {
+    "start": 2592.6,
+    "duration": 1.52,
+    "text": "this is like printing that's fine."
+  },
+  {
+    "start": 2594.12,
+    "duration": 3.4,
+    "text": "But what if you want to add it into an array list."
+  },
+  {
+    "start": 2597.52,
+    "duration": 5.44,
+    "text": "So what if I want to do something like this?"
+  },
+  {
+    "start": 2602.96,
+    "duration": 11.19,
+    "text": "So what if I want to do something like an ArrayList, something like this I want to do."
+  },
+  {
+    "start": 2614.15,
+    "duration": 6.17,
+    "text": "An ArrayList of string, you already covered ArrayList before?"
+  },
+  {
+    "start": 2620.32,
+    "duration": 1.0,
+    "text": "And this is something I want to do."
+  },
+  {
+    "start": 2621.32,
+    "duration": 5.79,
+    "text": "I want to return an ArrayList of string, that is what I want to do."
+  },
+  {
+    "start": 2627.11,
+    "duration": 1.0,
+    "text": "How can we do that?"
+  },
+  {
+    "start": 2628.11,
+    "duration": 6.61,
+    "text": "So since we are not passing it over here, because passing it over here can be very"
+  },
+  {
+    "start": 2634.72,
+    "duration": 3.84,
+    "text": "easy just make one outside and just pass it over here and whenever you get an"
+  },
+  {
+    "start": 2638.56,
+    "duration": 4.24,
+    "text": "answer just add it to that are list that is very simple stuff you can do it on"
+  },
+  {
+    "start": 2642.8,
+    "duration": 7.14,
+    "text": "your own maybe what we can do is something a bit more challenging so I mean"
+  },
+  {
+    "start": 2649.94,
+    "duration": 3.9,
+    "text": "how difficult would it be just put an arrow list over here you know right"
+  },
+  {
+    "start": 2653.84,
+    "duration": 4.0,
+    "text": "at reference or objects objects objects and reference we've already covered the"
+  },
+  {
+    "start": 2657.84,
+    "duration": 3.96,
+    "text": "I will example in previous sections so passing it in the argument type is"
+  },
+  {
+    "start": 2661.8,
+    "duration": 6.32,
+    "text": "not that difficult, what might be some change something is creating it on the body."
+  },
+  {
+    "start": 2668.12,
+    "duration": 3.72,
+    "text": "And this is something we have done in the arrow list section in the previous videos where"
+  },
+  {
+    "start": 2671.84,
+    "duration": 2.52,
+    "text": "we did arrow list questions in recursion."
+  },
+  {
+    "start": 2674.36,
+    "duration": 4.8,
+    "text": "I explained to you two approaches, passing the arrow returning the arrow list in two"
+  },
+  {
+    "start": 2679.16,
+    "duration": 1.0,
+    "text": "ways."
+  },
+  {
+    "start": 2680.16,
+    "duration": 6.44,
+    "text": "One way you can do it is pass it in the what pass it in the argument or pass"
+  },
+  {
+    "start": 2686.6,
+    "duration": 2.08,
+    "text": "it in the body of the function."
+  },
+  {
+    "start": 2688.68,
+    "duration": 4.6,
+    "text": "If you understood the concept behind that, I can directly code this."
+  },
+  {
+    "start": 2693.28,
+    "duration": 2.72,
+    "text": "You all understood the concept behind that, didn't you?"
+  },
+  {
+    "start": 2696.0,
+    "duration": 5.6,
+    "text": "So initially when it's empty, you're just going to return an what?"
+  },
+  {
+    "start": 2701.6,
+    "duration": 1.44,
+    "text": "Let's try to see it in the whiteboard."
+  },
+  {
+    "start": 2703.04,
+    "duration": 6.68,
+    "text": "So by now, you know that whenever we are adding a list, whenever we are, let's say,"
+  },
+  {
+    "start": 2709.72,
+    "duration": 5.6,
+    "text": "not passing a list in the argument, passing is very important, very easy, okay, because"
+  },
+  {
+    "start": 2715.32,
+    "duration": 2.28,
+    "text": "you may ask me like, why is it easy?"
+  },
+  {
+    "start": 2717.6,
+    "duration": 4.32,
+    "text": "You yourself would have understood it is easy if you watch the previous lecture because"
+  },
+  {
+    "start": 2721.92,
+    "duration": 5.8,
+    "text": "many difference variable and only a single object, that is why it is easy, that is why"
+  },
+  {
+    "start": 2727.72,
+    "duration": 2.56,
+    "text": "it is easy."
+  },
+  {
+    "start": 2730.28,
+    "duration": 8.36,
+    "text": "But in this case like you know what are we doing, we are actually, so for example"
+  },
+  {
+    "start": 2738.64,
+    "duration": 4.04,
+    "text": "in the subsequence one as you can see this is actually creating a new object."
+  },
+  {
+    "start": 2742.68,
+    "duration": 4.32,
+    "text": "So the substring is actually creating a new object and strings are immutable."
+  },
+  {
+    "start": 2747.0,
+    "duration": 6.26,
+    "text": "It is very basic basic concepts, the strings are immutable, you cannot dot substring is not"
+  },
+  {
+    "start": 2753.26,
+    "duration": 5.8,
+    "text": "changing up, it is actually creating a new one, p plus ch is not changing p, it is creating"
+  },
+  {
+    "start": 2759.06,
+    "duration": 1.0,
+    "text": "a new one."
+  },
+  {
+    "start": 2760.06,
+    "duration": 5.0,
+    "text": "So, you do not say something like Kunal, you are saying something like when we go back"
+  },
+  {
+    "start": 2765.06,
+    "duration": 3.88,
+    "text": "it will take the one it was originally in, yeah that is true."
+  },
+  {
+    "start": 2768.94,
+    "duration": 5.16,
+    "text": "But I have already explained this in previous lectures, many in many reference variables"
+  },
+  {
+    "start": 2774.1,
+    "duration": 6.2,
+    "text": "pointing to the same object when it's immutable, okay, but here it's actually creating a new"
+  },
+  {
+    "start": 2780.3,
+    "duration": 5.88,
+    "text": "object. That is why it's having new new objects because it's creating new objects in parameter."
+  },
+  {
+    "start": 2786.18,
+    "duration": 4.8,
+    "text": "But if you pass the arrow list, we'll just take the same parameter. But what we can"
+  },
+  {
+    "start": 2790.98,
+    "duration": 6.88,
+    "text": "do over here is that, if we are creating an arrow list, let's say inside it, okay,"
+  },
+  {
+    "start": 2797.86,
+    "duration": 4.88,
+    "text": "if you're creating one inside it, then what will happen? We know that anything"
+  },
+  {
+    "start": 2802.74,
+    "duration": 7.72,
+    "text": "we create inside the body of the function will contain what will contain the local answer"
+  },
+  {
+    "start": 2810.46,
+    "duration": 4.92,
+    "text": "that's true explanation for this is given in the arrays recursion video. So recursion"
+  },
+  {
+    "start": 2815.38,
+    "duration": 4.84,
+    "text": "for arrays please check it out. So if I create so for example this will return an answer"
+  },
+  {
+    "start": 2820.22,
+    "duration": 5.6,
+    "text": "that will be from the recursion call bottom. So it will be something like okay array list"
+  },
+  {
+    "start": 2825.82,
+    "duration": 6.99,
+    "text": "of answer number one let's say answer from left that I'm getting is equal to this"
+  },
+  {
+    "start": 2832.81,
+    "duration": 11.69,
+    "text": "and array list, answer from right that I am getting is equal to this. That sounds good."
+  },
+  {
+    "start": 2847.69,
+    "duration": 5.68,
+    "text": "I think I would have to, no, this looks good. That is fine. In change, no, that is okay."
+  },
+  {
+    "start": 2854.57,
+    "duration": 6.08,
+    "text": "Cool. So here basically now we have to say that, okay, you are getting answer from left,"
+  },
+  {
+    "start": 2860.65,
+    "duration": 3.52,
+    "text": "you are getting answer from right. What is the total answer then?"
+  },
+  {
+    "start": 2864.17,
+    "duration": 5.12,
+    "text": "What is the total answer, you are getting answer from left in a list, you are getting all the"
+  },
+  {
+    "start": 2869.29,
+    "duration": 6.6,
+    "text": "answers from right from the list, then what is the total answer, combine these two."
+  },
+  {
+    "start": 2875.89,
+    "duration": 11.2,
+    "text": "So you can say the same approach we did previously, left dot add all, right, then you can just"
+  },
+  {
+    "start": 2887.09,
+    "duration": 10.05,
+    "text": "return any of these arrays because both are same, okay."
+  },
+  {
+    "start": 2897.14,
+    "duration": 4.24,
+    "text": "One more thing that is remaining now is at the base condition, you will only have"
+  },
+  {
+    "start": 2901.38,
+    "duration": 13.28,
+    "text": "one item left. So actually, I taught you this previously, this thing, creating the error"
+  },
+  {
+    "start": 2914.66,
+    "duration": 4.76,
+    "text": "list inside. So you can say whenever you found the answer, just return the know what what"
+  },
+  {
+    "start": 2919.42,
+    "duration": 4.64,
+    "text": "is the answer at that point. So answer at that point is actually equal to processed."
+  },
+  {
+    "start": 2924.06,
+    "duration": 9.52,
+    "text": "So just one item processed, create a new list, new ArrayList, I can say list dot add"
+  },
+  {
+    "start": 2933.58,
+    "duration": 6.68,
+    "text": "Initially in the base condition, it will only have processed and then return list, okay."
+  },
+  {
+    "start": 2940.26,
+    "duration": 15.0,
+    "text": "Believe I have to change the name for this as well, forgot to do that."
+  },
+  {
+    "start": 2955.26,
+    "duration": 5.92,
+    "text": "So return something like that, okay."
+  },
+  {
+    "start": 2961.18,
+    "duration": 4.74,
+    "text": "So that is exactly what we are doing over here."
+  },
+  {
+    "start": 2965.92,
+    "duration": 4.52,
+    "text": "So you can see that in the base condition, just returning the answer at the base condition."
+  },
+  {
+    "start": 2970.44,
+    "duration": 4.96,
+    "text": "So in the base condition, I'm returning the answer in the base condition and this is getting"
+  },
+  {
+    "start": 2975.4,
+    "duration": 2.76,
+    "text": "answer from below calls."
+  },
+  {
+    "start": 2978.16,
+    "duration": 5.36,
+    "text": "Same thing answer from below calls and I'm adding these two answers, I'm adding these"
+  },
+  {
+    "start": 2983.52,
+    "duration": 4.16,
+    "text": "all the answers and then returning the list and then returning the list."
+  },
+  {
+    "start": 2987.68,
+    "duration": 5.99,
+    "text": "What is so different about this isn't this approach and this approach same."
+  },
+  {
+    "start": 2993.67,
+    "duration": 5.58,
+    "text": "So this will actually return what this will return a list that contains only C in it."
+  },
+  {
+    "start": 2999.25,
+    "duration": 7.66,
+    "text": "This will return a list that contains sorry c and mt, this will return a list that contains"
+  },
+  {
+    "start": 3006.91,
+    "duration": 6.34,
+    "text": "this bc and this b, bc and b, now this will return what?"
+  },
+  {
+    "start": 3013.25,
+    "duration": 5.0,
+    "text": "You have the answer from left, this, you have the answer from right, this, so the answer"
+  },
+  {
+    "start": 3018.25,
+    "duration": 2.28,
+    "text": "for this entire thing will be what?"
+  },
+  {
+    "start": 3020.53,
+    "duration": 5.0,
+    "text": "Combine these two, bc, b and c, combine these two."
+  },
+  {
+    "start": 3025.53,
+    "duration": 6.56,
+    "text": "Already explained in this video in detail, but I think I already explained this now in"
+  },
+  {
+    "start": 3032.09,
+    "duration": 3.67,
+    "text": "detail as well with this example."
+  },
+  {
+    "start": 3035.76,
+    "duration": 1.0,
+    "text": "How easy is it?"
+  },
+  {
+    "start": 3036.76,
+    "duration": 20.42,
+    "text": "Isn't it easy, this approach now, so you can say print, subsequence, return, okay, so"
+  },
+  {
+    "start": 3057.18,
+    "duration": 14.96,
+    "text": "this will actually print an error list, makes sense, same answer, very easy."
+  },
+  {
+    "start": 3072.14,
+    "duration": 4.36,
+    "text": "I've explained the points again and again, whenever you create something inside the body,"
+  },
+  {
+    "start": 3076.5,
+    "duration": 3.92,
+    "text": "it means that the answer will be for that particular one only."
+  },
+  {
+    "start": 3080.42,
+    "duration": 2.68,
+    "text": "And after that, this is the answers from recursion call."
+  },
+  {
+    "start": 3083.1,
+    "duration": 2.8,
+    "text": "And when it's going back, it will be like, hey, can you take me with you?"
+  },
+  {
+    "start": 3085.9,
+    "duration": 4.44,
+    "text": "It's going to be like, okay, I will take whatever answers we have right now with you return"
+  },
+  {
+    "start": 3090.34,
+    "duration": 1.0,
+    "text": "that."
+  },
+  {
+    "start": 3091.34,
+    "duration": 1.0,
+    "text": "That's it."
+  },
+  {
+    "start": 3092.34,
+    "duration": 2.64,
+    "text": "You can also do return, right, because both of the, you can also do right.add"
+  },
+  {
+    "start": 3094.98,
+    "duration": 1.0,
+    "text": "or something."
+  },
+  {
+    "start": 3095.98,
+    "duration": 2.48,
+    "text": "So in left, it's actually adding all the things in the right."
+  },
+  {
+    "start": 3098.46,
+    "duration": 2.64,
+    "text": "So left is now containing both the elements of this."
+  },
+  {
+    "start": 3101.1,
+    "duration": 5.12,
+    "text": "this also and this also, combining it and returning it. So really answer from here you"
+  },
+  {
+    "start": 3106.22,
+    "duration": 5.6,
+    "text": "will be getting an entire list, entire list, combine it, return it, that's it. Very simple."
+  },
+  {
+    "start": 3111.82,
+    "duration": 3.36,
+    "text": "Please put a diva pointer here and run it because I already showed it to you in this"
+  },
+  {
+    "start": 3115.18,
+    "duration": 4.72,
+    "text": "section, previous video, make sure you check it out. So it's literally very easy because"
+  },
+  {
+    "start": 3119.9,
+    "duration": 8.66,
+    "text": "I have explained to you how to actually transform these things. Okay, sounds good."
+  },
+  {
+    "start": 3128.56,
+    "duration": 3.52,
+    "text": "Let's move on to another similar question then. Now another question you may get"
+  },
+  {
+    "start": 3132.08,
+    "duration": 5.6,
+    "text": "is something like, okay, you're now just taking the ascii value of this thing. What if I give"
+  },
+  {
+    "start": 3137.68,
+    "duration": 10.67,
+    "text": "you a string like AB print all the subsets that also contain the what ascii value of"
+  },
+  {
+    "start": 3148.35,
+    "duration": 5.08,
+    "text": "the characters, no problem. So in that case, you in this case, you were making like two"
+  },
+  {
+    "start": 3153.43,
+    "duration": 5.52,
+    "text": "function calls. In that case, you will make three function calls. How simple is that"
+  },
+  {
+    "start": 3158.95,
+    "duration": 8.64,
+    "text": "don't think I have to show it either A, B, initially empty. In one case, it will take A, B, and"
+  },
+  {
+    "start": 3167.59,
+    "duration": 5.08,
+    "text": "that it will take the ASCII value of small A, which is I think 90, 95 or something, not"
+  },
+  {
+    "start": 3172.67,
+    "duration": 6.8,
+    "text": "sure, it will take B, and it will ignore A, something like this, and we'll keep on"
+  },
+  {
+    "start": 3179.47,
+    "duration": 8.79,
+    "text": "building. So we can code this as well. So before this, I want to show you like how"
+  },
+  {
+    "start": 3188.26,
+    "duration": 9.04,
+    "text": "to actually get the ASCII value of a character. So, ASCII value of a character. So, if you"
+  },
+  {
+    "start": 3197.3,
+    "duration": 4.76,
+    "text": "are given a character like RCH is let us say equal to A or something. In order to get its"
+  },
+  {
+    "start": 3202.06,
+    "duration": 11.62,
+    "text": "ASCII value, you can just say CH plus 0 or something like that. Let us try to print"
+  },
+  {
+    "start": 3213.68,
+    "duration": 13.92,
+    "text": "this 97. So it's not 95, it's actually 97. Okay, so I can change this to 97 or whatever."
+  },
+  {
+    "start": 3227.6,
+    "duration": 4.04,
+    "text": "So that's how you can get the ascii value of a character, just add zero in it, you will"
+  },
+  {
+    "start": 3231.64,
+    "duration": 3.76,
+    "text": "buy why because I've already explained it in data types, this will be converted to integer"
+  },
+  {
+    "start": 3235.4,
+    "duration": 5.12,
+    "text": "and if you cast it into a character, you can see if I now cast it into a character"
+  },
+  {
+    "start": 3240.52,
+    "duration": 12.88,
+    "text": "and it's printing the character a plus one character is going to be equal to what b or"
+  },
+  {
+    "start": 3253.4,
+    "duration": 4.2,
+    "text": "to explain this in the data type lecture so please make sure you watch that all right no"
+  },
+  {
+    "start": 3257.6,
+    "duration": 6.75,
+    "text": "problem so whatever we want to do we're just going to copy paste this I'm going to say"
+  },
+  {
+    "start": 3264.35,
+    "duration": 13.86,
+    "text": "subsequence ASCII ASCII ASCII and I'm just going to add one more P plus the ASCII"
+  },
+  {
+    "start": 3278.21,
+    "duration": 10.08,
+    "text": "value? What is the ASCII value? CH plus 0. What is it? That is it. Alright, let's try"
+  },
+  {
+    "start": 3288.29,
+    "duration": 19.47,
+    "text": "to run this. Subsequence ASCII. Okay, sound good. Similarly, if you want to make, you"
+  },
+  {
+    "start": 3307.76,
+    "duration": 9.72,
+    "text": "know, if you want to make like, if you want to return it in a string, so you can say"
+  },
+  {
+    "start": 3317.48,
+    "duration": 11.04,
+    "text": "as key return, as key return, you can say, you know, first, second, and you can have"
+  },
+  {
+    "start": 3328.52,
+    "duration": 9.24,
+    "text": "a third. So this is going to be plus CH plus zero, that's it. So you can say first dot"
+  },
+  {
+    "start": 3337.76,
+    "duration": 10.93,
+    "text": "add all second, and then you can say, first dot add all first. So first is now the one"
+  },
+  {
+    "start": 3348.69,
+    "duration": 13.6,
+    "text": "that contains all the answers. So I'm just going to return first. Okay, make sense. Let's"
+  },
+  {
+    "start": 3362.29,
+    "duration": 27.36,
+    "text": "try to run this subsequence, ascii return run. Okay, here you can see it. Okay, so now you"
+  },
+  {
+    "start": 3389.65,
+    "duration": 4.76,
+    "text": "have all the answers. You can add some edge cases over here if you want to ignore the"
+  },
+  {
+    "start": 3394.41,
+    "duration": 10.2,
+    "text": "empty ones. So you can add some edge cases over there. Alright, so I'm good. Some edge"
+  },
+  {
+    "start": 3404.61,
+    "duration": 5.96,
+    "text": "cases like over here if you want to ignore it. So that was pretty much about it. But"
+  },
+  {
+    "start": 3410.57,
+    "duration": 5.12,
+    "text": "now let's look into how you can do it with arrays or like, iteratively, like without"
+  },
+  {
+    "start": 3415.69,
+    "duration": 3.68,
+    "text": "using recursion, that's also an important thing. And also let's look into how you"
+  },
+  {
+    "start": 3419.37,
+    "duration": 4.94,
+    "text": "can print it in a sorted order, right? So yeah, let us look into and let us also look"
+  },
+  {
+    "start": 3424.31,
+    "duration": 5.04,
+    "text": "into like, what would happen if we had duplicates? So yeah, that is also an important topic."
+  },
+  {
+    "start": 3429.35,
+    "duration": 5.24,
+    "text": "So now let us see how we can do the same thing using iteration and not recursion. So taking"
+  },
+  {
+    "start": 3434.59,
+    "duration": 6.84,
+    "text": "the previous example, we have like ABC or, or whatever, how we can, how can we do it"
+  },
+  {
+    "start": 3441.43,
+    "duration": 4.68,
+    "text": "like in iteration form. So I will teach you this in much more detail when we"
+  },
+  {
+    "start": 3446.11,
+    "duration": 4.16,
+    "text": "to dynamic programming because that will make more sense because they are in order to achieve"
+  },
+  {
+    "start": 3450.27,
+    "duration": 5.32,
+    "text": "dynamic programming we will be using like arrays and 2D arrays and stuff like that."
+  },
+  {
+    "start": 3455.59,
+    "duration": 7.92,
+    "text": "But a simple approach is that we can take a look at every single level okay and we can"
+  },
+  {
+    "start": 3463.51,
+    "duration": 3.68,
+    "text": "see actually like you know what is happening in that level try to brainstorm about it."
+  },
+  {
+    "start": 3467.19,
+    "duration": 3.92,
+    "text": "So let's take an array this time okay concept is similar because you can what you can"
+  },
+  {
+    "start": 3471.11,
+    "duration": 2.0,
+    "text": "do with array you can also do with string."
+  },
+  {
+    "start": 3473.11,
+    "duration": 5.56,
+    "text": "So let's take an array 1, 2, 3, simple array we have."
+  },
+  {
+    "start": 3478.67,
+    "duration": 3.2,
+    "text": "Now what is the approach that we are following in the, you know, like the previous example,"
+  },
+  {
+    "start": 3481.87,
+    "duration": 3.24,
+    "text": "we are taking process and unprocessed."
+  },
+  {
+    "start": 3485.11,
+    "duration": 3.2,
+    "text": "So here we can have like a process section that is initially going to be, let's say"
+  },
+  {
+    "start": 3488.31,
+    "duration": 1.76,
+    "text": "this is my array."
+  },
+  {
+    "start": 3490.07,
+    "duration": 6.26,
+    "text": "So initially my answer is going to be let's say empty."
+  },
+  {
+    "start": 3496.33,
+    "duration": 4.92,
+    "text": "So I am talking about this element 1 over here, I am talking about this element"
+  },
+  {
+    "start": 3501.25,
+    "duration": 1.0,
+    "text": "1 over here."
+  },
+  {
+    "start": 3502.25,
+    "duration": 1.0,
+    "text": "Notice what I am doing."
+  },
+  {
+    "start": 3503.25,
+    "duration": 5.76,
+    "text": "I was doing in recursion and how I can convert that into iteration so right now I am not worried"
+  },
+  {
+    "start": 3509.01,
+    "duration": 5.28,
+    "text": "about how to do it I'm just seeing what we are doing so one was actually doing what one was"
+  },
+  {
+    "start": 3514.29,
+    "duration": 4.8,
+    "text": "actually saying either accept it or reject it something like this should happen I know what"
+  },
+  {
+    "start": 3519.09,
+    "duration": 4.16,
+    "text": "we want to do but right now let's say I don't know what we should do I know something like this"
+  },
+  {
+    "start": 3523.25,
+    "duration": 6.32,
+    "text": "should happen I know something like this should happen then when I'm talking about two let's"
+  },
+  {
+    "start": 3529.57,
+    "duration": 2.24,
+    "text": "Let's say I've already talked about one,"
+  },
+  {
+    "start": 3531.81,
+    "duration": 1.8,
+    "text": "and now I'm talking about two."
+  },
+  {
+    "start": 3533.61,
+    "duration": 1.04,
+    "text": "So it means what?"
+  },
+  {
+    "start": 3534.65,
+    "duration": 2.12,
+    "text": "You've already talked about one."
+  },
+  {
+    "start": 3536.77,
+    "duration": 2.88,
+    "text": "Now with two, you have the few options."
+  },
+  {
+    "start": 3539.65,
+    "duration": 1.12,
+    "text": "You have something like this."
+  },
+  {
+    "start": 3540.77,
+    "duration": 1.56,
+    "text": "You have something like, let's say,"
+  },
+  {
+    "start": 3544.41,
+    "duration": 1.14,
+    "text": "you know, with this particular thing,"
+  },
+  {
+    "start": 3545.55,
+    "duration": 2.76,
+    "text": "you have something like with two, like, okay."
+  },
+  {
+    "start": 3549.69,
+    "duration": 2.92,
+    "text": "Two can be something like accept or reject."
+  },
+  {
+    "start": 3552.61,
+    "duration": 2.36,
+    "text": "Accept or reject."
+  },
+  {
+    "start": 3554.97,
+    "duration": 6.24,
+    "text": "Now you can accept it over here, or over here."
+  },
+  {
+    "start": 3561.21,
+    "duration": 5.64,
+    "text": "except or reject. So if I, for example, in this particular, so in short, what I'm trying"
+  },
+  {
+    "start": 3566.85,
+    "duration": 4.6,
+    "text": "to say is, this except and reject thing is happening with the answer that you have so"
+  },
+  {
+    "start": 3571.45,
+    "duration": 5.44,
+    "text": "far, right, with the answer that you have so far. So if only one was present, then"
+  },
+  {
+    "start": 3576.89,
+    "duration": 4.12,
+    "text": "these were the only answers so far. But now let's say two is present. So basically what"
+  },
+  {
+    "start": 3581.01,
+    "duration": 5.72,
+    "text": "I'm saying is, what do you do with two, given that you have already processed one?"
+  },
+  {
+    "start": 3586.73,
+    "duration": 3.36,
+    "text": "So let's say these are all the possible answers. So with two, what you can do"
+  },
+  {
+    "start": 3590.09,
+    "duration": 6.72,
+    "text": "accept or reject let's say I reject 2 if I reject 2 this will be remaining let's say I accept 2"
+  },
+  {
+    "start": 3597.53,
+    "duration": 11.95,
+    "text": "then this will be remaining okay now comes the answer select okay you have given all the subsets"
+  },
+  {
+    "start": 3609.48,
+    "duration": 6.0,
+    "text": "possible with 1 you have given all the subsets possible with 2 given that 1 was already processed"
+  },
+  {
+    "start": 3615.48,
+    "duration": 6.4,
+    "text": "now what about 3 given 1 and 2 are already processed okay 1 and 2 are already processed"
+  },
+  {
+    "start": 3621.88,
+    "duration": 3.2,
+    "text": "then this is my answer now three you can either accept or reject"
+  },
+  {
+    "start": 3625.96,
+    "duration": 17.15,
+    "text": "is very common sense x first I reject let's say then I accept so three one three two three"
+  },
+  {
+    "start": 3645.11,
+    "duration": 11.73,
+    "text": "one two three after that array is empty that's my answer thought process is a thought process clear"
+  },
+  {
+    "start": 3656.84,
+    "duration": 4.64,
+    "text": "like how I came with this solution is that clear how I came up with this solution"
+  },
+  {
+    "start": 3661.48,
+    "duration": 5.2,
+    "text": "just by talking to myself that ok Kunal this is what you were doing in recursion"
+  },
+  {
+    "start": 3666.68,
+    "duration": 5.44,
+    "text": "and try to see what you want to do over here right now I have not explained to you how to do it"
+  },
+  {
+    "start": 3672.12,
+    "duration": 6.13,
+    "text": "but can you explain can you see what we are doing now once you know what we are doing how"
+  },
+  {
+    "start": 3678.25,
+    "duration": 6.73,
+    "text": "difficult is it to devise a solution to how to do it it's very simple as you can see in the"
+  },
+  {
+    "start": 3684.98,
+    "duration": 11.3,
+    "text": "previous ones this one this one is same this entire array this entire array is same"
+  },
+  {
+    "start": 3696.28,
+    "duration": 5.28,
+    "text": "So this second half is actually getting added, the second half is actually getting added in"
+  },
+  {
+    "start": 3701.56,
+    "duration": 6.16,
+    "text": "the original array. So I can have one original array outside. Okay, and I can keep updating in that."
+  },
+  {
+    "start": 3710.14,
+    "duration": 5.92,
+    "text": "Does that make sense? Very simple. So you want to make a new answer for let's say three,"
+  },
+  {
+    "start": 3716.06,
+    "duration": 5.44,
+    "text": "and this is my old array, then I will just update this old array with my add elements,"
+  },
+  {
+    "start": 3722.22,
+    "duration": 2.88,
+    "text": "add my new elements in the old array is basically what I'm saying."
+  },
+  {
+    "start": 3725.1,
+    "duration": 6.72,
+    "text": "add my new elements in the previous array. This is the outside array, same objects and"
+  },
+  {
+    "start": 3731.82,
+    "duration": 9.0,
+    "text": "references variables and stuff. Does that make sense? So for every element, you can just"
+  },
+  {
+    "start": 3740.82,
+    "duration": 4.8,
+    "text": "add it in the previous array and just add it behind it, because this will already be"
+  },
+  {
+    "start": 3745.62,
+    "duration": 6.76,
+    "text": "available over there. So I'm not touching this. Okay, let's try to code this thing."
+  },
+  {
+    "start": 3752.38,
+    "duration": 4.24,
+    "text": "And also let's see what is like the complexity going, let me first code it, then I'll tell"
+  },
+  {
+    "start": 3756.62,
+    "duration": 2.08,
+    "text": "you what the complexity will be."
+  },
+  {
+    "start": 3758.7,
+    "duration": 6.12,
+    "text": "So here we're actually going to say that in the arrays only I can add or I can just add"
+  },
+  {
+    "start": 3764.82,
+    "duration": 3.2,
+    "text": "like, I can add it here only no problem."
+  },
+  {
+    "start": 3768.02,
+    "duration": 7.95,
+    "text": "I can say subset, okay, because this is a subset or exotic void main."
+  },
+  {
+    "start": 3775.97,
+    "duration": 3.08,
+    "text": "So I can say by iteration, how can we do it?"
+  },
+  {
+    "start": 3779.05,
+    "duration": 3.56,
+    "text": "How can we do it by iteration initially you will have an empty empty one."
+  },
+  {
+    "start": 3782.61,
+    "duration": 4.96,
+    "text": "So I know that I need to return a what, I need to return a list of list, a list of list,"
+  },
+  {
+    "start": 3787.57,
+    "duration": 5.6,
+    "text": "a list that contains a list and that internal list contains a list that contains a list"
+  },
+  {
+    "start": 3793.17,
+    "duration": 2.12,
+    "text": "of integer is basically what I am saying."
+  },
+  {
+    "start": 3795.29,
+    "duration": 7.24,
+    "text": "And I can say subset and this is going to contain my array, that is it."
+  },
+  {
+    "start": 3802.53,
+    "duration": 5.0,
+    "text": "So list of list is what this is right, outer list containing many, many lists."
+  },
+  {
+    "start": 3807.53,
+    "duration": 8.33,
+    "text": "So this outer list is going to be what let's say we have our outer list outer list the main"
+  },
+  {
+    "start": 3815.86,
+    "duration": 3.8,
+    "text": "list which is equal to new array list."
+  },
+  {
+    "start": 3819.66,
+    "duration": 5.52,
+    "text": "And I'm just going to return it in the end outer list now internally what do I need to"
+  },
+  {
+    "start": 3825.18,
+    "duration": 6.92,
+    "text": "do initially in this outer list I will have what just an empty list so I can say outer"
+  },
+  {
+    "start": 3832.1,
+    "duration": 3.92,
+    "text": "dot add new array list."
+  },
+  {
+    "start": 3836.02,
+    "duration": 2.96,
+    "text": "So new empty list has been added."
+  },
+  {
+    "start": 3838.98,
+    "duration": 2.48,
+    "text": "Now what do I want to do?"
+  },
+  {
+    "start": 3841.46,
+    "duration": 5.48,
+    "text": "At every step I want to say that okay, for every number in the list that has been given"
+  },
+  {
+    "start": 3846.94,
+    "duration": 10.18,
+    "text": "to me, for every number in array, for every number in my array, what do I need to do?"
+  },
+  {
+    "start": 3857.12,
+    "duration": 8.68,
+    "text": "For every number in array, I need to take the size of this list and create like a,"
+  },
+  {
+    "start": 3865.8,
+    "duration": 6.92,
+    "text": "know create a new list and basically add it in my original list. So this is let's say"
+  },
+  {
+    "start": 3872.72,
+    "duration": 5.48,
+    "text": "my original list, what I will do is I will create a new list and add it in my original"
+  },
+  {
+    "start": 3878.2,
+    "duration": 4.72,
+    "text": "list. Similarly, when I when the number is 2, I will take the size equal to 2 and I"
+  },
+  {
+    "start": 3882.92,
+    "duration": 5.88,
+    "text": "will create two new lists. Similarly, when the number is 3, the existing answer till"
+  },
+  {
+    "start": 3888.8,
+    "duration": 5.0,
+    "text": "now has a size of 4. So I will create four new lists. That is what we are doing."
+  },
+  {
+    "start": 3893.8,
+    "duration": 5.68,
+    "text": "So this size is actually what the size of the outer list right now, so I can say that"
+  },
+  {
+    "start": 3899.48,
+    "duration": 10.16,
+    "text": "my outer list I can say int size is equal to outer dot size, so that you don't get confused"
+  },
+  {
+    "start": 3909.64,
+    "duration": 1.0,
+    "text": "I can take n."
+  },
+  {
+    "start": 3910.64,
+    "duration": 4.52,
+    "text": "Okay, and then I'm just going to run a loop because this is going to run two times is"
+  },
+  {
+    "start": 3915.16,
+    "duration": 3.76,
+    "text": "going to run four times is going to run one time so I'm just going to run a loop."
+  },
+  {
+    "start": 3918.92,
+    "duration": 4.44,
+    "text": "I'm going to say for i is equal to zero i is less than n i plus plus."
+  },
+  {
+    "start": 3923.36,
+    "duration": 1.68,
+    "text": "What do I need to do?"
+  },
+  {
+    "start": 3925.04,
+    "duration": 8.0,
+    "text": "Add this number in the original list, so create a new list, so I can say a new list can be"
+  },
+  {
+    "start": 3933.04,
+    "duration": 8.44,
+    "text": "new list of integer, this is my internal list is equal to new array list."
+  },
+  {
+    "start": 3941.48,
+    "duration": 5.56,
+    "text": "This is this list, this internal list, every time it is getting created, so for"
+  },
+  {
+    "start": 3947.04,
+    "duration": 5.84,
+    "text": "every number, the number of times the outer size is that many lists will be created."
+  },
+  {
+    "start": 3952.88,
+    "duration": 5.92,
+    "text": "For example, when outer size is 2, 2 lists will be created, when outer size is 4, 4 lists"
+  },
+  {
+    "start": 3958.8,
+    "duration": 1.0,
+    "text": "will be created."
+  },
+  {
+    "start": 3959.8,
+    "duration": 3.52,
+    "text": "That is what we are doing over here, that many times the list is being created."
+  },
+  {
+    "start": 3963.32,
+    "duration": 4.84,
+    "text": "So, this internal is actually equal to this internal, this thing, this internal 1, this"
+  },
+  {
+    "start": 3968.16,
+    "duration": 1.0,
+    "text": "internal 1."
+  },
+  {
+    "start": 3969.16,
+    "duration": 3.16,
+    "text": "This entire thing is a loop itself, this loop."
+  },
+  {
+    "start": 3972.32,
+    "duration": 5.84,
+    "text": "So, I am just going to say that this 2 is going to be added over here, then"
+  },
+  {
+    "start": 3978.16,
+    "duration": 3.2,
+    "text": "this 2 is going to be added over here, this 3 is going to be added over here,"
+  },
+  {
+    "start": 3981.36,
+    "duration": 1.0,
+    "text": "then here, then here, then here."
+  },
+  {
+    "start": 3982.36,
+    "duration": 3.04,
+    "text": "So we have to iterate over this original list."
+  },
+  {
+    "start": 3985.4,
+    "duration": 9.72,
+    "text": "So I can say my original, I can say internal dot add, what?"
+  },
+  {
+    "start": 3995.12,
+    "duration": 7.26,
+    "text": "The current number that you are at, the current number that you are at, that is what I am"
+  },
+  {
+    "start": 4002.38,
+    "duration": 1.92,
+    "text": "going to be adding."
+  },
+  {
+    "start": 4004.3,
+    "duration": 5.76,
+    "text": "But basically I need to create a copy, so I need to say that, so basically what I"
+  },
+  {
+    "start": 4010.06,
+    "duration": 4.4,
+    "text": "am trying to do is, I will first create a copy of this entire thing."
+  },
+  {
+    "start": 4014.46,
+    "duration": 6.2,
+    "text": "So this will actually be empty and one and then once the copy is created, I will just"
+  },
+  {
+    "start": 4020.66,
+    "duration": 1.0,
+    "text": "add two in it."
+  },
+  {
+    "start": 4021.66,
+    "duration": 1.92,
+    "text": "So that is what we are doing."
+  },
+  {
+    "start": 4023.58,
+    "duration": 1.32,
+    "text": "This will be available over here."
+  },
+  {
+    "start": 4024.9,
+    "duration": 2.48,
+    "text": "I will create the exact same copy over here."
+  },
+  {
+    "start": 4027.38,
+    "duration": 2.88,
+    "text": "And in that copy in everywhere, I will add three."
+  },
+  {
+    "start": 4030.26,
+    "duration": 1.48,
+    "text": "That is one way to achieve this."
+  },
+  {
+    "start": 4031.74,
+    "duration": 3.44,
+    "text": "So I have to create the copy of the ith list."
+  },
+  {
+    "start": 4035.18,
+    "duration": 3.44,
+    "text": "I can just say there's a in the constructor basically constructor I'll teach you later"
+  },
+  {
+    "start": 4038.62,
+    "duration": 1.96,
+    "text": "on, but it's a shortcut for this."
+  },
+  {
+    "start": 4040.58,
+    "duration": 9.04,
+    "text": "So you can say something like outer dot get i, i is list."
+  },
+  {
+    "start": 4049.62,
+    "duration": 4.92,
+    "text": "So now this internal will actually be a copy of the outer dot get i, so if I am talking"
+  },
+  {
+    "start": 4054.54,
+    "duration": 5.32,
+    "text": "about 0 it will be a copy of this, this, this, something like that."
+  },
+  {
+    "start": 4059.86,
+    "duration": 5.56,
+    "text": "So just add it and then I can just say outer dot add the answer that you have gotten"
+  },
+  {
+    "start": 4065.42,
+    "duration": 6.13,
+    "text": "which is my internal, that is it."
+  },
+  {
+    "start": 4071.55,
+    "duration": 5.5,
+    "text": "in the outer list, I'm only adding this individual list as well. So this individual list getting"
+  },
+  {
+    "start": 4077.05,
+    "duration": 7.23,
+    "text": "added to the main list is happening via this line. Okay, let's try to run this again, please"
+  },
+  {
+    "start": 4084.28,
+    "duration": 5.02,
+    "text": "debug it and run it on pen and paper yourself, otherwise you will not understand. So I can"
+  },
+  {
+    "start": 4089.3,
+    "duration": 15.38,
+    "text": "say print, I can say int array is equal to something like 123. Then I can say for,"
+  },
+  {
+    "start": 4104.68,
+    "duration": 10.65,
+    "text": "I can see my answer, answer is equal to subset of ARR."
+  },
+  {
+    "start": 4115.33,
+    "duration": 14.9,
+    "text": "So I can say for list of integer for every list in my answer, just print that list, print"
+  },
+  {
+    "start": 4130.23,
+    "duration": 1.0,
+    "text": "that list."
+  },
+  {
+    "start": 4131.23,
+    "duration": 13.94,
+    "text": "Let us see what we get, make sense, simple without using recursion."
+  },
+  {
+    "start": 4145.17,
+    "duration": 3.62,
+    "text": "So I just saw what we were doing with every recursion call and I tried to make it into"
+  },
+  {
+    "start": 4148.79,
+    "duration": 4.7,
+    "text": "a function call via arrays."
+  },
+  {
+    "start": 4153.49,
+    "duration": 3.22,
+    "text": "Usually you will use like stacks and stuff and arrays heavily."
+  },
+  {
+    "start": 4156.71,
+    "duration": 5.42,
+    "text": "So more questions related to how to convert recursive programs to iterative programs will"
+  },
+  {
+    "start": 4162.13,
+    "duration": 3.54,
+    "text": "come when we do dynamic programming because that will make much more sense."
+  },
+  {
+    "start": 4165.67,
+    "duration": 4.08,
+    "text": "I hope you were able to understand the intuition behind it like what we are actually trying"
+  },
+  {
+    "start": 4169.75,
+    "duration": 3.74,
+    "text": "to do this is actually just accept and reject only, but instead of the function calls"
+  },
+  {
+    "start": 4173.49,
+    "duration": 5.36,
+    "text": "I'm actually saving it in the area. If you don't know how objects and references and"
+  },
+  {
+    "start": 4178.85,
+    "duration": 8.62,
+    "text": "things like that work, then you will not understand it. Cool. All right, let's move on to the"
+  },
+  {
+    "start": 4187.47,
+    "duration": 3.84,
+    "text": "next question. Okay, but before moving on to the next question, we have to cover the"
+  },
+  {
+    "start": 4191.31,
+    "duration": 5.4,
+    "text": "space and time complexity of this approach as well. So what is the time complexity?"
+  },
+  {
+    "start": 4196.71,
+    "duration": 4.76,
+    "text": "Time complexity is equal to a total number of levels divided by time taken at each level."
+  },
+  {
+    "start": 4201.47,
+    "duration": 4.0,
+    "text": "So I know that time taken at each level is equal to what, N. So if N is the number of"
+  },
+  {
+    "start": 4205.47,
+    "duration": 6.2,
+    "text": "elements you are taking like copying N elements. So very simple. N multiplied by like total"
+  },
+  {
+    "start": 4211.67,
+    "duration": 4.24,
+    "text": "number of subsets that we have. So you can see that in each step in this diagram you"
+  },
+  {
+    "start": 4215.91,
+    "duration": 4.88,
+    "text": "can see that it is getting doubled. So subset literally gets doubled and we add like every"
+  },
+  {
+    "start": 4220.79,
+    "duration": 5.52,
+    "text": "element to like these, the previous subsets and then how many total subsets will we"
+  },
+  {
+    "start": 4226.31,
+    "duration": 5.32,
+    "text": "we have and it's also some basic problem like if you're given an element array with n elements"
+  },
+  {
+    "start": 4231.63,
+    "duration": 4.32,
+    "text": "then how many total subsets will you have? 2 raised to power n that's like the 2 raised"
+  },
+  {
+    "start": 4235.95,
+    "duration": 5.08,
+    "text": "to power n elements so 2 raised to power n subsets you will have this is the number of"
+  },
+  {
+    "start": 4241.03,
+    "duration": 6.15,
+    "text": "subsets you will have okay this is we know total number of subsets we will have is 2"
+  },
+  {
+    "start": 4247.18,
+    "duration": 5.08,
+    "text": "raised to power n okay where n is like the total number of elements in my array and"
+  },
+  {
+    "start": 4252.26,
+    "duration": 7.8,
+    "text": "And since we are creating like a new subset from the original one, that is going to take"
+  },
+  {
+    "start": 4260.06,
+    "duration": 1.72,
+    "text": "n complexity."
+  },
+  {
+    "start": 4261.78,
+    "duration": 5.52,
+    "text": "So here is one subset, create copy of this n, another subset copy of this n, so total"
+  },
+  {
+    "start": 4267.3,
+    "duration": 3.52,
+    "text": "how many subsets like this will we will have, this how many, how many levels like this"
+  },
+  {
+    "start": 4270.82,
+    "duration": 4.32,
+    "text": "we will have, 2 raised to power n, 2 raised to power n total subsets."
+  },
+  {
+    "start": 4275.14,
+    "duration": 4.32,
+    "text": "Now what is the space complexity, now space complexity means like auxiliary space"
+  },
+  {
+    "start": 4279.46,
+    "duration": 2.24,
+    "text": "where is like the extra space that is being used."
+  },
+  {
+    "start": 4281.7,
+    "duration": 3.82,
+    "text": "So it's being used in our output, so it's output that we are taking."
+  },
+  {
+    "start": 4285.52,
+    "duration": 4.3,
+    "text": "So since we have like obviously very common senses, we have two raise to power n subsets."
+  },
+  {
+    "start": 4289.82,
+    "duration": 6.48,
+    "text": "So this will definitely be over here, two raise to power n total subsets and every subset"
+  },
+  {
+    "start": 4296.3,
+    "duration": 5.08,
+    "text": "is taking how much space of n space."
+  },
+  {
+    "start": 4301.38,
+    "duration": 2.72,
+    "text": "So it's actually equal to n into two raise to power n."
+  },
+  {
+    "start": 4304.1,
+    "duration": 1.08,
+    "text": "That's it."
+  },
+  {
+    "start": 4305.18,
+    "duration": 11.04,
+    "text": "How total subsets and this is space taken by each subset."
+  },
+  {
+    "start": 4316.22,
+    "duration": 8.38,
+    "text": "each subset is equal to O of n. So it's basically equal to O of n into O of 2 raised to power"
+  },
+  {
+    "start": 4324.6,
+    "duration": 8.22,
+    "text": "n, which is O of n into 2 raised to power n. That's it. So I'm good. So move on to"
+  },
+  {
+    "start": 4332.82,
+    "duration": 3.84,
+    "text": "the next question where we may contain duplicate elements. Okay, so let's take an example"
+  },
+  {
+    "start": 4336.66,
+    "duration": 5.52,
+    "text": "of something that contains like duplicate elements. Let's say this is my array. And"
+  },
+  {
+    "start": 4342.18,
+    "duration": 5.28,
+    "text": "initially it will be empty. I will take one, one will make a copy of this. We'll"
+  },
+  {
+    "start": 4347.46,
+    "duration": 4.46,
+    "text": "make a copy of this and add one to it, then we'll take two, we'll make an entire copy"
+  },
+  {
+    "start": 4351.92,
+    "duration": 12.28,
+    "text": "of this, an entire copy of this will be an add two to it, then we'll again have two,"
+  },
+  {
+    "start": 4364.2,
+    "duration": 11.92,
+    "text": "then we'll make an entire copy of this. Okay, so an entire copy of this, same entire"
+  },
+  {
+    "start": 4376.12,
+    "duration": 15.85,
+    "text": "copy and add 2 to it again. 2, 1, 2, 2, 2, 1, 2, something like that. So, here you can"
+  },
+  {
+    "start": 4391.97,
+    "duration": 7.0,
+    "text": "see we have some duplicate elements. We have 2 as duplicate, 1, 2 as duplicate and 1, 2,"
+  },
+  {
+    "start": 4398.97,
+    "duration": 6.88,
+    "text": "2 as no that is it. We have 2 as duplicate what are all the duplicate elements. 2 is"
+  },
+  {
+    "start": 4405.85,
+    "duration": 10.95,
+    "text": "is duplicated. 1 comma 2 is duplicated. That's it. How can we prevent this duplication? Pause"
+  },
+  {
+    "start": 4416.8,
+    "duration": 3.88,
+    "text": "this video, think about it and then come back to this. So again, think about what to do,"
+  },
+  {
+    "start": 4420.68,
+    "duration": 5.6,
+    "text": "not how to do it. Coding is simple. Algorithm is difficult. So as you can see, this is"
+  },
+  {
+    "start": 4426.28,
+    "duration": 4.72,
+    "text": "getting repeated. Why is it getting repeated? Because 2 was already added in the previous"
+  },
+  {
+    "start": 4431.0,
+    "duration": 5.48,
+    "text": "step in this. And in the new step, I again added 2 in this."
+  },
+  {
+    "start": 4436.48,
+    "duration": 3.08,
+    "text": "So what do we need to do?"
+  },
+  {
+    "start": 4439.56,
+    "duration": 8.6,
+    "text": "We need to only add 2 again in the newly created subset in the previous section, only add the"
+  },
+  {
+    "start": 4448.16,
+    "duration": 9.83,
+    "text": "next 2 in this, so this will be removed, this does not make sense, why?"
+  },
+  {
+    "start": 4457.99,
+    "duration": 5.52,
+    "text": "Because 2 was already added in this, then why are you adding in this again over here"
+  },
+  {
+    "start": 4463.51,
+    "duration": 2.76,
+    "text": "in this step?"
+  },
+  {
+    "start": 4466.27,
+    "duration": 6.4,
+    "text": "2 is already added in this. Why are you adding in the next step? Hence, whenever you find"
+  },
+  {
+    "start": 4472.67,
+    "duration": 5.84,
+    "text": "a duplicate element, only add it in the newly created subsets of the previous step. I'll"
+  },
+  {
+    "start": 4478.51,
+    "duration": 16.29,
+    "text": "write it down. When you find a duplicate element, only add it in the newly created"
+  },
+  {
+    "start": 4494.8,
+    "duration": 11.16,
+    "text": "subset of previous step. This makes sense. Newly created means this was newly created"
+  },
+  {
+    "start": 4505.96,
+    "duration": 4.4,
+    "text": "in the previous step, right? But there's a catch over here. What if the item was something"
+  },
+  {
+    "start": 4510.36,
+    "duration": 6.08,
+    "text": "like 212? In this case, it will not recognize the previous step. In this case, it will not"
+  },
+  {
+    "start": 4516.44,
+    "duration": 5.84,
+    "text": "recognize whether it's duplicated or not, right? So these duplicate has to be adjacent."
+  },
+  {
+    "start": 4522.28,
+    "duration": 9.94,
+    "text": "That's why because of this above point, because of above point duplicates have to"
+  },
+  {
+    "start": 4532.22,
+    "duration": 8.9,
+    "text": "be together duplicates, explaining every single thing have to be together. Because if"
+  },
+  {
+    "start": 4541.12,
+    "duration": 4.32,
+    "text": "if it is not together then how will you figure out whether first of all you found a duplicate"
+  },
+  {
+    "start": 4545.44,
+    "duration": 1.0,
+    "text": "or not?"
+  },
+  {
+    "start": 4546.44,
+    "duration": 5.36,
+    "text": "And even if you figure out, how will you figure out that which level was it that consisted"
+  },
+  {
+    "start": 4551.8,
+    "duration": 1.16,
+    "text": "of the duplicate?"
+  },
+  {
+    "start": 4552.96,
+    "duration": 1.0,
+    "text": "What will you do?"
+  },
+  {
+    "start": 4553.96,
+    "duration": 2.9,
+    "text": "You will go back to those levels very, very complicated."
+  },
+  {
+    "start": 4556.86,
+    "duration": 3.34,
+    "text": "So I hope you are able to understand the problem over here."
+  },
+  {
+    "start": 4560.2,
+    "duration": 6.4,
+    "text": "So before remove the, because of the above point duplicates have to be together."
+  },
+  {
+    "start": 4566.6,
+    "duration": 1.4,
+    "text": "What is one way to achieve this?"
+  },
+  {
+    "start": 4568.0,
+    "duration": 4.64,
+    "text": "Sort the array."
+  },
+  {
+    "start": 4572.64,
+    "duration": 1.0,
+    "text": "That is it."
+  },
+  {
+    "start": 4573.64,
+    "duration": 4.56,
+    "text": "you sort the array then all the duplicates will be together. That is pretty much about"
+  },
+  {
+    "start": 4578.2,
+    "duration": 5.88,
+    "text": "it. Yeah, so whenever you find a duplicate only add it to the new elements. Now let's"
+  },
+  {
+    "start": 4584.08,
+    "duration": 5.28,
+    "text": "see how we can code this. So what part should be clear? Now let's see how, how part. Okay,"
+  },
+  {
+    "start": 4589.36,
+    "duration": 3.96,
+    "text": "so let's see how we can code this thing. I'm just going to copy paste, let's say the"
+  },
+  {
+    "start": 4593.32,
+    "duration": 10.73,
+    "text": "previous one. Okay, I'm going to call it subsets duplicate or something like that."
+  },
+  {
+    "start": 4604.05,
+    "duration": 8.0,
+    "text": "Okay, what do we need to do very first thing? We have to sort the array. So that I can already taught you in build sorting algorithm arrays.sort"
+  },
+  {
+    "start": 4614.05,
+    "duration": 6.0,
+    "text": "I'm going to sort ARR objects and references it will sort the original object. I create the new one"
+  },
+  {
+    "start": 4620.05,
+    "duration": 4.0,
+    "text": "Then I'm just going to add a new one over here and I'm going to create a"
+  },
+  {
+    "start": 4625.05,
+    "duration": 5.43,
+    "text": "What do I need to do? I need to take"
+  },
+  {
+    "start": 4630.48,
+    "duration": 7.92,
+    "text": "a, what I can do is I can take a, I can take one start index and an end index, because this"
+  },
+  {
+    "start": 4638.4,
+    "duration": 7.52,
+    "text": "will actually help me in understanding which one was like the previous end point, let me"
+  },
+  {
+    "start": 4645.92,
+    "duration": 1.0,
+    "text": "explain it to you."
+  },
+  {
+    "start": 4646.92,
+    "duration": 3.88,
+    "text": "So like I can take a start index and an end index, so let's say start is, initially"
+  },
+  {
+    "start": 4650.8,
+    "duration": 5.0,
+    "text": "it's just starting from zero, so basically I can say that whenever I find like a duplicate"
+  },
+  {
+    "start": 4655.8,
+    "duration": 4.56,
+    "text": "like this, so I can say that my start index is actually going to be equal to what? The"
+  },
+  {
+    "start": 4660.36,
+    "duration": 9.06,
+    "text": "previous end index plus 1, so start from here, this and end index is going to be equal to"
+  },
+  {
+    "start": 4669.42,
+    "duration": 5.44,
+    "text": "what? Size of the array like the last element over here, whenever you find something duplicate."
+  },
+  {
+    "start": 4676.78,
+    "duration": 3.84,
+    "text": "Otherwise, it's just going to start from 0. Otherwise, it's going to start from 0,"
+  },
+  {
+    "start": 4680.62,
+    "duration": 5.52,
+    "text": "like keep adding from the very first. But if it's not, then keep adding from the previous"
+  },
+  {
+    "start": 4686.14,
+    "duration": 8.04,
+    "text": "once ends like the previous one, the previous one that we had start adding from its ends"
+  },
+  {
+    "start": 4694.18,
+    "duration": 6.8,
+    "text": "plus one position, which is this end plus one position."
+  },
+  {
+    "start": 4700.98,
+    "duration": 8.08,
+    "text": "So I can say that here I have a new list and I can say int start is equal to zero"
+  },
+  {
+    "start": 4709.06,
+    "duration": 5.66,
+    "text": "and I can say int end is also equal to zero."
+  },
+  {
+    "start": 4714.72,
+    "duration": 6.72,
+    "text": "Now instead of taking number, I can take like indices, I can say if your i is equal to 0,"
+  },
+  {
+    "start": 4721.44,
+    "duration": 7.52,
+    "text": "i is less than your array dot length and i plus plus."
+  },
+  {
+    "start": 4728.96,
+    "duration": 1.0,
+    "text": "What am I going to do?"
+  },
+  {
+    "start": 4729.96,
+    "duration": 10.16,
+    "text": "Initially let us say we assume that start is equal to 0, but I can say that if my current"
+  },
+  {
+    "start": 4740.12,
+    "duration": 11.48,
+    "text": "and previous element is same in that case start is going to be equal to n plus 1 like"
+  },
+  {
+    "start": 4751.6,
+    "duration": 5.7,
+    "text": "in this example. The new start will be the previous n plus 1. So, here I can say that"
+  },
+  {
+    "start": 4757.3,
+    "duration": 8.26,
+    "text": "if my area of i is equal to equal to area of i minus 1 and since this is i minus 1,"
+  },
+  {
+    "start": 4765.56,
+    "duration": 5.56,
+    "text": "So if i is 0, it will give you index out of bound. So i should be equal to greater than"
+  },
+  {
+    "start": 4771.12,
+    "duration": 5.56,
+    "text": "0 for this for this check over here. In this case, I can just say what that my start is"
+  },
+  {
+    "start": 4776.68,
+    "duration": 6.6,
+    "text": "actually equal to my previous end plus one. And what is my end equal to now my new end"
+  },
+  {
+    "start": 4783.28,
+    "duration": 4.8,
+    "text": "is equal to what length of the array plus length of the last element, which is length"
+  },
+  {
+    "start": 4788.08,
+    "duration": 10.17,
+    "text": "of the entire array, which is the outer array dot length, length or size minus one, sound"
+  },
+  {
+    "start": 4798.25,
+    "duration": 7.64,
+    "text": "good. Now I can just say that I can, I can change this to j or whatever, no problem."
+  },
+  {
+    "start": 4805.89,
+    "duration": 4.0,
+    "text": "So I can say that j is actually going to start not from zero, but actually the start"
+  },
+  {
+    "start": 4809.89,
+    "duration": 5.38,
+    "text": "index. So it may be zero, because if it's not, if it's not equal, then it will"
+  },
+  {
+    "start": 4815.27,
+    "duration": 4.54,
+    "text": "be zero. So it will keep copying from the very first. But in case it's similar,"
+  },
+  {
+    "start": 4819.81,
+    "duration": 5.48,
+    "text": "it will not be you then it will be previous n plus 1. So, here I am just going to create"
+  },
+  {
+    "start": 4825.29,
+    "duration": 11.17,
+    "text": "a new one and I am going to say array of let us say array of array of j, no here I am creating"
+  },
+  {
+    "start": 4836.46,
+    "duration": 8.32,
+    "text": "a new one, this will be j and this will be the element i array of i and then it is"
+  },
+  {
+    "start": 4844.78,
+    "duration": 4.96,
+    "text": "adding it in internal. That looks good let us try to print this."
+  },
+  {
+    "start": 4849.74,
+    "duration": 18.1,
+    "text": "So if I talk about subset duplicate one two two, let's try to run this thing one two one"
+  },
+  {
+    "start": 4867.84,
+    "duration": 8.04,
+    "text": "two two one two two empty one two one two two two one two two that's fine yeah works for"
+  },
+  {
+    "start": 4875.88,
+    "duration": 19.83,
+    "text": "me exactly everything is same right make sense that is it that's it cool that's"
+  },
+  {
+    "start": 4895.71,
+    "duration": 2.56,
+    "text": "So now move on to some few questions more."
+  },
+  {
+    "start": 4898.27,
+    "duration": 6.4,
+    "text": "So this is like some basic understanding for this and yeah, I believe you can calculate"
+  },
+  {
+    "start": 4904.67,
+    "duration": 4.16,
+    "text": "complexity for this, but you tell me like is it going to be any different like did we"
+  },
+  {
+    "start": 4908.83,
+    "duration": 3.96,
+    "text": "actually make any change in like the algorithm part or anything we just made some changes"
+  },
+  {
+    "start": 4912.79,
+    "duration": 6.88,
+    "text": "like the in the theory part only right but the complexity will not change because actually"
+  },
+  {
+    "start": 4919.67,
+    "duration": 1.24,
+    "text": "we are doing the same thing."
+  },
+  {
+    "start": 4920.91,
+    "duration": 3.4,
+    "text": "Similarly, we derive complexity for this it's going to be the same for this both"
+  },
+  {
+    "start": 4924.31,
+    "duration": 5.6,
+    "text": "spacing time okay let's move forward. So in the next topic of this like in the next part of this"
+  },
+  {
+    "start": 4929.91,
+    "duration": 5.84,
+    "text": "topic only the subset only it's not over the next video is going to be on questions related to"
+  },
+  {
+    "start": 4935.75,
+    "duration": 5.76,
+    "text": "permutations and the video after that will be related to dice problems right so you need to"
+  },
+  {
+    "start": 4941.51,
+    "duration": 4.96,
+    "text": "form some combinations to form dice so these two videos are like this is a three part series"
+  },
+  {
+    "start": 4946.47,
+    "duration": 3.84,
+    "text": "okay this is the part one after this they're going to be a one on permutation and then"
+  },
+  {
+    "start": 4950.31,
+    "duration": 6.64,
+    "text": "is going to be one on die series so make sure you like share and subscribe and please stay tuned"
+  },
+  {
+    "start": 4956.95,
+    "duration": 5.28,
+    "text": "do watch that video itself that would be like on because permutation is asked quite a lot"
+  },
+  {
+    "start": 4962.23,
+    "duration": 4.72,
+    "text": "that is the only reason i'm making a dedicated video on that so it's exactly going to be the"
+  },
+  {
+    "start": 4966.95,
+    "duration": 4.48,
+    "text": "same thing processed unprocessed and we'll look into how to return the count of permutation"
+  },
+  {
+    "start": 4971.43,
+    "duration": 6.08,
+    "text": "and stuff how to print the permutations how to return the entire like you know"
+  },
+  {
+    "start": 4977.51,
+    "duration": 7.52,
+    "text": "are a list of permutations and the dice problems will be like okay how many ways are there to make"
+  },
+  {
+    "start": 4985.75,
+    "duration": 6.56,
+    "text": "six of a dice so you can once roll a four then you can roll a two that makes six or you can roll"
+  },
+  {
+    "start": 4992.31,
+    "duration": 6.4,
+    "text": "one six times or you can roll two three times so problems like this will be doing in the next"
+  },
+  {
+    "start": 4998.71,
+    "duration": 4.08,
+    "text": "two videos after that I will be uploading by the way this is a complete data system"
+  },
+  {
+    "start": 5002.79,
+    "duration": 3.92,
+    "text": "algorithm interview preparation zero to fan boot camp going on so these are the next two"
+  },
+  {
+    "start": 5006.71,
+    "duration": 5.36,
+    "text": "videos after that we will do backtracking after that object into programming and after that our"
+  },
+  {
+    "start": 5012.07,
+    "duration": 4.08,
+    "text": "advanced data structure will start because for all the advanced data structure object in programming"
+  },
+  {
+    "start": 5016.15,
+    "duration": 7.36,
+    "text": "is mandatory stacks queues graphs heaps link list trees and all these other things so make sure"
+  },
+  {
+    "start": 5023.51,
+    "duration": 5.6,
+    "text": "like share and subscribe and please watch the next part as well and I'll see you in the next one"
+  }
+]

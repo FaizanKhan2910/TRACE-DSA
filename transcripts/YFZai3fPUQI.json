@@ -1,0 +1,4042 @@
+[
+  {
+    "start": 0.0,
+    "duration": 3.12,
+    "text": "hey everyone welcome back to my channel"
+  },
+  {
+    "start": 1.38,
+    "duration": 2.879,
+    "text": "and a new video and in this video we're"
+  },
+  {
+    "start": 3.12,
+    "duration": 2.88,
+    "text": "continuing the data structures and"
+  },
+  {
+    "start": 4.259,
+    "duration": 3.301,
+    "text": "algorithms bootcamp if you have been"
+  },
+  {
+    "start": 6.0,
+    "duration": 3.0,
+    "text": "following the playlist you may see that"
+  },
+  {
+    "start": 7.56,
+    "duration": 3.84,
+    "text": "now we are moving on to more complex"
+  },
+  {
+    "start": 9.0,
+    "duration": 3.48,
+    "text": "data types and data structures we are"
+  },
+  {
+    "start": 11.4,
+    "duration": 3.06,
+    "text": "already"
+  },
+  {
+    "start": 12.48,
+    "duration": 3.42,
+    "text": "close to finishing trees we just need to"
+  },
+  {
+    "start": 14.46,
+    "duration": 4.02,
+    "text": "do the trees questions videos and we'll"
+  },
+  {
+    "start": 15.9,
+    "duration": 4.44,
+    "text": "do some Advanced tree researchers but"
+  },
+  {
+    "start": 18.48,
+    "duration": 3.719,
+    "text": "after that we know we'll also the next"
+  },
+  {
+    "start": 20.34,
+    "duration": 3.72,
+    "text": "thing we're going to do is heaps and"
+  },
+  {
+    "start": 22.199,
+    "duration": 4.801,
+    "text": "then hash Maps then Dynamic priming and"
+  },
+  {
+    "start": 24.06,
+    "duration": 4.799,
+    "text": "then graphs so as we're moving on to"
+  },
+  {
+    "start": 27.0,
+    "duration": 3.48,
+    "text": "these more complex topics one fair"
+  },
+  {
+    "start": 28.859,
+    "duration": 3.0,
+    "text": "question that I have got gotten quite a"
+  },
+  {
+    "start": 30.48,
+    "duration": 4.2,
+    "text": "lot in the comment section below is"
+  },
+  {
+    "start": 31.859,
+    "duration": 5.341,
+    "text": "Kunal I was giving my QA round"
+  },
+  {
+    "start": 34.68,
+    "duration": 4.62,
+    "text": "and I was giving let's say sometimes you"
+  },
+  {
+    "start": 37.2,
+    "duration": 3.8,
+    "text": "give online coding contest which used to"
+  },
+  {
+    "start": 39.3,
+    "duration": 4.5,
+    "text": "happen previously like Google code Jam"
+  },
+  {
+    "start": 41.0,
+    "duration": 5.98,
+    "text": "Kickstart hacker Cup live Facebook or"
+  },
+  {
+    "start": 43.8,
+    "duration": 4.919,
+    "text": "meta and the thing is that when these"
+  },
+  {
+    "start": 46.98,
+    "duration": 4.02,
+    "text": "online QA rounds sometimes what they do"
+  },
+  {
+    "start": 48.719,
+    "duration": 4.081,
+    "text": "is instead of an input they give you a"
+  },
+  {
+    "start": 51.0,
+    "duration": 3.539,
+    "text": "file that has all the inputs maybe"
+  },
+  {
+    "start": 52.8,
+    "duration": 4.079,
+    "text": "hundreds of lines or thousands of lines"
+  },
+  {
+    "start": 54.539,
+    "duration": 5.16,
+    "text": "okay and they ask you to run this file"
+  },
+  {
+    "start": 56.879,
+    "duration": 5.101,
+    "text": "as your input and then whatever answer"
+  },
+  {
+    "start": 59.699,
+    "duration": 4.981,
+    "text": "you get you have to upload that answer"
+  },
+  {
+    "start": 61.98,
+    "duration": 4.38,
+    "text": "in a file so in short the company will"
+  },
+  {
+    "start": 64.68,
+    "duration": 5.34,
+    "text": "be like this is a file it has all the"
+  },
+  {
+    "start": 66.36,
+    "duration": 5.579,
+    "text": "inputs please run your algorithm or"
+  },
+  {
+    "start": 70.02,
+    "duration": 3.48,
+    "text": "program on the inputs that we have"
+  },
+  {
+    "start": 71.939,
+    "duration": 3.601,
+    "text": "provided you now this file can have"
+  },
+  {
+    "start": 73.5,
+    "duration": 3.659,
+    "text": "thousands of inputs and generate an"
+  },
+  {
+    "start": 75.54,
+    "duration": 3.119,
+    "text": "output file of the answers and give us"
+  },
+  {
+    "start": 77.159,
+    "duration": 3.241,
+    "text": "that output file"
+  },
+  {
+    "start": 78.659,
+    "duration": 3.361,
+    "text": "that is something that many companies do"
+  },
+  {
+    "start": 80.4,
+    "duration": 3.359,
+    "text": "so people are like well you have not"
+  },
+  {
+    "start": 82.02,
+    "duration": 4.5,
+    "text": "taught us that how to take large inputs"
+  },
+  {
+    "start": 83.759,
+    "duration": 4.261,
+    "text": "of data you know and uh similarly when"
+  },
+  {
+    "start": 86.52,
+    "duration": 4.139,
+    "text": "we talk about large input of data in"
+  },
+  {
+    "start": 88.02,
+    "duration": 4.32,
+    "text": "your uh code itself there's one more"
+  },
+  {
+    "start": 90.659,
+    "duration": 4.381,
+    "text": "question that people ask me"
+  },
+  {
+    "start": 92.34,
+    "duration": 4.739,
+    "text": "which was about uh Kunal our question is"
+  },
+  {
+    "start": 95.04,
+    "duration": 4.259,
+    "text": "getting correct like we have the correct"
+  },
+  {
+    "start": 97.079,
+    "duration": 5.461,
+    "text": "answer but we are not able to format it"
+  },
+  {
+    "start": 99.299,
+    "duration": 4.981,
+    "text": "correctly okay so it requires a specific"
+  },
+  {
+    "start": 102.54,
+    "duration": 3.3,
+    "text": "format some specific decimal places or"
+  },
+  {
+    "start": 104.28,
+    "duration": 3.299,
+    "text": "some specifically let's say you need to"
+  },
+  {
+    "start": 105.84,
+    "duration": 3.239,
+    "text": "remove leading zeros odd leading zeros"
+  },
+  {
+    "start": 107.579,
+    "duration": 3.421,
+    "text": "remove white spaces you know just"
+  },
+  {
+    "start": 109.079,
+    "duration": 3.54,
+    "text": "formatting stuff so before we move on to"
+  },
+  {
+    "start": 111.0,
+    "duration": 4.2,
+    "text": "like more complex structures I'm going"
+  },
+  {
+    "start": 112.619,
+    "duration": 4.921,
+    "text": "to teach you how to format your data how"
+  },
+  {
+    "start": 115.2,
+    "duration": 5.459,
+    "text": "to work with large number of data"
+  },
+  {
+    "start": 117.54,
+    "duration": 4.619,
+    "text": "so I will teach you in this video we'll"
+  },
+  {
+    "start": 120.659,
+    "duration": 3.481,
+    "text": "talk about strings specifically"
+  },
+  {
+    "start": 122.159,
+    "duration": 4.021,
+    "text": "formatting your data large number of"
+  },
+  {
+    "start": 124.14,
+    "duration": 3.78,
+    "text": "strings I will look at a string buffer"
+  },
+  {
+    "start": 126.18,
+    "duration": 3.12,
+    "text": "class a little bit different than the"
+  },
+  {
+    "start": 127.92,
+    "duration": 3.84,
+    "text": "string Builder class but we already"
+  },
+  {
+    "start": 129.3,
+    "duration": 4.32,
+    "text": "taken a look at and in the next video"
+  },
+  {
+    "start": 131.76,
+    "duration": 4.8,
+    "text": "we'll also take a look at working with"
+  },
+  {
+    "start": 133.62,
+    "duration": 5.1,
+    "text": "large numbers so there's a very amazing"
+  },
+  {
+    "start": 136.56,
+    "duration": 4.86,
+    "text": "class in Java that helps you working"
+  },
+  {
+    "start": 138.72,
+    "duration": 4.56,
+    "text": "with the large number of data it's"
+  },
+  {
+    "start": 141.42,
+    "duration": 3.36,
+    "text": "called the big integer class so we'll"
+  },
+  {
+    "start": 143.28,
+    "duration": 4.74,
+    "text": "see that in a separate video coming"
+  },
+  {
+    "start": 144.78,
+    "duration": 4.8,
+    "text": "after this one and uh all the nodes can"
+  },
+  {
+    "start": 148.02,
+    "duration": 4.32,
+    "text": "be found in the description below links"
+  },
+  {
+    "start": 149.58,
+    "duration": 4.019,
+    "text": "uh to the code repository and the"
+  },
+  {
+    "start": 152.34,
+    "duration": 3.0,
+    "text": "assignments and everything can be found"
+  },
+  {
+    "start": 153.599,
+    "duration": 5.22,
+    "text": "in the description below playlist is"
+  },
+  {
+    "start": 155.34,
+    "duration": 6.02,
+    "text": "updated in order and let's get started"
+  },
+  {
+    "start": 158.819,
+    "duration": 2.541,
+    "text": "okay"
+  },
+  {
+    "start": 161.819,
+    "duration": 5.461,
+    "text": "okay so string buffer class I'm going to"
+  },
+  {
+    "start": 165.3,
+    "duration": 4.74,
+    "text": "tell you about what it is I'm going to"
+  },
+  {
+    "start": 167.28,
+    "duration": 5.58,
+    "text": "tell you all sorts of things but let me"
+  },
+  {
+    "start": 170.04,
+    "duration": 4.74,
+    "text": "just create a repository a little"
+  },
+  {
+    "start": 172.86,
+    "duration": 5.0,
+    "text": "pile here"
+  },
+  {
+    "start": 174.78,
+    "duration": 3.08,
+    "text": "I'm going to call this"
+  },
+  {
+    "start": 178.62,
+    "duration": 5.339,
+    "text": "large strings"
+  },
+  {
+    "start": 181.68,
+    "duration": 3.66,
+    "text": "large strings okay no problem"
+  },
+  {
+    "start": 183.959,
+    "duration": 4.341,
+    "text": "the code can be found in the description"
+  },
+  {
+    "start": 185.34,
+    "duration": 2.96,
+    "text": "below you can check it out"
+  },
+  {
+    "start": 188.7,
+    "duration": 4.86,
+    "text": "main okay so what I'm going to do is I'm"
+  },
+  {
+    "start": 191.76,
+    "duration": 3.24,
+    "text": "going to zoom in a little bit so you can"
+  },
+  {
+    "start": 193.56,
+    "duration": 4.259,
+    "text": "see"
+  },
+  {
+    "start": 195.0,
+    "duration": 4.56,
+    "text": "that looks good so there's this string"
+  },
+  {
+    "start": 197.819,
+    "duration": 4.64,
+    "text": "buffer class so I can just say string"
+  },
+  {
+    "start": 199.56,
+    "duration": 2.899,
+    "text": "buffer"
+  },
+  {
+    "start": 204.06,
+    "duration": 3.56,
+    "text": "buffer is equal to new"
+  },
+  {
+    "start": 207.72,
+    "duration": 5.84,
+    "text": "string buffer"
+  },
+  {
+    "start": 210.0,
+    "duration": 3.56,
+    "text": "I'm going to close the console for now"
+  },
+  {
+    "start": 214.8,
+    "duration": 4.32,
+    "text": "okay simply I'll tell you what it is"
+  },
+  {
+    "start": 217.5,
+    "duration": 3.659,
+    "text": "I'll tell you how it works but let me"
+  },
+  {
+    "start": 219.12,
+    "duration": 3.479,
+    "text": "just show you some basic stuff and then"
+  },
+  {
+    "start": 221.159,
+    "duration": 3.481,
+    "text": "we'll look into why we are doing these"
+  },
+  {
+    "start": 222.599,
+    "duration": 4.261,
+    "text": "methods what are the benefits how it"
+  },
+  {
+    "start": 224.64,
+    "duration": 3.54,
+    "text": "Compares with string class you have"
+  },
+  {
+    "start": 226.86,
+    "duration": 3.599,
+    "text": "already covered string class so append"
+  },
+  {
+    "start": 228.18,
+    "duration": 4.8,
+    "text": "means you need to add it in add"
+  },
+  {
+    "start": 230.459,
+    "duration": 3.301,
+    "text": "something in so I will just write we"
+  },
+  {
+    "start": 232.98,
+    "duration": 2.16,
+    "text": "make"
+  },
+  {
+    "start": 233.76,
+    "duration": 2.94,
+    "text": "devs"
+  },
+  {
+    "start": 235.14,
+    "duration": 4.5,
+    "text": "we'll cover what it is and everything"
+  },
+  {
+    "start": 236.7,
+    "duration": 4.02,
+    "text": "don't worry about it"
+  },
+  {
+    "start": 239.64,
+    "duration": 2.819,
+    "text": "okay"
+  },
+  {
+    "start": 240.72,
+    "duration": 5.06,
+    "text": "and now I can just convert it into a"
+  },
+  {
+    "start": 242.459,
+    "duration": 3.321,
+    "text": "string I can say"
+  },
+  {
+    "start": 250.319,
+    "duration": 4.2,
+    "text": "buffer dot tostring we have already"
+  },
+  {
+    "start": 253.019,
+    "duration": 2.761,
+    "text": "covered the two string method in string"
+  },
+  {
+    "start": 254.519,
+    "duration": 7.081,
+    "text": "lecture"
+  },
+  {
+    "start": 255.78,
+    "duration": 5.82,
+    "text": "then system dot out Dot println"
+  },
+  {
+    "start": 261.78,
+    "duration": 3.66,
+    "text": "my string okay this would be string"
+  },
+  {
+    "start": 263.94,
+    "duration": 2.699,
+    "text": "buffer let's just have good naming"
+  },
+  {
+    "start": 265.44,
+    "duration": 4.02,
+    "text": "conventions"
+  },
+  {
+    "start": 266.639,
+    "duration": 5.34,
+    "text": "and it looks good gonna run this"
+  },
+  {
+    "start": 269.46,
+    "duration": 3.78,
+    "text": "should just print we make this no"
+  },
+  {
+    "start": 271.979,
+    "duration": 4.261,
+    "text": "problem at all"
+  },
+  {
+    "start": 273.24,
+    "duration": 4.92,
+    "text": "fine we know how it works okay now let's"
+  },
+  {
+    "start": 276.24,
+    "duration": 3.36,
+    "text": "dive into it let's see what string"
+  },
+  {
+    "start": 278.16,
+    "duration": 4.259,
+    "text": "buffer is all about what are the"
+  },
+  {
+    "start": 279.6,
+    "duration": 5.159,
+    "text": "benefits its features various methods"
+  },
+  {
+    "start": 282.419,
+    "duration": 4.321,
+    "text": "how it Compares with string class how it"
+  },
+  {
+    "start": 284.759,
+    "duration": 4.681,
+    "text": "Compares with string Builder class which"
+  },
+  {
+    "start": 286.74,
+    "duration": 4.38,
+    "text": "we already written before and then let's"
+  },
+  {
+    "start": 289.44,
+    "duration": 4.8,
+    "text": "uh let's take a look at some formatting"
+  },
+  {
+    "start": 291.12,
+    "duration": 4.92,
+    "text": "options and uh you know the the options"
+  },
+  {
+    "start": 294.24,
+    "duration": 4.62,
+    "text": "these classes have been Pro have"
+  },
+  {
+    "start": 296.04,
+    "duration": 4.26,
+    "text": "provided us these are endless okay so"
+  },
+  {
+    "start": 298.86,
+    "duration": 3.3,
+    "text": "according to your use case I'd recommend"
+  },
+  {
+    "start": 300.3,
+    "duration": 3.36,
+    "text": "you just you know Google so I'll tell"
+  },
+  {
+    "start": 302.16,
+    "duration": 3.18,
+    "text": "you some of the basics some of the ways"
+  },
+  {
+    "start": 303.66,
+    "duration": 3.72,
+    "text": "by which you can get started but you"
+  },
+  {
+    "start": 305.34,
+    "duration": 3.9,
+    "text": "know the possibilities are endless so"
+  },
+  {
+    "start": 307.38,
+    "duration": 3.96,
+    "text": "you can use regex you can do all sorts"
+  },
+  {
+    "start": 309.24,
+    "duration": 3.66,
+    "text": "of things and once you're discomfortable"
+  },
+  {
+    "start": 311.34,
+    "duration": 3.419,
+    "text": "with strings and we are on the fifth"
+  },
+  {
+    "start": 312.9,
+    "duration": 3.84,
+    "text": "more than 50 lectures we have done so I"
+  },
+  {
+    "start": 314.759,
+    "duration": 4.921,
+    "text": "think you have enough confidence now to"
+  },
+  {
+    "start": 316.74,
+    "duration": 5.22,
+    "text": "Google and you know explore various uh"
+  },
+  {
+    "start": 319.68,
+    "duration": 3.66,
+    "text": "functions and methods by yourself but"
+  },
+  {
+    "start": 321.96,
+    "duration": 2.76,
+    "text": "let's take a look at the string buffer"
+  },
+  {
+    "start": 323.34,
+    "duration": 4.579,
+    "text": "class and see what it's all about okay"
+  },
+  {
+    "start": 324.72,
+    "duration": 3.199,
+    "text": "so string buffer class"
+  },
+  {
+    "start": 331.979,
+    "duration": 3.0,
+    "text": "we are going to use these things like"
+  },
+  {
+    "start": 333.539,
+    "duration": 2.761,
+    "text": "when we do file handling and stuff as"
+  },
+  {
+    "start": 334.979,
+    "duration": 3.181,
+    "text": "well so we'll I'll talk about file"
+  },
+  {
+    "start": 336.3,
+    "duration": 4.14,
+    "text": "handling a little bit later into the"
+  },
+  {
+    "start": 338.16,
+    "duration": 4.74,
+    "text": "course when we work with like um you"
+  },
+  {
+    "start": 340.44,
+    "duration": 3.42,
+    "text": "know we will talk about it don't worry"
+  },
+  {
+    "start": 342.9,
+    "duration": 2.7,
+    "text": "um"
+  },
+  {
+    "start": 343.86,
+    "duration": 4.86,
+    "text": "so as you're working with more complex"
+  },
+  {
+    "start": 345.6,
+    "duration": 7.099,
+    "text": "data structures but uh the simple idea"
+  },
+  {
+    "start": 348.72,
+    "duration": 3.979,
+    "text": "of string buffer is that it is mutable"
+  },
+  {
+    "start": 352.979,
+    "duration": 5.06,
+    "text": "mutable"
+  },
+  {
+    "start": 354.72,
+    "duration": 3.319,
+    "text": "sequence of"
+  },
+  {
+    "start": 358.74,
+    "duration": 3.899,
+    "text": "characters"
+  },
+  {
+    "start": 360.9,
+    "duration": 4.98,
+    "text": "very simple stuff we know that string is"
+  },
+  {
+    "start": 362.639,
+    "duration": 4.741,
+    "text": "immutable what that basically means is"
+  },
+  {
+    "start": 365.88,
+    "duration": 3.72,
+    "text": "if you have"
+  },
+  {
+    "start": 367.38,
+    "duration": 5.039,
+    "text": "well I've already covered this a is"
+  },
+  {
+    "start": 369.6,
+    "duration": 5.12,
+    "text": "equal to Kunal I cannot change this"
+  },
+  {
+    "start": 372.419,
+    "duration": 2.301,
+    "text": "object"
+  },
+  {
+    "start": 375.0,
+    "duration": 4.74,
+    "text": "okay if I make a change in a it will"
+  },
+  {
+    "start": 377.759,
+    "duration": 6.0,
+    "text": "actually create a new object"
+  },
+  {
+    "start": 379.74,
+    "duration": 5.519,
+    "text": "so revise if you watch the"
+  },
+  {
+    "start": 383.759,
+    "duration": 3.841,
+    "text": "string lecture you will learn about"
+  },
+  {
+    "start": 385.259,
+    "duration": 5.821,
+    "text": "string pool"
+  },
+  {
+    "start": 387.6,
+    "duration": 5.819,
+    "text": "you will learn about memory"
+  },
+  {
+    "start": 391.08,
+    "duration": 4.44,
+    "text": "heaps"
+  },
+  {
+    "start": 393.419,
+    "duration": 3.601,
+    "text": "Etc so if you are not aware of what we"
+  },
+  {
+    "start": 395.52,
+    "duration": 4.1,
+    "text": "are talking about right now go watch the"
+  },
+  {
+    "start": 397.02,
+    "duration": 2.6,
+    "text": "string lecture"
+  },
+  {
+    "start": 400.02,
+    "duration": 3.179,
+    "text": "okay string buffer on the other hand is"
+  },
+  {
+    "start": 401.94,
+    "duration": 3.0,
+    "text": "mutable"
+  },
+  {
+    "start": 403.199,
+    "duration": 4.261,
+    "text": "okay so you can change the content"
+  },
+  {
+    "start": 404.94,
+    "duration": 4.62,
+    "text": "without creating a new object so if I"
+  },
+  {
+    "start": 407.46,
+    "duration": 5.34,
+    "text": "have string buffer something is equal to"
+  },
+  {
+    "start": 409.56,
+    "duration": 7.919,
+    "text": "something then um"
+  },
+  {
+    "start": 412.8,
+    "duration": 6.3,
+    "text": "I can create like um you know I can edit"
+  },
+  {
+    "start": 417.479,
+    "duration": 3.72,
+    "text": "that object without modifying it okay"
+  },
+  {
+    "start": 419.1,
+    "duration": 4.2,
+    "text": "let's talk about the advantages what are"
+  },
+  {
+    "start": 421.199,
+    "duration": 3.72,
+    "text": "the advantages so if I talk about the"
+  },
+  {
+    "start": 423.3,
+    "duration": 5.42,
+    "text": "advantages"
+  },
+  {
+    "start": 424.919,
+    "duration": 3.801,
+    "text": "here let's write down the advantages"
+  },
+  {
+    "start": 431.22,
+    "duration": 2.88,
+    "text": "you can create notes yourself but I'll"
+  },
+  {
+    "start": 432.78,
+    "duration": 3.72,
+    "text": "leave these in the description below as"
+  },
+  {
+    "start": 434.1,
+    "duration": 6.24,
+    "text": "well as one we already mentioned these"
+  },
+  {
+    "start": 436.5,
+    "duration": 6.78,
+    "text": "are mutable so you can edit the object"
+  },
+  {
+    "start": 440.34,
+    "duration": 4.5,
+    "text": "Without Really creating a new object so"
+  },
+  {
+    "start": 443.28,
+    "duration": 3.6,
+    "text": "you can make changes in that object we"
+  },
+  {
+    "start": 444.84,
+    "duration": 3.96,
+    "text": "have already covered this so I'll show"
+  },
+  {
+    "start": 446.88,
+    "duration": 3.539,
+    "text": "you an example of that as well so for"
+  },
+  {
+    "start": 448.8,
+    "duration": 4.2,
+    "text": "example if you write you know a is equal"
+  },
+  {
+    "start": 450.419,
+    "duration": 3.541,
+    "text": "to Kunal and then you write a is equal"
+  },
+  {
+    "start": 453.0,
+    "duration": 3.72,
+    "text": "to"
+  },
+  {
+    "start": 453.96,
+    "duration": 4.98,
+    "text": "Rahul it's actually creating a new"
+  },
+  {
+    "start": 456.72,
+    "duration": 5.94,
+    "text": "object"
+  },
+  {
+    "start": 458.94,
+    "duration": 5.94,
+    "text": "so let us say this is your stack Heap a"
+  },
+  {
+    "start": 462.66,
+    "duration": 4.02,
+    "text": "object Kunal"
+  },
+  {
+    "start": 464.88,
+    "duration": 4.02,
+    "text": "it was pointing to Canal first now I"
+  },
+  {
+    "start": 466.68,
+    "duration": 4.56,
+    "text": "said a is equal to Rahul so it will stop"
+  },
+  {
+    "start": 468.9,
+    "duration": 4.38,
+    "text": "pointing to this and it will point to"
+  },
+  {
+    "start": 471.24,
+    "duration": 5.579,
+    "text": "Rahul Rahul is a new object being"
+  },
+  {
+    "start": 473.28,
+    "duration": 6.479,
+    "text": "created this is still in memory"
+  },
+  {
+    "start": 476.819,
+    "duration": 5.94,
+    "text": "because strings are immutable but string"
+  },
+  {
+    "start": 479.759,
+    "duration": 5.761,
+    "text": "buffer is mutable"
+  },
+  {
+    "start": 482.759,
+    "duration": 5.301,
+    "text": "so if you want to change it K to"
+  },
+  {
+    "start": 485.52,
+    "duration": 5.88,
+    "text": "something else like"
+  },
+  {
+    "start": 488.06,
+    "duration": 4.78,
+    "text": "or something I don't know so you can do"
+  },
+  {
+    "start": 491.4,
+    "duration": 3.299,
+    "text": "that with string buffer I'll show you in"
+  },
+  {
+    "start": 492.84,
+    "duration": 4.699,
+    "text": "just a second okay"
+  },
+  {
+    "start": 494.699,
+    "duration": 2.84,
+    "text": "advantages"
+  },
+  {
+    "start": 499.68,
+    "duration": 5.239,
+    "text": "so mutable"
+  },
+  {
+    "start": 501.539,
+    "duration": 3.38,
+    "text": "let me write that down clearly"
+  },
+  {
+    "start": 517.44,
+    "duration": 2.719,
+    "text": "mutable"
+  },
+  {
+    "start": 520.38,
+    "duration": 5.399,
+    "text": "I can make changes"
+  },
+  {
+    "start": 523.2,
+    "duration": 5.52,
+    "text": "number two these are more efficient"
+  },
+  {
+    "start": 525.779,
+    "duration": 5.221,
+    "text": "so being more being mutable uh string"
+  },
+  {
+    "start": 528.72,
+    "duration": 3.72,
+    "text": "buffer classes are efficient because you"
+  },
+  {
+    "start": 531.0,
+    "duration": 2.7,
+    "text": "don't have to create objects again and"
+  },
+  {
+    "start": 532.44,
+    "duration": 2.399,
+    "text": "again you can make changes in those"
+  },
+  {
+    "start": 533.7,
+    "duration": 2.699,
+    "text": "object itself"
+  },
+  {
+    "start": 534.839,
+    "duration": 2.881,
+    "text": "so it is"
+  },
+  {
+    "start": 536.399,
+    "duration": 3.901,
+    "text": "efficient"
+  },
+  {
+    "start": 537.72,
+    "duration": 4.559,
+    "text": "third one is thread safe what does this"
+  },
+  {
+    "start": 540.3,
+    "duration": 3.84,
+    "text": "mean Kunal"
+  },
+  {
+    "start": 542.279,
+    "duration": 4.081,
+    "text": "it is thread safe"
+  },
+  {
+    "start": 544.14,
+    "duration": 5.16,
+    "text": "so"
+  },
+  {
+    "start": 546.36,
+    "duration": 4.62,
+    "text": "when we talk about thread safety in Java"
+  },
+  {
+    "start": 549.3,
+    "duration": 3.659,
+    "text": "let's say multiple threads are working"
+  },
+  {
+    "start": 550.98,
+    "duration": 4.26,
+    "text": "on the same data"
+  },
+  {
+    "start": 552.959,
+    "duration": 3.901,
+    "text": "okay and the value of that data is"
+  },
+  {
+    "start": 555.24,
+    "duration": 4.38,
+    "text": "changing so let's say you know what a"
+  },
+  {
+    "start": 556.86,
+    "duration": 3.84,
+    "text": "thread is Right a small small unit of"
+  },
+  {
+    "start": 559.62,
+    "duration": 3.0,
+    "text": "processes"
+  },
+  {
+    "start": 560.7,
+    "duration": 3.3,
+    "text": "study computer architecture if you don't"
+  },
+  {
+    "start": 562.62,
+    "duration": 3.48,
+    "text": "know this"
+  },
+  {
+    "start": 564.0,
+    "duration": 4.2,
+    "text": "um it's very simple threads processes"
+  },
+  {
+    "start": 566.1,
+    "duration": 3.96,
+    "text": "you know we all know this we have"
+  },
+  {
+    "start": 568.2,
+    "duration": 4.62,
+    "text": "covered it a little bit in the past but"
+  },
+  {
+    "start": 570.06,
+    "duration": 5.16,
+    "text": "I'll do a separate uh it's Advanced"
+  },
+  {
+    "start": 572.82,
+    "duration": 4.32,
+    "text": "concept so it is sometimes asked in Java"
+  },
+  {
+    "start": 575.22,
+    "duration": 3.6,
+    "text": "specific interviews so I'll talk more"
+  },
+  {
+    "start": 577.14,
+    "duration": 3.36,
+    "text": "about it in a separate video it requires"
+  },
+  {
+    "start": 578.82,
+    "duration": 3.54,
+    "text": "a separate video so for example let's"
+  },
+  {
+    "start": 580.5,
+    "duration": 3.66,
+    "text": "say processes multiple threads are like"
+  },
+  {
+    "start": 582.36,
+    "duration": 3.84,
+    "text": "processes let's say they are working on"
+  },
+  {
+    "start": 584.16,
+    "duration": 5.4,
+    "text": "same result let's say thread one is"
+  },
+  {
+    "start": 586.2,
+    "duration": 6.48,
+    "text": "doing some work in on this data thread"
+  },
+  {
+    "start": 589.56,
+    "duration": 4.8,
+    "text": "two is also doing some work in this data"
+  },
+  {
+    "start": 592.68,
+    "duration": 4.62,
+    "text": "data is same let's say in the memory"
+  },
+  {
+    "start": 594.36,
+    "duration": 4.68,
+    "text": "same location everywhere and there's"
+  },
+  {
+    "start": 597.3,
+    "duration": 4.92,
+    "text": "this one object and third one is working"
+  },
+  {
+    "start": 599.04,
+    "duration": 4.859,
+    "text": "on that object and third two is also"
+  },
+  {
+    "start": 602.22,
+    "duration": 3.36,
+    "text": "working on the same object"
+  },
+  {
+    "start": 603.899,
+    "duration": 3.481,
+    "text": "and let's say the value of this data is"
+  },
+  {
+    "start": 605.58,
+    "duration": 3.0,
+    "text": "being changed by whatever these things"
+  },
+  {
+    "start": 607.38,
+    "duration": 3.6,
+    "text": "are doing"
+  },
+  {
+    "start": 608.58,
+    "duration": 4.8,
+    "text": "now"
+  },
+  {
+    "start": 610.98,
+    "duration": 4.799,
+    "text": "when thread number one let's say is"
+  },
+  {
+    "start": 613.38,
+    "duration": 4.74,
+    "text": "already working on this data it is going"
+  },
+  {
+    "start": 615.779,
+    "duration": 4.141,
+    "text": "to prevent any other thread to work on"
+  },
+  {
+    "start": 618.12,
+    "duration": 3.719,
+    "text": "this data third one is going to be like"
+  },
+  {
+    "start": 619.92,
+    "duration": 3.78,
+    "text": "hey thread two I am working on this data"
+  },
+  {
+    "start": 621.839,
+    "duration": 3.841,
+    "text": "please don't work with it right now let"
+  },
+  {
+    "start": 623.7,
+    "duration": 5.34,
+    "text": "me finish first this is called thread"
+  },
+  {
+    "start": 625.68,
+    "duration": 5.219,
+    "text": "safety in simple terms"
+  },
+  {
+    "start": 629.04,
+    "duration": 4.38,
+    "text": "okay"
+  },
+  {
+    "start": 630.899,
+    "duration": 4.261,
+    "text": "but if these two are like no I don't"
+  },
+  {
+    "start": 633.42,
+    "duration": 3.66,
+    "text": "really care you are working on it and"
+  },
+  {
+    "start": 635.16,
+    "duration": 3.299,
+    "text": "changing some data in this object I will"
+  },
+  {
+    "start": 637.08,
+    "duration": 3.9,
+    "text": "also work and change some data in this"
+  },
+  {
+    "start": 638.459,
+    "duration": 6.541,
+    "text": "object that is thread and safety"
+  },
+  {
+    "start": 640.98,
+    "duration": 7.32,
+    "text": "so string buffer is thread safe"
+  },
+  {
+    "start": 645.0,
+    "duration": 4.8,
+    "text": "string buffer is thread save"
+  },
+  {
+    "start": 648.3,
+    "duration": 4.32,
+    "text": "sounds good"
+  },
+  {
+    "start": 649.8,
+    "duration": 4.68,
+    "text": "and that also makes it a little slower"
+  },
+  {
+    "start": 652.62,
+    "duration": 4.08,
+    "text": "because it threads if you know only one"
+  },
+  {
+    "start": 654.48,
+    "duration": 3.479,
+    "text": "third can access at one time to this"
+  },
+  {
+    "start": 656.7,
+    "duration": 3.0,
+    "text": "object"
+  },
+  {
+    "start": 657.959,
+    "duration": 3.841,
+    "text": "and one thing I'm going to mention over"
+  },
+  {
+    "start": 659.7,
+    "duration": 3.42,
+    "text": "here is difference between string buffer"
+  },
+  {
+    "start": 661.8,
+    "duration": 3.539,
+    "text": "and string Builder"
+  },
+  {
+    "start": 663.12,
+    "duration": 4.64,
+    "text": "string Builder is not thread safe that"
+  },
+  {
+    "start": 665.339,
+    "duration": 2.421,
+    "text": "is the difference"
+  },
+  {
+    "start": 671.04,
+    "duration": 3.6,
+    "text": "so in short if you are working with"
+  },
+  {
+    "start": 672.959,
+    "duration": 4.081,
+    "text": "multiple threads you need thread safety"
+  },
+  {
+    "start": 674.64,
+    "duration": 4.02,
+    "text": "use string buffer if you're not working"
+  },
+  {
+    "start": 677.04,
+    "duration": 5.16,
+    "text": "with multiple threads and you need it to"
+  },
+  {
+    "start": 678.66,
+    "duration": 4.919,
+    "text": "be faster use string Builder"
+  },
+  {
+    "start": 682.2,
+    "duration": 3.78,
+    "text": "simple stuff"
+  },
+  {
+    "start": 683.579,
+    "duration": 4.94,
+    "text": "very easy"
+  },
+  {
+    "start": 685.98,
+    "duration": 2.539,
+    "text": "cool"
+  },
+  {
+    "start": 689.279,
+    "duration": 3.18,
+    "text": "okay let's move forward okay one more"
+  },
+  {
+    "start": 691.14,
+    "duration": 3.3,
+    "text": "thing I want to mention is now some of"
+  },
+  {
+    "start": 692.459,
+    "duration": 5.0,
+    "text": "the constructors in string buffer this"
+  },
+  {
+    "start": 694.44,
+    "duration": 3.019,
+    "text": "is Constructor number one"
+  },
+  {
+    "start": 698.519,
+    "duration": 3.421,
+    "text": "Constructor type one when you're"
+  },
+  {
+    "start": 700.14,
+    "duration": 3.0,
+    "text": "creating an object of string buffer and"
+  },
+  {
+    "start": 701.94,
+    "duration": 3.12,
+    "text": "then we'll look into some of these"
+  },
+  {
+    "start": 703.14,
+    "duration": 3.72,
+    "text": "methods as well but Constructor number"
+  },
+  {
+    "start": 705.06,
+    "duration": 4.14,
+    "text": "one is something like this you just have"
+  },
+  {
+    "start": 706.86,
+    "duration": 4.2,
+    "text": "a simple simple Constructor it just"
+  },
+  {
+    "start": 709.2,
+    "duration": 5.759,
+    "text": "creates an empty string buffer over here"
+  },
+  {
+    "start": 711.06,
+    "duration": 5.88,
+    "text": "and it will have an initial capacity of"
+  },
+  {
+    "start": 714.959,
+    "duration": 3.721,
+    "text": "I'm not sure what it is you can do"
+  },
+  {
+    "start": 716.94,
+    "duration": 3.959,
+    "text": "control click go inside it I think it's"
+  },
+  {
+    "start": 718.68,
+    "duration": 4.68,
+    "text": "16 like 16 capacity of the initial"
+  },
+  {
+    "start": 720.899,
+    "duration": 5.341,
+    "text": "buffer but uh"
+  },
+  {
+    "start": 723.36,
+    "duration": 5.159,
+    "text": "you know because strings are what a"
+  },
+  {
+    "start": 726.24,
+    "duration": 4.26,
+    "text": "sequence of characters so initially the"
+  },
+  {
+    "start": 728.519,
+    "duration": 3.661,
+    "text": "16 is the empty"
+  },
+  {
+    "start": 730.5,
+    "duration": 3.3,
+    "text": "space that it has like okay I will have"
+  },
+  {
+    "start": 732.18,
+    "duration": 3.599,
+    "text": "it if you keep adding more and more then"
+  },
+  {
+    "start": 733.8,
+    "duration": 4.86,
+    "text": "it will you know double and copy and do"
+  },
+  {
+    "start": 735.779,
+    "duration": 4.861,
+    "text": "all sorts of things similar to"
+  },
+  {
+    "start": 738.66,
+    "duration": 4.5,
+    "text": "um arraylist if you watch the arraylist"
+  },
+  {
+    "start": 740.64,
+    "duration": 5.1,
+    "text": "playlist similar concept"
+  },
+  {
+    "start": 743.16,
+    "duration": 5.9,
+    "text": "one more thing is available"
+  },
+  {
+    "start": 745.74,
+    "duration": 3.32,
+    "text": "Constructor number two"
+  },
+  {
+    "start": 750.36,
+    "duration": 3.26,
+    "text": "so Constructor number two"
+  },
+  {
+    "start": 756.3,
+    "duration": 5.219,
+    "text": "string Builder 2 is"
+  },
+  {
+    "start": 758.82,
+    "duration": 6.5,
+    "text": "when you give it a string so you can"
+  },
+  {
+    "start": 761.519,
+    "duration": 3.801,
+    "text": "specify it the string over here"
+  },
+  {
+    "start": 765.42,
+    "duration": 4.26,
+    "text": "now it will create the string buffer"
+  },
+  {
+    "start": 766.86,
+    "duration": 5.52,
+    "text": "object but it is going to have"
+  },
+  {
+    "start": 769.68,
+    "duration": 6.44,
+    "text": "already a string initialized in it"
+  },
+  {
+    "start": 772.38,
+    "duration": 3.74,
+    "text": "last one is Constructor number three"
+  },
+  {
+    "start": 777.12,
+    "duration": 6.959,
+    "text": "here you can actually specify the"
+  },
+  {
+    "start": 780.42,
+    "duration": 6.9,
+    "text": "capacity of the empty string buffers"
+  },
+  {
+    "start": 784.079,
+    "duration": 6.301,
+    "text": "object initially let's say it's let's"
+  },
+  {
+    "start": 787.32,
+    "duration": 7.1,
+    "text": "say by default uh by default it's uh 16"
+  },
+  {
+    "start": 790.38,
+    "duration": 4.04,
+    "text": "I will make it 30."
+  },
+  {
+    "start": 795.48,
+    "duration": 3.599,
+    "text": "three types of string buffers"
+  },
+  {
+    "start": 797.519,
+    "duration": 4.26,
+    "text": "okay"
+  },
+  {
+    "start": 799.079,
+    "duration": 4.981,
+    "text": "cool let's take a look at some methods"
+  },
+  {
+    "start": 801.779,
+    "duration": 4.8,
+    "text": "this is the append method so basically"
+  },
+  {
+    "start": 804.06,
+    "duration": 4.86,
+    "text": "you can add stuff in it"
+  },
+  {
+    "start": 806.579,
+    "duration": 4.681,
+    "text": "Okay so"
+  },
+  {
+    "start": 808.92,
+    "duration": 4.56,
+    "text": "whatever currently we have in string"
+  },
+  {
+    "start": 811.26,
+    "duration": 3.84,
+    "text": "buffer it is going to add"
+  },
+  {
+    "start": 813.48,
+    "duration": 3.12,
+    "text": "the string that I have provided over"
+  },
+  {
+    "start": 815.1,
+    "duration": 2.76,
+    "text": "here in it"
+  },
+  {
+    "start": 816.6,
+    "duration": 2.64,
+    "text": "and it's not going to create a new"
+  },
+  {
+    "start": 817.86,
+    "duration": 3.18,
+    "text": "object it's going to modify that object"
+  },
+  {
+    "start": 819.24,
+    "duration": 3.899,
+    "text": "only"
+  },
+  {
+    "start": 821.04,
+    "duration": 6.539,
+    "text": "okay"
+  },
+  {
+    "start": 823.139,
+    "duration": 7.2,
+    "text": "so example if i k s p dot append"
+  },
+  {
+    "start": 827.579,
+    "duration": 4.32,
+    "text": "I say something like"
+  },
+  {
+    "start": 830.339,
+    "duration": 4.081,
+    "text": "is nice"
+  },
+  {
+    "start": 831.899,
+    "duration": 4.981,
+    "text": "then I run it"
+  },
+  {
+    "start": 834.42,
+    "duration": 5.219,
+    "text": "we make delves is nice"
+  },
+  {
+    "start": 836.88,
+    "duration": 4.32,
+    "text": "we make devs is nice it appended the"
+  },
+  {
+    "start": 839.639,
+    "duration": 3.361,
+    "text": "same thing it did not create a new"
+  },
+  {
+    "start": 841.2,
+    "duration": 3.96,
+    "text": "object okay"
+  },
+  {
+    "start": 843.0,
+    "duration": 3.959,
+    "text": "cool there's another method called the"
+  },
+  {
+    "start": 845.16,
+    "duration": 3.179,
+    "text": "insert method so basically if you want"
+  },
+  {
+    "start": 846.959,
+    "duration": 2.341,
+    "text": "to insert something at a particular"
+  },
+  {
+    "start": 848.339,
+    "duration": 2.461,
+    "text": "index"
+  },
+  {
+    "start": 849.3,
+    "duration": 5.099,
+    "text": "you can do that"
+  },
+  {
+    "start": 850.8,
+    "duration": 7.26,
+    "text": "so if I say s b Dot"
+  },
+  {
+    "start": 854.399,
+    "duration": 7.041,
+    "text": "insert at index number"
+  },
+  {
+    "start": 858.06,
+    "duration": 3.38,
+    "text": "2 I want to insert"
+  },
+  {
+    "start": 861.66,
+    "duration": 4.1,
+    "text": "Rahul"
+  },
+  {
+    "start": 863.1,
+    "duration": 2.66,
+    "text": "run"
+  },
+  {
+    "start": 866.94,
+    "duration": 2.78,
+    "text": "comma"
+  },
+  {
+    "start": 871.019,
+    "duration": 4.141,
+    "text": "V"
+  },
+  {
+    "start": 872.279,
+    "duration": 6.18,
+    "text": "0 1 index number two it inserted my"
+  },
+  {
+    "start": 875.16,
+    "duration": 4.739,
+    "text": "space Rahul space we Rahul make Dev is"
+  },
+  {
+    "start": 878.459,
+    "duration": 3.961,
+    "text": "nice"
+  },
+  {
+    "start": 879.899,
+    "duration": 5.24,
+    "text": "nice okay"
+  },
+  {
+    "start": 882.42,
+    "duration": 2.719,
+    "text": "very simple"
+  },
+  {
+    "start": 885.54,
+    "duration": 4.56,
+    "text": "this third one another one called"
+  },
+  {
+    "start": 887.699,
+    "duration": 4.5,
+    "text": "replace so you can replace the given"
+  },
+  {
+    "start": 890.1,
+    "duration": 4.739,
+    "text": "string with a specified like from a"
+  },
+  {
+    "start": 892.199,
+    "duration": 7.861,
+    "text": "specified index like beginning or the"
+  },
+  {
+    "start": 894.839,
+    "duration": 6.601,
+    "text": "like the end index so if I say that"
+  },
+  {
+    "start": 900.06,
+    "duration": 3.899,
+    "text": "I"
+  },
+  {
+    "start": 901.44,
+    "duration": 6.06,
+    "text": "remove this for now"
+  },
+  {
+    "start": 903.959,
+    "duration": 5.641,
+    "text": "and let's say I say"
+  },
+  {
+    "start": 907.5,
+    "duration": 5.1,
+    "text": "replace"
+  },
+  {
+    "start": 909.6,
+    "duration": 5.16,
+    "text": "from which index to which index"
+  },
+  {
+    "start": 912.6,
+    "duration": 3.419,
+    "text": "from let's say index number one which is"
+  },
+  {
+    "start": 914.76,
+    "duration": 6.06,
+    "text": "e"
+  },
+  {
+    "start": 916.019,
+    "duration": 6.481,
+    "text": "to index number 0 1 2 3 4."
+  },
+  {
+    "start": 920.82,
+    "duration": 4.319,
+    "text": "so four"
+  },
+  {
+    "start": 922.5,
+    "duration": 4.62,
+    "text": "now five because this last one is not"
+  },
+  {
+    "start": 925.139,
+    "duration": 3.901,
+    "text": "inclusive this end index is not"
+  },
+  {
+    "start": 927.12,
+    "duration": 5.24,
+    "text": "inclusive if I write 5 here it will go"
+  },
+  {
+    "start": 929.04,
+    "duration": 6.799,
+    "text": "till 4 only so means one till four"
+  },
+  {
+    "start": 932.36,
+    "duration": 6.4,
+    "text": "one two three four"
+  },
+  {
+    "start": 935.839,
+    "duration": 4.661,
+    "text": "emac will be EMA k"
+  },
+  {
+    "start": 938.76,
+    "duration": 5.16,
+    "text": "e m a k"
+  },
+  {
+    "start": 940.5,
+    "duration": 6.26,
+    "text": "will be replaced by let us say"
+  },
+  {
+    "start": 943.92,
+    "duration": 2.84,
+    "text": "kushwaha"
+  },
+  {
+    "start": 948.779,
+    "duration": 3.141,
+    "text": "oh sorry"
+  },
+  {
+    "start": 953.279,
+    "duration": 4.821,
+    "text": "so e m a k is replaced by kushwaha"
+  },
+  {
+    "start": 962.82,
+    "duration": 3.3,
+    "text": "pretty cool"
+  },
+  {
+    "start": 964.5,
+    "duration": 3.72,
+    "text": "so if you want to replace so you can see"
+  },
+  {
+    "start": 966.12,
+    "duration": 3.659,
+    "text": "so many methods is providing us"
+  },
+  {
+    "start": 968.22,
+    "duration": 3.66,
+    "text": "it's also the delete one which can"
+  },
+  {
+    "start": 969.779,
+    "duration": 7.041,
+    "text": "delete the string from a"
+  },
+  {
+    "start": 971.88,
+    "duration": 4.94,
+    "text": "from a specified index again so if I say"
+  },
+  {
+    "start": 978.12,
+    "duration": 2.6,
+    "text": "delete"
+  },
+  {
+    "start": 982.44,
+    "duration": 3.959,
+    "text": "from let's say index number one to index"
+  },
+  {
+    "start": 984.839,
+    "duration": 4.261,
+    "text": "number five delete"
+  },
+  {
+    "start": 986.399,
+    "duration": 7.161,
+    "text": "so index number one two three four five"
+  },
+  {
+    "start": 989.1,
+    "duration": 4.46,
+    "text": "so Kush will be deleted"
+  },
+  {
+    "start": 994.68,
+    "duration": 4.14,
+    "text": "see"
+  },
+  {
+    "start": 996.6,
+    "duration": 3.539,
+    "text": "very simple"
+  },
+  {
+    "start": 998.82,
+    "duration": 3.36,
+    "text": "cuckoo"
+  },
+  {
+    "start": 1000.139,
+    "duration": 5.161,
+    "text": "you can also reverse"
+  },
+  {
+    "start": 1002.18,
+    "duration": 6.5,
+    "text": "say SP dot reverse"
+  },
+  {
+    "start": 1005.3,
+    "duration": 3.38,
+    "text": "it will reverse the string"
+  },
+  {
+    "start": 1009.8,
+    "duration": 4.44,
+    "text": "reversed so these will be beneficial for"
+  },
+  {
+    "start": 1012.259,
+    "duration": 3.841,
+    "text": "you if you want to you know play around"
+  },
+  {
+    "start": 1014.24,
+    "duration": 3.779,
+    "text": "with stuff and let's say you have a lot"
+  },
+  {
+    "start": 1016.1,
+    "duration": 3.299,
+    "text": "of inputs you don't want to create new"
+  },
+  {
+    "start": 1018.019,
+    "duration": 2.88,
+    "text": "string objects again and again and again"
+  },
+  {
+    "start": 1019.399,
+    "duration": 2.401,
+    "text": "because they will be keeping there in"
+  },
+  {
+    "start": 1020.899,
+    "duration": 3.42,
+    "text": "the memory"
+  },
+  {
+    "start": 1021.8,
+    "duration": 9.379,
+    "text": "so that's why"
+  },
+  {
+    "start": 1024.319,
+    "duration": 6.86,
+    "text": "uh try not to you know uh make so many"
+  },
+  {
+    "start": 1032.0,
+    "duration": 2.939,
+    "text": "objects of strings that you are not"
+  },
+  {
+    "start": 1033.679,
+    "duration": 3.541,
+    "text": "using"
+  },
+  {
+    "start": 1034.939,
+    "duration": 4.201,
+    "text": "so one more thing you can do is if I"
+  },
+  {
+    "start": 1037.22,
+    "duration": 4.52,
+    "text": "want to check what the initial capacity"
+  },
+  {
+    "start": 1039.14,
+    "duration": 2.6,
+    "text": "is let's say"
+  },
+  {
+    "start": 1046.64,
+    "duration": 5.94,
+    "text": "string Builder dot Kappa City you can"
+  },
+  {
+    "start": 1050.179,
+    "duration": 5.461,
+    "text": "also use this"
+  },
+  {
+    "start": 1052.58,
+    "duration": 6.12,
+    "text": "think it should be 16 by default Yeah by"
+  },
+  {
+    "start": 1055.64,
+    "duration": 7.02,
+    "text": "default is 16. okay you can change it"
+  },
+  {
+    "start": 1058.7,
+    "duration": 5.76,
+    "text": "if I print sb3. capacity"
+  },
+  {
+    "start": 1062.66,
+    "duration": 4.74,
+    "text": "it should give me 30 because I already"
+  },
+  {
+    "start": 1064.46,
+    "duration": 4.8,
+    "text": "specified 30."
+  },
+  {
+    "start": 1067.4,
+    "duration": 3.659,
+    "text": "30."
+  },
+  {
+    "start": 1069.26,
+    "duration": 3.96,
+    "text": "okay"
+  },
+  {
+    "start": 1071.059,
+    "duration": 4.761,
+    "text": "very easy stuff"
+  },
+  {
+    "start": 1073.22,
+    "duration": 2.6,
+    "text": "pretty cool"
+  },
+  {
+    "start": 1076.28,
+    "duration": 3.2,
+    "text": "so that's string buffer"
+  },
+  {
+    "start": 1080.539,
+    "duration": 2.541,
+    "text": "right"
+  },
+  {
+    "start": 1084.02,
+    "duration": 4.92,
+    "text": "let's move forward okay let's say you"
+  },
+  {
+    "start": 1085.76,
+    "duration": 7.52,
+    "text": "want to create a random string so"
+  },
+  {
+    "start": 1088.94,
+    "duration": 4.34,
+    "text": "random string dot Java"
+  },
+  {
+    "start": 1096.74,
+    "duration": 5.34,
+    "text": "class random string and I want to"
+  },
+  {
+    "start": 1099.02,
+    "duration": 4.98,
+    "text": "generate a random string so"
+  },
+  {
+    "start": 1102.08,
+    "duration": 5.18,
+    "text": "how do we do that"
+  },
+  {
+    "start": 1104.0,
+    "duration": 3.26,
+    "text": "let's say I have a"
+  },
+  {
+    "start": 1108.2,
+    "duration": 5.94,
+    "text": "Generate random string of this size"
+  },
+  {
+    "start": 1112.1,
+    "duration": 3.54,
+    "text": "no problem"
+  },
+  {
+    "start": 1114.14,
+    "duration": 3.779,
+    "text": "no problem at all"
+  },
+  {
+    "start": 1115.64,
+    "duration": 7.2,
+    "text": "so since I want to create a random"
+  },
+  {
+    "start": 1117.919,
+    "duration": 7.821,
+    "text": "string how can I do that think about it"
+  },
+  {
+    "start": 1122.84,
+    "duration": 7.079,
+    "text": "how can we do that"
+  },
+  {
+    "start": 1125.74,
+    "duration": 6.04,
+    "text": "we get a random character every time and"
+  },
+  {
+    "start": 1129.919,
+    "duration": 3.721,
+    "text": "append that in a string"
+  },
+  {
+    "start": 1131.78,
+    "duration": 4.139,
+    "text": "if it's saying create a random string of"
+  },
+  {
+    "start": 1133.64,
+    "duration": 4.919,
+    "text": "size 5 okay I will get a random"
+  },
+  {
+    "start": 1135.919,
+    "duration": 4.441,
+    "text": "character a from the alphabet add it in"
+  },
+  {
+    "start": 1138.559,
+    "duration": 3.48,
+    "text": "the string random character two added in"
+  },
+  {
+    "start": 1140.36,
+    "duration": 3.42,
+    "text": "the string random character three added"
+  },
+  {
+    "start": 1142.039,
+    "duration": 4.38,
+    "text": "it let me show you hold on so here let's"
+  },
+  {
+    "start": 1143.78,
+    "duration": 4.5,
+    "text": "say you're creating a random string then"
+  },
+  {
+    "start": 1146.419,
+    "duration": 4.201,
+    "text": "let's say you want to say"
+  },
+  {
+    "start": 1148.28,
+    "duration": 3.54,
+    "text": "length should be equal to 5 then what"
+  },
+  {
+    "start": 1150.62,
+    "duration": 4.08,
+    "text": "you can do is let's say you have an"
+  },
+  {
+    "start": 1151.82,
+    "duration": 4.26,
+    "text": "empty string over here empty you get a"
+  },
+  {
+    "start": 1154.7,
+    "duration": 4.02,
+    "text": "random character let's say it gives you"
+  },
+  {
+    "start": 1156.08,
+    "duration": 5.459,
+    "text": "X so we will add X in it"
+  },
+  {
+    "start": 1158.72,
+    "duration": 5.94,
+    "text": "then it gives you"
+  },
+  {
+    "start": 1161.539,
+    "duration": 4.981,
+    "text": "P you will add p in it so on and so"
+  },
+  {
+    "start": 1164.66,
+    "duration": 3.72,
+    "text": "forth but you see what is happening if"
+  },
+  {
+    "start": 1166.52,
+    "duration": 4.2,
+    "text": "you take string"
+  },
+  {
+    "start": 1168.38,
+    "duration": 4.919,
+    "text": "if you take string then Str will be"
+  },
+  {
+    "start": 1170.72,
+    "duration": 6.3,
+    "text": "pointing to let us say empty"
+  },
+  {
+    "start": 1173.299,
+    "duration": 7.681,
+    "text": "in the Heap and then it will point to"
+  },
+  {
+    "start": 1177.02,
+    "duration": 7.26,
+    "text": "m t plus a then it will point to"
+  },
+  {
+    "start": 1180.98,
+    "duration": 6.74,
+    "text": "m t plus a plus P something like this so"
+  },
+  {
+    "start": 1184.28,
+    "duration": 3.44,
+    "text": "these all are being wasted"
+  },
+  {
+    "start": 1188.24,
+    "duration": 5.52,
+    "text": "hence we are not going to use this we"
+  },
+  {
+    "start": 1189.86,
+    "duration": 6.54,
+    "text": "are just going to use string buffer"
+  },
+  {
+    "start": 1193.76,
+    "duration": 3.9,
+    "text": "just use string buffer"
+  },
+  {
+    "start": 1196.4,
+    "duration": 4.32,
+    "text": "but the real question is how can you"
+  },
+  {
+    "start": 1197.66,
+    "duration": 4.74,
+    "text": "find random elements like this"
+  },
+  {
+    "start": 1200.72,
+    "duration": 2.88,
+    "text": "have you heard about the conversion we"
+  },
+  {
+    "start": 1202.4,
+    "duration": 3.24,
+    "text": "did the conversion thing right when we"
+  },
+  {
+    "start": 1203.6,
+    "duration": 5.78,
+    "text": "were learning data types how you can"
+  },
+  {
+    "start": 1205.64,
+    "duration": 3.74,
+    "text": "convert an integer into a character"
+  },
+  {
+    "start": 1209.96,
+    "duration": 6.18,
+    "text": "we did that in the previous videos"
+  },
+  {
+    "start": 1214.34,
+    "duration": 4.32,
+    "text": "right"
+  },
+  {
+    "start": 1216.14,
+    "duration": 4.74,
+    "text": "so get the ASCA value how from where it"
+  },
+  {
+    "start": 1218.66,
+    "duration": 5.639,
+    "text": "starts and stuff like that so let's say"
+  },
+  {
+    "start": 1220.88,
+    "duration": 5.22,
+    "text": "we start from around let's say 97 for a"
+  },
+  {
+    "start": 1224.299,
+    "duration": 5.961,
+    "text": "we start that"
+  },
+  {
+    "start": 1226.1,
+    "duration": 4.16,
+    "text": "and if I just say let us say"
+  },
+  {
+    "start": 1231.38,
+    "duration": 3.2,
+    "text": "let's say int"
+  },
+  {
+    "start": 1234.98,
+    "duration": 4.559,
+    "text": "random character let's say for example"
+  },
+  {
+    "start": 1237.38,
+    "duration": 5.46,
+    "text": "is some number 97"
+  },
+  {
+    "start": 1239.539,
+    "duration": 5.401,
+    "text": "then if I pass care with it"
+  },
+  {
+    "start": 1242.84,
+    "duration": 4.44,
+    "text": "care of"
+  },
+  {
+    "start": 1244.94,
+    "duration": 5.119,
+    "text": "random character this can be stored in a"
+  },
+  {
+    "start": 1247.28,
+    "duration": 2.779,
+    "text": "CH character"
+  },
+  {
+    "start": 1251.059,
+    "duration": 3.081,
+    "text": "okay care ch"
+  },
+  {
+    "start": 1255.5,
+    "duration": 4.02,
+    "text": "o check out the type"
+  },
+  {
+    "start": 1257.36,
+    "duration": 3.6,
+    "text": "casting conversion video you have done"
+  },
+  {
+    "start": 1259.52,
+    "duration": 3.12,
+    "text": "this in the past"
+  },
+  {
+    "start": 1260.96,
+    "duration": 3.719,
+    "text": "but let's say we have 97 so how do we"
+  },
+  {
+    "start": 1262.64,
+    "duration": 4.2,
+    "text": "make changes in it you can use a random"
+  },
+  {
+    "start": 1264.679,
+    "duration": 4.641,
+    "text": "uh you know java.util.random you can"
+  },
+  {
+    "start": 1266.84,
+    "duration": 2.48,
+    "text": "import that"
+  },
+  {
+    "start": 1272.32,
+    "duration": 2.8,
+    "text": "java.util.random and I can get some"
+  },
+  {
+    "start": 1274.1,
+    "duration": 2.64,
+    "text": "random"
+  },
+  {
+    "start": 1275.12,
+    "duration": 5.64,
+    "text": "let's say"
+  },
+  {
+    "start": 1276.74,
+    "duration": 6.319,
+    "text": "this is 97 then I can add in an integer"
+  },
+  {
+    "start": 1280.76,
+    "duration": 2.299,
+    "text": "to it"
+  },
+  {
+    "start": 1283.34,
+    "duration": 5.88,
+    "text": "how many characters do we have"
+  },
+  {
+    "start": 1287.12,
+    "duration": 4.82,
+    "text": "26"
+  },
+  {
+    "start": 1289.22,
+    "duration": 2.72,
+    "text": "so"
+  },
+  {
+    "start": 1292.76,
+    "duration": 2.96,
+    "text": "26"
+  },
+  {
+    "start": 1296.299,
+    "duration": 8.701,
+    "text": "I want to take a random from 26."
+  },
+  {
+    "start": 1300.62,
+    "duration": 7.38,
+    "text": "so I can say 26 multiplied by a random"
+  },
+  {
+    "start": 1305.0,
+    "duration": 5.52,
+    "text": "float number this will give me between 0"
+  },
+  {
+    "start": 1308.0,
+    "duration": 5.24,
+    "text": "to 26."
+  },
+  {
+    "start": 1310.52,
+    "duration": 2.72,
+    "text": "very simple"
+  },
+  {
+    "start": 1315.02,
+    "duration": 3.0,
+    "text": "sounds good"
+  },
+  {
+    "start": 1316.58,
+    "duration": 3.479,
+    "text": "you know what random float gives right"
+  },
+  {
+    "start": 1318.02,
+    "duration": 3.6,
+    "text": "let me show you"
+  },
+  {
+    "start": 1320.059,
+    "duration": 3.181,
+    "text": "let's see it's very simple"
+  },
+  {
+    "start": 1321.62,
+    "duration": 5.1,
+    "text": "if you're not able to see I will just"
+  },
+  {
+    "start": 1323.24,
+    "duration": 4.919,
+    "text": "zoom out see the little formula"
+  },
+  {
+    "start": 1326.72,
+    "duration": 4.439,
+    "text": "I'll show you a dry run then you'll"
+  },
+  {
+    "start": 1328.159,
+    "duration": 6.681,
+    "text": "understand so here if I am over here"
+  },
+  {
+    "start": 1331.159,
+    "duration": 3.681,
+    "text": "and here if I just say"
+  },
+  {
+    "start": 1336.08,
+    "duration": 6.26,
+    "text": "import java.util Dot"
+  },
+  {
+    "start": 1339.559,
+    "duration": 2.781,
+    "text": "random"
+  },
+  {
+    "start": 1342.74,
+    "duration": 3.919,
+    "text": "and here I can just say"
+  },
+  {
+    "start": 1347.659,
+    "duration": 4.621,
+    "text": "print"
+  },
+  {
+    "start": 1349.76,
+    "duration": 6.419,
+    "text": "uh random"
+  },
+  {
+    "start": 1352.28,
+    "duration": 3.899,
+    "text": "dot next plot"
+  },
+  {
+    "start": 1358.64,
+    "duration": 3.26,
+    "text": "then you can see what is happening"
+  },
+  {
+    "start": 1365.0,
+    "duration": 3.0,
+    "text": "sorry"
+  },
+  {
+    "start": 1368.419,
+    "duration": 6.021,
+    "text": "did not create the object"
+  },
+  {
+    "start": 1371.059,
+    "duration": 3.381,
+    "text": "so the reference yeah"
+  },
+  {
+    "start": 1375.2,
+    "duration": 2.78,
+    "text": "run this"
+  },
+  {
+    "start": 1412.28,
+    "duration": 3.779,
+    "text": "oh"
+  },
+  {
+    "start": 1414.38,
+    "duration": 4.14,
+    "text": "because it's running all the files at"
+  },
+  {
+    "start": 1416.059,
+    "duration": 5.821,
+    "text": "once so it was like now this file has"
+  },
+  {
+    "start": 1418.52,
+    "duration": 5.58,
+    "text": "some error that makes sense"
+  },
+  {
+    "start": 1421.88,
+    "duration": 4.74,
+    "text": "so you can see it's giving me a random"
+  },
+  {
+    "start": 1424.1,
+    "duration": 6.9,
+    "text": "from 0 to 1."
+  },
+  {
+    "start": 1426.62,
+    "duration": 7.32,
+    "text": "see zero to one so if I do 0.5 integer"
+  },
+  {
+    "start": 1431.0,
+    "duration": 4.14,
+    "text": "value into 26 it will give me what"
+  },
+  {
+    "start": 1433.94,
+    "duration": 5.0,
+    "text": "13"
+  },
+  {
+    "start": 1435.14,
+    "duration": 3.8,
+    "text": "if it is 1 it will give me what"
+  },
+  {
+    "start": 1440.179,
+    "duration": 5.041,
+    "text": "1"
+  },
+  {
+    "start": 1442.4,
+    "duration": 5.34,
+    "text": "so here basically now I can say"
+  },
+  {
+    "start": 1445.22,
+    "duration": 5.459,
+    "text": "that"
+  },
+  {
+    "start": 1447.74,
+    "duration": 8.12,
+    "text": "you get the idea right so now 97 plus"
+  },
+  {
+    "start": 1450.679,
+    "duration": 5.181,
+    "text": "any number from 1 to 26 or 0 to 26."
+  },
+  {
+    "start": 1456.02,
+    "duration": 3.36,
+    "text": "okay"
+  },
+  {
+    "start": 1458.0,
+    "duration": 2.88,
+    "text": "so it will be"
+  },
+  {
+    "start": 1459.38,
+    "duration": 3.24,
+    "text": "that s Square value then it will just"
+  },
+  {
+    "start": 1460.88,
+    "duration": 4.32,
+    "text": "convert it into integer"
+  },
+  {
+    "start": 1462.62,
+    "duration": 4.82,
+    "text": "so for example if I show you this over"
+  },
+  {
+    "start": 1465.2,
+    "duration": 2.24,
+    "text": "here"
+  },
+  {
+    "start": 1467.78,
+    "duration": 5.899,
+    "text": "system.out Dot println"
+  },
+  {
+    "start": 1470.9,
+    "duration": 2.779,
+    "text": "I say"
+  },
+  {
+    "start": 1477.26,
+    "duration": 4.44,
+    "text": "care of"
+  },
+  {
+    "start": 1478.7,
+    "duration": 3.0,
+    "text": "97."
+  },
+  {
+    "start": 1483.32,
+    "duration": 3.599,
+    "text": "small a"
+  },
+  {
+    "start": 1484.82,
+    "duration": 6.26,
+    "text": "97 plus 1"
+  },
+  {
+    "start": 1486.919,
+    "duration": 4.161,
+    "text": "which is 98 small B"
+  },
+  {
+    "start": 1492.86,
+    "duration": 3.02,
+    "text": "so on and so forth"
+  },
+  {
+    "start": 1496.4,
+    "duration": 6.659,
+    "text": "okay so 97 plus any number 026"
+  },
+  {
+    "start": 1500.179,
+    "duration": 5.961,
+    "text": "less than that and um"
+  },
+  {
+    "start": 1503.059,
+    "duration": 3.081,
+    "text": "getting a random character"
+  },
+  {
+    "start": 1506.299,
+    "duration": 5.0,
+    "text": "okay hope you're understanding how we"
+  },
+  {
+    "start": 1508.34,
+    "duration": 2.959,
+    "text": "are getting random character"
+  },
+  {
+    "start": 1513.799,
+    "duration": 2.421,
+    "text": "okay"
+  },
+  {
+    "start": 1516.799,
+    "duration": 5.841,
+    "text": "string buffer"
+  },
+  {
+    "start": 1519.08,
+    "duration": 3.56,
+    "text": "string buffer is equal to new"
+  },
+  {
+    "start": 1523.159,
+    "duration": 4.321,
+    "text": "string buffer"
+  },
+  {
+    "start": 1524.779,
+    "duration": 5.421,
+    "text": "initial size is the size"
+  },
+  {
+    "start": 1527.48,
+    "duration": 2.72,
+    "text": "not a problem"
+  },
+  {
+    "start": 1533.179,
+    "duration": 6.421,
+    "text": "random random is equal to new"
+  },
+  {
+    "start": 1536.6,
+    "duration": 6.959,
+    "text": "random not a problem just a simple for"
+  },
+  {
+    "start": 1539.6,
+    "duration": 5.52,
+    "text": "Loop I is equal to 0 I is less than"
+  },
+  {
+    "start": 1543.559,
+    "duration": 4.041,
+    "text": "size and I"
+  },
+  {
+    "start": 1545.12,
+    "duration": 2.48,
+    "text": "plus plus"
+  },
+  {
+    "start": 1548.659,
+    "duration": 5.301,
+    "text": "random character is equal to 97 Plus"
+  },
+  {
+    "start": 1554.419,
+    "duration": 6.561,
+    "text": "convert this float into an integer"
+  },
+  {
+    "start": 1557.539,
+    "duration": 3.441,
+    "text": "random Dot"
+  },
+  {
+    "start": 1561.14,
+    "duration": 5.779,
+    "text": "get float"
+  },
+  {
+    "start": 1563.12,
+    "duration": 3.799,
+    "text": "multiplied by 26."
+  },
+  {
+    "start": 1568.4,
+    "duration": 4.159,
+    "text": "string buffer Dot append"
+  },
+  {
+    "start": 1573.62,
+    "duration": 5.36,
+    "text": "character of"
+  },
+  {
+    "start": 1576.02,
+    "duration": 2.96,
+    "text": "random care"
+  },
+  {
+    "start": 1579.919,
+    "duration": 4.26,
+    "text": "then I'm just going to say return"
+  },
+  {
+    "start": 1582.08,
+    "duration": 4.52,
+    "text": "string buffer dot 2"
+  },
+  {
+    "start": 1584.179,
+    "duration": 2.421,
+    "text": "string"
+  },
+  {
+    "start": 1589.159,
+    "duration": 5.221,
+    "text": "make sense"
+  },
+  {
+    "start": 1591.919,
+    "duration": 6.36,
+    "text": "here I will just say"
+  },
+  {
+    "start": 1594.38,
+    "duration": 7.159,
+    "text": "in N is equal to let's say initially 20"
+  },
+  {
+    "start": 1598.279,
+    "duration": 3.26,
+    "text": "name is equal to"
+  },
+  {
+    "start": 1604.88,
+    "duration": 2.72,
+    "text": "generate"
+  },
+  {
+    "start": 1611.0,
+    "duration": 3.26,
+    "text": "actually let's say"
+  },
+  {
+    "start": 1615.08,
+    "duration": 2.78,
+    "text": "size n"
+  },
+  {
+    "start": 1655.46,
+    "duration": 4.339,
+    "text": "ah random string dot generate"
+  },
+  {
+    "start": 1669.98,
+    "duration": 2.66,
+    "text": "foreign"
+  },
+  {
+    "start": 1692.9,
+    "duration": 3.899,
+    "text": "okay random string"
+  },
+  {
+    "start": 1694.7,
+    "duration": 4.14,
+    "text": "of size 20."
+  },
+  {
+    "start": 1696.799,
+    "duration": 3.541,
+    "text": "very simple stuff"
+  },
+  {
+    "start": 1698.84,
+    "duration": 3.6,
+    "text": "so keep debugging like this you know if"
+  },
+  {
+    "start": 1700.34,
+    "duration": 2.76,
+    "text": "you get stuck no worries"
+  },
+  {
+    "start": 1702.44,
+    "duration": 2.099,
+    "text": "um"
+  },
+  {
+    "start": 1703.1,
+    "duration": 3.54,
+    "text": "if you're getting stuck at stuff like"
+  },
+  {
+    "start": 1704.539,
+    "duration": 4.081,
+    "text": "this it means you're good because you"
+  },
+  {
+    "start": 1706.64,
+    "duration": 3.659,
+    "text": "are not memorizing these things so I"
+  },
+  {
+    "start": 1708.62,
+    "duration": 3.72,
+    "text": "would say dive into the"
+  },
+  {
+    "start": 1710.299,
+    "duration": 4.081,
+    "text": "classes see all the other functions and"
+  },
+  {
+    "start": 1712.34,
+    "duration": 3.36,
+    "text": "stuff and methods but you can run it"
+  },
+  {
+    "start": 1714.38,
+    "duration": 4.799,
+    "text": "many times it will give you a random"
+  },
+  {
+    "start": 1715.7,
+    "duration": 4.859,
+    "text": "string of size 20."
+  },
+  {
+    "start": 1719.179,
+    "duration": 3.181,
+    "text": "very cool"
+  },
+  {
+    "start": 1720.559,
+    "duration": 3.48,
+    "text": "and the good thing is it's not creating"
+  },
+  {
+    "start": 1722.36,
+    "duration": 3.54,
+    "text": "20 individual objects it's making change"
+  },
+  {
+    "start": 1724.039,
+    "duration": 4.88,
+    "text": "in that one only"
+  },
+  {
+    "start": 1725.9,
+    "duration": 3.019,
+    "text": "it's the beauty of it"
+  },
+  {
+    "start": 1730.039,
+    "duration": 3.361,
+    "text": "okay"
+  },
+  {
+    "start": 1731.72,
+    "duration": 4.04,
+    "text": "sounds good"
+  },
+  {
+    "start": 1733.4,
+    "duration": 6.62,
+    "text": "one more thing I want to show you is"
+  },
+  {
+    "start": 1735.76,
+    "duration": 4.26,
+    "text": "uh removing white spaces"
+  },
+  {
+    "start": 1741.38,
+    "duration": 5.399,
+    "text": "for example"
+  },
+  {
+    "start": 1743.779,
+    "duration": 6.26,
+    "text": "I have a string"
+  },
+  {
+    "start": 1746.779,
+    "duration": 3.26,
+    "text": "sentence is equal to"
+  },
+  {
+    "start": 1750.44,
+    "duration": 2.839,
+    "text": "something like"
+  },
+  {
+    "start": 1759.44,
+    "duration": 4.8,
+    "text": "multiple"
+  },
+  {
+    "start": 1761.299,
+    "duration": 5.581,
+    "text": "multiple spaces or something okay"
+  },
+  {
+    "start": 1764.24,
+    "duration": 4.02,
+    "text": "you want to remove these pieces"
+  },
+  {
+    "start": 1766.88,
+    "duration": 3.32,
+    "text": "okay"
+  },
+  {
+    "start": 1768.26,
+    "duration": 5.36,
+    "text": "so"
+  },
+  {
+    "start": 1770.2,
+    "duration": 3.42,
+    "text": "system.out.print Ln"
+  },
+  {
+    "start": 1775.46,
+    "duration": 2.719,
+    "text": "sentence"
+  },
+  {
+    "start": 1778.58,
+    "duration": 4.5,
+    "text": "original sentence is this one how can we"
+  },
+  {
+    "start": 1781.1,
+    "duration": 3.9,
+    "text": "remove it"
+  },
+  {
+    "start": 1783.08,
+    "duration": 4.62,
+    "text": "so what you can do is"
+  },
+  {
+    "start": 1785.0,
+    "duration": 5.659,
+    "text": "sentence Dot"
+  },
+  {
+    "start": 1787.7,
+    "duration": 2.959,
+    "text": "replace all"
+  },
+  {
+    "start": 1794.96,
+    "duration": 4.16,
+    "text": "space with nothing"
+  },
+  {
+    "start": 1800.299,
+    "duration": 4.26,
+    "text": "run this"
+  },
+  {
+    "start": 1801.919,
+    "duration": 5.401,
+    "text": "original sentence so many white spaces"
+  },
+  {
+    "start": 1804.559,
+    "duration": 4.081,
+    "text": "last sentence no white spaces"
+  },
+  {
+    "start": 1807.32,
+    "duration": 4.14,
+    "text": "why am i showing you these things"
+  },
+  {
+    "start": 1808.64,
+    "duration": 4.38,
+    "text": "because I want you to do a deep dive see"
+  },
+  {
+    "start": 1811.46,
+    "duration": 4.459,
+    "text": "all the methods that are available that"
+  },
+  {
+    "start": 1813.02,
+    "duration": 2.899,
+    "text": "you can perform on strings"
+  },
+  {
+    "start": 1817.039,
+    "duration": 2.461,
+    "text": "okay"
+  },
+  {
+    "start": 1818.12,
+    "duration": 3.36,
+    "text": "see all the methods that you can perform"
+  },
+  {
+    "start": 1819.5,
+    "duration": 4.799,
+    "text": "on string another one for example I can"
+  },
+  {
+    "start": 1821.48,
+    "duration": 3.84,
+    "text": "go on and on let's say you need to"
+  },
+  {
+    "start": 1824.299,
+    "duration": 5.12,
+    "text": "split"
+  },
+  {
+    "start": 1825.32,
+    "duration": 4.099,
+    "text": "something so let's say string"
+  },
+  {
+    "start": 1829.88,
+    "duration": 7.399,
+    "text": "ARR is equal to Kunal apurv Rahul"
+  },
+  {
+    "start": 1837.86,
+    "duration": 4.919,
+    "text": "snehal"
+  },
+  {
+    "start": 1840.14,
+    "duration": 5.659,
+    "text": "and I do I need to split this"
+  },
+  {
+    "start": 1842.779,
+    "duration": 3.02,
+    "text": "so string"
+  },
+  {
+    "start": 1848.6,
+    "duration": 6.02,
+    "text": "names is equal to what"
+  },
+  {
+    "start": 1850.64,
+    "duration": 3.98,
+    "text": "array dot split"
+  },
+  {
+    "start": 1855.44,
+    "duration": 4.68,
+    "text": "with space"
+  },
+  {
+    "start": 1857.36,
+    "duration": 6.439,
+    "text": "so in this string wherever there is"
+  },
+  {
+    "start": 1860.12,
+    "duration": 3.679,
+    "text": "space cut it from there"
+  },
+  {
+    "start": 1864.2,
+    "duration": 3.199,
+    "text": "then I can just print it"
+  },
+  {
+    "start": 1868.1,
+    "duration": 3.72,
+    "text": "you know how to print arrays right"
+  },
+  {
+    "start": 1869.48,
+    "duration": 3.72,
+    "text": "arrays.to string"
+  },
+  {
+    "start": 1871.82,
+    "duration": 3.62,
+    "text": "we have covered this in the array"
+  },
+  {
+    "start": 1873.2,
+    "duration": 2.24,
+    "text": "section"
+  },
+  {
+    "start": 1875.539,
+    "duration": 4.26,
+    "text": "foreign"
+  },
+  {
+    "start": 1877.22,
+    "duration": 5.54,
+    "text": "it should give me an array of size 4"
+  },
+  {
+    "start": 1879.799,
+    "duration": 2.961,
+    "text": "with these four names"
+  },
+  {
+    "start": 1886.039,
+    "duration": 3.481,
+    "text": "import java.util.arrays"
+  },
+  {
+    "start": 1896.539,
+    "duration": 5.181,
+    "text": "hmm"
+  },
+  {
+    "start": 1897.74,
+    "duration": 3.98,
+    "text": "arrow is not two string what names"
+  },
+  {
+    "start": 1903.2,
+    "duration": 6.979,
+    "text": "see"
+  },
+  {
+    "start": 1905.08,
+    "duration": 5.099,
+    "text": "if you want to split it across comma"
+  },
+  {
+    "start": 1910.52,
+    "duration": 3.379,
+    "text": "let's say these were commas instead of"
+  },
+  {
+    "start": 1912.679,
+    "duration": 3.661,
+    "text": "spaces"
+  },
+  {
+    "start": 1913.899,
+    "duration": 5.101,
+    "text": "split it across commas"
+  },
+  {
+    "start": 1916.34,
+    "duration": 2.66,
+    "text": "not a problem"
+  },
+  {
+    "start": 1919.159,
+    "duration": 2.661,
+    "text": "not a problem"
+  },
+  {
+    "start": 1923.12,
+    "duration": 2.539,
+    "text": "okay"
+  },
+  {
+    "start": 1925.94,
+    "duration": 4.88,
+    "text": "sound good so one more thing I want to"
+  },
+  {
+    "start": 1928.34,
+    "duration": 2.48,
+    "text": "show you is"
+  },
+  {
+    "start": 1931.039,
+    "duration": 3.181,
+    "text": "rounding off sometimes this is one of"
+  },
+  {
+    "start": 1933.08,
+    "duration": 2.94,
+    "text": "the more important ones sometimes people"
+  },
+  {
+    "start": 1934.22,
+    "duration": 4.5,
+    "text": "ask how do you round off"
+  },
+  {
+    "start": 1936.02,
+    "duration": 4.74,
+    "text": "so this is another class called decimal"
+  },
+  {
+    "start": 1938.72,
+    "duration": 4.38,
+    "text": "format"
+  },
+  {
+    "start": 1940.76,
+    "duration": 4.139,
+    "text": "in the number like number format section"
+  },
+  {
+    "start": 1943.1,
+    "duration": 3.84,
+    "text": "let me show you okay so here you can see"
+  },
+  {
+    "start": 1944.899,
+    "duration": 3.481,
+    "text": "see we are talking about data structures"
+  },
+  {
+    "start": 1946.94,
+    "duration": 3.0,
+    "text": "and algorithms one thing I want you to"
+  },
+  {
+    "start": 1948.38,
+    "duration": 3.96,
+    "text": "realize is that"
+  },
+  {
+    "start": 1949.94,
+    "duration": 5.16,
+    "text": "so many things are available for you to"
+  },
+  {
+    "start": 1952.34,
+    "duration": 5.4,
+    "text": "work with see format character iterator"
+  },
+  {
+    "start": 1955.1,
+    "duration": 5.819,
+    "text": "get currency you can even say get dates"
+  },
+  {
+    "start": 1957.74,
+    "duration": 5.4,
+    "text": "and uh is decimal separator are always"
+  },
+  {
+    "start": 1960.919,
+    "duration": 3.781,
+    "text": "shown so on and so forth according to"
+  },
+  {
+    "start": 1963.14,
+    "duration": 3.96,
+    "text": "your use cases"
+  },
+  {
+    "start": 1964.7,
+    "duration": 4.02,
+    "text": "so any course you do such like this it"
+  },
+  {
+    "start": 1967.1,
+    "duration": 2.699,
+    "text": "should not ask you to memorize all these"
+  },
+  {
+    "start": 1968.72,
+    "duration": 2.76,
+    "text": "things"
+  },
+  {
+    "start": 1969.799,
+    "duration": 2.88,
+    "text": "instead people should give you a"
+  },
+  {
+    "start": 1971.48,
+    "duration": 3.36,
+    "text": "motivation to learn from the"
+  },
+  {
+    "start": 1972.679,
+    "duration": 3.6,
+    "text": "documentation stuff that is needed to"
+  },
+  {
+    "start": 1974.84,
+    "duration": 2.88,
+    "text": "learn from the documentation if I say"
+  },
+  {
+    "start": 1976.279,
+    "duration": 3.661,
+    "text": "learn dynamic programming from"
+  },
+  {
+    "start": 1977.72,
+    "duration": 3.48,
+    "text": "documentation that's not cool I have to"
+  },
+  {
+    "start": 1979.94,
+    "duration": 3.359,
+    "text": "teach you dynamic programming then you"
+  },
+  {
+    "start": 1981.2,
+    "duration": 4.14,
+    "text": "will understand it but such things that"
+  },
+  {
+    "start": 1983.299,
+    "duration": 3.6,
+    "text": "are like formats and stuff I want to"
+  },
+  {
+    "start": 1985.34,
+    "duration": 3.66,
+    "text": "build a habit for you to learn these"
+  },
+  {
+    "start": 1986.899,
+    "duration": 3.721,
+    "text": "things from documentation so there's the"
+  },
+  {
+    "start": 1989.0,
+    "duration": 3.6,
+    "text": "object class we all know that inside"
+  },
+  {
+    "start": 1990.62,
+    "duration": 3.779,
+    "text": "that is a format class then there's a"
+  },
+  {
+    "start": 1992.6,
+    "duration": 4.679,
+    "text": "number format class inside that there is"
+  },
+  {
+    "start": 1994.399,
+    "duration": 4.981,
+    "text": "a decimal format class"
+  },
+  {
+    "start": 1997.279,
+    "duration": 3.721,
+    "text": "very simple you all know subclasses you"
+  },
+  {
+    "start": 1999.38,
+    "duration": 3.659,
+    "text": "have learned about inheritance"
+  },
+  {
+    "start": 2001.0,
+    "duration": 5.059,
+    "text": "so"
+  },
+  {
+    "start": 2003.039,
+    "duration": 3.02,
+    "text": "decimal format"
+  },
+  {
+    "start": 2012.94,
+    "duration": 4.079,
+    "text": "new decimal format"
+  },
+  {
+    "start": 2014.74,
+    "duration": 5.52,
+    "text": "and here you pass the format so let's"
+  },
+  {
+    "start": 2017.019,
+    "duration": 3.241,
+    "text": "say 0.000"
+  },
+  {
+    "start": 2020.38,
+    "duration": 5.779,
+    "text": "I'm going to have to import this"
+  },
+  {
+    "start": 2022.899,
+    "duration": 3.26,
+    "text": "Java dot what"
+  },
+  {
+    "start": 2026.919,
+    "duration": 5.6,
+    "text": "Java dot text"
+  },
+  {
+    "start": 2029.26,
+    "duration": 3.259,
+    "text": "dot decimal format"
+  },
+  {
+    "start": 2032.799,
+    "duration": 4.441,
+    "text": "not a problem"
+  },
+  {
+    "start": 2034.84,
+    "duration": 5.4,
+    "text": "this is my decimal format so I can say"
+  },
+  {
+    "start": 2037.24,
+    "duration": 3.0,
+    "text": "system.out.println"
+  },
+  {
+    "start": 2042.58,
+    "duration": 7.579,
+    "text": "decimal format dot format let's say"
+  },
+  {
+    "start": 2047.2,
+    "duration": 2.959,
+    "text": "7.2"
+  },
+  {
+    "start": 2051.7,
+    "duration": 5.78,
+    "text": "there we go"
+  },
+  {
+    "start": 2053.44,
+    "duration": 4.04,
+    "text": "one number here poor decimal places"
+  },
+  {
+    "start": 2058.0,
+    "duration": 4.639,
+    "text": "okay if I say 7.29 let's see what will"
+  },
+  {
+    "start": 2060.46,
+    "duration": 2.179,
+    "text": "happen"
+  },
+  {
+    "start": 2062.859,
+    "duration": 4.621,
+    "text": "see it's not rounding off"
+  },
+  {
+    "start": 2064.96,
+    "duration": 4.98,
+    "text": "as such"
+  },
+  {
+    "start": 2067.48,
+    "duration": 5.22,
+    "text": "light to"
+  },
+  {
+    "start": 2069.94,
+    "duration": 4.08,
+    "text": "some let's say a leading zero here"
+  },
+  {
+    "start": 2072.7,
+    "duration": 3.679,
+    "text": "not here"
+  },
+  {
+    "start": 2074.02,
+    "duration": 2.359,
+    "text": "here"
+  },
+  {
+    "start": 2077.08,
+    "duration": 5.7,
+    "text": "see"
+  },
+  {
+    "start": 2078.7,
+    "duration": 6.959,
+    "text": "0 7.299 similarly you can look for like"
+  },
+  {
+    "start": 2082.78,
+    "duration": 5.46,
+    "text": "rounding off and all these other things"
+  },
+  {
+    "start": 2085.659,
+    "duration": 4.26,
+    "text": "how simple was that very cool"
+  },
+  {
+    "start": 2088.24,
+    "duration": 4.2,
+    "text": "that's basically about it"
+  },
+  {
+    "start": 2089.919,
+    "duration": 4.561,
+    "text": "um play around with it see what all"
+  },
+  {
+    "start": 2092.44,
+    "duration": 3.78,
+    "text": "methods you need I've already taught you"
+  },
+  {
+    "start": 2094.48,
+    "duration": 3.119,
+    "text": "the basics and stuff but there are"
+  },
+  {
+    "start": 2096.22,
+    "duration": 3.42,
+    "text": "endless opportunities you can you can"
+  },
+  {
+    "start": 2097.599,
+    "duration": 3.24,
+    "text": "even do calendar you can even do you can"
+  },
+  {
+    "start": 2099.64,
+    "duration": 5.36,
+    "text": "even write it in your own language"
+  },
+  {
+    "start": 2100.839,
+    "duration": 7.081,
+    "text": "Chinese Hindi you know Spanish Italian"
+  },
+  {
+    "start": 2105.0,
+    "duration": 4.839,
+    "text": "French whatever you want to do"
+  },
+  {
+    "start": 2107.92,
+    "duration": 4.32,
+    "text": "Java supports all these languages also"
+  },
+  {
+    "start": 2109.839,
+    "duration": 4.381,
+    "text": "you know it has Unicode characters"
+  },
+  {
+    "start": 2112.24,
+    "duration": 5.64,
+    "text": "so"
+  },
+  {
+    "start": 2114.22,
+    "duration": 6.359,
+    "text": "play around with it and uh see how far"
+  },
+  {
+    "start": 2117.88,
+    "duration": 3.959,
+    "text": "you can go with the try to pretty print"
+  },
+  {
+    "start": 2120.579,
+    "duration": 3.54,
+    "text": "is what I say if you want to practice"
+  },
+  {
+    "start": 2121.839,
+    "duration": 4.081,
+    "text": "right you know how I when I was teaching"
+  },
+  {
+    "start": 2124.119,
+    "duration": 3.901,
+    "text": "you trees I create a pretty print"
+  },
+  {
+    "start": 2125.92,
+    "duration": 3.419,
+    "text": "function like whenever doing AVL trees"
+  },
+  {
+    "start": 2128.02,
+    "duration": 2.22,
+    "text": "or whatever I taught you how to pretty"
+  },
+  {
+    "start": 2129.339,
+    "duration": 4.081,
+    "text": "print"
+  },
+  {
+    "start": 2130.24,
+    "duration": 5.099,
+    "text": "so try to print in CLI in a prettier way"
+  },
+  {
+    "start": 2133.42,
+    "duration": 4.74,
+    "text": "try to add like some boxes or just for"
+  },
+  {
+    "start": 2135.339,
+    "duration": 4.801,
+    "text": "practice okay and that will give you"
+  },
+  {
+    "start": 2138.16,
+    "duration": 3.179,
+    "text": "more command over the output output but"
+  },
+  {
+    "start": 2140.14,
+    "duration": 3.9,
+    "text": "in the end you know practice makes"
+  },
+  {
+    "start": 2141.339,
+    "duration": 4.201,
+    "text": "perfect so practice and explore and"
+  },
+  {
+    "start": 2144.04,
+    "duration": 4.38,
+    "text": "we'll see how to work with large number"
+  },
+  {
+    "start": 2145.54,
+    "duration": 3.84,
+    "text": "of integers in the next video if you"
+  },
+  {
+    "start": 2148.42,
+    "duration": 2.82,
+    "text": "have any questions leave us in the"
+  },
+  {
+    "start": 2149.38,
+    "duration": 3.3,
+    "text": "comment section below this entire code"
+  },
+  {
+    "start": 2151.24,
+    "duration": 2.58,
+    "text": "you can found in the link in the"
+  },
+  {
+    "start": 2152.68,
+    "duration": 3.179,
+    "text": "description below and also in the print"
+  },
+  {
+    "start": 2153.82,
+    "duration": 4.5,
+    "text": "comment you can just run click on fork"
+  },
+  {
+    "start": 2155.859,
+    "duration": 4.041,
+    "text": "and you can run it on your own system uh"
+  },
+  {
+    "start": 2158.32,
+    "duration": 3.299,
+    "text": "in your own browser so pretty cool"
+  },
+  {
+    "start": 2159.9,
+    "duration": 3.1,
+    "text": "assignments everything all the things"
+  },
+  {
+    "start": 2161.619,
+    "duration": 2.761,
+    "text": "that we're doing"
+  },
+  {
+    "start": 2163.0,
+    "duration": 2.94,
+    "text": "um can be found in the description below"
+  },
+  {
+    "start": 2164.38,
+    "duration": 3.54,
+    "text": "any questions let me know in the comment"
+  },
+  {
+    "start": 2165.94,
+    "duration": 3.24,
+    "text": "section below and join the learning"
+  },
+  {
+    "start": 2167.92,
+    "duration": 2.76,
+    "text": "public initiative make sure you like"
+  },
+  {
+    "start": 2169.18,
+    "duration": 3.36,
+    "text": "share and comment you know usual stuff"
+  },
+  {
+    "start": 2170.68,
+    "duration": 4.28,
+    "text": "uh and I'll see you in the next one have"
+  },
+  {
+    "start": 2172.54,
+    "duration": 2.42,
+    "text": "a great day"
+  },
+  {
+    "start": 2175.619,
+    "duration": 3.061,
+    "text": "thank you"
+  },
+  {
+    "start": 2178.9,
+    "duration": 2.179,
+    "text": "foreign"
+  }
+]

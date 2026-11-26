@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What is the difference between linear search and binary search in terms of time complexity?",
+    "expected": "_HRA37X8N_Q"
+  },
+  {
+    "question": "How do you search for an element in a 2D sorted matrix?",
+    "expected": "enI_KyGLYPo"
+  },
+  {
+    "question": "Which sorting algorithm is best when you know an element is displaced by at most one position?",
+    "expected": "JfinxytTYFQ"
+  },
+  {
+    "question": "How does quick sort work and what is its average case time complexity?",
+    "expected": "Z8svOqamag8"
+  },
+  {
+    "question": "What is counting sort and what is its time complexity?",
+    "expected": "FOo820lJV1Y"
+  },
+  {
+    "question": "Which non-comparison-based sorting method processes individual digits from least significant to most?",
+    "expected": "mLi6VQDqAOs"
+  },
+  {
+    "question": "How does a greedy variable-length encoding achieve lossless text compression?",
+    "expected": "XLfgeaYHinM"
+  },
+  {
+    "question": "How do you implement a stack using a queue in Java?",
+    "expected": "rHQI4mrJ3cg"
+  },
+  {
+    "question": "What is the sliding window technique for solving interview questions on stacks?",
+    "expected": "S9LUYztYLu4"
+  },
+  {
+    "question": "How does a singly linked list differ from a doubly linked list?",
+    "expected": "58YbpRDc4yw"
+  },
+  {
+    "question": "How do you solve the N-Queens problem using backtracking?",
+    "expected": "nC1rbW2YSz0"
+  },
+  {
+    "question": "What are the main ideas behind solving a maze with backtracking?",
+    "expected": "zg5v2rlV1tM"
+  },
+  {
+    "question": "What is the base case in recursion and why is it important?",
+    "expected": "M2uO2nMT0Bk"
+  },
+  {
+    "question": "What happens to the call stack when a function calls itself without reaching a stopping condition?",
+    "expected": "M2uO2nMT0Bk"
+  },
+  {
+    "question": "How do you reverse an array using recursion?",
+    "expected": "sTdiMLom00U"
+  },
+  {
+    "question": "What is an AVL tree and how does it maintain balance after insertion?",
+    "expected": "CVA85JuJEn0"
+  },
+  {
+    "question": "How do you do inorder traversal of a binary tree?",
+    "expected": ["4s1Tcvm00pA", "LFGBTFxHJII"]
+  },
+  {
+    "question": "What is a segment tree and what problem does it solve efficiently?",
+    "expected": "ciHThtTVNto"
+  },
+  {
+    "question": "How does a max-heap support extracting the largest element in O(log n)?",
+    "expected": "Qf-TDPr0nYw"
+  },
+  {
+    "question": "What is the Karp-Rabin algorithm used for in string processing?",
+    "expected": "swciWFPq3NE"
+  },
+  {
+    "question": "How do you find the vertical order traversal of a binary tree?",
+    "expected": "Qdr3ohMSxBo"
+  },
+  {
+    "question": "What BFS-based approach finds the minimum number of single-character mutations between two words?",
+    "expected": "2odLxQWYDi0"
+  },
+  {
+    "question": "How do you find the kth smallest element in a BST without extra space?",
+    "expected": "guzgnCSafg4"
+  },
+  {
+    "question": "What is an interface in Java and how is it different from an abstract class?",
+    "expected": "rgHZa7-Dibg"
+  },
+  {
+    "question": "What is the square root decomposition technique for range queries?",
+    "expected": "U4YmISZViSs"
+  },
+  {
+    "question": "How do stack and heap memory differ when storing primitive variables versus reference objects?",
+    "expected": "wn49bJOYAZM"
+  },
+  {
+    "question": "How do you write a switch statement or a for loop in Java?",
+    "expected": "ldYLYRNaucM"
+  },
+  {
+    "question": "How does ArrayList resize itself dynamically when its internal capacity fills up?",
+    "expected": "n60Dn0UsbEk"
+  },
+  {
+    "question": "Why are String objects immutable in Java and how does the string pool work?",
+    "expected": "zL1DPZ0Ovlo"
+  },
+  {
+    "question": "What is the systematic approach for figuring out rows and columns when printing star triangles?",
+    "expected": "lsOOs5J8ycw"
+  },
+  {
+    "question": "How does the Sieve of Eratosthenes find all prime numbers up to n?",
+    "expected": "lmSpZ0bjCyQ"
+  },
+  {
+    "question": "How do you compute the greatest common divisor using Euclid's algorithm?",
+    "expected": "lmSpZ0bjCyQ"
+  },
+  {
+    "question": "How do you reverse the digits of a number or count zeros using a helper function?",
+    "expected": "JxILxTwHukM"
+  },
+  {
+    "question": "What is the difference between a class, an object, and a constructor in Java?",
+    "expected": "BSVKUk58K6U"
+  },
+  {
+    "question": "How do generics work in Java and how do you create a custom ArrayList?",
+    "expected": "OY2lPr8h93U"
+  },
+  {
+    "question": "How do you detect a winner across rows, columns, and diagonals in a 3x3 board game?",
+    "expected": "jlLNXmi4Nmw"
+  },
+  {
+    "question": "Why is StringBuffer thread-safe compared to StringBuilder when formatting large text?",
+    "expected": "YFZai3fPUQI"
+  },
+  {
+    "question": "How do you perform arithmetic on integers larger than long in Java?",
+    "expected": "lHtoypC-4Ps"
+  },
+  {
+    "question": "How do you read and write files in Java using BufferedReader and FileWriter?",
+    "expected": "b35mlSPOlJg"
+  },
+  {
+    "question": "How do you perform breadth-first level order traversal on a tree using a queue?",
+    "expected": "9D-vP-jcc-Y"
+  },
+  {
+    "question": "How do HashMaps handle collisions using chaining and load factor?",
+    "expected": "XLbvmMz8Fr8"
+  },
+  {
+    "question": "How can you reconstruct a unique binary tree given its preorder and inorder arrays?",
+    "expected": "LFGBTFxHJII"
+  },
+  {
+    "question": "How do you check if two nodes in a BST sum up to a target value?",
+    "expected": "oB1EIXIDS8s"
+  },
+  {
+    "question": "How do you flatten a binary tree into a doubly linked list in-place?",
+    "expected": "kNZ5VIkqReU"
+  },
+  {
+    "question": "How do you recover a BST where exactly two nodes were accidentally swapped?",
+    "expected": "CxNRKTp6_9s"
+  },
+  {
+    "question": "How do you detect a cycle in a linked list using fast and slow pointers?",
+    "expected": "58YbpRDc4yw"
+  },
+  {
+    "question": "How do you insert a new node into a binary search tree recursively?",
+    "expected": "4s1Tcvm00pA"
+  },
+  {
+    "question": "What topics and prerequisites are covered in this DSA bootcamp?",
+    "expected": "rZ41y93P2Qo"
+  },
+  {
+    "question": "How do you build a heap in O(n) time and use it for heapsort?",
+    "expected": "Qf-TDPr0nYw"
+  },
+  {
+    "question": "How does a rolling hash speed up substring matching?",
+    "expected": "swciWFPq3NE"
+  }
+]

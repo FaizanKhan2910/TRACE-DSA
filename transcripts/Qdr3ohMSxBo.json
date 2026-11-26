@@ -1,0 +1,2062 @@
+[
+  {
+    "start": 4.0,
+    "duration": 2.799,
+    "text": "Hey everyone, welcome back to my channel"
+  },
+  {
+    "start": 5.2,
+    "duration": 3.68,
+    "text": "with a new video and in this video we're"
+  },
+  {
+    "start": 6.799,
+    "duration": 4.001,
+    "text": "continuing the advanced trees uh"
+  },
+  {
+    "start": 8.88,
+    "duration": 5.44,
+    "text": "questions. This is another important"
+  },
+  {
+    "start": 10.8,
+    "duration": 5.2,
+    "text": "question. It is hard and well it is hard"
+  },
+  {
+    "start": 14.32,
+    "duration": 4.719,
+    "text": "double quotes because it's not very that"
+  },
+  {
+    "start": 16.0,
+    "duration": 5.279,
+    "text": "hard and uh it's vertical order"
+  },
+  {
+    "start": 19.039,
+    "duration": 5.121,
+    "text": "traversal of binary tree 7,000 thumbs"
+  },
+  {
+    "start": 21.279,
+    "duration": 5.681,
+    "text": "up. So and asked in lots of companies."
+  },
+  {
+    "start": 24.16,
+    "duration": 5.039,
+    "text": "So let's answer this question"
+  },
+  {
+    "start": 26.96,
+    "duration": 5.559,
+    "text": "and uh let me see which company it was"
+  },
+  {
+    "start": 29.199,
+    "duration": 3.32,
+    "text": "asked in"
+  },
+  {
+    "start": 36.0,
+    "duration": 6.52,
+    "text": "usually you can write uh maybe Google"
+  },
+  {
+    "start": 44.239,
+    "duration": 4.401,
+    "text": "Google interview"
+  },
+  {
+    "start": 46.079,
+    "duration": 4.8,
+    "text": "right so it was asked in uh you know it"
+  },
+  {
+    "start": 48.64,
+    "duration": 4.559,
+    "text": "was asked in Google"
+  },
+  {
+    "start": 50.879,
+    "duration": 4.081,
+    "text": "um it's very easy and if you don't"
+  },
+  {
+    "start": 53.199,
+    "duration": 2.88,
+    "text": "already doing the complete algorithms"
+  },
+  {
+    "start": 54.96,
+    "duration": 3.439,
+    "text": "boot camp. So, make sure you check out"
+  },
+  {
+    "start": 56.079,
+    "duration": 3.761,
+    "text": "the links in the description uh below."
+  },
+  {
+    "start": 58.399,
+    "duration": 3.121,
+    "text": "All the code sample and everything can"
+  },
+  {
+    "start": 59.84,
+    "duration": 3.76,
+    "text": "be found in the description below and"
+  },
+  {
+    "start": 61.52,
+    "duration": 3.599,
+    "text": "the tree playlist also uh if you don't"
+  },
+  {
+    "start": 63.6,
+    "duration": 3.519,
+    "text": "know about trees, we have done like an"
+  },
+  {
+    "start": 65.119,
+    "duration": 4.32,
+    "text": "entire tree playlist which is what we"
+  },
+  {
+    "start": 67.119,
+    "duration": 4.32,
+    "text": "are continuing in this video. So, yeah."
+  },
+  {
+    "start": 69.439,
+    "duration": 4.801,
+    "text": "Okay. So, the question is vertical order"
+  },
+  {
+    "start": 71.439,
+    "duration": 4.801,
+    "text": "traversal. Vertical order very easy. Um"
+  },
+  {
+    "start": 74.24,
+    "duration": 4.96,
+    "text": "this is a tree. You have to print it in"
+  },
+  {
+    "start": 76.24,
+    "duration": 5.28,
+    "text": "vertical order. So, output should be"
+  },
+  {
+    "start": 79.2,
+    "duration": 4.32,
+    "text": "nine should be first, three should be"
+  },
+  {
+    "start": 81.52,
+    "duration": 4.56,
+    "text": "after that."
+  },
+  {
+    "start": 83.52,
+    "duration": 5.959,
+    "text": "uh 315 then 20 then 7. So if I talk"
+  },
+  {
+    "start": 86.08,
+    "duration": 3.399,
+    "text": "about this tree"
+  },
+  {
+    "start": 89.52,
+    "duration": 5.68,
+    "text": "we have three over here. Oh sorry you"
+  },
+  {
+    "start": 92.0,
+    "duration": 8.0,
+    "text": "can't see."
+  },
+  {
+    "start": 95.2,
+    "duration": 7.8,
+    "text": "So it says 3 9 20 157"
+  },
+  {
+    "start": 100.0,
+    "duration": 3.0,
+    "text": "3"
+  },
+  {
+    "start": 103.2,
+    "duration": 5.08,
+    "text": "9"
+  },
+  {
+    "start": 105.28,
+    "duration": 3.0,
+    "text": "20"
+  },
+  {
+    "start": 109.28,
+    "duration": 3.0,
+    "text": "157."
+  },
+  {
+    "start": 115.439,
+    "duration": 6.801,
+    "text": "Okay. So the question is"
+  },
+  {
+    "start": 119.84,
+    "duration": 6.4,
+    "text": "vertical order"
+  },
+  {
+    "start": 122.24,
+    "duration": 6.799,
+    "text": "reversal meaning you can imagine you"
+  },
+  {
+    "start": 126.24,
+    "duration": 4.96,
+    "text": "know how we imagine levels like this we"
+  },
+  {
+    "start": 129.039,
+    "duration": 4.801,
+    "text": "imagine levels instead we are going to"
+  },
+  {
+    "start": 131.2,
+    "duration": 9.96,
+    "text": "imagine columns"
+  },
+  {
+    "start": 133.84,
+    "duration": 7.32,
+    "text": "one column 2 column 3 column 4 column"
+  },
+  {
+    "start": 143.68,
+    "duration": 2.8,
+    "text": "please remember that I'm not even doing"
+  },
+  {
+    "start": 145.28,
+    "duration": 4.959,
+    "text": "the question Right now I'm just"
+  },
+  {
+    "start": 146.48,
+    "duration": 7.039,
+    "text": "explaining what it is. 1 column, 2"
+  },
+  {
+    "start": 150.239,
+    "duration": 7.761,
+    "text": "column, 3 column, 4 column. So the"
+  },
+  {
+    "start": 153.519,
+    "duration": 8.481,
+    "text": "output should be something like"
+  },
+  {
+    "start": 158.0,
+    "duration": 5.599,
+    "text": "this is vertical order, right? So the"
+  },
+  {
+    "start": 162.0,
+    "duration": 3.92,
+    "text": "output"
+  },
+  {
+    "start": 163.599,
+    "duration": 6.64,
+    "text": "should be equal to"
+  },
+  {
+    "start": 165.92,
+    "duration": 7.36,
+    "text": "column number 0 1 2 3 for example. This"
+  },
+  {
+    "start": 170.239,
+    "duration": 8.64,
+    "text": "nine should be printed first. After that"
+  },
+  {
+    "start": 173.28,
+    "duration": 10.28,
+    "text": "315, after that 20 after that 7."
+  },
+  {
+    "start": 178.879,
+    "duration": 4.681,
+    "text": "That's the question. So"
+  },
+  {
+    "start": 183.92,
+    "duration": 4.239,
+    "text": "what do we do? How do we do this"
+  },
+  {
+    "start": 185.44,
+    "duration": 4.879,
+    "text": "question? I would say pause this video"
+  },
+  {
+    "start": 188.159,
+    "duration": 4.641,
+    "text": "and try it yourself. Give it 20 minutes."
+  },
+  {
+    "start": 190.319,
+    "duration": 5.601,
+    "text": "If you can't do it after 20 minutes, uh,"
+  },
+  {
+    "start": 192.8,
+    "duration": 6.24,
+    "text": "watch the video. But before I allow you"
+  },
+  {
+    "start": 195.92,
+    "duration": 8.16,
+    "text": "to do that, um, what is like a bad way"
+  },
+  {
+    "start": 199.04,
+    "duration": 8.64,
+    "text": "to do it? What's like a very naive um"
+  },
+  {
+    "start": 204.08,
+    "duration": 5.439,
+    "text": "brute force approach to do this?"
+  },
+  {
+    "start": 207.68,
+    "duration": 3.6,
+    "text": "Huh?"
+  },
+  {
+    "start": 209.519,
+    "duration": 3.681,
+    "text": "We can take the root node. If I talk"
+  },
+  {
+    "start": 211.28,
+    "duration": 5.28,
+    "text": "about the"
+  },
+  {
+    "start": 213.2,
+    "duration": 5.679,
+    "text": "question over here, this here says 0"
+  },
+  {
+    "start": 216.56,
+    "duration": 5.599,
+    "text": "comma 0 meaning this is the zerooth"
+  },
+  {
+    "start": 218.879,
+    "duration": 6.0,
+    "text": "column. So the root is being taken as"
+  },
+  {
+    "start": 222.159,
+    "duration": 5.841,
+    "text": "the zeroth column. Okay, this is the"
+  },
+  {
+    "start": 224.879,
+    "duration": 5.121,
+    "text": "zerooth column"
+  },
+  {
+    "start": 228.0,
+    "duration": 4.72,
+    "text": "and"
+  },
+  {
+    "start": 230.0,
+    "duration": 4.799,
+    "text": "on the right hand side of the root node"
+  },
+  {
+    "start": 232.72,
+    "duration": 4.079,
+    "text": "just add by one. So next column will be"
+  },
+  {
+    "start": 234.799,
+    "duration": 4.401,
+    "text": "column number one, column number two."
+  },
+  {
+    "start": 236.799,
+    "duration": 5.121,
+    "text": "Before will be"
+  },
+  {
+    "start": 239.2,
+    "duration": 7.52,
+    "text": "column number minus one because 0 minus"
+  },
+  {
+    "start": 241.92,
+    "duration": 7.44,
+    "text": "one and these are the rows 0 row,"
+  },
+  {
+    "start": 246.72,
+    "duration": 4.719,
+    "text": "first row,"
+  },
+  {
+    "start": 249.36,
+    "duration": 4.4,
+    "text": "second row."
+  },
+  {
+    "start": 251.439,
+    "duration": 5.281,
+    "text": "That's why here it's saying this is 0"
+  },
+  {
+    "start": 253.76,
+    "duration": 6.719,
+    "text": "comma 0. Yeah, that's 0 comma 0."
+  },
+  {
+    "start": 256.72,
+    "duration": 8.88,
+    "text": "3 is 0 comma 0. Yes. 20 is 1 comma 1. 1"
+  },
+  {
+    "start": 260.479,
+    "duration": 8.321,
+    "text": "comma 1. Yes. Then uh 2 0 is 15. 2 0 is"
+  },
+  {
+    "start": 265.6,
+    "duration": 6.56,
+    "text": "15. Yeah, that is correct. See"
+  },
+  {
+    "start": 268.8,
+    "duration": 5.04,
+    "text": "2, 0."
+  },
+  {
+    "start": 272.16,
+    "duration": 3.599,
+    "text": "Okay. [clears throat]"
+  },
+  {
+    "start": 273.84,
+    "duration": 4.0,
+    "text": "So this is what we know. So ideally what"
+  },
+  {
+    "start": 275.759,
+    "duration": 4.481,
+    "text": "you can do is for every node calculate"
+  },
+  {
+    "start": 277.84,
+    "duration": 6.32,
+    "text": "the distance from the"
+  },
+  {
+    "start": 280.24,
+    "duration": 6.92,
+    "text": "zero column. So meaning the root node."
+  },
+  {
+    "start": 284.16,
+    "duration": 3.0,
+    "text": "Okay."
+  },
+  {
+    "start": 289.36,
+    "duration": 5.36,
+    "text": "All right. So for 9 I will calculate the"
+  },
+  {
+    "start": 292.24,
+    "duration": 4.0,
+    "text": "distance for 15 I will calculate for 20"
+  },
+  {
+    "start": 294.72,
+    "duration": 5.08,
+    "text": "I will calculate for seven I will"
+  },
+  {
+    "start": 296.24,
+    "duration": 3.56,
+    "text": "calculate the distance"
+  },
+  {
+    "start": 301.919,
+    "duration": 3.0,
+    "text": "right"
+  },
+  {
+    "start": 305.44,
+    "duration": 4.72,
+    "text": "so try to calculate that let's say for"
+  },
+  {
+    "start": 307.44,
+    "duration": 4.4,
+    "text": "nine I will calculate the minimum"
+  },
+  {
+    "start": 310.16,
+    "duration": 4.08,
+    "text": "and the maximum distance from the root"
+  },
+  {
+    "start": 311.84,
+    "duration": 5.919,
+    "text": "node"
+  },
+  {
+    "start": 314.24,
+    "duration": 5.28,
+    "text": "same for 2015 every every other uh node"
+  },
+  {
+    "start": 317.759,
+    "duration": 5.361,
+    "text": "this would be of n² because then I would"
+  },
+  {
+    "start": 319.52,
+    "duration": 6.32,
+    "text": "have to do it again like um"
+  },
+  {
+    "start": 323.12,
+    "duration": 5.359,
+    "text": "for for that range minimum to maximum I"
+  },
+  {
+    "start": 325.84,
+    "duration": 4.72,
+    "text": "will try for all the nodes you get the"
+  },
+  {
+    "start": 328.479,
+    "duration": 3.28,
+    "text": "idea it's very complicated but we don't"
+  },
+  {
+    "start": 330.56,
+    "duration": 4.0,
+    "text": "want to do that we don't want to do"
+  },
+  {
+    "start": 331.759,
+    "duration": 4.88,
+    "text": "brute force we want to do it simple"
+  },
+  {
+    "start": 334.56,
+    "duration": 4.56,
+    "text": "you're making things complicated don't"
+  },
+  {
+    "start": 336.639,
+    "duration": 5.801,
+    "text": "do that how we can solve this question"
+  },
+  {
+    "start": 339.12,
+    "duration": 3.32,
+    "text": "very simply"
+  },
+  {
+    "start": 343.759,
+    "duration": 6.88,
+    "text": "level uh this is like um vertical order"
+  },
+  {
+    "start": 347.919,
+    "duration": 4.56,
+    "text": "traversal okay pause this video, right?"
+  },
+  {
+    "start": 350.639,
+    "duration": 3.28,
+    "text": "And then afterwards, we'll look into the"
+  },
+  {
+    "start": 352.479,
+    "duration": 3.201,
+    "text": "solution. Okay? So, let's think about"
+  },
+  {
+    "start": 353.919,
+    "duration": 5.601,
+    "text": "this. Try to think the thought process,"
+  },
+  {
+    "start": 355.68,
+    "duration": 7.2,
+    "text": "the intuition. I need the"
+  },
+  {
+    "start": 359.52,
+    "duration": 7.36,
+    "text": "I need the columns. I need uh I need to"
+  },
+  {
+    "start": 362.88,
+    "duration": 7.68,
+    "text": "know which column every node lies in."
+  },
+  {
+    "start": 366.88,
+    "duration": 7.2,
+    "text": "That I need to know. Okay. I also know"
+  },
+  {
+    "start": 370.56,
+    "duration": 6.56,
+    "text": "that the row uh the root node is in the"
+  },
+  {
+    "start": 374.08,
+    "duration": 4.48,
+    "text": "zerooth column. So everywhere I go left"
+  },
+  {
+    "start": 377.12,
+    "duration": 4.639,
+    "text": "hand side of the root node I will go min"
+  },
+  {
+    "start": 378.56,
+    "duration": 5.44,
+    "text": "-1 -1 right hand side I go I go + one +"
+  },
+  {
+    "start": 381.759,
+    "duration": 5.681,
+    "text": "one not a problem these are the two"
+  },
+  {
+    "start": 384.0,
+    "duration": 5.68,
+    "text": "things that I know so I want to traverse"
+  },
+  {
+    "start": 387.44,
+    "duration": 5.12,
+    "text": "it level by level so that I can do this"
+  },
+  {
+    "start": 389.68,
+    "duration": 5.28,
+    "text": "thing you know minus1 + one"
+  },
+  {
+    "start": 392.56,
+    "duration": 4.96,
+    "text": "um what do we use for that you know this"
+  },
+  {
+    "start": 394.96,
+    "duration": 5.28,
+    "text": "breakfast search so we will use breast"
+  },
+  {
+    "start": 397.52,
+    "duration": 6.16,
+    "text": "search and uh let's say we try to do"
+  },
+  {
+    "start": 400.24,
+    "duration": 6.16,
+    "text": "breast search so if you do breast search"
+  },
+  {
+    "start": 403.68,
+    "duration": 5.76,
+    "text": "here on the screen you can See if I just"
+  },
+  {
+    "start": 406.4,
+    "duration": 6.72,
+    "text": "zoom in. Sorry, I have too many screens."
+  },
+  {
+    "start": 409.44,
+    "duration": 8.479,
+    "text": "Uh I have to change"
+  },
+  {
+    "start": 413.12,
+    "duration": 8.88,
+    "text": "uh zoom out a little bit. Maybe"
+  },
+  {
+    "start": 417.919,
+    "duration": 8.0,
+    "text": "change it here."
+  },
+  {
+    "start": 422.0,
+    "duration": 7.039,
+    "text": "Okay. Now"
+  },
+  {
+    "start": 425.919,
+    "duration": 5.441,
+    "text": "let's say I have a"
+  },
+  {
+    "start": 429.039,
+    "duration": 3.6,
+    "text": "in the queue I you know breath for"
+  },
+  {
+    "start": 431.36,
+    "duration": 4.959,
+    "text": "search right? In the breath for search"
+  },
+  {
+    "start": 432.639,
+    "duration": 8.84,
+    "text": "we use a Q and uh we add the root node"
+  },
+  {
+    "start": 436.319,
+    "duration": 5.16,
+    "text": "first. So I will add in um"
+  },
+  {
+    "start": 442.16,
+    "duration": 5.08,
+    "text": "my root node first in the Q."
+  },
+  {
+    "start": 448.24,
+    "duration": 7.32,
+    "text": "So here in the queue I will have three"
+  },
+  {
+    "start": 452.56,
+    "duration": 3.0,
+    "text": "actually"
+  },
+  {
+    "start": 456.4,
+    "duration": 4.48,
+    "text": "here in the root node we have three. Let"
+  },
+  {
+    "start": 458.56,
+    "duration": 6.0,
+    "text": "me just"
+  },
+  {
+    "start": 460.88,
+    "duration": 6.08,
+    "text": "Yeah. So we have three in the Q. I have"
+  },
+  {
+    "start": 464.56,
+    "duration": 6.72,
+    "text": "added Q. Initially it has uh only three"
+  },
+  {
+    "start": 466.96,
+    "duration": 7.2,
+    "text": "in it. And this is my Q."
+  },
+  {
+    "start": 471.28,
+    "duration": 6.96,
+    "text": "But along with three I'm also going to"
+  },
+  {
+    "start": 474.16,
+    "duration": 8.159,
+    "text": "store the column that node is in."
+  },
+  {
+    "start": 478.24,
+    "duration": 7.84,
+    "text": "And we know I will remove it."
+  },
+  {
+    "start": 482.319,
+    "duration": 6.961,
+    "text": "Okay. I will remove it."
+  },
+  {
+    "start": 486.08,
+    "duration": 7.76,
+    "text": "And once I have removed it,"
+  },
+  {
+    "start": 489.28,
+    "duration": 7.56,
+    "text": "let me zoom out a little bit. I can push"
+  },
+  {
+    "start": 493.84,
+    "duration": 3.0,
+    "text": "it."
+  },
+  {
+    "start": 497.44,
+    "duration": 7.759,
+    "text": "So one way is that I am able to track"
+  },
+  {
+    "start": 502.24,
+    "duration": 5.12,
+    "text": "because when I remove three, I will add"
+  },
+  {
+    "start": 505.199,
+    "duration": 5.041,
+    "text": "its children. So when I add the"
+  },
+  {
+    "start": 507.36,
+    "duration": 7.679,
+    "text": "children, I will add nine"
+  },
+  {
+    "start": 510.24,
+    "duration": 7.76,
+    "text": "and I will add this minus one. So 0 - 1"
+  },
+  {
+    "start": 515.039,
+    "duration": 5.601,
+    "text": "- 1 and the right child that I will add"
+  },
+  {
+    "start": 518.0,
+    "duration": 6.08,
+    "text": "will be the level sorry the column"
+  },
+  {
+    "start": 520.64,
+    "duration": 8.16,
+    "text": "number + one. So when I add 20 it will"
+  },
+  {
+    "start": 524.08,
+    "duration": 7.04,
+    "text": "be the 0 + one 1. There we go."
+  },
+  {
+    "start": 528.8,
+    "duration": 5.76,
+    "text": "So this is very simple. I am able to"
+  },
+  {
+    "start": 531.12,
+    "duration": 6.159,
+    "text": "track which column"
+  },
+  {
+    "start": 534.56,
+    "duration": 5.44,
+    "text": "which column the node belongs in. I am"
+  },
+  {
+    "start": 537.279,
+    "duration": 4.481,
+    "text": "able to track that. But the problem is"
+  },
+  {
+    "start": 540.0,
+    "duration": 4.08,
+    "text": "how am I going to how am I going to"
+  },
+  {
+    "start": 541.76,
+    "duration": 5.759,
+    "text": "display it? If I remove this and I just"
+  },
+  {
+    "start": 544.08,
+    "duration": 5.84,
+    "text": "display three, that's false. I did not"
+  },
+  {
+    "start": 547.519,
+    "duration": 5.681,
+    "text": "have to display three. I wanted to"
+  },
+  {
+    "start": 549.92,
+    "duration": 8.12,
+    "text": "display nine first."
+  },
+  {
+    "start": 553.2,
+    "duration": 4.84,
+    "text": "So what I can do is maybe I can store"
+  },
+  {
+    "start": 558.399,
+    "duration": 4.56,
+    "text": "uh this is very easy. Now the difficult"
+  },
+  {
+    "start": 560.959,
+    "duration": 4.56,
+    "text": "the difficult double quote part was"
+  },
+  {
+    "start": 562.959,
+    "duration": 6.241,
+    "text": "figuring out the so for example if I"
+  },
+  {
+    "start": 565.519,
+    "duration": 5.521,
+    "text": "remove nine then I will add in the left"
+  },
+  {
+    "start": 569.2,
+    "duration": 6.8,
+    "text": "and right there is nothing. I remove"
+  },
+  {
+    "start": 571.04,
+    "duration": 9.68,
+    "text": "let's say 20 and I will add in uh 15. So"
+  },
+  {
+    "start": 576.0,
+    "duration": 9.36,
+    "text": "this will be 15 and comma minus 1 0"
+  },
+  {
+    "start": 580.72,
+    "duration": 7.44,
+    "text": "and 7 2. So yeah 0 column we have 15"
+  },
+  {
+    "start": 585.36,
+    "duration": 4.96,
+    "text": "that is correct. Two column we have 7"
+  },
+  {
+    "start": 588.16,
+    "duration": 4.32,
+    "text": "that is also correct. So what I can do"
+  },
+  {
+    "start": 590.32,
+    "duration": 4.639,
+    "text": "is I can"
+  },
+  {
+    "start": 592.48,
+    "duration": 4.32,
+    "text": "store it in a hashmap as I remove"
+  },
+  {
+    "start": 594.959,
+    "duration": 4.241,
+    "text": "elements."
+  },
+  {
+    "start": 596.8,
+    "duration": 5.44,
+    "text": "Can I not do that? I can just store it"
+  },
+  {
+    "start": 599.2,
+    "duration": 6.56,
+    "text": "in a hashmap. So in the hashmap"
+  },
+  {
+    "start": 602.24,
+    "duration": 5.279,
+    "text": "the key will be"
+  },
+  {
+    "start": 605.76,
+    "duration": 5.36,
+    "text": "column"
+  },
+  {
+    "start": 607.519,
+    "duration": 8.281,
+    "text": "nodes maybe in a list or something. So I"
+  },
+  {
+    "start": 611.12,
+    "duration": 4.68,
+    "text": "removed three column 0"
+  },
+  {
+    "start": 615.92,
+    "duration": 5.919,
+    "text": "I will add three in it."
+  },
+  {
+    "start": 619.2,
+    "duration": 5.28,
+    "text": "Then I removed nine column minus one I"
+  },
+  {
+    "start": 621.839,
+    "duration": 8.0,
+    "text": "will add nine in it."
+  },
+  {
+    "start": 624.48,
+    "duration": 8.0,
+    "text": "Then I will add one column 1 20 in it."
+  },
+  {
+    "start": 629.839,
+    "duration": 5.041,
+    "text": "Then I will add uh"
+  },
+  {
+    "start": 632.48,
+    "duration": 5.96,
+    "text": "zero is already there. So I'll remove"
+  },
+  {
+    "start": 634.88,
+    "duration": 3.56,
+    "text": "this 15"
+  },
+  {
+    "start": 639.839,
+    "duration": 4.881,
+    "text": "2"
+  },
+  {
+    "start": 642.0,
+    "duration": 4.72,
+    "text": "7. That's it."
+  },
+  {
+    "start": 644.72,
+    "duration": 5.359,
+    "text": "But now what I need to do is I need to"
+  },
+  {
+    "start": 646.72,
+    "duration": 5.359,
+    "text": "sort these uh"
+  },
+  {
+    "start": 650.079,
+    "duration": 4.32,
+    "text": "keys. You can either use a tree map but"
+  },
+  {
+    "start": 652.079,
+    "duration": 5.361,
+    "text": "what I would recommend is just maintain"
+  },
+  {
+    "start": 654.399,
+    "duration": 5.44,
+    "text": "the leftmost column and the rightmost"
+  },
+  {
+    "start": 657.44,
+    "duration": 4.16,
+    "text": "column number. So minimum and maximum."
+  },
+  {
+    "start": 659.839,
+    "duration": 3.68,
+    "text": "So at every step when you add in an"
+  },
+  {
+    "start": 661.6,
+    "duration": 4.08,
+    "text": "element just try to maintain the minimum"
+  },
+  {
+    "start": 663.519,
+    "duration": 4.401,
+    "text": "and maximum. So minimum in the end would"
+  },
+  {
+    "start": 665.68,
+    "duration": 6.48,
+    "text": "be maintained as in a simple variable"
+  },
+  {
+    "start": 667.92,
+    "duration": 8.32,
+    "text": "minus one. Maximum column is two. run a"
+  },
+  {
+    "start": 672.16,
+    "duration": 7.08,
+    "text": "for loop from minus one or from min to"
+  },
+  {
+    "start": 676.24,
+    "duration": 3.0,
+    "text": "max."
+  },
+  {
+    "start": 680.56,
+    "duration": 5.279,
+    "text": "So when I run the for loop it will be"
+  },
+  {
+    "start": 682.88,
+    "duration": 6.88,
+    "text": "like start from minus one minus one"
+  },
+  {
+    "start": 685.839,
+    "duration": 7.281,
+    "text": "print all the elements 9 0 print all the"
+  },
+  {
+    "start": 689.76,
+    "duration": 6.16,
+    "text": "elements 3 and 15 1 print all the"
+  },
+  {
+    "start": 693.12,
+    "duration": 5.68,
+    "text": "elements 20 two print all the elements"
+  },
+  {
+    "start": 695.92,
+    "duration": 5.88,
+    "text": "seven oh done question solved answer"
+  },
+  {
+    "start": 698.8,
+    "duration": 3.0,
+    "text": "easy"
+  },
+  {
+    "start": 701.839,
+    "duration": 4.081,
+    "text": "okay"
+  },
+  {
+    "start": 703.36,
+    "duration": 5.2,
+    "text": "sounds good what is the time complexity"
+  },
+  {
+    "start": 705.92,
+    "duration": 6.96,
+    "text": "for bfs"
+  },
+  {
+    "start": 708.56,
+    "duration": 7.56,
+    "text": "of n Right. Space complexity. What is"
+  },
+  {
+    "start": 712.88,
+    "duration": 3.24,
+    "text": "space complexity?"
+  },
+  {
+    "start": 718.399,
+    "duration": 6.44,
+    "text": "What all extra spaces we are using? We"
+  },
+  {
+    "start": 719.92,
+    "duration": 4.919,
+    "text": "are using a hashmap. We are using a Q,"
+  },
+  {
+    "start": 725.44,
+    "duration": 5.12,
+    "text": "right?"
+  },
+  {
+    "start": 727.04,
+    "duration": 5.84,
+    "text": "So how do we solve this? Okay. So O of N"
+  },
+  {
+    "start": 730.56,
+    "duration": 7.12,
+    "text": "for the hashmap, O of N for the output"
+  },
+  {
+    "start": 732.88,
+    "duration": 8.399,
+    "text": "because that's my output. And uh"
+  },
+  {
+    "start": 737.68,
+    "duration": 5.279,
+    "text": "for the Q also of"
+  },
+  {
+    "start": 741.279,
+    "duration": 3.68,
+    "text": "okay"
+  },
+  {
+    "start": 742.959,
+    "duration": 4.88,
+    "text": "why Q is ofen because we have already"
+  },
+  {
+    "start": 744.959,
+    "duration": 6.081,
+    "text": "covered this in breath first search"
+  },
+  {
+    "start": 747.839,
+    "duration": 6.401,
+    "text": "watch the tree playlist BFSDFS there I"
+  },
+  {
+    "start": 751.04,
+    "duration": 5.76,
+    "text": "have covered why the space complexity of"
+  },
+  {
+    "start": 754.24,
+    "duration": 6.08,
+    "text": "BFS is uh"
+  },
+  {
+    "start": 756.8,
+    "duration": 5.599,
+    "text": "of but it's very simple you know just"
+  },
+  {
+    "start": 760.32,
+    "duration": 4.56,
+    "text": "think about what is the maximum number"
+  },
+  {
+    "start": 762.399,
+    "duration": 5.521,
+    "text": "of nodes that can be existing in one"
+  },
+  {
+    "start": 764.88,
+    "duration": 5.519,
+    "text": "time right and then a whole tree"
+  },
+  {
+    "start": 767.92,
+    "duration": 5.44,
+    "text": "concepts like maximum number of nodes at"
+  },
+  {
+    "start": 770.399,
+    "duration": 5.44,
+    "text": "a level at leaf node or whatever right"
+  },
+  {
+    "start": 773.36,
+    "duration": 4.64,
+    "text": "so you know maximum level can contain is"
+  },
+  {
+    "start": 775.839,
+    "duration": 4.481,
+    "text": "n plus 1x2"
+  },
+  {
+    "start": 778.0,
+    "duration": 4.88,
+    "text": "okay so that's the worst case scenario"
+  },
+  {
+    "start": 780.32,
+    "duration": 6.079,
+    "text": "of n so space complexity is also of n of"
+  },
+  {
+    "start": 782.88,
+    "duration": 4.959,
+    "text": "n plus of n plus of n of n uh very"
+  },
+  {
+    "start": 786.399,
+    "duration": 3.44,
+    "text": "simple I think it's very straightforward"
+  },
+  {
+    "start": 787.839,
+    "duration": 3.281,
+    "text": "it's just has a lot of moving parts"
+  },
+  {
+    "start": 789.839,
+    "duration": 2.721,
+    "text": "that's why it is in the difficult"
+  },
+  {
+    "start": 791.12,
+    "duration": 3.6,
+    "text": "category but it is not a hard question"
+  },
+  {
+    "start": 792.56,
+    "duration": 5.04,
+    "text": "it's an easy"
+  },
+  {
+    "start": 794.72,
+    "duration": 7.919,
+    "text": "Let's code it. Okay. So, this looks"
+  },
+  {
+    "start": 797.6,
+    "duration": 7.52,
+    "text": "easy. Uh let me see how we can do this."
+  },
+  {
+    "start": 802.639,
+    "duration": 5.281,
+    "text": "This is what we are given. Okay."
+  },
+  {
+    "start": 805.12,
+    "duration": 6.519,
+    "text": "Vertical traversal."
+  },
+  {
+    "start": 807.92,
+    "duration": 3.719,
+    "text": "Uh new file"
+  },
+  {
+    "start": 813.76,
+    "duration": 5.24,
+    "text": "vertical traversal"
+  },
+  {
+    "start": 816.0,
+    "duration": 3.0,
+    "text": "Java."
+  },
+  {
+    "start": 824.88,
+    "duration": 8.199,
+    "text": "Okay, this is what I need to return."
+  },
+  {
+    "start": 828.399,
+    "duration": 4.68,
+    "text": "So I need to create a list of list"
+  },
+  {
+    "start": 834.48,
+    "duration": 3.32,
+    "text": "array list"
+  },
+  {
+    "start": 840.48,
+    "duration": 4.84,
+    "text": "of just copy this integer."
+  },
+  {
+    "start": 845.92,
+    "duration": 3.0,
+    "text": "Okay."
+  },
+  {
+    "start": 852.399,
+    "duration": 6.841,
+    "text": "Return the answer in the end."
+  },
+  {
+    "start": 856.16,
+    "duration": 3.08,
+    "text": "All right."
+  },
+  {
+    "start": 859.44,
+    "duration": 6.32,
+    "text": "I'm going to call this node."
+  },
+  {
+    "start": 862.24,
+    "duration": 7.76,
+    "text": "If node is equal to equal to null,"
+  },
+  {
+    "start": 865.76,
+    "duration": 7.04,
+    "text": "we just return the empty answer. What do"
+  },
+  {
+    "start": 870.0,
+    "duration": 7.04,
+    "text": "I need to do after that? Um, I need a"
+  },
+  {
+    "start": 872.8,
+    "duration": 6.32,
+    "text": "hashmap. I need a Q. Okay, I need a Q"
+  },
+  {
+    "start": 877.04,
+    "duration": 4.96,
+    "text": "hashmap and I also need to maintain the"
+  },
+  {
+    "start": 879.12,
+    "duration": 7.519,
+    "text": "column. So let's say initially column is"
+  },
+  {
+    "start": 882.0,
+    "duration": 7.639,
+    "text": "equal to zero. I will say"
+  },
+  {
+    "start": 886.639,
+    "duration": 3.0,
+    "text": "Q"
+  },
+  {
+    "start": 890.079,
+    "duration": 7.44,
+    "text": "map dot entry because I need to store it"
+  },
+  {
+    "start": 892.88,
+    "duration": 7.36,
+    "text": "uh store the map entries of the map and"
+  },
+  {
+    "start": 897.519,
+    "duration": 5.201,
+    "text": "it will have a tree node"
+  },
+  {
+    "start": 900.24,
+    "duration": 4.64,
+    "text": "of"
+  },
+  {
+    "start": 902.72,
+    "duration": 4.88,
+    "text": "this."
+  },
+  {
+    "start": 904.88,
+    "duration": 6.639,
+    "text": "Yeah, that's the tree node"
+  },
+  {
+    "start": 907.6,
+    "duration": 6.919,
+    "text": "will be one. What will be the other one?"
+  },
+  {
+    "start": 911.519,
+    "duration": 3.0,
+    "text": "integer."
+  },
+  {
+    "start": 915.199,
+    "duration": 4.681,
+    "text": "That's my cube. Okay,"
+  },
+  {
+    "start": 920.72,
+    "duration": 6.76,
+    "text": "new."
+  },
+  {
+    "start": 923.279,
+    "duration": 4.201,
+    "text": "Uh let's say we take a deck."
+  },
+  {
+    "start": 928.0,
+    "duration": 3.0,
+    "text": "Okay."
+  },
+  {
+    "start": 931.279,
+    "duration": 4.321,
+    "text": "Sounds good. Okay. After this, I will"
+  },
+  {
+    "start": 933.12,
+    "duration": 6.88,
+    "text": "have a map."
+  },
+  {
+    "start": 935.6,
+    "duration": 6.16,
+    "text": "Map of I will have integer."
+  },
+  {
+    "start": 940.0,
+    "duration": 6.92,
+    "text": "I will have integer and let's say this"
+  },
+  {
+    "start": 941.76,
+    "duration": 5.16,
+    "text": "is a I will take an array list"
+  },
+  {
+    "start": 948.0,
+    "duration": 3.88,
+    "text": "array list of type integer"
+  },
+  {
+    "start": 957.12,
+    "duration": 6.32,
+    "text": "hashmap."
+  },
+  {
+    "start": 960.079,
+    "duration": 7.041,
+    "text": "Okay, sounds good."
+  },
+  {
+    "start": 963.44,
+    "duration": 7.68,
+    "text": "I will add in the first element new."
+  },
+  {
+    "start": 967.12,
+    "duration": 7.2,
+    "text": "First of all, I will take uh Okay. So,"
+  },
+  {
+    "start": 971.12,
+    "duration": 6.959,
+    "text": "here we are adding a new map entry. So,"
+  },
+  {
+    "start": 974.32,
+    "duration": 7.84,
+    "text": "I will take an abstract map entry."
+  },
+  {
+    "start": 978.079,
+    "duration": 7.12,
+    "text": "Abstract map dot simple entry"
+  },
+  {
+    "start": 982.16,
+    "duration": 5.28,
+    "text": "of node"
+  },
+  {
+    "start": 985.199,
+    "duration": 4.32,
+    "text": "and column."
+  },
+  {
+    "start": 987.44,
+    "duration": 6.48,
+    "text": "Okay."
+  },
+  {
+    "start": 989.519,
+    "duration": 7.12,
+    "text": "Minimum zero, maximum also initially"
+  },
+  {
+    "start": 993.92,
+    "duration": 6.919,
+    "text": "zero. Now"
+  },
+  {
+    "start": 996.639,
+    "duration": 4.2,
+    "text": "while my Q is not empty"
+  },
+  {
+    "start": 1006.16,
+    "duration": 8.359,
+    "text": "while my Q is not empty what I'm going"
+  },
+  {
+    "start": 1009.839,
+    "duration": 4.68,
+    "text": "to do I'm going to pop from it"
+  },
+  {
+    "start": 1019.36,
+    "duration": 8.24,
+    "text": "entry type so map do entry of uh type is"
+  },
+  {
+    "start": 1025.28,
+    "duration": 5.32,
+    "text": "it of type what is the type of the map"
+  },
+  {
+    "start": 1027.6,
+    "duration": 3.0,
+    "text": "entry"
+  },
+  {
+    "start": 1030.88,
+    "duration": 6.36,
+    "text": "inside the Q"
+  },
+  {
+    "start": 1033.039,
+    "duration": 4.201,
+    "text": "here you go just copy this"
+  },
+  {
+    "start": 1037.76,
+    "duration": 8.72,
+    "text": "removed is equal to Q dot pole"
+  },
+  {
+    "start": 1042.64,
+    "duration": 8.159,
+    "text": "it will remove the one with the"
+  },
+  {
+    "start": 1046.48,
+    "duration": 8.88,
+    "text": "once you have removed it I will"
+  },
+  {
+    "start": 1050.799,
+    "duration": 4.561,
+    "text": "get the value so node will be equal to"
+  },
+  {
+    "start": 1057.679,
+    "duration": 4.961,
+    "text": "the value and the"
+  },
+  {
+    "start": 1060.88,
+    "duration": 4.64,
+    "text": "the key and the column will be the"
+  },
+  {
+    "start": 1062.64,
+    "duration": 6.399,
+    "text": "value. See the column is the value. So"
+  },
+  {
+    "start": 1065.52,
+    "duration": 7.68,
+    "text": "the this is also a mini map that we just"
+  },
+  {
+    "start": 1069.039,
+    "duration": 8.561,
+    "text": "I have taken. Okay. So this 3 0 9 - 1"
+  },
+  {
+    "start": 1073.2,
+    "duration": 7.2,
+    "text": "where the key is the value and the here"
+  },
+  {
+    "start": 1077.6,
+    "duration": 6.48,
+    "text": "the key is the node and the column is"
+  },
+  {
+    "start": 1080.4,
+    "duration": 6.24,
+    "text": "the column that it is in."
+  },
+  {
+    "start": 1084.08,
+    "duration": 4.16,
+    "text": "The value is the column that it is in."
+  },
+  {
+    "start": 1086.64,
+    "duration": 7.159,
+    "text": "Uh [snorts]"
+  },
+  {
+    "start": 1088.24,
+    "duration": 5.559,
+    "text": "sorry I've been um working too much so"
+  },
+  {
+    "start": 1094.16,
+    "duration": 5.68,
+    "text": "my mouth is running slower than my"
+  },
+  {
+    "start": 1096.64,
+    "duration": 6.72,
+    "text": "brain. Um but I hope you understand."
+  },
+  {
+    "start": 1099.84,
+    "duration": 7.04,
+    "text": "It's very simple. Um,"
+  },
+  {
+    "start": 1103.36,
+    "duration": 6.64,
+    "text": "see now this thing I am storing in a que"
+  },
+  {
+    "start": 1106.88,
+    "duration": 4.799,
+    "text": "some entity. So write 3 comma 0 9 - 1."
+  },
+  {
+    "start": 1110.0,
+    "duration": 3.919,
+    "text": "What is this three? Just a node of the"
+  },
+  {
+    "start": 1111.679,
+    "duration": 5.041,
+    "text": "tree. What is this zero? The column it"
+  },
+  {
+    "start": 1113.919,
+    "duration": 5.601,
+    "text": "belongs in. So this small entity I have"
+  },
+  {
+    "start": 1116.72,
+    "duration": 5.12,
+    "text": "taken as a map entry."
+  },
+  {
+    "start": 1119.52,
+    "duration": 7.56,
+    "text": "Okay. Where the key is equal to the node"
+  },
+  {
+    "start": 1121.84,
+    "duration": 5.24,
+    "text": "and the value is equal to the column."
+  },
+  {
+    "start": 1127.2,
+    "duration": 8.4,
+    "text": "So node will be equal to what?"
+  },
+  {
+    "start": 1132.4,
+    "duration": 7.44,
+    "text": "Remove dot get key"
+  },
+  {
+    "start": 1135.6,
+    "duration": 6.16,
+    "text": "and column will be equal to what?"
+  },
+  {
+    "start": 1139.84,
+    "duration": 4.64,
+    "text": "Get value. Hope makes sense. If this is"
+  },
+  {
+    "start": 1141.76,
+    "duration": 6.36,
+    "text": "not null,"
+  },
+  {
+    "start": 1144.48,
+    "duration": 3.64,
+    "text": "what am I going to do?"
+  },
+  {
+    "start": 1148.64,
+    "duration": 8.48,
+    "text": "Check if map dot contains"
+  },
+  {
+    "start": 1154.32,
+    "duration": 7.64,
+    "text": "this column."
+  },
+  {
+    "start": 1157.12,
+    "duration": 4.84,
+    "text": "If it doesn't contain then create it"
+  },
+  {
+    "start": 1162.32,
+    "duration": 5.52,
+    "text": "map dot put"
+  },
+  {
+    "start": 1165.52,
+    "duration": 5.36,
+    "text": "I'm going to say column and I will"
+  },
+  {
+    "start": 1167.84,
+    "duration": 4.959,
+    "text": "create a new array list because"
+  },
+  {
+    "start": 1170.88,
+    "duration": 5.799,
+    "text": "this is an array list over here. So"
+  },
+  {
+    "start": 1172.799,
+    "duration": 3.88,
+    "text": "create a new array list."
+  },
+  {
+    "start": 1176.88,
+    "duration": 3.0,
+    "text": "Okay."
+  },
+  {
+    "start": 1180.4,
+    "duration": 3.56,
+    "text": "Of type integer."
+  },
+  {
+    "start": 1185.28,
+    "duration": 3.2,
+    "text": "Right."
+  },
+  {
+    "start": 1186.88,
+    "duration": 6.56,
+    "text": "Okay. So what I'm going to do after"
+  },
+  {
+    "start": 1188.48,
+    "duration": 8.079,
+    "text": "this? I will just say map dot get the"
+  },
+  {
+    "start": 1193.44,
+    "duration": 6.0,
+    "text": "column and inside this add node dot"
+  },
+  {
+    "start": 1196.559,
+    "duration": 6.281,
+    "text": "value."
+  },
+  {
+    "start": 1199.44,
+    "duration": 3.4,
+    "text": "That is it."
+  },
+  {
+    "start": 1203.12,
+    "duration": 5.16,
+    "text": "Okay. And I also have to update my min"
+  },
+  {
+    "start": 1205.12,
+    "duration": 3.16,
+    "text": "and max."
+  },
+  {
+    "start": 1219.52,
+    "duration": 5.2,
+    "text": "Okay."
+  },
+  {
+    "start": 1221.2,
+    "duration": 5.839,
+    "text": "And then I will add two children in the"
+  },
+  {
+    "start": 1224.72,
+    "duration": 4.72,
+    "text": "queue because this is very simple."
+  },
+  {
+    "start": 1227.039,
+    "duration": 7.0,
+    "text": "That's what we do. I will create a new"
+  },
+  {
+    "start": 1229.44,
+    "duration": 4.599,
+    "text": "abstract map simple entry."
+  },
+  {
+    "start": 1239.28,
+    "duration": 6.96,
+    "text": "simple entry um of type what"
+  },
+  {
+    "start": 1244.64,
+    "duration": 6.56,
+    "text": "now I don't have to add the type node"
+  },
+  {
+    "start": 1246.24,
+    "duration": 7.96,
+    "text": "comma not node node dot left"
+  },
+  {
+    "start": 1251.2,
+    "duration": 3.0,
+    "text": "and"
+  },
+  {
+    "start": 1255.679,
+    "duration": 6.401,
+    "text": "node dot right so column will here will"
+  },
+  {
+    "start": 1258.32,
+    "duration": 3.76,
+    "text": "be + one here will be"
+  },
+  {
+    "start": 1263.76,
+    "duration": 6.52,
+    "text": "Okay,"
+  },
+  {
+    "start": 1266.24,
+    "duration": 4.04,
+    "text": "after this thing is done,"
+  },
+  {
+    "start": 1272.72,
+    "duration": 3.4,
+    "text": "I am doing"
+  },
+  {
+    "start": 1276.24,
+    "duration": 5.0,
+    "text": "this thing for min to max."
+  },
+  {
+    "start": 1286.96,
+    "duration": 5.68,
+    "text": "I will add it in my"
+  },
+  {
+    "start": 1290.32,
+    "duration": 5.32,
+    "text": "answer."
+  },
+  {
+    "start": 1292.64,
+    "duration": 3.0,
+    "text": "Okay."
+  },
+  {
+    "start": 1296.559,
+    "duration": 4.521,
+    "text": "Answer dot add map.get."
+  },
+  {
+    "start": 1307.12,
+    "duration": 4.32,
+    "text": "That's it. Simple."
+  },
+  {
+    "start": 1309.84,
+    "duration": 4.48,
+    "text": "All right. Okay. So, that was an easy"
+  },
+  {
+    "start": 1311.44,
+    "duration": 4.719,
+    "text": "question. Well, term that's hard and um"
+  },
+  {
+    "start": 1314.32,
+    "duration": 3.839,
+    "text": "asked in Google. Very simple. We discuss"
+  },
+  {
+    "start": 1316.159,
+    "duration": 4.081,
+    "text": "the time complexity running of it and"
+  },
+  {
+    "start": 1318.159,
+    "duration": 3.361,
+    "text": "everything else. And the code can be"
+  },
+  {
+    "start": 1320.24,
+    "duration": 3.04,
+    "text": "found in the description below. We'll do"
+  },
+  {
+    "start": 1321.52,
+    "duration": 4.159,
+    "text": "more such questions in the coming few"
+  },
+  {
+    "start": 1323.28,
+    "duration": 3.6,
+    "text": "videos. And uh if you have any doubts,"
+  },
+  {
+    "start": 1325.679,
+    "duration": 3.441,
+    "text": "questions, let me know in the comment"
+  },
+  {
+    "start": 1326.88,
+    "duration": 5.039,
+    "text": "section below. And uh make sure you"
+  },
+  {
+    "start": 1329.12,
+    "duration": 4.24,
+    "text": "like, share, subscribe. Um check out the"
+  },
+  {
+    "start": 1331.919,
+    "duration": 4.081,
+    "text": "description. All the stuff is mentioned"
+  },
+  {
+    "start": 1333.36,
+    "duration": 4.72,
+    "text": "over there. And u previous videos, all"
+  },
+  {
+    "start": 1336.0,
+    "duration": 3.84,
+    "text": "sorts of things, assignments,"
+  },
+  {
+    "start": 1338.08,
+    "duration": 5.395,
+    "text": "code. And I'll see you in the next one."
+  },
+  {
+    "start": 1339.84,
+    "duration": 3.635,
+    "text": "Have a great day. [music]"
+  }
+]

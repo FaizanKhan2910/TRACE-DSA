@@ -1,0 +1,2032 @@
+[
+  {
+    "start": 4.04,
+    "duration": 2.799,
+    "text": "hey everyone welcome back to my channel"
+  },
+  {
+    "start": 5.279,
+    "duration": 2.881,
+    "text": "another new video and in this video"
+  },
+  {
+    "start": 6.839,
+    "duration": 2.481,
+    "text": "we're continuing the complete data"
+  },
+  {
+    "start": 8.16,
+    "duration": 2.96,
+    "text": "structures algorithms interview"
+  },
+  {
+    "start": 9.32,
+    "duration": 3.279,
+    "text": "preparation boot camp if you don't"
+  },
+  {
+    "start": 11.12,
+    "duration": 3.04,
+    "text": "already know we're doing the complete"
+  },
+  {
+    "start": 12.599,
+    "duration": 2.841,
+    "text": "boot camp for you to clear your"
+  },
+  {
+    "start": 14.16,
+    "duration": 3.0,
+    "text": "interviews learn about data structures"
+  },
+  {
+    "start": 15.44,
+    "duration": 3.12,
+    "text": "algorithms so make sure you check out"
+  },
+  {
+    "start": 17.16,
+    "duration": 3.6,
+    "text": "all the links in the description below"
+  },
+  {
+    "start": 18.56,
+    "duration": 3.479,
+    "text": "of other topics we have covered already"
+  },
+  {
+    "start": 20.76,
+    "duration": 3.839,
+    "text": "and in this video we're going to learn"
+  },
+  {
+    "start": 22.039,
+    "duration": 4.64,
+    "text": "about a very important sorting algorithm"
+  },
+  {
+    "start": 24.599,
+    "duration": 4.561,
+    "text": "count sort so we've recently learned"
+  },
+  {
+    "start": 26.679,
+    "duration": 3.76,
+    "text": "about hashmaps and all sorts of things"
+  },
+  {
+    "start": 29.16,
+    "duration": 3.36,
+    "text": "and now we're going to learn about count"
+  },
+  {
+    "start": 30.439,
+    "duration": 4.201,
+    "text": "sort what is Count sort the advantages"
+  },
+  {
+    "start": 32.52,
+    "duration": 3.6,
+    "text": "when to use it how to use it we've"
+  },
+  {
+    "start": 34.64,
+    "duration": 3.84,
+    "text": "covered previous sorting algorithms as"
+  },
+  {
+    "start": 36.12,
+    "duration": 4.599,
+    "text": "well there's a complete playlist on that"
+  },
+  {
+    "start": 38.48,
+    "duration": 3.8,
+    "text": "but yeah the code for this video can be"
+  },
+  {
+    "start": 40.719,
+    "duration": 2.961,
+    "text": "found in the description below if you"
+  },
+  {
+    "start": 42.28,
+    "duration": 2.88,
+    "text": "have any questions or comments leave"
+  },
+  {
+    "start": 43.68,
+    "duration": 3.399,
+    "text": "those in the description in the comment"
+  },
+  {
+    "start": 45.16,
+    "duration": 4.0,
+    "text": "section below any questions happy to"
+  },
+  {
+    "start": 47.079,
+    "duration": 2.881,
+    "text": "answer those and let's get started so"
+  },
+  {
+    "start": 49.16,
+    "duration": 5.52,
+    "text": "count"
+  },
+  {
+    "start": 49.96,
+    "duration": 8.239,
+    "text": "sort uh count sort is very simple"
+  },
+  {
+    "start": 54.68,
+    "duration": 5.32,
+    "text": "um it's as the name suggests count sort"
+  },
+  {
+    "start": 58.199,
+    "duration": 4.52,
+    "text": "you count stuff but how does it work"
+  },
+  {
+    "start": 60.0,
+    "duration": 5.56,
+    "text": "work what it is so it is a non-c"
+  },
+  {
+    "start": 62.719,
+    "duration": 6.561,
+    "text": "comparison based sorting so you know how"
+  },
+  {
+    "start": 65.56,
+    "duration": 5.48,
+    "text": "you compare elements in like bubble sort"
+  },
+  {
+    "start": 69.28,
+    "duration": 4.44,
+    "text": "and other sorting"
+  },
+  {
+    "start": 71.04,
+    "duration": 7.28,
+    "text": "algorithms here you don't compare"
+  },
+  {
+    "start": 73.72,
+    "duration": 6.399,
+    "text": "element non comparison comparison"
+  },
+  {
+    "start": 78.32,
+    "duration": 5.839,
+    "text": "sorting"
+  },
+  {
+    "start": 80.119,
+    "duration": 7.441,
+    "text": "algorithm good for smaller"
+  },
+  {
+    "start": 84.159,
+    "duration": 6.64,
+    "text": "numbers okay good for smaller numbers so"
+  },
+  {
+    "start": 87.56,
+    "duration": 7.08,
+    "text": "when the input value is like small and"
+  },
+  {
+    "start": 90.799,
+    "duration": 6.801,
+    "text": "um yeah the numbers have to be small and"
+  },
+  {
+    "start": 94.64,
+    "duration": 6.0,
+    "text": "the basic idea is that let's take a"
+  },
+  {
+    "start": 97.6,
+    "duration": 5.04,
+    "text": "question if I take a question over here"
+  },
+  {
+    "start": 100.64,
+    "duration": 4.28,
+    "text": "the basic idea of count sort it's very"
+  },
+  {
+    "start": 102.64,
+    "duration": 4.36,
+    "text": "simple let's say you want to sort an"
+  },
+  {
+    "start": 104.92,
+    "duration": 6.04,
+    "text": "array and the array is something like"
+  },
+  {
+    "start": 107.0,
+    "duration": 3.96,
+    "text": "this again remember small numbers"
+  },
+  {
+    "start": 111.84,
+    "duration": 7.0,
+    "text": "only okay so let's say array is 3 4 1"
+  },
+  {
+    "start": 116.88,
+    "duration": 4.96,
+    "text": "3"
+  },
+  {
+    "start": 118.84,
+    "duration": 3.0,
+    "text": "2"
+  },
+  {
+    "start": 123.92,
+    "duration": 4.08,
+    "text": "5 2 these are the"
+  },
+  {
+    "start": 129.119,
+    "duration": 6.601,
+    "text": "indices okay so what I'm going to do is"
+  },
+  {
+    "start": 132.319,
+    "duration": 3.401,
+    "text": "I'm going to be like"
+  },
+  {
+    "start": 135.879,
+    "duration": 4.201,
+    "text": "um you know find the first of all what"
+  },
+  {
+    "start": 138.8,
+    "duration": 4.12,
+    "text": "I'm going to do is I'm going to find the"
+  },
+  {
+    "start": 140.08,
+    "duration": 6.439,
+    "text": "largest number in this array so the"
+  },
+  {
+    "start": 142.92,
+    "duration": 7.16,
+    "text": "largest number is equal to"
+  },
+  {
+    "start": 146.519,
+    "duration": 5.921,
+    "text": "5 largest number step number one step"
+  },
+  {
+    "start": 150.08,
+    "duration": 4.76,
+    "text": "number two is I'm going to create an"
+  },
+  {
+    "start": 152.44,
+    "duration": 7.159,
+    "text": "array of"
+  },
+  {
+    "start": 154.84,
+    "duration": 4.759,
+    "text": "size largest + one so of size"
+  },
+  {
+    "start": 175.72,
+    "duration": 4.32,
+    "text": "six okay largest plus one now what I'm"
+  },
+  {
+    "start": 178.599,
+    "duration": 3.56,
+    "text": "going to do is I'm going to Traverse the"
+  },
+  {
+    "start": 180.04,
+    "duration": 4.32,
+    "text": "original array and I'm going to store"
+  },
+  {
+    "start": 182.159,
+    "duration": 5.121,
+    "text": "the number of times that number is"
+  },
+  {
+    "start": 184.36,
+    "duration": 5.12,
+    "text": "coming because five was the largest"
+  },
+  {
+    "start": 187.28,
+    "duration": 3.92,
+    "text": "number in the array I know that all the"
+  },
+  {
+    "start": 189.48,
+    "duration": 4.92,
+    "text": "other numbers in the"
+  },
+  {
+    "start": 191.2,
+    "duration": 4.64,
+    "text": "array have a numbered value index in the"
+  },
+  {
+    "start": 194.4,
+    "duration": 4.68,
+    "text": "new"
+  },
+  {
+    "start": 195.84,
+    "duration": 6.479,
+    "text": "array do you understand for example let"
+  },
+  {
+    "start": 199.08,
+    "duration": 6.2,
+    "text": "me do it in a more nicer way so that you"
+  },
+  {
+    "start": 202.319,
+    "duration": 2.961,
+    "text": "understand let's say we do"
+  },
+  {
+    "start": 205.64,
+    "duration": 6.04,
+    "text": "eight index number seven largest is"
+  },
+  {
+    "start": 208.04,
+    "duration": 6.88,
+    "text": "eight so largest + one size nine so I"
+  },
+  {
+    "start": 211.68,
+    "duration": 3.24,
+    "text": "will create an array of size"
+  },
+  {
+    "start": 236.28,
+    "duration": 8.76,
+    "text": "nine 1 2 3 4 5 5 6 7 8 so I created an"
+  },
+  {
+    "start": 242.92,
+    "duration": 5.12,
+    "text": "array of size 9 I know since the largest"
+  },
+  {
+    "start": 245.04,
+    "duration": 4.64,
+    "text": "element in the original array was 8 all"
+  },
+  {
+    "start": 248.04,
+    "duration": 2.479,
+    "text": "the other elements that are remaining in"
+  },
+  {
+    "start": 249.68,
+    "duration": 4.0,
+    "text": "the"
+  },
+  {
+    "start": 250.519,
+    "duration": 5.161,
+    "text": "array they will have an index in the new"
+  },
+  {
+    "start": 253.68,
+    "duration": 4.72,
+    "text": "array for"
+  },
+  {
+    "start": 255.68,
+    "duration": 5.0,
+    "text": "example if I talk about the let's start"
+  },
+  {
+    "start": 258.4,
+    "duration": 6.04,
+    "text": "from the first one I talk about three so"
+  },
+  {
+    "start": 260.68,
+    "duration": 6.799,
+    "text": "I will create a frequency array so three"
+  },
+  {
+    "start": 264.44,
+    "duration": 5.8,
+    "text": "index three is over here yes three is"
+  },
+  {
+    "start": 267.479,
+    "duration": 4.881,
+    "text": "coming in this array one time"
+  },
+  {
+    "start": 270.24,
+    "duration": 4.399,
+    "text": "then next four four is coming in the"
+  },
+  {
+    "start": 272.36,
+    "duration": 4.679,
+    "text": "original array one time one is coming in"
+  },
+  {
+    "start": 274.639,
+    "duration": 5.601,
+    "text": "the original array one time Three is"
+  },
+  {
+    "start": 277.039,
+    "duration": 6.241,
+    "text": "coming a another time so 1 + 1 2 Three"
+  },
+  {
+    "start": 280.24,
+    "duration": 6.519,
+    "text": "is coming twice two is coming once five"
+  },
+  {
+    "start": 283.28,
+    "duration": 6.68,
+    "text": "is coming once two is coming again so"
+  },
+  {
+    "start": 286.759,
+    "duration": 7.521,
+    "text": "this will be two 8 is coming"
+  },
+  {
+    "start": 289.96,
+    "duration": 7.679,
+    "text": "once 8 is coming once rest zero so you"
+  },
+  {
+    "start": 294.28,
+    "duration": 6.0,
+    "text": "can see I've created a frequency"
+  },
+  {
+    "start": 297.639,
+    "duration": 7.641,
+    "text": "array frequency"
+  },
+  {
+    "start": 300.28,
+    "duration": 9.6,
+    "text": "array where the index number is equal"
+  },
+  {
+    "start": 305.28,
+    "duration": 6.16,
+    "text": "to element number in original array so"
+  },
+  {
+    "start": 309.88,
+    "duration": 4.2,
+    "text": "you can see in the original array zero"
+  },
+  {
+    "start": 311.44,
+    "duration": 4.12,
+    "text": "is coming zero times one is coming once"
+  },
+  {
+    "start": 314.08,
+    "duration": 3.559,
+    "text": "two is coming twice Three is coming"
+  },
+  {
+    "start": 315.56,
+    "duration": 4.12,
+    "text": "twice four is coming once five is coming"
+  },
+  {
+    "start": 317.639,
+    "duration": 4.12,
+    "text": "once six is coming zero time seven is"
+  },
+  {
+    "start": 319.68,
+    "duration": 4.239,
+    "text": "coming zero time eight is coming once"
+  },
+  {
+    "start": 321.759,
+    "duration": 3.801,
+    "text": "now what you're going to do is Traverse"
+  },
+  {
+    "start": 323.919,
+    "duration": 4.681,
+    "text": "the frequency"
+  },
+  {
+    "start": 325.56,
+    "duration": 5.12,
+    "text": "array okay I will Traverse the frequency"
+  },
+  {
+    "start": 328.6,
+    "duration": 6.52,
+    "text": "array I will create a new array of the"
+  },
+  {
+    "start": 330.68,
+    "duration": 4.44,
+    "text": "size or I'll just replace the original"
+  },
+  {
+    "start": 347.24,
+    "duration": 7.36,
+    "text": "array okay I will say if the value of"
+  },
+  {
+    "start": 351.84,
+    "duration": 6.68,
+    "text": "the index is greater than zero it means"
+  },
+  {
+    "start": 354.6,
+    "duration": 5.92,
+    "text": "that that index is in my original array"
+  },
+  {
+    "start": 358.52,
+    "duration": 4.239,
+    "text": "and now since the indexes are already in"
+  },
+  {
+    "start": 360.52,
+    "duration": 5.08,
+    "text": "sorted"
+  },
+  {
+    "start": 362.759,
+    "duration": 4.681,
+    "text": "order I will take one by one so for"
+  },
+  {
+    "start": 365.6,
+    "duration": 4.92,
+    "text": "example 0 is coming zero times I will"
+  },
+  {
+    "start": 367.44,
+    "duration": 4.64,
+    "text": "not take it one is coming once so I will"
+  },
+  {
+    "start": 370.52,
+    "duration": 4.32,
+    "text": "add one over"
+  },
+  {
+    "start": 372.08,
+    "duration": 5.119,
+    "text": "here two is coming twice I will add two"
+  },
+  {
+    "start": 374.84,
+    "duration": 4.56,
+    "text": "over here three is coming twice I will"
+  },
+  {
+    "start": 377.199,
+    "duration": 3.801,
+    "text": "add three two times over here four is"
+  },
+  {
+    "start": 379.4,
+    "duration": 3.639,
+    "text": "coming once I will add four five is"
+  },
+  {
+    "start": 381.0,
+    "duration": 7.28,
+    "text": "coming once I will add five eight is"
+  },
+  {
+    "start": 383.039,
+    "duration": 5.241,
+    "text": "coming once I will add eight array"
+  },
+  {
+    "start": 388.4,
+    "duration": 4.44,
+    "text": "sorted"
+  },
+  {
+    "start": 390.639,
+    "duration": 3.481,
+    "text": "easy there's nothing to explain over"
+  },
+  {
+    "start": 392.84,
+    "duration": 3.44,
+    "text": "here it's very"
+  },
+  {
+    "start": 394.12,
+    "duration": 5.199,
+    "text": "simple count the number of times it is"
+  },
+  {
+    "start": 396.28,
+    "duration": 5.28,
+    "text": "coming so what is going to be time"
+  },
+  {
+    "start": 399.319,
+    "duration": 4.481,
+    "text": "complexity think about it you tell me"
+  },
+  {
+    "start": 401.56,
+    "duration": 6.16,
+    "text": "searching the original array of size"
+  },
+  {
+    "start": 403.8,
+    "duration": 9.6,
+    "text": "n this is let's say size M searching the"
+  },
+  {
+    "start": 407.72,
+    "duration": 9.599,
+    "text": "original array takes n time"
+  },
+  {
+    "start": 413.4,
+    "duration": 6.56,
+    "text": "plus searching this array takes M time o"
+  },
+  {
+    "start": 417.319,
+    "duration": 5.761,
+    "text": "of n plus M similarly the"
+  },
+  {
+    "start": 419.96,
+    "duration": 5.32,
+    "text": "the space complexity as well go of n"
+  },
+  {
+    "start": 423.08,
+    "duration": 2.2,
+    "text": "plus"
+  },
+  {
+    "start": 425.319,
+    "duration": 5.121,
+    "text": "M okay if we're taking about the output"
+  },
+  {
+    "start": 428.4,
+    "duration": 3.44,
+    "text": "array but if you're just talking about"
+  },
+  {
+    "start": 430.44,
+    "duration": 3.4,
+    "text": "let's say I making changes in the"
+  },
+  {
+    "start": 431.84,
+    "duration": 4.479,
+    "text": "original array I'm not creating a new"
+  },
+  {
+    "start": 433.84,
+    "duration": 5.52,
+    "text": "array for the output then space"
+  },
+  {
+    "start": 436.319,
+    "duration": 3.041,
+    "text": "complexity is O of"
+  },
+  {
+    "start": 439.639,
+    "duration": 5.24,
+    "text": "M okay because this is extra array I'm"
+  },
+  {
+    "start": 442.039,
+    "duration": 6.0,
+    "text": "creating the frequency"
+  },
+  {
+    "start": 444.879,
+    "duration": 4.961,
+    "text": "table that is that's count"
+  },
+  {
+    "start": 448.039,
+    "duration": 3.56,
+    "text": "S easy"
+  },
+  {
+    "start": 449.84,
+    "duration": 5.079,
+    "text": "now one thing you can do is instead of"
+  },
+  {
+    "start": 451.599,
+    "duration": 3.32,
+    "text": "array hash"
+  },
+  {
+    "start": 455.08,
+    "duration": 5.88,
+    "text": "map instead of an array a hash map so"
+  },
+  {
+    "start": 458.68,
+    "duration": 4.76,
+    "text": "you can"
+  },
+  {
+    "start": 460.96,
+    "duration": 4.639,
+    "text": "have uh for example here I can say three"
+  },
+  {
+    "start": 463.44,
+    "duration": 2.159,
+    "text": "is"
+  },
+  {
+    "start": 467.0,
+    "duration": 6.24,
+    "text": "coming"
+  },
+  {
+    "start": 468.919,
+    "duration": 4.321,
+    "text": "once four is coming"
+  },
+  {
+    "start": 474.039,
+    "duration": 5.761,
+    "text": "once one is coming"
+  },
+  {
+    "start": 477.479,
+    "duration": 5.241,
+    "text": "once three is again coming com one more"
+  },
+  {
+    "start": 479.8,
+    "duration": 5.04,
+    "text": "time so the value increased to two two"
+  },
+  {
+    "start": 482.72,
+    "duration": 6.159,
+    "text": "is coming"
+  },
+  {
+    "start": 484.84,
+    "duration": 6.16,
+    "text": "once five is coming once two again and"
+  },
+  {
+    "start": 488.879,
+    "duration": 4.801,
+    "text": "then eight is coming once thing you have"
+  },
+  {
+    "start": 491.0,
+    "duration": 5.039,
+    "text": "to note over here is that in hashmap I"
+  },
+  {
+    "start": 493.68,
+    "duration": 3.799,
+    "text": "told you in the previous lectures items"
+  },
+  {
+    "start": 496.039,
+    "duration": 4.84,
+    "text": "are not in sorted"
+  },
+  {
+    "start": 497.479,
+    "duration": 6.241,
+    "text": "order so this key over here these might"
+  },
+  {
+    "start": 500.879,
+    "duration": 4.481,
+    "text": "not be in sorted order so how are we"
+  },
+  {
+    "start": 503.72,
+    "duration": 3.8,
+    "text": "going to get the elements in the"
+  },
+  {
+    "start": 505.36,
+    "duration": 3.559,
+    "text": "previous lecture in the previous example"
+  },
+  {
+    "start": 507.52,
+    "duration": 3.679,
+    "text": "we were just because the indexes are"
+  },
+  {
+    "start": 508.919,
+    "duration": 5.36,
+    "text": "already in sorted order I'm just taking"
+  },
+  {
+    "start": 511.199,
+    "duration": 6.441,
+    "text": "indexes 0 1 2 3 4 5 6 7 here also you"
+  },
+  {
+    "start": 514.279,
+    "duration": 5.24,
+    "text": "can do the same thing um since we're"
+  },
+  {
+    "start": 517.64,
+    "duration": 4.519,
+    "text": "talking about"
+  },
+  {
+    "start": 519.519,
+    "duration": 5.961,
+    "text": "numbers so maximum I"
+  },
+  {
+    "start": 522.159,
+    "duration": 10.201,
+    "text": "know is equal to 8 I can start searching"
+  },
+  {
+    "start": 525.48,
+    "duration": 9.32,
+    "text": "from I is equal to 0 till 8 so map. get"
+  },
+  {
+    "start": 532.36,
+    "duration": 6.12,
+    "text": "I it will search for zero does zero"
+  },
+  {
+    "start": 534.8,
+    "duration": 7.039,
+    "text": "exist no it doesn't one exists yes one"
+  },
+  {
+    "start": 538.48,
+    "duration": 6.919,
+    "text": "exists it's value is one okay new array"
+  },
+  {
+    "start": 541.839,
+    "duration": 6.68,
+    "text": "one two exist yes this value is two add"
+  },
+  {
+    "start": 545.399,
+    "duration": 6.68,
+    "text": "it two times 3 exist yes value is two"
+  },
+  {
+    "start": 548.519,
+    "duration": 7.161,
+    "text": "added two times four exists yes five"
+  },
+  {
+    "start": 552.079,
+    "duration": 5.801,
+    "text": "exists yes 6 exists No 7 exist no eight"
+  },
+  {
+    "start": 555.68,
+    "duration": 4.64,
+    "text": "exists"
+  },
+  {
+    "start": 557.88,
+    "duration": 6.72,
+    "text": "yes"
+  },
+  {
+    "start": 560.32,
+    "duration": 7.28,
+    "text": "okay easy space complexity is"
+  },
+  {
+    "start": 564.6,
+    "duration": 3.0,
+    "text": "what"
+  },
+  {
+    "start": 567.8,
+    "duration": 6.039,
+    "text": "the total toal number of U it's also"
+  },
+  {
+    "start": 571.839,
+    "duration": 5.0,
+    "text": "linear like total number of unique"
+  },
+  {
+    "start": 573.839,
+    "duration": 5.321,
+    "text": "elements so it's also linear but worst"
+  },
+  {
+    "start": 576.839,
+    "duration": 6.921,
+    "text": "case it will be o of"
+  },
+  {
+    "start": 579.16,
+    "duration": 10.2,
+    "text": "um o of M again and"
+  },
+  {
+    "start": 583.76,
+    "duration": 8.4,
+    "text": "um the time complexity remains n plus M"
+  },
+  {
+    "start": 589.36,
+    "duration": 5.28,
+    "text": "only very easy so we can Cote both the"
+  },
+  {
+    "start": 592.16,
+    "duration": 4.52,
+    "text": "solutions both are fine but ideally the"
+  },
+  {
+    "start": 594.64,
+    "duration": 4.0,
+    "text": "best solution is using"
+  },
+  {
+    "start": 596.68,
+    "duration": 3.56,
+    "text": "array okay because it's much more"
+  },
+  {
+    "start": 598.64,
+    "duration": 3.36,
+    "text": "simpler"
+  },
+  {
+    "start": 600.24,
+    "duration": 5.24,
+    "text": "or if you want to use you can try tree"
+  },
+  {
+    "start": 602.0,
+    "duration": 5.6,
+    "text": "map because it stores in sorted order"
+  },
+  {
+    "start": 605.48,
+    "duration": 3.479,
+    "text": "but uh let's code it okay so the code"
+  },
+  {
+    "start": 607.6,
+    "duration": 3.28,
+    "text": "link can be found in the description"
+  },
+  {
+    "start": 608.959,
+    "duration": 3.521,
+    "text": "below I'm going to create"
+  },
+  {
+    "start": 610.88,
+    "duration": 4.959,
+    "text": "[Music]"
+  },
+  {
+    "start": 612.48,
+    "duration": 3.359,
+    "text": "um count"
+  },
+  {
+    "start": 619.279,
+    "duration": 5.321,
+    "text": "sort"
+  },
+  {
+    "start": 621.88,
+    "duration": 4.92,
+    "text": "easy okay so generally if I talk about"
+  },
+  {
+    "start": 624.6,
+    "duration": 4.2,
+    "text": "like you know what are the advantages of"
+  },
+  {
+    "start": 626.8,
+    "duration": 4.84,
+    "text": "count sort why would you want to use it"
+  },
+  {
+    "start": 628.8,
+    "duration": 4.44,
+    "text": "so it's very fast based like when you"
+  },
+  {
+    "start": 631.64,
+    "duration": 3.52,
+    "text": "compare it to comparison based sorting"
+  },
+  {
+    "start": 633.24,
+    "duration": 4.64,
+    "text": "algorithms for very small"
+  },
+  {
+    "start": 635.16,
+    "duration": 3.84,
+    "text": "numbers and it's also a stable algorithm"
+  },
+  {
+    "start": 637.88,
+    "duration": 3.959,
+    "text": "we have already covered stable"
+  },
+  {
+    "start": 639.0,
+    "duration": 4.91,
+    "text": "algorithms in the Sorting lecture series"
+  },
+  {
+    "start": 641.839,
+    "duration": 3.521,
+    "text": "but the thing is that"
+  },
+  {
+    "start": 643.91,
+    "duration": 4.89,
+    "text": "[Music]"
+  },
+  {
+    "start": 645.36,
+    "duration": 4.56,
+    "text": "um when I talk about um when I talk"
+  },
+  {
+    "start": 648.8,
+    "duration": 3.76,
+    "text": "about the"
+  },
+  {
+    "start": 649.92,
+    "duration": 5.039,
+    "text": "disadvantages so first of all it doesn't"
+  },
+  {
+    "start": 652.56,
+    "duration": 4.68,
+    "text": "work very well for decimal values and it"
+  },
+  {
+    "start": 654.959,
+    "duration": 4.641,
+    "text": "doesn't work very well for large numbers"
+  },
+  {
+    "start": 657.24,
+    "duration": 4.32,
+    "text": "for large numbers we'll look at radic"
+  },
+  {
+    "start": 659.6,
+    "duration": 5.12,
+    "text": "sort in the next video which is also"
+  },
+  {
+    "start": 661.56,
+    "duration": 4.959,
+    "text": "very important and uh it's also taking"
+  },
+  {
+    "start": 664.72,
+    "duration": 3.679,
+    "text": "extra space not in place sorting"
+  },
+  {
+    "start": 666.519,
+    "duration": 3.481,
+    "text": "algorithm so that's also one of the"
+  },
+  {
+    "start": 668.399,
+    "duration": 3.721,
+    "text": "advantages but I told you the"
+  },
+  {
+    "start": 670.0,
+    "duration": 3.279,
+    "text": "disadvantages but I told you the"
+  },
+  {
+    "start": 672.12,
+    "duration": 4.88,
+    "text": "advantages"
+  },
+  {
+    "start": 673.279,
+    "duration": 8.081,
+    "text": "also okay so count"
+  },
+  {
+    "start": 677.0,
+    "duration": 9.16,
+    "text": "sort um very"
+  },
+  {
+    "start": 681.36,
+    "duration": 4.8,
+    "text": "simple I am going to create a"
+  },
+  {
+    "start": 687.959,
+    "duration": 3.0,
+    "text": "function"
+  },
+  {
+    "start": 694.079,
+    "duration": 8.44,
+    "text": "okay if array is equal to equal to null"
+  },
+  {
+    "start": 699.279,
+    "duration": 5.521,
+    "text": "or array. length is less than equal to 1"
+  },
+  {
+    "start": 702.519,
+    "duration": 7.0,
+    "text": "I will just say nothing to do you can"
+  },
+  {
+    "start": 704.8,
+    "duration": 6.24,
+    "text": "just return that's fine but what is the"
+  },
+  {
+    "start": 709.519,
+    "duration": 5.361,
+    "text": "first step that we need to do in count"
+  },
+  {
+    "start": 711.04,
+    "duration": 3.84,
+    "text": "sort I have to find the largest"
+  },
+  {
+    "start": 715.72,
+    "duration": 7.0,
+    "text": "element largest is equal to let's say or"
+  },
+  {
+    "start": 719.68,
+    "duration": 6.04,
+    "text": "I can say Max is equal"
+  },
+  {
+    "start": 722.72,
+    "duration": 6.84,
+    "text": "to array of"
+  },
+  {
+    "start": 725.72,
+    "duration": 3.84,
+    "text": "zero num"
+  },
+  {
+    "start": 734.519,
+    "duration": 3.0,
+    "text": "in"
+  },
+  {
+    "start": 739.0,
+    "duration": 6.56,
+    "text": "Array if num is greater than"
+  },
+  {
+    "start": 742.92,
+    "duration": 4.039,
+    "text": "Max Max is equal to num just finding the"
+  },
+  {
+    "start": 745.56,
+    "duration": 3.2,
+    "text": "largest number in the array not a"
+  },
+  {
+    "start": 746.959,
+    "duration": 3.281,
+    "text": "problem we have we are way past that"
+  },
+  {
+    "start": 748.76,
+    "duration": 3.439,
+    "text": "okay okay now I'm going to create a"
+  },
+  {
+    "start": 750.24,
+    "duration": 4.159,
+    "text": "count"
+  },
+  {
+    "start": 752.199,
+    "duration": 4.721,
+    "text": "array the size of that will be equal to"
+  },
+  {
+    "start": 754.399,
+    "duration": 2.521,
+    "text": "Max +"
+  },
+  {
+    "start": 759.199,
+    "duration": 5.721,
+    "text": "1 so that I can get the indexes right"
+  },
+  {
+    "start": 762.519,
+    "duration": 5.401,
+    "text": "the same thing we did before now I will"
+  },
+  {
+    "start": 764.92,
+    "duration": 6.76,
+    "text": "Traverse over the original array so I"
+  },
+  {
+    "start": 767.92,
+    "duration": 6.76,
+    "text": "will say index is equal to"
+  },
+  {
+    "start": 771.68,
+    "duration": 5.36,
+    "text": "0 no I will Traverse over the original"
+  },
+  {
+    "start": 774.68,
+    "duration": 4.839,
+    "text": "array so for every"
+  },
+  {
+    "start": 777.04,
+    "duration": 5.52,
+    "text": "number in original"
+  },
+  {
+    "start": 779.519,
+    "duration": 5.481,
+    "text": "array count arrays"
+  },
+  {
+    "start": 782.56,
+    "duration": 4.639,
+    "text": "index the index is equal to that number"
+  },
+  {
+    "start": 785.0,
+    "duration": 3.72,
+    "text": "itself just add it this will create the"
+  },
+  {
+    "start": 787.199,
+    "duration": 4.64,
+    "text": "frequency"
+  },
+  {
+    "start": 788.72,
+    "duration": 8.16,
+    "text": "array okay because it will be like three"
+  },
+  {
+    "start": 791.839,
+    "duration": 9.321,
+    "text": "so count array 3 + 1 1 4 index number 4"
+  },
+  {
+    "start": 796.88,
+    "duration": 8.88,
+    "text": "1 1 index number one 1 3 index number 3"
+  },
+  {
+    "start": 801.16,
+    "duration": 8.119,
+    "text": "+ 1 so two it will create this frequency"
+  },
+  {
+    "start": 805.76,
+    "duration": 7.4,
+    "text": "array now I will run through this"
+  },
+  {
+    "start": 809.279,
+    "duration": 6.281,
+    "text": "frequency array I is equal to 0 I is"
+  },
+  {
+    "start": 813.16,
+    "duration": 5.84,
+    "text": "less than equal to maximum value that I"
+  },
+  {
+    "start": 815.56,
+    "duration": 7.56,
+    "text": "had and I + plus what I'm going to do"
+  },
+  {
+    "start": 819.0,
+    "duration": 7.12,
+    "text": "now is that while whenever I find an"
+  },
+  {
+    "start": 823.12,
+    "duration": 5.68,
+    "text": "element that has a non"
+  },
+  {
+    "start": 826.12,
+    "duration": 6.56,
+    "text": "zero number it means that many times it"
+  },
+  {
+    "start": 828.8,
+    "duration": 3.88,
+    "text": "will come so"
+  },
+  {
+    "start": 832.959,
+    "duration": 6.361,
+    "text": "while count array of I is greater than"
+  },
+  {
+    "start": 836.72,
+    "duration": 6.72,
+    "text": "zero I will add it in my my original"
+  },
+  {
+    "start": 839.32,
+    "duration": 6.4,
+    "text": "array array of that like I'm starting to"
+  },
+  {
+    "start": 843.44,
+    "duration": 3.16,
+    "text": "add from zero index that's why I've"
+  },
+  {
+    "start": 845.72,
+    "duration": 4.359,
+    "text": "taken"
+  },
+  {
+    "start": 846.6,
+    "duration": 5.08,
+    "text": "this uh another variable index number"
+  },
+  {
+    "start": 850.079,
+    "duration": 4.641,
+    "text": "zero so it will Traverse the original"
+  },
+  {
+    "start": 851.68,
+    "duration": 8.12,
+    "text": "array from zero so that"
+  },
+  {
+    "start": 854.72,
+    "duration": 5.08,
+    "text": "index is equal to I and index"
+  },
+  {
+    "start": 860.759,
+    "duration": 6.2,
+    "text": "Plus+ okay and I will say count of array"
+  },
+  {
+    "start": 865.959,
+    "duration": 4.721,
+    "text": "of"
+  },
+  {
+    "start": 866.959,
+    "duration": 3.721,
+    "text": "I minus-"
+  },
+  {
+    "start": 871.199,
+    "duration": 5.241,
+    "text": "and that is"
+  },
+  {
+    "start": 872.44,
+    "duration": 7.04,
+    "text": "it simple zero it will be like okay is"
+  },
+  {
+    "start": 876.44,
+    "duration": 4.759,
+    "text": "uh array count array of 0 greater than Z"
+  },
+  {
+    "start": 879.48,
+    "duration": 3.64,
+    "text": "no it's not okay move forward count"
+  },
+  {
+    "start": 881.199,
+    "duration": 5.88,
+    "text": "array of one is 1 which is greater than"
+  },
+  {
+    "start": 883.12,
+    "duration": 6.92,
+    "text": "zero so just index number zero it will"
+  },
+  {
+    "start": 887.079,
+    "duration": 4.88,
+    "text": "add one then it will do index Plus+ so"
+  },
+  {
+    "start": 890.04,
+    "duration": 3.28,
+    "text": "now it will be here and here it will do"
+  },
+  {
+    "start": 891.959,
+    "duration": 2.921,
+    "text": "index minus minus so this will again"
+  },
+  {
+    "start": 893.32,
+    "duration": 4.36,
+    "text": "become"
+  },
+  {
+    "start": 894.88,
+    "duration": 6.28,
+    "text": "zero okay plus plusus very"
+  },
+  {
+    "start": 897.68,
+    "duration": 3.48,
+    "text": "simple can run"
+  },
+  {
+    "start": 906.16,
+    "duration": 5.039,
+    "text": "this 3"
+  },
+  {
+    "start": 908.199,
+    "duration": 3.0,
+    "text": "5"
+  },
+  {
+    "start": 912.079,
+    "duration": 5.601,
+    "text": "10 6 3"
+  },
+  {
+    "start": 915.199,
+    "duration": 4.601,
+    "text": "10"
+  },
+  {
+    "start": 917.68,
+    "duration": 4.839,
+    "text": "9"
+  },
+  {
+    "start": 919.8,
+    "duration": 5.719,
+    "text": "92"
+  },
+  {
+    "start": 922.519,
+    "duration": 3.0,
+    "text": "49"
+  },
+  {
+    "start": 926.079,
+    "duration": 8.161,
+    "text": "7 system.out do"
+  },
+  {
+    "start": 929.56,
+    "duration": 4.68,
+    "text": "print Len RR I can"
+  },
+  {
+    "start": 936.6,
+    "duration": 4.08,
+    "text": "say okay and here it will be I'm just"
+  },
+  {
+    "start": 939.079,
+    "duration": 4.32,
+    "text": "printing the array array is to two"
+  },
+  {
+    "start": 940.68,
+    "duration": 5.24,
+    "text": "string count sort should be"
+  },
+  {
+    "start": 943.399,
+    "duration": 4.961,
+    "text": "fine we did the dry run it's a very"
+  },
+  {
+    "start": 945.92,
+    "duration": 9.76,
+    "text": "simple algorithm run"
+  },
+  {
+    "start": 948.36,
+    "duration": 8.919,
+    "text": "this sorted 2 3 4 6 7 9 9"
+  },
+  {
+    "start": 955.68,
+    "duration": 5.32,
+    "text": "10"
+  },
+  {
+    "start": 957.279,
+    "duration": 6.401,
+    "text": "easy cool okay now what we can do is we"
+  },
+  {
+    "start": 961.0,
+    "duration": 5.16,
+    "text": "can also create count"
+  },
+  {
+    "start": 963.68,
+    "duration": 4.719,
+    "text": "sort now"
+  },
+  {
+    "start": 966.16,
+    "duration": 6.64,
+    "text": "um using"
+  },
+  {
+    "start": 968.399,
+    "duration": 4.401,
+    "text": "hashmaps so let's see how we'll do"
+  },
+  {
+    "start": 973.759,
+    "duration": 4.921,
+    "text": "that public"
+  },
+  {
+    "start": 975.68,
+    "duration": 3.0,
+    "text": "static"
+  },
+  {
+    "start": 979.92,
+    "duration": 7.599,
+    "text": "void count sort hash int"
+  },
+  {
+    "start": 984.759,
+    "duration": 4.481,
+    "text": "array same thing I will"
+  },
+  {
+    "start": 987.519,
+    "duration": 3.8,
+    "text": "do"
+  },
+  {
+    "start": 989.24,
+    "duration": 3.88,
+    "text": "make sure when you're copy pasting you"
+  },
+  {
+    "start": 991.319,
+    "duration": 3.601,
+    "text": "copy paste"
+  },
+  {
+    "start": 993.12,
+    "duration": 4.36,
+    "text": "correctly"
+  },
+  {
+    "start": 994.92,
+    "duration": 4.279,
+    "text": "okay and I'm going to have to find the"
+  },
+  {
+    "start": 997.48,
+    "duration": 3.359,
+    "text": "maximum"
+  },
+  {
+    "start": 999.199,
+    "duration": 6.721,
+    "text": "item"
+  },
+  {
+    "start": 1000.839,
+    "duration": 7.12,
+    "text": "and the minimum as well so that I can"
+  },
+  {
+    "start": 1005.92,
+    "duration": 8.0,
+    "text": "create this"
+  },
+  {
+    "start": 1007.959,
+    "duration": 8.761,
+    "text": "map so what we're going to do is that"
+  },
+  {
+    "start": 1013.92,
+    "duration": 7.399,
+    "text": "uh int Max is equal to actually you can"
+  },
+  {
+    "start": 1016.72,
+    "duration": 7.28,
+    "text": "also do a shortcut arrays. stream in the"
+  },
+  {
+    "start": 1021.319,
+    "duration": 6.561,
+    "text": "array I can say do"
+  },
+  {
+    "start": 1024.0,
+    "duration": 7.28,
+    "text": "Max get as in this is actually a"
+  },
+  {
+    "start": 1027.88,
+    "duration": 6.72,
+    "text": "shortcut to get the maximum item"
+  },
+  {
+    "start": 1031.28,
+    "duration": 3.32,
+    "text": "similarly you can get minimum"
+  },
+  {
+    "start": 1036.52,
+    "duration": 6.84,
+    "text": "item please use um No Object pring the"
+  },
+  {
+    "start": 1041.4,
+    "duration": 4.559,
+    "text": "Frameworks and stuff all the collections"
+  },
+  {
+    "start": 1043.36,
+    "duration": 7.04,
+    "text": "and everything okay"
+  },
+  {
+    "start": 1045.959,
+    "duration": 4.441,
+    "text": "map integer comma integer"
+  },
+  {
+    "start": 1053.08,
+    "duration": 6.64,
+    "text": "I can say count map is equal to new"
+  },
+  {
+    "start": 1055.84,
+    "duration": 5.56,
+    "text": "hashmap interface and the class how"
+  },
+  {
+    "start": 1059.72,
+    "duration": 4.319,
+    "text": "we're making objects it should be clear"
+  },
+  {
+    "start": 1061.4,
+    "duration": 4.639,
+    "text": "in object pramming playlist for every"
+  },
+  {
+    "start": 1064.039,
+    "duration": 5.241,
+    "text": "number in"
+  },
+  {
+    "start": 1066.039,
+    "duration": 5.481,
+    "text": "Array I can say count"
+  },
+  {
+    "start": 1069.28,
+    "duration": 4.44,
+    "text": "map that"
+  },
+  {
+    "start": 1071.52,
+    "duration": 8.88,
+    "text": "number"
+  },
+  {
+    "start": 1073.72,
+    "duration": 6.68,
+    "text": "um whatever the value is + one but"
+  },
+  {
+    "start": 1081.0,
+    "duration": 7.039,
+    "text": "you have to get account map dot sorry I"
+  },
+  {
+    "start": 1083.72,
+    "duration": 5.76,
+    "text": "have to put inside this map where this"
+  },
+  {
+    "start": 1088.039,
+    "duration": 4.601,
+    "text": "number"
+  },
+  {
+    "start": 1089.48,
+    "duration": 7.04,
+    "text": "is what do I have to put the original"
+  },
+  {
+    "start": 1092.64,
+    "duration": 6.8,
+    "text": "value that is already here count map."
+  },
+  {
+    "start": 1096.52,
+    "duration": 4.88,
+    "text": "getet or default so for example if"
+  },
+  {
+    "start": 1099.44,
+    "duration": 6.04,
+    "text": "there's no value I will take zero"
+  },
+  {
+    "start": 1101.4,
+    "duration": 7.279,
+    "text": "original value or 0 + 1"
+  },
+  {
+    "start": 1105.48,
+    "duration": 6.96,
+    "text": "easy then I will build my same same I'll"
+  },
+  {
+    "start": 1108.679,
+    "duration": 3.761,
+    "text": "do take index equal to"
+  },
+  {
+    "start": 1114.44,
+    "duration": 6.44,
+    "text": "zero in I is equal to what I'll start"
+  },
+  {
+    "start": 1117.64,
+    "duration": 3.24,
+    "text": "from minimum to"
+  },
+  {
+    "start": 1121.52,
+    "duration": 4.24,
+    "text": "maximum just to make it a little bit"
+  },
+  {
+    "start": 1123.559,
+    "duration": 2.201,
+    "text": "more"
+  },
+  {
+    "start": 1126.799,
+    "duration": 6.36,
+    "text": "efficient for example here I'm not"
+  },
+  {
+    "start": 1129.799,
+    "duration": 6.36,
+    "text": "starting from zero I'll start from"
+  },
+  {
+    "start": 1133.159,
+    "duration": 3.0,
+    "text": "one"
+  },
+  {
+    "start": 1137.32,
+    "duration": 7.12,
+    "text": "okay"
+  },
+  {
+    "start": 1140.32,
+    "duration": 7.44,
+    "text": "uh I'll say in count is equal to count"
+  },
+  {
+    "start": 1144.44,
+    "duration": 4.96,
+    "text": "map dot again get"
+  },
+  {
+    "start": 1147.76,
+    "duration": 7.96,
+    "text": "or"
+  },
+  {
+    "start": 1149.4,
+    "duration": 10.0,
+    "text": "default for that I or get zero if it not"
+  },
+  {
+    "start": 1155.72,
+    "duration": 7.72,
+    "text": "exist and then I can just"
+  },
+  {
+    "start": 1159.4,
+    "duration": 7.84,
+    "text": "say for in J is equal to Z J is less"
+  },
+  {
+    "start": 1163.44,
+    "duration": 6.599,
+    "text": "than count and"
+  },
+  {
+    "start": 1167.24,
+    "duration": 8.04,
+    "text": "j++"
+  },
+  {
+    "start": 1170.039,
+    "duration": 8.441,
+    "text": "for for every like element in the array"
+  },
+  {
+    "start": 1175.28,
+    "duration": 6.04,
+    "text": "I'm going to say like number of times"
+  },
+  {
+    "start": 1178.48,
+    "duration": 4.92,
+    "text": "the count is appearing so it's say one"
+  },
+  {
+    "start": 1181.32,
+    "duration": 5.2,
+    "text": "is appearing once so the Run Loop will"
+  },
+  {
+    "start": 1183.4,
+    "duration": 6.56,
+    "text": "run once the J Loop two is coming twice"
+  },
+  {
+    "start": 1186.52,
+    "duration": 6.92,
+    "text": "so the J Loop will run two times and I"
+  },
+  {
+    "start": 1189.96,
+    "duration": 9.12,
+    "text": "will say array of index is equal to"
+  },
+  {
+    "start": 1193.44,
+    "duration": 8.32,
+    "text": "I index ++ that's it easy"
+  },
+  {
+    "start": 1199.08,
+    "duration": 2.68,
+    "text": "but do"
+  },
+  {
+    "start": 1201.96,
+    "duration": 7.48,
+    "text": "the I'd recommend do the"
+  },
+  {
+    "start": 1205.64,
+    "duration": 6.64,
+    "text": "um integer way the array way okay we can"
+  },
+  {
+    "start": 1209.44,
+    "duration": 7.88,
+    "text": "try to run this it'll give the same"
+  },
+  {
+    "start": 1212.28,
+    "duration": 7.56,
+    "text": "answer 2 3 4 6 7 9 9 10"
+  },
+  {
+    "start": 1217.32,
+    "duration": 3.64,
+    "text": "easy yeah that's pretty much about it uh"
+  },
+  {
+    "start": 1219.84,
+    "duration": 2.64,
+    "text": "if you have any questions leave those in"
+  },
+  {
+    "start": 1220.96,
+    "duration": 3.48,
+    "text": "the comment section below all the code"
+  },
+  {
+    "start": 1222.48,
+    "duration": 3.48,
+    "text": "links and everything assignments"
+  },
+  {
+    "start": 1224.44,
+    "duration": 3.28,
+    "text": "previous lecture videos everything can"
+  },
+  {
+    "start": 1225.96,
+    "duration": 4.12,
+    "text": "be found in the description below if you"
+  },
+  {
+    "start": 1227.72,
+    "duration": 5.88,
+    "text": "want to the work we do so make sure you"
+  },
+  {
+    "start": 1230.08,
+    "duration": 5.16,
+    "text": "like sh And subscribe and comment and um"
+  },
+  {
+    "start": 1233.6,
+    "duration": 3.92,
+    "text": "yeah I'll see you in the next one have a"
+  },
+  {
+    "start": 1235.24,
+    "duration": 2.28,
+    "text": "great"
+  },
+  {
+    "start": 1242.679,
+    "duration": 3.0,
+    "text": "day"
+  }
+]

@@ -1,0 +1,2527 @@
+[
+  {
+    "start": 3.79,
+    "duration": 5.8,
+    "text": "Hey everyone, welcome back to another video and in this video we are looking at MergeSort."
+  },
+  {
+    "start": 9.59,
+    "duration": 4.08,
+    "text": "So we are doing like the complete recursion series and in this one we are looking at MergeSort"
+  },
+  {
+    "start": 13.67,
+    "duration": 4.38,
+    "text": "which is another sorting algorithm, we have already covered bubble sort, insertion sort"
+  },
+  {
+    "start": 18.05,
+    "duration": 1.0,
+    "text": "and selection sort."
+  },
+  {
+    "start": 19.05,
+    "duration": 3.62,
+    "text": "So the links for that can be found in the description below but yeah let's get started"
+  },
+  {
+    "start": 22.67,
+    "duration": 1.08,
+    "text": "with MergeSort."
+  },
+  {
+    "start": 23.75,
+    "duration": 4.24,
+    "text": "If you are new to this channel then make sure you like, share and subscribe and check"
+  },
+  {
+    "start": 27.99,
+    "duration": 4.26,
+    "text": "out the entire DSA playlist, the links can be found in the description."
+  },
+  {
+    "start": 32.25,
+    "duration": 1.0,
+    "text": "So what is MergeSort?"
+  },
+  {
+    "start": 33.25,
+    "duration": 4.32,
+    "text": "So simple like sorting technique, we are using recursion in this, it's sort of like divide"
+  },
+  {
+    "start": 37.57,
+    "duration": 1.0,
+    "text": "and conquer."
+  },
+  {
+    "start": 38.57,
+    "duration": 4.6,
+    "text": "That is what we do in like recursion, we divide the bigger problems into smaller problems."
+  },
+  {
+    "start": 43.17,
+    "duration": 2.0,
+    "text": "Let's see how it works."
+  },
+  {
+    "start": 45.17,
+    "duration": 13.01,
+    "text": "So let's say we are given an unsorted array, something like 8, 3, 4, 12, 5, 6, okay,"
+  },
+  {
+    "start": 58.18,
+    "duration": 1.0,
+    "text": "something like that."
+  },
+  {
+    "start": 59.18,
+    "duration": 5.04,
+    "text": "So this is an array given to you, you want to sort it using merge sort."
+  },
+  {
+    "start": 64.22,
+    "duration": 7.16,
+    "text": "sort the simple explanation is that in recursion it is going to be like divide this array into"
+  },
+  {
+    "start": 71.38,
+    "duration": 5.0,
+    "text": "two parts, that is the step number one. So divide this array into two parts, this is"
+  },
+  {
+    "start": 76.38,
+    "duration": 6.44,
+    "text": "part number one, this is part number two. Merge sort is going to be like in recursion"
+  },
+  {
+    "start": 82.82,
+    "duration": 6.64,
+    "text": "it is going to be like hey recursion, please sort first half of the array, please sort"
+  },
+  {
+    "start": 89.46,
+    "duration": 6.24,
+    "text": "second half of the array. Give me the answers and then I will merge that. This is going to"
+  },
+  {
+    "start": 95.7,
+    "duration": 4.8,
+    "text": "be another recursion call. It's going to sort this half of the array. This recursion call is"
+  },
+  {
+    "start": 100.5,
+    "duration": 6.0,
+    "text": "going to sort this half of the array. And then the main function when these recursion calls are over."
+  },
+  {
+    "start": 107.62,
+    "duration": 6.16,
+    "text": "Main ones will be getting merged. For example, after sorting, it gives something like this."
+  },
+  {
+    "start": 113.78,
+    "duration": 4.08,
+    "text": "it gives something like what will this give this will give 3 comma 4 comma 8"
+  },
+  {
+    "start": 118.66,
+    "duration": 6.16,
+    "text": "what will this give the recursion call for the right hand side it will give 5 comma 6 comma 12"
+  },
+  {
+    "start": 124.82,
+    "duration": 5.2,
+    "text": "now the only goal remaining is whatever arrays you are getting from the left hand side and the"
+  },
+  {
+    "start": 130.02,
+    "duration": 6.88,
+    "text": "right hand side merge those that is what we are trying to do okay so it's basically going"
+  },
+  {
+    "start": 136.9,
+    "duration": 3.12,
+    "text": "to be like okay i'm going to call the recursion call for the left side and then for the right"
+  },
+  {
+    "start": 140.02,
+    "duration": 11.24,
+    "text": "right side they are going to give me the sorted array after these are sorted merge them merging"
+  },
+  {
+    "start": 151.26,
+    "duration": 5.3,
+    "text": "happens simply so you can start two pointers one from here one from here a new array can"
+  },
+  {
+    "start": 156.56,
+    "duration": 5.78,
+    "text": "be available over here okay so it can be like three is bigger or five is bigger it's"
+  },
+  {
+    "start": 162.34,
+    "duration": 4.0,
+    "text": "going to be like three is bigger three comes over here pointer goes over here four is"
+  },
+  {
+    "start": 166.34,
+    "duration": 4.88,
+    "text": "bigger or five is bigger four is bigger sorry what am I saying three smaller or five"
+  },
+  {
+    "start": 171.22,
+    "duration": 6.4,
+    "text": "smaller, 3 smaller, 4 smaller or 5 smaller, 4 smaller, goes over here, 8 is smaller or"
+  },
+  {
+    "start": 177.62,
+    "duration": 5.84,
+    "text": "5 is smaller, 5 is smaller, goes over here, 6 is smaller or 8 is smaller, 6 is smaller,"
+  },
+  {
+    "start": 183.46,
+    "duration": 7.16,
+    "text": "goes over here, 12 is smaller or 8 is smaller, 8 is smaller, ends. After that, all the remaining"
+  },
+  {
+    "start": 190.62,
+    "duration": 7.43,
+    "text": "ones added over here. I will explain this in much more detail."
+  },
+  {
+    "start": 198.05,
+    "duration": 19.8,
+    "text": "Let me just write the steps, step is divide array into two parts, okay, get both part"
+  },
+  {
+    "start": 217.85,
+    "duration": 9.53,
+    "text": "parts sorted via recursion, when you get the answer like when the function call is over"
+  },
+  {
+    "start": 227.38,
+    "duration": 10.83,
+    "text": "and everything you get the sorted parts merge the sorted parts, that is basically"
+  },
+  {
+    "start": 238.21,
+    "duration": 1.6,
+    "text": "what we are doing."
+  },
+  {
+    "start": 239.81,
+    "duration": 6.72,
+    "text": "Okay, taking the same example, it's like 8, 3, 4, 12, 5, 6."
+  },
+  {
+    "start": 246.53,
+    "duration": 6.29,
+    "text": "First let me explain to you point number 3 again."
+  },
+  {
+    "start": 252.82,
+    "duration": 2.52,
+    "text": "So basically if you are given 2 arrays, how do you merge those?"
+  },
+  {
+    "start": 255.34,
+    "duration": 1.72,
+    "text": "That's the basically the question."
+  },
+  {
+    "start": 257.06,
+    "duration": 6.28,
+    "text": "Let's say array 1 is given to you like 4 or 2 sorted arrays are given to you and"
+  },
+  {
+    "start": 263.34,
+    "duration": 3.08,
+    "text": "you want to merge those that's basically the problem."
+  },
+  {
+    "start": 266.42,
+    "duration": 3.72,
+    "text": "So array 1 is given like 3, 5, 9."
+  },
+  {
+    "start": 270.14,
+    "duration": 9.96,
+    "text": "say array 2 is given to you like 4, 6, 8 something like that. So, in order to solve it you start"
+  },
+  {
+    "start": 280.1,
+    "duration": 5.72,
+    "text": "checking from the very first indexes that the 0th index of both create a new array of"
+  },
+  {
+    "start": 285.82,
+    "duration": 4.76,
+    "text": "size obviously what? If you are merging these two array then this array then the new array"
+  },
+  {
+    "start": 290.58,
+    "duration": 5.32,
+    "text": "is going to have size what? Size of ARR1 plus size of ARR2 because if you are"
+  },
+  {
+    "start": 295.9,
+    "duration": 4.16,
+    "text": "merging two arrays one is of size 3 and one is another one is also of size 3 new array"
+  },
+  {
+    "start": 300.06,
+    "duration": 6.8,
+    "text": "will be of what size 3 plus 3 6 check is 3 smaller than 4 yes it is which one is smaller"
+  },
+  {
+    "start": 306.86,
+    "duration": 6.4,
+    "text": "3 or 4 3 smaller put 3 in the answer and move the pointer ahead is 4 smaller or 5 smaller"
+  },
+  {
+    "start": 313.26,
+    "duration": 6.2,
+    "text": "4 is smaller put 4 over here move its pointer ahead is 5 smaller or 6 smaller 5 is smaller"
+  },
+  {
+    "start": 319.46,
+    "duration": 7.0,
+    "text": "move the pointer ahead is 9 smaller on 6 smaller it's going to be like 6 is smaller move the"
+  },
+  {
+    "start": 326.46,
+    "duration": 6.64,
+    "text": "pointer ahead is 9 smaller or 8 smaller it's going to be like 8 is smaller move the pointer"
+  },
+  {
+    "start": 333.1,
+    "duration": 8.96,
+    "text": "ahead over imagine that there were like more elements over here in that case what would"
+  },
+  {
+    "start": 342.06,
+    "duration": 5.84,
+    "text": "happen now from which you will compare these elements the remaining ones you can't hence"
+  },
+  {
+    "start": 347.9,
+    "duration": 4.08,
+    "text": "Whenever one of the error gets empty, just put the remaining elements at the back of"
+  },
+  {
+    "start": 351.98,
+    "duration": 6.8,
+    "text": "this pretty, pretty common sense because I know this was the largest element in this"
+  },
+  {
+    "start": 358.78,
+    "duration": 1.76,
+    "text": "hence all of these will be larger than this."
+  },
+  {
+    "start": 360.54,
+    "duration": 1.84,
+    "text": "Just put it behind it."
+  },
+  {
+    "start": 362.38,
+    "duration": 1.0,
+    "text": "That's it."
+  },
+  {
+    "start": 363.38,
+    "duration": 1.2,
+    "text": "This is your sorted array."
+  },
+  {
+    "start": 364.58,
+    "duration": 1.6,
+    "text": "This is how we are going to sort the array."
+  },
+  {
+    "start": 366.18,
+    "duration": 1.0,
+    "text": "Sorry."
+  },
+  {
+    "start": 367.18,
+    "duration": 2.44,
+    "text": "This is how we are going to merge the two sorted arrays."
+  },
+  {
+    "start": 369.62,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 370.62,
+    "duration": 4.52,
+    "text": "Now the only point remaining to understand is how are these things, how is this thing"
+  },
+  {
+    "start": 375.14,
+    "duration": 5.96,
+    "text": "working in recursion. And then we need to solve it as well. So again, like we did in the previous"
+  },
+  {
+    "start": 381.1,
+    "duration": 3.84,
+    "text": "example, if you have not seen the previous video, you will not understand this problem."
+  },
+  {
+    "start": 384.94,
+    "duration": 3.68,
+    "text": "Because in previous video, I explained to you in detail how to work with arrays in"
+  },
+  {
+    "start": 388.62,
+    "duration": 4.12,
+    "text": "recursion. I'm not going to explain that again, internal details of how to pass an"
+  },
+  {
+    "start": 392.74,
+    "duration": 5.0,
+    "text": "array, how to return an array, how to make the array in the body of the function,"
+  },
+  {
+    "start": 397.74,
+    "duration": 4.92,
+    "text": "all these three things I have explained in detail. Okay, that is the same exact"
+  },
+  {
+    "start": 402.66,
+    "duration": 3.58,
+    "text": "thing will be following here that is why I am not going to repeat it."
+  },
+  {
+    "start": 406.24,
+    "duration": 5.34,
+    "text": "So many ways you can solve this problem we can either this new part that I am saying"
+  },
+  {
+    "start": 411.58,
+    "duration": 7.7,
+    "text": "so basically 8, 3, 4, 12, 5, 6 let us see how we will run the recursion for this."
+  },
+  {
+    "start": 419.28,
+    "duration": 11.99,
+    "text": "So this is basically like 8, 3, 4, 12, 5, 6 recursion is going to be like hey the"
+  },
+  {
+    "start": 431.27,
+    "duration": 4.28,
+    "text": "function is going to be like hey recursion please sort the left half of the array and"
+  },
+  {
+    "start": 435.55,
+    "duration": 3.36,
+    "text": "the right half of the array. It's going to make actually two calls. It's going to be like"
+  },
+  {
+    "start": 438.91,
+    "duration": 6.04,
+    "text": "I will be waiting for you to sort these parts of the array. Once you do it, then I will"
+  },
+  {
+    "start": 444.95,
+    "duration": 4.4,
+    "text": "merge it. It's going to be like, okay, cool. Let me sort this part of the array, eight,"
+  },
+  {
+    "start": 449.35,
+    "duration": 8.4,
+    "text": "three, four for you and 12, five, six for you. This one is going to be like, hey, sort"
+  },
+  {
+    "start": 457.75,
+    "duration": 3.68,
+    "text": "this half of the array and sort this half of the array. So this recursion call is"
+  },
+  {
+    "start": 461.43,
+    "duration": 4.32,
+    "text": "going to be like, hey, the above recursion call wants this array to be sorted."
+  },
+  {
+    "start": 465.75,
+    "duration": 3.28,
+    "text": "Can you please sort these half-half of the array so that I can merge those?"
+  },
+  {
+    "start": 469.03,
+    "duration": 6.24,
+    "text": "It's going to be like, yeah sure, I will call sort this and sort this."
+  },
+  {
+    "start": 475.27,
+    "duration": 3.56,
+    "text": "This when you have one condition, when you have, when you just have one element left,"
+  },
+  {
+    "start": 478.83,
+    "duration": 2.48,
+    "text": "can you really break it down into more parts?"
+  },
+  {
+    "start": 481.31,
+    "duration": 4.04,
+    "text": "Can this four say something like sort this half of the array or no, that is the base"
+  },
+  {
+    "start": 485.35,
+    "duration": 1.16,
+    "text": "condition."
+  },
+  {
+    "start": 486.51,
+    "duration": 3.88,
+    "text": "When the answer is the length is one, just return that array as it is, because this"
+  },
+  {
+    "start": 490.39,
+    "duration": 2.8,
+    "text": "is sorted, just one element, okay."
+  },
+  {
+    "start": 493.19,
+    "duration": 1.28,
+    "text": "This one is going to be like what?"
+  },
+  {
+    "start": 494.47,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 495.47,
+    "duration": 11.05,
+    "text": "sort 8 and then 3. This is going to return 8, this is going to return 3. So this thing"
+  },
+  {
+    "start": 506.52,
+    "duration": 6.24,
+    "text": "that is returning, in this example we can say that what we are returning is an array itself."
+  },
+  {
+    "start": 512.76,
+    "duration": 4.44,
+    "text": "I will teach you how to do merge sort in place also, but just for the basic understanding"
+  },
+  {
+    "start": 517.2,
+    "duration": 4.72,
+    "text": "let us try to understand or what if we are creating new array at every single level."
+  },
+  {
+    "start": 521.92,
+    "duration": 4.28,
+    "text": "So basically we are actually creating a copy of this over here, then we are creating"
+  },
+  {
+    "start": 526.2,
+    "duration": 5.34,
+    "text": "a copy of this over here. This is returning 8, this is returning 3 and this entire thing"
+  },
+  {
+    "start": 531.54,
+    "duration": 5.76,
+    "text": "is now going to return what? Merge whatever you are getting from left and right. What are"
+  },
+  {
+    "start": 537.3,
+    "duration": 4.4,
+    "text": "you getting from left and right? 8 and 3 and when we merge it using this approach,"
+  },
+  {
+    "start": 541.7,
+    "duration": 4.8,
+    "text": "what will this give? This will give me 3, 8. Now this is being merged, merged array"
+  },
+  {
+    "start": 546.5,
+    "duration": 4.64,
+    "text": "will be returned from where it was called. This is obviously the left part of it and"
+  },
+  {
+    "start": 551.14,
+    "duration": 3.88,
+    "text": "the right part of it is what? 4. So the answer of this entire thing is going to"
+  },
+  {
+    "start": 555.02,
+    "duration": 8.68,
+    "text": "be equal to what? Merge these two. So, when we merge 3,8 and 4, we get 3, 4 and 8. This"
+  },
+  {
+    "start": 563.7,
+    "duration": 5.48,
+    "text": "is now merged, it will be returned to where it was called, it was called here. So, this"
+  },
+  {
+    "start": 569.18,
+    "duration": 3.6,
+    "text": "entire thing will be sorted. Now, the left hand part of this array, the left hand call"
+  },
+  {
+    "start": 572.78,
+    "duration": 4.52,
+    "text": "will have the value this and the right hand call similarly will have the value 6, 5"
+  },
+  {
+    "start": 577.3,
+    "duration": 4.04,
+    "text": "and 12. Now, left hand value is available, right hand value is available is just going"
+  },
+  {
+    "start": 581.34,
+    "duration": 6.68,
+    "text": "to merge these and after merging it, it will return to where it was called, which was main"
+  },
+  {
+    "start": 588.02,
+    "duration": 7.36,
+    "text": "function. That's it. As simple as that. So are you all able to understand what we're doing?"
+  },
+  {
+    "start": 595.38,
+    "duration": 5.24,
+    "text": "We're actually returning the array from here. The return type will be array. Okay. So it's"
+  },
+  {
+    "start": 600.62,
+    "duration": 4.52,
+    "text": "just going to be like, I'll wait, wait till I get this. I believe by now you have"
+  },
+  {
+    "start": 605.14,
+    "duration": 4.28,
+    "text": "found the patterns, right? How do we actually approach the question? Whatever return type"
+  },
+  {
+    "start": 609.42,
+    "duration": 4.04,
+    "text": "it's allowing just put that return type obviously that is also going to be the return type of"
+  },
+  {
+    "start": 613.46,
+    "duration": 4.08,
+    "text": "the lower function calls because obviously the function is same as the return type also"
+  },
+  {
+    "start": 617.54,
+    "duration": 4.08,
+    "text": "has to be same already explained in previous lecture so how to think these problems how"
+  },
+  {
+    "start": 621.62,
+    "duration": 4.64,
+    "text": "this thing is working internally I have been explaining this 100 times please put a little"
+  },
+  {
+    "start": 626.26,
+    "duration": 4.64,
+    "text": "efforts you will understand it so you should not be having a doubt like canal what do"
+  },
+  {
+    "start": 630.9,
+    "duration": 4.0,
+    "text": "you mean by this is returning an array right it's saying that return an array hence"
+  },
+  {
+    "start": 634.9,
+    "duration": 4.6,
+    "text": "it will return an array this function call when it's over will return an array why because"
+  },
+  {
+    "start": 639.5,
+    "duration": 6.76,
+    "text": "I'm telling it to I am telling it to very basic stuff okay so that's basically about"
+  },
+  {
+    "start": 646.26,
+    "duration": 3.92,
+    "text": "it this will return an array it will be let's store in an in a variable I can store it"
+  },
+  {
+    "start": 650.18,
+    "duration": 5.08,
+    "text": "this returned array I can store in a variable I can merge it and return that entire thing"
+  },
+  {
+    "start": 655.26,
+    "duration": 5.4,
+    "text": "the same thing will be done for lower lower lower problems so I showed you like the"
+  },
+  {
+    "start": 660.66,
+    "duration": 5.72,
+    "text": "entire dry run. Now let's try to code this. Okay, so let's try to code this particular"
+  },
+  {
+    "start": 666.38,
+    "duration": 16.04,
+    "text": "problem. So I'm just going to say create a new class or something I can say I can create"
+  },
+  {
+    "start": 682.42,
+    "duration": 11.61,
+    "text": "a new package called sorting, then I can create merge sort. Okay, so what do we need"
+  },
+  {
+    "start": 694.03,
+    "duration": 6.64,
+    "text": "basically say static, we need to return an array. So I can put an array over here."
+  },
+  {
+    "start": 700.67,
+    "duration": 6.72,
+    "text": "I can say merge thought, it's just going to take an array. That is it. What is it going"
+  },
+  {
+    "start": 707.39,
+    "duration": 4.72,
+    "text": "to do then? What is the base condition base condition says that when the length of the"
+  },
+  {
+    "start": 712.11,
+    "duration": 8.12,
+    "text": "array is equal to equal to one, just just return it just return the array itself. Otherwise,"
+  },
+  {
+    "start": 720.23,
+    "duration": 3.32,
+    "text": "what am I going to do? I'm going to take the middle element and split it into two."
+  },
+  {
+    "start": 723.55,
+    "duration": 8.32,
+    "text": "I'm going to say middle is equal to what array dot length divided by two."
+  },
+  {
+    "start": 731.87,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 732.87,
+    "duration": 3.76,
+    "text": "Now I'm basically going to say I'm going to get an answer from the left hand side, which"
+  },
+  {
+    "start": 736.63,
+    "duration": 5.16,
+    "text": "is going to be an integer array, left hand side is going to be an answer from right hand"
+  },
+  {
+    "start": 741.79,
+    "duration": 1.0,
+    "text": "side."
+  },
+  {
+    "start": 742.79,
+    "duration": 2.72,
+    "text": "Also, I'm going to get an answer, but what will be this answer?"
+  },
+  {
+    "start": 745.51,
+    "duration": 6.96,
+    "text": "I'm going to call merge sort and I'm basically going to pass a cop a copy of this area"
+  },
+  {
+    "start": 752.47,
+    "duration": 5.72,
+    "text": "a new array I need to pass, right? That is what I want to do. So I can say array dot"
+  },
+  {
+    "start": 758.19,
+    "duration": 10.12,
+    "text": "not this, sorry, not over here. Over here, I can say arrays dot copy of range in my"
+  },
+  {
+    "start": 768.31,
+    "duration": 5.92,
+    "text": "original array. So what is the left part going to be from zero till mid? Okay, so you can"
+  },
+  {
+    "start": 774.23,
+    "duration": 7.53,
+    "text": "see what copy of range does copy of range basically copies the specified range into"
+  },
+  {
+    "start": 781.76,
+    "duration": 4.76,
+    "text": "into a new array. Okay, so it's creating a new array. You can see new arrays being created"
+  },
+  {
+    "start": 786.52,
+    "duration": 5.24,
+    "text": "and it's being passed in the recursion calls. Same thing that will be like we did in the"
+  },
+  {
+    "start": 791.76,
+    "duration": 4.8,
+    "text": "diagram, right? That split that I was doing for this array and this array, that exactly"
+  },
+  {
+    "start": 796.56,
+    "duration": 5.8,
+    "text": "is a same value, but different object. It's actually creating a new object now. That"
+  },
+  {
+    "start": 802.36,
+    "duration": 5.28,
+    "text": "is why it's returning it over here after sorting it. So the original array is not"
+  },
+  {
+    "start": 807.64,
+    "duration": 6.0,
+    "text": "being sorted. Okay, how to do that, we will also see merge sort in place will do that"
+  },
+  {
+    "start": 813.64,
+    "duration": 4.0,
+    "text": "no problem. This is just a bit simpler. Then it's going to be like the right hand side"
+  },
+  {
+    "start": 817.64,
+    "duration": 7.52,
+    "text": "sorted will be from made plus one or from it because this is exclusive till the last"
+  },
+  {
+    "start": 825.16,
+    "duration": 5.92,
+    "text": "element. That is it. After that, what do you need to do? You have the left part"
+  },
+  {
+    "start": 831.08,
+    "duration": 4.32,
+    "text": "sorted, you have the right part sorted. After that, just merge these two arrays"
+  },
+  {
+    "start": 835.4,
+    "duration": 6.28,
+    "text": "and return it. Let's say I call another function called merge that basically takes the left"
+  },
+  {
+    "start": 841.68,
+    "duration": 8.36,
+    "text": "one and the right one. You can also take the names at like first or second or whatever"
+  },
+  {
+    "start": 850.04,
+    "duration": 15.66,
+    "text": "but all I need to do now is create this function left and right. Okay, make sense. So basically"
+  },
+  {
+    "start": 865.7,
+    "duration": 6.36,
+    "text": "I can change this name to first and second because to keep it generic. So what do we do?"
+  },
+  {
+    "start": 872.06,
+    "duration": 4.52,
+    "text": "We need to create a new array my answer, which is my mix array like mix of these two is going"
+  },
+  {
+    "start": 876.58,
+    "duration": 4.48,
+    "text": "to be equal to what new integer what is the size going to be size of both first plus"
+  },
+  {
+    "start": 881.06,
+    "duration": 7.04,
+    "text": "length plus second plus length. That is the size. What do I need to do now? What do"
+  },
+  {
+    "start": 888.1,
+    "duration": 7.28,
+    "text": "I need to do now? I need to take two variables one that is starting from basically let"
+  },
+  {
+    "start": 895.38,
+    "duration": 4.0,
+    "text": "Let me show you the whiteboard. So here this one right this in merge where is the merge."
+  },
+  {
+    "start": 899.38,
+    "duration": 5.68,
+    "text": "So one was pointing like one was pointing this one this blue one and this blue one this"
+  },
+  {
+    "start": 905.06,
+    "duration": 4.36,
+    "text": "one can be one can be pointing to the array number one one can be pointing to array number"
+  },
+  {
+    "start": 909.42,
+    "duration": 7.0,
+    "text": "two. This one can be I this one can be J. So I can say int I is equal to zero and"
+  },
+  {
+    "start": 916.42,
+    "duration": 6.79,
+    "text": "J is equal to zero and I can take one as K which is going to be the pointer for"
+  },
+  {
+    "start": 923.21,
+    "duration": 8.64,
+    "text": "this new array. Okay, so I can say int k is also equal to zero. Alright, that's it. I'm"
+  },
+  {
+    "start": 931.85,
+    "duration": 4.96,
+    "text": "just going to start checking from the zero thindex for this, I will keep on checking"
+  },
+  {
+    "start": 936.81,
+    "duration": 5.76,
+    "text": "till any one of these becomes like runs out of bound, right? So I can say while"
+  },
+  {
+    "start": 942.57,
+    "duration": 5.88,
+    "text": "any one of these runs out of bounds, so while I should be less than first dot length"
+  },
+  {
+    "start": 948.45,
+    "duration": 9.24,
+    "text": "obviously, and j should be less than the king dot line. Whenever any one of these conditions"
+  },
+  {
+    "start": 957.69,
+    "duration": 7.32,
+    "text": "is false, basically means that loop will terminate. Okay, like, like it happened over here. I was"
+  },
+  {
+    "start": 965.01,
+    "duration": 5.2,
+    "text": "over here, but j terminated. That is something we'll do later on. So basically, what are"
+  },
+  {
+    "start": 970.21,
+    "duration": 4.12,
+    "text": "we going to do? I'm going to say that if I'm going to check whether i is smaller"
+  },
+  {
+    "start": 974.33,
+    "duration": 4.48,
+    "text": "or j is smaller, like which element is smaller, the one at i or the one at j. So I'm"
+  },
+  {
+    "start": 978.81,
+    "duration": 7.92,
+    "text": "going to say if first of i is smaller than second of j, in that case, what am I going"
+  },
+  {
+    "start": 986.73,
+    "duration": 5.52,
+    "text": "to do? In the new mix element, I am going to add first of i. So, I am going to say mix"
+  },
+  {
+    "start": 992.25,
+    "duration": 9.96,
+    "text": "of k is equal to first of i. Then I am just going to move i by 1. Otherwise, I am going"
+  },
+  {
+    "start": 1002.21,
+    "duration": 10.06,
+    "text": "to say mix of k is equal to second of j, then I am going to move by j plus plus. That is"
+  },
+  {
+    "start": 1012.27,
+    "duration": 9.83,
+    "text": "exactly what I was doing over here. And whenever I have added a new element, so this is basically"
+  },
+  {
+    "start": 1022.1,
+    "duration": 4.68,
+    "text": "representing k, this is representing i, this is representing the thing j. Whenever I have"
+  },
+  {
+    "start": 1026.78,
+    "duration": 4.32,
+    "text": "added a new element, I will move ahead every time. So either you add an element here"
+  },
+  {
+    "start": 1031.1,
+    "duration": 8.48,
+    "text": "or here every time you have to move ahead as well, that is it. Now it may be possible,"
+  },
+  {
+    "start": 1039.58,
+    "duration": 9.56,
+    "text": "it may be possible that one of the arrays is not complete. For example, eight got finished"
+  },
+  {
+    "start": 1049.14,
+    "duration": 7.08,
+    "text": "over here but since this was already finished array number 2, 9, 19 and 32 were remaining."
+  },
+  {
+    "start": 1056.22,
+    "duration": 5.52,
+    "text": "So all the remaining elements, I need to add in my array, add all the remaining elements"
+  },
+  {
+    "start": 1061.74,
+    "duration": 2.4,
+    "text": "in the array."
+  },
+  {
+    "start": 1064.14,
+    "duration": 5.1,
+    "text": "So either i is going to be smaller than its end or j is going to be smaller than its end."
+  },
+  {
+    "start": 1069.24,
+    "duration": 7.42,
+    "text": "So while i is smaller than, you know, first dot length, what am I going to do?"
+  },
+  {
+    "start": 1076.66,
+    "duration": 4.8,
+    "text": "I'm going to say mix of k is going to be equal to first of i, I'm going to say"
+  },
+  {
+    "start": 1081.46,
+    "duration": 3.68,
+    "text": "i plus plus k plus plus."
+  },
+  {
+    "start": 1085.14,
+    "duration": 3.8,
+    "text": "In both of these loops, either one of these is going to be true."
+  },
+  {
+    "start": 1088.94,
+    "duration": 3.96,
+    "text": "Okay, so only one of these will run."
+  },
+  {
+    "start": 1092.9,
+    "duration": 7.68,
+    "text": "Second of j and j plus plus that is it and in the end I am just going to return the mix"
+  },
+  {
+    "start": 1100.58,
+    "duration": 2.95,
+    "text": "array."
+  },
+  {
+    "start": 1103.53,
+    "duration": 1.0,
+    "text": "Very simple."
+  },
+  {
+    "start": 1104.53,
+    "duration": 6.44,
+    "text": "So in this case, it will be like j is already over means j is already greater than second"
+  },
+  {
+    "start": 1110.97,
+    "duration": 2.52,
+    "text": "dot length, hence it will only run this."
+  },
+  {
+    "start": 1113.49,
+    "duration": 15.85,
+    "text": "So while I is not finished, copy the remaining elements, copy the remaining elements, try"
+  },
+  {
+    "start": 1129.34,
+    "duration": 1.0,
+    "text": "to run this."
+  },
+  {
+    "start": 1130.34,
+    "duration": 8.08,
+    "text": "So I am going to say int array is equal to something like 5, 4, 3, 2, 1, we will also"
+  },
+  {
+    "start": 1138.42,
+    "duration": 1.8,
+    "text": "discuss the complexity for this."
+  },
+  {
+    "start": 1140.22,
+    "duration": 4.52,
+    "text": "I am going to say my answer, I can say array is equal to, let us say I am updating"
+  },
+  {
+    "start": 1144.74,
+    "duration": 10.84,
+    "text": "the original array after that, this is going to be merge sort array, arrays.toString should"
+  },
+  {
+    "start": 1155.58,
+    "duration": 13.55,
+    "text": "be sorted 12345, cool stuff. So the thing to note over here is that it's actually creating"
+  },
+  {
+    "start": 1169.13,
+    "duration": 5.36,
+    "text": "new objects for every function called original object array is not being modified. Let's"
+  },
+  {
+    "start": 1174.49,
+    "duration": 4.76,
+    "text": "say if I take answer is equal to this and I print the original array, let's see what"
+  },
+  {
+    "start": 1179.25,
+    "duration": 7.69,
+    "text": "will happen. So you can see original array was not modified. But indeed it returned a"
+  },
+  {
+    "start": 1186.94,
+    "duration": 4.72,
+    "text": "new array that contains the similar elements at the original array, but in a sorted manner,"
+  },
+  {
+    "start": 1191.66,
+    "duration": 4.2,
+    "text": "but in no way original array was modified. If you want to update the original array,"
+  },
+  {
+    "start": 1195.86,
+    "duration": 5.41,
+    "text": "you can just add it like this. All right, so I hope you're able to understand how"
+  },
+  {
+    "start": 1201.27,
+    "duration": 3.36,
+    "text": "this thing is working. I explained to you in detail as well. This entire thing"
+  },
+  {
+    "start": 1204.63,
+    "duration": 4.72,
+    "text": "it will wait for this, it will wait for this. It's going to wait for this and"
+  },
+  {
+    "start": 1209.35,
+    "duration": 3.9,
+    "text": "wait for this if I just try to put a debug pointer over here no I don't think"
+  },
+  {
+    "start": 1213.25,
+    "duration": 3.06,
+    "text": "I have to debug this one because it's very simple not even recursion applied"
+  },
+  {
+    "start": 1216.31,
+    "duration": 10.96,
+    "text": "over here just simple while loop so I'll debug this particular one okay so here"
+  },
+  {
+    "start": 1227.27,
+    "duration": 7.44,
+    "text": "it's saying that now it's in the left left basically contains five comma four"
+  },
+  {
+    "start": 1234.71,
+    "duration": 4.72,
+    "text": "so it's gonna be like hey okay I will sort five comma four for you I'm just"
+  },
+  {
+    "start": 1239.43,
+    "duration": 4.16,
+    "text": "going to ask my recursion calls to divide it into two so it's gonna"
+  },
+  {
+    "start": 1243.59,
+    "duration": 4.96,
+    "text": "to divide it into two like this, this is going to be dividing into five, this will be dividing"
+  },
+  {
+    "start": 1248.55,
+    "duration": 5.16,
+    "text": "into four, five, five is only of length one. So it's just going to return five itself."
+  },
+  {
+    "start": 1253.71,
+    "duration": 7.0,
+    "text": "Now this left is going to contain the value five. Okay, it contains five as you can see"
+  },
+  {
+    "start": 1260.71,
+    "duration": 4.28,
+    "text": "and this will contain four, because it's going to pass four over here because mid"
+  },
+  {
+    "start": 1264.99,
+    "duration": 7.84,
+    "text": "is equal to one. This contains four. Now it's going to merge five and four. It's"
+  },
+  {
+    "start": 1272.83,
+    "duration": 10.19,
+    "text": "going to merge 5 and 4 that will become what? 4 comma 5, left is now equal to 4 comma 5"
+  },
+  {
+    "start": 1283.02,
+    "duration": 7.4,
+    "text": "and right is equal to here 3, 2, 1. So, it is now going to sort 3 comma 2 comma 1, ok"
+  },
+  {
+    "start": 1290.42,
+    "duration": 6.64,
+    "text": "it will divide it into 2 again, ok 3 will be as it as it is and 2 comma 1 will be"
+  },
+  {
+    "start": 1297.06,
+    "duration": 10.15,
+    "text": "divided again into 2, 1 and it will be merged as 2 and 1, ok sound good. So, now you"
+  },
+  {
+    "start": 1307.21,
+    "duration": 10.21,
+    "text": "can see it's equal to five four three two one. As you can see over here it's now one"
+  },
+  {
+    "start": 1317.42,
+    "duration": 5.6,
+    "text": "two three left is four comma five right is one comma two comma three. It's just going"
+  },
+  {
+    "start": 1323.02,
+    "duration": 7.44,
+    "text": "to merge these and that's you have your answer one two three four five. Cool. You want that"
+  },
+  {
+    "start": 1330.46,
+    "duration": 4.48,
+    "text": "I can also do it again on the whiteboard but it's pretty pretty straightforward."
+  },
+  {
+    "start": 1334.94,
+    "duration": 4.12,
+    "text": "let me do it again on the whiteboard like completely and that's it. So array is given"
+  },
+  {
+    "start": 1339.06,
+    "duration": 7.44,
+    "text": "to us like 5 comma 4 comma 3 comma 2 comma 1. Okay, middle element is going to be equal"
+  },
+  {
+    "start": 1346.5,
+    "duration": 6.92,
+    "text": "to what? Middle element is going to be equal to this one, because 5 divided by 2. Okay,"
+  },
+  {
+    "start": 1353.42,
+    "duration": 5.4,
+    "text": "so it says going to be like, let me sort this part of the array recursion is going"
+  },
+  {
+    "start": 1358.82,
+    "duration": 4.52,
+    "text": "to be like, hey, my calls, please sort this part of the array. And hey, left-hand"
+  },
+  {
+    "start": 1363.34,
+    "duration": 4.52,
+    "text": "side, please sort this part of the array, give me whatever the answer is, this one is"
+  },
+  {
+    "start": 1367.86,
+    "duration": 3.44,
+    "text": "going to be like, okay, I'm going to ask my left hand side and my right hand side, it's"
+  },
+  {
+    "start": 1371.3,
+    "duration": 4.56,
+    "text": "going to be do the same thing, three and two comma one, it's going to do the same thing"
+  },
+  {
+    "start": 1375.86,
+    "duration": 4.2,
+    "text": "with two and one, this is going to return to this going to return one, it's actually"
+  },
+  {
+    "start": 1380.06,
+    "duration": 4.48,
+    "text": "not going to return to it's going to return an array that contains only two, and it's"
+  },
+  {
+    "start": 1384.54,
+    "duration": 4.2,
+    "text": "going to return that it's going to return this, where is this thing going to be?"
+  },
+  {
+    "start": 1388.74,
+    "duration": 2.7,
+    "text": "Where is this thing going to be?"
+  },
+  {
+    "start": 1391.44,
+    "duration": 5.2,
+    "text": "This thing is going to be over here, over here and over here, it will be saved over here,"
+  },
+  {
+    "start": 1396.64,
+    "duration": 6.64,
+    "text": "then it will be merged in this one and this will be then returned after merging."
+  },
+  {
+    "start": 1403.28,
+    "duration": 8.6,
+    "text": "So, it will be merged as 1, 2, change my color, so it will be merged as 1, 2 and"
+  },
+  {
+    "start": 1411.88,
+    "duration": 5.2,
+    "text": "it will be then returned from where it was called, but that is not how it will"
+  },
+  {
+    "start": 1417.08,
+    "duration": 4.72,
+    "text": "go, the flow will go something like this. First it will call this, then it will call"
+  },
+  {
+    "start": 1421.8,
+    "duration": 5.2,
+    "text": "this, then it will call, return this, then it will call this, then it will return this."
+  },
+  {
+    "start": 1427.0,
+    "duration": 4.76,
+    "text": "So now the two things are returned, it will contain the value in line number 19 and 20,"
+  },
+  {
+    "start": 1431.76,
+    "duration": 5.2,
+    "text": "it will merge and then it will return the merged array. So it will merge it as 4,"
+  },
+  {
+    "start": 1436.96,
+    "duration": 5.04,
+    "text": "5 and it will return it from where it was called. Then it will call this, it"
+  },
+  {
+    "start": 1442.0,
+    "duration": 6.84,
+    "text": "will call this every turn three. Then we will call this, it will call this, it will return"
+  },
+  {
+    "start": 1448.84,
+    "duration": 6.9,
+    "text": "true. Then we will call this, it will return one, two comma one, it will be merged as one"
+  },
+  {
+    "start": 1455.74,
+    "duration": 6.14,
+    "text": "comma two, it will be then returned. Now three and one comma two will be returned."
+  },
+  {
+    "start": 1461.88,
+    "duration": 5.24,
+    "text": "Three will be over here in 919 and one comma two will be in line number 20. It will"
+  },
+  {
+    "start": 1467.12,
+    "duration": 6.08,
+    "text": "be merged in line number 22. Line number 22 will be merged as 1, 2, 3. It will now be"
+  },
+  {
+    "start": 1473.2,
+    "duration": 6.94,
+    "text": "returned to this part. From this right hand side, it will come out as 1, 2, 3. Now left"
+  },
+  {
+    "start": 1480.14,
+    "duration": 6.42,
+    "text": "contains 4, 5. Right contains 1, 2, 3. Just now merge it. So now it's going to merge"
+  },
+  {
+    "start": 1486.56,
+    "duration": 8.96,
+    "text": "it. It's going to be now 1, 2, 3, 4, 5. Now this will be returned to main. That's"
+  },
+  {
+    "start": 1495.52,
+    "duration": 8.3,
+    "text": "it as simple as it can get. Okay, so these are actually being created as new arrays. Okay,"
+  },
+  {
+    "start": 1503.82,
+    "duration": 4.96,
+    "text": "how to sort it in place, I'll just show you right now in that instead of making an arrays"
+  },
+  {
+    "start": 1508.78,
+    "duration": 5.52,
+    "text": "copy of range, you can just take a you can just take the index values, okay, start middle"
+  },
+  {
+    "start": 1514.3,
+    "duration": 4.52,
+    "text": "and take the index values. That's the only way to do it. If you want to use the same"
+  },
+  {
+    "start": 1518.82,
+    "duration": 3.56,
+    "text": "object, you need the index values in order to virtually divide the area, let's say"
+  },
+  {
+    "start": 1522.38,
+    "duration": 7.88,
+    "text": "like we were doing in binary search. So that is it. But before moving on to the in in place"
+  },
+  {
+    "start": 1530.26,
+    "duration": 4.8,
+    "text": "part, let's look at the complexity analysis for this. So the complexity analysis is very"
+  },
+  {
+    "start": 1535.06,
+    "duration": 6.52,
+    "text": "simple. Even a merge sort array like this. So if you want to divide if you want to"
+  },
+  {
+    "start": 1541.58,
+    "duration": 5.4,
+    "text": "use like the graphical approach, so this is of size n, okay, it will divided into"
+  },
+  {
+    "start": 1546.98,
+    "duration": 12.35,
+    "text": "n by 2 and n by 2. Okay, this will be divided into n by 4 and n by 4. Similarly for this"
+  },
+  {
+    "start": 1559.33,
+    "duration": 7.24,
+    "text": "as well, n by 4, n by 4. So this is size n. This is of size what? This will be then"
+  },
+  {
+    "start": 1566.57,
+    "duration": 9.09,
+    "text": "in the end. In the end, the size will be just one, right? And this one will be how"
+  },
+  {
+    "start": 1575.66,
+    "duration": 5.0,
+    "text": "many times n times individual elements. So you can see at every level, how many elements"
+  },
+  {
+    "start": 1580.66,
+    "duration": 5.32,
+    "text": "to you have n only it's just that they're divided because this is equal to n this is"
+  },
+  {
+    "start": 1585.98,
+    "duration": 8.75,
+    "text": "equal to n by 2 plus n by 2 which is also equal to n this is equal to n by 4 n by 4"
+  },
+  {
+    "start": 1594.73,
+    "duration": 5.8,
+    "text": "n by 4 n by 4 which is equal to 4 into n by 4 this is also equal to n this is equal"
+  },
+  {
+    "start": 1600.53,
+    "duration": 8.56,
+    "text": "to what n n 1 1 1 1 n times ok 1 into n times which is also equal to n so you can see"
+  },
+  {
+    "start": 1609.09,
+    "duration": 8.24,
+    "text": "at every point of level n, n elements are there, and n elements are being merged basically"
+  },
+  {
+    "start": 1617.33,
+    "duration": 9.48,
+    "text": "to note it down as a proper point at every element, at every level sorry, n elements"
+  },
+  {
+    "start": 1626.81,
+    "duration": 8.66,
+    "text": "are being merged. So, very simple because this n by 4 and this n by 4 is getting merged"
+  },
+  {
+    "start": 1635.47,
+    "duration": 3.96,
+    "text": "together, this n by 4 and this n by 4 is getting merged together. How many elements"
+  },
+  {
+    "start": 1639.43,
+    "duration": 4.64,
+    "text": "are getting merged together total and this n by two and n by two are getting merged together."
+  },
+  {
+    "start": 1644.07,
+    "duration": 5.4,
+    "text": "How many total elements are getting merged together, n by two plus n by two? So, how"
+  },
+  {
+    "start": 1649.47,
+    "duration": 5.66,
+    "text": "many comparisons are being made at every level and what are the total number of levels?"
+  },
+  {
+    "start": 1655.13,
+    "duration": 4.0,
+    "text": "What are the total number of levels? Total levels are like if you have like a level"
+  },
+  {
+    "start": 1659.13,
+    "duration": 6.64,
+    "text": "for n then you have a like a level for you know like n by two and then you have"
+  },
+  {
+    "start": 1665.77,
+    "duration": 6.8,
+    "text": "level for like n by 4 in the hand you have just only one so basically the idea over here"
+  },
+  {
+    "start": 1672.57,
+    "duration": 6.24,
+    "text": "is that this is equal to you know the first level the second level let's say we assume"
+  },
+  {
+    "start": 1678.81,
+    "duration": 7.36,
+    "text": "this is the kth level kth level right this is equal to n upon 2 raise to power 0 this"
+  },
+  {
+    "start": 1686.17,
+    "duration": 4.88,
+    "text": "is equal to n upon 2 raise to power 1 this is equal to n upon 2 raise to power 2 so"
+  },
+  {
+    "start": 1691.05,
+    "duration": 3.2,
+    "text": "this 2 raise to the power is actually the times it's getting divided which is the"
+  },
+  {
+    "start": 1694.25,
+    "duration": 5.28,
+    "text": "the level right so if this is the kth level can I say that this is equal to n upon 2 raise"
+  },
+  {
+    "start": 1699.53,
+    "duration": 4.2,
+    "text": "to power k same thing we were doing in binary search so I know one is equal to n upon 2"
+  },
+  {
+    "start": 1703.73,
+    "duration": 5.16,
+    "text": "raise to power k from this I can say 2 raise to power k is equal to n if I take log on"
+  },
+  {
+    "start": 1708.89,
+    "duration": 8.04,
+    "text": "both the sides I can say k log 2 is equal to log n I can say k is equal to log"
+  },
+  {
+    "start": 1716.93,
+    "duration": 4.96,
+    "text": "n base 2 the total number of levels are how many log n and at each level how much"
+  },
+  {
+    "start": 1721.89,
+    "duration": 6.16,
+    "text": "comparison is being made and then what is the complexity total complexity total level into"
+  },
+  {
+    "start": 1728.05,
+    "duration": 10.76,
+    "text": "work at every level. So complexity is equal to big O of n into log n is the complexity"
+  },
+  {
+    "start": 1738.81,
+    "duration": 6.88,
+    "text": "of merge sorted. Okay, the space complexity I already covered like what is the space complexity"
+  },
+  {
+    "start": 1745.69,
+    "duration": 3.92,
+    "text": "is like the maximum height of the tree that it's you know taking the extra space. And"
+  },
+  {
+    "start": 1749.61,
+    "duration": 4.62,
+    "text": "In that case, I know that N by 2, N by 4, till till till N, it's total N elements at one"
+  },
+  {
+    "start": 1754.23,
+    "duration": 4.9,
+    "text": "particular point of time in the stack memory of the array, right?"
+  },
+  {
+    "start": 1759.13,
+    "duration": 3.92,
+    "text": "So if you're not aware of space complexity in recursion, watch this space and time complexity"
+  },
+  {
+    "start": 1763.05,
+    "duration": 1.0,
+    "text": "lecture."
+  },
+  {
+    "start": 1764.05,
+    "duration": 2.08,
+    "text": "So space complexity is what?"
+  },
+  {
+    "start": 1766.13,
+    "duration": 8.36,
+    "text": "Auxiliary space over here, O of N, but this is not in place."
+  },
+  {
+    "start": 1774.49,
+    "duration": 2.36,
+    "text": "We are going to learn about in place algorithms as well."
+  },
+  {
+    "start": 1776.85,
+    "duration": 2.64,
+    "text": "Let's try to solve this with Akhrabazi formula."
+  },
+  {
+    "start": 1779.49,
+    "duration": 5.0,
+    "text": "what is the recurrence relation going to be? So, you need to sort the n elements which is"
+  },
+  {
+    "start": 1784.49,
+    "duration": 7.88,
+    "text": "going to say solve the n by 2 elements plus solve the n by 2 elements plus n minus 1 because"
+  },
+  {
+    "start": 1792.37,
+    "duration": 5.44,
+    "text": "n minus 1 comparisons are required to merge 2 arrays of n by 2 because the last element"
+  },
+  {
+    "start": 1797.81,
+    "duration": 2.72,
+    "text": "you are not actually you know checking that with anyone."
+  },
+  {
+    "start": 1800.53,
+    "duration": 10.75,
+    "text": "okay so this is equal to what 2t n by 2 plus n minus okay so akhrabazi formula says what"
+  },
+  {
+    "start": 1812.0,
+    "duration": 5.52,
+    "text": "2 into 1 upon 2 raised to the power p should give me 1 hence I can say p is equal to 1"
+  },
+  {
+    "start": 1817.52,
+    "duration": 6.96,
+    "text": "so now with akhrabazi formula I can say time complexity of n is equal to x plus x integral"
+  },
+  {
+    "start": 1824.48,
+    "duration": 15.12,
+    "text": "1 till x d u upon g u upon, so u minus 1 upon u raise to power p plus 1 which is equal"
+  },
+  {
+    "start": 1839.6,
+    "duration": 7.78,
+    "text": "to 2. Sound good? Yep. So, this is basically equal to if I just saw solve this thing it"
+  },
+  {
+    "start": 1847.38,
+    "duration": 18.25,
+    "text": "is very simple cool. So, this is equal to d u upon u minus d u upon u square. What"
+  },
+  {
+    "start": 1865.63,
+    "duration": 7.86,
+    "text": "is this thing? This is just equal to log U and what is this equal to minus something"
+  },
+  {
+    "start": 1873.49,
+    "duration": 9.01,
+    "text": "like this? This is equal to log U and this is going to be equal to minus something like"
+  },
+  {
+    "start": 1882.5,
+    "duration": 4.96,
+    "text": "this. Yeah, because it's just going to be divided by minus one. So I just put plus"
+  },
+  {
+    "start": 1887.46,
+    "duration": 5.08,
+    "text": "over here is a simple integration, you raised power minus two, you can do it. This is"
+  },
+  {
+    "start": 1892.54,
+    "duration": 7.54,
+    "text": "is not a maths class, this is equal to what log u plus 1 upon u. So, is equal to if I"
+  },
+  {
+    "start": 1900.08,
+    "duration": 12.3,
+    "text": "integrate it with like x 1 till x is going to be equal to log x plus 1 upon x minus 1,"
+  },
+  {
+    "start": 1912.38,
+    "duration": 9.36,
+    "text": "yeah, because log 1 is not which is a 0. So, here I am just saying that now I am just"
+  },
+  {
+    "start": 1921.74,
+    "duration": 8.0,
+    "text": "going to replace it in the formula. So, it is going to be x plus x log x plus 1 upon x"
+  },
+  {
+    "start": 1929.74,
+    "duration": 12.44,
+    "text": "minus 1 is going to be equal to x plus x log x plus 1 minus x, x gets cancelled is actually"
+  },
+  {
+    "start": 1942.18,
+    "duration": 13.24,
+    "text": "equal to then big O of x log x or I can say big O of n log n same thing if you are if"
+  },
+  {
+    "start": 1955.42,
+    "duration": 3.96,
+    "text": "you are like Kunal what are you doing what is this akrabazi stuff already made a detailed"
+  },
+  {
+    "start": 1959.38,
+    "duration": 5.84,
+    "text": "video on this space and time complexity lecture please check it out so how to take the value"
+  },
+  {
+    "start": 1965.22,
+    "duration": 4.6,
+    "text": "of P what is this thing that thing what is this thing and everything already explained"
+  },
+  {
+    "start": 1969.82,
+    "duration": 7.44,
+    "text": "in space and time complexity lecture, cool. So as you can see Akhrabazi formula very nice"
+  },
+  {
+    "start": 1977.26,
+    "duration": 9.32,
+    "text": "and now we can see how we can do the in place sorting of merge sort. So like don't need to"
+  },
+  {
+    "start": 1986.58,
+    "duration": 4.8,
+    "text": "create new copies of arrays or objects, use the original array and modify that only. Let's"
+  },
+  {
+    "start": 1991.38,
+    "duration": 4.68,
+    "text": "see how we can do that. Now if we don't want to let's say you know it's very simple"
+  },
+  {
+    "start": 1996.06,
+    "duration": 3.56,
+    "text": "like if you want to merge sort in place and you don't want to let's say copy this"
+  },
+  {
+    "start": 1999.62,
+    "duration": 4.64,
+    "text": "entire thing like the sub parts of the area like make a copy of the part of the area and"
+  },
+  {
+    "start": 2004.26,
+    "duration": 5.48,
+    "text": "for every function call and again, then just pass the past the index values right of start"
+  },
+  {
+    "start": 2009.74,
+    "duration": 8.12,
+    "text": "mid and end, that's it start middle and end that is it don't need to do anything else"
+  },
+  {
+    "start": 2017.86,
+    "duration": 4.0,
+    "text": "instead of working with the range just use the same object but manipulate the range"
+  },
+  {
+    "start": 2021.86,
+    "duration": 4.0,
+    "text": "using the indices that's it that is the similarly the same thing that we were doing here"
+  },
+  {
+    "start": 2025.86,
+    "duration": 7.68,
+    "text": "also in our over here, here we are taking right one over here, one over here and one"
+  },
+  {
+    "start": 2033.54,
+    "duration": 1.0,
+    "text": "over here."
+  },
+  {
+    "start": 2034.54,
+    "duration": 7.2,
+    "text": "So, instead of doing that like you can take start, mid and end that is it, it is going"
+  },
+  {
+    "start": 2041.74,
+    "duration": 1.44,
+    "text": "to be literally copy pasting."
+  },
+  {
+    "start": 2043.18,
+    "duration": 13.19,
+    "text": "So, if I take something like pi 4 3 2 1 only, so if I take something like in place, so"
+  },
+  {
+    "start": 2056.37,
+    "duration": 10.84,
+    "text": "it is like 5, 4, 3, 2, 1, that is it. I mean that is not it, but we are moving forward."
+  },
+  {
+    "start": 2067.21,
+    "duration": 6.52,
+    "text": "So in this values are 0, 1, 2, 3 and 4. Initially this can be the start, this can be the end,"
+  },
+  {
+    "start": 2073.73,
+    "duration": 6.52,
+    "text": "this will be my middle. This is my middle. Basically in the recursion call I am going"
+  },
+  {
+    "start": 2080.25,
+    "duration": 6.56,
+    "text": "to pass in this recursion call, I'm just going to pass my array. There's the first thing,"
+  },
+  {
+    "start": 2086.81,
+    "duration": 13.13,
+    "text": "my start, which is zero, my middle, which is equal to what? Initially, initially, I'm"
+  },
+  {
+    "start": 2099.94,
+    "duration": 7.69,
+    "text": "going to pass just this is going to contain like, let me just first take this, this entire"
+  },
+  {
+    "start": 2107.63,
+    "duration": 5.8,
+    "text": "thing, right? So initially, this is going to contain what array and start, middle"
+  },
+  {
+    "start": 2113.43,
+    "duration": 6.32,
+    "text": "land end. So, initially it will contain something like this, this array start is 0, middle is"
+  },
+  {
+    "start": 2119.75,
+    "duration": 15.65,
+    "text": "what? 2, end is what? 4. That is it. It is going to knock all the same one. So, basically"
+  },
+  {
+    "start": 2135.4,
+    "duration": 8.26,
+    "text": "the idea is that I see where you might get confused."
+  },
+  {
+    "start": 2143.66,
+    "duration": 8.25,
+    "text": "So, the thing is that in the previous example, let me show you the previous example. So,"
+  },
+  {
+    "start": 2151.91,
+    "duration": 5.75,
+    "text": "So, in the previous example, here you can see we are having the array, right?"
+  },
+  {
+    "start": 2157.66,
+    "duration": 5.92,
+    "text": "So, here you are just going to have something like a start and an end just to tell the, because"
+  },
+  {
+    "start": 2163.58,
+    "duration": 2.24,
+    "text": "here how are you telling the start and an end?"
+  },
+  {
+    "start": 2165.82,
+    "duration": 4.4,
+    "text": "You are not, okay, what is the start and an end of the sub part, you are not telling"
+  },
+  {
+    "start": 2170.22,
+    "duration": 5.76,
+    "text": "that because you are copying the entire part and putting that as a new array."
+  },
+  {
+    "start": 2175.98,
+    "duration": 1.36,
+    "text": "But now we do not want to do that."
+  },
+  {
+    "start": 2177.34,
+    "duration": 5.32,
+    "text": "The simple funda is that instead of making a copy of this to represent a start and"
+  },
+  {
+    "start": 2182.66,
+    "duration": 4.8,
+    "text": "an end part of the array, just pass two variables called start and end. That is what you need"
+  },
+  {
+    "start": 2187.46,
+    "duration": 5.8,
+    "text": "to do. Okay, so instead of doing that, I'm just going to pass like two variables over"
+  },
+  {
+    "start": 2193.26,
+    "duration": 4.2,
+    "text": "here. So here, let's say forget, forget mid right now. Okay, I'm just going to pass"
+  },
+  {
+    "start": 2197.46,
+    "duration": 6.2,
+    "text": "two elements like start and end. So it's going to be like array, start is equal to"
+  },
+  {
+    "start": 2203.66,
+    "duration": 6.8,
+    "text": "zero, and end is equal to four. Now when I create like the function calls for this,"
+  },
+  {
+    "start": 2210.46,
+    "duration": 2.12,
+    "text": "In the previous example, I was also doing the same thing."
+  },
+  {
+    "start": 2212.58,
+    "duration": 4.72,
+    "text": "I was taking the middle and I was literally making a copy of this and passing in the function"
+  },
+  {
+    "start": 2217.3,
+    "duration": 1.0,
+    "text": "call."
+  },
+  {
+    "start": 2218.3,
+    "duration": 1.0,
+    "text": "Now I will not do it."
+  },
+  {
+    "start": 2219.3,
+    "duration": 4.42,
+    "text": "Instead of making a copy, I can just shift the values of the pointers."
+  },
+  {
+    "start": 2223.72,
+    "duration": 4.3,
+    "text": "So if I'm talking about this particular one, in this case array will remain as it is."
+  },
+  {
+    "start": 2228.02,
+    "duration": 4.84,
+    "text": "Start will remain as it is, but mid will end will now be equal to what?"
+  },
+  {
+    "start": 2232.86,
+    "duration": 3.53,
+    "text": "Mid."
+  },
+  {
+    "start": 2236.39,
+    "duration": 2.6,
+    "text": "Does that make sense?"
+  },
+  {
+    "start": 2238.99,
+    "duration": 2.0,
+    "text": "That makes sense, right?"
+  },
+  {
+    "start": 2240.99,
+    "duration": 5.16,
+    "text": "And similarly over here I can say that it's going to be like I'm just going to write it"
+  },
+  {
+    "start": 2246.15,
+    "duration": 13.15,
+    "text": "over here like array start mid or m and array and start now from let's say mid and end will"
+  },
+  {
+    "start": 2259.3,
+    "duration": 9.3,
+    "text": "remain as it is as such that is basically the idea."
+  },
+  {
+    "start": 2268.6,
+    "duration": 4.68,
+    "text": "So instead of literally making a new copy I'm just passing I'm just changing the"
+  },
+  {
+    "start": 2273.28,
+    "duration": 5.04,
+    "text": "values of the pointers, so that it gets me the answer. Now internally after that it will"
+  },
+  {
+    "start": 2278.32,
+    "duration": 3.52,
+    "text": "give me the answer it will sort this part of the array and sort this part of the array."
+  },
+  {
+    "start": 2281.84,
+    "duration": 7.07,
+    "text": "So it will have something like let's say it will have something like it will sort, what"
+  },
+  {
+    "start": 2288.91,
+    "duration": 5.92,
+    "text": "will it sort? It should be let's say i is less than mid and here it's starting"
+  },
+  {
+    "start": 2294.83,
+    "duration": 5.88,
+    "text": "from mid, so it will sort 4 comma 5 comma 1 comma 2 comma 3. This is something I"
+  },
+  {
+    "start": 2300.71,
+    "duration": 7.04,
+    "text": "will be having after the recursion call comes over, okay, start and mid. But now the problem"
+  },
+  {
+    "start": 2307.75,
+    "duration": 4.92,
+    "text": "is like, okay, once you understand how this will be now resolved, you can understand definitely"
+  },
+  {
+    "start": 2312.67,
+    "duration": 3.76,
+    "text": "how the sub problems will be resolved. So how is this thing getting resolved? How are"
+  },
+  {
+    "start": 2316.43,
+    "duration": 4.72,
+    "text": "we merging this thing? Because now merging will also take place. How will that merge"
+  },
+  {
+    "start": 2321.15,
+    "duration": 4.0,
+    "text": "thing happen? Because we were doing merging in the normal one, it was just like merging"
+  },
+  {
+    "start": 2325.15,
+    "duration": 6.52,
+    "text": "two arrays, right? But now we are not merging two arrays. We are merging in the same array,"
+  },
+  {
+    "start": 2331.67,
+    "duration": 6.84,
+    "text": "two parts. So basically we are given an array. We are given a start, a mid and an end. Using"
+  },
+  {
+    "start": 2338.51,
+    "duration": 8.94,
+    "text": "this I have to merge this and this. So now what will happen? I will approach this problem"
+  },
+  {
+    "start": 2347.45,
+    "duration": 5.12,
+    "text": "exactly the same. I will treat this as separate array and I will treat this as separate array."
+  },
+  {
+    "start": 2352.57,
+    "duration": 1.0,
+    "text": "What were we doing?"
+  },
+  {
+    "start": 2353.57,
+    "duration": 7.85,
+    "text": "We were taking i from here and we were taking j from here, right?"
+  },
+  {
+    "start": 2361.42,
+    "duration": 8.92,
+    "text": "And we were taking a k which was equal to this own error, right, we're taking a k also."
+  },
+  {
+    "start": 2370.34,
+    "duration": 2.28,
+    "text": "So what is the k going to be?"
+  },
+  {
+    "start": 2372.62,
+    "duration": 5.96,
+    "text": "K is actually going to be, so basically you're going to be like, hey, is 4 smaller or 1 smaller?"
+  },
+  {
+    "start": 2378.58,
+    "duration": 1.0,
+    "text": "Which one is smaller?"
+  },
+  {
+    "start": 2379.58,
+    "duration": 6.93,
+    "text": "So you can create a like a, you can create a new area over here."
+  },
+  {
+    "start": 2386.51,
+    "duration": 6.16,
+    "text": "you can say that here you would have to create a new area. So here in order to solve the approach"
+  },
+  {
+    "start": 2392.67,
+    "duration": 3.92,
+    "text": "like you will have to create a new area. So I'll create a new area over here of the size"
+  },
+  {
+    "start": 2396.59,
+    "duration": 5.16,
+    "text": "this plus this and what is the size of this plus this end minus start isn't that the"
+  },
+  {
+    "start": 2401.75,
+    "duration": 5.96,
+    "text": "size of this array. So I'll create a new array called mix. This will contain first"
+  },
+  {
+    "start": 2407.71,
+    "duration": 5.04,
+    "text": "it will have five one then it will have let's say something like two then three"
+  },
+  {
+    "start": 2412.75,
+    "duration": 5.08,
+    "text": "three than four than five. But now I need to update this array also. So I'm just going"
+  },
+  {
+    "start": 2417.83,
+    "duration": 10.24,
+    "text": "to be like k starts from my my start. Okay, so I'm going to say that my my start plus"
+  },
+  {
+    "start": 2428.07,
+    "duration": 9.94,
+    "text": "so basically for k is equal to zero k is less than what length of mix k plus plus."
+  },
+  {
+    "start": 2438.01,
+    "duration": 4.14,
+    "text": "So mix has my answer, but it needs to be updated in the original array. So what am"
+  },
+  {
+    "start": 2442.15,
+    "duration": 6.52,
+    "text": "am I going to do? I am going to say array of start plus k is going to be equal to my"
+  },
+  {
+    "start": 2448.67,
+    "duration": 11.75,
+    "text": "mix of k. Does that make sense? Let me explain to you. So, for example, if you are at this"
+  },
+  {
+    "start": 2460.42,
+    "duration": 4.48,
+    "text": "particular element, you are like, let us say we sort 5 comma 4 and then this one is"
+  },
+  {
+    "start": 2464.9,
+    "duration": 5.2,
+    "text": "3 comma 2 comma 1. If I am sorting, let us say 3 comma 2 comma 1. So, in 3 comma"
+  },
+  {
+    "start": 2470.1,
+    "duration": 5.98,
+    "text": "comma 1 if I am sorting this is going to be like 234 is the index values right 23 and"
+  },
+  {
+    "start": 2476.08,
+    "duration": 5.34,
+    "text": "4 are the index value this will again call what this will again call 3 this will call"
+  },
+  {
+    "start": 2481.42,
+    "duration": 4.46,
+    "text": "2 comma 1 this will call 2 this will call 1."
+  },
+  {
+    "start": 2485.88,
+    "duration": 3.94,
+    "text": "So how is it now notice something the only difference is it is not returning the entire"
+  },
+  {
+    "start": 2489.82,
+    "duration": 6.26,
+    "text": "array these all parts and stuff are old part of one object only that is being manipulated"
+  },
+  {
+    "start": 2496.08,
+    "duration": 5.56,
+    "text": "by the pointers. Hence, it's going to create a new array like this, that is going to contain"
+  },
+  {
+    "start": 2501.64,
+    "duration": 3.52,
+    "text": "okay, one and two, what what will you get after sorting it will like I'll get one and"
+  },
+  {
+    "start": 2505.16,
+    "duration": 3.96,
+    "text": "two, it's going to be like, okay, cool, you're getting one and two, I try to replace it"
+  },
+  {
+    "start": 2509.12,
+    "duration": 4.36,
+    "text": "with the try to replace the original part with one comma two original part is two comma"
+  },
+  {
+    "start": 2513.48,
+    "duration": 5.44,
+    "text": "one, replace it with one comma two. So two comma one is what two comma one."
+  },
+  {
+    "start": 2518.92,
+    "duration": 6.84,
+    "text": "It's like starting from three, and ending at four. So K is going to start from zero."
+  },
+  {
+    "start": 2525.76,
+    "duration": 5.04,
+    "text": "you are going to be like k is going to be like 0 and 1 because the size of the length"
+  },
+  {
+    "start": 2530.8,
+    "duration": 5.68,
+    "text": "is 2. So, k is going to be going from 0 till the length less than the length of the merged"
+  },
+  {
+    "start": 2536.48,
+    "duration": 4.4,
+    "text": "array merge from where it has cotton it. So, it is going to be like for i is equal"
+  },
+  {
+    "start": 2540.88,
+    "duration": 5.92,
+    "text": "to k is equal to 0, k is less than 2, k plus plus array of start plus k means"
+  },
+  {
+    "start": 2546.8,
+    "duration": 7.04,
+    "text": "array of 3 plus 0 is equal to k of 0 which is 1 means this will become 1."
+  },
+  {
+    "start": 2553.84,
+    "duration": 6.08,
+    "text": "an array of three plus one is equal to whatever value you have at the one index over here."
+  },
+  {
+    "start": 2559.92,
+    "duration": 3.64,
+    "text": "So this is two, two, this will become two. So now are you able to understand why I'm"
+  },
+  {
+    "start": 2563.56,
+    "duration": 5.28,
+    "text": "taking k over here zero starting from zero and s plus k I'm doing because I need to put"
+  },
+  {
+    "start": 2568.84,
+    "duration": 4.72,
+    "text": "it from that part, right? I need to put it from that part. If I just do array of zero,"
+  },
+  {
+    "start": 2573.56,
+    "duration": 4.56,
+    "text": "it will start modifying right from zero. No, I only want to modify that range, this"
+  },
+  {
+    "start": 2578.12,
+    "duration": 4.84,
+    "text": "range only. And from where does this range start? It starts from s. Hence I'm"
+  },
+  {
+    "start": 2582.96,
+    "duration": 8.16,
+    "text": "saying s plus 0. So this is what s plus 0. This is what s plus 1. Does that make sense?"
+  },
+  {
+    "start": 2591.12,
+    "duration": 4.52,
+    "text": "This plus 0 plus 1 are the values of this new array that I have made. This is the only new"
+  },
+  {
+    "start": 2595.64,
+    "duration": 5.56,
+    "text": "array I'm making like every single recursion call when it's merging it. Okay, that is"
+  },
+  {
+    "start": 2601.2,
+    "duration": 6.72,
+    "text": "only when it's happening. Rest everything is same. Okay, so only thing we may made"
+  },
+  {
+    "start": 2607.92,
+    "duration": 3.4,
+    "text": "sure was okay, we were doing the same thing previously. But now we're just saying"
+  },
+  {
+    "start": 2611.32,
+    "duration": 8.02,
+    "text": "like okay instead of dividing it literally I'm just going to put it in the index values"
+  },
+  {
+    "start": 2619.34,
+    "duration": 4.78,
+    "text": "and after like while merging I'm just going to create a new array and put the sorted elements"
+  },
+  {
+    "start": 2624.12,
+    "duration": 6.12,
+    "text": "for that particular for that particular function call in that new array and then I'm going"
+  },
+  {
+    "start": 2630.24,
+    "duration": 3.96,
+    "text": "to replace that same function call array with the new array. Both of them are going"
+  },
+  {
+    "start": 2634.2,
+    "duration": 4.6,
+    "text": "to contain same elements but this will contain sorted elements and this will be"
+  },
+  {
+    "start": 2638.8,
+    "duration": 6.23,
+    "text": "like the original non-sorted elements. So this part of the array is being sorted and"
+  },
+  {
+    "start": 2645.03,
+    "duration": 5.24,
+    "text": "since this is the original object then the original objects part is being sorted. So if"
+  },
+  {
+    "start": 2650.27,
+    "duration": 4.64,
+    "text": "you understand how arrays and everything work should be pretty straightforward for you."
+  },
+  {
+    "start": 2654.91,
+    "duration": 12.73,
+    "text": "And yeah let's try to code this thing. So I am going to do like a code paste just"
+  },
+  {
+    "start": 2667.64,
+    "duration": 10.33,
+    "text": "to show you how similar this thing is. So I can say merge sort in place I am just"
+  },
+  {
+    "start": 2677.97,
+    "duration": 5.0,
+    "text": "going to change the name, merge sort in place merge sort in place. I'm going to remove this"
+  },
+  {
+    "start": 2682.97,
+    "duration": 9.43,
+    "text": "because I'm not returning anything. I'm just, you know, modifying the original array. So"
+  },
+  {
+    "start": 2692.4,
+    "duration": 7.21,
+    "text": "it's going to have in start and end and this is going to be like from zero till mid."
+  },
+  {
+    "start": 2699.61,
+    "duration": 6.68,
+    "text": "So I'm going to say merge sort in place array from zero till mid. Now they are"
+  },
+  {
+    "start": 2706.29,
+    "duration": 7.04,
+    "text": "the indices, okay, not zero till mid start till mid. And this one is going to have array"
+  },
+  {
+    "start": 2713.33,
+    "duration": 10.3,
+    "text": "from mid till end end. And what is mid mid is actually going to be equal to start plus"
+  },
+  {
+    "start": 2723.63,
+    "duration": 6.22,
+    "text": "and divide by two. Now, you can also do start plus and minus start divide by two if you"
+  },
+  {
+    "start": 2729.85,
+    "duration": 4.76,
+    "text": "want, not going to return anything. Now the length is actually going to be equal"
+  },
+  {
+    "start": 2734.61,
+    "duration": 3.92,
+    "text": "to end minus start. And then minus start is equal to one. It means that the length"
+  },
+  {
+    "start": 2738.53,
+    "duration": 5.0,
+    "text": "this something like that it's not returning anything so remove it you can see how I'm"
+  },
+  {
+    "start": 2743.53,
+    "duration": 6.4,
+    "text": "changing this now I'm just going to say that that's it yeah now just need to say merge"
+  },
+  {
+    "start": 2749.93,
+    "duration": 8.2,
+    "text": "sort like merge it in place okay so instead of I'm just going to say merge in place"
+  },
+  {
+    "start": 2758.13,
+    "duration": 7.04,
+    "text": "instead of left and right I'm just going to have another you know like just like just"
+  },
+  {
+    "start": 2765.17,
+    "duration": 5.56,
+    "text": "array and it's going to have start, mid and end. Similarly, like we did in the previous"
+  },
+  {
+    "start": 2770.73,
+    "duration": 15.49,
+    "text": "one, merge in place, I'm going to have int array, int start, int mid and int end. That"
+  },
+  {
+    "start": 2786.22,
+    "duration": 5.6,
+    "text": "is it. And it's also not returning anything. It's because it's changing the original"
+  },
+  {
+    "start": 2791.82,
+    "duration": 5.56,
+    "text": "original array. So in mix, it's going to be equal to what? n minus start, something"
+  },
+  {
+    "start": 2797.38,
+    "duration": 5.2,
+    "text": "we did already. And I'm just going to take i is equal to what now going to start from"
+  },
+  {
+    "start": 2802.58,
+    "duration": 6.36,
+    "text": "start, which is s j is going to what going to start from mid k is going to start from"
+  },
+  {
+    "start": 2808.94,
+    "duration": 7.76,
+    "text": "zero. Make sense. Now, instead of this, I'm just going to say if i is less than mid and"
+  },
+  {
+    "start": 2816.7,
+    "duration": 10.0,
+    "text": "j is less than and cool. So if while i is less than mid why because very simple stuff"
+  },
+  {
+    "start": 2826.7,
+    "duration": 4.2,
+    "text": "one second. So, here you can see that it is actually i is going till mid only, till less"
+  },
+  {
+    "start": 2830.9,
+    "duration": 4.76,
+    "text": "than mid that is why I am saying i should be less than mid and j should be less than and"
+  },
+  {
+    "start": 2835.66,
+    "duration": 6.88,
+    "text": "that is true, j should be less than. So, here I am just going to say that a r r of"
+  },
+  {
+    "start": 2842.54,
+    "duration": 8.68,
+    "text": "i and a r r of this, this is going to be also a r r, a r r this is going to be changed"
+  },
+  {
+    "start": 2851.22,
+    "duration": 9.12,
+    "text": "from ARR, ARR, ARR, and J is actually less than here, what less than end, I is what less"
+  },
+  {
+    "start": 2860.34,
+    "duration": 9.2,
+    "text": "than less than mid, that's it. Now you have your answer in mix. Now I need to copy the"
+  },
+  {
+    "start": 2869.54,
+    "duration": 7.6,
+    "text": "answer in my, in my original one. By the way, this is not returning anything, so it will"
+  },
+  {
+    "start": 2877.14,
+    "duration": 4.8,
+    "text": "have void. So in the original array, I need to modify the original array. So I'm just"
+  },
+  {
+    "start": 2881.94,
+    "duration": 7.0,
+    "text": "going to say for int l or k or whatever I can take l no problem is 0 less than what"
+  },
+  {
+    "start": 2888.94,
+    "duration": 6.8,
+    "text": "less than mix dot length. So I'm going to say ARR of start plus l is equal to mix of"
+  },
+  {
+    "start": 2895.74,
+    "duration": 10.54,
+    "text": "l. So you can optimize it as well system dot array dot copy of you can do it yourself."
+  },
+  {
+    "start": 2906.28,
+    "duration": 7.56,
+    "text": "I think that should be it. Let's try to fix it. So if I try to run this with the merge"
+  },
+  {
+    "start": 2913.84,
+    "duration": 9.75,
+    "text": "sort in place, so I can say merge sort in place array, start from zero and from array"
+  },
+  {
+    "start": 2923.59,
+    "duration": 15.85,
+    "text": "dot length minus one, not returning anything, just print a try to see what we get. Oh,"
+  },
+  {
+    "start": 2939.44,
+    "duration": 9.66,
+    "text": "should not be minus one the size of the array pretty cool stuff so now it's"
+  },
+  {
+    "start": 2949.1,
+    "duration": 6.44,
+    "text": "sorting it in place all righty now we covered both of the things we covered"
+  },
+  {
+    "start": 2955.54,
+    "duration": 5.2,
+    "text": "the complexity as well and everything covered the dry run I covered the"
+  },
+  {
+    "start": 2960.74,
+    "duration": 4.44,
+    "text": "recursion tree I covered the recurrence relation how this thing is working please"
+  },
+  {
+    "start": 2965.18,
+    "duration": 3.88,
+    "text": "make sure you understand it and try it on pen and paper yourself how these"
+  },
+  {
+    "start": 2969.06,
+    "duration": 3.36,
+    "text": "things are working I showed you both the approaches now only thing you need to do"
+  },
+  {
+    "start": 2972.42,
+    "duration": 3.92,
+    "text": "is practice in the next video we'll be seeing quick sort so make sure you like"
+  },
+  {
+    "start": 2976.34,
+    "duration": 5.04,
+    "text": "and subscribe and thanks a lot for watching I'll see you in the next one"
+  }
+]

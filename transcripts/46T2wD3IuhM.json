@@ -1,0 +1,6517 @@
+[
+  {
+    "start": 3.82,
+    "duration": 7.0,
+    "text": "Welcome back to another video. And in this video, we are starting with properties of object-oriented programming."
+  },
+  {
+    "start": 10.82,
+    "duration": 5.0,
+    "text": "So, this is a complete data structure algorithm into a proficient bootcamp. We are doing object-oriented programming playlist right now."
+  },
+  {
+    "start": 15.82,
+    "duration": 5.0,
+    "text": "You can find all the links in the description below for nodes and assignments and everything. Let's get started."
+  },
+  {
+    "start": 20.82,
+    "duration": 6.0,
+    "text": "So, we already talked about what is object-oriented programming and stuff, but still, I'll tell you a little bit more in detail."
+  },
+  {
+    "start": 26.82,
+    "duration": 14.0,
+    "text": "So we talked about what are like classes and stuff and when we were doing like the video on introduction to programming where I taught you that what are the various types of programming languages, right?"
+  },
+  {
+    "start": 40.82,
+    "duration": 8.0,
+    "text": "Then I taught you about object and programming. So I told you that object and programming is like, you know, you divide your code into chunks and stuff."
+  },
+  {
+    "start": 48.82,
+    "duration": 11.0,
+    "text": "So you divide your code into classes and objects and stuff so it's easier to break your code down into chunks of code."
+  },
+  {
+    "start": 59.82,
+    "duration": 5.0,
+    "text": "So it's easier for you to debug it and change stuff and things like that."
+  },
+  {
+    "start": 64.82,
+    "duration": 4.0,
+    "text": "All the things will be covered in the introduction to programming video."
+  },
+  {
+    "start": 68.82,
+    "duration": 6.0,
+    "text": "And in the previous object programming video as well, we gave it a very more hands-on approach."
+  },
+  {
+    "start": 74.82,
+    "duration": 5.84,
+    "text": "Now in this section we are talking about okay object remembering is fine. Kunal it does this it does that"
+  },
+  {
+    "start": 80.66,
+    "duration": 3.0,
+    "text": "You know you're saying it has so many benefits you divide your code"
+  },
+  {
+    "start": 83.66,
+    "duration": 5.08,
+    "text": "You provide some security to your code and some access and stuff and all these other things"
+  },
+  {
+    "start": 88.74,
+    "duration": 4.08,
+    "text": "You provide some rules to your code sample make it more secure and things like that"
+  },
+  {
+    "start": 94.06,
+    "duration": 1.76,
+    "text": "But how"
+  },
+  {
+    "start": 95.82,
+    "duration": 5.56,
+    "text": "How can we do it? We know object remembering does this we know does this but how does it do it?"
+  },
+  {
+    "start": 102.06,
+    "duration": 2.2,
+    "text": "For that we have to look at the properties of oops"
+  },
+  {
+    "start": 104.82,
+    "duration": 5.76,
+    "text": "So there are like four fundamental properties, like four important properties, the main properties"
+  },
+  {
+    "start": 110.58,
+    "duration": 3.88,
+    "text": "of object-oriented programming and that is something we will discuss in this lecture."
+  },
+  {
+    "start": 114.46,
+    "duration": 2.6,
+    "text": "So this is the most important lecture for object-oriented programming."
+  },
+  {
+    "start": 117.06,
+    "duration": 7.28,
+    "text": "In interviews, mostly these questions are asked about properties, cool."
+  },
+  {
+    "start": 124.34,
+    "duration": 4.28,
+    "text": "One more thing about properties is that many people have difficulty distinguishing between"
+  },
+  {
+    "start": 128.62,
+    "duration": 1.0,
+    "text": "the properties."
+  },
+  {
+    "start": 129.62,
+    "duration": 4.36,
+    "text": "So I teach you everything about it, okay, literally."
+  },
+  {
+    "start": 133.98,
+    "duration": 4.0,
+    "text": "property is like four properties we're learning inheritance polymorphism and"
+  },
+  {
+    "start": 137.98,
+    "duration": 4.6,
+    "text": "encapsulation and abstraction even if you think you know about it trust me we'll"
+  },
+  {
+    "start": 142.58,
+    "duration": 3.8,
+    "text": "learn something definitely amazing over here let's get started so first one is"
+  },
+  {
+    "start": 146.38,
+    "duration": 4.96,
+    "text": "inheritance what is inheritance the first property of object re-impramming"
+  },
+  {
+    "start": 151.34,
+    "duration": 9.62,
+    "text": "will look into is inheritance okay so what do we mean by inheritance"
+  },
+  {
+    "start": 160.96,
+    "duration": 5.12,
+    "text": "inheritance is same as you know your inheritance in your like in the real"
+  },
+  {
+    "start": 166.08,
+    "duration": 6.56,
+    "text": "life you have your parents okay so you have your parents they have some"
+  },
+  {
+    "start": 172.64,
+    "duration": 4.16,
+    "text": "properties and stuff like that like literally properties or money or"
+  },
+  {
+    "start": 176.8,
+    "duration": 8.19,
+    "text": "something and they pass it on to their children okay so not this not just"
+  },
+  {
+    "start": 184.99,
+    "duration": 6.8,
+    "text": "that they pass on things like money human traits right so people say you"
+  },
+  {
+    "start": 191.79,
+    "duration": 7.88,
+    "text": "look like your mom or dad or whatever, human traits, values, okay, all these other things"
+  },
+  {
+    "start": 199.67,
+    "duration": 13.07,
+    "text": "they pass on. So they have all of these things. And the children can use those things. Okay."
+  },
+  {
+    "start": 212.74,
+    "duration": 12.12,
+    "text": "Children can use those things. All right. That's it. That is inheritance. In terms of classes,"
+  },
+  {
+    "start": 224.86,
+    "duration": 4.48,
+    "text": "we can say that a particular class, what is class name group of properties and functions"
+  },
+  {
+    "start": 229.34,
+    "duration": 4.88,
+    "text": "a class has like some variables or functions or whatever, so we can say that if there's"
+  },
+  {
+    "start": 234.22,
+    "duration": 8.2,
+    "text": "a class that is able to use the properties and stuff of the other class from which it"
+  },
+  {
+    "start": 242.42,
+    "duration": 10.06,
+    "text": "is so basically what it means is that in object-oriented programming sense, in object-oriented programming"
+  },
+  {
+    "start": 252.48,
+    "duration": 7.97,
+    "text": "this is known as like the base class, normal class any class is base class and any class"
+  },
+  {
+    "start": 260.45,
+    "duration": 7.34,
+    "text": "that it derived from it. This is known as child class. Child class is going to have access"
+  },
+  {
+    "start": 267.79,
+    "duration": 9.0,
+    "text": "to the members of base class. Base class has let's say something like some variables like"
+  },
+  {
+    "start": 276.79,
+    "duration": 8.64,
+    "text": "length, width and height and child class will have access to length, width and height. Okay."
+  },
+  {
+    "start": 285.43,
+    "duration": 5.52,
+    "text": "Child class may also have some additional arguments like weight. Let's say if we're"
+  },
+  {
+    "start": 290.95,
+    "duration": 8.89,
+    "text": "talking about a box, okay, wait, for example, for obvious reasons, is the base class going"
+  },
+  {
+    "start": 299.84,
+    "duration": 8.42,
+    "text": "to have a variable known as weight? No, because it's specific to child class only. Okay, that"
+  },
+  {
+    "start": 308.26,
+    "duration": 15.22,
+    "text": "is it. So this is known as inheritance. This child class is inheriting properties from"
+  },
+  {
+    "start": 323.48,
+    "duration": 10.72,
+    "text": "base class okay child class is inheriting properties from base class this is known as inheritance"
+  },
+  {
+    "start": 338.58,
+    "duration": 3.68,
+    "text": "okay so you can say that these are sort of like interlinked with each other or something"
+  },
+  {
+    "start": 342.98,
+    "duration": 4.88,
+    "text": "if you want to use that like this child class you can definitely use the the base class as well"
+  },
+  {
+    "start": 348.42,
+    "duration": 13.22,
+    "text": "the properties are the base class as well as simple as that that is it okay so just to simply"
+  },
+  {
+    "start": 361.64,
+    "duration": 5.6,
+    "text": "like to incorporate to like inherit a class if you want to inherit this base class you"
+  },
+  {
+    "start": 367.24,
+    "duration": 6.36,
+    "text": "simply just incorporate the definition of one class in another class basically class"
+  },
+  {
+    "start": 373.6,
+    "duration": 4.56,
+    "text": "is what it's just a definition it's a template so how do you incorporate the definition of"
+  },
+  {
+    "start": 378.16,
+    "duration": 4.96,
+    "text": "this let's say the definition of this contains length width and height how do you incorporate"
+  },
+  {
+    "start": 383.12,
+    "duration": 9.92,
+    "text": "this in this in the child class using the extends keyword. So you can say a class child"
+  },
+  {
+    "start": 393.04,
+    "duration": 10.32,
+    "text": "class extends keyword base class. Now what will happen is child class will have whatever"
+  },
+  {
+    "start": 403.36,
+    "duration": 6.04,
+    "text": "you can say int weight but it will also have access to all the properties in the base"
+  },
+  {
+    "start": 409.4,
+    "duration": 10.49,
+    "text": "class okay so if you do something like this if you say child child is equal to new child"
+  },
+  {
+    "start": 419.89,
+    "duration": 10.03,
+    "text": "and then we'll say child dot length or child dot width or whatever should be able to give"
+  },
+  {
+    "start": 429.92,
+    "duration": 4.12,
+    "text": "it we'll talk more about how constructors work in inheritance but that is like I'll"
+  },
+  {
+    "start": 434.04,
+    "duration": 9.75,
+    "text": "cover it in this video only obviously child dot length width and height okay that is it"
+  },
+  {
+    "start": 443.79,
+    "duration": 5.0,
+    "text": "so it's going to be like hey does when you take for when you call like when you try to"
+  },
+  {
+    "start": 448.79,
+    "duration": 4.52,
+    "text": "access child dot length it will like hey there's a child class contain length it's gonna be"
+  },
+  {
+    "start": 453.31,
+    "duration": 4.96,
+    "text": "like no it doesn't that is gonna be like okay well I also know that child class actually"
+  },
+  {
+    "start": 458.27,
+    "duration": 4.56,
+    "text": "extends the base class so does base class contain length it's gonna be like yes it"
+  },
+  {
+    "start": 462.83,
+    "duration": 5.08,
+    "text": "does and it's just going to print it. What does it mean? It means that if you're extending"
+  },
+  {
+    "start": 467.91,
+    "duration": 4.92,
+    "text": "a base class to a child class like this, if you're inheriting one class in another class,"
+  },
+  {
+    "start": 472.83,
+    "duration": 4.72,
+    "text": "so when you're calling the constructor, you should also define the properties that are"
+  },
+  {
+    "start": 477.55,
+    "duration": 5.96,
+    "text": "in the base class makes sense. Because if you want to access the properties, for"
+  },
+  {
+    "start": 483.51,
+    "duration": 5.32,
+    "text": "example, why does it make sense? Let's see. So let's say there's a human, there's"
+  },
+  {
+    "start": 488.83,
+    "duration": 11.7,
+    "text": "a species class okay species okay some properties of species will be available in the classes"
+  },
+  {
+    "start": 500.53,
+    "duration": 15.24,
+    "text": "that come into species what all classes come into species human fish okay so what is the"
+  },
+  {
+    "start": 515.77,
+    "duration": 4.9,
+    "text": "meaning of this obviously this is a child class right because it's very simple let me explain"
+  },
+  {
+    "start": 520.67,
+    "duration": 5.72,
+    "text": "it to you. Child class basically means it will have the properties of the base class"
+  },
+  {
+    "start": 526.39,
+    "duration": 7.08,
+    "text": "plus it will have said some additional properties of its own. That is what child class is. It"
+  },
+  {
+    "start": 533.47,
+    "duration": 4.36,
+    "text": "will have the properties of the base class. Let's say this only has property of let's"
+  },
+  {
+    "start": 537.83,
+    "duration": 16.52,
+    "text": "say it has a property of species has a property of something like this species has some property"
+  },
+  {
+    "start": 554.35,
+    "duration": 13.92,
+    "text": "something like let's say age, age or something, okay. So human being is sharing the age parameter"
+  },
+  {
+    "start": 569.07,
+    "duration": 4.72,
+    "text": "with this, with the main class obviously species, because it comes under that class,"
+  },
+  {
+    "start": 573.79,
+    "duration": 6.16,
+    "text": "obviously fish will also have a variable age. So whenever you call some like human,"
+  },
+  {
+    "start": 579.95,
+    "duration": 12.96,
+    "text": "human, Kunal is equal to new human, okay, and then you say Kunal dot age, then it will actually"
+  },
+  {
+    "start": 592.91,
+    "duration": 3.86,
+    "text": "try to get the age from here because it does not exist over here to be like, okay, species"
+  },
+  {
+    "start": 596.77,
+    "duration": 5.66,
+    "text": "has a age parameter, I will take this. But if you're trying to access some variables"
+  },
+  {
+    "start": 602.43,
+    "duration": 7.07,
+    "text": "that are available in the parent class of a child class, they also need to be initialized."
+  },
+  {
+    "start": 609.5,
+    "duration": 4.52,
+    "text": "This age is obviously specific to this human, for every single human there will be different"
+  },
+  {
+    "start": 614.02,
+    "duration": 1.0,
+    "text": "different age."
+  },
+  {
+    "start": 615.02,
+    "duration": 6.5,
+    "text": "So similarly for every single human we have to specify the age, okay, that is also what"
+  },
+  {
+    "start": 621.52,
+    "duration": 1.84,
+    "text": "I wanted to talk to you about."
+  },
+  {
+    "start": 623.36,
+    "duration": 11.83,
+    "text": "So whenever you call a constructor like this, you have to initialize parent class variables"
+  },
+  {
+    "start": 635.19,
+    "duration": 10.23,
+    "text": "also for obvious reasons like this species example, okay what is an age of Kunal, age"
+  },
+  {
+    "start": 645.42,
+    "duration": 4.08,
+    "text": "of Kunal actually lies over here because just an age parameter that I'm reusing so I can"
+  },
+  {
+    "start": 649.5,
+    "duration": 6.04,
+    "text": "reuse it no problem. What do you mean by reusing? Reusing it just not mean that this reusing"
+  },
+  {
+    "start": 655.54,
+    "duration": 4.28,
+    "text": "basically means that you don't have to put like an additional variable age over it's"
+  },
+  {
+    "start": 659.82,
+    "duration": 11.23,
+    "text": "just a bit more organized if you will because if every single child class of species contains"
+  },
+  {
+    "start": 671.05,
+    "duration": 4.96,
+    "text": "age then just put it over here in the main one they can all use it. You can imagine"
+  },
+  {
+    "start": 676.01,
+    "duration": 8.22,
+    "text": "it lies over here, you can imagine it. Okay. So you use it, you do that via the extends"
+  },
+  {
+    "start": 684.23,
+    "duration": 12.63,
+    "text": "keyword. That's it. Okay. Let's try to let's try to code this thing. It's very actually"
+  },
+  {
+    "start": 696.86,
+    "duration": 5.0,
+    "text": "very simple. Okay, for now, let's say I just create a normal base class. So I'm teaching"
+  },
+  {
+    "start": 701.86,
+    "duration": 12.36,
+    "text": "you inheritance, inheritance. And in that I'll just create a class called box. Okay,"
+  },
+  {
+    "start": 714.22,
+    "duration": 5.36,
+    "text": "going to have some properties, no problem. So let's say I put a property called double"
+  },
+  {
+    "start": 719.58,
+    "duration": 11.08,
+    "text": "length, double height and double width. Okay, something like that. I create a constructor."
+  },
+  {
+    "start": 730.66,
+    "duration": 5.24,
+    "text": "I let's say just create a normal constructor like you already talked about multiple constructors,"
+  },
+  {
+    "start": 735.9,
+    "duration": 5.48,
+    "text": "right? So I just create a one constructor like this. So initial constructor, I can"
+  },
+  {
+    "start": 741.38,
+    "duration": 7.2,
+    "text": "just say that this dot height is equal to initially let's say this this dot length is"
+  },
+  {
+    "start": 748.58,
+    "duration": 7.28,
+    "text": "also minus one and this dot width is also minus one that is one way we can create a"
+  },
+  {
+    "start": 755.86,
+    "duration": 5.36,
+    "text": "constructor let's say you want to create a square okay so if you want to create a"
+  },
+  {
+    "start": 761.22,
+    "duration": 4.52,
+    "text": "square then or cube sorry not a square a cube if you want to create a cube then"
+  },
+  {
+    "start": 765.74,
+    "duration": 3.64,
+    "text": "someone will call this constructor and how these constructors and things get called"
+  },
+  {
+    "start": 769.38,
+    "duration": 4.96,
+    "text": "like, I'll teach, I have already taught you, right? I have already taught you this how this"
+  },
+  {
+    "start": 774.34,
+    "duration": 4.64,
+    "text": "actually gets called. But in overloading and stuff, I'll actually teach you the internal"
+  },
+  {
+    "start": 778.98,
+    "duration": 4.64,
+    "text": "implementation of this as well. Obviously in this video only. Okay, so let's say you just"
+  },
+  {
+    "start": 783.62,
+    "duration": 8.32,
+    "text": "give it one side. So in that case, all these three, this dot width is equal to side, this"
+  },
+  {
+    "start": 791.94,
+    "duration": 6.92,
+    "text": "dot length is equal to side. I'll teach you like how these I know how we know how we can"
+  },
+  {
+    "start": 798.86,
+    "duration": 4.36,
+    "text": "like make multiple constructors, right? If I pass one side, it will call this if I pass"
+  },
+  {
+    "start": 803.22,
+    "duration": 4.76,
+    "text": "nothing it will cause call this if I pass some to it will give an error until unless"
+  },
+  {
+    "start": 807.98,
+    "duration": 6.64,
+    "text": "a parameter two exists. So how that happens internally, I'll teach you right now, when"
+  },
+  {
+    "start": 814.62,
+    "duration": 5.16,
+    "text": "we do like polymorphism after inheritance. So bear with me for a second height is equal"
+  },
+  {
+    "start": 819.78,
+    "duration": 5.26,
+    "text": "to also a site. Now this is a cube. Okay, this is a cube. One more we can make is normal"
+  },
+  {
+    "start": 825.04,
+    "duration": 4.26,
+    "text": "like if you pass three arguments, for example, if you pass three arguments, it will call"
+  },
+  {
+    "start": 829.3,
+    "duration": 6.92,
+    "text": "this. Okay, we'll call this. You may or may not write public, it's fine. We'll talk"
+  },
+  {
+    "start": 836.22,
+    "duration": 7.88,
+    "text": "more about that in access modifier. Okay, I don't have to print something like that."
+  },
+  {
+    "start": 844.1,
+    "duration": 3.28,
+    "text": "All right, that looks good. And one more thing can happen is if you pass a box"
+  },
+  {
+    "start": 847.38,
+    "duration": 7.0,
+    "text": "in it. If you pass a box in it, so copy constructor, we talked about this previously. If you pass"
+  },
+  {
+    "start": 854.38,
+    "duration": 9.12,
+    "text": "an old box, something so you can see this dot height is equal to all dot height. This"
+  },
+  {
+    "start": 863.5,
+    "duration": 11.08,
+    "text": "dot length is equal to all dot length. This dot width is equal to all dot width. That's"
+  },
+  {
+    "start": 874.58,
+    "duration": 9.88,
+    "text": "it, I can create some functions like this, I can say public, not protected public, just"
+  },
+  {
+    "start": 884.46,
+    "duration": 11.44,
+    "text": "void, I can say display info, or I can just say in for information like this, and I can"
+  },
+  {
+    "start": 895.9,
+    "duration": 17.18,
+    "text": "say print something like this, I can say running the box or something, okay, doesn't really"
+  },
+  {
+    "start": 913.08,
+    "duration": 3.38,
+    "text": "matter that much, cool."
+  },
+  {
+    "start": 916.46,
+    "duration": 8.2,
+    "text": "So that's it, normal box, I can create a mean function for this, okay, not mean, not mean"
+  },
+  {
+    "start": 924.66,
+    "duration": 1.6,
+    "text": "function, mean class."
+  },
+  {
+    "start": 926.26,
+    "duration": 12.38,
+    "text": "So here I can just say public static void main, I can say box, box is equal to new box,"
+  },
+  {
+    "start": 938.64,
+    "duration": 1.0,
+    "text": "something like this."
+  },
+  {
+    "start": 939.64,
+    "duration": 13.95,
+    "text": "And if I just try to print box dot length, box dot width, box dot height."
+  },
+  {
+    "start": 953.59,
+    "duration": 3.92,
+    "text": "So it will be like, okay, which constructor is there that takes no argument, it will"
+  },
+  {
+    "start": 957.51,
+    "duration": 1.24,
+    "text": "be like this one."
+  },
+  {
+    "start": 958.75,
+    "duration": 2.32,
+    "text": "So it will just set it to minus one."
+  },
+  {
+    "start": 961.07,
+    "duration": 1.0,
+    "text": "No problem."
+  },
+  {
+    "start": 962.07,
+    "duration": 9.06,
+    "text": "we have done this in previous lectures, nothing new over here, okay, everything is minus one."
+  },
+  {
+    "start": 971.13,
+    "duration": 4.56,
+    "text": "If you try to pass something here like four, you like which box is there that takes only"
+  },
+  {
+    "start": 975.69,
+    "duration": 6.8,
+    "text": "one argument, it will be like the this one, this one takes only one argument, okay, run"
+  },
+  {
+    "start": 982.49,
+    "duration": 11.15,
+    "text": "it, okay, square, sorry, cube, cube, this one takes three arguments, but what if you"
+  },
+  {
+    "start": 993.64,
+    "duration": 6.4,
+    "text": "try to put like 4.6 like two arguments, let's say 7.9, which constructor is there"
+  },
+  {
+    "start": 1000.04,
+    "duration": 5.0,
+    "text": "that takes two arguments, no constructor is there, hence it's giving error, which constructor"
+  },
+  {
+    "start": 1005.04,
+    "duration": 6.44,
+    "text": "is there that takes nine, three arguments, it's going to like, this one takes three arguments,"
+  },
+  {
+    "start": 1011.48,
+    "duration": 7.16,
+    "text": "okay, let's call this. So it's like setting the values like that. Okay, box one, you can"
+  },
+  {
+    "start": 1018.64,
+    "duration": 10.77,
+    "text": "say. And if we say box to is equal to what? New box, if I pass another box over here,"
+  },
+  {
+    "start": 1029.41,
+    "duration": 5.22,
+    "text": "object of type box that's going to be like which constructor is there that takes another"
+  },
+  {
+    "start": 1034.63,
+    "duration": 3.48,
+    "text": "type of box is going to be like yeah there is an actually a constructor that takes a"
+  },
+  {
+    "start": 1038.11,
+    "duration": 9.56,
+    "text": "type of box just copy the type of the past one into the new one that's it same thing"
+  },
+  {
+    "start": 1047.67,
+    "duration": 6.42,
+    "text": "that is what is happening okay so how this thing works internally I'll tell you when"
+  },
+  {
+    "start": 1054.09,
+    "duration": 11.62,
+    "text": "we do like, you know, what when we do polymorphism, like right now, but let's first talk about"
+  },
+  {
+    "start": 1065.71,
+    "duration": 5.24,
+    "text": "the inheritance part, how that thing works. So in inheritance, what is happening over"
+  },
+  {
+    "start": 1070.95,
+    "duration": 6.52,
+    "text": "here is let's say, so we have this file, okay, we have this particular one. And now"
+  },
+  {
+    "start": 1077.47,
+    "duration": 7.28,
+    "text": "let's say I try to create, I try to create a box weight. Okay, so this is what we're"
+  },
+  {
+    "start": 1084.75,
+    "duration": 10.28,
+    "text": "trying to do. Let me bring up my whiteboard. Okay, so you have your box, something like"
+  },
+  {
+    "start": 1095.03,
+    "duration": 8.82,
+    "text": "this. This is what we're trying to do. You have your box like this. It has a length, width"
+  },
+  {
+    "start": 1103.85,
+    "duration": 4.92,
+    "text": "and height. You're trying to create another pro another type of box that has a weight"
+  },
+  {
+    "start": 1108.77,
+    "duration": 5.58,
+    "text": "also. Okay, so this is a box that has a weight also. Now this box is obviously going"
+  },
+  {
+    "start": 1114.35,
+    "duration": 4.18,
+    "text": "to have three properties as well, length, width and height instead of creating again"
+  },
+  {
+    "start": 1118.53,
+    "duration": 4.16,
+    "text": "over here, I'm just going to say I'm just going to inherit the properties from the main"
+  },
+  {
+    "start": 1122.69,
+    "duration": 6.28,
+    "text": "parent and this one is going to have weight in it and how do we do that via the extends"
+  },
+  {
+    "start": 1128.97,
+    "duration": 1.0,
+    "text": "keyword."
+  },
+  {
+    "start": 1129.97,
+    "duration": 5.7,
+    "text": "Let's see."
+  },
+  {
+    "start": 1135.67,
+    "duration": 8.91,
+    "text": "So here I'm going to create a box of weight, something like this is a class box weight."
+  },
+  {
+    "start": 1144.58,
+    "duration": 4.0,
+    "text": "It basically wants all the properties that are here in this box class."
+  },
+  {
+    "start": 1148.58,
+    "duration": 5.28,
+    "text": "properties everything like this okay all of these information everything it wants how can"
+  },
+  {
+    "start": 1153.86,
+    "duration": 9.72,
+    "text": "we do that extends box that's it extends box that's it it's going to have weight now"
+  },
+  {
+    "start": 1163.58,
+    "duration": 10.16,
+    "text": "when I create a constructor notice what will happen I just create let's say a normal constructor"
+  },
+  {
+    "start": 1173.74,
+    "duration": 8.36,
+    "text": "like this okay I create a normal constructor and here I just say let's say this dot weight"
+  },
+  {
+    "start": 1182.1,
+    "duration": 11.01,
+    "text": "is equal to minus 1, for example. Now when I go into my main and I actually let us say"
+  },
+  {
+    "start": 1193.11,
+    "duration": 12.06,
+    "text": "create a box weight 1, I say box weight, box 3 is equal to new, box weight, something like"
+  },
+  {
+    "start": 1205.17,
+    "duration": 19.74,
+    "text": "this and then I say box three dot weight print box three dot height box three dot weight weight"
+  },
+  {
+    "start": 1224.91,
+    "duration": 8.24,
+    "text": "not width let's see what it will print for height."
+  },
+  {
+    "start": 1233.15,
+    "duration": 6.62,
+    "text": "So saying minus one and minus one what is happening over here internally let's see what if I"
+  },
+  {
+    "start": 1239.77,
+    "duration": 5.14,
+    "text": "try to make another box weight so for example I do something like this let's say you say"
+  },
+  {
+    "start": 1244.91,
+    "duration": 8.32,
+    "text": "something like you want to use the properties of this class. So, you want to use these things."
+  },
+  {
+    "start": 1253.87,
+    "duration": 4.16,
+    "text": "So, you should be able to use those in the constructors as well. So, what we want is"
+  },
+  {
+    "start": 1258.03,
+    "duration": 11.6,
+    "text": "something like this. We want to create it something like this box weight box 4 new box weight length"
+  },
+  {
+    "start": 1269.63,
+    "duration": 6.24,
+    "text": "width height weight you want to do it something like this. You want to pass all these four"
+  },
+  {
+    "start": 1275.87,
+    "duration": 4.4,
+    "text": "things. So I know the first three things are actually being used in its parent cloud. It"
+  },
+  {
+    "start": 1280.27,
+    "duration": 5.08,
+    "text": "will get it from here. But how is it going to use it inside the constructor? What happened"
+  },
+  {
+    "start": 1285.35,
+    "duration": 4.36,
+    "text": "in this case was that you are giving minus one and minus one for this because this is"
+  },
+  {
+    "start": 1289.71,
+    "duration": 7.64,
+    "text": "how it works internally. Let me show you. So constructor all of these things I want,"
+  },
+  {
+    "start": 1297.35,
+    "duration": 13.4,
+    "text": "say like this, oops, sorry, construct like this, like this. So, this is what I want. Okay,"
+  },
+  {
+    "start": 1310.75,
+    "duration": 10.36,
+    "text": "this is what I want. This is what we are getting over here. Okay, so we said that pass the"
+  },
+  {
+    "start": 1321.11,
+    "duration": 3.52,
+    "text": "length, width and height and also the weight. So, it is passing the length, width and"
+  },
+  {
+    "start": 1324.63,
+    "duration": 8.04,
+    "text": "height and also the weight. It is setting the weight normally, but what is this thing?"
+  },
+  {
+    "start": 1332.67,
+    "duration": 7.2,
+    "text": "is this. So this is what is happening. In order to set length, height and width, it obviously"
+  },
+  {
+    "start": 1339.87,
+    "duration": 5.04,
+    "text": "has to set it over here in the box, but it has to get these values from the parent class"
+  },
+  {
+    "start": 1344.91,
+    "duration": 4.48,
+    "text": "because these value exists over there. So it has to initialize these values. And where"
+  },
+  {
+    "start": 1349.39,
+    "duration": 10.21,
+    "text": "are these values getting initialized here. So it's basically saying call the parent"
+  },
+  {
+    "start": 1359.6,
+    "duration": 7.2,
+    "text": "parent class constructor that is it. It is saying call the parent class constructor. So"
+  },
+  {
+    "start": 1366.8,
+    "duration": 4.04,
+    "text": "if you double click on this or do not double click, control click on this you will see"
+  },
+  {
+    "start": 1370.84,
+    "duration": 5.72,
+    "text": "it is actually calling this one. What if I hide it then it is giving an error it does"
+  },
+  {
+    "start": 1376.56,
+    "duration": 2.56,
+    "text": "not exist."
+  },
+  {
+    "start": 1379.12,
+    "duration": 6.04,
+    "text": "So when you want to call, when you want to initialize so I will just write it"
+  },
+  {
+    "start": 1385.16,
+    "duration": 11.84,
+    "text": "over there used to initialize values present in parent class. So this is actually calling"
+  },
+  {
+    "start": 1397.0,
+    "duration": 17.09,
+    "text": "the parent class constructor. Okay, that is what it's doing. Okay. And although the subclass"
+  },
+  {
+    "start": 1414.09,
+    "duration": 3.88,
+    "text": "includes all the members of its like parent class or superclass that we like to call"
+  },
+  {
+    "start": 1417.97,
+    "duration": 6.36,
+    "text": "it, it will not be able to access those members of the parent class that have been"
+  },
+  {
+    "start": 1424.33,
+    "duration": 8.4,
+    "text": "declared as private. Okay, so if you do it like this, private l sorry, private double"
+  },
+  {
+    "start": 1432.73,
+    "duration": 17.94,
+    "text": "l, something like this. Okay, and here if you want to do it like somewhat like this,"
+  },
+  {
+    "start": 1450.67,
+    "duration": 10.65,
+    "text": "you can say this dot w is fine, but this dot l you cannot access, because it's private."
+  },
+  {
+    "start": 1461.32,
+    "duration": 3.32,
+    "text": "Private is very simple, even though I will cover it in access modifiers, but right"
+  },
+  {
+    "start": 1464.64,
+    "duration": 3.84,
+    "text": "now I'm telling you why am I telling you you're saying Kunal you will cover it in"
+  },
+  {
+    "start": 1468.48,
+    "duration": 3.04,
+    "text": "access modifiers we don't want to miss anything why are you telling it right"
+  },
+  {
+    "start": 1471.52,
+    "duration": 3.44,
+    "text": "now you will not understand no only reason why I'm telling you is because"
+  },
+  {
+    "start": 1474.96,
+    "duration": 6.56,
+    "text": "it's very simple anything that is private you can only use it in that file you"
+  },
+  {
+    "start": 1481.52,
+    "duration": 3.44,
+    "text": "can do whatever you want with L over here you can access it set it like"
+  },
+  {
+    "start": 1484.96,
+    "duration": 4.84,
+    "text": "this you know print it or whatever you want to do you can do but only in"
+  },
+  {
+    "start": 1489.8,
+    "duration": 9.08,
+    "text": "this file. Only in this file, you cannot use it outside. Like this. Another question, can"
+  },
+  {
+    "start": 1498.88,
+    "duration": 5.54,
+    "text": "I use it over here? Box four dot L. Don't even have to try it. You can't use it. You"
+  },
+  {
+    "start": 1504.42,
+    "duration": 8.06,
+    "text": "can't. It's private. Can't. Okay. So this is another important point. I will mention"
+  },
+  {
+    "start": 1512.48,
+    "duration": 4.96,
+    "text": "it in my notes. Although a subclass includes like the members of its superclass, it"
+  },
+  {
+    "start": 1517.44,
+    "duration": 5.49,
+    "text": "It will not be able to access the ones that are private."
+  },
+  {
+    "start": 1522.93,
+    "duration": 5.48,
+    "text": "Now you might be wondering, how is it initializing this L over here if it is private?"
+  },
+  {
+    "start": 1528.41,
+    "duration": 4.68,
+    "text": "Because this class is not initializing it, this box class is initializing it, see box"
+  },
+  {
+    "start": 1533.09,
+    "duration": 9.93,
+    "text": "class constructor is being called."
+  },
+  {
+    "start": 1543.02,
+    "duration": 1.0,
+    "text": "Sound good?"
+  },
+  {
+    "start": 1544.02,
+    "duration": 1.0,
+    "text": "Cool."
+  },
+  {
+    "start": 1545.02,
+    "duration": 4.8,
+    "text": "Now one more thing I want to mention to you is please every single word, every single"
+  },
+  {
+    "start": 1549.82,
+    "duration": 3.24,
+    "text": "line that I am mentioning in this video is very important."
+  },
+  {
+    "start": 1553.06,
+    "duration": 5.28,
+    "text": "single line itself contains what concepts. That is why please listen very carefully. I"
+  },
+  {
+    "start": 1558.34,
+    "duration": 5.44,
+    "text": "have devised it very nicely the entire path for this playlist. Okay, another question can"
+  },
+  {
+    "start": 1563.78,
+    "duration": 3.64,
+    "text": "be Kunal you made this box playlist like this. Okay, no problem. You made it something like"
+  },
+  {
+    "start": 1567.42,
+    "duration": 5.56,
+    "text": "this. Okay, let me just hide this thing right now. You're going to be like, hey, Kunal"
+  },
+  {
+    "start": 1572.98,
+    "duration": 5.64,
+    "text": "you made it like this. Okay, so you made a box of type box, this is an object of"
+  },
+  {
+    "start": 1578.62,
+    "duration": 8.32,
+    "text": "type box. No problem. Can you access the elements that are in the child class for this? For obvious"
+  },
+  {
+    "start": 1586.94,
+    "duration": 5.6,
+    "text": "reasons, you can't logical logical reason. Okay, if you try to access the weight, it will be like"
+  },
+  {
+    "start": 1592.54,
+    "duration": 6.08,
+    "text": "weight does not exist. So you can only access extra variables that are above until unless"
+  },
+  {
+    "start": 1598.62,
+    "duration": 5.52,
+    "text": "they are not private. Okay, so child can access extra variables that are in the parent. But"
+  },
+  {
+    "start": 1604.14,
+    "duration": 4.76,
+    "text": "But if the object is directly created of parent class, it will not be able to access the child"
+  },
+  {
+    "start": 1608.9,
+    "duration": 1.0,
+    "text": "properties."
+  },
+  {
+    "start": 1609.9,
+    "duration": 3.33,
+    "text": "Okay?"
+  },
+  {
+    "start": 1613.23,
+    "duration": 1.0,
+    "text": "Of which reason?"
+  },
+  {
+    "start": 1614.23,
+    "duration": 1.0,
+    "text": "Sound good?"
+  },
+  {
+    "start": 1615.23,
+    "duration": 2.25,
+    "text": "Cool."
+  },
+  {
+    "start": 1617.48,
+    "duration": 6.38,
+    "text": "That is basically about it."
+  },
+  {
+    "start": 1623.86,
+    "duration": 1.0,
+    "text": "Okay?"
+  },
+  {
+    "start": 1624.86,
+    "duration": 1.0,
+    "text": "So yeah."
+  },
+  {
+    "start": 1625.86,
+    "duration": 1.0,
+    "text": "Cool."
+  },
+  {
+    "start": 1626.86,
+    "duration": 4.48,
+    "text": "Let's move forward here for example, right?"
+  },
+  {
+    "start": 1631.34,
+    "duration": 3.76,
+    "text": "So if you create an object of this class, these are just classes, right?"
+  },
+  {
+    "start": 1635.1,
+    "duration": 3.08,
+    "text": "The only difference is this is a child class is a parent class."
+  },
+  {
+    "start": 1638.18,
+    "duration": 1.52,
+    "text": "The only difference is child class can access"
+  },
+  {
+    "start": 1639.7,
+    "duration": 1.44,
+    "text": "the properties of parent class."
+  },
+  {
+    "start": 1641.14,
+    "duration": 2.4,
+    "text": "But if you create an object of this class itself,"
+  },
+  {
+    "start": 1643.54,
+    "duration": 2.84,
+    "text": "it will not be able to access the properties"
+  },
+  {
+    "start": 1646.38,
+    "duration": 4.96,
+    "text": "of all the classes that lie below it."
+  },
+  {
+    "start": 1651.34,
+    "duration": 1.98,
+    "text": "Okay, let me show you one more cool thing."
+  },
+  {
+    "start": 1653.32,
+    "duration": 2.78,
+    "text": "So this thing about the,"
+  },
+  {
+    "start": 1656.1,
+    "duration": 1.88,
+    "text": "this is a very, very, very important concept."
+  },
+  {
+    "start": 1657.98,
+    "duration": 1.8,
+    "text": "Please listen to it very carefully."
+  },
+  {
+    "start": 1659.78,
+    "duration": 6.34,
+    "text": "So this thing about the box type object"
+  },
+  {
+    "start": 1666.12,
+    "duration": 5.0,
+    "text": "not being able to use the child class parameters"
+  },
+  {
+    "start": 1671.12,
+    "duration": 5.16,
+    "text": "class parameters or whatever it's fine but how why how is it working internally and what"
+  },
+  {
+    "start": 1676.28,
+    "duration": 7.08,
+    "text": "is actually determining this let's do something funny let's make a box type object the type"
+  },
+  {
+    "start": 1683.36,
+    "duration": 6.01,
+    "text": "will be box the reference type is going to be box okay no problem by the way I'll put"
+  },
+  {
+    "start": 1689.37,
+    "duration": 8.68,
+    "text": "it in my notes also don't don't note anything box type box 5 no problem there's a reference"
+  },
+  {
+    "start": 1698.05,
+    "duration": 6.2,
+    "text": "type of type box. Okay, no problem. But the weird thing we'll do now is we'll actually"
+  },
+  {
+    "start": 1704.25,
+    "duration": 17.08,
+    "text": "create the object of type box weight. Okay, I'll copy this 23234, no problem. This object"
+  },
+  {
+    "start": 1721.33,
+    "duration": 4.56,
+    "text": "type is what obviously this type is box weight. But it's referencing to something"
+  },
+  {
+    "start": 1725.89,
+    "duration": 6.24,
+    "text": "of type box, it's parent. Now if I try to print, let's say if I try to access,"
+  },
+  {
+    "start": 1732.13,
+    "duration": 13.45,
+    "text": "say box five dot stuff that is in the stuff that is in the let's say over here for example"
+  },
+  {
+    "start": 1745.58,
+    "duration": 5.96,
+    "text": "let me just put up my whiteboard stuff that is in the box weight class okay or box class"
+  },
+  {
+    "start": 1751.54,
+    "duration": 5.64,
+    "text": "let's say width or height or whatever box five dot width yeah it's able to access that"
+  },
+  {
+    "start": 1757.18,
+    "duration": 7.8,
+    "text": "no problem no problem at all ok so you can print box five dot width no problem at all"
+  },
+  {
+    "start": 1764.98,
+    "duration": 6.48,
+    "text": "but can it access box weight parameters the object is of type box weight ok no problem"
+  },
+  {
+    "start": 1771.46,
+    "duration": 5.92,
+    "text": "that weight is also initialized also weight is initialized also and I will tell you in"
+  },
+  {
+    "start": 1777.38,
+    "duration": 4.64,
+    "text": "detail about the super keyword ok you may be having any doubts about the super thing"
+  },
+  {
+    "start": 1782.02,
+    "duration": 4.72,
+    "text": "I'll tell you in detail after this about that, okay, but first focus on this."
+  },
+  {
+    "start": 1786.74,
+    "duration": 2.56,
+    "text": "It is initialized also, but can you access it?"
+  },
+  {
+    "start": 1789.3,
+    "duration": 2.0,
+    "text": "Let's try to do it."
+  },
+  {
+    "start": 1791.3,
+    "duration": 2.84,
+    "text": "No, not able to access it."
+  },
+  {
+    "start": 1794.14,
+    "duration": 2.36,
+    "text": "What is happening?"
+  },
+  {
+    "start": 1796.5,
+    "duration": 1.0,
+    "text": "What is happening?"
+  },
+  {
+    "start": 1797.5,
+    "duration": 2.36,
+    "text": "This is what is happening."
+  },
+  {
+    "start": 1799.86,
+    "duration": 8.52,
+    "text": "It is important to understand that it is actually the type of the reference variable that"
+  },
+  {
+    "start": 1808.38,
+    "duration": 2.32,
+    "text": "actually determines and not the object."
+  },
+  {
+    "start": 1810.7,
+    "duration": 7.54,
+    "text": "It is actually the type of the reference variable and not the type of the object that determines"
+  },
+  {
+    "start": 1818.24,
+    "duration": 6.9,
+    "text": "what members can be accessed."
+  },
+  {
+    "start": 1825.14,
+    "duration": 8.94,
+    "text": "This is a type of reference, this is a reference type of box and it is referencing to an object"
+  },
+  {
+    "start": 1834.08,
+    "duration": 3.85,
+    "text": "of type box weight."
+  },
+  {
+    "start": 1837.93,
+    "duration": 6.12,
+    "text": "Sometimes a parent refer to you as well right, so you are at like you know when your parents"
+  },
+  {
+    "start": 1844.05,
+    "duration": 4.88,
+    "text": "are are at a parent's teacher meeting. So your parent class is going to be when someone"
+  },
+  {
+    "start": 1848.93,
+    "duration": 5.0,
+    "text": "asks you who are you, the parents are going to be like I am the father of Kunal. So a parent"
+  },
+  {
+    "start": 1853.93,
+    "duration": 7.48,
+    "text": "is referencing you parent class is referencing to child. So that is what is happening. This"
+  },
+  {
+    "start": 1861.41,
+    "duration": 3.04,
+    "text": "obviously is a reference variable. So it will be somewhere over here in the stack"
+  },
+  {
+    "start": 1864.45,
+    "duration": 10.23,
+    "text": "memory box five in the heap memory. There's going to be an object of type box weight"
+  },
+  {
+    "start": 1874.68,
+    "duration": 5.44,
+    "text": "and this is going to be pointing to this, that is what is happening over here."
+  },
+  {
+    "start": 1880.12,
+    "duration": 6.6,
+    "text": "So all the members that are over here in this box type they will be able to access that"
+  },
+  {
+    "start": 1886.72,
+    "duration": 5.64,
+    "text": "you can access via this, similarly box weight has have all the members, box weight has"
+  },
+  {
+    "start": 1892.36,
+    "duration": 4.8,
+    "text": "the members of itself plus of the parent class that are not private, hence it can"
+  },
+  {
+    "start": 1897.16,
+    "duration": 7.0,
+    "text": "access weight, W and height, it's not actually the type of the object that determines"
+  },
+  {
+    "start": 1904.16,
+    "duration": 6.39,
+    "text": "what members can be accessed. It is a type of the reference variable. Okay, so when a"
+  },
+  {
+    "start": 1910.55,
+    "duration": 5.28,
+    "text": "reference to a subclass object is assigned to a superclass reference variable, like in"
+  },
+  {
+    "start": 1915.83,
+    "duration": 6.2,
+    "text": "this example, you will only have access to only those parts of the objects that are obviously"
+  },
+  {
+    "start": 1922.03,
+    "duration": 14.44,
+    "text": "defined in the superclass, which is this. That's it. That is it. As simple as that."
+  },
+  {
+    "start": 1936.47,
+    "duration": 4.32,
+    "text": "No problem at all. Now you may ask something like, Kunal, what about this? What if you"
+  },
+  {
+    "start": 1940.79,
+    "duration": 7.68,
+    "text": "want to do it opposite like this let's say box six you make it of type box the reference"
+  },
+  {
+    "start": 1948.47,
+    "duration": 6.0,
+    "text": "type of box weight and this of type box and you only pass let's say three stuff over here"
+  },
+  {
+    "start": 1954.47,
+    "duration": 9.62,
+    "text": "now it's giving an error now it's giving an can anyone tell why it's giving an error"
+  },
+  {
+    "start": 1964.09,
+    "duration": 9.26,
+    "text": "think about it you are trying to reference a child to a parent child you are trying"
+  },
+  {
+    "start": 1973.35,
+    "duration": 3.84,
+    "text": "to reference a child to a parent okay no problem no problem when you are trying to reference"
+  },
+  {
+    "start": 1977.19,
+    "duration": 5.04,
+    "text": "a parent to a child when you're trying to reference a child object to a parent one okay"
+  },
+  {
+    "start": 1982.23,
+    "duration": 4.48,
+    "text": "something like that in that case you're just able to call like access these things when"
+  },
+  {
+    "start": 1986.71,
+    "duration": 4.84,
+    "text": "you're referencing a child with a child for example this one in this case also if you"
+  },
+  {
+    "start": 1991.55,
+    "duration": 4.6,
+    "text": "just try to get weight and you try to get width and height it will automatically"
+  },
+  {
+    "start": 1996.15,
+    "duration": 7.76,
+    "text": "we call this constructor. Okay, so problem arises when some values are not initialized."
+  },
+  {
+    "start": 2003.91,
+    "duration": 4.16,
+    "text": "Okay, whenever you try to think of these things, think in the logical sense, I will actually"
+  },
+  {
+    "start": 2008.07,
+    "duration": 5.28,
+    "text": "tell you how to think why this problem is arising. What are the problems? Let me arise. See,"
+  },
+  {
+    "start": 2013.35,
+    "duration": 7.52,
+    "text": "what are we doing? We know in simple language, there are many variables in both parent and"
+  },
+  {
+    "start": 2020.87,
+    "duration": 19.57,
+    "text": "child classes no problem ok no problem you are given access to variables that are in the"
+  },
+  {
+    "start": 2040.44,
+    "duration": 16.0,
+    "text": "reference type that is in this example box weight hence you should have access to weight"
+  },
+  {
+    "start": 2056.44,
+    "duration": 3.86,
+    "text": "variable, okay, this is everyone, everyone knows this, okay, because box weight is available"
+  },
+  {
+    "start": 2060.3,
+    "duration": 6.8,
+    "text": "over here and Kunal, you just said that whatever type is over here, all the variables and methods"
+  },
+  {
+    "start": 2067.1,
+    "duration": 3.32,
+    "text": "or whatever that are available in that type, for example, there's a box weight, so weight"
+  },
+  {
+    "start": 2070.42,
+    "duration": 3.16,
+    "text": "is available and this is available. Hence, you can access all those variables. So you"
+  },
+  {
+    "start": 2073.58,
+    "duration": 4.56,
+    "text": "can access at actually you can access with height and weight because L is private,"
+  },
+  {
+    "start": 2078.14,
+    "duration": 14.47,
+    "text": "no problem. So, this also means that the ones you are trying to access should be initialized,"
+  },
+  {
+    "start": 2092.61,
+    "duration": 4.88,
+    "text": "no problem. So, you are trying to access wait, hence if you are if you are able to access"
+  },
+  {
+    "start": 2097.49,
+    "duration": 4.36,
+    "text": "wait, if this is the rule that is stating that you are able to access wait no problem"
+  },
+  {
+    "start": 2101.85,
+    "duration": 3.6,
+    "text": "because box wait type is available over here, then you should be able to initialize that"
+  },
+  {
+    "start": 2105.45,
+    "duration": 8.8,
+    "text": "as well. You should be able to initialize that as well. But here when the object itself"
+  },
+  {
+    "start": 2114.25,
+    "duration": 13.11,
+    "text": "is of type parent class, how will you call the constructor of child class? It's like"
+  },
+  {
+    "start": 2127.36,
+    "duration": 4.92,
+    "text": "okay, Kunal said that if box weight is available, then I can access weight. Okay, yeah, that"
+  },
+  {
+    "start": 2132.28,
+    "duration": 4.4,
+    "text": "is totally fine. You can. But now Java tells us Java is saying, okay, you are"
+  },
+  {
+    "start": 2136.68,
+    "duration": 4.54,
+    "text": "able to access that but you are not able to initialize the weight variable over"
+  },
+  {
+    "start": 2141.22,
+    "duration": 3.16,
+    "text": "here because you have called the constructor of parent class parent class"
+  },
+  {
+    "start": 2144.38,
+    "duration": 6.72,
+    "text": "has no idea about weight this has no idea about weight downwards motion has no"
+  },
+  {
+    "start": 2151.1,
+    "duration": 4.12,
+    "text": "idea about the downward classes this box class does not know what classes are"
+  },
+  {
+    "start": 2155.22,
+    "duration": 4.2,
+    "text": "below but the below classes know what classes are above hence you are not"
+  },
+  {
+    "start": 2159.42,
+    "duration": 4.04,
+    "text": "able to initialize this because the object is of type this hence it's"
+  },
+  {
+    "start": 2163.46,
+    "duration": 9.06,
+    "text": "giving an error. That is why error, hence it's not allowed. So you cannot have a child"
+  },
+  {
+    "start": 2172.52,
+    "duration": 11.35,
+    "text": "reference variable and an and a parent object. You can't do that. Okay. Easy stuff. All right."
+  },
+  {
+    "start": 2183.87,
+    "duration": 3.76,
+    "text": "So that was another good important point. Let's talk a little bit more about the super"
+  },
+  {
+    "start": 2187.63,
+    "duration": 4.12,
+    "text": "keyword now. Okay, so let's learn a bit more about the super keyword in detail. What"
+  },
+  {
+    "start": 2191.75,
+    "duration": 4.2,
+    "text": "does it mean this thing? Okay, so we know that's calling the parent class constructor."
+  },
+  {
+    "start": 2195.95,
+    "duration": 9.46,
+    "text": "So whenever a subclass like the box bit needs to refer to the superclass from which it is"
+  },
+  {
+    "start": 2205.41,
+    "duration": 5.2,
+    "text": "defined, from which it is like derived, for that you can use the super keyword."
+  },
+  {
+    "start": 2210.61,
+    "duration": 5.32,
+    "text": "It has like two use cases, I'll go in both of those like right now, but it also works"
+  },
+  {
+    "start": 2215.93,
+    "duration": 1.8,
+    "text": "in like multi-level classes."
+  },
+  {
+    "start": 2217.73,
+    "duration": 3.64,
+    "text": "So for example, if you have multi-level inheritance, one class inheriting from other"
+  },
+  {
+    "start": 2221.37,
+    "duration": 7.0,
+    "text": "class than something like this class A then having a derived class B then having another"
+  },
+  {
+    "start": 2228.37,
+    "duration": 5.08,
+    "text": "class we'll talk about like types of inheritance as well no worries like right now see for example"
+  },
+  {
+    "start": 2233.45,
+    "duration": 5.26,
+    "text": "the super keyword used in this class will be referring to B the super keyword used in"
+  },
+  {
+    "start": 2238.71,
+    "duration": 5.3,
+    "text": "B class will be referring to A that's it what we use the super keyword in A in that"
+  },
+  {
+    "start": 2244.01,
+    "duration": 8.68,
+    "text": "case what will happen it's not giving an error and when a box is not derived from"
+  },
+  {
+    "start": 2252.69,
+    "duration": 8.68,
+    "text": "anything what are you calling it then let's see object class so the object class"
+  },
+  {
+    "start": 2261.37,
+    "duration": 4.6,
+    "text": "is like the main class and from which every other class is inherent so you can"
+  },
+  {
+    "start": 2265.97,
+    "duration": 5.8,
+    "text": "see every single class that you create has object as its superclass all the"
+  },
+  {
+    "start": 2271.77,
+    "duration": 3.76,
+    "text": "objects like arrays and all these other things that you create even your own"
+  },
+  {
+    "start": 2275.53,
+    "duration": 4.84,
+    "text": "classes that you create are directly like internal implementation of Java"
+  },
+  {
+    "start": 2280.37,
+    "duration": 9.04,
+    "text": "java says that they are referring to the object class is presented by java okay this is known"
+  },
+  {
+    "start": 2289.41,
+    "duration": 6.08,
+    "text": "as the object class we talk more about object class in a separate video but for now I believe"
+  },
+  {
+    "start": 2295.49,
+    "duration": 5.76,
+    "text": "it's a pretty cool stuff right so it's a simple object class and every single class inherits"
+  },
+  {
+    "start": 2301.25,
+    "duration": 7.8,
+    "text": "and inherits the object class so super basically means directly above it so you know vice"
+  },
+  {
+    "start": 2309.05,
+    "duration": 5.76,
+    "text": "box weight not inheriting object class it is but super will actually point to the directly"
+  },
+  {
+    "start": 2314.81,
+    "duration": 7.4,
+    "text": "above it one what is directly above box weight box okay so that is the first use case which"
+  },
+  {
+    "start": 2322.21,
+    "duration": 8.28,
+    "text": "is to call the constructor to call the constructor one more thing I'll teach you like why it"
+  },
+  {
+    "start": 2330.49,
+    "duration": 3.8,
+    "text": "was calling the constructor on its own there is also something I'll mention but you already"
+  },
+  {
+    "start": 2334.29,
+    "duration": 11.82,
+    "text": "know it. Object class. Is it recording? Yeah. Cool. So here, what is happening? You can"
+  },
+  {
+    "start": 2346.11,
+    "duration": 4.98,
+    "text": "call the superclass means you can call the superclass constructor that is one of the"
+  },
+  {
+    "start": 2351.09,
+    "duration": 5.2,
+    "text": "use case of the super keyword. The second use case is that you can actually use the"
+  },
+  {
+    "start": 2356.29,
+    "duration": 4.52,
+    "text": "super keyword as the this keyword. But the only difference is that it will be used"
+  },
+  {
+    "start": 2360.81,
+    "duration": 8.12,
+    "text": "to access the superclass keywords. Okay, so you can say something like super dot H, you"
+  },
+  {
+    "start": 2368.93,
+    "duration": 4.88,
+    "text": "can access it like that. Okay, so here you can see it's not given in like an error if"
+  },
+  {
+    "start": 2373.81,
+    "duration": 6.02,
+    "text": "you're not like printed. So for example, what I'm trying to say is the second use case,"
+  },
+  {
+    "start": 2379.83,
+    "duration": 6.26,
+    "text": "something like this, I can say this dot width. So say, Hey, does width exist over here?"
+  },
+  {
+    "start": 2386.09,
+    "duration": 2.88,
+    "text": "It's going to be like, no, it does not. It exists over here. So okay, print it."
+  },
+  {
+    "start": 2388.97,
+    "duration": 3.96,
+    "text": "you can also access it directly using the super keyword, then it will directly access"
+  },
+  {
+    "start": 2392.93,
+    "duration": 3.68,
+    "text": "it from here. Now the question might be Kunal, why are you using the super keyword over here"
+  },
+  {
+    "start": 2396.61,
+    "duration": 5.4,
+    "text": "if you can just use this keyword also? It's doing the same thing. Well, the reason for"
+  },
+  {
+    "start": 2402.01,
+    "duration": 8.74,
+    "text": "this is what? The reason for this is if the super class also has a variable known as"
+  },
+  {
+    "start": 2410.75,
+    "duration": 9.04,
+    "text": "let's say weight, like this. In that case, if you say this dot weight, and you specifically"
+  },
+  {
+    "start": 2419.79,
+    "duration": 9.08,
+    "text": "want to access this weight then you will just say super dot weight okay so why would you"
+  },
+  {
+    "start": 2428.87,
+    "duration": 5.08,
+    "text": "want to use the super if you want to explicitly refer to something that is present over here"
+  },
+  {
+    "start": 2433.95,
+    "duration": 5.6,
+    "text": "because now it has same same type of name right this has a weight this also has a weight"
+  },
+  {
+    "start": 2439.55,
+    "duration": 3.44,
+    "text": "so this will also have a weight over here let's say so it will be like this dot weight"
+  },
+  {
+    "start": 2442.99,
+    "duration": 3.24,
+    "text": "this dot will be like it does weight exist overhead like yes it does it will return"
+  },
+  {
+    "start": 2446.23,
+    "duration": 6.76,
+    "text": "this way, what if you wanted to wait in this, in that case, you can just super dot wait."
+  },
+  {
+    "start": 2452.99,
+    "duration": 8.61,
+    "text": "Okay, that was like the second stuff that was like just the second use case. So the member"
+  },
+  {
+    "start": 2461.6,
+    "duration": 5.12,
+    "text": "can either be like this, we have like instance variables, but it can either be like a method"
+  },
+  {
+    "start": 2466.72,
+    "duration": 5.52,
+    "text": "or something. And that is also why we use it, right. And the super, you know, always"
+  },
+  {
+    "start": 2472.24,
+    "duration": 4.92,
+    "text": "refers to like the constructor in the closest superclass. So yeah, that's pretty much"
+  },
+  {
+    "start": 2477.16,
+    "duration": 5.32,
+    "text": "about it. So in this box weight one, it was calling the box one. And the super obviously"
+  },
+  {
+    "start": 2482.48,
+    "duration": 8.0,
+    "text": "requires the, you know, the arguments. So, you know, in the hierarchy of our classes,"
+  },
+  {
+    "start": 2490.48,
+    "duration": 5.88,
+    "text": "if the superclass constructor requires some parameters, then all the subclass must pass"
+  },
+  {
+    "start": 2496.36,
+    "duration": 4.24,
+    "text": "those parameters like this over here, up the line, they're going to pass it up the"
+  },
+  {
+    "start": 2500.6,
+    "duration": 6.88,
+    "text": "line. Okay, so it's true basically whether you know whether or not a subclass needs the"
+  },
+  {
+    "start": 2507.48,
+    "duration": 5.6,
+    "text": "parameters on its own. So it does not let's say need l, h or w because we are just using"
+  },
+  {
+    "start": 2513.08,
+    "duration": 3.8,
+    "text": "this dot weight is equal to weight is just setting it but it needs it for the super"
+  },
+  {
+    "start": 2516.88,
+    "duration": 5.64,
+    "text": "one. Okay, so few thing about it like it makes sense that constructors complete their"
+  },
+  {
+    "start": 2522.52,
+    "duration": 4.88,
+    "text": "execution in like the order of derivation we can see the execution for this as well."
+  },
+  {
+    "start": 2527.4,
+    "duration": 12.86,
+    "text": "So let me just put something over here, let's say print parent or I can say box class constructor."
+  },
+  {
+    "start": 2540.26,
+    "duration": 14.18,
+    "text": "So we'll also see the order in which this runs, okay, and here I can just say something"
+  },
+  {
+    "start": 2554.44,
+    "duration": 18.04,
+    "text": "like this one second, yeah, because one thing I mentioned was that the above classes"
+  },
+  {
+    "start": 2572.48,
+    "duration": 2.68,
+    "text": "will now have no knowledge of the below classes, right."
+  },
+  {
+    "start": 2575.16,
+    "duration": 5.72,
+    "text": "So that is what we mean that the super class will have no knowledge of the subclass and"
+  },
+  {
+    "start": 2580.88,
+    "duration": 2.72,
+    "text": "any initialization it needs to perform."
+  },
+  {
+    "start": 2583.6,
+    "duration": 5.68,
+    "text": "It's going to be obviously then separate from the, you know, any possible, any like prerequisites"
+  },
+  {
+    "start": 2589.28,
+    "duration": 7.16,
+    "text": "to, to like any initialization, you know, perform by the classes below it, for example."
+  },
+  {
+    "start": 2596.44,
+    "duration": 3.2,
+    "text": "Therefore it makes complete sense to execute this thing first."
+  },
+  {
+    "start": 2599.64,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 2600.64,
+    "duration": 2.44,
+    "text": "So you put it somewhat like this."
+  },
+  {
+    "start": 2603.08,
+    "duration": 1.0,
+    "text": "It's giving an error."
+  },
+  {
+    "start": 2604.08,
+    "duration": 8.4,
+    "text": "is what I meant okay because the superclass does not need does not care about base class"
+  },
+  {
+    "start": 2612.48,
+    "duration": 6.0,
+    "text": "superclass does not know what the base class contains this class has no idea what this contains"
+  },
+  {
+    "start": 2618.48,
+    "duration": 5.0,
+    "text": "base class contains base class now the superclass has no idea what the child class contains okay"
+  },
+  {
+    "start": 2623.48,
+    "duration": 4.16,
+    "text": "box has no idea about what weight contains so box is going to be like okay I don't really"
+  },
+  {
+    "start": 2627.64,
+    "duration": 5.92,
+    "text": "care what box weight class contains so I am going to initialize myself first but"
+  },
+  {
+    "start": 2633.56,
+    "duration": 6.8,
+    "text": "box based does care about what box contains child class cares about what parents parent"
+  },
+  {
+    "start": 2640.36,
+    "duration": 4.04,
+    "text": "class contains that's why child class is going to be like a parent class I really do care"
+  },
+  {
+    "start": 2644.4,
+    "duration": 9.51,
+    "text": "about you please initialize yourself first that is why like this that is why it was"
+  },
+  {
+    "start": 2653.91,
+    "duration": 8.4,
+    "text": "giving an error when I was doing it before so that was also covered and yeah and note"
+  },
+  {
+    "start": 2662.31,
+    "duration": 7.4,
+    "text": "one thing if the super is not like used in a subclasses constructor then the default or"
+  },
+  {
+    "start": 2669.71,
+    "duration": 3.68,
+    "text": "like the parameter constructor of the superclass will be called."
+  },
+  {
+    "start": 2673.39,
+    "duration": 5.2,
+    "text": "So, for example, if I do it like this, the default one will be called, this default"
+  },
+  {
+    "start": 2678.59,
+    "duration": 3.68,
+    "text": "one will be called, make sense?"
+  },
+  {
+    "start": 2682.27,
+    "duration": 1.0,
+    "text": "That's it."
+  },
+  {
+    "start": 2683.27,
+    "duration": 4.08,
+    "text": "This is also something we covered previously because when we were doing this, it was"
+  },
+  {
+    "start": 2687.35,
+    "duration": 11.05,
+    "text": "printing minus one or something. So it was covered. Okay, so that was like a use of super."
+  },
+  {
+    "start": 2698.4,
+    "duration": 6.0,
+    "text": "Okay, cool. Let's move forward. Okay, let me show you one more thing. Let's say I create"
+  },
+  {
+    "start": 2704.4,
+    "duration": 6.88,
+    "text": "in the box weight, I create another constructor. Okay, I create another constructor that just"
+  },
+  {
+    "start": 2711.92,
+    "duration": 3.6,
+    "text": "simple constructor, it does not take anything. I can just say"
+  },
+  {
+    "start": 2715.52,
+    "duration": 6.44,
+    "text": "say box weight, not take anything, it's actually like a copy constructed takes another box"
+  },
+  {
+    "start": 2721.96,
+    "duration": 7.6,
+    "text": "weight for example, another box weight other object. Okay, something like this. So you"
+  },
+  {
+    "start": 2729.56,
+    "duration": 6.48,
+    "text": "can say weight is equal to other dot weight. And you can then just say something like"
+  },
+  {
+    "start": 2736.04,
+    "duration": 8.99,
+    "text": "this super of other. It's not giving any error. What is happening over here? Note that"
+  },
+  {
+    "start": 2745.03,
+    "duration": 4.96,
+    "text": "in this super the other type that you're passing it's actually a type it's actually"
+  },
+  {
+    "start": 2749.99,
+    "duration": 7.8,
+    "text": "a box weight type but here it's actually taking a box type isn't this the same thing"
+  },
+  {
+    "start": 2757.79,
+    "duration": 12.46,
+    "text": "as this whenever you see anything like this check out these common sense questions so"
+  },
+  {
+    "start": 2770.25,
+    "duration": 5.2,
+    "text": "here it's saying that okay the copy constructor actually is taking a box type you are passing"
+  },
+  {
+    "start": 2775.45,
+    "duration": 5.68,
+    "text": "an object of box weight type, does box weight type have access to all the box type? Yes,"
+  },
+  {
+    "start": 2781.13,
+    "duration": 5.04,
+    "text": "it does for obvious reasons, because the parameter over here is box. So it will only have so this"
+  },
+  {
+    "start": 2786.17,
+    "duration": 7.28,
+    "text": "internally says box old is equal to other something like that of type box weight. So"
+  },
+  {
+    "start": 2793.45,
+    "duration": 4.0,
+    "text": "it's going to be like the reference type is box. So even though this is a box weight"
+  },
+  {
+    "start": 2797.45,
+    "duration": 4.6,
+    "text": "type, it's going to only have access to box type. So something like this exactly"
+  },
+  {
+    "start": 2802.05,
+    "duration": 5.38,
+    "text": "like this, not something like this, exactly like this. So here it will not have access"
+  },
+  {
+    "start": 2807.43,
+    "duration": 5.38,
+    "text": "to old dot wait, obviously because if it's a box, it's a box type. But if you're passing"
+  },
+  {
+    "start": 2812.81,
+    "duration": 4.26,
+    "text": "a box weight object over here, it will only have obviously access to the three types"
+  },
+  {
+    "start": 2817.07,
+    "duration": 5.48,
+    "text": "that are available in box only, because what is accessed is based on the type of the"
+  },
+  {
+    "start": 2822.55,
+    "duration": 4.04,
+    "text": "reference variable, not the type of the object, same part as this thing, exactly"
+  },
+  {
+    "start": 2826.59,
+    "duration": 1.0,
+    "text": "same."
+  },
+  {
+    "start": 2827.59,
+    "duration": 4.2,
+    "text": "Ditto copy paste this thing concept in this thing."
+  },
+  {
+    "start": 2831.79,
+    "duration": 1.4,
+    "text": "Exactly the same thing."
+  },
+  {
+    "start": 2833.19,
+    "duration": 4.47,
+    "text": "Exactly the same thing."
+  },
+  {
+    "start": 2837.66,
+    "duration": 5.32,
+    "text": "So in the super, when you pass the object of box width, box width, you know, of type"
+  },
+  {
+    "start": 2842.98,
+    "duration": 6.0,
+    "text": "that is not box, it still invokes the constructor this one because you are able to put it over"
+  },
+  {
+    "start": 2848.98,
+    "duration": 1.0,
+    "text": "here."
+  },
+  {
+    "start": 2849.98,
+    "duration": 1.0,
+    "text": "It's allowed."
+  },
+  {
+    "start": 2850.98,
+    "duration": 5.32,
+    "text": "So super class variable can be used to reference any object from that derived class."
+  },
+  {
+    "start": 2856.3,
+    "duration": 6.04,
+    "text": "we are able to pass box with object to the box constructor. Obviously, the box will only"
+  },
+  {
+    "start": 2862.34,
+    "duration": 8.8,
+    "text": "have knowledge of its own variables because it's of type box over here. Okay, cool. Let's"
+  },
+  {
+    "start": 2871.14,
+    "duration": 6.16,
+    "text": "move forward. Okay, now let's talk about like, let's say the type of types of inheritance."
+  },
+  {
+    "start": 2877.3,
+    "duration": 12.25,
+    "text": "So let's talk about the types of inheritance important concept also for your exams and"
+  },
+  {
+    "start": 2889.55,
+    "duration": 3.46,
+    "text": "stuff in BTEC or your bachelor's degree or whatever."
+  },
+  {
+    "start": 2893.01,
+    "duration": 12.8,
+    "text": "So some the first one the one we already just covered single inheritance single inheritance"
+  },
+  {
+    "start": 2905.81,
+    "duration": 4.9,
+    "text": "what happens in this one class extends another class."
+  },
+  {
+    "start": 2910.71,
+    "duration": 15.61,
+    "text": "class extends another class no problem we did it something like this something like box"
+  },
+  {
+    "start": 2926.32,
+    "duration": 9.48,
+    "text": "box wait no problem no problem at all right that's the first one we have already already"
+  },
+  {
+    "start": 2935.8,
+    "duration": 15.59,
+    "text": "covered it second one can be let's say multi-level inheritance so what happens in multi-level"
+  },
+  {
+    "start": 2951.39,
+    "duration": 5.48,
+    "text": "inheritance, one class can inherit from like a derived class and the derived class will"
+  },
+  {
+    "start": 2956.87,
+    "duration": 3.52,
+    "text": "then become a parent class for another new class."
+  },
+  {
+    "start": 2960.39,
+    "duration": 3.88,
+    "text": "So something like this, let's say I have a box class."
+  },
+  {
+    "start": 2964.27,
+    "duration": 6.8,
+    "text": "So box class is actually parent for box weight class, no problem."
+  },
+  {
+    "start": 2971.07,
+    "duration": 4.64,
+    "text": "Now this box weight class can itself be a parent for another class."
+  },
+  {
+    "start": 2975.71,
+    "duration": 10.15,
+    "text": "This will be a parent for let's say box price, price, okay."
+  },
+  {
+    "start": 2985.86,
+    "duration": 8.08,
+    "text": "like this. Okay, so here you can see that box price is a subclass of box weight and box"
+  },
+  {
+    "start": 2993.94,
+    "duration": 5.16,
+    "text": "weight is a subclass of box. Now you may be having a lot of questions. Kunal, can the"
+  },
+  {
+    "start": 2999.1,
+    "duration": 5.08,
+    "text": "elements in box price access box? How will you call the constructor of box weight and"
+  },
+  {
+    "start": 3004.18,
+    "duration": 3.24,
+    "text": "then constructor of box? If you're making an object of this type, can you make an"
+  },
+  {
+    "start": 3007.42,
+    "duration": 4.04,
+    "text": "object of this type? Okay, so so many questions you may having. Kunal, if you're making"
+  },
+  {
+    "start": 3011.46,
+    "duration": 3.44,
+    "text": "a type of this thing, then will you call the superclass of this or super or this"
+  },
+  {
+    "start": 3014.9,
+    "duration": 5.22,
+    "text": "or whatever. How will it access? How will it actually run? So one thing I really want"
+  },
+  {
+    "start": 3020.12,
+    "duration": 6.72,
+    "text": "to tell you bluntly right now bluntly, I will cover all these things right now. But you will"
+  },
+  {
+    "start": 3026.84,
+    "duration": 5.68,
+    "text": "not understand object oriented programming till you use the hit and trial method. What"
+  },
+  {
+    "start": 3032.52,
+    "duration": 7.0,
+    "text": "does it mean? Trying out various things at random. Go like do random stuff, put something"
+  },
+  {
+    "start": 3039.52,
+    "duration": 5.28,
+    "text": "over there, put something over there, make base classes, add constructor, add this, add"
+  },
+  {
+    "start": 3044.8,
+    "duration": 4.12,
+    "text": "other functions and things like that, call one constructor from another constructor, put"
+  },
+  {
+    "start": 3048.92,
+    "duration": 4.48,
+    "text": "a debug pointer, put print statement, do random things, and then see how things are working"
+  },
+  {
+    "start": 3053.4,
+    "duration": 4.84,
+    "text": "internally, because OOP is common sense, there's no algorithm or anything in Obligatory"
+  },
+  {
+    "start": 3058.24,
+    "duration": 3.72,
+    "text": "and Pramming, it's just a set of rules, hence it should be easier to understand,"
+  },
+  {
+    "start": 3061.96,
+    "duration": 5.04,
+    "text": "but you would not know what to understand until you do it yourself."
+  },
+  {
+    "start": 3067.0,
+    "duration": 4.0,
+    "text": "ask me questions like this. Don't be this person. If you are this person, no one can"
+  },
+  {
+    "start": 3071.0,
+    "duration": 7.4,
+    "text": "help you in this world. So, some people will be like Kunal, what will happen if I try to"
+  },
+  {
+    "start": 3078.4,
+    "duration": 6.6,
+    "text": "put this instead of this and print it? Kunal, what will happen? Do it yourself, code it,"
+  },
+  {
+    "start": 3085.0,
+    "duration": 6.44,
+    "text": "print, see what will happen? How weird is this? Kunal, what will happen if I put"
+  },
+  {
+    "start": 3091.44,
+    "duration": 7.6,
+    "text": "protected in the obviously I will cover protector and stuff so what will happen if I say put"
+  },
+  {
+    "start": 3099.04,
+    "duration": 5.72,
+    "text": "this method as private what do you mean what will happen you you don't have a computer"
+  },
+  {
+    "start": 3104.76,
+    "duration": 7.4,
+    "text": "try it out run it please object when programming in recursion I taught you right how to understand"
+  },
+  {
+    "start": 3112.16,
+    "duration": 7.2,
+    "text": "recursion this is the how to understand object programming experiment why always ask the"
+  },
+  {
+    "start": 3119.36,
+    "duration": 5.14,
+    "text": "the question why why is this happening whenever you do something and everything is common sense"
+  },
+  {
+    "start": 3124.5,
+    "duration": 4.76,
+    "text": "all the basics and everything I'm covering even stuff apart from basics doubts that you"
+  },
+  {
+    "start": 3129.26,
+    "duration": 4.6,
+    "text": "will get debugging and everything everything I'm doing still if you find something that"
+  },
+  {
+    "start": 3133.86,
+    "duration": 4.2,
+    "text": "you're not able to like something that is new which I'm pretty sure like you you might"
+  },
+  {
+    "start": 3138.06,
+    "duration": 3.96,
+    "text": "because there's a lot of things but I am pretty sure it will not be something different"
+  },
+  {
+    "start": 3142.02,
+    "duration": 5.4,
+    "text": "and we are already covering in this video okay let's try to see answer all these questions"
+  },
+  {
+    "start": 3147.42,
+    "duration": 5.56,
+    "text": "like box box wait what will it access how will it access how will it move and all these"
+  },
+  {
+    "start": 3152.98,
+    "duration": 3.68,
+    "text": "other thing how the objects will be created so common sense that we've already discussed"
+  },
+  {
+    "start": 3156.66,
+    "duration": 6.2,
+    "text": "is above class has no idea of bottom class but every bottom class has idea of all the"
+  },
+  {
+    "start": 3162.86,
+    "duration": 8.68,
+    "text": "above classes basically all the above classes in this trail okay if a if this this this"
+  },
+  {
+    "start": 3171.54,
+    "duration": 7.68,
+    "text": "This box, this box price class is connected via all the other classes using this arrow,"
+  },
+  {
+    "start": 3179.22,
+    "duration": 1.0,
+    "text": "right?"
+  },
+  {
+    "start": 3180.22,
+    "duration": 4.04,
+    "text": "So it will obviously have all the information about the above ones that it's connected"
+  },
+  {
+    "start": 3184.26,
+    "duration": 1.0,
+    "text": "with the arrow."
+  },
+  {
+    "start": 3185.26,
+    "duration": 2.96,
+    "text": "So this is connected with this, hence this is connected with this."
+  },
+  {
+    "start": 3188.22,
+    "duration": 3.48,
+    "text": "Hence box prices definitely have access to the elements in box."
+  },
+  {
+    "start": 3191.7,
+    "duration": 4.52,
+    "text": "If you put out something like this, this is something we'll do later on or something"
+  },
+  {
+    "start": 3196.22,
+    "duration": 6.98,
+    "text": "like this, let's say something like this, class A."
+  },
+  {
+    "start": 3203.2,
+    "duration": 4.76,
+    "text": "but this box price and this is not connected. Connection only happens above, not like above"
+  },
+  {
+    "start": 3207.96,
+    "duration": 6.52,
+    "text": "then below, above only. So it will only have all the access to the classes above it, not"
+  },
+  {
+    "start": 3214.48,
+    "duration": 7.36,
+    "text": "like above and below, no, just go above only. But let's move forward and check out like"
+  },
+  {
+    "start": 3221.84,
+    "duration": 5.2,
+    "text": "this is actually very simple, pretty sure I should not do it, but still I'll show"
+  },
+  {
+    "start": 3227.04,
+    "duration": 1.0,
+    "text": "you."
+  },
+  {
+    "start": 3228.04,
+    "duration": 14.77,
+    "text": "Okay, so let me create over here box price. No problem. It extends what box weight? Okay,"
+  },
+  {
+    "start": 3242.81,
+    "duration": 6.2,
+    "text": "no problem. Let's say it will have a price or a cost or something. So I can say cost."
+  },
+  {
+    "start": 3249.01,
+    "duration": 9.6,
+    "text": "Okay, something like that. Initially, I'll just say a simple constructor. That's it. It's"
+  },
+  {
+    "start": 3258.61,
+    "duration": 4.32,
+    "text": "just going to say call the super keyword. Okay, we'll see how this thing works internally"
+  },
+  {
+    "start": 3262.93,
+    "duration": 8.19,
+    "text": "and everything and itself it will set the cost equal to minus 1, similarly you can have"
+  },
+  {
+    "start": 3271.12,
+    "duration": 14.61,
+    "text": "another box price that takes another object of type box price or other, something like"
+  },
+  {
+    "start": 3285.73,
+    "duration": 12.96,
+    "text": "that, so there you will say super of other and this dot cost is equal to other dot cost"
+  },
+  {
+    "start": 3298.69,
+    "duration": 11.06,
+    "text": "that's it. Similarly, you can have another constructor of that is actually taking all"
+  },
+  {
+    "start": 3309.75,
+    "duration": 11.76,
+    "text": "the arguments. So something like this, actually, one second, like this. Okay, so it's saying"
+  },
+  {
+    "start": 3321.51,
+    "duration": 19.35,
+    "text": "super of all these three, and the weight plus cost. Okay, sound good. Okay. So that's"
+  },
+  {
+    "start": 3340.86,
+    "duration": 9.48,
+    "text": "That's it. Yeah, let me create. Yeah, that's it. Yeah, that's it. Yeah. Cool. Let me do"
+  },
+  {
+    "start": 3350.34,
+    "duration": 12.1,
+    "text": "something in the mean. Let me just hide this, start a fresh. Okay, no problem. So I can"
+  },
+  {
+    "start": 3362.44,
+    "duration": 10.23,
+    "text": "say box price box is equal to new box price. Okay, initially I'm not passing anything"
+  },
+  {
+    "start": 3372.67,
+    "duration": 15.42,
+    "text": "into it okay and let's see how it works internally debug so you're calling the box"
+  },
+  {
+    "start": 3388.09,
+    "duration": 4.76,
+    "text": "price method so it will be like okay box price is being called I told you what"
+  },
+  {
+    "start": 3392.85,
+    "duration": 4.24,
+    "text": "don't ask me question like which super key super constructor it will call I"
+  },
+  {
+    "start": 3397.09,
+    "duration": 5.04,
+    "text": "just gave a really big explanation about super super calls which one you"
+  },
+  {
+    "start": 3402.13,
+    "duration": 4.04,
+    "text": "tell me super calls which one constructor just above it which one is"
+  },
+  {
+    "start": 3406.17,
+    "duration": 4.92,
+    "text": "just above box price box weight it will call box weight there you go don't need"
+  },
+  {
+    "start": 3411.09,
+    "duration": 6.82,
+    "text": "the debug part we can I can do this okay so it's calling the box weight box weight"
+  },
+  {
+    "start": 3417.91,
+    "duration": 4.96,
+    "text": "will call which one the box one for example if I put something like this let's"
+  },
+  {
+    "start": 3422.87,
+    "duration": 5.88,
+    "text": "say in box price I'm actually putting something like length width or I can"
+  },
+  {
+    "start": 3428.75,
+    "duration": 13.11,
+    "text": "create a side as well I can say double side now I can just pass a side over"
+  },
+  {
+    "start": 3441.86,
+    "duration": 20.51,
+    "text": "here like this. One second, we need a side over here as well. Obviously, because this"
+  },
+  {
+    "start": 3462.37,
+    "duration": 4.4,
+    "text": "is going to call the super keyword means the constructor of box, wait, box, wait, there should"
+  },
+  {
+    "start": 3466.77,
+    "duration": 7.54,
+    "text": "be a construct that it takes two things. There is not. Let's make it constructor that"
+  },
+  {
+    "start": 3474.31,
+    "duration": 11.98,
+    "text": "takes two things. Okay, no problem. It takes a double side and double wait. Now"
+  },
+  {
+    "start": 3486.29,
+    "duration": 4.76,
+    "text": "this box, wait, we'll call the constructor super with side that takes one argument."
+  },
+  {
+    "start": 3491.05,
+    "duration": 8.73,
+    "text": "is already one available for that no problem and this dot weight is equal to weight no problem"
+  },
+  {
+    "start": 3499.78,
+    "duration": 9.53,
+    "text": "at all. Okay, no problem at all. So this is calling let's say if I just say box box price"
+  },
+  {
+    "start": 3509.31,
+    "duration": 8.2,
+    "text": "and I just let's say call this one which is side weight and cost side is let's say"
+  },
+  {
+    "start": 3517.51,
+    "duration": 8.16,
+    "text": "five weight is eight cost is 200 internally it's calling which one is going to be like"
+  },
+  {
+    "start": 3525.67,
+    "duration": 5.28,
+    "text": "okay box price means box price ones okay this will be called double side comma bit these"
+  },
+  {
+    "start": 3530.95,
+    "duration": 6.16,
+    "text": "two are the ones that are actually above in the above function call like okay pass it"
+  },
+  {
+    "start": 3537.11,
+    "duration": 4.96,
+    "text": "in the above function call and I literally just made this right in front of you so obviously"
+  },
+  {
+    "start": 3542.79,
+    "duration": 4.16,
+    "text": "if it's calling the super one it means that it will call one in box weight hence box"
+  },
+  {
+    "start": 3546.95,
+    "duration": 6.08,
+    "text": "weight should have a constructor that takes two arguments. And it itself will set the"
+  },
+  {
+    "start": 3553.03,
+    "duration": 5.48,
+    "text": "cost to itself. Now it will go above box weight. So like this box was contained a constructor"
+  },
+  {
+    "start": 3558.51,
+    "duration": 4.8,
+    "text": "that which takes two argument. Yes, it does. Now this is one specific to box weight. This"
+  },
+  {
+    "start": 3563.31,
+    "duration": 4.8,
+    "text": "is for its superclass. The side one is going to have a super side means there should"
+  },
+  {
+    "start": 3568.11,
+    "duration": 4.04,
+    "text": "be a constructor in the superclass means the box class that takes one argument and"
+  },
+  {
+    "start": 3572.15,
+    "duration": 7.46,
+    "text": "it will set its weight over here there is and then it will do the following simple. So"
+  },
+  {
+    "start": 3579.61,
+    "duration": 3.52,
+    "text": "this will call its constructor it will instead it will then call this constructor it will"
+  },
+  {
+    "start": 3583.13,
+    "duration": 4.08,
+    "text": "then call this constructor only doubt you may having is how many arguments in every"
+  },
+  {
+    "start": 3587.21,
+    "duration": 5.56,
+    "text": "constructor that is obviously up to you okay usually is convention like to how many"
+  },
+  {
+    "start": 3592.77,
+    "duration": 6.48,
+    "text": "how many how many super class keywords you have over here like super class variables"
+  },
+  {
+    "start": 3599.25,
+    "duration": 3.6,
+    "text": "you have over here, just put it over here like this, then the base class ones, you put"
+  },
+  {
+    "start": 3602.85,
+    "duration": 4.36,
+    "text": "it over here like this. But we already covered how super and stuff works. But I believe with"
+  },
+  {
+    "start": 3607.21,
+    "duration": 3.72,
+    "text": "multi level inheritance, you are able to understand how these things are working internally,"
+  },
+  {
+    "start": 3610.93,
+    "duration": 4.76,
+    "text": "like it's going up and up and up and up and up. Right? Okay, now let's look into"
+  },
+  {
+    "start": 3615.69,
+    "duration": 5.12,
+    "text": "the third one. I'll obviously teach you more about functions in inheritance as well."
+  },
+  {
+    "start": 3620.81,
+    "duration": 3.56,
+    "text": "And in multiple classes, how functions are resolved and everything, that is the"
+  },
+  {
+    "start": 3624.37,
+    "duration": 3.44,
+    "text": "next topic in this video only. So make sure you like and subscribe. Okay, the"
+  },
+  {
+    "start": 3627.81,
+    "duration": 5.5,
+    "text": "The third one, the third one is, third one is what?"
+  },
+  {
+    "start": 3633.31,
+    "duration": 10.91,
+    "text": "Multiple inheritance, multiple inheritance, okay?"
+  },
+  {
+    "start": 3644.22,
+    "duration": 7.45,
+    "text": "So multiple inheritance means when one class is extending more than one classes, okay?"
+  },
+  {
+    "start": 3651.67,
+    "duration": 7.28,
+    "text": "So when one class is extending more than one classes, for example, this is something"
+  },
+  {
+    "start": 3658.95,
+    "duration": 1.0,
+    "text": "like this."
+  },
+  {
+    "start": 3659.95,
+    "duration": 18.92,
+    "text": "Like you have, so for example, one class extending more than one classes, for example, class A,"
+  },
+  {
+    "start": 3678.87,
+    "duration": 5.96,
+    "text": "class B, class C, these are both parent classes."
+  },
+  {
+    "start": 3684.83,
+    "duration": 6.24,
+    "text": "So C has access to properties of A also and B also."
+  },
+  {
+    "start": 3691.07,
+    "duration": 7.56,
+    "text": "like that. But imagine that it has a variable called n is equal to five, and it has a variable"
+  },
+  {
+    "start": 3698.63,
+    "duration": 7.24,
+    "text": "of n is equal to 10. For example, okay, now you do something like the question for you."
+  },
+  {
+    "start": 3705.87,
+    "duration": 7.96,
+    "text": "Now you do something like C, object is equal to new C. And then you try to say access"
+  },
+  {
+    "start": 3713.83,
+    "duration": 6.08,
+    "text": "C dot n, what will be the output? As long as n does not exist over here, okay, then"
+  },
+  {
+    "start": 3719.91,
+    "duration": 1.88,
+    "text": "And usually it looks for the parent one."
+  },
+  {
+    "start": 3721.79,
+    "duration": 2.4,
+    "text": "Is it going to print 5 or is it going to print 10?"
+  },
+  {
+    "start": 3724.19,
+    "duration": 3.6,
+    "text": "That is the question."
+  },
+  {
+    "start": 3727.79,
+    "duration": 2.6,
+    "text": "That is the question."
+  },
+  {
+    "start": 3730.39,
+    "duration": 3.07,
+    "text": "What is it going to print?"
+  },
+  {
+    "start": 3733.46,
+    "duration": 2.8,
+    "text": "So now here you have a problem."
+  },
+  {
+    "start": 3736.26,
+    "duration": 2.88,
+    "text": "Nambu Guilty, whatever."
+  },
+  {
+    "start": 3739.14,
+    "duration": 2.96,
+    "text": "It's not able to decide which one to pick."
+  },
+  {
+    "start": 3742.1,
+    "duration": 7.84,
+    "text": "This is why that is, this is why Java does not support this."
+  },
+  {
+    "start": 3749.94,
+    "duration": 2.48,
+    "text": "Multiple inheritance is not supported in Java."
+  },
+  {
+    "start": 3752.42,
+    "duration": 6.82,
+    "text": "Why? Because of this reason. If two or more parent classes have the same variable or something"
+  },
+  {
+    "start": 3759.24,
+    "duration": 11.15,
+    "text": "property, then child class will get confused, which one to pick. Hence, not in Java. Okay?"
+  },
+  {
+    "start": 3770.39,
+    "duration": 12.61,
+    "text": "Not allowed in Java. Then you will be like fine, multiple inheritance is not allowed"
+  },
+  {
+    "start": 3783.0,
+    "duration": 6.84,
+    "text": "in Java no problem. Then how will you implement this thing? Like there might be some use cases"
+  },
+  {
+    "start": 3789.84,
+    "duration": 8.4,
+    "text": "where you might want to access the properties of one or more classes as parent classes might"
+  },
+  {
+    "start": 3798.24,
+    "duration": 4.28,
+    "text": "be a possibility for that. And you're correctly, you're correct. There might be a possibility"
+  },
+  {
+    "start": 3802.52,
+    "duration": 5.72,
+    "text": "where you need to create a child class that has one or more than one parent. And how"
+  },
+  {
+    "start": 3808.24,
+    "duration": 4.14,
+    "text": "How will you do it if multiple inheritance is not supported in Java?"
+  },
+  {
+    "start": 3812.38,
+    "duration": 3.36,
+    "text": "By using something called interfaces."
+  },
+  {
+    "start": 3815.74,
+    "duration": 4.8,
+    "text": "Interfaces defines what a class does not how it like not how it's actually like not"
+  },
+  {
+    "start": 3820.54,
+    "duration": 3.12,
+    "text": "the values of it but just like the template for it."
+  },
+  {
+    "start": 3823.66,
+    "duration": 5.0,
+    "text": "Values will differ on like we'll cover it in a separate nice video called abstract"
+  },
+  {
+    "start": 3828.66,
+    "duration": 5.68,
+    "text": "classes and interfaces okay that will come later okay make sure like change subscribe"
+  },
+  {
+    "start": 3834.34,
+    "duration": 10.0,
+    "text": "and follow the object to remind playlist. For now, we will we can we will do this in interfaces"
+  },
+  {
+    "start": 3844.34,
+    "duration": 12.0,
+    "text": "later on. Okay, so that's multiple inheritance in Java. Okay, so multiple inheritance is not"
+  },
+  {
+    "start": 3856.34,
+    "duration": 6.88,
+    "text": "really allowed. Similarly, there's one more called hierarchical inheritance. This is"
+  },
+  {
+    "start": 3863.22,
+    "duration": 12.3,
+    "text": "pretty simple, something like hierarchical inheritance, this is actually pretty simple"
+  },
+  {
+    "start": 3875.52,
+    "duration": 4.0,
+    "text": "it's exactly the same, all the concepts we apply in the previous one right, same will"
+  },
+  {
+    "start": 3879.52,
+    "duration": 11.35,
+    "text": "apply over here, because nothing is different, okay, so basically one class is inherited"
+  },
+  {
+    "start": 3890.87,
+    "duration": 6.72,
+    "text": "by many classes, so it's exactly the same we did before, no problem, A class over"
+  },
+  {
+    "start": 3897.59,
+    "duration": 9.95,
+    "text": "here B C and D now you would be asking Kunal how is this similar in theory and everything"
+  },
+  {
+    "start": 3907.54,
+    "duration": 4.6,
+    "text": "as previous ones well all the rules we applied for single level inheritance same apply over"
+  },
+  {
+    "start": 3912.14,
+    "duration": 6.68,
+    "text": "here I told you that this B will have access to all the things above it so all the things"
+  },
+  {
+    "start": 3918.82,
+    "duration": 4.28,
+    "text": "that you are getting above it a it will have access to those will it have access"
+  },
+  {
+    "start": 3923.1,
+    "duration": 9.26,
+    "text": "to the stuff in C. No, because you cannot go up then down. Okay, so it's not actually"
+  },
+  {
+    "start": 3932.36,
+    "duration": 7.57,
+    "text": "like this is actually like this. You can't really say go up then down. No, it only be"
+  },
+  {
+    "start": 3939.93,
+    "duration": 6.64,
+    "text": "accessing from above it. And from below, it will have no access. Okay, very simple. You"
+  },
+  {
+    "start": 3946.57,
+    "duration": 5.68,
+    "text": "can definitely do it. Just do just make multiple classes. Just do make multiple classes and"
+  },
+  {
+    "start": 3952.25,
+    "duration": 1.8,
+    "text": "and just do extends to it, that's it."
+  },
+  {
+    "start": 3954.05,
+    "duration": 1.44,
+    "text": "No problem in this."
+  },
+  {
+    "start": 3955.49,
+    "duration": 3.56,
+    "text": "Create another class, class A extends box,"
+  },
+  {
+    "start": 3959.05,
+    "duration": 4.32,
+    "text": "class B extends box, class C extends box, box color,"
+  },
+  {
+    "start": 3963.37,
+    "duration": 1.56,
+    "text": "whatever you can make."
+  },
+  {
+    "start": 3964.93,
+    "duration": 0.92,
+    "text": "No worries in that."
+  },
+  {
+    "start": 3966.89,
+    "duration": 1.56,
+    "text": "I can show you if you want."
+  },
+  {
+    "start": 3968.45,
+    "duration": 1.4,
+    "text": "Okay, an example of this thing."
+  },
+  {
+    "start": 3971.37,
+    "duration": 1.48,
+    "text": "It's actually very simple."
+  },
+  {
+    "start": 3974.05,
+    "duration": 2.8,
+    "text": "An example for this can be something like this."
+  },
+  {
+    "start": 3977.81,
+    "duration": 3.48,
+    "text": "Box is being inherited by box price."
+  },
+  {
+    "start": 3982.25,
+    "duration": 10.68,
+    "text": "or box price, or box price is being inherited by box weight, I can make one more, box color,"
+  },
+  {
+    "start": 3992.93,
+    "duration": 14.35,
+    "text": "extends, box price, no problem, okay, so box weight also extends, sorry box not box price,"
+  },
+  {
+    "start": 4007.28,
+    "duration": 9.3,
+    "text": "box weight, okay, so box price also extends box weight, box color also extends box weight,"
+  },
+  {
+    "start": 4016.58,
+    "duration": 5.29,
+    "text": "all the same concepts you applied and simple stuff will be available over here as well,"
+  },
+  {
+    "start": 4021.87,
+    "duration": 15.83,
+    "text": "That is it, extending box weight, this is also extending box weight, no problem in this."
+  },
+  {
+    "start": 4037.7,
+    "duration": 1.0,
+    "text": "Let us move forward."
+  },
+  {
+    "start": 4038.7,
+    "duration": 14.74,
+    "text": "There is one more which is known as lift 1, hybrid inheritance."
+  },
+  {
+    "start": 4053.44,
+    "duration": 3.1,
+    "text": "What does it mean by hybrid inheritance?"
+  },
+  {
+    "start": 4056.54,
+    "duration": 8.15,
+    "text": "So hybrid basically means that a combination, it is a combination of single and multiple"
+  },
+  {
+    "start": 4064.69,
+    "duration": 12.32,
+    "text": "inheritance single and multiple inheritance and in since in Java, we don't have multiple"
+  },
+  {
+    "start": 4077.01,
+    "duration": 4.88,
+    "text": "inheritance. Similarly, we don't have hybrid inheritance either, because it consists of"
+  },
+  {
+    "start": 4081.89,
+    "duration": 16.4,
+    "text": "multiple inheritance, right? So not in Java, check interfaces, lecture, okay, in interface"
+  },
+  {
+    "start": 4098.29,
+    "duration": 12.76,
+    "text": "will try to do all these things. So, yeah, single level stuff like this, A, B, C is just"
+  },
+  {
+    "start": 4111.05,
+    "duration": 5.6,
+    "text": "like some single, single level or like your, you know, your, your, this one, like the hierarchical"
+  },
+  {
+    "start": 4116.65,
+    "duration": 5.68,
+    "text": "one or single one, the rules for both are same. And so this is one single level, this"
+  },
+  {
+    "start": 4122.33,
+    "duration": 8.28,
+    "text": "is on the single level and multi level means these two are doing for the multiple multiple"
+  },
+  {
+    "start": 4130.61,
+    "duration": 7.72,
+    "text": "inheritance. This combination is known as hybrid hybrid inheritance. Okay, so Java does not"
+  },
+  {
+    "start": 4138.33,
+    "duration": 8.26,
+    "text": "support this. Okay, but we can use these things using interfaces, we can use these"
+  },
+  {
+    "start": 4146.59,
+    "duration": 4.18,
+    "text": "properties and stuff in interfaces like we can achieve this sort of a functionality"
+  },
+  {
+    "start": 4150.77,
+    "duration": 5.04,
+    "text": "using interfaces that we will do in the interfaces lecture later on."
+  },
+  {
+    "start": 4155.81,
+    "duration": 5.92,
+    "text": "That was the first property of object-oriented programming inheritance, pretty cool."
+  },
+  {
+    "start": 4161.73,
+    "duration": 4.6,
+    "text": "The video of inheritance not over, I will cover it after the next property as well, about"
+  },
+  {
+    "start": 4166.33,
+    "duration": 4.32,
+    "text": "some two properties like combining each other, we will cover those concepts as well."
+  },
+  {
+    "start": 4170.65,
+    "duration": 3.72,
+    "text": "Everything will be done in this video only, so make sure you like, share and subscribe."
+  },
+  {
+    "start": 4174.37,
+    "duration": 5.0,
+    "text": "But you can't do something like this, you can't inherit from inherit, like what"
+  },
+  {
+    "start": 4179.37,
+    "duration": 6.64,
+    "text": "is this, you know, you can't like, this is cyclic inheritance, right? So, basically box"
+  },
+  {
+    "start": 4186.01,
+    "duration": 4.84,
+    "text": "car is inheriting itself, that is it like that, then this is inheriting itself, inheriting"
+  },
+  {
+    "start": 4190.85,
+    "duration": 9.79,
+    "text": "itself, okay? So, something, you are doing something like this. So, you are doing something"
+  },
+  {
+    "start": 4200.64,
+    "duration": 13.84,
+    "text": "like this, like this, not allowed, okay? Can't inherit, a class cannot be its own"
+  },
+  {
+    "start": 4214.48,
+    "duration": 6.8,
+    "text": "superclass is basically what I'm saying. Okay. So don't do that. So that was about inheritance"
+  },
+  {
+    "start": 4221.28,
+    "duration": 5.04,
+    "text": "but we'll cover obviously a little bit more advanced stuff in this video only. But let's"
+  },
+  {
+    "start": 4226.32,
+    "duration": 7.14,
+    "text": "move forward to very important topic. Second property of Objective Improving Polymorphism."
+  },
+  {
+    "start": 4233.46,
+    "duration": 6.74,
+    "text": "Some important points over here. So polymorphism first of all what it is. So second property"
+  },
+  {
+    "start": 4240.2,
+    "duration": 10.4,
+    "text": "of objective programming is polymorphism ok what does it what does this word mean first"
+  },
+  {
+    "start": 4250.6,
+    "duration": 13.66,
+    "text": "of all so when we talk about polymorphism poly means many and morphism means ways to"
+  },
+  {
+    "start": 4264.26,
+    "duration": 13.82,
+    "text": "represent represent so polymorphism means way many ways to represent a single entity or"
+  },
+  {
+    "start": 4278.08,
+    "duration": 12.73,
+    "text": "item that's as simple as it can be okay alright cool okay that's polymorphism in"
+  },
+  {
+    "start": 4290.81,
+    "duration": 4.24,
+    "text": "simple terms but in terms of like Java and stuff I'll definitely tell you more"
+  },
+  {
+    "start": 4295.05,
+    "duration": 5.88,
+    "text": "about it so this is like these are Greek words by the way okay so it's very"
+  },
+  {
+    "start": 4300.93,
+    "duration": 7.12,
+    "text": "very important to understand like what it means so sometimes it maybe happened"
+  },
+  {
+    "start": 4308.05,
+    "duration": 6.8,
+    "text": "that, you know, a task is performed, you know, like, as a single action, but in different"
+  },
+  {
+    "start": 4314.85,
+    "duration": 1.0,
+    "text": "ways."
+  },
+  {
+    "start": 4315.85,
+    "duration": 5.2,
+    "text": "For example, okay, so any language that does not support polymorphism, we cannot refer"
+  },
+  {
+    "start": 4321.05,
+    "duration": 4.84,
+    "text": "to that as like, okay, this is an object oriented language or whatever, okay, but they"
+  },
+  {
+    "start": 4325.89,
+    "duration": 8.28,
+    "text": "are instead known as object basis languages, ADA for example is, for example, Java supports"
+  },
+  {
+    "start": 4334.17,
+    "duration": 7.28,
+    "text": "polymorphism, so we can say it is object oriented language. When does it occur? It occurs during"
+  },
+  {
+    "start": 4341.45,
+    "duration": 5.36,
+    "text": "inheritance, because there are many classes that are relating to each other. So, let us"
+  },
+  {
+    "start": 4346.81,
+    "duration": 6.6,
+    "text": "talk a bit more about it, like how it actually occurs. Let us give an example, real world"
+  },
+  {
+    "start": 4353.41,
+    "duration": 5.92,
+    "text": "example. So, a real world example, let us take, let me create another package for"
+  },
+  {
+    "start": 4359.33,
+    "duration": 14.21,
+    "text": "you known as polymorphism, let me close all, start afresh. Let's say I create a class called"
+  },
+  {
+    "start": 4373.54,
+    "duration": 8.2,
+    "text": "shapes. Okay, shapes class, something like that. Okay. And let's say we create so many"
+  },
+  {
+    "start": 4381.74,
+    "duration": 8.2,
+    "text": "other classes of subclasses of shapes. So example, we can create a circle, okay, extends"
+  },
+  {
+    "start": 4389.94,
+    "duration": 9.52,
+    "text": "shape, no problem, circle extend shapes. We can create one more called let's say triangle."
+  },
+  {
+    "start": 4401.38,
+    "duration": 15.5,
+    "text": "We can create square. So this is like shape is being inherited by many. So this is hierarchical."
+  },
+  {
+    "start": 4416.88,
+    "duration": 5.12,
+    "text": "So there's another nice example for hierarchical inheritance. We can create one more."
+  },
+  {
+    "start": 4422.0,
+    "duration": 10.96,
+    "text": "here within square is fine. Okay, no problem. So shapes, that's cool. I can create a can"
+  },
+  {
+    "start": 4432.96,
+    "duration": 12.07,
+    "text": "create a function over here, I can say void, area, or something like that. I am in shapes."
+  },
+  {
+    "start": 4445.03,
+    "duration": 8.84,
+    "text": "Okay, something like that. For circle, it will also have let's say, an area, something"
+  },
+  {
+    "start": 4453.87,
+    "duration": 11.04,
+    "text": "like this something this will also have and this will also have it. So it will be like"
+  },
+  {
+    "start": 4464.91,
+    "duration": 14.97,
+    "text": "area is square of side here will be like area is 0.5 into height into base or something"
+  },
+  {
+    "start": 4479.88,
+    "duration": 8.82,
+    "text": "like that, circle area is pi into r into r or something like that."
+  },
+  {
+    "start": 4488.7,
+    "duration": 8.5,
+    "text": "So, if I draw it like over here, this is a shapes class, this has some area, area method"
+  },
+  {
+    "start": 4497.2,
+    "duration": 2.2,
+    "text": "like this."
+  },
+  {
+    "start": 4499.4,
+    "duration": 13.24,
+    "text": "And here we have let us say triangle, this also has its own square circle, they all have"
+  },
+  {
+    "start": 4512.64,
+    "duration": 7.0,
+    "text": "words, have their own, let's say, representation of area, obviously. So let's see how it works"
+  },
+  {
+    "start": 4519.64,
+    "duration": 4.8,
+    "text": "like, you know, when I actually try to call it. So I'll create a mean function, a mean"
+  },
+  {
+    "start": 4524.44,
+    "duration": 8.55,
+    "text": "class, I'll say public static, wide mean, and I create an object of let's say type"
+  },
+  {
+    "start": 4532.99,
+    "duration": 10.0,
+    "text": "shapes. So let's say shape, shape is equal to new shapes. Then I say shape, not not"
+  },
+  {
+    "start": 4542.99,
+    "duration": 10.03,
+    "text": "shape I say circle, circle is equal to new circle. Then I say square, square is equal"
+  },
+  {
+    "start": 4553.02,
+    "duration": 7.0,
+    "text": "to new square, square is equal to new square. Let's just ignore triangle for now because"
+  },
+  {
+    "start": 4560.02,
+    "duration": 8.63,
+    "text": "we already have quite a few. What will happen if I say shape dot area, it will be like"
+  },
+  {
+    "start": 4568.65,
+    "duration": 4.6,
+    "text": "hey, does area exist in the shapes one, it's going to be like, yeah, it does because"
+  },
+  {
+    "start": 4573.25,
+    "duration": 5.0,
+    "text": "I told you before what variables it has access to depends on the type of the reference variable"
+  },
+  {
+    "start": 4578.25,
+    "duration": 5.28,
+    "text": "type here is shapes it will be like the shapes have area yes it does no problem it does"
+  },
+  {
+    "start": 4583.53,
+    "duration": 7.31,
+    "text": "it will hence called I am in shapes let's try to see let's try to see that I am in"
+  },
+  {
+    "start": 4590.84,
+    "duration": 4.76,
+    "text": "shapes similarly if I call circle dot area it's going to be like does area exist in"
+  },
+  {
+    "start": 4595.6,
+    "duration": 3.96,
+    "text": "circles it's going to be like yeah it does you can see exactly that the definition"
+  },
+  {
+    "start": 4599.56,
+    "duration": 5.6,
+    "text": "of function is same in everything, void area, void area, void area. So the definition is"
+  },
+  {
+    "start": 4605.16,
+    "duration": 14.09,
+    "text": "same. Let me just print it again. There you go. Area is pi r squared, squares area. I will"
+  },
+  {
+    "start": 4619.25,
+    "duration": 3.0,
+    "text": "go into the technical deep dive of this as well. Don't worry, please don't miss this"
+  },
+  {
+    "start": 4622.25,
+    "duration": 5.76,
+    "text": "video. The very I will go into very technical details. So area or r, it says r, I can"
+  },
+  {
+    "start": 4628.01,
+    "duration": 4.36,
+    "text": "just say area in the square. I can say area is equal to or whatever. You get"
+  },
+  {
+    "start": 4632.37,
+    "duration": 9.0,
+    "text": "the idea, area is square of the polymorphism, act of representing the same thing in multiple"
+  },
+  {
+    "start": 4641.37,
+    "duration": 6.2,
+    "text": "ways, multiple ways, polymorphism."
+  },
+  {
+    "start": 4647.57,
+    "duration": 4.64,
+    "text": "How it works internally, how it is calling specific ones, I will tell you later on."
+  },
+  {
+    "start": 4652.21,
+    "duration": 6.72,
+    "text": "For example, I have the, this has shapes, okay, and the object is of type square,"
+  },
+  {
+    "start": 4658.93,
+    "duration": 2.56,
+    "text": "but the reference variable is type of the parent class."
+  },
+  {
+    "start": 4661.49,
+    "duration": 6.46,
+    "text": "Obviously, what will it have access to?"
+  },
+  {
+    "start": 4667.95,
+    "duration": 2.12,
+    "text": "Now, over here you can see,"
+  },
+  {
+    "start": 4670.07,
+    "duration": 3.2,
+    "text": "it has access to this particular one,"
+  },
+  {
+    "start": 4673.27,
+    "duration": 2.52,
+    "text": "the one in the object."
+  },
+  {
+    "start": 4675.79,
+    "duration": 1.6,
+    "text": "Cool, but how?"
+  },
+  {
+    "start": 4677.39,
+    "duration": 2.52,
+    "text": "How is this thing working internally?"
+  },
+  {
+    "start": 4679.91,
+    "duration": 0.84,
+    "text": "You're gonna be like,"
+  },
+  {
+    "start": 4680.75,
+    "duration": 1.04,
+    "text": "Kunal, this is shapes,"
+  },
+  {
+    "start": 4681.79,
+    "duration": 3.0,
+    "text": "so you should have a shape for this one type, right?"
+  },
+  {
+    "start": 4684.79,
+    "duration": 2.5,
+    "text": "But why is it still calling the square one?"
+  },
+  {
+    "start": 4687.29,
+    "duration": 1.62,
+    "text": "How is that working?"
+  },
+  {
+    "start": 4688.91,
+    "duration": 0.84,
+    "text": "Let's see."
+  },
+  {
+    "start": 4690.83,
+    "duration": 2.92,
+    "text": "So, let's now look into the technical details of this."
+  },
+  {
+    "start": 4693.75,
+    "duration": 4.68,
+    "text": "So you are able to understand how it's working internally."
+  },
+  {
+    "start": 4698.43,
+    "duration": 3.46,
+    "text": "What it actually means and what are these things."
+  },
+  {
+    "start": 4701.89,
+    "duration": 12.03,
+    "text": "One more thing I want to share with you is over here, I created multiple, this is also"
+  },
+  {
+    "start": 4713.92,
+    "duration": 5.2,
+    "text": "a second type of polymorphism, this is first type of polymorphism where the exact like"
+  },
+  {
+    "start": 4719.12,
+    "duration": 2.48,
+    "text": "the definition is same and here the definition is different."
+  },
+  {
+    "start": 4721.6,
+    "duration": 4.88,
+    "text": "So, example I can create a constructor that takes a double side, I can create a constructor"
+  },
+  {
+    "start": 4726.48,
+    "duration": 6.18,
+    "text": "that takes three things, I can create a constructor that takes one object and automatically when"
+  },
+  {
+    "start": 4732.66,
+    "duration": 4.66,
+    "text": "I call the main function automatically it will determine that okay, I have to call"
+  },
+  {
+    "start": 4737.32,
+    "duration": 6.72,
+    "text": "the three part one whenever I run this automatically it will know that I have to call this"
+  },
+  {
+    "start": 4744.04,
+    "duration": 4.64,
+    "text": "one here if I am calling the with the another object automatically it will know"
+  },
+  {
+    "start": 4748.68,
+    "duration": 5.0,
+    "text": "I have to call this constructor. So, this is also polymorphism. Act of representing the"
+  },
+  {
+    "start": 4753.68,
+    "duration": 5.64,
+    "text": "same thing in multiple ways. Here just the body was different. Here the actual definition"
+  },
+  {
+    "start": 4759.32,
+    "duration": 4.84,
+    "text": "is different. Now it is time to look into the technical details of what these things"
+  },
+  {
+    "start": 4764.16,
+    "duration": 7.24,
+    "text": "are and all the terms and everything collectively. So, types of polymorphism. We informally"
+  },
+  {
+    "start": 4771.4,
+    "duration": 7.55,
+    "text": "we took a look at two types right now but let us look at it formulae. Types of polymorphism."
+  },
+  {
+    "start": 4778.95,
+    "duration": 12.92,
+    "text": "of polymorphism. Type number 1, type number 1 is known as what? Type number 1 is known"
+  },
+  {
+    "start": 4791.87,
+    "duration": 21.81,
+    "text": "as compile time polymorphism. It is known as compile time or static polymorphism. This"
+  },
+  {
+    "start": 4813.68,
+    "duration": 15.44,
+    "text": "is achieved via method overloading. Okay, it can also be achieved by operator overloading,"
+  },
+  {
+    "start": 4829.12,
+    "duration": 8.12,
+    "text": "but in Java, they don't provide as operator overloading. Okay, what is method overloading?"
+  },
+  {
+    "start": 4837.24,
+    "duration": 6.48,
+    "text": "Method overloading is when a class has multiple methods with the same name, but the number"
+  },
+  {
+    "start": 4843.72,
+    "duration": 6.81,
+    "text": "and the type and the order of like the parameters and the return type can be different."
+  },
+  {
+    "start": 4850.53,
+    "duration": 4.5,
+    "text": "Okay, method overloading is what?"
+  },
+  {
+    "start": 4855.03,
+    "duration": 2.88,
+    "text": "Method overloading is something like this."
+  },
+  {
+    "start": 4857.91,
+    "duration": 12.16,
+    "text": "Method overloading means same name of method, same name, but types, arguments, like return"
+  },
+  {
+    "start": 4870.07,
+    "duration": 8.74,
+    "text": "types and etc., not etc., I can just put like the one other one as well like ordering can"
+  },
+  {
+    "start": 4878.81,
+    "duration": 3.96,
+    "text": "be different."
+  },
+  {
+    "start": 4882.77,
+    "duration": 12.15,
+    "text": "multiple constructors, multiple constructors. When you say something like a, a is equal"
+  },
+  {
+    "start": 4894.92,
+    "duration": 9.88,
+    "text": "to new a, then you say something like a, a2 is equal to new a, 3 comma 4, something like"
+  },
+  {
+    "start": 4904.8,
+    "duration": 12.48,
+    "text": "this. This is known as compile time polymorphism method overloading. So, why is it known"
+  },
+  {
+    "start": 4917.28,
+    "duration": 5.0,
+    "text": "as compile time or static algorithm static polymorphism what might be the reason for"
+  },
+  {
+    "start": 4922.28,
+    "duration": 13.38,
+    "text": "that the reason is that what is the reason the reason is that it Java determines which"
+  },
+  {
+    "start": 4935.66,
+    "duration": 4.96,
+    "text": "constructor or method will be called at compile time in compile time polymorphism okay so"
+  },
+  {
+    "start": 4940.62,
+    "duration": 8.02,
+    "text": "we actually did an example of this as well so over here in the box main these this"
+  },
+  {
+    "start": 4948.64,
+    "duration": 6.68,
+    "text": "is compile time polymorphism this thing at compile time when it's compiling it will be"
+  },
+  {
+    "start": 4955.32,
+    "duration": 4.72,
+    "text": "like okay which one do I need to call it will be like hey you need to actually call this"
+  },
+  {
+    "start": 4960.04,
+    "duration": 5.36,
+    "text": "one at compile time it will look like look for that which constructor do I need to call"
+  },
+  {
+    "start": 4965.4,
+    "duration": 8.88,
+    "text": "this one same thing for methods same thing for methods so I can make something like"
+  },
+  {
+    "start": 4974.28,
+    "duration": 11.66,
+    "text": "let's say something like this I can say numbers okay something like that I can say int I can"
+  },
+  {
+    "start": 4985.94,
+    "duration": 10.18,
+    "text": "say sum I can add int a int b two numbers okay so it will just be like return a plus"
+  },
+  {
+    "start": 4996.12,
+    "duration": 7.74,
+    "text": "b I can do method overloading means I can do method overloading like this now the error"
+  },
+  {
+    "start": 5003.86,
+    "duration": 6.04,
+    "text": "is gone. If the name is same, then the number of arguments or like the return type or the"
+  },
+  {
+    "start": 5009.9,
+    "duration": 8.55,
+    "text": "order should be different. Now don't say like something like this Kunal, can this work? No"
+  },
+  {
+    "start": 5018.45,
+    "duration": 6.88,
+    "text": "order by order I mean if this is something like string B, this is something like string,"
+  },
+  {
+    "start": 5025.33,
+    "duration": 12.87,
+    "text": "this is like void, this is sorry, this is like something like let's say nothing."
+  },
+  {
+    "start": 5038.2,
+    "duration": 6.68,
+    "text": "this works, order should, order of the type should be different, order of the type. Moving"
+  },
+  {
+    "start": 5044.88,
+    "duration": 9.53,
+    "text": "forward int a plus b plus c, no problem. I am just going to say over here, over here also"
+  },
+  {
+    "start": 5054.41,
+    "duration": 5.4,
+    "text": "I can say public static void main. I am going to say numbers, number is equal to"
+  },
+  {
+    "start": 5059.81,
+    "duration": 10.75,
+    "text": "new numbers or I can just say object. Now, now you will understand. Object dot sum,"
+  },
+  {
+    "start": 5070.56,
+    "duration": 9.76,
+    "text": "I'm just going to say 2 comma 3 and object dot sum 1 comma 3 comma 7 and object dot sum"
+  },
+  {
+    "start": 5080.32,
+    "duration": 7.28,
+    "text": "4568."
+  },
+  {
+    "start": 5087.6,
+    "duration": 5.48,
+    "text": "This is giving me an error because there is not a function sum in object in the numbers"
+  },
+  {
+    "start": 5093.08,
+    "duration": 2.12,
+    "text": "class that takes four arguments."
+  },
+  {
+    "start": 5095.2,
+    "duration": 7.36,
+    "text": "Okay, so at runtime, it's going to be like, hey, you are trying to, you know, when"
+  },
+  {
+    "start": 5102.56,
+    "duration": 4.12,
+    "text": "And I'm talking about like the compile time polymorphism."
+  },
+  {
+    "start": 5106.68,
+    "duration": 2.12,
+    "text": "So over here you can see that the constructor"
+  },
+  {
+    "start": 5108.8,
+    "duration": 1.48,
+    "text": "and everything that is memory being created,"
+  },
+  {
+    "start": 5110.28,
+    "duration": 1.96,
+    "text": "this is actually happening at runtime."
+  },
+  {
+    "start": 5112.24,
+    "duration": 2.64,
+    "text": "But at compile time only it will give you an error"
+  },
+  {
+    "start": 5114.88,
+    "duration": 3.24,
+    "text": "if you're, you know, like when it's doing the type checking"
+  },
+  {
+    "start": 5118.12,
+    "duration": 1.6,
+    "text": "and all these other things."
+  },
+  {
+    "start": 5119.72,
+    "duration": 2.28,
+    "text": "On this case also, like this will also happen"
+  },
+  {
+    "start": 5122.0,
+    "duration": 2.24,
+    "text": "like on compile time, obviously actual memory allocation"
+  },
+  {
+    "start": 5124.24,
+    "duration": 1.14,
+    "text": "happens on runtime."
+  },
+  {
+    "start": 5125.38,
+    "duration": 1.62,
+    "text": "But the checking and everything"
+  },
+  {
+    "start": 5127.0,
+    "duration": 3.2,
+    "text": "and the which method to actually run, okay."
+  },
+  {
+    "start": 5130.2,
+    "duration": 2.56,
+    "text": "Determination for that happens at compile time."
+  },
+  {
+    "start": 5132.76,
+    "duration": 2.76,
+    "text": "That's why it's known as like compile time polymorphism."
+  },
+  {
+    "start": 5135.52,
+    "duration": 1.2,
+    "text": "So here at compile time,"
+  },
+  {
+    "start": 5136.72,
+    "duration": 1.44,
+    "text": "it will know that it has to run this"
+  },
+  {
+    "start": 5138.16,
+    "duration": 1.8,
+    "text": "because you have passed two things."
+  },
+  {
+    "start": 5139.96,
+    "duration": 3.23,
+    "text": "Here at compile time,"
+  },
+  {
+    "start": 5143.19,
+    "duration": 2.24,
+    "text": "it will know that it has to run this one"
+  },
+  {
+    "start": 5145.43,
+    "duration": 2.24,
+    "text": "because you have passed these three things."
+  },
+  {
+    "start": 5148.67,
+    "duration": 3.32,
+    "text": "Compile time polymorphism, also known as static,"
+  },
+  {
+    "start": 5151.99,
+    "duration": 1.8,
+    "text": "static polymorphism."
+  },
+  {
+    "start": 5153.79,
+    "duration": 1.4,
+    "text": "Now, one more thing can happen"
+  },
+  {
+    "start": 5155.19,
+    "duration": 2.56,
+    "text": "is let's say you're doing something like this."
+  },
+  {
+    "start": 5157.75,
+    "duration": 2.6,
+    "text": "Let's say you're taking this as a double."
+  },
+  {
+    "start": 5161.51,
+    "duration": 6.16,
+    "text": "you are taking this as a double, but here you are passing an integer, still this one is called,"
+  },
+  {
+    "start": 5169.35,
+    "duration": 3.76,
+    "text": "still this one obviously I have to cast this in because I am returning an integer or I can"
+  },
+  {
+    "start": 5173.11,
+    "duration": 4.48,
+    "text": "just return a double as well no problem, but you can see here you are passing an integer,"
+  },
+  {
+    "start": 5177.59,
+    "duration": 8.96,
+    "text": "still a double is being called. What is happening over here? So, in this case you can see that"
+  },
+  {
+    "start": 5186.55,
+    "duration": 7.0,
+    "text": "that when we are adding an integer argument inside this sum so no matching is let's say"
+  },
+  {
+    "start": 5193.55,
+    "duration": 6.44,
+    "text": "found but Java automatically converts that integer into a double okay and this will be"
+  },
+  {
+    "start": 5199.99,
+    "duration": 6.2,
+    "text": "resolved this will be used to resolve the call okay so since an integer for this is"
+  },
+  {
+    "start": 5206.19,
+    "duration": 4.84,
+    "text": "not found a version where this is an integer this is also an integer so it just converts"
+  },
+  {
+    "start": 5211.03,
+    "duration": 5.2,
+    "text": "it into like double. Okay, but what if you pass an integer like something like this over"
+  },
+  {
+    "start": 5216.23,
+    "duration": 6.96,
+    "text": "here, here it will give an error. So for this, watch the video where I was teaching you casting"
+  },
+  {
+    "start": 5223.19,
+    "duration": 4.28,
+    "text": "how automatic casting happens. Basically in that video, I taught you automatic casting"
+  },
+  {
+    "start": 5227.47,
+    "duration": 3.56,
+    "text": "same rules will apply over here. I am pretty sure I will not explain it in this lecture"
+  },
+  {
+    "start": 5231.03,
+    "duration": 4.28,
+    "text": "because I've already made a hours and hours long video on that casting, how casting"
+  },
+  {
+    "start": 5235.31,
+    "duration": 6.0,
+    "text": "works in Java entire video on that exactly copy paste those rules over here exactly copy"
+  },
+  {
+    "start": 5241.31,
+    "duration": 6.28,
+    "text": "paste okay I explained how so basically how automatic casting works is you can take it"
+  },
+  {
+    "start": 5247.59,
+    "duration": 10.51,
+    "text": "over here as well okay but for example if an integer was defined over here then it would"
+  },
+  {
+    "start": 5258.1,
+    "duration": 12.65,
+    "text": "use this ok integer integer in that case it would use this ok cool so that was pretty"
+  },
+  {
+    "start": 5270.75,
+    "duration": 8.28,
+    "text": "good ok so this is known as constructor overloading now that was it yeah that was it for polymorphism"
+  },
+  {
+    "start": 5279.03,
+    "duration": 3.88,
+    "text": "part number one now there's a second type of polymorphism something that we have already"
+  },
+  {
+    "start": 5282.91,
+    "duration": 5.16,
+    "text": "covered but now it's time to define it now it's time to define it second type"
+  },
+  {
+    "start": 5288.07,
+    "duration": 6.16,
+    "text": "of polymorphism, what is it called? Second type of polymorphism is called, I am just"
+  },
+  {
+    "start": 5294.23,
+    "duration": 14.17,
+    "text": "going to write it above, no problem, runtime polymorphism, runtime or what? Dynamic, I will"
+  },
+  {
+    "start": 5308.4,
+    "duration": 9.9,
+    "text": "also tell you why it is called dynamic, dynamic polymorphism, runtime or dynamic polymorphism"
+  },
+  {
+    "start": 5318.3,
+    "duration": 14.38,
+    "text": "achieved by method overriding very important achieved by method overriding what is overriding"
+  },
+  {
+    "start": 5332.68,
+    "duration": 6.12,
+    "text": "overriding is simple overriding something we have done already so when a child class you"
+  },
+  {
+    "start": 5338.8,
+    "duration": 7.0,
+    "text": "know has a method name same as the super class the parent class exactly everything is same"
+  },
+  {
+    "start": 5345.8,
+    "duration": 5.16,
+    "text": "Okay parent class has a method child class has a method parameter and all the other return"
+  },
+  {
+    "start": 5350.96,
+    "duration": 2.56,
+    "text": "type and everything is same just the body is different."
+  },
+  {
+    "start": 5353.52,
+    "duration": 13.22,
+    "text": "So for example over here close all main shapes circle square okay shape is the main one circle"
+  },
+  {
+    "start": 5366.74,
+    "duration": 1.8,
+    "text": "is the child one."
+  },
+  {
+    "start": 5368.54,
+    "duration": 5.32,
+    "text": "This is the child class okay this is the circle child class extending shape it has"
+  },
+  {
+    "start": 5373.86,
+    "duration": 7.04,
+    "text": "a function called area shape also has a function called area okay so this is what is known"
+  },
+  {
+    "start": 5380.9,
+    "duration": 15.54,
+    "text": "as overriding this is known as overriding you write it somewhat like this overriding something"
+  },
+  {
+    "start": 5396.44,
+    "duration": 5.95,
+    "text": "like this then it's giving another I'll teach I tell you what this is basically don't worry"
+  },
+  {
+    "start": 5403.27,
+    "duration": 4.72,
+    "text": "okay I'll tell you this right now what this is so this is basically known as overriding"
+  },
+  {
+    "start": 5407.99,
+    "duration": 6.16,
+    "text": "basically if you want to check whether a method is actually over being overridden or not okay by"
+  },
+  {
+    "start": 5414.15,
+    "duration": 5.44,
+    "text": "common sense I know this is overriding because shapes has void area and circle which is a child"
+  },
+  {
+    "start": 5419.59,
+    "duration": 6.08,
+    "text": "class also has void area that is overriding same function in parent class also child class also"
+  },
+  {
+    "start": 5425.67,
+    "duration": 5.2,
+    "text": "child class is overriding the main one this will be given priority whenever the object"
+  },
+  {
+    "start": 5430.87,
+    "duration": 12.81,
+    "text": "of child class is created. Okay, this will run when object of circle is created hence it is"
+  },
+  {
+    "start": 5444.48,
+    "duration": 13.09,
+    "text": "overriding the parent method. Okay, what is this thing at the rate override? This is called"
+  },
+  {
+    "start": 5457.57,
+    "duration": 9.01,
+    "text": "annotation basically if you want to check whether a method is being overridden or not"
+  },
+  {
+    "start": 5466.58,
+    "duration": 5.32,
+    "text": "just put at override above it how to create it on its own these can be created using interfaces"
+  },
+  {
+    "start": 5471.9,
+    "duration": 3.66,
+    "text": "which will look into the interface lecture okay but for now if you want to check whether"
+  },
+  {
+    "start": 5475.56,
+    "duration": 4.18,
+    "text": "a method is being overridden or not just write at override over it how it works internally"
+  },
+  {
+    "start": 5479.74,
+    "duration": 3.76,
+    "text": "obviously will learn in interfaces so for example let's create another function"
+  },
+  {
+    "start": 5483.5,
+    "duration": 7.52,
+    "text": "called area is area being overridden or if I say area 2 is area 2 being overridden no"
+  },
+  {
+    "start": 5491.02,
+    "duration": 6.68,
+    "text": "it is not hence this annotation is giving me a giving me an error is area being overridden"
+  },
+  {
+    "start": 5497.7,
+    "duration": 3.96,
+    "text": "yes it is hence it is not giving an error it is just a simple check only okay check"
+  },
+  {
+    "start": 5501.66,
+    "duration": 6.16,
+    "text": "use for check purposes. So that is why in the main function when you say square dot"
+  },
+  {
+    "start": 5507.82,
+    "duration": 6.16,
+    "text": "area or circle dot area or whatever, since the type is of circle, it will call circles"
+  },
+  {
+    "start": 5513.98,
+    "duration": 5.68,
+    "text": "only object type is circle, nothing can change, it will only call this area is pi r square,"
+  },
+  {
+    "start": 5519.66,
+    "duration": 7.88,
+    "text": "okay, it will not call the parent class one. So as you can see in overriding, this thing"
+  },
+  {
+    "start": 5527.54,
+    "duration": 3.68,
+    "text": "should be exactly the same, the only the body can be different, rest everything"
+  },
+  {
+    "start": 5531.22,
+    "duration": 3.44,
+    "text": "should be the same, only body will be different, no matter if you put it like"
+  },
+  {
+    "start": 5534.66,
+    "duration": 4.76,
+    "text": "as here, like if you put shapes, whatever the type of object is, that is the only type"
+  },
+  {
+    "start": 5539.42,
+    "duration": 6.92,
+    "text": "that will be used. But you are saying, Kunal, this, what method, what variable it is able"
+  },
+  {
+    "start": 5546.34,
+    "duration": 5.84,
+    "text": "to access, that depends on the left hand side. And you are correct. It depends on this thing."
+  },
+  {
+    "start": 5552.18,
+    "duration": 7.44,
+    "text": "But how is it actually checking which one to run? How is it actually checking that?"
+  },
+  {
+    "start": 5559.62,
+    "duration": 2.8,
+    "text": "Let's look into that, then you will be able to understand why this is always"
+  },
+  {
+    "start": 5562.42,
+    "duration": 3.6,
+    "text": "is calling the type of the circle. If you put shapes over here, then obviously it will"
+  },
+  {
+    "start": 5566.02,
+    "duration": 5.48,
+    "text": "call the shapes one. So here type of method in overriding that is called depends on what"
+  },
+  {
+    "start": 5571.5,
+    "duration": 10.88,
+    "text": "the type of the object is. If you remove area from here, I hide this over here. Now"
+  },
+  {
+    "start": 5582.38,
+    "duration": 7.48,
+    "text": "it's giving me an error. So to access area should be obviously there. I am not defying"
+  },
+  {
+    "start": 5589.86,
+    "duration": 6.48,
+    "text": "my statement my statement previously was that all the elements that are accessible to shapes"
+  },
+  {
+    "start": 5596.34,
+    "duration": 6.88,
+    "text": "will be available because what is being accessed does not depend ok does not depend on the"
+  },
+  {
+    "start": 5603.22,
+    "duration": 5.08,
+    "text": "object type it depends on the reference type reference type should have an area it does"
+  },
+  {
+    "start": 5608.3,
+    "duration": 5.48,
+    "text": "not have an area that's why it's giving an error it should have an area but it's"
+  },
+  {
+    "start": 5613.78,
+    "duration": 5.32,
+    "text": "actually not going to call this it's going to call this one if the object type is"
+  },
+  {
+    "start": 5619.1,
+    "duration": 6.32,
+    "text": "of the base class. Why? Because the object's base class one is actually overriding the"
+  },
+  {
+    "start": 5625.42,
+    "duration": 7.44,
+    "text": "above one. Why? So actually what it's able to access is defined by the type of the reference,"
+  },
+  {
+    "start": 5632.86,
+    "duration": 4.38,
+    "text": "which one it's able to access is defined by the type of the object and how? Let's look"
+  },
+  {
+    "start": 5637.24,
+    "duration": 7.74,
+    "text": "into that. Okay, so let me tell you about this thing then now. Let's see. So let"
+  },
+  {
+    "start": 5644.98,
+    "duration": 6.0,
+    "text": "Let me bring on my like code sample once again because I want to show you like show you something."
+  },
+  {
+    "start": 5650.98,
+    "duration": 8.0,
+    "text": "So over here in the code sample here you can see if I directly just create this as circle"
+  },
+  {
+    "start": 5658.98,
+    "duration": 4.64,
+    "text": "right if I directly just created a circle it will obviously call the one inside this"
+  },
+  {
+    "start": 5663.62,
+    "duration": 5.24,
+    "text": "circle that is obviously no issues you're like Kunal what if like even if you weren't"
+  },
+  {
+    "start": 5668.86,
+    "duration": 8.52,
+    "text": "having main in the main main shapes one if you are not having area in that case also Kunal"
+  },
+  {
+    "start": 5677.38,
+    "duration": 6.24,
+    "text": "it was calling the area of a method then what do you mean what does it mean then how is it"
+  },
+  {
+    "start": 5683.62,
+    "duration": 8.64,
+    "text": "like overriding overriding basically means if the type is the reference variable ok"
+  },
+  {
+    "start": 5692.26,
+    "duration": 4.96,
+    "text": "if you have the type of the reference variable as the parent class is a type of the reference"
+  },
+  {
+    "start": 5697.22,
+    "duration": 6.44,
+    "text": "variable is parent class, but the object is of type the subclass. Okay, in that case what"
+  },
+  {
+    "start": 5703.66,
+    "duration": 4.92,
+    "text": "happens let's see, because otherwise it was doing the simple stuff. Okay, but if the type"
+  },
+  {
+    "start": 5708.58,
+    "duration": 6.48,
+    "text": "is parent class, and the object is of, you know, the overriding how it actually this"
+  },
+  {
+    "start": 5715.06,
+    "duration": 3.88,
+    "text": "thing works because child class reference child class parent obviously it's calling"
+  },
+  {
+    "start": 5718.94,
+    "duration": 4.8,
+    "text": "its own one. Okay, but overriding is done when the reference variable you are using"
+  },
+  {
+    "start": 5723.74,
+    "duration": 9.19,
+    "text": "is of like the superclass and which particular method will be called that depends on object"
+  },
+  {
+    "start": 5732.93,
+    "duration": 3.08,
+    "text": "that the reference variable is referring to."
+  },
+  {
+    "start": 5736.01,
+    "duration": 28.7,
+    "text": "So parent object new child here which method will be called depends on this type of child"
+  },
+  {
+    "start": 5764.71,
+    "duration": 20.72,
+    "text": "this is known as upcasting and this entire thing is known as this overriding how overriding"
+  },
+  {
+    "start": 5785.43,
+    "duration": 17.52,
+    "text": "happens or overriding works ok that's basically it this is how overriding works that's it"
+  },
+  {
+    "start": 5802.95,
+    "duration": 11.99,
+    "text": "ok no problems that's it also give you an example but one more thing I forgot was how"
+  },
+  {
+    "start": 5814.94,
+    "duration": 4.8,
+    "text": "it actually works internally the memory management part and stuff let's talk about that as well okay"
+  },
+  {
+    "start": 5819.74,
+    "duration": 8.48,
+    "text": "so this actually happens like how does it know how does Java know which particular function to run"
+  },
+  {
+    "start": 5828.86,
+    "duration": 2.96,
+    "text": "there is a function with the same name in the parent class there's a function in the"
+  },
+  {
+    "start": 5831.82,
+    "duration": 5.92,
+    "text": "same name with the child class we know that child class one will run we know that because"
+  },
+  {
+    "start": 5837.74,
+    "duration": 5.28,
+    "text": "which one to run actually child object that the object type defines which one to run"
+  },
+  {
+    "start": 5843.02,
+    "duration": 5.44,
+    "text": "Okay, and the reference type defines which one to access, which one it can access."
+  },
+  {
+    "start": 5849.98,
+    "duration": 10.08,
+    "text": "Okay, so here basically parent one says that okay, you can access a function with the name that"
+  },
+  {
+    "start": 5860.06,
+    "duration": 8.48,
+    "text": "has the name as what? It has the name as print or what were we printing? We are printing the"
+  },
+  {
+    "start": 5868.54,
+    "duration": 7.28,
+    "text": "some or whatever or shape or area, area, area, but which particular version of the area which"
+  },
+  {
+    "start": 5875.82,
+    "duration": 4.72,
+    "text": "to call that is defined by the object that is determined with the object but another question"
+  },
+  {
+    "start": 5880.54,
+    "duration": 13.86,
+    "text": "is how, how it happens, how Java determines this, how Java determines this, how Java determines"
+  },
+  {
+    "start": 5894.4,
+    "duration": 14.48,
+    "text": "this, the Java determines this with something known as dynamic method dispatch, very important."
+  },
+  {
+    "start": 5908.88,
+    "duration": 5.62,
+    "text": "This is why it's known as dynamic, dynamic polymorphism. So this one was compiled time"
+  },
+  {
+    "start": 5914.5,
+    "duration": 5.42,
+    "text": "static polynomial polymorphism by overloading. This is runtime dynamic polymorphism by"
+  },
+  {
+    "start": 5919.92,
+    "duration": 5.16,
+    "text": "method overriding. Okay, so what is dynamic method dispatch? It is just a mechanism"
+  },
+  {
+    "start": 5925.08,
+    "duration": 8.0,
+    "text": "by which a call to an overridden method is resolved at runtime rather than compile time."
+  },
+  {
+    "start": 5933.08,
+    "duration": 4.12,
+    "text": "All the compilation everything is done when the method when the when the program is running"
+  },
+  {
+    "start": 5937.2,
+    "duration": 3.92,
+    "text": "during that time Java will determine which particular method to run."
+  },
+  {
+    "start": 5941.12,
+    "duration": 4.88,
+    "text": "It's important because this is how this is why this is how we are doing runtime polymorphism"
+  },
+  {
+    "start": 5946.0,
+    "duration": 3.76,
+    "text": "that's where the name comes in."
+  },
+  {
+    "start": 5949.76,
+    "duration": 4.92,
+    "text": "So we know that a superclass reference variable can refer to a subclass object we have"
+  },
+  {
+    "start": 5954.68,
+    "duration": 6.08,
+    "text": "just covered this and when an overridden method is called through a superclass reference variable"
+  },
+  {
+    "start": 5960.76,
+    "duration": 7.76,
+    "text": "for example in this case java determines which version of that method to call based on the"
+  },
+  {
+    "start": 5968.52,
+    "duration": 8.71,
+    "text": "type of the object at the time this call happens hence this determination will be made at"
+  },
+  {
+    "start": 5977.23,
+    "duration": 9.36,
+    "text": "runtime when it's actually calling it when is it actually calling it at runtime don't ask me what"
+  },
+  {
+    "start": 5986.59,
+    "duration": 7.52,
+    "text": "is runtime and compile time okay please watch the lecture number one okay now that's it yeah in other"
+  },
+  {
+    "start": 5994.11,
+    "duration": 4.24,
+    "text": "words you can say that it's the type of the object being referred to not the type of the reference"
+  },
+  {
+    "start": 5998.35,
+    "duration": 6.4,
+    "text": "variable that determines which version of the overridden method will be executed but I also"
+  },
+  {
+    "start": 6004.75,
+    "duration": 5.52,
+    "text": "stand by my statement that the reference variable type actually tells us which all things you can"
+  },
+  {
+    "start": 6010.27,
+    "duration": 6.72,
+    "text": "access that is why once even though the one in the subclass is being called and you're like"
+  },
+  {
+    "start": 6016.99,
+    "duration": 3.92,
+    "text": "hey if the one in the subclass is being called why do you actually need to put it in the parent"
+  },
+  {
+    "start": 6020.91,
+    "duration": 5.44,
+    "text": "class also then you can be like no if it's not in the parent class then it will be like okay"
+  },
+  {
+    "start": 6026.35,
+    "duration": 4.4,
+    "text": "in the parent class it will only be accessing the one that is like the parent's one hence"
+  },
+  {
+    "start": 6030.75,
+    "duration": 9.71,
+    "text": "you don't have it in the parent class so you can't access it okay sound good so same example"
+  },
+  {
+    "start": 6040.46,
+    "duration": 4.8,
+    "text": "over here they can say in shapes if I remove this particular thing because you are saying"
+  },
+  {
+    "start": 6045.26,
+    "duration": 5.64,
+    "text": "Kunal in this line it's actually calling this one can't you just remove shapes then you"
+  },
+  {
+    "start": 6050.9,
+    "duration": 4.32,
+    "text": "can be like no it can't because if the type is shapes then it will only access whatever"
+  },
+  {
+    "start": 6055.22,
+    "duration": 6.2,
+    "text": "is accessible in shapes shapes has no idea what is behind what is below it okay it has"
+  },
+  {
+    "start": 6061.42,
+    "duration": 5.24,
+    "text": "no idea what is below it so that's why we need this for accessing like okay we know"
+  },
+  {
+    "start": 6066.66,
+    "duration": 3.68,
+    "text": "know that it can access a method called area because it is available over here but which"
+  },
+  {
+    "start": 6070.34,
+    "duration": 5.32,
+    "text": "one to access that will be determined by Java during runtime using dynamic method dispatch"
+  },
+  {
+    "start": 6075.66,
+    "duration": 5.36,
+    "text": "and it will obviously be dependent on the type of the object that is being created cool"
+  },
+  {
+    "start": 6081.02,
+    "duration": 4.12,
+    "text": "that was it let's move forward okay and this is the same thing we were doing previously"
+  },
+  {
+    "start": 6085.14,
+    "duration": 5.16,
+    "text": "also internally it uses let's say the two string method right let me just close everything"
+  },
+  {
+    "start": 6090.3,
+    "duration": 13.33,
+    "text": "and object print for example, I create public static void main, this object print has a something"
+  },
+  {
+    "start": 6103.63,
+    "duration": 8.46,
+    "text": "like let's say int number constructor using a number or whatever, I create an object from"
+  },
+  {
+    "start": 6112.09,
+    "duration": 8.04,
+    "text": "it, I can say object is equal to new object, it passes a number let's say 54, if I try"
+  },
+  {
+    "start": 6120.13,
+    "duration": 8.06,
+    "text": "to print this object java I haven't told java that whenever you print this object I just"
+  },
+  {
+    "start": 6128.19,
+    "duration": 6.16,
+    "text": "want you to print let's say the number the value of the number or whatever okay I have"
+  },
+  {
+    "start": 6134.35,
+    "duration": 9.04,
+    "text": "no told java so java will do something internally on its own just printing this so print l and"
+  },
+  {
+    "start": 6143.39,
+    "duration": 4.44,
+    "text": "taking an object inside it it will call the value of function and that will call the"
+  },
+  {
+    "start": 6147.83,
+    "duration": 8.27,
+    "text": "two string function object dot two string object dot two string. So it's like our object"
+  },
+  {
+    "start": 6156.1,
+    "duration": 6.76,
+    "text": "that we have passed. Does it have a two string method? No, it does not. So it will use the"
+  },
+  {
+    "start": 6162.86,
+    "duration": 7.12,
+    "text": "default one and which is the default one. Every class is inherited from which class"
+  },
+  {
+    "start": 6169.98,
+    "duration": 5.44,
+    "text": "object class or not. So it will use the object classes to string method object class"
+  },
+  {
+    "start": 6175.42,
+    "duration": 6.24,
+    "text": "class as a two string method, just get the name of the function in class and do an add"
+  },
+  {
+    "start": 6181.66,
+    "duration": 4.92,
+    "text": "the rate, yeah, it's putting an add the rate, get the hash code, hash code is just a random"
+  },
+  {
+    "start": 6186.58,
+    "duration": 7.72,
+    "text": "value, random number, I'll cover it more in detail in the, in the hash map tutorial,"
+  },
+  {
+    "start": 6194.3,
+    "duration": 4.44,
+    "text": "but it's for now, let's say it's a random number, not let's just say it is literally"
+  },
+  {
+    "start": 6198.74,
+    "duration": 4.52,
+    "text": "a random number, okay, based on the value of the object, some internal implementation"
+  },
+  {
+    "start": 6203.26,
+    "duration": 4.64,
+    "text": "actually write our own hash code method. I'm getting too excited. So please wait for hash"
+  },
+  {
+    "start": 6207.9,
+    "duration": 3.36,
+    "text": "hashing method. But for now, let's say it's a random number. So it's actually using the"
+  },
+  {
+    "start": 6211.26,
+    "duration": 3.6,
+    "text": "one with object class, because I know every class, even the classes are right. They are"
+  },
+  {
+    "start": 6214.86,
+    "duration": 9.88,
+    "text": "extending object class extends object class. Okay, so that is what is happening over"
+  },
+  {
+    "start": 6224.74,
+    "duration": 5.08,
+    "text": "here. It's using the object classes to string method. But what if I provided a"
+  },
+  {
+    "start": 6229.82,
+    "duration": 10.93,
+    "text": "a two string method. What if I provided a two string method, something like this pretty"
+  },
+  {
+    "start": 6240.75,
+    "duration": 4.24,
+    "text": "printing something like this, two string method requires you can see this two string method"
+  },
+  {
+    "start": 6244.99,
+    "duration": 6.04,
+    "text": "and this two string method are same in terms of the definition and everything just the"
+  },
+  {
+    "start": 6251.03,
+    "duration": 5.48,
+    "text": "body is different. Isn't that true? That's why I'm adding an override check over here."
+  },
+  {
+    "start": 6256.51,
+    "duration": 3.52,
+    "text": "Does it actually is it actually overriding the actual two string method? Yes it"
+  },
+  {
+    "start": 6260.03,
+    "duration": 4.52,
+    "text": "is because this is not giving me any error. You don't ask me a question like Kunal"
+  },
+  {
+    "start": 6264.55,
+    "duration": 5.0,
+    "text": "this is not extending anything how is it overriding it then it is extending by default in Java"
+  },
+  {
+    "start": 6269.55,
+    "duration": 8.44,
+    "text": "every class extends the object class now when I do this thing so at runtime it will define"
+  },
+  {
+    "start": 6277.99,
+    "duration": 10.93,
+    "text": "at runtime it will determine that this one should be run at runtime now it's printing"
+  },
+  {
+    "start": 6288.92,
+    "duration": 8.2,
+    "text": "it isn't it good so at runtime it's deciding it that's why even if I do control click"
+  },
+  {
+    "start": 6297.12,
+    "duration": 4.12,
+    "text": "control click it's actually not giving me like this particular one because at runtime"
+  },
+  {
+    "start": 6301.24,
+    "duration": 5.36,
+    "text": "it's deciding it okay let's move forward now let's talk about two more"
+  },
+  {
+    "start": 6306.6,
+    "duration": 4.4,
+    "text": "important things which is using the keyword final and the keyword static in"
+  },
+  {
+    "start": 6311.0,
+    "duration": 4.36,
+    "text": "this let's put some let's get some like do some random things and put static here"
+  },
+  {
+    "start": 6315.36,
+    "duration": 4.16,
+    "text": "and there and see how it works okay so let's first put final final we know"
+  },
+  {
+    "start": 6319.52,
+    "duration": 5.96,
+    "text": "it's used to create constants right but you can also use final keyword to"
+  },
+  {
+    "start": 6325.48,
+    "duration": 10.57,
+    "text": "prevent overriding okay remove this all these thing numbers okay something like"
+  },
+  {
+    "start": 6336.05,
+    "duration": 10.3,
+    "text": "not numbers shapes if I put this at final then this is giving me an error you"
+  },
+  {
+    "start": 6346.35,
+    "duration": 6.28,
+    "text": "cannot override a method that is final okay if you put final over here you will"
+  },
+  {
+    "start": 6352.63,
+    "duration": 7.46,
+    "text": "not be able to override that method as simple as that okay why because methods"
+  },
+  {
+    "start": 6360.09,
+    "duration": 6.0,
+    "text": "like this that are declared as final can somehow provide a performance enhancement okay because"
+  },
+  {
+    "start": 6366.09,
+    "duration": 7.0,
+    "text": "the compiler is free to inline the calls to them because the compiler will know that these"
+  },
+  {
+    "start": 6373.09,
+    "duration": 3.56,
+    "text": "methods will not be overridden and I know overriding and all these things happens at"
+  },
+  {
+    "start": 6376.65,
+    "duration": 8.24,
+    "text": "runtime okay so when a small final method is no when a method is called Java compiler"
+  },
+  {
+    "start": 6384.89,
+    "duration": 4.2,
+    "text": "can copy the byte code from the subroutine or whatever"
+  },
+  {
+    "start": 6389.09,
+    "duration": 1.92,
+    "text": "like the internet implementation is,"
+  },
+  {
+    "start": 6391.01,
+    "duration": 4.04,
+    "text": "directly with the compile code of the calling method,"
+  },
+  {
+    "start": 6395.05,
+    "duration": 3.12,
+    "text": "hence eliminating the overhead associated"
+  },
+  {
+    "start": 6398.17,
+    "duration": 3.0,
+    "text": "with this method called like which one to actually resolve."
+  },
+  {
+    "start": 6401.17,
+    "duration": 2.4,
+    "text": "It, no, this will be only one result"
+  },
+  {
+    "start": 6403.57,
+    "duration": 1.28,
+    "text": "because it cannot be overwritten."
+  },
+  {
+    "start": 6404.85,
+    "duration": 0.84,
+    "text": "What is remaining then?"
+  },
+  {
+    "start": 6405.69,
+    "duration": 3.68,
+    "text": "This will be resolved so that extra step is gone."
+  },
+  {
+    "start": 6413.84,
+    "duration": 2.54,
+    "text": "Cool."
+  },
+  {
+    "start": 6416.38,
+    "duration": 2.64,
+    "text": "So one more thing I would like to share"
+  },
+  {
+    "start": 6419.02,
+    "duration": 2.4,
+    "text": "is the dynamic method resolution"
+  },
+  {
+    "start": 6421.42,
+    "duration": 1.68,
+    "text": "because it is happening at runtime"
+  },
+  {
+    "start": 6423.1,
+    "duration": 2.44,
+    "text": "after the compilation and bytecode stuff"
+  },
+  {
+    "start": 6425.54,
+    "duration": 2.6,
+    "text": "and everything is done when the program is running."
+  },
+  {
+    "start": 6428.14,
+    "duration": 2.2,
+    "text": "That is when overriding actually determines"
+  },
+  {
+    "start": 6430.34,
+    "duration": 1.24,
+    "text": "which one to run."
+  },
+  {
+    "start": 6431.58,
+    "duration": 2.64,
+    "text": "Hence it's also known as late binding."
+  },
+  {
+    "start": 6435.02,
+    "duration": 2.36,
+    "text": "It's also known as late binding."
+  },
+  {
+    "start": 6437.38,
+    "duration": 3.72,
+    "text": "However, since the final method cannot be overridden,"
+  },
+  {
+    "start": 6441.1,
+    "duration": 3.2,
+    "text": "a call to one can be resolved at compile time only."
+  },
+  {
+    "start": 6444.3,
+    "duration": 4.48,
+    "text": "This is called early binding."
+  },
+  {
+    "start": 6448.78,
+    "duration": 6.46,
+    "text": "Okay, early binding and late binding."
+  },
+  {
+    "start": 6455.24,
+    "duration": 2.44,
+    "text": "Okay, early binding and late binding."
+  },
+  {
+    "start": 6457.68,
+    "duration": 1.82,
+    "text": "Very important concept."
+  },
+  {
+    "start": 6459.5,
+    "duration": 1.04,
+    "text": "It's gonna write it over here,"
+  },
+  {
+    "start": 6460.54,
+    "duration": 9.4,
+    "text": "but I will put it in my notes also."
+  },
+  {
+    "start": 6469.94,
+    "duration": 6.83,
+    "text": "Early binding, check notes."
+  },
+  {
+    "start": 6476.77,
+    "duration": 4.78,
+    "text": "Okay, so you can use it to prevent overriding."
+  },
+  {
+    "start": 6483.13,
+    "duration": 3.06,
+    "text": "You can also use it to prevent inheritance."
+  },
+  {
+    "start": 6487.55,
+    "duration": 1.52,
+    "text": "Okay, close all tabs."
+  },
+  {
+    "start": 6490.31,
+    "duration": 16.49,
+    "text": "Inheritance, okay, error."
+  },
+  {
+    "start": 6506.8,
+    "duration": 2.56,
+    "text": "So sometimes you would want to prevent a class"
+  },
+  {
+    "start": 6509.36,
+    "duration": 6.15,
+    "text": "from being inherited or that you can just put it as final."
+  },
+  {
+    "start": 6515.51,
+    "duration": 2.38,
+    "text": "One thing I would like to point out over here is"
+  },
+  {
+    "start": 6517.89,
+    "duration": 4.96,
+    "text": "whenever you put a class as final, okay?"
+  },
+  {
+    "start": 6523.97,
+    "duration": 3.04,
+    "text": "Implicitly it declares all of its methods final too."
+  },
+  {
+    "start": 6528.21,
+    "duration": 15.1,
+    "text": "The methods will be final as well, okay?"
+  },
+  {
+    "start": 6543.31,
+    "duration": 4.83,
+    "text": "Let's move forward then, right?"
+  },
+  {
+    "start": 6548.14,
+    "duration": 1.64,
+    "text": "Cool, now let's experiment something."
+  },
+  {
+    "start": 6549.78,
+    "duration": 2.28,
+    "text": "Let's create a static method."
+  },
+  {
+    "start": 6552.06,
+    "duration": 6.96,
+    "text": "me create a static method over here. Let me create a static method. I'll just create a static"
+  },
+  {
+    "start": 6559.02,
+    "duration": 20.86,
+    "text": "method like static void greeting. Hey, I am in box. I am in box greetings or something"
+  },
+  {
+    "start": 6579.88,
+    "duration": 8.2,
+    "text": "like that. I am in box class. Okay, static method. No problem. Let me call my main."
+  },
+  {
+    "start": 6588.08,
+    "duration": 4.68,
+    "text": "Let me just do something like a problem."
+  },
+  {
+    "start": 6592.76,
+    "duration": 0.84,
+    "text": "I can hide this."
+  },
+  {
+    "start": 6593.6,
+    "duration": 13.55,
+    "text": "I can just say box one, box one dot greeting."
+  },
+  {
+    "start": 6607.23,
+    "duration": 1.12,
+    "text": "Let's see what happens."
+  },
+  {
+    "start": 6609.47,
+    "duration": 4.81,
+    "text": "Print."
+  },
+  {
+    "start": 6614.28,
+    "duration": 2.24,
+    "text": "Hey, I'm in box class greetings."
+  },
+  {
+    "start": 6616.52,
+    "duration": 1.44,
+    "text": "One thing I told you previously,"
+  },
+  {
+    "start": 6617.96,
+    "duration": 1.72,
+    "text": "static methods are what?"
+  },
+  {
+    "start": 6619.68,
+    "duration": 1.48,
+    "text": "It means that it is not dependent"
+  },
+  {
+    "start": 6621.16,
+    "duration": 3.52,
+    "text": "on the object of this class, object of box."
+  },
+  {
+    "start": 6624.68,
+    "duration": 2.88,
+    "text": "Hence, to access static stuff,"
+  },
+  {
+    "start": 6627.56,
+    "duration": 3.08,
+    "text": "to edit static stuff or whatever you want to do."
+  },
+  {
+    "start": 6630.64,
+    "duration": 3.48,
+    "text": "Even though you can do it via the reference variable,"
+  },
+  {
+    "start": 6634.12,
+    "duration": 2.88,
+    "text": "the convention is to do it via the class name."
+  },
+  {
+    "start": 6637.0,
+    "duration": 0.84,
+    "text": "Why?"
+  },
+  {
+    "start": 6637.84,
+    "duration": 3.0,
+    "text": "Already made a really long video on static."
+  },
+  {
+    "start": 6640.84,
+    "duration": 3.2,
+    "text": "I explained static in such a great way in that video."
+  },
+  {
+    "start": 6644.04,
+    "duration": 2.76,
+    "text": "It's a previous video, please watch that, okay?"
+  },
+  {
+    "start": 6646.8,
+    "duration": 1.56,
+    "text": "So this is cool."
+  },
+  {
+    "start": 6648.36,
+    "duration": 2.44,
+    "text": "But the real question is,"
+  },
+  {
+    "start": 6650.8,
+    "duration": 1.68,
+    "text": "can we overwrite static methods?"
+  },
+  {
+    "start": 6652.48,
+    "duration": 1.72,
+    "text": "What if I have another static method"
+  },
+  {
+    "start": 6654.2,
+    "duration": 1.48,
+    "text": "or something like this?"
+  },
+  {
+    "start": 6655.68,
+    "duration": 5.08,
+    "text": "And let's say box, wait, okay."
+  },
+  {
+    "start": 6660.76,
+    "duration": 13.04,
+    "text": "Let's put a override over here."
+  },
+  {
+    "start": 6673.8,
+    "duration": 3.72,
+    "text": "It's actually not overriding it."
+  },
+  {
+    "start": 6677.52,
+    "duration": 3.42,
+    "text": "It's actually not overriding it."
+  },
+  {
+    "start": 6680.94,
+    "duration": 4.61,
+    "text": "Not overriding."
+  },
+  {
+    "start": 6685.55,
+    "duration": 1.12,
+    "text": "It's not overriding it."
+  },
+  {
+    "start": 6687.79,
+    "duration": 4.48,
+    "text": "So if I put it like, if I just put this check on hold,"
+  },
+  {
+    "start": 6692.27,
+    "duration": 1.0,
+    "text": "this is just for checking purpose,"
+  },
+  {
+    "start": 6693.27,
+    "duration": 2.32,
+    "text": "but it's not overriding it, okay?"
+  },
+  {
+    "start": 6695.59,
+    "duration": 8.45,
+    "text": "So here I can say box, box is equal to new."
+  },
+  {
+    "start": 6704.04,
+    "duration": 8.48,
+    "text": "is equal to new box weight we just covered this type is this whatever whatever okay if"
+  },
+  {
+    "start": 6712.52,
+    "duration": 13.64,
+    "text": "I say box dot greeting this should be I am in box weight class let's run this thing let's"
+  },
+  {
+    "start": 6726.16,
+    "duration": 8.2,
+    "text": "see what we will get let's see what we will get it's saying I'm in the box class so did"
+  },
+  {
+    "start": 6734.36,
+    "duration": 3.28,
+    "text": "it actually get over it and if it was getting over it and that all the previous things"
+  },
+  {
+    "start": 6737.64,
+    "duration": 5.56,
+    "text": "we mentioned what to access will define this what which particular which elements it can"
+  },
+  {
+    "start": 6743.2,
+    "duration": 5.2,
+    "text": "access can define this which one will actually get access defines this but here it's saying"
+  },
+  {
+    "start": 6748.4,
+    "duration": 4.84,
+    "text": "the base class one is the child class one is not getting called it's calling this one"
+  },
+  {
+    "start": 6753.24,
+    "duration": 7.52,
+    "text": "only still what is happening over here think about it all those static methods are being"
+  },
+  {
+    "start": 6760.76,
+    "duration": 6.0,
+    "text": "inherited there is let's say imagine they are being inherited imagine if they were"
+  },
+  {
+    "start": 6766.76,
+    "duration": 7.12,
+    "text": "getting inherited. There is no point in overriding them in the child class because the method"
+  },
+  {
+    "start": 6773.88,
+    "duration": 7.28,
+    "text": "in the parent class will always run no matter from which object you call it. Makes sense"
+  },
+  {
+    "start": 6781.16,
+    "duration": 6.56,
+    "text": "because it's not dependent on object because it's static. That is the reason that static"
+  },
+  {
+    "start": 6787.72,
+    "duration": 6.4,
+    "text": "methods like over here that we have, they are actually the static method over here"
+  },
+  {
+    "start": 6794.12,
+    "duration": 9.61,
+    "text": "that I have that is the reason this one is not being called okay because the one"
+  },
+  {
+    "start": 6803.73,
+    "duration": 3.68,
+    "text": "in the main class is actually one being called class dot greeting it's not"
+  },
+  {
+    "start": 6807.41,
+    "duration": 4.84,
+    "text": "actually dependent on this thing even if you remove it from here it will still"
+  },
+  {
+    "start": 6812.25,
+    "duration": 5.68,
+    "text": "work and it will still show the same output let's try to print it box wait it"
+  },
+  {
+    "start": 6817.93,
+    "duration": 2.72,
+    "text": "will still now it's nothing it's not overriding or anything it's just the"
+  },
+  {
+    "start": 6820.65,
+    "duration": 5.95,
+    "text": "normal stuff you put it over here override over here it's actually you"
+  },
+  {
+    "start": 6826.6,
+    "duration": 3.24,
+    "text": "You can see it's actually not overriding."
+  },
+  {
+    "start": 6829.84,
+    "duration": 6.36,
+    "text": "So static methods as such you cannot overwrite them, okay?"
+  },
+  {
+    "start": 6836.2,
+    "duration": 1.7,
+    "text": "You can't do it."
+  },
+  {
+    "start": 6837.9,
+    "duration": 3.3,
+    "text": "Even though it can be inherited, because being inherited, right?"
+  },
+  {
+    "start": 6841.2,
+    "duration": 3.68,
+    "text": "You are able to use it via box weight object."
+  },
+  {
+    "start": 6844.88,
+    "duration": 3.44,
+    "text": "Even you put this as box weight, you will still be able to use it."
+  },
+  {
+    "start": 6848.32,
+    "duration": 3.2,
+    "text": "This is simple in one line."
+  },
+  {
+    "start": 6851.52,
+    "duration": 3.16,
+    "text": "Static methods can be inherited but cannot be overwritten."
+  },
+  {
+    "start": 6854.68,
+    "duration": 1.0,
+    "text": "Why?"
+  },
+  {
+    "start": 6855.68,
+    "duration": 3.88,
+    "text": "the main class one is obviously always going to be called"
+  },
+  {
+    "start": 6859.56,
+    "duration": 3.2,
+    "text": "it's not dependent on object that's why it does not really matter"
+  },
+  {
+    "start": 6862.76,
+    "duration": 5.68,
+    "text": "see the thing is overriding depends on objects"
+  },
+  {
+    "start": 6868.44,
+    "duration": 4.0,
+    "text": "static does not depend on object hence static methods cannot be overridden"
+  },
+  {
+    "start": 6872.44,
+    "duration": 3.32,
+    "text": "oh that was a good explanation"
+  },
+  {
+    "start": 6875.76,
+    "duration": 3.4,
+    "text": "very simple how I was confusing it respectively"
+  },
+  {
+    "start": 6879.16,
+    "duration": 3.16,
+    "text": "no this is a very easy explanation overriding"
+  },
+  {
+    "start": 6882.32,
+    "duration": 4.36,
+    "text": "depends on objects static stuff does not depend on object"
+  },
+  {
+    "start": 6886.68,
+    "duration": 6.0,
+    "text": "Hence you can't override static methods because in order to override something you have to deal with objects"
+  },
+  {
+    "start": 6892.88,
+    "duration": 5.92,
+    "text": "But static stuff eliminates all the objects hence you can't override it the one you have in the main class"
+  },
+  {
+    "start": 6898.8,
+    "duration": 5.48,
+    "text": "That is the only one will be used why because overriding deals with objects static does not deal with objects that is like"
+  },
+  {
+    "start": 6904.28,
+    "duration": 3.62,
+    "text": "I don't really care which object you belong to I will run irrespective"
+  },
+  {
+    "start": 6908.72,
+    "duration": 2.84,
+    "text": "This dynamic method dispatch will not happen if it's static"
+  },
+  {
+    "start": 6913.08,
+    "duration": 3.6,
+    "text": "That's pretty much about it cool"
+  },
+  {
+    "start": 6917.96,
+    "duration": 19.24,
+    "text": "All right. You can also do box with dot greeting or something. That's also fine. It'll be like, Hey, there's box with contain greeting. No, it does not. This contain greeting. Yes, it does inheritance. It's being inherited. But it's not being overridden. You can inherit, but you cannot override. You can run, but you can't hide."
+  },
+  {
+    "start": 6937.2,
+    "duration": 5.8,
+    "text": "nice all right you can run but you can't hide you can inherit but you can't"
+  },
+  {
+    "start": 6943.0,
+    "duration": 10.24,
+    "text": "overwrite tweet that tweet that or something all right cool to eat that"
+  },
+  {
+    "start": 6953.24,
+    "duration": 5.92,
+    "text": "share on LinkedIn nice nice little line you can take a screenshot cool subscribe"
+  },
+  {
+    "start": 6959.16,
+    "duration": 3.56,
+    "text": "like share make sure you comment it as well all right"
+  },
+  {
+    "start": 6962.72,
+    "duration": 10.88,
+    "text": "easy peasy and very easy stuff so that's it yeah cool one more thing this"
+  },
+  {
+    "start": 6973.6,
+    "duration": 2.94,
+    "text": "polymorphism thing that I talked about does not apply to instance variables"
+  },
+  {
+    "start": 6976.54,
+    "duration": 6.9,
+    "text": "okay instance where we treated like no on its own okay so I gave you an example"
+  },
+  {
+    "start": 6983.44,
+    "duration": 3.12,
+    "text": "of like adding a weight over here as well and a weight over here as well the"
+  },
+  {
+    "start": 6986.56,
+    "duration": 3.32,
+    "text": "commented one out you can see it was calling the using the super keyword or"
+  },
+  {
+    "start": 6989.88,
+    "duration": 3.08,
+    "text": "whatever so it does not apply to instance variables both this"
+  },
+  {
+    "start": 6992.96,
+    "duration": 10.11,
+    "text": "overloading and overriding does not apply to what does not apply to instance variables."
+  },
+  {
+    "start": 7003.07,
+    "duration": 5.68,
+    "text": "Okay, and obviously you cannot overwrite the inherited static methods because overriding"
+  },
+  {
+    "start": 7008.75,
+    "duration": 4.16,
+    "text": "in Java takes place, you know, by resolving the type of the object at runtime and not"
+  },
+  {
+    "start": 7012.91,
+    "duration": 8.75,
+    "text": "compile time, and then calling the respective method, that's the that's it. Yeah. Let's"
+  },
+  {
+    "start": 7021.66,
+    "duration": 5.88,
+    "text": "Let's move forward. Okay. Now let's look into the third property of object oriented programming,"
+  },
+  {
+    "start": 7027.54,
+    "duration": 16.18,
+    "text": "which is known as encapsulation encapsulation. What do we mean by encapsulation? So encapsulation"
+  },
+  {
+    "start": 7043.72,
+    "duration": 9.18,
+    "text": "means wrapping up the implementation of the data members and the methods inside a class"
+  },
+  {
+    "start": 7052.9,
+    "duration": 18.69,
+    "text": "wrap up it means wrapping up the implementation of the what data members and stuff like your"
+  },
+  {
+    "start": 7071.59,
+    "duration": 12.77,
+    "text": "variables and all these other things and the methods in a class okay that is what we mean"
+  },
+  {
+    "start": 7084.36,
+    "duration": 7.52,
+    "text": "by encapsulation it basically hides the code and all the data into a single entity or a unit"
+  },
+  {
+    "start": 7091.88,
+    "duration": 9.09,
+    "text": "so that that can be protected from the outside world, okay. That is basically what encapsulation"
+  },
+  {
+    "start": 7100.97,
+    "duration": 6.08,
+    "text": "is. And one more thing that people confuse encapsulation with is known as the fourth"
+  },
+  {
+    "start": 7107.05,
+    "duration": 8.9,
+    "text": "property abstraction, right Kunal what is abstraction? Abstraction on the other hand"
+  },
+  {
+    "start": 7115.95,
+    "duration": 6.96,
+    "text": "means hiding the unnecessary details but only showing essential information."
+  },
+  {
+    "start": 7122.91,
+    "duration": 23.15,
+    "text": "So hiding unnecessary details and showing valuable information for in depth check my video that"
+  },
+  {
+    "start": 7146.06,
+    "duration": 3.2,
+    "text": "I'm making right now since you're already watching it you're you're already on the right"
+  },
+  {
+    "start": 7149.26,
+    "duration": 8.0,
+    "text": "track this is just for people who will take notes check video and notes notes I'll upload"
+  },
+  {
+    "start": 7157.26,
+    "duration": 5.4,
+    "text": "on GitHub. Okay, but since let's now cover in detail of this, in the detail of this, okay,"
+  },
+  {
+    "start": 7162.66,
+    "duration": 4.28,
+    "text": "because I'm not going to write everything that I already will be pushing in the node section."
+  },
+  {
+    "start": 7166.94,
+    "duration": 4.24,
+    "text": "Let's focus on understanding first. What do we mean by abstraction? So let's say you"
+  },
+  {
+    "start": 7171.18,
+    "duration": 5.16,
+    "text": "have a car, you have a car, you start your car, you put in your key and you start the"
+  },
+  {
+    "start": 7176.34,
+    "duration": 5.56,
+    "text": "car. That is what you do. Put in the key, start the car. How that car is being started"
+  },
+  {
+    "start": 7181.9,
+    "duration": 3.96,
+    "text": "when you put the key and run it, how the internal implementation is, how the engine"
+  },
+  {
+    "start": 7185.86,
+    "duration": 5.44,
+    "text": "starts and the petrol pumps and the car gets started, car moves all the internal mechanics."
+  },
+  {
+    "start": 7191.3,
+    "duration": 4.72,
+    "text": "Do you really need to know these things in order to start the car or all you need is a"
+  },
+  {
+    "start": 7196.02,
+    "duration": 1.0,
+    "text": "key?"
+  },
+  {
+    "start": 7197.02,
+    "duration": 1.0,
+    "text": "All we need is a key."
+  },
+  {
+    "start": 7198.02,
+    "duration": 3.4,
+    "text": "So there's all the unnecessary information that is obviously it's important but we don't"
+  },
+  {
+    "start": 7201.42,
+    "duration": 1.88,
+    "text": "really care about it."
+  },
+  {
+    "start": 7203.3,
+    "duration": 3.32,
+    "text": "Do you need to know the mechanics of the car in order to run the car?"
+  },
+  {
+    "start": 7206.62,
+    "duration": 1.0,
+    "text": "No?"
+  },
+  {
+    "start": 7207.62,
+    "duration": 3.44,
+    "text": "So all this extra information is hidden from us."
+  },
+  {
+    "start": 7211.06,
+    "duration": 1.36,
+    "text": "This is known as abstraction."
+  },
+  {
+    "start": 7212.42,
+    "duration": 5.08,
+    "text": "I am 100% sure you are confused between abstraction and encapsulation."
+  },
+  {
+    "start": 7217.5,
+    "duration": 3.88,
+    "text": "I am 100% sure you will be thinking this is the same thing."
+  },
+  {
+    "start": 7221.38,
+    "duration": 5.0,
+    "text": "No, let me explain to you what the difference is in a really awesome way."
+  },
+  {
+    "start": 7226.38,
+    "duration": 8.3,
+    "text": "So abstraction is more like this, here you can see whenever we create an array or whatever"
+  },
+  {
+    "start": 7234.68,
+    "duration": 5.48,
+    "text": "right when we say or when we say print ln or something like this, system.out.print"
+  },
+  {
+    "start": 7240.16,
+    "duration": 1.0,
+    "text": "ln."
+  },
+  {
+    "start": 7241.16,
+    "duration": 10.53,
+    "text": "just wanted to print this thing. Okay, we just wanted to print this thing. How it's doing"
+  },
+  {
+    "start": 7251.69,
+    "duration": 5.6,
+    "text": "it internally. I don't care. How this thing is happening. I don't care. I'm just using"
+  },
+  {
+    "start": 7257.29,
+    "duration": 4.48,
+    "text": "it like this. Similarly, you are given many, many classes that we have used before like"
+  },
+  {
+    "start": 7261.77,
+    "duration": 7.02,
+    "text": "ArrayList. List is equal to new ArrayList. You are using this ArrayList. Okay, you"
+  },
+  {
+    "start": 7268.79,
+    "duration": 4.3,
+    "text": "are using this ArrayList, right? How this is defined internally, how it's made internally"
+  },
+  {
+    "start": 7273.09,
+    "duration": 5.32,
+    "text": "all these things. Do you really care about it? No. This is why these are known as what"
+  },
+  {
+    "start": 7278.41,
+    "duration": 6.96,
+    "text": "abstract data types as well. After data means you are able to access and modify this using"
+  },
+  {
+    "start": 7285.37,
+    "duration": 8.0,
+    "text": "some methods like get print or whatever get or add or set or add all remove or whatever."
+  },
+  {
+    "start": 7293.37,
+    "duration": 6.19,
+    "text": "But how these are working internally, I don't care about it. Confusion you may be having"
+  },
+  {
+    "start": 7299.56,
+    "duration": 4.68,
+    "text": "is Kunal, but you said encapsulation also means the same thing. Encapsulation means"
+  },
+  {
+    "start": 7304.24,
+    "duration": 2.88,
+    "text": "putting data inside a class and that is what you're doing over here. This is the"
+  },
+  {
+    "start": 7307.12,
+    "duration": 3.28,
+    "text": "ArrayList class and you're putting data inside it. You are correct. Then it will"
+  },
+  {
+    "start": 7310.4,
+    "duration": 5.0,
+    "text": "be like, okay, then how is abstraction different than encapsulation? Let's see."
+  },
+  {
+    "start": 7315.4,
+    "duration": 6.0,
+    "text": "So abstraction means hiding the unnecessary detail but only showing"
+  },
+  {
+    "start": 7321.4,
+    "duration": 4.56,
+    "text": "the essential information. Start the car, get the element, print the element."
+  },
+  {
+    "start": 7325.96,
+    "duration": 6.0,
+    "text": "Okay, so this is a design issue. How it's actually being designed. The"
+  },
+  {
+    "start": 7331.96,
+    "duration": 5.12,
+    "text": "designers will tell you hey we need some sort of an abstraction like put give me this method this"
+  },
+  {
+    "start": 7337.08,
+    "duration": 5.36,
+    "text": "method this method and whatever you put inside it that is up to you whatever how you do it how"
+  },
+  {
+    "start": 7342.44,
+    "duration": 5.44,
+    "text": "you encapsulate it how you put methods in that how you put a class in that how you make it work"
+  },
+  {
+    "start": 7347.88,
+    "duration": 5.2,
+    "text": "inside internally that is up to you all I need is these four methods so these are the designer"
+  },
+  {
+    "start": 7353.08,
+    "duration": 4.64,
+    "text": "people they will tell you this thing the people who are working on the implementation part"
+  },
+  {
+    "start": 7357.72,
+    "duration": 5.12,
+    "text": "The engineers, for example, they will be like, okay, we are working on implementation."
+  },
+  {
+    "start": 7362.84,
+    "duration": 5.84,
+    "text": "You want this sort of abstraction, we will achieve it via making this class via making"
+  },
+  {
+    "start": 7368.68,
+    "duration": 4.2,
+    "text": "this particular method via making this get method, this set method."
+  },
+  {
+    "start": 7372.88,
+    "duration": 1.64,
+    "text": "This is what it will contain."
+  },
+  {
+    "start": 7374.52,
+    "duration": 6.04,
+    "text": "So the actual writing of code of that encapsulated thing that is providing us abstraction,"
+  },
+  {
+    "start": 7380.56,
+    "duration": 1.64,
+    "text": "that is the main difference."
+  },
+  {
+    "start": 7382.2,
+    "duration": 2.52,
+    "text": "If someone asks you, what is the main difference?"
+  },
+  {
+    "start": 7384.72,
+    "duration": 6.96,
+    "text": "is solving a design level issue and Capsulation is solving an implementation level issue."
+  },
+  {
+    "start": 7391.68,
+    "duration": 5.8,
+    "text": "Okay, so it hides the entire code in a single entity or whatever and protects it from the"
+  },
+  {
+    "start": 7397.48,
+    "duration": 6.88,
+    "text": "outside world. Abstraction on the other hand is telling us that okay and Capsulation"
+  },
+  {
+    "start": 7404.36,
+    "duration": 4.96,
+    "text": "did all these things it's hiding something internally I am abstraction and I am providing"
+  },
+  {
+    "start": 7409.32,
+    "duration": 4.56,
+    "text": "you some of the outside methods that you can use design way but how this thing"
+  },
+  {
+    "start": 7413.88,
+    "duration": 4.88,
+    "text": "is working internally that is handled by encapsulation. So encapsulation is the implementation stuff"
+  },
+  {
+    "start": 7419.8,
+    "duration": 6.16,
+    "text": "encaps one more simple explanation abstraction focuses on the external stuff encapsulation"
+  },
+  {
+    "start": 7425.96,
+    "duration": 6.8,
+    "text": "focus also on the internal working okay how do we achieve abstraction you can achieve it via"
+  },
+  {
+    "start": 7432.76,
+    "duration": 4.56,
+    "text": "like abstract classes and interfaces which we'll talk more about later abstract classes and abstract"
+  },
+  {
+    "start": 7437.32,
+    "duration": 4.56,
+    "text": "data types and stuff they have like only give us add method or remove method or whatever"
+  },
+  {
+    "start": 7441.88,
+    "duration": 5.52,
+    "text": "how that thing works internally I don't care. That something else like in the internal working of"
+  },
+  {
+    "start": 7447.4,
+    "duration": 4.8,
+    "text": "encapsulation when that was done in order to make that class that was taken care in encapsulation."
+  },
+  {
+    "start": 7452.2,
+    "duration": 3.76,
+    "text": "I am only focused on abstraction like what are the things that are visible to me."
+  },
+  {
+    "start": 7456.68,
+    "duration": 4.88,
+    "text": "Encapsulation means what are the bad things not the bad things but the complex things that"
+  },
+  {
+    "start": 7461.56,
+    "duration": 4.48,
+    "text": "I need to work with I put everything inside a class make it public or private or hide the"
+  },
+  {
+    "start": 7466.04,
+    "duration": 7.65,
+    "text": "the data members or whatever that is encapsulation. Okay, so abstraction is done using like abstract"
+  },
+  {
+    "start": 7473.69,
+    "duration": 4.04,
+    "text": "classes interfaces and encapsulation means putting things inside classes, hiding the"
+  },
+  {
+    "start": 7477.73,
+    "duration": 4.44,
+    "text": "internal details and stuff like that into a single entity using like public private protected"
+  },
+  {
+    "start": 7482.17,
+    "duration": 5.24,
+    "text": "methods or whatever just like I will give you an example of that as well. Okay, one"
+  },
+  {
+    "start": 7487.41,
+    "duration": 5.36,
+    "text": "more point, abstraction is a process of gaining information and encapsulation is"
+  },
+  {
+    "start": 7492.77,
+    "duration": 9.67,
+    "text": "a process of containing the information. So in abstraction, we are going to use the interfaces"
+  },
+  {
+    "start": 7502.44,
+    "duration": 4.8,
+    "text": "and stuff that only define the structure of the program and not how it does it. And that"
+  },
+  {
+    "start": 7507.24,
+    "duration": 5.92,
+    "text": "is something we'll cover later on. So the objects and stuff that we created, they"
+  },
+  {
+    "start": 7513.16,
+    "duration": 20.54,
+    "text": "were all encapsulated. As simple as that. Let me show you one example. So in the"
+  },
+  {
+    "start": 7533.7,
+    "duration": 8.48,
+    "text": "an array list example one more thing I want to show you is that this thing let's say this"
+  },
+  {
+    "start": 7542.18,
+    "duration": 6.28,
+    "text": "is your object empty array or whatever you are able to manipulate this or whatever let's"
+  },
+  {
+    "start": 7548.46,
+    "duration": 6.68,
+    "text": "say let's assume this is the one you are able to manipulate it via some getters and setters"
+  },
+  {
+    "start": 7555.14,
+    "duration": 6.76,
+    "text": "okay grow size or add in it or whatever right you are able to manipulate it but you"
+  },
+  {
+    "start": 7561.9,
+    "duration": 5.16,
+    "text": "you are not able to directly manipulate it you can't say directly not this thing let's"
+  },
+  {
+    "start": 7567.06,
+    "duration": 7.52,
+    "text": "say I create another one or we actually had one for example this one you are able to set"
+  },
+  {
+    "start": 7574.58,
+    "duration": 6.24,
+    "text": "it via some constructor or whatever if you want to get it you can create a get method"
+  },
+  {
+    "start": 7580.82,
+    "duration": 9.45,
+    "text": "getter l you want to get l you can just say in the main you can just say box dot get"
+  },
+  {
+    "start": 7590.27,
+    "duration": 7.64,
+    "text": "L this will print you the value of L now you are like hey Kunal L is actually private L is"
+  },
+  {
+    "start": 7597.91,
+    "duration": 4.8,
+    "text": "private that how are you able to print it in the outside class think about it I am not"
+  },
+  {
+    "start": 7602.71,
+    "duration": 5.04,
+    "text": "directly accessing it I am accessing it via a method that is used inside that class only"
+  },
+  {
+    "start": 7607.75,
+    "duration": 3.88,
+    "text": "since this is in this class only it can definitely access the private methods so sorry private"
+  },
+  {
+    "start": 7611.63,
+    "duration": 6.88,
+    "text": "variables so this particular thing of making stuff private like this this is known as"
+  },
+  {
+    "start": 7618.51,
+    "duration": 6.4,
+    "text": "data hiding okay I'm pretty sure you are able to understand encapsulation versus"
+  },
+  {
+    "start": 7624.91,
+    "duration": 5.84,
+    "text": "abstraction okay and encapsulation means putting all these things like you know"
+  },
+  {
+    "start": 7630.75,
+    "duration": 5.12,
+    "text": "in in a bundle it is it is like yeah something like this you can use getters"
+  },
+  {
+    "start": 7635.87,
+    "duration": 5.32,
+    "text": "and setters for that yeah okay so you know about encapsulation now you know"
+  },
+  {
+    "start": 7641.19,
+    "duration": 4.6,
+    "text": "about data hiding and stuff now so you can hide the data using this getters"
+  },
+  {
+    "start": 7645.79,
+    "duration": 4.44,
+    "text": "and setters this is known as encapsulation the exactly same thing that I did right now"
+  },
+  {
+    "start": 7650.23,
+    "duration": 5.94,
+    "text": "and in order for abstraction to use abstraction you can use what you can use abstract classes"
+  },
+  {
+    "start": 7656.17,
+    "duration": 4.86,
+    "text": "and interfaces that we will talk more about in that lecture only okay but abstraction"
+  },
+  {
+    "start": 7661.03,
+    "duration": 4.24,
+    "text": "is what design level external outlook how the car is just you need to start the car"
+  },
+  {
+    "start": 7665.27,
+    "duration": 4.32,
+    "text": "but encapsulation is more on the internal working the implementation how those thing"
+  },
+  {
+    "start": 7669.59,
+    "duration": 4.56,
+    "text": "are the it is the process of like containing that information how to make it more secure"
+  },
+  {
+    "start": 7674.15,
+    "duration": 4.74,
+    "text": "and stuff, but abstraction on the other hand is actually gaining information process of"
+  },
+  {
+    "start": 7678.89,
+    "duration": 5.94,
+    "text": "gaining the information. Okay, so in encapsulation we use like getters and setters and classes"
+  },
+  {
+    "start": 7684.83,
+    "duration": 6.4,
+    "text": "and stuff in abstraction we use abstract classes and interfaces. Only problem you may be having"
+  },
+  {
+    "start": 7691.23,
+    "duration": 4.12,
+    "text": "now is what is the difference between data hiding and encapsulation. Now you told"
+  },
+  {
+    "start": 7695.35,
+    "duration": 3.92,
+    "text": "us abstraction once again versus encapsulation that is fine. What is the difference between"
+  },
+  {
+    "start": 7699.27,
+    "duration": 4.52,
+    "text": "data hiding and encapsulation main difference between data hiding and encapsulation"
+  },
+  {
+    "start": 7703.79,
+    "duration": 7.36,
+    "text": "is that data hiding is focused on data security and encapsulation focuses on hiding the complexity"
+  },
+  {
+    "start": 7711.15,
+    "duration": 2.28,
+    "text": "of the system, okay."
+  },
+  {
+    "start": 7713.43,
+    "duration": 7.6,
+    "text": "For example, here you can see that you are not able to access this data member, okay."
+  },
+  {
+    "start": 7721.03,
+    "duration": 5.32,
+    "text": "So this is actually actually data hiding, okay, this is actually data hiding using"
+  },
+  {
+    "start": 7726.35,
+    "duration": 2.96,
+    "text": "this getter setter is actually encapsulation."
+  },
+  {
+    "start": 7729.31,
+    "duration": 7.2,
+    "text": "So basically data hiding is you know data hiding the concern is for data security along"
+  },
+  {
+    "start": 7736.51,
+    "duration": 5.64,
+    "text": "with hiding the complexity but encapsulation concerns only about wrapping the data to hide"
+  },
+  {
+    "start": 7742.15,
+    "duration": 4.43,
+    "text": "the complexity of the system, okay."
+  },
+  {
+    "start": 7746.58,
+    "duration": 5.04,
+    "text": "So in data hiding always the you know data that we are hiding is should be private"
+  },
+  {
+    "start": 7751.62,
+    "duration": 4.92,
+    "text": "it should not be accessed directly but in encapsulation data can be public or private"
+  },
+  {
+    "start": 7756.54,
+    "duration": 2.5,
+    "text": "or whatever."
+  },
+  {
+    "start": 7759.04,
+    "duration": 2.0,
+    "text": "encapsulation I can say you can say"
+  },
+  {
+    "start": 7761.04,
+    "duration": 2.0,
+    "text": "encapsulation sounds a little bit similar"
+  },
+  {
+    "start": 7763.04,
+    "duration": 2.0,
+    "text": "to data hiding that is true"
+  },
+  {
+    "start": 7765.04,
+    "duration": 2.0,
+    "text": "encapsulation is a sub process in data hiding"
+  },
+  {
+    "start": 7767.04,
+    "duration": 3.82,
+    "text": "it's a process in data hiding"
+  },
+  {
+    "start": 7770.86,
+    "duration": 2.0,
+    "text": "okay"
+  },
+  {
+    "start": 7772.86,
+    "duration": 2.0,
+    "text": "so if you're making an array list"
+  },
+  {
+    "start": 7774.86,
+    "duration": 2.0,
+    "text": "internally let's say it's implemented as a"
+  },
+  {
+    "start": 7776.86,
+    "duration": 2.0,
+    "text": "normal array or you're making a link list"
+  },
+  {
+    "start": 7778.86,
+    "duration": 2.0,
+    "text": "and internally let's say it's implemented as"
+  },
+  {
+    "start": 7780.86,
+    "duration": 2.0,
+    "text": "a normal array you should be"
+  },
+  {
+    "start": 7782.86,
+    "duration": 2.0,
+    "text": "able to modify that link list"
+  },
+  {
+    "start": 7784.86,
+    "duration": 2.0,
+    "text": "okay"
+  },
+  {
+    "start": 7786.86,
+    "duration": 2.0,
+    "text": "via some link list dot get"
+  },
+  {
+    "start": 7788.86,
+    "duration": 5.6,
+    "text": "dot update list dot remove, but you should not be able to directly access that array."
+  },
+  {
+    "start": 7794.46,
+    "duration": 4.28,
+    "text": "That array should be private that is known as data hiding. But using these methods like"
+  },
+  {
+    "start": 7798.74,
+    "duration": 7.8,
+    "text": "getters and setters that is encapsulation. Okay, so in data hiding always put it as"
+  },
+  {
+    "start": 7806.54,
+    "duration": 8.34,
+    "text": "private. Okay. So data hiding can be used to like reduce the, you know, some complexity"
+  },
+  {
+    "start": 7814.88,
+    "duration": 6.0,
+    "text": "of systems and things like that. And data hiding is actually achieved via encapsulation"
+  },
+  {
+    "start": 7820.88,
+    "duration": 13.27,
+    "text": "and encapsulation is a sub process of data hiding exactly like that that is it yeah cool"
+  },
+  {
+    "start": 7834.15,
+    "duration": 7.01,
+    "text": "so I believe that gives you a bit more understanding that was about encapsulation and abstraction"
+  },
+  {
+    "start": 7841.16,
+    "duration": 3.64,
+    "text": "about abstraction encapsulation we did in this video this entire thing we did was"
+  },
+  {
+    "start": 7844.8,
+    "duration": 5.96,
+    "text": "encapsulation only but abstraction is more on the implementation level okay it's used"
+  },
+  {
+    "start": 7850.76,
+    "duration": 3.68,
+    "text": "by abstract classes and interfaces and stuff and I already explained what the differences"
+  },
+  {
+    "start": 7854.44,
+    "duration": 3.68,
+    "text": "are between these two and if someone asks see what is the difference you can say abstraction"
+  },
+  {
+    "start": 7858.12,
+    "duration": 7.04,
+    "text": "is design level and encapsulation implementation level things like that okay so putting the"
+  },
+  {
+    "start": 7865.16,
+    "duration": 4.16,
+    "text": "car starting the car I know all I need to do is start the car is like that but how it"
+  },
+  {
+    "start": 7869.32,
+    "duration": 5.04,
+    "text": "actually is made the implementation of it that is encapsulation writing the code you"
+  },
+  {
+    "start": 7874.36,
+    "duration": 4.0,
+    "text": "know like putting the code inside a file inside a class adding some methods that's"
+  },
+  {
+    "start": 7878.36,
+    "duration": 3.92,
+    "text": "private putting some getters putting some setters all of these things that I just"
+  },
+  {
+    "start": 7882.28,
+    "duration": 5.44,
+    "text": "mentioned, this is encapsulation. But getting that outside just main, main methods, the"
+  },
+  {
+    "start": 7887.72,
+    "duration": 5.72,
+    "text": "abstraction of all the internal hiding the unnecessary information, I don't really care."
+  },
+  {
+    "start": 7893.44,
+    "duration": 3.44,
+    "text": "I don't really care what how it's working internally. But in encapsulation, you do"
+  },
+  {
+    "start": 7896.88,
+    "duration": 4.08,
+    "text": "care how it's working internally, because it's it deals with that total implementation"
+  },
+  {
+    "start": 7900.96,
+    "duration": 9.17,
+    "text": "only. Okay, that was about abstraction and encapsulation. Cool. And that was"
+  },
+  {
+    "start": 7910.13,
+    "duration": 4.64,
+    "text": "about properties of object in programming. In the next video, we'll look more into abstraction"
+  },
+  {
+    "start": 7914.77,
+    "duration": 4.6,
+    "text": "part. So we'll look at like access control and object class and stuff and object cloning"
+  },
+  {
+    "start": 7919.37,
+    "duration": 3.68,
+    "text": "and we'll look at like, like access control obviously is important because I talked about"
+  },
+  {
+    "start": 7923.05,
+    "duration": 5.08,
+    "text": "private and stuff. So how is data access? How is data hidden from other stuff? So this"
+  },
+  {
+    "start": 7928.13,
+    "duration": 4.36,
+    "text": "data hiding stuff I talked about the abstraction stuff I talked about, interfaces abstract"
+  },
+  {
+    "start": 7932.49,
+    "duration": 3.2,
+    "text": "classes and all these annotations stuff I talked about, we will go into details"
+  },
+  {
+    "start": 7935.69,
+    "duration": 3.64,
+    "text": "of this in the future videos. Make sure like, share and subscribe shares on social"
+  },
+  {
+    "start": 7939.33,
+    "duration": 3.88,
+    "text": "if you like this object around playlists and data structures playlist. One more thing"
+  },
+  {
+    "start": 7943.21,
+    "duration": 3.8,
+    "text": "I would like to request you is that even if you're not sharing on socials or whatever,"
+  },
+  {
+    "start": 7947.01,
+    "duration": 4.32,
+    "text": "I want to do, I want you to do two things. One is like the video right now. And the"
+  },
+  {
+    "start": 7951.33,
+    "duration": 3.24,
+    "text": "second one is please comment if you love this video. Okay, these two things are very"
+  },
+  {
+    "start": 7954.57,
+    "duration": 3.04,
+    "text": "important in order to gain reach. For example, so I want this course to reach"
+  },
+  {
+    "start": 7957.61,
+    "duration": 3.12,
+    "text": "more and more people. So like right now and please comment. It will really help"
+  },
+  {
+    "start": 7960.73,
+    "duration": 3.08,
+    "text": "me quite a lot. And I will see you in the next one. Bye."
+  }
+]

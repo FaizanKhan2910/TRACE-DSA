@@ -1,0 +1,9792 @@
+[
+  {
+    "start": 3.88,
+    "duration": 2.88,
+    "text": "Hey everyone, welcome back to another"
+  },
+  {
+    "start": 5.28,
+    "duration": 2.84,
+    "text": "video. This is the fifth video in the"
+  },
+  {
+    "start": 6.76,
+    "duration": 3.32,
+    "text": "complete object-oriented programming"
+  },
+  {
+    "start": 8.12,
+    "duration": 3.96,
+    "text": "series. And we're doing a complete data"
+  },
+  {
+    "start": 10.08,
+    "duration": 2.88,
+    "text": "structures algorithms boot camp, so make"
+  },
+  {
+    "start": 12.08,
+    "duration": 2.16,
+    "text": "sure you check out the links in the"
+  },
+  {
+    "start": 12.96,
+    "duration": 3.32,
+    "text": "description. We've done some amazing"
+  },
+  {
+    "start": 14.24,
+    "duration": 4.08,
+    "text": "content. But let's move forward with a"
+  },
+  {
+    "start": 16.28,
+    "duration": 3.64,
+    "text": "very important topic. So we have already"
+  },
+  {
+    "start": 18.32,
+    "duration": 3.04,
+    "text": "learned about inheritance and all these"
+  },
+  {
+    "start": 19.92,
+    "duration": 2.84,
+    "text": "other things, okay? The link is in the"
+  },
+  {
+    "start": 21.36,
+    "duration": 2.92,
+    "text": "description. There's a separate"
+  },
+  {
+    "start": 22.76,
+    "duration": 2.72,
+    "text": "object-oriented programming playlist on"
+  },
+  {
+    "start": 24.28,
+    "duration": 3.6,
+    "text": "the channel. You can check it out the"
+  },
+  {
+    "start": 25.48,
+    "duration": 4.6,
+    "text": "previous videos. But now let's talk a"
+  },
+  {
+    "start": 27.88,
+    "duration": 4.12,
+    "text": "little bit more about the"
+  },
+  {
+    "start": 30.08,
+    "duration": 3.72,
+    "text": "problems we were facing in inheritance,"
+  },
+  {
+    "start": 32.0,
+    "duration": 3.0,
+    "text": "right? So the problem we was facing in"
+  },
+  {
+    "start": 33.8,
+    "duration": 2.92,
+    "text": "we were facing in the multiple"
+  },
+  {
+    "start": 35.0,
+    "duration": 3.04,
+    "text": "inheritance was that if you have a class"
+  },
+  {
+    "start": 36.72,
+    "duration": 3.36,
+    "text": "A,"
+  },
+  {
+    "start": 38.04,
+    "duration": 5.48,
+    "text": "you have a class A, this has a function"
+  },
+  {
+    "start": 40.08,
+    "duration": 5.48,
+    "text": "called fun. You have a class B."
+  },
+  {
+    "start": 43.52,
+    "duration": 3.92,
+    "text": "This also has a function called fun,"
+  },
+  {
+    "start": 45.56,
+    "duration": 4.08,
+    "text": "exactly like same function, but the body"
+  },
+  {
+    "start": 47.44,
+    "duration": 4.6,
+    "text": "is different, let's say. And you inherit"
+  },
+  {
+    "start": 49.64,
+    "duration": 6.2,
+    "text": "that in class C. Now you call an object"
+  },
+  {
+    "start": 52.04,
+    "duration": 5.84,
+    "text": "C dot fun. Now this will get confused."
+  },
+  {
+    "start": 55.84,
+    "duration": 4.28,
+    "text": "Should I call this one or should I call"
+  },
+  {
+    "start": 57.88,
+    "duration": 6.0,
+    "text": "this one? It will get confused."
+  },
+  {
+    "start": 60.12,
+    "duration": 3.76,
+    "text": "That's why Java does not support this."
+  },
+  {
+    "start": 64.36,
+    "duration": 3.4,
+    "text": "Multiple inheritance, okay?"
+  },
+  {
+    "start": 66.64,
+    "duration": 5.36,
+    "text": "Cool."
+  },
+  {
+    "start": 67.76,
+    "duration": 5.76,
+    "text": "But what I'm going to teach you now is"
+  },
+  {
+    "start": 72.0,
+    "duration": 5.44,
+    "text": "that let's say sometimes you want to"
+  },
+  {
+    "start": 73.52,
+    "duration": 6.6,
+    "text": "create a parent class, okay? So a parent"
+  },
+  {
+    "start": 77.44,
+    "duration": 5.84,
+    "text": "class like this that you want to create."
+  },
+  {
+    "start": 80.12,
+    "duration": 5.2,
+    "text": "So sometimes you want to just create a"
+  },
+  {
+    "start": 83.28,
+    "duration": 4.76,
+    "text": "parent class that just"
+  },
+  {
+    "start": 85.32,
+    "duration": 3.84,
+    "text": "tells us what to do and not how to do"
+  },
+  {
+    "start": 88.04,
+    "duration": 2.52,
+    "text": "it."
+  },
+  {
+    "start": 89.16,
+    "duration": 3.8,
+    "text": "Okay? So it will just give us a"
+  },
+  {
+    "start": 90.56,
+    "duration": 4.48,
+    "text": "generalized form that will be shared by"
+  },
+  {
+    "start": 92.96,
+    "duration": 4.16,
+    "text": "all the child classes."
+  },
+  {
+    "start": 95.04,
+    "duration": 3.76,
+    "text": "And parent class is going to be like,"
+  },
+  {
+    "start": 97.12,
+    "duration": 3.72,
+    "text": "\"Hey child class,"
+  },
+  {
+    "start": 98.8,
+    "duration": 3.76,
+    "text": "fill in the details yourself. Be what"
+  },
+  {
+    "start": 100.84,
+    "duration": 3.48,
+    "text": "you want.\" You know our parents tell us,"
+  },
+  {
+    "start": 102.56,
+    "duration": 3.56,
+    "text": "\"You can be what you want.\" So it will"
+  },
+  {
+    "start": 104.32,
+    "duration": 4.6,
+    "text": "give us a resource, okay? It will just"
+  },
+  {
+    "start": 106.12,
+    "duration": 4.48,
+    "text": "say, \"Here's a career resource.\""
+  },
+  {
+    "start": 108.92,
+    "duration": 4.0,
+    "text": "Okay? So there will be a parent class"
+  },
+  {
+    "start": 110.6,
+    "duration": 3.88,
+    "text": "like this."
+  },
+  {
+    "start": 112.92,
+    "duration": 5.28,
+    "text": "There's going to be a parent class like"
+  },
+  {
+    "start": 114.48,
+    "duration": 7.24,
+    "text": "this. Let's say this is a parent class."
+  },
+  {
+    "start": 118.2,
+    "duration": 3.52,
+    "text": "This is a function called carrier."
+  },
+  {
+    "start": 124.92,
+    "duration": 4.0,
+    "text": "This has a"
+  },
+  {
+    "start": 126.28,
+    "duration": 3.96,
+    "text": "function called"
+  },
+  {
+    "start": 128.92,
+    "duration": 3.28,
+    "text": "carrier."
+  },
+  {
+    "start": 130.24,
+    "duration": 4.76,
+    "text": "It takes in a few arguments."
+  },
+  {
+    "start": 132.2,
+    "duration": 4.759,
+    "text": "It takes in a few arguments like um"
+  },
+  {
+    "start": 135.0,
+    "duration": 4.4,
+    "text": "for example"
+  },
+  {
+    "start": 136.959,
+    "duration": 3.681,
+    "text": "you know, name of the carrier."
+  },
+  {
+    "start": 139.4,
+    "duration": 2.6,
+    "text": "That's it."
+  },
+  {
+    "start": 140.64,
+    "duration": 2.6,
+    "text": "That's the only argument it takes right"
+  },
+  {
+    "start": 142.0,
+    "duration": 4.16,
+    "text": "now."
+  },
+  {
+    "start": 143.24,
+    "duration": 5.48,
+    "text": "Okay? And it prints something."
+  },
+  {
+    "start": 146.16,
+    "duration": 3.96,
+    "text": "It's like set the name to"
+  },
+  {
+    "start": 148.72,
+    "duration": 4.0,
+    "text": "something."
+  },
+  {
+    "start": 150.12,
+    "duration": 3.56,
+    "text": "The something depends on you, okay?"
+  },
+  {
+    "start": 152.72,
+    "duration": 2.84,
+    "text": "So"
+  },
+  {
+    "start": 153.68,
+    "duration": 3.0,
+    "text": "this body or whatever things that are"
+  },
+  {
+    "start": 155.56,
+    "duration": 3.12,
+    "text": "happening, how you are doing your"
+  },
+  {
+    "start": 156.68,
+    "duration": 5.24,
+    "text": "carrier or whatever. So your parent has"
+  },
+  {
+    "start": 158.68,
+    "duration": 4.2,
+    "text": "given have given you a choice."
+  },
+  {
+    "start": 161.92,
+    "duration": 2.08,
+    "text": "So your parents are like this is a"
+  },
+  {
+    "start": 162.88,
+    "duration": 2.88,
+    "text": "function."
+  },
+  {
+    "start": 164.0,
+    "duration": 3.28,
+    "text": "Put the what you what you want your"
+  },
+  {
+    "start": 165.76,
+    "duration": 3.16,
+    "text": "carrier to be, that depends on you. I've"
+  },
+  {
+    "start": 167.28,
+    "duration": 3.2,
+    "text": "just given you an option."
+  },
+  {
+    "start": 168.92,
+    "duration": 3.32,
+    "text": "So any child class, let's say this is"
+  },
+  {
+    "start": 170.48,
+    "duration": 3.08,
+    "text": "going to be a child class."
+  },
+  {
+    "start": 172.24,
+    "duration": 3.84,
+    "text": "This child is going to be like there's a"
+  },
+  {
+    "start": 173.56,
+    "duration": 5.08,
+    "text": "carrier option for me."
+  },
+  {
+    "start": 176.08,
+    "duration": 5.6,
+    "text": "Okay? I will make my body. In my body I"
+  },
+  {
+    "start": 178.64,
+    "duration": 5.48,
+    "text": "will say name is equal to something like"
+  },
+  {
+    "start": 181.68,
+    "duration": 2.44,
+    "text": "coder."
+  },
+  {
+    "start": 184.2,
+    "duration": 2.72,
+    "text": "A second child"
+  },
+  {
+    "start": 185.88,
+    "duration": 2.28,
+    "text": "For a second child it's going to be"
+  },
+  {
+    "start": 186.92,
+    "duration": 4.039,
+    "text": "like, \"Oh, my parent has given me a"
+  },
+  {
+    "start": 188.16,
+    "duration": 4.2,
+    "text": "choice. Okay? Inside the body whatever"
+  },
+  {
+    "start": 190.959,
+    "duration": 2.441,
+    "text": "you want to do.\" Body is not given by"
+  },
+  {
+    "start": 192.36,
+    "duration": 3.08,
+    "text": "parent."
+  },
+  {
+    "start": 193.4,
+    "duration": 3.76,
+    "text": "What the what your carrier represents,"
+  },
+  {
+    "start": 195.44,
+    "duration": 3.96,
+    "text": "that depends on you. Means what the"
+  },
+  {
+    "start": 197.16,
+    "duration": 5.04,
+    "text": "function is actually doing, that depends"
+  },
+  {
+    "start": 199.4,
+    "duration": 6.04,
+    "text": "on the child classes or the children. So"
+  },
+  {
+    "start": 202.2,
+    "duration": 5.24,
+    "text": "you're like, \"Okay, my carrier"
+  },
+  {
+    "start": 205.44,
+    "duration": 3.32,
+    "text": "the body what it goes over here, that"
+  },
+  {
+    "start": 207.44,
+    "duration": 3.16,
+    "text": "depends on me.\""
+  },
+  {
+    "start": 208.76,
+    "duration": 3.64,
+    "text": "So example name is equal to doctor or"
+  },
+  {
+    "start": 210.6,
+    "duration": 4.08,
+    "text": "something."
+  },
+  {
+    "start": 212.4,
+    "duration": 5.36,
+    "text": "Okay? Something like that."
+  },
+  {
+    "start": 214.68,
+    "duration": 5.52,
+    "text": "So this is what is meant by like what we"
+  },
+  {
+    "start": 217.76,
+    "duration": 5.199,
+    "text": "mean when we say that uh"
+  },
+  {
+    "start": 220.2,
+    "duration": 5.319,
+    "text": "your super class, the parent class, is"
+  },
+  {
+    "start": 222.959,
+    "duration": 4.56,
+    "text": "only going to give us the function like"
+  },
+  {
+    "start": 225.519,
+    "duration": 4.841,
+    "text": "about it, like a generalized form for"
+  },
+  {
+    "start": 227.519,
+    "duration": 3.801,
+    "text": "it, not the body."
+  },
+  {
+    "start": 230.36,
+    "duration": 3.24,
+    "text": "Okay?"
+  },
+  {
+    "start": 231.32,
+    "duration": 4.56,
+    "text": "Not the body."
+  },
+  {
+    "start": 233.6,
+    "duration": 4.48,
+    "text": "So, such a class will determine the"
+  },
+  {
+    "start": 235.88,
+    "duration": 4.92,
+    "text": "nature of the methods"
+  },
+  {
+    "start": 238.08,
+    "duration": 4.6,
+    "text": "that the sub class must implement."
+  },
+  {
+    "start": 240.8,
+    "duration": 3.84,
+    "text": "It's not implementing the method. It's"
+  },
+  {
+    "start": 242.68,
+    "duration": 2.76,
+    "text": "just giving the name, the definition of"
+  },
+  {
+    "start": 244.64,
+    "duration": 2.76,
+    "text": "it."
+  },
+  {
+    "start": 245.44,
+    "duration": 6.0,
+    "text": "But not the body or anything."
+  },
+  {
+    "start": 247.4,
+    "duration": 4.04,
+    "text": "These are known as abstract methods."
+  },
+  {
+    "start": 251.76,
+    "duration": 3.0,
+    "text": "Okay?"
+  },
+  {
+    "start": 252.72,
+    "duration": 3.44,
+    "text": "So, for example, you have an abstract"
+  },
+  {
+    "start": 254.76,
+    "duration": 3.92,
+    "text": "method over here, abstract method over"
+  },
+  {
+    "start": 256.16,
+    "duration": 4.68,
+    "text": "here. Since this does not have a body,"
+  },
+  {
+    "start": 258.68,
+    "duration": 4.56,
+    "text": "what does it mean? It means that when"
+  },
+  {
+    "start": 260.84,
+    "duration": 4.96,
+    "text": "your function does not have a body, it"
+  },
+  {
+    "start": 263.24,
+    "duration": 6.2,
+    "text": "totally depends on the child classes to"
+  },
+  {
+    "start": 265.8,
+    "duration": 3.64,
+    "text": "provide the body for that function."
+  },
+  {
+    "start": 269.919,
+    "duration": 4.921,
+    "text": "Okay? So, now it does not depend on what"
+  },
+  {
+    "start": 272.16,
+    "duration": 5.8,
+    "text": "the body is here or here. It will define"
+  },
+  {
+    "start": 274.84,
+    "duration": 3.12,
+    "text": "the body for itself."
+  },
+  {
+    "start": 278.24,
+    "duration": 3.48,
+    "text": "Hence, and how can we do it? How can we"
+  },
+  {
+    "start": 280.28,
+    "duration": 2.88,
+    "text": "change the body of something that is in"
+  },
+  {
+    "start": 281.72,
+    "duration": 3.44,
+    "text": "the parent class? We have already done"
+  },
+  {
+    "start": 283.16,
+    "duration": 3.84,
+    "text": "this. We have already done this,"
+  },
+  {
+    "start": 285.16,
+    "duration": 5.12,
+    "text": "overriding."
+  },
+  {
+    "start": 287.0,
+    "duration": 5.68,
+    "text": "Okay? So, you may have method that"
+  },
+  {
+    "start": 290.28,
+    "duration": 4.44,
+    "text": "methods that must be overridden in the"
+  },
+  {
+    "start": 292.68,
+    "duration": 6.64,
+    "text": "child class in order for the child"
+  },
+  {
+    "start": 294.72,
+    "duration": 4.6,
+    "text": "class, you know, to have any meaning."
+  },
+  {
+    "start": 299.48,
+    "duration": 5.92,
+    "text": "Okay? So, you want to ensure"
+  },
+  {
+    "start": 302.48,
+    "duration": 5.64,
+    "text": "that the child class overrides all the"
+  },
+  {
+    "start": 305.4,
+    "duration": 6.12,
+    "text": "necessary methods."
+  },
+  {
+    "start": 308.12,
+    "duration": 4.96,
+    "text": "These are known as abstract methods."
+  },
+  {
+    "start": 311.52,
+    "duration": 2.52,
+    "text": "These are just some empty methods over"
+  },
+  {
+    "start": 313.08,
+    "duration": 3.56,
+    "text": "here."
+  },
+  {
+    "start": 314.04,
+    "duration": 5.8,
+    "text": "And child class, in order to use it,"
+  },
+  {
+    "start": 316.64,
+    "duration": 3.2,
+    "text": "would have to override it."
+  },
+  {
+    "start": 320.64,
+    "duration": 3.24,
+    "text": "Okay?"
+  },
+  {
+    "start": 322.48,
+    "duration": 3.56,
+    "text": "So, let's say your carrier returns"
+  },
+  {
+    "start": 323.88,
+    "duration": 5.4,
+    "text": "nothing. So, the format is something"
+  },
+  {
+    "start": 326.04,
+    "duration": 5.44,
+    "text": "like this. Abstract keyword."
+  },
+  {
+    "start": 329.28,
+    "duration": 3.88,
+    "text": "For to create a method into an abstract"
+  },
+  {
+    "start": 331.48,
+    "duration": 4.56,
+    "text": "method. Type."
+  },
+  {
+    "start": 333.16,
+    "duration": 5.64,
+    "text": "Let's say void. Name."
+  },
+  {
+    "start": 336.04,
+    "duration": 4.28,
+    "text": "Carrier. Parameters."
+  },
+  {
+    "start": 338.8,
+    "duration": 3.44,
+    "text": "String."
+  },
+  {
+    "start": 340.32,
+    "duration": 4.76,
+    "text": "Name."
+  },
+  {
+    "start": 342.24,
+    "duration": 4.88,
+    "text": "That's it. No curly brace or body."
+  },
+  {
+    "start": 345.08,
+    "duration": 3.68,
+    "text": "You're just defining it."
+  },
+  {
+    "start": 347.12,
+    "duration": 3.68,
+    "text": "So, these methods are sometimes like"
+  },
+  {
+    "start": 348.76,
+    "duration": 4.56,
+    "text": "referred to as the child classes"
+  },
+  {
+    "start": 350.8,
+    "duration": 4.32,
+    "text": "responsibility because there is no"
+  },
+  {
+    "start": 353.32,
+    "duration": 2.92,
+    "text": "implementation provided in the parent"
+  },
+  {
+    "start": 355.12,
+    "duration": 4.2,
+    "text": "class."
+  },
+  {
+    "start": 356.24,
+    "duration": 5.76,
+    "text": "Hence, the child class must override"
+  },
+  {
+    "start": 359.32,
+    "duration": 4.96,
+    "text": "them. It cannot simply use the"
+  },
+  {
+    "start": 362.0,
+    "duration": 3.8,
+    "text": "one defined in the parent class because"
+  },
+  {
+    "start": 364.28,
+    "duration": 4.36,
+    "text": "the one defined in the parent class does"
+  },
+  {
+    "start": 365.8,
+    "duration": 2.84,
+    "text": "not have any body."
+  },
+  {
+    "start": 369.24,
+    "duration": 3.6,
+    "text": "Okay?"
+  },
+  {
+    "start": 370.28,
+    "duration": 3.92,
+    "text": "And one more thing, any class, by the"
+  },
+  {
+    "start": 372.84,
+    "duration": 4.56,
+    "text": "way, I'll put all these notes in the"
+  },
+  {
+    "start": 374.2,
+    "duration": 5.84,
+    "text": "text file in the GitHub repository."
+  },
+  {
+    "start": 377.4,
+    "duration": 6.0,
+    "text": "Any class that contains one or more"
+  },
+  {
+    "start": 380.04,
+    "duration": 5.04,
+    "text": "abstract methods must also be declared"
+  },
+  {
+    "start": 383.4,
+    "duration": 4.16,
+    "text": "as abstract."
+  },
+  {
+    "start": 385.08,
+    "duration": 4.12,
+    "text": "Very important point. If a class"
+  },
+  {
+    "start": 387.56,
+    "duration": 4.24,
+    "text": "contains any one of the abstract"
+  },
+  {
+    "start": 389.2,
+    "duration": 4.76,
+    "text": "methods, it should also be declared as"
+  },
+  {
+    "start": 391.8,
+    "duration": 3.76,
+    "text": "abstract."
+  },
+  {
+    "start": 393.96,
+    "duration": 3.04,
+    "text": "Okay?"
+  },
+  {
+    "start": 395.56,
+    "duration": 2.92,
+    "text": "Let's try to code this and then I'll"
+  },
+  {
+    "start": 397.0,
+    "duration": 3.44,
+    "text": "tell you some rules and all these other"
+  },
+  {
+    "start": 398.48,
+    "duration": 4.08,
+    "text": "things. Okay? So, let me create another"
+  },
+  {
+    "start": 400.44,
+    "duration": 3.479,
+    "text": "like package over here, abstract demo or"
+  },
+  {
+    "start": 402.56,
+    "duration": 5.08,
+    "text": "something, ab"
+  },
+  {
+    "start": 403.919,
+    "duration": 5.761,
+    "text": "stract demo. Something like that. Create"
+  },
+  {
+    "start": 407.64,
+    "duration": 4.4,
+    "text": "a new Java class. Let's say I want to"
+  },
+  {
+    "start": 409.68,
+    "duration": 4.16,
+    "text": "create a Java class of like uh parent"
+  },
+  {
+    "start": 412.04,
+    "duration": 3.96,
+    "text": "only. Okay?"
+  },
+  {
+    "start": 413.84,
+    "duration": 5.079,
+    "text": "Parent."
+  },
+  {
+    "start": 416.0,
+    "duration": 4.52,
+    "text": "Okay? Something like that. So, parent"
+  },
+  {
+    "start": 418.919,
+    "duration": 3.681,
+    "text": "will give you a choice. Parent will be"
+  },
+  {
+    "start": 420.52,
+    "duration": 4.08,
+    "text": "like abstract"
+  },
+  {
+    "start": 422.6,
+    "duration": 4.44,
+    "text": "void"
+  },
+  {
+    "start": 424.6,
+    "duration": 6.16,
+    "text": "carrier"
+  },
+  {
+    "start": 427.04,
+    "duration": 6.4,
+    "text": "string name. That's it. Since if a class"
+  },
+  {
+    "start": 430.76,
+    "duration": 4.76,
+    "text": "contains more than one one or more than"
+  },
+  {
+    "start": 433.44,
+    "duration": 4.84,
+    "text": "one abstract methods, that class also"
+  },
+  {
+    "start": 435.52,
+    "duration": 3.84,
+    "text": "needs to be declared as abstract. Right?"
+  },
+  {
+    "start": 438.28,
+    "duration": 3.44,
+    "text": "So, I can"
+  },
+  {
+    "start": 439.36,
+    "duration": 4.04,
+    "text": "make parent abstract as well."
+  },
+  {
+    "start": 441.72,
+    "duration": 3.28,
+    "text": "I have to make it."
+  },
+  {
+    "start": 443.4,
+    "duration": 2.76,
+    "text": "I I'll go over the properties and"
+  },
+  {
+    "start": 445.0,
+    "duration": 3.919,
+    "text": "everything later on, but first let's"
+  },
+  {
+    "start": 446.16,
+    "duration": 4.84,
+    "text": "look into the implementation of it. I'll"
+  },
+  {
+    "start": 448.919,
+    "duration": 5.241,
+    "text": "create a main one."
+  },
+  {
+    "start": 451.0,
+    "duration": 5.04,
+    "text": "Okay? And I'll create a class called"
+  },
+  {
+    "start": 454.16,
+    "duration": 3.28,
+    "text": "son."
+  },
+  {
+    "start": 456.04,
+    "duration": 2.84,
+    "text": "Something like that."
+  },
+  {
+    "start": 457.44,
+    "duration": 2.92,
+    "text": "Now, notice something."
+  },
+  {
+    "start": 458.88,
+    "duration": 2.92,
+    "text": "This is a parent class, this is a son"
+  },
+  {
+    "start": 460.36,
+    "duration": 2.88,
+    "text": "class. This is obviously going to"
+  },
+  {
+    "start": 461.8,
+    "duration": 3.4,
+    "text": "inherit the parent class and obviously"
+  },
+  {
+    "start": 463.24,
+    "duration": 3.56,
+    "text": "parent class contains an abstract method"
+  },
+  {
+    "start": 465.2,
+    "duration": 4.72,
+    "text": "and I just told you"
+  },
+  {
+    "start": 466.8,
+    "duration": 5.4,
+    "text": "I just told you that every child class"
+  },
+  {
+    "start": 469.92,
+    "duration": 4.44,
+    "text": "has to override all the abstract methods"
+  },
+  {
+    "start": 472.2,
+    "duration": 3.84,
+    "text": "in the parent class. Let's try to see."
+  },
+  {
+    "start": 474.36,
+    "duration": 4.12,
+    "text": "Extends"
+  },
+  {
+    "start": 476.04,
+    "duration": 4.2,
+    "text": "parent. Why? For obvious reasons."
+  },
+  {
+    "start": 478.48,
+    "duration": 3.6,
+    "text": "Because the method in the parent class"
+  },
+  {
+    "start": 480.24,
+    "duration": 3.96,
+    "text": "does not have any body. That's why it's"
+  },
+  {
+    "start": 482.08,
+    "duration": 3.8,
+    "text": "giving an error. It's saying sun must"
+  },
+  {
+    "start": 484.2,
+    "duration": 3.0,
+    "text": "either be declared abstract or implement"
+  },
+  {
+    "start": 485.88,
+    "duration": 3.12,
+    "text": "the abstract methods in the parent"
+  },
+  {
+    "start": 487.2,
+    "duration": 4.04,
+    "text": "class. Okay?"
+  },
+  {
+    "start": 489.0,
+    "duration": 5.24,
+    "text": "I'll also give one more thing uh career"
+  },
+  {
+    "start": 491.24,
+    "duration": 4.64,
+    "text": "and uh partner. Something like this."
+  },
+  {
+    "start": 494.24,
+    "duration": 2.679,
+    "text": "Okay?"
+  },
+  {
+    "start": 495.88,
+    "duration": 3.2,
+    "text": "Parents are like you choose your"
+  },
+  {
+    "start": 496.919,
+    "duration": 6.041,
+    "text": "partner. Okay?"
+  },
+  {
+    "start": 499.08,
+    "duration": 7.04,
+    "text": "Partner name and"
+  },
+  {
+    "start": 502.96,
+    "duration": 4.04,
+    "text": "uh something like um age. Okay? That's"
+  },
+  {
+    "start": 506.12,
+    "duration": 2.04,
+    "text": "it."
+  },
+  {
+    "start": 507.0,
+    "duration": 3.32,
+    "text": "So, now they're going to be like they"
+  },
+  {
+    "start": 508.16,
+    "duration": 3.999,
+    "text": "contains two abstract methods."
+  },
+  {
+    "start": 510.32,
+    "duration": 3.12,
+    "text": "Please try to you know uh declare"
+  },
+  {
+    "start": 512.159,
+    "duration": 3.44,
+    "text": "implement those. So, they're going to be"
+  },
+  {
+    "start": 513.44,
+    "duration": 3.44,
+    "text": "like yeah, sure. No worries."
+  },
+  {
+    "start": 515.599,
+    "duration": 3.12,
+    "text": "I'll do that."
+  },
+  {
+    "start": 516.88,
+    "duration": 3.88,
+    "text": "So, it's overriding it. I've already We"
+  },
+  {
+    "start": 518.719,
+    "duration": 3.281,
+    "text": "have already learned about overriding."
+  },
+  {
+    "start": 520.76,
+    "duration": 3.48,
+    "text": "Right? We already learned about"
+  },
+  {
+    "start": 522.0,
+    "duration": 3.68,
+    "text": "polymorphism uh runtime polymorphism and"
+  },
+  {
+    "start": 524.24,
+    "duration": 3.28,
+    "text": "stuff. Already learned about this in"
+  },
+  {
+    "start": 525.68,
+    "duration": 3.56,
+    "text": "detail. Already we have covered"
+  },
+  {
+    "start": 527.52,
+    "duration": 4.28,
+    "text": "overriding. That's exactly the same"
+  },
+  {
+    "start": 529.24,
+    "duration": 3.56,
+    "text": "thing happening over here."
+  },
+  {
+    "start": 531.8,
+    "duration": 2.64,
+    "text": "Okay?"
+  },
+  {
+    "start": 532.8,
+    "duration": 6.48,
+    "text": "Sun is going to be like"
+  },
+  {
+    "start": 534.44,
+    "duration": 6.8,
+    "text": "um I am going to be a"
+  },
+  {
+    "start": 539.28,
+    "duration": 2.92,
+    "text": "doctor or something."
+  },
+  {
+    "start": 541.24,
+    "duration": 3.68,
+    "text": "Okay?"
+  },
+  {
+    "start": 542.2,
+    "duration": 2.72,
+    "text": "And um"
+  },
+  {
+    "start": 545.24,
+    "duration": 3.44,
+    "text": "something like"
+  },
+  {
+    "start": 546.96,
+    "duration": 3.879,
+    "text": "I love"
+  },
+  {
+    "start": 548.68,
+    "duration": 2.159,
+    "text": "um"
+  },
+  {
+    "start": 551.16,
+    "duration": 4.04,
+    "text": "whom?"
+  },
+  {
+    "start": 552.28,
+    "duration": 2.92,
+    "text": "Any random name."
+  },
+  {
+    "start": 555.88,
+    "duration": 2.68,
+    "text": "Um"
+  },
+  {
+    "start": 562.32,
+    "duration": 2.84,
+    "text": "I'm going to be not a doctor. I'm just"
+  },
+  {
+    "start": 563.839,
+    "duration": 2.361,
+    "text": "going to say"
+  },
+  {
+    "start": 565.16,
+    "duration": 1.88,
+    "text": "name."
+  },
+  {
+    "start": 566.2,
+    "duration": 5.6,
+    "text": "Right?"
+  },
+  {
+    "start": 567.04,
+    "duration": 4.76,
+    "text": "I love name plus"
+  },
+  {
+    "start": 575.4,
+    "duration": 4.04,
+    "text": "she is"
+  },
+  {
+    "start": 578.2,
+    "duration": 3.28,
+    "text": "age."
+  },
+  {
+    "start": 579.44,
+    "duration": 5.16,
+    "text": "Okay? Something like that. Similarly, I"
+  },
+  {
+    "start": 581.48,
+    "duration": 3.12,
+    "text": "can create a daughter."
+  },
+  {
+    "start": 585.28,
+    "duration": 3.68,
+    "text": "Something like this, right?"
+  },
+  {
+    "start": 587.2,
+    "duration": 3.96,
+    "text": "So, daughter can be, you know, it can be"
+  },
+  {
+    "start": 588.96,
+    "duration": 6.04,
+    "text": "anything. I'm going to be a name. I love"
+  },
+  {
+    "start": 591.16,
+    "duration": 6.48,
+    "text": "this. Um he is something like that. No"
+  },
+  {
+    "start": 595.0,
+    "duration": 4.64,
+    "text": "problem. That's it."
+  },
+  {
+    "start": 597.64,
+    "duration": 3.56,
+    "text": "Whatever things I just told you that"
+  },
+  {
+    "start": 599.64,
+    "duration": 3.24,
+    "text": "parent class will have some abstract"
+  },
+  {
+    "start": 601.2,
+    "duration": 4.0,
+    "text": "methods. Class would have to be need to"
+  },
+  {
+    "start": 602.88,
+    "duration": 4.0,
+    "text": "declared as abstract. Now,"
+  },
+  {
+    "start": 605.2,
+    "duration": 3.76,
+    "text": "all the child classes would have to"
+  },
+  {
+    "start": 606.88,
+    "duration": 3.84,
+    "text": "override these methods."
+  },
+  {
+    "start": 608.96,
+    "duration": 3.56,
+    "text": "Okay? So, sometimes now don't ask me"
+  },
+  {
+    "start": 610.72,
+    "duration": 3.04,
+    "text": "question like Kunal, that is fine. We"
+  },
+  {
+    "start": 612.52,
+    "duration": 3.44,
+    "text": "are doing this."
+  },
+  {
+    "start": 613.76,
+    "duration": 3.8,
+    "text": "Uh it's pretty simple, Kunal, that uh"
+  },
+  {
+    "start": 615.96,
+    "duration": 3.6,
+    "text": "whatever the parent class may contain"
+  },
+  {
+    "start": 617.56,
+    "duration": 3.44,
+    "text": "any abstract methods, we would have to"
+  },
+  {
+    "start": 619.56,
+    "duration": 2.96,
+    "text": "like, you know, override those over"
+  },
+  {
+    "start": 621.0,
+    "duration": 2.96,
+    "text": "here. We understand that. We have"
+  },
+  {
+    "start": 622.52,
+    "duration": 3.12,
+    "text": "already learned about overriding and"
+  },
+  {
+    "start": 623.96,
+    "duration": 3.0,
+    "text": "everything. No worries. The only thing"
+  },
+  {
+    "start": 625.64,
+    "duration": 3.52,
+    "text": "difference is that you are not providing"
+  },
+  {
+    "start": 626.96,
+    "duration": 4.6,
+    "text": "a body over here. But why are we doing"
+  },
+  {
+    "start": 629.16,
+    "duration": 4.12,
+    "text": "this? What's the use case? Well, it"
+  },
+  {
+    "start": 631.56,
+    "duration": 3.92,
+    "text": "looks much more cleaner."
+  },
+  {
+    "start": 633.28,
+    "duration": 5.44,
+    "text": "If you definitely know"
+  },
+  {
+    "start": 635.48,
+    "duration": 4.84,
+    "text": "if you definitely know that the"
+  },
+  {
+    "start": 638.72,
+    "duration": 3.68,
+    "text": "functions that are the methods that are"
+  },
+  {
+    "start": 640.32,
+    "duration": 3.72,
+    "text": "in the parent class needs to be"
+  },
+  {
+    "start": 642.4,
+    "duration": 2.88,
+    "text": "overridden, then just make those"
+  },
+  {
+    "start": 644.04,
+    "duration": 3.0,
+    "text": "abstract."
+  },
+  {
+    "start": 645.28,
+    "duration": 3.28,
+    "text": "That's the reason. An example is right"
+  },
+  {
+    "start": 647.04,
+    "duration": 3.24,
+    "text": "in front of you. I'll give a real world"
+  },
+  {
+    "start": 648.56,
+    "duration": 3.92,
+    "text": "example as well. Let's all talk about"
+  },
+  {
+    "start": 650.28,
+    "duration": 3.36,
+    "text": "cars, for example. So, every single car"
+  },
+  {
+    "start": 652.48,
+    "duration": 2.92,
+    "text": "will have a different engine. We'll"
+  },
+  {
+    "start": 653.64,
+    "duration": 3.36,
+    "text": "create a main engine class, and that"
+  },
+  {
+    "start": 655.4,
+    "duration": 3.48,
+    "text": "will be dependent on different different"
+  },
+  {
+    "start": 657.0,
+    "duration": 4.4,
+    "text": "engines. Okay? I'll give you an example"
+  },
+  {
+    "start": 658.88,
+    "duration": 5.44,
+    "text": "for that as well in a in a little while."
+  },
+  {
+    "start": 661.4,
+    "duration": 4.52,
+    "text": "So, let's first try to run this thing."
+  },
+  {
+    "start": 664.32,
+    "duration": 5.72,
+    "text": "Public static void main. I'm going to"
+  },
+  {
+    "start": 665.92,
+    "duration": 5.64,
+    "text": "say son son is equal to"
+  },
+  {
+    "start": 670.04,
+    "duration": 2.84,
+    "text": "new son."
+  },
+  {
+    "start": 671.56,
+    "duration": 2.96,
+    "text": "Something like that. And then I'm going"
+  },
+  {
+    "start": 672.88,
+    "duration": 3.84,
+    "text": "to say son dot,"
+  },
+  {
+    "start": 674.52,
+    "duration": 5.44,
+    "text": "you know, career. I'm going to be let's"
+  },
+  {
+    "start": 676.72,
+    "duration": 3.24,
+    "text": "say a doctor."
+  },
+  {
+    "start": 682.68,
+    "duration": 5.2,
+    "text": "Doctor."
+  },
+  {
+    "start": 684.52,
+    "duration": 3.36,
+    "text": "Okay? And then I say"
+  },
+  {
+    "start": 688.08,
+    "duration": 4.16,
+    "text": "daughter"
+  },
+  {
+    "start": 689.839,
+    "duration": 4.041,
+    "text": "daughter is equal to new"
+  },
+  {
+    "start": 692.24,
+    "duration": 5.88,
+    "text": "daughter"
+  },
+  {
+    "start": 693.88,
+    "duration": 4.24,
+    "text": "then I can say daughter.career"
+  },
+  {
+    "start": 699.0,
+    "duration": 2.84,
+    "text": "Wait a minute."
+  },
+  {
+    "start": 700.64,
+    "duration": 2.68,
+    "text": "No."
+  },
+  {
+    "start": 701.84,
+    "duration": 2.8,
+    "text": "It does not really make sense because"
+  },
+  {
+    "start": 703.32,
+    "duration": 2.8,
+    "text": "the"
+  },
+  {
+    "start": 704.64,
+    "duration": 3.16,
+    "text": "This is literally the same. So, I'm just"
+  },
+  {
+    "start": 706.12,
+    "duration": 4.8,
+    "text": "going to What I'm going to do is I'm"
+  },
+  {
+    "start": 707.8,
+    "duration": 4.88,
+    "text": "going to remove this from here."
+  },
+  {
+    "start": 710.92,
+    "duration": 3.72,
+    "text": "Okay? You'll be like Kunal, the function"
+  },
+  {
+    "start": 712.68,
+    "duration": 3.8,
+    "text": "body is like them like the"
+  },
+  {
+    "start": 714.64,
+    "duration": 3.92,
+    "text": "it's literally the same. So,"
+  },
+  {
+    "start": 716.48,
+    "duration": 4.4,
+    "text": "how are you doing it? Let me just remove"
+  },
+  {
+    "start": 718.56,
+    "duration": 3.8,
+    "text": "this and I'll just put this over here."
+  },
+  {
+    "start": 720.88,
+    "duration": 4.2,
+    "text": "I'm going to be a Now, you will know"
+  },
+  {
+    "start": 722.36,
+    "duration": 6.04,
+    "text": "which one is running, right?"
+  },
+  {
+    "start": 725.08,
+    "duration": 5.92,
+    "text": "Uh I love something like um"
+  },
+  {
+    "start": 728.4,
+    "duration": 2.6,
+    "text": "um"
+  },
+  {
+    "start": 734.84,
+    "duration": 4.6,
+    "text": "What do I put here? I have no idea."
+  },
+  {
+    "start": 736.88,
+    "duration": 5.16,
+    "text": "Um let me just uh"
+  },
+  {
+    "start": 739.44,
+    "duration": 5.28,
+    "text": "remove this for a while."
+  },
+  {
+    "start": 742.04,
+    "duration": 4.4,
+    "text": "Override it."
+  },
+  {
+    "start": 744.72,
+    "duration": 3.08,
+    "text": "I want to be let's say daughter daughter"
+  },
+  {
+    "start": 746.44,
+    "duration": 2.52,
+    "text": "wants to be a"
+  },
+  {
+    "start": 747.8,
+    "duration": 5.04,
+    "text": "coder."
+  },
+  {
+    "start": 748.96,
+    "duration": 3.88,
+    "text": "Um I love"
+  },
+  {
+    "start": 755.24,
+    "duration": 3.48,
+    "text": "Iron Man."
+  },
+  {
+    "start": 757.2,
+    "duration": 3.12,
+    "text": "Okay?"
+  },
+  {
+    "start": 758.72,
+    "duration": 3.96,
+    "text": "Something like this."
+  },
+  {
+    "start": 760.32,
+    "duration": 4.4,
+    "text": "And son is going to be like, I love"
+  },
+  {
+    "start": 762.68,
+    "duration": 2.04,
+    "text": "um"
+  },
+  {
+    "start": 767.24,
+    "duration": 4.68,
+    "text": "Pepper Potts. Okay? Sounds good?"
+  },
+  {
+    "start": 770.48,
+    "duration": 3.44,
+    "text": "Cool."
+  },
+  {
+    "start": 771.92,
+    "duration": 3.36,
+    "text": "So, this makes sense now."
+  },
+  {
+    "start": 773.92,
+    "duration": 2.0,
+    "text": "And"
+  },
+  {
+    "start": 775.28,
+    "duration": 4.0,
+    "text": "um"
+  },
+  {
+    "start": 775.92,
+    "duration": 3.36,
+    "text": "see if there's any"
+  },
+  {
+    "start": 786.16,
+    "duration": 3.52,
+    "text": "Don't need this."
+  },
+  {
+    "start": 788.2,
+    "duration": 3.92,
+    "text": "Don't need this."
+  },
+  {
+    "start": 789.68,
+    "duration": 5.12,
+    "text": "Okay? Son.career daughter.career. So, if"
+  },
+  {
+    "start": 792.12,
+    "duration": 4.6,
+    "text": "I run this, when I run son.career, it's"
+  },
+  {
+    "start": 794.8,
+    "duration": 3.16,
+    "text": "obviously going to run the son's career,"
+  },
+  {
+    "start": 796.72,
+    "duration": 2.4,
+    "text": "this one. And when I run"
+  },
+  {
+    "start": 797.96,
+    "duration": 3.16,
+    "text": "daughter.career, it'll run the"
+  },
+  {
+    "start": 799.12,
+    "duration": 4.44,
+    "text": "daughter's career. This is very simple"
+  },
+  {
+    "start": 801.12,
+    "duration": 4.32,
+    "text": "because it's just simple overriding, run"
+  },
+  {
+    "start": 803.56,
+    "duration": 3.32,
+    "text": "run time polymorphism or whatever. I'm"
+  },
+  {
+    "start": 805.44,
+    "duration": 3.88,
+    "text": "going to be a doctor. I'm going to be"
+  },
+  {
+    "start": 806.88,
+    "duration": 4.12,
+    "text": "coder. No problem. Exactly the same. The"
+  },
+  {
+    "start": 809.32,
+    "duration": 3.68,
+    "text": "only thing difference is that here I'm"
+  },
+  {
+    "start": 811.0,
+    "duration": 3.88,
+    "text": "just adding some abstract methods. It's"
+  },
+  {
+    "start": 813.0,
+    "duration": 3.0,
+    "text": "exactly the same as overriding. In"
+  },
+  {
+    "start": 814.88,
+    "duration": 2.56,
+    "text": "detail, I've explained to you the"
+  },
+  {
+    "start": 816.0,
+    "duration": 3.12,
+    "text": "dynamic method dispatch and everything"
+  },
+  {
+    "start": 817.44,
+    "duration": 3.52,
+    "text": "in the overriding video, the object"
+  },
+  {
+    "start": 819.12,
+    "duration": 3.2,
+    "text": "oriented programming properties video."
+  },
+  {
+    "start": 820.96,
+    "duration": 3.0,
+    "text": "Please check it out."
+  },
+  {
+    "start": 822.32,
+    "duration": 3.32,
+    "text": "Okay?"
+  },
+  {
+    "start": 823.96,
+    "duration": 3.12,
+    "text": "Cool. So, this is already explained in"
+  },
+  {
+    "start": 825.64,
+    "duration": 2.8,
+    "text": "the overriding video. This is actually"
+  },
+  {
+    "start": 827.08,
+    "duration": 3.04,
+    "text": "overriding it."
+  },
+  {
+    "start": 828.44,
+    "duration": 3.56,
+    "text": "Okay. So, this is what I meant by"
+  },
+  {
+    "start": 830.12,
+    "duration": 3.72,
+    "text": "abstract classes."
+  },
+  {
+    "start": 832.0,
+    "duration": 3.76,
+    "text": "Uh this is a basic example of it. Like"
+  },
+  {
+    "start": 833.84,
+    "duration": 4.28,
+    "text": "you would have some uh abstract methods"
+  },
+  {
+    "start": 835.76,
+    "duration": 4.52,
+    "text": "over here and then you will have just"
+  },
+  {
+    "start": 838.12,
+    "duration": 3.76,
+    "text": "your uh you would have to override those"
+  },
+  {
+    "start": 840.28,
+    "duration": 3.48,
+    "text": "in the"
+  },
+  {
+    "start": 841.88,
+    "duration": 4.16,
+    "text": "child classes."
+  },
+  {
+    "start": 843.76,
+    "duration": 3.8,
+    "text": "Okay? Now, let's do a deep dive into"
+  },
+  {
+    "start": 846.04,
+    "duration": 3.64,
+    "text": "this. Now, another question you may have"
+  },
+  {
+    "start": 847.56,
+    "duration": 3.68,
+    "text": "is, \"Kunal, can we have uh variables"
+  },
+  {
+    "start": 849.68,
+    "duration": 5.2,
+    "text": "over here?\""
+  },
+  {
+    "start": 851.24,
+    "duration": 5.36,
+    "text": "Sure. No problem. int age"
+  },
+  {
+    "start": 854.88,
+    "duration": 3.2,
+    "text": "That's it. You would have to assign it"
+  },
+  {
+    "start": 856.6,
+    "duration": 4.76,
+    "text": "over here, somewhere over here. Let's"
+  },
+  {
+    "start": 858.08,
+    "duration": 4.68,
+    "text": "say if I create a constructor."
+  },
+  {
+    "start": 861.36,
+    "duration": 3.08,
+    "text": "Okay. If I create a"
+  },
+  {
+    "start": 862.76,
+    "duration": 3.2,
+    "text": "If I create a constructor over here,"
+  },
+  {
+    "start": 864.44,
+    "duration": 3.52,
+    "text": "constructor"
+  },
+  {
+    "start": 865.96,
+    "duration": 6.72,
+    "text": "and it's just going to pass"
+  },
+  {
+    "start": 867.96,
+    "duration": 8.84,
+    "text": "int age. this.age is equal to age."
+  },
+  {
+    "start": 872.68,
+    "duration": 4.12,
+    "text": "Okay? Something like that."
+  },
+  {
+    "start": 876.88,
+    "duration": 3.72,
+    "text": "Now, I'll have to put some age over"
+  },
+  {
+    "start": 878.12,
+    "duration": 6.0,
+    "text": "here, 30."
+  },
+  {
+    "start": 880.6,
+    "duration": 3.52,
+    "text": "Okay? Similarly for daughter."
+  },
+  {
+    "start": 887.32,
+    "duration": 5.6,
+    "text": "daughter"
+  },
+  {
+    "start": 889.32,
+    "duration": 3.6,
+    "text": "daughter as well."
+  },
+  {
+    "start": 893.04,
+    "duration": 6.04,
+    "text": "28, something like that."
+  },
+  {
+    "start": 895.92,
+    "duration": 5.96,
+    "text": "You can do that. No worries at all."
+  },
+  {
+    "start": 899.08,
+    "duration": 3.8,
+    "text": "Right? Just the simple stuff."
+  },
+  {
+    "start": 901.88,
+    "duration": 2.92,
+    "text": "Okay?"
+  },
+  {
+    "start": 902.88,
+    "duration": 4.84,
+    "text": "But, can we create constructor of an"
+  },
+  {
+    "start": 904.8,
+    "duration": 2.92,
+    "text": "abstract class?"
+  },
+  {
+    "start": 910.48,
+    "duration": 4.2,
+    "text": "It's allowing us to do that like this."
+  },
+  {
+    "start": 912.72,
+    "duration": 3.4,
+    "text": "Okay? No problem because this is"
+  },
+  {
+    "start": 914.68,
+    "duration": 3.6,
+    "text": "actually just allowing us to because we"
+  },
+  {
+    "start": 916.12,
+    "duration": 4.719,
+    "text": "can call this constructor by the like"
+  },
+  {
+    "start": 918.28,
+    "duration": 5.08,
+    "text": "over here you can see using the super"
+  },
+  {
+    "start": 920.839,
+    "duration": 4.441,
+    "text": "keyword. Okay? So, here I can just add"
+  },
+  {
+    "start": 923.36,
+    "duration": 4.32,
+    "text": "my age or whatever."
+  },
+  {
+    "start": 925.28,
+    "duration": 4.8,
+    "text": "I can remove this. I can just pass the"
+  },
+  {
+    "start": 927.68,
+    "duration": 3.6,
+    "text": "age over here like this."
+  },
+  {
+    "start": 930.08,
+    "duration": 2.56,
+    "text": "Okay?"
+  },
+  {
+    "start": 931.28,
+    "duration": 3.48,
+    "text": "Something like that."
+  },
+  {
+    "start": 932.64,
+    "duration": 4.84,
+    "text": "That is also totally fine. Cuz in the"
+  },
+  {
+    "start": 934.76,
+    "duration": 3.64,
+    "text": "end it's just doing this.age only."
+  },
+  {
+    "start": 937.48,
+    "duration": 2.76,
+    "text": "Okay?"
+  },
+  {
+    "start": 938.4,
+    "duration": 3.08,
+    "text": "Can you call this constructor? Let's try"
+  },
+  {
+    "start": 940.24,
+    "duration": 3.32,
+    "text": "to do that."
+  },
+  {
+    "start": 941.48,
+    "duration": 4.64,
+    "text": "Let's try to say something like"
+  },
+  {
+    "start": 943.56,
+    "duration": 5.6,
+    "text": "parent"
+  },
+  {
+    "start": 946.12,
+    "duration": 5.64,
+    "text": "mom is equal to new"
+  },
+  {
+    "start": 949.16,
+    "duration": 2.6,
+    "text": "parent."
+  },
+  {
+    "start": 953.56,
+    "duration": 4.12,
+    "text": "Error."
+  },
+  {
+    "start": 955.64,
+    "duration": 4.04,
+    "text": "So, you cannot create objects of an"
+  },
+  {
+    "start": 957.68,
+    "duration": 4.16,
+    "text": "abstract class."
+  },
+  {
+    "start": 959.68,
+    "duration": 4.44,
+    "text": "You can't create objects of an abstract"
+  },
+  {
+    "start": 961.84,
+    "duration": 3.24,
+    "text": "class."
+  },
+  {
+    "start": 964.12,
+    "duration": 2.2,
+    "text": "Okay?"
+  },
+  {
+    "start": 965.08,
+    "duration": 3.0,
+    "text": "So, here you can see that you cannot"
+  },
+  {
+    "start": 966.32,
+    "duration": 3.84,
+    "text": "create an object of an abstract class."
+  },
+  {
+    "start": 968.08,
+    "duration": 4.56,
+    "text": "It's asking you to implement the methods"
+  },
+  {
+    "start": 970.16,
+    "duration": 4.4,
+    "text": "while you are creating it like this."
+  },
+  {
+    "start": 972.64,
+    "duration": 3.32,
+    "text": "It's asking you to do that."
+  },
+  {
+    "start": 974.56,
+    "duration": 3.68,
+    "text": "Over here."
+  },
+  {
+    "start": 975.96,
+    "duration": 4.24,
+    "text": "Okay? But still it's saying"
+  },
+  {
+    "start": 978.24,
+    "duration": 4.16,
+    "text": "error."
+  },
+  {
+    "start": 980.2,
+    "duration": 3.56,
+    "text": "Error. Like this. I mean, this is fine."
+  },
+  {
+    "start": 982.4,
+    "duration": 3.76,
+    "text": "I mean, I have to"
+  },
+  {
+    "start": 983.76,
+    "duration": 3.12,
+    "text": "add some age over here or whatever, but"
+  },
+  {
+    "start": 986.16,
+    "duration": 2.28,
+    "text": "uh"
+  },
+  {
+    "start": 986.88,
+    "duration": 3.6,
+    "text": "you get the idea. You can't just"
+  },
+  {
+    "start": 988.44,
+    "duration": 3.52,
+    "text": "directly like create a object of this."
+  },
+  {
+    "start": 990.48,
+    "duration": 4.76,
+    "text": "It's actually not allowing me. It's"
+  },
+  {
+    "start": 991.96,
+    "duration": 5.36,
+    "text": "actually saying, \"Please override it.\""
+  },
+  {
+    "start": 995.24,
+    "duration": 4.76,
+    "text": "Okay? For For abstract classes, you"
+  },
+  {
+    "start": 997.32,
+    "duration": 3.84,
+    "text": "cannot create objects like this."
+  },
+  {
+    "start": 1000.0,
+    "duration": 2.44,
+    "text": "Okay?"
+  },
+  {
+    "start": 1001.16,
+    "duration": 2.84,
+    "text": "Another point I would like to mention,"
+  },
+  {
+    "start": 1002.44,
+    "duration": 3.32,
+    "text": "I'm going to leave with you some really"
+  },
+  {
+    "start": 1004.0,
+    "duration": 4.68,
+    "text": "amazing points now. Can you create"
+  },
+  {
+    "start": 1005.76,
+    "duration": 4.96,
+    "text": "abstract constructors?"
+  },
+  {
+    "start": 1008.68,
+    "duration": 6.0,
+    "text": "Can we create abstract constructors?"
+  },
+  {
+    "start": 1010.72,
+    "duration": 3.96,
+    "text": "Abstract constructors."
+  },
+  {
+    "start": 1017.52,
+    "duration": 3.56,
+    "text": "No."
+  },
+  {
+    "start": 1019.52,
+    "duration": 3.0,
+    "text": "Abstract construc- constructors are not"
+  },
+  {
+    "start": 1021.08,
+    "duration": 3.56,
+    "text": "allowed."
+  },
+  {
+    "start": 1022.52,
+    "duration": 3.439,
+    "text": "Can you create abstract set- Now, one"
+  },
+  {
+    "start": 1024.64,
+    "duration": 4.0,
+    "text": "more thing I would like to share. Since"
+  },
+  {
+    "start": 1025.959,
+    "duration": 4.841,
+    "text": "you cannot create an object of abstract"
+  },
+  {
+    "start": 1028.64,
+    "duration": 3.76,
+    "text": "class. Okay? So, this is an important"
+  },
+  {
+    "start": 1030.8,
+    "duration": 3.039,
+    "text": "point. You cannot create objects of"
+  },
+  {
+    "start": 1032.4,
+    "duration": 2.439,
+    "text": "abstract classes."
+  },
+  {
+    "start": 1033.839,
+    "duration": 2.6,
+    "text": "Okay?"
+  },
+  {
+    "start": 1034.839,
+    "duration": 3.881,
+    "text": "So, if If cannot Why can't we create"
+  },
+  {
+    "start": 1036.439,
+    "duration": 4.561,
+    "text": "objects of abstract classes?"
+  },
+  {
+    "start": 1038.72,
+    "duration": 4.04,
+    "text": "Because this if you are able to create"
+  },
+  {
+    "start": 1041.0,
+    "duration": 3.28,
+    "text": "an object of parent class and you try to"
+  },
+  {
+    "start": 1042.76,
+    "duration": 3.199,
+    "text": "call the carrier one, it will give you"
+  },
+  {
+    "start": 1044.28,
+    "duration": 3.12,
+    "text": "an error. It will be like, \"Hey, it is"
+  },
+  {
+    "start": 1045.959,
+    "duration": 3.681,
+    "text": "does not have anybody. How can I call"
+  },
+  {
+    "start": 1047.4,
+    "duration": 2.24,
+    "text": "it?\""
+  },
+  {
+    "start": 1049.72,
+    "duration": 3.6,
+    "text": "Right? So, you cannot create objects of"
+  },
+  {
+    "start": 1051.92,
+    "duration": 2.72,
+    "text": "abstract classes."
+  },
+  {
+    "start": 1053.32,
+    "duration": 5.68,
+    "text": "Similarly, for the same reason, you"
+  },
+  {
+    "start": 1054.64,
+    "duration": 6.64,
+    "text": "cannot create abstract constructors."
+  },
+  {
+    "start": 1059.0,
+    "duration": 4.8,
+    "text": "Okay? Can you create abstract static"
+  },
+  {
+    "start": 1061.28,
+    "duration": 2.52,
+    "text": "methods?"
+  },
+  {
+    "start": 1064.32,
+    "duration": 4.6,
+    "text": "Do static methods get overridden?"
+  },
+  {
+    "start": 1067.92,
+    "duration": 2.08,
+    "text": "No."
+  },
+  {
+    "start": 1068.92,
+    "duration": 4.08,
+    "text": "Then what is the point of creating"
+  },
+  {
+    "start": 1070.0,
+    "duration": 4.6,
+    "text": "abstract static methods?"
+  },
+  {
+    "start": 1073.0,
+    "duration": 3.84,
+    "text": "Abstract methods are what? That needs to"
+  },
+  {
+    "start": 1074.6,
+    "duration": 4.16,
+    "text": "be overridden. Static methods cannot be"
+  },
+  {
+    "start": 1076.84,
+    "duration": 4.36,
+    "text": "overridden. So, can you create abstract"
+  },
+  {
+    "start": 1078.76,
+    "duration": 4.76,
+    "text": "static methods? No."
+  },
+  {
+    "start": 1081.2,
+    "duration": 2.32,
+    "text": "Okay?"
+  },
+  {
+    "start": 1084.84,
+    "duration": 3.2,
+    "text": "But can you create static methods in"
+  },
+  {
+    "start": 1086.6,
+    "duration": 2.64,
+    "text": "abstract classes?"
+  },
+  {
+    "start": 1088.04,
+    "duration": 2.16,
+    "text": "That you can do."
+  },
+  {
+    "start": 1089.24,
+    "duration": 2.64,
+    "text": "Okay?"
+  },
+  {
+    "start": 1090.2,
+    "duration": 3.84,
+    "text": "Static"
+  },
+  {
+    "start": 1091.88,
+    "duration": 3.4,
+    "text": "void"
+  },
+  {
+    "start": 1094.04,
+    "duration": 4.0,
+    "text": "hello"
+  },
+  {
+    "start": 1095.28,
+    "duration": 2.76,
+    "text": "That you can do."
+  },
+  {
+    "start": 1098.92,
+    "duration": 3.48,
+    "text": "Hey."
+  },
+  {
+    "start": 1100.12,
+    "duration": 3.8,
+    "text": "Something like this."
+  },
+  {
+    "start": 1102.4,
+    "duration": 3.56,
+    "text": "Because there can be no objects for"
+  },
+  {
+    "start": 1103.92,
+    "duration": 4.6,
+    "text": "abstract classes. If they are allowed to"
+  },
+  {
+    "start": 1105.96,
+    "duration": 3.64,
+    "text": "call like, you know, abstract static"
+  },
+  {
+    "start": 1108.52,
+    "duration": 3.16,
+    "text": "methods, it would mean that we are"
+  },
+  {
+    "start": 1109.6,
+    "duration": 3.44,
+    "text": "calling like them through the class name"
+  },
+  {
+    "start": 1111.68,
+    "duration": 5.84,
+    "text": "because it's static. You all already"
+  },
+  {
+    "start": 1113.04,
+    "duration": 4.48,
+    "text": "know it. So, I can say something like um"
+  },
+  {
+    "start": 1117.68,
+    "duration": 4.72,
+    "text": "parent dot"
+  },
+  {
+    "start": 1119.72,
+    "duration": 5.52,
+    "text": "hello No problem in that."
+  },
+  {
+    "start": 1122.4,
+    "duration": 2.84,
+    "text": "That's totally fine."
+  },
+  {
+    "start": 1131.12,
+    "duration": 2.28,
+    "text": "Okay?"
+  },
+  {
+    "start": 1132.12,
+    "duration": 3.32,
+    "text": "Cool?"
+  },
+  {
+    "start": 1133.4,
+    "duration": 3.56,
+    "text": "Sound good?"
+  },
+  {
+    "start": 1135.44,
+    "duration": 4.32,
+    "text": "Can abstract classes contain normal"
+  },
+  {
+    "start": 1136.96,
+    "duration": 5.64,
+    "text": "methods? Void"
+  },
+  {
+    "start": 1139.76,
+    "duration": 2.84,
+    "text": "normal"
+  },
+  {
+    "start": 1143.0,
+    "duration": 2.96,
+    "text": "This is a"
+  },
+  {
+    "start": 1144.44,
+    "duration": 3.56,
+    "text": "normal"
+  },
+  {
+    "start": 1145.96,
+    "duration": 3.96,
+    "text": "method. Most definitely they can."
+  },
+  {
+    "start": 1148.0,
+    "duration": 2.8,
+    "text": "This is going to behave the same way as"
+  },
+  {
+    "start": 1149.92,
+    "duration": 2.8,
+    "text": "in uh"
+  },
+  {
+    "start": 1150.8,
+    "duration": 5.36,
+    "text": "as normal ones does. So, for example, if"
+  },
+  {
+    "start": 1152.72,
+    "duration": 5.44,
+    "text": "you want to just uh say"
+  },
+  {
+    "start": 1156.16,
+    "duration": 4.52,
+    "text": "just, you know, something like"
+  },
+  {
+    "start": 1158.16,
+    "duration": 3.92,
+    "text": "sun.normal, totally fine."
+  },
+  {
+    "start": 1160.68,
+    "duration": 4.0,
+    "text": "You can also override it over here. You"
+  },
+  {
+    "start": 1162.08,
+    "duration": 5.44,
+    "text": "can say override the normal one. That's"
+  },
+  {
+    "start": 1164.68,
+    "duration": 2.84,
+    "text": "also totally fine."
+  },
+  {
+    "start": 1167.8,
+    "duration": 3.16,
+    "text": "Totally cool. No problem."
+  },
+  {
+    "start": 1169.72,
+    "duration": 3.0,
+    "text": "These are just the concepts we already"
+  },
+  {
+    "start": 1170.96,
+    "duration": 3.72,
+    "text": "learned before. Exactly the same thing"
+  },
+  {
+    "start": 1172.72,
+    "duration": 3.08,
+    "text": "is applying over here."
+  },
+  {
+    "start": 1174.68,
+    "duration": 3.76,
+    "text": "The important points I already"
+  },
+  {
+    "start": 1175.8,
+    "duration": 4.4,
+    "text": "mentioned, you cannot create static"
+  },
+  {
+    "start": 1178.44,
+    "duration": 4.08,
+    "text": "constructors in this. You can't create"
+  },
+  {
+    "start": 1180.2,
+    "duration": 3.92,
+    "text": "static method abstract static methods in"
+  },
+  {
+    "start": 1182.52,
+    "duration": 3.52,
+    "text": "this. Abstract static constructor,"
+  },
+  {
+    "start": 1184.12,
+    "duration": 3.28,
+    "text": "sorry. Uh sorry, abstract constructors."
+  },
+  {
+    "start": 1186.04,
+    "duration": 2.92,
+    "text": "You can't create abstract constructors"
+  },
+  {
+    "start": 1187.4,
+    "duration": 4.72,
+    "text": "in this. You can't create abstract"
+  },
+  {
+    "start": 1188.96,
+    "duration": 4.4,
+    "text": "static methods in this. And um"
+  },
+  {
+    "start": 1192.12,
+    "duration": 2.84,
+    "text": "at least one of the methods should be"
+  },
+  {
+    "start": 1193.36,
+    "duration": 4.16,
+    "text": "like abstract as well."
+  },
+  {
+    "start": 1194.96,
+    "duration": 3.88,
+    "text": "Okay. I mean it does not mean sorry if"
+  },
+  {
+    "start": 1197.52,
+    "duration": 2.84,
+    "text": "at least one of the methods is abstract,"
+  },
+  {
+    "start": 1198.84,
+    "duration": 2.84,
+    "text": "then the class needs to be abstract"
+  },
+  {
+    "start": 1200.36,
+    "duration": 2.56,
+    "text": "itself."
+  },
+  {
+    "start": 1201.68,
+    "duration": 3.76,
+    "text": "That's it. Yeah. Rest you can do"
+  },
+  {
+    "start": 1202.92,
+    "duration": 4.0,
+    "text": "everything else. No problem."
+  },
+  {
+    "start": 1205.44,
+    "duration": 3.08,
+    "text": "These variables and everything works"
+  },
+  {
+    "start": 1206.92,
+    "duration": 3.2,
+    "text": "similar to like it works in like the"
+  },
+  {
+    "start": 1208.52,
+    "duration": 4.0,
+    "text": "previous lectures."
+  },
+  {
+    "start": 1210.12,
+    "duration": 3.88,
+    "text": "That is it."
+  },
+  {
+    "start": 1212.52,
+    "duration": 3.08,
+    "text": "Okay. You can also have methods with"
+  },
+  {
+    "start": 1214.0,
+    "duration": 3.92,
+    "text": "bodies and stuff. That's also totally"
+  },
+  {
+    "start": 1215.6,
+    "duration": 2.32,
+    "text": "fine."
+  },
+  {
+    "start": 1218.28,
+    "duration": 2.44,
+    "text": "Okay."
+  },
+  {
+    "start": 1219.88,
+    "duration": 2.28,
+    "text": "Cool."
+  },
+  {
+    "start": 1220.72,
+    "duration": 2.8,
+    "text": "One thing I would like to share is even"
+  },
+  {
+    "start": 1222.16,
+    "duration": 3.72,
+    "text": "though you cannot create an object of a"
+  },
+  {
+    "start": 1223.52,
+    "duration": 5.44,
+    "text": "parent class like this of an abstract"
+  },
+  {
+    "start": 1225.88,
+    "duration": 5.28,
+    "text": "class, you can use it like this"
+  },
+  {
+    "start": 1228.96,
+    "duration": 3.72,
+    "text": "as a reference variable."
+  },
+  {
+    "start": 1231.16,
+    "duration": 4.76,
+    "text": "Okay."
+  },
+  {
+    "start": 1232.68,
+    "duration": 4.76,
+    "text": "Because Java's runtime polymorphism, you"
+  },
+  {
+    "start": 1235.92,
+    "duration": 3.76,
+    "text": "know, we can use it for like the"
+  },
+  {
+    "start": 1237.44,
+    "duration": 3.48,
+    "text": "superclass"
+  },
+  {
+    "start": 1239.68,
+    "duration": 3.32,
+    "text": "is implemented through the use of the"
+  },
+  {
+    "start": 1240.92,
+    "duration": 3.6,
+    "text": "superclass right? We we actually learned"
+  },
+  {
+    "start": 1243.0,
+    "duration": 3.72,
+    "text": "about this in the previous lecture, the"
+  },
+  {
+    "start": 1244.52,
+    "duration": 3.52,
+    "text": "runtime polymorphism for this thing."
+  },
+  {
+    "start": 1246.72,
+    "duration": 3.56,
+    "text": "Like, you know,"
+  },
+  {
+    "start": 1248.04,
+    "duration": 4.44,
+    "text": "what it accesses depends on this thing."
+  },
+  {
+    "start": 1250.28,
+    "duration": 4.88,
+    "text": "You remember that point we discussed."
+  },
+  {
+    "start": 1252.48,
+    "duration": 4.36,
+    "text": "This is also the same thing."
+  },
+  {
+    "start": 1255.16,
+    "duration": 3.0,
+    "text": "But which one is actually accessing the"
+  },
+  {
+    "start": 1256.84,
+    "duration": 2.72,
+    "text": "overriding one?"
+  },
+  {
+    "start": 1258.16,
+    "duration": 3.2,
+    "text": "That is going to be determined by the"
+  },
+  {
+    "start": 1259.56,
+    "duration": 3.8,
+    "text": "type of the object."
+  },
+  {
+    "start": 1261.36,
+    "duration": 3.52,
+    "text": "We already covered this thing."
+  },
+  {
+    "start": 1263.36,
+    "duration": 3.16,
+    "text": "This thing and this thing already"
+  },
+  {
+    "start": 1264.88,
+    "duration": 4.12,
+    "text": "covered in the over in the old"
+  },
+  {
+    "start": 1266.52,
+    "duration": 4.52,
+    "text": "properties lecture. Please check it out."
+  },
+  {
+    "start": 1269.0,
+    "duration": 5.0,
+    "text": "Exactly the same thing."
+  },
+  {
+    "start": 1271.04,
+    "duration": 4.76,
+    "text": "I'm not going to scare you and tell you"
+  },
+  {
+    "start": 1274.0,
+    "duration": 3.08,
+    "text": "that this is a different thing. I will"
+  },
+  {
+    "start": 1275.8,
+    "duration": 4.8,
+    "text": "not do that."
+  },
+  {
+    "start": 1277.08,
+    "duration": 5.36,
+    "text": "It's the ditto same copy paste thing."
+  },
+  {
+    "start": 1280.6,
+    "duration": 3.52,
+    "text": "Okay, and it makes sense also."
+  },
+  {
+    "start": 1282.44,
+    "duration": 2.96,
+    "text": "Just it's the with the abstract class"
+  },
+  {
+    "start": 1284.12,
+    "duration": 4.76,
+    "text": "there's this thing like okay, this is an"
+  },
+  {
+    "start": 1285.4,
+    "duration": 3.48,
+    "text": "abstract class. That's it."
+  },
+  {
+    "start": 1289.2,
+    "duration": 4.4,
+    "text": "Okay? And why can't we create like um"
+  },
+  {
+    "start": 1292.4,
+    "duration": 2.72,
+    "text": "I mean we are creating a public"
+  },
+  {
+    "start": 1293.6,
+    "duration": 2.44,
+    "text": "constructor, but then why does it not"
+  },
+  {
+    "start": 1295.12,
+    "duration": 2.72,
+    "text": "make sense?"
+  },
+  {
+    "start": 1296.04,
+    "duration": 5.16,
+    "text": "Because you can't you know in"
+  },
+  {
+    "start": 1297.84,
+    "duration": 4.92,
+    "text": "instantiate an abstract class directly."
+  },
+  {
+    "start": 1301.2,
+    "duration": 3.12,
+    "text": "Okay? So, you can only instantiate via a"
+  },
+  {
+    "start": 1302.76,
+    "duration": 2.32,
+    "text": "derived type."
+  },
+  {
+    "start": 1304.32,
+    "duration": 3.08,
+    "text": "Okay?"
+  },
+  {
+    "start": 1305.08,
+    "duration": 4.2,
+    "text": "That should also not be abstract."
+  },
+  {
+    "start": 1307.4,
+    "duration": 5.4,
+    "text": "Right?"
+  },
+  {
+    "start": 1309.28,
+    "duration": 3.52,
+    "text": "So, that's pretty much about it. Yeah."
+  },
+  {
+    "start": 1313.52,
+    "duration": 3.4,
+    "text": "Okay, one more thing."
+  },
+  {
+    "start": 1315.52,
+    "duration": 3.0,
+    "text": "Abstract classes need to be like"
+  },
+  {
+    "start": 1316.92,
+    "duration": 2.92,
+    "text": "extended so that they their methods can"
+  },
+  {
+    "start": 1318.52,
+    "duration": 3.56,
+    "text": "be overridden."
+  },
+  {
+    "start": 1319.84,
+    "duration": 5.12,
+    "text": "If I put final behind a class, it"
+  },
+  {
+    "start": 1322.08,
+    "duration": 4.84,
+    "text": "prevents it from inherited, right? If I"
+  },
+  {
+    "start": 1324.96,
+    "duration": 3.8,
+    "text": "put final behind a class, it prevents"
+  },
+  {
+    "start": 1326.92,
+    "duration": 4.64,
+    "text": "the class from being inherited. Can I"
+  },
+  {
+    "start": 1328.76,
+    "duration": 4.8,
+    "text": "have a final abstract class then?"
+  },
+  {
+    "start": 1331.56,
+    "duration": 4.2,
+    "text": "Common sense. No."
+  },
+  {
+    "start": 1333.56,
+    "duration": 4.72,
+    "text": "No, you can't."
+  },
+  {
+    "start": 1335.76,
+    "duration": 5.4,
+    "text": "No, you can't."
+  },
+  {
+    "start": 1338.28,
+    "duration": 3.84,
+    "text": "For obvious reasons."
+  },
+  {
+    "start": 1341.16,
+    "duration": 3.12,
+    "text": "Right? Because you want it to be"
+  },
+  {
+    "start": 1342.12,
+    "duration": 3.96,
+    "text": "inherited."
+  },
+  {
+    "start": 1344.28,
+    "duration": 5.28,
+    "text": "That's why you can't have it."
+  },
+  {
+    "start": 1346.08,
+    "duration": 3.48,
+    "text": "That is it. Normal stuff."
+  },
+  {
+    "start": 1349.8,
+    "duration": 3.92,
+    "text": "Please check out the overriding video."
+  },
+  {
+    "start": 1351.84,
+    "duration": 4.08,
+    "text": "It will clear all your doubts. I'm not"
+  },
+  {
+    "start": 1353.72,
+    "duration": 4.64,
+    "text": "skipping anything. I want this course to"
+  },
+  {
+    "start": 1355.92,
+    "duration": 4.84,
+    "text": "be the best course on YouTube. I will"
+  },
+  {
+    "start": 1358.36,
+    "duration": 4.44,
+    "text": "never ever skip anything. Every single"
+  },
+  {
+    "start": 1360.76,
+    "duration": 3.44,
+    "text": "line I'm explaining to you."
+  },
+  {
+    "start": 1362.8,
+    "duration": 2.48,
+    "text": "That's why I'm saying lectures are tied"
+  },
+  {
+    "start": 1364.2,
+    "duration": 2.84,
+    "text": "together."
+  },
+  {
+    "start": 1365.28,
+    "duration": 2.88,
+    "text": "Please check out the OOPs property"
+  },
+  {
+    "start": 1367.04,
+    "duration": 1.96,
+    "text": "video."
+  },
+  {
+    "start": 1368.16,
+    "duration": 2.36,
+    "text": "Okay?"
+  },
+  {
+    "start": 1369.0,
+    "duration": 3.32,
+    "text": "In that I've deeply explained dynamic"
+  },
+  {
+    "start": 1370.52,
+    "duration": 3.72,
+    "text": "method dispatch and everything how this"
+  },
+  {
+    "start": 1372.32,
+    "duration": 5.76,
+    "text": "determines and everything. But the only"
+  },
+  {
+    "start": 1374.24,
+    "duration": 4.68,
+    "text": "new thing we have over here is abstract."
+  },
+  {
+    "start": 1378.08,
+    "duration": 2.08,
+    "text": "Okay?"
+  },
+  {
+    "start": 1378.92,
+    "duration": 3.04,
+    "text": "Talked about constructors, it does does"
+  },
+  {
+    "start": 1380.16,
+    "duration": 4.12,
+    "text": "really make sense and stuff like that."
+  },
+  {
+    "start": 1381.96,
+    "duration": 4.64,
+    "text": "Okay? So, here sometimes you can put"
+  },
+  {
+    "start": 1384.28,
+    "duration": 3.48,
+    "text": "like uh abstract like sorry, a"
+  },
+  {
+    "start": 1386.6,
+    "duration": 4.96,
+    "text": "constructor over here when you have"
+  },
+  {
+    "start": 1387.76,
+    "duration": 6.36,
+    "text": "let's say some final values. Final int"
+  },
+  {
+    "start": 1391.56,
+    "duration": 3.64,
+    "text": "value, something like this. Okay? One"
+  },
+  {
+    "start": 1394.12,
+    "duration": 2.56,
+    "text": "second."
+  },
+  {
+    "start": 1395.2,
+    "duration": 2.96,
+    "text": "Add a constructor. I would have to add"
+  },
+  {
+    "start": 1396.68,
+    "duration": 3.76,
+    "text": "obviously because it's final. So, you"
+  },
+  {
+    "start": 1398.16,
+    "duration": 3.72,
+    "text": "can cannot have it like without it. So,"
+  },
+  {
+    "start": 1400.44,
+    "duration": 5.12,
+    "text": "I can say"
+  },
+  {
+    "start": 1401.88,
+    "duration": 3.68,
+    "text": "um something like um"
+  },
+  {
+    "start": 1406.2,
+    "duration": 5.56,
+    "text": "value is equal to"
+  },
+  {
+    "start": 1409.0,
+    "duration": 2.76,
+    "text": "something like this."
+  },
+  {
+    "start": 1412.4,
+    "duration": 2.16,
+    "text": "Okay?"
+  },
+  {
+    "start": 1413.52,
+    "duration": 2.84,
+    "text": "Now, where is this being called?"
+  },
+  {
+    "start": 1414.56,
+    "duration": 3.28,
+    "text": "Obviously, you cannot call it directly"
+  },
+  {
+    "start": 1416.36,
+    "duration": 2.8,
+    "text": "to create an object. You can only call"
+  },
+  {
+    "start": 1417.84,
+    "duration": 4.28,
+    "text": "it like this."
+  },
+  {
+    "start": 1419.16,
+    "duration": 4.16,
+    "text": "In another constructor like this."
+  },
+  {
+    "start": 1422.12,
+    "duration": 2.6,
+    "text": "Okay? So, even though you create a"
+  },
+  {
+    "start": 1423.32,
+    "duration": 3.6,
+    "text": "constructor and you're not able to"
+  },
+  {
+    "start": 1424.72,
+    "duration": 4.96,
+    "text": "create an object from it, you can use"
+  },
+  {
+    "start": 1426.92,
+    "duration": 4.92,
+    "text": "the super keyword to reference to it."
+  },
+  {
+    "start": 1429.68,
+    "duration": 4.0,
+    "text": "Okay? That way you can initialize some"
+  },
+  {
+    "start": 1431.84,
+    "duration": 5.16,
+    "text": "final variables over there."
+  },
+  {
+    "start": 1433.68,
+    "duration": 4.52,
+    "text": "Can you have static variables over here?"
+  },
+  {
+    "start": 1437.0,
+    "duration": 2.28,
+    "text": "Yeah."
+  },
+  {
+    "start": 1438.2,
+    "duration": 3.68,
+    "text": "Sure."
+  },
+  {
+    "start": 1439.28,
+    "duration": 2.6,
+    "text": "No problem."
+  },
+  {
+    "start": 1442.24,
+    "duration": 3.12,
+    "text": "You can have static methods as well."
+  },
+  {
+    "start": 1444.24,
+    "duration": 3.48,
+    "text": "You can have static variables as well."
+  },
+  {
+    "start": 1445.36,
+    "duration": 3.96,
+    "text": "No problem in that."
+  },
+  {
+    "start": 1447.72,
+    "duration": 3.76,
+    "text": "I think I covered like every single"
+  },
+  {
+    "start": 1449.32,
+    "duration": 4.12,
+    "text": "possibility."
+  },
+  {
+    "start": 1451.48,
+    "duration": 4.52,
+    "text": "Right?"
+  },
+  {
+    "start": 1453.44,
+    "duration": 4.6,
+    "text": "That's it. Yeah."
+  },
+  {
+    "start": 1456.0,
+    "duration": 3.96,
+    "text": "Those are abstract classes."
+  },
+  {
+    "start": 1458.04,
+    "duration": 4.4,
+    "text": "It still does not support"
+  },
+  {
+    "start": 1459.96,
+    "duration": 4.08,
+    "text": "It still will not support like"
+  },
+  {
+    "start": 1462.44,
+    "duration": 2.88,
+    "text": "multiple inheritance. Okay? This does"
+  },
+  {
+    "start": 1464.04,
+    "duration": 3.04,
+    "text": "This does not support multiple"
+  },
+  {
+    "start": 1465.32,
+    "duration": 4.32,
+    "text": "inheritance. If you have two abstract"
+  },
+  {
+    "start": 1467.08,
+    "duration": 5.32,
+    "text": "classes, something like parent two,"
+  },
+  {
+    "start": 1469.64,
+    "duration": 4.6,
+    "text": "okay? You can't do You can't extend both"
+  },
+  {
+    "start": 1472.4,
+    "duration": 4.2,
+    "text": "the classes in one class."
+  },
+  {
+    "start": 1474.24,
+    "duration": 5.0,
+    "text": "Multiple inheritance is not allowed."
+  },
+  {
+    "start": 1476.6,
+    "duration": 4.8,
+    "text": "Class cannot extend multiple classes."
+  },
+  {
+    "start": 1479.24,
+    "duration": 3.36,
+    "text": "For that, we have to learn about"
+  },
+  {
+    "start": 1481.4,
+    "duration": 3.96,
+    "text": "interfaces."
+  },
+  {
+    "start": 1482.6,
+    "duration": 4.2,
+    "text": "Okay? Cool."
+  },
+  {
+    "start": 1485.36,
+    "duration": 2.84,
+    "text": "Because here we have so many"
+  },
+  {
+    "start": 1486.8,
+    "duration": 2.56,
+    "text": "limitations, right? We actually have"
+  },
+  {
+    "start": 1488.2,
+    "duration": 2.96,
+    "text": "like okay,"
+  },
+  {
+    "start": 1489.36,
+    "duration": 2.76,
+    "text": "the the problem is not solved. It still"
+  },
+  {
+    "start": 1491.16,
+    "duration": 3.0,
+    "text": "allows"
+  },
+  {
+    "start": 1492.12,
+    "duration": 4.36,
+    "text": "allows us to have normal methods and"
+  },
+  {
+    "start": 1494.16,
+    "duration": 4.04,
+    "text": "stuff like that. The normal method. Same"
+  },
+  {
+    "start": 1496.48,
+    "duration": 3.08,
+    "text": "problem will come."
+  },
+  {
+    "start": 1498.2,
+    "duration": 2.92,
+    "text": "If two normal methods have the same"
+  },
+  {
+    "start": 1499.56,
+    "duration": 2.48,
+    "text": "name."
+  },
+  {
+    "start": 1501.12,
+    "duration": 4.48,
+    "text": "Okay?"
+  },
+  {
+    "start": 1502.04,
+    "duration": 3.56,
+    "text": "This is about abstract classes."
+  },
+  {
+    "start": 1506.2,
+    "duration": 3.96,
+    "text": "Okay?"
+  },
+  {
+    "start": 1507.96,
+    "duration": 3.8,
+    "text": "Cool?"
+  },
+  {
+    "start": 1510.16,
+    "duration": 3.08,
+    "text": "Let's move forward. Okay, so we know"
+  },
+  {
+    "start": 1511.76,
+    "duration": 6.2,
+    "text": "that multiple inheritance are not"
+  },
+  {
+    "start": 1513.24,
+    "duration": 6.76,
+    "text": "supported in Java due to this one reason"
+  },
+  {
+    "start": 1517.96,
+    "duration": 4.76,
+    "text": "that we just saw."
+  },
+  {
+    "start": 1520.0,
+    "duration": 3.96,
+    "text": "This one. Right? So, if the two bodies"
+  },
+  {
+    "start": 1522.72,
+    "duration": 3.32,
+    "text": "of functions are there, it will get"
+  },
+  {
+    "start": 1523.96,
+    "duration": 3.36,
+    "text": "confused like which one to pick. Now,"
+  },
+  {
+    "start": 1526.04,
+    "duration": 3.88,
+    "text": "instead in order to resolve this, I've"
+  },
+  {
+    "start": 1527.32,
+    "duration": 4.12,
+    "text": "told this multiple times, we use Java"
+  },
+  {
+    "start": 1529.92,
+    "duration": 3.6,
+    "text": "interfaces."
+  },
+  {
+    "start": 1531.44,
+    "duration": 4.28,
+    "text": "Okay? It's not a class, it's called an"
+  },
+  {
+    "start": 1533.52,
+    "duration": 4.6,
+    "text": "interface. Okay, that's the name of it."
+  },
+  {
+    "start": 1535.72,
+    "duration": 4.44,
+    "text": "We still use the dot Java extension of"
+  },
+  {
+    "start": 1538.12,
+    "duration": 4.28,
+    "text": "the file, but it's actually called an"
+  },
+  {
+    "start": 1540.16,
+    "duration": 3.76,
+    "text": "interface. We don't write class A, we"
+  },
+  {
+    "start": 1542.4,
+    "duration": 3.0,
+    "text": "write interface A. Now, what are"
+  },
+  {
+    "start": 1543.92,
+    "duration": 4.44,
+    "text": "interfaces and how are they different"
+  },
+  {
+    "start": 1545.4,
+    "duration": 4.72,
+    "text": "than uh classes for example, right? So,"
+  },
+  {
+    "start": 1548.36,
+    "duration": 4.44,
+    "text": "let's talk a little bit more about that."
+  },
+  {
+    "start": 1550.12,
+    "duration": 4.68,
+    "text": "Interfaces basically contain abstract"
+  },
+  {
+    "start": 1552.8,
+    "duration": 3.88,
+    "text": "functions. Okay? You all know what"
+  },
+  {
+    "start": 1554.8,
+    "duration": 4.48,
+    "text": "abstract functions are. No body of the"
+  },
+  {
+    "start": 1556.68,
+    "duration": 4.4,
+    "text": "function is allowed. It is like a class"
+  },
+  {
+    "start": 1559.28,
+    "duration": 4.32,
+    "text": "only, but not completely. Okay, it's"
+  },
+  {
+    "start": 1561.08,
+    "duration": 6.88,
+    "text": "like an abstract class and by default"
+  },
+  {
+    "start": 1563.6,
+    "duration": 7.08,
+    "text": "the functions uh are public and abstract"
+  },
+  {
+    "start": 1567.96,
+    "duration": 4.84,
+    "text": "in the interface and the variables are"
+  },
+  {
+    "start": 1570.68,
+    "duration": 3.68,
+    "text": "what? You tell me."
+  },
+  {
+    "start": 1572.8,
+    "duration": 3.48,
+    "text": "What are the variables?"
+  },
+  {
+    "start": 1574.36,
+    "duration": 3.88,
+    "text": "If these are like interfaces, these are"
+  },
+  {
+    "start": 1576.28,
+    "duration": 4.12,
+    "text": "not classes, you cannot create their"
+  },
+  {
+    "start": 1578.24,
+    "duration": 4.08,
+    "text": "objects. Okay, and let's say it's not"
+  },
+  {
+    "start": 1580.4,
+    "duration": 4.4,
+    "text": "allowed for you to have like any objects"
+  },
+  {
+    "start": 1582.32,
+    "duration": 3.52,
+    "text": "for that or whatever, then"
+  },
+  {
+    "start": 1584.8,
+    "duration": 4.32,
+    "text": "what are the things that are not"
+  },
+  {
+    "start": 1585.84,
+    "duration": 6.12,
+    "text": "dependent on objects? Static stuff."
+  },
+  {
+    "start": 1589.12,
+    "duration": 5.72,
+    "text": "Static stuff. Right? So, the variables"
+  },
+  {
+    "start": 1591.96,
+    "duration": 5.0,
+    "text": "are static and final by default in"
+  },
+  {
+    "start": 1594.84,
+    "duration": 4.6,
+    "text": "interfaces. I'll talk more about that"
+  },
+  {
+    "start": 1596.96,
+    "duration": 4.56,
+    "text": "later. Right? So, interfaces mostly"
+  },
+  {
+    "start": 1599.44,
+    "duration": 4.44,
+    "text": "specify like what the class is doing,"
+  },
+  {
+    "start": 1601.52,
+    "duration": 4.56,
+    "text": "not how it's doing it. Similar to"
+  },
+  {
+    "start": 1603.88,
+    "duration": 3.56,
+    "text": "abstract classes is abstract methods,"
+  },
+  {
+    "start": 1606.08,
+    "duration": 3.28,
+    "text": "but there you cannot do multiple"
+  },
+  {
+    "start": 1607.44,
+    "duration": 4.2,
+    "text": "inheritance. Okay, because of this"
+  },
+  {
+    "start": 1609.36,
+    "duration": 3.68,
+    "text": "problem that you you on the screen. Cuz"
+  },
+  {
+    "start": 1611.64,
+    "duration": 3.64,
+    "text": "the sub class won't be able to choose"
+  },
+  {
+    "start": 1613.04,
+    "duration": 3.56,
+    "text": "like, you know, which one to pick or"
+  },
+  {
+    "start": 1615.28,
+    "duration": 3.24,
+    "text": "whatever."
+  },
+  {
+    "start": 1616.6,
+    "duration": 4.28,
+    "text": "Cool. So, some of the key differences"
+  },
+  {
+    "start": 1618.52,
+    "duration": 4.4,
+    "text": "between like a class and an interface,"
+  },
+  {
+    "start": 1620.88,
+    "duration": 3.84,
+    "text": "uh a class will maintain like some state"
+  },
+  {
+    "start": 1622.92,
+    "duration": 3.88,
+    "text": "information like through some instance"
+  },
+  {
+    "start": 1624.72,
+    "duration": 3.84,
+    "text": "variables or whatever, but interface"
+  },
+  {
+    "start": 1626.8,
+    "duration": 2.56,
+    "text": "cannot."
+  },
+  {
+    "start": 1628.56,
+    "duration": 2.36,
+    "text": "Okay?"
+  },
+  {
+    "start": 1629.36,
+    "duration": 4.84,
+    "text": "That's why the variables in interfaces"
+  },
+  {
+    "start": 1630.92,
+    "duration": 5.4,
+    "text": "are static and final. You can't change"
+  },
+  {
+    "start": 1634.2,
+    "duration": 4.08,
+    "text": "those. It's dependent on don't like not"
+  },
+  {
+    "start": 1636.32,
+    "duration": 3.72,
+    "text": "dependent on object either because"
+  },
+  {
+    "start": 1638.28,
+    "duration": 2.8,
+    "text": "interfaces do not allow you to have such"
+  },
+  {
+    "start": 1640.04,
+    "duration": 2.52,
+    "text": "things."
+  },
+  {
+    "start": 1641.08,
+    "duration": 3.16,
+    "text": "You know, like your uh function bodies"
+  },
+  {
+    "start": 1642.56,
+    "duration": 3.52,
+    "text": "or whatever, but it's like a default"
+  },
+  {
+    "start": 1644.24,
+    "duration": 4.6,
+    "text": "body is allowed. I will tell you more"
+  },
+  {
+    "start": 1646.08,
+    "duration": 3.52,
+    "text": "about that later, but for now,"
+  },
+  {
+    "start": 1648.84,
+    "duration": 2.72,
+    "text": "um"
+  },
+  {
+    "start": 1649.6,
+    "duration": 3.2,
+    "text": "let's just try to imagine that, okay,"
+  },
+  {
+    "start": 1651.56,
+    "duration": 3.28,
+    "text": "there isn't."
+  },
+  {
+    "start": 1652.8,
+    "duration": 3.48,
+    "text": "Okay? But"
+  },
+  {
+    "start": 1654.84,
+    "duration": 3.96,
+    "text": "for now, let's just imagine there isn't,"
+  },
+  {
+    "start": 1656.28,
+    "duration": 4.96,
+    "text": "but we'll talk more about that later."
+  },
+  {
+    "start": 1658.8,
+    "duration": 3.76,
+    "text": "Okay. So, every every single method,"
+  },
+  {
+    "start": 1661.24,
+    "duration": 2.36,
+    "text": "everything will be abstract. You cannot"
+  },
+  {
+    "start": 1662.56,
+    "duration": 2.44,
+    "text": "create"
+  },
+  {
+    "start": 1663.6,
+    "duration": 3.44,
+    "text": "uh like"
+  },
+  {
+    "start": 1665.0,
+    "duration": 4.76,
+    "text": "objects of like interfaces and stuff."
+  },
+  {
+    "start": 1667.04,
+    "duration": 4.4,
+    "text": "So, obviously, all the"
+  },
+  {
+    "start": 1669.76,
+    "duration": 4.8,
+    "text": "variables and stuff inside it are like"
+  },
+  {
+    "start": 1671.44,
+    "duration": 3.96,
+    "text": "final and static. Okay."
+  },
+  {
+    "start": 1674.56,
+    "duration": 3.24,
+    "text": "Cool."
+  },
+  {
+    "start": 1675.4,
+    "duration": 3.68,
+    "text": "Um"
+  },
+  {
+    "start": 1677.8,
+    "duration": 3.12,
+    "text": "Yeah, uh interface only has like"
+  },
+  {
+    "start": 1679.08,
+    "duration": 3.6,
+    "text": "abstract methods, abstract classes"
+  },
+  {
+    "start": 1680.92,
+    "duration": 3.76,
+    "text": "versus interfaces I'm talking about. So,"
+  },
+  {
+    "start": 1682.68,
+    "duration": 3.44,
+    "text": "interface has abstract methods, abstract"
+  },
+  {
+    "start": 1684.68,
+    "duration": 3.24,
+    "text": "classes can have like abstract method as"
+  },
+  {
+    "start": 1686.12,
+    "duration": 4.56,
+    "text": "well, non-abstract as well."
+  },
+  {
+    "start": 1687.92,
+    "duration": 5.28,
+    "text": "Um and from Java 8, it can also have uh"
+  },
+  {
+    "start": 1690.68,
+    "duration": 4.28,
+    "text": "default and static methods also. I'll"
+  },
+  {
+    "start": 1693.2,
+    "duration": 3.56,
+    "text": "talk more about the default methods."
+  },
+  {
+    "start": 1694.96,
+    "duration": 4.32,
+    "text": "Final variables are what? Final"
+  },
+  {
+    "start": 1696.76,
+    "duration": 5.08,
+    "text": "variables when variables declared in the"
+  },
+  {
+    "start": 1699.28,
+    "duration": 4.96,
+    "text": "Java interface, uh they are by default"
+  },
+  {
+    "start": 1701.84,
+    "duration": 5.8,
+    "text": "final and in the abstract, they it may"
+  },
+  {
+    "start": 1704.24,
+    "duration": 4.28,
+    "text": "contain final and non-final both."
+  },
+  {
+    "start": 1707.64,
+    "duration": 2.92,
+    "text": "Okay?"
+  },
+  {
+    "start": 1708.52,
+    "duration": 4.76,
+    "text": "Um why are they final? Because if you"
+  },
+  {
+    "start": 1710.56,
+    "duration": 4.2,
+    "text": "just create a variable in uh"
+  },
+  {
+    "start": 1713.28,
+    "duration": 2.56,
+    "text": "in an interface, and you know, the"
+  },
+  {
+    "start": 1714.76,
+    "duration": 1.92,
+    "text": "interface cannot have like a"
+  },
+  {
+    "start": 1715.84,
+    "duration": 2.64,
+    "text": "constructor, then how will you"
+  },
+  {
+    "start": 1716.68,
+    "duration": 3.6,
+    "text": "initialize that? That's why they are"
+  },
+  {
+    "start": 1718.48,
+    "duration": 3.56,
+    "text": "final because final variables always"
+  },
+  {
+    "start": 1720.28,
+    "duration": 4.08,
+    "text": "needs to be initialized. Okay, there's a"
+  },
+  {
+    "start": 1722.04,
+    "duration": 3.6,
+    "text": "reason for you. Okay, implementation."
+  },
+  {
+    "start": 1724.36,
+    "duration": 3.24,
+    "text": "Abstract class can provide the"
+  },
+  {
+    "start": 1725.64,
+    "duration": 3.24,
+    "text": "implementation of an interface, but the"
+  },
+  {
+    "start": 1727.6,
+    "duration": 3.28,
+    "text": "interface can't provide the"
+  },
+  {
+    "start": 1728.88,
+    "duration": 4.72,
+    "text": "implementation of abstract class. This"
+  },
+  {
+    "start": 1730.88,
+    "duration": 4.56,
+    "text": "I'll show you in practice. Okay."
+  },
+  {
+    "start": 1733.6,
+    "duration": 3.52,
+    "text": "Inheritance versus abstraction. Let's"
+  },
+  {
+    "start": 1735.44,
+    "duration": 3.12,
+    "text": "talk about that. And I'll also"
+  },
+  {
+    "start": 1737.12,
+    "duration": 3.64,
+    "text": "definitely give you an example of all"
+  },
+  {
+    "start": 1738.56,
+    "duration": 4.32,
+    "text": "these points as well. So, an a Java"
+  },
+  {
+    "start": 1740.76,
+    "duration": 4.52,
+    "text": "interface can be implemented using the"
+  },
+  {
+    "start": 1742.88,
+    "duration": 4.32,
+    "text": "we use the implements keyword over here."
+  },
+  {
+    "start": 1745.28,
+    "duration": 4.12,
+    "text": "And in the abstract class, we use what?"
+  },
+  {
+    "start": 1747.2,
+    "duration": 4.32,
+    "text": "Extends keyword. We already saw that"
+  },
+  {
+    "start": 1749.4,
+    "duration": 4.64,
+    "text": "just now. Extends keyword. Here we will"
+  },
+  {
+    "start": 1751.52,
+    "duration": 3.4,
+    "text": "use the implements keyword."
+  },
+  {
+    "start": 1754.04,
+    "duration": 3.6,
+    "text": "Okay."
+  },
+  {
+    "start": 1754.92,
+    "duration": 7.08,
+    "text": "The main point where it shines, you can"
+  },
+  {
+    "start": 1757.64,
+    "duration": 5.2,
+    "text": "implement multiple interfaces together."
+  },
+  {
+    "start": 1762.0,
+    "duration": 2.68,
+    "text": "Okay."
+  },
+  {
+    "start": 1762.84,
+    "duration": 4.08,
+    "text": "And multiple implementation also means"
+  },
+  {
+    "start": 1764.68,
+    "duration": 4.52,
+    "text": "that an interface can also extend"
+  },
+  {
+    "start": 1766.92,
+    "duration": 3.6,
+    "text": "another Java Java interface. That is"
+  },
+  {
+    "start": 1769.2,
+    "duration": 3.32,
+    "text": "also something I'll show you in"
+  },
+  {
+    "start": 1770.52,
+    "duration": 4.56,
+    "text": "practice. But an in But an abstract"
+  },
+  {
+    "start": 1772.52,
+    "duration": 5.56,
+    "text": "class can only extend another Java class"
+  },
+  {
+    "start": 1775.08,
+    "duration": 4.32,
+    "text": "and like uh only only single one only."
+  },
+  {
+    "start": 1778.08,
+    "duration": 2.8,
+    "text": "Right? It can't It can't do multiple"
+  },
+  {
+    "start": 1779.4,
+    "duration": 3.12,
+    "text": "inheritance or whatever. This is the"
+  },
+  {
+    "start": 1780.88,
+    "duration": 3.28,
+    "text": "beauty of it. We'll We'll see this in"
+  },
+  {
+    "start": 1782.52,
+    "duration": 2.76,
+    "text": "action also."
+  },
+  {
+    "start": 1784.16,
+    "duration": 3.56,
+    "text": "Okay."
+  },
+  {
+    "start": 1785.28,
+    "duration": 4.0,
+    "text": "So, about the accessibility, members of"
+  },
+  {
+    "start": 1787.72,
+    "duration": 4.44,
+    "text": "the Java interface are public by"
+  },
+  {
+    "start": 1789.28,
+    "duration": 5.0,
+    "text": "default. And uh the Java abstract class"
+  },
+  {
+    "start": 1792.16,
+    "duration": 4.92,
+    "text": "can have all kinds like private,"
+  },
+  {
+    "start": 1794.28,
+    "duration": 4.24,
+    "text": "protected, or whatever."
+  },
+  {
+    "start": 1797.08,
+    "duration": 3.76,
+    "text": "Okay. So, these are like sort of like"
+  },
+  {
+    "start": 1798.52,
+    "duration": 4.16,
+    "text": "the key differences."
+  },
+  {
+    "start": 1800.84,
+    "duration": 3.56,
+    "text": "So, as I mentioned already, using like"
+  },
+  {
+    "start": 1802.68,
+    "duration": 3.6,
+    "text": "interfaces you can specify, you know, a"
+  },
+  {
+    "start": 1804.4,
+    "duration": 4.28,
+    "text": "set of methods and stuff. And then you"
+  },
+  {
+    "start": 1806.28,
+    "duration": 4.84,
+    "text": "can be like, \"Okay, um they can be now"
+  },
+  {
+    "start": 1808.68,
+    "duration": 4.48,
+    "text": "implemented by more than one classes.\""
+  },
+  {
+    "start": 1811.12,
+    "duration": 3.08,
+    "text": "Okay. So, they are sort of like it's"
+  },
+  {
+    "start": 1813.16,
+    "duration": 2.96,
+    "text": "you'll be like, \"Hey Kunal, this is"
+  },
+  {
+    "start": 1814.2,
+    "duration": 3.4,
+    "text": "similar to abstract classes.\" Okay?"
+  },
+  {
+    "start": 1816.12,
+    "duration": 3.68,
+    "text": "That's true, but it has an additional"
+  },
+  {
+    "start": 1817.6,
+    "duration": 3.88,
+    "text": "functionality. A class can implement"
+  },
+  {
+    "start": 1819.8,
+    "duration": 3.88,
+    "text": "more than one interfaces."
+  },
+  {
+    "start": 1821.48,
+    "duration": 4.52,
+    "text": "But on the other hand, a class can only"
+  },
+  {
+    "start": 1823.68,
+    "duration": 4.6,
+    "text": "inherit a single superclass"
+  },
+  {
+    "start": 1826.0,
+    "duration": 3.8,
+    "text": "or abstract class or whatever."
+  },
+  {
+    "start": 1828.28,
+    "duration": 3.32,
+    "text": "The multiple inheritance is not allowed,"
+  },
+  {
+    "start": 1829.8,
+    "duration": 4.24,
+    "text": "but here it's allowed."
+  },
+  {
+    "start": 1831.6,
+    "duration": 4.28,
+    "text": "Here it's allowed."
+  },
+  {
+    "start": 1834.04,
+    "duration": 4.2,
+    "text": "So, using the keyword interface, you can"
+  },
+  {
+    "start": 1835.88,
+    "duration": 4.36,
+    "text": "fully abstract a class interface from"
+  },
+  {
+    "start": 1838.24,
+    "duration": 3.8,
+    "text": "its implementation. Classes interface"
+  },
+  {
+    "start": 1840.24,
+    "duration": 3.44,
+    "text": "from its implementation."
+  },
+  {
+    "start": 1842.04,
+    "duration": 4.76,
+    "text": "It means that you can specify what a"
+  },
+  {
+    "start": 1843.68,
+    "duration": 4.96,
+    "text": "class must do, but not how it does it."
+  },
+  {
+    "start": 1846.8,
+    "duration": 4.24,
+    "text": "How it does it will be specified by the"
+  },
+  {
+    "start": 1848.64,
+    "duration": 5.48,
+    "text": "child classes by overriding the abstract"
+  },
+  {
+    "start": 1851.04,
+    "duration": 4.88,
+    "text": "methods in the interface."
+  },
+  {
+    "start": 1854.12,
+    "duration": 3.48,
+    "text": "Okay?"
+  },
+  {
+    "start": 1855.92,
+    "duration": 2.84,
+    "text": "That's it."
+  },
+  {
+    "start": 1857.6,
+    "duration": 2.32,
+    "text": "In interfaces, you don't have like"
+  },
+  {
+    "start": 1858.76,
+    "duration": 4.36,
+    "text": "instance variables or whatever. You have"
+  },
+  {
+    "start": 1859.92,
+    "duration": 4.32,
+    "text": "final final variables, final and static."
+  },
+  {
+    "start": 1863.12,
+    "duration": 3.16,
+    "text": "Okay?"
+  },
+  {
+    "start": 1864.24,
+    "duration": 3.84,
+    "text": "So, obviously, abstract methods declared"
+  },
+  {
+    "start": 1866.28,
+    "duration": 4.0,
+    "text": "without any body and things like that."
+  },
+  {
+    "start": 1868.08,
+    "duration": 3.6,
+    "text": "Yeah."
+  },
+  {
+    "start": 1870.28,
+    "duration": 4.04,
+    "text": "So, you can now utilize that one"
+  },
+  {
+    "start": 1871.68,
+    "duration": 6.04,
+    "text": "interface and multiple methods."
+  },
+  {
+    "start": 1874.32,
+    "duration": 6.08,
+    "text": "So, we can use something like this."
+  },
+  {
+    "start": 1877.72,
+    "duration": 3.96,
+    "text": "Yeah. Now, this will actually be mak-"
+  },
+  {
+    "start": 1880.4,
+    "duration": 2.72,
+    "text": "making more sense. I'll take you I'll"
+  },
+  {
+    "start": 1881.68,
+    "duration": 3.28,
+    "text": "give you like a little bit of real-world"
+  },
+  {
+    "start": 1883.12,
+    "duration": 2.68,
+    "text": "example as well."
+  },
+  {
+    "start": 1884.96,
+    "duration": 1.96,
+    "text": "Okay?"
+  },
+  {
+    "start": 1885.8,
+    "duration": 2.8,
+    "text": "That's pretty much about it. Let's jump"
+  },
+  {
+    "start": 1886.92,
+    "duration": 3.2,
+    "text": "into the code and look at all these"
+  },
+  {
+    "start": 1888.6,
+    "duration": 3.16,
+    "text": "things in action. Okay? So, let's see"
+  },
+  {
+    "start": 1890.12,
+    "duration": 4.52,
+    "text": "what we're trying to do."
+  },
+  {
+    "start": 1891.76,
+    "duration": 5.64,
+    "text": "Let's imagine you work at a factory of a"
+  },
+  {
+    "start": 1894.64,
+    "duration": 4.88,
+    "text": "car company, right? So,"
+  },
+  {
+    "start": 1897.4,
+    "duration": 4.52,
+    "text": "you have various cars that have various"
+  },
+  {
+    "start": 1899.52,
+    "duration": 4.2,
+    "text": "engines. For example, there's some has"
+  },
+  {
+    "start": 1901.92,
+    "duration": 3.72,
+    "text": "like high-powered engine, diesel engine,"
+  },
+  {
+    "start": 1903.72,
+    "duration": 3.92,
+    "text": "electric engine. Tesla motors have that,"
+  },
+  {
+    "start": 1905.64,
+    "duration": 4.36,
+    "text": "right? For example. So, what we're"
+  },
+  {
+    "start": 1907.64,
+    "duration": 3.64,
+    "text": "trying to do is, let's say"
+  },
+  {
+    "start": 1910.0,
+    "duration": 3.48,
+    "text": "even though the type of engine is"
+  },
+  {
+    "start": 1911.28,
+    "duration": 4.56,
+    "text": "different, but every engine has like a"
+  },
+  {
+    "start": 1913.48,
+    "duration": 4.76,
+    "text": "different functionality, like the way it"
+  },
+  {
+    "start": 1915.84,
+    "duration": 5.08,
+    "text": "works. Okay? So, an engine class can be"
+  },
+  {
+    "start": 1918.24,
+    "duration": 5.96,
+    "text": "something like this, let's say."
+  },
+  {
+    "start": 1920.92,
+    "duration": 5.36,
+    "text": "Okay? How the engine starts"
+  },
+  {
+    "start": 1924.2,
+    "duration": 3.52,
+    "text": "is going to be different. How the engine"
+  },
+  {
+    "start": 1926.28,
+    "duration": 3.12,
+    "text": "stops"
+  },
+  {
+    "start": 1927.72,
+    "duration": 5.32,
+    "text": "is going to be different. And how it"
+  },
+  {
+    "start": 1929.4,
+    "duration": 5.64,
+    "text": "accelerates is going to be different."
+  },
+  {
+    "start": 1933.04,
+    "duration": 3.88,
+    "text": "Right?"
+  },
+  {
+    "start": 1935.04,
+    "duration": 3.16,
+    "text": "Similarly, what all things happen? We"
+  },
+  {
+    "start": 1936.92,
+    "duration": 3.04,
+    "text": "can have"
+  },
+  {
+    "start": 1938.2,
+    "duration": 2.72,
+    "text": "another thing like"
+  },
+  {
+    "start": 1939.96,
+    "duration": 2.36,
+    "text": "brake,"
+  },
+  {
+    "start": 1940.92,
+    "duration": 3.0,
+    "text": "for example."
+  },
+  {
+    "start": 1942.32,
+    "duration": 5.2,
+    "text": "Right? We can have a We can have a"
+  },
+  {
+    "start": 1943.92,
+    "duration": 6.12,
+    "text": "brake. So, for example, if you just uh"
+  },
+  {
+    "start": 1947.52,
+    "duration": 5.24,
+    "text": "s- brake,"
+  },
+  {
+    "start": 1950.04,
+    "duration": 3.6,
+    "text": "every car will stop like differently."
+  },
+  {
+    "start": 1952.76,
+    "duration": 2.92,
+    "text": "Okay?"
+  },
+  {
+    "start": 1953.64,
+    "duration": 4.44,
+    "text": "Every car will have something else, like"
+  },
+  {
+    "start": 1955.68,
+    "duration": 3.4,
+    "text": "let's say it has some media player."
+  },
+  {
+    "start": 1958.08,
+    "duration": 2.52,
+    "text": "Right?"
+  },
+  {
+    "start": 1959.08,
+    "duration": 3.08,
+    "text": "So, you can say media player, this is my"
+  },
+  {
+    "start": 1960.6,
+    "duration": 3.72,
+    "text": "engine."
+  },
+  {
+    "start": 1962.16,
+    "duration": 5.12,
+    "text": "This is let's say my break."
+  },
+  {
+    "start": 1964.32,
+    "duration": 4.64,
+    "text": "This is my media player."
+  },
+  {
+    "start": 1967.28,
+    "duration": 3.08,
+    "text": "Okay? And in your media player, you're"
+  },
+  {
+    "start": 1968.96,
+    "duration": 2.48,
+    "text": "going to be like"
+  },
+  {
+    "start": 1970.36,
+    "duration": 5.48,
+    "text": "hey"
+  },
+  {
+    "start": 1971.44,
+    "duration": 4.4,
+    "text": "um something like start"
+  },
+  {
+    "start": 1976.16,
+    "duration": 5.84,
+    "text": "and stop my media player."
+  },
+  {
+    "start": 1979.56,
+    "duration": 4.6,
+    "text": "That's it."
+  },
+  {
+    "start": 1982.0,
+    "duration": 2.16,
+    "text": "Okay?"
+  },
+  {
+    "start": 1984.2,
+    "duration": 2.52,
+    "text": "Sound good?"
+  },
+  {
+    "start": 1988.28,
+    "duration": 2.28,
+    "text": "Cool?"
+  },
+  {
+    "start": 2003.44,
+    "duration": 3.52,
+    "text": "Okay? That's about it."
+  },
+  {
+    "start": 2007.0,
+    "duration": 2.48,
+    "text": "That is it."
+  },
+  {
+    "start": 2011.64,
+    "duration": 4.4,
+    "text": "Okay?"
+  },
+  {
+    "start": 2012.88,
+    "duration": 4.64,
+    "text": "So, the problem over here is that um"
+  },
+  {
+    "start": 2016.04,
+    "duration": 4.12,
+    "text": "for every car, this is going to be"
+  },
+  {
+    "start": 2017.52,
+    "duration": 4.48,
+    "text": "different. Okay? For every car, this is"
+  },
+  {
+    "start": 2020.16,
+    "duration": 3.96,
+    "text": "going to be different. For the petrol"
+  },
+  {
+    "start": 2022.0,
+    "duration": 4.44,
+    "text": "car, it will be like hey, I start as a"
+  },
+  {
+    "start": 2024.12,
+    "duration": 4.08,
+    "text": "petrol car, I stop as a petrol car, I'm"
+  },
+  {
+    "start": 2026.44,
+    "duration": 4.28,
+    "text": "using the petrol car brakes, and I"
+  },
+  {
+    "start": 2028.2,
+    "duration": 3.84,
+    "text": "accelerate as a petrol car, for example."
+  },
+  {
+    "start": 2030.72,
+    "duration": 3.64,
+    "text": "For diesel car, it will be like I start"
+  },
+  {
+    "start": 2032.04,
+    "duration": 3.76,
+    "text": "as a diesel car, I stop as a diesel car,"
+  },
+  {
+    "start": 2034.36,
+    "duration": 3.24,
+    "text": "I'm accelerating like a diesel car, and"
+  },
+  {
+    "start": 2035.8,
+    "duration": 3.0,
+    "text": "I put brakes as a diesel car. So, you"
+  },
+  {
+    "start": 2037.6,
+    "duration": 2.8,
+    "text": "can be like okay, Kunal, it's like"
+  },
+  {
+    "start": 2038.8,
+    "duration": 2.88,
+    "text": "different for each and every one. That's"
+  },
+  {
+    "start": 2040.4,
+    "duration": 2.92,
+    "text": "totally fine."
+  },
+  {
+    "start": 2041.68,
+    "duration": 3.88,
+    "text": "Can you maybe like just create these as"
+  },
+  {
+    "start": 2043.32,
+    "duration": 4.04,
+    "text": "abstract classes and just override these"
+  },
+  {
+    "start": 2045.56,
+    "duration": 2.839,
+    "text": "methods? And I'm like yeah, sure, we can"
+  },
+  {
+    "start": 2047.36,
+    "duration": 3.2,
+    "text": "do that."
+  },
+  {
+    "start": 2048.399,
+    "duration": 4.961,
+    "text": "But then we cannot utilize the multi"
+  },
+  {
+    "start": 2050.56,
+    "duration": 5.56,
+    "text": "multiple inheritance that we want to do."
+  },
+  {
+    "start": 2053.36,
+    "duration": 5.039,
+    "text": "Right? We can't really utilize that."
+  },
+  {
+    "start": 2056.12,
+    "duration": 5.36,
+    "text": "I want a single car. And let's say if"
+  },
+  {
+    "start": 2058.399,
+    "duration": 4.52,
+    "text": "I'm creating a petrol engine class,"
+  },
+  {
+    "start": 2061.48,
+    "duration": 3.84,
+    "text": "right? I'm creating a petrol engine"
+  },
+  {
+    "start": 2062.919,
+    "duration": 4.76,
+    "text": "class or whatever. I want it to utilize"
+  },
+  {
+    "start": 2065.32,
+    "duration": 3.44,
+    "text": "all these things."
+  },
+  {
+    "start": 2067.679,
+    "duration": 3.441,
+    "text": "Let's say all of these things, for"
+  },
+  {
+    "start": 2068.76,
+    "duration": 3.919,
+    "text": "example."
+  },
+  {
+    "start": 2071.12,
+    "duration": 3.88,
+    "text": "Right? And let's say I'm just creating"
+  },
+  {
+    "start": 2072.679,
+    "duration": 3.161,
+    "text": "one custom car. Okay, just one single"
+  },
+  {
+    "start": 2075.0,
+    "duration": 2.679,
+    "text": "car."
+  },
+  {
+    "start": 2075.84,
+    "duration": 4.48,
+    "text": "That car needs to utilize all of these"
+  },
+  {
+    "start": 2077.679,
+    "duration": 2.641,
+    "text": "three things."
+  },
+  {
+    "start": 2081.879,
+    "duration": 4.561,
+    "text": "In that case, what will you do?"
+  },
+  {
+    "start": 2083.8,
+    "duration": 4.44,
+    "text": "You can't extend three things at once in"
+  },
+  {
+    "start": 2086.44,
+    "duration": 3.84,
+    "text": "abstract classes or classes. Multiple"
+  },
+  {
+    "start": 2088.24,
+    "duration": 2.8,
+    "text": "inheritance is not allowed."
+  },
+  {
+    "start": 2090.28,
+    "duration": 3.16,
+    "text": "Right?"
+  },
+  {
+    "start": 2091.04,
+    "duration": 5.04,
+    "text": "In that case, we can use interfaces."
+  },
+  {
+    "start": 2093.44,
+    "duration": 4.32,
+    "text": "So, I can create these as interfaces."
+  },
+  {
+    "start": 2096.08,
+    "duration": 3.64,
+    "text": "And then I can create custom classes"
+  },
+  {
+    "start": 2097.76,
+    "duration": 3.68,
+    "text": "from it."
+  },
+  {
+    "start": 2099.72,
+    "duration": 4.92,
+    "text": "Let's see this in action. See this in"
+  },
+  {
+    "start": 2101.44,
+    "duration": 5.24,
+    "text": "action. So, I can just create a new"
+  },
+  {
+    "start": 2104.64,
+    "duration": 4.4,
+    "text": "package over here."
+  },
+  {
+    "start": 2106.68,
+    "duration": 3.64,
+    "text": "I can say"
+  },
+  {
+    "start": 2109.04,
+    "duration": 3.6,
+    "text": "inter"
+  },
+  {
+    "start": 2110.32,
+    "duration": 4.8,
+    "text": "faces."
+  },
+  {
+    "start": 2112.64,
+    "duration": 4.4,
+    "text": "Okay? I can create, let's say, what did"
+  },
+  {
+    "start": 2115.12,
+    "duration": 3.6,
+    "text": "we have over here? I can create one"
+  },
+  {
+    "start": 2117.04,
+    "duration": 3.68,
+    "text": "called engine."
+  },
+  {
+    "start": 2118.72,
+    "duration": 4.96,
+    "text": "No problem. So, I'll not create a class."
+  },
+  {
+    "start": 2120.72,
+    "duration": 4.64,
+    "text": "I'll actually create an interface."
+  },
+  {
+    "start": 2123.68,
+    "duration": 3.92,
+    "text": "An interface"
+  },
+  {
+    "start": 2125.36,
+    "duration": 3.64,
+    "text": "known as engine."
+  },
+  {
+    "start": 2127.6,
+    "duration": 3.36,
+    "text": "So, you can see the definition, public"
+  },
+  {
+    "start": 2129.0,
+    "duration": 3.12,
+    "text": "interface engine."
+  },
+  {
+    "start": 2130.96,
+    "duration": 2.84,
+    "text": "Okay?"
+  },
+  {
+    "start": 2132.12,
+    "duration": 3.64,
+    "text": "This is going to have what?"
+  },
+  {
+    "start": 2133.8,
+    "duration": 4.24,
+    "text": "This is going to have something like"
+  },
+  {
+    "start": 2135.76,
+    "duration": 3.32,
+    "text": "start, stop, and accelerate. Okay? No"
+  },
+  {
+    "start": 2138.04,
+    "duration": 5.56,
+    "text": "problem."
+  },
+  {
+    "start": 2139.08,
+    "duration": 4.52,
+    "text": "So, I can say void start,"
+  },
+  {
+    "start": 2144.08,
+    "duration": 3.28,
+    "text": "void"
+  },
+  {
+    "start": 2145.24,
+    "duration": 4.32,
+    "text": "stop,"
+  },
+  {
+    "start": 2147.36,
+    "duration": 4.04,
+    "text": "void accelerate."
+  },
+  {
+    "start": 2149.56,
+    "duration": 3.92,
+    "text": "Something like that."
+  },
+  {
+    "start": 2151.4,
+    "duration": 4.28,
+    "text": "Okay?"
+  },
+  {
+    "start": 2153.48,
+    "duration": 2.2,
+    "text": "Cool?"
+  },
+  {
+    "start": 2156.12,
+    "duration": 5.28,
+    "text": "Any variable you need to have, let's"
+  },
+  {
+    "start": 2157.92,
+    "duration": 6.12,
+    "text": "say, int um something like price"
+  },
+  {
+    "start": 2161.4,
+    "duration": 3.72,
+    "text": "is equal to has to be final, right? Is"
+  },
+  {
+    "start": 2164.04,
+    "duration": 4.44,
+    "text": "that too"
+  },
+  {
+    "start": 2165.12,
+    "duration": 5.56,
+    "text": "78,000 or whatever."
+  },
+  {
+    "start": 2168.48,
+    "duration": 4.72,
+    "text": "Okay? This is by default what? Static"
+  },
+  {
+    "start": 2170.68,
+    "duration": 2.52,
+    "text": "and final."
+  },
+  {
+    "start": 2175.48,
+    "duration": 2.04,
+    "text": "Okay, that's why it's blurred out"
+  },
+  {
+    "start": 2176.56,
+    "duration": 3.08,
+    "text": "because it's like, \"Hey, you don't have"
+  },
+  {
+    "start": 2177.52,
+    "duration": 4.4,
+    "text": "to write this. It's already"
+  },
+  {
+    "start": 2179.64,
+    "duration": 2.28,
+    "text": "like that.\""
+  },
+  {
+    "start": 2182.16,
+    "duration": 2.6,
+    "text": "Okay?"
+  },
+  {
+    "start": 2183.16,
+    "duration": 2.96,
+    "text": "What is the next thing you need?"
+  },
+  {
+    "start": 2184.76,
+    "duration": 3.56,
+    "text": "Next thing you need is like, let's say,"
+  },
+  {
+    "start": 2186.12,
+    "duration": 4.0,
+    "text": "a break, right?"
+  },
+  {
+    "start": 2188.32,
+    "duration": 4.84,
+    "text": "So, break basically means just like a"
+  },
+  {
+    "start": 2190.12,
+    "duration": 3.04,
+    "text": "new interface."
+  },
+  {
+    "start": 2195.8,
+    "duration": 4.96,
+    "text": "Break."
+  },
+  {
+    "start": 2197.04,
+    "duration": 3.72,
+    "text": "That's it. It's going to say break."
+  },
+  {
+    "start": 2201.76,
+    "duration": 2.6,
+    "text": "Void"
+  },
+  {
+    "start": 2204.8,
+    "duration": 3.16,
+    "text": "break."
+  },
+  {
+    "start": 2205.88,
+    "duration": 4.04,
+    "text": "b r a k e"
+  },
+  {
+    "start": 2207.96,
+    "duration": 3.56,
+    "text": "Something like that."
+  },
+  {
+    "start": 2209.92,
+    "duration": 3.32,
+    "text": "Okay?"
+  },
+  {
+    "start": 2211.52,
+    "duration": 3.52,
+    "text": "You have another one called"
+  },
+  {
+    "start": 2213.24,
+    "duration": 3.72,
+    "text": "media. So, you can imagine these as like"
+  },
+  {
+    "start": 2215.04,
+    "duration": 3.64,
+    "text": "just abstract classes. But, the only"
+  },
+  {
+    "start": 2216.96,
+    "duration": 3.08,
+    "text": "difference is"
+  },
+  {
+    "start": 2218.68,
+    "duration": 2.48,
+    "text": "I've already explained the difference,"
+  },
+  {
+    "start": 2220.04,
+    "duration": 2.08,
+    "text": "right? What the difference is between"
+  },
+  {
+    "start": 2221.16,
+    "duration": 4.4,
+    "text": "these."
+  },
+  {
+    "start": 2222.12,
+    "duration": 3.44,
+    "text": "Let's create one more called media."
+  },
+  {
+    "start": 2226.96,
+    "duration": 5.84,
+    "text": "Media. Okay? Now, it will contain let's"
+  },
+  {
+    "start": 2229.4,
+    "duration": 5.72,
+    "text": "say the same ones, start and stop."
+  },
+  {
+    "start": 2232.8,
+    "duration": 5.12,
+    "text": "Like this, for example."
+  },
+  {
+    "start": 2235.12,
+    "duration": 2.8,
+    "text": "Start and stop."
+  },
+  {
+    "start": 2238.52,
+    "duration": 4.6,
+    "text": "Okay?"
+  },
+  {
+    "start": 2240.36,
+    "duration": 2.76,
+    "text": "Something like that."
+  },
+  {
+    "start": 2245.16,
+    "duration": 2.2,
+    "text": "Cool?"
+  },
+  {
+    "start": 2247.92,
+    "duration": 2.4,
+    "text": "Sound good?"
+  },
+  {
+    "start": 2252.28,
+    "duration": 4.08,
+    "text": "Okay?"
+  },
+  {
+    "start": 2254.48,
+    "duration": 2.88,
+    "text": "So, let's say you want to create a car"
+  },
+  {
+    "start": 2256.36,
+    "duration": 2.32,
+    "text": "now."
+  },
+  {
+    "start": 2257.36,
+    "duration": 4.28,
+    "text": "So, let's say you want to create a Java"
+  },
+  {
+    "start": 2258.68,
+    "duration": 4.08,
+    "text": "class. You create a car. A car needs to"
+  },
+  {
+    "start": 2261.64,
+    "duration": 5.0,
+    "text": "have let's say these two"
+  },
+  {
+    "start": 2262.76,
+    "duration": 5.24,
+    "text": "functionalities, break and engine."
+  },
+  {
+    "start": 2266.64,
+    "duration": 2.72,
+    "text": "So, previously you were not able to do"
+  },
+  {
+    "start": 2268.0,
+    "duration": 2.28,
+    "text": "it."
+  },
+  {
+    "start": 2269.36,
+    "duration": 2.2,
+    "text": "If you need both of these"
+  },
+  {
+    "start": 2270.28,
+    "duration": 3.32,
+    "text": "functionalities, you were not able to"
+  },
+  {
+    "start": 2271.56,
+    "duration": 3.84,
+    "text": "add it in one single one."
+  },
+  {
+    "start": 2273.6,
+    "duration": 3.08,
+    "text": "Because you cannot implement two files"
+  },
+  {
+    "start": 2275.4,
+    "duration": 3.8,
+    "text": "into one."
+  },
+  {
+    "start": 2276.68,
+    "duration": 4.32,
+    "text": "Multiple inheritance not allowed."
+  },
+  {
+    "start": 2279.2,
+    "duration": 5.2,
+    "text": "You can't You weren't able to do it like"
+  },
+  {
+    "start": 2281.0,
+    "duration": 5.04,
+    "text": "this previously, were you? No, right?"
+  },
+  {
+    "start": 2284.4,
+    "duration": 3.48,
+    "text": "If you want to make a car like this."
+  },
+  {
+    "start": 2286.04,
+    "duration": 4.64,
+    "text": "Now, you can with the implements"
+  },
+  {
+    "start": 2287.88,
+    "duration": 4.48,
+    "text": "keyword. Implements, now you can put as"
+  },
+  {
+    "start": 2290.68,
+    "duration": 3.08,
+    "text": "many classes as you want."
+  },
+  {
+    "start": 2292.36,
+    "duration": 4.04,
+    "text": "Engine"
+  },
+  {
+    "start": 2293.76,
+    "duration": 4.4,
+    "text": "and break. Let's say I only want two."
+  },
+  {
+    "start": 2296.4,
+    "duration": 3.12,
+    "text": "Obviously, these are abstract methods,"
+  },
+  {
+    "start": 2298.16,
+    "duration": 3.6,
+    "text": "so you would have to implement those. No"
+  },
+  {
+    "start": 2299.52,
+    "duration": 5.96,
+    "text": "problem, I I do it."
+  },
+  {
+    "start": 2301.76,
+    "duration": 6.36,
+    "text": "Implement methods like this."
+  },
+  {
+    "start": 2305.48,
+    "duration": 4.16,
+    "text": "So, you can say"
+  },
+  {
+    "start": 2308.12,
+    "duration": 5.6,
+    "text": "I break"
+  },
+  {
+    "start": 2309.64,
+    "duration": 6.48,
+    "text": "like a normal"
+  },
+  {
+    "start": 2313.72,
+    "duration": 2.4,
+    "text": "car."
+  },
+  {
+    "start": 2317.24,
+    "duration": 3.48,
+    "text": "I start like a normal car."
+  },
+  {
+    "start": 2321.52,
+    "duration": 3.8,
+    "text": "Okay?"
+  },
+  {
+    "start": 2322.48,
+    "duration": 6.24,
+    "text": "I stop like a normal car."
+  },
+  {
+    "start": 2325.32,
+    "duration": 3.4,
+    "text": "Okay, and I accelerate."
+  },
+  {
+    "start": 2331.64,
+    "duration": 5.04,
+    "text": "What is the spelling? Accelerate."
+  },
+  {
+    "start": 2334.92,
+    "duration": 3.4,
+    "text": "Like a normal car."
+  },
+  {
+    "start": 2336.68,
+    "duration": 3.48,
+    "text": "Were you able to do this previously?"
+  },
+  {
+    "start": 2338.32,
+    "duration": 3.68,
+    "text": "Putting two"
+  },
+  {
+    "start": 2340.16,
+    "duration": 4.68,
+    "text": "two inheriting the properties of more"
+  },
+  {
+    "start": 2342.0,
+    "duration": 6.24,
+    "text": "than one classes into one. Were you able"
+  },
+  {
+    "start": 2344.84,
+    "duration": 6.04,
+    "text": "to do this before? No. Now you can."
+  },
+  {
+    "start": 2348.24,
+    "duration": 3.96,
+    "text": "Even if this had a start over here,"
+  },
+  {
+    "start": 2350.88,
+    "duration": 3.68,
+    "text": "let's see."
+  },
+  {
+    "start": 2352.2,
+    "duration": 5.24,
+    "text": "Would it really matter? Because it is"
+  },
+  {
+    "start": 2354.56,
+    "duration": 4.44,
+    "text": "already adding its own value, own"
+  },
+  {
+    "start": 2357.44,
+    "duration": 4.08,
+    "text": "function body."
+  },
+  {
+    "start": 2359.0,
+    "duration": 4.32,
+    "text": "Right? It wouldn't matter."
+  },
+  {
+    "start": 2361.52,
+    "duration": 4.2,
+    "text": "Right? If there was like a start over"
+  },
+  {
+    "start": 2363.32,
+    "duration": 4.4,
+    "text": "here, void start or something like this."
+  },
+  {
+    "start": 2365.72,
+    "duration": 4.04,
+    "text": "Would it matter much? No, because it's"
+  },
+  {
+    "start": 2367.72,
+    "duration": 3.36,
+    "text": "providing its own body. Does not care"
+  },
+  {
+    "start": 2369.76,
+    "duration": 4.16,
+    "text": "which one it's overriding. It's just"
+  },
+  {
+    "start": 2371.08,
+    "duration": 4.72,
+    "text": "overriding, we know that."
+  },
+  {
+    "start": 2373.92,
+    "duration": 4.16,
+    "text": "Okay?"
+  },
+  {
+    "start": 2375.8,
+    "duration": 3.68,
+    "text": "So, it wouldn't matter."
+  },
+  {
+    "start": 2378.08,
+    "duration": 3.0,
+    "text": "So, are you able to see how the conflict"
+  },
+  {
+    "start": 2379.48,
+    "duration": 3.16,
+    "text": "resolution is also resolved? This was"
+  },
+  {
+    "start": 2381.08,
+    "duration": 3.4,
+    "text": "being resolved in abstract classes also,"
+  },
+  {
+    "start": 2382.64,
+    "duration": 3.76,
+    "text": "but like in that this multiple"
+  },
+  {
+    "start": 2384.48,
+    "duration": 3.8,
+    "text": "inheritance was not allowed. Here it's"
+  },
+  {
+    "start": 2386.4,
+    "duration": 4.4,
+    "text": "allowed."
+  },
+  {
+    "start": 2388.28,
+    "duration": 4.0,
+    "text": "Create a main file."
+  },
+  {
+    "start": 2390.8,
+    "duration": 3.6,
+    "text": "Java class."
+  },
+  {
+    "start": 2392.28,
+    "duration": 3.84,
+    "text": "Main."
+  },
+  {
+    "start": 2394.4,
+    "duration": 3.56,
+    "text": "Okay?"
+  },
+  {
+    "start": 2396.12,
+    "duration": 4.4,
+    "text": "Something like this. You can say public"
+  },
+  {
+    "start": 2397.96,
+    "duration": 4.44,
+    "text": "static void main."
+  },
+  {
+    "start": 2400.52,
+    "duration": 3.8,
+    "text": "Right?"
+  },
+  {
+    "start": 2402.4,
+    "duration": 5.6,
+    "text": "You can say my"
+  },
+  {
+    "start": 2404.32,
+    "duration": 5.0,
+    "text": "car car is equal to new car."
+  },
+  {
+    "start": 2408.0,
+    "duration": 2.12,
+    "text": "Okay? Something like that. And then you"
+  },
+  {
+    "start": 2409.32,
+    "duration": 3.72,
+    "text": "do"
+  },
+  {
+    "start": 2410.12,
+    "duration": 4.92,
+    "text": "car dot um"
+  },
+  {
+    "start": 2413.04,
+    "duration": 5.56,
+    "text": "accelerate."
+  },
+  {
+    "start": 2415.04,
+    "duration": 6.08,
+    "text": "Then say car dot start."
+  },
+  {
+    "start": 2418.6,
+    "duration": 3.92,
+    "text": "Car dot stop or whatever."
+  },
+  {
+    "start": 2421.12,
+    "duration": 3.56,
+    "text": "It's going to run what? What is this"
+  },
+  {
+    "start": 2422.52,
+    "duration": 3.48,
+    "text": "thing? Overriding already explained."
+  },
+  {
+    "start": 2424.68,
+    "duration": 2.92,
+    "text": "You already know what overriding is."
+  },
+  {
+    "start": 2426.0,
+    "duration": 3.64,
+    "text": "Dynamic method dispatch, everything you"
+  },
+  {
+    "start": 2427.6,
+    "duration": 3.76,
+    "text": "know. How it will handle it, how will it"
+  },
+  {
+    "start": 2429.64,
+    "duration": 3.72,
+    "text": "determine, everything I've covered in"
+  },
+  {
+    "start": 2431.36,
+    "duration": 3.92,
+    "text": "the overriding oops property lecture."
+  },
+  {
+    "start": 2433.36,
+    "duration": 3.16,
+    "text": "All right? Please watch that without"
+  },
+  {
+    "start": 2435.28,
+    "duration": 3.36,
+    "text": "asking doubts because I've already"
+  },
+  {
+    "start": 2436.52,
+    "duration": 3.84,
+    "text": "covered that. I want this to be the best"
+  },
+  {
+    "start": 2438.64,
+    "duration": 3.08,
+    "text": "course on YouTube for data structures"
+  },
+  {
+    "start": 2440.36,
+    "duration": 2.96,
+    "text": "algorithms and object programming and"
+  },
+  {
+    "start": 2441.72,
+    "duration": 2.68,
+    "text": "interview preparation. Hence, I'm not"
+  },
+  {
+    "start": 2443.32,
+    "duration": 3.08,
+    "text": "skipping anything. I've already"
+  },
+  {
+    "start": 2444.4,
+    "duration": 4.04,
+    "text": "explained this in detail. Okay? Check"
+  },
+  {
+    "start": 2446.4,
+    "duration": 4.52,
+    "text": "out the links in the description. So."
+  },
+  {
+    "start": 2448.44,
+    "duration": 5.4,
+    "text": "How which particular method to run it's"
+  },
+  {
+    "start": 2450.92,
+    "duration": 5.64,
+    "text": "actually determining on at run time."
+  },
+  {
+    "start": 2453.84,
+    "duration": 2.72,
+    "text": "At run time."
+  },
+  {
+    "start": 2457.4,
+    "duration": 2.56,
+    "text": "Okay?"
+  },
+  {
+    "start": 2458.92,
+    "duration": 3.08,
+    "text": "So."
+  },
+  {
+    "start": 2459.96,
+    "duration": 4.04,
+    "text": "That's pretty much about it."
+  },
+  {
+    "start": 2462.0,
+    "duration": 4.56,
+    "text": "Okay? One more thing I'd like to mention"
+  },
+  {
+    "start": 2464.0,
+    "duration": 4.84,
+    "text": "is that when we use classes, right? I"
+  },
+  {
+    "start": 2466.56,
+    "duration": 4.28,
+    "text": "told you that the parent class has no"
+  },
+  {
+    "start": 2468.84,
+    "duration": 4.08,
+    "text": "idea about child classes, but the child"
+  },
+  {
+    "start": 2470.84,
+    "duration": 4.16,
+    "text": "class has idea about parent classes."
+  },
+  {
+    "start": 2472.92,
+    "duration": 5.2,
+    "text": "Okay? So, when you are calling one"
+  },
+  {
+    "start": 2475.0,
+    "duration": 4.96,
+    "text": "function from a child class and that"
+  },
+  {
+    "start": 2478.12,
+    "duration": 4.16,
+    "text": "function, let's say, exists in the"
+  },
+  {
+    "start": 2479.96,
+    "duration": 5.16,
+    "text": "parent class. Then the parent class and"
+  },
+  {
+    "start": 2482.28,
+    "duration": 4.4,
+    "text": "child class both have to be present at"
+  },
+  {
+    "start": 2485.12,
+    "duration": 3.68,
+    "text": "the compile time."
+  },
+  {
+    "start": 2486.68,
+    "duration": 3.48,
+    "text": "So, that the Java compiler can check"
+  },
+  {
+    "start": 2488.8,
+    "duration": 2.36,
+    "text": "that everything is compatible or"
+  },
+  {
+    "start": 2490.16,
+    "duration": 3.6,
+    "text": "everything."
+  },
+  {
+    "start": 2491.16,
+    "duration": 5.52,
+    "text": "Okay? Simple stuff. Makes sense. Cool."
+  },
+  {
+    "start": 2493.76,
+    "duration": 5.36,
+    "text": "So, this way for more functions to be"
+  },
+  {
+    "start": 2496.68,
+    "duration": 4.36,
+    "text": "available to child classes, functions"
+  },
+  {
+    "start": 2499.12,
+    "duration": 4.0,
+    "text": "get pushed up higher and higher in the"
+  },
+  {
+    "start": 2501.04,
+    "duration": 4.0,
+    "text": "parent classes."
+  },
+  {
+    "start": 2503.12,
+    "duration": 4.48,
+    "text": "Okay? And"
+  },
+  {
+    "start": 2505.04,
+    "duration": 5.72,
+    "text": "this is basically um"
+  },
+  {
+    "start": 2507.6,
+    "duration": 6.24,
+    "text": "a problem that interfaces solve. Because"
+  },
+  {
+    "start": 2510.76,
+    "duration": 6.24,
+    "text": "they disconnect the definition"
+  },
+  {
+    "start": 2513.84,
+    "duration": 5.92,
+    "text": "of a method from the this hierarchy of"
+  },
+  {
+    "start": 2517.0,
+    "duration": 4.72,
+    "text": "inheritance. Okay? Because you are"
+  },
+  {
+    "start": 2519.76,
+    "duration": 4.4,
+    "text": "implementing it in the"
+  },
+  {
+    "start": 2521.72,
+    "duration": 4.36,
+    "text": "subclass only, the main body."
+  },
+  {
+    "start": 2524.16,
+    "duration": 4.32,
+    "text": "Okay?"
+  },
+  {
+    "start": 2526.08,
+    "duration": 5.36,
+    "text": "So, interfaces are not like in the"
+  },
+  {
+    "start": 2528.48,
+    "duration": 4.32,
+    "text": "hierarchy of classes. Okay?"
+  },
+  {
+    "start": 2531.44,
+    "duration": 2.72,
+    "text": "Uh it's totally possible for like"
+  },
+  {
+    "start": 2532.8,
+    "duration": 3.12,
+    "text": "classes that are"
+  },
+  {
+    "start": 2534.16,
+    "duration": 3.72,
+    "text": "two classes let's say that are unrelated"
+  },
+  {
+    "start": 2535.92,
+    "duration": 4.28,
+    "text": "to each other in terms of who their"
+  },
+  {
+    "start": 2537.88,
+    "duration": 4.44,
+    "text": "parents are or whatever."
+  },
+  {
+    "start": 2540.2,
+    "duration": 4.32,
+    "text": "They can implement the same interface."
+  },
+  {
+    "start": 2542.32,
+    "duration": 4.32,
+    "text": "This is where the power of interfaces"
+  },
+  {
+    "start": 2544.52,
+    "duration": 3.8,
+    "text": "shines."
+  },
+  {
+    "start": 2546.64,
+    "duration": 3.52,
+    "text": "Okay."
+  },
+  {
+    "start": 2548.32,
+    "duration": 3.88,
+    "text": "Remember I told you you can go up but"
+  },
+  {
+    "start": 2550.16,
+    "duration": 4.36,
+    "text": "you can't go down like this, right? In"
+  },
+  {
+    "start": 2552.2,
+    "duration": 3.36,
+    "text": "that way makes sense to put"
+  },
+  {
+    "start": 2554.52,
+    "duration": 3.24,
+    "text": "functions that are being used by"
+  },
+  {
+    "start": 2555.56,
+    "duration": 3.76,
+    "text": "multiple classes up and up and up."
+  },
+  {
+    "start": 2557.76,
+    "duration": 3.44,
+    "text": "Interface does not really care about"
+  },
+  {
+    "start": 2559.32,
+    "duration": 3.32,
+    "text": "what the inter what like whether two"
+  },
+  {
+    "start": 2561.2,
+    "duration": 3.76,
+    "text": "classes are related or not or whatever"
+  },
+  {
+    "start": 2562.64,
+    "duration": 6.16,
+    "text": "like that. It does not really care."
+  },
+  {
+    "start": 2564.96,
+    "duration": 5.48,
+    "text": "But in normal inheritance it does care."
+  },
+  {
+    "start": 2568.8,
+    "duration": 3.4,
+    "text": "Right? Two classes are"
+  },
+  {
+    "start": 2570.44,
+    "duration": 3.76,
+    "text": "inherited or not, right?"
+  },
+  {
+    "start": 2572.2,
+    "duration": 3.32,
+    "text": "Like we already discussed like you can"
+  },
+  {
+    "start": 2574.2,
+    "duration": 3.4,
+    "text": "you have two child classes you can't"
+  },
+  {
+    "start": 2575.52,
+    "duration": 4.2,
+    "text": "really go like this. You can only go up."
+  },
+  {
+    "start": 2577.6,
+    "duration": 3.88,
+    "text": "Interface it does not really care."
+  },
+  {
+    "start": 2579.72,
+    "duration": 3.16,
+    "text": "Two classes that are basically unrelated"
+  },
+  {
+    "start": 2581.48,
+    "duration": 3.68,
+    "text": "to each other, right? They can also"
+  },
+  {
+    "start": 2582.88,
+    "duration": 5.08,
+    "text": "implement the same interface."
+  },
+  {
+    "start": 2585.16,
+    "duration": 2.8,
+    "text": "Is what I'm saying."
+  },
+  {
+    "start": 2588.28,
+    "duration": 4.84,
+    "text": "This is awesome."
+  },
+  {
+    "start": 2590.4,
+    "duration": 4.32,
+    "text": "As simple as that."
+  },
+  {
+    "start": 2593.12,
+    "duration": 3.64,
+    "text": "Two classes that are unrelated to each"
+  },
+  {
+    "start": 2594.72,
+    "duration": 4.12,
+    "text": "other can also implement the same"
+  },
+  {
+    "start": 2596.76,
+    "duration": 4.44,
+    "text": "interface."
+  },
+  {
+    "start": 2598.84,
+    "duration": 2.36,
+    "text": "Okay."
+  },
+  {
+    "start": 2601.44,
+    "duration": 2.88,
+    "text": "Cool."
+  },
+  {
+    "start": 2602.44,
+    "duration": 3.88,
+    "text": "So this is dynamic method dispatch"
+  },
+  {
+    "start": 2604.32,
+    "duration": 3.96,
+    "text": "method or like override overriding and"
+  },
+  {
+    "start": 2606.32,
+    "duration": 3.56,
+    "text": "stuff. It works exactly the same way"
+  },
+  {
+    "start": 2608.28,
+    "duration": 3.4,
+    "text": "like dynamic method dispatch that we"
+  },
+  {
+    "start": 2609.88,
+    "duration": 3.68,
+    "text": "taught previously. At run time it will"
+  },
+  {
+    "start": 2611.68,
+    "duration": 4.32,
+    "text": "decide which one to run. That obviously"
+  },
+  {
+    "start": 2613.56,
+    "duration": 4.28,
+    "text": "depends on the type of this."
+  },
+  {
+    "start": 2616.0,
+    "duration": 2.84,
+    "text": "Okay. Can you create"
+  },
+  {
+    "start": 2617.84,
+    "duration": 3.64,
+    "text": "like one more thing I would like to"
+  },
+  {
+    "start": 2618.84,
+    "duration": 4.68,
+    "text": "mention is that uh"
+  },
+  {
+    "start": 2621.48,
+    "duration": 4.04,
+    "text": "Can you actually add like uh"
+  },
+  {
+    "start": 2623.52,
+    "duration": 3.72,
+    "text": "type of the variable as the type of the"
+  },
+  {
+    "start": 2625.52,
+    "duration": 4.4,
+    "text": "interface like we can with abstract"
+  },
+  {
+    "start": 2627.24,
+    "duration": 4.88,
+    "text": "classes and parent classes."
+  },
+  {
+    "start": 2629.92,
+    "duration": 4.88,
+    "text": "Yes, you can."
+  },
+  {
+    "start": 2632.12,
+    "duration": 4.96,
+    "text": "We are able to do it."
+  },
+  {
+    "start": 2634.8,
+    "duration": 3.72,
+    "text": "Again same same rules will apply then."
+  },
+  {
+    "start": 2637.08,
+    "duration": 2.68,
+    "text": "If you have something that is inside"
+  },
+  {
+    "start": 2638.52,
+    "duration": 2.6,
+    "text": "this class you will not be able to"
+  },
+  {
+    "start": 2639.76,
+    "duration": 3.84,
+    "text": "access that."
+  },
+  {
+    "start": 2641.12,
+    "duration": 4.36,
+    "text": "int a is equal to 30 or something like"
+  },
+  {
+    "start": 2643.6,
+    "duration": 4.2,
+    "text": "that."
+  },
+  {
+    "start": 2645.48,
+    "duration": 3.76,
+    "text": "car.a"
+  },
+  {
+    "start": 2647.8,
+    "duration": 4.08,
+    "text": "You will not be able to access that."
+  },
+  {
+    "start": 2649.24,
+    "duration": 4.84,
+    "text": "Why? Because already explained a"
+  },
+  {
+    "start": 2651.88,
+    "duration": 4.84,
+    "text": "thousand times by me. What things you"
+  },
+  {
+    "start": 2654.08,
+    "duration": 4.4,
+    "text": "access depends on this, which one of"
+  },
+  {
+    "start": 2656.72,
+    "duration": 4.48,
+    "text": "those versions to access depends on"
+  },
+  {
+    "start": 2658.48,
+    "duration": 4.8,
+    "text": "this. Overriding and this is just"
+  },
+  {
+    "start": 2661.2,
+    "duration": 3.72,
+    "text": "putting reference variables as parent"
+  },
+  {
+    "start": 2663.28,
+    "duration": 3.2,
+    "text": "classes. Already explained previously"
+  },
+  {
+    "start": 2664.92,
+    "duration": 3.28,
+    "text": "with examples."
+  },
+  {
+    "start": 2666.48,
+    "duration": 3.84,
+    "text": "Okay? If you did not understand this"
+  },
+  {
+    "start": 2668.2,
+    "duration": 3.12,
+    "text": "means I I can't teach you"
+  },
+  {
+    "start": 2670.32,
+    "duration": 2.92,
+    "text": "object-oriented programming because you"
+  },
+  {
+    "start": 2671.32,
+    "duration": 2.96,
+    "text": "skipped all the previous lectures."
+  },
+  {
+    "start": 2673.24,
+    "duration": 3.16,
+    "text": "This is a very basic stuff that I"
+  },
+  {
+    "start": 2674.28,
+    "duration": 4.2,
+    "text": "already explained multiple times I even"
+  },
+  {
+    "start": 2676.4,
+    "duration": 4.52,
+    "text": "pointed it out very clearly. We spent"
+  },
+  {
+    "start": 2678.48,
+    "duration": 4.28,
+    "text": "like so much time on this."
+  },
+  {
+    "start": 2680.92,
+    "duration": 3.72,
+    "text": "You know, I told you that story also I"
+  },
+  {
+    "start": 2682.76,
+    "duration": 3.88,
+    "text": "told you, which version to access will"
+  },
+  {
+    "start": 2684.64,
+    "duration": 3.8,
+    "text": "be mentioned by the object, what to"
+  },
+  {
+    "start": 2686.64,
+    "duration": 4.32,
+    "text": "access will be mentioned by this. It's"
+  },
+  {
+    "start": 2688.44,
+    "duration": 4.2,
+    "text": "type engine so engine access it can only"
+  },
+  {
+    "start": 2690.96,
+    "duration": 3.44,
+    "text": "access these things."
+  },
+  {
+    "start": 2692.64,
+    "duration": 4.4,
+    "text": "It cannot access what is inside the car"
+  },
+  {
+    "start": 2694.4,
+    "duration": 3.56,
+    "text": "even though the object is of car type."
+  },
+  {
+    "start": 2697.04,
+    "duration": 3.28,
+    "text": "But"
+  },
+  {
+    "start": 2697.96,
+    "duration": 3.88,
+    "text": "which one to actually access depends on"
+  },
+  {
+    "start": 2700.32,
+    "duration": 4.32,
+    "text": "the type of the object. Type of the"
+  },
+  {
+    "start": 2701.84,
+    "duration": 6.12,
+    "text": "object is car. So when you do acc, it"
+  },
+  {
+    "start": 2704.64,
+    "duration": 5.0,
+    "text": "will actually access the car type's acc."
+  },
+  {
+    "start": 2707.96,
+    "duration": 3.44,
+    "text": "This one."
+  },
+  {
+    "start": 2709.64,
+    "duration": 3.6,
+    "text": "Okay?"
+  },
+  {
+    "start": 2711.4,
+    "duration": 3.32,
+    "text": "Make sense? So you can definitely do"
+  },
+  {
+    "start": 2713.24,
+    "duration": 3.0,
+    "text": "this. Okay? And since we've already"
+  },
+  {
+    "start": 2714.72,
+    "duration": 3.44,
+    "text": "covered this thing like"
+  },
+  {
+    "start": 2716.24,
+    "duration": 4.16,
+    "text": "overriding and dynamic method dispatch"
+  },
+  {
+    "start": 2718.16,
+    "duration": 3.88,
+    "text": "and everything, it's the same same thing"
+  },
+  {
+    "start": 2720.4,
+    "duration": 4.36,
+    "text": "that is going on over here but this"
+  },
+  {
+    "start": 2722.04,
+    "duration": 4.52,
+    "text": "dynamic lookup of like the method at"
+  },
+  {
+    "start": 2724.76,
+    "duration": 3.04,
+    "text": "runtime which we've already covered many"
+  },
+  {
+    "start": 2726.56,
+    "duration": 3.0,
+    "text": "many times."
+  },
+  {
+    "start": 2727.8,
+    "duration": 3.32,
+    "text": "Uh it's it's like a it has a little bit"
+  },
+  {
+    "start": 2729.56,
+    "duration": 3.32,
+    "text": "of an overhead when compared to like the"
+  },
+  {
+    "start": 2731.12,
+    "duration": 4.12,
+    "text": "normal method invocation in Java like"
+  },
+  {
+    "start": 2732.88,
+    "duration": 4.76,
+    "text": "how normal methods work. That is why you"
+  },
+  {
+    "start": 2735.24,
+    "duration": 6.04,
+    "text": "should be careful not to use interfaces"
+  },
+  {
+    "start": 2737.64,
+    "duration": 5.04,
+    "text": "casually in performance-critical code."
+  },
+  {
+    "start": 2741.28,
+    "duration": 3.24,
+    "text": "Okay, that is something I wanted to"
+  },
+  {
+    "start": 2742.68,
+    "duration": 3.76,
+    "text": "point out."
+  },
+  {
+    "start": 2744.52,
+    "duration": 2.8,
+    "text": "Okay, because it happens at runtime."
+  },
+  {
+    "start": 2746.44,
+    "duration": 2.64,
+    "text": "Right?"
+  },
+  {
+    "start": 2747.32,
+    "duration": 3.56,
+    "text": "Okay, let's move forward. Okay, now let"
+  },
+  {
+    "start": 2749.08,
+    "duration": 3.4,
+    "text": "me show you one more thing."
+  },
+  {
+    "start": 2750.88,
+    "duration": 3.68,
+    "text": "Let me show you something like uh if I"
+  },
+  {
+    "start": 2752.48,
+    "duration": 4.68,
+    "text": "have a car over here and let's say it"
+  },
+  {
+    "start": 2754.56,
+    "duration": 4.24,
+    "text": "extends um"
+  },
+  {
+    "start": 2757.16,
+    "duration": 3.84,
+    "text": "media also."
+  },
+  {
+    "start": 2758.8,
+    "duration": 5.24,
+    "text": "Okay? Now media also contains start and"
+  },
+  {
+    "start": 2761.0,
+    "duration": 5.28,
+    "text": "stop and uh engine also contains start"
+  },
+  {
+    "start": 2764.04,
+    "duration": 3.96,
+    "text": "and stop. And this car also then has"
+  },
+  {
+    "start": 2766.28,
+    "duration": 4.32,
+    "text": "start and stop."
+  },
+  {
+    "start": 2768.0,
+    "duration": 4.24,
+    "text": "Okay? I like I start like a I start"
+  },
+  {
+    "start": 2770.6,
+    "duration": 4.4,
+    "text": "engine"
+  },
+  {
+    "start": 2772.24,
+    "duration": 5.68,
+    "text": "like a normal car. I stop engine like a"
+  },
+  {
+    "start": 2775.0,
+    "duration": 4.48,
+    "text": "normal car. Now when I say stop, let's"
+  },
+  {
+    "start": 2777.92,
+    "duration": 3.8,
+    "text": "see what will happen."
+  },
+  {
+    "start": 2779.48,
+    "duration": 4.08,
+    "text": "Okay? Something like this."
+  },
+  {
+    "start": 2781.72,
+    "duration": 4.2,
+    "text": "Let's say I have my car. Let's say I"
+  },
+  {
+    "start": 2783.56,
+    "duration": 4.56,
+    "text": "create let's say something else. I say"
+  },
+  {
+    "start": 2785.92,
+    "duration": 4.4,
+    "text": "something like"
+  },
+  {
+    "start": 2788.12,
+    "duration": 4.52,
+    "text": "you know, my media. Let's say I want to"
+  },
+  {
+    "start": 2790.32,
+    "duration": 4.68,
+    "text": "create a media type. Okay? For example."
+  },
+  {
+    "start": 2792.64,
+    "duration": 4.52,
+    "text": "Media, my car media. Okay? This is a"
+  },
+  {
+    "start": 2795.0,
+    "duration": 5.84,
+    "text": "class for my reference variable for my"
+  },
+  {
+    "start": 2797.16,
+    "duration": 5.76,
+    "text": "car's radio or whatever. Is equal to new"
+  },
+  {
+    "start": 2800.84,
+    "duration": 6.36,
+    "text": "car or something like that."
+  },
+  {
+    "start": 2802.92,
+    "duration": 4.28,
+    "text": "Right? And then I say car media.stop."
+  },
+  {
+    "start": 2807.52,
+    "duration": 2.92,
+    "text": "Let's see what will happen."
+  },
+  {
+    "start": 2815.44,
+    "duration": 3.6,
+    "text": "So it actually stopped the engine. Now"
+  },
+  {
+    "start": 2817.48,
+    "duration": 3.76,
+    "text": "would how would it how weird would it"
+  },
+  {
+    "start": 2819.04,
+    "duration": 4.84,
+    "text": "be? You're driving your car. You try to"
+  },
+  {
+    "start": 2821.24,
+    "duration": 5.6,
+    "text": "stop the car's in car's music player and"
+  },
+  {
+    "start": 2823.88,
+    "duration": 2.96,
+    "text": "the engine stops."
+  },
+  {
+    "start": 2827.44,
+    "duration": 3.92,
+    "text": "That's what's happening over here."
+  },
+  {
+    "start": 2829.88,
+    "duration": 3.04,
+    "text": "Okay? Similarly, if you want to change"
+  },
+  {
+    "start": 2831.36,
+    "duration": 3.4,
+    "text": "the engine over here,"
+  },
+  {
+    "start": 2832.92,
+    "duration": 3.48,
+    "text": "okay? You want to change the engine of"
+  },
+  {
+    "start": 2834.76,
+    "duration": 2.6,
+    "text": "this thing, then what would you have to"
+  },
+  {
+    "start": 2836.4,
+    "duration": 2.24,
+    "text": "do? You would have to create a new"
+  },
+  {
+    "start": 2837.36,
+    "duration": 3.64,
+    "text": "object of this. You would have to change"
+  },
+  {
+    "start": 2838.64,
+    "duration": 3.64,
+    "text": "the entire car."
+  },
+  {
+    "start": 2841.0,
+    "duration": 2.32,
+    "text": "Let's say you go to your mechanic and"
+  },
+  {
+    "start": 2842.28,
+    "duration": 2.64,
+    "text": "you're like, \"Hey, I want to actually"
+  },
+  {
+    "start": 2843.32,
+    "duration": 2.8,
+    "text": "change the engine.\" He's like, \"Hey, you"
+  },
+  {
+    "start": 2844.92,
+    "duration": 3.8,
+    "text": "want to change engine? You have to"
+  },
+  {
+    "start": 2846.12,
+    "duration": 3.72,
+    "text": "change the entire car.\" Or seats. Let's"
+  },
+  {
+    "start": 2848.72,
+    "duration": 2.28,
+    "text": "say you want to change the seats and"
+  },
+  {
+    "start": 2849.84,
+    "duration": 2.8,
+    "text": "then you answer you have to change the"
+  },
+  {
+    "start": 2851.0,
+    "duration": 2.72,
+    "text": "entire seat."
+  },
+  {
+    "start": 2852.64,
+    "duration": 2.56,
+    "text": "There's a little bit of problem over"
+  },
+  {
+    "start": 2853.72,
+    "duration": 2.36,
+    "text": "here."
+  },
+  {
+    "start": 2855.2,
+    "duration": 2.24,
+    "text": "Okay?"
+  },
+  {
+    "start": 2856.08,
+    "duration": 4.32,
+    "text": "That's why we can create separate"
+  },
+  {
+    "start": 2857.44,
+    "duration": 3.8,
+    "text": "classes for these interfaces as well."
+  },
+  {
+    "start": 2860.4,
+    "duration": 2.12,
+    "text": "Okay?"
+  },
+  {
+    "start": 2861.24,
+    "duration": 3.08,
+    "text": "Let's see how we can do that. So I'll"
+  },
+  {
+    "start": 2862.52,
+    "duration": 4.36,
+    "text": "create like the separate classes. First"
+  },
+  {
+    "start": 2864.32,
+    "duration": 4.96,
+    "text": "class I'll create as let's for my"
+  },
+  {
+    "start": 2866.88,
+    "duration": 4.2,
+    "text": "CD player. So my"
+  },
+  {
+    "start": 2869.28,
+    "duration": 3.88,
+    "text": "CD player."
+  },
+  {
+    "start": 2871.08,
+    "duration": 3.84,
+    "text": "Okay? Something like that. It implements"
+  },
+  {
+    "start": 2873.16,
+    "duration": 6.68,
+    "text": "what? It only implements media, let's"
+  },
+  {
+    "start": 2874.92,
+    "duration": 4.92,
+    "text": "say. Implements media. Okay?"
+  },
+  {
+    "start": 2880.72,
+    "duration": 3.64,
+    "text": "Okay? So, I can say"
+  },
+  {
+    "start": 2887.24,
+    "duration": 4.84,
+    "text": "rock"
+  },
+  {
+    "start": 2888.68,
+    "duration": 4.72,
+    "text": "music or something like I can say"
+  },
+  {
+    "start": 2892.08,
+    "duration": 2.84,
+    "text": "music"
+  },
+  {
+    "start": 2893.4,
+    "duration": 4.44,
+    "text": "start."
+  },
+  {
+    "start": 2894.92,
+    "duration": 2.92,
+    "text": "Stop means"
+  },
+  {
+    "start": 2898.0,
+    "duration": 4.56,
+    "text": "music stop."
+  },
+  {
+    "start": 2900.6,
+    "duration": 3.48,
+    "text": "Okay, it's only implementing media for"
+  },
+  {
+    "start": 2902.56,
+    "duration": 3.92,
+    "text": "example right now."
+  },
+  {
+    "start": 2904.08,
+    "duration": 8.2,
+    "text": "Okay? Let's say I create another engine."
+  },
+  {
+    "start": 2906.48,
+    "duration": 8.64,
+    "text": "I can say I create engine I can say um"
+  },
+  {
+    "start": 2912.28,
+    "duration": 2.84,
+    "text": "power engine."
+  },
+  {
+    "start": 2915.52,
+    "duration": 3.48,
+    "text": "Okay, I can create a power engine. It"
+  },
+  {
+    "start": 2917.44,
+    "duration": 3.36,
+    "text": "implements all the things that are in"
+  },
+  {
+    "start": 2919.0,
+    "duration": 4.0,
+    "text": "the engine."
+  },
+  {
+    "start": 2920.8,
+    "duration": 5.28,
+    "text": "For example,"
+  },
+  {
+    "start": 2923.0,
+    "duration": 3.08,
+    "text": "implement the methods."
+  },
+  {
+    "start": 2926.96,
+    "duration": 5.04,
+    "text": "Power engine"
+  },
+  {
+    "start": 2929.4,
+    "duration": 2.6,
+    "text": "start."
+  },
+  {
+    "start": 2934.28,
+    "duration": 3.4,
+    "text": "Power engine"
+  },
+  {
+    "start": 2936.12,
+    "duration": 5.04,
+    "text": "stop."
+  },
+  {
+    "start": 2937.68,
+    "duration": 5.56,
+    "text": "Power engine accelerate."
+  },
+  {
+    "start": 2941.16,
+    "duration": 4.4,
+    "text": "Okay?"
+  },
+  {
+    "start": 2943.24,
+    "duration": 4.32,
+    "text": "Something like that."
+  },
+  {
+    "start": 2945.56,
+    "duration": 5.6,
+    "text": "Good."
+  },
+  {
+    "start": 2947.56,
+    "duration": 5.6,
+    "text": "And then I can create let's say a"
+  },
+  {
+    "start": 2951.16,
+    "duration": 3.56,
+    "text": "electric engine as well."
+  },
+  {
+    "start": 2953.16,
+    "duration": 3.28,
+    "text": "Java class"
+  },
+  {
+    "start": 2954.72,
+    "duration": 4.2,
+    "text": "electric"
+  },
+  {
+    "start": 2956.44,
+    "duration": 2.48,
+    "text": "engine."
+  },
+  {
+    "start": 2959.16,
+    "duration": 3.52,
+    "text": "Electric engine"
+  },
+  {
+    "start": 2961.04,
+    "duration": 4.04,
+    "text": "implements"
+  },
+  {
+    "start": 2962.68,
+    "duration": 4.16,
+    "text": "engine."
+  },
+  {
+    "start": 2965.08,
+    "duration": 3.4,
+    "text": "Like this."
+  },
+  {
+    "start": 2966.84,
+    "duration": 4.76,
+    "text": "Okay."
+  },
+  {
+    "start": 2968.48,
+    "duration": 3.12,
+    "text": "I can say electric"
+  },
+  {
+    "start": 2973.44,
+    "duration": 5.04,
+    "text": "electric engine start."
+  },
+  {
+    "start": 2979.16,
+    "duration": 2.52,
+    "text": "Okay?"
+  },
+  {
+    "start": 2980.12,
+    "duration": 2.84,
+    "text": "Electric engine"
+  },
+  {
+    "start": 2981.68,
+    "duration": 3.16,
+    "text": "stop."
+  },
+  {
+    "start": 2982.96,
+    "duration": 3.68,
+    "text": "Electric engine"
+  },
+  {
+    "start": 2984.84,
+    "duration": 2.72,
+    "text": "accelerate."
+  },
+  {
+    "start": 2986.64,
+    "duration": 2.72,
+    "text": "Okay?"
+  },
+  {
+    "start": 2987.56,
+    "duration": 6.24,
+    "text": "Something like that."
+  },
+  {
+    "start": 2989.36,
+    "duration": 4.44,
+    "text": "Now I can create my nice car."
+  },
+  {
+    "start": 2995.08,
+    "duration": 5.0,
+    "text": "Nice car."
+  },
+  {
+    "start": 2997.84,
+    "duration": 4.32,
+    "text": "Okay, this class this car is going to"
+  },
+  {
+    "start": 3000.08,
+    "duration": 5.48,
+    "text": "have an internal engine of its own. That"
+  },
+  {
+    "start": 3002.16,
+    "duration": 4.96,
+    "text": "is going to be a what type engine type?"
+  },
+  {
+    "start": 3005.56,
+    "duration": 4.0,
+    "text": "That's it."
+  },
+  {
+    "start": 3007.12,
+    "duration": 3.92,
+    "text": "Okay, cuz constructor uh I will not"
+  },
+  {
+    "start": 3009.56,
+    "duration": 3.8,
+    "text": "select anything."
+  },
+  {
+    "start": 3011.04,
+    "duration": 5.76,
+    "text": "I'll just say that by default I'm going"
+  },
+  {
+    "start": 3013.36,
+    "duration": 6.48,
+    "text": "to say let's say engine is equal to"
+  },
+  {
+    "start": 3016.8,
+    "duration": 5.28,
+    "text": "new uh power engine for example at"
+  },
+  {
+    "start": 3019.84,
+    "duration": 4.0,
+    "text": "first. So, I use these interfaces and"
+  },
+  {
+    "start": 3022.08,
+    "duration": 4.28,
+    "text": "everything in diff- different classes,"
+  },
+  {
+    "start": 3023.84,
+    "duration": 3.88,
+    "text": "but overall class I'm using it like"
+  },
+  {
+    "start": 3026.36,
+    "duration": 3.12,
+    "text": "this."
+  },
+  {
+    "start": 3027.72,
+    "duration": 3.96,
+    "text": "Now, you can add anything you want. If"
+  },
+  {
+    "start": 3029.48,
+    "duration": 5.08,
+    "text": "you want to add an engine of your own,"
+  },
+  {
+    "start": 3031.68,
+    "duration": 5.4,
+    "text": "so you can just do it like this."
+  },
+  {
+    "start": 3034.56,
+    "duration": 2.52,
+    "text": "That's it."
+  },
+  {
+    "start": 3037.44,
+    "duration": 4.44,
+    "text": "Okay?"
+  },
+  {
+    "start": 3039.28,
+    "duration": 4.56,
+    "text": "You can add a start over here. I can say"
+  },
+  {
+    "start": 3041.88,
+    "duration": 4.48,
+    "text": "public start Notice how I put this as"
+  },
+  {
+    "start": 3043.84,
+    "duration": 4.2,
+    "text": "private. Data hiding, right? Covered"
+  },
+  {
+    "start": 3046.36,
+    "duration": 3.96,
+    "text": "that previously."
+  },
+  {
+    "start": 3048.04,
+    "duration": 5.08,
+    "text": "Public void start, it's just going to"
+  },
+  {
+    "start": 3050.32,
+    "duration": 5.36,
+    "text": "say engine.start."
+  },
+  {
+    "start": 3053.12,
+    "duration": 4.88,
+    "text": "Now, if this engine that is initialized"
+  },
+  {
+    "start": 3055.68,
+    "duration": 5.8,
+    "text": "is power engine, it will call this. If"
+  },
+  {
+    "start": 3058.0,
+    "duration": 5.6,
+    "text": "it's electric engine, it will call this."
+  },
+  {
+    "start": 3061.48,
+    "duration": 6.08,
+    "text": "How cool is that?"
+  },
+  {
+    "start": 3063.6,
+    "duration": 3.96,
+    "text": "Okay? Similarly, I can do stop."
+  },
+  {
+    "start": 3069.16,
+    "duration": 3.08,
+    "text": "engine.stop"
+  },
+  {
+    "start": 3070.92,
+    "duration": 3.76,
+    "text": "No problem."
+  },
+  {
+    "start": 3072.24,
+    "duration": 4.2,
+    "text": "Okay? Similarly, I can do"
+  },
+  {
+    "start": 3074.68,
+    "duration": 3.4,
+    "text": "um"
+  },
+  {
+    "start": 3076.44,
+    "duration": 3.2,
+    "text": "something like"
+  },
+  {
+    "start": 3078.08,
+    "duration": 6.36,
+    "text": "um"
+  },
+  {
+    "start": 3079.64,
+    "duration": 4.8,
+    "text": "start music. It's going to say"
+  },
+  {
+    "start": 3084.88,
+    "duration": 3.88,
+    "text": "What? I need to have a music player as"
+  },
+  {
+    "start": 3086.64,
+    "duration": 4.88,
+    "text": "well. So, then I'll say this car has an"
+  },
+  {
+    "start": 3088.76,
+    "duration": 5.44,
+    "text": "engine. This car also has a music"
+  },
+  {
+    "start": 3091.52,
+    "duration": 4.6,
+    "text": "player. So, I can say my"
+  },
+  {
+    "start": 3094.2,
+    "duration": 3.64,
+    "text": "um"
+  },
+  {
+    "start": 3096.12,
+    "duration": 4.52,
+    "text": "media"
+  },
+  {
+    "start": 3097.84,
+    "duration": 4.24,
+    "text": "um player"
+  },
+  {
+    "start": 3100.64,
+    "duration": 2.36,
+    "text": "something like that."
+  },
+  {
+    "start": 3102.08,
+    "duration": 4.16,
+    "text": "Right?"
+  },
+  {
+    "start": 3103.0,
+    "duration": 4.4,
+    "text": "Um so, I can say this is equal to new CD"
+  },
+  {
+    "start": 3106.24,
+    "duration": 3.8,
+    "text": "player."
+  },
+  {
+    "start": 3107.4,
+    "duration": 4.64,
+    "text": "Something like that."
+  },
+  {
+    "start": 3110.04,
+    "duration": 3.36,
+    "text": "Okay, start music. Now I'll not say"
+  },
+  {
+    "start": 3112.04,
+    "duration": 5.08,
+    "text": "engine.start. This is the problem we"
+  },
+  {
+    "start": 3113.4,
+    "duration": 5.36,
+    "text": "were facing previously. When you did"
+  },
+  {
+    "start": 3117.12,
+    "duration": 3.92,
+    "text": "in the main car, when you were saying"
+  },
+  {
+    "start": 3118.76,
+    "duration": 5.0,
+    "text": "start or stop with even the if even the"
+  },
+  {
+    "start": 3121.04,
+    "duration": 4.2,
+    "text": "type of this was music like over here,"
+  },
+  {
+    "start": 3123.76,
+    "duration": 3.16,
+    "text": "type was music and you were saying start"
+  },
+  {
+    "start": 3125.24,
+    "duration": 3.64,
+    "text": "or stop, it was actually starting and"
+  },
+  {
+    "start": 3126.92,
+    "duration": 3.92,
+    "text": "stopping the engine. Now when I say"
+  },
+  {
+    "start": 3128.88,
+    "duration": 3.88,
+    "text": "start or stop, start music, it's"
+  },
+  {
+    "start": 3130.84,
+    "duration": 3.56,
+    "text": "actually not going to say engine.start."
+  },
+  {
+    "start": 3132.76,
+    "duration": 3.72,
+    "text": "It's going to say"
+  },
+  {
+    "start": 3134.4,
+    "duration": 5.76,
+    "text": "player.start."
+  },
+  {
+    "start": 3136.48,
+    "duration": 3.68,
+    "text": "Similarly, I can say stop music."
+  },
+  {
+    "start": 3142.64,
+    "duration": 3.0,
+    "text": "player.stop."
+  },
+  {
+    "start": 3147.76,
+    "duration": 2.48,
+    "text": "Okay."
+  },
+  {
+    "start": 3148.92,
+    "duration": 3.48,
+    "text": "Similarly, you can say upgrade your"
+  },
+  {
+    "start": 3150.24,
+    "duration": 3.48,
+    "text": "engine. So you can say public"
+  },
+  {
+    "start": 3152.4,
+    "duration": 4.0,
+    "text": "void"
+  },
+  {
+    "start": 3153.72,
+    "duration": 4.84,
+    "text": "um"
+  },
+  {
+    "start": 3156.4,
+    "duration": 4.96,
+    "text": "upgrade"
+  },
+  {
+    "start": 3158.56,
+    "duration": 5.24,
+    "text": "engine and you pass an engine over here."
+  },
+  {
+    "start": 3161.36,
+    "duration": 4.36,
+    "text": "Okay, engine engine."
+  },
+  {
+    "start": 3163.8,
+    "duration": 2.92,
+    "text": "And you can just say"
+  },
+  {
+    "start": 3165.72,
+    "duration": 3.28,
+    "text": "what?"
+  },
+  {
+    "start": 3166.72,
+    "duration": 3.6,
+    "text": "You can say this.engine"
+  },
+  {
+    "start": 3169.0,
+    "duration": 3.36,
+    "text": "is equal to the engine that I have"
+  },
+  {
+    "start": 3170.32,
+    "duration": 3.96,
+    "text": "passed. That's it."
+  },
+  {
+    "start": 3172.36,
+    "duration": 3.6,
+    "text": "How cool is that? You can change your"
+  },
+  {
+    "start": 3174.28,
+    "duration": 3.28,
+    "text": "electric to electric engine from power"
+  },
+  {
+    "start": 3175.96,
+    "duration": 4.6,
+    "text": "engine or whatever."
+  },
+  {
+    "start": 3177.56,
+    "duration": 4.68,
+    "text": "Makes sense? Let's try to do it."
+  },
+  {
+    "start": 3180.56,
+    "duration": 2.44,
+    "text": "So you have your"
+  },
+  {
+    "start": 3182.24,
+    "duration": 1.88,
+    "text": "uh"
+  },
+  {
+    "start": 3183.0,
+    "duration": 3.0,
+    "text": "car,"
+  },
+  {
+    "start": 3184.12,
+    "duration": 6.04,
+    "text": "which is your nice car."
+  },
+  {
+    "start": 3186.0,
+    "duration": 8.16,
+    "text": "Nice car. Car is equal to new nice car."
+  },
+  {
+    "start": 3190.16,
+    "duration": 7.44,
+    "text": "Okay, if I say car.start"
+  },
+  {
+    "start": 3194.16,
+    "duration": 4.76,
+    "text": "and then I say car.start music."
+  },
+  {
+    "start": 3197.6,
+    "duration": 3.44,
+    "text": "So you can see it will be like I am"
+  },
+  {
+    "start": 3198.92,
+    "duration": 3.76,
+    "text": "starting and by default the engine is"
+  },
+  {
+    "start": 3201.04,
+    "duration": 3.12,
+    "text": "going to be what? I just called the"
+  },
+  {
+    "start": 3202.68,
+    "duration": 3.28,
+    "text": "default one, so power engine. It will be"
+  },
+  {
+    "start": 3204.16,
+    "duration": 4.48,
+    "text": "like power engine starts."
+  },
+  {
+    "start": 3205.96,
+    "duration": 4.6,
+    "text": "And then it will be like music starts."
+  },
+  {
+    "start": 3208.64,
+    "duration": 3.92,
+    "text": "Okay, here also it's running the start"
+  },
+  {
+    "start": 3210.56,
+    "duration": 4.32,
+    "text": "one. Here is also running the start one,"
+  },
+  {
+    "start": 3212.56,
+    "duration": 4.72,
+    "text": "but here it's running the player.start."
+  },
+  {
+    "start": 3214.88,
+    "duration": 4.2,
+    "text": "Here it's running the engine.start."
+  },
+  {
+    "start": 3217.28,
+    "duration": 4.48,
+    "text": "You can also change the engine."
+  },
+  {
+    "start": 3219.08,
+    "duration": 5.92,
+    "text": "So if I change my engine, I can say"
+  },
+  {
+    "start": 3221.76,
+    "duration": 6.16,
+    "text": "car.dot upgrade engine"
+  },
+  {
+    "start": 3225.0,
+    "duration": 2.92,
+    "text": "and um"
+  },
+  {
+    "start": 3229.12,
+    "duration": 3.4,
+    "text": "I can just add a new engine over here."
+  },
+  {
+    "start": 3234.36,
+    "duration": 2.64,
+    "text": "I'll have to create a new engine or I"
+  },
+  {
+    "start": 3235.56,
+    "duration": 2.4,
+    "text": "can just upgrade my engine in the car"
+  },
+  {
+    "start": 3237.0,
+    "duration": 3.92,
+    "text": "only."
+  },
+  {
+    "start": 3237.96,
+    "duration": 4.6,
+    "text": "Okay? I can say upgrade my engine."
+  },
+  {
+    "start": 3240.92,
+    "duration": 3.48,
+    "text": "And I'm going to say, let's say I'm not"
+  },
+  {
+    "start": 3242.56,
+    "duration": 4.4,
+    "text": "passing it directly. I'm just saying"
+  },
+  {
+    "start": 3244.4,
+    "duration": 6.4,
+    "text": "upgrade my engine is equal to what?"
+  },
+  {
+    "start": 3246.96,
+    "duration": 5.36,
+    "text": "This is equal to new electric engine."
+  },
+  {
+    "start": 3250.8,
+    "duration": 2.32,
+    "text": "Something like that."
+  },
+  {
+    "start": 3252.32,
+    "duration": 2.16,
+    "text": "Right?"
+  },
+  {
+    "start": 3253.12,
+    "duration": 3.96,
+    "text": "So now you're going to upgrade my engine"
+  },
+  {
+    "start": 3254.48,
+    "duration": 3.76,
+    "text": "and then I will if I start my car again,"
+  },
+  {
+    "start": 3257.08,
+    "duration": 3.92,
+    "text": "that's going to be like now I'm running"
+  },
+  {
+    "start": 3258.24,
+    "duration": 2.76,
+    "text": "electric engine."
+  },
+  {
+    "start": 3262.4,
+    "duration": 3.56,
+    "text": "Electric engine started."
+  },
+  {
+    "start": 3264.24,
+    "duration": 3.56,
+    "text": "Without creating a new object, you were"
+  },
+  {
+    "start": 3265.96,
+    "duration": 5.2,
+    "text": "able to create you were able to just"
+  },
+  {
+    "start": 3267.8,
+    "duration": 3.36,
+    "text": "change the part of the engine."
+  },
+  {
+    "start": 3271.48,
+    "duration": 4.2,
+    "text": "Okay? As compared to this,"
+  },
+  {
+    "start": 3273.92,
+    "duration": 3.6,
+    "text": "here you would have to change the entire"
+  },
+  {
+    "start": 3275.68,
+    "duration": 4.0,
+    "text": "car in order to change the engine."
+  },
+  {
+    "start": 3277.52,
+    "duration": 5.36,
+    "text": "Stopping the CD player was actually"
+  },
+  {
+    "start": 3279.68,
+    "duration": 3.2,
+    "text": "stopping the entire car."
+  },
+  {
+    "start": 3284.04,
+    "duration": 5.08,
+    "text": "Okay?"
+  },
+  {
+    "start": 3285.92,
+    "duration": 5.12,
+    "text": "Hopefully you understand interfaces now."
+  },
+  {
+    "start": 3289.12,
+    "duration": 3.72,
+    "text": "Right? I'll share all the notes and"
+  },
+  {
+    "start": 3291.04,
+    "duration": 3.56,
+    "text": "everything and I I covered everything"
+  },
+  {
+    "start": 3292.84,
+    "duration": 3.68,
+    "text": "like that I mentioned."
+  },
+  {
+    "start": 3294.6,
+    "duration": 3.8,
+    "text": "Right?"
+  },
+  {
+    "start": 3296.52,
+    "duration": 2.88,
+    "text": "That's basically about it."
+  },
+  {
+    "start": 3298.4,
+    "duration": 2.88,
+    "text": "Right?"
+  },
+  {
+    "start": 3299.4,
+    "duration": 3.36,
+    "text": "Cool."
+  },
+  {
+    "start": 3301.28,
+    "duration": 3.44,
+    "text": "One more thing you can do is interfaces"
+  },
+  {
+    "start": 3302.76,
+    "duration": 4.96,
+    "text": "you can also extend."
+  },
+  {
+    "start": 3304.72,
+    "duration": 5.12,
+    "text": "Right? So you can say"
+  },
+  {
+    "start": 3307.72,
+    "duration": 4.32,
+    "text": "create another package"
+  },
+  {
+    "start": 3309.84,
+    "duration": 4.08,
+    "text": "extend demo."
+  },
+  {
+    "start": 3312.04,
+    "duration": 3.96,
+    "text": "So here you can create two interfaces,"
+  },
+  {
+    "start": 3313.92,
+    "duration": 3.8,
+    "text": "Java interface A."
+  },
+  {
+    "start": 3316.0,
+    "duration": 3.6,
+    "text": "And you can create another one, let's"
+  },
+  {
+    "start": 3317.72,
+    "duration": 4.56,
+    "text": "say"
+  },
+  {
+    "start": 3319.6,
+    "duration": 4.68,
+    "text": "interface B."
+  },
+  {
+    "start": 3322.28,
+    "duration": 6.08,
+    "text": "Okay? Something like that. And here if"
+  },
+  {
+    "start": 3324.28,
+    "duration": 6.24,
+    "text": "you have something like um"
+  },
+  {
+    "start": 3328.36,
+    "duration": 4.24,
+    "text": "void fun."
+  },
+  {
+    "start": 3330.52,
+    "duration": 4.08,
+    "text": "Something like that. And here in B, I've"
+  },
+  {
+    "start": 3332.6,
+    "duration": 3.36,
+    "text": "also already talked about, right? The"
+  },
+  {
+    "start": 3334.6,
+    "duration": 2.84,
+    "text": "the variables and everything I already"
+  },
+  {
+    "start": 3335.96,
+    "duration": 3.04,
+    "text": "talked about what type of variables are"
+  },
+  {
+    "start": 3337.44,
+    "duration": 3.24,
+    "text": "available in interfaces and stuff. We"
+  },
+  {
+    "start": 3339.0,
+    "duration": 2.44,
+    "text": "didn't skip that. Static and final,"
+  },
+  {
+    "start": 3340.68,
+    "duration": 2.44,
+    "text": "right?"
+  },
+  {
+    "start": 3341.44,
+    "duration": 5.84,
+    "text": "So, yeah."
+  },
+  {
+    "start": 3343.12,
+    "duration": 7.16,
+    "text": "Um here you can say extends A."
+  },
+  {
+    "start": 3347.28,
+    "duration": 5.64,
+    "text": "And here you can have void"
+  },
+  {
+    "start": 3350.28,
+    "duration": 4.24,
+    "text": "fun for example if you have then"
+  },
+  {
+    "start": 3352.92,
+    "duration": 3.08,
+    "text": "that's like not going to work because"
+  },
+  {
+    "start": 3354.52,
+    "duration": 2.84,
+    "text": "it's like the same name. So, it does not"
+  },
+  {
+    "start": 3356.0,
+    "duration": 2.28,
+    "text": "really matter."
+  },
+  {
+    "start": 3357.36,
+    "duration": 2.48,
+    "text": "Um"
+  },
+  {
+    "start": 3358.28,
+    "duration": 3.56,
+    "text": "Instead we can have something like"
+  },
+  {
+    "start": 3359.84,
+    "duration": 4.6,
+    "text": "greet."
+  },
+  {
+    "start": 3361.84,
+    "duration": 7.88,
+    "text": "Okay, now let's create a class."
+  },
+  {
+    "start": 3364.44,
+    "duration": 7.12,
+    "text": "Um main class that implements B."
+  },
+  {
+    "start": 3369.72,
+    "duration": 3.24,
+    "text": "Then you would have to implement both"
+  },
+  {
+    "start": 3371.56,
+    "duration": 4.16,
+    "text": "the methods."
+  },
+  {
+    "start": 3372.96,
+    "duration": 4.8,
+    "text": "Greet as well and fun as well. If B is"
+  },
+  {
+    "start": 3375.72,
+    "duration": 3.24,
+    "text": "extending A, you can imagine that it"
+  },
+  {
+    "start": 3377.76,
+    "duration": 3.04,
+    "text": "looks something like this. You can"
+  },
+  {
+    "start": 3378.96,
+    "duration": 4.24,
+    "text": "imagine that it looks something like"
+  },
+  {
+    "start": 3380.8,
+    "duration": 2.4,
+    "text": "this."
+  },
+  {
+    "start": 3383.92,
+    "duration": 3.32,
+    "text": "Okay? So, you can extend it as well. All"
+  },
+  {
+    "start": 3386.2,
+    "duration": 3.48,
+    "text": "of these properties will be like"
+  },
+  {
+    "start": 3387.24,
+    "duration": 5.0,
+    "text": "together combined."
+  },
+  {
+    "start": 3389.68,
+    "duration": 4.68,
+    "text": "And here you can then use it. Both the"
+  },
+  {
+    "start": 3392.24,
+    "duration": 3.64,
+    "text": "ones you would have to implement."
+  },
+  {
+    "start": 3394.36,
+    "duration": 4.12,
+    "text": "You would implement the abstract methods"
+  },
+  {
+    "start": 3395.88,
+    "duration": 5.04,
+    "text": "of B as well and the class the interface"
+  },
+  {
+    "start": 3398.48,
+    "duration": 4.2,
+    "text": "that B is inheriting from that also"
+  },
+  {
+    "start": 3400.92,
+    "duration": 3.68,
+    "text": "something you would have to"
+  },
+  {
+    "start": 3402.68,
+    "duration": 3.44,
+    "text": "um do it. So, you can see I'm using"
+  },
+  {
+    "start": 3404.6,
+    "duration": 2.96,
+    "text": "extends over here not implements."
+  },
+  {
+    "start": 3406.12,
+    "duration": 3.72,
+    "text": "Implements is only for classes to"
+  },
+  {
+    "start": 3407.56,
+    "duration": 5.72,
+    "text": "interfaces. Interface to interface"
+  },
+  {
+    "start": 3409.84,
+    "duration": 3.44,
+    "text": "inheritance it is extends."
+  },
+  {
+    "start": 3415.48,
+    "duration": 2.28,
+    "text": "Okay?"
+  },
+  {
+    "start": 3419.08,
+    "duration": 2.2,
+    "text": "Cool."
+  },
+  {
+    "start": 3421.68,
+    "duration": 3.52,
+    "text": "So, that's about interfaces. Now, before"
+  },
+  {
+    "start": 3423.76,
+    "duration": 3.36,
+    "text": "we move on to other thing like default"
+  },
+  {
+    "start": 3425.2,
+    "duration": 4.92,
+    "text": "interface methods that are like after"
+  },
+  {
+    "start": 3427.12,
+    "duration": 5.0,
+    "text": "Java 8 they were provided and like JDK 8"
+  },
+  {
+    "start": 3430.12,
+    "duration": 4.32,
+    "text": "and some in inter interface inner"
+  },
+  {
+    "start": 3432.12,
+    "duration": 4.36,
+    "text": "interfaces and stuff static stuff in"
+  },
+  {
+    "start": 3434.44,
+    "duration": 4.24,
+    "text": "this how static works over here which is"
+  },
+  {
+    "start": 3436.48,
+    "duration": 3.76,
+    "text": "pretty self-explanatory, but uh let's"
+  },
+  {
+    "start": 3438.68,
+    "duration": 2.8,
+    "text": "look at one more thing which is"
+  },
+  {
+    "start": 3440.24,
+    "duration": 3.92,
+    "text": "something that I wanted to share with"
+  },
+  {
+    "start": 3441.48,
+    "duration": 4.32,
+    "text": "you about this thing. Annotation."
+  },
+  {
+    "start": 3444.16,
+    "duration": 4.56,
+    "text": "So, annotation also internally you can"
+  },
+  {
+    "start": 3445.8,
+    "duration": 3.76,
+    "text": "see is an interface."
+  },
+  {
+    "start": 3448.72,
+    "duration": 4.24,
+    "text": "If you want to create your own"
+  },
+  {
+    "start": 3449.56,
+    "duration": 5.44,
+    "text": "annotation you can do it via this. At"
+  },
+  {
+    "start": 3452.96,
+    "duration": 4.12,
+    "text": "interface."
+  },
+  {
+    "start": 3455.0,
+    "duration": 3.64,
+    "text": "Okay, it itself has some annotations."
+  },
+  {
+    "start": 3457.08,
+    "duration": 3.32,
+    "text": "Target and retention or something like"
+  },
+  {
+    "start": 3458.64,
+    "duration": 4.04,
+    "text": "that."
+  },
+  {
+    "start": 3460.4,
+    "duration": 2.28,
+    "text": "Okay?"
+  },
+  {
+    "start": 3463.6,
+    "duration": 2.24,
+    "text": "Cool."
+  },
+  {
+    "start": 3466.16,
+    "duration": 2.72,
+    "text": "So, enums and stuff we'll look into the"
+  },
+  {
+    "start": 3467.56,
+    "duration": 4.88,
+    "text": "next lecture."
+  },
+  {
+    "start": 3468.88,
+    "duration": 5.32,
+    "text": "But, here you can see that in the the"
+  },
+  {
+    "start": 3472.44,
+    "duration": 3.68,
+    "text": "this thing the annotations that we"
+  },
+  {
+    "start": 3474.2,
+    "duration": 3.92,
+    "text": "talked about, the checks basically, I"
+  },
+  {
+    "start": 3476.12,
+    "duration": 4.68,
+    "text": "explained this in the overriding lecture"
+  },
+  {
+    "start": 3478.12,
+    "duration": 5.72,
+    "text": "what this actually does. Um that is also"
+  },
+  {
+    "start": 3480.8,
+    "duration": 7.24,
+    "text": "internally an interface only. Interface."
+  },
+  {
+    "start": 3483.84,
+    "duration": 4.2,
+    "text": "Okay? Public interface like this."
+  },
+  {
+    "start": 3488.08,
+    "duration": 3.88,
+    "text": "Public interface override."
+  },
+  {
+    "start": 3491.04,
+    "duration": 1.84,
+    "text": "Okay?"
+  },
+  {
+    "start": 3491.96,
+    "duration": 2.6,
+    "text": "That's what I want to share. Like"
+  },
+  {
+    "start": 3492.88,
+    "duration": 4.08,
+    "text": "internally override is also an"
+  },
+  {
+    "start": 3494.56,
+    "duration": 5.16,
+    "text": "interface. Now, starting from Java 8,"
+  },
+  {
+    "start": 3496.96,
+    "duration": 5.24,
+    "text": "there's actually possibility to provide"
+  },
+  {
+    "start": 3499.72,
+    "duration": 4.4,
+    "text": "some default implementation."
+  },
+  {
+    "start": 3502.2,
+    "duration": 3.64,
+    "text": "Okay? To interfaces. Let me close"
+  },
+  {
+    "start": 3504.12,
+    "duration": 3.16,
+    "text": "everything. Let me just put this over"
+  },
+  {
+    "start": 3505.84,
+    "duration": 3.28,
+    "text": "here."
+  },
+  {
+    "start": 3507.28,
+    "duration": 3.32,
+    "text": "So, default implementation means"
+  },
+  {
+    "start": 3509.12,
+    "duration": 4.08,
+    "text": "something like this. Let me just copy"
+  },
+  {
+    "start": 3510.6,
+    "duration": 2.6,
+    "text": "paste this."
+  },
+  {
+    "start": 3516.32,
+    "duration": 2.84,
+    "text": "Extend demo two."
+  },
+  {
+    "start": 3524.08,
+    "duration": 3.48,
+    "text": "Um rename."
+  },
+  {
+    "start": 3529.84,
+    "duration": 2.52,
+    "text": "Factor."
+  },
+  {
+    "start": 3536.84,
+    "duration": 5.32,
+    "text": "Okay?"
+  },
+  {
+    "start": 3538.08,
+    "duration": 4.08,
+    "text": "So, here let's say I'm not extending it."
+  },
+  {
+    "start": 3542.24,
+    "duration": 3.2,
+    "text": "Um close all."
+  },
+  {
+    "start": 3546.52,
+    "duration": 5.04,
+    "text": "Let's say not extending it and just"
+  },
+  {
+    "start": 3548.72,
+    "duration": 4.12,
+    "text": "having it like normally like"
+  },
+  {
+    "start": 3551.56,
+    "duration": 2.68,
+    "text": "void"
+  },
+  {
+    "start": 3552.84,
+    "duration": 2.6,
+    "text": "fun or whatever."
+  },
+  {
+    "start": 3554.24,
+    "duration": 2.44,
+    "text": "Okay? And then I have a main class"
+  },
+  {
+    "start": 3555.44,
+    "duration": 3.2,
+    "text": "implements"
+  },
+  {
+    "start": 3556.68,
+    "duration": 3.24,
+    "text": "A {comma} B both, let's say."
+  },
+  {
+    "start": 3558.64,
+    "duration": 2.16,
+    "text": "Right?"
+  },
+  {
+    "start": 3559.92,
+    "duration": 2.04,
+    "text": "Cool."
+  },
+  {
+    "start": 3560.8,
+    "duration": 3.56,
+    "text": "So,"
+  },
+  {
+    "start": 3561.96,
+    "duration": 4.12,
+    "text": "starting from JDK 8, you can actually"
+  },
+  {
+    "start": 3564.36,
+    "duration": 4.6,
+    "text": "provide some default implementation. You"
+  },
+  {
+    "start": 3566.08,
+    "duration": 5.36,
+    "text": "just put default over here."
+  },
+  {
+    "start": 3568.96,
+    "duration": 2.48,
+    "text": "Like this."
+  },
+  {
+    "start": 3572.48,
+    "duration": 3.2,
+    "text": "I am in A."
+  },
+  {
+    "start": 3575.92,
+    "duration": 4.48,
+    "text": "Okay? Similarly, you can provide default"
+  },
+  {
+    "start": 3578.12,
+    "duration": 5.32,
+    "text": "if you just run it like uh"
+  },
+  {
+    "start": 3580.4,
+    "duration": 4.88,
+    "text": "you just remove it like this. Right? So,"
+  },
+  {
+    "start": 3583.44,
+    "duration": 3.96,
+    "text": "here it's actually saying that uh okay,"
+  },
+  {
+    "start": 3585.28,
+    "duration": 4.0,
+    "text": "for implementing for B, let me just"
+  },
+  {
+    "start": 3587.4,
+    "duration": 2.88,
+    "text": "comment this out right now. So, even"
+  },
+  {
+    "start": 3589.28,
+    "duration": 2.52,
+    "text": "though"
+  },
+  {
+    "start": 3590.28,
+    "duration": 4.12,
+    "text": "there's an abstract method over here"
+  },
+  {
+    "start": 3591.8,
+    "duration": 4.68,
+    "text": "that I have like not really, you know,"
+  },
+  {
+    "start": 3594.4,
+    "duration": 2.08,
+    "text": "um"
+  },
+  {
+    "start": 3597.0,
+    "duration": 3.28,
+    "text": "it overridden over there's a method in"
+  },
+  {
+    "start": 3598.72,
+    "duration": 2.72,
+    "text": "this interface that I have not"
+  },
+  {
+    "start": 3600.28,
+    "duration": 2.24,
+    "text": "overridden, and it's not giving me an"
+  },
+  {
+    "start": 3601.44,
+    "duration": 2.76,
+    "text": "error because there's a default"
+  },
+  {
+    "start": 3602.52,
+    "duration": 2.8,
+    "text": "available over here."
+  },
+  {
+    "start": 3604.2,
+    "duration": 3.4,
+    "text": "Okay, but what if I try to put the"
+  },
+  {
+    "start": 3605.32,
+    "duration": 5.24,
+    "text": "default over here as well?"
+  },
+  {
+    "start": 3607.6,
+    "duration": 4.24,
+    "text": "Now, we're getting an error."
+  },
+  {
+    "start": 3610.56,
+    "duration": 2.64,
+    "text": "Okay?"
+  },
+  {
+    "start": 3611.84,
+    "duration": 3.08,
+    "text": "It's saying like it's collapsing. So,"
+  },
+  {
+    "start": 3613.2,
+    "duration": 2.96,
+    "text": "the initial problem that you're trying"
+  },
+  {
+    "start": 3614.92,
+    "duration": 2.84,
+    "text": "to solve, now we're getting it with"
+  },
+  {
+    "start": 3616.16,
+    "duration": 3.0,
+    "text": "this."
+  },
+  {
+    "start": 3617.76,
+    "duration": 2.88,
+    "text": "So,"
+  },
+  {
+    "start": 3619.16,
+    "duration": 2.88,
+    "text": "um"
+  },
+  {
+    "start": 3620.64,
+    "duration": 3.44,
+    "text": "this is basically saying that it's a"
+  },
+  {
+    "start": 3622.04,
+    "duration": 4.68,
+    "text": "it's a it's just a special use feature."
+  },
+  {
+    "start": 3624.08,
+    "duration": 4.72,
+    "text": "Okay? And the the original intent behind"
+  },
+  {
+    "start": 3626.72,
+    "duration": 4.24,
+    "text": "the interface still remains the same."
+  },
+  {
+    "start": 3628.8,
+    "duration": 3.64,
+    "text": "The primary motivation Kunal Kunal, why"
+  },
+  {
+    "start": 3630.96,
+    "duration": 3.6,
+    "text": "would we want to do this then if it's"
+  },
+  {
+    "start": 3632.44,
+    "duration": 3.92,
+    "text": "giving us the same problem that we used"
+  },
+  {
+    "start": 3634.56,
+    "duration": 3.2,
+    "text": "interfaces to resolve?"
+  },
+  {
+    "start": 3636.36,
+    "duration": 3.0,
+    "text": "So, it's basically, you know, the"
+  },
+  {
+    "start": 3637.76,
+    "duration": 4.16,
+    "text": "primary motivation for this default"
+  },
+  {
+    "start": 3639.36,
+    "duration": 5.0,
+    "text": "method was to provide a means by which"
+  },
+  {
+    "start": 3641.92,
+    "duration": 4.24,
+    "text": "interfaces could be expanded without"
+  },
+  {
+    "start": 3644.36,
+    "duration": 4.2,
+    "text": "breaking the existing code."
+  },
+  {
+    "start": 3646.16,
+    "duration": 4.48,
+    "text": "So, for example, you add another method"
+  },
+  {
+    "start": 3648.56,
+    "duration": 3.92,
+    "text": "without a body in an interface."
+  },
+  {
+    "start": 3650.64,
+    "duration": 4.04,
+    "text": "Then you would have to provide the body"
+  },
+  {
+    "start": 3652.48,
+    "duration": 4.52,
+    "text": "of that method in all the classes that"
+  },
+  {
+    "start": 3654.68,
+    "duration": 4.48,
+    "text": "implement that interface."
+  },
+  {
+    "start": 3657.0,
+    "duration": 3.8,
+    "text": "Does that make sense?"
+  },
+  {
+    "start": 3659.16,
+    "duration": 3.48,
+    "text": "Okay?"
+  },
+  {
+    "start": 3660.8,
+    "duration": 4.04,
+    "text": "So, for example, you may have one class"
+  },
+  {
+    "start": 3662.64,
+    "duration": 4.76,
+    "text": "that interme- in like in this class,"
+  },
+  {
+    "start": 3664.84,
+    "duration": 4.56,
+    "text": "it's implementing two interfaces. Okay?"
+  },
+  {
+    "start": 3667.4,
+    "duration": 3.6,
+    "text": "If each of these interfaces provide some"
+  },
+  {
+    "start": 3669.4,
+    "duration": 3.96,
+    "text": "default methods, then I'm getting some"
+  },
+  {
+    "start": 3671.0,
+    "duration": 2.36,
+    "text": "error."
+  },
+  {
+    "start": 3673.4,
+    "duration": 2.28,
+    "text": "Okay?"
+  },
+  {
+    "start": 3676.0,
+    "duration": 2.96,
+    "text": "And obviously, the class's"
+  },
+  {
+    "start": 3677.04,
+    "duration": 3.88,
+    "text": "implementation will obviously be the"
+  },
+  {
+    "start": 3678.96,
+    "duration": 4.4,
+    "text": "priority over an interface default"
+  },
+  {
+    "start": 3680.92,
+    "duration": 2.44,
+    "text": "method."
+  },
+  {
+    "start": 3685.88,
+    "duration": 3.04,
+    "text": "Okay, and we already got an error in"
+  },
+  {
+    "start": 3687.52,
+    "duration": 3.36,
+    "text": "case there were like two overridden"
+  },
+  {
+    "start": 3688.92,
+    "duration": 2.76,
+    "text": "methods."
+  },
+  {
+    "start": 3690.88,
+    "duration": 3.04,
+    "text": "Okay."
+  },
+  {
+    "start": 3691.68,
+    "duration": 2.24,
+    "text": "Cool."
+  },
+  {
+    "start": 3695.24,
+    "duration": 4.8,
+    "text": "That's basically like the primary use"
+  },
+  {
+    "start": 3696.92,
+    "duration": 3.12,
+    "text": "case. Okay?"
+  },
+  {
+    "start": 3701.32,
+    "duration": 3.28,
+    "text": "So, you can expand the interfaces"
+  },
+  {
+    "start": 3702.96,
+    "duration": 2.8,
+    "text": "without breaking like some existing code"
+  },
+  {
+    "start": 3704.6,
+    "duration": 2.52,
+    "text": "or whatever."
+  },
+  {
+    "start": 3705.76,
+    "duration": 2.2,
+    "text": "But, I would not like recommend using"
+  },
+  {
+    "start": 3707.12,
+    "duration": 1.44,
+    "text": "it."
+  },
+  {
+    "start": 3707.96,
+    "duration": 1.56,
+    "text": "Um"
+  },
+  {
+    "start": 3708.56,
+    "duration": 3.04,
+    "text": "if you're getting some errors or"
+  },
+  {
+    "start": 3709.52,
+    "duration": 2.84,
+    "text": "anything like that, don't."
+  },
+  {
+    "start": 3711.6,
+    "duration": 2.56,
+    "text": "Okay?"
+  },
+  {
+    "start": 3712.36,
+    "duration": 3.84,
+    "text": "But, if you have like multiple names,"
+  },
+  {
+    "start": 3714.16,
+    "duration": 3.84,
+    "text": "then don't. If you don't have multiple"
+  },
+  {
+    "start": 3716.2,
+    "duration": 5.36,
+    "text": "names, then you can."
+  },
+  {
+    "start": 3718.0,
+    "duration": 3.56,
+    "text": "It's like an additional feature."
+  },
+  {
+    "start": 3721.76,
+    "duration": 3.72,
+    "text": "Okay?"
+  },
+  {
+    "start": 3723.8,
+    "duration": 3.04,
+    "text": "Cool. Let's move forward. Okay, now"
+  },
+  {
+    "start": 3725.48,
+    "duration": 3.48,
+    "text": "let's talk about one more important"
+  },
+  {
+    "start": 3726.84,
+    "duration": 2.92,
+    "text": "thing, which is uh static methods over"
+  },
+  {
+    "start": 3728.96,
+    "duration": 3.92,
+    "text": "here."
+  },
+  {
+    "start": 3729.76,
+    "duration": 5.36,
+    "text": "We know that static methods do not get"
+  },
+  {
+    "start": 3732.88,
+    "duration": 3.96,
+    "text": "inherited. We know that."
+  },
+  {
+    "start": 3735.12,
+    "duration": 3.48,
+    "text": "Okay? You know static methods will never"
+  },
+  {
+    "start": 3736.84,
+    "duration": 4.4,
+    "text": "get inherited. Why? We already covered"
+  },
+  {
+    "start": 3738.6,
+    "duration": 4.2,
+    "text": "it in overriding stuff and"
+  },
+  {
+    "start": 3741.24,
+    "duration": 3.36,
+    "text": "in the second video of object-oriented"
+  },
+  {
+    "start": 3742.8,
+    "duration": 3.24,
+    "text": "programming programming principles. It's"
+  },
+  {
+    "start": 3744.6,
+    "duration": 3.16,
+    "text": "pretty self-explanatory as well."
+  },
+  {
+    "start": 3746.04,
+    "duration": 3.48,
+    "text": "Inheritance means like if you inherit"
+  },
+  {
+    "start": 3747.76,
+    "duration": 3.4,
+    "text": "it, you have to override. Overriding"
+  },
+  {
+    "start": 3749.52,
+    "duration": 3.92,
+    "text": "means it depends on objects because it's"
+  },
+  {
+    "start": 3751.16,
+    "duration": 3.76,
+    "text": "runtime polymorphism, and static methods"
+  },
+  {
+    "start": 3753.44,
+    "duration": 2.84,
+    "text": "do not depend on objects. That's why"
+  },
+  {
+    "start": 3754.92,
+    "duration": 2.88,
+    "text": "they cannot be inherited. Simple"
+  },
+  {
+    "start": 3756.28,
+    "duration": 3.88,
+    "text": "explanation."
+  },
+  {
+    "start": 3757.8,
+    "duration": 4.48,
+    "text": "So, if you have static method over here,"
+  },
+  {
+    "start": 3760.16,
+    "duration": 4.28,
+    "text": "and they cannot be inherited, it means"
+  },
+  {
+    "start": 3762.28,
+    "duration": 4.6,
+    "text": "that they cannot be overridden. It means"
+  },
+  {
+    "start": 3764.44,
+    "duration": 4.12,
+    "text": "they should have a body over here."
+  },
+  {
+    "start": 3766.88,
+    "duration": 3.36,
+    "text": "Because the static methods in interfaces"
+  },
+  {
+    "start": 3768.56,
+    "duration": 3.2,
+    "text": "are the ones that will be used only. You"
+  },
+  {
+    "start": 3770.24,
+    "duration": 3.2,
+    "text": "can't override those or whatever. You"
+  },
+  {
+    "start": 3771.76,
+    "duration": 4.12,
+    "text": "can't inherit those. It will be used"
+  },
+  {
+    "start": 3773.44,
+    "duration": 5.28,
+    "text": "from interface only."
+  },
+  {
+    "start": 3775.88,
+    "duration": 5.96,
+    "text": "That's why static interface methods"
+  },
+  {
+    "start": 3778.72,
+    "duration": 3.12,
+    "text": "should always have a body."
+  },
+  {
+    "start": 3786.88,
+    "duration": 3.44,
+    "text": "All these reasons because you can't"
+  },
+  {
+    "start": 3789.12,
+    "duration": 2.68,
+    "text": "static"
+  },
+  {
+    "start": 3790.32,
+    "duration": 4.12,
+    "text": "void"
+  },
+  {
+    "start": 3791.8,
+    "duration": 2.64,
+    "text": "greeting."
+  },
+  {
+    "start": 3795.0,
+    "duration": 3.76,
+    "text": "So, you can't have it something like"
+  },
+  {
+    "start": 3796.2,
+    "duration": 4.96,
+    "text": "this. This is not allowed. Okay? Body is"
+  },
+  {
+    "start": 3798.76,
+    "duration": 5.72,
+    "text": "required."
+  },
+  {
+    "start": 3801.16,
+    "duration": 6.4,
+    "text": "Hey, I am static method."
+  },
+  {
+    "start": 3804.48,
+    "duration": 5.24,
+    "text": "You can call it via whatever you want."
+  },
+  {
+    "start": 3807.56,
+    "duration": 2.16,
+    "text": "Okay?"
+  },
+  {
+    "start": 3811.48,
+    "duration": 4.52,
+    "text": "Main"
+  },
+  {
+    "start": 3813.12,
+    "duration": 4.6,
+    "text": "object is equal to new main."
+  },
+  {
+    "start": 3816.0,
+    "duration": 3.4,
+    "text": "Okay? And here you can call it via just"
+  },
+  {
+    "start": 3817.72,
+    "duration": 3.76,
+    "text": "the name of the class because we know"
+  },
+  {
+    "start": 3819.4,
+    "duration": 4.2,
+    "text": "static methods are called by the name of"
+  },
+  {
+    "start": 3821.48,
+    "duration": 3.48,
+    "text": "the class. So, it's actually going to be"
+  },
+  {
+    "start": 3823.6,
+    "duration": 3.8,
+    "text": "like it's not going to be inherited or"
+  },
+  {
+    "start": 3824.96,
+    "duration": 4.52,
+    "text": "anything. A. greeting. Like that you"
+  },
+  {
+    "start": 3827.4,
+    "duration": 3.84,
+    "text": "have to call it. You have to call static"
+  },
+  {
+    "start": 3829.48,
+    "duration": 5.72,
+    "text": "and you have to call these via the stat"
+  },
+  {
+    "start": 3831.24,
+    "duration": 5.72,
+    "text": "via the interface name. Okay?"
+  },
+  {
+    "start": 3835.2,
+    "duration": 3.48,
+    "text": "Call via the"
+  },
+  {
+    "start": 3836.96,
+    "duration": 3.56,
+    "text": "interface name."
+  },
+  {
+    "start": 3838.68,
+    "duration": 4.28,
+    "text": "Simple as that. No problem."
+  },
+  {
+    "start": 3840.52,
+    "duration": 2.44,
+    "text": "That's it."
+  },
+  {
+    "start": 3843.64,
+    "duration": 3.16,
+    "text": "All right?"
+  },
+  {
+    "start": 3845.2,
+    "duration": 3.8,
+    "text": "Cool."
+  },
+  {
+    "start": 3846.8,
+    "duration": 4.36,
+    "text": "One more thing I want to share is"
+  },
+  {
+    "start": 3849.0,
+    "duration": 3.92,
+    "text": "when you are overriding methods, right?"
+  },
+  {
+    "start": 3851.16,
+    "duration": 5.12,
+    "text": "When you're overriding like this."
+  },
+  {
+    "start": 3852.92,
+    "duration": 3.36,
+    "text": "Here I know it's like uh"
+  },
+  {
+    "start": 3856.6,
+    "duration": 6.0,
+    "text": "abstract and whatever. But uh"
+  },
+  {
+    "start": 3859.64,
+    "duration": 4.16,
+    "text": "the the overridden methods, this is not"
+  },
+  {
+    "start": 3862.6,
+    "duration": 3.88,
+    "text": "just for interfaces. It's like in"
+  },
+  {
+    "start": 3863.8,
+    "duration": 4.92,
+    "text": "general. The access modifier for the"
+  },
+  {
+    "start": 3866.48,
+    "duration": 3.88,
+    "text": "overridden methods should be same or"
+  },
+  {
+    "start": 3868.72,
+    "duration": 3.32,
+    "text": "better. So, for example, if the parent"
+  },
+  {
+    "start": 3870.36,
+    "duration": 4.6,
+    "text": "class, we talk about the previous"
+  },
+  {
+    "start": 3872.04,
+    "duration": 5.44,
+    "text": "inheritance, if the parent class uh if"
+  },
+  {
+    "start": 3874.96,
+    "duration": 5.56,
+    "text": "in the parent class the method was let's"
+  },
+  {
+    "start": 3877.48,
+    "duration": 5.12,
+    "text": "say protected, then in the overriding"
+  },
+  {
+    "start": 3880.52,
+    "duration": 4.08,
+    "text": "the overridden method should be"
+  },
+  {
+    "start": 3882.6,
+    "duration": 4.72,
+    "text": "protected or something better like"
+  },
+  {
+    "start": 3884.6,
+    "duration": 5.52,
+    "text": "public. It cannot be more restrictive"
+  },
+  {
+    "start": 3887.32,
+    "duration": 5.68,
+    "text": "than protected. It cannot be private."
+  },
+  {
+    "start": 3890.12,
+    "duration": 4.24,
+    "text": "Okay? Should be better than that."
+  },
+  {
+    "start": 3893.0,
+    "duration": 4.76,
+    "text": "If I try to put this as private, see"
+  },
+  {
+    "start": 3894.36,
+    "duration": 5.36,
+    "text": "what happens. Getting an error."
+  },
+  {
+    "start": 3897.76,
+    "duration": 4.72,
+    "text": "Right? Because I know"
+  },
+  {
+    "start": 3899.72,
+    "duration": 2.76,
+    "text": "that uh"
+  },
+  {
+    "start": 3904.48,
+    "duration": 4.68,
+    "text": "I put this over here, public. We know"
+  },
+  {
+    "start": 3906.6,
+    "duration": 4.6,
+    "text": "this is public and abstract by default."
+  },
+  {
+    "start": 3909.16,
+    "duration": 3.52,
+    "text": "So, you can have public and better than"
+  },
+  {
+    "start": 3911.2,
+    "duration": 2.88,
+    "text": "public, but no, nothing is better than"
+  },
+  {
+    "start": 3912.68,
+    "duration": 2.4,
+    "text": "public."
+  },
+  {
+    "start": 3914.08,
+    "duration": 3.44,
+    "text": "Right?"
+  },
+  {
+    "start": 3915.08,
+    "duration": 4.16,
+    "text": "So, that's the reason we have You can't"
+  },
+  {
+    "start": 3917.52,
+    "duration": 2.96,
+    "text": "add this public. If these were like"
+  },
+  {
+    "start": 3919.24,
+    "duration": 2.84,
+    "text": "protected or something, you can have"
+  },
+  {
+    "start": 3920.48,
+    "duration": 3.8,
+    "text": "protected and something better than"
+  },
+  {
+    "start": 3922.08,
+    "duration": 4.0,
+    "text": "protected. Nothing less"
+  },
+  {
+    "start": 3924.28,
+    "duration": 4.64,
+    "text": "Nothing less restrictive can be"
+  },
+  {
+    "start": 3926.08,
+    "duration": 2.84,
+    "text": "available over here."
+  },
+  {
+    "start": 3929.44,
+    "duration": 2.32,
+    "text": "Okay."
+  },
+  {
+    "start": 3938.64,
+    "duration": 3.52,
+    "text": "Key class"
+  },
+  {
+    "start": 3945.12,
+    "duration": 2.96,
+    "text": "Cool. Sound good?"
+  },
+  {
+    "start": 3960.56,
+    "duration": 2.4,
+    "text": "Same thing"
+  },
+  {
+    "start": 3961.84,
+    "duration": 3.0,
+    "text": "because"
+  },
+  {
+    "start": 3962.96,
+    "duration": 4.6,
+    "text": "this is default modifier and that is"
+  },
+  {
+    "start": 3964.84,
+    "duration": 4.44,
+    "text": "also less restrictive, not allowed."
+  },
+  {
+    "start": 3967.56,
+    "duration": 3.28,
+    "text": "Okay?"
+  },
+  {
+    "start": 3969.28,
+    "duration": 4.2,
+    "text": "So, that's one more rule I wanted to"
+  },
+  {
+    "start": 3970.84,
+    "duration": 2.64,
+    "text": "share about."
+  },
+  {
+    "start": 3974.4,
+    "duration": 3.32,
+    "text": "Cool."
+  },
+  {
+    "start": 3976.2,
+    "duration": 3.52,
+    "text": "Let's move up, okay? One more thing"
+  },
+  {
+    "start": 3977.72,
+    "duration": 4.24,
+    "text": "about interfaces I want to share is like"
+  },
+  {
+    "start": 3979.72,
+    "duration": 4.24,
+    "text": "nested interfaces, okay?"
+  },
+  {
+    "start": 3981.96,
+    "duration": 5.12,
+    "text": "Package"
+  },
+  {
+    "start": 3983.96,
+    "duration": 6.0,
+    "text": "nested nest it."
+  },
+  {
+    "start": 3987.08,
+    "duration": 4.88,
+    "text": "So, let's say you have a class called A"
+  },
+  {
+    "start": 3989.96,
+    "duration": 3.36,
+    "text": "and inside that class you have an"
+  },
+  {
+    "start": 3991.96,
+    "duration": 3.04,
+    "text": "interface"
+  },
+  {
+    "start": 3993.32,
+    "duration": 3.2,
+    "text": "nested"
+  },
+  {
+    "start": 3995.0,
+    "duration": 3.8,
+    "text": "interface."
+  },
+  {
+    "start": 3996.52,
+    "duration": 3.84,
+    "text": "You have something like"
+  },
+  {
+    "start": 3998.8,
+    "duration": 3.6,
+    "text": "public"
+  },
+  {
+    "start": 4000.36,
+    "duration": 5.8,
+    "text": "interface"
+  },
+  {
+    "start": 4002.4,
+    "duration": 3.76,
+    "text": "you know, something like um"
+  },
+  {
+    "start": 4007.2,
+    "duration": 2.84,
+    "text": "nested"
+  },
+  {
+    "start": 4010.68,
+    "duration": 5.0,
+    "text": "interface"
+  },
+  {
+    "start": 4013.6,
+    "duration": 4.08,
+    "text": "something like that."
+  },
+  {
+    "start": 4015.68,
+    "duration": 3.6,
+    "text": "Okay?"
+  },
+  {
+    "start": 4017.68,
+    "duration": 6.08,
+    "text": "Cool."
+  },
+  {
+    "start": 4019.28,
+    "duration": 6.08,
+    "text": "We have let's say a function called is"
+  },
+  {
+    "start": 4023.76,
+    "duration": 4.72,
+    "text": "um odd or even."
+  },
+  {
+    "start": 4025.36,
+    "duration": 5.44,
+    "text": "The a is odd or even and you just pass a"
+  },
+  {
+    "start": 4028.48,
+    "duration": 4.6,
+    "text": "number over here."
+  },
+  {
+    "start": 4030.8,
+    "duration": 5.04,
+    "text": "Okay, that's it."
+  },
+  {
+    "start": 4033.08,
+    "duration": 7.04,
+    "text": "Now, you have a let's say a class B"
+  },
+  {
+    "start": 4035.84,
+    "duration": 6.12,
+    "text": "and that implements A. nested interface."
+  },
+  {
+    "start": 4040.12,
+    "duration": 2.96,
+    "text": "You'll have to obviously override"
+  },
+  {
+    "start": 4041.96,
+    "duration": 3.08,
+    "text": "like this."
+  },
+  {
+    "start": 4043.08,
+    "duration": 4.64,
+    "text": "Okay, so you can say what is an odd"
+  },
+  {
+    "start": 4045.04,
+    "duration": 4.0,
+    "text": "number? An odd number is if the number"
+  },
+  {
+    "start": 4047.72,
+    "duration": 3.24,
+    "text": "and with one"
+  },
+  {
+    "start": 4049.04,
+    "duration": 2.84,
+    "text": "is equal to equal to one."
+  },
+  {
+    "start": 4050.96,
+    "duration": 2.68,
+    "text": "We have covered this in bitwise"
+  },
+  {
+    "start": 4051.88,
+    "duration": 6.12,
+    "text": "operators."
+  },
+  {
+    "start": 4053.64,
+    "duration": 5.76,
+    "text": "Okay, that is pretty much about it. Yep."
+  },
+  {
+    "start": 4058.0,
+    "duration": 3.56,
+    "text": "Now, I can create another class. You can"
+  },
+  {
+    "start": 4059.4,
+    "duration": 5.24,
+    "text": "create a main class if you want."
+  },
+  {
+    "start": 4061.56,
+    "duration": 4.56,
+    "text": "Right? So, I can create a class main"
+  },
+  {
+    "start": 4064.64,
+    "duration": 3.48,
+    "text": "public static, or I can create it"
+  },
+  {
+    "start": 4066.12,
+    "duration": 4.8,
+    "text": "separately also. It does not"
+  },
+  {
+    "start": 4068.12,
+    "duration": 2.8,
+    "text": "really matter."
+  },
+  {
+    "start": 4072.2,
+    "duration": 3.72,
+    "text": "Main like this."
+  },
+  {
+    "start": 4073.6,
+    "duration": 3.04,
+    "text": "Public static void main."
+  },
+  {
+    "start": 4075.92,
+    "duration": 3.32,
+    "text": "Okay."
+  },
+  {
+    "start": 4076.64,
+    "duration": 3.76,
+    "text": "Then I can say let's close this, close"
+  },
+  {
+    "start": 4079.24,
+    "duration": 5.32,
+    "text": "this,"
+  },
+  {
+    "start": 4080.4,
+    "duration": 8.0,
+    "text": "close this, close this. Just"
+  },
+  {
+    "start": 4084.56,
+    "duration": 3.84,
+    "text": "put it over here like this. I can say"
+  },
+  {
+    "start": 4089.32,
+    "duration": 8.039,
+    "text": "B object is equal to new B."
+  },
+  {
+    "start": 4093.48,
+    "duration": 6.24,
+    "text": "Okay. Then I can say object. is odd"
+  },
+  {
+    "start": 4097.359,
+    "duration": 6.44,
+    "text": "five."
+  },
+  {
+    "start": 4099.72,
+    "duration": 4.079,
+    "text": "Um going to print it."
+  },
+  {
+    "start": 4105.08,
+    "duration": 2.719,
+    "text": "Run it."
+  },
+  {
+    "start": 4110.279,
+    "duration": 4.961,
+    "text": "True."
+  },
+  {
+    "start": 4111.319,
+    "duration": 3.921,
+    "text": "Object. is odd seven."
+  },
+  {
+    "start": 4118.04,
+    "duration": 3.6,
+    "text": "True."
+  },
+  {
+    "start": 4119.48,
+    "duration": 3.24,
+    "text": "What am I doing? Six."
+  },
+  {
+    "start": 4121.64,
+    "duration": 2.719,
+    "text": "False."
+  },
+  {
+    "start": 4122.72,
+    "duration": 2.76,
+    "text": "Should show false."
+  },
+  {
+    "start": 4124.359,
+    "duration": 3.281,
+    "text": "Okay."
+  },
+  {
+    "start": 4125.48,
+    "duration": 4.08,
+    "text": "So, that's how it's working. Now, one"
+  },
+  {
+    "start": 4127.64,
+    "duration": 4.679,
+    "text": "new thing over here that I would like to"
+  },
+  {
+    "start": 4129.56,
+    "duration": 4.32,
+    "text": "share is that uh the only difference"
+  },
+  {
+    "start": 4132.319,
+    "duration": 6.081,
+    "text": "that this has from like a top-level"
+  },
+  {
+    "start": 4133.88,
+    "duration": 4.52,
+    "text": "interface is that the um"
+  },
+  {
+    "start": 4139.0,
+    "duration": 4.319,
+    "text": "the nested interface can be declared as"
+  },
+  {
+    "start": 4140.6,
+    "duration": 5.239,
+    "text": "like public, private, or protected."
+  },
+  {
+    "start": 4143.319,
+    "duration": 5.04,
+    "text": "But, the top-level interface"
+  },
+  {
+    "start": 4145.839,
+    "duration": 3.841,
+    "text": "has to be declared as public or the"
+  },
+  {
+    "start": 4148.359,
+    "duration": 3.96,
+    "text": "default one."
+  },
+  {
+    "start": 4149.68,
+    "duration": 3.52,
+    "text": "Okay, that's the difference."
+  },
+  {
+    "start": 4152.319,
+    "duration": 3.081,
+    "text": "Cool."
+  },
+  {
+    "start": 4153.2,
+    "duration": 3.119,
+    "text": "All the standard stuff applies."
+  },
+  {
+    "start": 4155.4,
+    "duration": 2.399,
+    "text": "Okay."
+  },
+  {
+    "start": 4156.319,
+    "duration": 4.44,
+    "text": "You have to create an object of B and"
+  },
+  {
+    "start": 4157.799,
+    "duration": 5.841,
+    "text": "stuff and use it like that. Yeah."
+  },
+  {
+    "start": 4160.759,
+    "duration": 4.641,
+    "text": "I'm using A.nested interface, means A"
+  },
+  {
+    "start": 4163.64,
+    "duration": 4.24,
+    "text": "inside A there's a nested interface,"
+  },
+  {
+    "start": 4165.4,
+    "duration": 2.48,
+    "text": "using that."
+  },
+  {
+    "start": 4168.759,
+    "duration": 3.361,
+    "text": "Okay."
+  },
+  {
+    "start": 4169.759,
+    "duration": 3.56,
+    "text": "So, that's nested interface. Okay. Well,"
+  },
+  {
+    "start": 4172.12,
+    "duration": 2.88,
+    "text": "that was about this video, but this was"
+  },
+  {
+    "start": 4173.319,
+    "duration": 3.48,
+    "text": "a very important video. We learned about"
+  },
+  {
+    "start": 4175.0,
+    "duration": 4.839,
+    "text": "a very important concept of interfaces,"
+  },
+  {
+    "start": 4176.799,
+    "duration": 4.52,
+    "text": "abstract classes, and stuff. Um yeah, in"
+  },
+  {
+    "start": 4179.839,
+    "duration": 3.041,
+    "text": "the next video we'll learn about"
+  },
+  {
+    "start": 4181.319,
+    "duration": 3.201,
+    "text": "generics and stuff, collection"
+  },
+  {
+    "start": 4182.88,
+    "duration": 2.72,
+    "text": "framework, and all these other things,"
+  },
+  {
+    "start": 4184.52,
+    "duration": 2.48,
+    "text": "and then we move on to some like"
+  },
+  {
+    "start": 4185.6,
+    "duration": 3.12,
+    "text": "advanced data structures after that"
+  },
+  {
+    "start": 4187.0,
+    "duration": 3.56,
+    "text": "because now we know OOP, so we'll be"
+  },
+  {
+    "start": 4188.72,
+    "duration": 4.32,
+    "text": "able to write our own data structures,"
+  },
+  {
+    "start": 4190.56,
+    "duration": 5.24,
+    "text": "linked list, stacks, queues, and dynamic"
+  },
+  {
+    "start": 4193.04,
+    "duration": 6.16,
+    "text": "programming stuff, graph algorithms,"
+  },
+  {
+    "start": 4195.8,
+    "duration": 6.92,
+    "text": "trees, and heaps, and hash maps. So, we"
+  },
+  {
+    "start": 4199.2,
+    "duration": 5.4,
+    "text": "will be literally writing these on our"
+  },
+  {
+    "start": 4202.72,
+    "duration": 4.12,
+    "text": "own using classes. That's why I had to"
+  },
+  {
+    "start": 4204.6,
+    "duration": 4.16,
+    "text": "do object-oriented"
+  },
+  {
+    "start": 4206.84,
+    "duration": 3.72,
+    "text": "programming first. So, you will not only"
+  },
+  {
+    "start": 4208.76,
+    "duration": 3.8,
+    "text": "just learn how to use it, you'll"
+  },
+  {
+    "start": 4210.56,
+    "duration": 4.0,
+    "text": "actually learn how to implement it as"
+  },
+  {
+    "start": 4212.56,
+    "duration": 3.36,
+    "text": "well, every single function. So, you'll"
+  },
+  {
+    "start": 4214.56,
+    "duration": 2.8,
+    "text": "use the internal one as well, the one"
+  },
+  {
+    "start": 4215.92,
+    "duration": 3.32,
+    "text": "provided like collections framework, but"
+  },
+  {
+    "start": 4217.36,
+    "duration": 2.64,
+    "text": "we'll actually create our own as well."
+  },
+  {
+    "start": 4219.24,
+    "duration": 2.0,
+    "text": "So, make sure you like, share, and"
+  },
+  {
+    "start": 4220.0,
+    "duration": 3.0,
+    "text": "subscribe, and share about it on"
+  },
+  {
+    "start": 4221.24,
+    "duration": 3.52,
+    "text": "socials,"
+  },
+  {
+    "start": 4223.0,
+    "duration": 4.4,
+    "text": "so that it raises awareness, and share"
+  },
+  {
+    "start": 4224.76,
+    "duration": 3.4,
+    "text": "with your friends. And yeah, make sure"
+  },
+  {
+    "start": 4227.4,
+    "duration": 3.4,
+    "text": "you like, share, and subscribe, and"
+  },
+  {
+    "start": 4228.16,
+    "duration": 3.96,
+    "text": "comment as well right now. Um and I'll"
+  },
+  {
+    "start": 4230.8,
+    "duration": 2.6,
+    "text": "see you in the next one. It will really"
+  },
+  {
+    "start": 4232.12,
+    "duration": 3.6,
+    "text": "help me, so I would really appreciate"
+  },
+  {
+    "start": 4233.4,
+    "duration": 2.32,
+    "text": "it."
+  }
+]

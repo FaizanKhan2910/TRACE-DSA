@@ -1,0 +1,2922 @@
+[
+  {
+    "start": 4.21,
+    "duration": 5.2,
+    "text": "Hey everyone, welcome back to another video and today we are doing binary search."
+  },
+  {
+    "start": 9.41,
+    "duration": 5.04,
+    "text": "So before we get started, this is the most, one of the most important algorithms is asked"
+  },
+  {
+    "start": 14.45,
+    "duration": 5.28,
+    "text": "in Google, you know, companies like Facebook, Amazon, Microsoft, very important, do not skip"
+  },
+  {
+    "start": 19.73,
+    "duration": 5.36,
+    "text": "this topic, it is very, very important, binary search is very important, not just like simple"
+  },
+  {
+    "start": 25.09,
+    "duration": 4.24,
+    "text": "binary search, we'll also be doing in this section, modified binary search."
+  },
+  {
+    "start": 29.33,
+    "duration": 4.04,
+    "text": "One thing I wanted to share was, I'm always advocating for learning in public, right?"
+  },
+  {
+    "start": 33.37,
+    "duration": 3.08,
+    "text": "So let's start a new hashtag or something."
+  },
+  {
+    "start": 36.45,
+    "duration": 3.92,
+    "text": "You can share your learnings, like what you learned during that day or that week or any"
+  },
+  {
+    "start": 40.37,
+    "duration": 3.64,
+    "text": "questions you did or so many, you know, when we'll be doing it, we'll be heavily focusing"
+  },
+  {
+    "start": 44.01,
+    "duration": 1.16,
+    "text": "on lead code."
+  },
+  {
+    "start": 45.17,
+    "duration": 4.44,
+    "text": "So for example, your lead code graph will be looking green or whatever."
+  },
+  {
+    "start": 49.61,
+    "duration": 4.0,
+    "text": "So over there, you can share your learning and your progress on socials because learning"
+  },
+  {
+    "start": 53.61,
+    "duration": 1.56,
+    "text": "in public is important."
+  },
+  {
+    "start": 55.17,
+    "duration": 6.48,
+    "text": "So maybe we can start a new hashtag called, so we are going to cover this section"
+  },
+  {
+    "start": 61.65,
+    "duration": 5.2,
+    "text": "in like I am going to cover it in less than two months but that does not mean you should"
+  },
+  {
+    "start": 66.85,
+    "duration": 4.68,
+    "text": "as well because you should give your time practice and make efforts if you are new to"
+  },
+  {
+    "start": 71.53,
+    "duration": 2.8,
+    "text": "the channel make sure you like and subscribe and check out the links in the description"
+  },
+  {
+    "start": 74.33,
+    "duration": 6.4,
+    "text": "we have an entire Java DSA playlist okay so the hashtag can be like you know something"
+  },
+  {
+    "start": 80.73,
+    "duration": 9.84,
+    "text": "like maybe we can do let's see we can do DSA with Kunal maybe yeah so you can"
+  },
+  {
+    "start": 90.57,
+    "duration": 18.18,
+    "text": "say hashtag D. How do I write it neatly? DSA with Kunal. So we can have this hashtag"
+  },
+  {
+    "start": 108.75,
+    "duration": 4.44,
+    "text": "that you can share your learnings with so that I can found so that I can find your"
+  },
+  {
+    "start": 113.19,
+    "duration": 6.64,
+    "text": "learnings and that I can retweet and share it on LinkedIn and stuff. You can also tag"
+  },
+  {
+    "start": 119.83,
+    "duration": 10.87,
+    "text": "com classroom on Twitter. And you can also tag me. The links these are these all"
+  },
+  {
+    "start": 130.7,
+    "duration": 4.26,
+    "text": "links are in the description below. So I'd really appreciate if you could share your learnings"
+  },
+  {
+    "start": 134.96,
+    "duration": 8.9,
+    "text": "and there's been like a lot of you know, misguidance related to DSA and everything. And I want to"
+  },
+  {
+    "start": 143.86,
+    "duration": 6.68,
+    "text": "clear that via this channel. So do support. And it's free. So obviously every forever"
+  },
+  {
+    "start": 150.54,
+    "duration": 4.72,
+    "text": "it will be free. Never ever we will have any paid courses or gated content. Let's"
+  },
+  {
+    "start": 155.26,
+    "duration": 5.16,
+    "text": "get started. So let's get started with binary search for now. What is binary search?"
+  },
+  {
+    "start": 160.42,
+    "duration": 6.4,
+    "text": "In the previous lecture, we learned about the, we learned about the searching technique of"
+  },
+  {
+    "start": 166.82,
+    "duration": 1.0,
+    "text": "linear search."
+  },
+  {
+    "start": 167.82,
+    "duration": 2.52,
+    "text": "So, if you haven't watched that, the link for that is in the description."
+  },
+  {
+    "start": 170.34,
+    "duration": 3.08,
+    "text": "But now we are learning about optimized way to search."
+  },
+  {
+    "start": 173.42,
+    "duration": 4.2,
+    "text": "So, we are learning about how we can optimize the way we are searching."
+  },
+  {
+    "start": 177.62,
+    "duration": 4.9,
+    "text": "So, in the linear search, if you saw that video, we talked about the time complexity"
+  },
+  {
+    "start": 182.52,
+    "duration": 1.5,
+    "text": "and forget about the time complexity."
+  },
+  {
+    "start": 184.02,
+    "duration": 3.12,
+    "text": "In simple terms, we talked about the number of comparisons."
+  },
+  {
+    "start": 187.14,
+    "duration": 5.02,
+    "text": "number of comparisons is make to tell whether the number is in the area or not in the worst"
+  },
+  {
+    "start": 192.16,
+    "duration": 1.0,
+    "text": "case."
+  },
+  {
+    "start": 193.16,
+    "duration": 4.1,
+    "text": "It was o of n, don't worry what o of n is, for now just focus on let's say we are talking"
+  },
+  {
+    "start": 197.26,
+    "duration": 5.96,
+    "text": "about comparisons only, number of comparisons being made in the worst case."
+  },
+  {
+    "start": 203.22,
+    "duration": 4.4,
+    "text": "So more number of comparisons means more time, that's where we can relate to it but"
+  },
+  {
+    "start": 207.62,
+    "duration": 4.12,
+    "text": "we will cover space and time complexity in detail in the future sessions."
+  },
+  {
+    "start": 211.74,
+    "duration": 7.76,
+    "text": "So binary search, it's actually used for sorted arrays and we'll see how we can, you know,"
+  },
+  {
+    "start": 219.5,
+    "duration": 4.4,
+    "text": "use it, we'll see the entire algorithm will do so many nice questions."
+  },
+  {
+    "start": 223.9,
+    "duration": 4.88,
+    "text": "Before we get started, I want to share that actually how to sort the arrays we will do"
+  },
+  {
+    "start": 228.78,
+    "duration": 1.64,
+    "text": "after this."
+  },
+  {
+    "start": 230.42,
+    "duration": 2.6,
+    "text": "For now, just imagine the array you are given is sorted."
+  },
+  {
+    "start": 233.02,
+    "duration": 1.16,
+    "text": "What do we mean by sorted?"
+  },
+  {
+    "start": 234.18,
+    "duration": 2.48,
+    "text": "Sorted mean either in ascending or descending order."
+  },
+  {
+    "start": 236.66,
+    "duration": 15.04,
+    "text": "like an array could be given to you like this, something like 2, 4, 9, 10, 12, 14, 18, 19."
+  },
+  {
+    "start": 251.7,
+    "duration": 1.0,
+    "text": "Something like this."
+  },
+  {
+    "start": 252.7,
+    "duration": 6.17,
+    "text": "So, it is like a, it is like a sorted array."
+  },
+  {
+    "start": 258.87,
+    "duration": 6.92,
+    "text": "It is like increasing, increasing like this, ascending order."
+  },
+  {
+    "start": 265.79,
+    "duration": 3.24,
+    "text": "Another sorted array can be array number 2."
+  },
+  {
+    "start": 269.03,
+    "duration": 17.72,
+    "text": "get the idea 19, 12, 6, 5, 3, 2, minus 8, minus 16 sorted in descending order, ok, largest"
+  },
+  {
+    "start": 286.75,
+    "duration": 6.62,
+    "text": "to smallest 2, 4, 9 or cool, ok. So, the idea is that we can run linear search on this if"
+  },
+  {
+    "start": 293.37,
+    "duration": 4.92,
+    "text": "you want to say, hey, does the array contains the this array contain 14? How do you find"
+  },
+  {
+    "start": 298.29,
+    "duration": 4.44,
+    "text": "that out? Just run a linear search you can do that. In linear search, we know that"
+  },
+  {
+    "start": 302.73,
+    "duration": 6.24,
+    "text": "the maximum comparisons in the worst case, we already learned about this in the linear"
+  },
+  {
+    "start": 308.97,
+    "duration": 5.64,
+    "text": "search video, make sure you check that out. It's going to be n where n is like the you"
+  },
+  {
+    "start": 314.61,
+    "duration": 6.88,
+    "text": "can imagine n is the number of elements in the area. So example of the if you're searching"
+  },
+  {
+    "start": 321.49,
+    "duration": 6.16,
+    "text": "for 23 in ARR, so it's going to be like, okay, is this 23? No, is this 23? No, no,"
+  },
+  {
+    "start": 327.65,
+    "duration": 6.12,
+    "text": "no, no, no. So it traversed the entire array, it went through the entire array. And after"
+  },
+  {
+    "start": 333.77,
+    "duration": 6.24,
+    "text": "that in the end, it was like, Oh, 23 does not exist. So it made total n comparisons. Okay,"
+  },
+  {
+    "start": 340.01,
+    "duration": 7.4,
+    "text": "now let's learn about binary search, how binary search can help us. So taking the same, you"
+  },
+  {
+    "start": 347.41,
+    "duration": 5.0,
+    "text": "know, taking the same array, I can say, or not not the same array, I don't want"
+  },
+  {
+    "start": 352.41,
+    "duration": 3.56,
+    "text": "a copy paste or whatever. Let's say, let's say I write it again, I can say something"
+  },
+  {
+    "start": 355.97,
+    "duration": 15.07,
+    "text": "like you know array is equal to I can say something like a sorted array. So, 2, 4, 6, 9, 11, 12,"
+  },
+  {
+    "start": 371.04,
+    "duration": 11.67,
+    "text": "14, 20, 36, 48. This is sorted array. Question is that find the target which is equal to"
+  },
+  {
+    "start": 382.71,
+    "duration": 6.84,
+    "text": "let's say find whether 36 exists in the array or not. That is the question. Okay. Find whether"
+  },
+  {
+    "start": 389.55,
+    "duration": 5.8,
+    "text": "36 exists in the array or not. How are we going to do this with binary search? Binary"
+  },
+  {
+    "start": 395.35,
+    "duration": 6.16,
+    "text": "search is a very simple formula. Binary search says that take the middle of the element."
+  },
+  {
+    "start": 401.51,
+    "duration": 3.68,
+    "text": "So take the middle of the array. So for example, if I'm saying the indices of the"
+  },
+  {
+    "start": 405.19,
+    "duration": 5.0,
+    "text": "array is something like this. So if I just write the indices of the array, 0th index"
+  },
+  {
+    "start": 410.19,
+    "duration": 8.64,
+    "text": "first, second, third, fourth, fifth, sixth, seventh, eighth and ninth. So, what is the,"
+  },
+  {
+    "start": 418.83,
+    "duration": 4.6,
+    "text": "what is the middle element of this array? So, if I am saying it is actually like you"
+  },
+  {
+    "start": 423.43,
+    "duration": 5.84,
+    "text": "know 0 till 9, so divide by 2, so total indices are 9 divide by 2, which gives me 4.5, which"
+  },
+  {
+    "start": 429.27,
+    "duration": 8.5,
+    "text": "gives me 4 or something. So, this may be the middle element. This is my middle element."
+  },
+  {
+    "start": 437.77,
+    "duration": 8.23,
+    "text": "Now, there is a first step, find the middle element, first step, talking about the algorithm,"
+  },
+  {
+    "start": 446.0,
+    "duration": 10.81,
+    "text": "find the middle element, second thing, this is the point to be noted, this is the key"
+  },
+  {
+    "start": 456.81,
+    "duration": 7.4,
+    "text": "of binary search, so pay attention, when my target element is 36, pay attention, when"
+  },
+  {
+    "start": 464.21,
+    "duration": 6.2,
+    "text": "my target element is 36 and I know that this array is a sorted array, imagine I know"
+  },
+  {
+    "start": 470.41,
+    "duration": 5.28,
+    "text": "that it is an imagine I know that it is an ascending order sorted array and my target"
+  },
+  {
+    "start": 475.69,
+    "duration": 9.04,
+    "text": "is 36 and I know that the middle element is let us say 11 then in any scenario in any scenario"
+  },
+  {
+    "start": 484.73,
+    "duration": 8.86,
+    "text": "in any case is there going to be a possibility of 36 lying over here in the left hand side"
+  },
+  {
+    "start": 493.59,
+    "duration": 7.24,
+    "text": "of this I know 11 is smaller than 36 okay I know that all the if 11 is smaller than"
+  },
+  {
+    "start": 500.83,
+    "duration": 2.84,
+    "text": "I know that 11 is like at the middle point."
+  },
+  {
+    "start": 503.67,
+    "duration": 4.64,
+    "text": "And since this is a sorted array point to be noted, since this is a sorted array, all"
+  },
+  {
+    "start": 508.31,
+    "duration": 6.36,
+    "text": "the elements on the left hand side of 11 will be smaller than 11, okay."
+  },
+  {
+    "start": 514.67,
+    "duration": 3.04,
+    "text": "All the elements on the right hand side of the middle element will be obviously greater"
+  },
+  {
+    "start": 517.71,
+    "duration": 1.16,
+    "text": "than the middle element."
+  },
+  {
+    "start": 518.87,
+    "duration": 3.68,
+    "text": "So all the elements within the right hand side of 11 will be greater than 11, not"
+  },
+  {
+    "start": 522.55,
+    "duration": 3.8,
+    "text": "just for 11, take any number, let's say I take this number 36."
+  },
+  {
+    "start": 526.35,
+    "duration": 3.2,
+    "text": "So all the elements at the right hand side are greater than 36, all the elements of"
+  },
+  {
+    "start": 529.55,
+    "duration": 5.22,
+    "text": "the left hand side are smaller than 36 very basic observation because it is a sorted array."
+  },
+  {
+    "start": 534.77,
+    "duration": 6.54,
+    "text": "So I know that if 36 is greater than 11 isn't it pretty obvious that it's going to lie somewhere"
+  },
+  {
+    "start": 541.31,
+    "duration": 5.3,
+    "text": "over here because 36 is greater than 11 and all the elements on the left hand side are"
+  },
+  {
+    "start": 546.61,
+    "duration": 4.78,
+    "text": "smaller than 11. So if we are looking for an element that is greater than 11 we are"
+  },
+  {
+    "start": 551.39,
+    "duration": 7.97,
+    "text": "going to look at the right hand side right. If the question was something like let's"
+  },
+  {
+    "start": 559.36,
+    "duration": 5.44,
+    "text": "the target element was 4. So would I be searching for 4 in the right hand side? I know 4 is less"
+  },
+  {
+    "start": 564.8,
+    "duration": 6.16,
+    "text": "than 11 and all the elements on the right hand side of 11 are greater than 11. So obviously,"
+  },
+  {
+    "start": 570.96,
+    "duration": 4.96,
+    "text": "if something is greater than 11, it will be greater than 4 also. Hence I just need to search"
+  },
+  {
+    "start": 575.92,
+    "duration": 6.96,
+    "text": "over here if I am searching for 4. Okay, that is the key point of binary search."
+  },
+  {
+    "start": 582.88,
+    "duration": 9.28,
+    "text": "take the middle element check check if the target element you know if the target element is greater"
+  },
+  {
+    "start": 592.16,
+    "duration": 11.89,
+    "text": "than middle element then you search in the right okay otherwise you search in the left"
+  },
+  {
+    "start": 605.57,
+    "duration": 6.88,
+    "text": "very common sense search in the left part so you can see at every step now notice something"
+  },
+  {
+    "start": 612.45,
+    "duration": 5.84,
+    "text": "At every step, my array is divided into two, the search space, the space in which I am searching"
+  },
+  {
+    "start": 618.29,
+    "duration": 3.68,
+    "text": "is getting divided by two. We will see how this is beneficial to us."
+  },
+  {
+    "start": 623.25,
+    "duration": 10.13,
+    "text": "Okay, the next thing is if the middle element is equal to my target element,"
+  },
+  {
+    "start": 635.72,
+    "duration": 8.35,
+    "text": "then I have found my answer. This is my answer. Okay, let's try to draw on this. So how do"
+  },
+  {
+    "start": 644.07,
+    "duration": 3.84,
+    "text": "we do this? So let me change the color. It's going to be like find the middle element."
+  },
+  {
+    "start": 647.91,
+    "duration": 4.84,
+    "text": "So basically we can take two pointers, one at start and one at end, very simple stuff."
+  },
+  {
+    "start": 652.75,
+    "duration": 7.16,
+    "text": "So I take a pointer over here, start, I take a pointer over here and okay, start is initially"
+  },
+  {
+    "start": 659.91,
+    "duration": 2.36,
+    "text": "zero and this nine."
+  },
+  {
+    "start": 662.27,
+    "duration": 5.72,
+    "text": "So what is the middle zero plus nine divided by two, which is integer value four means"
+  },
+  {
+    "start": 667.99,
+    "duration": 2.48,
+    "text": "this is my middle element, my middle."
+  },
+  {
+    "start": 670.47,
+    "duration": 3.48,
+    "text": "Now I'm going to check what is the second step, check whether the target element is"
+  },
+  {
+    "start": 673.95,
+    "duration": 3.36,
+    "text": "greater than middle equal to middle or smaller than middle."
+  },
+  {
+    "start": 677.31,
+    "duration": 4.32,
+    "text": "going to be like, hey, 36 are actually greater than middle. So my element is going to lie"
+  },
+  {
+    "start": 681.63,
+    "duration": 4.72,
+    "text": "over here. It's going to be like, okay, cool. So if this is the thing you are searching"
+  },
+  {
+    "start": 686.35,
+    "duration": 7.56,
+    "text": "for now, if this is the thing that you are searching for now, if in this array you are"
+  },
+  {
+    "start": 693.91,
+    "duration": 8.62,
+    "text": "searching now, in this array, you are searching now, isn't your start going to be this?"
+  },
+  {
+    "start": 702.53,
+    "duration": 7.12,
+    "text": "If this is the new area space in which you are searching, then isn't this the start now?"
+  },
+  {
+    "start": 709.65,
+    "duration": 1.0,
+    "text": "Does that make sense?"
+  },
+  {
+    "start": 710.65,
+    "duration": 1.88,
+    "text": "Very simple stuff."
+  },
+  {
+    "start": 712.53,
+    "duration": 1.36,
+    "text": "Okay."
+  },
+  {
+    "start": 713.89,
+    "duration": 4.96,
+    "text": "So now you're searching over here, let me, let me, you know, make this again, like, let"
+  },
+  {
+    "start": 718.85,
+    "duration": 6.65,
+    "text": "me make this like a new, let's say, let's say we make a new one."
+  },
+  {
+    "start": 725.5,
+    "duration": 3.66,
+    "text": "Okay."
+  },
+  {
+    "start": 729.16,
+    "duration": 6.12,
+    "text": "So it's actually, I'm just going to make a new one over here or I can maybe just"
+  },
+  {
+    "start": 735.28,
+    "duration": 1.0,
+    "text": "copy."
+  },
+  {
+    "start": 736.28,
+    "duration": 15.49,
+    "text": "Yeah."
+  },
+  {
+    "start": 751.77,
+    "duration": 7.64,
+    "text": "Yeah, I am able to move it nice. Very cool, very cool. How do I make a copy of this? No,"
+  },
+  {
+    "start": 759.41,
+    "duration": 8.04,
+    "text": "I'm happy with this. Okay, so that looks good. Now maybe we can, you know, try to duplicate"
+  },
+  {
+    "start": 767.45,
+    "duration": 7.44,
+    "text": "this here. I can just say that if you have something like let's say, you know, two,"
+  },
+  {
+    "start": 774.89,
+    "duration": 11.4,
+    "text": "four, six, nine, 11, 12, 14, 20, 36 and 48. You are trying to search for 36. Let's see"
+  },
+  {
+    "start": 786.29,
+    "duration": 10.31,
+    "text": "how we can do that. So what is the first step? First step is take the middle element, start"
+  },
+  {
+    "start": 796.6,
+    "duration": 4.5,
+    "text": "is over here, initially end is over here, middle element will be what? So middle element"
+  },
+  {
+    "start": 801.1,
+    "duration": 5.8,
+    "text": "here will be start plus and by two. So middle element is going to be start plus"
+  },
+  {
+    "start": 806.9,
+    "duration": 5.44,
+    "text": "by two, we'll try to optimize this also when we code don't worry. So we can say zero plus"
+  },
+  {
+    "start": 812.34,
+    "duration": 6.28,
+    "text": "nine divided by two which is integer value four. Okay, so I can just say just cut this"
+  },
+  {
+    "start": 818.62,
+    "duration": 5.12,
+    "text": "very simple mathematics. So this is my middle element. Now I'm just going to check as it"
+  },
+  {
+    "start": 823.74,
+    "duration": 3.8,
+    "text": "mentions over here, find the middle element check whether the target element is greater"
+  },
+  {
+    "start": 827.54,
+    "duration": 3.72,
+    "text": "than middle element smaller than middle element or equal to middle element. So it's"
+  },
+  {
+    "start": 831.26,
+    "duration": 4.16,
+    "text": "going to say hey, the 36 is actually greater than middle element. Okay, that means"
+  },
+  {
+    "start": 835.42,
+    "duration": 6.8,
+    "text": "that your array you need to search for is this array now. So you need to search for 12, 14,"
+  },
+  {
+    "start": 842.22,
+    "duration": 6.56,
+    "text": "20, 36, 48. Remember that we are not creating a new array. We are just changing the start"
+  },
+  {
+    "start": 848.78,
+    "duration": 3.56,
+    "text": "and end point. It's not like if you want to search in this size of the array, you"
+  },
+  {
+    "start": 852.34,
+    "duration": 5.4,
+    "text": "actually like, you know, create a copy of the area or whatever, but we are not doing"
+  },
+  {
+    "start": 857.74,
+    "duration": 6.8,
+    "text": "that. So now I know that end will remain as it was. Start will now come over here."
+  },
+  {
+    "start": 864.54,
+    "duration": 1.52,
+    "text": "Now what is the new middle element?"
+  },
+  {
+    "start": 866.06,
+    "duration": 7.06,
+    "text": "So new middle element is 5 plus 9 divided by 2, which is equal to 7."
+  },
+  {
+    "start": 873.12,
+    "duration": 1.16,
+    "text": "So 20."
+  },
+  {
+    "start": 874.28,
+    "duration": 3.0,
+    "text": "This is now my new middle element."
+  },
+  {
+    "start": 877.28,
+    "duration": 4.56,
+    "text": "It's again going to check, hey, is 36 less than 20 more than 20 or equal to 20?"
+  },
+  {
+    "start": 881.84,
+    "duration": 2.08,
+    "text": "It's going to be like, hey, it's more than 20."
+  },
+  {
+    "start": 883.92,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 884.92,
+    "duration": 5.81,
+    "text": "Means my answer lies over here."
+  },
+  {
+    "start": 890.73,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 891.73,
+    "duration": 5.44,
+    "text": "So now this is what I'm searching for."
+  },
+  {
+    "start": 897.17,
+    "duration": 5.52,
+    "text": "Now my search space is reduced to 36 comma 48, let me move out of it this a little"
+  },
+  {
+    "start": 902.69,
+    "duration": 6.36,
+    "text": "bit. Okay, this is what I'm searching for in now and will remain the same. And start"
+  },
+  {
+    "start": 909.05,
+    "duration": 4.32,
+    "text": "will be now what mid plus one, like the next element of mid, this will be the start. Obviously,"
+  },
+  {
+    "start": 913.37,
+    "duration": 4.24,
+    "text": "if I'm taking this thing, so this will be start, this will be start. What is the middle"
+  },
+  {
+    "start": 917.61,
+    "duration": 5.64,
+    "text": "element going to be start plus and by two, which is eight plus nine by two is equal"
+  },
+  {
+    "start": 923.25,
+    "duration": 6.48,
+    "text": "to 17 by two, which is equal to eight. So this one is going to check a is 36 greater"
+  },
+  {
+    "start": 929.73,
+    "duration": 3.84,
+    "text": "than 20 equal to 20 or less than 20, it's going to be like it's equal to 20. So if the"
+  },
+  {
+    "start": 933.57,
+    "duration": 3.64,
+    "text": "middle element, so now this is this is the middle element. So the middle element is equal"
+  },
+  {
+    "start": 937.21,
+    "duration": 7.69,
+    "text": "to target that is your answer. So answer is equal to index number eight. Similarly,"
+  },
+  {
+    "start": 944.9,
+    "duration": 8.51,
+    "text": "if let's say you are trying to search for let's say you're trying to search for 14"
+  },
+  {
+    "start": 953.41,
+    "duration": 5.2,
+    "text": "or 12, let's say you're trying to search for 12. So if you're trying to search"
+  },
+  {
+    "start": 958.61,
+    "duration": 5.96,
+    "text": "for 12, then remove this thing, let's say we start over again, let's say we're trying to"
+  },
+  {
+    "start": 964.57,
+    "duration": 11.22,
+    "text": "search for 12 now, search 12. So start zero and zero middle middle will be four, that"
+  },
+  {
+    "start": 975.79,
+    "duration": 5.2,
+    "text": "is true. And it's going to check Hey, is 11 greater than 12 equal to 12 or less than"
+  },
+  {
+    "start": 980.99,
+    "duration": 5.12,
+    "text": "12 greater than 12 equal to 12 or less than 12 is going to be like my target element,"
+  },
+  {
+    "start": 986.11,
+    "duration": 4.04,
+    "text": "which is 12 actually is greater than the middle element. So my answer will lie over"
+  },
+  {
+    "start": 990.15,
+    "duration": 12.53,
+    "text": "here, it's going to be like, okay, that is what you say, okay, 12, 14, 20, 36 and 48."
+  },
+  {
+    "start": 1002.68,
+    "duration": 3.5,
+    "text": "And we'll be this start will be what since we're taking this one. So right hand side,"
+  },
+  {
+    "start": 1006.18,
+    "duration": 3.58,
+    "text": "some middle, middle plus one, as you can also see in the diagram middle plus one will be"
+  },
+  {
+    "start": 1009.76,
+    "duration": 6.44,
+    "text": "the new start. Okay, so it's like five plus nine by two, new middle element, which"
+  },
+  {
+    "start": 1016.2,
+    "duration": 6.31,
+    "text": "is equal to seven. So 20, this is my new middle element. Now it's going to check"
+  },
+  {
+    "start": 1022.51,
+    "duration": 6.56,
+    "text": "Hey, is 12 greater than 20 less than 20 or equal to 20? It's going to be like it's less"
+  },
+  {
+    "start": 1029.07,
+    "duration": 6.56,
+    "text": "than 20. So if it's less than 20, it basically means that my answer will lie over here. Here"
+  },
+  {
+    "start": 1035.63,
+    "duration": 6.96,
+    "text": "you can see start is not changing. Okay, so here I'm saying this is 12 comma 14 start"
+  },
+  {
+    "start": 1042.59,
+    "duration": 4.8,
+    "text": "will remain the same. But since this is the one that I'm saying so this is like"
+  },
+  {
+    "start": 1047.39,
+    "duration": 4.64,
+    "text": "this is the only array space that I'm considering hence and this changed. If I imagine this"
+  },
+  {
+    "start": 1052.03,
+    "duration": 5.1,
+    "text": "as a box, you can see this is the end right and what is the end middle minus one, middle"
+  },
+  {
+    "start": 1057.13,
+    "duration": 5.52,
+    "text": "minus one, this is the new end. Now again, what is the mid going to be mid is going to"
+  },
+  {
+    "start": 1062.65,
+    "duration": 3.62,
+    "text": "be five plus six divided by two, which is equal to 11 divided by two integer value will"
+  },
+  {
+    "start": 1066.27,
+    "duration": 6.56,
+    "text": "be 10. So this is my new middle element. Hey, is 12 equal to the target element"
+  },
+  {
+    "start": 1072.83,
+    "duration": 4.28,
+    "text": "less than a target element or greater than target element is greater than target element"
+  },
+  {
+    "start": 1077.11,
+    "duration": 2.8,
+    "text": "the middle, it's going to be like, hey, middle is actually equal to target element."
+  },
+  {
+    "start": 1079.91,
+    "duration": 11.56,
+    "text": "So this is my answer index number five, that's how it goes, very simple, nothing confusing"
+  },
+  {
+    "start": 1091.47,
+    "duration": 4.8,
+    "text": "over here, find the middle element, okay, if the target element is greater than middle"
+  },
+  {
+    "start": 1096.27,
+    "duration": 3.56,
+    "text": "element, then you know that it lies somewhere over here."
+  },
+  {
+    "start": 1099.83,
+    "duration": 3.24,
+    "text": "That means that your new start is going to be middle plus one."
+  },
+  {
+    "start": 1103.07,
+    "duration": 3.68,
+    "text": "Otherwise, if it lies on the left hand side means the target element is less than the"
+  },
+  {
+    "start": 1106.75,
+    "duration": 5.08,
+    "text": "middle element in the in ascending order, for example, we will cover how to consider"
+  },
+  {
+    "start": 1111.83,
+    "duration": 4.2,
+    "text": "descending order and how to check whether you have ascending order or descending order"
+  },
+  {
+    "start": 1116.03,
+    "duration": 6.92,
+    "text": "or whatever, we will cover that this is going to be a very long video. So, basically if you"
+  },
+  {
+    "start": 1122.95,
+    "duration": 3.72,
+    "text": "it lies on the left hand side, if the item lies somewhere over here, then you can see"
+  },
+  {
+    "start": 1126.67,
+    "duration": 7.32,
+    "text": "that start will remain the same, we will just changed the end as middle minus one,"
+  },
+  {
+    "start": 1133.99,
+    "duration": 10.16,
+    "text": "that is the algorithm. And if your start becomes, so if your start becomes greater"
+  },
+  {
+    "start": 1144.15,
+    "duration": 18.31,
+    "text": "than end means element not found. It does not exist in the array. Alright, now let's"
+  },
+  {
+    "start": 1162.46,
+    "duration": 7.2,
+    "text": "consider why binary search. Another important question, why we do binary search? So simple"
+  },
+  {
+    "start": 1169.66,
+    "duration": 4.8,
+    "text": "answer is that the worst case complexity of binary search, what is the best scenario"
+  },
+  {
+    "start": 1174.46,
+    "duration": 3.76,
+    "text": "of binary search? What is the best scenario of binary search? Let's take our example"
+  },
+  {
+    "start": 1178.22,
+    "duration": 5.24,
+    "text": "only. So best scenario is when we get the answer very fast in just let's say minimum"
+  },
+  {
+    "start": 1183.46,
+    "duration": 5.28,
+    "text": "number of steps. Let's say I try to search for 11. Okay, let's say, hey, tell me if 11"
+  },
+  {
+    "start": 1188.74,
+    "duration": 3.24,
+    "text": "exists in this area or not. It's going to be like, okay, start and end, what is the"
+  },
+  {
+    "start": 1191.98,
+    "duration": 3.36,
+    "text": "middle element 11? And it's going to check, hey, is 11 equal to 11? It's going to be"
+  },
+  {
+    "start": 1195.34,
+    "duration": 4.0,
+    "text": "like, yes, it is, it's just going to return the middle value. So when the first middle"
+  },
+  {
+    "start": 1199.34,
+    "duration": 5.96,
+    "text": "value is equal to what you are searching, that is the best case of binary search"
+  },
+  {
+    "start": 1205.3,
+    "duration": 4.72,
+    "text": "does not matter if your binary search is one lakh element, 10 lakh element, hundred"
+  },
+  {
+    "start": 1210.02,
+    "duration": 7.08,
+    "text": "element 200 element, it will only take one step in the worst in the best case, right?"
+  },
+  {
+    "start": 1217.1,
+    "duration": 4.16,
+    "text": "The first middle element start plus and divide by two, that's your answer here size does"
+  },
+  {
+    "start": 1221.26,
+    "duration": 1.0,
+    "text": "not matter."
+  },
+  {
+    "start": 1222.26,
+    "duration": 5.2,
+    "text": "Hence the best case complexity is constant size does not matter."
+  },
+  {
+    "start": 1227.46,
+    "duration": 6.0,
+    "text": "And here I can say it's something like this."
+  },
+  {
+    "start": 1233.46,
+    "duration": 6.92,
+    "text": "As the size increases, the time will remain constant for best case."
+  },
+  {
+    "start": 1240.38,
+    "duration": 3.52,
+    "text": "I'm not writing big O notations over here right now, but if you already know, it's"
+  },
+  {
+    "start": 1243.9,
+    "duration": 3.44,
+    "text": "big O of one, but I'm not going to explain this right now, because we will cover this"
+  },
+  {
+    "start": 1247.34,
+    "duration": 3.44,
+    "text": "in detail when we do space and time complexity analysis."
+  },
+  {
+    "start": 1250.78,
+    "duration": 2.96,
+    "text": "Okay, so this is the best case."
+  },
+  {
+    "start": 1253.74,
+    "duration": 4.0,
+    "text": "Now let's talk about the worst case, which is the most important part, why we take worst"
+  },
+  {
+    "start": 1257.74,
+    "duration": 3.6,
+    "text": "case and whatever we do, that is something we'll cover in like when we do space and"
+  },
+  {
+    "start": 1261.34,
+    "duration": 1.0,
+    "text": "time complexity."
+  },
+  {
+    "start": 1262.34,
+    "duration": 4.16,
+    "text": "for now let's see how many comparisons it will make in the worst case we know that linear search"
+  },
+  {
+    "start": 1266.5,
+    "duration": 7.04,
+    "text": "was making n number of comparisons let's see how this will do it so the topic is why binary search"
+  },
+  {
+    "start": 1276.84,
+    "duration": 8.7,
+    "text": "so let's say our question is let's say find the maximum number of comparisons that is makes"
+  },
+  {
+    "start": 1285.54,
+    "duration": 4.48,
+    "text": "so comparison it will either make like you know it it's making one comparison at like every stage"
+  },
+  {
+    "start": 1290.02,
+    "duration": 4.32,
+    "text": "right it's saying it's either you know greater than middle element the element that we are"
+  },
+  {
+    "start": 1294.34,
+    "duration": 4.04,
+    "text": "are currently like the target element at every step which comparison is it making? You all"
+  },
+  {
+    "start": 1298.38,
+    "duration": 4.28,
+    "text": "already know it is saying whether it is whether the target element is greater than middle,"
+  },
+  {
+    "start": 1302.66,
+    "duration": 9.79,
+    "text": "smaller than middle or equal to middle. So, find the maximum number of such comparisons"
+  },
+  {
+    "start": 1312.45,
+    "duration": 15.31,
+    "text": "in the worst case. Let us see how we can do that. So, basically here one second. So,"
+  },
+  {
+    "start": 1327.76,
+    "duration": 5.84,
+    "text": "basically here the idea is that let's say I take an array like this, so this is an array,"
+  },
+  {
+    "start": 1333.6,
+    "duration": 8.72,
+    "text": "okay, let's say this is an array of size n, very important point. So I know that when"
+  },
+  {
+    "start": 1342.32,
+    "duration": 5.04,
+    "text": "I check for the middle element, I will check for the middle element, my search space"
+  },
+  {
+    "start": 1347.36,
+    "duration": 6.24,
+    "text": "will be either this or this, we already saw this, let's imagine it is this one, let's"
+  },
+  {
+    "start": 1353.6,
+    "duration": 9.43,
+    "text": "Let's imagine now my search space is reduced to n by 2 half very simple stuff imagine in"
+  },
+  {
+    "start": 1363.03,
+    "duration": 3.48,
+    "text": "the next time when you compare the middle element let's say the target element is let's"
+  },
+  {
+    "start": 1366.51,
+    "duration": 4.04,
+    "text": "say smaller than middle element so let's say my search space is now reduced to this"
+  },
+  {
+    "start": 1370.55,
+    "duration": 6.76,
+    "text": "is something like the size of n by 2 divide by 2 so it's actually very simple stuff"
+  },
+  {
+    "start": 1377.31,
+    "duration": 8.07,
+    "text": "mathematics so it's actually this is the size n by 2 right and I'm dividing this"
+  },
+  {
+    "start": 1385.38,
+    "duration": 11.22,
+    "text": "by two so n by two which is this one divide by two n by four okay now let's imagine it"
+  },
+  {
+    "start": 1396.6,
+    "duration": 15.0,
+    "text": "lies over here this will be the new size which is half of this n by eight okay so on and so"
+  },
+  {
+    "start": 1411.6,
+    "duration": 3.48,
+    "text": "forth in the end only one element will be remaining just one box will be remaining"
+  },
+  {
+    "start": 1415.08,
+    "duration": 6.5,
+    "text": "in the end this is of size equal to what one zoom out a little bit so you can see"
+  },
+  {
+    "start": 1421.58,
+    "duration": 9.41,
+    "text": "completely this is our size one okay let's see a pattern over here so you can see this"
+  },
+  {
+    "start": 1430.99,
+    "duration": 5.3,
+    "text": "is let's say level number level one okay and I am writing this as this is level number"
+  },
+  {
+    "start": 1436.29,
+    "duration": 4.42,
+    "text": "zero let's say this is level number zero this can be written in this format two raise"
+  },
+  {
+    "start": 1440.71,
+    "duration": 5.88,
+    "text": "to power zero because it's at the zero level it's not getting divided by two I know at"
+  },
+  {
+    "start": 1446.59,
+    "duration": 5.54,
+    "text": "the first level it's getting divided by two ones two raise to power one at the"
+  },
+  {
+    "start": 1452.13,
+    "duration": 6.16,
+    "text": "second level it's getting divided by two twice so n upon two raise to power two at the third level"
+  },
+  {
+    "start": 1459.09,
+    "duration": 6.64,
+    "text": "it's getting divided by the original array is getting divided by two three times and upon two"
+  },
+  {
+    "start": 1465.73,
+    "duration": 5.28,
+    "text": "raise to power three so if i'm saying this is the third level and this is two raise to power three"
+  },
+  {
+    "start": 1471.01,
+    "duration": 4.88,
+    "text": "this is a second level let me just change the color second level two raise to power two first"
+  },
+  {
+    "start": 1475.89,
+    "duration": 6.4,
+    "text": "level 2 raise to power 1, 0th level 2 raise to power 0, 3rd level 2 raise to power 3, if"
+  },
+  {
+    "start": 1482.29,
+    "duration": 11.43,
+    "text": "I imagine that this is the kth level, can I not write this as, can I not write this as,"
+  },
+  {
+    "start": 1493.72,
+    "duration": 4.76,
+    "text": "if I imagine similarly if this is the kth level, can I not write this as n upon 2 raise"
+  },
+  {
+    "start": 1498.48,
+    "duration": 8.81,
+    "text": "to power k, 3rd level number of elements n upon 2 raise to power 3, 2nd level number"
+  },
+  {
+    "start": 1507.29,
+    "duration": 4.76,
+    "text": "of elements n upon 2 raise to power 2, let's say this is the kth level, so number of"
+  },
+  {
+    "start": 1512.05,
+    "duration": 4.28,
+    "text": "of elements will be how much n upon 2 raised to power k and we know that in the last level"
+  },
+  {
+    "start": 1516.33,
+    "duration": 3.56,
+    "text": "let's say imagine the kth level we know that it's the last level we know that the number"
+  },
+  {
+    "start": 1519.89,
+    "duration": 4.0,
+    "text": "of element are 1 so this is a formula we got now that n upon 2 raised to power k is"
+  },
+  {
+    "start": 1523.89,
+    "duration": 4.76,
+    "text": "equal to 1 if you did not understand how we got n upon 2 raised to power k is equal"
+  },
+  {
+    "start": 1528.65,
+    "duration": 6.84,
+    "text": "to 1 it was the video again it's very simple n upon 2 raised to power k is equal to 1"
+  },
+  {
+    "start": 1535.49,
+    "duration": 6.28,
+    "text": "I can write it something like this n is equal to 2 raised to power k I need to"
+  },
+  {
+    "start": 1541.77,
+    "duration": 4.88,
+    "text": "find a total number of levels I need to find this value of k I can take log on both the"
+  },
+  {
+    "start": 1546.65,
+    "duration": 6.96,
+    "text": "sides log n is equal to log of 2 raised to power k this is something everyone has done"
+  },
+  {
+    "start": 1553.61,
+    "duration": 3.8,
+    "text": "in like high school so log is very basic stuff."
+  },
+  {
+    "start": 1557.41,
+    "duration": 6.84,
+    "text": "So I can say log n is equal to k log 2 this is the property of log power will come over"
+  },
+  {
+    "start": 1564.25,
+    "duration": 10.08,
+    "text": "here and log 2, I can say K is equal to log in upon log 2. Hence, I can say K is equal"
+  },
+  {
+    "start": 1574.33,
+    "duration": 10.42,
+    "text": "to log in base 2. Very simple stuff. I did nothing. I just applied log and found the"
+  },
+  {
+    "start": 1584.75,
+    "duration": 5.2,
+    "text": "value of K. What is this K? K is basically the total number of levels in the worst case"
+  },
+  {
+    "start": 1589.95,
+    "duration": 3.24,
+    "text": "because in the worst case, you will keep checking till the last element till only"
+  },
+  {
+    "start": 1593.19,
+    "duration": 3.12,
+    "text": "one element is remaining and then you will either find the element or you will"
+  },
+  {
+    "start": 1596.31,
+    "duration": 6.36,
+    "text": "not find the element. So, the total number of levels, total number of comparisons in"
+  },
+  {
+    "start": 1602.67,
+    "duration": 10.71,
+    "text": "the worst case are how much? Log of n, where n is the size of the array. Let me show you"
+  },
+  {
+    "start": 1613.38,
+    "duration": 20.32,
+    "text": "how this is very nice. So, total comparisons in worst case is equal to log n. We basically"
+  },
+  {
+    "start": 1633.7,
+    "duration": 4.88,
+    "text": "ignore the constants in space and time complexity. Why we ignore it? We will cover in detail"
+  },
+  {
+    "start": 1638.58,
+    "duration": 1.92,
+    "text": "in the space and time complexity lecture."
+  },
+  {
+    "start": 1640.5,
+    "duration": 1.76,
+    "text": "But for now, let's just say we are taking the logs."
+  },
+  {
+    "start": 1642.26,
+    "duration": 3.52,
+    "text": "So for example, if you want to search in a sorted array,"
+  },
+  {
+    "start": 1645.78,
+    "duration": 2.0,
+    "text": "why it's so good, let me show you."
+  },
+  {
+    "start": 1647.78,
+    "duration": 2.0,
+    "text": "Why space and time complexity,"
+  },
+  {
+    "start": 1649.78,
+    "duration": 2.56,
+    "text": "time complexity is good is a very important stuff."
+  },
+  {
+    "start": 1652.34,
+    "duration": 5.79,
+    "text": "So let's say you want to search in an array of one million."
+  },
+  {
+    "start": 1658.13,
+    "duration": 3.96,
+    "text": "Linear search will make how many comparisons on an average?"
+  },
+  {
+    "start": 1662.09,
+    "duration": 4.0,
+    "text": "Like in the worst case, it will make one million comparisons."
+  },
+  {
+    "start": 1666.09,
+    "duration": 4.2,
+    "text": "How much comparisons will binary search make for the same array"
+  },
+  {
+    "start": 1670.29,
+    "duration": 7.33,
+    "text": "if it sorted log two of one million."
+  },
+  {
+    "start": 1681.77,
+    "duration": 5.72,
+    "text": "Okay, this is not giving it six."
+  },
+  {
+    "start": 1687.49,
+    "duration": 2.3,
+    "text": "It's giving log one, once again,"
+  },
+  {
+    "start": 1691.53,
+    "duration": 1.28,
+    "text": "giving me six."
+  },
+  {
+    "start": 1692.81,
+    "duration": 1.08,
+    "text": "But if I take the,"
+  },
+  {
+    "start": 1693.89,
+    "duration": 0.92,
+    "text": "it's constant does not matter,"
+  },
+  {
+    "start": 1694.81,
+    "duration": 2.6,
+    "text": "but you can see if I just try to Google it as well."
+  },
+  {
+    "start": 1701.42,
+    "duration": 13.12,
+    "text": "Log base to calculators."
+  },
+  {
+    "start": 1714.54,
+    "duration": 2.08,
+    "text": "It's giving 19, almost 20."
+  },
+  {
+    "start": 1717.74,
+    "duration": 3.84,
+    "text": "20 comparisons only."
+  },
+  {
+    "start": 1721.58,
+    "duration": 10.91,
+    "text": "differences night and day differences night and day same question will be solved by linear"
+  },
+  {
+    "start": 1732.49,
+    "duration": 4.12,
+    "text": "search after making one million comparisons same question will be solved by binary search"
+  },
+  {
+    "start": 1736.61,
+    "duration": 13.06,
+    "text": "after making 20 comparisons cool that is pretty much about it and what is actually the complexity"
+  },
+  {
+    "start": 1749.67,
+    "duration": 4.14,
+    "text": "is big of log n which you might be knowing by now what is the big o notation what does"
+  },
+  {
+    "start": 1753.81,
+    "duration": 4.5,
+    "text": "it mean? How does the intuition work behind this thing? We will cover in space and time"
+  },
+  {
+    "start": 1758.31,
+    "duration": 5.72,
+    "text": "complexity analysis. Alrighty, let's try to code this. Okay, so let's try to code the"
+  },
+  {
+    "start": 1764.03,
+    "duration": 6.76,
+    "text": "binary search algorithm, created a new project over here. And let's say I rename this file"
+  },
+  {
+    "start": 1770.79,
+    "duration": 14.12,
+    "text": "to binary search, because we will making a lot of files, binary search, that looks"
+  },
+  {
+    "start": 1784.91,
+    "duration": 7.88,
+    "text": "could, all right, gonna create another function for it. So I'm just going to say that, you"
+  },
+  {
+    "start": 1792.79,
+    "duration": 16.81,
+    "text": "know, return the index. Okay, so I can say static, I'm going to turn the index into binary"
+  },
+  {
+    "start": 1809.6,
+    "duration": 8.32,
+    "text": "search, it's going to take an array, and it's going to take the target element, search"
+  },
+  {
+    "start": 1817.92,
+    "duration": 10.84,
+    "text": "for the target element. And I can just say return minus one if it does not exist. Cool."
+  },
+  {
+    "start": 1828.76,
+    "duration": 7.96,
+    "text": "So here I can just say that I can say initially my start is equal to what my start is equal"
+  },
+  {
+    "start": 1836.72,
+    "duration": 14.61,
+    "text": "to 0, my end is equal to array dot length minus 1. And I can then just say while start"
+  },
+  {
+    "start": 1851.33,
+    "duration": 11.59,
+    "text": "is less than equal to end, then I can just say that find the middle element. So I can"
+  },
+  {
+    "start": 1862.92,
+    "duration": 10.29,
+    "text": "say in middle is equal to what and middle is equal to what you can say start plus end"
+  },
+  {
+    "start": 1873.21,
+    "duration": 16.91,
+    "text": "by two, you can say start plus end divided by two. But here's a problem. The problem"
+  },
+  {
+    "start": 1890.12,
+    "duration": 6.8,
+    "text": "is that integer has a fixed size. Okay, here's the problem. This is the problem. The start"
+  },
+  {
+    "start": 1896.92,
+    "duration": 5.64,
+    "text": "plus end thing is a problem. So integer has a fixed size. Okay. And what is that"
+  },
+  {
+    "start": 1902.56,
+    "duration": 4.6,
+    "text": "size? How is it? What is the range of integer values in Java till how much value"
+  },
+  {
+    "start": 1907.16,
+    "duration": 7.68,
+    "text": "you can input an integer, we will cover that in the number theory chapter. So, the problem"
+  },
+  {
+    "start": 1914.84,
+    "duration": 5.8,
+    "text": "is that integer has a fixed size and after some amount of value, you cannot input a value"
+  },
+  {
+    "start": 1920.64,
+    "duration": 6.84,
+    "text": "in an integer. So, let us say you take a really large value for start and end and there"
+  },
+  {
+    "start": 1927.48,
+    "duration": 12.22,
+    "text": "might be a possibility that you know might be possible that the start plus end thing"
+  },
+  {
+    "start": 1939.7,
+    "duration": 9.54,
+    "text": "that we are doing exceeds the range of integer in Java, the range of int in Java, in that"
+  },
+  {
+    "start": 1949.24,
+    "duration": 4.8,
+    "text": "case you will get some error. So are you able to understand what the problem is over here?"
+  },
+  {
+    "start": 1954.04,
+    "duration": 5.16,
+    "text": "If you do start plus end for very large numbers, together when we add these two numbers it"
+  },
+  {
+    "start": 1959.2,
+    "duration": 5.64,
+    "text": "might exceed the range of integer, hence it may give you some error. In that case better"
+  },
+  {
+    "start": 1964.84,
+    "duration": 10.4,
+    "text": "way to do the same thing is int mid is equal to start plus what and minus start divide by"
+  },
+  {
+    "start": 1975.24,
+    "duration": 8.74,
+    "text": "two. This is very simple stuff. If you try to you know, work with this, you will you"
+  },
+  {
+    "start": 1983.98,
+    "duration": 4.0,
+    "text": "will see let me just show you. Okay, so let's say how we got this new formula. So"
+  },
+  {
+    "start": 1987.98,
+    "duration": 7.94,
+    "text": "previously we were doing something like mid or I can just say n. So here this is basically"
+  },
+  {
+    "start": 1995.92,
+    "duration": 11.21,
+    "text": "better way to find mid. So previously I was saying something like mid is equal to start"
+  },
+  {
+    "start": 2007.13,
+    "duration": 15.07,
+    "text": "plus end divide by two. But if these are very large values, this may exceed the int range."
+  },
+  {
+    "start": 2022.2,
+    "duration": 6.66,
+    "text": "And so you can do the same thing by something like this, I can say mid is equal to start"
+  },
+  {
+    "start": 2028.86,
+    "duration": 7.6,
+    "text": "plus and minus start divide by two the same thing. How is it the same thing? Let's see."
+  },
+  {
+    "start": 2036.46,
+    "duration": 4.76,
+    "text": "It's basically the same thing only. So if you try to you know open this it's very basic"
+  },
+  {
+    "start": 2041.22,
+    "duration": 5.8,
+    "text": "mathematics so I can say it's actually start plus and minus start divide by two two comes"
+  },
+  {
+    "start": 2047.02,
+    "duration": 10.93,
+    "text": "over here two s plus e minus s divide by two. So this is equal to this this cancel"
+  },
+  {
+    "start": 2057.95,
+    "duration": 7.76,
+    "text": "out start plus and divide by two same thing just better way here no in no particular case"
+  },
+  {
+    "start": 2065.71,
+    "duration": 8.37,
+    "text": "it will be like you know exceeding the integer value while making the calculations okay cool"
+  },
+  {
+    "start": 2074.08,
+    "duration": 5.54,
+    "text": "stuff all right okay so that is the reason we're taking mid like this now what do we"
+  },
+  {
+    "start": 2079.62,
+    "duration": 6.7,
+    "text": "need to do we just need to check you know whether you know if mid is equal to equal"
+  },
+  {
+    "start": 2086.32,
+    "duration": 5.28,
+    "text": "to or less than or greater than you can check this in any in any order because only one of"
+  },
+  {
+    "start": 2091.6,
+    "duration": 3.8,
+    "text": "these three conditions is going to be true. So you can check it in any order. I can say"
+  },
+  {
+    "start": 2095.4,
+    "duration": 10.34,
+    "text": "something like if my target element is actually less than my the element at my middle. So"
+  },
+  {
+    "start": 2105.74,
+    "duration": 6.76,
+    "text": "ARR of mid in that case, what are we going to do? We are going to say that okay target"
+  },
+  {
+    "start": 2112.5,
+    "duration": 4.84,
+    "text": "element is less than the middle element means it lies on the left hand side and"
+  },
+  {
+    "start": 2117.34,
+    "duration": 4.2,
+    "text": "In the left hand side, we saw that start will not change, but end will change to mid minus"
+  },
+  {
+    "start": 2121.54,
+    "duration": 1.0,
+    "text": "1."
+  },
+  {
+    "start": 2122.54,
+    "duration": 8.52,
+    "text": "So, end is equal to mid minus 1, otherwise if my target element is greater than the middle"
+  },
+  {
+    "start": 2131.06,
+    "duration": 4.2,
+    "text": "element, in that case, what do we need to do?"
+  },
+  {
+    "start": 2135.26,
+    "duration": 1.96,
+    "text": "Target element is greater than the middle element."
+  },
+  {
+    "start": 2137.22,
+    "duration": 3.68,
+    "text": "So, means it will exist in the right hand side of the array of the middle element"
+  },
+  {
+    "start": 2140.9,
+    "duration": 4.84,
+    "text": "means start will now be middle plus 1, we already saw that end will not change."
+  },
+  {
+    "start": 2145.74,
+    "duration": 6.61,
+    "text": "Otherwise, if it's actually like if the target is equal to middle element, then you just"
+  },
+  {
+    "start": 2152.35,
+    "duration": 6.18,
+    "text": "return mid, I have found my answer."
+  },
+  {
+    "start": 2158.53,
+    "duration": 4.36,
+    "text": "If none of if this never can if this condition never hits means the function will never be"
+  },
+  {
+    "start": 2162.89,
+    "duration": 1.0,
+    "text": "like over."
+  },
+  {
+    "start": 2163.89,
+    "duration": 4.52,
+    "text": "Okay, sorry, what am I saying if this condition never hits, it means that the function will"
+  },
+  {
+    "start": 2168.41,
+    "duration": 3.48,
+    "text": "be over and you would never have found the target element."
+  },
+  {
+    "start": 2171.89,
+    "duration": 5.52,
+    "text": "Okay, basically, it will not return this value right now if this never hits, obviously"
+  },
+  {
+    "start": 2177.41,
+    "duration": 3.36,
+    "text": "it will not return the value means no value will be returned in this while loop"
+  },
+  {
+    "start": 2180.77,
+    "duration": 5.5,
+    "text": "means the element does not exist in the array. In that case, just return minus one, you do"
+  },
+  {
+    "start": 2186.27,
+    "duration": 6.96,
+    "text": "realize that only this or this will be executed. If return made is executed function over,"
+  },
+  {
+    "start": 2193.23,
+    "duration": 4.48,
+    "text": "you know, we already covered this in functions. If nothing is executed, this statement the"
+  },
+  {
+    "start": 2197.71,
+    "duration": 6.08,
+    "text": "line number 29 will only be executed when nothing has returned. So now for now, so"
+  },
+  {
+    "start": 2203.79,
+    "duration": 3.8,
+    "text": "if nothing has returned in the while loop, it means that the element does not exist."
+  },
+  {
+    "start": 2207.59,
+    "duration": 8.82,
+    "text": "we are just returning minus one. Let's try to code this. I can just create a new array"
+  },
+  {
+    "start": 2216.41,
+    "duration": 7.12,
+    "text": "like like this only directly sorted array. Okay, remember sorted array 23415161822."
+  },
+  {
+    "start": 2223.53,
+    "duration": 8.72,
+    "text": "Let's add some negative numbers here as well minus 18 minus 12 minus four. Let's add zero"
+  },
+  {
+    "start": 2232.25,
+    "duration": 6.72,
+    "text": "as well. Okay, any any number you can add just has to be sorted. Then I can say"
+  },
+  {
+    "start": 2238.97,
+    "duration": 10.76,
+    "text": "int answer is equal to binary search, I can say passing the array. And then I'm passing"
+  },
+  {
+    "start": 2249.73,
+    "duration": 7.02,
+    "text": "my target element have to find the target element as well here, let's say I'm searching"
+  },
+  {
+    "start": 2256.75,
+    "duration": 16.21,
+    "text": "for 22. Okay, so let's see 012345678910, it should give me 10, I print the answer"
+  },
+  {
+    "start": 2272.96,
+    "duration": 16.31,
+    "text": "in the answer it should give me 10 moment of truth 10 giving us 10 right if I search"
+  },
+  {
+    "start": 2289.27,
+    "duration": 12.93,
+    "text": "for 18 it should give me index number 9 ok from searching for minus 18 it will give me"
+  },
+  {
+    "start": 2302.2,
+    "duration": 10.26,
+    "text": "index number 0 ok if I search for something that does not exist it will give me minus one"
+  },
+  {
+    "start": 2312.46,
+    "duration": 7.54,
+    "text": "like hey this element does not exist minus one ok let's try to see how this is working"
+  },
+  {
+    "start": 2320.0,
+    "duration": 5.56,
+    "text": "So let's say I try to search for 22 only and say we put a debug pointer over here, let's"
+  },
+  {
+    "start": 2325.56,
+    "duration": 6.28,
+    "text": "try to debug step by step, we will see how this is working side this thing."
+  },
+  {
+    "start": 2331.84,
+    "duration": 7.0,
+    "text": "Okay, so here we are, and let's go inside initially start is zero and this 12 is zero"
+  },
+  {
+    "start": 2338.84,
+    "duration": 1.0,
+    "text": "less than 12."
+  },
+  {
+    "start": 2339.84,
+    "duration": 2.64,
+    "text": "It's going to be like, yes, it is find the middle element."
+  },
+  {
+    "start": 2342.48,
+    "duration": 2.52,
+    "text": "Middle element is index number six."
+  },
+  {
+    "start": 2345.0,
+    "duration": 1.44,
+    "text": "What is the index number six?"
+  },
+  {
+    "start": 2346.44,
+    "duration": 2.36,
+    "text": "What is the middle element?"
+  },
+  {
+    "start": 2348.8,
+    "duration": 7.4,
+    "text": "element index number six zero one two three four five six is actually four. So it's going"
+  },
+  {
+    "start": 2356.2,
+    "duration": 6.16,
+    "text": "to say hey is the target element 22 greater than four or less than four or equal to four."
+  },
+  {
+    "start": 2362.36,
+    "duration": 7.63,
+    "text": "Let's see it's actually going to go over here greater than greater than four. There"
+  },
+  {
+    "start": 2369.99,
+    "duration": 5.72,
+    "text": "we go. So now start will be increased to mid plus one start will now be equal to seven"
+  },
+  {
+    "start": 2375.71,
+    "duration": 6.68,
+    "text": "means this is my new area 15 16 18 plus 3 more. So this is my new area now that it will"
+  },
+  {
+    "start": 2382.39,
+    "duration": 5.8,
+    "text": "be searching in start is now equal to 7. It will now be searching over here. Okay, let's"
+  },
+  {
+    "start": 2388.19,
+    "duration": 5.88,
+    "text": "see while loop again is 7 less than 12. Yes, it is less than equal to 12 new middle element"
+  },
+  {
+    "start": 2394.07,
+    "duration": 7.16,
+    "text": "7 plus 12 divided by 2 means 9. So now it's looking at index number 9. What is index"
+  },
+  {
+    "start": 2401.23,
+    "duration": 5.92,
+    "text": "number nine index number nine is zero one two three four five six seven eight nine. This"
+  },
+  {
+    "start": 2407.15,
+    "duration": 3.2,
+    "text": "is the index number nine. So it's going to check is 22 greater than this or less than"
+  },
+  {
+    "start": 2410.35,
+    "duration": 4.34,
+    "text": "this going to be like it's greater than this. Hence, it will be saying the new start is"
+  },
+  {
+    "start": 2414.69,
+    "duration": 6.91,
+    "text": "equal to nine plus one 10 middle plus one. Again, this precondition will hit is 10 less"
+  },
+  {
+    "start": 2421.6,
+    "duration": 4.92,
+    "text": "than equal to 12. Yes, it is. Now start is 10 and 12 start is 10 and 12 whatever"
+  },
+  {
+    "start": 2426.52,
+    "duration": 4.52,
+    "text": "now it's going to check again for the middle element. Middle is 11. It's going to be"
+  },
+  {
+    "start": 2431.04,
+    "duration": 8.96,
+    "text": "like hey is 11 which is I think 45 0 1 2 3 4 5 6 7 8 9 10 11 45 greater than 22 less"
+  },
+  {
+    "start": 2440.0,
+    "duration": 5.6,
+    "text": "than 22 or equal to 22 is greater than 22 and is going to be middle minus 1 now let's"
+  },
+  {
+    "start": 2445.6,
+    "duration": 5.8,
+    "text": "see this condition will hit now and is equal to middle minus 1 so and will be equal to"
+  },
+  {
+    "start": 2451.4,
+    "duration": 6.72,
+    "text": "11 now sorry 10 now start is 10 and is also 10 so only that this is the worst case"
+  },
+  {
+    "start": 2458.12,
+    "duration": 3.36,
+    "text": "worst case we were talking about in the tree that in the end only one condition will be"
+  },
+  {
+    "start": 2461.48,
+    "duration": 8.08,
+    "text": "there. Okay. So over here this is now do or die means either your it will exist or not"
+  },
+  {
+    "start": 2469.56,
+    "duration": 4.4,
+    "text": "exist middle element if there is just one element it will be 10 only. So it's going"
+  },
+  {
+    "start": 2473.96,
+    "duration": 5.04,
+    "text": "to hit this condition now find like it's going to say return mid because the answer"
+  },
+  {
+    "start": 2479.0,
+    "duration": 4.84,
+    "text": "has been found return mid 10 will be returned. And since you know it will be returned"
+  },
+  {
+    "start": 2483.84,
+    "duration": 9.41,
+    "text": "over here answers value will be 10 it will print 10 that's it as simple as that cool"
+  },
+  {
+    "start": 2493.25,
+    "duration": 4.4,
+    "text": "debugging is great and we are going to utilize debugging a lot when we do you all also should"
+  },
+  {
+    "start": 2497.65,
+    "duration": 5.67,
+    "text": "do debugging when you're learning and doing questions see how things are working internally"
+  },
+  {
+    "start": 2503.32,
+    "duration": 7.52,
+    "text": "already that was great and next thing we're going to look into is order agnostic binary"
+  },
+  {
+    "start": 2510.84,
+    "duration": 6.36,
+    "text": "So basically, here we assumed that we know that array is sorted in ascending order."
+  },
+  {
+    "start": 2517.2,
+    "duration": 1.64,
+    "text": "What if you don't know?"
+  },
+  {
+    "start": 2518.84,
+    "duration": 3.6,
+    "text": "What if you don't know that array is sorted in ascending order or descending order?"
+  },
+  {
+    "start": 2522.44,
+    "duration": 1.92,
+    "text": "How do we apply binary search over there?"
+  },
+  {
+    "start": 2524.36,
+    "duration": 3.2,
+    "text": "Because we can definitely apply binary search in descending order as well."
+  },
+  {
+    "start": 2527.56,
+    "duration": 1.5,
+    "text": "How are we going to do that?"
+  },
+  {
+    "start": 2529.06,
+    "duration": 1.0,
+    "text": "Let's check it out."
+  },
+  {
+    "start": 2530.06,
+    "duration": 4.98,
+    "text": "Okay, so let's look into order agnostic binary search, what it is and how we do"
+  },
+  {
+    "start": 2535.04,
+    "duration": 2.48,
+    "text": "it and everything."
+  },
+  {
+    "start": 2537.52,
+    "duration": 4.64,
+    "text": "So basically in binary search, we know that we work with sorted arrays."
+  },
+  {
+    "start": 2542.16,
+    "duration": 3.84,
+    "text": "But let's say you don't know whether the array is sorted in ascending order or descending"
+  },
+  {
+    "start": 2546.0,
+    "duration": 1.0,
+    "text": "order."
+  },
+  {
+    "start": 2547.0,
+    "duration": 2.0,
+    "text": "How will you apply binary search then?"
+  },
+  {
+    "start": 2549.0,
+    "duration": 1.4,
+    "text": "So let's take an example of this."
+  },
+  {
+    "start": 2550.4,
+    "duration": 14.4,
+    "text": "So let's say I say order agnostic binary search, order agnostic binary search."
+  },
+  {
+    "start": 2564.8,
+    "duration": 5.12,
+    "text": "Before we do this, let's try to see how we will modify our code for descending order"
+  },
+  {
+    "start": 2569.92,
+    "duration": 4.28,
+    "text": "of sorted array. Okay, forget about this right now, imagine you are given a descending"
+  },
+  {
+    "start": 2574.2,
+    "duration": 5.28,
+    "text": "order of the array, and or an array sorted in descending order like large to small, what"
+  },
+  {
+    "start": 2579.48,
+    "duration": 5.2,
+    "text": "changes would we want to make in our code base for that? Let's try to figure that out."
+  },
+  {
+    "start": 2584.68,
+    "duration": 14.48,
+    "text": "So the array is given something like this. If there is given like 907518126431. Okay,"
+  },
+  {
+    "start": 2599.16,
+    "duration": 9.32,
+    "text": "is the start element, this is the end element, this is like 0, 1, 2, 3, 4, 5, 6, 7th index,"
+  },
+  {
+    "start": 2608.48,
+    "duration": 3.34,
+    "text": "what is the middle element going to be?"
+  },
+  {
+    "start": 2611.82,
+    "duration": 7.18,
+    "text": "Middle element is 7 plus 0 divided by 2 around 3, so it will be 3, this is the middle element."
+  },
+  {
+    "start": 2619.0,
+    "duration": 8.87,
+    "text": "Let's say you are searching for, let's say you are searching for the target which"
+  },
+  {
+    "start": 2627.87,
+    "duration": 8.52,
+    "text": "is equal to let us say you are searching for 75. So, here I know that this is sorted in"
+  },
+  {
+    "start": 2636.39,
+    "duration": 9.48,
+    "text": "descending order. So, if my target element is greater than the middle element, where"
+  },
+  {
+    "start": 2645.87,
+    "duration": 8.01,
+    "text": "is my search space going to lie? So, I know that target element is greater than middle"
+  },
+  {
+    "start": 2653.88,
+    "duration": 4.68,
+    "text": "element and I know that since this is sorted in descending order, all the elements after"
+  },
+  {
+    "start": 2658.56,
+    "duration": 3.92,
+    "text": "this are going to be smaller than the middle element. And I want something that is greater"
+  },
+  {
+    "start": 2662.48,
+    "duration": 5.88,
+    "text": "than the middle element. So in why why in why would I ever want to check in the space"
+  },
+  {
+    "start": 2668.36,
+    "duration": 4.84,
+    "text": "which is smaller than the middle element. I would want to check over here right. So"
+  },
+  {
+    "start": 2673.2,
+    "duration": 6.16,
+    "text": "in this case I can just say check in the left hand side. And basically it will lie"
+  },
+  {
+    "start": 2679.36,
+    "duration": 4.28,
+    "text": "in the left hand side and we all know for left hand side and will be only updated"
+  },
+  {
+    "start": 2683.64,
+    "duration": 9.08,
+    "text": "end is equal to middle minus one. Similarly, if target is less than middle, that means"
+  },
+  {
+    "start": 2692.72,
+    "duration": 3.62,
+    "text": "I will search in the right hand side because I only want something that is greater than"
+  },
+  {
+    "start": 2696.34,
+    "duration": 3.32,
+    "text": "middle element and all the things on the left hand side are already larger than the middle"
+  },
+  {
+    "start": 2699.66,
+    "duration": 3.24,
+    "text": "element. I want something that is less than middle element which lies on the right"
+  },
+  {
+    "start": 2702.9,
+    "duration": 7.44,
+    "text": "hand side start will be and mid plus one. That is it. That is the only change we"
+  },
+  {
+    "start": 2710.34,
+    "duration": 10.33,
+    "text": "we are making. That is the only change we are making. Now, the question is how to find in"
+  },
+  {
+    "start": 2720.67,
+    "duration": 5.98,
+    "text": "which order the array is sorted, ascending order or descending order. So, let's say you"
+  },
+  {
+    "start": 2726.65,
+    "duration": 18.12,
+    "text": "are given an array like this 1, 3, 5, 6, 9, 12, 14, 20, 33. By looking at it like you"
+  },
+  {
+    "start": 2744.77,
+    "duration": 6.21,
+    "text": "tell me, how do we know if it's sorted in ascending order or descending order?"
+  },
+  {
+    "start": 2750.98,
+    "duration": 6.4,
+    "text": "So by looking at it, we can say, okay, so basically the idea is now we know how to search"
+  },
+  {
+    "start": 2757.38,
+    "duration": 3.96,
+    "text": "in ascending and descending order, both we know that now."
+  },
+  {
+    "start": 2761.34,
+    "duration": 4.12,
+    "text": "So order agnostic binary search now says you're given a sorted array, but you don't"
+  },
+  {
+    "start": 2765.46,
+    "duration": 3.8,
+    "text": "know whether it's sorted in ascending order or descending order."
+  },
+  {
+    "start": 2769.26,
+    "duration": 3.96,
+    "text": "So once we are able to figure that out, we can apply any one of the techniques"
+  },
+  {
+    "start": 2773.22,
+    "duration": 7.22,
+    "text": "that we have mentioned either ascending or descending, we can apply that, right? So basically"
+  },
+  {
+    "start": 2780.44,
+    "duration": 5.82,
+    "text": "how do we do this? If you look at it, it's not very difficult. So the idea is that you"
+  },
+  {
+    "start": 2786.26,
+    "duration": 4.68,
+    "text": "are given an array like this, every single element, you know, if it's a if it's sorted"
+  },
+  {
+    "start": 2790.94,
+    "duration": 3.56,
+    "text": "array, then every single element, it's going to be greater than the previous element"
+  },
+  {
+    "start": 2794.5,
+    "duration": 3.96,
+    "text": "or equal to the previous element. Okay, you may you may even have something like"
+  },
+  {
+    "start": 2798.46,
+    "duration": 6.04,
+    "text": "this. This is also ascending order sorted. Okay, so you can take any two elements and"
+  },
+  {
+    "start": 2804.5,
+    "duration": 6.52,
+    "text": "compare, take any two elements and compare. If the second element is greater than the"
+  },
+  {
+    "start": 2811.02,
+    "duration": 4.8,
+    "text": "first element, I know that this is sorted. It's given in the question. But if the second"
+  },
+  {
+    "start": 2815.82,
+    "duration": 4.16,
+    "text": "element take any two elements, let's say I take these two elements, first one and"
+  },
+  {
+    "start": 2819.98,
+    "duration": 3.16,
+    "text": "second one. If the second element is greater than first element, I know that this is"
+  },
+  {
+    "start": 2823.14,
+    "duration": 5.28,
+    "text": "ascending order sorted. But here's the problem. What if the area was something"
+  },
+  {
+    "start": 2828.42,
+    "duration": 7.79,
+    "text": "like this. In this case if you are taking the first two elements to make the check, you"
+  },
+  {
+    "start": 2836.21,
+    "duration": 6.38,
+    "text": "will not be able to figure it out because these are equal. What is the best scenario"
+  },
+  {
+    "start": 2842.59,
+    "duration": 7.92,
+    "text": "in which you can, what are the best two numbers that you can check first and last?"
+  },
+  {
+    "start": 2850.51,
+    "duration": 4.04,
+    "text": "Pretty self-explanatory but still I will try to elaborate on this. Because it does"
+  },
+  {
+    "start": 2854.55,
+    "duration": 7.16,
+    "text": "not matter if it is like 3, 3, 3, 3, 3, 3 like this, how would you check? But here"
+  },
+  {
+    "start": 2861.71,
+    "duration": 4.4,
+    "text": "I know that if this is also equal to 3, I know that all the elements will be"
+  },
+  {
+    "start": 2866.11,
+    "duration": 4.76,
+    "text": "equal to three. It will be then just like one array in just one single one single number"
+  },
+  {
+    "start": 2870.87,
+    "duration": 4.6,
+    "text": "containing all the array. Okay, so this is the best possible way to check it. I'm going"
+  },
+  {
+    "start": 2875.47,
+    "duration": 5.32,
+    "text": "to check if start is greater number at start is greater than number than f. I know that"
+  },
+  {
+    "start": 2880.79,
+    "duration": 10.51,
+    "text": "it is increasing order sorted. Else I know it's decreasing order sorted. Very simple"
+  },
+  {
+    "start": 2891.3,
+    "duration": 3.44,
+    "text": "stuff. I hope you are able to understand why I'm taking first and start and not like"
+  },
+  {
+    "start": 2894.74,
+    "duration": 25.07,
+    "text": "the first two numbers because here's the problem, right? It's a problem, problem. Okay. So that"
+  },
+  {
+    "start": 2919.81,
+    "duration": 3.72,
+    "text": "is what we're going to do. First step is in order agnostic binary search, you are given"
+  },
+  {
+    "start": 2923.53,
+    "duration": 2.52,
+    "text": "an array, you know, it's sorted, you don't know whether it's sorted in ascending or"
+  },
+  {
+    "start": 2926.05,
+    "duration": 4.48,
+    "text": "descending, try to figure out whether it is sorted in ascending or descending. Once"
+  },
+  {
+    "start": 2930.53,
+    "duration": 5.44,
+    "text": "you do that, then apply the two algorithms of binary search that we just learned in"
+  },
+  {
+    "start": 2935.97,
+    "duration": 5.04,
+    "text": "increasing or decreasing. Let's try to code this. Okay, so let's try to code this"
+  },
+  {
+    "start": 2941.01,
+    "duration": 7.32,
+    "text": "thing I'm going to create a new class. I'm going to say order agnostic binary search."
+  },
+  {
+    "start": 2948.33,
+    "duration": 7.17,
+    "text": "No, that warning that you see is basically saying do you want to add the new files in"
+  },
+  {
+    "start": 2955.5,
+    "duration": 6.52,
+    "text": "get automatically and I'm like, no, I'll do it on my own. Okay, so here basically we"
+  },
+  {
+    "start": 2962.02,
+    "duration": 8.12,
+    "text": "can say that what do we need to do? We need to create let's say static, I'm going"
+  },
+  {
+    "start": 2970.14,
+    "duration": 8.72,
+    "text": "to return the index value. And I'm going to say order agnostic binary search. Let me just"
+  },
+  {
+    "start": 2978.86,
+    "duration": 8.12,
+    "text": "write it down. Agnostic binary search. And it's going to take what it's going to take"
+  },
+  {
+    "start": 2986.98,
+    "duration": 8.36,
+    "text": "an integer array. It's going to take a target. Okay. My start is going to I'm just going"
+  },
+  {
+    "start": 2995.34,
+    "duration": 7.92,
+    "text": "to say start is 0, end is equal to array dot length minus 1, nothing new till now and I"
+  },
+  {
+    "start": 3003.26,
+    "duration": 6.93,
+    "text": "am just going to copy, let me just copy this thing, copy this entire thing. This is just"
+  },
+  {
+    "start": 3010.19,
+    "duration": 10.0,
+    "text": "simple binary search over here right now. So, what do we do? We can basically say"
+  },
+  {
+    "start": 3020.19,
+    "duration": 12.52,
+    "text": "say something like find whether you know the array is sorted in ascending or descending."
+  },
+  {
+    "start": 3032.71,
+    "duration": 8.7,
+    "text": "So, I can take a Boolean value in this is ascending initially what is this ascending"
+  },
+  {
+    "start": 3041.41,
+    "duration": 5.92,
+    "text": "is basically going to be equal to is basically I can say something like this I can elaborate"
+  },
+  {
+    "start": 3047.33,
+    "duration": 11.6,
+    "text": "on this if you want, so basically I can say Boolean is ascending, then I can say if array"
+  },
+  {
+    "start": 3058.93,
+    "duration": 7.44,
+    "text": "of start is actually less than array of end, I know that my array is ascending order, so"
+  },
+  {
+    "start": 3066.37,
+    "duration": 6.08,
+    "text": "I can say is ascending is equal to true, otherwise I can say is ascending is equal"
+  },
+  {
+    "start": 3072.45,
+    "duration": 8.63,
+    "text": "to false. Okay, since this is an expression, I can directly add this expression over here"
+  },
+  {
+    "start": 3081.08,
+    "duration": 12.7,
+    "text": "as well. The same thing. Okay, cool. So I think that makes sense. Now I know whether"
+  },
+  {
+    "start": 3093.78,
+    "duration": 4.88,
+    "text": "my array is ascending or not. What do I need to do now? I'm basically just going to say"
+  },
+  {
+    "start": 3098.66,
+    "duration": 4.48,
+    "text": "while my start is less than n, I will take my middle element. And maybe I can just"
+  },
+  {
+    "start": 3103.14,
+    "duration": 4.24,
+    "text": "write a check over here. I can say if because this is condition that is same for"
+  },
+  {
+    "start": 3107.38,
+    "duration": 5.96,
+    "text": "both. Okay, so if the middle element like the both ascending and descending is basically"
+  },
+  {
+    "start": 3113.34,
+    "duration": 4.4,
+    "text": "this condition is same for them, right? So we have three conditions target element equal"
+  },
+  {
+    "start": 3117.74,
+    "duration": 4.88,
+    "text": "to middle element. This is same for if he's ascending or descending, then we have then"
+  },
+  {
+    "start": 3122.62,
+    "duration": 2.92,
+    "text": "we have these two conditions which are actually different. So the common one I'm taking"
+  },
+  {
+    "start": 3125.54,
+    "duration": 4.0,
+    "text": "it out. That is what I'm doing. So if the middle element is equal to target element,"
+  },
+  {
+    "start": 3129.54,
+    "duration": 7.08,
+    "text": "just return the middle element. Okay, otherwise, what am I going to do? This is the thing"
+  },
+  {
+    "start": 3136.62,
+    "duration": 11.44,
+    "text": "that I want to do for ascending order. So I can say if it is ascending order do this"
+  },
+  {
+    "start": 3148.06,
+    "duration": 13.71,
+    "text": "otherwise do this that's it. You can also add such just else over here you don't need"
+  },
+  {
+    "start": 3161.77,
+    "duration": 11.69,
+    "text": "to add another check just add else over here. Very cool stuff that is it I just did copy"
+  },
+  {
+    "start": 3173.46,
+    "duration": 6.68,
+    "text": "paste and that's it. Let's try to figure it out. Let's try to run this array is equal"
+  },
+  {
+    "start": 3180.14,
+    "duration": 5.08,
+    "text": "to make some array. I'm just going to copy the old one. I'm not going to write it from"
+  },
+  {
+    "start": 3185.22,
+    "duration": 10.86,
+    "text": "scratch. Good developers copy great developers paste. Kelsey high tower. I saw, saw his"
+  },
+  {
+    "start": 3196.08,
+    "duration": 12.86,
+    "text": "to it very nice to it okay answer in answer is equal to order agnostic binary search array"
+  },
+  {
+    "start": 3208.94,
+    "duration": 8.64,
+    "text": "and target in the answer so here it will first figure out whether it's ascending or descending"
+  },
+  {
+    "start": 3217.58,
+    "duration": 4.2,
+    "text": "if it's ascending it will apply the ascending one if it's descending it will apply the"
+  },
+  {
+    "start": 3221.78,
+    "duration": 7.64,
+    "text": "descending one that is it all all I changed was this thing this is the only sign I changed"
+  },
+  {
+    "start": 3229.42,
+    "duration": 5.32,
+    "text": "that's it. Rest everything is same. 22, it should give me like this index number, whatever"
+  },
+  {
+    "start": 3234.74,
+    "duration": 11.09,
+    "text": "this is, the previous example, I think it was 10 or something, yeah, 10. Okay, if you have"
+  },
+  {
+    "start": 3245.83,
+    "duration": 7.8,
+    "text": "a descending order array, this will work for that as well. So I can say 99, 80, 75,"
+  },
+  {
+    "start": 3253.63,
+    "duration": 14.73,
+    "text": "2, 11, 10, 5, 2, minus 3, I'm searching for 22, 0, 1, 2, 3, it should give me 3, 3, that"
+  },
+  {
+    "start": 3268.36,
+    "duration": 5.02,
+    "text": "was order agnostic binary search time complexity is same, because in any case, either this"
+  },
+  {
+    "start": 3273.38,
+    "duration": 4.64,
+    "text": "will run or this will run both will not run that is why we have if else condition time"
+  },
+  {
+    "start": 3278.02,
+    "duration": 4.08,
+    "text": "complexity is same, that was about order agnostic binary search."
+  },
+  {
+    "start": 3282.1,
+    "duration": 5.02,
+    "text": "Now this was like the basic of it and now we're going to do a lot of nice questions."
+  },
+  {
+    "start": 3287.12,
+    "duration": 3.94,
+    "text": "So in the DSA bootcamp, the complete interview preparation bootcamp that we have ongoing right"
+  },
+  {
+    "start": 3291.06,
+    "duration": 6.12,
+    "text": "now, if you're the new one watching, we are going to do questions individually."
+  },
+  {
+    "start": 3297.18,
+    "duration": 3.92,
+    "text": "So basically what we are going to do is one video will be on the theory part, the topic"
+  },
+  {
+    "start": 3301.1,
+    "duration": 5.0,
+    "text": "part, the code part, and the second video will then be on the entire entirely focused"
+  },
+  {
+    "start": 3306.1,
+    "duration": 1.76,
+    "text": "on just the questions part."
+  },
+  {
+    "start": 3307.86,
+    "duration": 2.4,
+    "text": "For example, in the future, you want to revise the algorithm, you can watch the"
+  },
+  {
+    "start": 3310.26,
+    "duration": 4.88,
+    "text": "algorithm video and if you want to revise the questions video, you can watch the questions"
+  },
+  {
+    "start": 3315.14,
+    "duration": 4.32,
+    "text": "video. So the next video is going to be on the questions. So this is part one of binary"
+  },
+  {
+    "start": 3319.46,
+    "duration": 6.08,
+    "text": "search. And in the next next video, we will be doing, we will have a separate video on"
+  },
+  {
+    "start": 3325.54,
+    "duration": 4.32,
+    "text": "just questions related to binary search. Okay. And not just binary search for every"
+  },
+  {
+    "start": 3329.86,
+    "duration": 3.2,
+    "text": "algorithm, this is the approach we will be following. Because in the future, it"
+  },
+  {
+    "start": 3333.06,
+    "duration": 3.08,
+    "text": "will help you quite a lot. If you want to do theory, you can do what's the"
+  },
+  {
+    "start": 3336.14,
+    "duration": 3.6,
+    "text": "theory part. If you want to do good questions, interview level questions, you can do you can"
+  },
+  {
+    "start": 3339.74,
+    "duration": 5.08,
+    "text": "watch the questions part for every problem we will be doing this. Other than that, many"
+  },
+  {
+    "start": 3344.82,
+    "duration": 4.76,
+    "text": "people have been sending questions on discord like, Hey, I was not able to solve five questions"
+  },
+  {
+    "start": 3349.58,
+    "duration": 4.24,
+    "text": "in the area assignment. That's fine, you are a beginner. And I deliberately put some,"
+  },
+  {
+    "start": 3353.82,
+    "duration": 3.36,
+    "text": "you know, intermediate questions over there as well to get your thinking and to get"
+  },
+  {
+    "start": 3357.18,
+    "duration": 4.64,
+    "text": "you, you know, get your Google skills up and collaborate with other people. Even"
+  },
+  {
+    "start": 3361.82,
+    "duration": 3.68,
+    "text": "if you're able to solve like 10 questions of the assignment, 15 questions of the"
+  },
+  {
+    "start": 3365.5,
+    "duration": 3.66,
+    "text": "assignment, let's say, which many people are doing already. So that's you should be"
+  },
+  {
+    "start": 3369.16,
+    "duration": 4.78,
+    "text": "very proud of yourself. As we progress towards the course, the previous lectures"
+  },
+  {
+    "start": 3373.94,
+    "duration": 3.36,
+    "text": "will start looking very easy. So the array questions that you're not able to"
+  },
+  {
+    "start": 3377.3,
+    "duration": 3.56,
+    "text": "solve right now, by the time we are doing dynamic programming, these questions"
+  },
+  {
+    "start": 3380.86,
+    "duration": 5.8,
+    "text": "will be like, like this. So in the next video, please stay tuned. This is part"
+  },
+  {
+    "start": 3386.66,
+    "duration": 4.52,
+    "text": "one. And the next video is focused on only on the questions part. So we'll"
+  },
+  {
+    "start": 3391.18,
+    "duration": 3.28,
+    "text": "be doing important questions like, you know, rotated bind research will be"
+  },
+  {
+    "start": 3394.46,
+    "duration": 5.36,
+    "text": "doing like ceiling numbers of like the greatest common what is what am I saying ceiling of a"
+  },
+  {
+    "start": 3399.82,
+    "duration": 5.64,
+    "text": "number floor of a number we'll be doing some ranges duplicate numbers we will be looking"
+  },
+  {
+    "start": 3405.46,
+    "duration": 5.44,
+    "text": "at searching in an infinite array we'll be doing like a pivot we'll finding the highest"
+  },
+  {
+    "start": 3410.9,
+    "duration": 4.6,
+    "text": "element in like the pivot so we'll talk about privates pivot stuff we'll talk about the"
+  },
+  {
+    "start": 3415.5,
+    "duration": 5.0,
+    "text": "rotation count and all these amazing problems talk about some other you know competitive"
+  },
+  {
+    "start": 3420.5,
+    "duration": 3.88,
+    "text": "coding platform questions like sporge and code forces and stuff. They also have some"
+  },
+  {
+    "start": 3424.38,
+    "duration": 6.08,
+    "text": "nice algorithms on binary search will be doing a Google interview question. For example, everything"
+  },
+  {
+    "start": 3430.46,
+    "duration": 4.18,
+    "text": "every single question I have made you a promise that we will cover lead code till hard and"
+  },
+  {
+    "start": 3434.64,
+    "duration": 3.66,
+    "text": "a lot of questions we will cover to get you up and running so that you can definitely"
+  },
+  {
+    "start": 3438.3,
+    "duration": 4.4,
+    "text": "solve the assignments, most of the assignments, you will be that 70% or 80% of the assignment"
+  },
+  {
+    "start": 3442.7,
+    "duration": 4.56,
+    "text": "as the time progresses as you are practicing, you will be able to solve more and more"
+  },
+  {
+    "start": 3447.26,
+    "duration": 4.12,
+    "text": "Stay tuned, I will upload the next video soon, which is going to be heavily focused on such"
+  },
+  {
+    "start": 3451.38,
+    "duration": 3.34,
+    "text": "amazing questions that I just mentioned and not the easy ones, but just like starting"
+  },
+  {
+    "start": 3454.72,
+    "duration": 3.98,
+    "text": "from easy, then lead code medium, then lead code hard, then interview level questions"
+  },
+  {
+    "start": 3458.7,
+    "duration": 2.36,
+    "text": "that were actually asked in Google interview and stuff."
+  },
+  {
+    "start": 3461.06,
+    "duration": 3.32,
+    "text": "Alrighty, make sure you like, share and subscribe if you're new to the channel and if you"
+  },
+  {
+    "start": 3464.38,
+    "duration": 4.44,
+    "text": "want to take a look at the entire DSA bootcamp playlist, the interview preparation one,"
+  },
+  {
+    "start": 3468.82,
+    "duration": 2.8,
+    "text": "check out the link in the description, there's an entire playlist and the assignment"
+  },
+  {
+    "start": 3471.62,
+    "duration": 4.4,
+    "text": "link and the syllabus link and everything is in the GitHub link in the description."
+  },
+  {
+    "start": 3476.02,
+    "duration": 4.28,
+    "text": "make sure you check it out and I will see you shortly. I will upload the assignment for"
+  },
+  {
+    "start": 3480.3,
+    "duration": 3.76,
+    "text": "binary search as well. Please practice binary search a lot. Please watch the next video"
+  },
+  {
+    "start": 3484.06,
+    "duration": 4.8,
+    "text": "of binary search which is on questions and I will see you in the next video."
+  }
+]

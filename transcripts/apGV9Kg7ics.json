@@ -1,0 +1,4282 @@
+[
+  {
+    "start": 4.34,
+    "duration": 29.0,
+    "text": "Hey everyone, welcome back to the channel. And in this video, we're going to be looking into the complete, you know, Github tutorial. So if you don't know what Github is, what Github is, do not worry. In this session, we're going to cover it from scratch and also everything you need to know basically in order to get started. And even some of the most, like, not so beginner concepts. So, yeah, let's get started. So what is Github? And what is Github? Imagine that you have an application or a project folder, right? And you want to collaborate with other people."
+  },
+  {
+    "start": 33.34,
+    "duration": 5.4,
+    "text": "collaborate with other people on that project or imagine that you have your application"
+  },
+  {
+    "start": 38.74,
+    "duration": 6.16,
+    "text": "and you now uploaded some new code in your application, you added a new feature for example"
+  },
+  {
+    "start": 44.9,
+    "duration": 4.44,
+    "text": "and now your application breaks. Let's say your application is not running anymore like"
+  },
+  {
+    "start": 49.34,
+    "duration": 4.76,
+    "text": "it was before and you're like, hey, I would really love it if I could do if I could"
+  },
+  {
+    "start": 54.1,
+    "duration": 4.36,
+    "text": "go back in the past, you know, in that code base in which my application was running,"
+  },
+  {
+    "start": 58.46,
+    "duration": 4.88,
+    "text": "I wish there was some sort of a way to, you know, click a picture of that code base and"
+  },
+  {
+    "start": 63.34,
+    "duration": 4.92,
+    "text": "whenever I want the picture like that exact code base as it was during that time in the"
+  },
+  {
+    "start": 68.26,
+    "duration": 1.84,
+    "text": "past, I could have that."
+  },
+  {
+    "start": 70.1,
+    "duration": 5.0,
+    "text": "So basically saving the history of your project, like on, let's say, 1st July, your project"
+  },
+  {
+    "start": 75.1,
+    "duration": 4.24,
+    "text": "looked like this, 2nd July, your project looked like this, 3rd July, your project"
+  },
+  {
+    "start": 79.34,
+    "duration": 3.56,
+    "text": "looked like this, like some additional files, code changes or whatever."
+  },
+  {
+    "start": 82.9,
+    "duration": 3.68,
+    "text": "You want to go back to how your project looked on 1st July, you can do that."
+  },
+  {
+    "start": 86.58,
+    "duration": 5.2,
+    "text": "to go back to how your project looked on 2nd July, you can do that. That's a use case that you can"
+  },
+  {
+    "start": 92.5,
+    "duration": 6.0,
+    "text": "think of. Another one can be you are contributing to open source for example or you and your friends"
+  },
+  {
+    "start": 98.5,
+    "duration": 7.12,
+    "text": "are contributing to one project. Now imagine that 100 people are contributing to just one folder"
+  },
+  {
+    "start": 105.62,
+    "duration": 4.0,
+    "text": "that is what happens in like open source projects as well. There's one main folder"
+  },
+  {
+    "start": 109.62,
+    "duration": 3.68,
+    "text": "and so many people are from around the world contribute to that project. Now you might"
+  },
+  {
+    "start": 113.3,
+    "duration": 5.2,
+    "text": "might be wondering how do these people share their code? If you want to share a code in"
+  },
+  {
+    "start": 118.5,
+    "duration": 5.08,
+    "text": "some, you know, open source project, you want to add your own functionality or share some"
+  },
+  {
+    "start": 123.58,
+    "duration": 4.92,
+    "text": "changes you made, how can you do that? We can do that via Git and GitHub. So Git and"
+  },
+  {
+    "start": 128.5,
+    "duration": 4.04,
+    "text": "GitHub allows us to maintain this history of the project at what particular point"
+  },
+  {
+    "start": 132.54,
+    "duration": 6.48,
+    "text": "of time, which person made which change where in the project. Git helps us in doing"
+  },
+  {
+    "start": 139.02,
+    "duration": 5.64,
+    "text": "that, what is GitHub? GitHub is a platform, an online website that allows us to host"
+  },
+  {
+    "start": 144.66,
+    "duration": 5.56,
+    "text": "our Git repositories. Now you might be wondering, what is a repository? We'll look more into"
+  },
+  {
+    "start": 150.22,
+    "duration": 4.76,
+    "text": "that shortly. Repository is basically just a folder where all the changes are saved."
+  },
+  {
+    "start": 154.98,
+    "duration": 4.44,
+    "text": "Do not worry if you don't know about it. We'll cover it in detail shortly. You can"
+  },
+  {
+    "start": 159.42,
+    "duration": 4.48,
+    "text": "think of it as somewhat like this. So you have the email service, right? So you use"
+  },
+  {
+    "start": 163.9,
+    "duration": 5.16,
+    "text": "email and you have the email technology behind it and you know there's like the"
+  },
+  {
+    "start": 169.06,
+    "duration": 3.72,
+    "text": "server and everything happening in behind the back end so that you can relate to"
+  },
+  {
+    "start": 172.78,
+    "duration": 4.2,
+    "text": "with Git. Now what are so many platforms that are providing you sort of like an"
+  },
+  {
+    "start": 176.98,
+    "duration": 5.6,
+    "text": "interface to use the service to send emails to people around the world to"
+  },
+  {
+    "start": 182.58,
+    "duration": 4.0,
+    "text": "have like the nice you know GUI where you can see all your emails and"
+  },
+  {
+    "start": 186.58,
+    "duration": 6.2,
+    "text": "everything. Gmail, Outlook, Yahoo Mail so and so on and so forth that you"
+  },
+  {
+    "start": 192.78,
+    "duration": 4.42,
+    "text": "can relate with GitHub or other platforms that allow you to do the same thing, like"
+  },
+  {
+    "start": 197.2,
+    "duration": 6.86,
+    "text": "Bitbucket, GitLab, for example. So Git is like the version control system like the tech"
+  },
+  {
+    "start": 204.06,
+    "duration": 5.52,
+    "text": "and there are so many other online platforms that allow us to host these folders or repositories"
+  },
+  {
+    "start": 209.58,
+    "duration": 6.56,
+    "text": "or our projects online so that other people from around the world can share, look, contribute"
+  },
+  {
+    "start": 216.14,
+    "duration": 4.76,
+    "text": "and these are known as like GitHub, Bitbucket and GitLab. We will be using GitHub because"
+  },
+  {
+    "start": 220.9,
+    "duration": 5.1,
+    "text": "is one of the most popular ones and yeah it has a lot of nice cool features."
+  },
+  {
+    "start": 226.0,
+    "duration": 4.62,
+    "text": "So that's the whole idea of why we are using Git and GitHub. Do not worry if you don't"
+  },
+  {
+    "start": 230.62,
+    "duration": 4.48,
+    "text": "understand how we are using it because that is going to be covered. Just for now understand"
+  },
+  {
+    "start": 235.1,
+    "duration": 4.12,
+    "text": "why we are using it. Maintaining the history of the project, which person made which"
+  },
+  {
+    "start": 239.22,
+    "duration": 5.4,
+    "text": "change in which project when and so on and so forth like also sharing your code"
+  },
+  {
+    "start": 244.62,
+    "duration": 6.36,
+    "text": "on GitHub, sharing it with people around the world. So if I look into any project"
+  },
+  {
+    "start": 250.98,
+    "duration": 11.36,
+    "text": "on github.com. Okay, let me look into any, let's say, Gina AI or whatever, I can see 5900."
+  },
+  {
+    "start": 262.34,
+    "duration": 3.44,
+    "text": "So you can see, don't worry about what these things represent, we'll cover into it later"
+  },
+  {
+    "start": 265.78,
+    "duration": 3.88,
+    "text": "on. These are based, this is basically the history of the project that I was talking"
+  },
+  {
+    "start": 269.66,
+    "duration": 8.88,
+    "text": "about history of the project, as you can see. So basically, this person made these"
+  },
+  {
+    "start": 278.54,
+    "duration": 4.44,
+    "text": "changes in the code base, red means that this line was deleted, green means that"
+  },
+  {
+    "start": 282.98,
+    "duration": 8.32,
+    "text": "this line was added. So this person nine days ago made these changes in this file. So you"
+  },
+  {
+    "start": 291.3,
+    "duration": 5.16,
+    "text": "can see the history of the project and this goes on and on. You can even see the older"
+  },
+  {
+    "start": 296.46,
+    "duration": 8.04,
+    "text": "history on 16th July. These changes were made by someone on 12th July. These changes"
+  },
+  {
+    "start": 304.5,
+    "duration": 5.28,
+    "text": "were made by a lot of people. So that's basically the idea and that is what we're"
+  },
+  {
+    "start": 309.78,
+    "duration": 6.48,
+    "text": "trying to achieve here. Now let's look into how we do it. Cool. So first thing you need"
+  },
+  {
+    "start": 316.26,
+    "duration": 6.84,
+    "text": "is you need to download git. So you can go to git scm.com and here you can download it."
+  },
+  {
+    "start": 323.1,
+    "duration": 5.4,
+    "text": "So you can download either for macOS for Windows or Linux. I would not recommend downloading"
+  },
+  {
+    "start": 328.5,
+    "duration": 4.64,
+    "text": "the GUI clients because we will be heavily focusing on the command line like this terminal"
+  },
+  {
+    "start": 333.14,
+    "duration": 4.72,
+    "text": "thing. So do not worry about the GUI. I would recommend you to download it the"
+  },
+  {
+    "start": 337.86,
+    "duration": 7.92,
+    "text": "command line okay so you can download this and it's pretty easy to set up and yeah once you are set up"
+  },
+  {
+    "start": 345.78,
+    "duration": 5.52,
+    "text": "you can just write git over here and you can see if you get a list like this it means that git is"
+  },
+  {
+    "start": 351.3,
+    "duration": 7.68,
+    "text": "currently installed okay before we get started with the tutorial now the hands-on part so what"
+  },
+  {
+    "start": 358.98,
+    "duration": 4.8,
+    "text": "is this structure over here on the left hand side you can see my terminal normal command line"
+  },
+  {
+    "start": 363.78,
+    "duration": 3.64,
+    "text": "shell, you can use cmd, windows terminal, whatever, whatever you like."
+  },
+  {
+    "start": 367.42,
+    "duration": 1.92,
+    "text": "On the right hand side, we have a folder."
+  },
+  {
+    "start": 369.34,
+    "duration": 3.76,
+    "text": "Okay, so my terminal is currently in my desktop folder."
+  },
+  {
+    "start": 373.1,
+    "duration": 2.32,
+    "text": "And this is just very basic commands."
+  },
+  {
+    "start": 375.42,
+    "duration": 5.16,
+    "text": "And what basically terminal allows us to do if you're a very, you know, you don't know"
+  },
+  {
+    "start": 380.58,
+    "duration": 1.24,
+    "text": "much about it."
+  },
+  {
+    "start": 381.82,
+    "duration": 5.08,
+    "text": "It allows us to manipulate the file structure using commands."
+  },
+  {
+    "start": 386.9,
+    "duration": 2.88,
+    "text": "Okay, that's basically what it's trying to do."
+  },
+  {
+    "start": 389.78,
+    "duration": 3.16,
+    "text": "So here you can see this is the desktop folder currently it's empty."
+  },
+  {
+    "start": 392.94,
+    "duration": 4.24,
+    "text": "And here if I do list command, basically list all the things that are in my desktop folder"
+  },
+  {
+    "start": 397.18,
+    "duration": 4.08,
+    "text": "empty, this does not show me anything."
+  },
+  {
+    "start": 401.26,
+    "duration": 4.04,
+    "text": "Imagine let's say I want a project, we mentioned that we need a project in order to maintain"
+  },
+  {
+    "start": 405.3,
+    "duration": 4.6,
+    "text": "the history of that project and do all sorts of things with it that we just mentioned,"
+  },
+  {
+    "start": 409.9,
+    "duration": 4.64,
+    "text": "share about it on GitHub, you know, share it with other people, let other people contribute"
+  },
+  {
+    "start": 414.54,
+    "duration": 4.16,
+    "text": "to it as well, you want to do that, then how do we do that project so you can"
+  },
+  {
+    "start": 418.7,
+    "duration": 5.04,
+    "text": "either you know click right click new folder or there's a command for that M K D I R make"
+  },
+  {
+    "start": 423.74,
+    "duration": 6.6,
+    "text": "directory project. So you can see I made some change over here using a command and it was"
+  },
+  {
+    "start": 430.34,
+    "duration": 5.58,
+    "text": "visible in my folder project folder is being created. Currently it's empty. I can change"
+  },
+  {
+    "start": 435.92,
+    "duration": 3.98,
+    "text": "directory into it. Now what do you mean by change directory Kunal change directory"
+  },
+  {
+    "start": 439.9,
+    "duration": 3.68,
+    "text": "means something like this double clicking on it. Now I'm inside this folder. How"
+  },
+  {
+    "start": 443.58,
+    "duration": 4.24,
+    "text": "do I double click in the command line and go inside the folder? If I do list"
+  },
+  {
+    "start": 447.82,
+    "duration": 2.32,
+    "text": "You can see desktop should contain project."
+  },
+  {
+    "start": 450.14,
+    "duration": 2.8,
+    "text": "That is true because desktop contains the project folder"
+  },
+  {
+    "start": 452.94,
+    "duration": 1.52,
+    "text": "and here also I'm seeing it."
+  },
+  {
+    "start": 454.46,
+    "duration": 1.4,
+    "text": "This is the list command."
+  },
+  {
+    "start": 455.86,
+    "duration": 1.76,
+    "text": "I can also go inside this folder,"
+  },
+  {
+    "start": 457.62,
+    "duration": 2.48,
+    "text": "change directory project."
+  },
+  {
+    "start": 460.1,
+    "duration": 1.88,
+    "text": "Now I am inside the project folder."
+  },
+  {
+    "start": 461.98,
+    "duration": 1.6,
+    "text": "This is the view round."
+  },
+  {
+    "start": 463.58,
+    "duration": 2.88,
+    "text": "If I do list again, I can't see anything"
+  },
+  {
+    "start": 466.46,
+    "duration": 1.76,
+    "text": "because this is empty."
+  },
+  {
+    "start": 468.22,
+    "duration": 1.4,
+    "text": "So now we have our project."
+  },
+  {
+    "start": 469.62,
+    "duration": 3.16,
+    "text": "Let's say now we want to maintain the history"
+  },
+  {
+    "start": 472.78,
+    "duration": 1.92,
+    "text": "of this project using it."
+  },
+  {
+    "start": 474.7,
+    "duration": 2.4,
+    "text": "Where is this entire history being stored?"
+  },
+  {
+    "start": 477.1,
+    "duration": 2.16,
+    "text": "I create a new file that will be in the history."
+  },
+  {
+    "start": 479.26,
+    "duration": 2.56,
+    "text": "I make some changes in the file that will be in the history."
+  },
+  {
+    "start": 481.82,
+    "duration": 2.76,
+    "text": "I delete the file that will be in the history."
+  },
+  {
+    "start": 484.58,
+    "duration": 5.84,
+    "text": "So all of these histories are basically stored in another folder that git provides us."
+  },
+  {
+    "start": 490.42,
+    "duration": 5.88,
+    "text": "This is known as a git repository and it's named dot git that is the name of the folder"
+  },
+  {
+    "start": 496.3,
+    "duration": 3.8,
+    "text": "dot in like Linux systems and like macOS and stuff."
+  },
+  {
+    "start": 500.1,
+    "duration": 1.84,
+    "text": "These are files that are hidden."
+  },
+  {
+    "start": 501.94,
+    "duration": 1.76,
+    "text": "And how do we get this dot git folder?"
+  },
+  {
+    "start": 503.7,
+    "duration": 4.4,
+    "text": "Now how do we get this folder where all the history is being saved?"
+  },
+  {
+    "start": 508.1,
+    "duration": 5.2,
+    "text": "Just write the command git init initialize an empty git repository."
+  },
+  {
+    "start": 513.3,
+    "duration": 3.08,
+    "text": "Repository means a folder."
+  },
+  {
+    "start": 516.38,
+    "duration": 3.76,
+    "text": "So you can see it says initialized empty git repository in my project folder."
+  },
+  {
+    "start": 520.14,
+    "duration": 3.2,
+    "text": "Now you might be asking, hey Kunal, I can't see anything over here."
+  },
+  {
+    "start": 523.34,
+    "duration": 3.6,
+    "text": "How are you so sure that there's a git folder over here?"
+  },
+  {
+    "start": 526.94,
+    "duration": 2.92,
+    "text": "As I mentioned before, you can do list."
+  },
+  {
+    "start": 529.86,
+    "duration": 2.12,
+    "text": "You will not be able to see it right now."
+  },
+  {
+    "start": 531.98,
+    "duration": 1.92,
+    "text": "It shows empty, but it is there."
+  },
+  {
+    "start": 533.9,
+    "duration": 5.04,
+    "text": "You can do an a tag a basically means show me all the hidden files."
+  },
+  {
+    "start": 538.94,
+    "duration": 3.96,
+    "text": "Any file that starts with a dot is hidden in Mac version Linux."
+  },
+  {
+    "start": 542.9,
+    "duration": 3.28,
+    "text": "So you can see dot it is here."
+  },
+  {
+    "start": 546.18,
+    "duration": 2.64,
+    "text": "You can also see what is inside this dot grid folder."
+  },
+  {
+    "start": 548.82,
+    "duration": 2.4,
+    "text": "I can say a list list."
+  },
+  {
+    "start": 551.22,
+    "duration": 2.52,
+    "text": "What is inside the dot grid folder?"
+  },
+  {
+    "start": 553.74,
+    "duration": 5.4,
+    "text": "It contains something called head, something called objects, something called hooks, refs,"
+  },
+  {
+    "start": 559.14,
+    "duration": 2.32,
+    "text": "config, description, whatever."
+  },
+  {
+    "start": 561.46,
+    "duration": 3.96,
+    "text": "Don't worry about what these things represent right now, we'll be going through it shortly."
+  },
+  {
+    "start": 565.42,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 566.42,
+    "duration": 3.32,
+    "text": "And don't worry about what this master is or whatever."
+  },
+  {
+    "start": 569.74,
+    "duration": 3.04,
+    "text": "So this is what we have, we have a Git folder over here."
+  },
+  {
+    "start": 572.78,
+    "duration": 3.52,
+    "text": "Now we will be able to maintain the history of the project."
+  },
+  {
+    "start": 576.3,
+    "duration": 3.48,
+    "text": "Any change made in this project now, Git will pick it up."
+  },
+  {
+    "start": 579.78,
+    "duration": 3.4,
+    "text": "Git will be like, hey Kunal, you have made a change in this project."
+  },
+  {
+    "start": 583.18,
+    "duration": 2.88,
+    "text": "Please make sure you click a photo of it so that other people are aware that"
+  },
+  {
+    "start": 586.06,
+    "duration": 1.64,
+    "text": "you made this change."
+  },
+  {
+    "start": 587.7,
+    "duration": 1.76,
+    "text": "Let's make a change."
+  },
+  {
+    "start": 589.46,
+    "duration": 4.92,
+    "text": "say currently let's say I create a new file to create a new file another Linux"
+  },
+  {
+    "start": 594.38,
+    "duration": 6.72,
+    "text": "command is called touch I can create touch names.txt so names.txt file is"
+  },
+  {
+    "start": 601.1,
+    "duration": 7.2,
+    "text": "being created over here as you can see as there been a change in my project does"
+  },
+  {
+    "start": 608.3,
+    "duration": 5.52,
+    "text": "anyone in the world know that Kunal created a names.txt file is this"
+  },
+  {
+    "start": 613.82,
+    "duration": 4.2,
+    "text": "history maintained in the Git repository right now is this history"
+  },
+  {
+    "start": 618.02,
+    "duration": 7.28,
+    "text": "maintained anywhere? No. How do we see what all files have been changed or modified or"
+  },
+  {
+    "start": 625.3,
+    "duration": 6.4,
+    "text": "added or deleted? In short, how do we know what changes have been made in the project"
+  },
+  {
+    "start": 631.7,
+    "duration": 4.48,
+    "text": "that are not currently saved in the history of that project? Like no one knows those changes"
+  },
+  {
+    "start": 636.18,
+    "duration": 7.6,
+    "text": "are being made. A command for that is called get status. Get status basically says, hey,"
+  },
+  {
+    "start": 643.78,
+    "duration": 1.0,
+    "text": "You have these two files."
+  },
+  {
+    "start": 644.78,
+    "duration": 2.36,
+    "text": "This is some extra, you know, macOS file."
+  },
+  {
+    "start": 647.14,
+    "duration": 1.0,
+    "text": "Don't worry about it."
+  },
+  {
+    "start": 648.14,
+    "duration": 5.73,
+    "text": "I can remove it."
+  },
+  {
+    "start": 653.87,
+    "duration": 4.6,
+    "text": "So here it's saying, hey Kunal, there's a names.txt file someone has added and it is"
+  },
+  {
+    "start": 658.47,
+    "duration": 1.88,
+    "text": "currently untracked."
+  },
+  {
+    "start": 660.35,
+    "duration": 4.0,
+    "text": "Means if you share this project with someone like, you know, we have some project shared"
+  },
+  {
+    "start": 664.35,
+    "duration": 1.0,
+    "text": "over here."
+  },
+  {
+    "start": 665.35,
+    "duration": 1.0,
+    "text": "This is a Gina project."
+  },
+  {
+    "start": 666.35,
+    "duration": 3.52,
+    "text": "So here you can see all the changes being made, let's say some file removed"
+  },
+  {
+    "start": 669.87,
+    "duration": 3.76,
+    "text": "or added or, you know, whatever, all of these are maintained over here."
+  },
+  {
+    "start": 673.63,
+    "duration": 3.72,
+    "text": "People know what things were added, like add tests for termination, add get to"
+  },
+  {
+    "start": 677.35,
+    "duration": 5.28,
+    "text": "Docker image or whatever. Currently, if I share this git repository on my GitHub or this project"
+  },
+  {
+    "start": 682.63,
+    "duration": 6.08,
+    "text": "folder on my GitHub, no one knows that names.txt file is added here by Kunal on 1st August."
+  },
+  {
+    "start": 689.75,
+    "duration": 6.24,
+    "text": "No one knows that. Okay. So that is basically what we want to do. So this is"
+  },
+  {
+    "start": 695.99,
+    "duration": 4.08,
+    "text": "the git status command that tells us that, hey, these are all the changes that are"
+  },
+  {
+    "start": 700.07,
+    "duration": 4.24,
+    "text": "currently not in the history of your project. No one knows about it. Okay."
+  },
+  {
+    "start": 704.31,
+    "duration": 2.76,
+    "text": "Now, we want to maintain these changes."
+  },
+  {
+    "start": 707.07,
+    "duration": 3.6,
+    "text": "We actually want these changes to be in our project's history."
+  },
+  {
+    "start": 710.67,
+    "duration": 4.84,
+    "text": "People should know that Kunal created a commit that created a new file or changed a new file"
+  },
+  {
+    "start": 715.51,
+    "duration": 1.6,
+    "text": "or deleted a file."
+  },
+  {
+    "start": 717.11,
+    "duration": 2.1,
+    "text": "How do we do that?"
+  },
+  {
+    "start": 719.21,
+    "duration": 2.42,
+    "text": "We can do that very easily."
+  },
+  {
+    "start": 721.63,
+    "duration": 2.16,
+    "text": "Imagine that you are at a wedding."
+  },
+  {
+    "start": 723.79,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 724.79,
+    "duration": 3.12,
+    "text": "Now, when you are at a wedding, let's compare this example to a wedding example."
+  },
+  {
+    "start": 727.91,
+    "duration": 9.06,
+    "text": "Now when you are at a wedding, the couple they are on the stage and people take their"
+  },
+  {
+    "start": 736.97,
+    "duration": 3.92,
+    "text": "photographs like all the guests to take their photographs with the couple."
+  },
+  {
+    "start": 740.89,
+    "duration": 2.8,
+    "text": "So how does that entire scenario play out?"
+  },
+  {
+    "start": 743.69,
+    "duration": 3.96,
+    "text": "The guests they will go on to the stage that's the number one step."
+  },
+  {
+    "start": 747.65,
+    "duration": 5.76,
+    "text": "The photographer will then take the picture of the people or let's give it a bit more"
+  },
+  {
+    "start": 753.41,
+    "duration": 1.0,
+    "text": "detail."
+  },
+  {
+    "start": 754.41,
+    "duration": 5.72,
+    "text": "The couple's first step is going to be the couples whose photograph has not been taken,"
+  },
+  {
+    "start": 760.13,
+    "duration": 4.76,
+    "text": "they will go on the stage, okay, then the photographer will click their picture and then"
+  },
+  {
+    "start": 764.89,
+    "duration": 6.5,
+    "text": "they will exit the stage and now their picture will be saved in the history of that wedding"
+  },
+  {
+    "start": 771.39,
+    "duration": 2.0,
+    "text": "in a photo album."
+  },
+  {
+    "start": 773.39,
+    "duration": 6.1,
+    "text": "This scenario makes sense, couples who, sorry, guests whose photo has not been taken,"
+  },
+  {
+    "start": 779.49,
+    "duration": 3.64,
+    "text": "they will go on to the stage, photographer will click the picture, they will come"
+  },
+  {
+    "start": 783.13,
+    "duration": 4.88,
+    "text": "out of the stage and their photo will be permanently saved in the history of the wedding in a photo"
+  },
+  {
+    "start": 788.01,
+    "duration": 1.0,
+    "text": "album."
+  },
+  {
+    "start": 789.01,
+    "duration": 2.36,
+    "text": "In the scenario, how does Git relate?"
+  },
+  {
+    "start": 791.37,
+    "duration": 7.75,
+    "text": "The guests whose photo has not been taken yet, they are known as this thing, untracked"
+  },
+  {
+    "start": 799.12,
+    "duration": 1.0,
+    "text": "files."
+  },
+  {
+    "start": 800.12,
+    "duration": 3.44,
+    "text": "What is the next step?"
+  },
+  {
+    "start": 803.56,
+    "duration": 4.84,
+    "text": "We need to take a photo of these files so that we can save it in our Git repository"
+  },
+  {
+    "start": 808.4,
+    "duration": 5.48,
+    "text": "or the Git history which is known as the photo album in this example."
+  },
+  {
+    "start": 813.88,
+    "duration": 5.68,
+    "text": "step that is remaining is placing all these files whose photo has not been taken yet means"
+  },
+  {
+    "start": 819.56,
+    "duration": 6.16,
+    "text": "whose history is not being saved in the project yet on to the stage. How do we do that? There's"
+  },
+  {
+    "start": 825.72,
+    "duration": 4.64,
+    "text": "a command for that called get add. You can either do dot dot means everything in the"
+  },
+  {
+    "start": 830.36,
+    "duration": 5.44,
+    "text": "current directory, everything in the current project directory that is currently not having"
+  },
+  {
+    "start": 835.8,
+    "duration": 4.24,
+    "text": "its history or that is untracked means all the red red files that you saw previously"
+  },
+  {
+    "start": 840.04,
+    "duration": 6.56,
+    "text": "put all these files in the staging area on the stage basically so that a photo of them can be taken"
+  },
+  {
+    "start": 846.6,
+    "duration": 6.08,
+    "text": "you can also write individual names of the file let's say you have a few files that you changed"
+  },
+  {
+    "start": 852.68,
+    "duration": 4.48,
+    "text": "but you only want to maintain the history of a few files not all the files you can also"
+  },
+  {
+    "start": 857.16,
+    "duration": 6.08,
+    "text": "individually add the names now if I do get status again you can see it's now changed to green"
+  },
+  {
+    "start": 863.24,
+    "duration": 4.4,
+    "text": "it means that these people whose photo has not been taken or some changes have been made"
+  },
+  {
+    "start": 867.64,
+    "duration": 4.72,
+    "text": "Let's say they got some new outfit or whatever and they want to take take get their picture"
+  },
+  {
+    "start": 872.36,
+    "duration": 1.0,
+    "text": "clicked again."
+  },
+  {
+    "start": 873.36,
+    "duration": 1.28,
+    "text": "Sometimes that happens."
+  },
+  {
+    "start": 874.64,
+    "duration": 5.2,
+    "text": "So in that case, these people are now on the stage and we can now click their picture."
+  },
+  {
+    "start": 879.84,
+    "duration": 2.96,
+    "text": "So now we'll be like a photographer, please click their pictures or they are permanently"
+  },
+  {
+    "start": 882.8,
+    "duration": 6.24,
+    "text": "saved in the photo album or the get history like this, like this."
+  },
+  {
+    "start": 889.04,
+    "duration": 1.0,
+    "text": "How do we do that?"
+  },
+  {
+    "start": 890.04,
+    "duration": 7.2,
+    "text": "There's another command for that get commit dash m dash m basically means message"
+  },
+  {
+    "start": 897.24,
+    "duration": 3.76,
+    "text": "provide a message message I can provide is something like anything you like I can"
+  },
+  {
+    "start": 901.0,
+    "duration": 6.24,
+    "text": "say names dot txt file added now don't worry about all these things what is"
+  },
+  {
+    "start": 907.24,
+    "duration": 3.36,
+    "text": "master what is this thing what is this thing you're currently this is very"
+  },
+  {
+    "start": 910.6,
+    "duration": 5.84,
+    "text": "simple one file changed zero insertions of lines of code zero deletions of lines"
+  },
+  {
+    "start": 916.44,
+    "duration": 3.52,
+    "text": "of code that is true I did not make any insertions of code all I did was"
+  },
+  {
+    "start": 919.96,
+    "duration": 6.48,
+    "text": "create a file that is true okay so now if I do get status again now it's"
+  },
+  {
+    "start": 926.44,
+    "duration": 6.16,
+    "text": "going to say, hey, are there any more people whose photograph has not been clicked yet?"
+  },
+  {
+    "start": 932.6,
+    "duration": 2.08,
+    "text": "You tell me, tell it to yourself."
+  },
+  {
+    "start": 934.68,
+    "duration": 5.51,
+    "text": "If you said, no, then you are right."
+  },
+  {
+    "start": 940.19,
+    "duration": 2.52,
+    "text": "Nothing to commit working three clean."
+  },
+  {
+    "start": 942.71,
+    "duration": 4.84,
+    "text": "Since I took the last photograph, was there any other change made in this project folder?"
+  },
+  {
+    "start": 947.55,
+    "duration": 2.16,
+    "text": "No, there wasn't."
+  },
+  {
+    "start": 949.71,
+    "duration": 4.2,
+    "text": "That is why it's saying no, no other new person is there whose photo needs to be"
+  },
+  {
+    "start": 953.91,
+    "duration": 1.0,
+    "text": "clicked."
+  },
+  {
+    "start": 954.91,
+    "duration": 2.8,
+    "text": "I hope that makes sense."
+  },
+  {
+    "start": 957.71,
+    "duration": 3.96,
+    "text": "Now another question you may have is, so these are the basic commands get in it initializes"
+  },
+  {
+    "start": 961.67,
+    "duration": 5.88,
+    "text": "the repository, get add, get status and get commit as simple as it gets."
+  },
+  {
+    "start": 967.55,
+    "duration": 4.92,
+    "text": "Now you might be wondering, hey, let's make some other change, let's say I add something"
+  },
+  {
+    "start": 972.47,
+    "duration": 1.0,
+    "text": "in this file."
+  },
+  {
+    "start": 973.47,
+    "duration": 2.4,
+    "text": "So I'll go in my Vim."
+  },
+  {
+    "start": 975.87,
+    "duration": 8.84,
+    "text": "I'll add punal kushfaha and I'll add Rahul Rana and I'll add let's say community"
+  },
+  {
+    "start": 984.71,
+    "duration": 2.04,
+    "text": "classroom or whatever."
+  },
+  {
+    "start": 986.75,
+    "duration": 5.84,
+    "text": "I have made changes in this file you can also double click it and see by double click it"
+  },
+  {
+    "start": 992.59,
+    "duration": 6.08,
+    "text": "I can see Rahul Rana Kunal Kushwa Community Classroom is in this file so you can see here"
+  },
+  {
+    "start": 998.67,
+    "duration": 8.86,
+    "text": "it is available there is also another command for this there is the cat names.txt it basically"
+  },
+  {
+    "start": 1007.53,
+    "duration": 7.5,
+    "text": "displays whatever things are available in the names.txt file three lines are available"
+  },
+  {
+    "start": 1015.03,
+    "duration": 3.12,
+    "text": "since I took the last picture or made the last commit,"
+  },
+  {
+    "start": 1018.15,
+    "duration": 3.0,
+    "text": "have there been any changes in this folder structure?"
+  },
+  {
+    "start": 1021.15,
+    "duration": 3.44,
+    "text": "Yes, names.txt file has been modified."
+  },
+  {
+    "start": 1024.59,
+    "duration": 1.04,
+    "text": "How do I know that?"
+  },
+  {
+    "start": 1026.71,
+    "duration": 0.96,
+    "text": "Get status."
+  },
+  {
+    "start": 1027.67,
+    "duration": 6.73,
+    "text": "So you can say, you modified names.txt, cool."
+  },
+  {
+    "start": 1034.7,
+    "duration": 1.6,
+    "text": "Again, let's take a picture of this."
+  },
+  {
+    "start": 1036.3,
+    "duration": 2.04,
+    "text": "Let's get all these people who have been modified"
+  },
+  {
+    "start": 1038.34,
+    "duration": 3.16,
+    "text": "on the stage, get add dot, get status."
+  },
+  {
+    "start": 1041.5,
+    "duration": 2.92,
+    "text": "It basically says, hey, this person is now on the stage."
+  },
+  {
+    "start": 1044.42,
+    "duration": 1.46,
+    "text": "You can click their picture."
+  },
+  {
+    "start": 1045.88,
+    "duration": 3.76,
+    "text": "If you want to remove them from stage without, you know, committing it."
+  },
+  {
+    "start": 1049.64,
+    "duration": 3.28,
+    "text": "So let's say you commit, you, you, you got them on the stage by mistake and you're"
+  },
+  {
+    "start": 1052.92,
+    "duration": 1.56,
+    "text": "like, we don't want to take your photo."
+  },
+  {
+    "start": 1054.48,
+    "duration": 1.36,
+    "text": "Your photo is already being taken."
+  },
+  {
+    "start": 1056.2,
+    "duration": 5.96,
+    "text": "So you can do get restore dash dash staged names.txt."
+  },
+  {
+    "start": 1064.16,
+    "duration": 1.96,
+    "text": "They are now again outside the stage."
+  },
+  {
+    "start": 1066.24,
+    "duration": 1.44,
+    "text": "You can see the red fold red thing."
+  },
+  {
+    "start": 1068.36,
+    "duration": 0.28,
+    "text": "Okay."
+  },
+  {
+    "start": 1068.76,
+    "duration": 6.94,
+    "text": "Let's say we want to get add names.txt and see they are now on the stage."
+  },
+  {
+    "start": 1075.94,
+    "duration": 0.92,
+    "text": "I can take a picture."
+  },
+  {
+    "start": 1076.86,
+    "duration": 11.36,
+    "text": "I can say names dot txt file modified. Now it's saying one file changed, three insertions"
+  },
+  {
+    "start": 1088.22,
+    "duration": 5.12,
+    "text": "were made. That is true. I added, I added three lines over here. That is true. Another question"
+  },
+  {
+    "start": 1093.34,
+    "duration": 4.96,
+    "text": "you may have is, hey, Kunal, where can you see this entire history of the project?"
+  },
+  {
+    "start": 1098.3,
+    "duration": 6.52,
+    "text": "All the commits that were made in the history, get log. So currently we only have two"
+  },
+  {
+    "start": 1104.82,
+    "duration": 7.24,
+    "text": "commits. Kunal Kushwaha made a commit on 1st August at 11am names.txt file was added. Kunal"
+  },
+  {
+    "start": 1112.06,
+    "duration": 6.8,
+    "text": "Kushwaha again made a commit on 1st August Sunday 1150 IST time zone plus plus 530 IST"
+  },
+  {
+    "start": 1118.86,
+    "duration": 6.88,
+    "text": "time zone and names.txt file was modified. I hope that makes sense and that was pretty"
+  },
+  {
+    "start": 1125.74,
+    "duration": 8.69,
+    "text": "much about. Those are the basics of it. Let's make a few more commits. Don't worry"
+  },
+  {
+    "start": 1134.43,
+    "duration": 4.84,
+    "text": "about what the master is, what you know the head is, we will cover that in detail. Let's"
+  },
+  {
+    "start": 1139.27,
+    "duration": 7.11,
+    "text": "first look into the commit thing only. Okay, so let's say I delete this file. Now, if I"
+  },
+  {
+    "start": 1146.38,
+    "duration": 3.84,
+    "text": "do get status, it's going to say, hey, this file has been deleted. So I'm going to be"
+  },
+  {
+    "start": 1150.22,
+    "duration": 8.04,
+    "text": "like, okay, let me add this, get add names dot txt or dot, get commit minus m names"
+  },
+  {
+    "start": 1158.26,
+    "duration": 8.12,
+    "text": "dot txt file deleted. That's it, get log, you can see names dot txt file was deleted"
+  },
+  {
+    "start": 1166.38,
+    "duration": 4.0,
+    "text": "on first August this time. Imagine you did this by mistake."
+  },
+  {
+    "start": 1171.42,
+    "duration": 3.44,
+    "text": "Imagine you were like, Hey, I did this by mistake. I did not want to do it."
+  },
+  {
+    "start": 1175.42,
+    "duration": 3.68,
+    "text": "All I need is I basically want to remove this commit from my history of the"
+  },
+  {
+    "start": 1179.1,
+    "duration": 3.76,
+    "text": "project. So if you want to remove this commit or all the, you know,"
+  },
+  {
+    "start": 1182.86,
+    "duration": 1.96,
+    "text": "this commit or like these commits,"
+  },
+  {
+    "start": 1185.38,
+    "duration": 4.24,
+    "text": "you cannot like remove just this particular one commit from middle because as"
+  },
+  {
+    "start": 1189.62,
+    "duration": 4.12,
+    "text": "you can see each commit has a hash ID. So each commit is built on top of each"
+  },
+  {
+    "start": 1193.74,
+    "duration": 5.88,
+    "text": "other. You can unstage these commits. Let's say you want to go back to, you know, the previous"
+  },
+  {
+    "start": 1199.62,
+    "duration": 3.72,
+    "text": "example that we were giving, let's say you want to go back to any particular history of"
+  },
+  {
+    "start": 1203.34,
+    "duration": 5.04,
+    "text": "the project. Let's say you want your project to be what it was like on Sunday, 1st August"
+  },
+  {
+    "start": 1208.38,
+    "duration": 7.72,
+    "text": "1147 AM means this, this particular commit. I will just copy this thing. Okay. If you"
+  },
+  {
+    "start": 1216.1,
+    "duration": 5.0,
+    "text": "want to remove these commits, just copy the commit just below it. If I want to remove"
+  },
+  {
+    "start": 1221.1,
+    "duration": 7.74,
+    "text": "these commits, I will copy this thing. Okay, I hope that makes sense. I copy this. Now whatever"
+  },
+  {
+    "start": 1228.84,
+    "duration": 4.9,
+    "text": "I am about to do, it will remove these commits, whatever commit I copy, all the commits above"
+  },
+  {
+    "start": 1233.74,
+    "duration": 10.56,
+    "text": "it will be removed. Let's see how get reset, paste. If I do get log, I will only be able"
+  },
+  {
+    "start": 1244.3,
+    "duration": 8.14,
+    "text": "to see one commit. Only one commit is here. The first one. That is what we wanted. Now"
+  },
+  {
+    "start": 1252.44,
+    "duration": 4.42,
+    "text": "Now you might be like, Hey, what happened to all the files that were modified or changed"
+  },
+  {
+    "start": 1256.86,
+    "duration": 3.24,
+    "text": "or whatever in the previous commits?"
+  },
+  {
+    "start": 1260.1,
+    "duration": 3.28,
+    "text": "They are now in the un-staged area."
+  },
+  {
+    "start": 1263.38,
+    "duration": 5.76,
+    "text": "This basically means that the people whose photograph was taken, their photograph has"
+  },
+  {
+    "start": 1269.14,
+    "duration": 3.12,
+    "text": "been like, you know, deleted."
+  },
+  {
+    "start": 1272.26,
+    "duration": 4.76,
+    "text": "And now they are again in the section of people whose photograph has not yet been"
+  },
+  {
+    "start": 1277.02,
+    "duration": 1.0,
+    "text": "taken."
+  },
+  {
+    "start": 1278.02,
+    "duration": 3.08,
+    "text": "Now what we what we can do is, let's say we deleted this thing by mistake or"
+  },
+  {
+    "start": 1281.1,
+    "duration": 4.96,
+    "text": "whatever changes we made in these commits were by mistake, then what we can do is basically"
+  },
+  {
+    "start": 1286.06,
+    "duration": 7.84,
+    "text": "we can just restore this or we can, we can also put it in the staging area in the stash"
+  },
+  {
+    "start": 1293.9,
+    "duration": 5.36,
+    "text": "area. For example, imagine you don't want to you don't want to delete these changes"
+  },
+  {
+    "start": 1299.26,
+    "duration": 5.92,
+    "text": "right now. Imagine you just want to say that hey, you are a few people whose photo"
+  },
+  {
+    "start": 1305.18,
+    "duration": 4.6,
+    "text": "has not yet been taken, go to the backstage and whenever we want you to come back,"
+  },
+  {
+    "start": 1309.78,
+    "duration": 5.28,
+    "text": "will get you back. How can I explain this more simply? Let's say you are working on"
+  },
+  {
+    "start": 1315.06,
+    "duration": 2.8,
+    "text": "a project and you are working on a particular feature and you have a few"
+  },
+  {
+    "start": 1317.86,
+    "duration": 4.56,
+    "text": "lines of code that you are working on. Now you want to try out something new"
+  },
+  {
+    "start": 1322.42,
+    "duration": 4.08,
+    "text": "with a clean code base. Okay all the changes that you have been made that are"
+  },
+  {
+    "start": 1326.5,
+    "duration": 3.16,
+    "text": "working progress files you have been modified you want to remove those"
+  },
+  {
+    "start": 1329.66,
+    "duration": 4.36,
+    "text": "but you also don't want to save your progress as a separate commit. You"
+  },
+  {
+    "start": 1334.02,
+    "duration": 3.76,
+    "text": "basically want hey I wish there was a way where I could just put all my"
+  },
+  {
+    "start": 1337.78,
+    "duration": 4.56,
+    "text": "work somewhere else without making a commit without making a history in the project. And"
+  },
+  {
+    "start": 1342.34,
+    "duration": 5.56,
+    "text": "whenever I want that thing back, I can get that back whenever I want command for that"
+  },
+  {
+    "start": 1347.9,
+    "duration": 5.96,
+    "text": "is called get stash. So basically get the people you want to be on the backstage first"
+  },
+  {
+    "start": 1353.86,
+    "duration": 7.92,
+    "text": "on the stage. So it says this file was deleted. This is a change. Now I'm going to get"
+  },
+  {
+    "start": 1361.78,
+    "duration": 4.44,
+    "text": "stashed this. I'm going to say, Hey, go back to the staging like one go into the"
+  },
+  {
+    "start": 1366.22,
+    "duration": 3.8,
+    "text": "backstage whenever I want you all the changes whenever I want all these changes"
+  },
+  {
+    "start": 1370.02,
+    "duration": 5.28,
+    "text": "being made, I will bring you back. For example, I can make another change, let's say touch"
+  },
+  {
+    "start": 1375.3,
+    "duration": 15.48,
+    "text": "surnames.txt, I can say git add dot git status, I can say, you know, surnames.txt, this one"
+  },
+  {
+    "start": 1390.78,
+    "duration": 5.76,
+    "text": "is saying that names.txt has been modified to surnames.txt like renamed. So it's pretty"
+  },
+  {
+    "start": 1396.54,
+    "duration": 4.68,
+    "text": "smart in that way. But what we can do is let's say, let's say, let's try to make"
+  },
+  {
+    "start": 1401.22,
+    "duration": 8.2,
+    "text": "a few changes now. So vim sunnames.txt. I can say insert kushwa. Okay, let's create"
+  },
+  {
+    "start": 1409.42,
+    "duration": 8.68,
+    "text": "another file. Let's create houses.txt get hard dot get status bunch of things I have"
+  },
+  {
+    "start": 1418.1,
+    "duration": 6.4,
+    "text": "done bunch of things I have done. Now what I want is like, Hey, all these changes"
+  },
+  {
+    "start": 1424.5,
+    "duration": 5.64,
+    "text": "I have made, I don't want to commit it. I also don't want to lose these changes."
+  },
+  {
+    "start": 1430.14,
+    "duration": 4.88,
+    "text": "I basically want you to go backstage and whenever I want you, I will bring you back."
+  },
+  {
+    "start": 1435.02,
+    "duration": 9.47,
+    "text": "You can do git stash for that, git status, clean."
+  },
+  {
+    "start": 1444.49,
+    "duration": 8.0,
+    "text": "Now my project folder is exactly like it was on August 1st, 1147 a.m. exactly like it was."
+  },
+  {
+    "start": 1452.49,
+    "duration": 3.92,
+    "text": "That was my first commit and my first commit only consisted of what?"
+  },
+  {
+    "start": 1456.41,
+    "duration": 5.42,
+    "text": "The names.txt empty file, empty, makes sense."
+  },
+  {
+    "start": 1461.83,
+    "duration": 1.84,
+    "text": "That's how you can go back in the project."
+  },
+  {
+    "start": 1463.67,
+    "duration": 10.68,
+    "text": "Now let's say all of these changes that you made, like a rename the names.txt file to houses.txt or whatever, created a new file like sunnames.txt or whatever, you know, how can we do that?"
+  },
+  {
+    "start": 1476.31,
+    "duration": 7.52,
+    "text": "Get, stash, pop, hey, all the people who are in the backstage come back to the staging area, in the unstage area."
+  },
+  {
+    "start": 1484.91,
+    "duration": 4.56,
+    "text": "So you can see, here we have all the changes that were made previously."
+  },
+  {
+    "start": 1490.87,
+    "duration": 0.32,
+    "text": "Cool."
+  },
+  {
+    "start": 1491.19,
+    "duration": 9.2,
+    "text": "Alright, so I don't want these changes. Let's say I can just say get add and get stash again."
+  },
+  {
+    "start": 1500.39,
+    "duration": 5.28,
+    "text": "Now let's say they are in this, you know, that backstage and we can just say, Hey, your"
+  },
+  {
+    "start": 1505.67,
+    "duration": 12.97,
+    "text": "photo is not being taken. Go go away. Get stash clean. Sorry, not clean. Clear. So"
+  },
+  {
+    "start": 1518.64,
+    "duration": 5.76,
+    "text": "those changes that you have made that were like not committed and in the separate structure,"
+  },
+  {
+    "start": 1524.4,
+    "duration": 7.6,
+    "text": "are now gone. You cannot get those back. They are gone now. Okay. Cool. So that was about"
+  },
+  {
+    "start": 1532.0,
+    "duration": 6.08,
+    "text": "how you can go back to your comments. Let's move forward to learning about GitHub now."
+  },
+  {
+    "start": 1538.08,
+    "duration": 4.04,
+    "text": "So what we are going to do now is there are two ways, like two things we are going to"
+  },
+  {
+    "start": 1542.12,
+    "duration": 4.36,
+    "text": "do. First, hosting our own project on GitHub. Let's say you have your personal projects"
+  },
+  {
+    "start": 1546.48,
+    "duration": 4.68,
+    "text": "or local projects or whatever, and you want to push those on GitHub. You want to"
+  },
+  {
+    "start": 1551.16,
+    "duration": 6.72,
+    "text": "share it with other people. So how do we do that? Let's see. So let me go to github.com."
+  },
+  {
+    "start": 1557.88,
+    "duration": 8.77,
+    "text": "Let me my, let's go to github. We are here at github. Let me go to my personal profile"
+  },
+  {
+    "start": 1566.65,
+    "duration": 6.24,
+    "text": "or like the dashboard or whatever. We can create a new repository. I can just create"
+  },
+  {
+    "start": 1572.89,
+    "duration": 10.9,
+    "text": "say create a new project, I can say community, classroom, Git, or whatever. I can create"
+  },
+  {
+    "start": 1583.79,
+    "duration": 6.84,
+    "text": "this repository, I can set it as public and create the repository. Now, basically this"
+  },
+  {
+    "start": 1590.63,
+    "duration": 6.26,
+    "text": "is the URL for my repository, Kunal Kushwa Community Classroom Git and we want this URL"
+  },
+  {
+    "start": 1596.89,
+    "duration": 4.2,
+    "text": "to be attached to my project, the local project."
+  },
+  {
+    "start": 1601.09,
+    "duration": 5.0,
+    "text": "A command for that is git remote add origin URL."
+  },
+  {
+    "start": 1608.61,
+    "duration": 1.68,
+    "text": "I did a lot of things over here."
+  },
+  {
+    "start": 1610.29,
+    "duration": 1.88,
+    "text": "So git is just the git command."
+  },
+  {
+    "start": 1612.17,
+    "duration": 2.8,
+    "text": "Remote basically means you are working with URLs."
+  },
+  {
+    "start": 1614.97,
+    "duration": 3.16,
+    "text": "Add basically means you are adding a new URL."
+  },
+  {
+    "start": 1618.13,
+    "duration": 2.92,
+    "text": "Origin basically means what is the name of the URL"
+  },
+  {
+    "start": 1621.05,
+    "duration": 2.56,
+    "text": "going to be that you are going to add?"
+  },
+  {
+    "start": 1623.61,
+    "duration": 1.0,
+    "text": "It's like phone numbers."
+  },
+  {
+    "start": 1624.61,
+    "duration": 1.84,
+    "text": "You don't remember all the phone numbers"
+  },
+  {
+    "start": 1626.45,
+    "duration": 4.0,
+    "text": "your contact list, you save a phone number with the name of the person. Similarly, the"
+  },
+  {
+    "start": 1630.45,
+    "duration": 7.0,
+    "text": "name of this URL is origin by convention. This can be anything, but by convention, all the"
+  },
+  {
+    "start": 1637.45,
+    "duration": 7.12,
+    "text": "repositories and folders that start that basically are in your personal account on your own account,"
+  },
+  {
+    "start": 1644.57,
+    "duration": 8.24,
+    "text": "they have a name called origin. If I say get remote minus V, this will basically show"
+  },
+  {
+    "start": 1652.81,
+    "duration": 7.12,
+    "text": "me all the URLs that are attached to this folder. This is attached. These are the same one fetch"
+  },
+  {
+    "start": 1659.93,
+    "duration": 6.64,
+    "text": "and push will look more into what fetches what fetches what pushes and will look more"
+  },
+  {
+    "start": 1666.57,
+    "duration": 5.68,
+    "text": "into like what is master and head and everything don't worry about that. So now our thing"
+  },
+  {
+    "start": 1672.25,
+    "duration": 5.68,
+    "text": "is connected this URL is connected with this particular folder now. If I refresh this"
+  },
+  {
+    "start": 1677.93,
+    "duration": 1.88,
+    "text": "Can I actually see the names.txt file here?"
+  },
+  {
+    "start": 1679.81,
+    "duration": 1.48,
+    "text": "Let me refresh this."
+  },
+  {
+    "start": 1681.29,
+    "duration": 4.28,
+    "text": "No, we can't because I have not shared the changes"
+  },
+  {
+    "start": 1685.57,
+    "duration": 2.4,
+    "text": "on this URL."
+  },
+  {
+    "start": 1687.97,
+    "duration": 3.88,
+    "text": "A command for that is get push."
+  },
+  {
+    "start": 1691.85,
+    "duration": 1.88,
+    "text": "Here you can see push."
+  },
+  {
+    "start": 1693.73,
+    "duration": 1.96,
+    "text": "Push means push the changes."
+  },
+  {
+    "start": 1695.69,
+    "duration": 2.48,
+    "text": "To which URL do you want to push?"
+  },
+  {
+    "start": 1698.17,
+    "duration": 2.84,
+    "text": "Origin and which branch do you want to push?"
+  },
+  {
+    "start": 1701.01,
+    "duration": 2.04,
+    "text": "We'll look more into what branches are."
+  },
+  {
+    "start": 1703.05,
+    "duration": 0.84,
+    "text": "Master."
+  },
+  {
+    "start": 1705.01,
+    "duration": 3.49,
+    "text": "But now imagine it's master."
+  },
+  {
+    "start": 1708.5,
+    "duration": 9.27,
+    "text": "Now if I refresh this, names.txt file is here, commit is also here, 17 minutes ago, names.txt"
+  },
+  {
+    "start": 1717.77,
+    "duration": 3.68,
+    "text": "file was added, this is the commit message that I sent."
+  },
+  {
+    "start": 1721.45,
+    "duration": 4.92,
+    "text": "What do we mean by branches, you can see master is here, currently it is known as main because"
+  },
+  {
+    "start": 1726.37,
+    "duration": 2.8,
+    "text": "of the naming convention, inclusive naming convention."
+  },
+  {
+    "start": 1729.17,
+    "duration": 4.28,
+    "text": "So it is most probably going to say main whenever you get started."
+  },
+  {
+    "start": 1733.45,
+    "duration": 5.24,
+    "text": "My client is like a little old, so I do not think it was updated, but previously"
+  },
+  {
+    "start": 1738.69,
+    "duration": 1.36,
+    "text": "it was known as master."
+  },
+  {
+    "start": 1740.05,
+    "duration": 5.04,
+    "text": "is this master? What is branching? Let's look into it. So what are branches? Imagine you"
+  },
+  {
+    "start": 1745.09,
+    "duration": 4.96,
+    "text": "are making commits like we were doing. So let's make a few more, you know, random commits. Let's"
+  },
+  {
+    "start": 1750.05,
+    "duration": 7.96,
+    "text": "say I create a new file, surnames or some other file, hotel dot txt. I can create a"
+  },
+  {
+    "start": 1758.01,
+    "duration": 18.13,
+    "text": "commit like this get commit hotel dot txt added roll number dot txt roll number added"
+  },
+  {
+    "start": 1776.14,
+    "duration": 5.12,
+    "text": "let's create one more I can say I can create another file or I can just make some changes"
+  },
+  {
+    "start": 1781.26,
+    "duration": 7.84,
+    "text": "in some file I can say add some changes here something like this get status so don't"
+  },
+  {
+    "start": 1789.1,
+    "duration": 3.56,
+    "text": "worry if I'm doing it so fast because I'm just adding random commits. Nothing is to be"
+  },
+  {
+    "start": 1792.66,
+    "duration": 8.0,
+    "text": "explained over here. Role number modified. So many commits being made. Okay, commit,"
+  },
+  {
+    "start": 1800.66,
+    "duration": 5.08,
+    "text": "commit, commit, commit, four commits being made. Now here you can see that this is the"
+  },
+  {
+    "start": 1805.74,
+    "duration": 6.56,
+    "text": "commit that is the latest commit on my remote branch origins master. What is a branch?"
+  },
+  {
+    "start": 1812.3,
+    "duration": 3.56,
+    "text": "Let's look into that. Let's say I created four commits. Let's let's visualize this"
+  },
+  {
+    "start": 1815.86,
+    "duration": 8.36,
+    "text": "thing, get commit, get commit, get commit, get commit, so you can see I am making so many"
+  },
+  {
+    "start": 1824.22,
+    "duration": 6.4,
+    "text": "commits, can you see that this thing is being formed in sort of a branch structure, that"
+  },
+  {
+    "start": 1830.62,
+    "duration": 5.36,
+    "text": "is the similarly what we are doing over here, these are like linked to each other in this"
+  },
+  {
+    "start": 1835.98,
+    "duration": 8.92,
+    "text": "way and this is a branch structure, now internally if you have heard about it,"
+  },
+  {
+    "start": 1844.9,
+    "duration": 5.2,
+    "text": "This is a directed acyclic graph, don't worry, we will cover that in detail in the DSA boot"
+  },
+  {
+    "start": 1850.1,
+    "duration": 1.0,
+    "text": "camp."
+  },
+  {
+    "start": 1851.1,
+    "duration": 5.96,
+    "text": "But as you can see, as simple as it get, this does look like a branch."
+  },
+  {
+    "start": 1857.06,
+    "duration": 5.32,
+    "text": "And by default, the name of this branch is called main, previously it was known as master,"
+  },
+  {
+    "start": 1862.38,
+    "duration": 1.96,
+    "text": "that is what this master thing represents."
+  },
+  {
+    "start": 1864.34,
+    "duration": 4.67,
+    "text": "Okay, so these are what are known as branches."
+  },
+  {
+    "start": 1869.01,
+    "duration": 4.4,
+    "text": "Now your question might be, hey Kunal, what is the use of a branch?"
+  },
+  {
+    "start": 1873.41,
+    "duration": 2.2,
+    "text": "Why are we having branches?"
+  },
+  {
+    "start": 1875.61,
+    "duration": 7.28,
+    "text": "The use of it is that in short, whenever you are working on some other feature or new feature"
+  },
+  {
+    "start": 1882.89,
+    "duration": 4.96,
+    "text": "or resolving a bug or whatever, always create a separate branch."
+  },
+  {
+    "start": 1887.85,
+    "duration": 2.52,
+    "text": "Reason for that will be shared later in this video."
+  },
+  {
+    "start": 1890.37,
+    "duration": 6.43,
+    "text": "What all things are remaining that I did not cover?"
+  },
+  {
+    "start": 1896.8,
+    "duration": 1.0,
+    "text": "What is this head?"
+  },
+  {
+    "start": 1897.8,
+    "duration": 1.32,
+    "text": "This head thing."
+  },
+  {
+    "start": 1899.12,
+    "duration": 6.12,
+    "text": "So in branches, what happens is that you should never commit on the main branch or"
+  },
+  {
+    "start": 1905.24,
+    "duration": 5.28,
+    "text": "the master branch, your main branch, because in open source project, let's say, if I say"
+  },
+  {
+    "start": 1910.52,
+    "duration": 17.98,
+    "text": "react, there is the react folder, Facebook react or react native, whatever, so you can"
+  },
+  {
+    "start": 1928.5,
+    "duration": 2.08,
+    "text": "see this is the main branch."
+  },
+  {
+    "start": 1930.58,
+    "duration": 6.0,
+    "text": "This is the code that is actually being used by people, like the users and developers."
+  },
+  {
+    "start": 1936.58,
+    "duration": 3.48,
+    "text": "Imagine that, you know, there might be so many other branches, but the main branch"
+  },
+  {
+    "start": 1940.06,
+    "duration": 1.2,
+    "text": "is the default branch."
+  },
+  {
+    "start": 1941.26,
+    "duration": 2.2,
+    "text": "This is the one that is being used by people."
+  },
+  {
+    "start": 1943.46,
+    "duration": 4.48,
+    "text": "So that is the reason we never commit directly on this because our code that is not finalized"
+  },
+  {
+    "start": 1947.94,
+    "duration": 3.56,
+    "text": "yet might contain some errors."
+  },
+  {
+    "start": 1951.5,
+    "duration": 4.44,
+    "text": "That is why all the code that is not finalized that you are working on should go on a separate"
+  },
+  {
+    "start": 1955.94,
+    "duration": 2.8,
+    "text": "branch that the users are not affected."
+  },
+  {
+    "start": 1958.74,
+    "duration": 5.16,
+    "text": "Now for that you can create a new branch like you can the command is git branch let's"
+  },
+  {
+    "start": 1963.9,
+    "duration": 1.0,
+    "text": "say feature."
+  },
+  {
+    "start": 1964.9,
+    "duration": 5.88,
+    "text": "So I'm working on a feature you can see a new branch is created called feature."
+  },
+  {
+    "start": 1970.78,
+    "duration": 5.86,
+    "text": "what do I mean by head? A command was executed called get checkout feature and the star thing"
+  },
+  {
+    "start": 1976.64,
+    "duration": 6.12,
+    "text": "that was on main is now on feature. This basically means that my head is now pointing to the"
+  },
+  {
+    "start": 1982.76,
+    "duration": 6.12,
+    "text": "feature branch. What is this head? Head is just a pointer that says all the new commits"
+  },
+  {
+    "start": 1988.88,
+    "duration": 4.6,
+    "text": "that you will be made will be added on the head. Currently the head is on the feature"
+  },
+  {
+    "start": 1993.48,
+    "duration": 8.24,
+    "text": "branch. Hence all the new commits I'm making will be added on the feature branch."
+  },
+  {
+    "start": 2001.72,
+    "duration": 3.88,
+    "text": "can see color being changed and only the feature branch is moving forward main"
+  },
+  {
+    "start": 2005.6,
+    "duration": 5.96,
+    "text": "branches as it is. That is what we want to do. Another thing is you are not the"
+  },
+  {
+    "start": 2011.56,
+    "duration": 3.68,
+    "text": "only one who is going to be contributing to this code base and see so many"
+  },
+  {
+    "start": 2015.24,
+    "duration": 5.8,
+    "text": "people contribute right to more than 2000 people. So let's say that while you"
+  },
+  {
+    "start": 2021.04,
+    "duration": 3.28,
+    "text": "are working on a project on your separate branch while you are working"
+  },
+  {
+    "start": 2024.32,
+    "duration": 4.84,
+    "text": "on your issues someone else gets their code added in the main branch. We'll"
+  },
+  {
+    "start": 2029.16,
+    "duration": 5.08,
+    "text": "talk more about how that happens. That can also happen. So let's say get checkout main"
+  },
+  {
+    "start": 2034.24,
+    "duration": 6.12,
+    "text": "get commit. So I can see now the main branch is going on like this and your work is going"
+  },
+  {
+    "start": 2040.36,
+    "duration": 6.74,
+    "text": "on side by side. Okay, this is the use of branches. Again, do not worry how this is"
+  },
+  {
+    "start": 2047.1,
+    "duration": 5.6,
+    "text": "happening. We'll cover that in detail with the completely hands on tutorial. But that"
+  },
+  {
+    "start": 2052.7,
+    "duration": 4.44,
+    "text": "is basically what branches are. That is what basically what head is. So my currently"
+  },
+  {
+    "start": 2057.14,
+    "duration": 5.52,
+    "text": "head is on the main branch. Whenever I make a new commit, it will be now on the main branch."
+  },
+  {
+    "start": 2062.66,
+    "duration": 3.92,
+    "text": "Now, let's say your features that you are adding in your branch in your code sample"
+  },
+  {
+    "start": 2066.58,
+    "duration": 4.0,
+    "text": "that are not currently not currently part of the main branch means users cannot see"
+  },
+  {
+    "start": 2070.58,
+    "duration": 3.68,
+    "text": "it. Let's say these changes are now finalized, you're like, Hey, people who maintain this"
+  },
+  {
+    "start": 2074.26,
+    "duration": 4.0,
+    "text": "project, you're telling them, Hey, my code is now finalized. Can you please maybe"
+  },
+  {
+    "start": 2078.26,
+    "duration": 4.36,
+    "text": "merge this code into the into the main code so that the users can also use it?"
+  },
+  {
+    "start": 2082.62,
+    "duration": 7.68,
+    "text": "they might be like yeah sure get merge feature now your branch is a part of the main branch"
+  },
+  {
+    "start": 2090.94,
+    "duration": 9.87,
+    "text": "people can actually see this code now that was in commit c5 and c6 okay makes sense"
+  },
+  {
+    "start": 2104.46,
+    "duration": 5.92,
+    "text": "sound good i'm doing it in such a way that that you all are watching live but anyway"
+  },
+  {
+    "start": 2111.34,
+    "duration": 4.24,
+    "text": "how this merging happens it happens via a pull request will look more into later on"
+  },
+  {
+    "start": 2115.58,
+    "duration": 4.96,
+    "text": "Now I know I know there are a few questions you may having. How do we create new branches?"
+  },
+  {
+    "start": 2120.54,
+    "duration": 4.32,
+    "text": "Why do we work with new branches? Why can't we just you know every why can't everyone just work"
+  },
+  {
+    "start": 2124.86,
+    "duration": 5.92,
+    "text": "with the main branch? How do we get a new branch merged? What is a pull request five to six questions"
+  },
+  {
+    "start": 2130.78,
+    "duration": 4.96,
+    "text": "you may be having? We'll cover these shortly. If you look at our code sample right now,"
+  },
+  {
+    "start": 2135.74,
+    "duration": 6.08,
+    "text": "you can see that this is the one on my origins master branch. Okay, that is true"
+  },
+  {
+    "start": 2141.82,
+    "duration": 8.4,
+    "text": "true on my own repository. I can just open it like this and say get remote dash v open"
+  },
+  {
+    "start": 2150.22,
+    "duration": 5.32,
+    "text": "it up. Only one commit is here. That is true. Only one commit is here because that is the"
+  },
+  {
+    "start": 2155.54,
+    "duration": 5.44,
+    "text": "only thing I pushed. This is the only thing I pushed. If I want to push these changes"
+  },
+  {
+    "start": 2160.98,
+    "duration": 10.9,
+    "text": "on the new new like on the new commits on the master branch, I want to push that"
+  },
+  {
+    "start": 2171.88,
+    "duration": 6.16,
+    "text": "get push to which URL do I want to push, origin, which branch do I want to push, master branch,"
+  },
+  {
+    "start": 2182.6,
+    "duration": 12.57,
+    "text": "refresh, ta-da, let's look at the code sample, ta-da, awesome, four commits here,"
+  },
+  {
+    "start": 2198.52,
+    "duration": 9.88,
+    "text": "four commits here, head is on the master branch and origin is like the origin the URL that I added"
+  },
+  {
+    "start": 2208.4,
+    "duration": 4.16,
+    "text": "that is also over here means there are no commits above it that are extra,"
+  },
+  {
+    "start": 2212.56,
+    "duration": 8.58,
+    "text": "which are not already on the url. All right. You can see this is my master branch."
+  },
+  {
+    "start": 2222.74,
+    "duration": 5.52,
+    "text": "All right. Now most of the questions that we need to answer right now, they will be much more"
+  },
+  {
+    "start": 2228.26,
+    "duration": 6.32,
+    "text": "clearer when we are doing this next thing, which is known as working with existing projects on"
+  },
+  {
+    "start": 2234.58,
+    "duration": 6.16,
+    "text": "github. So let's say that this is the organization comm classroom, community classroom organization"
+  },
+  {
+    "start": 2240.74,
+    "duration": 4.24,
+    "text": "and this is the project of that organization known as Com Classroom OP, for example."
+  },
+  {
+    "start": 2245.7,
+    "duration": 5.52,
+    "text": "Now, what do we need to do in order to make changes to this project and make some, you know,"
+  },
+  {
+    "start": 2251.94,
+    "duration": 6.48,
+    "text": "contributions to this project? This is the project on the account of community classroom."
+  },
+  {
+    "start": 2259.54,
+    "duration": 5.28,
+    "text": "Should anyone who does not have access to it directly, like any random person in the world,"
+  },
+  {
+    "start": 2264.82,
+    "duration": 6.22,
+    "text": "world, should they be allowed to make changes to com classroom project directly?"
+  },
+  {
+    "start": 2271.04,
+    "duration": 1.9,
+    "text": "How dangerous would that be?"
+  },
+  {
+    "start": 2272.94,
+    "duration": 3.96,
+    "text": "So if you try it right now, you will not be able to directly change any file in this"
+  },
+  {
+    "start": 2276.9,
+    "duration": 1.0,
+    "text": "folder."
+  },
+  {
+    "start": 2277.9,
+    "duration": 5.32,
+    "text": "Currently it only has a readme file, but if you try to change it, you will not be"
+  },
+  {
+    "start": 2283.22,
+    "duration": 1.0,
+    "text": "able to do that."
+  },
+  {
+    "start": 2284.22,
+    "duration": 1.0,
+    "text": "Why?"
+  },
+  {
+    "start": 2285.22,
+    "duration": 3.64,
+    "text": "Because you don't have access to this account, this organization."
+  },
+  {
+    "start": 2288.86,
+    "duration": 3.6,
+    "text": "This is a problem that we, you know, face."
+  },
+  {
+    "start": 2292.46,
+    "duration": 1.0,
+    "text": "How do we resolve it?"
+  },
+  {
+    "start": 2293.46,
+    "duration": 5.26,
+    "text": "a way to contribute to this code sample without you know, because if we don't have the permission"
+  },
+  {
+    "start": 2298.72,
+    "duration": 4.78,
+    "text": "for this, you create a copy of this project in your own account."
+  },
+  {
+    "start": 2303.5,
+    "duration": 6.58,
+    "text": "So I can say fork in my own account."
+  },
+  {
+    "start": 2310.08,
+    "duration": 5.38,
+    "text": "So now you can see, instead of comm classroom, community classroom OP project, it is now"
+  },
+  {
+    "start": 2315.46,
+    "duration": 4.08,
+    "text": "Kunal Kushwaha comm classroom OP project."
+  },
+  {
+    "start": 2319.54,
+    "duration": 5.96,
+    "text": "So this thing you can see this folder, this is the main one, and this is yours."
+  },
+  {
+    "start": 2325.5,
+    "duration": 6.94,
+    "text": "one, forked one. Now since this folder comclassroom OP is in your own account, you can do anything"
+  },
+  {
+    "start": 2332.44,
+    "duration": 6.88,
+    "text": "you want with it. Let's copy this clone and remember I said any folder that starts with"
+  },
+  {
+    "start": 2339.32,
+    "duration": 5.52,
+    "text": "your own account, the name of that is going to be origin. So whenever I clone this in"
+  },
+  {
+    "start": 2344.84,
+    "duration": 9.08,
+    "text": "my desktop, I can say git clone URL. So it's basically downloading that folder."
+  },
+  {
+    "start": 2353.92,
+    "duration": 4.36,
+    "text": "that folder read me file is there read me file is there read me file contains comm"
+  },
+  {
+    "start": 2358.28,
+    "duration": 10.43,
+    "text": "classroom op let's see what the read me file contains comm classroom op awesome so that"
+  },
+  {
+    "start": 2368.71,
+    "duration": 4.32,
+    "text": "is the first point you cannot directly make changes to anyone's account you have to fork"
+  },
+  {
+    "start": 2373.03,
+    "duration": 4.08,
+    "text": "it why do you have to fork it because you can't directly make changes to anyone's project"
+  },
+  {
+    "start": 2377.11,
+    "duration": 3.56,
+    "text": "how would you feel if someone was changing the code sample in your project you know"
+  },
+  {
+    "start": 2380.67,
+    "duration": 5.32,
+    "text": "without your permission without anything just like that that would be very dangerous"
+  },
+  {
+    "start": 2385.99,
+    "duration": 3.72,
+    "text": "And since this is a copy of that folder in your own account, you can do whatever you"
+  },
+  {
+    "start": 2389.71,
+    "duration": 1.0,
+    "text": "want with it."
+  },
+  {
+    "start": 2390.71,
+    "duration": 5.12,
+    "text": "It will not reflect in the main project until and unless the people who have the approval"
+  },
+  {
+    "start": 2395.83,
+    "duration": 4.92,
+    "text": "for this project can merge your code, can approve your changes via a pull request, which"
+  },
+  {
+    "start": 2400.75,
+    "duration": 2.9,
+    "text": "we'll look into next."
+  },
+  {
+    "start": 2403.65,
+    "duration": 5.82,
+    "text": "So this is what we're doing over here and you can see now one more thing I want"
+  },
+  {
+    "start": 2409.47,
+    "duration": 6.24,
+    "text": "to share is you know that the origin URL is basically your own account."
+  },
+  {
+    "start": 2415.71,
+    "duration": 4.04,
+    "text": "From where you have forked this project means this URL."
+  },
+  {
+    "start": 2419.75,
+    "duration": 6.04,
+    "text": "I repeat it again from where you have forked this project that is known as upstream URL"
+  },
+  {
+    "start": 2425.79,
+    "duration": 1.5,
+    "text": "by convention."
+  },
+  {
+    "start": 2427.29,
+    "duration": 9.86,
+    "text": "So I can add another URL over here get remote add upstream URL."
+  },
+  {
+    "start": 2437.15,
+    "duration": 7.16,
+    "text": "Origin is my personal upstream is the from where I have forked it okay."
+  },
+  {
+    "start": 2444.31,
+    "duration": 4.0,
+    "text": "Let's say you can do this as well you can open a pull request after this or via via"
+  },
+  {
+    "start": 2448.31,
+    "duration": 4.08,
+    "text": "watching this video as well. So, you can definitely do this what I am doing right now to get some"
+  },
+  {
+    "start": 2452.39,
+    "duration": 8.68,
+    "text": "more hands on practice. So, after you have cloned this, you can create, but let us do"
+  },
+  {
+    "start": 2461.07,
+    "duration": 4.6,
+    "text": "that afterwards. Let me first explain what a pull request is. Let us say I make a few"
+  },
+  {
+    "start": 2465.67,
+    "duration": 23.13,
+    "text": "commits, say we make a few commits, I can say Kunal Kushwaha or I can just, I can say Kunal"
+  },
+  {
+    "start": 2488.8,
+    "duration": 6.72,
+    "text": "Kushwaha says that this community is amazing."
+  },
+  {
+    "start": 2495.52,
+    "duration": 5.32,
+    "text": "So when you open up a request, you can add like a dash here, a new point and say your"
+  },
+  {
+    "start": 2500.84,
+    "duration": 5.36,
+    "text": "name says that and whatever you feel about the community."
+  },
+  {
+    "start": 2506.2,
+    "duration": 6.32,
+    "text": "So when I do get status, it will obviously show me that read me has been modified."
+  },
+  {
+    "start": 2512.52,
+    "duration": 4.28,
+    "text": "In the beginning, I mentioned something to you that never commit on the main branch."
+  },
+  {
+    "start": 2516.8,
+    "duration": 3.0,
+    "text": "Always create a new branch for whatever work you are doing."
+  },
+  {
+    "start": 2519.8,
+    "duration": 4.4,
+    "text": "Let's create a new branch called Kunal."
+  },
+  {
+    "start": 2524.2,
+    "duration": 1.56,
+    "text": "Let's check out to that branch."
+  },
+  {
+    "start": 2525.76,
+    "duration": 1.76,
+    "text": "You all know what checkout is now."
+  },
+  {
+    "start": 2527.52,
+    "duration": 3.44,
+    "text": "Checkout basically means the head will now come on the Kunal branch."
+  },
+  {
+    "start": 2530.96,
+    "duration": 1.12,
+    "text": "That is true."
+  },
+  {
+    "start": 2532.08,
+    "duration": 1.76,
+    "text": "Main is now changed to Kunal."
+  },
+  {
+    "start": 2533.84,
+    "duration": 2.32,
+    "text": "All the commits I will make now will go on to the Kunal branch."
+  },
+  {
+    "start": 2536.16,
+    "duration": 12.5,
+    "text": "branch, git add dot, git commit minus m, Kunal added a message, git log, this is the main"
+  },
+  {
+    "start": 2548.66,
+    "duration": 6.88,
+    "text": "branch not changed, only till here we have the commits and Kunal branch has an extra"
+  },
+  {
+    "start": 2555.54,
+    "duration": 1.0,
+    "text": "commit."
+  },
+  {
+    "start": 2556.54,
+    "duration": 5.76,
+    "text": "Now, basically what I want to do is, I want to push this branch, I want to say the"
+  },
+  {
+    "start": 2562.3,
+    "duration": 7.44,
+    "text": "The idea is that, hey, whatever code that I have in this branch, the Kunal branch of"
+  },
+  {
+    "start": 2569.74,
+    "duration": 5.42,
+    "text": "my own account, please merge that into the main projects, main branch."
+  },
+  {
+    "start": 2575.16,
+    "duration": 1.82,
+    "text": "That is you will do, what do you will do?"
+  },
+  {
+    "start": 2576.98,
+    "duration": 1.52,
+    "text": "Let's say Rahul wants to add something."
+  },
+  {
+    "start": 2578.5,
+    "duration": 5.4,
+    "text": "So Rahul will say, hey, Rahul's account has a comm classroom project and he will have"
+  },
+  {
+    "start": 2583.9,
+    "duration": 4.68,
+    "text": "a branch called Rahul branch or Rahul temp or whatever name he wants to give."
+  },
+  {
+    "start": 2588.58,
+    "duration": 4.56,
+    "text": "And then he will request me, the person who is responsible for the main project, like"
+  },
+  {
+    "start": 2593.14,
+    "duration": 4.92,
+    "text": "hey, I have something, let's open up some pull request, let's say some pull request"
+  },
+  {
+    "start": 2598.06,
+    "duration": 3.82,
+    "text": "that I got merged previously."
+  },
+  {
+    "start": 2601.88,
+    "duration": 8.8,
+    "text": "This is an open one, let's see the one that was merged."
+  },
+  {
+    "start": 2610.68,
+    "duration": 3.76,
+    "text": "So this one was merged."
+  },
+  {
+    "start": 2614.44,
+    "duration": 6.28,
+    "text": "So Brad was saying like, hey, I have a branch known as host process."
+  },
+  {
+    "start": 2620.72,
+    "duration": 4.24,
+    "text": "Kunal, can you please merge that branch into your host process branch?"
+  },
+  {
+    "start": 2624.96,
+    "duration": 13.55,
+    "text": "or let's look into the more simple example, this one."
+  },
+  {
+    "start": 2638.51,
+    "duration": 4.64,
+    "text": "So I, let's say wanted to contribute to the Kubernetes website, this is a really nice example."
+  },
+  {
+    "start": 2643.15,
+    "duration": 4.32,
+    "text": "I said that, hey, obviously I cannot change your website directly."
+  },
+  {
+    "start": 2647.47,
+    "duration": 6.28,
+    "text": "So I created a fork of it, you can see Kunal Kushwaha, the Kunal Kushwaha fork has a branch"
+  },
+  {
+    "start": 2653.75,
+    "duration": 5.16,
+    "text": "called SIG usability blog, which contains these changes."
+  },
+  {
+    "start": 2658.91,
+    "duration": 3.92,
+    "text": "And then I am requesting the people who maintain this project like, hey, whatever"
+  },
+  {
+    "start": 2662.83,
+    "duration": 4.16,
+    "text": "changes I have in this branch, can you please merge it into the cube and it is"
+  },
+  {
+    "start": 2666.99,
+    "duration": 3.72,
+    "text": "main projects main branch so that the other people will be able to see that"
+  },
+  {
+    "start": 2670.71,
+    "duration": 5.24,
+    "text": "and after that they were like they gave some suggestions they ran some tests I"
+  },
+  {
+    "start": 2675.95,
+    "duration": 4.76,
+    "text": "made some changes in the end my PR was merged. This is what is known as a pull"
+  },
+  {
+    "start": 2680.71,
+    "duration": 4.92,
+    "text": "request. So when you create your own copy and you create any change in your"
+  },
+  {
+    "start": 2685.63,
+    "duration": 3.64,
+    "text": "copy how do you make sure that this change whatever you create in your"
+  },
+  {
+    "start": 2689.27,
+    "duration": 5.8,
+    "text": "copy is visible in the main project, you request it via a pull request."
+  },
+  {
+    "start": 2695.07,
+    "duration": 4.04,
+    "text": "Then people will review your code, suggest some changes, you will make those changes"
+  },
+  {
+    "start": 2699.11,
+    "duration": 4.64,
+    "text": "and when this is merged, your code sample changes that you made in your own accounts"
+  },
+  {
+    "start": 2703.75,
+    "duration": 6.08,
+    "text": "fork in any branch that will be visible in the main projects main branch."
+  },
+  {
+    "start": 2709.83,
+    "duration": 2.2,
+    "text": "So once this is merged, this is merged now."
+  },
+  {
+    "start": 2712.03,
+    "duration": 7.51,
+    "text": "So basically this code sample is now in the main Kubernetes website in the commits."
+  },
+  {
+    "start": 2719.54,
+    "duration": 5.96,
+    "text": "is main website over here. Somewhere over here, my blog is available. Okay, that is what we're"
+  },
+  {
+    "start": 2725.5,
+    "duration": 4.68,
+    "text": "doing over here. Now, I will give you another example on why you should never commit on"
+  },
+  {
+    "start": 2730.18,
+    "duration": 6.04,
+    "text": "master branch and always create such branches to sum up. If you have any new feature you"
+  },
+  {
+    "start": 2736.22,
+    "duration": 4.96,
+    "text": "are working on or any new bug you are working on or any new thing you are working on,"
+  },
+  {
+    "start": 2741.18,
+    "duration": 3.48,
+    "text": "make sure you open a new branch for that and a new pull request for that. It will"
+  },
+  {
+    "start": 2744.66,
+    "duration": 5.9,
+    "text": "be much more evident when we give this example. Let me push this branch on GitHub."
+  },
+  {
+    "start": 2750.56,
+    "duration": 1.72,
+    "text": "I want to push on origin."
+  },
+  {
+    "start": 2752.28,
+    "duration": 2.4,
+    "text": "If you, would you all be able to push on upstream?"
+  },
+  {
+    "start": 2754.68,
+    "duration": 1.72,
+    "text": "No, because you don't have access"
+  },
+  {
+    "start": 2756.4,
+    "duration": 1.88,
+    "text": "to community classroom organization."
+  },
+  {
+    "start": 2758.28,
+    "duration": 3.4,
+    "text": "If you say git push upstream your own branch name,"
+  },
+  {
+    "start": 2761.68,
+    "duration": 1.28,
+    "text": "it will give you error."
+  },
+  {
+    "start": 2762.96,
+    "duration": 1.62,
+    "text": "You will not be able to push it."
+  },
+  {
+    "start": 2764.58,
+    "duration": 2.06,
+    "text": "How can you push to upstream URL?"
+  },
+  {
+    "start": 2766.64,
+    "duration": 1.56,
+    "text": "You don't have access to it,"
+  },
+  {
+    "start": 2768.2,
+    "duration": 1.84,
+    "text": "but you have access to the origin URL"
+  },
+  {
+    "start": 2771.2,
+    "duration": 6.8,
+    "text": "because origin is your own account."
+  },
+  {
+    "start": 2778.0,
+    "duration": 1.2,
+    "text": "Let's go to it."
+  },
+  {
+    "start": 2779.2,
+    "duration": 1.8,
+    "text": "As you can see, there's an info,"
+  },
+  {
+    "start": 2781.0,
+    "duration": 1.96,
+    "text": "there's a thing, this thing,"
+  },
+  {
+    "start": 2782.96,
+    "duration": 5.44,
+    "text": "like all automatically it's saying us. Click on this. This is what you need to do. Whenever"
+  },
+  {
+    "start": 2788.4,
+    "duration": 5.48,
+    "text": "you add yours like this, you have to make sure that hey, let's say Rahul is doing it."
+  },
+  {
+    "start": 2793.88,
+    "duration": 6.44,
+    "text": "So Rahul's Kunal Rahul's comm classroom copy or the fork has a branch called Rahul let's"
+  },
+  {
+    "start": 2800.32,
+    "duration": 6.04,
+    "text": "say or Kunal's comm classroom copy has a branch called Kunal and that branch contains"
+  },
+  {
+    "start": 2806.36,
+    "duration": 5.64,
+    "text": "these changes. I am requesting hey, please merge these changes into the main branch"
+  },
+  {
+    "start": 2812.0,
+    "duration": 5.52,
+    "text": "of the project create a new pull request when you create a new pull request I will get this"
+  },
+  {
+    "start": 2817.52,
+    "duration": 5.08,
+    "text": "notification and then I can merge this code before merging I need to show you something"
+  },
+  {
+    "start": 2822.6,
+    "duration": 9.66,
+    "text": "else let's say I want to make some other changes let's say I say touch names dot txt you can"
+  },
+  {
+    "start": 2832.26,
+    "duration": 3.9,
+    "text": "see this git commit that I am doing it's going into the main not the main branch"
+  },
+  {
+    "start": 2836.16,
+    "duration": 4.08,
+    "text": "but the Kunal branch because head is at the Kunal branch right now I did git checkout"
+  },
+  {
+    "start": 2840.24,
+    "duration": 9.3,
+    "text": "or Kunal. This is something I am just doing to show you. Get push origin Kunal. You will"
+  },
+  {
+    "start": 2849.54,
+    "duration": 7.92,
+    "text": "notice that now it will not allow me to create a new pull request. It will add these commits"
+  },
+  {
+    "start": 2857.46,
+    "duration": 11.57,
+    "text": "here only. This will now become from 1 to 2. Let us see. Let us see. Refresh 2. This"
+  },
+  {
+    "start": 2869.03,
+    "duration": 4.48,
+    "text": "is the reason you should never commit on main branch. Why? Imagine you are working"
+  },
+  {
+    "start": 2873.51,
+    "duration": 6.4,
+    "text": "on 10 projects and let's say you're working on 10 features and for every feature you want"
+  },
+  {
+    "start": 2879.91,
+    "duration": 5.64,
+    "text": "you create just one pull request how difficult would it be to review your code to have the"
+  },
+  {
+    "start": 2885.55,
+    "duration": 4.92,
+    "text": "discussion it would be very difficult all the 10 different things on just one pull"
+  },
+  {
+    "start": 2890.47,
+    "duration": 5.08,
+    "text": "request that is why for every new feature every new bug or anything you are working"
+  },
+  {
+    "start": 2895.55,
+    "duration": 6.36,
+    "text": "on create a new pull request and from this example you can see that if a branch already"
+  },
+  {
+    "start": 2901.91,
+    "duration": 2.68,
+    "text": "has a pull request associated with it."
+  },
+  {
+    "start": 2904.59,
+    "duration": 2.96,
+    "text": "It will not allow you to create a new pull request."
+  },
+  {
+    "start": 2907.55,
+    "duration": 2.6,
+    "text": "All the commits will be added to that pull request only."
+  },
+  {
+    "start": 2910.15,
+    "duration": 4.7,
+    "text": "In simple language, one pull request means one branch."
+  },
+  {
+    "start": 2914.85,
+    "duration": 2.7,
+    "text": "One branch can only open one pull request."
+  },
+  {
+    "start": 2917.55,
+    "duration": 3.92,
+    "text": "If you want to open different pull requests for different features that you are working"
+  },
+  {
+    "start": 2921.47,
+    "duration": 4.72,
+    "text": "on in the project, which is also recommended that for that you want to open different"
+  },
+  {
+    "start": 2926.19,
+    "duration": 5.12,
+    "text": "pull request and since only one branch can be associated to one pull request."
+  },
+  {
+    "start": 2931.31,
+    "duration": 4.76,
+    "text": "So hence you will be able to need to create different branches."
+  },
+  {
+    "start": 2936.07,
+    "duration": 2.04,
+    "text": "So I hope that makes sense."
+  },
+  {
+    "start": 2938.11,
+    "duration": 4.92,
+    "text": "Any particular new thing you're working on, create a new branch in your local folder."
+  },
+  {
+    "start": 2943.03,
+    "duration": 1.88,
+    "text": "Make a pull request from that."
+  },
+  {
+    "start": 2944.91,
+    "duration": 3.6,
+    "text": "You can have 10 branches, 20 branches, 100 branches, whatever you like."
+  },
+  {
+    "start": 2948.51,
+    "duration": 4.28,
+    "text": "Make sure your work is distributed like this so that it does not get mixed up."
+  },
+  {
+    "start": 2952.79,
+    "duration": 5.12,
+    "text": "Okay, imagine one feature has 10,000 changes, 10,000 lines of changes and you're working"
+  },
+  {
+    "start": 2957.91,
+    "duration": 5.9,
+    "text": "on 10 such features. How difficult would it be to manage such a thing? Very difficult."
+  },
+  {
+    "start": 2963.81,
+    "duration": 5.18,
+    "text": "If you just created just one pull request for all the 10 features, don't do that. Okay,"
+  },
+  {
+    "start": 2968.99,
+    "duration": 6.04,
+    "text": "don't do that. React native 381 pull requests are currently open. This is doing something"
+  },
+  {
+    "start": 2975.03,
+    "duration": 5.04,
+    "text": "with pod log file. This is fixing some global node. This is removing some default property."
+  },
+  {
+    "start": 2980.07,
+    "duration": 4.68,
+    "text": "This is doing something with like iOS. Imagine all of these changes that were being made."
+  },
+  {
+    "start": 2984.75,
+    "duration": 6.72,
+    "text": "say you know four lines of change is being made and here something like some other line"
+  },
+  {
+    "start": 2991.47,
+    "duration": 5.28,
+    "text": "422 lines of change is being made. We know that these 16 files that have been changed"
+  },
+  {
+    "start": 2996.75,
+    "duration": 5.04,
+    "text": "relate to this particular issue. Now imagine all of these field pull requests were only on"
+  },
+  {
+    "start": 3001.79,
+    "duration": 4.8,
+    "text": "one single branch and one single PR. These 381 features or issues or bugs they are working"
+  },
+  {
+    "start": 3006.59,
+    "duration": 4.4,
+    "text": "on let's say there was just one PR for this. How difficult would it be to manage?"
+  },
+  {
+    "start": 3010.99,
+    "duration": 4.76,
+    "text": "branch. And also many people would have to collaborate then on the single PR that does"
+  },
+  {
+    "start": 3015.75,
+    "duration": 5.76,
+    "text": "not make sense. Everyone is working on their own pull request. Okay, that is in short. And"
+  },
+  {
+    "start": 3021.51,
+    "duration": 3.48,
+    "text": "now you also know why you should never commit on main branch, because if you do all the"
+  },
+  {
+    "start": 3024.99,
+    "duration": 4.28,
+    "text": "commits on main branch and not create another new branches, all the commits will go on"
+  },
+  {
+    "start": 3029.27,
+    "duration": 4.08,
+    "text": "the main branch only. Similarly, if you make all the commits on the Kunal branch,"
+  },
+  {
+    "start": 3033.35,
+    "duration": 2.64,
+    "text": "all the commits will come over here. If I want to add some new feature to this"
+  },
+  {
+    "start": 3035.99,
+    "duration": 4.64,
+    "text": "project, if I add it over in this branch only, it will come in this branch only,"
+  },
+  {
+    "start": 3040.63,
+    "duration": 3.84,
+    "text": "which is something I don't want to do because I've already explained it multiple times."
+  },
+  {
+    "start": 3044.47,
+    "duration": 4.8,
+    "text": "Make sure for every new feature bug, you create new branch so that you can open a new pull"
+  },
+  {
+    "start": 3049.27,
+    "duration": 1.16,
+    "text": "request."
+  },
+  {
+    "start": 3050.43,
+    "duration": 4.16,
+    "text": "So someone asks you why we create new branches, because we want to open a new pull request"
+  },
+  {
+    "start": 3054.59,
+    "duration": 3.24,
+    "text": "and we can only open new pull requests with new branches."
+  },
+  {
+    "start": 3057.83,
+    "duration": 4.44,
+    "text": "If a branch already has a pull request open, then we don't want to, we can't do that"
+  },
+  {
+    "start": 3062.27,
+    "duration": 3.14,
+    "text": "only all the commits will be added here only."
+  },
+  {
+    "start": 3065.41,
+    "duration": 3.4,
+    "text": "Another thing you may encounter is now this is an extra commit, let's say you"
+  },
+  {
+    "start": 3068.81,
+    "duration": 1.8,
+    "text": "don't want this commit."
+  },
+  {
+    "start": 3070.61,
+    "duration": 6.76,
+    "text": "this particular commit names.txt file added. If I look at the code sample, I look at the"
+  },
+  {
+    "start": 3077.37,
+    "duration": 5.88,
+    "text": "code sample for this. So you can see two files have been changed. ReadMe file was changed"
+  },
+  {
+    "start": 3083.25,
+    "duration": 6.52,
+    "text": "and names.txt was added. Let's say I want to remove this commit, the names.txt commit."
+  },
+  {
+    "start": 3089.77,
+    "duration": 6.64,
+    "text": "Reset thing I did reset previously, get status, get log, sorry. So I will just"
+  },
+  {
+    "start": 3096.41,
+    "duration": 8.46,
+    "text": "copy this thing. I want to remove this. So I will copy the one below it. Get reset. Now"
+  },
+  {
+    "start": 3104.87,
+    "duration": 11.48,
+    "text": "this names dot txt will be unstaged. Unstaged. I can say get add dot. I can do get stash."
+  },
+  {
+    "start": 3116.35,
+    "duration": 8.75,
+    "text": "It will go back to the, you know, some stash area. Gone. My structure is now exactly"
+  },
+  {
+    "start": 3125.1,
+    "duration": 5.74,
+    "text": "like I wanted names.txt file related and the commit is also delisted. So it is also removed"
+  },
+  {
+    "start": 3130.84,
+    "duration": 8.64,
+    "text": "from the commit history. When I push this, I would have to force push this because the"
+  },
+  {
+    "start": 3139.48,
+    "duration": 4.72,
+    "text": "online repository contains a commit that my repository does not. And I told you commits"
+  },
+  {
+    "start": 3144.2,
+    "duration": 12.48,
+    "text": "are interlinked. So I will have to force push this dash f. Let's refresh that commit"
+  },
+  {
+    "start": 3156.68,
+    "duration": 7.44,
+    "text": "is gone file change also to one only new names.txt file is gone commit is also one only main commit"
+  },
+  {
+    "start": 3164.12,
+    "duration": 9.25,
+    "text": "that I wanted that's it as simple as it gets that is how you work with pull requests all right cool"
+  },
+  {
+    "start": 3174.25,
+    "duration": 5.2,
+    "text": "so the next thing may be related to merging your pull request so let's say we merge this pull"
+  },
+  {
+    "start": 3179.45,
+    "duration": 6.96,
+    "text": "request I can merge this confirm merge now the changes I made in Kunal Kush Vahas Kunal branch"
+  },
+  {
+    "start": 3186.41,
+    "duration": 9.04,
+    "text": "here, they will now be represented in the main project, let's see, the changes I made in my"
+  },
+  {
+    "start": 3195.45,
+    "duration": 12.17,
+    "text": "own project, they are now merged into the main project, I hope that makes sense."
+  },
+  {
+    "start": 3207.62,
+    "duration": 6.2,
+    "text": "One more thing we can notice is that, let me open up this fork again, the fork is not"
+  },
+  {
+    "start": 3213.82,
+    "duration": 6.76,
+    "text": "updated. That is true. If you cannot directly change the account of com classroom, how can"
+  },
+  {
+    "start": 3220.58,
+    "duration": 5.22,
+    "text": "com classroom directly change your account? They can't do it. There are two ways to do"
+  },
+  {
+    "start": 3225.8,
+    "duration": 5.44,
+    "text": "this. You can click on this button fetch upstream. It basically means this branch is two commits"
+  },
+  {
+    "start": 3231.24,
+    "duration": 5.14,
+    "text": "behind the main branch. That is true. Let's look at the commits. This basically contains"
+  },
+  {
+    "start": 3236.38,
+    "duration": 5.88,
+    "text": "two extra commits that my main branch does not contain because the extra commit that"
+  },
+  {
+    "start": 3242.26,
+    "duration": 7.14,
+    "text": "I had was in the Kunal branch. It was not in the main branch. So this is the reason"
+  },
+  {
+    "start": 3249.4,
+    "duration": 4.7,
+    "text": "you might encounter something like, hey, some other person merged their code in the main"
+  },
+  {
+    "start": 3254.1,
+    "duration": 5.28,
+    "text": "branch. I want to look at that code sample as well in my own fork. How do I make sure"
+  },
+  {
+    "start": 3259.38,
+    "duration": 8.24,
+    "text": "that the main branch of the upstream and my own forks main branch is always maintained?"
+  },
+  {
+    "start": 3267.62,
+    "duration": 3.28,
+    "text": "There are a few commands that you can use for that. You can also use this button"
+  },
+  {
+    "start": 3270.9,
+    "duration": 6.06,
+    "text": "called fetch upstream. But I will actually teach you how to do it manually. First thing"
+  },
+  {
+    "start": 3276.96,
+    "duration": 10.2,
+    "text": "you need to do is get checkout your main branch. So you can see here in the main branch of my"
+  },
+  {
+    "start": 3287.16,
+    "duration": 9.6,
+    "text": "fork, I only have one commit, but in reality in upstream, it has three commits. First thing"
+  },
+  {
+    "start": 3296.76,
+    "duration": 6.08,
+    "text": "we need to do is we need to fetch all these commits and changes, get fetch dash dash"
+  },
+  {
+    "start": 3302.84,
+    "duration": 7.31,
+    "text": "all all the branches the prune means the ones that are related they will also be fetched okay now I"
+  },
+  {
+    "start": 3310.15,
+    "duration": 6.24,
+    "text": "fetched all the changes first step that was the first step second is get checkout main but you"
+  },
+  {
+    "start": 3316.39,
+    "duration": 6.48,
+    "text": "have already done that after that we can reset it reset the main branch of my origin to the main"
+  },
+  {
+    "start": 3322.87,
+    "duration": 10.32,
+    "text": "branch of upstream get reset dash dash hard upstream main branch get log three comments"
+  },
+  {
+    "start": 3334.31,
+    "duration": 3.32,
+    "text": "3 commits here, 3 commits here."
+  },
+  {
+    "start": 3337.63,
+    "duration": 5.72,
+    "text": "Now my folder, the fork that I have, the folder that I have on my local system, the main branch"
+  },
+  {
+    "start": 3343.35,
+    "duration": 7.84,
+    "text": "of that is exactly same as the one that I have in upstream over here."
+  },
+  {
+    "start": 3351.19,
+    "duration": 1.0,
+    "text": "Let's look at my fork."
+  },
+  {
+    "start": 3352.19,
+    "duration": 3.16,
+    "text": "It is currently also not updated because I have to push my changes."
+  },
+  {
+    "start": 3355.35,
+    "duration": 5.48,
+    "text": "I can say git push to my origin, which branch do I want to push?"
+  },
+  {
+    "start": 3360.83,
+    "duration": 13.57,
+    "text": "main branch in my local system time to refresh this branch is even with the main branch commits"
+  },
+  {
+    "start": 3374.4,
+    "duration": 5.36,
+    "text": "three same commits in my fork same commits over here that is how you keep in sync with"
+  },
+  {
+    "start": 3379.76,
+    "duration": 7.2,
+    "text": "the main branch fetch basically you can also do something like this get pull let me just"
+  },
+  {
+    "start": 3386.96,
+    "duration": 4.28,
+    "text": "do something let's say let's say we create another another commit over here okay let's"
+  },
+  {
+    "start": 3391.24,
+    "duration": 3.6,
+    "text": "say we create another commit in the main project just for demo purpose let me create"
+  },
+  {
+    "start": 3394.84,
+    "duration": 7.72,
+    "text": "another commit that I add is over here. I'm creating a directly but don't like for your"
+  },
+  {
+    "start": 3402.56,
+    "duration": 3.78,
+    "text": "project you can do anything you want for your personal projects but yeah now it contains"
+  },
+  {
+    "start": 3406.34,
+    "duration": 9.34,
+    "text": "four commits because I just added one update read me and my only contains three commits"
+  },
+  {
+    "start": 3415.68,
+    "duration": 6.52,
+    "text": "okay so it's like sorry two commits so basically it's like oh no no sorry main branch three"
+  },
+  {
+    "start": 3422.2,
+    "duration": 6.44,
+    "text": "commits. Okay, four commits, three commits. Now basically what I want to do is you can"
+  },
+  {
+    "start": 3428.64,
+    "duration": 12.8,
+    "text": "also do something like get pull upstream main. Make sense? This is the same thing that happened."
+  },
+  {
+    "start": 3441.44,
+    "duration": 5.86,
+    "text": "We did get fetch before get pull internally also does the same thing. I just showed"
+  },
+  {
+    "start": 3447.3,
+    "duration": 5.32,
+    "text": "you so that you can understand what is what is fetch, what is, you know, reset and whatever"
+  },
+  {
+    "start": 3452.62,
+    "duration": 4.16,
+    "text": "committing. So all of these things that we did previously were done in just one single"
+  },
+  {
+    "start": 3456.78,
+    "duration": 9.92,
+    "text": "command get push sorry get pull upstream URLs main branch. So in the Java code base, whenever"
+  },
+  {
+    "start": 3466.7,
+    "duration": 8.04,
+    "text": "you want to pull the code that I submit, you will just do get pull upstream main. That"
+  },
+  {
+    "start": 3474.74,
+    "duration": 6.24,
+    "text": "is what you will do. Okay, now again, all the changes are in my local folder only"
+  },
+  {
+    "start": 3480.98,
+    "duration": 6.4,
+    "text": "not in my upstream so here only three commits are visible get push origin main like hey"
+  },
+  {
+    "start": 3487.38,
+    "duration": 5.12,
+    "text": "my local folders main is in sync with the main branch the upstream branch let's also"
+  },
+  {
+    "start": 3492.5,
+    "duration": 17.28,
+    "text": "sync the origin URL then refresh ta-da even this structure and this structure is same"
+  },
+  {
+    "start": 3509.78,
+    "duration": 8.96,
+    "text": "com classroom is OP fork and upstream is same. That is about pull requests. That is also about"
+  },
+  {
+    "start": 3518.74,
+    "duration": 4.76,
+    "text": "how you can get your PRs merged, how you can create new branches, how you can make changes,"
+  },
+  {
+    "start": 3523.5,
+    "duration": 4.2,
+    "text": "how you can fetch with upstream. Two ways I already taught you one another way is you"
+  },
+  {
+    "start": 3527.7,
+    "duration": 4.74,
+    "text": "can just fetch upstream currently it's already you know in sync. So you can just click"
+  },
+  {
+    "start": 3532.44,
+    "duration": 4.5,
+    "text": "fetch and merge whenever you get a new new thing added. So if I say I remove this"
+  },
+  {
+    "start": 3536.94,
+    "duration": 13.7,
+    "text": "thing let's say or I add some new commit like an exclamation mark commit I can fetch refresh"
+  },
+  {
+    "start": 3550.64,
+    "duration": 10.74,
+    "text": "it contains five commits but I only have four commits fetch and merge very simple you don't"
+  },
+  {
+    "start": 3561.38,
+    "duration": 4.72,
+    "text": "even have to do git pull upstream main just just click on this button it will do it automatically"
+  },
+  {
+    "start": 3566.1,
+    "duration": 4.22,
+    "text": "for you but I hope you are able to understand what is forking I hope you are able to understand"
+  },
+  {
+    "start": 3570.32,
+    "duration": 4.0,
+    "text": "why we create new branches. I hope you are able to understand how we clone, how we get"
+  },
+  {
+    "start": 3574.32,
+    "duration": 5.32,
+    "text": "ad, date commit, how we keep in sync with the main branch of the upstream. I hope you know"
+  },
+  {
+    "start": 3579.64,
+    "duration": 4.64,
+    "text": "what is upstream and what is origin. And now let's look into a few more intermediate"
+  },
+  {
+    "start": 3584.28,
+    "duration": 4.84,
+    "text": "concepts. So if you want to try it out, hands on, what I would recommend you to do is"
+  },
+  {
+    "start": 3589.12,
+    "duration": 6.08,
+    "text": "just go to this URL, you know, this particular one, I'll leave it in the description below."
+  },
+  {
+    "start": 3595.2,
+    "duration": 4.0,
+    "text": "Obviously fork it on your own account, clone it, get do do the same things that"
+  },
+  {
+    "start": 3599.2,
+    "duration": 4.78,
+    "text": "that we did get remote ad upstream URL so that you can also fetch the changes whenever"
+  },
+  {
+    "start": 3603.98,
+    "duration": 5.46,
+    "text": "changes are made and then just write a line over here update your branch like whatever"
+  },
+  {
+    "start": 3609.44,
+    "duration": 4.8,
+    "text": "new branch you create and make a pull request and then I will merge your full request and"
+  },
+  {
+    "start": 3614.24,
+    "duration": 3.08,
+    "text": "your changes will be visible in the main project."
+  },
+  {
+    "start": 3617.32,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 3618.32,
+    "duration": 1.0,
+    "text": "Cool."
+  },
+  {
+    "start": 3619.32,
+    "duration": 2.2,
+    "text": "Let's look into one more thing."
+  },
+  {
+    "start": 3621.52,
+    "duration": 1.56,
+    "text": "So let me show you something else."
+  },
+  {
+    "start": 3623.08,
+    "duration": 2.16,
+    "text": "There are two more things I want you to show."
+  },
+  {
+    "start": 3625.24,
+    "duration": 7.8,
+    "text": "One is known as merge conflict and another thing is known as squashing your commits."
+  },
+  {
+    "start": 3633.04,
+    "duration": 3.96,
+    "text": "Okay, so if you have a lot of commits that you are working on and you want to merge that"
+  },
+  {
+    "start": 3637.0,
+    "duration": 3.12,
+    "text": "into just one commit, how do we do that?"
+  },
+  {
+    "start": 3640.12,
+    "duration": 7.0,
+    "text": "So I can say git checkout my Kunal branch, let's say or not Kunal branch, some other"
+  },
+  {
+    "start": 3647.12,
+    "duration": 7.8,
+    "text": "one, let's say create another branch, let's say grit branch temp, git checkout temp."
+  },
+  {
+    "start": 3654.92,
+    "duration": 4.28,
+    "text": "Whenever you create a new branch, your new branch is going to be created from your head."
+  },
+  {
+    "start": 3659.2,
+    "duration": 5.16,
+    "text": "So make sure whenever you create a new branch, your main or the master branch is up to date."
+  },
+  {
+    "start": 3664.36,
+    "duration": 5.08,
+    "text": "Whatever things that we did, make sure you do that before creating a new branch."
+  },
+  {
+    "start": 3669.44,
+    "duration": 4.28,
+    "text": "So now let's say I want to show you how to squash commits in just one single commit."
+  },
+  {
+    "start": 3673.72,
+    "duration": 3.0,
+    "text": "So how do I do that?"
+  },
+  {
+    "start": 3676.72,
+    "duration": 14.3,
+    "text": "touch one, get add dot, get commit minus m, I can add something like one, and then I can"
+  },
+  {
+    "start": 3691.02,
+    "duration": 8.6,
+    "text": "say touch two, just creating random files, I added two, then I can say touch three, added"
+  },
+  {
+    "start": 3699.62,
+    "duration": 8.6,
+    "text": "three, I can say touch four, I did four, whatever, Git log consists of all these commits. I want"
+  },
+  {
+    "start": 3708.22,
+    "duration": 7.44,
+    "text": "to merge all these commits in one single commit. How do I do that? You can use the rebase"
+  },
+  {
+    "start": 3715.66,
+    "duration": 5.8,
+    "text": "command for that. Okay, a few a trick you can do it is if you want to merge all these"
+  },
+  {
+    "start": 3721.46,
+    "duration": 3.92,
+    "text": "commits, or if you want to merge just these two commits, for example, if you want to"
+  },
+  {
+    "start": 3725.38,
+    "duration": 4.2,
+    "text": "merge all these commits, you can just reset, you know, if I reset this, this will"
+  },
+  {
+    "start": 3729.58,
+    "duration": 4.8,
+    "text": "be unstaged and then you can commit again you know that right when we when we reset this"
+  },
+  {
+    "start": 3734.38,
+    "duration": 4.88,
+    "text": "thing all the commits above it will be on the staging unstage area get them on the staging"
+  },
+  {
+    "start": 3739.26,
+    "duration": 3.8,
+    "text": "area and then just one one single commit you can make but we are going to try something"
+  },
+  {
+    "start": 3743.06,
+    "duration": 8.76,
+    "text": "different by copy this commit and I say get rebase minus I means the interactive environment"
+  },
+  {
+    "start": 3751.82,
+    "duration": 9.02,
+    "text": "copy. So you can see now all the commits above it, I can either pick or squash. So if I say"
+  },
+  {
+    "start": 3760.84,
+    "duration": 10.58,
+    "text": "squash, squash, these will be squashed into one single commit in the pick. So this main"
+  },
+  {
+    "start": 3771.42,
+    "duration": 5.9,
+    "text": "commit that we had one, these three commits will be updated in this commit. Squash basically"
+  },
+  {
+    "start": 3777.32,
+    "duration": 7.92,
+    "text": "means whichever one is listed as pick merge it into the previous commit so these two will"
+  },
+  {
+    "start": 3785.24,
+    "duration": 4.28,
+    "text": "be merged here let's say you only want to merge the middle two then you can just do"
+  },
+  {
+    "start": 3789.52,
+    "duration": 5.2,
+    "text": "these things will be merged in this one so these three will be one commit this is basically"
+  },
+  {
+    "start": 3794.72,
+    "duration": 5.24,
+    "text": "pick and squash pick basically means you are taking this commit I want this commit squash"
+  },
+  {
+    "start": 3799.96,
+    "duration": 7.28,
+    "text": "Squash basically means above these s, whichever pick you have, merge your commit in that."
+  },
+  {
+    "start": 3807.24,
+    "duration": 5.08,
+    "text": "Okay, let's say I want to merge all the three commits, all the, all these three commits in"
+  },
+  {
+    "start": 3812.32,
+    "duration": 1.0,
+    "text": "the above commit."
+  },
+  {
+    "start": 3813.32,
+    "duration": 7.0,
+    "text": "So I will make all of these as squash, and this one as pick, exit out of it, escape colon"
+  },
+  {
+    "start": 3820.32,
+    "duration": 6.24,
+    "text": "x, it will now allow you to create a message for this new commit."
+  },
+  {
+    "start": 3826.56,
+    "duration": 14.07,
+    "text": "So my message can be something like, I'll add a new message over here, I can say, commits"
+  },
+  {
+    "start": 3840.63,
+    "duration": 10.0,
+    "text": "merged, colon X, get log, one, two, three, four are gone, all of them are merged in just"
+  },
+  {
+    "start": 3850.63,
+    "duration": 2.08,
+    "text": "one single commit."
+  },
+  {
+    "start": 3852.71,
+    "duration": 2.0,
+    "text": "Awesome."
+  },
+  {
+    "start": 3854.71,
+    "duration": 1.16,
+    "text": "That's how you merge your codes."
+  },
+  {
+    "start": 3855.87,
+    "duration": 6.92,
+    "text": "Again, you can do simple, get push, origin, whatever you want, temp branch, so these"
+  },
+  {
+    "start": 3862.79,
+    "duration": 4.8,
+    "text": "all files will be available over there. I don't want these files so I can remove these get status"
+  },
+  {
+    "start": 3868.39,
+    "duration": 5.2,
+    "text": "so not get status get log this is what I want to remove this is the commit that created these"
+  },
+  {
+    "start": 3873.59,
+    "duration": 13.15,
+    "text": "four files copy this I can also do minus minus hard gone hard will actually reset it with hard"
+  },
+  {
+    "start": 3886.74,
+    "duration": 6.88,
+    "text": "so do it with caution okay so origin why does this thing keep coming now my"
+  },
+  {
+    "start": 3893.62,
+    "duration": 8.53,
+    "text": "Origin is also same at the same commit, upstream is also at the same commit, my head is also"
+  },
+  {
+    "start": 3902.15,
+    "duration": 4.72,
+    "text": "at the same commit, like in the origin, the head is also over there and my main branch"
+  },
+  {
+    "start": 3906.87,
+    "duration": 4.12,
+    "text": "is also over here, very nice."
+  },
+  {
+    "start": 3910.99,
+    "duration": 4.48,
+    "text": "Last thing remaining is merge conflicts, what are merge conflicts, how we resolve those."
+  },
+  {
+    "start": 3915.47,
+    "duration": 3.16,
+    "text": "Now what are merge conflicts, let us look into that."
+  },
+  {
+    "start": 3918.63,
+    "duration": 8.06,
+    "text": "Which conflict basically means that let's say you changed in a file, let's say you made"
+  },
+  {
+    "start": 3926.69,
+    "duration": 6.68,
+    "text": "a change on line number three, okay, and someone else also made a change in line number three."
+  },
+  {
+    "start": 3933.37,
+    "duration": 2.0,
+    "text": "Now Git will get confused."
+  },
+  {
+    "start": 3935.37,
+    "duration": 4.0,
+    "text": "Should I take your changes or should I take that person's changes?"
+  },
+  {
+    "start": 3939.37,
+    "duration": 2.2,
+    "text": "Which change do you want me to take?"
+  },
+  {
+    "start": 3941.57,
+    "duration": 1.2,
+    "text": "Git will get confused."
+  },
+  {
+    "start": 3942.77,
+    "duration": 1.24,
+    "text": "So Git will ask you for help."
+  },
+  {
+    "start": 3944.01,
+    "duration": 1.0,
+    "text": "Hey, please help me."
+  },
+  {
+    "start": 3945.01,
+    "duration": 1.6,
+    "text": "Tell me which change you want to take."
+  },
+  {
+    "start": 3946.61,
+    "duration": 3.7,
+    "text": "You want to take this change or you want to take that change because both of you people"
+  },
+  {
+    "start": 3950.31,
+    "duration": 2.42,
+    "text": "have modified the same line number."
+  },
+  {
+    "start": 3952.73,
+    "duration": 2.52,
+    "text": "Let's see how we can imitate this thing."
+  },
+  {
+    "start": 3955.25,
+    "duration": 2.8,
+    "text": "Let's try to get a merge conflict first."
+  },
+  {
+    "start": 3958.05,
+    "duration": 9.24,
+    "text": "So let's say I create a change in line number four, I create a, this is an example to"
+  },
+  {
+    "start": 3967.29,
+    "duration": 3.92,
+    "text": "make a merge conflict."
+  },
+  {
+    "start": 3971.21,
+    "duration": 7.52,
+    "text": "So I create a new pull request, create a new branch and a pull request I can say Rahul made"
+  },
+  {
+    "start": 3978.73,
+    "duration": 15.91,
+    "text": "this change for example, Rahul made changes in line for Rahul made changes in line for"
+  },
+  {
+    "start": 3994.64,
+    "duration": 1.76,
+    "text": "that is okay."
+  },
+  {
+    "start": 3996.4,
+    "duration": 9.1,
+    "text": "And that now let's say I create a new branch as well."
+  },
+  {
+    "start": 4005.5,
+    "duration": 4.76,
+    "text": "Let's take the temp branch only, it makes sense."
+  },
+  {
+    "start": 4010.26,
+    "duration": 5.28,
+    "text": "Let me also change line number 4, so me and Rahul both are changing line number 4 only,"
+  },
+  {
+    "start": 4015.54,
+    "duration": 4.72,
+    "text": "git will get confused, git will be like what are you doing, which line do you want me"
+  },
+  {
+    "start": 4020.26,
+    "duration": 8.69,
+    "text": "to take, you want me to take Rahul's line or your line, so I can say Kunal made this"
+  },
+  {
+    "start": 4028.95,
+    "duration": 17.47,
+    "text": "this change, get add dot, get commit minus m, Kunal changed line 4, then I will just open"
+  },
+  {
+    "start": 4046.42,
+    "duration": 15.85,
+    "text": "a pull request, I have to push it, get push, origin, compare and pull request, hey Kunals"
+  },
+  {
+    "start": 4062.27,
+    "duration": 5.52,
+    "text": "temp branch please merge it into the main branch, I will like cool, let us merge it,"
+  },
+  {
+    "start": 4067.79,
+    "duration": 7.76,
+    "text": "Let's do merge conflict, it's currently checking, there you go."
+  },
+  {
+    "start": 4075.55,
+    "duration": 6.79,
+    "text": "It's giving me merge conflict now with the readme file."
+  },
+  {
+    "start": 4082.34,
+    "duration": 5.08,
+    "text": "Currently it's giving me with something else, but let's see what it's giving me conflict"
+  },
+  {
+    "start": 4087.42,
+    "duration": 5.77,
+    "text": "with."
+  },
+  {
+    "start": 4093.19,
+    "duration": 5.8,
+    "text": "Yeah, there are some conflicts over here for some reason, but let's say I make,"
+  },
+  {
+    "start": 4098.99,
+    "duration": 2.72,
+    "text": "let's say I resolve these for now."
+  },
+  {
+    "start": 4101.71,
+    "duration": 8.46,
+    "text": "Let's say I resolve it like, let's say I check these only, that's fine, mark as resolved,"
+  },
+  {
+    "start": 4110.17,
+    "duration": 1.0,
+    "text": "commit."
+  },
+  {
+    "start": 4111.17,
+    "duration": 9.2,
+    "text": "Let's say what we want to do is that when this PR will get merged, Rahul's PR, let's"
+  },
+  {
+    "start": 4120.37,
+    "duration": 5.0,
+    "text": "say Rahul's, this is an important point, we both have changed line number four, Rahul"
+  },
+  {
+    "start": 4125.37,
+    "duration": 6.12,
+    "text": "changed line number four, I also changed line number four."
+  },
+  {
+    "start": 4131.49,
+    "duration": 8.39,
+    "text": "Now what is going to happen is let us say we merge this pull request, this is merged,"
+  },
+  {
+    "start": 4139.88,
+    "duration": 7.8,
+    "text": "let us refresh, now it is giving me conflict, it is like hey Rahul just got his PR merged"
+  },
+  {
+    "start": 4147.68,
+    "duration": 6.6,
+    "text": "in line number 4 and you are trying to change that only, which one do you want me to take?"
+  },
+  {
+    "start": 4154.28,
+    "duration": 6.48,
+    "text": "That is a merge conflict, so I would have to resolve it manually, so here you can"
+  },
+  {
+    "start": 4160.76,
+    "duration": 6.44,
+    "text": "say that Kunal made this change and here you can say Rahul made this change."
+  },
+  {
+    "start": 4167.2,
+    "duration": 1.32,
+    "text": "This is my change in line four."
+  },
+  {
+    "start": 4168.52,
+    "duration": 1.0,
+    "text": "This is Rahul's change."
+  },
+  {
+    "start": 4169.52,
+    "duration": 3.0,
+    "text": "So it's saying, hey, you want to take this one or you want to take this one."
+  },
+  {
+    "start": 4172.52,
+    "duration": 2.24,
+    "text": "I'm like, okay, I want to take, I want to take this one."
+  },
+  {
+    "start": 4174.76,
+    "duration": 1.24,
+    "text": "I don't want the main one."
+  },
+  {
+    "start": 4176.0,
+    "duration": 2.2,
+    "text": "I want my own one."
+  },
+  {
+    "start": 4178.2,
+    "duration": 5.51,
+    "text": "Mark as a result, commit merge."
+  },
+  {
+    "start": 4183.71,
+    "duration": 5.36,
+    "text": "So I over read, I did the overriding of whatever change Rahul made."
+  },
+  {
+    "start": 4189.07,
+    "duration": 3.92,
+    "text": "So this change was made by Rahul and I removed it."
+  },
+  {
+    "start": 4192.99,
+    "duration": 4.96,
+    "text": "it was a branch being created. No, when I created it, it was from the master branch. So that from"
+  },
+  {
+    "start": 4197.95,
+    "duration": 4.64,
+    "text": "the main branch, like Rahul made a chain at line five. You also made a change at line five,"
+  },
+  {
+    "start": 4203.63,
+    "duration": 3.52,
+    "text": "which change do you want me to take? It's like, okay, fine, take my change."
+  },
+  {
+    "start": 4208.03,
+    "duration": 7.44,
+    "text": "When I merge this pull request in the main branch, you can see now my changes are"
+  },
+  {
+    "start": 4215.47,
+    "duration": 9.34,
+    "text": "available. Rahul's are not available. Hope that makes sense. Cool. Alrighty."
+  },
+  {
+    "start": 4226.41,
+    "duration": 8.62,
+    "text": "So you can say Rahul can open up a PR over here as well cool"
+  },
+  {
+    "start": 4236.71,
+    "duration": 2.0,
+    "text": "Now I'm going to our fork again"
+  },
+  {
+    "start": 4239.35,
+    "duration": 8.42,
+    "text": "There is my fork. So in my fork over here, I can see that this is six commits behind the main branch fetch"
+  },
+  {
+    "start": 4248.81,
+    "duration": 2.0,
+    "text": "which and merge"
+  },
+  {
+    "start": 4251.25,
+    "duration": 6.59,
+    "text": "Now it's even pretty cool stuff. Alrighty"
+  },
+  {
+    "start": 4259.52,
+    "duration": 5.52,
+    "text": "Alrighty so that was about this session and that is more than enough for you to get started even with open source contributions"
+  },
+  {
+    "start": 4265.04,
+    "duration": 4.8,
+    "text": "One last thing I would like to share is no matter how many videos you watch, if you are"
+  },
+  {
+    "start": 4269.84,
+    "duration": 5.72,
+    "text": "not able to apply these things practically and actually get stuck and then resolve the"
+  },
+  {
+    "start": 4275.56,
+    "duration": 3.6,
+    "text": "doubts and everything, you will not get the intuition behind it."
+  },
+  {
+    "start": 4279.16,
+    "duration": 1.68,
+    "text": "So get some hands on practice."
+  },
+  {
+    "start": 4280.84,
+    "duration": 3.24,
+    "text": "You will get some hands on practice and when you will be downloading the code sample"
+  },
+  {
+    "start": 4284.08,
+    "duration": 4.68,
+    "text": "that I share in community classrooms, basically here we have the."
+  },
+  {
+    "start": 4288.76,
+    "duration": 3.64,
+    "text": "So first thing I wanted to do is actually create a pull, make a pull request in"
+  },
+  {
+    "start": 4292.4,
+    "duration": 4.68,
+    "text": "in con con classroom OP. So I actually make some changes over here. I'll basically make"
+  },
+  {
+    "start": 4297.08,
+    "duration": 9.35,
+    "text": "some change like make some changes over here. Okay, share about what you liked and everything."
+  },
+  {
+    "start": 4306.43,
+    "duration": 4.48,
+    "text": "And the next thing is all the changes that are all the code sample and everything I'll"
+  },
+  {
+    "start": 4310.91,
+    "duration": 4.28,
+    "text": "be submitting it will be over here. So in the lectures folder, here I'll be sharing"
+  },
+  {
+    "start": 4315.19,
+    "duration": 3.72,
+    "text": "all the lectures, you can see, get cheat sheet it already updated. So all the commands"
+  },
+  {
+    "start": 4318.91,
+    "duration": 5.52,
+    "text": "and everything that we mentioned are available in this cheat sheet by GitHub okay so rewriting"
+  },
+  {
+    "start": 4324.43,
+    "duration": 3.72,
+    "text": "history and everything some some more advanced concepts but this is more than enough for"
+  },
+  {
+    "start": 4328.15,
+    "duration": 3.4,
+    "text": "you to get started and everything you need all the code samples I'll be uploading over"
+  },
+  {
+    "start": 4331.55,
+    "duration": 3.88,
+    "text": "here for the complete data structures bootcamp make sure you share and subscribe to this"
+  },
+  {
+    "start": 4335.43,
+    "duration": 3.08,
+    "text": "video and like if you have any questions we have the discord channel all the links"
+  },
+  {
+    "start": 4338.51,
+    "duration": 4.4,
+    "text": "are in the description and looking forward to your pull request and everything you"
+  },
+  {
+    "start": 4342.91,
+    "duration": 5.36,
+    "text": "know and yeah thanks a lot for watching and do check out the links in the description"
+  },
+  {
+    "start": 4348.27,
+    "duration": 5.68,
+    "text": "and subscribe and share with your friends and I'll see you in the next one. Bye."
+  }
+]

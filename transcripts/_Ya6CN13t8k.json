@@ -1,0 +1,4332 @@
+[
+  {
+    "start": 3.82,
+    "duration": 4.96,
+    "text": "Welcome back to another video. This is the second video of the complete object-oriented programming"
+  },
+  {
+    "start": 9.34,
+    "duration": 5.36,
+    "text": "playlist. And that playlist is a part of the complete data structures algorithms plus Java plus interview"
+  },
+  {
+    "start": 14.7,
+    "duration": 5.6,
+    "text": "preparation bootcamp. It's my guarantee that this is the only course you need. People are loving it."
+  },
+  {
+    "start": 20.3,
+    "duration": 3.2,
+    "text": "So please check it out. The links are in the description. Let's get started. So in the previous"
+  },
+  {
+    "start": 23.5,
+    "duration": 3.6,
+    "text": "video we talked about like in object-oriented programming previous video, we talked about"
+  },
+  {
+    "start": 27.1,
+    "duration": 3.68,
+    "text": "like the introduction, what are classes, memory management, what are objects, the new"
+  },
+  {
+    "start": 30.78,
+    "duration": 5.04,
+    "text": "keyword, what are the constructors, the keywords like this finalized method and like the final"
+  },
+  {
+    "start": 35.82,
+    "duration": 3.92,
+    "text": "keyword and the wrapper classes and all these other things. We talked about the basics and"
+  },
+  {
+    "start": 39.74,
+    "duration": 3.68,
+    "text": "why we are doing it, what we are doing, how to learn object-improving and everything we"
+  },
+  {
+    "start": 43.42,
+    "duration": 4.64,
+    "text": "we covered like that. What are we doing in this video? This is a very important video."
+  },
+  {
+    "start": 48.06,
+    "duration": 3.28,
+    "text": "Another more important video is the next one when we'll be doing the property."
+  },
+  {
+    "start": 51.34,
+    "duration": 3.84,
+    "text": "Actually, every video is important. So please watch every single video."
+  },
+  {
+    "start": 55.18,
+    "duration": 5.92,
+    "text": "So in this video, we are learning about packages, okay, so there are a few things if you have been"
+  },
+  {
+    "start": 61.1,
+    "duration": 3.76,
+    "text": "following the data structures algorithms bootcamp. So there are a few things that I used to say,"
+  },
+  {
+    "start": 64.86,
+    "duration": 3.6,
+    "text": "hey, we will cover this in object-oriented programming. We will cover this in object-oriented"
+  },
+  {
+    "start": 68.46,
+    "duration": 4.56,
+    "text": "programming. That's what I used to say. This video is about that. So a few things that we"
+  },
+  {
+    "start": 73.02,
+    "duration": 4.24,
+    "text": "used before, but I did not give you an in-depth explanation. Why did I not give you an"
+  },
+  {
+    "start": 77.26,
+    "duration": 4.96,
+    "text": "in-depth explanation? Because that was concept of object-oriented programming. And now we"
+  },
+  {
+    "start": 82.22,
+    "duration": 3.04,
+    "text": "we are doing oops all those things that I mentioned previously that I will tell you"
+  },
+  {
+    "start": 85.26,
+    "duration": 4.84,
+    "text": "in object-to-impriming this video is for that things like what are packages right"
+  },
+  {
+    "start": 90.1,
+    "duration": 3.0,
+    "text": "we have been using packages but I did not give you an in-depth explanation I"
+  },
+  {
+    "start": 93.1,
+    "duration": 4.04,
+    "text": "will give you in this section static keyword we say public static void main"
+  },
+  {
+    "start": 97.14,
+    "duration": 4.8,
+    "text": "okay so I'll give you tell you about static this public thing I will teach you"
+  },
+  {
+    "start": 101.94,
+    "duration": 4.32,
+    "text": "in the fourth video okay what is this public private is known as access"
+  },
+  {
+    "start": 106.26,
+    "duration": 3.88,
+    "text": "modifiers access control I will teach you in fourth video okay because for"
+  },
+  {
+    "start": 110.14,
+    "duration": 7.0,
+    "text": "that properties video is important. So, what is static and stuff? Why we are using static?"
+  },
+  {
+    "start": 117.14,
+    "duration": 4.0,
+    "text": "Why is main static? And all these other questions, what are non-static and everything? What is"
+  },
+  {
+    "start": 121.14,
+    "duration": 4.64,
+    "text": "static in general? The static stuff, non-static stuff will be covered in this video. It is"
+  },
+  {
+    "start": 125.78,
+    "duration": 3.64,
+    "text": "one of the most important concepts in Java Objective Bramming. We'll cover singlet"
+  },
+  {
+    "start": 129.42,
+    "duration": 2.96,
+    "text": "and class and stuff, which is something I've not mentioned before, but it's related"
+  },
+  {
+    "start": 132.38,
+    "duration": 3.88,
+    "text": "to static, so we'll cover that. We'll also cover, you know, like we have been"
+  },
+  {
+    "start": 136.26,
+    "duration": 5.88,
+    "text": "using so many methods like arrays dot two string public static void main inside that we have"
+  },
+  {
+    "start": 142.14,
+    "duration": 5.0,
+    "text": "the string class we control click and we go inside the class and stuff like that we've"
+  },
+  {
+    "start": 147.14,
+    "duration": 3.68,
+    "text": "been using so many methods like arrays dot two string and stuff like that I'll give you"
+  },
+  {
+    "start": 150.82,
+    "duration": 4.16,
+    "text": "an introduction to that like what is this thing actually and how you can make your"
+  },
+  {
+    "start": 154.98,
+    "duration": 8.2,
+    "text": "own such methods like if you have your own class how it trains basically what happens"
+  },
+  {
+    "start": 163.18,
+    "duration": 3.76,
+    "text": "is something also I teach you right now but it's more of a in-depth concept of"
+  },
+  {
+    "start": 166.94,
+    "duration": 4.24,
+    "text": "overriding so I'll tell you more about that in detail in the third video okay"
+  },
+  {
+    "start": 171.18,
+    "duration": 3.84,
+    "text": "then we'll be doing like the special methods and stuff so remember in the"
+  },
+  {
+    "start": 175.02,
+    "duration": 4.08,
+    "text": "previous video when I printed out an object okay so let me show you an"
+  },
+  {
+    "start": 179.1,
+    "duration": 5.92,
+    "text": "example for this let me just quickly show you what I mean so you have your"
+  },
+  {
+    "start": 185.02,
+    "duration": 7.0,
+    "text": "simple object a object okay and here I can just say this is what I mean"
+  },
+  {
+    "start": 192.02,
+    "duration": 9.7,
+    "text": "right? I can say new A. I can say some random name like this. Now if I just print object,"
+  },
+  {
+    "start": 201.72,
+    "duration": 11.77,
+    "text": "if I just print object, what will it show? Let's see, is just showing some hash value,"
+  },
+  {
+    "start": 213.49,
+    "duration": 5.84,
+    "text": "okay, some random like stuff and like this hash value over here. So we don't want this,"
+  },
+  {
+    "start": 219.33,
+    "duration": 7.32,
+    "text": "we want that whenever you print any object of type A, of type A, it should actually"
+  },
+  {
+    "start": 226.65,
+    "duration": 7.28,
+    "text": "print out what it should actually print out. Let's say a nice, let's say a name or something"
+  },
+  {
+    "start": 233.93,
+    "duration": 5.32,
+    "text": "or number name and number. This is what it needs to print out for that we use something"
+  },
+  {
+    "start": 239.25,
+    "duration": 4.32,
+    "text": "in owners overriding because in the initial videos I told you that whenever you print"
+  },
+  {
+    "start": 243.57,
+    "duration": 4.84,
+    "text": "something print Ellen internally calls the two string method you can see control click"
+  },
+  {
+    "start": 248.41,
+    "duration": 7.6,
+    "text": "value of two string. So it's saying object dot two string and if a two string method"
+  },
+  {
+    "start": 256.01,
+    "duration": 6.96,
+    "text": "is not present in the objects class to string method here is not present it will take the"
+  },
+  {
+    "start": 262.97,
+    "duration": 5.36,
+    "text": "default to string method which is this that's why it's saying you know at the rate get class"
+  },
+  {
+    "start": 268.33,
+    "duration": 6.32,
+    "text": "get name that's that is what we got get class name and stuff this is the class get name"
+  },
+  {
+    "start": 274.65,
+    "duration": 3.76,
+    "text": "and the name of the class and this is like the package we will cover in this in detail"
+  },
+  {
+    "start": 278.41,
+    "duration": 7.68,
+    "text": "like right now and this is the hash value so hash code okay in detail explanation of"
+  },
+  {
+    "start": 286.09,
+    "duration": 6.48,
+    "text": "how you can modify this two string function for your own class will come when we do overwrite okay"
+  },
+  {
+    "start": 292.57,
+    "duration": 4.48,
+    "text": "but that is something I wanted to mention like right now we'll be doing like what we are doing"
+  },
+  {
+    "start": 297.05,
+    "duration": 3.92,
+    "text": "and actually how it works internally we'll be doing in the third video which is the next video"
+  },
+  {
+    "start": 301.61,
+    "duration": 4.8,
+    "text": "so let's move forward and let's just cover some nice things like packages and stuff and just"
+  },
+  {
+    "start": 306.41,
+    "duration": 4.88,
+    "text": "get on with it yeah okay so we are not skipping anything I will literally never skip anything"
+  },
+  {
+    "start": 311.29,
+    "duration": 3.84,
+    "text": "it will be covered in the like this particular thing will be covered in the next video I"
+  },
+  {
+    "start": 315.13,
+    "duration": 4.24,
+    "text": "I just wanted to mention like, because in this video, I'll also talk to you about this"
+  },
+  {
+    "start": 319.37,
+    "duration": 4.68,
+    "text": "line system.outdoorprintln what is this line internal details of this line that I will"
+  },
+  {
+    "start": 324.05,
+    "duration": 1.4,
+    "text": "cover in this video only."
+  },
+  {
+    "start": 325.45,
+    "duration": 3.84,
+    "text": "Okay, let's first cover about packages and before moving on to packages, let's us see"
+  },
+  {
+    "start": 329.29,
+    "duration": 3.84,
+    "text": "why we are what are packages and why why we are using packages."
+  },
+  {
+    "start": 333.13,
+    "duration": 1.24,
+    "text": "Okay, no problem."
+  },
+  {
+    "start": 334.37,
+    "duration": 4.12,
+    "text": "So let's say you have a class over here called main.java or whatever."
+  },
+  {
+    "start": 338.49,
+    "duration": 5.24,
+    "text": "I create another class with the same name main.java."
+  },
+  {
+    "start": 343.73,
+    "duration": 6.84,
+    "text": "saying cannot create class it did not allow me to create the class right so packages help"
+  },
+  {
+    "start": 350.57,
+    "duration": 5.2,
+    "text": "us in solving this problem what are packages obviously you don't have to take notes of this"
+  },
+  {
+    "start": 355.77,
+    "duration": 5.8,
+    "text": "I will give you the notes on the GitHub repository so packages are just containers for classes"
+  },
+  {
+    "start": 361.57,
+    "duration": 6.52,
+    "text": "like boxes for classes okay it's used to keep the class name the class names classes"
+  },
+  {
+    "start": 368.09,
+    "duration": 9.88,
+    "text": "have names right in compartments okay compartmentalized okay compartmentalized that is the reason"
+  },
+  {
+    "start": 377.97,
+    "duration": 5.46,
+    "text": "in simple language for example you have a package something okay a package will allow"
+  },
+  {
+    "start": 383.43,
+    "duration": 7.0,
+    "text": "you to let's say let's say you have a class main.java okay and this prints hello world"
+  },
+  {
+    "start": 390.43,
+    "duration": 3.0,
+    "text": "Okay, let me just create another package over here."
+  },
+  {
+    "start": 393.43,
+    "duration": 5.0,
+    "text": "I can say new package, com.kunal.packages, okay."
+  },
+  {
+    "start": 401.03,
+    "duration": 2.96,
+    "text": "So in simple terms, a package is just a folder."
+  },
+  {
+    "start": 404.95,
+    "duration": 2.5,
+    "text": "A package is just a folder."
+  },
+  {
+    "start": 407.45,
+    "duration": 1.38,
+    "text": "If you see on the GitHub repository,"
+  },
+  {
+    "start": 408.83,
+    "duration": 3.08,
+    "text": "you can see this packages folder, introduction folder,"
+  },
+  {
+    "start": 411.91,
+    "duration": 4.0,
+    "text": "this com folder, .kunal means in the com folder,"
+  },
+  {
+    "start": 415.91,
+    "duration": 2.3,
+    "text": "there is a dot, there's a Kunal folder."
+  },
+  {
+    "start": 418.21,
+    "duration": 7.0,
+    "text": "that's why it's saying calm dot Kunal, but if I create another folder in calm, in that"
+  },
+  {
+    "start": 425.21,
+    "duration": 4.38,
+    "text": "case, it will not say calm dot Kunal. In that case, it will spread it out like this, like"
+  },
+  {
+    "start": 429.59,
+    "duration": 6.14,
+    "text": "in total. Remember when I deleted this, okay, so basically the idea is if inside the folder,"
+  },
+  {
+    "start": 435.73,
+    "duration": 5.0,
+    "text": "there is only one folder, it will append it to the name like this. This is something"
+  },
+  {
+    "start": 440.73,
+    "duration": 5.4,
+    "text": "by IntelliJ idea. Okay, for example, packages folder removed. Now calm dot Kunal folder"
+  },
+  {
+    "start": 446.13,
+    "duration": 7.85,
+    "text": "com.kunal is actually two folders, com and inside that Kunal, okay, let me show you."
+  },
+  {
+    "start": 453.98,
+    "duration": 4.72,
+    "text": "So here you can see in the object-reinfoaming folder, you can also find it on GitHub."
+  },
+  {
+    "start": 458.7,
+    "duration": 7.8,
+    "text": "I have my code, it has source com.kunal and then introduction in packages."
+  },
+  {
+    "start": 466.5,
+    "duration": 2.52,
+    "text": "So this com.kunal means what?"
+  },
+  {
+    "start": 469.02,
+    "duration": 5.16,
+    "text": "Com is a folder inside that there is a Kunal folder and inside com there is only one"
+  },
+  {
+    "start": 474.18,
+    "duration": 1.76,
+    "text": "Kunal folder only."
+  },
+  {
+    "start": 475.94,
+    "duration": 3.6,
+    "text": "That is why IntelliJ IDEA is writing it as com.kunal."
+  },
+  {
+    "start": 479.54,
+    "duration": 3.64,
+    "text": "If it had two folders, let me make another folder demo."
+  },
+  {
+    "start": 483.18,
+    "duration": 2.6,
+    "text": "Now it will not be like com.kunal or com.demo."
+  },
+  {
+    "start": 485.78,
+    "duration": 5.4,
+    "text": "Now it will just like com and then the next ones will be like just available over here."
+  },
+  {
+    "start": 491.18,
+    "duration": 5.16,
+    "text": "See com.kunal.demo."
+  },
+  {
+    "start": 496.34,
+    "duration": 1.4,
+    "text": "So no dot available like this."
+  },
+  {
+    "start": 497.74,
+    "duration": 6.08,
+    "text": "But if I just remove demo from here, remove demo, delete."
+  },
+  {
+    "start": 503.82,
+    "duration": 2.0,
+    "text": "Now it says com only has one folder."
+  },
+  {
+    "start": 505.82,
+    "duration": 3.28,
+    "text": "just append it to this it's just much more cleaner looking thing so what are"
+  },
+  {
+    "start": 509.1,
+    "duration": 3.56,
+    "text": "packages just folders okay moving forward we know it has this folder but"
+  },
+  {
+    "start": 512.66,
+    "duration": 4.64,
+    "text": "what is the use case so let's say you have a class main dot Java you want to"
+  },
+  {
+    "start": 517.3,
+    "duration": 6.96,
+    "text": "create another that just prints out let's say you have a class called hello"
+  },
+  {
+    "start": 524.26,
+    "duration": 5.04,
+    "text": "dot Java or something okay hello dot Java or greeting dot greeting dot Java"
+  },
+  {
+    "start": 529.3,
+    "duration": 8.92,
+    "text": "okay you have a class greeting dot Java what does it do what does it do"
+  },
+  {
+    "start": 538.22,
+    "duration": 3.72,
+    "text": "We just print hello world."
+  },
+  {
+    "start": 541.94,
+    "duration": 7.44,
+    "text": "You want another greeting dot Java file that prints I am awesome but it's not allowing me"
+  },
+  {
+    "start": 549.38,
+    "duration": 1.0,
+    "text": "to do that."
+  },
+  {
+    "start": 550.38,
+    "duration": 5.0,
+    "text": "It's saying hey the folder that you are currently in it already has greeting dot Java."
+  },
+  {
+    "start": 555.38,
+    "duration": 4.6,
+    "text": "You cannot have two file names with the same thing."
+  },
+  {
+    "start": 559.98,
+    "duration": 2.2,
+    "text": "This is where packages come in."
+  },
+  {
+    "start": 562.18,
+    "duration": 4.12,
+    "text": "So you can create one greeting dot Java in some other folder another greeting dot"
+  },
+  {
+    "start": 566.3,
+    "duration": 1.84,
+    "text": "Java in some other folder."
+  },
+  {
+    "start": 568.14,
+    "duration": 5.76,
+    "text": "I can create let's say another package as many folders package A and in this I can put greeting"
+  },
+  {
+    "start": 573.9,
+    "duration": 12.72,
+    "text": "dot Java then I can create another package B package B and here I can create another file"
+  },
+  {
+    "start": 586.62,
+    "duration": 9.29,
+    "text": "greeting dot Java now it will allow me to do it are you able to understand why we are"
+  },
+  {
+    "start": 595.91,
+    "duration": 5.4,
+    "text": "using packages it's nothing confusing packages are only what folders that allow you to"
+  },
+  {
+    "start": 601.31,
+    "duration": 7.0,
+    "text": "create like these multiple like basically compartment create compartments and folders for your classes"
+  },
+  {
+    "start": 608.31,
+    "duration": 5.68,
+    "text": "you can have a package called something like you can have a package called front end you"
+  },
+  {
+    "start": 613.99,
+    "duration": 4.28,
+    "text": "can have a package different package called back end I have different different packages"
+  },
+  {
+    "start": 618.27,
+    "duration": 10.31,
+    "text": "so for this introduction package normal packages package any name I can give you okay so now"
+  },
+  {
+    "start": 628.58,
+    "duration": 4.2,
+    "text": "the concern that our names will collide with some other classes you know they are"
+  },
+  {
+    "start": 632.78,
+    "duration": 7.08,
+    "text": "are stored elsewhere, they are gone. Okay. So as I just showed you an example, packages"
+  },
+  {
+    "start": 639.86,
+    "duration": 5.52,
+    "text": "are stored in a hierarchical manner. And one more thing I want to mention is about this"
+  },
+  {
+    "start": 645.38,
+    "duration": 5.04,
+    "text": "one line, line number one, okay, I'll tell you that later on. So that's basically the"
+  },
+  {
+    "start": 650.42,
+    "duration": 4.12,
+    "text": "idea hierarchical method means like folder inside a folder inside a folder. That is"
+  },
+  {
+    "start": 654.54,
+    "duration": 5.44,
+    "text": "what I meant by hierarchical method. Okay. And what is the use case of this? We already"
+  },
+  {
+    "start": 659.98,
+    "duration": 4.76,
+    "text": "We covered that it's useful like the naming and the visibility, you know, like the visibility"
+  },
+  {
+    "start": 664.74,
+    "duration": 3.72,
+    "text": "control like one file is over here, some other file is over here."
+  },
+  {
+    "start": 668.46,
+    "duration": 3.56,
+    "text": "So greeting file in package B has some other use cases."
+  },
+  {
+    "start": 672.02,
+    "duration": 4.56,
+    "text": "Same greeting file with the same name in package A has some other use cases."
+  },
+  {
+    "start": 676.58,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 677.58,
+    "duration": 4.04,
+    "text": "So it's mostly for like visibility and stuff when we do access modifier in that case"
+  },
+  {
+    "start": 681.62,
+    "duration": 1.56,
+    "text": "also there will be a protected type."
+  },
+  {
+    "start": 683.18,
+    "duration": 2.28,
+    "text": "They will learn more about packages."
+  },
+  {
+    "start": 685.46,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 686.46,
+    "duration": 4.52,
+    "text": "Good."
+  },
+  {
+    "start": 690.98,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 691.98,
+    "duration": 2.48,
+    "text": "Now, what is this thing?"
+  },
+  {
+    "start": 694.46,
+    "duration": 7.88,
+    "text": "This is basically, you have to mention it, you know, whenever you are writing a file,"
+  },
+  {
+    "start": 702.34,
+    "duration": 5.52,
+    "text": "you have to mention in which package that file lies, okay, that is basically what it"
+  },
+  {
+    "start": 707.86,
+    "duration": 1.0,
+    "text": "represents."
+  },
+  {
+    "start": 708.86,
+    "duration": 5.2,
+    "text": "So, starting from the source folder, what is the path of the folders that this file"
+  },
+  {
+    "start": 714.06,
+    "duration": 1.0,
+    "text": "lies in?"
+  },
+  {
+    "start": 715.06,
+    "duration": 3.48,
+    "text": "I know it's on in the com folder, there's a Kunal folder, then there's a packages"
+  },
+  {
+    "start": 718.54,
+    "duration": 7.76,
+    "text": "Then there's a b folder in that folder this file lies so I have to specify this over here in this line for the compiler"
+  },
+  {
+    "start": 728.08,
+    "duration": 2.44,
+    "text": "Okay, let me tell you a little bit more about packages"
+  },
+  {
+    "start": 730.54,
+    "duration": 0.48,
+    "text": "Okay"
+  },
+  {
+    "start": 731.02,
+    "duration": 8.06,
+    "text": "So obviously the name of this particular thing the folders on this thing have to be the same as the actual folders in your file"
+  },
+  {
+    "start": 739.08,
+    "duration": 4.56,
+    "text": "System which are over here. I also showed it to you in that you know the file folder over here"
+  },
+  {
+    "start": 743.64,
+    "duration": 2.0,
+    "text": "These names are also same"
+  },
+  {
+    "start": 745.64,
+    "duration": 7.88,
+    "text": "right? So that is basically what it is. And yeah, so for example, like com.kunal.packages.b,"
+  },
+  {
+    "start": 753.52,
+    "duration": 3.8,
+    "text": "so this file will be stored in com folder inside Kunal folder inside packages inside"
+  },
+  {
+    "start": 757.32,
+    "duration": 7.12,
+    "text": "be in your file system. Okay, so that's why please name your packages carefully, because"
+  },
+  {
+    "start": 764.44,
+    "duration": 3.8,
+    "text": "if you want to change a package, you would have to change the folder name. The convention"
+  },
+  {
+    "start": 768.24,
+    "duration": 5.6,
+    "text": "for this is like com.kunal is basically the company's URL in opposite direction."
+  },
+  {
+    "start": 773.84,
+    "duration": 5.4,
+    "text": "So if you are, let's say for example, you're working for a company called XYZ.com or something,"
+  },
+  {
+    "start": 779.24,
+    "duration": 6.48,
+    "text": "okay, hypothetical situation or Kushwaha company.com, you're working for that, Kushwaha.com, okay,"
+  },
+  {
+    "start": 785.72,
+    "duration": 1.36,
+    "text": "this company you're working for."
+  },
+  {
+    "start": 787.08,
+    "duration": 4.12,
+    "text": "So by convention, like if you're developing a project for them, the package will be something"
+  },
+  {
+    "start": 791.2,
+    "duration": 6.2,
+    "text": "like com.Kushwaha opposite, not like depends on company to company, but this is what"
+  },
+  {
+    "start": 797.4,
+    "duration": 3.04,
+    "text": "it basically means over here, okay."
+  },
+  {
+    "start": 800.44,
+    "duration": 2.24,
+    "text": "So yeah, that was it."
+  },
+  {
+    "start": 802.68,
+    "duration": 7.28,
+    "text": "I just want to share one more thing, like how does, so when we have, when we create packages,"
+  },
+  {
+    "start": 809.96,
+    "duration": 6.72,
+    "text": "for example, right, and when we like, when we run the file, how does Java know in which"
+  },
+  {
+    "start": 816.68,
+    "duration": 3.44,
+    "text": "file to look for packages?"
+  },
+  {
+    "start": 820.12,
+    "duration": 2.36,
+    "text": "How does Java know that?"
+  },
+  {
+    "start": 822.48,
+    "duration": 1.0,
+    "text": "Let's see."
+  },
+  {
+    "start": 823.48,
+    "duration": 2.44,
+    "text": "So let me show you another use case of like packages, obviously we'll be covering this"
+  },
+  {
+    "start": 825.92,
+    "duration": 4.76,
+    "text": "in access modifiers and stuff, but let me, let me create another class, let's say"
+  },
+  {
+    "start": 830.68,
+    "duration": 7.0,
+    "text": "somewhere over here. Okay, I'll create another class called message. Okay, public static"
+  },
+  {
+    "start": 837.68,
+    "duration": 16.68,
+    "text": "void main. I can just create another, I can say public public static void message. This"
+  },
+  {
+    "start": 854.36,
+    "duration": 5.68,
+    "text": "course is awesome. Okay, nothing like that. Okay, cool. So I'm good. Now here you can"
+  },
+  {
+    "start": 860.04,
+    "duration": 11.64,
+    "text": "see actually what I can do is I can say if I do something like this if I do alt"
+  },
+  {
+    "start": 871.68,
+    "duration": 11.48,
+    "text": "enter what is happening it's importing this so you can see that this message is"
+  },
+  {
+    "start": 883.16,
+    "duration": 3.32,
+    "text": "actually from where you know when I control click I can actually go to the"
+  },
+  {
+    "start": 886.48,
+    "duration": 3.04,
+    "text": "source code of this you want to see greeting file or whatever system output"
+  },
+  {
+    "start": 889.52,
+    "duration": 3.12,
+    "text": "and similarly I can see for the message as well if I control click you can"
+  },
+  {
+    "start": 892.64,
+    "duration": 5.12,
+    "text": "see it's actually the message that is being written in this file. So I am using the code"
+  },
+  {
+    "start": 897.76,
+    "duration": 7.68,
+    "text": "written in the package B by a package A. I can even like, you know, just run this file"
+  },
+  {
+    "start": 905.44,
+    "duration": 8.76,
+    "text": "like this. This course is awesome. If you want to debug it as well, just see what will"
+  },
+  {
+    "start": 914.2,
+    "duration": 6.28,
+    "text": "happen. This is what packages are all about. Debug it. It will print hello world and we"
+  },
+  {
+    "start": 920.48,
+    "duration": 2.8,
+    "text": "will go inside the message. It will be like, okay, where is it? It's going to be like,"
+  },
+  {
+    "start": 923.28,
+    "duration": 6.56,
+    "text": "in this message file. How does Java know that? How is Java running this code in some other"
+  },
+  {
+    "start": 929.84,
+    "duration": 7.0,
+    "text": "file in some other package in this file? This is how this import statement, you are adding"
+  },
+  {
+    "start": 936.84,
+    "duration": 6.52,
+    "text": "this import statement over here, right? So it's saying import this static. I will tell"
+  },
+  {
+    "start": 943.36,
+    "duration": 6.24,
+    "text": "you what static is later on this basically this method from this part of the file from"
+  },
+  {
+    "start": 949.6,
+    "duration": 6.96,
+    "text": "this class. So in this folder, there is a message class that has a message method import"
+  },
+  {
+    "start": 956.56,
+    "duration": 5.08,
+    "text": "that importing basically means now you can use it in this particular one. But how does"
+  },
+  {
+    "start": 961.64,
+    "duration": 5.44,
+    "text": "Java know that how does the runtime of Java determine where to look for these packages"
+  },
+  {
+    "start": 967.08,
+    "duration": 4.72,
+    "text": "that we are creating. So it's very simple. First by default, the Java runtime will"
+  },
+  {
+    "start": 971.8,
+    "duration": 5.68,
+    "text": "look the system. It uses the current working directory as its starting point. So if"
+  },
+  {
+    "start": 977.48,
+    "duration": 4.8,
+    "text": "packages in like a subdirectory of that of the current directory it will be found okay so how"
+  },
+  {
+    "start": 982.28,
+    "duration": 6.88,
+    "text": "does it know like we are looking for the message which is in this over here so here when you specify"
+  },
+  {
+    "start": 989.16,
+    "duration": 6.72,
+    "text": "the path what happens is that only those items within the package that are that are like"
+  },
+  {
+    "start": 995.88,
+    "duration": 4.96,
+    "text": "declared as public for example over here only they will be available to like the"
+  },
+  {
+    "start": 1000.84,
+    "duration": 10.32,
+    "text": "the files that are outside basically this package. So this A file, this greeting file,"
+  },
+  {
+    "start": 1011.16,
+    "duration": 4.76,
+    "text": "the A package is outside the B package. It's not like inside the B package. So for outside"
+  },
+  {
+    "start": 1015.92,
+    "duration": 6.48,
+    "text": "only those will be available that are public in B. So actually you know what forget about"
+  },
+  {
+    "start": 1022.4,
+    "duration": 5.4,
+    "text": "this because this is very basic stuff and in detail structure of this will be covering"
+  },
+  {
+    "start": 1027.8,
+    "duration": 5.84,
+    "text": "in access modifiers when we actually put public stat public protected private and the default"
+  },
+  {
+    "start": 1033.64,
+    "duration": 8.56,
+    "text": "one this is the default one default one right so in simple terms only those right now are"
+  },
+  {
+    "start": 1042.2,
+    "duration": 8.6,
+    "text": "so to sum up when I import this particular file over here all those items I can take"
+  },
+  {
+    "start": 1050.8,
+    "duration": 5.76,
+    "text": "that are declared as public if I declare this as private then I can't access it says"
+  },
+  {
+    "start": 1056.56,
+    "duration": 8.5,
+    "text": "problems over here problem right it's private so I'll cover this in access"
+  },
+  {
+    "start": 1065.06,
+    "duration": 3.64,
+    "text": "modifiers but this was just a hint of the future videos we'll cover everything in"
+  },
+  {
+    "start": 1068.7,
+    "duration": 4.16,
+    "text": "detail how rules work within packages outside packages same file different"
+  },
+  {
+    "start": 1072.86,
+    "duration": 3.76,
+    "text": "file same folder different folder and everything will be covered okay so"
+  },
+  {
+    "start": 1076.62,
+    "duration": 3.84,
+    "text": "that's the next video but that's pretty much about this like the package"
+  },
+  {
+    "start": 1080.46,
+    "duration": 4.36,
+    "text": "stuff but access modifiers will be covering in the next one and one"
+  },
+  {
+    "start": 1084.82,
+    "duration": 5.84,
+    "text": "one more thing like before we move on to the static part is you have been using this import"
+  },
+  {
+    "start": 1090.66,
+    "duration": 5.92,
+    "text": "statements you know we have been using it when we use stuff like arrays and stuff right"
+  },
+  {
+    "start": 1096.58,
+    "duration": 6.64,
+    "text": "so we use a link array list for example array list okay so it automatically imports array"
+  },
+  {
+    "start": 1103.22,
+    "duration": 5.96,
+    "text": "list like this so array list is actually in a folder known as Java util array list"
+  },
+  {
+    "start": 1109.18,
+    "duration": 8.56,
+    "text": "class you can see over here this is a class arelist okay in the java dot util"
+  },
+  {
+    "start": 1117.74,
+    "duration": 6.68,
+    "text": "folder java folder has a util folder inside there is an arelist class this is"
+  },
+  {
+    "start": 1124.42,
+    "duration": 5.12,
+    "text": "when you install Java you get it during that time okay so we have been using it"
+  },
+  {
+    "start": 1129.54,
+    "duration": 6.65,
+    "text": "before as well cool now let's look into what are like what's what static"
+  },
+  {
+    "start": 1136.19,
+    "duration": 3.96,
+    "text": "stuff okay so before we move on to the static what is static or whatever"
+  },
+  {
+    "start": 1140.15,
+    "duration": 4.8,
+    "text": "because it's a very important concept. Okay, let's first just think about like this keyword"
+  },
+  {
+    "start": 1144.95,
+    "duration": 4.0,
+    "text": "we're talking about, right, the static, what is static, what is this concept? Let's forget"
+  },
+  {
+    "start": 1148.95,
+    "duration": 6.9,
+    "text": "about this right now, let's just focus on a question. So let's say I just make another"
+  },
+  {
+    "start": 1155.85,
+    "duration": 10.42,
+    "text": "class. Okay, so I'll first make another package. Okay, random package I made, I'm going to"
+  },
+  {
+    "start": 1166.27,
+    "duration": 5.28,
+    "text": "create a main class, or no, not a main class, I'm going to make a human class. Okay,"
+  },
+  {
+    "start": 1171.55,
+    "duration": 9.32,
+    "text": "So human class has what all things tell me we have our age we have what name and what"
+  },
+  {
+    "start": 1180.87,
+    "duration": 17.47,
+    "text": "else do humans have what else can we put here age name salary in salary long salary whatever"
+  },
+  {
+    "start": 1198.34,
+    "duration": 14.84,
+    "text": "you want to put in this fine. Something else we can put married or not married or not create"
+  },
+  {
+    "start": 1213.18,
+    "duration": 4.8,
+    "text": "a constructor already covered in previous lecture. So it will take four arguments, it will create"
+  },
+  {
+    "start": 1217.98,
+    "duration": 12.17,
+    "text": "a nice little object for us. Okay, no problem. So here I can just say, okay, this is my"
+  },
+  {
+    "start": 1230.15,
+    "duration": 6.16,
+    "text": "my nice little class, I can let's say create another class over here called main. So it's"
+  },
+  {
+    "start": 1236.31,
+    "duration": 5.36,
+    "text": "a human class and main is where actually I'll use this class. So I can say human. So it's"
+  },
+  {
+    "start": 1241.67,
+    "duration": 4.64,
+    "text": "automatically going to say human. And by the way, you can see I did not have to import"
+  },
+  {
+    "start": 1246.31,
+    "duration": 4.24,
+    "text": "it because it's in the same folder, same package. That's why I did not have to"
+  },
+  {
+    "start": 1250.55,
+    "duration": 4.8,
+    "text": "import it like that. What we do do import human. No, for example, there's one more"
+  },
+  {
+    "start": 1255.35,
+    "duration": 3.64,
+    "text": "thing, if the files are in the same folder, you don't have to put the import statement."
+  },
+  {
+    "start": 1258.99,
+    "duration": 10.59,
+    "text": "Kunal is equal to let's say new human and it's taking in what? It's taking in age, age,"
+  },
+  {
+    "start": 1269.58,
+    "duration": 10.47,
+    "text": "name, salary and married or not. So age something like this, name is Kunal Kushwaha, salary I"
+  },
+  {
+    "start": 1280.05,
+    "duration": 7.6,
+    "text": "can put 10,000 or something and married or not false and not married right now. Okay,"
+  },
+  {
+    "start": 1287.65,
+    "duration": 6.06,
+    "text": "So this is very basic stuff, basic object-oriented brahmin that we did already."
+  },
+  {
+    "start": 1293.71,
+    "duration": 1.0,
+    "text": "Let's create one more."
+  },
+  {
+    "start": 1294.71,
+    "duration": 11.38,
+    "text": "I am going to say human Rahul, age is let's say 34, Rahul, salary something like 15 and"
+  },
+  {
+    "start": 1306.09,
+    "duration": 3.16,
+    "text": "married I can say true."
+  },
+  {
+    "start": 1309.25,
+    "duration": 2.0,
+    "text": "Something like that, no problem."
+  },
+  {
+    "start": 1311.25,
+    "duration": 3.72,
+    "text": "This is also I can put Kunal."
+  },
+  {
+    "start": 1314.97,
+    "duration": 1.0,
+    "text": "That's it."
+  },
+  {
+    "start": 1315.97,
+    "duration": 1.0,
+    "text": "Yeah."
+  },
+  {
+    "start": 1316.97,
+    "duration": 4.8,
+    "text": "you can say Kunal.name or whatever it will print me Kunal's name. We have already covered"
+  },
+  {
+    "start": 1321.77,
+    "duration": 5.32,
+    "text": "this in previous lecture. Okay, no problem. Okay, so we are all humans and we all share"
+  },
+  {
+    "start": 1327.09,
+    "duration": 5.2,
+    "text": "these traits, the value of all these traits will be different for each of us. Okay, no"
+  },
+  {
+    "start": 1332.29,
+    "duration": 1.0,
+    "text": "problem."
+  },
+  {
+    "start": 1333.29,
+    "duration": 8.1,
+    "text": "A question for you. What if, this is a very important point, what if there was some"
+  },
+  {
+    "start": 1341.39,
+    "duration": 7.0,
+    "text": "some sort of a property, what if there was some sort of a property that was common to"
+  },
+  {
+    "start": 1348.39,
+    "duration": 3.52,
+    "text": "everyone, every human being."
+  },
+  {
+    "start": 1351.91,
+    "duration": 10.39,
+    "text": "Is there a single property that is common to all the human beings, population, population."
+  },
+  {
+    "start": 1362.3,
+    "duration": 6.6,
+    "text": "If I am a human, then the population of this earth of humans for me is what 7 billion"
+  },
+  {
+    "start": 1368.9,
+    "duration": 1.0,
+    "text": "people."
+  },
+  {
+    "start": 1369.9,
+    "duration": 2.88,
+    "text": "Is it going to be different for you?"
+  },
+  {
+    "start": 1372.78,
+    "duration": 5.52,
+    "text": "Is it going to be like hey for me there are only 5 billion people on the planet or someone"
+  },
+  {
+    "start": 1378.3,
+    "duration": 4.68,
+    "text": "else will be like hey for me there are only 10 billion people on the planet no a fact"
+  },
+  {
+    "start": 1382.98,
+    "duration": 6.72,
+    "text": "is a fact the characteristic the property of the human population so human is a class"
+  },
+  {
+    "start": 1389.7,
+    "duration": 5.2,
+    "text": "it will have another property called let's say population means how many humans exist"
+  },
+  {
+    "start": 1394.9,
+    "duration": 9.55,
+    "text": "how many humans exist that is going to be same for all the human objects or not"
+  },
+  {
+    "start": 1404.45,
+    "duration": 2.7,
+    "text": "How many humans are there? It's going to be same for Kunal and Rahul."
+  },
+  {
+    "start": 1408.25,
+    "duration": 2.4,
+    "text": "Does it depend on Kunal and Rahul?"
+  },
+  {
+    "start": 1410.95,
+    "duration": 0.3,
+    "text": "No."
+  },
+  {
+    "start": 1412.15,
+    "duration": 5.4,
+    "text": "It's common to all the humans, meaning it is common to all the objects."
+  },
+  {
+    "start": 1418.55,
+    "duration": 1.3,
+    "text": "It does not depend on objects."
+  },
+  {
+    "start": 1421.25,
+    "duration": 2.6,
+    "text": "The population of humans for me is 7 billion."
+  },
+  {
+    "start": 1424.15,
+    "duration": 2.7,
+    "text": "Then for all the other objects of the human class as well,"
+  },
+  {
+    "start": 1427.25,
+    "duration": 1.4,
+    "text": "population should be 7 billion."
+  },
+  {
+    "start": 1429.15,
+    "duration": 2.3,
+    "text": "So this property of population"
+  },
+  {
+    "start": 1431.45,
+    "duration": 14.74,
+    "text": "is actually not logically related to what? It's not related to what? Object? It's object"
+  },
+  {
+    "start": 1446.19,
+    "duration": 7.57,
+    "text": "independent? Okay, so such properties that are not directly like you know related to the"
+  },
+  {
+    "start": 1453.76,
+    "duration": 6.92,
+    "text": "object, those are known as static variables or static methods or whatever that is known"
+  },
+  {
+    "start": 1460.68,
+    "duration": 12.85,
+    "text": "static. For example, if you just put it over here like this, you say long population, something"
+  },
+  {
+    "start": 1473.53,
+    "duration": 8.72,
+    "text": "like that, right. And here you can say that whenever a new human is being created, for"
+  },
+  {
+    "start": 1482.25,
+    "duration": 4.64,
+    "text": "example, you're saying this dot population plus equal to one right now I'm not using"
+  },
+  {
+    "start": 1486.89,
+    "duration": 4.76,
+    "text": "static right now it's being treated as an instance variable. Okay, so this is what"
+  },
+  {
+    "start": 1491.65,
+    "duration": 8.94,
+    "text": "you are doing here if I say print Kunal dot population then I am going to say print Rahul"
+  },
+  {
+    "start": 1500.59,
+    "duration": 10.82,
+    "text": "dot population or whatever let us see what we get 1 that is false actually 2 humans exist"
+  },
+  {
+    "start": 1511.41,
+    "duration": 8.68,
+    "text": "both of these should show what equal to what 2 like this one should show 2 as well this"
+  },
+  {
+    "start": 1520.09,
+    "duration": 4.44,
+    "text": "one should show 2 as well because there are 2 humans that is why such properties"
+  },
+  {
+    "start": 1524.53,
+    "duration": 6.6,
+    "text": "that are not really related to the object but are common to all the objects of that class"
+  },
+  {
+    "start": 1531.13,
+    "duration": 5.88,
+    "text": "like the population example, we declare those as static. I will go into the technical definitions"
+  },
+  {
+    "start": 1537.01,
+    "duration": 13.41,
+    "text": "as well. Static like this, hope that makes sense. Another question for you now, Kunal"
+  },
+  {
+    "start": 1550.42,
+    "duration": 4.8,
+    "text": "if this is static and you are saying that static is not really related to the object"
+  },
+  {
+    "start": 1555.22,
+    "duration": 3.88,
+    "text": "This population variable is common to all the human beings."
+  },
+  {
+    "start": 1559.1,
+    "duration": 2.12,
+    "text": "Then why are you using this over here?"
+  },
+  {
+    "start": 1561.22,
+    "duration": 3.08,
+    "text": "Because this represents the object,"
+  },
+  {
+    "start": 1564.3,
+    "duration": 1.64,
+    "text": "the object reference."
+  },
+  {
+    "start": 1565.94,
+    "duration": 1.56,
+    "text": "If I'm saying kunal.population,"
+  },
+  {
+    "start": 1567.5,
+    "duration": 1.44,
+    "text": "this will be replaced to kunal."
+  },
+  {
+    "start": 1570.46,
+    "duration": 1.74,
+    "text": "So why are you using this?"
+  },
+  {
+    "start": 1573.5,
+    "duration": 0.84,
+    "text": "You are correct."
+  },
+  {
+    "start": 1574.34,
+    "duration": 1.52,
+    "text": "We should not be using this."
+  },
+  {
+    "start": 1575.86,
+    "duration": 2.36,
+    "text": "Instead, in order to access static variable,"
+  },
+  {
+    "start": 1578.22,
+    "duration": 5.02,
+    "text": "you just use the class name."
+  },
+  {
+    "start": 1583.24,
+    "duration": 10.68,
+    "text": "Now if I print it, two and two."
+  },
+  {
+    "start": 1593.92,
+    "duration": 2.52,
+    "text": "Okay, here you can definitely access it."
+  },
+  {
+    "start": 1596.44,
+    "duration": 2.44,
+    "text": "So you are accessing it via the reference variable."
+  },
+  {
+    "start": 1598.88,
+    "duration": 1.64,
+    "text": "That is also totally fine."
+  },
+  {
+    "start": 1600.52,
+    "duration": 1.52,
+    "text": "You will understand this much more clearly"
+  },
+  {
+    "start": 1602.04,
+    "duration": 1.28,
+    "text": "when I bring up my whiteboard."
+  },
+  {
+    "start": 1603.32,
+    "duration": 1.16,
+    "text": "Let me bring up my whiteboard."
+  },
+  {
+    "start": 1604.48,
+    "duration": 1.84,
+    "text": "Okay, so here with static, what is happening?"
+  },
+  {
+    "start": 1606.32,
+    "duration": 2.84,
+    "text": "In our question that we have over here,"
+  },
+  {
+    "start": 1609.16,
+    "duration": 1.72,
+    "text": "a human class is being created."
+  },
+  {
+    "start": 1610.88,
+    "duration": 3.4,
+    "text": "No problem, a human class is being created like this."
+  },
+  {
+    "start": 1614.28,
+    "duration": 4.2,
+    "text": "Human class, okay, it has some properties."
+  },
+  {
+    "start": 1618.48,
+    "duration": 10.56,
+    "text": "this as age, name, salary, and married or not. These are instance variables. And here we"
+  },
+  {
+    "start": 1629.04,
+    "duration": 5.84,
+    "text": "have Kunal and Rahul objects. It has a population variable known as static. Initially it's by"
+  },
+  {
+    "start": 1634.88,
+    "duration": 7.04,
+    "text": "default integer long values have zero value. Here the name is whatever age 13 of Kunal"
+  },
+  {
+    "start": 1641.92,
+    "duration": 8.26,
+    "text": "you know, false or whatever, 8, 35, Rahul, true, married or whatever, salary well, etc."
+  },
+  {
+    "start": 1650.18,
+    "duration": 7.18,
+    "text": "you can add, but when I did this thing, whenever a new object is being created, I am doing"
+  },
+  {
+    "start": 1657.36,
+    "duration": 5.84,
+    "text": "this thing human.population plus equal to 1, even if you do this.population, let's"
+  },
+  {
+    "start": 1663.2,
+    "duration": 9.24,
+    "text": "see in that case what will be the output, in that case the output is also 2, so it's"
+  },
+  {
+    "start": 1672.44,
+    "duration": 4.56,
+    "text": "working with this as well and it's working with human as well with the human warning is"
+  },
+  {
+    "start": 1677.0,
+    "duration": 5.08,
+    "text": "removed. I will resolve this doubt for you right now. Here's how it works. When you do"
+  },
+  {
+    "start": 1682.08,
+    "duration": 6.08,
+    "text": "Kunal dot population plus equal to one whenever a new object is created that object plus population"
+  },
+  {
+    "start": 1688.16,
+    "duration": 3.88,
+    "text": "when you put this over here. So this dot population plus equal to one means what does"
+  },
+  {
+    "start": 1692.04,
+    "duration": 4.64,
+    "text": "Kunal does this object have a value of variable known as population is going to be like"
+  },
+  {
+    "start": 1696.68,
+    "duration": 5.32,
+    "text": "No, it does not then it's going to be okay. Does the main human class has a variable known"
+  },
+  {
+    "start": 1702.0,
+    "duration": 3.88,
+    "text": "as population is going to be like, yes, it does. And this is the static variable means"
+  },
+  {
+    "start": 1705.88,
+    "duration": 6.9,
+    "text": "it's common to everyone. It's going to be like, okay, increase this by one, increase"
+  },
+  {
+    "start": 1712.78,
+    "duration": 7.12,
+    "text": "this by one. Okay, then when you do something like new object being created now, like Rahul"
+  },
+  {
+    "start": 1719.9,
+    "duration": 4.92,
+    "text": "for example, here you can see it did by one plus by one. Now, then you have Rahul"
+  },
+  {
+    "start": 1724.82,
+    "duration": 4.08,
+    "text": "When you create Rahul, another constructor will be called in the same constructor here."
+  },
+  {
+    "start": 1728.9,
+    "duration": 4.36,
+    "text": "If you put this, this same thing will happen that happened, but the convention is to put"
+  },
+  {
+    "start": 1733.26,
+    "duration": 4.04,
+    "text": "actually the class name because static variables obviously don't really make sense to go with"
+  },
+  {
+    "start": 1737.3,
+    "duration": 5.0,
+    "text": "the connection with the instance variable because they are apart from instance variable."
+  },
+  {
+    "start": 1742.3,
+    "duration": 2.46,
+    "text": "So here, if you put this, that will also work."
+  },
+  {
+    "start": 1744.76,
+    "duration": 3.66,
+    "text": "If you put the class name itself, that will also work."
+  },
+  {
+    "start": 1748.42,
+    "duration": 3.4,
+    "text": "But the convention is to put the class name and how is this working?"
+  },
+  {
+    "start": 1751.82,
+    "duration": 3.36,
+    "text": "Because if you put this, it will be like, okay, does it exist in this object?"
+  },
+  {
+    "start": 1755.18,
+    "duration": 1.6,
+    "text": "It will be like, no, it does not."
+  },
+  {
+    "start": 1756.78,
+    "duration": 2.64,
+    "text": "It's actually static variable, so it exists in the class template."
+  },
+  {
+    "start": 1759.42,
+    "duration": 2.52,
+    "text": "So it will be like, okay, cool, I will just increment that."
+  },
+  {
+    "start": 1761.94,
+    "duration": 3.48,
+    "text": "Then when Rahul will be created, if you have put this over there, then it will be"
+  },
+  {
+    "start": 1765.42,
+    "duration": 5.2,
+    "text": "like, okay, Rahul is created, this dot population plus equal to one, does population exist"
+  },
+  {
+    "start": 1770.62,
+    "duration": 1.0,
+    "text": "over here?"
+  },
+  {
+    "start": 1771.62,
+    "duration": 1.0,
+    "text": "No, it does not."
+  },
+  {
+    "start": 1772.62,
+    "duration": 1.0,
+    "text": "It actually exists in the class."
+  },
+  {
+    "start": 1773.62,
+    "duration": 4.0,
+    "text": "It's actually common to all the objects, which will be like, okay, increment this"
+  },
+  {
+    "start": 1777.62,
+    "duration": 2.52,
+    "text": "by one, it will be then two."
+  },
+  {
+    "start": 1780.14,
+    "duration": 3.44,
+    "text": "And if you put it like this that I have done which is the correct way to do it which is"
+  },
+  {
+    "start": 1783.58,
+    "duration": 5.16,
+    "text": "human dot population means class dot variable name then it will directly just update the"
+  },
+  {
+    "start": 1788.74,
+    "duration": 1.0,
+    "text": "class only."
+  },
+  {
+    "start": 1789.74,
+    "duration": 3.56,
+    "text": "So whenever you create another object or whatever you create another object like this it will"
+  },
+  {
+    "start": 1793.3,
+    "duration": 7.94,
+    "text": "like human dot population plus one okay three let's see let's see this thing in action"
+  },
+  {
+    "start": 1801.24,
+    "duration": 9.61,
+    "text": "if I create a third third person like this if I create a third person like this arpeth"
+  },
+  {
+    "start": 1810.85,
+    "duration": 10.95,
+    "text": "arpit or whatever okay third person being created now if I say print arpit dot population what"
+  },
+  {
+    "start": 1821.8,
+    "duration": 5.72,
+    "text": "will happen let's see it will be like does Kunal dot population print Kunal dot population"
+  },
+  {
+    "start": 1827.52,
+    "duration": 4.72,
+    "text": "does population exist in Kunal it will be like no it does not so it will be like okay"
+  },
+  {
+    "start": 1832.24,
+    "duration": 4.24,
+    "text": "does it exist in human yes it does is actually a static variable it will print 3 print Rahul"
+  },
+  {
+    "start": 1836.48,
+    "duration": 4.6,
+    "text": "dot population does population exist over here no it does not okay does it exist"
+  },
+  {
+    "start": 1841.08,
+    "duration": 4.52,
+    "text": "in the class yet yes it does because it's a static variable for arpit same as well that"
+  },
+  {
+    "start": 1845.6,
+    "duration": 7.48,
+    "text": "is why note please whenever you are accessing static variable modifying static variable"
+  },
+  {
+    "start": 1853.08,
+    "duration": 5.2,
+    "text": "declaring static variable or whatever like modifying it like this accessing it like this"
+  },
+  {
+    "start": 1858.28,
+    "duration": 6.48,
+    "text": "don't do it via the reference variable via the object name don't do it it will work"
+  },
+  {
+    "start": 1864.76,
+    "duration": 10.44,
+    "text": "but still don't do it convention is use it like this convention why it will still work"
+  },
+  {
+    "start": 1875.2,
+    "duration": 9.12,
+    "text": "I already explained but this is the convention ok so this is what is known as static variable"
+  },
+  {
+    "start": 1884.32,
+    "duration": 8.16,
+    "text": "so what is static variable when a member is declared static it can be accessed before"
+  },
+  {
+    "start": 1892.48,
+    "duration": 7.98,
+    "text": "any of the object of the class is being created and without referencing to that object like"
+  },
+  {
+    "start": 1900.46,
+    "duration": 9.38,
+    "text": "without doing Kunal dot Kunal is a reference variable of let's say an object of human class."
+  },
+  {
+    "start": 1909.84,
+    "duration": 5.16,
+    "text": "So without actually using an object of the class you can access these variables like"
+  },
+  {
+    "start": 1915.0,
+    "duration": 7.0,
+    "text": "this even if you don't create an object still you can access. Static variables don't"
+  },
+  {
+    "start": 1922.0,
+    "duration": 6.04,
+    "text": "are not dependent on objects. No object is being created, you can still use it. Still"
+  },
+  {
+    "start": 1928.04,
+    "duration": 11.69,
+    "text": "you can use it. Okay. So that's a good point. So without reference to any object without"
+  },
+  {
+    "start": 1939.73,
+    "duration": 6.76,
+    "text": "the object being created or whatever, you can use static variables, you can access"
+  },
+  {
+    "start": 1946.49,
+    "duration": 5.64,
+    "text": "those modify those or whatever. Okay, point number two, you can declare both the methods"
+  },
+  {
+    "start": 1952.13,
+    "duration": 5.36,
+    "text": "which are like the functions and whatever and the variables as static."
+  },
+  {
+    "start": 1958.57,
+    "duration": 3.08,
+    "text": "So you can create static methods as well."
+  },
+  {
+    "start": 1962.17,
+    "duration": 3.64,
+    "text": "One of the most common static methods is what public static wide main."
+  },
+  {
+    "start": 1966.85,
+    "duration": 3.76,
+    "text": "Now let's talk about this. Why is this static? Pause this video,"
+  },
+  {
+    "start": 1970.61,
+    "duration": 3.28,
+    "text": "think about it, then let me know. I mean, how will you let me know?"
+  },
+  {
+    "start": 1973.89,
+    "duration": 2.2,
+    "text": "But let your, let yourself know. Okay."
+  },
+  {
+    "start": 1976.89,
+    "duration": 4.64,
+    "text": "So why is main declared as static? Why, what might be the reason?"
+  },
+  {
+    "start": 1982.13,
+    "duration": 5.76,
+    "text": "main is declared as a static method because before answering why main is"
+  },
+  {
+    "start": 1987.89,
+    "duration": 5.66,
+    "text": "declared as static think about what is static static means that you can use"
+  },
+  {
+    "start": 1993.55,
+    "duration": 4.78,
+    "text": "this thing you can use the main function main method without creating an"
+  },
+  {
+    "start": 1998.33,
+    "duration": 9.35,
+    "text": "object of that class okay and main is actually the very first thing that is"
+  },
+  {
+    "start": 2007.68,
+    "duration": 3.56,
+    "text": "run whenever you run a Java program if main is not there you will not be"
+  },
+  {
+    "start": 2011.24,
+    "duration": 3.6,
+    "text": "able to run it if I just hide this you can see you will not be able to"
+  },
+  {
+    "start": 2014.84,
+    "duration": 5.24,
+    "text": "run it the run option is not available main is mandatory so if main is the first thing"
+  },
+  {
+    "start": 2020.08,
+    "duration": 7.68,
+    "text": "that you have to run then if you don't put it as static obviously in order to run anything"
+  },
+  {
+    "start": 2027.76,
+    "duration": 6.63,
+    "text": "that is inside a class you have to create an object of that class you want to access"
+  },
+  {
+    "start": 2034.39,
+    "duration": 4.04,
+    "text": "something from the class any instance variable any method you have to create an object"
+  },
+  {
+    "start": 2038.43,
+    "duration": 4.56,
+    "text": "of that class but how can you create an object how can you run the program to create"
+  },
+  {
+    "start": 2042.99,
+    "duration": 6.04,
+    "text": "an object if main is the very first thing that is running. Hence you should be able"
+  },
+  {
+    "start": 2049.03,
+    "duration": 6.12,
+    "text": "to run main without creating any object of the class in which main is. You should be"
+  },
+  {
+    "start": 2055.15,
+    "duration": 5.68,
+    "text": "able to run this main function without creating an object of this class main that is why"
+  },
+  {
+    "start": 2060.83,
+    "duration": 10.82,
+    "text": "it is static. So, before any object or anything is being created it should allow you to"
+  },
+  {
+    "start": 2071.65,
+    "duration": 8.02,
+    "text": "run mean, that's why it's static. So this static method, the static variable or whatever,"
+  },
+  {
+    "start": 2079.67,
+    "duration": 10.4,
+    "text": "they actually belong to the class, do not belong to the object. Cool. That was basic definition"
+  },
+  {
+    "start": 2090.07,
+    "duration": 10.52,
+    "text": "of static. Cool. Let's move forward. Let me show you one more thing. So let me show"
+  },
+  {
+    "start": 2100.59,
+    "duration": 13.01,
+    "text": "you something pretty cool. If I create a function over here, I can say void greeting print hello"
+  },
+  {
+    "start": 2113.6,
+    "duration": 6.56,
+    "text": "world and I try to call greeting, I'm just going to comment this out. Okay, I try to call greeting"
+  },
+  {
+    "start": 2120.16,
+    "duration": 10.17,
+    "text": "over here. Let's say it's giving me an error. It's giving me an error. This is another doubt"
+  },
+  {
+    "start": 2130.33,
+    "duration": 3.44,
+    "text": "we are putting static over here right for every single thing that we were doing."
+  },
+  {
+    "start": 2133.77,
+    "duration": 6.16,
+    "text": "now I will actually explain you why we were doing that it's saying that non static method greeting"
+  },
+  {
+    "start": 2139.93,
+    "duration": 6.24,
+    "text": "that's true greeting is not static cannot be referenced from a static concept meaning inside"
+  },
+  {
+    "start": 2146.17,
+    "duration": 17.09,
+    "text": "a static method you cannot use anything that is not static over here okay so a static method can"
+  },
+  {
+    "start": 2163.26,
+    "duration": 13.1,
+    "text": "can only access static data. It cannot access non-static data. Because a non-static data"
+  },
+  {
+    "start": 2176.36,
+    "duration": 5.2,
+    "text": "like this, it actually belongs to an instance. We know that something that is not static belongs"
+  },
+  {
+    "start": 2181.56,
+    "duration": 13.28,
+    "text": "to objects. So we know that something which is not static belongs to an object. That is"
+  },
+  {
+    "start": 2194.84,
+    "duration": 9.28,
+    "text": "something we know. Hence, it is literally like meaningless that without somehow resolving"
+  },
+  {
+    "start": 2204.12,
+    "duration": 7.04,
+    "text": "you know which instance of a class you are talking about. For example, in static constant"
+  },
+  {
+    "start": 2211.16,
+    "duration": 6.96,
+    "text": "you don't have an instance that is why you can't really use something that is not static"
+  },
+  {
+    "start": 2218.12,
+    "duration": 4.48,
+    "text": "inside something that is static because this is going to have an instance this is"
+  },
+  {
+    "start": 2222.6,
+    "duration": 6.1,
+    "text": "not going to have an instance or if I create something else if I create a static method"
+  },
+  {
+    "start": 2228.7,
+    "duration": 12.12,
+    "text": "static static void fun here you cannot call greeting."
+  },
+  {
+    "start": 2240.82,
+    "duration": 11.32,
+    "text": "So basically this is dependent on objects and this is not dependent on objects sorry"
+  },
+  {
+    "start": 2252.14,
+    "duration": 7.01,
+    "text": "Okay this is not dependent on objects because it's static and this is dependent on objects."
+  },
+  {
+    "start": 2259.15,
+    "duration": 4.64,
+    "text": "Okay so this belongs, this actually belongs to some instance and this does not belong"
+  },
+  {
+    "start": 2263.79,
+    "duration": 4.04,
+    "text": "to an instance."
+  },
+  {
+    "start": 2267.83,
+    "duration": 8.0,
+    "text": "So without specifying, without specifying which instance this belongs to I cannot use"
+  },
+  {
+    "start": 2275.83,
+    "duration": 5.2,
+    "text": "it over here."
+  },
+  {
+    "start": 2281.03,
+    "duration": 12.16,
+    "text": "You can't use this because it requires a an instance but the function you are using it"
+  },
+  {
+    "start": 2293.19,
+    "duration": 11.71,
+    "text": "in does not depend on objects like instances in simple terms one does not depend on instances"
+  },
+  {
+    "start": 2304.9,
+    "duration": 6.8,
+    "text": "then how can you have something inside it that depends on instances you can't that is"
+  },
+  {
+    "start": 2311.7,
+    "duration": 6.56,
+    "text": "the reason that logically does not make sense. So when fun is being resolved we know that fun"
+  },
+  {
+    "start": 2318.26,
+    "duration": 5.84,
+    "text": "itself everything like this entire thing is not dependent on any object then how will you specify"
+  },
+  {
+    "start": 2324.1,
+    "duration": 5.6,
+    "text": "that greeting is dependent about some object we know it is but how will you specify that it is"
+  },
+  {
+    "start": 2329.7,
+    "duration": 5.84,
+    "text": "you can't because static does not allow you to do it if you try to do it like this it will be"
+  },
+  {
+    "start": 2335.54,
+    "duration": 4.32,
+    "text": "like okay it is static but on top of the you know on the other hand you are saying that"
+  },
+  {
+    "start": 2339.86,
+    "duration": 3.92,
+    "text": "that this is dependent on the object like something inside static depends on the object"
+  },
+  {
+    "start": 2343.78,
+    "duration": 9.01,
+    "text": "like this. So that is why it's giving me an error. But what if you do something like this?"
+  },
+  {
+    "start": 2352.79,
+    "duration": 8.12,
+    "text": "In that case also, it's saying the same thing that you are not able to access it like that."
+  },
+  {
+    "start": 2360.91,
+    "duration": 6.68,
+    "text": "But there's a way to do it. I will teach you what way that is. Okay. So that's it."
+  },
+  {
+    "start": 2367.59,
+    "duration": 10.12,
+    "text": "a static method can only access static data, it cannot access non-static data and a non-static"
+  },
+  {
+    "start": 2377.71,
+    "duration": 3.94,
+    "text": "member belongs to like obviously an instance, this belongs to an instance, this does not"
+  },
+  {
+    "start": 2381.65,
+    "duration": 5.22,
+    "text": "belong to an instance and that is why it's like sort of like meaningless to you know without"
+  },
+  {
+    "start": 2386.87,
+    "duration": 5.72,
+    "text": "somehow resolving which instance of a class you are talking about in like the static"
+  },
+  {
+    "start": 2392.59,
+    "duration": 5.52,
+    "text": "constant in context, you don't really, you know, you don't have an instance. So that's"
+  },
+  {
+    "start": 2398.11,
+    "duration": 5.8,
+    "text": "why you cannot have like a non static member inside a static. Can you have a static member"
+  },
+  {
+    "start": 2403.91,
+    "duration": 7.36,
+    "text": "inside a non static one? That you can do. That is totally fine. This is pretty obvious"
+  },
+  {
+    "start": 2411.27,
+    "duration": 5.32,
+    "text": "as well, because this does not limit itself, right? Here it'd be like, okay, I am belonging"
+  },
+  {
+    "start": 2416.59,
+    "duration": 3.44,
+    "text": "to an object, but definitely you can something, you can use something that is not belonging"
+  },
+  {
+    "start": 2420.03,
+    "duration": 14.27,
+    "text": "to an object not much work needed over there. So that is why you can't really access a non-static"
+  },
+  {
+    "start": 2434.3,
+    "duration": 10.0,
+    "text": "member without explicitly mentioning an object reference to it. So an object for this is"
+  },
+  {
+    "start": 2444.3,
+    "duration": 6.92,
+    "text": "needed and needed without it you will not be able to use it that is also a simple way."
+  },
+  {
+    "start": 2451.22,
+    "duration": 8.12,
+    "text": "How can we do that? Let's say we do something like this main object is equal to new main"
+  },
+  {
+    "start": 2459.34,
+    "duration": 11.02,
+    "text": "then I do something like this. Now it works. Don't get confused. Let me elaborate a little"
+  },
+  {
+    "start": 2470.36,
+    "duration": 19.14,
+    "text": "bit. Okay. So in short, this will give you an error. So I can hide it. So in short what"
+  },
+  {
+    "start": 2489.5,
+    "duration": 15.55,
+    "text": "you cannot access non static stuff without referencing their instances in a static"
+  },
+  {
+    "start": 2505.05,
+    "duration": 13.93,
+    "text": "context okay hence here I am referencing it so in simple languages here it's saying in"
+  },
+  {
+    "start": 2518.98,
+    "duration": 5.12,
+    "text": "line number 18 it's saying hey greeting I see that you are actually dependent on an"
+  },
+  {
+    "start": 2524.1,
+    "duration": 8.72,
+    "text": "object where is your object hey greeting where is your object where is it fun is going"
+  },
+  {
+    "start": 2532.82,
+    "duration": 4.28,
+    "text": "to be like hey greeting you are dependent on an object right where is your object"
+  },
+  {
+    "start": 2537.1,
+    "duration": 2.6,
+    "text": "greeting is gonna be like, I don't have an object."
+  },
+  {
+    "start": 2539.7,
+    "duration": 1.04,
+    "text": "I am so sorry."
+  },
+  {
+    "start": 2540.74,
+    "duration": 1.88,
+    "text": "It's gonna be like, no, no, no, no, no, sorry, worry."
+  },
+  {
+    "start": 2542.62,
+    "duration": 2.28,
+    "text": "You can't run if you don't have an object."
+  },
+  {
+    "start": 2544.9,
+    "duration": 1.4,
+    "text": "If you want to run without an object,"
+  },
+  {
+    "start": 2546.3,
+    "duration": 2.34,
+    "text": "make yourself static or get an object."
+  },
+  {
+    "start": 2549.66,
+    "duration": 2.6,
+    "text": "You'll be like, okay, fine, fine, I'll get an object."
+  },
+  {
+    "start": 2552.26,
+    "duration": 2.28,
+    "text": "Hence, here we go."
+  },
+  {
+    "start": 2554.54,
+    "duration": 5.0,
+    "text": "So in simple terms, you cannot access non-static stuff"
+  },
+  {
+    "start": 2559.76,
+    "duration": 5.62,
+    "text": "without referencing their instance in a static constant."
+  },
+  {
+    "start": 2565.38,
+    "duration": 1.72,
+    "text": "It's pretty obvious also, right?"
+  },
+  {
+    "start": 2567.1,
+    "duration": 1.24,
+    "text": "It's pretty obvious."
+  },
+  {
+    "start": 2568.34,
+    "duration": 3.68,
+    "text": "If it's not static, please don't confuse yourself."
+  },
+  {
+    "start": 2572.02,
+    "duration": 3.88,
+    "text": "It's not static, so object will be required only."
+  },
+  {
+    "start": 2575.9,
+    "duration": 2.72,
+    "text": "Even if you make something, some other non-static stuff,"
+  },
+  {
+    "start": 2578.62,
+    "duration": 3.04,
+    "text": "void, fun too, or something like that."
+  },
+  {
+    "start": 2581.66,
+    "duration": 2.08,
+    "text": "Here if you try to call greeting like this,"
+  },
+  {
+    "start": 2583.74,
+    "duration": 1.0,
+    "text": "here it will be fine."
+  },
+  {
+    "start": 2586.38,
+    "duration": 1.56,
+    "text": "Here it is fine, why?"
+  },
+  {
+    "start": 2587.94,
+    "duration": 3.24,
+    "text": "Because when you call this fun too or whatever,"
+  },
+  {
+    "start": 2591.18,
+    "duration": 2.64,
+    "text": "in the end, we know that it will be called"
+  },
+  {
+    "start": 2593.82,
+    "duration": 2.7,
+    "text": "somewhere in mean, directly or indirectly."
+  },
+  {
+    "start": 2596.52,
+    "duration": 5.96,
+    "text": "Why? Because everything starts from main. So we know there's also fun fact. We know"
+  },
+  {
+    "start": 2602.48,
+    "duration": 5.48,
+    "text": "it to be static or non-static. We know that it will be called via some static"
+  },
+  {
+    "start": 2607.96,
+    "duration": 5.28,
+    "text": "method in the end. Every single thing that you write in the end it will be"
+  },
+  {
+    "start": 2613.24,
+    "duration": 6.16,
+    "text": "called inside a static method main method that is true. So we know that an"
+  },
+  {
+    "start": 2619.4,
+    "duration": 8.25,
+    "text": "object for fun 2 will be created. That is why here you don't have to create"
+  },
+  {
+    "start": 2627.65,
+    "duration": 8.15,
+    "text": "an object for greeting because it will be created when you call fun to for example, like this"
+  },
+  {
+    "start": 2635.8,
+    "duration": 13.31,
+    "text": "main fun is equal to new main main dot fun to sorry fun dot fun to so here you have created"
+  },
+  {
+    "start": 2649.11,
+    "duration": 5.58,
+    "text": "an object for this f u double n ok that same one would be bound to this this greeting"
+  },
+  {
+    "start": 2654.69,
+    "duration": 7.2,
+    "text": "method will also be now a part of the fun because it's obviously inside fun to ok"
+  },
+  {
+    "start": 2661.89,
+    "duration": 6.44,
+    "text": "basically about it. So when you put stuff inside a static const context, make sure that you"
+  },
+  {
+    "start": 2668.33,
+    "duration": 4.44,
+    "text": "are creating an object of it. And if you're not putting it inside the object inside any"
+  },
+  {
+    "start": 2672.77,
+    "duration": 4.92,
+    "text": "static stuff, then you can call it directly because in the end, an object for this will"
+  },
+  {
+    "start": 2677.69,
+    "duration": 8.09,
+    "text": "be created 100% because everything goes inside main only in the end without main nothing"
+  },
+  {
+    "start": 2685.78,
+    "duration": 4.32,
+    "text": "will run. So that is why it's taking care of it automatically greeting is going to"
+  },
+  {
+    "start": 2690.1,
+    "duration": 5.68,
+    "text": "be like, Hey, I am actually non static. So I need to have an object. So this is another"
+  },
+  {
+    "start": 2695.78,
+    "duration": 6.28,
+    "text": "nice story greeting is going to go to fun to greeting will be like, Hey, fun to, I actually"
+  },
+  {
+    "start": 2702.06,
+    "duration": 4.4,
+    "text": "need an object, you know, to run because I am non static fun to is going to be like"
+  },
+  {
+    "start": 2706.46,
+    "duration": 6.4,
+    "text": "a bro, likewise, up top, I am also non static. And I will also need an object. So you"
+  },
+  {
+    "start": 2712.86,
+    "duration": 4.52,
+    "text": "can come with me because obviously I will need an object that way you can use my object"
+  },
+  {
+    "start": 2717.38,
+    "duration": 3.12,
+    "text": "and you can run, then greeting is going, okay, okay, cool."
+  },
+  {
+    "start": 2720.5,
+    "duration": 1.44,
+    "text": "So I don't need anything else, right?"
+  },
+  {
+    "start": 2721.94,
+    "duration": 0.96,
+    "text": "Fun too is going to be like,"
+  },
+  {
+    "start": 2722.9,
+    "duration": 1.6,
+    "text": "oh no, you don't need anything else."
+  },
+  {
+    "start": 2724.5,
+    "duration": 1.12,
+    "text": "Greeting is going to be like, okay, cool."
+  },
+  {
+    "start": 2725.62,
+    "duration": 2.08,
+    "text": "I'm staying in your house."
+  },
+  {
+    "start": 2727.7,
+    "duration": 1.64,
+    "text": "This is the curly braces house."
+  },
+  {
+    "start": 2729.34,
+    "duration": 2.84,
+    "text": "You take care of the objects whenever you need it."
+  },
+  {
+    "start": 2732.18,
+    "duration": 0.84,
+    "text": "It's going to be like, yeah, sure."
+  },
+  {
+    "start": 2733.02,
+    "duration": 1.56,
+    "text": "I'll take care of it."
+  },
+  {
+    "start": 2734.58,
+    "duration": 2.52,
+    "text": "Then greeting goes to fun."
+  },
+  {
+    "start": 2737.1,
+    "duration": 1.28,
+    "text": "Greeting is going to be like, hey, fun,"
+  },
+  {
+    "start": 2738.38,
+    "duration": 1.28,
+    "text": "in line number 20."
+  },
+  {
+    "start": 2739.66,
+    "duration": 1.4,
+    "text": "I actually need an object to run"
+  },
+  {
+    "start": 2741.06,
+    "duration": 5.0,
+    "text": "because I don't have like, I don't have static."
+  },
+  {
+    "start": 2746.06,
+    "duration": 4.68,
+    "text": "I don't have static so I am like non static method so actually need an object to run"
+  },
+  {
+    "start": 2750.86,
+    "duration": 4.84,
+    "text": "Can you make sure that you create an object when you are run fun is gonna be like hey, but bro"
+  },
+  {
+    "start": 2755.7,
+    "duration": 5.48,
+    "text": "I am actually static. I am not going to create an object to run myself. You have to do it yourself. I"
+  },
+  {
+    "start": 2762.1,
+    "duration": 2.0,
+    "text": "Can't do it for you. I"
+  },
+  {
+    "start": 2764.82,
+    "duration": 5.08,
+    "text": "Can't do it for you. You're like, oh you can't do it for me. Why not? I am static"
+  },
+  {
+    "start": 2769.9,
+    "duration": 3.04,
+    "text": "So when I actually run I don't need an object to run"
+  },
+  {
+    "start": 2772.94,
+    "duration": 2.0,
+    "text": "That's why I can't do it for you."
+  },
+  {
+    "start": 2774.94,
+    "duration": 5.0,
+    "text": "Grating is going to be like, oh, so I would have to prepare for an object for myself."
+  },
+  {
+    "start": 2779.94,
+    "duration": 2.0,
+    "text": "It's going to be like, yeah, you would have."
+  },
+  {
+    "start": 2781.94,
+    "duration": 2.0,
+    "text": "Okay, that's going to be like, okay, sure, cool, I can do it myself."
+  },
+  {
+    "start": 2783.94,
+    "duration": 2.0,
+    "text": "No problem."
+  },
+  {
+    "start": 2785.94,
+    "duration": 2.0,
+    "text": "That was a great example."
+  },
+  {
+    "start": 2787.94,
+    "duration": 3.0,
+    "text": "You should definitely be cleared with that now."
+  },
+  {
+    "start": 2790.94,
+    "duration": 1.0,
+    "text": "Okay."
+  },
+  {
+    "start": 2791.94,
+    "duration": 3.0,
+    "text": "So I believe that makes sense."
+  },
+  {
+    "start": 2794.94,
+    "duration": 2.0,
+    "text": "Cool."
+  },
+  {
+    "start": 2796.94,
+    "duration": 3.0,
+    "text": "So a static method can call only static methods"
+  },
+  {
+    "start": 2799.94,
+    "duration": 3.0,
+    "text": "methods and cannot call like non static method from it like that"
+  },
+  {
+    "start": 2803.94,
+    "duration": 3.0,
+    "text": "but if you want to call it you would have to reference it like this"
+  },
+  {
+    "start": 2806.94,
+    "duration": 3.0,
+    "text": "and a static method can be accessed directly by the class name"
+  },
+  {
+    "start": 2809.94,
+    "duration": 3.0,
+    "text": "don't need any object a static method cannot refer to"
+  },
+  {
+    "start": 2812.94,
+    "duration": 3.0,
+    "text": "obviously this keyword or the super keyword when we do inheritance"
+  },
+  {
+    "start": 2815.94,
+    "duration": 3.0,
+    "text": "so it's pretty obvious let's say I create a static"
+  },
+  {
+    "start": 2818.94,
+    "duration": 3.0,
+    "text": "method over here I say static"
+  },
+  {
+    "start": 2821.94,
+    "duration": 2.0,
+    "text": "void"
+  },
+  {
+    "start": 2823.94,
+    "duration": 2.0,
+    "text": "message or something like that"
+  },
+  {
+    "start": 2825.94,
+    "duration": 2.0,
+    "text": "okay"
+  },
+  {
+    "start": 2827.94,
+    "duration": 9.12,
+    "text": "and I just say print hello world okay something like this you want to call"
+  },
+  {
+    "start": 2837.06,
+    "duration": 4.8,
+    "text": "message like this you put this over here see what will happen it's giving me a"
+  },
+  {
+    "start": 2841.86,
+    "duration": 7.68,
+    "text": "warning same thing it's like it's static you can use human like this okay so"
+  },
+  {
+    "start": 2849.54,
+    "duration": 3.92,
+    "text": "static method you don't really have to put this condition or whatever over there"
+  },
+  {
+    "start": 2853.46,
+    "duration": 5.86,
+    "text": "so for example one more thing what I mean by this is that you can't say"
+  },
+  {
+    "start": 2859.32,
+    "duration": 6.78,
+    "text": "something like so by now you know that static is not dependent on objects okay so this message"
+  },
+  {
+    "start": 2866.1,
+    "duration": 5.84,
+    "text": "is actually not going to be dependent on the objects of human class so if it's not dependent"
+  },
+  {
+    "start": 2871.94,
+    "duration": 13.03,
+    "text": "on objects of human class can you do can you do this thing you cannot use this but this"
+  },
+  {
+    "start": 2884.97,
+    "duration": 7.52,
+    "text": "keyword inside static methods obviously what is this this actually represents to represents"
+  },
+  {
+    "start": 2892.49,
+    "duration": 6.24,
+    "text": "an object and you are in static static itself does not is not dependent on any object then"
+  },
+  {
+    "start": 2898.73,
+    "duration": 5.12,
+    "text": "how can it use something that is dependent on an object this is a part of the class not"
+  },
+  {
+    "start": 2903.85,
+    "duration": 5.8,
+    "text": "a part of the object and you cannot use anything that is specifically pointing to an object"
+  },
+  {
+    "start": 2909.65,
+    "duration": 10.0,
+    "text": "so you cannot use this over here you explanation for this is the same previous story basic"
+  },
+  {
+    "start": 2919.65,
+    "duration": 5.64,
+    "text": "example okay from static you cannot use non-static stuff same story as"
+  },
+  {
+    "start": 2925.29,
+    "duration": 14.12,
+    "text": "previously okay cool make sense that was about static and static variables and"
+  },
+  {
+    "start": 2939.41,
+    "duration": 7.54,
+    "text": "things like that all right let's move forward okay so now let's imagine there's"
+  },
+  {
+    "start": 2946.95,
+    "duration": 3.84,
+    "text": "one more scenario that you have your static variables or you know something"
+  },
+  {
+    "start": 2950.79,
+    "duration": 12.76,
+    "text": "like this over here, I will create another class, I can say static to or something static"
+  },
+  {
+    "start": 2963.55,
+    "duration": 11.64,
+    "text": "int initialize, something like that. So you have a class like this. This is a demo to"
+  },
+  {
+    "start": 2975.19,
+    "duration": 12.4,
+    "text": "to show initialization of static variables or I can just rename to static block or something."
+  },
+  {
+    "start": 2987.59,
+    "duration": 8.36,
+    "text": "Okay, so what is the problem statement? Problem statement is that you have some static variables."
+  },
+  {
+    "start": 2995.95,
+    "duration": 6.16,
+    "text": "Okay, so let's say you have in your class you have static int let's say a is equal"
+  },
+  {
+    "start": 3002.11,
+    "duration": 6.92,
+    "text": "to four, then you have something like static int b is equal to let's say six or something"
+  },
+  {
+    "start": 3009.03,
+    "duration": 4.0,
+    "text": "like that or let's say you don't have it, let's say it's not initialized. Okay, this"
+  },
+  {
+    "start": 3013.03,
+    "duration": 3.96,
+    "text": "is something we covered in the previous lecture, we can put some default values over here"
+  },
+  {
+    "start": 3016.99,
+    "duration": 9.52,
+    "text": "if you want. Okay, so what do we want? We want that whenever are so obviously we"
+  },
+  {
+    "start": 3026.51,
+    "duration": 5.12,
+    "text": "know that these are not going to be dependent on objects. So we want to initialize our"
+  },
+  {
+    "start": 3031.63,
+    "duration": 5.92,
+    "text": "static variables. Let's say we want to do some some sort of some new work to initialize these."
+  },
+  {
+    "start": 3038.75,
+    "duration": 9.62,
+    "text": "How do we do that? You can do this via a static block and that static block will get executed"
+  },
+  {
+    "start": 3049.33,
+    "duration": 8.32,
+    "text": "exactly once when the class is first loaded. Okay, so a static block will look something"
+  },
+  {
+    "start": 3057.65,
+    "duration": 7.28,
+    "text": "like this you can say static block something like this you can print do some printing stuff"
+  },
+  {
+    "start": 3064.93,
+    "duration": 9.28,
+    "text": "I am in static block here you can initialize these so you can say b is actually equal to"
+  },
+  {
+    "start": 3074.21,
+    "duration": 10.26,
+    "text": "a into five something like this okay you can also have a public static word main can"
+  },
+  {
+    "start": 3084.47,
+    "duration": 4.52,
+    "text": "can I have public static void main over here inside this class? Obviously I can, you can"
+  },
+  {
+    "start": 3088.99,
+    "duration": 4.6,
+    "text": "have main function anywhere like this because it's static public static void main. I can"
+  },
+  {
+    "start": 3093.59,
+    "duration": 13.59,
+    "text": "say static block object is equal to new static block. Okay. And when you try to print it,"
+  },
+  {
+    "start": 3107.18,
+    "duration": 4.4,
+    "text": "if I try to print it, if I want to say let's say I want to print the value of a and b,"
+  },
+  {
+    "start": 3111.58,
+    "duration": 23.72,
+    "text": "I can say print static block dot a plus dot b, 4 and 20 because 4, 5s are 20, ok, sound"
+  },
+  {
+    "start": 3135.3,
+    "duration": 11.73,
+    "text": "good. Let me show you one more thing. If I say static block dot b plus equal to 3, add"
+  },
+  {
+    "start": 3147.03,
+    "duration": 4.0,
+    "text": "add 3 into it. Then I create another object."
+  },
+  {
+    "start": 3151.03,
+    "duration": 4.0,
+    "text": "Static block object2 is equal to new"
+  },
+  {
+    "start": 3155.03,
+    "duration": 6.66,
+    "text": "static block. Now if I try to print the same thing, what will"
+  },
+  {
+    "start": 3161.69,
+    "duration": 4.0,
+    "text": "happen? For example, created a new"
+  },
+  {
+    "start": 3165.69,
+    "duration": 4.0,
+    "text": "object, it obviously, you know, I'll tell you"
+  },
+  {
+    "start": 3169.69,
+    "duration": 4.0,
+    "text": "in which order it gets called or whatever, let's talk about that. So"
+  },
+  {
+    "start": 3173.69,
+    "duration": 4.0,
+    "text": "as soon as this class is loaded, all the static elements are run"
+  },
+  {
+    "start": 3177.69,
+    "duration": 8.12,
+    "text": "first, first A is set to 4, ok then this block will run, ok and inside this block B will"
+  },
+  {
+    "start": 3185.81,
+    "duration": 6.84,
+    "text": "be set to 4 into 5 20, ok and then what will happen?"
+  },
+  {
+    "start": 3192.65,
+    "duration": 8.55,
+    "text": "You print A and B, then it is saying B plus equal to 3, here if you print B again, now"
+  },
+  {
+    "start": 3201.2,
+    "duration": 2.52,
+    "text": "here it will be equal to what?"
+  },
+  {
+    "start": 3203.72,
+    "duration": 13.75,
+    "text": "will be equal to 4 by the 20 20 plus 3 23 run this okay 23 but when I created an object"
+  },
+  {
+    "start": 3217.47,
+    "duration": 7.28,
+    "text": "again you can see it did not run this you can see I am in static block only ran once"
+  },
+  {
+    "start": 3224.75,
+    "duration": 9.28,
+    "text": "this is about static block will only run once when the first object is created that"
+  },
+  {
+    "start": 3234.03,
+    "duration": 7.64,
+    "text": "is when the class is loaded for the first time. If it was called the second time, we"
+  },
+  {
+    "start": 3241.67,
+    "duration": 5.16,
+    "text": "would have seen another I am static block and it would be 23, sorry, four into five,"
+  },
+  {
+    "start": 3246.83,
+    "duration": 4.08,
+    "text": "which is equal to 20. It should be 20 over here. It's not. It only runs once when the"
+  },
+  {
+    "start": 3250.91,
+    "duration": 13.31,
+    "text": "first object is created. Okay. That's it. Here's how you can do some initialization"
+  },
+  {
+    "start": 3264.22,
+    "duration": 13.76,
+    "text": "on this. Okay, cool. Let me show you one more thing. Inner classes, what you have, what"
+  },
+  {
+    "start": 3277.98,
+    "duration": 5.62,
+    "text": "if you have inner classes? You have class inside a class that is also possible. So you can"
+  },
+  {
+    "start": 3283.6,
+    "duration": 6.7,
+    "text": "say class a something like this. Okay, you have something like this, or you can have"
+  },
+  {
+    "start": 3290.3,
+    "duration": 10.44,
+    "text": "a test class like this notice something another note outside classes the main class the class"
+  },
+  {
+    "start": 3300.74,
+    "duration": 5.54,
+    "text": "that is not inside any other class for example inner classes class outside classes cannot"
+  },
+  {
+    "start": 3306.28,
+    "duration": 12.57,
+    "text": "be static error outside classes cannot be static okay only inner classes can be static here"
+  },
+  {
+    "start": 3318.85,
+    "duration": 4.52,
+    "text": "you can put static or remove static I will tell you in more details about static right"
+  },
+  {
+    "start": 3323.37,
+    "duration": 5.36,
+    "text": "now that will clear all your doubts okay wait for it a little bit but first understand why"
+  },
+  {
+    "start": 3328.73,
+    "duration": 4.4,
+    "text": "outside classes cannot be static I mean for obvious reason this is like the outside class"
+  },
+  {
+    "start": 3334.81,
+    "duration": 5.36,
+    "text": "okay there is no class above it so you need some sort of like if I create another class over here"
+  },
+  {
+    "start": 3340.17,
+    "duration": 11.76,
+    "text": "static class a error okay outside classes cannot be static because it is not itself dependent"
+  },
+  {
+    "start": 3351.93,
+    "duration": 8.1,
+    "text": "dependent on any other class, how can you put it as static like this? Okay, but this"
+  },
+  {
+    "start": 3360.03,
+    "duration": 6.04,
+    "text": "class is dependent on outside class. Okay, hence inner classes can be started. Let me"
+  },
+  {
+    "start": 3366.07,
+    "duration": 3.8,
+    "text": "give you an example of what it actually means by static. Okay, then it will make much"
+  },
+  {
+    "start": 3369.87,
+    "duration": 4.76,
+    "text": "more sense. The example that I'd like to give you is let's say I put this class as"
+  },
+  {
+    "start": 3374.63,
+    "duration": 4.24,
+    "text": "as it is normal. Okay, I put a class over here, and then I can say public static"
+  },
+  {
+    "start": 3378.87,
+    "duration": 7.96,
+    "text": "void main. Okay, no problem. Here I can add a name like this and I can create a constructor"
+  },
+  {
+    "start": 3386.83,
+    "duration": 6.14,
+    "text": "that takes a name. Okay, no problem. Here I can say test A is equal to a test object"
+  },
+  {
+    "start": 3392.97,
+    "duration": 7.38,
+    "text": "is being created, obviously, and I'll just pass Kunal over here. Okay, new test object."
+  },
+  {
+    "start": 3400.35,
+    "duration": 6.52,
+    "text": "Okay, similarly, just give me a second. Right now it's giving an error, but I will tell"
+  },
+  {
+    "start": 3406.87,
+    "duration": 7.16,
+    "text": "you just like in a while why? So, here you can see I am getting an error I will say this"
+  },
+  {
+    "start": 3414.03,
+    "duration": 9.97,
+    "text": "is as Rahul. Here you can see this is an error why because cannot be referenced from a static"
+  },
+  {
+    "start": 3424.0,
+    "duration": 4.92,
+    "text": "constant. So, this is static hence you cannot have something like an inner class that is"
+  },
+  {
+    "start": 3428.92,
+    "duration": 6.56,
+    "text": "like not static because of the previous example is giving the same error right that this"
+  },
+  {
+    "start": 3435.48,
+    "duration": 8.16,
+    "text": "cannot be referenced from a static constant. Why? Because now this class itself, this class"
+  },
+  {
+    "start": 3443.64,
+    "duration": 6.75,
+    "text": "itself is dependent on the outer class. Then it's going to be like, Hey, you are yourself"
+  },
+  {
+    "start": 3450.39,
+    "duration": 5.12,
+    "text": "dependent on the outer class. Who is your object? It's going to be like, Oh, I don't"
+  },
+  {
+    "start": 3455.51,
+    "duration": 5.88,
+    "text": "really have one. Are you able to understand? It's totally working fine if you put it"
+  },
+  {
+    "start": 3461.39,
+    "duration": 4.44,
+    "text": "outside like this. Because right now it's going to be like, Okay, you yourself will"
+  },
+  {
+    "start": 3465.83,
+    "duration": 5.48,
+    "text": "like you are the the class template and you are you are you we can use your test"
+  },
+  {
+    "start": 3471.31,
+    "duration": 3.88,
+    "text": "class as it is because this test class actually does not depend on any other"
+  },
+  {
+    "start": 3475.19,
+    "duration": 3.64,
+    "text": "class but when you put it inside it's gonna be like now it depends on some"
+  },
+  {
+    "start": 3478.83,
+    "duration": 5.32,
+    "text": "other class so every instance of instance classes will have some class"
+  },
+  {
+    "start": 3484.15,
+    "duration": 4.16,
+    "text": "test with it as well that's why it's saying you're not able to do it but"
+  },
+  {
+    "start": 3488.31,
+    "duration": 5.97,
+    "text": "what if I create it as static what if I make this as static in that case what"
+  },
+  {
+    "start": 3494.28,
+    "duration": 8.54,
+    "text": "will happen? What will happen in this case? Now the error is gone. Let me show you one"
+  },
+  {
+    "start": 3502.82,
+    "duration": 9.52,
+    "text": "example over here. Let's say if I had something like this, static, let me just put it outside"
+  },
+  {
+    "start": 3512.34,
+    "duration": 4.44,
+    "text": "this only. Okay, no problem. Let me just show you something. Let me just put this"
+  },
+  {
+    "start": 3516.78,
+    "duration": 7.54,
+    "text": "class outside. Okay, let me put this class outside. It will clear all your doubts."
+  },
+  {
+    "start": 3524.32,
+    "duration": 6.18,
+    "text": "Okay, let me make this as static. Now, obviously, this, this particular thing you can put it"
+  },
+  {
+    "start": 3530.5,
+    "duration": 14.02,
+    "text": "as like test. And that's it. Now, if you print a dot name, a dot name, and you print B dot"
+  },
+  {
+    "start": 3544.52,
+    "duration": 5.88,
+    "text": "name, what is it going to give you for a dot name? First, it set a dot name to Kunal means"
+  },
+  {
+    "start": 3550.4,
+    "duration": 4.68,
+    "text": "the static variable name was set to Kunal. Then in this line, it set a dot name again"
+  },
+  {
+    "start": 3555.08,
+    "duration": 5.36,
+    "text": "to like b.name means actually test.name to Rahul. Hence the same static variable was changed"
+  },
+  {
+    "start": 3560.44,
+    "duration": 7.34,
+    "text": "to Rahul. It was replaced by from Kunal to Rahul. Hence both of those will show Rahul."
+  },
+  {
+    "start": 3567.78,
+    "duration": 4.8,
+    "text": "Both of these will show Rahul. Both of these are showing Rahul. No problem. This is very"
+  },
+  {
+    "start": 3572.58,
+    "duration": 6.24,
+    "text": "simple stuff. Okay, no problem. What if I put it inside like this? What if I put"
+  },
+  {
+    "start": 3578.82,
+    "duration": 6.0,
+    "text": "this inside like this, like a normal class? Okay, but since we know, we know why"
+  },
+  {
+    "start": 3584.82,
+    "duration": 4.96,
+    "text": "why we are getting this error right now. Okay, but I will make this class a static. What does"
+  },
+  {
+    "start": 3589.78,
+    "duration": 5.64,
+    "text": "it mean by making this class static? Now this is actually not dependent on the objects of"
+  },
+  {
+    "start": 3595.42,
+    "duration": 7.03,
+    "text": "this class. To run this particular class to use this class or whatever, an object of"
+  },
+  {
+    "start": 3602.45,
+    "duration": 6.37,
+    "text": "this class is not needed to be created. Hence I'm able to use it like this directly."
+  },
+  {
+    "start": 3608.82,
+    "duration": 5.28,
+    "text": "Okay, please don't confuse yourself in this. Kunal, why if you put class inner class,"
+  },
+  {
+    "start": 3614.1,
+    "duration": 4.64,
+    "text": "you are giving and why Kunal you are getting an error over here and not when you're putting"
+  },
+  {
+    "start": 3618.74,
+    "duration": 5.84,
+    "text": "it outside because when I'm putting it inside, it is actually now dependent on this. That"
+  },
+  {
+    "start": 3624.58,
+    "duration": 5.92,
+    "text": "is why it is now a non static constant context. It's going to be like a test. Do you need"
+  },
+  {
+    "start": 3630.5,
+    "duration": 4.12,
+    "text": "anything to run test is going to be like, yeah, actually need an instance of the inter"
+  },
+  {
+    "start": 3634.62,
+    "duration": 3.84,
+    "text": "inner class to run main is going to be like, but I don't actually have it. It's going"
+  },
+  {
+    "start": 3638.46,
+    "duration": 2.6,
+    "text": "to be like, oh, you don't have it. I would have to create it myself. Okay,"
+  },
+  {
+    "start": 3641.06,
+    "duration": 5.08,
+    "text": "never mind giving an error that is why if I put it as static now you can say this is"
+  },
+  {
+    "start": 3646.14,
+    "duration": 4.96,
+    "text": "actually dependent on the class itself and not its objects hence you can use it in static"
+  },
+  {
+    "start": 3651.1,
+    "duration": 6.04,
+    "text": "now I think that's very simple okay very illogical sense as well the real question is what will"
+  },
+  {
+    "start": 3657.14,
+    "duration": 4.88,
+    "text": "be the output Rahul Rahul or Kunal Rahul since it's static now and it does not depend"
+  },
+  {
+    "start": 3662.02,
+    "duration": 5.68,
+    "text": "on the objects of this class what is the output is going to be this test actually"
+  },
+  {
+    "start": 3667.7,
+    "duration": 4.96,
+    "text": "does not the objects of like this thing actually does not depend on the objects of this class"
+  },
+  {
+    "start": 3672.66,
+    "duration": 4.1,
+    "text": "this whatever thing you do with this do not depend on the objects of this class then what"
+  },
+  {
+    "start": 3676.76,
+    "duration": 5.6,
+    "text": "is the output for this going to be Kunal Rahul or Rahul Rahul like we were getting previously"
+  },
+  {
+    "start": 3682.36,
+    "duration": 8.53,
+    "text": "let's see interesting stuff Kunal Rahul now you will be having doubts Kunal this is"
+  },
+  {
+    "start": 3690.89,
+    "duration": 5.38,
+    "text": "static then how come they are having their individual identities you are lying to us"
+  },
+  {
+    "start": 3696.27,
+    "duration": 5.04,
+    "text": "you said static is not dependent on object you said it then how are these two objects different"
+  },
+  {
+    "start": 3703.15,
+    "duration": 3.36,
+    "text": "you are the one who said that static means does not depend on object"
+  },
+  {
+    "start": 3707.15,
+    "duration": 4.16,
+    "text": "then how is it that these two objects are dependent having unique identities"
+  },
+  {
+    "start": 3712.59,
+    "duration": 4.8,
+    "text": "because this is what static actually means whenever we're talking about this static"
+  },
+  {
+    "start": 3717.39,
+    "duration": 7.6,
+    "text": "context we are talking where it is mentioned as static so this class test is mentioned"
+  },
+  {
+    "start": 3724.99,
+    "duration": 9.44,
+    "text": "as static inside this class. Hence, it is not dependent on the objects of inner class,"
+  },
+  {
+    "start": 3734.43,
+    "duration": 9.76,
+    "text": "of this inner classes class. That is fine. But these two, okay, so but these two main"
+  },
+  {
+    "start": 3744.19,
+    "duration": 7.51,
+    "text": "and test, they can have instances of each other. Are you able to understand the difference?"
+  },
+  {
+    "start": 3751.7,
+    "duration": 4.42,
+    "text": "Static here does not mean that object will not have its own individual identity. It basically"
+  },
+  {
+    "start": 3756.12,
+    "duration": 5.24,
+    "text": "means that it does not depend on the objects of this but internally it can have it own its"
+  },
+  {
+    "start": 3761.36,
+    "duration": 4.68,
+    "text": "own objects like this like this main and test can have they can depend on each other right"
+  },
+  {
+    "start": 3766.04,
+    "duration": 10.51,
+    "text": "it just means that it is not dependent on the objects of this that is what it means"
+  },
+  {
+    "start": 3776.55,
+    "duration": 10.03,
+    "text": "okay this is basically the idea over here alright so only nested classes like this"
+  },
+  {
+    "start": 3786.58,
+    "duration": 12.13,
+    "text": "can be static let's try to do something else something like this okay that is fine"
+  },
+  {
+    "start": 3798.71,
+    "duration": 5.12,
+    "text": "Uh, it's actually now going to be the same thing. Now this is static. So it basically, uh, sorry, not human."
+  },
+  {
+    "start": 3804.71,
+    "duration": 8.84,
+    "text": "S dot name. And here it's obviously giving an error right now because you cannot use it from a static context. But if you do static like this, internally also everything will be static."
+  },
+  {
+    "start": 3813.99,
+    "duration": 17.69,
+    "text": "Like, like this, you can remove it now. It does not really matter much. Okay. That is pretty much about it. I hope you were able to understand."
+  },
+  {
+    "start": 3831.68,
+    "duration": 9.3,
+    "text": "We can override the static method as well, the ones that have been inherited and stuff"
+  },
+  {
+    "start": 3840.98,
+    "duration": 5.6,
+    "text": "we will talk more about that in the inheritance part, but yeah that is pretty much about"
+  },
+  {
+    "start": 3846.58,
+    "duration": 2.89,
+    "text": "it."
+  },
+  {
+    "start": 3849.47,
+    "duration": 4.7,
+    "text": "Yeah, one more thing I wanted to mention about static variables was that since it does not"
+  },
+  {
+    "start": 3854.17,
+    "duration": 3.94,
+    "text": "depend on object very common sense you will be able to get the answer for this."
+  },
+  {
+    "start": 3858.11,
+    "duration": 4.64,
+    "text": "Since static variables or static stuff methods do not depend on objects and objects are"
+  },
+  {
+    "start": 3862.75,
+    "duration": 4.0,
+    "text": "created when objects are created at runtime."
+  },
+  {
+    "start": 3866.75,
+    "duration": 6.26,
+    "text": "So since objects are created at runtime and static methods and variables do not have anything"
+  },
+  {
+    "start": 3873.01,
+    "duration": 7.02,
+    "text": "to do with objects, hence static stuff like the static level, the class level, static variables,"
+  },
+  {
+    "start": 3880.03,
+    "duration": 4.24,
+    "text": "static methods or whatever, they are resolved during compile time."
+  },
+  {
+    "start": 3884.27,
+    "duration": 2.36,
+    "text": "They are class level methods, static methods and stuff."
+  },
+  {
+    "start": 3886.63,
+    "duration": 5.44,
+    "text": "So they are resolved during compile time."
+  },
+  {
+    "start": 3892.07,
+    "duration": 1.56,
+    "text": "That was it about static stuff."
+  },
+  {
+    "start": 3893.63,
+    "duration": 3.92,
+    "text": "Obviously when we do interfaces and all these other things over there also I will"
+  },
+  {
+    "start": 3897.55,
+    "duration": 3.24,
+    "text": "teach you more about how it deals with interfaces we don't have to worry about"
+  },
+  {
+    "start": 3900.79,
+    "duration": 3.24,
+    "text": "that right now because we don't even know what interfaces are right now but I"
+  },
+  {
+    "start": 3904.03,
+    "duration": 4.52,
+    "text": "hope that gave you a good understanding of it okay so please try to see what you"
+  },
+  {
+    "start": 3908.55,
+    "duration": 3.88,
+    "text": "want to put a static if you put a static salary then every single human being"
+  },
+  {
+    "start": 3912.43,
+    "duration": 5.88,
+    "text": "on earth will have the same salary so if you put static Boolean every person"
+  },
+  {
+    "start": 3918.31,
+    "duration": 11.7,
+    "text": "will either be married or not married okay cool that is pretty much about"
+  },
+  {
+    "start": 3930.01,
+    "duration": 4.8,
+    "text": "it all right let's move forward okay so now I think you will be able to understand what is this"
+  },
+  {
+    "start": 3934.81,
+    "duration": 6.72,
+    "text": "system.out.println or whatever println is a method out is a variable system is a class no problem"
+  },
+  {
+    "start": 3941.53,
+    "duration": 4.0,
+    "text": "so this is something that the java people have provided us they're like hey if you want to work"
+  },
+  {
+    "start": 3945.53,
+    "duration": 4.56,
+    "text": "with system like system input system output or whatever or file reading or whatever you want to"
+  },
+  {
+    "start": 3950.09,
+    "duration": 4.32,
+    "text": "do use the keyboard we have divide we have made we have written code for that you already"
+  },
+  {
+    "start": 3954.41,
+    "duration": 6.88,
+    "text": "So out is basically, you can see it's a final static variable and public means it can be used"
+  },
+  {
+    "start": 3961.29,
+    "duration": 5.12,
+    "text": "from anywhere. Static means an object of this print stream class does not need to be created in"
+  },
+  {
+    "start": 3966.41,
+    "duration": 5.68,
+    "text": "order to use it. Null by default basically means that the standard output stream is typically"
+  },
+  {
+    "start": 3972.09,
+    "duration": 6.0,
+    "text": "it's the display output or the console by the way. So it has a print stream type. So it is"
+  },
+  {
+    "start": 3978.09,
+    "duration": 5.76,
+    "text": "just a reference variable of a class of type print stream. Now this class is nothing,"
+  },
+  {
+    "start": 3983.85,
+    "duration": 3.68,
+    "text": "there's nothing nothing to worry about over here this print essence this is like"
+  },
+  {
+    "start": 3987.53,
+    "duration": 4.56,
+    "text": "out.println what is this dot we already talked about the dot is like you know it"
+  },
+  {
+    "start": 3992.09,
+    "duration": 4.64,
+    "text": "binds the instance variables and instance methods with the reference"
+  },
+  {
+    "start": 3996.73,
+    "duration": 4.04,
+    "text": "variables already covered in previous lecture that is what this dot is doing so"
+  },
+  {
+    "start": 4000.77,
+    "duration": 4.92,
+    "text": "this out is of type print stream so print stream may be having a println"
+  },
+  {
+    "start": 4005.69,
+    "duration": 6.16,
+    "text": "method and it is just calling that that's it as simple as that print"
+  },
+  {
+    "start": 4011.85,
+    "duration": 4.08,
+    "text": "stream has a println method and we are just calling that what else do you want me to explain"
+  },
+  {
+    "start": 4015.93,
+    "duration": 5.56,
+    "text": "in this it is just taking a string and printing that that's it and println we know does two"
+  },
+  {
+    "start": 4021.49,
+    "duration": 6.56,
+    "text": "things it obviously always calculates do the value of it which in turn calls the two string"
+  },
+  {
+    "start": 4028.05,
+    "duration": 5.56,
+    "text": "method how two string works internally and everything I will show it to you in detail"
+  },
+  {
+    "start": 4033.61,
+    "duration": 5.08,
+    "text": "when we do overriding overriding and stuff but that's it is just a simple variable"
+  },
+  {
+    "start": 4038.69,
+    "duration": 5.48,
+    "text": "Similarly, when we were doing something like arrays dot two string, it was basically something"
+  },
+  {
+    "start": 4044.17,
+    "duration": 1.0,
+    "text": "like this."
+  },
+  {
+    "start": 4045.17,
+    "duration": 6.0,
+    "text": "It will like, hey, just print your, you know, your, your array, your array."
+  },
+  {
+    "start": 4051.17,
+    "duration": 1.0,
+    "text": "That's it."
+  },
+  {
+    "start": 4052.17,
+    "duration": 9.08,
+    "text": "So arrays is a new int or something like this, three, four, five, something like this."
+  },
+  {
+    "start": 4061.25,
+    "duration": 4.68,
+    "text": "So the arrays is a class and it contains a two string method."
+  },
+  {
+    "start": 4065.93,
+    "duration": 1.84,
+    "text": "What's so wrong about it?"
+  },
+  {
+    "start": 4067.77,
+    "duration": 2.0,
+    "text": "What is so confusing about it?"
+  },
+  {
+    "start": 4069.77,
+    "duration": 1.32,
+    "text": "It just prints it in a nice way."
+  },
+  {
+    "start": 4071.09,
+    "duration": 3.6,
+    "text": "length is zero it will just print empty brackets and we'll add a bracket string"
+  },
+  {
+    "start": 4074.69,
+    "duration": 4.24,
+    "text": "builder we have already covered. So now are you able to understand what I was"
+  },
+  {
+    "start": 4078.93,
+    "duration": 3.86,
+    "text": "saying that I will teach you this in OOP and OOP. This is a class it"
+  },
+  {
+    "start": 4082.79,
+    "duration": 6.02,
+    "text": "contains a two string method. So one more cool thing I can show you is that"
+  },
+  {
+    "start": 4088.81,
+    "duration": 7.28,
+    "text": "when you're trying to print test any object of test okay if you're trying"
+  },
+  {
+    "start": 4096.09,
+    "duration": 3.0,
+    "text": "to print any object of test or whatever it's giving me some random"
+  },
+  {
+    "start": 4099.09,
+    "duration": 6.12,
+    "text": "value by because that is how it does it automatically internally when you pass an object Java is"
+  },
+  {
+    "start": 4105.21,
+    "duration": 3.36,
+    "text": "going to call value of and that is going to call two string method."
+  },
+  {
+    "start": 4108.57,
+    "duration": 6.52,
+    "text": "So internally it's saying actually it's saying internally it's calling a dot two string a"
+  },
+  {
+    "start": 4115.09,
+    "duration": 4.64,
+    "text": "dot two string does a contain two string is going to be like a does not contain two"
+  },
+  {
+    "start": 4119.73,
+    "duration": 7.04,
+    "text": "string a does not contain two string hence if a means the class which a belongs to"
+  },
+  {
+    "start": 4126.77,
+    "duration": 4.82,
+    "text": "which is test class, it does not contain two string, hence it is going to use its own two"
+  },
+  {
+    "start": 4131.59,
+    "duration": 6.42,
+    "text": "string by default. And that is just class name plus add the rate plus hash value. What"
+  },
+  {
+    "start": 4138.01,
+    "duration": 5.48,
+    "text": "is hash value? I will teach you in hash, hash maps when we do that is just a random"
+  },
+  {
+    "start": 4143.49,
+    "duration": 7.52,
+    "text": "number. Okay, something like that. But what if we had, what if we had one, here saying"
+  },
+  {
+    "start": 4151.01,
+    "duration": 4.72,
+    "text": "a dot two string right so in a dot two string we need what what is a dot two string means"
+  },
+  {
+    "start": 4156.77,
+    "duration": 4.24,
+    "text": "does a have two string no it does not does test have two string no it does not"
+  },
+  {
+    "start": 4161.01,
+    "duration": 5.44,
+    "text": "do i have two string on my own default yes i do then it's using the default one that's you know"
+  },
+  {
+    "start": 4166.45,
+    "duration": 5.36,
+    "text": "how java works internally that i already explained to you it will look at a i showed you the boxes"
+  },
+  {
+    "start": 4171.81,
+    "duration": 4.24,
+    "text": "right that's basically what it's doing it will first check in the object then we check in the"
+  },
+  {
+    "start": 4176.05,
+    "duration": 4.48,
+    "text": "class, then we'll check outside class like the in build drama files. What if I had two"
+  },
+  {
+    "start": 4180.53,
+    "duration": 9.59,
+    "text": "string over here, two string, here I'm saying public string two string, I'm just going to"
+  },
+  {
+    "start": 4190.12,
+    "duration": 4.68,
+    "text": "say return two string actually asks asks the string to be returned, that will be stored"
+  },
+  {
+    "start": 4194.8,
+    "duration": 3.6,
+    "text": "over here that will be just returned over here a string will be returned over here."
+  },
+  {
+    "start": 4198.4,
+    "duration": 5.4,
+    "text": "Let's say I just want to return the name. Okay, just return the name. It's actually"
+  },
+  {
+    "start": 4203.8,
+    "duration": 3.04,
+    "text": "adding this at the rate over right these are known as annotations I will cover those"
+  },
+  {
+    "start": 4206.84,
+    "duration": 5.28,
+    "text": "later on. Don't worry. But now if I run this, it will not give me this random variable. At"
+  },
+  {
+    "start": 4212.12,
+    "duration": 3.88,
+    "text": "this line, it will be like a dot two string. This two string exists over here. Yes, it does."
+  },
+  {
+    "start": 4216.0,
+    "duration": 3.96,
+    "text": "What does it return? It returns the name. So it will actually print Kunal instead of"
+  },
+  {
+    "start": 4219.96,
+    "duration": 8.07,
+    "text": "printing this random stuff. Kunal is known as overriding. And I will cover this in"
+  },
+  {
+    "start": 4228.03,
+    "duration": 4.88,
+    "text": "the next lecture in detail. Okay. So that was just basically about how these things"
+  },
+  {
+    "start": 4232.91,
+    "duration": 4.32,
+    "text": "work internally that I told you previously like aris dot two string static thing."
+  },
+  {
+    "start": 4237.23,
+    "duration": 2.8,
+    "text": "and I believe you know about it now."
+  },
+  {
+    "start": 4240.03,
+    "duration": 0.84,
+    "text": "Let's move forward."
+  },
+  {
+    "start": 4240.87,
+    "duration": 2.8,
+    "text": "Okay, now sometimes it may be possible"
+  },
+  {
+    "start": 4243.67,
+    "duration": 2.6,
+    "text": "that you have a class or whatever"
+  },
+  {
+    "start": 4246.27,
+    "duration": 3.48,
+    "text": "and you only want one instance of that class to be created."
+  },
+  {
+    "start": 4249.75,
+    "duration": 1.72,
+    "text": "Like only one object is allowed."
+  },
+  {
+    "start": 4252.47,
+    "duration": 1.4,
+    "text": "How will you do that?"
+  },
+  {
+    "start": 4253.87,
+    "duration": 1.4,
+    "text": "Close on."
+  },
+  {
+    "start": 4255.27,
+    "duration": 3.91,
+    "text": "Only one instance is allowed."
+  },
+  {
+    "start": 4259.18,
+    "duration": 1.32,
+    "text": "In that case, you can use something"
+  },
+  {
+    "start": 4260.5,
+    "duration": 1.48,
+    "text": "known as a singleton class."
+  },
+  {
+    "start": 4263.42,
+    "duration": 1.04,
+    "text": "Singleton example."
+  },
+  {
+    "start": 4265.94,
+    "duration": 1.52,
+    "text": "Actually created inside static,"
+  },
+  {
+    "start": 4267.46,
+    "duration": 2.98,
+    "text": "I have to put it over here, no problem."
+  },
+  {
+    "start": 4270.44,
+    "duration": 2.38,
+    "text": "New Java class, singleton."
+  },
+  {
+    "start": 4272.82,
+    "duration": 1.12,
+    "text": "So what is singleton class?"
+  },
+  {
+    "start": 4273.94,
+    "duration": 3.16,
+    "text": "In short, it's just a class which you can,"
+  },
+  {
+    "start": 4277.1,
+    "duration": 5.0,
+    "text": "like that you only can create one object of, okay?"
+  },
+  {
+    "start": 4283.34,
+    "duration": 3.12,
+    "text": "So how can we do it?"
+  },
+  {
+    "start": 4286.46,
+    "duration": 4.1,
+    "text": "How do we create a singleton class?"
+  },
+  {
+    "start": 4290.56,
+    "duration": 3.04,
+    "text": "If you only want to create one object,"
+  },
+  {
+    "start": 4293.6,
+    "duration": 3.04,
+    "text": "you should not allow it to,"
+  },
+  {
+    "start": 4296.64,
+    "duration": 4.84,
+    "text": "you should not allow anyone to call the constructor of this class"
+  },
+  {
+    "start": 4301.48,
+    "duration": 4.84,
+    "text": "logical sense whenever you call a constructor new object will be created"
+  },
+  {
+    "start": 4306.32,
+    "duration": 2.72,
+    "text": "and you want to stop people from creating new object"
+  },
+  {
+    "start": 4309.04,
+    "duration": 3.68,
+    "text": "hence you should not allow them to use the constructor"
+  },
+  {
+    "start": 4312.72,
+    "duration": 3.2,
+    "text": "okay so a constructor is something like this"
+  },
+  {
+    "start": 4315.92,
+    "duration": 5.28,
+    "text": "I have my constructor like this I don't want people to use it"
+  },
+  {
+    "start": 4321.2,
+    "duration": 3.28,
+    "text": "so what I can do is I can make it private"
+  },
+  {
+    "start": 4324.48,
+    "duration": 8.01,
+    "text": "In short, I will cover this in detail in access modifiers, but it makes sense, right?"
+  },
+  {
+    "start": 4332.49,
+    "duration": 2.2,
+    "text": "Private word makes sense to everyone."
+  },
+  {
+    "start": 4334.69,
+    "duration": 5.18,
+    "text": "Private basically means it will only be used in this file only, in this singleton.java file"
+  },
+  {
+    "start": 4339.87,
+    "duration": 3.16,
+    "text": "only, in this class only, basically, okay?"
+  },
+  {
+    "start": 4343.03,
+    "duration": 3.16,
+    "text": "You can't use private like anywhere else."
+  },
+  {
+    "start": 4346.19,
+    "duration": 1.48,
+    "text": "I showed you an example for that as well."
+  },
+  {
+    "start": 4347.67,
+    "duration": 7.4,
+    "text": "I was calling some private stuff, if I create a main over here, okay, static void main"
+  },
+  {
+    "start": 4355.07,
+    "duration": 5.48,
+    "text": "and let's say I remove, remove private over here and I just create let's say a private"
+  },
+  {
+    "start": 4360.55,
+    "duration": 8.32,
+    "text": "int num is equal to 0 and then I just say singleton object is equal to new singleton right"
+  },
+  {
+    "start": 4368.87,
+    "duration": 5.72,
+    "text": "now able to create new object until till I am allowed to do this like create a constructor"
+  },
+  {
+    "start": 4374.59,
+    "duration": 3.52,
+    "text": "because constructor with the new keyword creates an object I will be able to create as many"
+  },
+  {
+    "start": 4378.11,
+    "duration": 4.84,
+    "text": "objects I want hence I will never be able to fulfill the singleton class aim and"
+  },
+  {
+    "start": 4382.95,
+    "duration": 4.92,
+    "text": "mission that you can only create one object here you can see object dot num it cannot access"
+  },
+  {
+    "start": 4387.87,
+    "duration": 8.41,
+    "text": "it because it's private. Hence if I put private over here behind the constructor it's not"
+  },
+  {
+    "start": 4396.28,
+    "duration": 6.16,
+    "text": "going to let me access the constructor either it's going to be like it's a private constructor"
+  },
+  {
+    "start": 4402.44,
+    "duration": 4.56,
+    "text": "you can't call it you can only call the constructor in this file only whatever thing"
+  },
+  {
+    "start": 4407.0,
+    "duration": 6.56,
+    "text": "is private it will only run in this class okay no problem so I only need one instance"
+  },
+  {
+    "start": 4413.56,
+    "duration": 5.68,
+    "text": "I only need one instance. So I am just going to say that I am going to create another instance"
+  },
+  {
+    "start": 4419.24,
+    "duration": 7.68,
+    "text": "which is known as like private singleton some instance called instance, no problem. Now"
+  },
+  {
+    "start": 4426.92,
+    "duration": 6.52,
+    "text": "since I cannot call it like this I will just remove it. I can't call it for now. No problem."
+  },
+  {
+    "start": 4433.44,
+    "duration": 4.56,
+    "text": "The goal is that only one instance can be created. So what we want is let us say we"
+  },
+  {
+    "start": 4438.0,
+    "duration": 7.56,
+    "text": "create a function that will give you an instance. So, I can say a public function, public function"
+  },
+  {
+    "start": 4445.56,
+    "duration": 10.9,
+    "text": "it will return a singleton type of instance get ins tense something like this. So, here"
+  },
+  {
+    "start": 4456.46,
+    "duration": 6.32,
+    "text": "it is going to be like singleton object is equal to what something like singleton dot"
+  },
+  {
+    "start": 4462.78,
+    "duration": 10.18,
+    "text": "get instance. So singleton dot get instance, something like this. But here it's saying"
+  },
+  {
+    "start": 4472.96,
+    "duration": 4.18,
+    "text": "that this is a non static method, it cannot be referenced to a static context. Whenever"
+  },
+  {
+    "start": 4477.14,
+    "duration": 4.56,
+    "text": "you want to access such methods or variables via the class name, it makes sense. Obviously,"
+  },
+  {
+    "start": 4481.7,
+    "duration": 3.88,
+    "text": "you have to put those as what static because you're accessing it via the class name. No"
+  },
+  {
+    "start": 4485.58,
+    "duration": 10.61,
+    "text": "problem I can do it no problem done no problem since this instance is like not"
+  },
+  {
+    "start": 4496.19,
+    "duration": 4.08,
+    "text": "going to be dependent on an object of this class I'm not going to be creating"
+  },
+  {
+    "start": 4500.27,
+    "duration": 3.92,
+    "text": "an object of this class right it's not allowed I'll only be returning this"
+  },
+  {
+    "start": 4504.19,
+    "duration": 4.36,
+    "text": "object that is created internally somewhere hence I can put this static as"
+  },
+  {
+    "start": 4508.55,
+    "duration": 6.84,
+    "text": "well make sense as simple as that now whenever someone asks for a new instance"
+  },
+  {
+    "start": 4515.39,
+    "duration": 4.88,
+    "text": "like this, hey, give me an instance, hey, give me an instance, I'm creating so many reference"
+  },
+  {
+    "start": 4520.27,
+    "duration": 5.64,
+    "text": "variables, you will give it the same instance, only one object is created in the memory, and"
+  },
+  {
+    "start": 4525.91,
+    "duration": 3.6,
+    "text": "you will give it the reference variable to that object only, which is this thing, you"
+  },
+  {
+    "start": 4529.51,
+    "duration": 4.4,
+    "text": "will always give it this, whenever someone calls this instance, first check whether an"
+  },
+  {
+    "start": 4533.91,
+    "duration": 7.08,
+    "text": "object is created or not check whether one object only is created or not."
+  },
+  {
+    "start": 4540.99,
+    "duration": 4.74,
+    "text": "So you can say if instance is equal to by default what if no object is being created"
+  },
+  {
+    "start": 4545.73,
+    "duration": 6.3,
+    "text": "null in that case create an object instance is equal to new constructor can be called here"
+  },
+  {
+    "start": 4552.03,
+    "duration": 4.04,
+    "text": "because it's private hence it hence it cannot hence it can be called in the same file"
+  },
+  {
+    "start": 4556.07,
+    "duration": 10.95,
+    "text": "here I can call it otherwise no that's it yeah that's it return instance that's"
+  },
+  {
+    "start": 4567.02,
+    "duration": 6.12,
+    "text": "it so if the instance is not being created if the object one single object that is"
+  },
+  {
+    "start": 4573.14,
+    "duration": 4.2,
+    "text": "allowed you are only allowed one object if one object is not being created it will create"
+  },
+  {
+    "start": 4577.34,
+    "duration": 6.32,
+    "text": "it other okay it will create it and in the end it will just return it so when you ask"
+  },
+  {
+    "start": 4583.66,
+    "duration": 3.88,
+    "text": "for it hey can you please give me an instance it's going to be like okay let me see let"
+  },
+  {
+    "start": 4587.54,
+    "duration": 7.62,
+    "text": "me just debug this debug when I call it for the very first time okay so when I call"
+  },
+  {
+    "start": 4595.16,
+    "duration": 3.72,
+    "text": "it for the very first time it will be like hey singleton class please give me an object"
+  },
+  {
+    "start": 4598.88,
+    "duration": 3.4,
+    "text": "it's going to be like yeah sure right now I don't have any object I'll create"
+  },
+  {
+    "start": 4602.28,
+    "duration": 7.92,
+    "text": "one done one object is created it will return that object now okay that object is obviously"
+  },
+  {
+    "start": 4610.2,
+    "duration": 6.12,
+    "text": "stored in the this instance variable that it will go inside hey I am object number two"
+  },
+  {
+    "start": 4616.32,
+    "duration": 4.2,
+    "text": "reference variable can you please also give me an object of singleton type class singleton"
+  },
+  {
+    "start": 4620.52,
+    "duration": 4.4,
+    "text": "class is going to be like what I don't allow more than one objects to be created I only"
+  },
+  {
+    "start": 4624.92,
+    "duration": 5.72,
+    "text": "have one instance object that is pointing to OBJ you can have that you can also"
+  },
+  {
+    "start": 4630.64,
+    "duration": 4.4,
+    "text": "point to that is going to be like yeah sure I can also point to that is going to be like"
+  },
+  {
+    "start": 4635.04,
+    "duration": 3.36,
+    "text": "is the instance null it's going to be like no it's not null I have already created it"
+  },
+  {
+    "start": 4638.4,
+    "duration": 6.56,
+    "text": "okay then just return the one you have created returning that object three return that that's"
+  },
+  {
+    "start": 4644.96,
+    "duration": 11.64,
+    "text": "it. So object one object two object three all three all three reference variables are"
+  },
+  {
+    "start": 4656.6,
+    "duration": 8.56,
+    "text": "pointing to just one object and here you can see in no way you are allowed to call the constructor"
+  },
+  {
+    "start": 4665.16,
+    "duration": 4.4,
+    "text": "and since you cannot call the constructor, you cannot create new objects. That is it,"
+  },
+  {
+    "start": 4670.28,
+    "duration": 5.68,
+    "text": "that singleton class. Sometimes it's useful. That's pretty much about it. If you only"
+  },
+  {
+    "start": 4675.96,
+    "duration": 5.12,
+    "text": "want to have let's say one object of a particular thing, singleton class. That's it."
+  },
+  {
+    "start": 4682.84,
+    "duration": 3.2,
+    "text": "That was it for this video. Make sure you comment right now, please."
+  },
+  {
+    "start": 4686.6,
+    "duration": 5.98,
+    "text": "comment and like right now and that's it that's all I want pause this video comment like in"
+  },
+  {
+    "start": 4692.58,
+    "duration": 4.36,
+    "text": "the next videos we'll learn next video is going to be very very important it's going"
+  },
+  {
+    "start": 4696.94,
+    "duration": 6.12,
+    "text": "to be the principles of object-oriented programming inheritance polymorphism polymorphism inheritance"
+  },
+  {
+    "start": 4703.06,
+    "duration": 6.16,
+    "text": "data abstraction encapsulation amazing video it's going to be the next video and"
+  },
+  {
+    "start": 4709.22,
+    "duration": 3.72,
+    "text": "the most important video the most important interview questions are asked from that"
+  },
+  {
+    "start": 4712.94,
+    "duration": 8.5,
+    "text": "video only. Thanks a lot for watching. Comment right now, like, share on socials, take a screenshot"
+  },
+  {
+    "start": 4721.44,
+    "duration": 6.28,
+    "text": "and share on socials. And like if you liked it, use hashtag DSA with Kunal, tag me, link"
+  },
+  {
+    "start": 4727.72,
+    "duration": 3.88,
+    "text": "the video or whatever, share it with your friends, so they can also learn about it."
+  },
+  {
+    "start": 4731.6,
+    "duration": 3.36,
+    "text": "Now I'm pretty sure you would not be having a doubt in static. Play around it with"
+  },
+  {
+    "start": 4734.96,
+    "duration": 5.04,
+    "text": "yourself, try to make some random new classes and stuff, put static here and there and"
+  },
+  {
+    "start": 4740.0,
+    "duration": 3.8,
+    "text": "stuff, but I'm pretty sure I covered everything. Thanks a lot for watching, like, comment,"
+  },
+  {
+    "start": 4743.8,
+    "duration": 2.0,
+    "text": "share on socials. I will see you in the next video."
+  }
+]

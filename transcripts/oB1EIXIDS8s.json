@@ -1,0 +1,757 @@
+[
+  {
+    "start": 4.0,
+    "duration": 2.44,
+    "text": "hey everyone welcome back to my channel"
+  },
+  {
+    "start": 5.08,
+    "duration": 3.639,
+    "text": "another new video in this video we're"
+  },
+  {
+    "start": 6.44,
+    "duration": 5.52,
+    "text": "continuing the data algorithms boot camp"
+  },
+  {
+    "start": 8.719,
+    "duration": 4.681,
+    "text": "and uh we are doing some Advanced threee"
+  },
+  {
+    "start": 11.96,
+    "duration": 4.72,
+    "text": "questions now even though this question"
+  },
+  {
+    "start": 13.4,
+    "duration": 5.719,
+    "text": "is not at Advanced on lead code it says"
+  },
+  {
+    "start": 16.68,
+    "duration": 5.679,
+    "text": "it's easy but it has like close to 7,000"
+  },
+  {
+    "start": 19.119,
+    "duration": 5.721,
+    "text": "thumbs up and um it's uh one of those"
+  },
+  {
+    "start": 22.359,
+    "duration": 5.24,
+    "text": "questions that uh we'll be using trees"
+  },
+  {
+    "start": 24.84,
+    "duration": 4.56,
+    "text": "with hash Maps so I'm doing a series of"
+  },
+  {
+    "start": 27.599,
+    "duration": 4.48,
+    "text": "uh videos in which you'll be using tree"
+  },
+  {
+    "start": 29.4,
+    "duration": 5.04,
+    "text": "data structure with some other data"
+  },
+  {
+    "start": 32.079,
+    "duration": 5.441,
+    "text": "structures uh and the question is uh"
+  },
+  {
+    "start": 34.44,
+    "duration": 4.24,
+    "text": "very simple um by the way you can check"
+  },
+  {
+    "start": 37.52,
+    "duration": 3.76,
+    "text": "out all the links in the description"
+  },
+  {
+    "start": 38.68,
+    "duration": 5.6,
+    "text": "below for the code sample and the notes"
+  },
+  {
+    "start": 41.28,
+    "duration": 4.48,
+    "text": "and everything else and uh let's see"
+  },
+  {
+    "start": 44.28,
+    "duration": 4.799,
+    "text": "what the question"
+  },
+  {
+    "start": 45.76,
+    "duration": 4.799,
+    "text": "says so given the root of a binary tree"
+  },
+  {
+    "start": 49.079,
+    "duration": 3.881,
+    "text": "binary search tree so we know it's a"
+  },
+  {
+    "start": 50.559,
+    "duration": 5.64,
+    "text": "binary search tree left hand is smaller"
+  },
+  {
+    "start": 52.96,
+    "duration": 5.2,
+    "text": "right hand is greater um and you have an"
+  },
+  {
+    "start": 56.199,
+    "duration": 4.2,
+    "text": "integer K return true if there exist two"
+  },
+  {
+    "start": 58.16,
+    "duration": 3.919,
+    "text": "elements in the binary search tree that"
+  },
+  {
+    "start": 60.399,
+    "duration": 5.241,
+    "text": "their sum is equal to"
+  },
+  {
+    "start": 62.079,
+    "duration": 4.881,
+    "text": "K or false otherwise okay it's very"
+  },
+  {
+    "start": 65.64,
+    "duration": 5.72,
+    "text": "simple first of all we know we're going"
+  },
+  {
+    "start": 66.96,
+    "duration": 7.32,
+    "text": "to Traverse the entire tree"
+  },
+  {
+    "start": 71.36,
+    "duration": 5.439,
+    "text": "so how are we going to do this so let's"
+  },
+  {
+    "start": 74.28,
+    "duration": 8.08,
+    "text": "say we are at five then we can go to"
+  },
+  {
+    "start": 76.799,
+    "duration": 9.081,
+    "text": "three 2 4 then back 6 7 okay something"
+  },
+  {
+    "start": 82.36,
+    "duration": 6.16,
+    "text": "like that and it says that K is equal to"
+  },
+  {
+    "start": 85.88,
+    "duration": 5.8,
+    "text": "9 are there any two elements that sum to"
+  },
+  {
+    "start": 88.52,
+    "duration": 5.879,
+    "text": "9 there are six and three so how do we"
+  },
+  {
+    "start": 91.68,
+    "duration": 8.24,
+    "text": "know this we go to five then three then"
+  },
+  {
+    "start": 94.399,
+    "duration": 8.4,
+    "text": "2 then 4 3 5 now we are at six so when"
+  },
+  {
+    "start": 99.92,
+    "duration": 5.96,
+    "text": "I'm at six over"
+  },
+  {
+    "start": 102.799,
+    "duration": 5.721,
+    "text": "here this six needs to know that there"
+  },
+  {
+    "start": 105.88,
+    "duration": 5.32,
+    "text": "is a three existing over in the"
+  },
+  {
+    "start": 108.52,
+    "duration": 6.72,
+    "text": "before how do we do that we can store it"
+  },
+  {
+    "start": 111.2,
+    "duration": 8.279,
+    "text": "in hashmap simple whatever element you"
+  },
+  {
+    "start": 115.24,
+    "duration": 7.919,
+    "text": "visit store it in a hashmap and check"
+  },
+  {
+    "start": 119.479,
+    "duration": 6.28,
+    "text": "whether the K minus that element exists"
+  },
+  {
+    "start": 123.159,
+    "duration": 5.001,
+    "text": "in the hash map or not for example five"
+  },
+  {
+    "start": 125.759,
+    "duration": 5.56,
+    "text": "and 9 five and four is also one so you"
+  },
+  {
+    "start": 128.16,
+    "duration": 6.24,
+    "text": "are at five you're like is five existing"
+  },
+  {
+    "start": 131.319,
+    "duration": 6.92,
+    "text": "in the hash map let me see so once uh"
+  },
+  {
+    "start": 134.4,
+    "duration": 3.839,
+    "text": "let me create this uh tree over"
+  },
+  {
+    "start": 145.0,
+    "duration": 6.76,
+    "text": "here 5"
+  },
+  {
+    "start": 148.76,
+    "duration": 3.0,
+    "text": "36"
+  },
+  {
+    "start": 154.599,
+    "duration": 2.28,
+    "text": "2"
+  },
+  {
+    "start": 159.56,
+    "duration": 3.759,
+    "text": "47 K is equal to"
+  },
+  {
+    "start": 168.599,
+    "duration": 4.161,
+    "text": "9 okay"
+  },
+  {
+    "start": 175.2,
+    "duration": 6.08,
+    "text": "so what I'm going to do is I'm going to"
+  },
+  {
+    "start": 178.8,
+    "duration": 6.079,
+    "text": "check and put it in my hash map"
+  },
+  {
+    "start": 181.28,
+    "duration": 7.879,
+    "text": "first my hash map initially is"
+  },
+  {
+    "start": 184.879,
+    "duration": 8.201,
+    "text": "empty say this is my hash map initially"
+  },
+  {
+    "start": 189.159,
+    "duration": 6.041,
+    "text": "empty hashmap I'm starting with five I'm"
+  },
+  {
+    "start": 193.08,
+    "duration": 4.12,
+    "text": "going to check if 9 minus 5 which is"
+  },
+  {
+    "start": 195.2,
+    "duration": 4.72,
+    "text": "four is in the hashmap or not it's going"
+  },
+  {
+    "start": 197.2,
+    "duration": 7.64,
+    "text": "to be like no it's not okay put five"
+  },
+  {
+    "start": 199.92,
+    "duration": 7.28,
+    "text": "over here keep traversing three is 9 - 3"
+  },
+  {
+    "start": 204.84,
+    "duration": 5.64,
+    "text": "6 in the hashmap no it's not okay move"
+  },
+  {
+    "start": 207.2,
+    "duration": 6.48,
+    "text": "forward two is 9 - 27 in the hash map no"
+  },
+  {
+    "start": 210.48,
+    "duration": 7.759,
+    "text": "it's not okay keep moving forward"
+  },
+  {
+    "start": 213.68,
+    "duration": 7.32,
+    "text": "four is 9 - 4 5 in the hash map yes five"
+  },
+  {
+    "start": 218.239,
+    "duration": 5.28,
+    "text": "is in the hash map or hash set whatever"
+  },
+  {
+    "start": 221.0,
+    "duration": 2.519,
+    "text": "you want to call"
+  },
+  {
+    "start": 224.799,
+    "duration": 5.881,
+    "text": "it yes it is in the hashmap so the"
+  },
+  {
+    "start": 227.72,
+    "duration": 2.96,
+    "text": "answer just return"
+  },
+  {
+    "start": 232.2,
+    "duration": 4.239,
+    "text": "true so this will return false this will"
+  },
+  {
+    "start": 234.799,
+    "duration": 4.881,
+    "text": "return true this will be false or true"
+  },
+  {
+    "start": 236.439,
+    "duration": 5.88,
+    "text": "true this will return true so will also"
+  },
+  {
+    "start": 239.68,
+    "duration": 5.559,
+    "text": "also return two two and two true"
+  },
+  {
+    "start": 242.319,
+    "duration": 6.84,
+    "text": "answer check do recurent for left"
+  },
+  {
+    "start": 245.239,
+    "duration": 3.92,
+    "text": "recursion for right simple as"
+  },
+  {
+    "start": 249.239,
+    "duration": 4.241,
+    "text": "that"
+  },
+  {
+    "start": 251.079,
+    "duration": 4.641,
+    "text": "easy space complexity o ofn time"
+  },
+  {
+    "start": 253.48,
+    "duration": 6.84,
+    "text": "complexity o ofn"
+  },
+  {
+    "start": 255.72,
+    "duration": 7.6,
+    "text": "easy let's try to code this okay so let"
+  },
+  {
+    "start": 260.32,
+    "duration": 3.0,
+    "text": "me try to code"
+  },
+  {
+    "start": 263.44,
+    "duration": 5.16,
+    "text": "this and"
+  },
+  {
+    "start": 266.24,
+    "duration": 5.36,
+    "text": "uh"
+  },
+  {
+    "start": 268.6,
+    "duration": 6.0,
+    "text": "here to"
+  },
+  {
+    "start": 271.6,
+    "duration": 3.0,
+    "text": "some"
+  },
+  {
+    "start": 281.52,
+    "duration": 5.76,
+    "text": "Java okay the code link you can find in"
+  },
+  {
+    "start": 284.56,
+    "duration": 6.04,
+    "text": "the description below as"
+  },
+  {
+    "start": 287.28,
+    "duration": 4.44,
+    "text": "well to some Google question where was"
+  },
+  {
+    "start": 290.6,
+    "duration": 4.319,
+    "text": "this"
+  },
+  {
+    "start": 291.72,
+    "duration": 8.88,
+    "text": "ask Google interview"
+  },
+  {
+    "start": 294.919,
+    "duration": 8.081,
+    "text": "question okay it was asked at Google"
+  },
+  {
+    "start": 300.6,
+    "duration": 4.4,
+    "text": "or maybe similar questions like this to"
+  },
+  {
+    "start": 303.0,
+    "duration": 4.24,
+    "text": "some tree you can search to some binary"
+  },
+  {
+    "start": 305.0,
+    "duration": 6.919,
+    "text": "tree question asked"
+  },
+  {
+    "start": 307.24,
+    "duration": 6.799,
+    "text": "where all right so I'm going to create a"
+  },
+  {
+    "start": 311.919,
+    "duration": 6.201,
+    "text": "helper"
+  },
+  {
+    "start": 314.039,
+    "duration": 4.081,
+    "text": "function okay"
+  },
+  {
+    "start": 318.639,
+    "duration": 6.12,
+    "text": "um and I'm going to pass the hash map or"
+  },
+  {
+    "start": 322.4,
+    "duration": 2.359,
+    "text": "hash"
+  },
+  {
+    "start": 327.16,
+    "duration": 4.319,
+    "text": "set so"
+  },
+  {
+    "start": 331.52,
+    "duration": 3.399,
+    "text": "okay hash"
+  },
+  {
+    "start": 335.44,
+    "duration": 6.92,
+    "text": "set of type"
+  },
+  {
+    "start": 338.68,
+    "duration": 3.68,
+    "text": "uh let's say I take"
+  },
+  {
+    "start": 353.12,
+    "duration": 7.199,
+    "text": "integer helper function in the helper"
+  },
+  {
+    "start": 356.8,
+    "duration": 7.44,
+    "text": "function I'm going to pass my no"
+  },
+  {
+    "start": 360.319,
+    "duration": 9.16,
+    "text": "node the K and the hash"
+  },
+  {
+    "start": 364.24,
+    "duration": 5.239,
+    "text": "set root K"
+  },
+  {
+    "start": 370.36,
+    "duration": 5.2,
+    "text": "set okay I'm"
+  },
+  {
+    "start": 373.44,
+    "duration": 3.68,
+    "text": "creating"
+  },
+  {
+    "start": 375.56,
+    "duration": 4.56,
+    "text": "private"
+  },
+  {
+    "start": 377.12,
+    "duration": 3.0,
+    "text": "Boolean"
+  },
+  {
+    "start": 382.56,
+    "duration": 5.32,
+    "text": "helper PR node node"
+  },
+  {
+    "start": 385.88,
+    "duration": 5.52,
+    "text": "ink"
+  },
+  {
+    "start": 387.88,
+    "duration": 3.52,
+    "text": "hash set"
+  },
+  {
+    "start": 391.639,
+    "duration": 4.081,
+    "text": "set so I'm going to start from the root"
+  },
+  {
+    "start": 398.28,
+    "duration": 7.039,
+    "text": "node start from the root node and check"
+  },
+  {
+    "start": 402.479,
+    "duration": 4.921,
+    "text": "right first of all check if node is"
+  },
+  {
+    "start": 405.319,
+    "duration": 6.081,
+    "text": "equal to equal to null meaning you are"
+  },
+  {
+    "start": 407.4,
+    "duration": 7.72,
+    "text": "at the bottom of leave just return false"
+  },
+  {
+    "start": 411.4,
+    "duration": 3.72,
+    "text": "otherwise check"
+  },
+  {
+    "start": 415.36,
+    "duration": 7.48,
+    "text": "if set dot contains what"
+  },
+  {
+    "start": 420.36,
+    "duration": 2.48,
+    "text": "if this"
+  },
+  {
+    "start": 423.599,
+    "duration": 8.481,
+    "text": "contains K minus that element's"
+  },
+  {
+    "start": 427.199,
+    "duration": 8.0,
+    "text": "number K minus node do"
+  },
+  {
+    "start": 432.08,
+    "duration": 6.36,
+    "text": "value just return true that you have"
+  },
+  {
+    "start": 435.199,
+    "duration": 5.961,
+    "text": "found the answer"
+  },
+  {
+    "start": 438.44,
+    "duration": 8.96,
+    "text": "otherwise set dop"
+  },
+  {
+    "start": 441.16,
+    "duration": 10.159,
+    "text": "put node. value is it V yeah and then"
+  },
+  {
+    "start": 447.4,
+    "duration": 3.919,
+    "text": "call recursion on left and right"
+  },
+  {
+    "start": 451.639,
+    "duration": 7.84,
+    "text": "helper node. left comma"
+  },
+  {
+    "start": 456.0,
+    "duration": 8.0,
+    "text": "K comma set"
+  },
+  {
+    "start": 459.479,
+    "duration": 6.801,
+    "text": "or helper node. WR comma K"
+  },
+  {
+    "start": 464.0,
+    "duration": 5.44,
+    "text": "comma that's"
+  },
+  {
+    "start": 466.28,
+    "duration": 5.599,
+    "text": "it as simple as that let's try to run"
+  },
+  {
+    "start": 469.44,
+    "duration": 4.759,
+    "text": "this and also this will be set. add and"
+  },
+  {
+    "start": 471.879,
+    "duration": 2.32,
+    "text": "not"
+  },
+  {
+    "start": 474.56,
+    "duration": 3.44,
+    "text": "put copy"
+  },
+  {
+    "start": 478.319,
+    "duration": 3.0,
+    "text": "this"
+  },
+  {
+    "start": 484.159,
+    "duration": 3.0,
+    "text": "paste"
+  },
+  {
+    "start": 491.24,
+    "duration": 3.959,
+    "text": "submit"
+  },
+  {
+    "start": 493.36,
+    "duration": 4.76,
+    "text": "easy"
+  },
+  {
+    "start": 495.199,
+    "duration": 4.801,
+    "text": "cool very simple stuff so check out the"
+  },
+  {
+    "start": 498.12,
+    "duration": 4.32,
+    "text": "links in the description below and uh"
+  },
+  {
+    "start": 500.0,
+    "duration": 3.8,
+    "text": "for previous videos notes lectures"
+  },
+  {
+    "start": 502.44,
+    "duration": 2.4,
+    "text": "assignments and if you have any"
+  },
+  {
+    "start": 503.8,
+    "duration": 2.92,
+    "text": "questions let me know in the comment"
+  },
+  {
+    "start": 504.84,
+    "duration": 2.96,
+    "text": "section below any video requests let me"
+  },
+  {
+    "start": 506.72,
+    "duration": 2.68,
+    "text": "know in the comment section below and"
+  },
+  {
+    "start": 507.8,
+    "duration": 4.16,
+    "text": "I'll see you in the next one have a"
+  },
+  {
+    "start": 509.4,
+    "duration": 2.56,
+    "text": "great day"
+  },
+  {
+    "start": 516.919,
+    "duration": 3.0,
+    "text": "by"
+  }
+]

@@ -1,0 +1,1897 @@
+[
+  {
+    "start": 0.0,
+    "duration": 3.12,
+    "text": "hey everyone welcome back to my channel"
+  },
+  {
+    "start": 1.5,
+    "duration": 3.6,
+    "text": "and in this video we're gonna see how"
+  },
+  {
+    "start": 3.12,
+    "duration": 4.32,
+    "text": "you can create a tic-tac-toe game in"
+  },
+  {
+    "start": 5.1,
+    "duration": 3.66,
+    "text": "Java using all the basic concepts that"
+  },
+  {
+    "start": 7.44,
+    "duration": 3.68,
+    "text": "we have learned till now let's get"
+  },
+  {
+    "start": 8.76,
+    "duration": 2.36,
+    "text": "started"
+  },
+  {
+    "start": 12.96,
+    "duration": 2.58,
+    "text": "now I don't have to tell you how"
+  },
+  {
+    "start": 14.16,
+    "duration": 3.0,
+    "text": "tic-tac-toe game works we have all"
+  },
+  {
+    "start": 15.54,
+    "duration": 3.36,
+    "text": "played it in the past so I'm going to"
+  },
+  {
+    "start": 17.16,
+    "duration": 4.76,
+    "text": "create a new file"
+  },
+  {
+    "start": 18.9,
+    "duration": 3.02,
+    "text": "a Java file"
+  },
+  {
+    "start": 24.24,
+    "duration": 4.02,
+    "text": "tic-tac-toe"
+  },
+  {
+    "start": 26.34,
+    "duration": 3.48,
+    "text": "and you can find the link to the code in"
+  },
+  {
+    "start": 28.26,
+    "duration": 3.72,
+    "text": "the description below so if you want to"
+  },
+  {
+    "start": 29.82,
+    "duration": 4.38,
+    "text": "check out my code you can just click on"
+  },
+  {
+    "start": 31.98,
+    "duration": 3.9,
+    "text": "the link below and uh you can directly"
+  },
+  {
+    "start": 34.2,
+    "duration": 4.199,
+    "text": "run the code that I'm writing over here"
+  },
+  {
+    "start": 35.88,
+    "duration": 4.14,
+    "text": "which is pretty cool so if you want to"
+  },
+  {
+    "start": 38.399,
+    "duration": 4.261,
+    "text": "try it out on your browser on your phone"
+  },
+  {
+    "start": 40.02,
+    "duration": 4.02,
+    "text": "you can check out the code link and"
+  },
+  {
+    "start": 42.66,
+    "duration": 3.719,
+    "text": "because people ask on always the code"
+  },
+  {
+    "start": 44.04,
+    "duration": 5.16,
+    "text": "link and you can directly run it from"
+  },
+  {
+    "start": 46.379,
+    "duration": 4.02,
+    "text": "you know you can directly Fork it and"
+  },
+  {
+    "start": 49.2,
+    "duration": 3.06,
+    "text": "you can run it"
+  },
+  {
+    "start": 50.399,
+    "duration": 4.201,
+    "text": "cool okay so this is what the"
+  },
+  {
+    "start": 52.26,
+    "duration": 4.02,
+    "text": "tic-tac-toe game looks like so our board"
+  },
+  {
+    "start": 54.6,
+    "duration": 4.86,
+    "text": "we're gonna have a three by three board"
+  },
+  {
+    "start": 56.28,
+    "duration": 7.459,
+    "text": "so let's have that three by three"
+  },
+  {
+    "start": 59.46,
+    "duration": 4.279,
+    "text": "let's say a 2d array"
+  },
+  {
+    "start": 68.34,
+    "duration": 3.779,
+    "text": "a three by three board and after that"
+  },
+  {
+    "start": 70.799,
+    "duration": 3.661,
+    "text": "we're going to initialize the board"
+  },
+  {
+    "start": 72.119,
+    "duration": 5.941,
+    "text": "initially we'll have all the empty"
+  },
+  {
+    "start": 74.46,
+    "duration": 7.04,
+    "text": "spaces we'll have all the empty spaces"
+  },
+  {
+    "start": 78.06,
+    "duration": 3.44,
+    "text": "so what we can do is"
+  },
+  {
+    "start": 81.9,
+    "duration": 3.56,
+    "text": "rho is equal to 0"
+  },
+  {
+    "start": 85.64,
+    "duration": 9.4,
+    "text": "is less than o dot length"
+  },
+  {
+    "start": 90.78,
+    "duration": 8.04,
+    "text": "and rho plus plus power and column is"
+  },
+  {
+    "start": 95.04,
+    "duration": 5.34,
+    "text": "equal to 0 column is less than"
+  },
+  {
+    "start": 98.82,
+    "duration": 3.06,
+    "text": "Board of"
+  },
+  {
+    "start": 100.38,
+    "duration": 4.199,
+    "text": "row Dot"
+  },
+  {
+    "start": 101.88,
+    "duration": 4.62,
+    "text": "length"
+  },
+  {
+    "start": 104.579,
+    "duration": 6.381,
+    "text": "column plus plus"
+  },
+  {
+    "start": 106.5,
+    "duration": 4.46,
+    "text": "which is going to initialize it as empty"
+  },
+  {
+    "start": 115.14,
+    "duration": 4.46,
+    "text": "empty"
+  },
+  {
+    "start": 117.0,
+    "duration": 2.6,
+    "text": "all right"
+  },
+  {
+    "start": 122.159,
+    "duration": 4.14,
+    "text": "so now we have it as empty now we all"
+  },
+  {
+    "start": 124.74,
+    "duration": 2.699,
+    "text": "know how the game of tic-tac-toe works"
+  },
+  {
+    "start": 126.299,
+    "duration": 3.421,
+    "text": "there are two things you have to think"
+  },
+  {
+    "start": 127.439,
+    "duration": 5.101,
+    "text": "about over here Kunal how are we going"
+  },
+  {
+    "start": 129.72,
+    "duration": 4.32,
+    "text": "to place the elements which is X or 0 so"
+  },
+  {
+    "start": 132.54,
+    "duration": 3.24,
+    "text": "let's say your current player if you"
+  },
+  {
+    "start": 134.04,
+    "duration": 4.98,
+    "text": "talk about the current player current"
+  },
+  {
+    "start": 135.78,
+    "duration": 5.52,
+    "text": "player let's say it can either be it can"
+  },
+  {
+    "start": 139.02,
+    "duration": 5.88,
+    "text": "either be your"
+  },
+  {
+    "start": 141.3,
+    "duration": 6.659,
+    "text": "X or it can be your circle we all know"
+  },
+  {
+    "start": 144.9,
+    "duration": 5.88,
+    "text": "this so first let's say x place so X"
+  },
+  {
+    "start": 147.959,
+    "duration": 4.681,
+    "text": "goes over here now it will ask you where"
+  },
+  {
+    "start": 150.78,
+    "duration": 4.2,
+    "text": "do you want to play the current another"
+  },
+  {
+    "start": 152.64,
+    "duration": 4.62,
+    "text": "move like okay I want to play it over"
+  },
+  {
+    "start": 154.98,
+    "duration": 3.96,
+    "text": "here let's say and we're like okay where"
+  },
+  {
+    "start": 157.26,
+    "duration": 3.9,
+    "text": "do you want to play the other move I"
+  },
+  {
+    "start": 158.94,
+    "duration": 4.019,
+    "text": "want to play it over here for example"
+  },
+  {
+    "start": 161.16,
+    "duration": 4.26,
+    "text": "where do you want to play the other move"
+  },
+  {
+    "start": 162.959,
+    "duration": 4.56,
+    "text": "I want to play it over here for example"
+  },
+  {
+    "start": 165.42,
+    "duration": 3.3,
+    "text": "if you want to play the other move so"
+  },
+  {
+    "start": 167.519,
+    "duration": 2.761,
+    "text": "you can either be like I want to play"
+  },
+  {
+    "start": 168.72,
+    "duration": 4.56,
+    "text": "here or I want to play here or whatever"
+  },
+  {
+    "start": 170.28,
+    "duration": 4.5,
+    "text": "so we need to figure out a few things so"
+  },
+  {
+    "start": 173.28,
+    "duration": 3.72,
+    "text": "so here first thing we have to think"
+  },
+  {
+    "start": 174.78,
+    "duration": 4.44,
+    "text": "about is how it's going to take input so"
+  },
+  {
+    "start": 177.0,
+    "duration": 6.239,
+    "text": "you have your player which is X or zero"
+  },
+  {
+    "start": 179.22,
+    "duration": 6.299,
+    "text": "said black X or o that now X is playing"
+  },
+  {
+    "start": 183.239,
+    "duration": 4.381,
+    "text": "so next time o will play the next time x"
+  },
+  {
+    "start": 185.519,
+    "duration": 3.961,
+    "text": "will play next time o will play this"
+  },
+  {
+    "start": 187.62,
+    "duration": 2.88,
+    "text": "will keep on going till the game is not"
+  },
+  {
+    "start": 189.48,
+    "duration": 2.82,
+    "text": "over"
+  },
+  {
+    "start": 190.5,
+    "duration": 4.379,
+    "text": "keep on going till the game is not over"
+  },
+  {
+    "start": 192.3,
+    "duration": 5.219,
+    "text": "now game will be over when there's like"
+  },
+  {
+    "start": 194.879,
+    "duration": 5.64,
+    "text": "a same number of"
+  },
+  {
+    "start": 197.519,
+    "duration": 5.521,
+    "text": "characters in either diagonal or row or"
+  },
+  {
+    "start": 200.519,
+    "duration": 5.461,
+    "text": "column so for example this like"
+  },
+  {
+    "start": 203.04,
+    "duration": 5.22,
+    "text": "this is a winning situation right this"
+  },
+  {
+    "start": 205.98,
+    "duration": 4.5,
+    "text": "is a winning situation so you get the"
+  },
+  {
+    "start": 208.26,
+    "duration": 3.479,
+    "text": "idea how players win diagonal can be a"
+  },
+  {
+    "start": 210.48,
+    "duration": 3.66,
+    "text": "winning situation"
+  },
+  {
+    "start": 211.739,
+    "duration": 4.741,
+    "text": "okay so we'll talk about the gaming"
+  },
+  {
+    "start": 214.14,
+    "duration": 4.56,
+    "text": "winning algorithm later on but firstly"
+  },
+  {
+    "start": 216.48,
+    "duration": 4.8,
+    "text": "we have to figure out how do we input"
+  },
+  {
+    "start": 218.7,
+    "duration": 3.959,
+    "text": "the elements over here so ideally All"
+  },
+  {
+    "start": 221.28,
+    "duration": 3.539,
+    "text": "the Things Are character it's a"
+  },
+  {
+    "start": 222.659,
+    "duration": 4.261,
+    "text": "character 2D array so it's empty and we"
+  },
+  {
+    "start": 224.819,
+    "duration": 4.321,
+    "text": "will have just one variable called let's"
+  },
+  {
+    "start": 226.92,
+    "duration": 5.22,
+    "text": "say current Uh current player that we"
+  },
+  {
+    "start": 229.14,
+    "duration": 6.06,
+    "text": "have over here so if we can say that my"
+  },
+  {
+    "start": 232.14,
+    "duration": 4.56,
+    "text": "care player initially let's say it"
+  },
+  {
+    "start": 235.2,
+    "duration": 4.44,
+    "text": "starts with X"
+  },
+  {
+    "start": 236.7,
+    "duration": 4.86,
+    "text": "initially it starts with X and I'll have"
+  },
+  {
+    "start": 239.64,
+    "duration": 5.22,
+    "text": "a Boolean"
+  },
+  {
+    "start": 241.56,
+    "duration": 7.8,
+    "text": "game over initially it's false"
+  },
+  {
+    "start": 244.86,
+    "duration": 5.82,
+    "text": "because my game is not over right now"
+  },
+  {
+    "start": 249.36,
+    "duration": 2.939,
+    "text": "okay"
+  },
+  {
+    "start": 250.68,
+    "duration": 3.96,
+    "text": "and we have to take input as well the"
+  },
+  {
+    "start": 252.299,
+    "duration": 6.66,
+    "text": "scanner"
+  },
+  {
+    "start": 254.64,
+    "duration": 6.3,
+    "text": "scanner is equal to new scanner"
+  },
+  {
+    "start": 258.959,
+    "duration": 4.561,
+    "text": "system dot in"
+  },
+  {
+    "start": 260.94,
+    "duration": 5.64,
+    "text": "no problem now we're gonna run a loop"
+  },
+  {
+    "start": 263.52,
+    "duration": 5.04,
+    "text": "now we're going to say that while my"
+  },
+  {
+    "start": 266.58,
+    "duration": 3.78,
+    "text": "game is not over not"
+  },
+  {
+    "start": 268.56,
+    "duration": 4.8,
+    "text": "game over"
+  },
+  {
+    "start": 270.36,
+    "duration": 4.32,
+    "text": "I will first of all for every move now"
+  },
+  {
+    "start": 273.36,
+    "duration": 3.3,
+    "text": "this in this Loop you will have every"
+  },
+  {
+    "start": 274.68,
+    "duration": 3.12,
+    "text": "move okay think about it look at the"
+  },
+  {
+    "start": 276.66,
+    "duration": 3.66,
+    "text": "diagram think about it what do you want"
+  },
+  {
+    "start": 277.8,
+    "duration": 3.839,
+    "text": "to do we wanna first of all print the"
+  },
+  {
+    "start": 280.32,
+    "duration": 3.18,
+    "text": "board so that the person will be like"
+  },
+  {
+    "start": 281.639,
+    "duration": 3.361,
+    "text": "okay this is the board now I want to"
+  },
+  {
+    "start": 283.5,
+    "duration": 3.3,
+    "text": "place somewhere I will let you know"
+  },
+  {
+    "start": 285.0,
+    "duration": 5.04,
+    "text": "where I want to place so print the board"
+  },
+  {
+    "start": 286.8,
+    "duration": 6.0,
+    "text": "first so I will say"
+  },
+  {
+    "start": 290.04,
+    "duration": 5.4,
+    "text": "print the board"
+  },
+  {
+    "start": 292.8,
+    "duration": 4.14,
+    "text": "board I have to create this function"
+  },
+  {
+    "start": 295.44,
+    "duration": 3.92,
+    "text": "I'll create it"
+  },
+  {
+    "start": 296.94,
+    "duration": 2.42,
+    "text": "here"
+  },
+  {
+    "start": 299.88,
+    "duration": 4.34,
+    "text": "public static print the board"
+  },
+  {
+    "start": 304.979,
+    "duration": 2.481,
+    "text": "okay"
+  },
+  {
+    "start": 307.919,
+    "duration": 3.121,
+    "text": "void"
+  },
+  {
+    "start": 309.12,
+    "duration": 6.96,
+    "text": "and it will print the board will fill"
+  },
+  {
+    "start": 311.04,
+    "duration": 8.3,
+    "text": "that later on now we want to say that um"
+  },
+  {
+    "start": 316.08,
+    "duration": 3.26,
+    "text": "enter your"
+  },
+  {
+    "start": 323.1,
+    "duration": 3.42,
+    "text": "how are we going to take the input we"
+  },
+  {
+    "start": 324.6,
+    "duration": 5.76,
+    "text": "can ask it for rows and columns so you"
+  },
+  {
+    "start": 326.52,
+    "duration": 8.34,
+    "text": "can be like hey I want to let's say 0 1"
+  },
+  {
+    "start": 330.36,
+    "duration": 7.02,
+    "text": "2 and this is 0 1 2 so you want to place"
+  },
+  {
+    "start": 334.86,
+    "duration": 4.619,
+    "text": "over here and you can be like I want to"
+  },
+  {
+    "start": 337.38,
+    "duration": 4.68,
+    "text": "place at 0 comma 2."
+  },
+  {
+    "start": 339.479,
+    "duration": 5.601,
+    "text": "okay no problem"
+  },
+  {
+    "start": 342.06,
+    "duration": 3.02,
+    "text": "so it can be like"
+  },
+  {
+    "start": 346.08,
+    "duration": 2.839,
+    "text": "player"
+  },
+  {
+    "start": 349.56,
+    "duration": 2.72,
+    "text": "player"
+  },
+  {
+    "start": 352.86,
+    "duration": 4.26,
+    "text": "enter"
+  },
+  {
+    "start": 354.6,
+    "duration": 4.2,
+    "text": "so coordinate I can say into row is"
+  },
+  {
+    "start": 357.12,
+    "duration": 5.76,
+    "text": "equal to now going to change let's say"
+  },
+  {
+    "start": 358.8,
+    "duration": 6.179,
+    "text": "we can have a new intro and I can say"
+  },
+  {
+    "start": 362.88,
+    "duration": 5.22,
+    "text": "this can be"
+  },
+  {
+    "start": 364.979,
+    "duration": 8.641,
+    "text": "scanner Dot nextint"
+  },
+  {
+    "start": 368.1,
+    "duration": 7.5,
+    "text": "and int call is equal to scan a DOT"
+  },
+  {
+    "start": 373.62,
+    "duration": 4.799,
+    "text": "next hint this is going to get the"
+  },
+  {
+    "start": 375.6,
+    "duration": 5.22,
+    "text": "coordinate now you have to first check"
+  },
+  {
+    "start": 378.419,
+    "duration": 4.861,
+    "text": "if this coordinate is already full or"
+  },
+  {
+    "start": 380.82,
+    "duration": 5.659,
+    "text": "not if it's not empty only then you will"
+  },
+  {
+    "start": 383.28,
+    "duration": 3.199,
+    "text": "do it so if"
+  },
+  {
+    "start": 386.88,
+    "duration": 5.34,
+    "text": "Board of"
+  },
+  {
+    "start": 389.28,
+    "duration": 3.96,
+    "text": "row and column is equal to equal to"
+  },
+  {
+    "start": 392.22,
+    "duration": 5.58,
+    "text": "empty"
+  },
+  {
+    "start": 393.24,
+    "duration": 8.16,
+    "text": "then only do it otherwise just say"
+  },
+  {
+    "start": 397.8,
+    "duration": 6.6,
+    "text": "system dot out Dot"
+  },
+  {
+    "start": 401.4,
+    "duration": 3.0,
+    "text": "println"
+  },
+  {
+    "start": 405.6,
+    "duration": 3.02,
+    "text": "invalid move"
+  },
+  {
+    "start": 409.259,
+    "duration": 2.901,
+    "text": "invalid move"
+  },
+  {
+    "start": 412.38,
+    "duration": 4.259,
+    "text": "try again"
+  },
+  {
+    "start": 414.0,
+    "duration": 4.44,
+    "text": "but when the move is not invalid what"
+  },
+  {
+    "start": 416.639,
+    "duration": 4.941,
+    "text": "are we going to do we are going to place"
+  },
+  {
+    "start": 418.44,
+    "duration": 3.14,
+    "text": "the element so"
+  },
+  {
+    "start": 423.12,
+    "duration": 3.66,
+    "text": "place the element"
+  },
+  {
+    "start": 424.86,
+    "duration": 3.779,
+    "text": "so you can just say"
+  },
+  {
+    "start": 426.78,
+    "duration": 3.18,
+    "text": "Board of"
+  },
+  {
+    "start": 428.639,
+    "duration": 4.201,
+    "text": "row"
+  },
+  {
+    "start": 429.96,
+    "duration": 3.84,
+    "text": "call is equal to layer which will either"
+  },
+  {
+    "start": 432.84,
+    "duration": 4.1,
+    "text": "be"
+  },
+  {
+    "start": 433.8,
+    "duration": 8.459,
+    "text": "X or Y sorry X or zero"
+  },
+  {
+    "start": 436.94,
+    "duration": 7.72,
+    "text": "and game over it's going to be equal to"
+  },
+  {
+    "start": 442.259,
+    "duration": 5.94,
+    "text": "if you have one"
+  },
+  {
+    "start": 444.66,
+    "duration": 6.9,
+    "text": "have one who has one in this particular"
+  },
+  {
+    "start": 448.199,
+    "duration": 6.12,
+    "text": "board the player if the player has one"
+  },
+  {
+    "start": 451.56,
+    "duration": 4.32,
+    "text": "now this we have to create"
+  },
+  {
+    "start": 454.319,
+    "duration": 2.581,
+    "text": "right we would have to create this"
+  },
+  {
+    "start": 455.88,
+    "duration": 4.439,
+    "text": "algorithm"
+  },
+  {
+    "start": 456.9,
+    "duration": 6.239,
+    "text": "so I'll just add it over here"
+  },
+  {
+    "start": 460.319,
+    "duration": 4.561,
+    "text": "public static"
+  },
+  {
+    "start": 463.139,
+    "duration": 3.981,
+    "text": "Boolean"
+  },
+  {
+    "start": 464.88,
+    "duration": 4.98,
+    "text": "has one"
+  },
+  {
+    "start": 467.12,
+    "duration": 6.419,
+    "text": "and car"
+  },
+  {
+    "start": 469.86,
+    "duration": 3.679,
+    "text": "board car"
+  },
+  {
+    "start": 474.36,
+    "duration": 4.44,
+    "text": "player"
+  },
+  {
+    "start": 476.699,
+    "duration": 6.301,
+    "text": "we're gonna have to"
+  },
+  {
+    "start": 478.8,
+    "duration": 7.38,
+    "text": "think about that algorithm as well okay"
+  },
+  {
+    "start": 483.0,
+    "duration": 6.44,
+    "text": "so game over now here you're gonna say"
+  },
+  {
+    "start": 486.18,
+    "duration": 3.26,
+    "text": "that if game is over"
+  },
+  {
+    "start": 490.199,
+    "duration": 5.9,
+    "text": "if game is over then you can just print"
+  },
+  {
+    "start": 492.84,
+    "duration": 3.259,
+    "text": "current player has one"
+  },
+  {
+    "start": 496.38,
+    "duration": 3.08,
+    "text": "player player"
+  },
+  {
+    "start": 501.9,
+    "duration": 3.9,
+    "text": "has one"
+  },
+  {
+    "start": 504.24,
+    "duration": 4.079,
+    "text": "right"
+  },
+  {
+    "start": 505.8,
+    "duration": 6.239,
+    "text": "otherwise"
+  },
+  {
+    "start": 508.319,
+    "duration": 6.001,
+    "text": "my current player is going to switch so"
+  },
+  {
+    "start": 512.039,
+    "duration": 5.821,
+    "text": "player is going to be equal to"
+  },
+  {
+    "start": 514.32,
+    "duration": 5.099,
+    "text": "let's say I can switch it like let's say"
+  },
+  {
+    "start": 517.86,
+    "duration": 4.099,
+    "text": "I can say"
+  },
+  {
+    "start": 519.419,
+    "duration": 2.54,
+    "text": "if"
+  },
+  {
+    "start": 522.779,
+    "duration": 2.901,
+    "text": "my player"
+  },
+  {
+    "start": 525.959,
+    "duration": 8.281,
+    "text": "is equal to equal to X"
+  },
+  {
+    "start": 529.44,
+    "duration": 4.8,
+    "text": "player switch to O"
+  },
+  {
+    "start": 534.3,
+    "duration": 5.9,
+    "text": "else"
+  },
+  {
+    "start": 536.1,
+    "duration": 4.1,
+    "text": "player is equal to X"
+  },
+  {
+    "start": 544.26,
+    "duration": 5.22,
+    "text": "okay so if player was X it will be o"
+  },
+  {
+    "start": 546.72,
+    "duration": 5.64,
+    "text": "otherwise it will be X you can also"
+  },
+  {
+    "start": 549.48,
+    "duration": 4.74,
+    "text": "write it in the short one line inline"
+  },
+  {
+    "start": 552.36,
+    "duration": 6.14,
+    "text": "format you know using the question mark"
+  },
+  {
+    "start": 554.22,
+    "duration": 4.28,
+    "text": "I can show you that as well"
+  },
+  {
+    "start": 576.779,
+    "duration": 7.261,
+    "text": "okay so I can just say player is equal"
+  },
+  {
+    "start": 580.38,
+    "duration": 6.959,
+    "text": "to let's say if player is equal to equal"
+  },
+  {
+    "start": 584.04,
+    "duration": 6.919,
+    "text": "to X if that is true"
+  },
+  {
+    "start": 587.339,
+    "duration": 3.62,
+    "text": "then it will return"
+  },
+  {
+    "start": 592.92,
+    "duration": 4.94,
+    "text": "oh"
+  },
+  {
+    "start": 594.06,
+    "duration": 3.8,
+    "text": "otherwise it will be X"
+  },
+  {
+    "start": 599.04,
+    "duration": 3.9,
+    "text": "okay"
+  },
+  {
+    "start": 600.42,
+    "duration": 5.22,
+    "text": "very simple stuff"
+  },
+  {
+    "start": 602.94,
+    "duration": 4.92,
+    "text": "that's it now afterwards what we're"
+  },
+  {
+    "start": 605.64,
+    "duration": 4.62,
+    "text": "going to do is the final board game"
+  },
+  {
+    "start": 607.86,
+    "duration": 4.86,
+    "text": "we're going to print like let's say"
+  },
+  {
+    "start": 610.26,
+    "duration": 5.9,
+    "text": "print board board"
+  },
+  {
+    "start": 612.72,
+    "duration": 3.44,
+    "text": "and that's it"
+  },
+  {
+    "start": 617.519,
+    "duration": 4.44,
+    "text": "sounds good"
+  },
+  {
+    "start": 618.66,
+    "duration": 5.22,
+    "text": "now I just have to create these uh"
+  },
+  {
+    "start": 621.959,
+    "duration": 3.721,
+    "text": "let me just fill these print board is"
+  },
+  {
+    "start": 623.88,
+    "duration": 4.92,
+    "text": "simple"
+  },
+  {
+    "start": 625.68,
+    "duration": 6.92,
+    "text": "print board is very simple"
+  },
+  {
+    "start": 628.8,
+    "duration": 3.8,
+    "text": "so let me just copy paste this"
+  },
+  {
+    "start": 633.66,
+    "duration": 7.28,
+    "text": "in print board dot length Board of row"
+  },
+  {
+    "start": 636.839,
+    "duration": 4.101,
+    "text": "dot length I'm just gonna say"
+  },
+  {
+    "start": 641.64,
+    "duration": 3.02,
+    "text": "system dot out"
+  },
+  {
+    "start": 644.82,
+    "duration": 3.079,
+    "text": "Dot println"
+  },
+  {
+    "start": 648.6,
+    "duration": 2.96,
+    "text": "Board of"
+  },
+  {
+    "start": 652.74,
+    "duration": 4.56,
+    "text": "row and call"
+  },
+  {
+    "start": 655.38,
+    "duration": 4.26,
+    "text": "Plus"
+  },
+  {
+    "start": 657.3,
+    "duration": 4.58,
+    "text": "a space"
+  },
+  {
+    "start": 659.64,
+    "duration": 2.24,
+    "text": "foreign"
+  },
+  {
+    "start": 663.24,
+    "duration": 5.279,
+    "text": "we don't need to create a new line only"
+  },
+  {
+    "start": 665.88,
+    "duration": 4.56,
+    "text": "a new line will be after every row has"
+  },
+  {
+    "start": 668.519,
+    "duration": 3.841,
+    "text": "been printed"
+  },
+  {
+    "start": 670.44,
+    "duration": 4.7,
+    "text": "just printer"
+  },
+  {
+    "start": 672.36,
+    "duration": 2.78,
+    "text": "new line"
+  },
+  {
+    "start": 675.3,
+    "duration": 5.52,
+    "text": "that's it now if you think about how"
+  },
+  {
+    "start": 678.0,
+    "duration": 4.5,
+    "text": "would we decide who has one so we have"
+  },
+  {
+    "start": 680.82,
+    "duration": 4.74,
+    "text": "to check the rows have to check the"
+  },
+  {
+    "start": 682.5,
+    "duration": 4.32,
+    "text": "columns and we check the diagonals very"
+  },
+  {
+    "start": 685.56,
+    "duration": 4.5,
+    "text": "simple stuff as I mentioned already"
+  },
+  {
+    "start": 686.82,
+    "duration": 5.54,
+    "text": "either the across the if we can talk"
+  },
+  {
+    "start": 690.06,
+    "duration": 4.98,
+    "text": "about some columns or we can talk about"
+  },
+  {
+    "start": 692.36,
+    "duration": 5.44,
+    "text": "diagonals or we can talk about the rows"
+  },
+  {
+    "start": 695.04,
+    "duration": 4.799,
+    "text": "so this is very very simple so let's say"
+  },
+  {
+    "start": 697.8,
+    "duration": 3.84,
+    "text": "we check"
+  },
+  {
+    "start": 699.839,
+    "duration": 4.381,
+    "text": "check the rows"
+  },
+  {
+    "start": 701.64,
+    "duration": 5.22,
+    "text": "so if you check the rows I can say for"
+  },
+  {
+    "start": 704.22,
+    "duration": 5.72,
+    "text": "and uh"
+  },
+  {
+    "start": 706.86,
+    "duration": 3.08,
+    "text": "Square paste this"
+  },
+  {
+    "start": 710.64,
+    "duration": 4.56,
+    "text": "rho is equal to 0"
+  },
+  {
+    "start": 712.86,
+    "duration": 6.24,
+    "text": "and rho is less than both dot length row"
+  },
+  {
+    "start": 715.2,
+    "duration": 7.04,
+    "text": "plus plus I can add a condition that if"
+  },
+  {
+    "start": 719.1,
+    "duration": 3.14,
+    "text": "board off"
+  },
+  {
+    "start": 722.459,
+    "duration": 6.06,
+    "text": "row"
+  },
+  {
+    "start": 723.959,
+    "duration": 5.641,
+    "text": "is equal to equal to so 0 and 0. which"
+  },
+  {
+    "start": 728.519,
+    "duration": 4.681,
+    "text": "is let's say we're checking the first"
+  },
+  {
+    "start": 729.6,
+    "duration": 5.16,
+    "text": "row and um"
+  },
+  {
+    "start": 733.2,
+    "duration": 4.74,
+    "text": "so"
+  },
+  {
+    "start": 734.76,
+    "duration": 6.0,
+    "text": "this will keep on changing"
+  },
+  {
+    "start": 737.94,
+    "duration": 6.24,
+    "text": "but we're having let's say for every"
+  },
+  {
+    "start": 740.76,
+    "duration": 5.04,
+    "text": "single so this will keep on changing but"
+  },
+  {
+    "start": 744.18,
+    "duration": 3.06,
+    "text": "we're having it for every single column"
+  },
+  {
+    "start": 745.8,
+    "duration": 3.96,
+    "text": "so it will check this"
+  },
+  {
+    "start": 747.24,
+    "duration": 3.24,
+    "text": "and it will check this now let me check"
+  },
+  {
+    "start": 749.76,
+    "duration": 3.24,
+    "text": "this"
+  },
+  {
+    "start": 750.48,
+    "duration": 5.52,
+    "text": "so all of these three should be equal"
+  },
+  {
+    "start": 753.0,
+    "duration": 4.92,
+    "text": "so rho of 0 and 1 and 2."
+  },
+  {
+    "start": 756.0,
+    "duration": 3.72,
+    "text": "so if we're talking about rho 0 then 0"
+  },
+  {
+    "start": 757.92,
+    "duration": 3.9,
+    "text": "comma zero zero comma one zero comma two"
+  },
+  {
+    "start": 759.72,
+    "duration": 5.04,
+    "text": "all of these should be equal"
+  },
+  {
+    "start": 761.82,
+    "duration": 5.4,
+    "text": "to what equal to character player"
+  },
+  {
+    "start": 764.76,
+    "duration": 4.319,
+    "text": "so let's say x x"
+  },
+  {
+    "start": 767.22,
+    "duration": 4.58,
+    "text": "like this"
+  },
+  {
+    "start": 769.079,
+    "duration": 2.721,
+    "text": "and"
+  },
+  {
+    "start": 776.1,
+    "duration": 2.479,
+    "text": "and"
+  },
+  {
+    "start": 779.76,
+    "duration": 4.74,
+    "text": "all three should be equal"
+  },
+  {
+    "start": 782.82,
+    "duration": 3.6,
+    "text": "I will say"
+  },
+  {
+    "start": 784.5,
+    "duration": 4.32,
+    "text": "return true"
+  },
+  {
+    "start": 786.42,
+    "duration": 4.8,
+    "text": "otherwise"
+  },
+  {
+    "start": 788.82,
+    "duration": 4.98,
+    "text": "check for column"
+  },
+  {
+    "start": 791.22,
+    "duration": 4.08,
+    "text": "so column"
+  },
+  {
+    "start": 793.8,
+    "duration": 4.74,
+    "text": "it's also going to be the same because"
+  },
+  {
+    "start": 795.3,
+    "duration": 6.08,
+    "text": "it's 3 3 only but for convention sake I"
+  },
+  {
+    "start": 798.54,
+    "duration": 2.84,
+    "text": "will write call here"
+  },
+  {
+    "start": 803.519,
+    "duration": 5.641,
+    "text": "and column wise"
+  },
+  {
+    "start": 807.06,
+    "duration": 3.779,
+    "text": "this will be fixed"
+  },
+  {
+    "start": 809.16,
+    "duration": 3.54,
+    "text": "for everywhere because we are iterating"
+  },
+  {
+    "start": 810.839,
+    "duration": 3.421,
+    "text": "over the column right"
+  },
+  {
+    "start": 812.7,
+    "duration": 2.939,
+    "text": "so 2"
+  },
+  {
+    "start": 814.26,
+    "duration": 3.84,
+    "text": "1"
+  },
+  {
+    "start": 815.639,
+    "duration": 4.921,
+    "text": "0."
+  },
+  {
+    "start": 818.1,
+    "duration": 4.38,
+    "text": "then you can return true if you want you"
+  },
+  {
+    "start": 820.56,
+    "duration": 3.12,
+    "text": "can do it like this for convention's"
+  },
+  {
+    "start": 822.48,
+    "duration": 4.159,
+    "text": "sake"
+  },
+  {
+    "start": 823.68,
+    "duration": 2.959,
+    "text": "now diagonal"
+  },
+  {
+    "start": 830.22,
+    "duration": 3.179,
+    "text": "diagonal"
+  },
+  {
+    "start": 831.48,
+    "duration": 4.74,
+    "text": "so"
+  },
+  {
+    "start": 833.399,
+    "duration": 4.74,
+    "text": "for diagonal I can just say that if"
+  },
+  {
+    "start": 836.22,
+    "duration": 5.94,
+    "text": "Board of"
+  },
+  {
+    "start": 838.139,
+    "duration": 7.44,
+    "text": "zero zero one one and two two"
+  },
+  {
+    "start": 842.16,
+    "duration": 7.32,
+    "text": "zero zero one one and two two and uh"
+  },
+  {
+    "start": 845.579,
+    "duration": 5.76,
+    "text": "0 to 1 1 2 0."
+  },
+  {
+    "start": 849.48,
+    "duration": 5.039,
+    "text": "if those are same then you can return"
+  },
+  {
+    "start": 851.339,
+    "duration": 6.261,
+    "text": "true so if Board of"
+  },
+  {
+    "start": 854.519,
+    "duration": 3.081,
+    "text": "zero zero"
+  },
+  {
+    "start": 858.6,
+    "duration": 5.1,
+    "text": "is equal to equal to player"
+  },
+  {
+    "start": 861.899,
+    "duration": 3.361,
+    "text": "and and"
+  },
+  {
+    "start": 863.7,
+    "duration": 3.6,
+    "text": "Board of"
+  },
+  {
+    "start": 865.26,
+    "duration": 5.48,
+    "text": "1 1"
+  },
+  {
+    "start": 867.3,
+    "duration": 3.44,
+    "text": "is equal to equal to player"
+  },
+  {
+    "start": 871.019,
+    "duration": 6.921,
+    "text": "and this is equal to equal to player"
+  },
+  {
+    "start": 875.16,
+    "duration": 2.78,
+    "text": "return true"
+  },
+  {
+    "start": 881.1,
+    "duration": 4.38,
+    "text": "1 1"
+  },
+  {
+    "start": 883.139,
+    "duration": 3.901,
+    "text": "2 2"
+  },
+  {
+    "start": 885.48,
+    "duration": 5.94,
+    "text": "otherwise"
+  },
+  {
+    "start": 887.04,
+    "duration": 8.22,
+    "text": "this diagonal so 0 2"
+  },
+  {
+    "start": 891.42,
+    "duration": 8.4,
+    "text": "then 1 1"
+  },
+  {
+    "start": 895.26,
+    "duration": 6.24,
+    "text": "and then we have 2 0."
+  },
+  {
+    "start": 899.82,
+    "duration": 4.259,
+    "text": "okay"
+  },
+  {
+    "start": 901.5,
+    "duration": 3.959,
+    "text": "that sounds good if none of these"
+  },
+  {
+    "start": 904.079,
+    "duration": 3.301,
+    "text": "conditions are true then just return"
+  },
+  {
+    "start": 905.459,
+    "duration": 3.301,
+    "text": "false"
+  },
+  {
+    "start": 907.38,
+    "duration": 3.12,
+    "text": "that's it"
+  },
+  {
+    "start": 908.76,
+    "duration": 3.66,
+    "text": "and when I saved it it formatted it"
+  },
+  {
+    "start": 910.5,
+    "duration": 3.3,
+    "text": "automatically so that's good that's"
+  },
+  {
+    "start": 912.42,
+    "duration": 4.08,
+    "text": "basically about it that's our program"
+  },
+  {
+    "start": 913.8,
+    "duration": 7.099,
+    "text": "okay one more thing I can do is when I'm"
+  },
+  {
+    "start": 916.5,
+    "duration": 4.399,
+    "text": "printing the board I can actually print"
+  },
+  {
+    "start": 922.5,
+    "duration": 5.36,
+    "text": "a dash here so that it's more visible"
+  },
+  {
+    "start": 924.72,
+    "duration": 3.14,
+    "text": "let's run this"
+  },
+  {
+    "start": 928.92,
+    "duration": 6.479,
+    "text": "player X enter"
+  },
+  {
+    "start": 931.079,
+    "duration": 7.141,
+    "text": "let's say 0 comma zero so now my"
+  },
+  {
+    "start": 935.399,
+    "duration": 4.74,
+    "text": "board is over here player 0 enter"
+  },
+  {
+    "start": 938.22,
+    "duration": 5.4,
+    "text": "1 comma one"
+  },
+  {
+    "start": 940.139,
+    "duration": 6.781,
+    "text": "so I'm over here player X enter let's"
+  },
+  {
+    "start": 943.62,
+    "duration": 5.94,
+    "text": "say 2 comma zero"
+  },
+  {
+    "start": 946.92,
+    "duration": 5.52,
+    "text": "so over here now player 0 enter"
+  },
+  {
+    "start": 949.56,
+    "duration": 5.88,
+    "text": "player 0 will enter let's say I wanna I"
+  },
+  {
+    "start": 952.44,
+    "duration": 6.199,
+    "text": "don't want X to win so I will enter"
+  },
+  {
+    "start": 955.44,
+    "duration": 3.199,
+    "text": "1 comma zero"
+  },
+  {
+    "start": 958.86,
+    "duration": 3.419,
+    "text": "now player X will enter let's say I"
+  },
+  {
+    "start": 960.839,
+    "duration": 5.481,
+    "text": "don't want zero to win"
+  },
+  {
+    "start": 962.279,
+    "duration": 4.041,
+    "text": "so I can maybe add uh"
+  },
+  {
+    "start": 967.74,
+    "duration": 4.8,
+    "text": "or I can just you know just for fun sake"
+  },
+  {
+    "start": 969.839,
+    "duration": 5.161,
+    "text": "I can just write uh"
+  },
+  {
+    "start": 972.54,
+    "duration": 5.22,
+    "text": "zero comma two"
+  },
+  {
+    "start": 975.0,
+    "duration": 5.459,
+    "text": "now zero will win so"
+  },
+  {
+    "start": 977.76,
+    "duration": 5.819,
+    "text": "yeah one comma two"
+  },
+  {
+    "start": 980.459,
+    "duration": 5.461,
+    "text": "so player zero has one that's it"
+  },
+  {
+    "start": 983.579,
+    "duration": 4.981,
+    "text": "simple game okay"
+  },
+  {
+    "start": 985.92,
+    "duration": 4.68,
+    "text": "so try it out and you can make a GUI as"
+  },
+  {
+    "start": 988.56,
+    "duration": 4.92,
+    "text": "well if you want using some applications"
+  },
+  {
+    "start": 990.6,
+    "duration": 4.799,
+    "text": "but uh yeah very simple game and uh"
+  },
+  {
+    "start": 993.48,
+    "duration": 4.26,
+    "text": "check out the data features algorithms"
+  },
+  {
+    "start": 995.399,
+    "duration": 3.601,
+    "text": "bootcamp that we are running and uh if"
+  },
+  {
+    "start": 997.74,
+    "duration": 3.659,
+    "text": "you want to clear your coding interviews"
+  },
+  {
+    "start": 999.0,
+    "duration": 3.899,
+    "text": "and the code for this this entire code"
+  },
+  {
+    "start": 1001.399,
+    "duration": 3.18,
+    "text": "you can find in the description below"
+  },
+  {
+    "start": 1002.899,
+    "duration": 5.401,
+    "text": "you can click on the link and Fork it"
+  },
+  {
+    "start": 1004.579,
+    "duration": 5.7,
+    "text": "and uh run it on your own uh platform"
+  },
+  {
+    "start": 1008.3,
+    "duration": 3.899,
+    "text": "browser or whatever you can download the"
+  },
+  {
+    "start": 1010.279,
+    "duration": 4.021,
+    "text": "code on GitHub anything you want to do"
+  },
+  {
+    "start": 1012.199,
+    "duration": 4.861,
+    "text": "with it you can do with it but yeah"
+  },
+  {
+    "start": 1014.3,
+    "duration": 4.08,
+    "text": "thanks a lot for watching and uh yeah do"
+  },
+  {
+    "start": 1017.06,
+    "duration": 3.839,
+    "text": "play around with the code if you want to"
+  },
+  {
+    "start": 1018.38,
+    "duration": 4.199,
+    "text": "edit it and uh yeah all the links and"
+  },
+  {
+    "start": 1020.899,
+    "duration": 2.94,
+    "text": "resources in the description below if"
+  },
+  {
+    "start": 1022.579,
+    "duration": 2.401,
+    "text": "you have any questions leave those in"
+  },
+  {
+    "start": 1023.839,
+    "duration": 2.401,
+    "text": "the comment section below happy to"
+  },
+  {
+    "start": 1024.98,
+    "duration": 4.16,
+    "text": "answer those and I'll see you in the"
+  },
+  {
+    "start": 1026.24,
+    "duration": 2.9,
+    "text": "next one have a great day"
+  },
+  {
+    "start": 1032.36,
+    "duration": 3.0,
+    "text": "foreign"
+  }
+]

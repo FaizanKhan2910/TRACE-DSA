@@ -1,0 +1,1337 @@
+[
+  {
+    "start": 4.3,
+    "duration": 29.0,
+    "text": "Hey, everyone. Welcome back to the channel. And in this video, we are going to look at switch statements. So basically, we'll be looking at what are switch statements, what is like the break condition, and like nested switch cases, and all these other things. So let me just, you know, create a new project over here. I'm going to say next, create project from template. I'm going to add it over here, like in my lectures, I can say."
+  },
+  {
+    "start": 36.06,
+    "duration": 2.0,
+    "text": "Conditions and loops"
+  },
+  {
+    "start": 38.34,
+    "duration": 2.8,
+    "text": "Maybe I can create a new one. Let's say is"
+  },
+  {
+    "start": 45.43,
+    "duration": 4.03,
+    "text": "switch and"
+  },
+  {
+    "start": 49.46,
+    "duration": 2.0,
+    "text": "That looks good"
+  },
+  {
+    "start": 51.8,
+    "duration": 4.18,
+    "text": "Finish cool"
+  },
+  {
+    "start": 56.38,
+    "duration": 6.32,
+    "text": "So what are switch cases and switch statements? Well before we jump into switch statements. Let's look at a question"
+  },
+  {
+    "start": 62.9,
+    "duration": 6.76,
+    "text": "Okay, so let's say the question states something like, you know, you take a word input which will be a fruit"
+  },
+  {
+    "start": 69.66,
+    "duration": 7.08,
+    "text": "So for example, I can take scanner input is equal to new scanner system dot in and I will"
+  },
+  {
+    "start": 76.74,
+    "duration": 5.24,
+    "text": "take in a fruit I can say string fruit fruit will be like a string, a collection of characters"
+  },
+  {
+    "start": 81.98,
+    "duration": 2.16,
+    "text": "and some putting in a string data structure."
+  },
+  {
+    "start": 84.14,
+    "duration": 3.72,
+    "text": "So I can say in dot next we have already seen this by the way if you're new to the playlist,"
+  },
+  {
+    "start": 87.86,
+    "duration": 3.4,
+    "text": "make sure you like share and subscribe all the entire DSA complete playlist you can"
+  },
+  {
+    "start": 91.26,
+    "duration": 4.48,
+    "text": "find it in the description below and you can also find the code sample assignments"
+  },
+  {
+    "start": 95.74,
+    "duration": 2.24,
+    "text": "and everything also link in the description below."
+  },
+  {
+    "start": 97.98,
+    "duration": 2.4,
+    "text": "Okay, so it will take a fruit as an input."
+  },
+  {
+    "start": 100.38,
+    "duration": 4.68,
+    "text": "Now let's say you want to say if the input is mango, then you have to display a king"
+  },
+  {
+    "start": 105.06,
+    "duration": 1.0,
+    "text": "of fruits."
+  },
+  {
+    "start": 106.06,
+    "duration": 4.04,
+    "text": "If the input is apple, you have to display a sweet red fruit."
+  },
+  {
+    "start": 110.1,
+    "duration": 5.18,
+    "text": "If the input is orange, you have to display round fruit."
+  },
+  {
+    "start": 115.28,
+    "duration": 9.34,
+    "text": "And if the input is grapes, then you have to display something like small fruit."
+  },
+  {
+    "start": 124.62,
+    "duration": 3.2,
+    "text": "So one way you might imagine to do this is you can say, hey Kunal, we can maybe"
+  },
+  {
+    "start": 127.82,
+    "duration": 6.92,
+    "text": "add many if conditions. So you can say if root dot equals, so basically in strings,"
+  },
+  {
+    "start": 134.74,
+    "duration": 4.0,
+    "text": "what happened is that remember the first lecture we did, like the initial lectures we were"
+  },
+  {
+    "start": 138.74,
+    "duration": 4.76,
+    "text": "learning about objects and memories and heat stack memory, heat memory, multiple reference"
+  },
+  {
+    "start": 143.5,
+    "duration": 3.84,
+    "text": "variables can point to the same object and everything. So basically there's something"
+  },
+  {
+    "start": 147.34,
+    "duration": 3.12,
+    "text": "known as a string pool. By the way, you can check out the syllabus in the description"
+  },
+  {
+    "start": 150.46,
+    "duration": 3.8,
+    "text": "I'm following the syllabus line by line. So we will be doing this in detail."
+  },
+  {
+    "start": 154.26,
+    "duration": 3.0,
+    "text": "We have a separate module on string string builder and how these things work and"
+  },
+  {
+    "start": 157.26,
+    "duration": 5.16,
+    "text": "how we compare these with each other. Basically, if I write over here, if if I'm making a check"
+  },
+  {
+    "start": 162.42,
+    "duration": 4.88,
+    "text": "like fruit is equal to equal to let's say mango. So it's giving me some highlight over"
+  },
+  {
+    "start": 167.3,
+    "duration": 7.1,
+    "text": "here like hey, don't check it via equal to equal to use the dot equals method. So it's"
+  },
+  {
+    "start": 174.4,
+    "duration": 4.76,
+    "text": "using the dot equals method because the dot equals methods basically compares the you"
+  },
+  {
+    "start": 179.16,
+    "duration": 4.84,
+    "text": "can see specified object. So you can see the result is true if and only the argument"
+  },
+  {
+    "start": 184.0,
+    "duration": 4.92,
+    "text": "is not null. And the string and is a string object that represents the same sequence of"
+  },
+  {
+    "start": 188.92,
+    "duration": 5.56,
+    "text": "characters as this object in simple language, if the value is true, it only checks the value"
+  },
+  {
+    "start": 194.48,
+    "duration": 6.48,
+    "text": "basically, okay, dot equals only checks the value. Okay, for example, what I mean by this"
+  },
+  {
+    "start": 200.96,
+    "duration": 6.2,
+    "text": "is that if I have something like string, by the way, we'll be doing this in detail"
+  },
+  {
+    "start": 207.16,
+    "duration": 6.24,
+    "text": "later on string A is equal to Kunal. And then I can say string B is equal to Kunal."
+  },
+  {
+    "start": 213.4,
+    "duration": 5.72,
+    "text": "Then the question is how do you know that this string A and string B basically Kunal is"
+  },
+  {
+    "start": 219.12,
+    "duration": 1.0,
+    "text": "the same value."
+  },
+  {
+    "start": 220.12,
+    "duration": 4.6,
+    "text": "How do we know that string A is pointing to the same Kunal object and B is pointing to"
+  },
+  {
+    "start": 224.72,
+    "duration": 4.44,
+    "text": "the same Kunal object that is the first approach or second thing that might happen"
+  },
+  {
+    "start": 229.16,
+    "duration": 4.36,
+    "text": "is A and B might have their own different Kunal objects."
+  },
+  {
+    "start": 233.52,
+    "duration": 1.0,
+    "text": "Which one is the answer?"
+  },
+  {
+    "start": 234.52,
+    "duration": 10.49,
+    "text": "We can drew this by A equal to equal to B. Let's print this."
+  },
+  {
+    "start": 245.01,
+    "duration": 1.0,
+    "text": "It's giving true."
+  },
+  {
+    "start": 246.01,
+    "duration": 4.96,
+    "text": "basically means that there is only one Kunal object and A and B are pointing towards the"
+  },
+  {
+    "start": 250.97,
+    "duration": 4.48,
+    "text": "same object, equal to equal to also checks the reference of this, but we don't want"
+  },
+  {
+    "start": 255.45,
+    "duration": 3.48,
+    "text": "to check the reference of these strings, we also want to check the, we just want to"
+  },
+  {
+    "start": 258.93,
+    "duration": 5.72,
+    "text": "check the value of this string. So, I hope this is clear, if it's not then I can"
+  },
+  {
+    "start": 264.65,
+    "duration": 6.88,
+    "text": "just quickly showcase over here. So, if I say A is pointing to Kunal, something"
+  },
+  {
+    "start": 271.53,
+    "duration": 8.6,
+    "text": "like this, B is also pointing to Kunal. In this case, equal to equal to will give me true."
+  },
+  {
+    "start": 280.13,
+    "duration": 3.72,
+    "text": "Equal to equal to A is equal to equal to B will give me true. This is an object, an"
+  },
+  {
+    "start": 283.85,
+    "duration": 6.84,
+    "text": "object that has been created. In the second example, if this is pointing towards the,"
+  },
+  {
+    "start": 290.69,
+    "duration": 7.76,
+    "text": "you know, different objects, if I say A is pointing to Kunal something, B is pointing"
+  },
+  {
+    "start": 298.45,
+    "duration": 7.74,
+    "text": "do some other object Kunal. In this case equal to equal to may give false will give"
+  },
+  {
+    "start": 306.19,
+    "duration": 7.7,
+    "text": "false. Okay, hence we are not using equal to equal to we are using dot equals to check."
+  },
+  {
+    "start": 313.89,
+    "duration": 5.38,
+    "text": "So if I'm saying something like we will do this in detail don't worry in the string"
+  },
+  {
+    "start": 319.27,
+    "duration": 10.36,
+    "text": "section if root dot equals mango or if a dot equals b dot equals will give true in both"
+  },
+  {
+    "start": 329.63,
+    "duration": 4.12,
+    "text": "of these cases because it's only checking the value and not the reference."
+  },
+  {
+    "start": 333.75,
+    "duration": 2.96,
+    "text": "Okay, that's pretty much about it."
+  },
+  {
+    "start": 336.71,
+    "duration": 8.13,
+    "text": "Don't worry, we will do this in detail like later on."
+  },
+  {
+    "start": 344.84,
+    "duration": 3.32,
+    "text": "All right, let's move forward."
+  },
+  {
+    "start": 348.16,
+    "duration": 9.3,
+    "text": "So here if you see a fruit is equal to mango, you can print mango fruit."
+  },
+  {
+    "start": 357.46,
+    "duration": 13.62,
+    "text": "You can say if fruit dot equals apple, you can say print a sweet red fruit in the string."
+  },
+  {
+    "start": 371.08,
+    "duration": 3.6,
+    "text": "Don't worry, we'll do strings in detail."
+  },
+  {
+    "start": 374.68,
+    "duration": 2.92,
+    "text": "We'll learn about the mutability and everything of strings."
+  },
+  {
+    "start": 377.6,
+    "duration": 1.0,
+    "text": "Don't worry about it."
+  },
+  {
+    "start": 378.6,
+    "duration": 2.52,
+    "text": "Just for now, just compare it with equals."
+  },
+  {
+    "start": 381.12,
+    "duration": 1.28,
+    "text": "Why we are doing it in more depth."
+  },
+  {
+    "start": 382.4,
+    "duration": 5.48,
+    "text": "we will look into the string module. But here you can see I did not add else over here."
+  },
+  {
+    "start": 387.88,
+    "duration": 6.56,
+    "text": "You can add else if you want but else is not required because if if the fruit string is"
+  },
+  {
+    "start": 394.44,
+    "duration": 6.72,
+    "text": "equal to mango, definitely it will not be equal to anything else. So hence, if any one"
+  },
+  {
+    "start": 401.16,
+    "duration": 4.96,
+    "text": "of these conditions will only be true. That's why else is not required obviously."
+  },
+  {
+    "start": 406.12,
+    "duration": 3.72,
+    "text": "You can put it or you can ignore it. It does not matter. You can see this is"
+  },
+  {
+    "start": 409.84,
+    "duration": 3.6,
+    "text": "looking a little bit repetitive. It's not looking very nice. It's not a nice syntax."
+  },
+  {
+    "start": 413.44,
+    "duration": 3.88,
+    "text": "We can use switch cases for this. So this is a syntax for switch expressions. So you"
+  },
+  {
+    "start": 417.32,
+    "duration": 4.64,
+    "text": "add an expression over here. In this case, the expression will be like our fruit. Okay."
+  },
+  {
+    "start": 421.96,
+    "duration": 4.36,
+    "text": "And whatever the answer of that, like the possible choices of that expression will"
+  },
+  {
+    "start": 426.32,
+    "duration": 5.52,
+    "text": "go into each and every individual cases that is the use of the case over here."
+  },
+  {
+    "start": 431.84,
+    "duration": 5.4,
+    "text": "And for every case, we will be doing something. Okay, so I think switch is explained expression"
+  },
+  {
+    "start": 437.24,
+    "duration": 5.4,
+    "text": "is explained cases are explained doing something is explained here we can just print out case"
+  },
+  {
+    "start": 442.64,
+    "duration": 8.8,
+    "text": "mango print king of fruits case apple print a sweet red fruit ok what is this break condition"
+  },
+  {
+    "start": 451.44,
+    "duration": 5.64,
+    "text": "break is basically used to terminate the sequence ok whenever you have found like the"
+  },
+  {
+    "start": 457.08,
+    "duration": 5.44,
+    "text": "particular answer and when you you know display it or do whatever you want to do if you"
+  },
+  {
+    "start": 462.52,
+    "duration": 4.48,
+    "text": "don't print break. If you don't do the break part, it will keep on checking all the others"
+  },
+  {
+    "start": 467.0,
+    "duration": 5.64,
+    "text": "as well. I'll just show you right now. It's optional, but just make sure that it will,"
+  },
+  {
+    "start": 472.64,
+    "duration": 3.92,
+    "text": "you know, if you don't break, it will keep on showing it again and again and again in"
+  },
+  {
+    "start": 476.56,
+    "duration": 4.0,
+    "text": "the newer syntax of switch cases. This is a bit old. We will also look into the newer"
+  },
+  {
+    "start": 480.56,
+    "duration": 4.08,
+    "text": "syntax. That's much more, much more nice and much more clean. That's like way better"
+  },
+  {
+    "start": 484.64,
+    "duration": 4.8,
+    "text": "than this one in Java. Okay. One more thing you have to notice is that the"
+  },
+  {
+    "start": 489.44,
+    "duration": 4.64,
+    "text": "cases should have the same type as the expressions and must be like either constant or a literal."
+  },
+  {
+    "start": 494.08,
+    "duration": 2.84,
+    "text": "So they cannot be like your variables or whatever."
+  },
+  {
+    "start": 496.92,
+    "duration": 4.56,
+    "text": "So for example, the expression that we put over here is fruit, fruit is type string."
+  },
+  {
+    "start": 501.48,
+    "duration": 5.16,
+    "text": "So cases should also be of type, type string, okay, duplicate cases are not allowed."
+  },
+  {
+    "start": 506.64,
+    "duration": 4.16,
+    "text": "It's not like this will be mango, this will be mango as well, not allowed."
+  },
+  {
+    "start": 510.8,
+    "duration": 1.0,
+    "text": "Break is used to terminate."
+  },
+  {
+    "start": 511.8,
+    "duration": 4.28,
+    "text": "If break is not used, it will continue till the next cases."
+  },
+  {
+    "start": 516.08,
+    "duration": 1.0,
+    "text": "That is also fine."
+  },
+  {
+    "start": 517.08,
+    "duration": 2.0,
+    "text": "We'll look into example of that as well."
+  },
+  {
+    "start": 519.08,
+    "duration": 4.22,
+    "text": "is basically if none of these execute, the default will execute. If none of the above"
+  },
+  {
+    "start": 523.3,
+    "duration": 5.96,
+    "text": "like are true, basically. And if default is not the end, then basically, you know, if"
+  },
+  {
+    "start": 529.26,
+    "duration": 3.64,
+    "text": "you don't want, if you put default somewhere over here in the middle, and you don't want"
+  },
+  {
+    "start": 532.9,
+    "duration": 4.84,
+    "text": "the ones after the default executing, then you can just put a break after it. We'll"
+  },
+  {
+    "start": 537.74,
+    "duration": 4.8,
+    "text": "see the example of this as well. But first, first let's look into like the basic example"
+  },
+  {
+    "start": 542.54,
+    "duration": 7.64,
+    "text": "of this, so like switch, my expression will be fruit, my case one will be mango and I am"
+  },
+  {
+    "start": 550.18,
+    "duration": 11.41,
+    "text": "just going to say print king of fruits, break condition, second will be apple, I can say"
+  },
+  {
+    "start": 561.59,
+    "duration": 14.11,
+    "text": "a sweet red root. And I'm just going to say break. Third case will be orange. I'll say"
+  },
+  {
+    "start": 575.7,
+    "duration": 9.08,
+    "text": "something like round fruit. And then I'll have case, I can add a break over here. Okay,"
+  },
+  {
+    "start": 584.78,
+    "duration": 9.48,
+    "text": "And I have a case of grapes, then I can just print something like, you know, small fruit"
+  },
+  {
+    "start": 594.26,
+    "duration": 14.7,
+    "text": "and otherwise case, you know, for your, for your default cases, basically, you can just"
+  },
+  {
+    "start": 608.96,
+    "duration": 4.56,
+    "text": "add like the default value over here, you don't have to put a case, you can just"
+  },
+  {
+    "start": 613.52,
+    "duration": 4.44,
+    "text": "say default value, it's going to be something like, this is the last one and no more"
+  },
+  {
+    "start": 617.96,
+    "duration": 4.08,
+    "text": "statement is after this, you don't need to put a break over here. Okay. So after this"
+  },
+  {
+    "start": 622.04,
+    "duration": 13.6,
+    "text": "no break is required. So you can say, please enter a valid fruit. Okay. So here basically"
+  },
+  {
+    "start": 635.64,
+    "duration": 11.86,
+    "text": "if I try to run this, say something like Apple, it's saying a sweet red fruit, it directly"
+  },
+  {
+    "start": 647.5,
+    "duration": 9.02,
+    "text": "you know it jumped onto the apple case and it printed out this nice cool imagine see what"
+  },
+  {
+    "start": 656.52,
+    "duration": 4.06,
+    "text": "will happen if I remove the break cases whenever it finds like the apple thing it will keep"
+  },
+  {
+    "start": 660.58,
+    "duration": 6.92,
+    "text": "on going let's run this so now it will not oh no so it will break over here but let's"
+  },
+  {
+    "start": 667.5,
+    "duration": 4.68,
+    "text": "say I I print orange ok I write orange you can see even though it will print like round"
+  },
+  {
+    "start": 672.18,
+    "duration": 5.2,
+    "text": "fruit and whatever it will keep on going ok this should be small but you see see"
+  },
+  {
+    "start": 677.38,
+    "duration": 7.16,
+    "text": "my point right it found orange printed no break was here hence it kept on going it executed"
+  },
+  {
+    "start": 684.54,
+    "duration": 5.8,
+    "text": "this also and this also if break is not in simple terms is if break is not provided then"
+  },
+  {
+    "start": 690.34,
+    "duration": 5.84,
+    "text": "all the executes executions below it will execute let's say I put let's say I put break over"
+  },
+  {
+    "start": 696.18,
+    "duration": 5.44,
+    "text": "here for example so the two cases will happen if it will keep on executing till the end"
+  },
+  {
+    "start": 701.62,
+    "duration": 6.24,
+    "text": "or it will keep on executing till there is like a break if I add orange over here again"
+  },
+  {
+    "start": 707.86,
+    "duration": 4.96,
+    "text": "so it's going to say it's going to print this no break condition it's going to print"
+  },
+  {
+    "start": 712.82,
+    "duration": 3.92,
+    "text": "the next one go to the next one as well break condition it will break out of it it did not"
+  },
+  {
+    "start": 716.74,
+    "duration": 7.28,
+    "text": "print this okay similarly if default was somewhere in the middle like this and you do not want"
+  },
+  {
+    "start": 724.02,
+    "duration": 4.08,
+    "text": "to you know execute this when the default condition is hit you can print cannot break"
+  },
+  {
+    "start": 728.1,
+    "duration": 5.0,
+    "text": "over here, but by convention default goes at the end only. Okay, so put it at the end."
+  },
+  {
+    "start": 733.1,
+    "duration": 7.64,
+    "text": "Okay. So here I believe you are able to understand why we are putting the break condition. All"
+  },
+  {
+    "start": 740.74,
+    "duration": 5.36,
+    "text": "right. Cool. That is pretty much about it. Very simple stuff. Okay, let's see if we"
+  },
+  {
+    "start": 746.1,
+    "duration": 4.56,
+    "text": "missed out on anything. Cases have to be same type that is true must be constant"
+  },
+  {
+    "start": 750.66,
+    "duration": 4.28,
+    "text": "duplicate cases are not allowed. So if I put mango over here, error, it's giving"
+  },
+  {
+    "start": 754.94,
+    "duration": 5.28,
+    "text": "me error and you can also check it you know how it's working if I try to debug it let's say with"
+  },
+  {
+    "start": 760.22,
+    "duration": 8.16,
+    "text": "orange let me try to debug it sorry not with orange that's not correct I should try to place the"
+  },
+  {
+    "start": 768.38,
+    "duration": 3.84,
+    "text": "debug pointer over here what is a debug pointer if you might be wondering debug pointer is whenever"
+  },
+  {
+    "start": 772.22,
+    "duration": 3.76,
+    "text": "you run this program and when this finds a debug pointer it will stop there and then you can"
+  },
+  {
+    "start": 775.98,
+    "duration": 6.96,
+    "text": "execute your code line by line so it will basically stop here not run debug debug debug"
+  },
+  {
+    "start": 782.94,
+    "duration": 10.14,
+    "text": "Okay, let's put orange. So now it's over here fruit is orange. Directly jumped onto the"
+  },
+  {
+    "start": 793.08,
+    "duration": 4.28,
+    "text": "orange statement. It didn't happen like if condition if condition what was happening"
+  },
+  {
+    "start": 797.36,
+    "duration": 5.66,
+    "text": "in that if if fruit is equal if fruit is mango print this, otherwise if fruit is apple print"
+  },
+  {
+    "start": 803.02,
+    "duration": 4.96,
+    "text": "this, otherwise is this is so it's jumping like onto this one, because it automatically"
+  },
+  {
+    "start": 807.98,
+    "duration": 5.2,
+    "text": "knows that this is a case. It's also looking very neat. Well, it's going to be looking much"
+  },
+  {
+    "start": 813.18,
+    "duration": 6.52,
+    "text": "more neater if that's a word shortly. So you can see this is why I love IntelliJ idea,"
+  },
+  {
+    "start": 819.7,
+    "duration": 4.32,
+    "text": "you know, it's highlighting this, it's saying that switch statement can be replaced with"
+  },
+  {
+    "start": 824.02,
+    "duration": 7.32,
+    "text": "enhanced switch. So in Windows, you can do alt enter. In Mac, you can do option"
+  },
+  {
+    "start": 831.34,
+    "duration": 9.0,
+    "text": "enter sorry control enter so you know setting option enter yeah option enter alt enter in"
+  },
+  {
+    "start": 840.34,
+    "duration": 9.08,
+    "text": "windows and option enter in Mac so option enter replaced with enhanced switch statement"
+  },
+  {
+    "start": 849.42,
+    "duration": 4.68,
+    "text": "it's automatically going to change its syntax to a very new syntax very neat syntax and"
+  },
+  {
+    "start": 854.1,
+    "duration": 7.96,
+    "text": "very nice syntax let's see it's doing the same thing but the format will change isn't"
+  },
+  {
+    "start": 862.06,
+    "duration": 7.36,
+    "text": "this much more cleaner simple switch fruit case mango do this case apple do this case orange"
+  },
+  {
+    "start": 869.42,
+    "duration": 5.12,
+    "text": "do this break condition not required over here ok if I write over here let's say something"
+  },
+  {
+    "start": 874.54,
+    "duration": 7.14,
+    "text": "like apple you can see it's only printing apple so internally you might imagine that"
+  },
+  {
+    "start": 881.68,
+    "duration": 5.56,
+    "text": "there is break condition after each and every one of this ok and it's looking much more"
+  },
+  {
+    "start": 887.24,
+    "duration": 9.82,
+    "text": "cleaner. So clean. It's looking very nice. All right. Cool. We can also run the default"
+  },
+  {
+    "start": 897.06,
+    "duration": 3.96,
+    "text": "statement. Let's say I print something like a type site. I do not type anything that is"
+  },
+  {
+    "start": 901.02,
+    "duration": 4.56,
+    "text": "related to mango, apple orange or grapes. So now it's running the default statement."
+  },
+  {
+    "start": 905.58,
+    "duration": 4.6,
+    "text": "If any one of these is not true, run the default statement, which is print, please"
+  },
+  {
+    "start": 910.18,
+    "duration": 3.68,
+    "text": "enter a valid fruit. You can do many, many other things with it. You can say something"
+  },
+  {
+    "start": 913.86,
+    "duration": 10.48,
+    "text": "like if I comment this out, you can say something like, you know, int day is equal to in dot"
+  },
+  {
+    "start": 924.34,
+    "duration": 13.68,
+    "text": "next int. Okay, you can use something like this. Then I can say, which day, I can say"
+  },
+  {
+    "start": 938.02,
+    "duration": 4.72,
+    "text": "case one basically means so basically this is syntax case one arrow. I'm just going"
+  },
+  {
+    "start": 942.74,
+    "duration": 14.25,
+    "text": "to say print Monday Tuesday Wednesday Thursday Friday Saturday Sunday two three four five"
+  },
+  {
+    "start": 956.99,
+    "duration": 18.44,
+    "text": "six seven Monday Tuesday Wednesday Thursday Friday Saturday Sunday basically saying if"
+  },
+  {
+    "start": 975.43,
+    "duration": 5.68,
+    "text": "the day number is one you can just print it's Monday if the day number is three print Wednesday"
+  },
+  {
+    "start": 981.11,
+    "duration": 7.88,
+    "text": "Let's try it out. Let's say I say four or five because I like Fridays. It's Friday. Very"
+  },
+  {
+    "start": 988.99,
+    "duration": 6.32,
+    "text": "nice. So if you want to directly like, you know, eliminate like the multiple if conditions"
+  },
+  {
+    "start": 995.31,
+    "duration": 4.16,
+    "text": "and directly, you know, jump on to the main one is switch cases can be very, very helpful"
+  },
+  {
+    "start": 999.47,
+    "duration": 4.72,
+    "text": "in many, many cases. And by the way, since if it is only one line of code, if there's"
+  },
+  {
+    "start": 1004.19,
+    "duration": 4.16,
+    "text": "like multiple lines of code in every case in this syntax, you can also add like curly"
+  },
+  {
+    "start": 1008.35,
+    "duration": 4.96,
+    "text": "braces over here, something like this. Okay, so this is also a valid way. Let me just try"
+  },
+  {
+    "start": 1013.31,
+    "duration": 5.68,
+    "text": "to convert it into, you know, old style switch casements. So this is the old style one. And"
+  },
+  {
+    "start": 1018.99,
+    "duration": 4.66,
+    "text": "the idea with the old style one is that let's try something else. Let's see when we would"
+  },
+  {
+    "start": 1023.65,
+    "duration": 3.66,
+    "text": "not want to use a break condition. Okay, that might be a case as well, when you might"
+  },
+  {
+    "start": 1027.31,
+    "duration": 4.88,
+    "text": "not want to use a break condition. So let me convert this into the previous one"
+  },
+  {
+    "start": 1032.19,
+    "duration": 10.57,
+    "text": "like, so you can see replace switch with if you can also replace it with if. So"
+  },
+  {
+    "start": 1042.76,
+    "duration": 4.48,
+    "text": "So you can see if else if else if else if basically this thing is being replaced with"
+  },
+  {
+    "start": 1047.24,
+    "duration": 2.52,
+    "text": "a switch case, okay?"
+  },
+  {
+    "start": 1049.76,
+    "duration": 4.28,
+    "text": "If you wanted to do the same thing, which if else you can do it like this, it's looking"
+  },
+  {
+    "start": 1054.04,
+    "duration": 1.0,
+    "text": "very dirty."
+  },
+  {
+    "start": 1055.04,
+    "duration": 5.12,
+    "text": "Hence, we can use a switch cases even much better will be like this much better."
+  },
+  {
+    "start": 1060.16,
+    "duration": 2.36,
+    "text": "Okay, let me hide this for a second."
+  },
+  {
+    "start": 1062.52,
+    "duration": 2.2,
+    "text": "Let me show you something if I'm not using break conditions."
+  },
+  {
+    "start": 1064.72,
+    "duration": 5.84,
+    "text": "So you can say something like what are weekends or what are weekdays?"
+  },
+  {
+    "start": 1070.56,
+    "duration": 5.12,
+    "text": "I know all of these are weekdays and these are weekends basically if you just remove"
+  },
+  {
+    "start": 1075.68,
+    "duration": 5.72,
+    "text": "the break condition and just put the break condition right here so you can say something"
+  },
+  {
+    "start": 1081.4,
+    "duration": 11.32,
+    "text": "like weekday here you can say something like weekend don't need this don't need this"
+  },
+  {
+    "start": 1092.72,
+    "duration": 6.6,
+    "text": "don't need this don't need this here it can basically say that whenever you are putting"
+  },
+  {
+    "start": 1099.32,
+    "duration": 3.92,
+    "text": "any particular day so if you put three since there is no break condition over here"
+  },
+  {
+    "start": 1103.24,
+    "duration": 3.98,
+    "text": "it will keep on executing till it finds a break condition. So no matter which day you"
+  },
+  {
+    "start": 1107.22,
+    "duration": 4.64,
+    "text": "are putting in, it will end over here only. So hence, if you are putting one, two, three"
+  },
+  {
+    "start": 1111.86,
+    "duration": 3.8,
+    "text": "or five, it will end over here. If you're putting six or seven, it will end over here."
+  },
+  {
+    "start": 1115.66,
+    "duration": 3.24,
+    "text": "So if you're putting one, two, three, four, five, it will print weekday. Otherwise it"
+  },
+  {
+    "start": 1118.9,
+    "duration": 7.32,
+    "text": "will print weekend. That's the benefit of not putting a break condition. Poor search"
+  },
+  {
+    "start": 1126.22,
+    "duration": 7.96,
+    "text": "giving me weak day. Let's try to replace this with the enhanced one. So enhanced"
+  },
+  {
+    "start": 1134.18,
+    "duration": 6.88,
+    "text": "one basically says case all the one two three four five so so pretty how pretty is this see"
+  },
+  {
+    "start": 1141.06,
+    "duration": 7.48,
+    "text": "just compare it let me copy paste this is the same thing this and this is the same thing"
+  },
+  {
+    "start": 1148.54,
+    "duration": 6.16,
+    "text": "but this is so much prettier how nice is this one right doing the same thing here you have"
+  },
+  {
+    "start": 1154.7,
+    "duration": 5.72,
+    "text": "to write cases multiple times case case case case case case this is so nice so basically"
+  },
+  {
+    "start": 1160.42,
+    "duration": 3.16,
+    "text": "this basically means it's switching the break condition for all of these if you"
+  },
+  {
+    "start": 1163.58,
+    "duration": 3.68,
+    "text": "want to compare this with this, this is exactly the same thing. I am going to comment this"
+  },
+  {
+    "start": 1167.26,
+    "duration": 10.0,
+    "text": "out basically for day 1, 2, 3, 4, 5, peak day, for 6 to 7, print this thing. Nice. Alright,"
+  },
+  {
+    "start": 1177.26,
+    "duration": 5.2,
+    "text": "now let's look into nested switch cases. So, nested switch cases basically means switch"
+  },
+  {
+    "start": 1182.46,
+    "duration": 4.72,
+    "text": "case inside of a switch case, like you have nested if conditions, if inside a if inside"
+  },
+  {
+    "start": 1187.18,
+    "duration": 3.76,
+    "text": "a if, you can have switch case inside a switch case as well. Let's say we take"
+  },
+  {
+    "start": 1190.94,
+    "duration": 9.04,
+    "text": "like the, you know, employee number, employee number is let's say in dot next int, whatever"
+  },
+  {
+    "start": 1199.98,
+    "duration": 5.2,
+    "text": "let me just try to hide this. This one let me just try to comment this out, or I'll just"
+  },
+  {
+    "start": 1205.18,
+    "duration": 7.01,
+    "text": "create a create a new file. Okay, let me just create a new new file over here. So"
+  },
+  {
+    "start": 1212.19,
+    "duration": 10.72,
+    "text": "I'll create a new file that is like nested if I nested switch. I'm saying public static"
+  },
+  {
+    "start": 1222.91,
+    "duration": 8.68,
+    "text": "void main, I'm going to take an input like scanner in is equal to new scanner, you know,"
+  },
+  {
+    "start": 1231.59,
+    "duration": 8.08,
+    "text": "system, oops, system dot n. And then I can just say, let's say I input an employee ID."
+  },
+  {
+    "start": 1239.67,
+    "duration": 5.28,
+    "text": "So employee ID, it's going to be equal to in dot next end. And then it's going to"
+  },
+  {
+    "start": 1244.95,
+    "duration": 5.68,
+    "text": "be something like the department, okay, the department, it's going to be something"
+  },
+  {
+    "start": 1250.63,
+    "duration": 6.48,
+    "text": "like in dot next. So I'm going to take your string. So I'm going to say switch first I'm"
+  },
+  {
+    "start": 1257.11,
+    "duration": 7.88,
+    "text": "going to take the employee ID. Okay. And then I'm basically going to say case one and then"
+  },
+  {
+    "start": 1264.99,
+    "duration": 9.2,
+    "text": "I'm just going to say something I'm going to say let's say case two do something and"
+  },
+  {
+    "start": 1274.19,
+    "duration": 5.56,
+    "text": "say case three. So nested if basically means if switch sorry nested switch basically"
+  },
+  {
+    "start": 1279.75,
+    "duration": 9.68,
+    "text": "means switch inside a switch. So I can just print like s out, the Kunal Pushwaha or whatever."
+  },
+  {
+    "start": 1289.43,
+    "duration": 7.22,
+    "text": "Okay, here I can print something like Rahul Rana for let's say case number three, I also"
+  },
+  {
+    "start": 1296.65,
+    "duration": 5.1,
+    "text": "want to print which department they are from. So I can add another switch case that contains"
+  },
+  {
+    "start": 1301.75,
+    "duration": 7.48,
+    "text": "department over here. Now I can add another switch case like another cases like it here"
+  },
+  {
+    "start": 1309.23,
+    "duration": 16.31,
+    "text": "I can say print it department ok and then I can say break otherwise I can say case management"
+  },
+  {
+    "start": 1325.54,
+    "duration": 20.98,
+    "text": "can say management department break in order I can add a default value to this no department"
+  },
+  {
+    "start": 1346.52,
+    "duration": 11.12,
+    "text": "entered or something like that. And here also I can add a default value, enter, correct,"
+  },
+  {
+    "start": 1357.64,
+    "duration": 6.04,
+    "text": "employee ID or something, right, so I can do something like this. And let me try to"
+  },
+  {
+    "start": 1363.68,
+    "duration": 6.0,
+    "text": "run this. So if I say something like case number, like ID three, and I input something"
+  },
+  {
+    "start": 1369.68,
+    "duration": 4.76,
+    "text": "like it, so it's basically going to print something like this, let me add a, let"
+  },
+  {
+    "start": 1374.44,
+    "duration": 7.24,
+    "text": "Let me add something over here that says print employee number three, this is basically switch"
+  },
+  {
+    "start": 1381.68,
+    "duration": 1.0,
+    "text": "nested switch condition."
+  },
+  {
+    "start": 1382.68,
+    "duration": 5.2,
+    "text": "So if I input three over here, it will print employee number three and then it will do something"
+  },
+  {
+    "start": 1387.88,
+    "duration": 1.72,
+    "text": "like this."
+  },
+  {
+    "start": 1389.6,
+    "duration": 5.96,
+    "text": "If I input three and IT, it's going to print employee number three department IT."
+  },
+  {
+    "start": 1395.56,
+    "duration": 3.0,
+    "text": "If I print two, it's just going to print Rahul Rana."
+  },
+  {
+    "start": 1398.56,
+    "duration": 5.44,
+    "text": "It's print something like let's say I just do ID number two and I can give something"
+  },
+  {
+    "start": 1404.0,
+    "duration": 5.0,
+    "text": "like it. So here there is no net initiative. So I can just add it's just going to print"
+  },
+  {
+    "start": 1409.0,
+    "duration": 8.2,
+    "text": "Rahul Rana. That's it. Start to run it again. Let's say I put three and then I print it."
+  },
+  {
+    "start": 1417.2,
+    "duration": 10.36,
+    "text": "So it's going to say, you know, IT department and the basically I forgot to add a break"
+  },
+  {
+    "start": 1427.56,
+    "duration": 4.0,
+    "text": "over here. Hence it also executed the default one because if you don't add a break in"
+  },
+  {
+    "start": 1431.56,
+    "duration": 6.96,
+    "text": "in any case, it will execute all the ones before it add a break over here. All right."
+  },
+  {
+    "start": 1438.52,
+    "duration": 4.44,
+    "text": "So one more cool thing you can see when there was no break over here, it was not giving me"
+  },
+  {
+    "start": 1442.96,
+    "duration": 4.12,
+    "text": "suggestion to enhance this. Now that I have a break over here, it's giving me suggestions"
+  },
+  {
+    "start": 1447.08,
+    "duration": 6.68,
+    "text": "to enhance this basically means that in this enhanced way, the one we did over here earlier,"
+  },
+  {
+    "start": 1453.76,
+    "duration": 4.4,
+    "text": "the enhanced way, every particular line contains a break condition, but it's not"
+  },
+  {
+    "start": 1458.16,
+    "duration": 7.77,
+    "text": "written. So if I run this and I put three now, three and management, let's say employee"
+  },
+  {
+    "start": 1465.93,
+    "duration": 6.12,
+    "text": "number three management department, very cool stuff. So if I try to, you know, a copy this"
+  },
+  {
+    "start": 1472.05,
+    "duration": 7.92,
+    "text": "and make it enhanced, look how pretty this will look. It's very big right now. Alt enter"
+  },
+  {
+    "start": 1479.97,
+    "duration": 12.64,
+    "text": "Enter. Very nice. Better way to write. Much more cleaner way. Every case already has a"
+  },
+  {
+    "start": 1492.61,
+    "duration": 4.92,
+    "text": "break condition associated with it. In each if condition, you can add another switch case"
+  },
+  {
+    "start": 1497.53,
+    "duration": 6.16,
+    "text": "over here. Okay, so you can add multiple switch cases. And I believe that was it about this"
+  },
+  {
+    "start": 1503.69,
+    "duration": 4.4,
+    "text": "video. Make sure you like, share and subscribe. And all the previous videos are available"
+  },
+  {
+    "start": 1508.09,
+    "duration": 4.24,
+    "text": "in the playlist below assignments quizzes and everything I upload uploaded daily check"
+  },
+  {
+    "start": 1512.33,
+    "duration": 4.76,
+    "text": "out the discord where people are you know resolving doubts learning together and solving assignments"
+  },
+  {
+    "start": 1517.09,
+    "duration": 3.88,
+    "text": "and everything and make sure you check out the GitHub repository entire syllabus is straight"
+  },
+  {
+    "start": 1520.97,
+    "duration": 3.6,
+    "text": "over here we will cover this code in two months do not course in two months do not worry"
+  },
+  {
+    "start": 1524.57,
+    "duration": 4.24,
+    "text": "I'll go through everything in detail so going to be one of the best courses on data structures"
+  },
+  {
+    "start": 1528.81,
+    "duration": 5.2,
+    "text": "algorithms and problem solving and I can definitely say this and it's not my words"
+  },
+  {
+    "start": 1534.01,
+    "duration": 3.24,
+    "text": "many people are like really appreciating check out the comments and if you really"
+  },
+  {
+    "start": 1537.25,
+    "duration": 3.6,
+    "text": "like this course if you want to support the good work that you know I'm doing and"
+  },
+  {
+    "start": 1540.85,
+    "duration": 4.16,
+    "text": "free for all and putting in so many hours just subscribe share with your"
+  },
+  {
+    "start": 1545.01,
+    "duration": 4.36,
+    "text": "friends and comment and like that is it don't need anything else just share"
+  },
+  {
+    "start": 1549.37,
+    "duration": 4.56,
+    "text": "about it and education free for everyone always 100% in complete"
+  },
+  {
+    "start": 1553.93,
+    "duration": 4.68,
+    "text": "education and that's the plan and we'll make it a reality thanks a lot for"
+  },
+  {
+    "start": 1558.61,
+    "duration": 2.12,
+    "text": "watching in the next videos we'll start with data structures and"
+  },
+  {
+    "start": 1560.73,
+    "duration": 4.12,
+    "text": "algorithms and I'll see you in the next one"
+  }
+]

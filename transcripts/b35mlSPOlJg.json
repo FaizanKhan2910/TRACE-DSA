@@ -1,0 +1,6782 @@
+[
+  {
+    "start": 0.0,
+    "duration": 2.76,
+    "text": "hey everyone welcome back to my channel"
+  },
+  {
+    "start": 1.319,
+    "duration": 2.701,
+    "text": "another new video in this video we're"
+  },
+  {
+    "start": 2.76,
+    "duration": 3.24,
+    "text": "continuing the Java data structures"
+  },
+  {
+    "start": 4.02,
+    "duration": 4.38,
+    "text": "algorithms bootcamp this is an important"
+  },
+  {
+    "start": 6.0,
+    "duration": 4.38,
+    "text": "video and also a lot of people requested"
+  },
+  {
+    "start": 8.4,
+    "duration": 4.38,
+    "text": "for it in this video we will learn how"
+  },
+  {
+    "start": 10.38,
+    "duration": 4.86,
+    "text": "to work with files so file handling"
+  },
+  {
+    "start": 12.78,
+    "duration": 4.079,
+    "text": "reading and writing from files see how"
+  },
+  {
+    "start": 15.24,
+    "duration": 3.66,
+    "text": "input and output operations are"
+  },
+  {
+    "start": 16.859,
+    "duration": 3.901,
+    "text": "performed in Java various Java classes"
+  },
+  {
+    "start": 18.9,
+    "duration": 3.6,
+    "text": "and so on and so forth so it's an"
+  },
+  {
+    "start": 20.76,
+    "duration": 3.06,
+    "text": "important video because as I mentioned"
+  },
+  {
+    "start": 22.5,
+    "duration": 2.88,
+    "text": "in the previous videos when we were"
+  },
+  {
+    "start": 23.82,
+    "duration": 4.68,
+    "text": "talking about how to work with large"
+  },
+  {
+    "start": 25.38,
+    "duration": 4.8,
+    "text": "data large numbers that sometimes when"
+  },
+  {
+    "start": 28.5,
+    "duration": 4.68,
+    "text": "you're doing your QA rounds or you're"
+  },
+  {
+    "start": 30.18,
+    "duration": 4.92,
+    "text": "giving some contests the company or the"
+  },
+  {
+    "start": 33.18,
+    "duration": 3.42,
+    "text": "contest they give you a file with all"
+  },
+  {
+    "start": 35.1,
+    "duration": 3.66,
+    "text": "the inputs and they say that give us the"
+  },
+  {
+    "start": 36.6,
+    "duration": 4.56,
+    "text": "output file and you're like but we don't"
+  },
+  {
+    "start": 38.76,
+    "duration": 4.799,
+    "text": "know how to work with files so in this"
+  },
+  {
+    "start": 41.16,
+    "duration": 4.8,
+    "text": "video we're going to learn that and I'm"
+  },
+  {
+    "start": 43.559,
+    "duration": 4.32,
+    "text": "gonna explain to you what different uh"
+  },
+  {
+    "start": 45.96,
+    "duration": 4.439,
+    "text": "classes basically mean so there are a"
+  },
+  {
+    "start": 47.879,
+    "duration": 4.261,
+    "text": "lot of classes in Java when we work with"
+  },
+  {
+    "start": 50.399,
+    "duration": 3.781,
+    "text": "input and output streams so we'll"
+  },
+  {
+    "start": 52.14,
+    "duration": 3.72,
+    "text": "understand how they are structured and"
+  },
+  {
+    "start": 54.18,
+    "duration": 4.859,
+    "text": "I'll try to give you build the intuition"
+  },
+  {
+    "start": 55.86,
+    "duration": 4.219,
+    "text": "so that you don't forget and easy to"
+  },
+  {
+    "start": 59.039,
+    "duration": 3.84,
+    "text": "remember"
+  },
+  {
+    "start": 60.079,
+    "duration": 5.321,
+    "text": "methodologies is something that I'll"
+  },
+  {
+    "start": 62.879,
+    "duration": 4.141,
+    "text": "also be providing as always the code can"
+  },
+  {
+    "start": 65.4,
+    "duration": 3.96,
+    "text": "be found in the description below and"
+  },
+  {
+    "start": 67.02,
+    "duration": 4.26,
+    "text": "the assignments and everything previous"
+  },
+  {
+    "start": 69.36,
+    "duration": 3.299,
+    "text": "lectures you can see in the playlist if"
+  },
+  {
+    "start": 71.28,
+    "duration": 2.82,
+    "text": "you have any questions you can also"
+  },
+  {
+    "start": 72.659,
+    "duration": 3.721,
+    "text": "leave those in the comment section below"
+  },
+  {
+    "start": 74.1,
+    "duration": 4.519,
+    "text": "and let's get started"
+  },
+  {
+    "start": 76.38,
+    "duration": 2.239,
+    "text": "foreign"
+  },
+  {
+    "start": 79.759,
+    "duration": 4.18,
+    "text": "get started we have to understand the"
+  },
+  {
+    "start": 82.68,
+    "duration": 3.72,
+    "text": "concept"
+  },
+  {
+    "start": 83.939,
+    "duration": 5.241,
+    "text": "of streams so if you're talking about"
+  },
+  {
+    "start": 86.4,
+    "duration": 2.78,
+    "text": "file handling"
+  },
+  {
+    "start": 92.64,
+    "duration": 5.519,
+    "text": "talk about streams"
+  },
+  {
+    "start": 95.64,
+    "duration": 4.439,
+    "text": "what is a stream in Java what is a"
+  },
+  {
+    "start": 98.159,
+    "duration": 3.841,
+    "text": "stream we've already done this you know"
+  },
+  {
+    "start": 100.079,
+    "duration": 4.101,
+    "text": "we've already learned how to take input"
+  },
+  {
+    "start": 102.0,
+    "duration": 5.28,
+    "text": "you know integer character we don't know"
+  },
+  {
+    "start": 104.18,
+    "duration": 5.799,
+    "text": "scanner s is equal to new scanner system"
+  },
+  {
+    "start": 107.28,
+    "duration": 5.1,
+    "text": "dot in so that's system.in what is that"
+  },
+  {
+    "start": 109.979,
+    "duration": 4.021,
+    "text": "now we're talking about that so it's"
+  },
+  {
+    "start": 112.38,
+    "duration": 3.3,
+    "text": "basically a stream"
+  },
+  {
+    "start": 114.0,
+    "duration": 5.1,
+    "text": "we'll see what the code for that looks"
+  },
+  {
+    "start": 115.68,
+    "duration": 5.7,
+    "text": "like what in realitysystem.in is so"
+  },
+  {
+    "start": 119.1,
+    "duration": 3.72,
+    "text": "streams and by the way I'll leave a link"
+  },
+  {
+    "start": 121.38,
+    "duration": 2.4,
+    "text": "in the description below for all the"
+  },
+  {
+    "start": 122.82,
+    "duration": 4.92,
+    "text": "nodes"
+  },
+  {
+    "start": 123.78,
+    "duration": 8.459,
+    "text": "stream is basically a sequence of data"
+  },
+  {
+    "start": 127.74,
+    "duration": 7.62,
+    "text": "it is a sequence of data now this data"
+  },
+  {
+    "start": 132.239,
+    "duration": 5.22,
+    "text": "can be of two types it can be byte value"
+  },
+  {
+    "start": 135.36,
+    "duration": 6.8,
+    "text": "or it can be"
+  },
+  {
+    "start": 137.459,
+    "duration": 4.701,
+    "text": "character value okay Unicode characters"
+  },
+  {
+    "start": 142.739,
+    "duration": 5.161,
+    "text": "Unicode characters in a sequence order"
+  },
+  {
+    "start": 145.92,
+    "duration": 3.72,
+    "text": "like you have your name or whatever and"
+  },
+  {
+    "start": 147.9,
+    "duration": 5.1,
+    "text": "let's say you are storing an image that"
+  },
+  {
+    "start": 149.64,
+    "duration": 6.239,
+    "text": "can be a byte format for example"
+  },
+  {
+    "start": 153.0,
+    "duration": 5.76,
+    "text": "and Java performs the input output"
+  },
+  {
+    "start": 155.879,
+    "duration": 6.0,
+    "text": "through these streams"
+  },
+  {
+    "start": 158.76,
+    "duration": 6.74,
+    "text": "okay and this is basically just an"
+  },
+  {
+    "start": 161.879,
+    "duration": 3.621,
+    "text": "abstraction that Java provides"
+  },
+  {
+    "start": 166.4,
+    "duration": 3.22,
+    "text": "abstraction"
+  },
+  {
+    "start": 168.3,
+    "duration": 2.939,
+    "text": "that"
+  },
+  {
+    "start": 169.62,
+    "duration": 3.119,
+    "text": "Java provides we all know what"
+  },
+  {
+    "start": 171.239,
+    "duration": 3.0,
+    "text": "abstraction is like hiding all the"
+  },
+  {
+    "start": 172.739,
+    "duration": 3.661,
+    "text": "complexity or whatever Kunal you want to"
+  },
+  {
+    "start": 174.239,
+    "duration": 4.021,
+    "text": "work with files okay I have some stuff"
+  },
+  {
+    "start": 176.4,
+    "duration": 5.419,
+    "text": "built in for it I have hidden all the"
+  },
+  {
+    "start": 178.26,
+    "duration": 3.559,
+    "text": "complexity you can do whatever you want"
+  },
+  {
+    "start": 182.099,
+    "duration": 5.22,
+    "text": "okay"
+  },
+  {
+    "start": 183.959,
+    "duration": 5.121,
+    "text": "sounds good this stream is linked to a"
+  },
+  {
+    "start": 187.319,
+    "duration": 4.021,
+    "text": "physical device"
+  },
+  {
+    "start": 189.08,
+    "duration": 4.6,
+    "text": "Java input output systems for example"
+  },
+  {
+    "start": 191.34,
+    "duration": 4.319,
+    "text": "your keyboard or whatever"
+  },
+  {
+    "start": 193.68,
+    "duration": 4.38,
+    "text": "okay"
+  },
+  {
+    "start": 195.659,
+    "duration": 4.761,
+    "text": "now how does Java Implement these"
+  },
+  {
+    "start": 198.06,
+    "duration": 2.36,
+    "text": "streams"
+  },
+  {
+    "start": 203.58,
+    "duration": 3.439,
+    "text": "Java implements"
+  },
+  {
+    "start": 207.18,
+    "duration": 5.04,
+    "text": "these"
+  },
+  {
+    "start": 209.4,
+    "duration": 4.68,
+    "text": "within the class hierarchies defined in"
+  },
+  {
+    "start": 212.22,
+    "duration": 3.72,
+    "text": "java.io package"
+  },
+  {
+    "start": 214.08,
+    "duration": 6.379,
+    "text": "select classes and subclasses or"
+  },
+  {
+    "start": 215.94,
+    "duration": 4.519,
+    "text": "whatever we'll see within class"
+  },
+  {
+    "start": 220.68,
+    "duration": 3.0,
+    "text": "hierarchies"
+  },
+  {
+    "start": 224.4,
+    "duration": 5.64,
+    "text": "in Java dot IO package"
+  },
+  {
+    "start": 227.4,
+    "duration": 6.18,
+    "text": "IO means input output no problem there"
+  },
+  {
+    "start": 230.04,
+    "duration": 6.479,
+    "text": "is java.io package for input output and"
+  },
+  {
+    "start": 233.58,
+    "duration": 5.579,
+    "text": "in that java.io package we have many"
+  },
+  {
+    "start": 236.519,
+    "duration": 4.621,
+    "text": "many files for various use cases that is"
+  },
+  {
+    "start": 239.159,
+    "duration": 4.381,
+    "text": "what we are concerned with right now"
+  },
+  {
+    "start": 241.14,
+    "duration": 4.44,
+    "text": "okay simple what these files are how it"
+  },
+  {
+    "start": 243.54,
+    "duration": 3.72,
+    "text": "works or whatever we will talk about"
+  },
+  {
+    "start": 245.58,
+    "duration": 4.019,
+    "text": "later"
+  },
+  {
+    "start": 247.26,
+    "duration": 4.259,
+    "text": "if you want to see system.in let me show"
+  },
+  {
+    "start": 249.599,
+    "duration": 5.161,
+    "text": "you system.in okay here this is a very"
+  },
+  {
+    "start": 251.519,
+    "duration": 4.921,
+    "text": "old program that we wrote Fibonacci and"
+  },
+  {
+    "start": 254.76,
+    "duration": 4.039,
+    "text": "here you can say scanner in new scanner"
+  },
+  {
+    "start": 256.44,
+    "duration": 4.859,
+    "text": "system dot in what is the scanner type"
+  },
+  {
+    "start": 258.799,
+    "duration": 4.241,
+    "text": "scanner is basically a here you can see"
+  },
+  {
+    "start": 261.299,
+    "duration": 4.561,
+    "text": "it's a Constructor that is being called"
+  },
+  {
+    "start": 263.04,
+    "duration": 5.939,
+    "text": "and this is just a class now what is"
+  },
+  {
+    "start": 265.86,
+    "duration": 6.42,
+    "text": "this system dot in what is this in"
+  },
+  {
+    "start": 268.979,
+    "duration": 5.94,
+    "text": "this in is basically"
+  },
+  {
+    "start": 272.28,
+    "duration": 3.6,
+    "text": "a reference variable of type input"
+  },
+  {
+    "start": 274.919,
+    "duration": 2.401,
+    "text": "stream"
+  },
+  {
+    "start": 275.88,
+    "duration": 3.96,
+    "text": "can you see that"
+  },
+  {
+    "start": 277.32,
+    "duration": 5.22,
+    "text": "input stream I will go in details of"
+  },
+  {
+    "start": 279.84,
+    "duration": 5.22,
+    "text": "this don't worry so in in short"
+  },
+  {
+    "start": 282.54,
+    "duration": 4.379,
+    "text": "understand this Java programming"
+  },
+  {
+    "start": 285.06,
+    "duration": 4.38,
+    "text": "language you have to take input from"
+  },
+  {
+    "start": 286.919,
+    "duration": 5.521,
+    "text": "some data or whatever in Java that is"
+  },
+  {
+    "start": 289.44,
+    "duration": 5.699,
+    "text": "fine Java is saying that Kunal I have"
+  },
+  {
+    "start": 292.44,
+    "duration": 4.979,
+    "text": "created some files for you using those"
+  },
+  {
+    "start": 295.139,
+    "duration": 4.441,
+    "text": "files you can take input of data now"
+  },
+  {
+    "start": 297.419,
+    "duration": 4.56,
+    "text": "that file can be like an input file"
+  },
+  {
+    "start": 299.58,
+    "duration": 5.7,
+    "text": "output file so here you will see input"
+  },
+  {
+    "start": 301.979,
+    "duration": 5.421,
+    "text": "stream you will see file reader you will"
+  },
+  {
+    "start": 305.28,
+    "duration": 6.06,
+    "text": "see file input or something something"
+  },
+  {
+    "start": 307.4,
+    "duration": 7.48,
+    "text": "output stream you will see you will see"
+  },
+  {
+    "start": 311.34,
+    "duration": 6.78,
+    "text": "um you know so many files okay which"
+  },
+  {
+    "start": 314.88,
+    "duration": 4.8,
+    "text": "we'll see more about later for now I'll"
+  },
+  {
+    "start": 318.12,
+    "duration": 3.12,
+    "text": "I'll make it very easy for you to"
+  },
+  {
+    "start": 319.68,
+    "duration": 3.239,
+    "text": "distinguish between this calculator you"
+  },
+  {
+    "start": 321.24,
+    "duration": 3.0,
+    "text": "are saying so many these files they are"
+  },
+  {
+    "start": 322.919,
+    "duration": 3.361,
+    "text": "doing the same thing they are doing"
+  },
+  {
+    "start": 324.24,
+    "duration": 3.72,
+    "text": "input and output only then why is Java"
+  },
+  {
+    "start": 326.28,
+    "duration": 3.419,
+    "text": "providing us so many files to make"
+  },
+  {
+    "start": 327.96,
+    "duration": 5.4,
+    "text": "things confusing don't worry about that"
+  },
+  {
+    "start": 329.699,
+    "duration": 6.0,
+    "text": "right now okay for now just realize that"
+  },
+  {
+    "start": 333.36,
+    "duration": 6.059,
+    "text": "sometimes Java has seen this is of type"
+  },
+  {
+    "start": 335.699,
+    "duration": 6.72,
+    "text": "print stream this is a type input stream"
+  },
+  {
+    "start": 339.419,
+    "duration": 4.981,
+    "text": "so Java has some predefined variable for"
+  },
+  {
+    "start": 342.419,
+    "duration": 4.381,
+    "text": "us these predefined variables in this"
+  },
+  {
+    "start": 344.4,
+    "duration": 4.92,
+    "text": "case is keyboard"
+  },
+  {
+    "start": 346.8,
+    "duration": 5.48,
+    "text": "okay of type input stream so you can see"
+  },
+  {
+    "start": 349.32,
+    "duration": 2.96,
+    "text": "input stream is a class"
+  },
+  {
+    "start": 352.44,
+    "duration": 4.979,
+    "text": "see input stream"
+  },
+  {
+    "start": 354.9,
+    "duration": 4.079,
+    "text": "okay"
+  },
+  {
+    "start": 357.419,
+    "duration": 3.72,
+    "text": "in boot stream class"
+  },
+  {
+    "start": 358.979,
+    "duration": 6.541,
+    "text": "so let's take a look at what this input"
+  },
+  {
+    "start": 361.139,
+    "duration": 6.541,
+    "text": "stream thing is this class is and"
+  },
+  {
+    "start": 365.52,
+    "duration": 4.019,
+    "text": "what are these predefined variables that"
+  },
+  {
+    "start": 367.68,
+    "duration": 3.78,
+    "text": "we have over here let's take a look into"
+  },
+  {
+    "start": 369.539,
+    "duration": 2.641,
+    "text": "that now let me make it very simple for"
+  },
+  {
+    "start": 371.46,
+    "duration": 2.4,
+    "text": "you"
+  },
+  {
+    "start": 372.18,
+    "duration": 3.72,
+    "text": "you have you will be having only one"
+  },
+  {
+    "start": 373.86,
+    "duration": 4.2,
+    "text": "doubt in this lecture and that doubt"
+  },
+  {
+    "start": 375.9,
+    "duration": 4.32,
+    "text": "will be there are so many names sum is"
+  },
+  {
+    "start": 378.06,
+    "duration": 4.56,
+    "text": "ending with stream some is like input"
+  },
+  {
+    "start": 380.22,
+    "duration": 4.38,
+    "text": "stream another is input reader they are"
+  },
+  {
+    "start": 382.62,
+    "duration": 4.68,
+    "text": "doing the same thing then why do we have"
+  },
+  {
+    "start": 384.6,
+    "duration": 5.58,
+    "text": "stream name differently reader name"
+  },
+  {
+    "start": 387.3,
+    "duration": 5.88,
+    "text": "differently output stream is there"
+  },
+  {
+    "start": 390.18,
+    "duration": 4.44,
+    "text": "a writer is there a writer class why are"
+  },
+  {
+    "start": 393.18,
+    "duration": 2.7,
+    "text": "these two different classes when both of"
+  },
+  {
+    "start": 394.62,
+    "duration": 3.72,
+    "text": "these classes are doing the same thing"
+  },
+  {
+    "start": 395.88,
+    "duration": 4.08,
+    "text": "which is writing something"
+  },
+  {
+    "start": 398.34,
+    "duration": 5.04,
+    "text": "let's explain that"
+  },
+  {
+    "start": 399.96,
+    "duration": 6.98,
+    "text": "so Java has two types of stream streams"
+  },
+  {
+    "start": 403.38,
+    "duration": 3.56,
+    "text": "types of streams in Java"
+  },
+  {
+    "start": 407.699,
+    "duration": 5.06,
+    "text": "streams in"
+  },
+  {
+    "start": 409.979,
+    "duration": 2.78,
+    "text": "Java"
+  },
+  {
+    "start": 412.8,
+    "duration": 4.5,
+    "text": "the streams are nothing but just classes"
+  },
+  {
+    "start": 414.78,
+    "duration": 4.44,
+    "text": "abstract classes okay that gives some"
+  },
+  {
+    "start": 417.3,
+    "duration": 3.6,
+    "text": "predefined rules like what type of data"
+  },
+  {
+    "start": 419.22,
+    "duration": 4.46,
+    "text": "you want to read or whatever first one"
+  },
+  {
+    "start": 420.9,
+    "duration": 2.78,
+    "text": "is byte stream"
+  },
+  {
+    "start": 429.0,
+    "duration": 5.78,
+    "text": "OK we have byte stream and we have a"
+  },
+  {
+    "start": 432.0,
+    "duration": 2.78,
+    "text": "character stream"
+  },
+  {
+    "start": 437.66,
+    "duration": 5.56,
+    "text": "this byte stream is a"
+  },
+  {
+    "start": 441.539,
+    "duration": 4.201,
+    "text": "pretty simple"
+  },
+  {
+    "start": 443.22,
+    "duration": 4.199,
+    "text": "used to handle input and output of bytes"
+  },
+  {
+    "start": 445.74,
+    "duration": 4.14,
+    "text": "of data for example if you want to read"
+  },
+  {
+    "start": 447.419,
+    "duration": 5.641,
+    "text": "an image if you want to read a PDF file"
+  },
+  {
+    "start": 449.88,
+    "duration": 4.86,
+    "text": "or whatever so it will contain binary"
+  },
+  {
+    "start": 453.06,
+    "duration": 3.479,
+    "text": "data"
+  },
+  {
+    "start": 454.74,
+    "duration": 3.42,
+    "text": "okay so if you're working with files or"
+  },
+  {
+    "start": 456.539,
+    "duration": 4.021,
+    "text": "whatever reading and writing into files"
+  },
+  {
+    "start": 458.16,
+    "duration": 5.28,
+    "text": "if you want to open an image in a text"
+  },
+  {
+    "start": 460.56,
+    "duration": 3.66,
+    "text": "editor that is a good example of byte"
+  },
+  {
+    "start": 463.44,
+    "duration": 3.24,
+    "text": "stream"
+  },
+  {
+    "start": 464.22,
+    "duration": 4.44,
+    "text": "I will leave the links in a notes.txt"
+  },
+  {
+    "start": 466.68,
+    "duration": 3.84,
+    "text": "file in the description below so you can"
+  },
+  {
+    "start": 468.66,
+    "duration": 3.599,
+    "text": "take a look at that so I'm not writing"
+  },
+  {
+    "start": 470.52,
+    "duration": 4.22,
+    "text": "too much on my whiteboard but you get"
+  },
+  {
+    "start": 472.259,
+    "duration": 2.481,
+    "text": "the idea"
+  },
+  {
+    "start": 475.68,
+    "duration": 4.2,
+    "text": "okay"
+  },
+  {
+    "start": 477.66,
+    "duration": 3.96,
+    "text": "sounds good now Kunal how are these byte"
+  },
+  {
+    "start": 479.88,
+    "duration": 4.219,
+    "text": "streams defined let's say I want to open"
+  },
+  {
+    "start": 481.62,
+    "duration": 5.22,
+    "text": "an image I want to open like uh you know"
+  },
+  {
+    "start": 484.099,
+    "duration": 4.6,
+    "text": "a file or whatever how are these byte"
+  },
+  {
+    "start": 486.84,
+    "duration": 4.34,
+    "text": "stream defined they are defined in two"
+  },
+  {
+    "start": 488.699,
+    "duration": 2.481,
+    "text": "classes"
+  },
+  {
+    "start": 492.539,
+    "duration": 5.421,
+    "text": "two class hierarchies"
+  },
+  {
+    "start": 494.34,
+    "duration": 3.62,
+    "text": "input stream and output stream"
+  },
+  {
+    "start": 504.18,
+    "duration": 4.56,
+    "text": "these are two classes"
+  },
+  {
+    "start": 505.919,
+    "duration": 4.081,
+    "text": "that is used to input by data output by"
+  },
+  {
+    "start": 508.74,
+    "duration": 3.179,
+    "text": "data"
+  },
+  {
+    "start": 510.0,
+    "duration": 4.68,
+    "text": "and these both extend the object class"
+  },
+  {
+    "start": 511.919,
+    "duration": 5.12,
+    "text": "no problem similarly"
+  },
+  {
+    "start": 514.68,
+    "duration": 5.099,
+    "text": "character if we have over here"
+  },
+  {
+    "start": 517.039,
+    "duration": 6.401,
+    "text": "character stream it's like for"
+  },
+  {
+    "start": 519.779,
+    "duration": 5.341,
+    "text": "characters so like Unicode characters"
+  },
+  {
+    "start": 523.44,
+    "duration": 3.36,
+    "text": "okay since it's Unicode it can be"
+  },
+  {
+    "start": 525.12,
+    "duration": 4.8,
+    "text": "internationalized so like you can print"
+  },
+  {
+    "start": 526.8,
+    "duration": 5.4,
+    "text": "in Hindi Chinese whatever you want"
+  },
+  {
+    "start": 529.92,
+    "duration": 4.14,
+    "text": "okay in some cases the character stream"
+  },
+  {
+    "start": 532.2,
+    "duration": 5.16,
+    "text": "is more efficient than byte stream"
+  },
+  {
+    "start": 534.06,
+    "duration": 5.64,
+    "text": "that's one more point I want you to know"
+  },
+  {
+    "start": 537.36,
+    "duration": 4.82,
+    "text": "so character stream can be defined into"
+  },
+  {
+    "start": 539.7,
+    "duration": 2.48,
+    "text": "two parts"
+  },
+  {
+    "start": 543.72,
+    "duration": 4.58,
+    "text": "which is what"
+  },
+  {
+    "start": 545.1,
+    "duration": 3.2,
+    "text": "reader and writer"
+  },
+  {
+    "start": 548.459,
+    "duration": 4.581,
+    "text": "reader"
+  },
+  {
+    "start": 550.26,
+    "duration": 2.78,
+    "text": "and writer"
+  },
+  {
+    "start": 553.44,
+    "duration": 2.48,
+    "text": "okay"
+  },
+  {
+    "start": 556.8,
+    "duration": 2.64,
+    "text": "sounds good"
+  },
+  {
+    "start": 558.18,
+    "duration": 3.36,
+    "text": "cool"
+  },
+  {
+    "start": 559.44,
+    "duration": 4.38,
+    "text": "one more thing I want to share is that"
+  },
+  {
+    "start": 561.54,
+    "duration": 4.5,
+    "text": "since these are abstract like classes"
+  },
+  {
+    "start": 563.82,
+    "duration": 4.74,
+    "text": "over here if I take a look at the"
+  },
+  {
+    "start": 566.04,
+    "duration": 4.56,
+    "text": "you know these are abstract classes"
+  },
+  {
+    "start": 568.56,
+    "duration": 3.719,
+    "text": "input stream output stream reader writer"
+  },
+  {
+    "start": 570.6,
+    "duration": 2.94,
+    "text": "so they have some sort of predefined you"
+  },
+  {
+    "start": 572.279,
+    "duration": 3.24,
+    "text": "know what abstract classes are right"
+  },
+  {
+    "start": 573.54,
+    "duration": 4.02,
+    "text": "they have a lab function like definition"
+  },
+  {
+    "start": 575.519,
+    "duration": 3.661,
+    "text": "and you will write your own body"
+  },
+  {
+    "start": 577.56,
+    "duration": 3.36,
+    "text": "so"
+  },
+  {
+    "start": 579.18,
+    "duration": 3.0,
+    "text": "several methods some of the two most"
+  },
+  {
+    "start": 580.92,
+    "duration": 4.94,
+    "text": "important methods that you have to take"
+  },
+  {
+    "start": 582.18,
+    "duration": 3.68,
+    "text": "a look at is read and write"
+  },
+  {
+    "start": 586.56,
+    "duration": 4.38,
+    "text": "okay so these are abstract classes they"
+  },
+  {
+    "start": 589.38,
+    "duration": 3.54,
+    "text": "will have read and write method which"
+  },
+  {
+    "start": 590.94,
+    "duration": 3.899,
+    "text": "will have its own implementation now let"
+  },
+  {
+    "start": 592.92,
+    "duration": 5.66,
+    "text": "me show you something"
+  },
+  {
+    "start": 594.839,
+    "duration": 3.741,
+    "text": "let me show you something"
+  },
+  {
+    "start": 600.06,
+    "duration": 3.899,
+    "text": "if I talk about input stream"
+  },
+  {
+    "start": 602.279,
+    "duration": 3.781,
+    "text": "and output stream"
+  },
+  {
+    "start": 603.959,
+    "duration": 4.801,
+    "text": "so you can see input stream"
+  },
+  {
+    "start": 606.06,
+    "duration": 4.44,
+    "text": "it extends object no problem it has"
+  },
+  {
+    "start": 608.76,
+    "duration": 3.54,
+    "text": "these many subclasses now you can take"
+  },
+  {
+    "start": 610.5,
+    "duration": 5.16,
+    "text": "an audio input stream"
+  },
+  {
+    "start": 612.3,
+    "duration": 6.5,
+    "text": "what is input stream"
+  },
+  {
+    "start": 615.66,
+    "duration": 7.5,
+    "text": "check here input stream is byte value"
+  },
+  {
+    "start": 618.8,
+    "duration": 7.18,
+    "text": "input stream is byte value so byte can"
+  },
+  {
+    "start": 623.16,
+    "duration": 5.1,
+    "text": "be audio input stream a byte array a"
+  },
+  {
+    "start": 625.98,
+    "duration": 5.479,
+    "text": "file input stream filter input stream"
+  },
+  {
+    "start": 628.26,
+    "duration": 5.82,
+    "text": "input stream object input stream python"
+  },
+  {
+    "start": 631.459,
+    "duration": 4.601,
+    "text": "sequence input stream string buffer"
+  },
+  {
+    "start": 634.08,
+    "duration": 4.86,
+    "text": "input stream"
+  },
+  {
+    "start": 636.06,
+    "duration": 5.64,
+    "text": "if I take a look at let's say"
+  },
+  {
+    "start": 638.94,
+    "duration": 4.68,
+    "text": "byte array input stream"
+  },
+  {
+    "start": 641.7,
+    "duration": 5.94,
+    "text": "so you can see it extends input stream"
+  },
+  {
+    "start": 643.62,
+    "duration": 6.06,
+    "text": "and input stream has methods the two"
+  },
+  {
+    "start": 647.64,
+    "duration": 3.24,
+    "text": "more important methods that are methods"
+  },
+  {
+    "start": 649.68,
+    "duration": 4.5,
+    "text": "that are inherited from input stream"
+  },
+  {
+    "start": 650.88,
+    "duration": 4.86,
+    "text": "which is which one read"
+  },
+  {
+    "start": 654.18,
+    "duration": 3.06,
+    "text": "you have seen object-oriented prompting"
+  },
+  {
+    "start": 655.74,
+    "duration": 3.12,
+    "text": "playlist right how easy this thing is"
+  },
+  {
+    "start": 657.24,
+    "duration": 3.12,
+    "text": "this is very easy"
+  },
+  {
+    "start": 658.86,
+    "duration": 4.32,
+    "text": "it's very simple"
+  },
+  {
+    "start": 660.36,
+    "duration": 6.979,
+    "text": "there is a normal input stream abstract"
+  },
+  {
+    "start": 663.18,
+    "duration": 4.159,
+    "text": "class and it has"
+  },
+  {
+    "start": 667.74,
+    "duration": 4.62,
+    "text": "this read method that you have to"
+  },
+  {
+    "start": 670.62,
+    "duration": 3.899,
+    "text": "implement"
+  },
+  {
+    "start": 672.36,
+    "duration": 4.2,
+    "text": "like not implement but like give your"
+  },
+  {
+    "start": 674.519,
+    "duration": 3.541,
+    "text": "own body that's what abstract classes"
+  },
+  {
+    "start": 676.56,
+    "duration": 3.48,
+    "text": "are"
+  },
+  {
+    "start": 678.06,
+    "duration": 4.38,
+    "text": "so it's like I am the abstract class"
+  },
+  {
+    "start": 680.04,
+    "duration": 5.16,
+    "text": "input stream and if you want to write"
+  },
+  {
+    "start": 682.44,
+    "duration": 4.98,
+    "text": "any byte data into"
+  },
+  {
+    "start": 685.2,
+    "duration": 5.46,
+    "text": "put something in a byte data let's say"
+  },
+  {
+    "start": 687.42,
+    "duration": 5.88,
+    "text": "audio or file or a byte array or"
+  },
+  {
+    "start": 690.66,
+    "duration": 5.04,
+    "text": "whatever please use my abstract class"
+  },
+  {
+    "start": 693.3,
+    "duration": 4.62,
+    "text": "and Define your own methods okay no"
+  },
+  {
+    "start": 695.7,
+    "duration": 5.46,
+    "text": "problem every single one of these files"
+  },
+  {
+    "start": 697.92,
+    "duration": 5.82,
+    "text": "will be like okay okay no problem"
+  },
+  {
+    "start": 701.16,
+    "duration": 6.78,
+    "text": "not a problem at all"
+  },
+  {
+    "start": 703.74,
+    "duration": 7.14,
+    "text": "we will extend this class and we will"
+  },
+  {
+    "start": 707.94,
+    "duration": 3.72,
+    "text": "you know Implement all the"
+  },
+  {
+    "start": 710.88,
+    "duration": 2.82,
+    "text": "um"
+  },
+  {
+    "start": 711.66,
+    "duration": 4.799,
+    "text": "implement the because we are input"
+  },
+  {
+    "start": 713.7,
+    "duration": 5.819,
+    "text": "Stream So the read method"
+  },
+  {
+    "start": 716.459,
+    "duration": 5.161,
+    "text": "or write method"
+  },
+  {
+    "start": 719.519,
+    "duration": 5.041,
+    "text": "okay"
+  },
+  {
+    "start": 721.62,
+    "duration": 6.0,
+    "text": "the heaven over here is"
+  },
+  {
+    "start": 724.56,
+    "duration": 6.06,
+    "text": "read method so the input one is for read"
+  },
+  {
+    "start": 727.62,
+    "duration": 4.26,
+    "text": "method and output stream is to write so"
+  },
+  {
+    "start": 730.62,
+    "duration": 3.18,
+    "text": "don't get confused even when I'm"
+  },
+  {
+    "start": 731.88,
+    "duration": 5.16,
+    "text": "explaining C my tongues are sleeping but"
+  },
+  {
+    "start": 733.8,
+    "duration": 4.62,
+    "text": "simple terms input stream you want to"
+  },
+  {
+    "start": 737.04,
+    "duration": 4.739,
+    "text": "take some like you want to read"
+  },
+  {
+    "start": 738.42,
+    "duration": 5.52,
+    "text": "something from it so output stream you"
+  },
+  {
+    "start": 741.779,
+    "duration": 4.081,
+    "text": "want to let's say"
+  },
+  {
+    "start": 743.94,
+    "duration": 3.839,
+    "text": "output a stream of byte so you want to"
+  },
+  {
+    "start": 745.86,
+    "duration": 3.78,
+    "text": "write something so here it will have"
+  },
+  {
+    "start": 747.779,
+    "duration": 4.021,
+    "text": "let's say output stream if I want to"
+  },
+  {
+    "start": 749.64,
+    "duration": 4.56,
+    "text": "talk about uh byte output stream file"
+  },
+  {
+    "start": 751.8,
+    "duration": 4.5,
+    "text": "output stream so it will be it will be"
+  },
+  {
+    "start": 754.2,
+    "duration": 4.02,
+    "text": "creating right"
+  },
+  {
+    "start": 756.3,
+    "duration": 4.56,
+    "text": "methods interpreted so you can see flush"
+  },
+  {
+    "start": 758.22,
+    "duration": 5.28,
+    "text": "or you can have write as well to talk"
+  },
+  {
+    "start": 760.86,
+    "duration": 3.659,
+    "text": "about file output stream no not file"
+  },
+  {
+    "start": 763.5,
+    "duration": 2.22,
+    "text": "output stream"
+  },
+  {
+    "start": 764.519,
+    "duration": 3.661,
+    "text": "um"
+  },
+  {
+    "start": 765.72,
+    "duration": 4.7,
+    "text": "object output stream byte array output"
+  },
+  {
+    "start": 768.18,
+    "duration": 2.24,
+    "text": "stream"
+  },
+  {
+    "start": 774.48,
+    "duration": 3.659,
+    "text": "see right"
+  },
+  {
+    "start": 776.339,
+    "duration": 5.3,
+    "text": "write object and all sorts of things"
+  },
+  {
+    "start": 778.139,
+    "duration": 3.5,
+    "text": "bite array output stream"
+  },
+  {
+    "start": 781.68,
+    "duration": 2.54,
+    "text": "right"
+  },
+  {
+    "start": 785.16,
+    "duration": 5.94,
+    "text": "okay so if you're reading simple terms"
+  },
+  {
+    "start": 788.519,
+    "duration": 5.281,
+    "text": "if you're reading byte data input stream"
+  },
+  {
+    "start": 791.1,
+    "duration": 5.76,
+    "text": "if you're writing byte data output"
+  },
+  {
+    "start": 793.8,
+    "duration": 6.599,
+    "text": "stream what type of data be that audio"
+  },
+  {
+    "start": 796.86,
+    "duration": 5.46,
+    "text": "file byte array whatever type of data"
+  },
+  {
+    "start": 800.399,
+    "duration": 3.961,
+    "text": "that is for that you will use the"
+  },
+  {
+    "start": 802.32,
+    "duration": 4.44,
+    "text": "specific class"
+  },
+  {
+    "start": 804.36,
+    "duration": 5.34,
+    "text": "and that specific class will be"
+  },
+  {
+    "start": 806.76,
+    "duration": 5.42,
+    "text": "extending the either input stream or"
+  },
+  {
+    "start": 809.7,
+    "duration": 2.48,
+    "text": "output stream"
+  },
+  {
+    "start": 812.519,
+    "duration": 4.081,
+    "text": "okay for example you want to read a file"
+  },
+  {
+    "start": 814.62,
+    "duration": 4.38,
+    "text": "so I'll be like okay file input stream"
+  },
+  {
+    "start": 816.6,
+    "duration": 5.34,
+    "text": "and that file input stream is actually"
+  },
+  {
+    "start": 819.0,
+    "duration": 4.38,
+    "text": "extending you can see input stream input"
+  },
+  {
+    "start": 821.94,
+    "duration": 4.86,
+    "text": "stream has an abstract method called"
+  },
+  {
+    "start": 823.38,
+    "duration": 5.459,
+    "text": "read so it will be adding its own read"
+  },
+  {
+    "start": 826.8,
+    "duration": 4.44,
+    "text": "or whatever Mark support reset it you"
+  },
+  {
+    "start": 828.839,
+    "duration": 4.68,
+    "text": "get the idea"
+  },
+  {
+    "start": 831.24,
+    "duration": 3.96,
+    "text": "okay read"
+  },
+  {
+    "start": 833.519,
+    "duration": 3.901,
+    "text": "sounds good"
+  },
+  {
+    "start": 835.2,
+    "duration": 3.36,
+    "text": "similarly if you want to work with"
+  },
+  {
+    "start": 837.42,
+    "duration": 3.06,
+    "text": "characters"
+  },
+  {
+    "start": 838.56,
+    "duration": 3.899,
+    "text": "you will work with reader"
+  },
+  {
+    "start": 840.48,
+    "duration": 5.28,
+    "text": "so buffer reader character array reader"
+  },
+  {
+    "start": 842.459,
+    "duration": 6.301,
+    "text": "string reader so you can see reader it's"
+  },
+  {
+    "start": 845.76,
+    "duration": 6.36,
+    "text": "also a it's also an abstract class"
+  },
+  {
+    "start": 848.76,
+    "duration": 5.04,
+    "text": "and there we go"
+  },
+  {
+    "start": 852.12,
+    "duration": 4.56,
+    "text": "buffered reader we can take an example"
+  },
+  {
+    "start": 853.8,
+    "duration": 4.92,
+    "text": "of buffered reader in our in our case"
+  },
+  {
+    "start": 856.68,
+    "duration": 4.82,
+    "text": "if you have buffer reader it's taking"
+  },
+  {
+    "start": 858.72,
+    "duration": 2.78,
+    "text": "the read method"
+  },
+  {
+    "start": 862.44,
+    "duration": 4.38,
+    "text": "so just the basic fundamentals that we"
+  },
+  {
+    "start": 864.839,
+    "duration": 4.081,
+    "text": "learned in objective priming when you"
+  },
+  {
+    "start": 866.82,
+    "duration": 3.78,
+    "text": "extend an abstract class the methods you"
+  },
+  {
+    "start": 868.92,
+    "duration": 2.82,
+    "text": "have to write the body yourself so like"
+  },
+  {
+    "start": 870.6,
+    "duration": 3.12,
+    "text": "okay no problem"
+  },
+  {
+    "start": 871.74,
+    "duration": 4.86,
+    "text": "similarly writer if you want to write"
+  },
+  {
+    "start": 873.72,
+    "duration": 4.98,
+    "text": "buffer writer you can write"
+  },
+  {
+    "start": 876.6,
+    "duration": 5.479,
+    "text": "inside it"
+  },
+  {
+    "start": 878.7,
+    "duration": 3.379,
+    "text": "method detail right"
+  },
+  {
+    "start": 882.18,
+    "duration": 5.7,
+    "text": "okay now one more thing I want to show"
+  },
+  {
+    "start": 885.0,
+    "duration": 5.459,
+    "text": "you is i o exception"
+  },
+  {
+    "start": 887.88,
+    "duration": 4.92,
+    "text": "what is i o exception over here okay so"
+  },
+  {
+    "start": 890.459,
+    "duration": 4.44,
+    "text": "I hope that is clear uh one thing I want"
+  },
+  {
+    "start": 892.8,
+    "duration": 4.56,
+    "text": "to show you is that before we move on to"
+  },
+  {
+    "start": 894.899,
+    "duration": 4.321,
+    "text": "the exception one you can see that all"
+  },
+  {
+    "start": 897.36,
+    "duration": 5.7,
+    "text": "the byte"
+  },
+  {
+    "start": 899.22,
+    "duration": 5.34,
+    "text": "stream they are ending in stream"
+  },
+  {
+    "start": 903.06,
+    "duration": 3.959,
+    "text": "or"
+  },
+  {
+    "start": 904.56,
+    "duration": 4.56,
+    "text": "input stream or output stream"
+  },
+  {
+    "start": 907.019,
+    "duration": 4.44,
+    "text": "or just Stream So if this class is"
+  },
+  {
+    "start": 909.12,
+    "duration": 4.74,
+    "text": "ending in stream we know it's for byte"
+  },
+  {
+    "start": 911.459,
+    "duration": 5.341,
+    "text": "data okay so if any class name is ending"
+  },
+  {
+    "start": 913.86,
+    "duration": 5.099,
+    "text": "with input stream or output stream"
+  },
+  {
+    "start": 916.8,
+    "duration": 4.86,
+    "text": "we know it's a hack let's say a little"
+  },
+  {
+    "start": 918.959,
+    "duration": 4.141,
+    "text": "bit of a clever hack for you any file"
+  },
+  {
+    "start": 921.66,
+    "duration": 3.78,
+    "text": "that is ending with either input stream"
+  },
+  {
+    "start": 923.1,
+    "duration": 4.679,
+    "text": "or output stream name we know that it is"
+  },
+  {
+    "start": 925.44,
+    "duration": 5.459,
+    "text": "used for by data any class that is"
+  },
+  {
+    "start": 927.779,
+    "duration": 7.021,
+    "text": "ending with either reader or writer"
+  },
+  {
+    "start": 930.899,
+    "duration": 5.821,
+    "text": "we know that it it is for character data"
+  },
+  {
+    "start": 934.8,
+    "duration": 4.979,
+    "text": "simple so if you are working with audio"
+  },
+  {
+    "start": 936.72,
+    "duration": 4.679,
+    "text": "files images PDF you will use either"
+  },
+  {
+    "start": 939.779,
+    "duration": 3.18,
+    "text": "input input stream and output stream"
+  },
+  {
+    "start": 941.399,
+    "duration": 2.94,
+    "text": "type classes"
+  },
+  {
+    "start": 942.959,
+    "duration": 2.521,
+    "text": "if you're working with characters you"
+  },
+  {
+    "start": 944.339,
+    "duration": 4.261,
+    "text": "will use"
+  },
+  {
+    "start": 945.48,
+    "duration": 4.979,
+    "text": "reader or right okay"
+  },
+  {
+    "start": 948.6,
+    "duration": 4.08,
+    "text": "so very simple"
+  },
+  {
+    "start": 950.459,
+    "duration": 5.361,
+    "text": "now"
+  },
+  {
+    "start": 952.68,
+    "duration": 3.14,
+    "text": "i o exception"
+  },
+  {
+    "start": 957.66,
+    "duration": 4.5,
+    "text": "so we've already learned about"
+  },
+  {
+    "start": 959.399,
+    "duration": 5.101,
+    "text": "exceptions in ah you know in the"
+  },
+  {
+    "start": 962.16,
+    "duration": 4.02,
+    "text": "objective improving playlist but this is"
+  },
+  {
+    "start": 964.5,
+    "duration": 4.079,
+    "text": "basically an"
+  },
+  {
+    "start": 966.18,
+    "duration": 4.68,
+    "text": "if you have any unexpected problems you"
+  },
+  {
+    "start": 968.579,
+    "duration": 4.921,
+    "text": "know that the jvm encounters when it's"
+  },
+  {
+    "start": 970.86,
+    "duration": 4.86,
+    "text": "attempting to run a program and it means"
+  },
+  {
+    "start": 973.5,
+    "duration": 4.56,
+    "text": "that whatever is throwing the exceptions"
+  },
+  {
+    "start": 975.72,
+    "duration": 4.619,
+    "text": "for example if you use a try catch block"
+  },
+  {
+    "start": 978.06,
+    "duration": 4.32,
+    "text": "that is reading data from a file and"
+  },
+  {
+    "start": 980.339,
+    "duration": 5.221,
+    "text": "you're you know you can throw an i o"
+  },
+  {
+    "start": 982.38,
+    "duration": 6.36,
+    "text": "exception uh this can be something like"
+  },
+  {
+    "start": 985.56,
+    "duration": 5.88,
+    "text": "you know file is corrupted file could"
+  },
+  {
+    "start": 988.74,
+    "duration": 5.039,
+    "text": "not be opened file not found"
+  },
+  {
+    "start": 991.44,
+    "duration": 4.139,
+    "text": "okay a file is unable to read corrupt"
+  },
+  {
+    "start": 993.779,
+    "duration": 2.701,
+    "text": "file or whatever you know you get the"
+  },
+  {
+    "start": 995.579,
+    "duration": 6.68,
+    "text": "idea"
+  },
+  {
+    "start": 996.48,
+    "duration": 5.779,
+    "text": "corrupt file not able to read"
+  },
+  {
+    "start": 1002.42,
+    "duration": 3.719,
+    "text": "file not found"
+  },
+  {
+    "start": 1004.759,
+    "duration": 3.841,
+    "text": "Etc"
+  },
+  {
+    "start": 1006.139,
+    "duration": 4.62,
+    "text": "no problem okay"
+  },
+  {
+    "start": 1008.6,
+    "duration": 4.679,
+    "text": "that's the i o exception"
+  },
+  {
+    "start": 1010.759,
+    "duration": 4.5,
+    "text": "all right uh that's basically the"
+  },
+  {
+    "start": 1013.279,
+    "duration": 3.661,
+    "text": "structure the input stream output stream"
+  },
+  {
+    "start": 1015.259,
+    "duration": 3.121,
+    "text": "any file name that ends with input"
+  },
+  {
+    "start": 1016.94,
+    "duration": 3.66,
+    "text": "stream or output stream we are using it"
+  },
+  {
+    "start": 1018.38,
+    "duration": 4.259,
+    "text": "for byte data reader or writer we are"
+  },
+  {
+    "start": 1020.6,
+    "duration": 3.78,
+    "text": "using it for character data that is the"
+  },
+  {
+    "start": 1022.639,
+    "duration": 3.241,
+    "text": "main difference that if someone asks you"
+  },
+  {
+    "start": 1024.38,
+    "duration": 3.299,
+    "text": "you can tell them"
+  },
+  {
+    "start": 1025.88,
+    "duration": 4.02,
+    "text": "okay"
+  },
+  {
+    "start": 1027.679,
+    "duration": 4.5,
+    "text": "let's move forward and do some code"
+  },
+  {
+    "start": 1029.9,
+    "duration": 6.0,
+    "text": "samples okay and now before we move on"
+  },
+  {
+    "start": 1032.179,
+    "duration": 6.78,
+    "text": "to the code I want to show you that uh"
+  },
+  {
+    "start": 1035.9,
+    "duration": 6.0,
+    "text": "Java now as we saw in the code example"
+  },
+  {
+    "start": 1038.959,
+    "duration": 5.761,
+    "text": "like we do system dot in so it has some"
+  },
+  {
+    "start": 1041.9,
+    "duration": 8.299,
+    "text": "predefined streams in Java so there are"
+  },
+  {
+    "start": 1044.72,
+    "duration": 5.479,
+    "text": "some predefined streams in Java"
+  },
+  {
+    "start": 1050.419,
+    "duration": 5.521,
+    "text": "the system dot out also system dot out"
+  },
+  {
+    "start": 1054.2,
+    "duration": 3.54,
+    "text": "so system dot out"
+  },
+  {
+    "start": 1055.94,
+    "duration": 4.14,
+    "text": "we have done this"
+  },
+  {
+    "start": 1057.74,
+    "duration": 4.559,
+    "text": "if you check the code of system.out like"
+  },
+  {
+    "start": 1060.08,
+    "duration": 3.839,
+    "text": "we talk control control click this is"
+  },
+  {
+    "start": 1062.299,
+    "duration": 3.24,
+    "text": "the standard output stream by default"
+  },
+  {
+    "start": 1063.919,
+    "duration": 4.62,
+    "text": "the console"
+  },
+  {
+    "start": 1065.539,
+    "duration": 4.38,
+    "text": "standard output stream"
+  },
+  {
+    "start": 1068.539,
+    "duration": 3.481,
+    "text": "console"
+  },
+  {
+    "start": 1069.919,
+    "duration": 4.201,
+    "text": "you have"
+  },
+  {
+    "start": 1072.02,
+    "duration": 5.279,
+    "text": "system dot in"
+  },
+  {
+    "start": 1074.12,
+    "duration": 5.22,
+    "text": "standard input stream"
+  },
+  {
+    "start": 1077.299,
+    "duration": 5.601,
+    "text": "and"
+  },
+  {
+    "start": 1079.34,
+    "duration": 3.56,
+    "text": "what is this by default keyboard"
+  },
+  {
+    "start": 1086.059,
+    "duration": 3.561,
+    "text": "if it's a byte stream it doesn't mean"
+  },
+  {
+    "start": 1087.74,
+    "duration": 4.98,
+    "text": "you cannot input characters because"
+  },
+  {
+    "start": 1089.62,
+    "duration": 5.08,
+    "text": "system.in was of what type input stream"
+  },
+  {
+    "start": 1092.72,
+    "duration": 6.0,
+    "text": "and we know that when it ends with"
+  },
+  {
+    "start": 1094.7,
+    "duration": 7.02,
+    "text": "stream it is what by Theta"
+  },
+  {
+    "start": 1098.72,
+    "duration": 5.52,
+    "text": "okay you have system dot error also"
+  },
+  {
+    "start": 1101.72,
+    "duration": 4.26,
+    "text": "err"
+  },
+  {
+    "start": 1104.24,
+    "duration": 5.22,
+    "text": "or this is what standard errand stream"
+  },
+  {
+    "start": 1105.98,
+    "duration": 7.199,
+    "text": "which is also standard error"
+  },
+  {
+    "start": 1109.46,
+    "duration": 6.42,
+    "text": "also by default the console"
+  },
+  {
+    "start": 1113.179,
+    "duration": 5.301,
+    "text": "sometimes you know you get error so"
+  },
+  {
+    "start": 1115.88,
+    "duration": 2.6,
+    "text": "that's it"
+  },
+  {
+    "start": 1120.62,
+    "duration": 3.66,
+    "text": "okay"
+  },
+  {
+    "start": 1122.059,
+    "duration": 5.221,
+    "text": "so this is"
+  },
+  {
+    "start": 1124.28,
+    "duration": 6.139,
+    "text": "of type what we saw in the code base"
+  },
+  {
+    "start": 1127.28,
+    "duration": 3.139,
+    "text": "input stream type"
+  },
+  {
+    "start": 1132.08,
+    "duration": 3.02,
+    "text": "these two are what"
+  },
+  {
+    "start": 1135.14,
+    "duration": 2.96,
+    "text": "print stream type"
+  },
+  {
+    "start": 1140.299,
+    "duration": 4.141,
+    "text": "okay"
+  },
+  {
+    "start": 1141.44,
+    "duration": 3.9,
+    "text": "so since it's ending with stream they"
+  },
+  {
+    "start": 1144.44,
+    "duration": 3.42,
+    "text": "are all"
+  },
+  {
+    "start": 1145.34,
+    "duration": 5.719,
+    "text": "byte streams"
+  },
+  {
+    "start": 1147.86,
+    "duration": 3.199,
+    "text": "how easy it is now"
+  },
+  {
+    "start": 1152.0,
+    "duration": 4.5,
+    "text": "okay"
+  },
+  {
+    "start": 1153.98,
+    "duration": 5.699,
+    "text": "okay so here you can see scanner"
+  },
+  {
+    "start": 1156.5,
+    "duration": 4.74,
+    "text": "inside the argument scanner is taking an"
+  },
+  {
+    "start": 1159.679,
+    "duration": 3.661,
+    "text": "input stream source"
+  },
+  {
+    "start": 1161.24,
+    "duration": 3.24,
+    "text": "this you can type of any input stream"
+  },
+  {
+    "start": 1163.34,
+    "duration": 2.76,
+    "text": "now"
+  },
+  {
+    "start": 1164.48,
+    "duration": 2.699,
+    "text": "this you can put off any input stream"
+  },
+  {
+    "start": 1166.1,
+    "duration": 4.62,
+    "text": "now"
+  },
+  {
+    "start": 1167.179,
+    "duration": 5.941,
+    "text": "but here it's taking the by default one"
+  },
+  {
+    "start": 1170.72,
+    "duration": 3.78,
+    "text": "of type input stream and this input"
+  },
+  {
+    "start": 1173.12,
+    "duration": 3.12,
+    "text": "stream as you can see it's an abstract"
+  },
+  {
+    "start": 1174.5,
+    "duration": 4.38,
+    "text": "class we've already seen it's an"
+  },
+  {
+    "start": 1176.24,
+    "duration": 5.52,
+    "text": "abstract class it has"
+  },
+  {
+    "start": 1178.88,
+    "duration": 5.22,
+    "text": "some methods over here as you can see"
+  },
+  {
+    "start": 1181.76,
+    "duration": 4.919,
+    "text": "okay read and all sorts of things"
+  },
+  {
+    "start": 1184.1,
+    "duration": 4.38,
+    "text": "abstract read"
+  },
+  {
+    "start": 1186.679,
+    "duration": 6.38,
+    "text": "the next state enter whatever you want"
+  },
+  {
+    "start": 1188.48,
+    "duration": 4.579,
+    "text": "to do you can do it"
+  },
+  {
+    "start": 1193.28,
+    "duration": 3.72,
+    "text": "okay"
+  },
+  {
+    "start": 1195.559,
+    "duration": 2.941,
+    "text": "cool"
+  },
+  {
+    "start": 1197.0,
+    "duration": 5.1,
+    "text": "if we talk about next hint you will see"
+  },
+  {
+    "start": 1198.5,
+    "duration": 6.179,
+    "text": "next 10 days in scanner"
+  },
+  {
+    "start": 1202.1,
+    "duration": 4.199,
+    "text": "don't be confused between scanner and"
+  },
+  {
+    "start": 1204.679,
+    "duration": 3.981,
+    "text": "the input stream"
+  },
+  {
+    "start": 1206.299,
+    "duration": 5.221,
+    "text": "okay if you take about the scanner class"
+  },
+  {
+    "start": 1208.66,
+    "duration": 5.379,
+    "text": "then this is basically a simple text"
+  },
+  {
+    "start": 1211.52,
+    "duration": 4.86,
+    "text": "scanner that can parse Primitives and"
+  },
+  {
+    "start": 1214.039,
+    "duration": 4.861,
+    "text": "strings using regular expression and"
+  },
+  {
+    "start": 1216.38,
+    "duration": 6.24,
+    "text": "it's it's it's just a class that is"
+  },
+  {
+    "start": 1218.9,
+    "duration": 6.18,
+    "text": "helping us to take input like it is you"
+  },
+  {
+    "start": 1222.62,
+    "duration": 5.4,
+    "text": "can see over here"
+  },
+  {
+    "start": 1225.08,
+    "duration": 5.4,
+    "text": "talk about scanner class it implements"
+  },
+  {
+    "start": 1228.02,
+    "duration": 5.519,
+    "text": "iterator and closed Ripple"
+  },
+  {
+    "start": 1230.48,
+    "duration": 6.0,
+    "text": "okay and inside its Constructor as we"
+  },
+  {
+    "start": 1233.539,
+    "duration": 5.64,
+    "text": "saw it was taking input stream"
+  },
+  {
+    "start": 1236.48,
+    "duration": 4.8,
+    "text": "so the idea is that"
+  },
+  {
+    "start": 1239.179,
+    "duration": 4.5,
+    "text": "it you are telling the scanner class"
+  },
+  {
+    "start": 1241.28,
+    "duration": 4.92,
+    "text": "where to take the data from"
+  },
+  {
+    "start": 1243.679,
+    "duration": 4.5,
+    "text": "when you do this line"
+  },
+  {
+    "start": 1246.2,
+    "duration": 3.359,
+    "text": "this line you're saying that take the"
+  },
+  {
+    "start": 1248.179,
+    "duration": 2.701,
+    "text": "data from"
+  },
+  {
+    "start": 1249.559,
+    "duration": 3.48,
+    "text": "keyboard"
+  },
+  {
+    "start": 1250.88,
+    "duration": 3.179,
+    "text": "and scanner itself has some methods like"
+  },
+  {
+    "start": 1253.039,
+    "duration": 5.221,
+    "text": "next"
+  },
+  {
+    "start": 1254.059,
+    "duration": 5.281,
+    "text": "etc etc next car new line all sorts of"
+  },
+  {
+    "start": 1258.26,
+    "duration": 3.6,
+    "text": "things"
+  },
+  {
+    "start": 1259.34,
+    "duration": 5.219,
+    "text": "okay hope that is clear"
+  },
+  {
+    "start": 1261.86,
+    "duration": 5.16,
+    "text": "let's take some examples and make me"
+  },
+  {
+    "start": 1264.559,
+    "duration": 4.081,
+    "text": "yeah so I'm going to create a new"
+  },
+  {
+    "start": 1267.02,
+    "duration": 4.279,
+    "text": "rapple you can find the code in the"
+  },
+  {
+    "start": 1268.64,
+    "duration": 2.659,
+    "text": "description below"
+  },
+  {
+    "start": 1274.22,
+    "duration": 4.04,
+    "text": "pile"
+  },
+  {
+    "start": 1275.66,
+    "duration": 2.6,
+    "text": "Angling"
+  },
+  {
+    "start": 1284.48,
+    "duration": 4.98,
+    "text": "okay let's move forward"
+  },
+  {
+    "start": 1287.179,
+    "duration": 3.901,
+    "text": "zooming in a little bit okay so here"
+  },
+  {
+    "start": 1289.46,
+    "duration": 3.12,
+    "text": "let's say we talk about reader let's say"
+  },
+  {
+    "start": 1291.08,
+    "duration": 3.3,
+    "text": "we start with characters first and we"
+  },
+  {
+    "start": 1292.58,
+    "duration": 3.66,
+    "text": "want to read them so there's a reader"
+  },
+  {
+    "start": 1294.38,
+    "duration": 3.9,
+    "text": "class and writer class no problem reader"
+  },
+  {
+    "start": 1296.24,
+    "duration": 3.96,
+    "text": "we have the input stream reader buffered"
+  },
+  {
+    "start": 1298.28,
+    "duration": 3.72,
+    "text": "reader let's start with input stream"
+  },
+  {
+    "start": 1300.2,
+    "duration": 4.02,
+    "text": "reader then we'll do buffer reader not a"
+  },
+  {
+    "start": 1302.0,
+    "duration": 5.039,
+    "text": "problem"
+  },
+  {
+    "start": 1304.22,
+    "duration": 5.52,
+    "text": "um here it's saying that the input"
+  },
+  {
+    "start": 1307.039,
+    "duration": 4.861,
+    "text": "stream reader uh it is a bridge from"
+  },
+  {
+    "start": 1309.74,
+    "duration": 4.38,
+    "text": "byte stream to character stream so very"
+  },
+  {
+    "start": 1311.9,
+    "duration": 3.659,
+    "text": "simple stuff this is basically used to"
+  },
+  {
+    "start": 1314.12,
+    "duration": 3.539,
+    "text": "convert byte streams to character"
+  },
+  {
+    "start": 1315.559,
+    "duration": 4.201,
+    "text": "streams okay"
+  },
+  {
+    "start": 1317.659,
+    "duration": 5.221,
+    "text": "it has a many overloaded Constructors"
+  },
+  {
+    "start": 1319.76,
+    "duration": 5.7,
+    "text": "that we can use so we can take each"
+  },
+  {
+    "start": 1322.88,
+    "duration": 4.32,
+    "text": "input stream like whatever input stream"
+  },
+  {
+    "start": 1325.46,
+    "duration": 3.48,
+    "text": "you want to take the simplest one we"
+  },
+  {
+    "start": 1327.2,
+    "duration": 3.66,
+    "text": "have already done is system.in so"
+  },
+  {
+    "start": 1328.94,
+    "duration": 5.7,
+    "text": "ideally converting the system.in We Know"
+  },
+  {
+    "start": 1330.86,
+    "duration": 8.22,
+    "text": "by is by data so it will convert it into"
+  },
+  {
+    "start": 1334.64,
+    "duration": 5.82,
+    "text": "character data as the first parameter"
+  },
+  {
+    "start": 1339.08,
+    "duration": 3.66,
+    "text": "okay it will take it as a first"
+  },
+  {
+    "start": 1340.46,
+    "duration": 6.599,
+    "text": "parameter"
+  },
+  {
+    "start": 1342.74,
+    "duration": 6.36,
+    "text": "okay so let's see how that works"
+  },
+  {
+    "start": 1347.059,
+    "duration": 4.261,
+    "text": "and there's one more thing you have to"
+  },
+  {
+    "start": 1349.1,
+    "duration": 4.079,
+    "text": "close these streams as well so when you"
+  },
+  {
+    "start": 1351.32,
+    "duration": 3.12,
+    "text": "close these streams you know when you're"
+  },
+  {
+    "start": 1353.179,
+    "duration": 2.641,
+    "text": "done with the input streams you have to"
+  },
+  {
+    "start": 1354.44,
+    "duration": 4.02,
+    "text": "close them as well so they have these"
+  },
+  {
+    "start": 1355.82,
+    "duration": 4.56,
+    "text": "other methods that they have uh called"
+  },
+  {
+    "start": 1358.46,
+    "duration": 4.32,
+    "text": "close that's it"
+  },
+  {
+    "start": 1360.38,
+    "duration": 5.52,
+    "text": "okay so it really basically releases any"
+  },
+  {
+    "start": 1362.78,
+    "duration": 5.1,
+    "text": "resources that are associated with it"
+  },
+  {
+    "start": 1365.9,
+    "duration": 4.519,
+    "text": "okay"
+  },
+  {
+    "start": 1367.88,
+    "duration": 2.539,
+    "text": "cool"
+  },
+  {
+    "start": 1370.7,
+    "duration": 4.74,
+    "text": "awesome"
+  },
+  {
+    "start": 1373.1,
+    "duration": 4.319,
+    "text": "one thing I want to mention over here is"
+  },
+  {
+    "start": 1375.44,
+    "duration": 3.599,
+    "text": "that since this is an input stream"
+  },
+  {
+    "start": 1377.419,
+    "duration": 4.801,
+    "text": "reader Kunal you're saying you have to"
+  },
+  {
+    "start": 1379.039,
+    "duration": 6.841,
+    "text": "close it because this is a resource"
+  },
+  {
+    "start": 1382.22,
+    "duration": 5.699,
+    "text": "okay uh how do you know that I'll give"
+  },
+  {
+    "start": 1385.88,
+    "duration": 7.82,
+    "text": "you an example a hint"
+  },
+  {
+    "start": 1387.919,
+    "duration": 5.781,
+    "text": "any class that implements Auto closable"
+  },
+  {
+    "start": 1395.9,
+    "duration": 5.54,
+    "text": "we can consider that class"
+  },
+  {
+    "start": 1398.36,
+    "duration": 3.08,
+    "text": "as a resource"
+  },
+  {
+    "start": 1401.78,
+    "duration": 4.32,
+    "text": "okay hence it's very important to close"
+  },
+  {
+    "start": 1403.82,
+    "duration": 4.02,
+    "text": "it once you're done using it"
+  },
+  {
+    "start": 1406.1,
+    "duration": 3.98,
+    "text": "okay Auto closable as you can see over"
+  },
+  {
+    "start": 1407.84,
+    "duration": 2.24,
+    "text": "here"
+  },
+  {
+    "start": 1410.24,
+    "duration": 4.559,
+    "text": "May hold resources like a file or socket"
+  },
+  {
+    "start": 1412.82,
+    "duration": 3.12,
+    "text": "handles until it's closed so let's say"
+  },
+  {
+    "start": 1414.799,
+    "duration": 2.341,
+    "text": "you're working on a file or you're"
+  },
+  {
+    "start": 1415.94,
+    "duration": 3.18,
+    "text": "working on a character stream or"
+  },
+  {
+    "start": 1417.14,
+    "duration": 4.44,
+    "text": "whatever it will hold some resources in"
+  },
+  {
+    "start": 1419.12,
+    "duration": 4.32,
+    "text": "your program in your computer and once"
+  },
+  {
+    "start": 1421.58,
+    "duration": 3.959,
+    "text": "you're done with it you have to"
+  },
+  {
+    "start": 1423.44,
+    "duration": 5.04,
+    "text": "close it so that it releases those"
+  },
+  {
+    "start": 1425.539,
+    "duration": 4.081,
+    "text": "resources"
+  },
+  {
+    "start": 1428.48,
+    "duration": 5.36,
+    "text": "okay"
+  },
+  {
+    "start": 1429.62,
+    "duration": 4.22,
+    "text": "sound good so input stream reader class"
+  },
+  {
+    "start": 1434.24,
+    "duration": 2.16,
+    "text": "let's try that"
+  },
+  {
+    "start": 1435.86,
+    "duration": 2.699,
+    "text": "um"
+  },
+  {
+    "start": 1436.4,
+    "duration": 4.62,
+    "text": "I'm just going to say"
+  },
+  {
+    "start": 1438.559,
+    "duration": 5.461,
+    "text": "something like"
+  },
+  {
+    "start": 1441.02,
+    "duration": 4.68,
+    "text": "you know try"
+  },
+  {
+    "start": 1444.02,
+    "duration": 4.86,
+    "text": "and I'm going to open I'm going to say"
+  },
+  {
+    "start": 1445.7,
+    "duration": 5.88,
+    "text": "input stream"
+  },
+  {
+    "start": 1448.88,
+    "duration": 4.94,
+    "text": "reader input stream reader is equal to"
+  },
+  {
+    "start": 1451.58,
+    "duration": 2.24,
+    "text": "new"
+  },
+  {
+    "start": 1454.46,
+    "duration": 6.54,
+    "text": "input stream reader and it takes what"
+  },
+  {
+    "start": 1457.52,
+    "duration": 5.399,
+    "text": "input stream which is"
+  },
+  {
+    "start": 1461.0,
+    "duration": 3.84,
+    "text": "for by data because it ends with stream"
+  },
+  {
+    "start": 1462.919,
+    "duration": 4.681,
+    "text": "so I can just say system dot in for"
+  },
+  {
+    "start": 1464.84,
+    "duration": 6.78,
+    "text": "example it takes system dot in"
+  },
+  {
+    "start": 1467.6,
+    "duration": 6.8,
+    "text": "okay system dot out Dot"
+  },
+  {
+    "start": 1471.62,
+    "duration": 2.78,
+    "text": "println"
+  },
+  {
+    "start": 1474.98,
+    "duration": 5.28,
+    "text": "I'm going to say"
+  },
+  {
+    "start": 1476.659,
+    "duration": 6.541,
+    "text": "enter some letters"
+  },
+  {
+    "start": 1480.26,
+    "duration": 5.18,
+    "text": "I can say in letters is equal to let's"
+  },
+  {
+    "start": 1483.2,
+    "duration": 2.24,
+    "text": "say"
+  },
+  {
+    "start": 1486.799,
+    "duration": 4.401,
+    "text": "I'm going to let us say input some"
+  },
+  {
+    "start": 1488.24,
+    "duration": 2.96,
+    "text": "number"
+  },
+  {
+    "start": 1491.6,
+    "duration": 7.22,
+    "text": "while input stream is ready I have not"
+  },
+  {
+    "start": 1495.32,
+    "duration": 3.5,
+    "text": "closed it for example"
+  },
+  {
+    "start": 1499.34,
+    "duration": 4.92,
+    "text": "I'm going to just say"
+  },
+  {
+    "start": 1501.26,
+    "duration": 3.0,
+    "text": "system.out.println"
+  },
+  {
+    "start": 1508.88,
+    "duration": 4.2,
+    "text": "if it's an integer then I can convert it"
+  },
+  {
+    "start": 1511.039,
+    "duration": 3.241,
+    "text": "in let's say a car"
+  },
+  {
+    "start": 1513.08,
+    "duration": 3.92,
+    "text": "of"
+  },
+  {
+    "start": 1514.28,
+    "duration": 2.72,
+    "text": "letters"
+  },
+  {
+    "start": 1517.4,
+    "duration": 4.159,
+    "text": "okay then I take letters in again"
+  },
+  {
+    "start": 1523.039,
+    "duration": 4.02,
+    "text": "all right"
+  },
+  {
+    "start": 1524.6,
+    "duration": 6.559,
+    "text": "sounds good"
+  },
+  {
+    "start": 1527.059,
+    "duration": 4.1,
+    "text": "once you're done you can say"
+  },
+  {
+    "start": 1532.1,
+    "duration": 5.66,
+    "text": "close this stream"
+  },
+  {
+    "start": 1534.98,
+    "duration": 2.78,
+    "text": "and"
+  },
+  {
+    "start": 1539.14,
+    "duration": 5.88,
+    "text": "let's say I don't add a new line here"
+  },
+  {
+    "start": 1542.12,
+    "duration": 2.9,
+    "text": "I'll add a new line"
+  },
+  {
+    "start": 1551.0,
+    "duration": 4.279,
+    "text": "which exception it will catch i o"
+  },
+  {
+    "start": 1552.799,
+    "duration": 2.48,
+    "text": "exception"
+  },
+  {
+    "start": 1556.34,
+    "duration": 4.04,
+    "text": "and I can just display e Dot message"
+  },
+  {
+    "start": 1565.1,
+    "duration": 3.26,
+    "text": "if you get any error"
+  },
+  {
+    "start": 1570.98,
+    "duration": 2.9,
+    "text": "let's display the message"
+  },
+  {
+    "start": 1574.7,
+    "duration": 3.02,
+    "text": "pretty standard stuff"
+  },
+  {
+    "start": 1578.059,
+    "duration": 3.541,
+    "text": "import java.io.io"
+  },
+  {
+    "start": 1583.94,
+    "duration": 6.599,
+    "text": "exception import java.io Dot input"
+  },
+  {
+    "start": 1588.5,
+    "duration": 4.08,
+    "text": "stream"
+  },
+  {
+    "start": 1590.539,
+    "duration": 4.821,
+    "text": "reader"
+  },
+  {
+    "start": 1592.58,
+    "duration": 2.78,
+    "text": "run this"
+  },
+  {
+    "start": 1603.08,
+    "duration": 2.78,
+    "text": "get message"
+  },
+  {
+    "start": 1608.6,
+    "duration": 4.86,
+    "text": "enter some letters"
+  },
+  {
+    "start": 1611.48,
+    "duration": 4.88,
+    "text": "34"
+  },
+  {
+    "start": 1613.46,
+    "duration": 2.9,
+    "text": "3 4."
+  },
+  {
+    "start": 1619.64,
+    "duration": 2.779,
+    "text": "sounds good"
+  },
+  {
+    "start": 1624.26,
+    "duration": 5.46,
+    "text": "okay"
+  },
+  {
+    "start": 1626.0,
+    "duration": 4.919,
+    "text": "so you're taking data in byte stream and"
+  },
+  {
+    "start": 1629.72,
+    "duration": 3.439,
+    "text": "you're putting it out in character"
+  },
+  {
+    "start": 1630.919,
+    "duration": 2.24,
+    "text": "stream"
+  },
+  {
+    "start": 1636.08,
+    "duration": 2.54,
+    "text": "make sense"
+  },
+  {
+    "start": 1640.58,
+    "duration": 3.12,
+    "text": "sounds good let's move forward one more"
+  },
+  {
+    "start": 1642.44,
+    "duration": 3.479,
+    "text": "thing is that you don't have to write"
+  },
+  {
+    "start": 1643.7,
+    "duration": 4.26,
+    "text": "this close because try catch block will"
+  },
+  {
+    "start": 1645.919,
+    "duration": 3.801,
+    "text": "automatically close it new Java feature"
+  },
+  {
+    "start": 1647.96,
+    "duration": 5.099,
+    "text": "I believe after Java 7."
+  },
+  {
+    "start": 1649.72,
+    "duration": 5.5,
+    "text": "so it will automatically close the"
+  },
+  {
+    "start": 1653.059,
+    "duration": 3.48,
+    "text": "the stream okay and you can see input"
+  },
+  {
+    "start": 1655.22,
+    "duration": 4.439,
+    "text": "stream reader itself has another"
+  },
+  {
+    "start": 1656.539,
+    "duration": 5.041,
+    "text": "subclass file reader so for reading"
+  },
+  {
+    "start": 1659.659,
+    "duration": 3.481,
+    "text": "character files okay no problem"
+  },
+  {
+    "start": 1661.58,
+    "duration": 5.219,
+    "text": "not a problem"
+  },
+  {
+    "start": 1663.14,
+    "duration": 6.12,
+    "text": "I will copy judges it also yeah Auto"
+  },
+  {
+    "start": 1666.799,
+    "duration": 5.36,
+    "text": "closable so Auto closable so then I will"
+  },
+  {
+    "start": 1669.26,
+    "duration": 2.899,
+    "text": "use try catch"
+  },
+  {
+    "start": 1674.72,
+    "duration": 4.98,
+    "text": "and here I will say"
+  },
+  {
+    "start": 1676.82,
+    "duration": 6.14,
+    "text": "file reader"
+  },
+  {
+    "start": 1679.7,
+    "duration": 3.26,
+    "text": "is equal to new"
+  },
+  {
+    "start": 1686.299,
+    "duration": 6.601,
+    "text": "file reader read from a file"
+  },
+  {
+    "start": 1689.779,
+    "duration": 5.701,
+    "text": "and obviously I have to pass the"
+  },
+  {
+    "start": 1692.9,
+    "duration": 3.3,
+    "text": "the file so you can either pass the file"
+  },
+  {
+    "start": 1695.48,
+    "duration": 3.84,
+    "text": "name"
+  },
+  {
+    "start": 1696.2,
+    "duration": 5.04,
+    "text": "or you can pass the file object"
+  },
+  {
+    "start": 1699.32,
+    "duration": 3.9,
+    "text": "so there's a file object as well that"
+  },
+  {
+    "start": 1701.24,
+    "duration": 4.559,
+    "text": "you can use to directly you know work"
+  },
+  {
+    "start": 1703.22,
+    "duration": 4.02,
+    "text": "with files so like create new files and"
+  },
+  {
+    "start": 1705.799,
+    "duration": 2.76,
+    "text": "do all sorts of things so we'll be"
+  },
+  {
+    "start": 1707.24,
+    "duration": 3.36,
+    "text": "taking a look at that as well so I'm"
+  },
+  {
+    "start": 1708.559,
+    "duration": 4.261,
+    "text": "just going to keep it open so we work"
+  },
+  {
+    "start": 1710.6,
+    "duration": 3.36,
+    "text": "with it"
+  },
+  {
+    "start": 1712.82,
+    "duration": 5.18,
+    "text": "okay"
+  },
+  {
+    "start": 1713.96,
+    "duration": 4.04,
+    "text": "let's see so here if I just write"
+  },
+  {
+    "start": 1718.58,
+    "duration": 3.02,
+    "text": "let's say"
+  },
+  {
+    "start": 1723.32,
+    "duration": 4.099,
+    "text": "note Dot txt"
+  },
+  {
+    "start": 1728.179,
+    "duration": 4.62,
+    "text": "and"
+  },
+  {
+    "start": 1729.74,
+    "duration": 5.34,
+    "text": "letters is equal to"
+  },
+  {
+    "start": 1732.799,
+    "duration": 3.48,
+    "text": "I'll just call it file reader file"
+  },
+  {
+    "start": 1735.08,
+    "duration": 3.9,
+    "text": "reader"
+  },
+  {
+    "start": 1736.279,
+    "duration": 5.88,
+    "text": "and file reader characters of letter"
+  },
+  {
+    "start": 1738.98,
+    "duration": 5.22,
+    "text": "file reader file reader"
+  },
+  {
+    "start": 1742.159,
+    "duration": 5.421,
+    "text": "looks good"
+  },
+  {
+    "start": 1744.2,
+    "duration": 3.38,
+    "text": "let's see what it says"
+  },
+  {
+    "start": 1750.919,
+    "duration": 7.021,
+    "text": "cannot files of file reader yeah"
+  },
+  {
+    "start": 1755.98,
+    "duration": 5.919,
+    "text": "Java Dot"
+  },
+  {
+    "start": 1757.94,
+    "duration": 6.119,
+    "text": "IO dot let me just import everything"
+  },
+  {
+    "start": 1761.899,
+    "duration": 4.5,
+    "text": "wildcard imports not a good thing but"
+  },
+  {
+    "start": 1764.059,
+    "duration": 5.761,
+    "text": "for demo purpose I'm fine"
+  },
+  {
+    "start": 1766.399,
+    "duration": 7.861,
+    "text": "so it's saying an error and that error"
+  },
+  {
+    "start": 1769.82,
+    "duration": 9.8,
+    "text": "is no such pilot directory makes sense"
+  },
+  {
+    "start": 1774.26,
+    "duration": 5.36,
+    "text": "you can say node Dot txt"
+  },
+  {
+    "start": 1783.799,
+    "duration": 4.74,
+    "text": "hello my name is Kunal"
+  },
+  {
+    "start": 1788.6,
+    "duration": 2.48,
+    "text": "run"
+  },
+  {
+    "start": 1791.179,
+    "duration": 4.801,
+    "text": "hello my name is Kunal"
+  },
+  {
+    "start": 1794.659,
+    "duration": 2.821,
+    "text": "okay"
+  },
+  {
+    "start": 1795.98,
+    "duration": 4.319,
+    "text": "reading"
+  },
+  {
+    "start": 1797.48,
+    "duration": 4.5,
+    "text": "file reader so if it's ending with write"
+  },
+  {
+    "start": 1800.299,
+    "duration": 3.36,
+    "text": "a reader we know it's what"
+  },
+  {
+    "start": 1801.98,
+    "duration": 4.52,
+    "text": "character Stream So reading just one"
+  },
+  {
+    "start": 1803.659,
+    "duration": 2.841,
+    "text": "character at a time"
+  },
+  {
+    "start": 1807.14,
+    "duration": 3.72,
+    "text": "okay this int is basically just storing"
+  },
+  {
+    "start": 1809.539,
+    "duration": 3.601,
+    "text": "the"
+  },
+  {
+    "start": 1810.86,
+    "duration": 3.9,
+    "text": "letters or whatever and I'm directly"
+  },
+  {
+    "start": 1813.14,
+    "duration": 3.72,
+    "text": "converting it into character as you can"
+  },
+  {
+    "start": 1814.76,
+    "duration": 4.44,
+    "text": "see over here"
+  },
+  {
+    "start": 1816.86,
+    "duration": 5.16,
+    "text": "if I just print"
+  },
+  {
+    "start": 1819.2,
+    "duration": 6.0,
+    "text": "like this"
+  },
+  {
+    "start": 1822.02,
+    "duration": 5.639,
+    "text": "then it will show me the asci value"
+  },
+  {
+    "start": 1825.2,
+    "duration": 3.78,
+    "text": "but I'm converting into character not a"
+  },
+  {
+    "start": 1827.659,
+    "duration": 5.421,
+    "text": "problem"
+  },
+  {
+    "start": 1828.98,
+    "duration": 4.1,
+    "text": "you can also do something like care"
+  },
+  {
+    "start": 1836.96,
+    "duration": 3.3,
+    "text": "now it's giving error so if you look at"
+  },
+  {
+    "start": 1838.7,
+    "duration": 3.719,
+    "text": "a documentation the read actually"
+  },
+  {
+    "start": 1840.26,
+    "duration": 4.2,
+    "text": "returns an integer"
+  },
+  {
+    "start": 1842.419,
+    "duration": 5.221,
+    "text": "so it is going to read whatever"
+  },
+  {
+    "start": 1844.46,
+    "duration": 6.24,
+    "text": "character or whatever thing you have"
+  },
+  {
+    "start": 1847.64,
+    "duration": 4.62,
+    "text": "and it will store its Unicode value"
+  },
+  {
+    "start": 1850.7,
+    "duration": 3.66,
+    "text": "because we're working with characters so"
+  },
+  {
+    "start": 1852.26,
+    "duration": 4.38,
+    "text": "it is storing Unicode value that's why"
+  },
+  {
+    "start": 1854.36,
+    "duration": 4.38,
+    "text": "giving me an error that's why I have to"
+  },
+  {
+    "start": 1856.64,
+    "duration": 3.48,
+    "text": "write integer over here so you"
+  },
+  {
+    "start": 1858.74,
+    "duration": 2.76,
+    "text": "previously your doubt maybe you cannot"
+  },
+  {
+    "start": 1860.12,
+    "duration": 3.84,
+    "text": "why are you writing integer over here"
+  },
+  {
+    "start": 1861.5,
+    "duration": 4.38,
+    "text": "not character because that is what read"
+  },
+  {
+    "start": 1863.96,
+    "duration": 5.459,
+    "text": "returns"
+  },
+  {
+    "start": 1865.88,
+    "duration": 5.34,
+    "text": "very simple because it's type of"
+  },
+  {
+    "start": 1869.419,
+    "duration": 4.681,
+    "text": "character stream and character means"
+  },
+  {
+    "start": 1871.22,
+    "duration": 5.52,
+    "text": "asci and you sorry like Unicode values"
+  },
+  {
+    "start": 1874.1,
+    "duration": 4.799,
+    "text": "or whatever you want to call it"
+  },
+  {
+    "start": 1876.74,
+    "duration": 4.02,
+    "text": "okay that's how you're reading the file"
+  },
+  {
+    "start": 1878.899,
+    "duration": 3.421,
+    "text": "now you're like Kunal I want to create a"
+  },
+  {
+    "start": 1880.76,
+    "duration": 3.659,
+    "text": "new file or whatever how do we do that"
+  },
+  {
+    "start": 1882.32,
+    "duration": 5.16,
+    "text": "for that you will not use reader writer"
+  },
+  {
+    "start": 1884.419,
+    "duration": 5.401,
+    "text": "you will use the class file"
+  },
+  {
+    "start": 1887.48,
+    "duration": 4.319,
+    "text": "okay let's see we will see this as well"
+  },
+  {
+    "start": 1889.82,
+    "duration": 3.479,
+    "text": "create a new file do all sorts of things"
+  },
+  {
+    "start": 1891.799,
+    "duration": 2.88,
+    "text": "okay let's take a look at another file"
+  },
+  {
+    "start": 1893.299,
+    "duration": 3.901,
+    "text": "buffered reader let's say what buffered"
+  },
+  {
+    "start": 1894.679,
+    "duration": 4.201,
+    "text": "reader is it said it reads text from a"
+  },
+  {
+    "start": 1897.2,
+    "duration": 3.78,
+    "text": "character input stream"
+  },
+  {
+    "start": 1898.88,
+    "duration": 3.659,
+    "text": "uh from a character input stream"
+  },
+  {
+    "start": 1900.98,
+    "duration": 3.36,
+    "text": "buffering characters so as to the"
+  },
+  {
+    "start": 1902.539,
+    "duration": 4.321,
+    "text": "provided efficient reading of characters"
+  },
+  {
+    "start": 1904.34,
+    "duration": 5.04,
+    "text": "arrays and lines so this is used to read"
+  },
+  {
+    "start": 1906.86,
+    "duration": 4.86,
+    "text": "characters uh you know text from a"
+  },
+  {
+    "start": 1909.38,
+    "duration": 4.5,
+    "text": "character stream and it has the same"
+  },
+  {
+    "start": 1911.72,
+    "duration": 4.38,
+    "text": "read method that is both in input stream"
+  },
+  {
+    "start": 1913.88,
+    "duration": 3.24,
+    "text": "reader and the file reader that we saw"
+  },
+  {
+    "start": 1916.1,
+    "duration": 3.36,
+    "text": "previously"
+  },
+  {
+    "start": 1917.12,
+    "duration": 4.679,
+    "text": "uh to read like a single byte at a time"
+  },
+  {
+    "start": 1919.46,
+    "duration": 4.98,
+    "text": "there's one more method called read line"
+  },
+  {
+    "start": 1921.799,
+    "duration": 5.901,
+    "text": "that you will find over here"
+  },
+  {
+    "start": 1924.44,
+    "duration": 3.26,
+    "text": "um somewhere"
+  },
+  {
+    "start": 1928.22,
+    "duration": 4.679,
+    "text": "read read line so it reads a line of"
+  },
+  {
+    "start": 1931.64,
+    "duration": 4.56,
+    "text": "text"
+  },
+  {
+    "start": 1932.899,
+    "duration": 5.581,
+    "text": "read the line of text if I take a look"
+  },
+  {
+    "start": 1936.2,
+    "duration": 5.94,
+    "text": "at the Constructor"
+  },
+  {
+    "start": 1938.48,
+    "duration": 5.699,
+    "text": "so it's taking of type reader in and we"
+  },
+  {
+    "start": 1942.14,
+    "duration": 3.8,
+    "text": "know what is the type of reader what"
+  },
+  {
+    "start": 1944.179,
+    "duration": 4.681,
+    "text": "type of input stream it is taking"
+  },
+  {
+    "start": 1945.94,
+    "duration": 5.44,
+    "text": "character input Stream So creates a"
+  },
+  {
+    "start": 1948.86,
+    "duration": 5.34,
+    "text": "buffering character input stream"
+  },
+  {
+    "start": 1951.38,
+    "duration": 5.76,
+    "text": "so if you want to input is a good"
+  },
+  {
+    "start": 1954.2,
+    "duration": 5.219,
+    "text": "question for you using buffered reader"
+  },
+  {
+    "start": 1957.14,
+    "duration": 3.36,
+    "text": "if you want to take inputs from your"
+  },
+  {
+    "start": 1959.419,
+    "duration": 3.421,
+    "text": "keyboard"
+  },
+  {
+    "start": 1960.5,
+    "duration": 5.22,
+    "text": "can you write system dot in over here"
+  },
+  {
+    "start": 1962.84,
+    "duration": 6.24,
+    "text": "absolutely not system.in is of type"
+  },
+  {
+    "start": 1965.72,
+    "duration": 7.319,
+    "text": "input stream like the byte ones this is"
+  },
+  {
+    "start": 1969.08,
+    "duration": 6.06,
+    "text": "taking reader so how do you convert"
+  },
+  {
+    "start": 1973.039,
+    "duration": 4.321,
+    "text": "byte stream to"
+  },
+  {
+    "start": 1975.14,
+    "duration": 4.759,
+    "text": "reader which is character stream how do"
+  },
+  {
+    "start": 1977.36,
+    "duration": 2.539,
+    "text": "you convert that"
+  },
+  {
+    "start": 1979.94,
+    "duration": 5.959,
+    "text": "we just saw"
+  },
+  {
+    "start": 1982.34,
+    "duration": 3.559,
+    "text": "using input stream reader"
+  },
+  {
+    "start": 1986.059,
+    "duration": 4.5,
+    "text": "you forgot so easily"
+  },
+  {
+    "start": 1988.22,
+    "duration": 4.62,
+    "text": "using input stream reader right"
+  },
+  {
+    "start": 1990.559,
+    "duration": 6.081,
+    "text": "so very simple"
+  },
+  {
+    "start": 1992.84,
+    "duration": 3.8,
+    "text": "you can do something like let's say"
+  },
+  {
+    "start": 1997.279,
+    "duration": 5.721,
+    "text": "buffered reader buffered reader is equal"
+  },
+  {
+    "start": 2000.399,
+    "duration": 2.601,
+    "text": "to new"
+  },
+  {
+    "start": 2004.659,
+    "duration": 3.081,
+    "text": "buffered reader"
+  },
+  {
+    "start": 2008.2,
+    "duration": 4.74,
+    "text": "and this is going to have a new input"
+  },
+  {
+    "start": 2010.299,
+    "duration": 4.86,
+    "text": "stream but I cannot write system dot in"
+  },
+  {
+    "start": 2012.94,
+    "duration": 4.079,
+    "text": "because because this argument inside"
+  },
+  {
+    "start": 2015.159,
+    "duration": 4.62,
+    "text": "this method in the in this Constructor"
+  },
+  {
+    "start": 2017.019,
+    "duration": 5.64,
+    "text": "has to be of reader type"
+  },
+  {
+    "start": 2019.779,
+    "duration": 5.821,
+    "text": "has to be of reader type"
+  },
+  {
+    "start": 2022.659,
+    "duration": 4.62,
+    "text": "so I can convert system dot in into a"
+  },
+  {
+    "start": 2025.6,
+    "duration": 4.5,
+    "text": "character stream because system.in is"
+  },
+  {
+    "start": 2027.279,
+    "duration": 6.981,
+    "text": "byte stream using input stream"
+  },
+  {
+    "start": 2030.1,
+    "duration": 4.16,
+    "text": "so I can say new input stream reader"
+  },
+  {
+    "start": 2034.899,
+    "duration": 2.961,
+    "text": "system.in"
+  },
+  {
+    "start": 2038.86,
+    "duration": 4.319,
+    "text": "sounds good"
+  },
+  {
+    "start": 2040.659,
+    "duration": 5.221,
+    "text": "so this as you can see we have already"
+  },
+  {
+    "start": 2043.179,
+    "duration": 4.321,
+    "text": "seen in the above the first example it"
+  },
+  {
+    "start": 2045.88,
+    "duration": 4.739,
+    "text": "converts byte stream into character"
+  },
+  {
+    "start": 2047.5,
+    "duration": 7.04,
+    "text": "stream and then the buffered reader is"
+  },
+  {
+    "start": 2050.619,
+    "duration": 3.921,
+    "text": "converting that character stream"
+  },
+  {
+    "start": 2055.06,
+    "duration": 3.48,
+    "text": "not not converting reading that"
+  },
+  {
+    "start": 2056.919,
+    "duration": 3.061,
+    "text": "character stream and this is what we"
+  },
+  {
+    "start": 2058.54,
+    "duration": 4.639,
+    "text": "want"
+  },
+  {
+    "start": 2059.98,
+    "duration": 3.199,
+    "text": "this is what we want"
+  },
+  {
+    "start": 2064.96,
+    "duration": 5.459,
+    "text": "so now buffered reader here is a"
+  },
+  {
+    "start": 2067.78,
+    "duration": 3.66,
+    "text": "character based stream that is linked to"
+  },
+  {
+    "start": 2070.419,
+    "duration": 3.061,
+    "text": "your keyboard"
+  },
+  {
+    "start": 2071.44,
+    "duration": 6.419,
+    "text": "keyboard originally is byte so what is"
+  },
+  {
+    "start": 2073.48,
+    "duration": 8.1,
+    "text": "happening is byte to care stream and"
+  },
+  {
+    "start": 2077.859,
+    "duration": 7.581,
+    "text": "then reading care stream"
+  },
+  {
+    "start": 2081.58,
+    "duration": 3.86,
+    "text": "that's it that is what is happening"
+  },
+  {
+    "start": 2086.379,
+    "duration": 2.48,
+    "text": "okay"
+  },
+  {
+    "start": 2089.26,
+    "duration": 5.119,
+    "text": "sounds good"
+  },
+  {
+    "start": 2091.3,
+    "duration": 3.079,
+    "text": "buffered reader"
+  },
+  {
+    "start": 2098.38,
+    "duration": 2.76,
+    "text": "cool"
+  },
+  {
+    "start": 2099.52,
+    "duration": 3.599,
+    "text": "what I can do is I can also put it in"
+  },
+  {
+    "start": 2101.14,
+    "duration": 4.02,
+    "text": "try catch"
+  },
+  {
+    "start": 2103.119,
+    "duration": 4.701,
+    "text": "try buffer reader new buffered reader"
+  },
+  {
+    "start": 2105.16,
+    "duration": 2.66,
+    "text": "system dot in"
+  },
+  {
+    "start": 2114.28,
+    "duration": 2.42,
+    "text": "okay"
+  },
+  {
+    "start": 2117.52,
+    "duration": 3.02,
+    "text": "zoom in a little bit"
+  },
+  {
+    "start": 2120.64,
+    "duration": 4.86,
+    "text": "right"
+  },
+  {
+    "start": 2122.38,
+    "duration": 6.239,
+    "text": "so I can say"
+  },
+  {
+    "start": 2125.5,
+    "duration": 5.099,
+    "text": "if I want to read a skis sequence of"
+  },
+  {
+    "start": 2128.619,
+    "duration": 4.561,
+    "text": "characters I can say I'll just print"
+  },
+  {
+    "start": 2130.599,
+    "duration": 5.581,
+    "text": "whatever I'm reading system dot out Dot"
+  },
+  {
+    "start": 2133.18,
+    "duration": 3.0,
+    "text": "println"
+  },
+  {
+    "start": 2136.9,
+    "duration": 3.02,
+    "text": "you typed"
+  },
+  {
+    "start": 2140.44,
+    "duration": 3.6,
+    "text": "read line"
+  },
+  {
+    "start": 2142.48,
+    "duration": 2.639,
+    "text": "so instead of one character at a time"
+  },
+  {
+    "start": 2144.04,
+    "duration": 3.92,
+    "text": "like we were doing previously you can"
+  },
+  {
+    "start": 2145.119,
+    "duration": 2.841,
+    "text": "read entire lines"
+  },
+  {
+    "start": 2148.839,
+    "duration": 5.701,
+    "text": "okay"
+  },
+  {
+    "start": 2151.24,
+    "duration": 5.22,
+    "text": "and then catch IO exception"
+  },
+  {
+    "start": 2154.54,
+    "duration": 4.079,
+    "text": "not a problem"
+  },
+  {
+    "start": 2156.46,
+    "duration": 4.56,
+    "text": "not a problem at all"
+  },
+  {
+    "start": 2158.619,
+    "duration": 4.141,
+    "text": "so since this is of type reader you can"
+  },
+  {
+    "start": 2161.02,
+    "duration": 4.8,
+    "text": "add another one as well you can add file"
+  },
+  {
+    "start": 2162.76,
+    "duration": 6.0,
+    "text": "reader in it as well can you not do that"
+  },
+  {
+    "start": 2165.82,
+    "duration": 5.22,
+    "text": "you can add file reader also"
+  },
+  {
+    "start": 2168.76,
+    "duration": 6.06,
+    "text": "any reader type you can add now"
+  },
+  {
+    "start": 2171.04,
+    "duration": 6.86,
+    "text": "new file reader you can do this also"
+  },
+  {
+    "start": 2174.82,
+    "duration": 3.08,
+    "text": "you can do this also"
+  },
+  {
+    "start": 2179.68,
+    "duration": 4.32,
+    "text": "okay so instead of this now what you can"
+  },
+  {
+    "start": 2181.78,
+    "duration": 4.819,
+    "text": "say is that"
+  },
+  {
+    "start": 2184.0,
+    "duration": 2.599,
+    "text": "while"
+  },
+  {
+    "start": 2186.7,
+    "duration": 4.08,
+    "text": "BR dot ready"
+  },
+  {
+    "start": 2189.4,
+    "duration": 4.38,
+    "text": "okay"
+  },
+  {
+    "start": 2190.78,
+    "duration": 5.46,
+    "text": "you know see what ready is tells you"
+  },
+  {
+    "start": 2193.78,
+    "duration": 4.44,
+    "text": "whether the stream is ready to be read"
+  },
+  {
+    "start": 2196.24,
+    "duration": 6.619,
+    "text": "while we are not ready"
+  },
+  {
+    "start": 2198.22,
+    "duration": 4.639,
+    "text": "I will just print whatever is in my file"
+  },
+  {
+    "start": 2213.94,
+    "duration": 4.919,
+    "text": "that's it so it's taking reader I will"
+  },
+  {
+    "start": 2216.64,
+    "duration": 5.28,
+    "text": "give it Reader and you get the idea of"
+  },
+  {
+    "start": 2218.859,
+    "duration": 6.0,
+    "text": "what is the use of buffered reader"
+  },
+  {
+    "start": 2221.92,
+    "duration": 5.76,
+    "text": "we are taking the"
+  },
+  {
+    "start": 2224.859,
+    "duration": 6.021,
+    "text": "like reading it essentially"
+  },
+  {
+    "start": 2227.68,
+    "duration": 3.2,
+    "text": "the character stream"
+  },
+  {
+    "start": 2239.74,
+    "duration": 3.26,
+    "text": "okay line 41"
+  },
+  {
+    "start": 2254.14,
+    "duration": 4.64,
+    "text": "okay I can write something now I'm over"
+  },
+  {
+    "start": 2256.54,
+    "duration": 2.24,
+    "text": "here"
+  },
+  {
+    "start": 2260.02,
+    "duration": 5.64,
+    "text": "how's it going you typed how's it going"
+  },
+  {
+    "start": 2262.359,
+    "duration": 6.98,
+    "text": "I did not do system.out.printellin"
+  },
+  {
+    "start": 2265.66,
+    "duration": 3.679,
+    "text": "that's why I did not print the file"
+  },
+  {
+    "start": 2272.92,
+    "duration": 2.54,
+    "text": "foreign"
+  },
+  {
+    "start": 2276.18,
+    "duration": 3.36,
+    "text": "also at once"
+  },
+  {
+    "start": 2280.06,
+    "duration": 4.34,
+    "text": "very cool stuff buffer reader class also"
+  },
+  {
+    "start": 2282.28,
+    "duration": 2.12,
+    "text": "done"
+  },
+  {
+    "start": 2284.68,
+    "duration": 4.38,
+    "text": "very simple So reading I hope that"
+  },
+  {
+    "start": 2286.9,
+    "duration": 5.34,
+    "text": "should be clear for now input stream"
+  },
+  {
+    "start": 2289.06,
+    "duration": 5.88,
+    "text": "output stream sorry input stream and uh"
+  },
+  {
+    "start": 2292.24,
+    "duration": 5.4,
+    "text": "input stream reader output stream uh and"
+  },
+  {
+    "start": 2294.94,
+    "duration": 4.919,
+    "text": "then the reader class itself and file"
+  },
+  {
+    "start": 2297.64,
+    "duration": 5.1,
+    "text": "reader all sorts of things you can"
+  },
+  {
+    "start": 2299.859,
+    "duration": 5.521,
+    "text": "explore it on your own"
+  },
+  {
+    "start": 2302.74,
+    "duration": 5.099,
+    "text": "these you can go"
+  },
+  {
+    "start": 2305.38,
+    "duration": 3.66,
+    "text": "if you go to reader we can check out all"
+  },
+  {
+    "start": 2307.839,
+    "duration": 2.461,
+    "text": "these you can also check out input"
+  },
+  {
+    "start": 2309.04,
+    "duration": 3.24,
+    "text": "stream and you can check out all these"
+  },
+  {
+    "start": 2310.3,
+    "duration": 3.84,
+    "text": "one more thing I want you to notice is"
+  },
+  {
+    "start": 2312.28,
+    "duration": 3.6,
+    "text": "that people often ask me how do we take"
+  },
+  {
+    "start": 2314.14,
+    "duration": 4.08,
+    "text": "fast input output in Java let's say for"
+  },
+  {
+    "start": 2315.88,
+    "duration": 5.52,
+    "text": "QA rounds online coding competitions"
+  },
+  {
+    "start": 2318.22,
+    "duration": 4.859,
+    "text": "Computing or whatever this line so you"
+  },
+  {
+    "start": 2321.4,
+    "duration": 2.58,
+    "text": "know what it's doing now not this one"
+  },
+  {
+    "start": 2323.079,
+    "duration": 3.361,
+    "text": "this one"
+  },
+  {
+    "start": 2323.98,
+    "duration": 5.7,
+    "text": "so it's still taking input from the user"
+  },
+  {
+    "start": 2326.44,
+    "duration": 5.639,
+    "text": "but in uh originally in input stream"
+  },
+  {
+    "start": 2329.68,
+    "duration": 4.32,
+    "text": "which is byte stream convert it into"
+  },
+  {
+    "start": 2332.079,
+    "duration": 4.321,
+    "text": "character stream and we know character"
+  },
+  {
+    "start": 2334.0,
+    "duration": 3.0,
+    "text": "stream isn't like much faster"
+  },
+  {
+    "start": 2336.4,
+    "duration": 3.78,
+    "text": "um"
+  },
+  {
+    "start": 2337.0,
+    "duration": 5.28,
+    "text": "and apart from this first example that"
+  },
+  {
+    "start": 2340.18,
+    "duration": 4.56,
+    "text": "we took which was reading one by one you"
+  },
+  {
+    "start": 2342.28,
+    "duration": 4.98,
+    "text": "can also read like the entire lines or"
+  },
+  {
+    "start": 2344.74,
+    "duration": 6.0,
+    "text": "you can use one by one as well so fast"
+  },
+  {
+    "start": 2347.26,
+    "duration": 5.46,
+    "text": "internet output fast input input in Java"
+  },
+  {
+    "start": 2350.74,
+    "duration": 5.16,
+    "text": "um for online coding rounds or whatever"
+  },
+  {
+    "start": 2352.72,
+    "duration": 5.119,
+    "text": "for competitions use this line but for"
+  },
+  {
+    "start": 2355.9,
+    "duration": 6.0,
+    "text": "QA rounds it doesn't really matter okay"
+  },
+  {
+    "start": 2357.839,
+    "duration": 6.221,
+    "text": "reader done we did reader now writer"
+  },
+  {
+    "start": 2361.9,
+    "duration": 3.36,
+    "text": "so with writer"
+  },
+  {
+    "start": 2364.06,
+    "duration": 2.58,
+    "text": "um"
+  },
+  {
+    "start": 2365.26,
+    "duration": 3.359,
+    "text": "and similarly you know there's input"
+  },
+  {
+    "start": 2366.64,
+    "duration": 3.9,
+    "text": "stream output stream so we've done that"
+  },
+  {
+    "start": 2368.619,
+    "duration": 5.101,
+    "text": "already with the you know with like"
+  },
+  {
+    "start": 2370.54,
+    "duration": 5.34,
+    "text": "system.in system.out same thing"
+  },
+  {
+    "start": 2373.72,
+    "duration": 4.619,
+    "text": "uh so one more thing remaining is just"
+  },
+  {
+    "start": 2375.88,
+    "duration": 4.62,
+    "text": "writer and then the file but if you have"
+  },
+  {
+    "start": 2378.339,
+    "duration": 3.78,
+    "text": "further questions or anything goes to"
+  },
+  {
+    "start": 2380.5,
+    "duration": 3.48,
+    "text": "the documentation you can read about all"
+  },
+  {
+    "start": 2382.119,
+    "duration": 2.96,
+    "text": "of these things so total we know four"
+  },
+  {
+    "start": 2383.98,
+    "duration": 5.84,
+    "text": "types"
+  },
+  {
+    "start": 2385.079,
+    "duration": 4.741,
+    "text": "uh what do you want to do let's do"
+  },
+  {
+    "start": 2390.52,
+    "duration": 4.5,
+    "text": "output streamwriter what is output"
+  },
+  {
+    "start": 2393.099,
+    "duration": 3.961,
+    "text": "streamwriter Bridge form character"
+  },
+  {
+    "start": 2395.02,
+    "duration": 4.319,
+    "text": "stream to byte stream but this time it"
+  },
+  {
+    "start": 2397.06,
+    "duration": 3.72,
+    "text": "is used to input data so as you can see"
+  },
+  {
+    "start": 2399.339,
+    "duration": 4.141,
+    "text": "pretty simple"
+  },
+  {
+    "start": 2400.78,
+    "duration": 4.92,
+    "text": "it is also implementing Auto closable so"
+  },
+  {
+    "start": 2403.48,
+    "duration": 4.56,
+    "text": "we will be able to use the try catch"
+  },
+  {
+    "start": 2405.7,
+    "duration": 5.22,
+    "text": "block from the character stream to byte"
+  },
+  {
+    "start": 2408.04,
+    "duration": 4.74,
+    "text": "stream is a bridge characters written to"
+  },
+  {
+    "start": 2410.92,
+    "duration": 3.9,
+    "text": "it are encoded into bytes using a"
+  },
+  {
+    "start": 2412.78,
+    "duration": 4.74,
+    "text": "specific cat set can be used to specify"
+  },
+  {
+    "start": 2414.82,
+    "duration": 4.32,
+    "text": "my name giving spiritually or based on"
+  },
+  {
+    "start": 2417.52,
+    "duration": 3.599,
+    "text": "the default cachet whatever the"
+  },
+  {
+    "start": 2419.14,
+    "duration": 3.24,
+    "text": "documentation says it's fine but in"
+  },
+  {
+    "start": 2421.119,
+    "duration": 4.201,
+    "text": "simple terms the same thing we were"
+  },
+  {
+    "start": 2422.38,
+    "duration": 4.5,
+    "text": "doing with input stream reader now we're"
+  },
+  {
+    "start": 2425.32,
+    "duration": 3.36,
+    "text": "doing with output stream reader but to"
+  },
+  {
+    "start": 2426.88,
+    "duration": 3.54,
+    "text": "print stuff"
+  },
+  {
+    "start": 2428.68,
+    "duration": 3.06,
+    "text": "output stream writer output stream"
+  },
+  {
+    "start": 2430.42,
+    "duration": 3.72,
+    "text": "writer"
+  },
+  {
+    "start": 2431.74,
+    "duration": 4.5,
+    "text": "so"
+  },
+  {
+    "start": 2434.14,
+    "duration": 4.38,
+    "text": "here you can see in output streamwriter"
+  },
+  {
+    "start": 2436.24,
+    "duration": 4.02,
+    "text": "there are only four public methods that"
+  },
+  {
+    "start": 2438.52,
+    "duration": 4.5,
+    "text": "are available if I talk about public"
+  },
+  {
+    "start": 2440.26,
+    "duration": 5.76,
+    "text": "methods so you have the"
+  },
+  {
+    "start": 2443.02,
+    "duration": 4.319,
+    "text": "close you have the"
+  },
+  {
+    "start": 2446.02,
+    "duration": 3.42,
+    "text": "um"
+  },
+  {
+    "start": 2447.339,
+    "duration": 6.421,
+    "text": "if you scroll down to methods here"
+  },
+  {
+    "start": 2449.44,
+    "duration": 5.399,
+    "text": "close you have flush get encoding and"
+  },
+  {
+    "start": 2453.76,
+    "duration": 4.74,
+    "text": "write"
+  },
+  {
+    "start": 2454.839,
+    "duration": 5.76,
+    "text": "plush close get encoding and hey get"
+  },
+  {
+    "start": 2458.5,
+    "duration": 5.04,
+    "text": "encoding and write"
+  },
+  {
+    "start": 2460.599,
+    "duration": 5.461,
+    "text": "and the right method has if you scroll"
+  },
+  {
+    "start": 2463.54,
+    "duration": 4.62,
+    "text": "down three variations"
+  },
+  {
+    "start": 2466.06,
+    "duration": 4.44,
+    "text": "so variation number one"
+  },
+  {
+    "start": 2468.16,
+    "duration": 4.5,
+    "text": "variation number two variation number"
+  },
+  {
+    "start": 2470.5,
+    "duration": 3.54,
+    "text": "three what is this called function"
+  },
+  {
+    "start": 2472.66,
+    "duration": 4.62,
+    "text": "overloading we have done this in the"
+  },
+  {
+    "start": 2474.04,
+    "duration": 5.7,
+    "text": "past first one here is just taking in C"
+  },
+  {
+    "start": 2477.28,
+    "duration": 5.04,
+    "text": "uh not a problem in specifying the"
+  },
+  {
+    "start": 2479.74,
+    "duration": 4.82,
+    "text": "character to be written not a problem"
+  },
+  {
+    "start": 2482.32,
+    "duration": 6.299,
+    "text": "so single character if you want to write"
+  },
+  {
+    "start": 2484.56,
+    "duration": 6.34,
+    "text": "and then you have a portion of array of"
+  },
+  {
+    "start": 2488.619,
+    "duration": 4.761,
+    "text": "characters so like 16 lower bits of care"
+  },
+  {
+    "start": 2490.9,
+    "duration": 5.64,
+    "text": "integer values if you want to write that"
+  },
+  {
+    "start": 2493.38,
+    "duration": 4.0,
+    "text": "and then higher bits as well"
+  },
+  {
+    "start": 2496.54,
+    "duration": 2.46,
+    "text": "um"
+  },
+  {
+    "start": 2497.38,
+    "duration": 3.719,
+    "text": "like here you can see if you have a"
+  },
+  {
+    "start": 2499.0,
+    "duration": 5.599,
+    "text": "string writes a portion of string if you"
+  },
+  {
+    "start": 2501.099,
+    "duration": 3.5,
+    "text": "want that you can do that as well"
+  },
+  {
+    "start": 2506.619,
+    "duration": 3.841,
+    "text": "okay"
+  },
+  {
+    "start": 2508.42,
+    "duration": 4.56,
+    "text": "so for this one in C"
+  },
+  {
+    "start": 2510.46,
+    "duration": 4.92,
+    "text": "uh you can write a single character you"
+  },
+  {
+    "start": 2512.98,
+    "duration": 5.82,
+    "text": "can have like a"
+  },
+  {
+    "start": 2515.38,
+    "duration": 5.699,
+    "text": "16 lower bits of car integer values or"
+  },
+  {
+    "start": 2518.8,
+    "duration": 4.44,
+    "text": "whatever and then you have the care"
+  },
+  {
+    "start": 2521.079,
+    "duration": 5.04,
+    "text": "array over here"
+  },
+  {
+    "start": 2523.24,
+    "duration": 4.08,
+    "text": "and you have a string as well so plenty"
+  },
+  {
+    "start": 2526.119,
+    "duration": 2.761,
+    "text": "of options"
+  },
+  {
+    "start": 2527.32,
+    "duration": 4.279,
+    "text": "and the flush stream which is just"
+  },
+  {
+    "start": 2528.88,
+    "duration": 2.719,
+    "text": "flushing the Stream"
+  },
+  {
+    "start": 2531.7,
+    "duration": 2.12,
+    "text": "um"
+  },
+  {
+    "start": 2533.98,
+    "duration": 4.92,
+    "text": "very simple"
+  },
+  {
+    "start": 2535.72,
+    "duration": 6.44,
+    "text": "output writer so"
+  },
+  {
+    "start": 2538.9,
+    "duration": 3.26,
+    "text": "let's see how we can do that"
+  },
+  {
+    "start": 2545.14,
+    "duration": 2.84,
+    "text": "output"
+  },
+  {
+    "start": 2549.339,
+    "duration": 2.841,
+    "text": "here I'll say"
+  },
+  {
+    "start": 2553.96,
+    "duration": 6.48,
+    "text": "output stream output stream let's say is"
+  },
+  {
+    "start": 2558.099,
+    "duration": 4.02,
+    "text": "equal to system.out because that is what"
+  },
+  {
+    "start": 2560.44,
+    "duration": 5.94,
+    "text": "the type of this is"
+  },
+  {
+    "start": 2562.119,
+    "duration": 8.841,
+    "text": "and if I say OS dot right"
+  },
+  {
+    "start": 2566.38,
+    "duration": 4.58,
+    "text": "let's say something like an emoji"
+  },
+  {
+    "start": 2571.66,
+    "duration": 2.78,
+    "text": "emoji"
+  },
+  {
+    "start": 2574.96,
+    "duration": 3.32,
+    "text": "we copy an emoji"
+  },
+  {
+    "start": 2579.7,
+    "duration": 7.399,
+    "text": "can I try pasting it here"
+  },
+  {
+    "start": 2583.06,
+    "duration": 4.039,
+    "text": "let's see if it is going to print or not"
+  },
+  {
+    "start": 2590.7,
+    "duration": 4.139,
+    "text": "just an empty line"
+  },
+  {
+    "start": 2594.94,
+    "duration": 6.06,
+    "text": "let's see what it gives me"
+  },
+  {
+    "start": 2597.88,
+    "duration": 4.739,
+    "text": "error illegal character why because we"
+  },
+  {
+    "start": 2601.0,
+    "duration": 4.02,
+    "text": "know that if we're moving with"
+  },
+  {
+    "start": 2602.619,
+    "duration": 5.941,
+    "text": "if it ends with like stream over here"
+  },
+  {
+    "start": 2605.02,
+    "duration": 7.2,
+    "text": "and we're trying to write in it then"
+  },
+  {
+    "start": 2608.56,
+    "duration": 7.16,
+    "text": "because it is based for Unicode uh here"
+  },
+  {
+    "start": 2612.22,
+    "duration": 3.5,
+    "text": "you can see that the range is exceeded"
+  },
+  {
+    "start": 2620.8,
+    "duration": 6.019,
+    "text": "range is exceeded"
+  },
+  {
+    "start": 2623.8,
+    "duration": 3.019,
+    "text": "try catch"
+  },
+  {
+    "start": 2626.92,
+    "duration": 3.679,
+    "text": "output stream"
+  },
+  {
+    "start": 2631.18,
+    "duration": 6.24,
+    "text": "writer output stream writer is equal to"
+  },
+  {
+    "start": 2634.359,
+    "duration": 6.121,
+    "text": "new output stream writer"
+  },
+  {
+    "start": 2637.42,
+    "duration": 7.58,
+    "text": "and it will take output stream type in"
+  },
+  {
+    "start": 2640.48,
+    "duration": 4.52,
+    "text": "it so system dot out I can put"
+  },
+  {
+    "start": 2646.839,
+    "duration": 4.861,
+    "text": "now I can say output stream reader"
+  },
+  {
+    "start": 2649.54,
+    "duration": 4.68,
+    "text": "right and say"
+  },
+  {
+    "start": 2651.7,
+    "duration": 4.5,
+    "text": "hello world so it will automatically"
+  },
+  {
+    "start": 2654.22,
+    "duration": 4.44,
+    "text": "call the string one"
+  },
+  {
+    "start": 2656.2,
+    "duration": 4.74,
+    "text": "the string method I just showed you"
+  },
+  {
+    "start": 2658.66,
+    "duration": 3.78,
+    "text": "this one"
+  },
+  {
+    "start": 2660.94,
+    "duration": 3.6,
+    "text": "okay"
+  },
+  {
+    "start": 2662.44,
+    "duration": 4.86,
+    "text": "you can say"
+  },
+  {
+    "start": 2664.54,
+    "duration": 5.6,
+    "text": "write 97"
+  },
+  {
+    "start": 2667.3,
+    "duration": 2.84,
+    "text": "that is also fine"
+  },
+  {
+    "start": 2670.18,
+    "duration": 5.34,
+    "text": "I can say"
+  },
+  {
+    "start": 2673.119,
+    "duration": 4.98,
+    "text": "let's say 10"
+  },
+  {
+    "start": 2675.52,
+    "duration": 4.86,
+    "text": "whatever that might be"
+  },
+  {
+    "start": 2678.099,
+    "duration": 5.821,
+    "text": "I think it's new line"
+  },
+  {
+    "start": 2680.38,
+    "duration": 7.1,
+    "text": "can add in characters as well"
+  },
+  {
+    "start": 2683.92,
+    "duration": 3.56,
+    "text": "okay you can also say"
+  },
+  {
+    "start": 2688.839,
+    "duration": 4.821,
+    "text": "new line like this sequence of"
+  },
+  {
+    "start": 2690.819,
+    "duration": 2.841,
+    "text": "characters also"
+  },
+  {
+    "start": 2694.359,
+    "duration": 7.381,
+    "text": "okay so if you want to do a care array"
+  },
+  {
+    "start": 2697.54,
+    "duration": 8.16,
+    "text": "so you can see ARR is equal to"
+  },
+  {
+    "start": 2701.74,
+    "duration": 6.599,
+    "text": "if I create a new car array let's say"
+  },
+  {
+    "start": 2705.7,
+    "duration": 5.399,
+    "text": "hello world dot to care"
+  },
+  {
+    "start": 2708.339,
+    "duration": 5.061,
+    "text": "array I can write this car array in it"
+  },
+  {
+    "start": 2711.099,
+    "duration": 2.301,
+    "text": "also"
+  },
+  {
+    "start": 2716.02,
+    "duration": 5.64,
+    "text": "okay because we saw in the right stream"
+  },
+  {
+    "start": 2718.54,
+    "duration": 5.24,
+    "text": "care array can write that also not a"
+  },
+  {
+    "start": 2721.66,
+    "duration": 2.12,
+    "text": "problem"
+  },
+  {
+    "start": 2724.72,
+    "duration": 6.02,
+    "text": "let's try this one also"
+  },
+  {
+    "start": 2727.78,
+    "duration": 2.96,
+    "text": "see what we'll get"
+  },
+  {
+    "start": 2734.14,
+    "duration": 5.1,
+    "text": "catch"
+  },
+  {
+    "start": 2736.9,
+    "duration": 4.199,
+    "text": "IO exception"
+  },
+  {
+    "start": 2739.24,
+    "duration": 6.0,
+    "text": "e"
+  },
+  {
+    "start": 2741.099,
+    "duration": 7.141,
+    "text": "system dot out dot print Ln e dot get"
+  },
+  {
+    "start": 2745.24,
+    "duration": 3.0,
+    "text": "message"
+  },
+  {
+    "start": 2755.38,
+    "duration": 4.04,
+    "text": "try catch looks good"
+  },
+  {
+    "start": 2760.06,
+    "duration": 4.46,
+    "text": "okay"
+  },
+  {
+    "start": 2761.44,
+    "duration": 3.08,
+    "text": "let's try and run this"
+  },
+  {
+    "start": 2767.38,
+    "duration": 5.78,
+    "text": "again one error so you can see pretty"
+  },
+  {
+    "start": 2769.54,
+    "duration": 3.62,
+    "text": "pretty standard that's what we expected"
+  },
+  {
+    "start": 2774.4,
+    "duration": 6.3,
+    "text": "Hello World 97 is a 10 is a new line so"
+  },
+  {
+    "start": 2778.359,
+    "duration": 6.441,
+    "text": "new line then an a again a new line"
+  },
+  {
+    "start": 2780.7,
+    "duration": 4.1,
+    "text": "hello world very simple"
+  },
+  {
+    "start": 2785.92,
+    "duration": 2.48,
+    "text": "okay"
+  },
+  {
+    "start": 2788.5,
+    "duration": 4.56,
+    "text": "so I hope it's understandable I did not"
+  },
+  {
+    "start": 2790.3,
+    "duration": 5.039,
+    "text": "print the Emoji because it's a character"
+  },
+  {
+    "start": 2793.06,
+    "duration": 5.34,
+    "text": "that I'm writing over here because it"
+  },
+  {
+    "start": 2795.339,
+    "duration": 5.041,
+    "text": "ends with writer it is having character"
+  },
+  {
+    "start": 2798.4,
+    "duration": 3.36,
+    "text": "in it"
+  },
+  {
+    "start": 2800.38,
+    "duration": 4.76,
+    "text": "okay"
+  },
+  {
+    "start": 2801.76,
+    "duration": 3.38,
+    "text": "I'll put streamwriter done"
+  },
+  {
+    "start": 2805.42,
+    "duration": 3.02,
+    "text": "what else you want to do"
+  },
+  {
+    "start": 2809.26,
+    "duration": 2.599,
+    "text": "close"
+  },
+  {
+    "start": 2812.56,
+    "duration": 3.9,
+    "text": "output streamwriter has a file writer"
+  },
+  {
+    "start": 2814.599,
+    "duration": 3.961,
+    "text": "just like that had a reader"
+  },
+  {
+    "start": 2816.46,
+    "duration": 4.92,
+    "text": "it's file writer writing for characters"
+  },
+  {
+    "start": 2818.56,
+    "duration": 5.0,
+    "text": "and files okay uh file writer we can do"
+  },
+  {
+    "start": 2821.38,
+    "duration": 2.18,
+    "text": "that"
+  },
+  {
+    "start": 2825.88,
+    "duration": 3.719,
+    "text": "um"
+  },
+  {
+    "start": 2827.5,
+    "duration": 3.96,
+    "text": "yeah so just in character based files I"
+  },
+  {
+    "start": 2829.599,
+    "duration": 4.621,
+    "text": "can just write stuff in it"
+  },
+  {
+    "start": 2831.46,
+    "duration": 4.5,
+    "text": "and"
+  },
+  {
+    "start": 2834.22,
+    "duration": 2.76,
+    "text": "one thing I want to mention is since"
+  },
+  {
+    "start": 2835.96,
+    "duration": 3.24,
+    "text": "it's like"
+  },
+  {
+    "start": 2836.98,
+    "duration": 3.66,
+    "text": "inside the output stream there's output"
+  },
+  {
+    "start": 2839.2,
+    "duration": 4.02,
+    "text": "stream writer and that output"
+  },
+  {
+    "start": 2840.64,
+    "duration": 4.38,
+    "text": "streamwriter has this uh file writer so"
+  },
+  {
+    "start": 2843.22,
+    "duration": 4.08,
+    "text": "file writer in itself does not override"
+  },
+  {
+    "start": 2845.02,
+    "duration": 3.66,
+    "text": "any public methods but it inherits all"
+  },
+  {
+    "start": 2847.3,
+    "duration": 3.84,
+    "text": "of its methods from its super class"
+  },
+  {
+    "start": 2848.68,
+    "duration": 4.02,
+    "text": "output streamwriter same thing as we did"
+  },
+  {
+    "start": 2851.14,
+    "duration": 4.459,
+    "text": "previously"
+  },
+  {
+    "start": 2852.7,
+    "duration": 2.899,
+    "text": "pile reader"
+  },
+  {
+    "start": 2855.76,
+    "duration": 3.72,
+    "text": "okay"
+  },
+  {
+    "start": 2857.8,
+    "duration": 5.0,
+    "text": "so"
+  },
+  {
+    "start": 2859.48,
+    "duration": 3.32,
+    "text": "let's see how we can do that"
+  },
+  {
+    "start": 2864.28,
+    "duration": 3.74,
+    "text": "try file writer"
+  },
+  {
+    "start": 2871.96,
+    "duration": 5.82,
+    "text": "file writer is equal to new"
+  },
+  {
+    "start": 2875.02,
+    "duration": 5.76,
+    "text": "pile writer"
+  },
+  {
+    "start": 2877.78,
+    "duration": 4.74,
+    "text": "I'm just going to pass a note dot pxt"
+  },
+  {
+    "start": 2880.78,
+    "duration": 6.839,
+    "text": "over here"
+  },
+  {
+    "start": 2882.52,
+    "duration": 5.099,
+    "text": "now I can say file writer.write"
+  },
+  {
+    "start": 2888.64,
+    "duration": 3.479,
+    "text": "hello world in it"
+  },
+  {
+    "start": 2890.38,
+    "duration": 4.4,
+    "text": "what does it already contain hello my"
+  },
+  {
+    "start": 2892.119,
+    "duration": 2.661,
+    "text": "name is Kunal"
+  },
+  {
+    "start": 2895.9,
+    "duration": 4.199,
+    "text": "run this"
+  },
+  {
+    "start": 2898.359,
+    "duration": 4.321,
+    "text": "okay"
+  },
+  {
+    "start": 2900.099,
+    "duration": 5.661,
+    "text": "it override it the original file and"
+  },
+  {
+    "start": 2902.68,
+    "duration": 3.08,
+    "text": "wrote hello in it"
+  },
+  {
+    "start": 2907.359,
+    "duration": 5.341,
+    "text": "okay"
+  },
+  {
+    "start": 2908.74,
+    "duration": 3.96,
+    "text": "so you can see it got overwritten"
+  },
+  {
+    "start": 2914.14,
+    "duration": 4.679,
+    "text": "sounds good"
+  },
+  {
+    "start": 2916.48,
+    "duration": 4.74,
+    "text": "if you don't want to override so let's"
+  },
+  {
+    "start": 2918.819,
+    "duration": 4.921,
+    "text": "say I write something again on it hello"
+  },
+  {
+    "start": 2921.22,
+    "duration": 4.02,
+    "text": "world my name is"
+  },
+  {
+    "start": 2923.74,
+    "duration": 3.359,
+    "text": "Rahul"
+  },
+  {
+    "start": 2925.24,
+    "duration": 4.44,
+    "text": "then this hello world will be removed it"
+  },
+  {
+    "start": 2927.099,
+    "duration": 4.321,
+    "text": "will right from the start whatever is in"
+  },
+  {
+    "start": 2929.68,
+    "duration": 3.659,
+    "text": "this file will be removed so only one"
+  },
+  {
+    "start": 2931.42,
+    "duration": 3.6,
+    "text": "line will contain hello world my name is"
+  },
+  {
+    "start": 2933.339,
+    "duration": 3.541,
+    "text": "Rahul but what if you want to append"
+  },
+  {
+    "start": 2935.02,
+    "duration": 4.2,
+    "text": "inside of it let's say I run this"
+  },
+  {
+    "start": 2936.88,
+    "duration": 5.28,
+    "text": "program again in some other character"
+  },
+  {
+    "start": 2939.22,
+    "duration": 4.92,
+    "text": "this should be appended"
+  },
+  {
+    "start": 2942.16,
+    "duration": 3.3,
+    "text": "in that case when you're creating the"
+  },
+  {
+    "start": 2944.14,
+    "duration": 3.84,
+    "text": "object"
+  },
+  {
+    "start": 2945.46,
+    "duration": 5.72,
+    "text": "right true over here there's an argument"
+  },
+  {
+    "start": 2947.98,
+    "duration": 8.54,
+    "text": "for True file writer a Constructor"
+  },
+  {
+    "start": 2951.18,
+    "duration": 5.34,
+    "text": "Boolean append do you want to append yes"
+  },
+  {
+    "start": 2956.74,
+    "duration": 3.92,
+    "text": "now it will not rewrite oh"
+  },
+  {
+    "start": 2966.099,
+    "duration": 2.901,
+    "text": "my bad"
+  },
+  {
+    "start": 2970.119,
+    "duration": 3.801,
+    "text": "inside it"
+  },
+  {
+    "start": 2971.5,
+    "duration": 2.42,
+    "text": "true"
+  },
+  {
+    "start": 2975.94,
+    "duration": 3.899,
+    "text": "so you can see it appended this should"
+  },
+  {
+    "start": 2977.74,
+    "duration": 5.119,
+    "text": "be appended it did not delete the"
+  },
+  {
+    "start": 2979.839,
+    "duration": 3.02,
+    "text": "original content"
+  },
+  {
+    "start": 2982.9,
+    "duration": 3.919,
+    "text": "okay very simple stuff"
+  },
+  {
+    "start": 2987.4,
+    "duration": 3.84,
+    "text": "we're also learning how to contribute"
+  },
+  {
+    "start": 2989.079,
+    "duration": 4.201,
+    "text": "how to learn from the documentation as"
+  },
+  {
+    "start": 2991.24,
+    "duration": 3.48,
+    "text": "we move forward okay one more thing we"
+  },
+  {
+    "start": 2993.28,
+    "duration": 3.539,
+    "text": "can do is we can also check buffered"
+  },
+  {
+    "start": 2994.72,
+    "duration": 3.78,
+    "text": "writer what is so it says rights text to"
+  },
+  {
+    "start": 2996.819,
+    "duration": 4.321,
+    "text": "a character output stream buffering"
+  },
+  {
+    "start": 2998.5,
+    "duration": 3.96,
+    "text": "characters as to provide for the"
+  },
+  {
+    "start": 3001.14,
+    "duration": 3.66,
+    "text": "efficient writing of single characters"
+  },
+  {
+    "start": 3002.46,
+    "duration": 5.04,
+    "text": "arrays of string so again it's using a"
+  },
+  {
+    "start": 3004.8,
+    "duration": 5.22,
+    "text": "buffered uh buffered class so it's going"
+  },
+  {
+    "start": 3007.5,
+    "duration": 6.54,
+    "text": "to be more efficient and you can write"
+  },
+  {
+    "start": 3010.02,
+    "duration": 7.44,
+    "text": "text to a character stream and uh here"
+  },
+  {
+    "start": 3014.04,
+    "duration": 5.46,
+    "text": "also if we check the right method"
+  },
+  {
+    "start": 3017.46,
+    "duration": 5.7,
+    "text": "over here so it also has three"
+  },
+  {
+    "start": 3019.5,
+    "duration": 6.18,
+    "text": "overloaded in C car CH and then the"
+  },
+  {
+    "start": 3023.16,
+    "duration": 4.8,
+    "text": "string same as the previous one"
+  },
+  {
+    "start": 3025.68,
+    "duration": 5.72,
+    "text": "then obviously there's going to be a new"
+  },
+  {
+    "start": 3027.96,
+    "duration": 7.68,
+    "text": "line one so writes a line separator so"
+  },
+  {
+    "start": 3031.4,
+    "duration": 6.58,
+    "text": "you don't have to write hash like slash"
+  },
+  {
+    "start": 3035.64,
+    "duration": 5.16,
+    "text": "and slash n if you in your output stream"
+  },
+  {
+    "start": 3037.98,
+    "duration": 4.26,
+    "text": "anymore like we were doing previously"
+  },
+  {
+    "start": 3040.8,
+    "duration": 3.48,
+    "text": "so"
+  },
+  {
+    "start": 3042.24,
+    "duration": 4.32,
+    "text": "also very straightforward let's take a"
+  },
+  {
+    "start": 3044.28,
+    "duration": 4.319,
+    "text": "look at it okay so for example let's say"
+  },
+  {
+    "start": 3046.56,
+    "duration": 4.86,
+    "text": "I can copy paste this"
+  },
+  {
+    "start": 3048.599,
+    "duration": 4.621,
+    "text": "and I can say"
+  },
+  {
+    "start": 3051.42,
+    "duration": 3.659,
+    "text": "buffered"
+  },
+  {
+    "start": 3053.22,
+    "duration": 5.339,
+    "text": "writer"
+  },
+  {
+    "start": 3055.079,
+    "duration": 6.681,
+    "text": "buffered writer is equal to new"
+  },
+  {
+    "start": 3058.559,
+    "duration": 3.201,
+    "text": "buffer writer"
+  },
+  {
+    "start": 3061.8,
+    "duration": 4.68,
+    "text": "and"
+  },
+  {
+    "start": 3064.619,
+    "duration": 4.5,
+    "text": "here I'm going to say it's going to take"
+  },
+  {
+    "start": 3066.48,
+    "duration": 6.92,
+    "text": "a new output stream"
+  },
+  {
+    "start": 3069.119,
+    "duration": 4.281,
+    "text": "uh so I can just say new file writer"
+  },
+  {
+    "start": 3075.119,
+    "duration": 3.44,
+    "text": "same thing as we did previously"
+  },
+  {
+    "start": 3078.9,
+    "duration": 3.36,
+    "text": "okay"
+  },
+  {
+    "start": 3080.04,
+    "duration": 5.34,
+    "text": "let's say we don't want to append"
+  },
+  {
+    "start": 3082.26,
+    "duration": 4.68,
+    "text": "buffer writer dot write this should I"
+  },
+  {
+    "start": 3085.38,
+    "duration": 4.14,
+    "text": "can just say"
+  },
+  {
+    "start": 3086.94,
+    "duration": 5.7,
+    "text": "something like"
+  },
+  {
+    "start": 3089.52,
+    "duration": 5.339,
+    "text": "so we say Hare Krishna okay and there"
+  },
+  {
+    "start": 3092.64,
+    "duration": 4.199,
+    "text": "will be one more Breeze here"
+  },
+  {
+    "start": 3094.859,
+    "duration": 6.321,
+    "text": "run this"
+  },
+  {
+    "start": 3096.839,
+    "duration": 4.341,
+    "text": "it's fine notes Hare Krishna"
+  },
+  {
+    "start": 3101.64,
+    "duration": 2.54,
+    "text": "okay"
+  },
+  {
+    "start": 3104.819,
+    "duration": 4.5,
+    "text": "same thing with buffered so similar"
+  },
+  {
+    "start": 3106.98,
+    "duration": 4.26,
+    "text": "stuff you can try out"
+  },
+  {
+    "start": 3109.319,
+    "duration": 4.5,
+    "text": "right"
+  },
+  {
+    "start": 3111.24,
+    "duration": 4.56,
+    "text": "new line Etc yeah"
+  },
+  {
+    "start": 3113.819,
+    "duration": 4.681,
+    "text": "let's take a look at file the file class"
+  },
+  {
+    "start": 3115.8,
+    "duration": 4.559,
+    "text": "and how that works okay I separated the"
+  },
+  {
+    "start": 3118.5,
+    "duration": 4.2,
+    "text": "previous input and output example file"
+  },
+  {
+    "start": 3120.359,
+    "duration": 4.861,
+    "text": "so you can understand but let's say we"
+  },
+  {
+    "start": 3122.7,
+    "duration": 6.18,
+    "text": "are importing java.file java.org file"
+  },
+  {
+    "start": 3125.22,
+    "duration": 7.26,
+    "text": "exception and let's say I try to create"
+  },
+  {
+    "start": 3128.88,
+    "duration": 5.82,
+    "text": "a new file so I can say file Dot file"
+  },
+  {
+    "start": 3132.48,
+    "duration": 5.28,
+    "text": "object is equal to new"
+  },
+  {
+    "start": 3134.7,
+    "duration": 7.8,
+    "text": "file something that does not exist"
+  },
+  {
+    "start": 3137.76,
+    "duration": 7.52,
+    "text": "let's say new file Dot txt"
+  },
+  {
+    "start": 3142.5,
+    "duration": 2.78,
+    "text": "catch"
+  },
+  {
+    "start": 3145.559,
+    "duration": 3.441,
+    "text": "i o exception e"
+  },
+  {
+    "start": 3153.9,
+    "duration": 5.12,
+    "text": "get message"
+  },
+  {
+    "start": 3156.059,
+    "duration": 2.961,
+    "text": "try to run this"
+  },
+  {
+    "start": 3160.74,
+    "duration": 4.579,
+    "text": "oh not DOT file file object"
+  },
+  {
+    "start": 3175.68,
+    "duration": 5.939,
+    "text": "okay because we're never throwing it"
+  },
+  {
+    "start": 3178.92,
+    "duration": 6.26,
+    "text": "so I see what is happening"
+  },
+  {
+    "start": 3181.619,
+    "duration": 3.561,
+    "text": "let's take a look at the Constructor"
+  },
+  {
+    "start": 3188.52,
+    "duration": 4.74,
+    "text": "creates a new file instance"
+  },
+  {
+    "start": 3191.16,
+    "duration": 4.679,
+    "text": "okay okay it will not create a new file"
+  },
+  {
+    "start": 3193.26,
+    "duration": 6.26,
+    "text": "it will have a file instance"
+  },
+  {
+    "start": 3195.839,
+    "duration": 3.681,
+    "text": "and there should be a create"
+  },
+  {
+    "start": 3210.0,
+    "duration": 5.579,
+    "text": "new file"
+  },
+  {
+    "start": 3212.4,
+    "duration": 5.76,
+    "text": "automatically creates a new file okay"
+  },
+  {
+    "start": 3215.579,
+    "duration": 7.081,
+    "text": "so I can say"
+  },
+  {
+    "start": 3218.16,
+    "duration": 4.5,
+    "text": "file object dot create new"
+  },
+  {
+    "start": 3222.839,
+    "duration": 4.921,
+    "text": "file"
+  },
+  {
+    "start": 3225.42,
+    "duration": 4.62,
+    "text": "file done"
+  },
+  {
+    "start": 3227.76,
+    "duration": 4.799,
+    "text": "okay file created"
+  },
+  {
+    "start": 3230.04,
+    "duration": 5.16,
+    "text": "Tada very easy"
+  },
+  {
+    "start": 3232.559,
+    "duration": 5.641,
+    "text": "very simple stuff okay and I can write"
+  },
+  {
+    "start": 3235.2,
+    "duration": 5.28,
+    "text": "this file for example let's say"
+  },
+  {
+    "start": 3238.2,
+    "duration": 4.46,
+    "text": "we are doing one by one creating the"
+  },
+  {
+    "start": 3240.48,
+    "duration": 2.18,
+    "text": "file"
+  },
+  {
+    "start": 3243.0,
+    "duration": 4.559,
+    "text": "right in the pile"
+  },
+  {
+    "start": 3245.64,
+    "duration": 4.26,
+    "text": "so"
+  },
+  {
+    "start": 3247.559,
+    "duration": 5.76,
+    "text": "we already did that output"
+  },
+  {
+    "start": 3249.9,
+    "duration": 5.04,
+    "text": "here file writer new file writer copy"
+  },
+  {
+    "start": 3253.319,
+    "duration": 4.02,
+    "text": "this"
+  },
+  {
+    "start": 3254.94,
+    "duration": 5.399,
+    "text": "try"
+  },
+  {
+    "start": 3257.339,
+    "duration": 7.701,
+    "text": "pile writer"
+  },
+  {
+    "start": 3260.339,
+    "duration": 4.701,
+    "text": "new file writer let's say new file.txt"
+  },
+  {
+    "start": 3265.619,
+    "duration": 5.101,
+    "text": "not a problem"
+  },
+  {
+    "start": 3267.66,
+    "duration": 5.52,
+    "text": "and I can say file writer dot write"
+  },
+  {
+    "start": 3270.72,
+    "duration": 3.839,
+    "text": "anything hello world or whatever and you"
+  },
+  {
+    "start": 3273.18,
+    "duration": 2.939,
+    "text": "know since I told you Unicode character"
+  },
+  {
+    "start": 3274.559,
+    "duration": 5.641,
+    "text": "so you can write any like Hindi English"
+  },
+  {
+    "start": 3276.119,
+    "duration": 7.7,
+    "text": "so let's say we do Sanskrit uh Sanskrit"
+  },
+  {
+    "start": 3280.2,
+    "duration": 8.7,
+    "text": "um say Gita shlok"
+  },
+  {
+    "start": 3283.819,
+    "duration": 5.081,
+    "text": "18.66 my favorite slope number"
+  },
+  {
+    "start": 3291.599,
+    "duration": 5.661,
+    "text": "copy this"
+  },
+  {
+    "start": 3294.48,
+    "duration": 2.78,
+    "text": "paste"
+  },
+  {
+    "start": 3300.18,
+    "duration": 3.139,
+    "text": "that should work"
+  },
+  {
+    "start": 3304.319,
+    "duration": 3.54,
+    "text": "okay"
+  },
+  {
+    "start": 3305.64,
+    "duration": 5.16,
+    "text": "and close the Stream"
+  },
+  {
+    "start": 3307.859,
+    "duration": 3.781,
+    "text": "and run"
+  },
+  {
+    "start": 3310.8,
+    "duration": 4.559,
+    "text": "thank you"
+  },
+  {
+    "start": 3311.64,
+    "duration": 5.82,
+    "text": "looks good new file.txt see"
+  },
+  {
+    "start": 3315.359,
+    "duration": 5.781,
+    "text": "very cool"
+  },
+  {
+    "start": 3317.46,
+    "duration": 3.68,
+    "text": "now you can read this also"
+  },
+  {
+    "start": 3323.599,
+    "duration": 4.26,
+    "text": "I can read from the file"
+  },
+  {
+    "start": 3328.26,
+    "duration": 3.38,
+    "text": "how do we read from the file"
+  },
+  {
+    "start": 3333.119,
+    "duration": 6.381,
+    "text": "using I can do it using scanner as well"
+  },
+  {
+    "start": 3335.88,
+    "duration": 3.62,
+    "text": "so I say something like"
+  },
+  {
+    "start": 3340.92,
+    "duration": 2.659,
+    "text": "scanner"
+  },
+  {
+    "start": 3345.839,
+    "duration": 2.121,
+    "text": "um"
+  },
+  {
+    "start": 3348.119,
+    "duration": 4.44,
+    "text": "scanner is equal to oh no"
+  },
+  {
+    "start": 3350.16,
+    "duration": 4.82,
+    "text": "let's not do scanner Let's uh use file"
+  },
+  {
+    "start": 3352.559,
+    "duration": 2.421,
+    "text": "reader"
+  },
+  {
+    "start": 3358.319,
+    "duration": 4.641,
+    "text": "oh"
+  },
+  {
+    "start": 3359.64,
+    "duration": 3.32,
+    "text": "new file.txt"
+  },
+  {
+    "start": 3363.359,
+    "duration": 5.601,
+    "text": "okay so just thing we did previously"
+  },
+  {
+    "start": 3366.9,
+    "duration": 2.06,
+    "text": "um"
+  },
+  {
+    "start": 3369.48,
+    "duration": 6.02,
+    "text": "file reader"
+  },
+  {
+    "start": 3372.54,
+    "duration": 2.96,
+    "text": "and"
+  },
+  {
+    "start": 3375.96,
+    "duration": 3.92,
+    "text": "I can just do something like this also"
+  },
+  {
+    "start": 3385.68,
+    "duration": 2.659,
+    "text": "copy this"
+  },
+  {
+    "start": 3388.92,
+    "duration": 2.96,
+    "text": "paste this"
+  },
+  {
+    "start": 3392.339,
+    "duration": 4.341,
+    "text": "new file.txt that's it"
+  },
+  {
+    "start": 3396.96,
+    "duration": 4.7,
+    "text": "see in the console"
+  },
+  {
+    "start": 3399.24,
+    "duration": 2.42,
+    "text": "service"
+  },
+  {
+    "start": 3403.5,
+    "duration": 3.68,
+    "text": "right very cool"
+  },
+  {
+    "start": 3407.46,
+    "duration": 3.02,
+    "text": "very very cool"
+  },
+  {
+    "start": 3411.3,
+    "duration": 2.48,
+    "text": "okay"
+  },
+  {
+    "start": 3414.119,
+    "duration": 5.061,
+    "text": "you can delete a file as well let's say"
+  },
+  {
+    "start": 3416.04,
+    "duration": 3.14,
+    "text": "if I create a new file"
+  },
+  {
+    "start": 3422.819,
+    "duration": 4.5,
+    "text": "random.txt"
+  },
+  {
+    "start": 3425.099,
+    "duration": 5.301,
+    "text": "then I want to delete the file okay let"
+  },
+  {
+    "start": 3427.319,
+    "duration": 3.081,
+    "text": "me try to run this much"
+  },
+  {
+    "start": 3430.859,
+    "duration": 5.46,
+    "text": "random.txt is created"
+  },
+  {
+    "start": 3433.8,
+    "duration": 6.42,
+    "text": "now"
+  },
+  {
+    "start": 3436.319,
+    "duration": 3.901,
+    "text": "we want to delete random.txt"
+  },
+  {
+    "start": 3440.52,
+    "duration": 4.26,
+    "text": "create new file"
+  },
+  {
+    "start": 3442.619,
+    "duration": 5.041,
+    "text": "let's say a file is created"
+  },
+  {
+    "start": 3444.78,
+    "duration": 7.1,
+    "text": "I can also say"
+  },
+  {
+    "start": 3447.66,
+    "duration": 4.22,
+    "text": "file object Dot delete"
+  },
+  {
+    "start": 3456.24,
+    "duration": 5.46,
+    "text": "okay so this actually returns true or"
+  },
+  {
+    "start": 3458.28,
+    "duration": 5.6,
+    "text": "false so I can say if this is true"
+  },
+  {
+    "start": 3461.7,
+    "duration": 2.18,
+    "text": "okay"
+  },
+  {
+    "start": 3465.119,
+    "duration": 5.361,
+    "text": "then just print the name of the file"
+  },
+  {
+    "start": 3467.76,
+    "duration": 2.72,
+    "text": "that is deleted"
+  },
+  {
+    "start": 3471.839,
+    "duration": 5.661,
+    "text": "file object Dot"
+  },
+  {
+    "start": 3474.72,
+    "duration": 2.78,
+    "text": "get name"
+  },
+  {
+    "start": 3480.24,
+    "duration": 3.96,
+    "text": "see"
+  },
+  {
+    "start": 3481.46,
+    "duration": 4.54,
+    "text": "random.txt deleted so it got created"
+  },
+  {
+    "start": 3484.2,
+    "duration": 7.08,
+    "text": "here and then deleted and then it just"
+  },
+  {
+    "start": 3486.0,
+    "duration": 6.96,
+    "text": "output whatever was deleted random.txt"
+  },
+  {
+    "start": 3491.28,
+    "duration": 3.36,
+    "text": "file handling done"
+  },
+  {
+    "start": 3492.96,
+    "duration": 3.3,
+    "text": "and you can see I just did copy paste"
+  },
+  {
+    "start": 3494.64,
+    "duration": 3.419,
+    "text": "from previous ones"
+  },
+  {
+    "start": 3496.26,
+    "duration": 3.299,
+    "text": "okay so in short we just discussed about"
+  },
+  {
+    "start": 3498.059,
+    "duration": 3.121,
+    "text": "you know the two types of streams in"
+  },
+  {
+    "start": 3499.559,
+    "duration": 3.0,
+    "text": "Java we learned about what our streams"
+  },
+  {
+    "start": 3501.18,
+    "duration": 3.3,
+    "text": "actually called in Java like collection"
+  },
+  {
+    "start": 3502.559,
+    "duration": 3.421,
+    "text": "of you know like a stream of data that"
+  },
+  {
+    "start": 3504.48,
+    "duration": 3.72,
+    "text": "you can use to input or output then we"
+  },
+  {
+    "start": 3505.98,
+    "duration": 4.379,
+    "text": "learned about four two types which is"
+  },
+  {
+    "start": 3508.2,
+    "duration": 5.159,
+    "text": "byte stream character stream byte stream"
+  },
+  {
+    "start": 3510.359,
+    "duration": 4.681,
+    "text": "has two types for input output character"
+  },
+  {
+    "start": 3513.359,
+    "duration": 4.5,
+    "text": "stream also has two type reader writer"
+  },
+  {
+    "start": 3515.04,
+    "duration": 5.1,
+    "text": "for input output and those"
+  },
+  {
+    "start": 3517.859,
+    "duration": 5.281,
+    "text": "four are actually abstract classes that"
+  },
+  {
+    "start": 3520.14,
+    "duration": 5.58,
+    "text": "have subclasses that extend some of the"
+  },
+  {
+    "start": 3523.14,
+    "duration": 4.439,
+    "text": "methods and have their own body like for"
+  },
+  {
+    "start": 3525.72,
+    "duration": 3.66,
+    "text": "read and write method so this whole"
+  },
+  {
+    "start": 3527.579,
+    "duration": 3.661,
+    "text": "hierarchy we learned into example now"
+  },
+  {
+    "start": 3529.38,
+    "duration": 3.78,
+    "text": "what you can do is you can try out"
+  },
+  {
+    "start": 3531.24,
+    "duration": 4.26,
+    "text": "various subclasses like for audio files"
+  },
+  {
+    "start": 3533.16,
+    "duration": 4.139,
+    "text": "for images try opening up an image maybe"
+  },
+  {
+    "start": 3535.5,
+    "duration": 3.599,
+    "text": "a mini project can you can be for you"
+  },
+  {
+    "start": 3537.299,
+    "duration": 4.141,
+    "text": "you can try opening an image see how"
+  },
+  {
+    "start": 3539.099,
+    "duration": 4.861,
+    "text": "it's represented it's RGB values maybe"
+  },
+  {
+    "start": 3541.44,
+    "duration": 3.899,
+    "text": "around 0 to 255 that's what the values"
+  },
+  {
+    "start": 3543.96,
+    "duration": 5.099,
+    "text": "are so you can make some tweaks into"
+  },
+  {
+    "start": 3545.339,
+    "duration": 5.76,
+    "text": "that and maybe if it's a 3D array you"
+  },
+  {
+    "start": 3549.059,
+    "duration": 4.201,
+    "text": "can convert it into 2D array and maybe"
+  },
+  {
+    "start": 3551.099,
+    "duration": 4.081,
+    "text": "you can make a you know black and white"
+  },
+  {
+    "start": 3553.26,
+    "duration": 3.0,
+    "text": "image or do whatever you want flip the"
+  },
+  {
+    "start": 3555.18,
+    "duration": 3.119,
+    "text": "image"
+  },
+  {
+    "start": 3556.26,
+    "duration": 4.16,
+    "text": "all sorts of things now that you can"
+  },
+  {
+    "start": 3558.299,
+    "duration": 4.8,
+    "text": "represent it in a stream of characters"
+  },
+  {
+    "start": 3560.42,
+    "duration": 4.3,
+    "text": "and then try to create it into an image"
+  },
+  {
+    "start": 3563.099,
+    "duration": 5.101,
+    "text": "again like right into animate so read"
+  },
+  {
+    "start": 3564.72,
+    "duration": 6.06,
+    "text": "from image do some anything edit and"
+  },
+  {
+    "start": 3568.2,
+    "duration": 4.919,
+    "text": "then write it into an image and see how"
+  },
+  {
+    "start": 3570.78,
+    "duration": 3.66,
+    "text": "the image changes just explore and I"
+  },
+  {
+    "start": 3573.119,
+    "duration": 3.24,
+    "text": "showed you the documentation as well so"
+  },
+  {
+    "start": 3574.44,
+    "duration": 3.48,
+    "text": "lots more to explore and I think things"
+  },
+  {
+    "start": 3576.359,
+    "duration": 3.301,
+    "text": "like these you know it sometimes keeps"
+  },
+  {
+    "start": 3577.92,
+    "duration": 4.139,
+    "text": "on changing with newer versions of java"
+  },
+  {
+    "start": 3579.66,
+    "duration": 5.52,
+    "text": "so documentation is the best way for you"
+  },
+  {
+    "start": 3582.059,
+    "duration": 4.861,
+    "text": "to get started and explore more and my"
+  },
+  {
+    "start": 3585.18,
+    "duration": 2.879,
+    "text": "code and assignments and links and"
+  },
+  {
+    "start": 3586.92,
+    "duration": 2.399,
+    "text": "everything can be found in the"
+  },
+  {
+    "start": 3588.059,
+    "duration": 5.0,
+    "text": "description below you can check out the"
+  },
+  {
+    "start": 3589.319,
+    "duration": 3.74,
+    "text": "previous DSA lectures as well"
+  },
+  {
+    "start": 3593.22,
+    "duration": 4.26,
+    "text": "very cool so the links can be found in"
+  },
+  {
+    "start": 3595.98,
+    "duration": 4.02,
+    "text": "the description below you can check out"
+  },
+  {
+    "start": 3597.48,
+    "duration": 4.139,
+    "text": "the you can click on fork and you can"
+  },
+  {
+    "start": 3600.0,
+    "duration": 2.819,
+    "text": "run it on your own browser if you have"
+  },
+  {
+    "start": 3601.619,
+    "duration": 3.301,
+    "text": "any questions leave us in the comment"
+  },
+  {
+    "start": 3602.819,
+    "duration": 3.901,
+    "text": "section below uh since we're now doing"
+  },
+  {
+    "start": 3604.92,
+    "duration": 3.659,
+    "text": "more advanced data structures in the"
+  },
+  {
+    "start": 3606.72,
+    "duration": 4.32,
+    "text": "Futures like heaps and now we're having"
+  },
+  {
+    "start": 3608.579,
+    "duration": 4.441,
+    "text": "in graphs we'll be making use of files"
+  },
+  {
+    "start": 3611.04,
+    "duration": 3.72,
+    "text": "and all these input streams as well I"
+  },
+  {
+    "start": 3613.02,
+    "duration": 3.839,
+    "text": "taught you how to take input like"
+  },
+  {
+    "start": 3614.76,
+    "duration": 4.14,
+    "text": "efficient input as well"
+  },
+  {
+    "start": 3616.859,
+    "duration": 3.361,
+    "text": "um using files we saw that I'd highly"
+  },
+  {
+    "start": 3618.9,
+    "duration": 3.179,
+    "text": "recommend check out checking out the"
+  },
+  {
+    "start": 3620.22,
+    "duration": 3.599,
+    "text": "documentation you can join the learning"
+  },
+  {
+    "start": 3622.079,
+    "duration": 3.121,
+    "text": "public initiative you can take a"
+  },
+  {
+    "start": 3623.819,
+    "duration": 4.141,
+    "text": "screenshot and share it on socials use"
+  },
+  {
+    "start": 3625.2,
+    "duration": 4.74,
+    "text": "hashtag DSA with Kunal if you want to"
+  },
+  {
+    "start": 3627.96,
+    "duration": 4.8,
+    "text": "support my work just like and comment"
+  },
+  {
+    "start": 3629.94,
+    "duration": 4.74,
+    "text": "that's the least you can do share if you"
+  },
+  {
+    "start": 3632.76,
+    "duration": 4.14,
+    "text": "want to go extra you can share as well"
+  },
+  {
+    "start": 3634.68,
+    "duration": 4.08,
+    "text": "with your friends but at least like and"
+  },
+  {
+    "start": 3636.9,
+    "duration": 3.0,
+    "text": "comment and thanks a lot for watching if"
+  },
+  {
+    "start": 3638.76,
+    "duration": 3.38,
+    "text": "you have any questions leave us in the"
+  },
+  {
+    "start": 3639.9,
+    "duration": 4.919,
+    "text": "comment section below all the links code"
+  },
+  {
+    "start": 3642.14,
+    "duration": 5.14,
+    "text": "assignments notes can be found in the"
+  },
+  {
+    "start": 3644.819,
+    "duration": 4.26,
+    "text": "description below just clone the GitHub"
+  },
+  {
+    "start": 3647.28,
+    "duration": 4.38,
+    "text": "repository and you will find all the"
+  },
+  {
+    "start": 3649.079,
+    "duration": 4.861,
+    "text": "PDFs in your local reposit local storage"
+  },
+  {
+    "start": 3651.66,
+    "duration": 4.74,
+    "text": "and yeah thanks a lot for watching I'll"
+  },
+  {
+    "start": 3653.94,
+    "duration": 11.21,
+    "text": "see you in the next one have a great day"
+  },
+  {
+    "start": 3656.4,
+    "duration": 8.75,
+    "text": "[Music]"
+  }
+]

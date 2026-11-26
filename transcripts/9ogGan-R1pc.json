@@ -1,0 +1,1517 @@
+[
+  {
+    "start": 3.57,
+    "duration": 4.8,
+    "text": "Hey everyone, welcome back to another video. This is the last video, at least for now, in the"
+  },
+  {
+    "start": 8.37,
+    "duration": 4.2,
+    "text": "Object to Improving series because we have covered everything. And after this, we'll start"
+  },
+  {
+    "start": 12.57,
+    "duration": 4.8,
+    "text": "with code data structures. So make sure you like, share, and comment, and subscribe. We're"
+  },
+  {
+    "start": 17.37,
+    "duration": 3.4,
+    "text": "doing the complete dataset algorithm bootcamp, one of the best that you will find here on"
+  },
+  {
+    "start": 20.77,
+    "duration": 4.96,
+    "text": "YouTube for free. And it's going to help you in preparing your internship or job"
+  },
+  {
+    "start": 25.73,
+    "duration": 6.04,
+    "text": "opportunity or new grad roles or interviews, basically, or even online coding rounds and"
+  },
+  {
+    "start": 31.77,
+    "duration": 5.32,
+    "text": "phone interviews, technical interviews, whatever. So, we have covered like the entire Object"
+  },
+  {
+    "start": 37.09,
+    "duration": 4.16,
+    "text": "Improving series. I've made a playlist on that. You can also find it in the description."
+  },
+  {
+    "start": 41.25,
+    "duration": 3.88,
+    "text": "The playlist for the DSA bootcamp also you can find it in the description. And we have"
+  },
+  {
+    "start": 45.13,
+    "duration": 4.84,
+    "text": "some amazing bootcamps upcoming. So make sure you subscribe and press the bell icon."
+  },
+  {
+    "start": 49.97,
+    "duration": 3.88,
+    "text": "In this video, we're learning about collections. It's very important because it makes our"
+  },
+  {
+    "start": 53.85,
+    "duration": 7.88,
+    "text": "life easier. In interviews as well in online coding rounds as well. Or if you use"
+  },
+  {
+    "start": 61.73,
+    "duration": 2.12,
+    "text": "using some online platform or whatever."
+  },
+  {
+    "start": 63.85,
+    "duration": 3.2,
+    "text": "Collections really make it easier for us to write code faster"
+  },
+  {
+    "start": 67.05,
+    "duration": 3.04,
+    "text": "and stuff like use the ones that are already implemented."
+  },
+  {
+    "start": 70.09,
+    "duration": 3.24,
+    "text": "So this isn't like the only video for collections"
+  },
+  {
+    "start": 73.33,
+    "duration": 2.16,
+    "text": "because as we try to move ahead,"
+  },
+  {
+    "start": 75.49,
+    "duration": 2.28,
+    "text": "like you can see so many interfaces and classes"
+  },
+  {
+    "start": 77.77,
+    "duration": 0.88,
+    "text": "on the screen."
+  },
+  {
+    "start": 78.65,
+    "duration": 1.04,
+    "text": "I'll go into details of that."
+  },
+  {
+    "start": 79.69,
+    "duration": 3.12,
+    "text": "You can see sets, lists, queues, stack."
+  },
+  {
+    "start": 82.81,
+    "duration": 1.92,
+    "text": "You can see Arrayless, something we've already covered."
+  },
+  {
+    "start": 84.73,
+    "duration": 1.14,
+    "text": "You can see link list."
+  },
+  {
+    "start": 85.87,
+    "duration": 1.62,
+    "text": "You can see maps and all these other things,"
+  },
+  {
+    "start": 87.49,
+    "duration": 1.44,
+    "text": "enums and all these other things."
+  },
+  {
+    "start": 88.93,
+    "duration": 2.04,
+    "text": "Priority queue, which is heap."
+  },
+  {
+    "start": 90.97,
+    "duration": 3.76,
+    "text": "So there are two approaches that makes this course special."
+  },
+  {
+    "start": 94.73,
+    "duration": 3.24,
+    "text": "One is we're actually looking into the what"
+  },
+  {
+    "start": 97.97,
+    "duration": 1.4,
+    "text": "Java provides internally."
+  },
+  {
+    "start": 99.37,
+    "duration": 1.6,
+    "text": "So let's say in the next video, we'll"
+  },
+  {
+    "start": 100.97,
+    "duration": 1.36,
+    "text": "be learning about linked list."
+  },
+  {
+    "start": 102.33,
+    "duration": 1.24,
+    "text": "So what we're actually going to do"
+  },
+  {
+    "start": 103.57,
+    "duration": 2.68,
+    "text": "is we are going to use the internal linked list"
+  },
+  {
+    "start": 106.25,
+    "duration": 2.92,
+    "text": "that Java has provided us in the collections framework."
+  },
+  {
+    "start": 109.17,
+    "duration": 2.68,
+    "text": "And we've also created on our own, like from scratch,"
+  },
+  {
+    "start": 111.85,
+    "duration": 1.12,
+    "text": "which is very important in order"
+  },
+  {
+    "start": 112.97,
+    "duration": 2.12,
+    "text": "to understand the internal implementation."
+  },
+  {
+    "start": 115.09,
+    "duration": 2.12,
+    "text": "So whatever the data structure we do,"
+  },
+  {
+    "start": 117.21,
+    "duration": 3.12,
+    "text": "like maps, heaps, graphs, hash maps, or whatever,"
+  },
+  {
+    "start": 120.33,
+    "duration": 3.36,
+    "text": "We'll be using collections and we'll also be creating it on our own, okay?"
+  },
+  {
+    "start": 123.69,
+    "duration": 2.64,
+    "text": "And then we'll be doing interview problems of like Google and Facebook,"
+  },
+  {
+    "start": 126.33,
+    "duration": 2.68,
+    "text": "which is now Meta and Microsoft and Amazon and all these other companies."
+  },
+  {
+    "start": 129.09,
+    "duration": 0.32,
+    "text": "Cool."
+  },
+  {
+    "start": 130.17,
+    "duration": 0.76,
+    "text": "So let's move forward."
+  },
+  {
+    "start": 131.37,
+    "duration": 1.16,
+    "text": "Uh, collections in Java."
+  },
+  {
+    "start": 132.53,
+    "duration": 1.2,
+    "text": "What is the need of this?"
+  },
+  {
+    "start": 133.93,
+    "duration": 2.4,
+    "text": "So it's, it's, it's, it's just a framework, right?"
+  },
+  {
+    "start": 136.37,
+    "duration": 3.64,
+    "text": "Uh, framework is just like a collection of, uh, files and things like that."
+  },
+  {
+    "start": 140.01,
+    "duration": 1.4,
+    "text": "Um, so we can reuse it."
+  },
+  {
+    "start": 141.45,
+    "duration": 3.32,
+    "text": "And basically the idea is that, uh, before the collections framework,"
+  },
+  {
+    "start": 144.77,
+    "duration": 3.4,
+    "text": "what used to happen was that, uh, you have so many data structures, right?"
+  },
+  {
+    "start": 148.17,
+    "duration": 4.48,
+    "text": "Java, you have like arrays, you have hash maps and all these other things. Okay, so you can see so"
+  },
+  {
+    "start": 152.65,
+    "duration": 5.28,
+    "text": "many are here like arrays are there and hash maps and all these things are there. So before"
+  },
+  {
+    "start": 157.93,
+    "duration": 5.2,
+    "text": "collections what used to happen was these let's say these data structures have some common have"
+  },
+  {
+    "start": 163.13,
+    "duration": 7.2,
+    "text": "some common let's say use cases and functions that we can perform like add, remove, get, delete"
+  },
+  {
+    "start": 170.33,
+    "duration": 5.04,
+    "text": "or whatever all these other things right. So what was happening was that there was not a"
+  },
+  {
+    "start": 175.37,
+    "duration": 4.16,
+    "text": "common thing for this, like a common interface for this. There was like a separate implementation"
+  },
+  {
+    "start": 179.53,
+    "duration": 4.4,
+    "text": "for every single one. So it was really difficult for people to like remember everything, you know,"
+  },
+  {
+    "start": 183.93,
+    "duration": 3.44,
+    "text": "different for different data structures and all these other things. Then came into picture"
+  },
+  {
+    "start": 187.37,
+    "duration": 5.52,
+    "text": "collections framework. So what collection framework is doing, it's basically helping us in providing"
+  },
+  {
+    "start": 192.89,
+    "duration": 6.4,
+    "text": "a single interface. Okay, it's like a, it has like a set of interfaces, it has these API"
+  },
+  {
+    "start": 199.29,
+    "duration": 4.64,
+    "text": "calls that we'll just click onto like dot get dot remove or or whatever and all these"
+  },
+  {
+    "start": 203.93,
+    "duration": 4.64,
+    "text": "things like that and these methods that perform these functions all of these things like you"
+  },
+  {
+    "start": 208.57,
+    "duration": 4.52,
+    "text": "see on the screen like stacks and linked list and priority queue tree map map or whatever"
+  },
+  {
+    "start": 213.09,
+    "duration": 5.18,
+    "text": "they have some common set of methods okay so the structure is different but the method"
+  },
+  {
+    "start": 218.27,
+    "duration": 4.9,
+    "text": "is same so what is this doing for us we have learnt about this particular approach previously"
+  },
+  {
+    "start": 223.17,
+    "duration": 4.72,
+    "text": "what was this approach in object-oriented programming abstraction okay we already covered"
+  },
+  {
+    "start": 227.89,
+    "duration": 5.72,
+    "text": "this in the abstraction video okay cool so it helps us in like you know remembering"
+  },
+  {
+    "start": 233.61,
+    "duration": 6.4,
+    "text": "less things or whatever. So in Java.util, you will find this, you know, all the classes"
+  },
+  {
+    "start": 240.01,
+    "duration": 4.0,
+    "text": "for this thing and interfaces. So the two main ones that you can see on the screen, one"
+  },
+  {
+    "start": 244.01,
+    "duration": 5.76,
+    "text": "is over here that you can see it is known as the collection one that you can see over"
+  },
+  {
+    "start": 249.77,
+    "duration": 5.4,
+    "text": "here. Let me just bring my pen, this one. And the second main one is the map. So"
+  },
+  {
+    "start": 255.17,
+    "duration": 4.84,
+    "text": "these are interfaces. Okay, these are interfaces, they basically contain some of the, you"
+  },
+  {
+    "start": 260.01,
+    "duration": 6.6,
+    "text": "know like these abstract methods or whatever. And then we can use this to implement it accordingly."
+  },
+  {
+    "start": 266.61,
+    "duration": 7.52,
+    "text": "So this contains like, let's see what it contains. Let me bring up my IntelliJ idea. So I'm going"
+  },
+  {
+    "start": 274.13,
+    "duration": 20.39,
+    "text": "to say collections, collections, main, public static, wide main, or whatever collection in"
+  },
+  {
+    "start": 294.52,
+    "duration": 9.28,
+    "text": "java.util. What does it contain? Let's see. So it contains size is empty, contains iterator,"
+  },
+  {
+    "start": 303.8,
+    "duration": 4.72,
+    "text": "which is basically used to iterate upon the, you know, the particular object or whatever."
+  },
+  {
+    "start": 308.52,
+    "duration": 5.44,
+    "text": "To array, you can create it in an array. To array of generic type, we already learned"
+  },
+  {
+    "start": 313.96,
+    "duration": 6.28,
+    "text": "about generics before. Okay, add, remove. So are you able to understand what we"
+  },
+  {
+    "start": 320.24,
+    "duration": 5.12,
+    "text": "are doing these all these things like arrays and array list stacks or queues or link list"
+  },
+  {
+    "start": 325.36,
+    "duration": 4.2,
+    "text": "or heaps all of these have these functionalities like okay you will be having a remove you will"
+  },
+  {
+    "start": 329.56,
+    "duration": 3.68,
+    "text": "be having a delete or whatever right you will be having an add you will having a contains"
+  },
+  {
+    "start": 333.24,
+    "duration": 5.64,
+    "text": "all a copy or whatever so Java was like okay if all of these things and functions are common"
+  },
+  {
+    "start": 338.88,
+    "duration": 4.88,
+    "text": "to each other I'm just going to put it in interface how they are utilizing it depends"
+  },
+  {
+    "start": 343.76,
+    "duration": 8.76,
+    "text": "on that. So for example, if I say list is an interface, as you can see over here, here"
+  },
+  {
+    "start": 352.52,
+    "duration": 6.66,
+    "text": "you can see that there's a set interface and it sorry, there's a collection interface and"
+  },
+  {
+    "start": 359.18,
+    "duration": 4.26,
+    "text": "list actually extends the collection interface pretty pretty straightforward. As you can"
+  },
+  {
+    "start": 363.44,
+    "duration": 5.72,
+    "text": "see extends collection. So it's like, hey, I am list, I also have some things like size"
+  },
+  {
+    "start": 369.16,
+    "duration": 4.96,
+    "text": "and is empty or whatever. So these are the things that I have that are actually in common"
+  },
+  {
+    "start": 374.12,
+    "duration": 4.4,
+    "text": "with collections. So I'm just going to extend that no problem. It's kind of like, yeah, sure"
+  },
+  {
+    "start": 378.52,
+    "duration": 4.48,
+    "text": "this itself is an interface. So when you create an object of this list type, as you can see over"
+  },
+  {
+    "start": 383.0,
+    "duration": 6.32,
+    "text": "here, this list extends collection. So we already covered this thing before. List has some"
+  },
+  {
+    "start": 389.32,
+    "duration": 5.2,
+    "text": "functionalities like get the size is empty contains that is common to collection. So it's"
+  },
+  {
+    "start": 394.52,
+    "duration": 8.26,
+    "text": "is just extending that. Okay. And what are all the things that will implement this particular"
+  },
+  {
+    "start": 402.78,
+    "duration": 3.92,
+    "text": "thing? So basically, these are all the features that the list interface provide. Obviously,"
+  },
+  {
+    "start": 406.7,
+    "duration": 3.28,
+    "text": "any class that implements this would have to override these we've already covered in"
+  },
+  {
+    "start": 409.98,
+    "duration": 5.76,
+    "text": "detail about interfaces. Okay, so let's say you want to create a linked list class"
+  },
+  {
+    "start": 415.74,
+    "duration": 3.48,
+    "text": "or whatever, right? So if you want to create a linked list class, it will have a different"
+  },
+  {
+    "start": 419.22,
+    "duration": 4.84,
+    "text": "implementation of size, but the function, like your body would be same, not the"
+  },
+  {
+    "start": 424.06,
+    "duration": 5.12,
+    "text": "body, the definition is same. Another type of list can be what? What is another type that"
+  },
+  {
+    "start": 429.18,
+    "duration": 7.28,
+    "text": "can use all these things that list is providing? Array list, vector stack. Okay, we can see"
+  },
+  {
+    "start": 436.46,
+    "duration": 6.04,
+    "text": "this in action also. So list of type, let's say integer list is equal to new, I can say"
+  },
+  {
+    "start": 442.5,
+    "duration": 5.44,
+    "text": "Array list. This is what? This is the parent, obviously, because Array list, as you can"
+  },
+  {
+    "start": 447.94,
+    "duration": 9.16,
+    "text": "see implementing list right. So, this is the parent and this is what child and we can"
+  },
+  {
+    "start": 457.1,
+    "duration": 3.64,
+    "text": "we know that we have already covered this in detail that the type over here of the reference"
+  },
+  {
+    "start": 460.74,
+    "duration": 5.32,
+    "text": "variable can be of type parent and this can be of type object like a type the object"
+  },
+  {
+    "start": 466.06,
+    "duration": 5.12,
+    "text": "of class sorry the object of child this is an object of child and this list is actually"
+  },
+  {
+    "start": 471.18,
+    "duration": 3.68,
+    "text": "parent because this is implementing it. So, internally linked list would be having"
+  },
+  {
+    "start": 474.86,
+    "duration": 9.05,
+    "text": "some implementation of all the things that list the list interface provides okay that's"
+  },
+  {
+    "start": 483.91,
+    "duration": 8.98,
+    "text": "it good now we can use it okay so what else can you make over here you can see we have"
+  },
+  {
+    "start": 492.89,
+    "duration": 6.48,
+    "text": "we have an added list you can also make a link list if you want right so you can say"
+  },
+  {
+    "start": 499.37,
+    "duration": 8.2,
+    "text": "copy paste list to I can say new link list or whatever okay so these are the"
+  },
+  {
+    "start": 507.57,
+    "duration": 4.12,
+    "text": "internal implementations that you know Java has already provided us obviously"
+  },
+  {
+    "start": 511.69,
+    "duration": 3.16,
+    "text": "we'll be making it on on our own as well like a custom implementation so you"
+  },
+  {
+    "start": 514.85,
+    "duration": 3.6,
+    "text": "actually know okay Kunal we are using the collection framework or whatever but"
+  },
+  {
+    "start": 518.45,
+    "duration": 3.0,
+    "text": "how does it work internally what if I have to write this entire class by"
+  },
+  {
+    "start": 521.45,
+    "duration": 4.84,
+    "text": "myself or whatever how will we do that we'll actually cover that as well okay"
+  },
+  {
+    "start": 526.29,
+    "duration": 4.08,
+    "text": "So as you can see on the screen over here, the collection is an interface."
+  },
+  {
+    "start": 530.37,
+    "duration": 2.4,
+    "text": "This image you can find I believe from Google."
+  },
+  {
+    "start": 532.77,
+    "duration": 6.84,
+    "text": "Just go to Google images, type collection framework diagram, so many ones you will find."
+  },
+  {
+    "start": 539.61,
+    "duration": 4.0,
+    "text": "So here you can see that there's a collection framework and it has like a collection interface"
+  },
+  {
+    "start": 543.61,
+    "duration": 5.08,
+    "text": "that you know all of these other interfaces extend those."
+  },
+  {
+    "start": 548.69,
+    "duration": 4.04,
+    "text": "So I know interface can only extend an interface, that's why we have list extend another"
+  },
+  {
+    "start": 552.73,
+    "duration": 1.0,
+    "text": "interface collection."
+  },
+  {
+    "start": 553.73,
+    "duration": 1.92,
+    "text": "it will actually use all the methods"
+  },
+  {
+    "start": 555.65,
+    "duration": 1.16,
+    "text": "that are provided over here."
+  },
+  {
+    "start": 556.81,
+    "duration": 2.48,
+    "text": "Similarly, we have for map, right?"
+  },
+  {
+    "start": 559.29,
+    "duration": 2.12,
+    "text": "Tree map is, all these other things we'll cover"
+  },
+  {
+    "start": 561.41,
+    "duration": 3.16,
+    "text": "in later courses, right?"
+  },
+  {
+    "start": 564.57,
+    "duration": 1.28,
+    "text": "So just an introduction,"
+  },
+  {
+    "start": 565.85,
+    "duration": 2.2,
+    "text": "and this is not like the complete video for this"
+  },
+  {
+    "start": 568.05,
+    "duration": 2.36,
+    "text": "because I'll actually be teaching you,"
+  },
+  {
+    "start": 570.41,
+    "duration": 1.0,
+    "text": "would it really make sense for me"
+  },
+  {
+    "start": 571.41,
+    "duration": 2.6,
+    "text": "to demonstrate hash maps right now?"
+  },
+  {
+    "start": 574.01,
+    "duration": 2.56,
+    "text": "So whenever we are doing a new data structure,"
+  },
+  {
+    "start": 576.57,
+    "duration": 1.72,
+    "text": "that is a time when we'll actually,"
+  },
+  {
+    "start": 579.89,
+    "duration": 4.25,
+    "text": "you know, look at the collection"
+  },
+  {
+    "start": 584.14,
+    "duration": 4.72,
+    "text": "also the implementation of it. But yeah, this is a little bit about it that you can also see"
+  },
+  {
+    "start": 588.86,
+    "duration": 7.2,
+    "text": "like the methods that this provides list dot add list to dot add also has the same thing list dot is"
+  },
+  {
+    "start": 596.06,
+    "duration": 9.76,
+    "text": "empty list to dot is empty. It is also having the same thing. Okay. So that's the general idea."
+  },
+  {
+    "start": 605.82,
+    "duration": 3.76,
+    "text": "So you can even try it. So even though we have not done linked list right now, I can just say"
+  },
+  {
+    "start": 609.58,
+    "duration": 9.56,
+    "text": "say add 34 or whatever, then I can say list two dot add 78. Then I can say list two dot"
+  },
+  {
+    "start": 619.14,
+    "duration": 9.36,
+    "text": "add 55. Okay, and I can do one more and say list two dot add 89 or whatever. Now I can"
+  },
+  {
+    "start": 628.5,
+    "duration": 6.56,
+    "text": "say list two dot. Does it have a display or whatever? No. Let's see, let me just try"
+  },
+  {
+    "start": 635.06,
+    "duration": 12.38,
+    "text": "to print this list to run, see what we'll get. Okay, she's actually getting it. So this"
+  },
+  {
+    "start": 647.44,
+    "duration": 5.56,
+    "text": "may be having its own like two string somewhere over here, but we're actually getting a nice"
+  },
+  {
+    "start": 653.0,
+    "duration": 6.6,
+    "text": "little link list. Okay, what is linked list, we'll cover in the next lecture. Next lecture"
+  },
+  {
+    "start": 659.6,
+    "duration": 3.84,
+    "text": "will starting with data structures like complex data structures for interviews and stuff."
+  },
+  {
+    "start": 663.44,
+    "duration": 3.72,
+    "text": "So yeah, we'll cover in details about it in the next lecture. So make sure you"
+  },
+  {
+    "start": 667.16,
+    "duration": 3.48,
+    "text": "like and subscribe. Cool. Let's move forward. Okay. And one more you're seeing over here"
+  },
+  {
+    "start": 670.64,
+    "duration": 4.12,
+    "text": "is vector. There's something new that people ask me to not please make a video on this."
+  },
+  {
+    "start": 674.76,
+    "duration": 3.54,
+    "text": "It's actually pretty straightforward. So it's sort of like an error list, but there are"
+  },
+  {
+    "start": 678.3,
+    "duration": 5.26,
+    "text": "a few differences. So first one is that vector is actually synchronized. What does it mean?"
+  },
+  {
+    "start": 683.56,
+    "duration": 5.56,
+    "text": "It means that let me just get my iPad over here. So vector synchronization means"
+  },
+  {
+    "start": 689.12,
+    "duration": 7.6,
+    "text": "that only one thread can access it at a time. Okay, computer, we have threads."
+  },
+  {
+    "start": 696.72,
+    "duration": 7.36,
+    "text": "So we'll learn about multi-threading in like a separate course, but for now like various"
+  },
+  {
+    "start": 704.08,
+    "duration": 2.98,
+    "text": "processes like you know accessing a particular data structure or whatever."
+  },
+  {
+    "start": 707.06,
+    "duration": 6.7,
+    "text": "So in, in ArrayList what happens is that multiple threads can access the same object,"
+  },
+  {
+    "start": 713.76,
+    "duration": 1.0,
+    "text": "okay?"
+  },
+  {
+    "start": 714.76,
+    "duration": 2.6,
+    "text": "The ArrayList is not synchronized."
+  },
+  {
+    "start": 717.36,
+    "duration": 4.76,
+    "text": "So if there's like multiple threads like thread A, thread B, thread C, thread D,"
+  },
+  {
+    "start": 722.12,
+    "duration": 9.48,
+    "text": "all of them can access the ArrayList object like this."
+  },
+  {
+    "start": 731.6,
+    "duration": 3.4,
+    "text": "They all can access it, all of these threads."
+  },
+  {
+    "start": 735.0,
+    "duration": 6.44,
+    "text": "But in vector, what happens is, and this is also, as we can see over here, it's implementing"
+  },
+  {
+    "start": 741.44,
+    "duration": 6.32,
+    "text": "the list interface, it's implementing the list interface, so the array list and vector"
+  },
+  {
+    "start": 747.76,
+    "duration": 6.64,
+    "text": "obviously like you know, the methods and stuff we'll be using that's sort of similar"
+  },
+  {
+    "start": 754.4,
+    "duration": 1.84,
+    "text": "but internally it's different."
+  },
+  {
+    "start": 756.24,
+    "duration": 3.16,
+    "text": "That's abstraction being provided to us, we don't really care how it's working"
+  },
+  {
+    "start": 759.4,
+    "duration": 1.0,
+    "text": "internally or whatever."
+  },
+  {
+    "start": 760.4,
+    "duration": 4.94,
+    "text": "providing you know synchronization that's fine to us but in vector what happens is that"
+  },
+  {
+    "start": 765.34,
+    "duration": 8.7,
+    "text": "thread 1 thread 2 thread 3 thread 4 in vector what happens is you have thread number 1 and"
+  },
+  {
+    "start": 774.04,
+    "duration": 4.48,
+    "text": "if thread number 2 wants to access this particular object while thread 1 is still working on"
+  },
+  {
+    "start": 778.52,
+    "duration": 7.06,
+    "text": "this object it will be waiting it will be waiting ok."
+  },
+  {
+    "start": 785.58,
+    "duration": 1.0,
+    "text": "So which one is faster?"
+  },
+  {
+    "start": 786.58,
+    "duration": 3.8,
+    "text": "Array list is faster because it's like not synchronizing stuff and in vector you will"
+  },
+  {
+    "start": 790.38,
+    "duration": 5.6,
+    "text": "have to wait and everything, but that's it. So if multiple threads access, you know, like your"
+  },
+  {
+    "start": 797.34,
+    "duration": 6.72,
+    "text": "array list, then, you know, it may be able to add or modify things from the list, but"
+  },
+  {
+    "start": 805.18,
+    "duration": 4.96,
+    "text": "in vector, not multiple threads can access it at one time, only one can access it at one time."
+  },
+  {
+    "start": 811.18,
+    "duration": 5.52,
+    "text": "Okay. So it's a pretty, pretty straightforward. So let's see a code sample for this. All"
+  },
+  {
+    "start": 816.7,
+    "duration": 11.07,
+    "text": "Alright, so let's see vectors, vector example, it's pretty, I can just do it here only."
+  },
+  {
+    "start": 827.77,
+    "duration": 5.6,
+    "text": "So since it's like same list, I can just create list, list is equal to new vector or"
+  },
+  {
+    "start": 833.37,
+    "duration": 11.44,
+    "text": "whatever, vector is equal to new vector, right, then I can say vector dot add, so you can"
+  },
+  {
+    "start": 844.81,
+    "duration": 3.64,
+    "text": "see what's happening, right, it's having the same particular stuff, but internally"
+  },
+  {
+    "start": 848.45,
+    "duration": 16.96,
+    "text": "it's different 45 then I can copy based Alexa went off now I 5 15 56 or whatever and I can"
+  },
+  {
+    "start": 865.41,
+    "duration": 5.84,
+    "text": "just print it it's similar to similar to Arilist but the differences I've already mentioned"
+  },
+  {
+    "start": 871.25,
+    "duration": 5.76,
+    "text": "feel like it's synchronized and stuff people often use like prefer using Arilist because"
+  },
+  {
+    "start": 877.01,
+    "duration": 5.12,
+    "text": "it's faster and with collections you can actually make it you know thread safe as"
+  },
+  {
+    "start": 882.13,
+    "duration": 4.04,
+    "text": "well like synchronize as well but yeah that's for like one of the reasons that"
+  },
+  {
+    "start": 886.17,
+    "duration": 4.16,
+    "text": "they use it for okay it's pretty much about it you can use anything you want"
+  },
+  {
+    "start": 890.33,
+    "duration": 4.64,
+    "text": "but since this is not that fast if you're doing some interviews or whatever"
+  },
+  {
+    "start": 894.97,
+    "duration": 2.8,
+    "text": "if you're not dealing with multi-threading applications I'd recommend"
+  },
+  {
+    "start": 897.77,
+    "duration": 6.8,
+    "text": "using list sorry add a list okay yeah let's move forward now let's talk about"
+  },
+  {
+    "start": 904.57,
+    "duration": 6.8,
+    "text": "one more topic, which is, you know, people ask quite a lot, enums, enumerations in Java."
+  },
+  {
+    "start": 911.37,
+    "duration": 7.2,
+    "text": "So, what are enums? Enums are basically, it's like a group of variables, that you cannot really"
+  },
+  {
+    "start": 920.25,
+    "duration": 7.04,
+    "text": "change, it's like a constant. So, what is the idea? The idea is that"
+  },
+  {
+    "start": 927.29,
+    "duration": 8.0,
+    "text": "for a particular class you need a number of particular objects only okay so let's say"
+  },
+  {
+    "start": 935.29,
+    "duration": 4.08,
+    "text": "you have a class called months okay what are all the objects that can exist"
+  },
+  {
+    "start": 939.37,
+    "duration": 3.2,
+    "text": "January, February, March, April, May, June, July, August, September, October, November, December"
+  },
+  {
+    "start": 942.57,
+    "duration": 7.8,
+    "text": "can there be a 13th month 13th object no okay so we use enums for this"
+  },
+  {
+    "start": 950.37,
+    "duration": 3.0,
+    "text": "and we'll talk more about like what are enums and how they differ in like"
+  },
+  {
+    "start": 953.37,
+    "duration": 4.88,
+    "text": "you know, C++ or whatever, because in Java, you can also add like variables and stuff"
+  },
+  {
+    "start": 958.25,
+    "duration": 2.52,
+    "text": "and constructors and methods."
+  },
+  {
+    "start": 960.77,
+    "duration": 3.24,
+    "text": "So the idea is that we can define our own data type as such."
+  },
+  {
+    "start": 964.01,
+    "duration": 7.76,
+    "text": "So if you want to talk about something like, let's talk about colors, for example, okay,"
+  },
+  {
+    "start": 971.77,
+    "duration": 4.12,
+    "text": "so you can add blue, yellow, orange, something like that, okay."
+  },
+  {
+    "start": 975.89,
+    "duration": 5.28,
+    "text": "So let's see how we can work with it and what actually are our enums, okay."
+  },
+  {
+    "start": 981.17,
+    "duration": 2.16,
+    "text": "So let's learn about enum."
+  },
+  {
+    "start": 983.33,
+    "duration": 4.44,
+    "text": "What we mean by when we say, you know, when we say, they are like constants."
+  },
+  {
+    "start": 987.77,
+    "duration": 1.0,
+    "text": "So let's see."
+  },
+  {
+    "start": 988.77,
+    "duration": 2.08,
+    "text": "And you can't really create like new, new objects for that."
+  },
+  {
+    "start": 990.85,
+    "duration": 1.0,
+    "text": "It has constructed."
+  },
+  {
+    "start": 991.85,
+    "duration": 1.0,
+    "text": "We'll see."
+  },
+  {
+    "start": 992.85,
+    "duration": 1.0,
+    "text": "We'll see."
+  },
+  {
+    "start": 993.85,
+    "duration": 1.0,
+    "text": "No problem."
+  },
+  {
+    "start": 994.85,
+    "duration": 1.0,
+    "text": "Package."
+  },
+  {
+    "start": 995.85,
+    "duration": 11.19,
+    "text": "And when you say enum examples, refractor, enum examples, and then we say something"
+  },
+  {
+    "start": 1007.04,
+    "duration": 8.12,
+    "text": "like main, okay, or I can say like basic or something like that, okay."
+  },
+  {
+    "start": 1015.16,
+    "duration": 1.12,
+    "text": "So use the keyword enum."
+  },
+  {
+    "start": 1016.28,
+    "duration": 7.64,
+    "text": "is a syntax, you say enum, there's the overall type, you can say week or something. Now here"
+  },
+  {
+    "start": 1023.92,
+    "duration": 13.72,
+    "text": "you will have week, weekdays, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, and"
+  },
+  {
+    "start": 1037.64,
+    "duration": 6.52,
+    "text": "Sunday. Okay, so these Monday, Tuesday, Wednesday, Thursday, Monday, Tuesday, Wednesday, Thursday,"
+  },
+  {
+    "start": 1044.16,
+    "duration": 6.16,
+    "text": "Friday, Saturday, Sunday, these are basically called enum constants. These are enum constants."
+  },
+  {
+    "start": 1050.32,
+    "duration": 9.06,
+    "text": "I'll tell you how it works internally as well. Constants. Okay. And every single one over"
+  },
+  {
+    "start": 1059.38,
+    "duration": 8.24,
+    "text": "here is public static and final member public static and final. So if it's static, then"
+  },
+  {
+    "start": 1067.62,
+    "duration": 4.44,
+    "text": "you can obviously access is, you know, why are the the name the week? Okay, if it's"
+  },
+  {
+    "start": 1072.06,
+    "duration": 7.0,
+    "text": "static, by default, they are public static and finals. And since it's a since it's"
+  },
+  {
+    "start": 1079.06,
+    "duration": 6.84,
+    "text": "like final, you cannot create like child enums. Okay. So since it's final, you can't create"
+  },
+  {
+    "start": 1085.9,
+    "duration": 4.64,
+    "text": "child enums. We talked about life final prevents inheritance in the inheritance video. So make"
+  },
+  {
+    "start": 1090.54,
+    "duration": 6.92,
+    "text": "sure you check it out. Okay. So the type is what canal? What is the type of these things?"
+  },
+  {
+    "start": 1097.46,
+    "duration": 5.16,
+    "text": "The type is where they are declared. So the type of all of these is weak type is"
+  },
+  {
+    "start": 1102.62,
+    "duration": 8.8,
+    "text": "week. How do we use it? Very, very simple. I can say week, week, and then I can say week"
+  },
+  {
+    "start": 1111.42,
+    "duration": 6.4,
+    "text": "day or something like this is equal to my week dot Friday, Saturday, Sunday, Monday"
+  },
+  {
+    "start": 1117.82,
+    "duration": 12.12,
+    "text": "or whatever, let's say Monday. Okay. Something like that. Cool. I can also iterate over"
+  },
+  {
+    "start": 1129.94,
+    "duration": 8.56,
+    "text": "it. I can say for every week in a week is already defined for every, let's say day"
+  },
+  {
+    "start": 1138.5,
+    "duration": 8.99,
+    "text": "in my what in my week dot all the values that it contains what do we do just print the day"
+  },
+  {
+    "start": 1147.49,
+    "duration": 14.53,
+    "text": "something like that try to print it Monday Tuesday Wednesday Friday Saturday Sunday okay"
+  },
+  {
+    "start": 1162.02,
+    "duration": 16.91,
+    "text": "easy that's basically about it if you just try to print week let's see what will happen"
+  },
+  {
+    "start": 1178.93,
+    "duration": 6.04,
+    "text": "Monday only was Monday available over here if you try to print week dot something known"
+  },
+  {
+    "start": 1184.97,
+    "duration": 8.36,
+    "text": "as ordinal. What is ordinal? Let us see. Ordinal says that the position of the enum declaration"
+  },
+  {
+    "start": 1193.33,
+    "duration": 13.9,
+    "text": "print, it is what? 0, this is 1, this is 2, this is 3, 4, 5, 6. So that is pretty much"
+  },
+  {
+    "start": 1207.23,
+    "duration": 2.16,
+    "text": "about it. Cool."
+  },
+  {
+    "start": 1209.39,
+    "duration": 5.6,
+    "text": "One more thing let me show you. If I create a constructor, if I create a constructor like"
+  },
+  {
+    "start": 1214.99,
+    "duration": 14.58,
+    "text": "this constructor like this and I'm saying const constructor called for something like I can"
+  },
+  {
+    "start": 1229.57,
+    "duration": 8.44,
+    "text": "say you know for this dot to string this object current object to string okay it's actually"
+  },
+  {
+    "start": 1238.01,
+    "duration": 4.92,
+    "text": "saying it's not required so I can just print this let's see what we'll get if we would have"
+  },
+  {
+    "start": 1242.93,
+    "duration": 8.12,
+    "text": "to do something I'll do it override or whatever let's see so let's say I'm just creating one"
+  },
+  {
+    "start": 1251.05,
+    "duration": 9.3,
+    "text": "one single variable okay let's see what will happen so this is weird Kunal you just accessed"
+  },
+  {
+    "start": 1260.35,
+    "duration": 6.02,
+    "text": "one of these particular objects of stuff this objects you have like defined seven you accessed"
+  },
+  {
+    "start": 1266.37,
+    "duration": 4.74,
+    "text": "one but the constructor actually ran for all of those what is happening over here so"
+  },
+  {
+    "start": 1271.11,
+    "duration": 10.15,
+    "text": "the constructor over here that you can see I'll just write over here. This is not public"
+  },
+  {
+    "start": 1281.26,
+    "duration": 13.99,
+    "text": "or protected. Okay, so only private or default. Why? Good question. Good question. Because"
+  },
+  {
+    "start": 1295.25,
+    "duration": 5.08,
+    "text": "if we created public or protected, it will allow initialization of more than one objects."
+  },
+  {
+    "start": 1300.33,
+    "duration": 4.48,
+    "text": "You only want it to be like constant number of objects for week. That's why it's not"
+  },
+  {
+    "start": 1304.81,
+    "duration": 10.85,
+    "text": "public we don't want to create new objects or whatever okay because this is not"
+  },
+  {
+    "start": 1315.66,
+    "duration": 6.96,
+    "text": "the enum concept that's why okay so if you want to fix group of objects then"
+  },
+  {
+    "start": 1322.62,
+    "duration": 4.0,
+    "text": "that's when you use enums you want to have a class known as a month then you"
+  },
+  {
+    "start": 1326.62,
+    "duration": 3.8,
+    "text": "can have 12 objects for it January, February, March, April, till December"
+  },
+  {
+    "start": 1330.42,
+    "duration": 13.88,
+    "text": "Okay, pretty much about it. So internally, it's something like this. Internally, it's"
+  },
+  {
+    "start": 1344.3,
+    "duration": 12.29,
+    "text": "something like this, public static, final week, Monday is equal to new week, something like"
+  },
+  {
+    "start": 1356.59,
+    "duration": 6.34,
+    "text": "this when this constructor is being called. So internally, it works something like this."
+  },
+  {
+    "start": 1362.93,
+    "duration": 6.01,
+    "text": "Okay, now let's talk a little bit more about inheritance. I'll obviously mentioned it"
+  },
+  {
+    "start": 1368.94,
+    "duration": 5.04,
+    "text": "in the nodes. So you can check it out later on. But in the nodes, what I'm going to share"
+  },
+  {
+    "start": 1373.98,
+    "duration": 4.24,
+    "text": "is like about enum and let's say inheritance, how can we work with that? So all the enums"
+  },
+  {
+    "start": 1378.22,
+    "duration": 6.6,
+    "text": "explicitly extend, this is the first point, java.lan.enum class. And we know that in"
+  },
+  {
+    "start": 1384.82,
+    "duration": 3.64,
+    "text": "Java multiple inheritance is not allowed and a class can only extend one parent class"
+  },
+  {
+    "start": 1388.46,
+    "duration": 5.68,
+    "text": "in Java. So an enum cannot extend anything else. You can't really extend anything"
+  },
+  {
+    "start": 1394.14,
+    "duration": 4.08,
+    "text": "else over here in this enum."
+  },
+  {
+    "start": 1398.22,
+    "duration": 5.6,
+    "text": "An enum cannot be a superclass either and the two string methods I printed this, it actually"
+  },
+  {
+    "start": 1403.82,
+    "duration": 1.68,
+    "text": "printed the names or whatever."
+  },
+  {
+    "start": 1405.5,
+    "duration": 4.72,
+    "text": "So it actually is overridden and it prints the name of the constants."
+  },
+  {
+    "start": 1410.22,
+    "duration": 5.36,
+    "text": "So you can see this was actually printing the name of these things."
+  },
+  {
+    "start": 1415.58,
+    "duration": 1.28,
+    "text": "But what about like interfaces?"
+  },
+  {
+    "start": 1416.86,
+    "duration": 4.68,
+    "text": "If I have an interface over here, I can say an interface A and it contains something"
+  },
+  {
+    "start": 1421.54,
+    "duration": 6.36,
+    "text": "like void, hello or something. Can I really implement an interface over here? Implements"
+  },
+  {
+    "start": 1427.9,
+    "duration": 10.46,
+    "text": "A. Yes, we can. And I can implement the methods like this. A, how are you? And I can call"
+  },
+  {
+    "start": 1438.36,
+    "duration": 6.88,
+    "text": "it. I can say, big dot, hello. And we just print, hello, how are you? So here you can"
+  },
+  {
+    "start": 1445.24,
+    "duration": 3.88,
+    "text": "see it's printing, hello, how are you? So enum can implement as many interfaces as"
+  },
+  {
+    "start": 1449.12,
+    "duration": 6.56,
+    "text": "you want okay but it cannot like extend classes or whatever cool and how are these compared"
+  },
+  {
+    "start": 1455.68,
+    "duration": 6.68,
+    "text": "we can compare for equality by using the equal to equal to relational operator okay and we"
+  },
+  {
+    "start": 1462.36,
+    "duration": 6.52,
+    "text": "already talked about like the values method ordinal ordinal is just like you know order"
+  },
+  {
+    "start": 1468.88,
+    "duration": 5.84,
+    "text": "the index basically and that's it yeah and value of did we cover that as well let me"
+  },
+  {
+    "start": 1474.72,
+    "duration": 14.26,
+    "text": "just see weak dot value of weak dot I think this should be somewhere over here value value"
+  },
+  {
+    "start": 1488.98,
+    "duration": 9.85,
+    "text": "of here I can pass Monday or whatever let's try to run this so it's actually returning"
+  },
+  {
+    "start": 1498.83,
+    "duration": 5.96,
+    "text": "the enum constant it's actually returning the enum constant value of okay I'll mention"
+  },
+  {
+    "start": 1504.79,
+    "duration": 4.68,
+    "text": "this in the notes as well okay we already talked about the constructor like it can"
+  },
+  {
+    "start": 1509.47,
+    "duration": 5.84,
+    "text": "have constructor and it's executed separately for every enum enum constant at the time"
+  },
+  {
+    "start": 1515.31,
+    "duration": 6.24,
+    "text": "know when you load the enum class and you cannot like create objects explicitly and that's why we"
+  },
+  {
+    "start": 1521.55,
+    "duration": 4.32,
+    "text": "cannot invoke this constructor explicitly it'll only happen when we try to access something and we"
+  },
+  {
+    "start": 1525.87,
+    "duration": 5.2,
+    "text": "know even if you try to access just one it will actually call all these okay so that's basically"
+  },
+  {
+    "start": 1531.07,
+    "duration": 11.75,
+    "text": "what is happening and yeah cool awesome what else we already talked about methods so it can"
+  },
+  {
+    "start": 1542.82,
+    "duration": 7.12,
+    "text": "And it can contain, so we mentioned like, we cannot inherit it as or whatever, right, an"
+  },
+  {
+    "start": 1549.94,
+    "duration": 1.0,
+    "text": "enum."
+  },
+  {
+    "start": 1550.94,
+    "duration": 4.2,
+    "text": "So it does not really make sense for overriding things, like, whatever, whatever is inside"
+  },
+  {
+    "start": 1555.14,
+    "duration": 1.4,
+    "text": "the enum to other one."
+  },
+  {
+    "start": 1556.54,
+    "duration": 2.64,
+    "text": "That's why all the functions and everything you have over here is, for example, if I"
+  },
+  {
+    "start": 1559.18,
+    "duration": 5.48,
+    "text": "say void display or whatever, so this is not allowed, it's saying abstract is"
+  },
+  {
+    "start": 1564.66,
+    "duration": 1.0,
+    "text": "not allowed over here."
+  },
+  {
+    "start": 1565.66,
+    "duration": 1.52,
+    "text": "So a method body is required."
+  },
+  {
+    "start": 1567.18,
+    "duration": 12.32,
+    "text": "Okay. So abstract are not allowed. Okay. So I'm good. Awesome. That was it. Object"
+  },
+  {
+    "start": 1579.5,
+    "duration": 4.72,
+    "text": "interproming is now a thing of beauty. Check out the complete playlist. And now we'll be"
+  },
+  {
+    "start": 1584.22,
+    "duration": 4.92,
+    "text": "doing some advanced structures and interview problems. So yeah, make sure like and subscribe"
+  },
+  {
+    "start": 1589.14,
+    "duration": 3.32,
+    "text": "and I'll see you in the next one when we do link list. So yeah, see you there."
+  }
+]

@@ -1,0 +1,1072 @@
+[
+  {
+    "start": 3.959,
+    "duration": 2.521,
+    "text": "hey everyone welcome back to my channel"
+  },
+  {
+    "start": 5.04,
+    "duration": 3.96,
+    "text": "in the new video in this video we're"
+  },
+  {
+    "start": 6.48,
+    "duration": 4.199,
+    "text": "continuing the data algorithms boot camp"
+  },
+  {
+    "start": 9.0,
+    "duration": 4.639,
+    "text": "and we're doing another nice uh question"
+  },
+  {
+    "start": 10.679,
+    "duration": 7.36,
+    "text": "of binary trees in this uh the question"
+  },
+  {
+    "start": 13.639,
+    "duration": 6.121,
+    "text": "says convert a binary tree into a dou"
+  },
+  {
+    "start": 18.039,
+    "duration": 4.08,
+    "text": "link list so if you don't know what a"
+  },
+  {
+    "start": 19.76,
+    "duration": 4.56,
+    "text": "dou link list is I would encourage watch"
+  },
+  {
+    "start": 22.119,
+    "duration": 4.24,
+    "text": "my link list introduction playlist it's"
+  },
+  {
+    "start": 24.32,
+    "duration": 5.719,
+    "text": "very simple we will have a head and a"
+  },
+  {
+    "start": 26.359,
+    "duration": 6.84,
+    "text": "tail and you have uh you know we have"
+  },
+  {
+    "start": 30.039,
+    "duration": 3.16,
+    "text": "have link list like"
+  },
+  {
+    "start": 39.52,
+    "duration": 3.0,
+    "text": "this"
+  },
+  {
+    "start": 42.719,
+    "duration": 6.241,
+    "text": "head tail and it will also be pointing"
+  },
+  {
+    "start": 46.76,
+    "duration": 5.72,
+    "text": "to the previous node so every node is"
+  },
+  {
+    "start": 48.96,
+    "duration": 7.72,
+    "text": "pointing to the node in front of it and"
+  },
+  {
+    "start": 52.48,
+    "duration": 6.919,
+    "text": "also behind it okay so that's what a w"
+  },
+  {
+    "start": 56.68,
+    "duration": 4.76,
+    "text": "link list is and we are given head and"
+  },
+  {
+    "start": 59.399,
+    "duration": 4.201,
+    "text": "tail"
+  },
+  {
+    "start": 61.44,
+    "duration": 4.2,
+    "text": "and uh well we are not given head and"
+  },
+  {
+    "start": 63.6,
+    "duration": 4.36,
+    "text": "tail we have to create it for example"
+  },
+  {
+    "start": 65.64,
+    "duration": 5.159,
+    "text": "but we are given a binary tree so we're"
+  },
+  {
+    "start": 67.96,
+    "duration": 2.839,
+    "text": "going to tree like"
+  },
+  {
+    "start": 76.08,
+    "duration": 3.0,
+    "text": "this"
+  },
+  {
+    "start": 80.56,
+    "duration": 5.44,
+    "text": "okay this"
+  },
+  {
+    "start": 82.32,
+    "duration": 5.92,
+    "text": "is five"
+  },
+  {
+    "start": 86.0,
+    "duration": 4.759,
+    "text": "six this is let's"
+  },
+  {
+    "start": 88.24,
+    "duration": 7.8,
+    "text": "say three"
+  },
+  {
+    "start": 90.759,
+    "duration": 5.281,
+    "text": "this is let's say one this is let's say"
+  },
+  {
+    "start": 96.24,
+    "duration": 4.919,
+    "text": "two no two"
+  },
+  {
+    "start": 98.72,
+    "duration": 5.719,
+    "text": "four this is let's say"
+  },
+  {
+    "start": 101.159,
+    "duration": 7.0,
+    "text": "two okay this is"
+  },
+  {
+    "start": 104.439,
+    "duration": 6.401,
+    "text": "one so you are to convert this tree into"
+  },
+  {
+    "start": 108.159,
+    "duration": 4.0,
+    "text": "a w link list how are we going to do"
+  },
+  {
+    "start": 110.84,
+    "duration": 3.279,
+    "text": "this let's say it is a binary search"
+  },
+  {
+    "start": 112.159,
+    "duration": 5.081,
+    "text": "tree so you have to convert it into a w"
+  },
+  {
+    "start": 114.119,
+    "duration": 4.6,
+    "text": "link list that is sorted so obviously we"
+  },
+  {
+    "start": 117.24,
+    "duration": 3.04,
+    "text": "are going to use traversals but the"
+  },
+  {
+    "start": 118.719,
+    "duration": 4.201,
+    "text": "question is which kind of Tri Ral will"
+  },
+  {
+    "start": 120.28,
+    "duration": 4.68,
+    "text": "you be using what is the traversal that"
+  },
+  {
+    "start": 122.92,
+    "duration": 4.879,
+    "text": "gives us the sorted order in a binary"
+  },
+  {
+    "start": 124.96,
+    "duration": 4.84,
+    "text": "search tree in order traversal so you"
+  },
+  {
+    "start": 127.799,
+    "duration": 3.761,
+    "text": "start from here will I take this no I"
+  },
+  {
+    "start": 129.8,
+    "duration": 3.68,
+    "text": "will go in the left I will go in the"
+  },
+  {
+    "start": 131.56,
+    "duration": 4.16,
+    "text": "left I will go in the left null so I"
+  },
+  {
+    "start": 133.48,
+    "duration": 4.2,
+    "text": "will then print the current"
+  },
+  {
+    "start": 135.72,
+    "duration": 5.159,
+    "text": "node which is"
+  },
+  {
+    "start": 137.68,
+    "duration": 6.72,
+    "text": "one then I will go write nothing then I"
+  },
+  {
+    "start": 140.879,
+    "duration": 6.36,
+    "text": "will go here bring the current node then"
+  },
+  {
+    "start": 144.4,
+    "duration": 5.08,
+    "text": "um right then I will go back left is"
+  },
+  {
+    "start": 147.239,
+    "duration": 3.841,
+    "text": "printed now I'll print the current node"
+  },
+  {
+    "start": 149.48,
+    "duration": 3.399,
+    "text": "three"
+  },
+  {
+    "start": 151.08,
+    "duration": 5.64,
+    "text": "then uh"
+  },
+  {
+    "start": 152.879,
+    "duration": 6.521,
+    "text": "right okay then the left is printed I"
+  },
+  {
+    "start": 156.72,
+    "duration": 5.56,
+    "text": "will print the current node which is"
+  },
+  {
+    "start": 159.4,
+    "duration": 5.8,
+    "text": "five and then"
+  },
+  {
+    "start": 162.28,
+    "duration": 5.12,
+    "text": "write in ordered"
+  },
+  {
+    "start": 165.2,
+    "duration": 4.16,
+    "text": "reversal we all know what inod reversal"
+  },
+  {
+    "start": 167.4,
+    "duration": 3.88,
+    "text": "is just watch the link list tutorial"
+  },
+  {
+    "start": 169.36,
+    "duration": 4.159,
+    "text": "video if you haven't already and if"
+  },
+  {
+    "start": 171.28,
+    "duration": 5.2,
+    "text": "you're having doubts in this but uh this"
+  },
+  {
+    "start": 173.519,
+    "duration": 4.841,
+    "text": "is basically how it would work now the"
+  },
+  {
+    "start": 176.48,
+    "duration": 4.08,
+    "text": "question is very simple we will do in"
+  },
+  {
+    "start": 178.36,
+    "duration": 6.28,
+    "text": "order reversal but while we are printing"
+  },
+  {
+    "start": 180.56,
+    "duration": 6.92,
+    "text": "it we will build our dou link list so"
+  },
+  {
+    "start": 184.64,
+    "duration": 5.2,
+    "text": "when I printed this one I will check is"
+  },
+  {
+    "start": 187.48,
+    "duration": 4.56,
+    "text": "head equal to null yes currently head is"
+  },
+  {
+    "start": 189.84,
+    "duration": 4.6,
+    "text": "equal to null because the list is empty"
+  },
+  {
+    "start": 192.04,
+    "duration": 5.08,
+    "text": "so I will assign this as"
+  },
+  {
+    "start": 194.44,
+    "duration": 3.68,
+    "text": "head then I will Traverse again now I"
+  },
+  {
+    "start": 197.12,
+    "duration": 3.839,
+    "text": "have"
+  },
+  {
+    "start": 198.12,
+    "duration": 5.839,
+    "text": "two so I will be like is head equal to"
+  },
+  {
+    "start": 200.959,
+    "duration": 4.681,
+    "text": "null no so I will be like the current"
+  },
+  {
+    "start": 203.959,
+    "duration": 4.241,
+    "text": "pointer that I have let's say tail is"
+  },
+  {
+    "start": 205.64,
+    "duration": 4.159,
+    "text": "also equal to this I will say tail. next"
+  },
+  {
+    "start": 208.2,
+    "duration": 3.72,
+    "text": "is equal to this and this currently"
+  },
+  {
+    "start": 209.799,
+    "duration": 4.201,
+    "text": "previous is equal to the original tail"
+  },
+  {
+    "start": 211.92,
+    "duration": 5.64,
+    "text": "that I had and then tail will be updated"
+  },
+  {
+    "start": 214.0,
+    "duration": 5.2,
+    "text": "to the new one then I will print three"
+  },
+  {
+    "start": 217.56,
+    "duration": 3.599,
+    "text": "we like okay tail do next is equal to"
+  },
+  {
+    "start": 219.2,
+    "duration": 5.2,
+    "text": "the current node this current node."
+  },
+  {
+    "start": 221.159,
+    "duration": 3.241,
+    "text": "previous is equal to the previous"
+  },
+  {
+    "start": 224.599,
+    "duration": 7.121,
+    "text": "tail okay very easy stuff and until then"
+  },
+  {
+    "start": 229.08,
+    "duration": 4.999,
+    "text": "we will move forward pause this video"
+  },
+  {
+    "start": 231.72,
+    "duration": 5.48,
+    "text": "Try it yourself and then uh look at the"
+  },
+  {
+    "start": 234.079,
+    "duration": 5.321,
+    "text": "code solution okay so I'm going to go to"
+  },
+  {
+    "start": 237.2,
+    "duration": 3.2,
+    "text": "my folder by the way you can check out"
+  },
+  {
+    "start": 239.4,
+    "duration": 5.399,
+    "text": "the link link to the code in the"
+  },
+  {
+    "start": 240.4,
+    "duration": 6.96,
+    "text": "description below going to create a"
+  },
+  {
+    "start": 244.799,
+    "duration": 5.241,
+    "text": "new Java file or I'm just going to go to"
+  },
+  {
+    "start": 247.36,
+    "duration": 5.719,
+    "text": "the advanced three questions"
+  },
+  {
+    "start": 250.04,
+    "duration": 4.72,
+    "text": "one and create a new"
+  },
+  {
+    "start": 253.079,
+    "duration": 6.761,
+    "text": "file"
+  },
+  {
+    "start": 254.76,
+    "duration": 8.92,
+    "text": "double link list."
+  },
+  {
+    "start": 259.84,
+    "duration": 3.84,
+    "text": "Java zoom in a little"
+  },
+  {
+    "start": 268.6,
+    "duration": 6.599,
+    "text": "bit"
+  },
+  {
+    "start": 271.56,
+    "duration": 6.32,
+    "text": "double linked list"
+  },
+  {
+    "start": 275.199,
+    "duration": 5.44,
+    "text": "cool so that's what we have here what is"
+  },
+  {
+    "start": 277.88,
+    "duration": 4.319,
+    "text": "the double link list going to have uh it"
+  },
+  {
+    "start": 280.639,
+    "duration": 5.84,
+    "text": "is going to have as you can see over"
+  },
+  {
+    "start": 282.199,
+    "duration": 5.201,
+    "text": "here head uh the each node if we talk"
+  },
+  {
+    "start": 286.479,
+    "duration": 5.121,
+    "text": "about the"
+  },
+  {
+    "start": 287.4,
+    "duration": 8.04,
+    "text": "node uh what is the node going to have"
+  },
+  {
+    "start": 291.6,
+    "duration": 6.68,
+    "text": "so let's say I create a new node over"
+  },
+  {
+    "start": 295.44,
+    "duration": 5.12,
+    "text": "here let's say we"
+  },
+  {
+    "start": 298.28,
+    "duration": 4.68,
+    "text": "have a new"
+  },
+  {
+    "start": 300.56,
+    "duration": 7.04,
+    "text": "node uh I'm going to call"
+  },
+  {
+    "start": 302.96,
+    "duration": 12.72,
+    "text": "it just class node this is going to have"
+  },
+  {
+    "start": 307.6,
+    "duration": 8.08,
+    "text": "in a value node previous node next"
+  },
+  {
+    "start": 316.88,
+    "duration": 3.319,
+    "text": "okay public"
+  },
+  {
+    "start": 320.639,
+    "duration": 9.28,
+    "text": "node Constructor just going to pass"
+  },
+  {
+    "start": 324.52,
+    "duration": 8.959,
+    "text": "value this. value is equal to Value okay"
+  },
+  {
+    "start": 329.919,
+    "duration": 6.921,
+    "text": "this is my node uh I'm going to call"
+  },
+  {
+    "start": 333.479,
+    "duration": 3.361,
+    "text": "this one actually link list"
+  },
+  {
+    "start": 337.0,
+    "duration": 6.12,
+    "text": "node and I'm going to"
+  },
+  {
+    "start": 339.8,
+    "duration": 8.72,
+    "text": "create let's say we create a tree node"
+  },
+  {
+    "start": 343.12,
+    "duration": 5.4,
+    "text": "also trees have what left and right in"
+  },
+  {
+    "start": 351.639,
+    "duration": 9.721,
+    "text": "val always make sure when you copy paste"
+  },
+  {
+    "start": 357.12,
+    "duration": 7.639,
+    "text": "tree node left tree node"
+  },
+  {
+    "start": 361.36,
+    "duration": 6.399,
+    "text": "right public tree"
+  },
+  {
+    "start": 364.759,
+    "duration": 5.681,
+    "text": "node in"
+  },
+  {
+    "start": 367.759,
+    "duration": 5.641,
+    "text": "well"
+  },
+  {
+    "start": 370.44,
+    "duration": 4.8,
+    "text": "Constructor"
+  },
+  {
+    "start": 373.4,
+    "duration": 4.84,
+    "text": "done"
+  },
+  {
+    "start": 375.24,
+    "duration": 6.64,
+    "text": "cool sounds good now the W link list"
+  },
+  {
+    "start": 378.24,
+    "duration": 8.04,
+    "text": "that we have over here I'm going to"
+  },
+  {
+    "start": 381.88,
+    "duration": 6.159,
+    "text": "create what head and tail so I'm going"
+  },
+  {
+    "start": 386.28,
+    "duration": 4.479,
+    "text": "to say two"
+  },
+  {
+    "start": 388.039,
+    "duration": 5.801,
+    "text": "types tree"
+  },
+  {
+    "start": 390.759,
+    "duration": 5.0,
+    "text": "node head and tree"
+  },
+  {
+    "start": 393.84,
+    "duration": 4.56,
+    "text": "node"
+  },
+  {
+    "start": 395.759,
+    "duration": 5.88,
+    "text": "tail sounds"
+  },
+  {
+    "start": 398.4,
+    "duration": 6.48,
+    "text": "good after this I'm going to"
+  },
+  {
+    "start": 401.639,
+    "duration": 5.761,
+    "text": "have what am I going to"
+  },
+  {
+    "start": 404.88,
+    "duration": 4.68,
+    "text": "have"
+  },
+  {
+    "start": 407.4,
+    "duration": 3.76,
+    "text": "converting how do I create it I have to"
+  },
+  {
+    "start": 409.56,
+    "duration": 3.759,
+    "text": "convert it from a binary tree it says"
+  },
+  {
+    "start": 411.16,
+    "duration": 4.84,
+    "text": "binary search tree is given convert into"
+  },
+  {
+    "start": 413.319,
+    "duration": 7.361,
+    "text": "a w link okay"
+  },
+  {
+    "start": 416.0,
+    "duration": 6.639,
+    "text": "public it will return three"
+  },
+  {
+    "start": 420.68,
+    "duration": 4.959,
+    "text": "node"
+  },
+  {
+    "start": 422.639,
+    "duration": 3.0,
+    "text": "convert"
+  },
+  {
+    "start": 427.639,
+    "duration": 6.96,
+    "text": "what tree node root by the way this will"
+  },
+  {
+    "start": 431.08,
+    "duration": 3.519,
+    "text": "not be tree node this will be linkless"
+  },
+  {
+    "start": 434.879,
+    "duration": 5.681,
+    "text": "node not a tree head and tail tree is"
+  },
+  {
+    "start": 437.479,
+    "duration": 6.041,
+    "text": "left and right link list head L link"
+  },
+  {
+    "start": 440.56,
+    "duration": 8.0,
+    "text": "list tail here on the screen you can"
+  },
+  {
+    "start": 443.52,
+    "duration": 6.6,
+    "text": "see it is saying uh convert tree node"
+  },
+  {
+    "start": 448.56,
+    "duration": 5.24,
+    "text": "root"
+  },
+  {
+    "start": 450.12,
+    "duration": 6.72,
+    "text": "sounds good now some basic checks if"
+  },
+  {
+    "start": 453.8,
+    "duration": 6.28,
+    "text": "root is equal to equal to"
+  },
+  {
+    "start": 456.84,
+    "duration": 3.24,
+    "text": "null return"
+  },
+  {
+    "start": 460.24,
+    "duration": 6.84,
+    "text": "null otherwise I'm going to call my"
+  },
+  {
+    "start": 462.599,
+    "duration": 10.56,
+    "text": "helper function pass my root node in"
+  },
+  {
+    "start": 467.08,
+    "duration": 9.48,
+    "text": "it okay then I'm going to say return"
+  },
+  {
+    "start": 473.159,
+    "duration": 3.401,
+    "text": "head sounds"
+  },
+  {
+    "start": 477.4,
+    "duration": 5.72,
+    "text": "good don't have to make it public I can"
+  },
+  {
+    "start": 480.44,
+    "duration": 7.28,
+    "text": "say private void"
+  },
+  {
+    "start": 483.12,
+    "duration": 6.88,
+    "text": "helper helper takes in tree node"
+  },
+  {
+    "start": 487.72,
+    "duration": 6.08,
+    "text": "node not a"
+  },
+  {
+    "start": 490.0,
+    "duration": 5.039,
+    "text": "problem okay I can say if node is equal"
+  },
+  {
+    "start": 493.8,
+    "duration": 3.679,
+    "text": "to equal"
+  },
+  {
+    "start": 495.039,
+    "duration": 4.801,
+    "text": "to"
+  },
+  {
+    "start": 497.479,
+    "duration": 5.881,
+    "text": "null return null otherwise in ordered"
+  },
+  {
+    "start": 499.84,
+    "duration": 5.68,
+    "text": "reversal so what I'm going to do is I'm"
+  },
+  {
+    "start": 503.36,
+    "duration": 6.119,
+    "text": "going to call the left"
+  },
+  {
+    "start": 505.52,
+    "duration": 5.2,
+    "text": "first node. left I will call first then"
+  },
+  {
+    "start": 509.479,
+    "duration": 3.721,
+    "text": "I will"
+  },
+  {
+    "start": 510.72,
+    "duration": 4.16,
+    "text": "call the current and then in the end"
+  },
+  {
+    "start": 513.2,
+    "duration": 4.92,
+    "text": "node."
+  },
+  {
+    "start": 514.88,
+    "duration": 4.76,
+    "text": "write okay so when I talk about the"
+  },
+  {
+    "start": 518.12,
+    "duration": 3.64,
+    "text": "current let's say you have found the"
+  },
+  {
+    "start": 519.64,
+    "duration": 4.36,
+    "text": "answer let's say this is the one so what"
+  },
+  {
+    "start": 521.76,
+    "duration": 4.199,
+    "text": "do what do we do we create the new node"
+  },
+  {
+    "start": 524.0,
+    "duration": 6.08,
+    "text": "so link list"
+  },
+  {
+    "start": 525.959,
+    "duration": 7.32,
+    "text": "node um new node is equal to New Link"
+  },
+  {
+    "start": 530.08,
+    "duration": 4.6,
+    "text": "list node and the value will be what"
+  },
+  {
+    "start": 533.279,
+    "duration": 6.12,
+    "text": "node"
+  },
+  {
+    "start": 534.68,
+    "duration": 7.08,
+    "text": "dot value now if head is equal to to"
+  },
+  {
+    "start": 539.399,
+    "duration": 2.361,
+    "text": "equal to"
+  },
+  {
+    "start": 542.16,
+    "duration": 7.44,
+    "text": "null head is equal to new node tail is"
+  },
+  {
+    "start": 547.24,
+    "duration": 4.08,
+    "text": "also equal to new node only one"
+  },
+  {
+    "start": 549.6,
+    "duration": 5.88,
+    "text": "element"
+  },
+  {
+    "start": 551.32,
+    "duration": 5.56,
+    "text": "okay otherwise tail. next is equal to"
+  },
+  {
+    "start": 555.48,
+    "duration": 3.919,
+    "text": "new"
+  },
+  {
+    "start": 556.88,
+    "duration": 6.199,
+    "text": "node and then tail itself is equal to"
+  },
+  {
+    "start": 559.399,
+    "duration": 3.68,
+    "text": "that new node what we just"
+  },
+  {
+    "start": 565.04,
+    "duration": 7.32,
+    "text": "saw but before that so take next is"
+  },
+  {
+    "start": 569.92,
+    "duration": 4.44,
+    "text": "equal to new node new node. previous is"
+  },
+  {
+    "start": 572.36,
+    "duration": 5.84,
+    "text": "equal to tail also is"
+  },
+  {
+    "start": 574.36,
+    "duration": 6.44,
+    "text": "left new node do previous is equal to"
+  },
+  {
+    "start": 578.2,
+    "duration": 3.4,
+    "text": "tail is also left and tail is equal to"
+  },
+  {
+    "start": 580.8,
+    "duration": 4.32,
+    "text": "new"
+  },
+  {
+    "start": 581.6,
+    "duration": 7.88,
+    "text": "node and then helper node."
+  },
+  {
+    "start": 585.12,
+    "duration": 7.12,
+    "text": "right uh that's it"
+  },
+  {
+    "start": 589.48,
+    "duration": 6.32,
+    "text": "done pretty simple"
+  },
+  {
+    "start": 592.24,
+    "duration": 5.12,
+    "text": "stuff cool cool this uh code that you"
+  },
+  {
+    "start": 595.8,
+    "duration": 3.92,
+    "text": "can see I will leave the link in the"
+  },
+  {
+    "start": 597.36,
+    "duration": 3.599,
+    "text": "description as well you can check it out"
+  },
+  {
+    "start": 599.72,
+    "duration": 3.28,
+    "text": "all right so that was it pretty short"
+  },
+  {
+    "start": 600.959,
+    "duration": 5.041,
+    "text": "question but very simple may have looked"
+  },
+  {
+    "start": 603.0,
+    "duration": 5.16,
+    "text": "intimidating but it was not uh the key"
+  },
+  {
+    "start": 606.0,
+    "duration": 3.44,
+    "text": "how did I know what to do is uh the hint"
+  },
+  {
+    "start": 608.16,
+    "duration": 2.96,
+    "text": "I was like you have to do a sending"
+  },
+  {
+    "start": 609.44,
+    "duration": 3.399,
+    "text": "order that's why we did in ordered"
+  },
+  {
+    "start": 611.12,
+    "duration": 4.8,
+    "text": "reversal and we did exactly what in Ed"
+  },
+  {
+    "start": 612.839,
+    "duration": 5.961,
+    "text": "reversal says do the left"
+  },
+  {
+    "start": 615.92,
+    "duration": 5.479,
+    "text": "first then do the current node whichever"
+  },
+  {
+    "start": 618.8,
+    "duration": 4.76,
+    "text": "one you're at then do the right simple"
+  },
+  {
+    "start": 621.399,
+    "duration": 3.761,
+    "text": "stuff if this was unclear you can check"
+  },
+  {
+    "start": 623.56,
+    "duration": 3.36,
+    "text": "out the previous videos and I'll leave"
+  },
+  {
+    "start": 625.16,
+    "duration": 2.88,
+    "text": "the links in the description below"
+  },
+  {
+    "start": 626.92,
+    "duration": 4.12,
+    "text": "thanks a lot for"
+  },
+  {
+    "start": 628.04,
+    "duration": 3.0,
+    "text": "watching"
+  }
+]
