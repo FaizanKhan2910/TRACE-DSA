@@ -95,18 +95,26 @@ export function InlineLecturePlayer({
   const mountRef = useRef<HTMLDivElement>(null);
   const playerRef = useRef<YouTubePlayer | null>(null);
   const timeUpdateRef = useRef(onTimeUpdate);
+  const titleRef = useRef(title);
+  const timestampRef = useRef(timestamp);
   const [status, setStatus] = useState<"loading" | "playing" | "paused" | "error">("loading");
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     timeUpdateRef.current = onTimeUpdate;
-  }, [onTimeUpdate]);
+    titleRef.current = title;
+    timestampRef.current = timestamp;
+  }, [onTimeUpdate, title, timestamp]);
 
   useEffect(() => {
     let disposed = false;
     let pollTimer = 0;
-    setStatus("loading");
-    setError(null);
+    queueMicrotask(() => {
+      if (!disposed) {
+        setStatus("loading");
+        setError(null);
+      }
+    });
 
     loadYouTubeApi()
       .then((youtube) => {
@@ -123,7 +131,7 @@ export function InlineLecturePlayer({
           start: String(Math.max(0, Math.floor(startSeconds))),
         });
         iframe.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(videoId)}?${params.toString()}`;
-        iframe.title = `${title} · ${timestamp}`;
+        iframe.title = `${titleRef.current} · ${timestampRef.current}`;
         iframe.allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share";
         iframe.referrerPolicy = "strict-origin-when-cross-origin";
         iframe.allowFullscreen = true;

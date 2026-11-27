@@ -1,6 +1,22 @@
-# Kunal Java DSA RAG (`kdsa`)
+# TRACE-Kunal-Kushwaha-DSA-Lecture-Companion
 
-End-to-end Retrieval-Augmented Generation (RAG) CLI for searching and asking questions over Kunal Kushwaha's Java + DSA YouTube playlist, with timestamped YouTube citations.
+End-to-end Retrieval-Augmented Generation (RAG) engine (`kdsa`) and interactive Next.js + Three.js web companion (`trace-web`) for searching and asking questions over Kunal Kushwaha's 79.6-hour Java + DSA YouTube playlist (69 lectures, 7,055 Qdrant vectors), with timestamped YouTube citations.
+
+## Web Companion (`trace-web` + `kdsa_api.py`)
+
+Requires Node.js 20+ and Python 3.12+ (`uv`).
+
+1. **Start the local Qdrant + Groq RAG API sidecar:**
+   ```bash
+   uv run python kdsa_api.py
+   ```
+2. **Start the Next.js + Three.js frontend:**
+   ```bash
+   cd trace-web
+   npm install
+   npm run dev
+   ```
+   Open `http://127.0.0.1:3000`.
 
 ## Setup
 
