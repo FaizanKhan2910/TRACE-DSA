@@ -26,6 +26,7 @@ COLLECTION = os.getenv("KDSA_COLLECTION", "kunal_java_dsa")
 EMBED_MODEL = os.getenv("KDSA_EMBED_MODEL", "BAAI/bge-small-en-v1.5")
 QDRANT_PATH = str(ROOT / "qdrant_data")
 QDRANT_URL = os.getenv("QDRANT_URL", "")  # optional hosted Qdrant
+QDRANT_API_KEY = os.getenv("QDRANT_API_KEY", "")
 
 # LLM (Groq via OpenAI client)
 GROQ_API_KEY = os.getenv("GROQ_API_KEY") or os.getenv("ANTHROPIC_API_KEY", "")

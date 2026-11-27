@@ -224,7 +224,7 @@ class TraceHandler(BaseHTTPRequestHandler):
 
 
 def main() -> None:
-    port = int(os.getenv("KDSA_API_PORT", "8000"))
+    port = int(os.getenv("PORT", os.getenv("KDSA_API_PORT", "8000")))
     client = get_client()
     from kdsa.search import _get_embedder
 
@@ -238,11 +238,11 @@ def main() -> None:
     except Exception as error:
         status = f"collection={config.COLLECTION} unavailable ({type(error).__name__})"
     print(
-        f"TRACE API listening on http://127.0.0.1:{port} "
+        f"TRACE API listening on http://0.0.0.0:{port} "
         f"({status}, synthesis={'ready' if config.GROQ_API_KEY else 'off'})",
         flush=True,
     )
-    ThreadingHTTPServer(("127.0.0.1", port), TraceHandler).serve_forever()
+    ThreadingHTTPServer(("0.0.0.0", port), TraceHandler).serve_forever()
 
 
 if __name__ == "__main__":

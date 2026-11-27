@@ -32,7 +32,10 @@ def get_client() -> QdrantClient:
     with _CLIENT_LOCK:
         if _CLIENT is None:
             if config.QDRANT_URL:
-                _CLIENT = QdrantClient(url=config.QDRANT_URL)
+                _CLIENT = QdrantClient(
+                    url=config.QDRANT_URL,
+                    api_key=config.QDRANT_API_KEY or None,
+                )
             else:
                 _CLIENT = QdrantClient(path=config.QDRANT_PATH)
         return _CLIENT
