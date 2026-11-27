@@ -222,27 +222,19 @@ class TraceHandler(BaseHTTPRequestHandler):
     def log_message(self, format: str, *args: Any) -> None:
         pass
 
-
-def main() -> None:
+def main():
     port = int(os.getenv("PORT", os.getenv("KDSA_API_PORT", "8000")))
-    client = get_client()
-    from kdsa.search import _get_embedder
 
-    print("Loading local embedding model...", flush=True)
-    _get_embedder()
-    try:
-        with _QUERY_LOCK, _QDRANT_LOCK:
-            client.get_collection(collection_name=config.COLLECTION)
-            count = client.count(collection_name=config.COLLECTION).count
-        status = f"collection={config.COLLECTION}, vectors={count}"
-    except Exception as error:
-        status = f"collection={config.COLLECTION} unavailable ({type(error).__name__})"
-    print(
-        f"TRACE API listening on http://0.0.0.0:{port} "
-        f"({status}, synthesis={'ready' if config.GROQ_API_KEY else 'off'})",
-        flush=True,
+    print("Starting TRACE API...", flush=True)
+
+    server = ThreadingHTTPServer(
+        ("0.0.0.0", port),
+        TraceHandler
     )
-    ThreadingHTTPServer(("0.0.0.0", port), TraceHandler).serve_forever()
+
+    print(f"TRACE API listening on 0.0.0.0:{port}", flush=True)
+
+    server.serve_forever()
 
 
 if __name__ == "__main__":
