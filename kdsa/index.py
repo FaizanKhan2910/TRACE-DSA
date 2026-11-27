@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import threading
 import uuid
 from pathlib import Path
 from typing import Any
@@ -21,13 +22,20 @@ _NS = uuid.UUID("6ba7b810-9dad-11d1-80b4-00c04fd430c8")  # NAMESPACE_URL
 
 VECTOR_SIZE = 384  # BAAI/bge-small-en-v1.5 output dimension
 BATCH_SIZE = 64
+_CLIENT_LOCK = threading.Lock()
+_CLIENT: QdrantClient | None = None
 
 
 def get_client() -> QdrantClient:
     """Return a Qdrant client — hosted if QDRANT_URL is set, local otherwise."""
-    if config.QDRANT_URL:
-        return QdrantClient(url=config.QDRANT_URL)
-    return QdrantClient(path=config.QDRANT_PATH)
+    global _CLIENT
+    with _CLIENT_LOCK:
+        if _CLIENT is None:
+            if config.QDRANT_URL:
+                _CLIENT = QdrantClient(url=config.QDRANT_URL)
+            else:
+                _CLIENT = QdrantClient(path=config.QDRANT_PATH)
+        return _CLIENT
 
 
 def get_or_create_collection(client: QdrantClient, recreate: bool = False) -> None:

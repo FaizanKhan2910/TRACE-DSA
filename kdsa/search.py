@@ -2,11 +2,29 @@
 
 from __future__ import annotations
 
+import threading
 from typing import Any
 
 from kdsa import config
 from kdsa.index import get_client
 from kdsa.models import Chunk
+
+_EMBEDDER_LOCK = threading.Lock()
+_EMBEDDING_RUN_LOCK = threading.Lock()
+_QUERY_LOCK = threading.Lock()
+_EMBEDDER: Any = None
+
+
+def _get_embedder():
+    """Load the embedding model once for CLI and API searches."""
+    global _EMBEDDER
+    if _EMBEDDER is None:
+        with _EMBEDDER_LOCK:
+            if _EMBEDDER is None:
+                from fastembed import TextEmbedding
+
+                _EMBEDDER = TextEmbedding(model_name=config.EMBED_MODEL)
+    return _EMBEDDER
 
 
 def _payload_to_chunk(payload: dict[str, Any]) -> Chunk:
@@ -37,10 +55,9 @@ def search(
     - Optionally filter by video_id.
     - Apply score_threshold cutoff.
     """
-    from fastembed import TextEmbedding
-
-    model = TextEmbedding(model_name=config.EMBED_MODEL)
-    vec = list(model.embed([query]))[0].tolist()
+    model = _get_embedder()
+    with _EMBEDDING_RUN_LOCK:
+        vec = list(model.embed([query]))[0].tolist()
 
     client = get_client()
 
@@ -51,13 +68,14 @@ def search(
             must=[FieldCondition(key="video_id", match=MatchValue(value=video_id))]
         )
 
-    hits = client.query_points(
-        collection_name=config.COLLECTION,
-        query=vec,
-        limit=max(k * max_per_video, k * 3, 24),
-        query_filter=query_filter,
-        with_payload=True,
-    ).points
+    with _QUERY_LOCK:
+        hits = client.query_points(
+            collection_name=config.COLLECTION,
+            query=vec,
+            limit=max(k * max_per_video, k * 3, 24),
+            query_filter=query_filter,
+            with_payload=True,
+        ).points
 
     results: list[tuple[Chunk, float]] = []
     per_video: dict[str, int] = {}
