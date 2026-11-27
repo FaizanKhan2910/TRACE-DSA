@@ -1,263 +1,52 @@
 
-"""HTTP API for the TRACE KDSA Qdrant retrieval pipeline."""
+"""TRACE API — HTTP server for the KDSA Qdrant retrieval pipeline."""
 
 from __future__ import annotations
 
 import json
 import os
-import shlex
-import threading
-import time
+import traceback
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
-from typing import Any
 from urllib.parse import urlparse
 
 from kdsa import config
 from kdsa.index import get_client
-from kdsa.search import _QUERY_LOCK, deep_search, search
-
-_QDRANT_LOCK = threading.Lock()
 
 
-def _fmt_timestamp(seconds: float) -> str:
-    value = max(0, int(seconds))
-    hours, remainder = divmod(value, 3600)
-    minutes, secs = divmod(remainder, 60)
-    return f"{hours}:{minutes:02d}:{secs:02d}" if hours else f"{minutes}:{secs:02d}"
+def _json_response(handler, status, payload):
+    body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+    handler.send_response(status)
+    handler.send_header("Content-Type", "application/json; charset=utf-8")
+    handler.send_header("Content-Length", str(len(body)))
+    handler.send_header("Access-Control-Allow-Origin", "*")
+    handler.send_header("Access-Control-Allow-Headers", "Content-Type")
+    handler.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+    handler.end_headers()
+    handler.wfile.write(body)
 
 
-def _cli_command(query: str, mode: str) -> str:
-    command = "deep" if mode == "deep" else "ask"
-    return f"uv run python -m kdsa.cli {command} -- {shlex.quote(query)}"
-
-
-def _excerpt(chunk: Any, score: float) -> dict[str, Any]:
-    start = float(chunk.start if chunk.start is not None else chunk.start_sec)
-    end = float(chunk.end if chunk.end is not None else chunk.end_sec)
-    text = chunk.text.strip()
-
-    return {
-        "video_title": chunk.video_title,
-        "video_id": chunk.video_id,
-        "chunk_index": chunk.chunk_index,
-        "start_sec": start,
-        "end_sec": end,
-        "timestamp": _fmt_timestamp(start),
-        "url": chunk.url,
-        "score": round(float(score), 4),
-        "snippet": text[:420] + ("…" if len(text) > 420 else ""),
-        "transcript_text": text,
-    }
-
-
-def _synthesize_answer(
-    query: str,
-    excerpts: list[dict[str, Any]],
-    mode: str
-) -> tuple[str, str | None]:
-
-    if not excerpts:
-        return "No transcript passages were returned for this query.", None
-
-    if not config.GROQ_API_KEY:
-        return (
-            f"Retrieved {len(excerpts)} transcript passage(s). "
-            "Answer synthesis is unavailable because GROQ_API_KEY is not configured.",
-            "GROQ_API_KEY is not configured",
-        )
-
-    from openai import OpenAI
-
-    context = "\n\n".join(
-        f"[{index}] {item['video_title']} @ {item['timestamp']}:\n"
-        f"{item['transcript_text']}"
-        for index, item in enumerate(excerpts, 1)
+def _collection_count(client):
+    result = client.count(
+        collection_name=config.COLLECTION,
+        exact=True,
     )
-
-    system = (
-        "You are a teaching assistant for a Java and Data Structures & Algorithms course. "
-        "Answer using only the numbered transcript excerpts. Cite factual claims with [n]. "
-        "If the excerpts do not support the answer, say that the topic is not covered. "
-        "Do not invent code details, explanations, or citations."
-    )
-
-    client = OpenAI(
-        api_key=config.GROQ_API_KEY,
-        base_url="https://api.groq.com/openai/v1",
-        timeout=45.0,
-        max_retries=1,
-    )
-
-    try:
-        response = client.chat.completions.create(
-            model=config.LLM_MODEL,
-            messages=[
-                {"role": "system", "content": system},
-                {
-                    "role": "user",
-                    "content": f"MODE: {mode}\n\nEXCERPTS:\n{context}\n\nQUESTION: {query}",
-                },
-            ],
-            temperature=0.2,
-            max_tokens=800,
-        )
-
-        answer = (
-            response.choices[0].message.content or ""
-        ).strip() if response.choices else ""
-
-        if answer:
-            return answer, None
-
-        return (
-            "The language model returned an empty answer. Review the retrieved source passages.",
-            "Empty model response",
-        )
-
-    except Exception as error:
-        return (
-            f"Retrieved {len(excerpts)} transcript passage(s), but answer synthesis failed. "
-            "Review the source passages.",
-            f"Synthesis unavailable ({type(error).__name__})",
-        )
-
-
-def _collection_count() -> int | None:
-    try:
-        client = get_client()
-
-        with _QUERY_LOCK, _QDRANT_LOCK:
-            return int(client.count(collection_name=config.COLLECTION).count)
-
-    except Exception:
-        return None
-
-
-def handle_query(payload: dict[str, Any]) -> dict[str, Any]:
-    started = time.perf_counter()
-
-    query = str(payload.get("query", "")).strip()
-
-    if not query:
-        raise ValueError("Query cannot be empty.")
-
-    if len(query) > 2000:
-        raise ValueError("Keep the query under 2,000 characters.")
-
-    mode = str(payload.get("mode", "deep")).lower()
-
-    if mode not in {"standard", "deep"}:
-        raise ValueError("Choose Standard or Deep Search.")
-
-    k = min(max(int(payload.get(
-        "k", 4 if mode == "standard" else 6
-    )), 1), 14)
-
-    if mode == "deep":
-        results, sub_queries = deep_search(
-            query,
-            k=k,
-            score_threshold=0.55,
-            max_per_video=6,
-        )
-        answer_gate = 0.60
-
-    else:
-        results = search(
-            query,
-            k=k,
-            score_threshold=0.0,
-            max_per_video=3,
-        )
-        sub_queries = [query]
-        answer_gate = 0.70
-
-    excerpts = [_excerpt(chunk, score) for chunk, score in results]
-
-    top_score = max(
-        (float(item["score"]) for item in excerpts),
-        default=0.0,
-    )
-
-    if excerpts and top_score < answer_gate:
-        answer = (
-            f"The strongest transcript match scored {top_score:.3f}, "
-            f"below the {answer_gate:.2f} answer threshold. "
-            "The passages are shown for inspection, but TRACE will not "
-            "synthesize an answer from a weak match."
-        )
-
-        synthesis_error = None
-        covered = False
-
-    else:
-        answer, synthesis_error = _synthesize_answer(
-            query,
-            excerpts,
-            mode,
-        )
-
-        answer_says_uncovered = (
-            "not covered in this playlist" in answer.lower()
-        )
-
-        covered = (
-            bool(excerpts)
-            and top_score >= answer_gate
-            and not answer_says_uncovered
-        )
-
-    return {
-        "query": query,
-        "mode": mode,
-        "covered": covered,
-        "top_score": round(top_score, 4),
-        "sub_queries": sub_queries,
-        "answer": answer,
-        "synthesis_error": synthesis_error,
-        "excerpts": excerpts,
-        "latency_ms": int((time.perf_counter() - started) * 1000),
-        "cli_command": _cli_command(query, mode),
-        "collection": config.COLLECTION,
-        "vectors": _collection_count(),
-    }
+    return result.count
 
 
 class TraceHandler(BaseHTTPRequestHandler):
 
-    def _send_json(self, status: int, body: dict[str, Any]) -> None:
-        raw = json.dumps(
-            body,
-            ensure_ascii=False,
-        ).encode("utf-8")
+    def log_message(self, fmt, *args):
+        print(f"TRACE API: {fmt % args}", flush=True)
 
-        self.send_response(status)
-        self.send_header(
-            "Content-Type",
-            "application/json; charset=utf-8",
-        )
-        self.send_header("Content-Length", str(len(raw)))
-        self.send_header("Access-Control-Allow-Origin", "*")
-        self.send_header(
-            "Access-Control-Allow-Methods",
-            "GET, POST, OPTIONS",
-        )
-        self.send_header(
-            "Access-Control-Allow-Headers",
-            "Content-Type",
-        )
-        self.end_headers()
-        self.wfile.write(raw)
+    def do_OPTIONS(self):
+        _json_response(self, 200, {"ok": True})
 
-    def do_OPTIONS(self) -> None:
-        self._send_json(200, {"ok": True})
-
-    def do_GET(self) -> None:
+    def do_GET(self):
         path = urlparse(self.path).path.rstrip("/") or "/"
 
-        # Root endpoint
         if path == "/":
-            self._send_json(
+            return _json_response(
+                self,
                 200,
                 {
                     "name": "TRACE API",
@@ -266,143 +55,141 @@ class TraceHandler(BaseHTTPRequestHandler):
                     "query": "/api/query",
                 },
             )
-            return
 
-        # Health endpoint
         if path == "/health":
             try:
                 client = get_client()
 
-                with _QUERY_LOCK, _QDRANT_LOCK:
-                    info = client.get_collection(
-                        collection_name=config.COLLECTION
-                    )
+                collection_info = client.get_collection(
+                    collection_name=config.COLLECTION
+                )
 
-                    vectors = int(
-                        client.count(
-                            collection_name=config.COLLECTION
-                        ).count
-                    )
+                vectors = _collection_count(client)
 
-                self._send_json(
+                return _json_response(
+                    self,
                     200,
                     {
                         "ok": True,
+                        "name": "TRACE API",
+                        "status": "healthy",
                         "collection": config.COLLECTION,
                         "vectors": vectors,
                         "embed_model": config.EMBED_MODEL,
-                        "vector_size": getattr(
-                            info.config.params.vectors,
-                            "size",
-                            None,
+                        "vector_size": 384,
+                        "distance": str(
+                            collection_info.config.params.vectors.distance
                         ),
-                        "distance": getattr(
-                            getattr(
-                                info.config.params.vectors,
-                                "distance",
-                                None,
-                            ),
-                            "value",
-                            None,
-                        ),
-                        "synthesis_available": bool(
-                            config.GROQ_API_KEY
-                        ),
+                        "synthesis_available": bool(config.GROQ_API_KEY),
                     },
                 )
 
-            except Exception as error:
+            except Exception as exc:
                 print(
-                    f"Health check failed: {type(error).__name__}: {error}",
+                    f"QDRANT HEALTH ERROR: {exc!r}",
                     flush=True,
                 )
+                traceback.print_exc()
 
-                self._send_json(
+                return _json_response(
+                    self,
                     503,
                     {
                         "ok": False,
-                        "error": (
-                            "Qdrant collection is unavailable "
-                            f"({type(error).__name__})."
+                        "error": str(exc),
+                        "error_type": type(exc).__name__,
+                        "collection": config.COLLECTION,
+                        "qdrant_url_configured": bool(config.QDRANT_URL),
+                        "qdrant_api_key_configured": bool(
+                            config.QDRANT_API_KEY
                         ),
                     },
                 )
 
-            return
+        return _json_response(
+            self,
+            404,
+            {"ok": False, "error": "Endpoint not found"},
+        )
 
-        self._send_json(404, {"error": "Not found"})
-
-    def do_POST(self) -> None:
+    def do_POST(self):
         path = urlparse(self.path).path.rstrip("/")
 
         if path != "/api/query":
-            self._send_json(404, {"error": "Not found"})
-            return
+            return _json_response(
+                self,
+                404,
+                {"ok": False, "error": "Endpoint not found"},
+            )
 
         try:
-            length = int(self.headers.get("Content-Length", "0"))
+            content_length = int(
+                self.headers.get("Content-Length", 0)
+            )
 
-            if length > 16_384:
-                self._send_json(
-                    413,
-                    {"error": "Request body is too large."},
+            if content_length <= 0:
+                return _json_response(
+                    self,
+                    400,
+                    {"ok": False, "error": "Request body is empty"},
                 )
-                return
 
-            raw = self.rfile.read(length) if length else b"{}"
-            payload = json.loads(raw.decode("utf-8"))
+            if content_length > 1_000_000:
+                return _json_response(
+                    self,
+                    413,
+                    {"ok": False, "error": "Request body too large"},
+                )
+
+            payload = json.loads(
+                self.rfile.read(content_length).decode("utf-8")
+            )
 
             if not isinstance(payload, dict):
-                raise ValueError(
-                    "Request body must be a JSON object."
+                return _json_response(
+                    self,
+                    400,
+                    {"ok": False, "error": "JSON body must be an object"},
                 )
 
-            self._send_json(200, handle_query(payload))
+            from kdsa.pipeline import handle_query
 
-        except (json.JSONDecodeError, UnicodeDecodeError):
-            self._send_json(
+            result = handle_query(payload)
+
+            return _json_response(self, 200, result)
+
+        except json.JSONDecodeError:
+            return _json_response(
+                self,
                 400,
-                {"error": "Invalid JSON body."},
+                {"ok": False, "error": "Invalid JSON"},
             )
 
-        except (ValueError, TypeError) as error:
-            self._send_json(
-                400,
-                {"error": str(error)},
-            )
-
-        except Exception as error:
+        except Exception as exc:
             print(
-                f"Query failed: {type(error).__name__}: {error}",
+                f"TRACE QUERY ERROR: {exc!r}",
                 flush=True,
             )
+            traceback.print_exc()
 
-            self._send_json(
-                503,
+            return _json_response(
+                self,
+                500,
                 {
-                    "error": (
-                        "Retrieval failed "
-                        f"({type(error).__name__})."
-                    )
+                    "ok": False,
+                    "error": str(exc),
+                    "error_type": type(exc).__name__,
                 },
             )
 
-    def log_message(self, format: str, *args: Any) -> None:
-        print(
-            f"{self.address_string()} - {format % args}",
-            flush=True,
-        )
 
-
-def main() -> None:
+def main():
     port = int(
-        os.getenv(
+        os.environ.get(
             "PORT",
-            os.getenv("KDSA_API_PORT", "8000"),
+            os.environ.get("KDSA_API_PORT", "8000"),
         )
     )
-
-    print("Starting TRACE API...", flush=True)
 
     server = ThreadingHTTPServer(
         ("0.0.0.0", port),
@@ -410,7 +197,7 @@ def main() -> None:
     )
 
     print(
-        f"TRACE API listening on 0.0.0.0:{port}",
+        f"TRACE API running on 0.0.0.0:{port}",
         flush=True,
     )
 
