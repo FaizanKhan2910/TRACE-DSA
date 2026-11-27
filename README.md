@@ -59,6 +59,43 @@ Edit `.env` and set your keys:
    uv run python -m kdsa.cli eval
    ```
 
+   ## How to Use TRACE
+
+TRACE helps you learn from Kunal Kushwaha’s DSA lectures without manually searching through long videos. Ask a question, find the relevant explanation, and jump directly to that moment in the lecture.
+
+### Get started
+
+1. **Open the TRACE workbench.** Enter a DSA or Java question in the search box.
+2. **Search the lecture archive.** TRACE retrieves relevant passages from its indexed lecture transcripts.
+3. **Read the answer.** Explore the explanation and the transcript excerpts used to generate it.
+4. **Verify the source.** Check the lecture title and timestamp associated with a retrieved passage.
+5. **Watch the explanation.** Select a source to play the corresponding lecture inside TRACE at the relevant timestamp.
+
+### What can you use it for?
+
+- **Review a concept:** Search for topics like binary search, recursion, AVL tree rotations, or Java HashMap.
+- **Find a lecture explanation:** Locate relevant moments without manually scrubbing through an entire video.
+- **Revisit something you missed:** Use the transcript excerpts and video timestamps to return to the explanation.
+- **Learn in context:** Read an answer, inspect the source passage, and watch the lecture segment that supports it.
+
+### Example
+
+You want to understand why binary search uses:
+
+```java
+int mid = low + (high - low) / 2;
+```
+
+Search this question in TRACE. It can retrieve relevant lecture passages, show the answer alongside its source information, and let you open the associated lecture at the matching timestamp.
+
+### Who is TRACE for?
+
+TRACE is useful for students learning DSA, developers revising fundamentals, and anyone following the indexed lecture content who wants a faster way to find and revisit explanations.
+
+### A note about coverage
+
+TRACE answers using the lecture material available in its indexed corpus. Results depend on the content and quality of those transcripts. If a topic is not covered, the system may not be able to provide a lecture-grounded answer. Check the linked source to verify the explanation and explore the original lesson.
+
 ## Known Limitations
 
 - **Auto-caption errors:** YouTube auto-generated captions occasionally mis-hear technical terms (e.g., variable names, Big-O notation). The `ask` prompt instructs the LLM to fix obvious mis-hearings without inventing facts.
