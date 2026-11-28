@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { AlertTriangle, Loader2, Pause, Play } from "lucide-react";
+import { AlertTriangle, ExternalLink, Loader2, Pause, Play } from "lucide-react";
 
 type YouTubePlayer = {
   destroy: () => void;
@@ -82,6 +82,7 @@ interface InlineLecturePlayerProps {
   startSeconds: number;
   title: string;
   timestamp: string;
+  url?: string;
   onTimeUpdate: (seconds: number) => void;
 }
 
@@ -90,6 +91,7 @@ export function InlineLecturePlayer({
   startSeconds,
   title,
   timestamp,
+  url,
   onTimeUpdate,
 }: InlineLecturePlayerProps) {
   const mountRef = useRef<HTMLDivElement>(null);
@@ -99,6 +101,10 @@ export function InlineLecturePlayer({
   const timestampRef = useRef(timestamp);
   const [status, setStatus] = useState<"loading" | "playing" | "paused" | "error">("loading");
   const [error, setError] = useState<string | null>(null);
+
+  const hasGenuineTimestamp = timestamp && timestamp !== "Timestamp unavailable";
+  const startSecClamped = hasGenuineTimestamp ? Math.max(0, Math.floor(startSeconds)) : 0;
+  const externalWatchUrl = url || (videoId ? `https://www.youtube.com/watch?v=${videoId}${hasGenuineTimestamp && startSecClamped > 0 ? `&t=${startSecClamped}s` : ""}` : "");
 
   useEffect(() => {
     timeUpdateRef.current = onTimeUpdate;
@@ -128,7 +134,7 @@ export function InlineLecturePlayer({
           origin: window.location.origin,
           playsinline: "1",
           rel: "0",
-          start: String(Math.max(0, Math.floor(startSeconds))),
+          start: String(startSecClamped),
         });
         iframe.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(videoId)}?${params.toString()}`;
         iframe.title = `${titleRef.current} · ${timestampRef.current}`;
@@ -142,7 +148,7 @@ export function InlineLecturePlayer({
           events: {
             onReady: (event) => {
               playerRef.current = event.target;
-              event.target.loadVideoById({ videoId, startSeconds: Math.max(0, startSeconds) });
+              event.target.loadVideoById({ videoId, startSeconds: startSecClamped });
               setStatus("loading");
             },
             onStateChange: (event) => {
@@ -183,7 +189,7 @@ export function InlineLecturePlayer({
       playerRef.current?.destroy();
       playerRef.current = null;
     };
-  }, [videoId, startSeconds]);
+  }, [videoId, startSecClamped]);
 
   return (
     <div className="overflow-hidden rounded-lg border border-white/15 bg-[#07080b] shadow-[0_18px_56px_rgba(0,0,0,0.55)]">
@@ -194,11 +200,25 @@ export function InlineLecturePlayer({
           </div>
           <div className="mt-1 truncate font-display text-lg font-semibold text-white">{title}</div>
         </div>
-        <div className="inline-flex shrink-0 items-center gap-2 rounded border border-[#ff4d0a]/40 bg-[#ff4d0a]/10 px-2.5 py-1 font-mono-tech text-sm text-[#ff9e44]">
-          {status === "playing" ? <Play className="h-3.5 w-3.5 fill-current" /> : status === "paused" ? <Pause className="h-3.5 w-3.5" /> : null}
-          {status === "loading" ? "LOADING" : status === "playing" ? "PLAYING" : status === "paused" ? "PAUSED" : "UNAVAILABLE"}
-          <span className="text-white/50">·</span>
-          <span>@ {timestamp}</span>
+        <div className="flex items-center gap-2">
+          {externalWatchUrl && (
+            <a
+              href={externalWatchUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 rounded border border-white/20 bg-white/5 px-2.5 py-1 font-mono-tech text-xs text-[#d7d3ca] hover:border-[#ff4d0a] hover:text-[#ff9e44] transition"
+              title="Open video directly on YouTube"
+            >
+              <span>YouTube</span>
+              <ExternalLink className="h-3 w-3" />
+            </a>
+          )}
+          <div className="inline-flex shrink-0 items-center gap-2 rounded border border-[#ff4d0a]/40 bg-[#ff4d0a]/10 px-2.5 py-1 font-mono-tech text-sm text-[#ff9e44]">
+            {status === "playing" ? <Play className="h-3.5 w-3.5 fill-current" /> : status === "paused" ? <Pause className="h-3.5 w-3.5" /> : null}
+            {status === "loading" ? "LOADING" : status === "playing" ? "PLAYING" : status === "paused" ? "PAUSED" : "UNAVAILABLE"}
+            <span className="text-white/50">·</span>
+            <span>{hasGenuineTimestamp ? `@ ${timestamp}` : "Timestamp unavailable"}</span>
+          </div>
         </div>
       </div>
 
@@ -207,7 +227,9 @@ export function InlineLecturePlayer({
         {status === "loading" && !error && (
           <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center gap-2 bg-black/70 text-center">
             <Loader2 className="h-7 w-7 animate-spin text-[#ff9e44]" />
-            <span className="font-mono-tech text-sm tracking-[0.12em] text-white/80">BUFFERING SOURCE AT {timestamp}</span>
+            <span className="font-mono-tech text-sm tracking-[0.12em] text-white/80">
+              BUFFERING SOURCE {hasGenuineTimestamp ? `AT ${timestamp}` : ""}
+            </span>
           </div>
         )}
         {error && (
@@ -215,12 +237,22 @@ export function InlineLecturePlayer({
             <AlertTriangle className="h-7 w-7 text-[#ff9e44]" />
             <div className="font-display text-lg font-semibold text-white">Inline playback unavailable</div>
             <p className="max-w-lg text-sm leading-relaxed text-[#c4c0b7]">{error} This source remains selected in TRACE; try another retrieved lecture.</p>
+            {externalWatchUrl && (
+              <a
+                href={externalWatchUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded border border-[#ff4d0a] bg-[#ff4d0a]/15 px-3 py-1.5 font-mono-tech text-sm text-[#ffbd73] hover:bg-[#ff4d0a] hover:text-[#090a0d] transition"
+              >
+                Open on YouTube ↗
+              </a>
+            )}
           </div>
         )}
       </div>
       <div className="flex flex-wrap items-center justify-between gap-2 border-t border-white/10 bg-black/30 px-4 py-2 font-mono-tech text-xs text-[#aaa79f]">
-        <span>VIDEO ID · {videoId}</span>
-        <span>CHUNK START · {startSeconds}s</span>
+        <span>VIDEO ID · {videoId || "N/A"}</span>
+        <span>{hasGenuineTimestamp ? `CHUNK START · ${startSecClamped}s` : "TIMESTAMP · UNAVAILABLE"}</span>
       </div>
     </div>
   );

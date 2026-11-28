@@ -53,8 +53,8 @@ export default function HomePage() {
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
-  const handleQueryTopic = (query: string) => {
-    archiveRef.current?.runExternalQuery(query);
+  const handleQueryTopic = (query: string, mode?: "standard" | "deep") => {
+    archiveRef.current?.runExternalQuery(query, mode);
     const el = document.getElementById("query");
     if (el) {
       el.scrollIntoView({ behavior: "smooth" });

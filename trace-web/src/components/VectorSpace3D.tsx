@@ -8,7 +8,7 @@ import { VECTOR_CLUSTERS } from "@/data/pipelineAndStory";
 
 interface VectorSpace3DProps {
   theme: "radiant" | "paper";
-  onQueryTopic: (query: string, demoId?: string) => void;
+  onQueryTopic: (query: string, mode?: "standard" | "deep") => void;
 }
 
 function seededUnit(seed: number): number {
@@ -651,7 +651,7 @@ export function VectorSpace3D({ theme, onQueryTopic }: VectorSpace3DProps) {
                 onClick={() =>
                   onQueryTopic(
                     `Explain ${displayLecture.title.split(" - ")[0]} concepts and time complexity from Kunal's lecture`,
-                    clusterMeta.sampleQueryId
+                    "deep"
                   )
                 }
                 className="btn-ember-glow font-mono-tech text-lg px-4 py-2 rounded-sm inline-flex items-center gap-1.5 cursor-pointer"

@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { ExternalLink, Play, Zap } from "lucide-react";
 
 interface PipelineBentoProps {
-  onQueryTopic: (query: string, demoId?: string) => void;
+  onQueryTopic: (query: string, mode?: "standard" | "deep") => void;
 }
 
 const SWEEP_NODES = [
@@ -228,7 +228,7 @@ export function PipelineBento({ onQueryTopic }: PipelineBentoProps) {
               </a>
               <button
                 type="button"
-                onClick={() => onQueryTopic(activeNode.q, activeNode.demoId)}
+                onClick={() => onQueryTopic(activeNode.q, "deep")}
                 className="px-3 py-1.5 rounded-sm bg-[var(--ember)] text-[#090a0d] font-bold inline-flex items-center gap-1 text-lg cursor-pointer"
               >
                 <Zap className="w-3 h-3" />

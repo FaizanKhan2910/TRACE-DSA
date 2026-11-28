@@ -7,7 +7,7 @@ import { PLAYLIST_VIDEOS, RAG_DEMOS } from "@/data/verifiedData";
 interface CommandPaletteProps {
   open: boolean;
   onClose: () => void;
-  onQueryTopic: (query: string, demoId?: string) => void;
+  onQueryTopic: (query: string, mode?: "standard" | "deep") => void;
 }
 
 export function CommandPalette({ open, onClose, onQueryTopic }: CommandPaletteProps) {
@@ -94,7 +94,7 @@ export function CommandPalette({ open, onClose, onQueryTopic }: CommandPalettePr
                   key={d.id}
                   type="button"
                   onClick={() => {
-                    onQueryTopic(d.query, d.id);
+                    onQueryTopic(d.query, d.mode === "deep" ? "deep" : "standard");
                     onClose();
                   }}
                   className="w-full text-left px-3 py-2.5 rounded-sm hover:bg-[var(--bg-elevated)] flex items-center justify-between gap-2 transition cursor-pointer"

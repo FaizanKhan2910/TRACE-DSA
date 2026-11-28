@@ -1,12 +1,13 @@
 "use client";
 
 import { forwardRef, useEffect, useImperativeHandle, useRef, useState } from "react";
-import { Check, Copy, Loader2, ShieldAlert, Sparkles, Terminal } from "lucide-react";
-import { RagExcerpt } from "@/data/verifiedData";
+import { Check, ChevronDown, ChevronUp, Copy, ExternalLink, Loader2, RefreshCw, ShieldAlert, Sparkles, Terminal } from "lucide-react";
+import { TraceExcerpt, BackendHealthResponse } from "@/types/trace";
+import { normalizeQueryResponse } from "@/lib/trace-api";
 import { InlineLecturePlayer } from "@/components/InlineLecturePlayer";
 
 export interface ArchiveConsoleHandle {
-  runExternalQuery: (query: string) => void;
+  runExternalQuery: (query: string, mode?: "standard" | "deep") => void;
 }
 
 interface QueryResultState {
@@ -16,23 +17,12 @@ interface QueryResultState {
   top_score: number;
   sub_queries: string[];
   answer: string;
-  excerpts: RagExcerpt[];
+  excerpts: TraceExcerpt[];
   latency_ms: number;
   cli_command: string;
   collection: string;
   vectors: number | null;
   synthesis_error?: string | null;
-}
-
-interface BackendStatus {
-  liveBackend: boolean;
-  collection?: string;
-  vectors?: number;
-  embed_model?: string;
-  vector_size?: number;
-  distance?: string;
-  synthesis_available?: boolean;
-  error?: string;
 }
 
 const emptyResult: QueryResultState = {
@@ -41,7 +31,7 @@ const emptyResult: QueryResultState = {
   covered: false,
   top_score: 0,
   sub_queries: [],
-  answer: "Enter a Java or DSA question to search the local transcript index.",
+  answer: "Enter a Java or DSA question to search the live Kunal Kushwaha lecture index.",
   excerpts: [],
   latency_ms: 0,
   cli_command: "",
@@ -49,20 +39,21 @@ const emptyResult: QueryResultState = {
   vectors: null,
 };
 
-const shellQuote = (value: string) => `'${value.replace(/'/g, "'\\''")}'`;
 export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveConsole(_, ref) {
   const [liveBackend, setLiveBackend] = useState<boolean | null>(null);
-  const [backendStatus, setBackendStatus] = useState<BackendStatus | null>(null);
+  const [backendStatus, setBackendStatus] = useState<BackendHealthResponse | null>(null);
+  const [probingBackend, setProbingBackend] = useState<boolean>(true);
   const [mode, setMode] = useState<"standard" | "deep">("deep");
   const [question, setQuestion] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
-  const [stepLabel, setStepLabel] = useState<string>("CONNECTING TO LOCAL QDRANT...");
+  const [stepLabel, setStepLabel] = useState<string>("CONNECTING TO DEPLOYED TRACE API...");
   const [result, setResult] = useState<QueryResultState>(emptyResult);
   const [streamedText, setStreamedText] = useState<string>(emptyResult.answer);
   const [activeCite, setActiveCite] = useState<number | null>(null);
-  const [selectedSource, setSelectedSource] = useState<RagExcerpt | null>(null);
+  const [selectedSource, setSelectedSource] = useState<TraceExcerpt | null>(null);
   const [requestError, setRequestError] = useState<string | null>(null);
   const [copiedCli, setCopiedCli] = useState<boolean>(false);
+  const [expandedTranscripts, setExpandedTranscripts] = useState<Record<number, boolean>>({});
 
   const streamTimerRef = useRef<number | null>(null);
   const excerptRefs = useRef<(HTMLDivElement | null)[]>([]);
@@ -71,26 +62,35 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
   const [rightPanelHeight, setRightPanelHeight] = useState<number | null>(null);
   const requestIdRef = useRef(0);
   const controllerRef = useRef<AbortController | null>(null);
+
   const currentCliCommand = question.trim()
-    ? `uv run python -m kdsa.cli ${mode === "deep" ? "deep" : "ask"} -- ${shellQuote(question.trim())}`
+    ? `curl -X POST https://trace-kunal-kushwaha-dsa-lecture.onrender.com/api/query -H "Content-Type: application/json" -d '{"query": ${JSON.stringify(question.trim())}, "mode": "${mode}"}'`
     : "";
 
-  useEffect(() => {
+  const checkHealth = () => {
+    setProbingBackend(true);
     fetch("/api/trace", { cache: "no-store" })
       .then((r) => r.json())
-      .then((d: BackendStatus) => {
+      .then((d: BackendHealthResponse) => {
         setBackendStatus(d);
-        setLiveBackend(Boolean(d.liveBackend));
+        const isLive = Boolean(d.liveBackend && d.ok !== false);
+        setLiveBackend(isLive);
+        setProbingBackend(false);
         setStepLabel(
-          d.liveBackend
-            ? `QDRANT READY · ${Number(d.vectors ?? 0).toLocaleString()} VECTORS`
-            : "LOCAL QDRANT UNAVAILABLE · START THE KDSA API"
+          isLive
+            ? `QDRANT READY · ${Number(d.vectors ?? 2933).toLocaleString()} VECTORS`
+            : d.error || "TRACE API UNAVAILABLE · CHECK BACKEND CONFIGURATION"
         );
       })
       .catch(() => {
         setLiveBackend(false);
-        setStepLabel("LOCAL QDRANT UNAVAILABLE · START THE KDSA API");
+        setProbingBackend(false);
+        setStepLabel("TRACE API UNAVAILABLE · CHECK BACKEND CONFIGURATION");
       });
+  };
+
+  useEffect(() => {
+    checkHealth();
 
     return () => {
       if (streamTimerRef.current) window.clearInterval(streamTimerRef.current);
@@ -105,11 +105,11 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
 
     const syncPanelHeight = () => {
       if (!desktopLayout.matches) {
-        setRightPanelHeight((current) => current === null ? current : null);
+        setRightPanelHeight((current) => (current === null ? current : null));
         return;
       }
       const nextHeight = Math.ceil(leftPanel.getBoundingClientRect().height);
-      setRightPanelHeight((current) => current === nextHeight ? current : nextHeight);
+      setRightPanelHeight((current) => (current === nextHeight ? current : nextHeight));
     };
 
     const observer = new ResizeObserver(syncPanelHeight);
@@ -171,8 +171,15 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
     setLoading(true);
     setActiveCite(null);
     setSelectedSource(null);
+    setExpandedTranscripts({});
     excerptRefs.current = [];
-    setStepLabel(nextMode === "deep" ? "EXPANDING QUERY · SEARCHING LOCAL QDRANT..." : "EMBEDDING QUERY · SEARCHING LOCAL QDRANT...");
+    setStepLabel(
+      nextMode === "deep"
+        ? "EXPANDING QUERY · MULTI-VECTOR RETRIEVAL ON QDRANT..."
+        : "EMBEDDING QUERY · SEARCHING QDRANT CLOUD..."
+    );
+
+    const startTime = performance.now();
 
     try {
       const res = await fetch("/api/trace", {
@@ -181,34 +188,86 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
         body: JSON.stringify({ query: clean, mode: nextMode }),
         signal: controller.signal,
       });
-      const data = (await res.json()) as QueryResultState & { error?: string };
-      if (!res.ok) throw new Error(data.error || "Local retrieval failed.");
+
+      const rawJson = await res.json().catch(() => null);
+      const latencyMs = Math.round(performance.now() - startTime);
+
+      if (!res.ok) {
+        const errorMsg = rawJson?.error || `Search failed with status ${res.status}`;
+        throw new Error(errorMsg);
+      }
+
+      const normalized = normalizeQueryResponse(rawJson, clean, nextMode, latencyMs);
+
       if (requestId !== requestIdRef.current) return;
-      setResult(data);
+
+      const isCovered =
+        normalized.answer.trim().toLowerCase() !== "not covered in this playlist" &&
+        !normalized.answer.startsWith("Not covered: The provided excerpts") &&
+        normalized.excerpts.length > 0;
+
+      const updatedResult: QueryResultState = {
+        query: normalized.query,
+        mode: normalized.mode,
+        covered: isCovered,
+        top_score: normalized.top_score,
+        sub_queries: normalized.sub_queries,
+        answer: normalized.answer,
+        excerpts: normalized.excerpts,
+        latency_ms: latencyMs,
+        cli_command: `curl -X POST https://trace-kunal-kushwaha-dsa-lecture.onrender.com/api/query -H "Content-Type: application/json" -d '{"query": ${JSON.stringify(clean)}, "mode": "${nextMode}"}'`,
+        collection: normalized.collection || backendStatus?.collection || "dsa_lectures_384",
+        vectors: normalized.vectors ?? backendStatus?.vectors ?? 2933,
+        synthesis_error: normalized.synthesis_error,
+      };
+
+      setResult(updatedResult);
       setActiveCite(null);
       setStepLabel(
-        data.synthesis_error
-          ? `SOURCES FOUND · SYNTHESIS UNAVAILABLE · ${data.latency_ms}ms`
-          : !data.covered
-            ? `${data.excerpts.length ? "LOW CONFIDENCE" : "NO MATCHING PASSAGES"} · ${data.latency_ms}ms`
-            : `LIVE QDRANT · ${data.excerpts.length} SOURCES · ${data.latency_ms}ms`
+        normalized.synthesis_error
+          ? `SOURCES RETRIEVED · SYNTHESIS UNAVAILABLE · ${latencyMs}ms`
+          : !isCovered
+          ? `${normalized.excerpts.length ? "TOPIC PARTIAL/UNCOVERED" : "NO MATCHING PASSAGES"} · ${latencyMs}ms`
+          : `LIVE QDRANT · ${normalized.excerpts.length} SOURCES · ${latencyMs}ms`
       );
-      animateAnswerStream(data.answer);
+
+      animateAnswerStream(normalized.answer);
     } catch (error) {
       if (requestId !== requestIdRef.current || (error instanceof Error && error.name === "AbortError")) return;
-      const message = error instanceof Error ? error.message : "Unable to reach the local retrieval API.";
+      const message = error instanceof Error ? error.message : "Unable to reach the live retrieval API.";
       setRequestError(message);
-      setStepLabel("SEARCH FAILED · LOCAL RETRIEVAL ERROR");
+      setStepLabel("SEARCH FAILED · BACKEND RETRIEVAL ERROR");
       setStreamedText("");
     } finally {
       if (requestId === requestIdRef.current) setLoading(false);
     }
   };
 
+  const handleClear = () => {
+    requestIdRef.current += 1;
+    controllerRef.current?.abort();
+    if (streamTimerRef.current) window.clearInterval(streamTimerRef.current);
+    setQuestion("");
+    setLoading(false);
+    setResult(emptyResult);
+    setStreamedText(emptyResult.answer);
+    setRequestError(null);
+    setActiveCite(null);
+    setSelectedSource(null);
+    setExpandedTranscripts({});
+    setStepLabel(
+      liveBackend
+        ? `QDRANT READY · ${Number(backendStatus?.vectors ?? 2933).toLocaleString()} VECTORS`
+        : "TRACE API UNAVAILABLE"
+    );
+  };
+
   useImperativeHandle(ref, () => ({
-      runExternalQuery: (queryText: string) => {
-        setQuestion(queryText);
-        executeQuery(queryText, mode);
+    runExternalQuery: (queryText: string, queryMode?: "standard" | "deep") => {
+      const selectedMode = queryMode || mode;
+      if (queryMode) setMode(queryMode);
+      setQuestion(queryText);
+      executeQuery(queryText, selectedMode);
     },
   }));
 
@@ -220,7 +279,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
     }
   };
 
-  const selectSource = (excerpt: RagExcerpt, index: number) => {
+  const selectSource = (excerpt: TraceExcerpt, index: number) => {
     setSelectedSource(excerpt);
     setActiveCite(index + 1);
     window.requestAnimationFrame(() => {
@@ -237,10 +296,17 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
   const syncReceiptWithPlayback = (seconds: number) => {
     if (!selectedSource) return;
     const index = result.excerpts.findIndex((excerpt) => {
-      const end = excerpt.end_sec ?? excerpt.start_sec;
+      const end = excerpt.end_sec && excerpt.end_sec > 0 ? excerpt.end_sec : excerpt.start_sec + 60;
       return excerpt.video_id === selectedSource.video_id && seconds >= excerpt.start_sec && seconds <= end;
     });
-    if (index >= 0) setActiveCite((current) => current === index + 1 ? current : index + 1);
+    if (index >= 0) setActiveCite((current) => (current === index + 1 ? current : index + 1));
+  };
+
+  const toggleTranscriptExpand = (index: number) => {
+    setExpandedTranscripts((prev) => ({
+      ...prev,
+      [index]: !prev[index],
+    }));
   };
 
   const renderCitedProse = (text: string) => {
@@ -310,8 +376,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
             </h2>
           </div>
           <p className="max-w-lg text-xl sm:text-xl leading-relaxed text-[#c4c0b7]">
-            Search indexed lesson passages. Ask a Java or DSA question, then follow a source timestamp to that moment in the video with{" "}
-            <code className="font-mono-tech text-xl text-[#ff9e44]">?t=Xs</code>.
+            Search indexed lesson passages. Ask a Java or DSA question, then inspect grounded answers and jump directly to relevant moments in the course videos.
           </p>
         </div>
 
@@ -328,33 +393,50 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                   TRACE / ARCHIVE WORKBENCH
                 </div>
                 <div className="font-mono-tech text-lg text-[#b0ada5]">
-                  {backendStatus?.embed_model ?? "Local embedding model"} · {backendStatus?.vector_size ?? "—"}d {backendStatus?.distance ?? "similarity"} · RRF Fusion
+                  {backendStatus?.embed_model || "BAAI/bge-small-en-v1.5"} · {backendStatus?.vector_size || 384}d {backendStatus?.distance || "Cosine"} · Groq Synthesis
                 </div>
               </div>
             </div>
 
             <div className="flex flex-wrap items-center gap-2.5">
-              {/* Live Backend Indicator */}
+              {/* Live Backend Connection Indicator */}
               <div
-                className={`px-3 py-1 rounded-full border font-mono-tech text-lg inline-flex items-center gap-2 ${
-                  liveBackend
+                className={`px-3 py-1 rounded-full border font-mono-tech text-base sm:text-lg inline-flex items-center gap-2 ${
+                  probingBackend
+                    ? "border-amber-500/40 bg-amber-500/10 text-[#ffbd73]"
+                    : liveBackend
                     ? "border-emerald-500/40 bg-emerald-500/10 text-[#34d399]"
-                    : "border-amber-500/40 bg-amber-500/10 text-[#ff9e44]"
+                    : "border-red-500/40 bg-red-500/10 text-[#ff6b6b]"
                 }`}
               >
                 <span
-                  className={`h-1.5 w-1.5 rounded-full ${
-                    liveBackend ? "bg-[#1cb67c] animate-pulse" : "bg-[#ff9e44]"
+                  className={`h-2 w-2 rounded-full ${
+                    probingBackend
+                      ? "bg-[#ffbd73] animate-pulse"
+                      : liveBackend
+                      ? "bg-[#1cb67c] shadow-[0_0_8px_#1cb67c] animate-pulse"
+                      : "bg-[#ff4d4d]"
                   }`}
                 />
-                {liveBackend === null
-                  ? "PROBING LOCAL QDRANT..."
+                {probingBackend
+                  ? "CONNECTING TO RENDER..."
                   : liveBackend
                   ? backendStatus?.synthesis_available
-                    ? "LIVE QDRANT · GROQ SYNTHESIS READY"
-                    : "LIVE QDRANT · RETRIEVAL ONLY"
-                  : "LOCAL QDRANT UNAVAILABLE"}
+                    ? "LIVE QDRANT CLOUD · GROQ SYNTHESIS ONLINE"
+                    : "LIVE QDRANT CLOUD · RETRIEVAL ONLY"
+                  : "BACKEND OFFLINE / COLD STARTING"}
               </div>
+
+              {/* Refresh backend status button */}
+              <button
+                type="button"
+                onClick={checkHealth}
+                title="Refresh backend status"
+                aria-label="Refresh backend status"
+                className="p-1.5 rounded border border-white/15 bg-white/5 hover:border-[#ff4d0a] text-[#f4f0e8] transition cursor-pointer"
+              >
+                <RefreshCw className={`w-3.5 h-3.5 ${probingBackend ? "animate-spin text-[#ff9e44]" : ""}`} />
+              </button>
             </div>
           </div>
 
@@ -363,8 +445,8 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div className="font-mono-tech text-base sm:text-lg text-[#aaa79f]">
                 {backendStatus
-                  ? `${backendStatus.collection ?? "QDRANT COLLECTION"} · ${Number(backendStatus.vectors ?? 0).toLocaleString()} VECTORS · ${backendStatus.vector_size ?? "?"}D ${backendStatus.distance ?? "VECTOR"} · ${backendStatus.embed_model ?? "EMBEDDING MODEL"}`
-                  : "Checking local vector index…"}
+                  ? `${backendStatus.collection || "dsa_lectures_384"} · ${Number(backendStatus.vectors ?? 2933).toLocaleString()} VECTORS · ${backendStatus.vector_size ?? 384}D ${backendStatus.distance ?? "Cosine"} · ${backendStatus.embed_model ?? "BAAI/bge-small-en-v1.5"}`
+                  : "Checking live backend health…"}
               </div>
 
               {/* Standard vs Deep Search Toggle */}
@@ -385,7 +467,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                         : "text-[#8e8c84] hover:text-white"
                     }`}
                   >
-                    {m === "standard" ? "Standard (k=4)" : "Deep Search (RRF)"}
+                    {m === "standard" ? "Standard (k=8)" : "Deep Search (RRF Expansion)"}
                   </button>
                 ))}
               </div>
@@ -410,26 +492,37 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                     executeQuery(question, mode);
                   }
                 }}
-                placeholder="Ask a question covered by the indexed Java and DSA lessons..."
+                placeholder="Ask any Java or DSA question (e.g. 'Explain binary search logic', 'Why does start + (end - start)/2 prevent overflow?')..."
                 className="flex-1 bg-transparent text-[#f4f0e8] placeholder-[#5a5d66] font-mono-tech text-xl leading-relaxed outline-none resize-none min-h-[46px]"
               />
-              <button
-                type="submit"
-                disabled={loading}
-                className="btn-ember-glow font-mono-tech text-xl px-5 py-3 rounded-md inline-flex items-center justify-center gap-2 shrink-0 disabled:opacity-60 cursor-pointer"
-              >
-                {loading ? (
-                  <>
-                    <Loader2 className="w-4 h-4 animate-spin" />
-                    RETRIEVING...
-                  </>
-                ) : (
-                  <>
-                    <Sparkles className="w-4 h-4" />
-                    SEARCH ARCHIVE ↗
-                  </>
+              <div className="flex items-center gap-2 shrink-0">
+                {question.trim() && (
+                  <button
+                    type="button"
+                    onClick={handleClear}
+                    className="font-mono-tech text-base px-3 py-3 rounded-md border border-white/15 bg-white/5 hover:bg-white/10 text-[#d7d3ca] transition cursor-pointer"
+                  >
+                    CLEAR
+                  </button>
                 )}
-              </button>
+                <button
+                  type="submit"
+                  disabled={loading}
+                  className="btn-ember-glow font-mono-tech text-xl px-5 py-3 rounded-md inline-flex items-center justify-center gap-2 shrink-0 disabled:opacity-60 cursor-pointer"
+                >
+                  {loading ? (
+                    <>
+                      <Loader2 className="w-4 h-4 animate-spin" />
+                      {mode === "deep" ? "DEEP RETRIEVING..." : "SEARCHING..."}
+                    </>
+                  ) : (
+                    <>
+                      <Sparkles className="w-4 h-4" />
+                      SEARCH ARCHIVE ↗
+                    </>
+                  )}
+                </button>
+              </div>
             </form>
 
             {/* Dynamic Copyable CLI Strip */}
@@ -437,17 +530,17 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
               <div className="flex items-center gap-2 text-[#34d399] min-w-0">
                 <Terminal className="w-3.5 h-3.5 text-[#ff4d0a] shrink-0" />
                 <span className="truncate">
-                  {currentCliCommand || "Enter a query to preview the matching CLI command"}
+                  {currentCliCommand || "Enter a query to preview the matching API / cURL command"}
                 </span>
               </div>
               <button
                 type="button"
                 onClick={copyCli}
                 disabled={!currentCliCommand}
-                className="px-2.5 py-1 rounded border border-white/15 bg-white/5 hover:border-[#ff4d0a] text-[#f4f0e8] inline-flex items-center gap-1.5 shrink-0 cursor-pointer"
+                className="px-2.5 py-1 rounded border border-white/15 bg-white/5 hover:border-[#ff4d0a] text-[#f4f0e8] inline-flex items-center gap-1.5 shrink-0 cursor-pointer disabled:opacity-40"
               >
                 {copiedCli ? <Check className="w-3 h-3 text-[#34d399]" /> : <Copy className="w-3 h-3" />}
-                {copiedCli ? "Copied" : "Copy CLI"}
+                {copiedCli ? "Copied" : "Copy cURL"}
               </button>
             </div>
           </div>
@@ -460,21 +553,21 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                 <span
                   className={result.covered && !result.synthesis_error ? "text-[#34d399]" : "text-[#ff9e44]"}
                 >
-                  ● {loading ? (mode === "deep" ? "EXPANDING QUERIES · SEARCHING LOCAL QDRANT…" : "EMBEDDING QUERY · SEARCHING LOCAL QDRANT…") : stepLabel}
+                  ● {loading ? (mode === "deep" ? "EXPANDING QUERIES · MULTI-VECTOR RETRIEVAL ON QDRANT…" : "EMBEDDING QUERY · SEARCHING QDRANT CLOUD…") : stepLabel}
                 </span>
                 <span className="px-2 py-0.5 rounded bg-white/5 border border-white/10 text-[#c4c0b7]">
                   {result.excerpts.length ? `TOP MATCH: ${result.top_score.toFixed(3)}` : "NO SCORE YET"}
                 </span>
               </div>
 
-              {/* Expanded Sub-Queries */}
+              {/* Sub-Queries Plan Indicator */}
               <div className="rounded-md border border-white/10 bg-black/35 p-4 space-y-2">
                 <div className="font-mono-tech text-lg tracking-[0.1em] text-[#b0ada5]">
                   {result.query && result.mode === "deep"
                     ? `RRF SUB-QUERY EXPANSION PLAN (${result.sub_queries.length})`
                     : result.query
-                      ? "DIRECT SINGLE-VECTOR QUERY"
-                      : "SUB-QUERY EXPANSION · WAITING FOR SEARCH"}
+                    ? "DIRECT SINGLE-VECTOR QUERY"
+                    : "SUB-QUERY EXPANSION · WAITING FOR SEARCH"}
                 </div>
                 {result.sub_queries.map((sq, i) => (
                   <div
@@ -489,25 +582,43 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
 
               {/* Grounded Answer Prose with Clickable Citations */}
               <div className="rounded-md border border-white/10 bg-[#12151c] p-5">
-                <div className="font-mono-tech text-lg tracking-[0.1em] text-[#34d399] mb-3 flex items-center gap-2">
+                <div className="font-mono-tech text-lg tracking-[0.1em] text-[#34d399] mb-3 flex items-center justify-between gap-2">
                   {result.synthesis_error ? (
-                    <span className="text-[#ff9e44]">SYNTHESIS UNAVAILABLE · REVIEW LIVE SOURCES</span>
+                    <span className="text-[#ff9e44]">SYNTHESIS ERROR · SHOWING RETRIEVED EXCERPTS</span>
                   ) : result.covered ? (
                     <span>GROUNDED SYNTHESIS // CLICK [N] TO INSPECT PROOF</span>
                   ) : (
                     <span className="text-[#ff9e44] inline-flex items-center gap-1.5">
                       <ShieldAlert className="w-3.5 h-3.5" />
-                      {requestError ? "LOCAL RETRIEVAL ERROR" : result.query ? "SYNTHESIS / COVERAGE STATUS" : "GROUNDED ANSWER"}
+                      {requestError ? "BACKEND RETRIEVAL ERROR" : result.query ? "SYNTHESIS / COVERAGE STATUS" : "GROUNDED ANSWER"}
                     </span>
                   )}
+                  {result.latency_ms > 0 && (
+                    <span className="font-mono-tech text-sm text-[#8e8c84]">{result.latency_ms}ms</span>
+                  )}
                 </div>
+
+                {result.synthesis_error && (
+                  <div className="mb-4 p-3 rounded bg-amber-500/10 border border-amber-500/30 text-amber-200 text-sm font-mono-tech">
+                    Note: Groq LLM synthesis encountered an issue ({result.synthesis_error}), but the vector passages below were successfully retrieved from Qdrant Cloud.
+                  </div>
+                )}
+
                 <p className="text-xl leading-[1.75] text-[#ebe7df]">
                   {loading ? (
                     <span className="inline-flex items-center gap-2 text-[#ff9e44]" role="status">
                       <Loader2 className="h-4 w-4 animate-spin" />
-                      <span className="animate-pulse">Embedding query, searching Qdrant, and collecting source receipts…</span>
+                      <span className="animate-pulse">
+                        {mode === "deep"
+                          ? "Executing multi-query RRF search on Qdrant Cloud and synthesizing with Groq..."
+                          : "Embedding query with BGE-small, searching Qdrant, and synthesizing grounded answer..."}
+                      </span>
                     </span>
-                  ) : requestError ? requestError : renderCitedProse(streamedText || result.answer)}
+                  ) : requestError ? (
+                    requestError
+                  ) : (
+                    renderCitedProse(streamedText || result.answer)
+                  )}
                 </p>
 
                 {result.excerpts.length > 0 && (
@@ -541,7 +652,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
             >
               <div className="font-mono-tech text-lg tracking-[0.1em] text-[#b0ada5] flex items-center justify-between gap-3">
                 <span>RETRIEVED QDRANT EXCERPTS ({result.excerpts.length})</span>
-                <span>COLLECTION: {result.collection || backendStatus?.collection || "—"} · {result.vectors != null ? result.vectors.toLocaleString() : Number(backendStatus?.vectors ?? 0).toLocaleString()} VECTORS</span>
+                <span>COLLECTION: {result.collection || backendStatus?.collection || "dsa_lectures_384"} · {result.vectors != null ? result.vectors.toLocaleString() : Number(backendStatus?.vectors ?? 2933).toLocaleString()} VECTORS</span>
               </div>
 
               {selectedSource ? (
@@ -552,13 +663,13 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                         Need to search again?
                       </div>
                       <p className="mt-1 text-base leading-relaxed text-[#e4dfd5]">
-                        Press <kbd className="rounded border border-white/25 bg-black/40 px-1.5 py-0.5 font-mono-tech text-sm text-white">Esc</kbd> to exit video fullscreen, then scroll up to the question box. You can also jump there now.
+                        Press <kbd className="rounded border border-white/25 bg-black/40 px-1.5 py-0.5 font-mono-tech text-sm text-white">Esc</kbd> to exit video fullscreen, or click below to return to the search console.
                       </p>
                     </div>
                     <button
                       type="button"
                       onClick={returnToSearch}
-                      className="shrink-0 rounded border border-[#ff9e44]/50 bg-[#ff9e44]/15 px-3 py-2 font-mono-tech text-sm font-bold uppercase tracking-wide text-[#ffbd73] transition hover:bg-[#ff9e44] hover:text-[#090a0d] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ff9e44]"
+                      className="shrink-0 rounded border border-[#ff9e44]/50 bg-[#ff9e44]/15 px-3 py-2 font-mono-tech text-sm font-bold uppercase tracking-wide text-[#ffbd73] transition hover:bg-[#ff9e44] hover:text-[#090a0d] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ff9e44] cursor-pointer"
                     >
                       ↑ Back to search
                     </button>
@@ -570,6 +681,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                       startSeconds={selectedSource.start_sec}
                       title={selectedSource.video_title}
                       timestamp={selectedSource.timestamp}
+                      url={selectedSource.url}
                       onTimeUpdate={syncReceiptWithPlayback}
                     />
                   ) : (
@@ -577,6 +689,16 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                       <ShieldAlert className="mx-auto mb-2 h-7 w-7 text-[#ff9e44]" />
                       <p className="font-display font-semibold text-white">No playable video ID on this source</p>
                       <p className="mt-1 font-mono-tech text-sm text-[#c4c0b7]">TRACE received no valid YouTube video ID for this retrieved passage.</p>
+                      {selectedSource.url && (
+                        <a
+                          href={selectedSource.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-3 inline-flex items-center gap-1.5 text-sm text-[#ff9e44] hover:underline font-mono-tech"
+                        >
+                          Open link <ExternalLink className="w-3.5 h-3.5" />
+                        </a>
+                      )}
                     </div>
                   )}
                 </div>
@@ -591,24 +713,30 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
               {loading ? (
                 <div className="rounded-md border border-[#ff4d0a]/30 bg-[#ff4d0a]/[0.04] p-8 text-center space-y-3" role="status">
                   <Loader2 className="w-7 h-7 text-[#ff9e44] mx-auto animate-spin" />
-                  <p className="font-display text-xl font-bold text-white">Searching the local transcript index</p>
-                  <p className="font-mono-tech text-lg text-[#aaa79f] animate-pulse">QUERY → EMBEDDING → QDRANT → SOURCE RECEIPTS</p>
+                  <p className="font-display text-xl font-bold text-white">Searching Qdrant Vector Cloud</p>
+                  <p className="font-mono-tech text-lg text-[#aaa79f] animate-pulse">QUERY → 384D EMBEDDING → QDRANT COSINE SEARCH → TRANSCRIPT PASSAGES</p>
                 </div>
               ) : requestError ? (
                 <div className="rounded-md border border-red-500/30 bg-red-500/5 p-6 text-center space-y-2">
                   <ShieldAlert className="w-7 h-7 text-[#ff9e44] mx-auto" />
                   <p className="font-display font-bold text-white">{requestError.startsWith("Enter ") ? "A query is required" : "Could not retrieve live results"}</p>
                   <p className="text-xl text-[#c4c0b7]">{requestError}</p>
-                  {!requestError.startsWith("Enter ") && <p className="font-mono-tech text-base text-[#aaa79f]">Start the local service with: uv run python kdsa_api.py</p>}
+                  {!requestError.startsWith("Enter ") && (
+                    <p className="font-mono-tech text-base text-[#aaa79f]">
+                      If the Render service was sleeping, it may take 30-50 seconds to wake up. Click the refresh icon above to check.
+                    </p>
+                  )}
                 </div>
               ) : result.excerpts.length === 0 ? (
                 <div className="rounded-md border border-amber-500/30 bg-amber-500/5 p-6 text-center space-y-2">
                   <ShieldAlert className="w-7 h-7 text-[#ff9e44] mx-auto" />
                   <p className="font-display font-bold text-white">
-                    {result.query ? "No transcript passages found" : "Search to retrieve real transcript passages"}
+                    {result.query ? "No matching transcript passages found" : "Search to retrieve real transcript passages"}
                   </p>
                   <p className="text-xl text-[#c4c0b7]">
-                    {result.query ? "The local Qdrant index returned no matching passages for this query." : "Results, scores, video titles, and timestamps will appear here after a live Qdrant search."}
+                    {result.query
+                      ? "The Qdrant index returned no matching passages above the score threshold for this query."
+                      : "Results, scores, video titles, and timestamps will appear here after a live Qdrant search."}
                   </p>
                 </div>
               ) : (
@@ -618,6 +746,9 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                     selectedSource?.video_id === ex.video_id &&
                     selectedSource.start_sec === ex.start_sec &&
                     selectedSource.chunk_index === ex.chunk_index;
+                  const isExpanded = Boolean(expandedTranscripts[i]);
+                  const hasGenuineTime = ex.timestamp && ex.timestamp !== "Timestamp unavailable";
+
                   return (
                     <div
                       key={`${ex.video_id}-${ex.start_sec}-${i}`}
@@ -648,7 +779,11 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                           </span>
                           <span className="text-[#34d399]">score={ex.score.toFixed(3)}</span>
                         </div>
-                        <span className="px-2 py-0.5 rounded border border-[#ff4d0a]/45 bg-[#ff4d0a]/15 text-[#ff9e44]">
+                        <span className={`px-2 py-0.5 rounded border ${
+                          hasGenuineTime
+                            ? "border-[#ff4d0a]/45 bg-[#ff4d0a]/15 text-[#ff9e44]"
+                            : "border-white/20 bg-white/5 text-[#aaa79f]"
+                        }`}>
                           {isSelected ? "SELECTED · " : "PLAY · "}@ {ex.timestamp}
                         </span>
                       </div>
@@ -656,13 +791,53 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                       <h4 className="font-display text-xl font-bold text-white mb-2">
                         {ex.video_title}
                       </h4>
-                      <p className="font-mono-tech text-xl leading-relaxed text-[#c6c3ba] bg-black/45 p-3 rounded border border-white/5">
-                        &ldquo;{ex.snippet}&rdquo;
-                      </p>
+
+                      <div className="bg-black/45 p-3 rounded border border-white/5 space-y-2">
+                        <p className="font-mono-tech text-xl leading-relaxed text-[#c6c3ba]">
+                          &ldquo;{isExpanded && ex.transcript_text ? ex.transcript_text : ex.snippet}&rdquo;
+                        </p>
+                        {ex.transcript_text && ex.transcript_text !== ex.snippet && (
+                          <button
+                            type="button"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              toggleTranscriptExpand(i);
+                            }}
+                            className="inline-flex items-center gap-1 font-mono-tech text-sm text-[#ff9e44] hover:underline cursor-pointer"
+                          >
+                            {isExpanded ? (
+                              <>
+                                <ChevronUp className="w-3.5 h-3.5" /> Collapse full transcript
+                              </>
+                            ) : (
+                              <>
+                                <ChevronDown className="w-3.5 h-3.5" /> Expand full transcript ({ex.transcript_text.length} chars)
+                              </>
+                            )}
+                          </button>
+                        )}
+                      </div>
 
                       <div className="mt-3 flex items-center justify-between gap-2 font-mono-tech text-lg">
-                        <span className="text-[#aaa79f]">video_id={ex.video_id} · t={ex.start_sec}s</span>
-                        <span className="text-[#34d399]">{isSelected ? "LOADED IN TRACE PLAYER" : "SELECT TO PLAY INLINE"}</span>
+                        <span className="text-[#aaa79f]">
+                          video_id={ex.video_id || "N/A"}{hasGenuineTime ? ` · t=${ex.start_sec}s` : ""}
+                        </span>
+                        <div className="flex items-center gap-2">
+                          {ex.url && (
+                            <a
+                              href={ex.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              onClick={(e) => e.stopPropagation()}
+                              className="text-xs text-[#d7d3ca] hover:text-[#ff9e44] inline-flex items-center gap-1"
+                              title="Open on YouTube"
+                            >
+                              <span>YT</span>
+                              <ExternalLink className="w-3 h-3" />
+                            </a>
+                          )}
+                          <span className="text-[#34d399]">{isSelected ? "LOADED IN PLAYER" : "SELECT TO PLAY"}</span>
+                        </div>
                       </div>
                     </div>
                   );
