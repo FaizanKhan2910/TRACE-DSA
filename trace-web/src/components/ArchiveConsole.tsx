@@ -64,7 +64,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
   const controllerRef = useRef<AbortController | null>(null);
 
   const currentCliCommand = question.trim()
-    ? `curl -X POST https://trace-kunal-kushwaha-dsa-lecture.onrender.com/api/query -H "Content-Type: application/json" -d '{"query": ${JSON.stringify(question.trim())}, "mode": "${mode}"}'`
+    ? `curl -X POST http://127.0.0.1:8000/api/query -H "Content-Type: application/json" -d '{"query": ${JSON.stringify(question.trim())}, "mode": "${mode}"}'`
     : "";
 
   const checkHealth = () => {
@@ -176,7 +176,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
     setStepLabel(
       nextMode === "deep"
         ? "EXPANDING QUERY · MULTI-VECTOR RETRIEVAL ON QDRANT..."
-        : "EMBEDDING QUERY · SEARCHING QDRANT CLOUD..."
+        : "EMBEDDING QUERY · SEARCHING QDRANT..."
     );
 
     const startTime = performance.now();
@@ -203,19 +203,21 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
 
       const isCovered =
         normalized.answer.trim().toLowerCase() !== "not covered in this playlist" &&
-        !normalized.answer.startsWith("Not covered: The provided excerpts") &&
+        !normalized.answer.trim().toLowerCase().startsWith("not covered:") &&
         normalized.excerpts.length > 0;
 
       const updatedResult: QueryResultState = {
         query: normalized.query,
         mode: normalized.mode,
         covered: isCovered,
-        top_score: normalized.top_score,
+        // Do not present nearest-neighbor candidates as sources when synthesis
+        // says the playlist does not cover the question.
+        top_score: isCovered ? normalized.top_score : 0,
         sub_queries: normalized.sub_queries,
         answer: normalized.answer,
-        excerpts: normalized.excerpts,
+        excerpts: isCovered ? normalized.excerpts : [],
         latency_ms: latencyMs,
-        cli_command: `curl -X POST https://trace-kunal-kushwaha-dsa-lecture.onrender.com/api/query -H "Content-Type: application/json" -d '{"query": ${JSON.stringify(clean)}, "mode": "${nextMode}"}'`,
+        cli_command: `curl -X POST http://127.0.0.1:8000/api/query -H "Content-Type: application/json" -d '{"query": ${JSON.stringify(clean)}, "mode": "${nextMode}"}'`,
         collection: normalized.collection || backendStatus?.collection || "dsa_lectures_384",
         vectors: normalized.vectors ?? backendStatus?.vectors ?? 2933,
         synthesis_error: normalized.synthesis_error,
@@ -419,12 +421,12 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                   }`}
                 />
                 {probingBackend
-                  ? "CONNECTING TO RENDER..."
+                  ? "CONNECTING TO TRACE API..."
                   : liveBackend
                   ? backendStatus?.synthesis_available
-                    ? "LIVE QDRANT CLOUD · GROQ SYNTHESIS ONLINE"
-                    : "LIVE QDRANT CLOUD · RETRIEVAL ONLY"
-                  : "BACKEND OFFLINE / COLD STARTING"}
+                    ? "LIVE QDRANT · GROQ SYNTHESIS ONLINE"
+                    : "LIVE QDRANT · RETRIEVAL ONLY"
+                  : "RAG API OFFLINE"}
               </div>
 
               {/* Refresh backend status button */}
@@ -553,7 +555,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                 <span
                   className={result.covered && !result.synthesis_error ? "text-[#34d399]" : "text-[#ff9e44]"}
                 >
-                  ● {loading ? (mode === "deep" ? "EXPANDING QUERIES · MULTI-VECTOR RETRIEVAL ON QDRANT…" : "EMBEDDING QUERY · SEARCHING QDRANT CLOUD…") : stepLabel}
+                  ● {loading ? (mode === "deep" ? "EXPANDING QUERIES · MULTI-VECTOR RETRIEVAL ON QDRANT…" : "EMBEDDING QUERY · SEARCHING QDRANT…") : stepLabel}
                 </span>
                 <span className="px-2 py-0.5 rounded bg-white/5 border border-white/10 text-[#c4c0b7]">
                   {result.excerpts.length ? `TOP MATCH: ${result.top_score.toFixed(3)}` : "NO SCORE YET"}
@@ -600,7 +602,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
 
                 {result.synthesis_error && (
                   <div className="mb-4 p-3 rounded bg-amber-500/10 border border-amber-500/30 text-amber-200 text-sm font-mono-tech">
-                    Note: Groq LLM synthesis encountered an issue ({result.synthesis_error}), but the vector passages below were successfully retrieved from Qdrant Cloud.
+                    Note: Groq LLM synthesis encountered an issue ({result.synthesis_error}), but the vector passages below were successfully retrieved from Qdrant.
                   </div>
                 )}
 
@@ -610,7 +612,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                       <Loader2 className="h-4 w-4 animate-spin" />
                       <span className="animate-pulse">
                         {mode === "deep"
-                          ? "Executing multi-query RRF search on Qdrant Cloud and synthesizing with Groq..."
+                          ? "Executing multi-query RRF search on Qdrant and synthesizing with Groq..."
                           : "Embedding query with BGE-small, searching Qdrant, and synthesizing grounded answer..."}
                       </span>
                     </span>
@@ -713,7 +715,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
               {loading ? (
                 <div className="rounded-md border border-[#ff4d0a]/30 bg-[#ff4d0a]/[0.04] p-8 text-center space-y-3" role="status">
                   <Loader2 className="w-7 h-7 text-[#ff9e44] mx-auto animate-spin" />
-                  <p className="font-display text-xl font-bold text-white">Searching Qdrant Vector Cloud</p>
+                  <p className="font-display text-xl font-bold text-white">Searching the Qdrant index</p>
                   <p className="font-mono-tech text-lg text-[#aaa79f] animate-pulse">QUERY → 384D EMBEDDING → QDRANT COSINE SEARCH → TRANSCRIPT PASSAGES</p>
                 </div>
               ) : requestError ? (
@@ -723,7 +725,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                   <p className="text-xl text-[#c4c0b7]">{requestError}</p>
                   {!requestError.startsWith("Enter ") && (
                     <p className="font-mono-tech text-base text-[#aaa79f]">
-                      If the Render service was sleeping, it may take 30-50 seconds to wake up. Click the refresh icon above to check.
+                      Start the local RAG API with `.venv/bin/python kdsa_api.py`, then refresh backend status.
                     </p>
                   )}
                 </div>

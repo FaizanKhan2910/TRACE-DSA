@@ -148,6 +148,9 @@ def _handle_query(payload: dict) -> tuple[int, dict]:
     try:
         k = int(payload.get("k", 14 if deep else 8))
         k = max(1, min(k, 30))
+        # Match the CLI's standard retrieval behavior. The CLI applies its
+        # answer-coverage threshold after retrieval; the API must not discard
+        # candidate passages before synthesis.
         threshold = float(payload.get("threshold", 0.60 if deep else 0.0))
     except (TypeError, ValueError):
         return 400, {"ok": False, "error": "Invalid k or threshold value"}

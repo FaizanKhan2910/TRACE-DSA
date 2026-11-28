@@ -96,6 +96,24 @@ def verify(
     }
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
+    # Keep a small, tracked copy for deployed retrieval services. Runtime data/
+    # files are gitignored, so production cannot rely on playlist.json existing.
+    config.PLAYLIST_MANIFEST.write_text(
+        json.dumps(
+            {
+                "playlist_id": meta["playlist_id"],
+                "title": meta["title"],
+                "channel": meta["channel"],
+                "videos": [
+                    {"video_id": v.video_id, "title": v.title}
+                    for v in checked_videos
+                ],
+            },
+            indent=2,
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
+    )
 
     # Print summary table and panel
     table = Table(title="Playlist Verification Summary", show_header=True, header_style="bold magenta")
@@ -333,14 +351,27 @@ def chunk(
     from kdsa.transcribe import load_transcript_sources
 
     entries = _load_playlist_videos()
+    playlist_ids: set[str] = set()
     title_map: dict[str, str] = {}
     for entry in entries:
-        if isinstance(entry, dict):
-            vid = entry.get("video_id") or entry.get("id") or ""
-            if vid:
+        vid = entry if isinstance(entry, str) else (
+            entry.get("video_id") or entry.get("id") or ""
+            if isinstance(entry, dict)
+            else ""
+        )
+        if vid:
+            playlist_ids.add(vid)
+            if isinstance(entry, dict):
                 title_map[vid] = entry.get("title", "")
 
-    transcript_files = sorted(config.TRANSCRIPT_DIR.glob("*.json"))
+    if not playlist_ids:
+        console.print("[bold red]Playlist has no video IDs; refusing to chunk every cached transcript.[/bold red]")
+        raise typer.Exit(code=1)
+
+    transcript_files = sorted(
+        path for path in config.TRANSCRIPT_DIR.glob("*.json")
+        if path.stem in playlist_ids
+    )
     if not transcript_files:
         console.print(f"[yellow]No transcript files found in {config.TRANSCRIPT_DIR}[/yellow]")
         raise typer.Exit(code=1)

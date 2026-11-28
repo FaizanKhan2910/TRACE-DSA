@@ -3,10 +3,19 @@ import { NextRequest, NextResponse } from "next/server";
 export const dynamic = "force-dynamic";
 export const maxDuration = 120;
 
-const apiUrl = () =>
-  (process.env.KDSA_API_URL ||
+const apiUrl = () => {
+  // Local development should exercise the backend in this checkout so its
+  // collection, playlist manifest, and retrieval logic match the CLI.
+  if (process.env.NODE_ENV === "development") {
+    return "http://127.0.0.1:8000";
+  }
+  return (
+    process.env.KDSA_API_URL ||
     process.env.TRACE_API_URL ||
-    "https://trace-kunal-kushwaha-dsa-lecture.onrender.com").replace(/\/$/, "");
+    "https://trace-kunal-kushwaha-dsa-lecture.onrender.com"
+  ).replace(/\/$/, "");
+};
+const isLocalDev = () => process.env.NODE_ENV === "development";
 
 export async function GET() {
   const controller = new AbortController();
@@ -42,8 +51,12 @@ export async function GET() {
         ok: false,
         liveBackend: false,
         error: timedOut
-          ? "Backend health check timed out (Render service may be waking up)."
-          : "Cannot reach the deployed RAG backend.",
+          ? isLocalDev()
+            ? "Local RAG API health check timed out."
+            : "Backend health check timed out (Render service may be waking up)."
+          : isLocalDev()
+            ? "Cannot reach the local RAG API at 127.0.0.1:8000. Start kdsa_api.py."
+            : "Cannot reach the deployed RAG backend.",
       },
       { status: 503 }
     );
@@ -132,8 +145,12 @@ export async function POST(request: NextRequest) {
       {
         ok: false,
         error: timedOut
-          ? "Search timed out. Render may be undergoing a cold start; please retry in a moment."
-          : "Cannot reach the deployed RAG backend. Check the Render service.",
+          ? isLocalDev()
+            ? "Local RAG search timed out."
+            : "Search timed out. Render may be undergoing a cold start; please retry in a moment."
+          : isLocalDev()
+            ? "Cannot reach the local RAG API at 127.0.0.1:8000. Start kdsa_api.py."
+            : "Cannot reach the deployed RAG backend. Check the Render service.",
       },
       { status: timedOut ? 504 : 503 }
     );

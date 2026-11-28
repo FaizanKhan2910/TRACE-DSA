@@ -8,6 +8,7 @@ from typing import Any
 from kdsa import config
 from kdsa.index import get_client
 from kdsa.models import Chunk
+from kdsa.scope import playlist_video_ids
 
 _EMBEDDER_LOCK = threading.Lock()
 _EMBEDDING_RUN_LOCK = threading.Lock()
@@ -55,18 +56,31 @@ def search(
     - Optionally filter by video_id.
     - Apply score_threshold cutoff.
     """
+    allowed_video_ids = playlist_video_ids()
+    if not allowed_video_ids:
+        # The playlist manifest is required to avoid searching stale or
+        # unrelated points left in a shared Qdrant collection.
+        return []
+    if video_id:
+        allowed_video_ids.intersection_update({video_id})
+        if not allowed_video_ids:
+            return []
+
     model = _get_embedder()
     with _EMBEDDING_RUN_LOCK:
         vec = list(model.embed([query]))[0].tolist()
 
     client = get_client()
 
-    query_filter = None
-    if video_id:
-        from qdrant_client.models import Filter, FieldCondition, MatchValue
-        query_filter = Filter(
-            must=[FieldCondition(key="video_id", match=MatchValue(value=video_id))]
-        )
+    from qdrant_client.models import Filter, FieldCondition, MatchAny
+    query_filter = Filter(
+        must=[
+            FieldCondition(
+                key="video_id",
+                match=MatchAny(any=sorted(allowed_video_ids)),
+            )
+        ]
+    )
 
     with _QUERY_LOCK:
         hits = client.query_points(

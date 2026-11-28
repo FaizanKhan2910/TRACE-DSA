@@ -11,6 +11,7 @@ load_dotenv(ROOT / ".env")
 # Directories
 DATA_DIR = ROOT / "data"
 TRANSCRIPT_DIR = ROOT / "transcripts"
+PLAYLIST_MANIFEST = DATA_DIR / "playlist_manifest.json"
 
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 TRANSCRIPT_DIR.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,283 @@
+{
+  "playlist_id": "PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
+  "title": "Java + DSA + Interview Preparation Course",
+  "channel": "Kunal Kushwaha",
+  "videos": [
+    {
+      "video_id": "rZ41y93P2Qo",
+      "title": "Best Data Structures & Algorithms (DSA) Course - Clear Any FAANG Interview!"
+    },
+    {
+      "video_id": "Nckx9qMy_kw",
+      "title": "Java vs C++ for Data Structures & Algorithms"
+    },
+    {
+      "video_id": "waGfV-IoOt8",
+      "title": "How I Cleared My Google Interviews - Use LeetCode Effectively!"
+    },
+    {
+      "video_id": "apGV9Kg7ics",
+      "title": "Complete Git and GitHub Tutorial"
+    },
+    {
+      "video_id": "wn49bJOYAZM",
+      "title": "Introduction to Programming - Types of Languages, Memory Management"
+    },
+    {
+      "video_id": "lhELGQAV4gg",
+      "title": "Flow of Program - Flowcharts & Pseudocode"
+    },
+    {
+      "video_id": "4EP8YzcN0hQ",
+      "title": "Introduction to Java - Architecture & Installation"
+    },
+    {
+      "video_id": "TAtrPoaJ7gc",
+      "title": "First Java Program - Input/Output, Debugging and Datatypes"
+    },
+    {
+      "video_id": "ldYLYRNaucM",
+      "title": "Conditionals and Loops + Calculator Program"
+    },
+    {
+      "video_id": "mA23x39DjbI",
+      "title": "Switch Statements + Nested Case in Java"
+    },
+    {
+      "video_id": "vvanI8NRlSI",
+      "title": "Functions / Methods in Java"
+    },
+    {
+      "video_id": "n60Dn0UsbEk",
+      "title": "Introduction to Arrays and ArrayList in Java"
+    },
+    {
+      "video_id": "_HRA37X8N_Q",
+      "title": "Linear Search Algorithm - Theory + Code + Questions"
+    },
+    {
+      "video_id": "f6UU7V3szVw",
+      "title": "Binary Search Algorithm - Theory + Code"
+    },
+    {
+      "video_id": "W9QJ8HaRvJQ",
+      "title": "Binary Search Interview Questions - Google, Facebook, Amazon"
+    },
+    {
+      "video_id": "enI_KyGLYPo",
+      "title": "Binary Search in 2D Arrays"
+    },
+    {
+      "video_id": "F5MZyqRp_IM",
+      "title": "Bubble Sort Algorithm - Theory + Code"
+    },
+    {
+      "video_id": "Nd4SCCIHFWk",
+      "title": "Selection Sort Algorithm - Theory + Code"
+    },
+    {
+      "video_id": "By_5-RRqVeE",
+      "title": "Insertion Sort Algorithm - Theory + Code"
+    },
+    {
+      "video_id": "JfinxytTYFQ",
+      "title": "Cycle Sort - Amazon, Google, Microsoft Interview Questions"
+    },
+    {
+      "video_id": "zL1DPZ0Ovlo",
+      "title": "Strings and StringBuilder in Java"
+    },
+    {
+      "video_id": "lsOOs5J8ycw",
+      "title": "Solve Any Pattern Question With This Trick!"
+    },
+    {
+      "video_id": "M2uO2nMT0Bk",
+      "title": "Introduction to Recursion - Learn In The Best Way"
+    },
+    {
+      "video_id": "mV3wrLBbuuE",
+      "title": "Time and Space Complexity COMPLETE Tutorial - What is Big O?"
+    },
+    {
+      "video_id": "fzip9Aml6og",
+      "title": "Bitwise Operators + Number Systems - Maths for DSA"
+    },
+    {
+      "video_id": "lmSpZ0bjCyQ",
+      "title": "Maths for Data Structures & Algorithms"
+    },
+    {
+      "video_id": "JxILxTwHukM",
+      "title": "Recursion - Level 1 Questions (Theory + Code + Tips)"
+    },
+    {
+      "video_id": "sTdiMLom00U",
+      "title": "Recursion - Array Questions (Theory + Code + Tips)"
+    },
+    {
+      "video_id": "ymgnIIclCF0",
+      "title": "Recursion - Pattern Questions + Bubble Sort + Selection Sort"
+    },
+    {
+      "video_id": "iKGAgWdgoRk",
+      "title": "Merge Sort Using Recursion (Theory + Complexity + Code)"
+    },
+    {
+      "video_id": "Z8svOqamag8",
+      "title": "Quick Sort Using Recursion (Theory + Complexity + Code)"
+    },
+    {
+      "video_id": "gdifkIwCJyg",
+      "title": "Recursion Subset, Subsequence, String Questions"
+    },
+    {
+      "video_id": "gDGw0cvFXPQ",
+      "title": "Recursion - Permutations (Theory + Code + Tips)"
+    },
+    {
+      "video_id": "9ByWqPzfXDU",
+      "title": "Recursion Google, Amazon Questions: Dice Throw & Letter Combinations of a Phone Number"
+    },
+    {
+      "video_id": "zg5v2rlV1tM",
+      "title": "Backtracking Introduction + Maze Problems - Theory + Code + Tips"
+    },
+    {
+      "video_id": "nC1rbW2YSz0",
+      "title": "N-Queens, N-Knights, Sudoku Solver (LeetCode) - Backtracking Questions"
+    },
+    {
+      "video_id": "BSVKUk58K6U",
+      "title": "OOP 1 | Introduction & Concepts - Classes, Objects, Constructors, Keywords"
+    },
+    {
+      "video_id": "_Ya6CN13t8k",
+      "title": "OOP 2 | Packages, Static, Singleton Class, In-built Methods"
+    },
+    {
+      "video_id": "46T2wD3IuhM",
+      "title": "OOP 3 | Principles - Inheritance, Polymorphism, Encapsulation, Abstraction"
+    },
+    {
+      "video_id": "W145DXs8fFg",
+      "title": "OOP 4 | Access Control, In-built Packages, Object Class"
+    },
+    {
+      "video_id": "rgHZa7-Dibg",
+      "title": "OOP 5 | Abstract Classes, Interfaces, Annotations"
+    },
+    {
+      "video_id": "OY2lPr8h93U",
+      "title": "OOP 6 | Generics, Custom ArrayList, Lambda Expressions, Exception Handling, Object Cloning"
+    },
+    {
+      "video_id": "9ogGan-R1pc",
+      "title": "OOP 7 | Collections Framework, Vector Class, Enums in Java"
+    },
+    {
+      "video_id": "58YbpRDc4yw",
+      "title": "Linked List Tutorial - Singly + Doubly + Circular (Theory + Code + Implementation)"
+    },
+    {
+      "video_id": "70tx7KcMROc",
+      "title": "Linked List Interview Questions - Google, Facebook, Amazon, Microsoft"
+    },
+    {
+      "video_id": "rHQI4mrJ3cg",
+      "title": "Stacks and Queues Complete Tutorial - Theory + Implementation + Types (Dynamic, Circular)"
+    },
+    {
+      "video_id": "S9LUYztYLu4",
+      "title": "Stacks and Queues Interview Questions - Google, Facebook, Amazon, Microsoft"
+    },
+    {
+      "video_id": "jlLNXmi4Nmw",
+      "title": "Tic Tac Toe Java Game in Under 15 Minutes"
+    },
+    {
+      "video_id": "4s1Tcvm00pA",
+      "title": "Binary Trees Tutorial - Introduction + Traversals + Code | Binary Search Trees (BST)"
+    },
+    {
+      "video_id": "CVA85JuJEn0",
+      "title": "AVL Trees Tutorial | Self Balancing Binary Search Trees"
+    },
+    {
+      "video_id": "ciHThtTVNto",
+      "title": "Segment Trees Tutorial | Range Queries | Interview Questions"
+    },
+    {
+      "video_id": "YFZai3fPUQI",
+      "title": "StringBuffer in Java | Data Formatting | Working With Large Data"
+    },
+    {
+      "video_id": "lHtoypC-4Ps",
+      "title": "BigInteger & BigDecimal - Handling Large Numbers in Java"
+    },
+    {
+      "video_id": "b35mlSPOlJg",
+      "title": "File Handling in Java Complete Course"
+    },
+    {
+      "video_id": "9D-vP-jcc-Y",
+      "title": "Binary Tree Questions for Technical Interviews - Google, Facebook, Amazon, Microsoft"
+    },
+    {
+      "video_id": "Qf-TDPr0nYw",
+      "title": "Introduction to Heap Data Structure + Priority Queue + Heapsort Tutorial"
+    },
+    {
+      "video_id": "XLbvmMz8Fr8",
+      "title": "Introduction to HashMap & HashTable in Java"
+    },
+    {
+      "video_id": "swciWFPq3NE",
+      "title": "Karp-Rabin String Matching Algorithm | Substring Search Pattern"
+    },
+    {
+      "video_id": "FOo820lJV1Y",
+      "title": "Count Sort Algorithm - Theory + Code"
+    },
+    {
+      "video_id": "mLi6VQDqAOs",
+      "title": "Radix Sort Algorithm - Theory + Code"
+    },
+    {
+      "video_id": "XLfgeaYHinM",
+      "title": "Huffman Coding Greedy Algorithm | Text Compression"
+    },
+    {
+      "video_id": "U4YmISZViSs",
+      "title": "Easily Solve Range Query Interview Problems with Square Root Decomposition/Mo's Algorithm"
+    },
+    {
+      "video_id": "LFGBTFxHJII",
+      "title": "Binary Tree from Preorder & Inorder Traversal - Advance Tree Questions"
+    },
+    {
+      "video_id": "Qdr3ohMSxBo",
+      "title": "Vertical Order Traversal of a Binary Tree - Google Interview Question"
+    },
+    {
+      "video_id": "2odLxQWYDi0",
+      "title": "Word Ladder - LeetCode Hard - Google Phone Screen Interview Question"
+    },
+    {
+      "video_id": "oB1EIXIDS8s",
+      "title": "Two Sum IV - Google, Amazon, Facebook Interview Question"
+    },
+    {
+      "video_id": "guzgnCSafg4",
+      "title": "Kth Smallest Element in a BST - Google, Amazon, Facebook Interview Question"
+    },
+    {
+      "video_id": "kNZ5VIkqReU",
+      "title": "Convert Binary Tree to Doubly Linked List - FAANG Interview Question"
+    },
+    {
+      "video_id": "CxNRKTp6_9s",
+      "title": "Correct Binary Tree That Has Two Nodes Swapped - FAANG Interview Question"
+    }
+  ]
+}
