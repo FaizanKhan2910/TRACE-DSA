@@ -18,11 +18,11 @@ export function CreatorStory() {
       <div className="mx-auto w-[96vw] max-w-[2700px] px-5 sm:px-8">
         <div className="border-b border-[var(--hairline)] pb-7">
           <div className="font-mono-tech text-lg uppercase tracking-[0.16em] text-[var(--ember)]">
-            05 // THE MAN BEHIND THE SOURCE CORPUS
+            ABOUT KUNAL // THE EDUCATOR BEHIND THE LESSONS
           </div>
           <h2 className="font-display text-[clamp(2rem,4.2vw,3.5rem)] font-bold tracking-[-0.04em] leading-[1.03] mt-3 max-w-4xl">
-            Why these 79.6 hours were worth indexing:{" "}
-            <span className="font-serif-editorial italic font-normal text-[var(--tungsten)]">
+            A course worth returning to:{" "}
+            <span className="font-normal text-[var(--tungsten)]">
               Meet Kunal Kushwaha.
             </span>
           </h2>
@@ -33,23 +33,14 @@ export function CreatorStory() {
           {/* Left 7 cols: Story Beats + Interactive Career Changelog Scrubber */}
           <div className="lg:col-span-7 space-y-6">
             <p className="text-xl sm:text-xl leading-relaxed text-[var(--ink-secondary)]">
-              TRACE wasn&apos;t built over random toy clips. Behind all{" "}
-              <strong className="text-[var(--ink-primary)]">7,055 Qdrant vectors</strong> is{" "}
-              <strong className="text-[var(--ink-primary)]">Kunal Kushwaha</strong>—an open-source
-              systems engineer who shipped Kubernetes tooling at{" "}
-              <strong className="text-[var(--ink-primary)]">Red Hat</strong> and{" "}
-              <strong className="text-[var(--ink-primary)]">CNCF Thanos</strong>, led developer
-              strategy as <strong className="text-[var(--ink-primary)]">Field CTO at Civo</strong>{" "}
-              and now <strong className="text-[var(--ink-primary)]">CAST AI</strong>, and put an
-              entire computer science degree online with{" "}
-              <span className="text-[var(--ember)] font-semibold">$0 paywall</span>.
+              This searchable archive follows Kunal Kushwaha&apos;s Java and DSA lessons. Search for a concept, read a concise answer with source passages, and return to the lesson at its timestamp. Kunal also shares programming lessons and open-source learning resources for developers.
             </p>
 
             {/* 3 Narrative Pillars */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3.5">
               <div className="glow-card rounded-md p-4">
                 <div className="font-mono-tech text-lg text-[var(--ember)] font-bold">
-                  01 / ZERO PAYWALLS
+                  01 / OPEN LEARNING
                 </div>
                 <div className="font-display font-bold text-2xl mt-2">24.2K★</div>
                 <p className="text-xl text-[var(--ink-secondary)] mt-1 leading-relaxed">
@@ -59,7 +50,7 @@ export function CreatorStory() {
               </div>
               <div className="glow-card rounded-md p-4">
                 <div className="font-mono-tech text-lg text-[var(--cobalt)] font-bold">
-                  02 / SYSTEMS CORE
+                  02 / ENGINEERING
                 </div>
                 <div className="font-display font-bold text-2xl mt-2">GSoC + CNCF</div>
                 <p className="text-xl text-[var(--ink-secondary)] mt-1 leading-relaxed">
@@ -69,11 +60,11 @@ export function CreatorStory() {
               </div>
               <div className="glow-card rounded-md p-4">
                 <div className="font-mono-tech text-lg text-[var(--emerald)] font-bold">
-                  03 / RAW DEPTH
+                  03 / LONG-FORM LESSONS
                 </div>
                 <div className="font-display font-bold text-2xl mt-2">Up to 5h 02m</div>
                 <p className="text-xl text-[var(--ink-secondary)] mt-1 leading-relaxed">
-                  Single unedited whiteboards full of memory proofs—too dense to scrub without TRACE.
+                  Long whiteboard sessions with explanations and worked examples throughout.
                 </p>
               </div>
             </div>
@@ -83,9 +74,9 @@ export function CreatorStory() {
               <div className="flex items-center justify-between gap-2 font-mono-tech text-lg tracking-[0.12em] text-[var(--ink-muted)] mb-4">
                 <span className="inline-flex items-center gap-1.5">
                   <GitBranch className="w-3.5 h-3.5 text-[var(--ember)]" />
-                  PROVENANCE CHANGELOG // SCRUB 2019–2026
+                  CAREER & TEACHING MILESTONES
                 </span>
-                <span className="text-[var(--emerald)]">$0 COURSEWARE</span>
+                <span className="text-[var(--emerald)]">OPEN RESOURCES</span>
               </div>
 
               <div className="flex flex-wrap gap-1.5 mb-5">
@@ -130,8 +121,8 @@ export function CreatorStory() {
           <div className="lg:col-span-5 space-y-4">
             <div className="rounded-md border border-[var(--hairline-strong)] bg-[var(--bg-card)] overflow-hidden shadow-[var(--shadow-card)]">
               <div className="px-4 py-2.5 border-b border-[var(--hairline)] flex items-center justify-between font-mono-tech text-lg text-[var(--ink-muted)]">
-                <span>FIG 02 // CLOUD-NATIVE TOPOLOGY PLATE</span>
-                <span>CNCF × CAST AI × CIVO</span>
+                <span>ENGINEERING BACKGROUND</span>
+                <span>OPEN SOURCE</span>
               </div>
               <div className="relative aspect-[16/9] bg-[#0a0c10]">
                 <Image
@@ -146,7 +137,7 @@ export function CreatorStory() {
 
             <div className="rounded-md border border-[var(--hairline)] bg-[var(--bg-card)] p-5 space-y-3">
               <div className="font-mono-tech text-lg tracking-[0.14em] uppercase text-[var(--ink-muted)]">
-                ECOSYSTEM &amp; OPEN-SOURCE PROVENANCE
+                LEARNING RESOURCES
               </div>
               {[
                 { label: "DSA-Bootcamp-Java (24.2K★)", href: "https://github.com/kunal-kushwaha/DSA-Bootcamp-Java" },

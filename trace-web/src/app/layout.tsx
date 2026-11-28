@@ -33,9 +33,9 @@ const jakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "TRACE — Find the moment in 79.6 hours of Java and DSA lessons",
+  title: "TRACE — Search Kunal Kushwaha’s Java and DSA lessons",
   description:
-    "Search 69 Java and DSA lessons, jump to the right moment, and check each answer against its video source.",
+    "Search Kunal Kushwaha’s Java and DSA lessons, find the exact timestamp, and check answers against the original video.",
 };
 
 export default function RootLayout({

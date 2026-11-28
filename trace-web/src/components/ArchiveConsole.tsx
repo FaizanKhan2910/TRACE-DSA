@@ -1,10 +1,10 @@
 "use client";
 
 import { forwardRef, useEffect, useImperativeHandle, useRef, useState } from "react";
-import { Check, ChevronDown, ChevronUp, Copy, ExternalLink, Loader2, RefreshCw, ShieldAlert, Sparkles, Terminal } from "lucide-react";
+import { Check, ChevronDown, ChevronUp, Copy, ExternalLink, Loader2, Play, RefreshCw, ShieldAlert, Sparkles, Terminal } from "lucide-react";
 import { TraceExcerpt, BackendHealthResponse } from "@/types/trace";
 import { normalizeQueryResponse } from "@/lib/trace-api";
-import { InlineLecturePlayer } from "@/components/InlineLecturePlayer";
+import { InlineLecturePlayer, InlineLecturePlayerHandle } from "@/components/InlineLecturePlayer";
 
 export interface ArchiveConsoleHandle {
   runExternalQuery: (query: string, mode?: "standard" | "deep") => void;
@@ -51,6 +51,8 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
   const [streamedText, setStreamedText] = useState<string>(emptyResult.answer);
   const [activeCite, setActiveCite] = useState<number | null>(null);
   const [selectedSource, setSelectedSource] = useState<TraceExcerpt | null>(null);
+  const [theaterOpen, setTheaterOpen] = useState(false);
+  const [wideTheater, setWideTheater] = useState(false);
   const [requestError, setRequestError] = useState<string | null>(null);
   const [copiedCli, setCopiedCli] = useState<boolean>(false);
   const [expandedTranscripts, setExpandedTranscripts] = useState<Record<number, boolean>>({});
@@ -62,6 +64,38 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
   const [rightPanelHeight, setRightPanelHeight] = useState<number | null>(null);
   const requestIdRef = useRef(0);
   const controllerRef = useRef<AbortController | null>(null);
+  const theaterPlayerRef = useRef<InlineLecturePlayerHandle>(null);
+  const theaterDialogRef = useRef<HTMLElement>(null);
+  const theaterCloseRef = useRef<HTMLButtonElement>(null);
+  const returnFocusRef = useRef<HTMLElement | null>(null);
+
+  useEffect(() => {
+    if (!theaterOpen) return;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setTheaterOpen(false);
+      if (event.key !== "Tab") return;
+      const dialog = theaterDialogRef.current;
+      if (!dialog) return;
+      const focusable = Array.from(dialog.querySelectorAll<HTMLElement>('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])')).filter((item) => item.offsetParent !== null);
+      if (!focusable.length) { event.preventDefault(); dialog.focus(); return; }
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+    };
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const background = document.querySelectorAll<HTMLElement>(".trace-page > header, .trace-page > main > *:not(.theater-backdrop), .trace-page > footer");
+    background.forEach((node) => { node.inert = true; });
+    window.requestAnimationFrame(() => theaterCloseRef.current?.focus());
+    window.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      background.forEach((node) => { node.inert = false; });
+      window.removeEventListener("keydown", onKeyDown);
+      window.requestAnimationFrame(() => returnFocusRef.current?.focus());
+    };
+  }, [theaterOpen]);
 
   const currentCliCommand = question.trim()
     ? `curl -X POST http://127.0.0.1:8000/api/query -H "Content-Type: application/json" -d '{"query": ${JSON.stringify(question.trim())}, "mode": "${mode}"}'`
@@ -78,7 +112,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
         setProbingBackend(false);
         setStepLabel(
           isLive
-            ? `QDRANT READY · ${Number(d.vectors ?? 2933).toLocaleString()} VECTORS`
+            ? `SEARCH READY · ${Number(d.vectors ?? 2933).toLocaleString()} PASSAGES`
             : d.error || "TRACE API UNAVAILABLE · CHECK BACKEND CONFIGURATION"
         );
       })
@@ -175,8 +209,8 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
     excerptRefs.current = [];
     setStepLabel(
       nextMode === "deep"
-        ? "EXPANDING QUERY · MULTI-VECTOR RETRIEVAL ON QDRANT..."
-        : "EMBEDDING QUERY · SEARCHING QDRANT..."
+        ? "EXPANDING SEARCH TERMS · CHECKING RELATED LESSON PASSAGES..."
+        : "SEARCHING THE COURSE TRANSCRIPTS..."
     );
 
     const startTime = performance.now();
@@ -202,7 +236,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
       if (requestId !== requestIdRef.current) return;
 
       const isCovered =
-        normalized.answer.trim().toLowerCase() !== "not covered in this playlist" &&
+        normalized.answer.trim().toLowerCase() !== "Not covered in this playlist" &&
         !normalized.answer.trim().toLowerCase().startsWith("not covered:") &&
         normalized.excerpts.length > 0;
 
@@ -230,7 +264,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
           ? `SOURCES RETRIEVED · SYNTHESIS UNAVAILABLE · ${latencyMs}ms`
           : !isCovered
           ? `${normalized.excerpts.length ? "TOPIC PARTIAL/UNCOVERED" : "NO MATCHING PASSAGES"} · ${latencyMs}ms`
-          : `LIVE QDRANT · ${normalized.excerpts.length} SOURCES · ${latencyMs}ms`
+          : `FOUND ${normalized.excerpts.length} SOURCE PASSAGES · ${latencyMs}ms`
       );
 
       animateAnswerStream(normalized.answer);
@@ -259,7 +293,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
     setExpandedTranscripts({});
     setStepLabel(
       liveBackend
-        ? `QDRANT READY · ${Number(backendStatus?.vectors ?? 2933).toLocaleString()} VECTORS`
+        ? `SEARCH READY · ${Number(backendStatus?.vectors ?? 2933).toLocaleString()} PASSAGES`
         : "TRACE API UNAVAILABLE"
     );
   };
@@ -282,17 +316,13 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
   };
 
   const selectSource = (excerpt: TraceExcerpt, index: number) => {
+    returnFocusRef.current = document.activeElement instanceof HTMLElement ? document.activeElement : null;
     setSelectedSource(excerpt);
     setActiveCite(index + 1);
+    setTheaterOpen(true);
     window.requestAnimationFrame(() => {
       playerAreaRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
     });
-  };
-
-  const returnToSearch = () => {
-    const input = document.getElementById("trace-question-input") as HTMLTextAreaElement | null;
-    input?.scrollIntoView({ behavior: "smooth", block: "center" });
-    window.setTimeout(() => input?.focus({ preventScroll: true }), 350);
   };
 
   const syncReceiptWithPlayback = (seconds: number) => {
@@ -351,6 +381,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
   };
 
   return (
+    <>
     <section
       id="query"
       className="console-obsidian relative border-y border-white/10 py-20 lg:py-24 overflow-hidden"
@@ -368,17 +399,17 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
           <div>
             <div className="font-mono-tech text-lg uppercase tracking-[0.16em] text-[#34d399] flex items-center gap-2">
               <span className="h-2 w-2 rounded-full bg-[#1cb67c] shadow-[0_0_12px_#1cb67c] animate-pulse" />
-              03 // SEARCH THE VIDEO ARCHIVE
+              TIMESTAMP INDEX // SEARCH ALL 69 LECTURES
             </div>
             <h2 className="font-display text-[clamp(2.1rem,4.4vw,3.75rem)] font-bold tracking-[-0.04em] leading-[1.02] mt-3 text-[#f4f0e8]">
-              Ask a question.{" "}
-              <span className="font-serif-editorial italic font-normal text-[#ff9e44]">
-                Get the source.
+              Find the explanation.{" "}
+              <span className="font-normal text-[#ff9e44]">
+                Open its source.
               </span>
             </h2>
           </div>
           <p className="max-w-lg text-xl sm:text-xl leading-relaxed text-[#c4c0b7]">
-            Search indexed lesson passages. Ask a Java or DSA question, then inspect grounded answers and jump directly to relevant moments in the course videos.
+            Ask about a Java or DSA concept. Read an answer alongside matching transcript passages and jump to the original lesson.
           </p>
         </div>
 
@@ -392,10 +423,10 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
               </div>
               <div>
                 <div className="font-display text-xl font-bold tracking-wide text-white">
-                  TRACE / ARCHIVE WORKBENCH
+                  TRACE / LECTURE SEARCH
                 </div>
                 <div className="font-mono-tech text-lg text-[#b0ada5]">
-                  {backendStatus?.embed_model || "BAAI/bge-small-en-v1.5"} · {backendStatus?.vector_size || 384}d {backendStatus?.distance || "Cosine"} · Groq Synthesis
+                  Java &amp; DSA lessons · answers linked to transcript sources
                 </div>
               </div>
             </div>
@@ -424,9 +455,9 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                   ? "CONNECTING TO TRACE API..."
                   : liveBackend
                   ? backendStatus?.synthesis_available
-                    ? "LIVE QDRANT · GROQ SYNTHESIS ONLINE"
-                    : "LIVE QDRANT · RETRIEVAL ONLY"
-                  : "RAG API OFFLINE"}
+                    ? "SEARCH READY · ANSWERS WITH SOURCES"
+                    : "SEARCH READY · SOURCE PASSAGES"
+                  : "SEARCH SERVICE OFFLINE"}
               </div>
 
               {/* Refresh backend status button */}
@@ -447,7 +478,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div className="font-mono-tech text-base sm:text-lg text-[#aaa79f]">
                 {backendStatus
-                  ? `${backendStatus.collection || "dsa_lectures_384"} · ${Number(backendStatus.vectors ?? 2933).toLocaleString()} VECTORS · ${backendStatus.vector_size ?? 384}D ${backendStatus.distance ?? "Cosine"} · ${backendStatus.embed_model ?? "BAAI/bge-small-en-v1.5"}`
+                  ? `${backendStatus.collection || "lecture archive"} · ${Number(backendStatus.vectors ?? 2933).toLocaleString()} indexed passages`
                   : "Checking live backend health…"}
               </div>
 
@@ -469,7 +500,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                         : "text-[#8e8c84] hover:text-white"
                     }`}
                   >
-                    {m === "standard" ? "Standard (k=8)" : "Deep Search (RRF Expansion)"}
+                    {m === "standard" ? "Quick search" : "Broader search"}
                   </button>
                 ))}
               </div>
@@ -515,7 +546,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                   {loading ? (
                     <>
                       <Loader2 className="w-4 h-4 animate-spin" />
-                      {mode === "deep" ? "DEEP RETRIEVING..." : "SEARCHING..."}
+                      {mode === "deep" ? "SEARCHING MORE LESSONS..." : "SEARCHING..."}
                     </>
                   ) : (
                     <>
@@ -527,7 +558,8 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
               </div>
             </form>
 
-            {/* Dynamic Copyable CLI Strip */}
+            <details className="api-details">
+              <summary>Developer details · API request</summary>
             <div className="flex flex-wrap items-center justify-between gap-3 px-3.5 py-2.5 rounded-md border border-white/10 bg-black/40 font-mono-tech text-lg">
               <div className="flex items-center gap-2 text-[#34d399] min-w-0">
                 <Terminal className="w-3.5 h-3.5 text-[#ff4d0a] shrink-0" />
@@ -545,6 +577,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                 {copiedCli ? "Copied" : "Copy cURL"}
               </button>
             </div>
+            </details>
           </div>
 
           {/* Split Verified Answer + Excerpt Receipts */}
@@ -555,7 +588,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                 <span
                   className={result.covered && !result.synthesis_error ? "text-[#34d399]" : "text-[#ff9e44]"}
                 >
-                  ● {loading ? (mode === "deep" ? "EXPANDING QUERIES · MULTI-VECTOR RETRIEVAL ON QDRANT…" : "EMBEDDING QUERY · SEARCHING QDRANT…") : stepLabel}
+                  ● {loading ? (mode === "deep" ? "CHECKING RELATED COURSE PASSAGES…" : "SEARCHING COURSE TRANSCRIPTS…") : stepLabel}
                 </span>
                 <span className="px-2 py-0.5 rounded bg-white/5 border border-white/10 text-[#c4c0b7]">
                   {result.excerpts.length ? `TOP MATCH: ${result.top_score.toFixed(3)}` : "NO SCORE YET"}
@@ -566,7 +599,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
               <div className="rounded-md border border-white/10 bg-black/35 p-4 space-y-2">
                 <div className="font-mono-tech text-lg tracking-[0.1em] text-[#b0ada5]">
                   {result.query && result.mode === "deep"
-                    ? `RRF SUB-QUERY EXPANSION PLAN (${result.sub_queries.length})`
+                    ? `RELATED SEARCH PHRASES (${result.sub_queries.length})`
                     : result.query
                     ? "DIRECT SINGLE-VECTOR QUERY"
                     : "SUB-QUERY EXPANSION · WAITING FOR SEARCH"}
@@ -588,7 +621,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                   {result.synthesis_error ? (
                     <span className="text-[#ff9e44]">SYNTHESIS ERROR · SHOWING RETRIEVED EXCERPTS</span>
                   ) : result.covered ? (
-                    <span>GROUNDED SYNTHESIS // CLICK [N] TO INSPECT PROOF</span>
+                    <span>ANSWER WITH SOURCES // SELECT [N] TO WATCH</span>
                   ) : (
                     <span className="text-[#ff9e44] inline-flex items-center gap-1.5">
                       <ShieldAlert className="w-3.5 h-3.5" />
@@ -602,7 +635,7 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
 
                 {result.synthesis_error && (
                   <div className="mb-4 p-3 rounded bg-amber-500/10 border border-amber-500/30 text-amber-200 text-sm font-mono-tech">
-                    Note: Groq LLM synthesis encountered an issue ({result.synthesis_error}), but the vector passages below were successfully retrieved from Qdrant.
+                    The answer service had a problem ({result.synthesis_error}), but matching transcript passages were retrieved successfully.
                   </div>
                 )}
 
@@ -612,8 +645,8 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                       <Loader2 className="h-4 w-4 animate-spin" />
                       <span className="animate-pulse">
                         {mode === "deep"
-                          ? "Executing multi-query RRF search on Qdrant and synthesizing with Groq..."
-                          : "Embedding query with BGE-small, searching Qdrant, and synthesizing grounded answer..."}
+                          ? "Checking related phrases across the course transcripts and preparing a sourced answer..."
+                          : "Searching the course transcripts and preparing an answer with source passages..."}
                       </span>
                     </span>
                   ) : requestError ? (
@@ -653,56 +686,16 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
               style={rightPanelHeight === null ? undefined : { height: rightPanelHeight, maxHeight: rightPanelHeight }}
             >
               <div className="font-mono-tech text-lg tracking-[0.1em] text-[#b0ada5] flex items-center justify-between gap-3">
-                <span>RETRIEVED QDRANT EXCERPTS ({result.excerpts.length})</span>
-                <span>COLLECTION: {result.collection || backendStatus?.collection || "dsa_lectures_384"} · {result.vectors != null ? result.vectors.toLocaleString() : Number(backendStatus?.vectors ?? 2933).toLocaleString()} VECTORS</span>
+                <span>MATCHING LECTURE PASSAGES ({result.excerpts.length})</span>
+                <span>INDEX: {result.collection || backendStatus?.collection || "dsa_lectures_384"} · {result.vectors != null ? result.vectors.toLocaleString() : Number(backendStatus?.vectors ?? 2933).toLocaleString()} PASSAGES</span>
               </div>
 
               {selectedSource ? (
-                <div ref={playerAreaRef} className="space-y-2">
-                  <div className="flex flex-wrap items-center justify-between gap-3 rounded-md border border-[#ff9e44]/35 bg-[#ff9e44]/[0.08] px-4 py-3">
-                    <div className="min-w-0">
-                      <div className="font-mono-tech text-sm font-bold uppercase tracking-[0.12em] text-[#ffbd73]">
-                        Need to search again?
-                      </div>
-                      <p className="mt-1 text-base leading-relaxed text-[#e4dfd5]">
-                        Press <kbd className="rounded border border-white/25 bg-black/40 px-1.5 py-0.5 font-mono-tech text-sm text-white">Esc</kbd> to exit video fullscreen, or click below to return to the search console.
-                      </p>
-                    </div>
-                    <button
-                      type="button"
-                      onClick={returnToSearch}
-                      className="shrink-0 rounded border border-[#ff9e44]/50 bg-[#ff9e44]/15 px-3 py-2 font-mono-tech text-sm font-bold uppercase tracking-wide text-[#ffbd73] transition hover:bg-[#ff9e44] hover:text-[#090a0d] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ff9e44] cursor-pointer"
-                    >
-                      ↑ Back to search
-                    </button>
-                  </div>
-                  {/^[A-Za-z0-9_-]{11}$/.test(selectedSource.video_id) ? (
-                    <InlineLecturePlayer
-                      key={`${selectedSource.video_id}-${selectedSource.start_sec}-${selectedSource.chunk_index ?? 0}`}
-                      videoId={selectedSource.video_id}
-                      startSeconds={selectedSource.start_sec}
-                      title={selectedSource.video_title}
-                      timestamp={selectedSource.timestamp}
-                      url={selectedSource.url}
-                      onTimeUpdate={syncReceiptWithPlayback}
-                    />
-                  ) : (
-                    <div className="rounded-lg border border-amber-500/30 bg-amber-500/5 p-6 text-center">
-                      <ShieldAlert className="mx-auto mb-2 h-7 w-7 text-[#ff9e44]" />
-                      <p className="font-display font-semibold text-white">No playable video ID on this source</p>
-                      <p className="mt-1 font-mono-tech text-sm text-[#c4c0b7]">TRACE received no valid YouTube video ID for this retrieved passage.</p>
-                      {selectedSource.url && (
-                        <a
-                          href={selectedSource.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="mt-3 inline-flex items-center gap-1.5 text-sm text-[#ff9e44] hover:underline font-mono-tech"
-                        >
-                          Open link <ExternalLink className="w-3.5 h-3.5" />
-                        </a>
-                      )}
-                    </div>
-                  )}
+                <div ref={playerAreaRef} className="selected-source-panel">
+                  <span className="source-kicker">SOURCE SELECTED · {selectedSource.timestamp}</span>
+                  <strong>{selectedSource.video_title}</strong>
+                  <p>Open the lecture in the study workspace to watch this moment and browse its matching passages.</p>
+                  <button type="button" onClick={() => setTheaterOpen(true)}>Open study workspace <ExternalLink size={15} /></button>
                 </div>
               ) : (
                 <div ref={playerAreaRef} className="flex min-h-32 flex-col items-center justify-center rounded-lg border border-dashed border-white/15 bg-[#07080b] px-6 py-5 text-center">
@@ -715,8 +708,8 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
               {loading ? (
                 <div className="rounded-md border border-[#ff4d0a]/30 bg-[#ff4d0a]/[0.04] p-8 text-center space-y-3" role="status">
                   <Loader2 className="w-7 h-7 text-[#ff9e44] mx-auto animate-spin" />
-                  <p className="font-display text-xl font-bold text-white">Searching the Qdrant index</p>
-                  <p className="font-mono-tech text-lg text-[#aaa79f] animate-pulse">QUERY → 384D EMBEDDING → QDRANT COSINE SEARCH → TRANSCRIPT PASSAGES</p>
+                  <p className="font-display text-xl font-bold text-white">Searching the lecture archive</p>
+                  <p className="font-mono-tech text-lg text-[#aaa79f] animate-pulse">QUESTION → RELATED TRANSCRIPT PASSAGES → SOURCED ANSWER</p>
                 </div>
               ) : requestError ? (
                 <div className="rounded-md border border-red-500/30 bg-red-500/5 p-6 text-center space-y-2">
@@ -737,8 +730,8 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
                   </p>
                   <p className="text-xl text-[#c4c0b7]">
                     {result.query
-                      ? "The Qdrant index returned no matching passages above the score threshold for this query."
-                      : "Results, scores, video titles, and timestamps will appear here after a live Qdrant search."}
+                      ? "No transcript passages matched this question closely enough. Try a shorter phrase or a related concept."
+                      : "Matching lessons, source passages, and timestamps will appear here after you search."}
                   </p>
                 </div>
               ) : (
@@ -850,5 +843,49 @@ export const ArchiveConsole = forwardRef<ArchiveConsoleHandle>(function ArchiveC
         </div>
       </div>
     </section>
+    {selectedSource && (
+      <div className={`theater-backdrop ${theaterOpen ? "is-open" : ""}`} aria-hidden={!theaterOpen} inert={!theaterOpen} onMouseDown={(event) => { if (event.target === event.currentTarget) setTheaterOpen(false); }}>
+        <section ref={theaterDialogRef} tabIndex={-1} className={`theater-dialog ${wideTheater ? "theater-wide" : ""}`} role="dialog" aria-modal="true" aria-labelledby="theater-title">
+          <header className="theater-header">
+            <div className="theater-heading"><span>TRACE / STUDY WORKSPACE</span><h2 id="theater-title">{selectedSource.video_title}</h2><p>Selected moment · {selectedSource.timestamp}</p></div>
+            <div className="theater-actions">
+              <button type="button" className="theater-action theater-expand" onClick={() => setWideTheater((wide) => !wide)}>{wideTheater ? "Restore layout" : "Expand theater"}</button>
+              {selectedSource.url && <a className="theater-action" href={selectedSource.url} target="_blank" rel="noopener noreferrer">Open on YouTube <ExternalLink size={14} /></a>}
+              <button ref={theaterCloseRef} type="button" className="theater-close" onClick={() => setTheaterOpen(false)} aria-label="Close study workspace">× <span>ESC</span></button>
+            </div>
+          </header>
+          <div className="theater-content">
+            <div className="theater-main">
+              {/^[A-Za-z0-9_-]{11}$/.test(selectedSource.video_id) ? <InlineLecturePlayer
+                ref={theaterPlayerRef}
+                key={selectedSource.video_id}
+                videoId={selectedSource.video_id}
+                startSeconds={selectedSource.start_sec}
+                title={selectedSource.video_title}
+                timestamp={selectedSource.timestamp}
+                url={selectedSource.url}
+                onTimeUpdate={syncReceiptWithPlayback}
+              /> : <div className="theater-invalid"><ShieldAlert size={25} /><strong>This passage has no valid YouTube video ID.</strong><p>The transcript source is still available. Close this workspace to choose another passage.</p>{selectedSource.url && <a href={selectedSource.url} target="_blank" rel="noopener noreferrer">Open source link <ExternalLink size={14} /></a>}</div>}
+              <div className="theater-caption"><span>NOW PLAYING FROM</span><strong>{selectedSource.video_title}</strong></div>
+            </div>
+            <aside className="theater-transcript" aria-label="Matching transcript passages">
+              <div className="transcript-head"><span>PASSAGES IN THIS SEARCH</span><span>{result.excerpts.filter((item) => item.video_id === selectedSource.video_id).length} MOMENTS</span></div>
+              <div className="transcript-list">
+                {result.excerpts.filter((item) => item.video_id === selectedSource.video_id).map((excerpt, idx) => {
+                  const cite = result.excerpts.indexOf(excerpt) + 1;
+                  const active = activeCite === cite;
+                  return <article className={`transcript-passage ${active ? "is-active" : ""}`} key={`${excerpt.video_id}-${excerpt.start_sec}-${excerpt.chunk_index ?? idx}`}>
+                    <button type="button" className="transcript-time" onClick={() => { setActiveCite(cite); theaterPlayerRef.current?.seekTo(excerpt.start_sec); }} aria-label={`Seek to ${excerpt.timestamp}`}><Play size={12} fill="currentColor" /> {excerpt.timestamp}</button>
+                    <p>{excerpt.transcript_text || excerpt.snippet}</p>
+                  </article>;
+                })}
+              </div>
+              <p className="transcript-hint">Choose a timestamp to jump the video directly to that passage.</p>
+            </aside>
+          </div>
+        </section>
+      </div>
+    )}
+    </>
   );
 });

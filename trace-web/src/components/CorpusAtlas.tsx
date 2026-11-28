@@ -56,12 +56,12 @@ export function CorpusAtlas({ onQueryTopic }: CorpusAtlasProps) {
         <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between border-b border-[var(--hairline)] pb-6">
           <div>
             <div className="font-mono-tech text-lg uppercase tracking-[0.16em] text-[var(--ember)]">
-              04 // BROWSE THE LESSONS
+              LECTURE ATLAS // BROWSE THE COURSE
             </div>
             <h2 className="font-display text-[clamp(2rem,4vw,3.3rem)] font-bold tracking-[-0.04em] leading-[1.03] mt-3">
               Find a lesson by topic.{" "}
-              <span className="font-serif-editorial italic font-normal text-[var(--tungsten)]">
-                All 79.6 hours, in one place.
+              <span className="font-normal text-[var(--tungsten)]">
+                All 69 lectures, in one place.
               </span>
             </h2>
           </div>
@@ -87,8 +87,8 @@ export function CorpusAtlas({ onQueryTopic }: CorpusAtlasProps) {
           <div className="lg:col-span-4 grid grid-cols-3 rounded-sm border border-[var(--hairline)] bg-[var(--bg-card)] p-1 gap-1">
             {[
               { id: "all" as const, label: "All (69)" },
-              { id: "whisper" as const, label: "Whisper (25)" },
-              { id: "youtube" as const, label: "YT Captions (44)" },
+              { id: "whisper" as const, label: "Transcript (25)" },
+              { id: "youtube" as const, label: "Captions (44)" },
             ].map((src) => (
               <button
                 key={src.id}
@@ -116,7 +116,7 @@ export function CorpusAtlas({ onQueryTopic }: CorpusAtlasProps) {
               }`}
             >
               <Flame className="w-3.5 h-3.5" />
-              Marathons &gt;90m (19)
+              Long lessons over 90 min (19)
             </button>
           </div>
         </div>
@@ -207,7 +207,7 @@ export function CorpusAtlas({ onQueryTopic }: CorpusAtlasProps) {
                       className="font-mono-tech text-lg px-3 py-1.5 rounded-sm bg-[var(--ember)]/15 text-[var(--ember)] border border-[var(--ember)]/40 hover:bg-[var(--ember)] hover:text-[#090a0d] font-semibold transition inline-flex items-center gap-1 cursor-pointer"
                     >
                       <Zap className="w-3 h-3" />
-                      Query RAG
+                      Ask about lesson
                     </button>
                   </div>
                 </div>

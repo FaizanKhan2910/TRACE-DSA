@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { forwardRef, useEffect, useImperativeHandle, useRef, useState } from "react";
 import { AlertTriangle, ExternalLink, Loader2, Pause, Play } from "lucide-react";
 
 type YouTubePlayer = {
@@ -8,6 +8,7 @@ type YouTubePlayer = {
   getCurrentTime: () => number;
   loadVideoById: (options: { videoId: string; startSeconds: number }) => void;
   playVideo: () => void;
+  seekTo: (seconds: number, allowSeekAhead: boolean) => void;
 };
 
 type YouTubeEvent = { target: YouTubePlayer; data: number };
@@ -77,6 +78,11 @@ function playerErrorMessage(code: number): string {
   return "This lecture could not be played inline.";
 }
 
+export interface InlineLecturePlayerHandle {
+  seekTo: (seconds: number) => void;
+  seekBy: (seconds: number) => void;
+}
+
 interface InlineLecturePlayerProps {
   videoId: string;
   startSeconds: number;
@@ -86,14 +92,14 @@ interface InlineLecturePlayerProps {
   onTimeUpdate: (seconds: number) => void;
 }
 
-export function InlineLecturePlayer({
+export const InlineLecturePlayer = forwardRef<InlineLecturePlayerHandle, InlineLecturePlayerProps>(function InlineLecturePlayer({
   videoId,
   startSeconds,
   title,
   timestamp,
   url,
   onTimeUpdate,
-}: InlineLecturePlayerProps) {
+}, ref) {
   const mountRef = useRef<HTMLDivElement>(null);
   const playerRef = useRef<YouTubePlayer | null>(null);
   const timeUpdateRef = useRef(onTimeUpdate);
@@ -101,6 +107,11 @@ export function InlineLecturePlayer({
   const timestampRef = useRef(timestamp);
   const [status, setStatus] = useState<"loading" | "playing" | "paused" | "error">("loading");
   const [error, setError] = useState<string | null>(null);
+
+  useImperativeHandle(ref, () => ({
+    seekTo: (seconds) => playerRef.current?.seekTo(Math.max(0, seconds), true),
+    seekBy: (seconds) => playerRef.current?.seekTo(Math.max(0, playerRef.current.getCurrentTime() + seconds), true),
+  }), []);
 
   const hasGenuineTimestamp = timestamp && timestamp !== "Timestamp unavailable";
   const startSecClamped = hasGenuineTimestamp ? Math.max(0, Math.floor(startSeconds)) : 0;
@@ -250,10 +261,17 @@ export function InlineLecturePlayer({
           </div>
         )}
       </div>
+      <div className="flex items-center justify-between gap-3 border-t border-white/10 bg-black/30 px-4 py-3">
+        <span className="font-mono-tech text-xs text-white/55">PLAYBACK CONTROLS</span>
+        <div className="flex items-center gap-2">
+          <button type="button" onClick={() => playerRef.current?.seekTo(Math.max(0, playerRef.current.getCurrentTime() - 15), true)} className="player-control">−15s</button>
+          <button type="button" onClick={() => playerRef.current?.seekTo(playerRef.current.getCurrentTime() + 15, true)} className="player-control">+15s</button>
+        </div>
+      </div>
       <div className="flex flex-wrap items-center justify-between gap-2 border-t border-white/10 bg-black/30 px-4 py-2 font-mono-tech text-xs text-[#aaa79f]">
         <span>VIDEO ID · {videoId || "N/A"}</span>
         <span>{hasGenuineTimestamp ? `CHUNK START · ${startSecClamped}s` : "TIMESTAMP · UNAVAILABLE"}</span>
       </div>
     </div>
   );
-}
+});
